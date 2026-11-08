@@ -1,0 +1,86 @@
+{
+  "description": "Indicators pulled by scripts/fetch_indicators.py from the World Bank and WHO Global Health Observatory APIs. Values come straight from the API; no model ever writes a number. The script records the original source organization for each.",
+  "world_bank": [
+    {
+      "id": "SP.POP.TOTL",
+      "label": "Population",
+      "unit": "people",
+      "group": "context"
+    },
+    {
+      "id": "NY.GDP.PCAP.PP.CD",
+      "label": "GDP per capita (PPP)",
+      "unit": "current international $",
+      "group": "context"
+    },
+    {
+      "id": "SH.XPD.CHEX.GD.ZS",
+      "label": "Health spending, % of GDP",
+      "unit": "%",
+      "group": "costs"
+    },
+    {
+      "id": "SH.XPD.CHEX.PP.CD",
+      "label": "Health spending per person (PPP)",
+      "unit": "current international $",
+      "group": "costs"
+    },
+    {
+      "id": "SH.XPD.GHED.CH.ZS",
+      "label": "Government share of health spending",
+      "unit": "% of current health expenditure",
+      "group": "costs"
+    },
+    {
+      "id": "SH.XPD.OOPC.CH.ZS",
+      "label": "Out-of-pocket share of health spending",
+      "unit": "% of current health expenditure",
+      "group": "costs"
+    },
+    {
+      "id": "SP.DYN.LE00.IN",
+      "label": "Life expectancy at birth",
+      "unit": "years",
+      "group": "outcomes"
+    },
+    {
+      "id": "SP.DYN.IMRT.IN",
+      "label": "Infant mortality",
+      "unit": "per 1,000 live births",
+      "group": "outcomes"
+    },
+    {
+      "id": "SH.STA.MMRT",
+      "label": "Maternal mortality",
+      "unit": "per 100,000 live births",
+      "group": "outcomes"
+    },
+    {
+      "id": "SH.MED.PHYS.ZS",
+      "label": "Physicians",
+      "unit": "per 1,000 people",
+      "group": "access"
+    },
+    {
+      "id": "SH.MED.BEDS.ZS",
+      "label": "Hospital beds",
+      "unit": "per 1,000 people",
+      "group": "access"
+    }
+  ],
+  "lookback_years": 12,
+  "who_gho": [
+    {
+      "id": "UHC_INDEX_REPORTED",
+      "label": "UHC service coverage index",
+      "unit": "index 0-100",
+      "group": "coverage"
+    },
+    {
+      "id": "FINPROTECTION_CATA_TOT_10_POP",
+      "label": "Households spending over 10% of budget on health",
+      "unit": "% of population",
+      "group": "coverage"
+    }
+  ]
+}

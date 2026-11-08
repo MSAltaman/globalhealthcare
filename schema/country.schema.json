@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MSAltaman/globalheathcare/schema/country.schema.json",
+  "title": "Country health system profile",
+  "description": "One country's universal health system. Every statement is a claim tied to a source and a locator; nothing is published without one.",
+  "type": "object",
+  "required": ["iso3", "name", "system_as_of", "status", "model", "sections", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "iso3": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "name": { "type": "string" },
+    "wave": { "type": "integer", "minimum": 0 },
+    "is_baseline": {
+      "type": "boolean",
+      "description": "True for the US comparison baseline, which does not meet the universal-coverage definition."
+    },
+    "system_as_of": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the description of the system was last checked against current sources."
+    },
+    "status": {
+      "enum": ["draft", "verified", "needs_review"],
+      "description": "draft: researched, not all claims verified. verified: every claim passed both checks. needs_review: a source changed or a check failed."
+    },
+    "model": {
+      "type": "object",
+      "required": ["type", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "national_health_service",
+            "single_payer_insurance",
+            "social_health_insurance",
+            "regulated_private_insurance",
+            "mixed"
+          ]
+        },
+        "label": { "type": "string", "description": "Plain-language name of the model, e.g. 'Statutory social health insurance (sickness funds)'." }
+      }
+    },
+    "universal_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "legal_basis_claim_ids": { "type": "array", "items": { "$ref": "#/$defs/claimId" } },
+        "meets_definition": {
+          "type": "boolean",
+          "description": "Legislated entitlement to coverage for all residents."
+        }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overview", "financing", "covered", "cost_sharing", "additional_care",
+        "access", "outcomes", "costs", "what_works", "problems", "reforms", "us_lessons"
+      ],
+      "properties": {
+        "overview": { "$ref": "#/$defs/claimList" },
+        "financing": { "$ref": "#/$defs/claimList", "description": "How the system is paid for: taxes, payroll contributions, premiums." },
+        "covered": { "$ref": "#/$defs/claimList", "description": "What the public system provides." },
+        "cost_sharing": { "$ref": "#/$defs/claimList", "description": "Co-pays, deductibles, caps, exemptions; what is subsidized." },
+        "additional_care": { "$ref": "#/$defs/claimList", "description": "Supplementary or private options for extra or advanced care." },
+        "access": { "$ref": "#/$defs/claimList", "description": "Wait times, workforce, geographic access." },
+        "outcomes": { "$ref": "#/$defs/claimList" },
+        "costs": { "$ref": "#/$defs/claimList", "description": "Spending levels, trends, and documented savings or overruns." },
+        "what_works": { "$ref": "#/$defs/claimList" },
+        "problems": { "$ref": "#/$defs/claimList" },
+        "reforms": { "$ref": "#/$defs/claimList", "description": "Dated reforms, most recent first." },
+        "us_lessons": { "$ref": "#/$defs/claimList", "description": "Only findings from studies that address the US or transferability directly." }
+      }
+    },
+    "indicators_file": {
+      "type": "string",
+      "description": "Path to the machine-pulled indicator file for this country."
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "rankings": {
+      "type": "array",
+      "description": "Positions in published comparative studies, reported as findings, never as fact.",
+      "items": {
+        "type": "object",
+        "required": ["study", "year", "position", "of", "source_id"],
+        "additionalProperties": false,
+        "properties": {
+          "study": { "type": "string" },
+          "year": { "type": "integer" },
+          "domain": { "type": "string" },
+          "position": { "type": "integer" },
+          "of": { "type": "integer" },
+          "source_id": { "type": "string" }
+        }
+      }
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "note"],
+        "properties": { "date": { "type": "string", "format": "date" }, "note": { "type": "string" } }
+      }
+    }
+  },
+  "$defs": {
+    "claimId": { "type": "string", "pattern": "^[A-Z]{3}-[a-z_]+-[0-9]{3}$" },
+    "claimList": { "type": "array", "items": { "$ref": "#/$defs/claim" } },
+    "claim": {
+      "type": "object",
+      "required": ["id", "statement", "source_id", "locator", "verification"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/claimId" },
+        "statement": {
+          "type": "string",
+          "description": "The claim in our own words. Never copied text from the source."
+        },
+        "valence": {
+          "enum": ["strength", "weakness", "neutral"],
+          "default": "neutral"
+        },
+        "data_year": {
+          "type": ["integer", "string"],
+          "description": "Year (or range) the underlying data refers to, when different from the publication year."
+        },
+        "source_id": { "type": "string" },
+        "locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Where in the source the support is. At least one human-readable pointer is required.",
+          "anyOf": [
+            { "required": ["page"] },
+            { "required": ["section"] },
+            { "required": ["table"] },
+            { "required": ["figure"] }
+          ],
+          "properties": {
+            "page": { "type": ["integer", "string"] },
+            "section": { "type": "string" },
+            "table": { "type": "string" },
+            "figure": { "type": "string" },
+            "char_start": { "type": "integer", "minimum": 0, "description": "Offset into the normalized source text (see scripts/sourcetext.py)." },
+            "char_end": { "type": "integer", "minimum": 0 },
+            "passage_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$", "description": "Fingerprint of the supporting passage. The passage itself is never stored." }
+          }
+        },
+        "verification": {
+          "type": "object",
+          "required": ["passage_found", "supports"],
+          "additionalProperties": false,
+          "properties": {
+            "passage_found": {
+              "enum": ["pending", "pass", "fail"],
+              "description": "Code check: the fingerprinted passage exists unchanged in the current source."
+            },
+            "supports": {
+              "enum": ["pending", "pass", "fail"],
+              "description": "Model check: the passage actually supports the statement as written."
+            },
+            "checked_on": { "type": "string", "format": "date" },
+            "checked_by": { "type": "string" },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "publisher", "tier", "year", "url", "accessed"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+        "title": { "type": "string" },
+        "publisher": { "type": "string" },
+        "authors": { "type": "string" },
+        "tier": {
+          "enum": [1, 2, 3, 4],
+          "description": "1 intergovernmental/official statistics, 2 peer-reviewed, 3 government or established independent research org, 4 other (use sparingly, never sole support)."
+        },
+        "type": {
+          "enum": ["statistics", "system_review", "peer_reviewed", "government", "independent_research", "ranking", "news", "other"]
+        },
+        "year": { "type": "integer" },
+        "url": { "type": "string", "format": "uri" },
+        "doi": { "type": "string" },
+        "license": { "type": "string" },
+        "funding_note": { "type": "string", "description": "Who funded or published it, when relevant to bias." },
+        "accessed": { "type": "string", "format": "date" },
+        "content_sha256": { "type": "string", "description": "Fingerprint of the normalized source text when last verified." }
+      }
+    }
+  }
+}

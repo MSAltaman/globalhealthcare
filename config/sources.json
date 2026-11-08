@@ -1,0 +1,39 @@
+{
+  "description": "Where the agent looks first, by tier. Tier 1-2 sources can support a claim alone. Tier 3 can support descriptive claims and must be labeled. Tier 4 never supports a claim alone.",
+  "tiers": {
+    "1": {
+      "label": "Intergovernmental and official statistics",
+      "examples": [
+        { "name": "World Bank World Development Indicators", "url": "https://data.worldbank.org", "api": "https://api.worldbank.org/v2" },
+        { "name": "WHO Global Health Observatory", "url": "https://www.who.int/data/gho", "api": "https://ghoapi.azureedge.net/api" },
+        { "name": "WHO Global Health Expenditure Database", "url": "https://apps.who.int/nha/database" },
+        { "name": "OECD Health Statistics / Health at a Glance", "url": "https://www.oecd.org/en/topics/health.html", "api": "https://sdmx.oecd.org/public/rest", "license": "CC BY 4.0 (Health at a Glance 2025)" },
+        { "name": "European Observatory on Health Systems and Policies: Health Systems in Transition reviews", "url": "https://eurohealthobservatory.who.int" },
+        { "name": "WHO/World Bank UHC Global Monitoring Report", "url": "https://www.who.int/data/monitoring/universal-health-coverage" }
+      ]
+    },
+    "2": {
+      "label": "Peer-reviewed research",
+      "search_apis": [
+        { "name": "OpenAlex", "api": "https://api.openalex.org" },
+        { "name": "PubMed (NCBI E-utilities)", "api": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils" },
+        { "name": "Europe PMC", "api": "https://www.ebi.ac.uk/europepmc/webservices/rest" },
+        { "name": "Crossref", "api": "https://api.crossref.org" }
+      ],
+      "notes": "Prefer systematic reviews and studies published in the last 5 years. Record study design and data years. A study about a system that has since been reformed must say so."
+    },
+    "3": {
+      "label": "Government and established independent research",
+      "examples": [
+        "National ministries of health and statutory insurers",
+        "Commonwealth Fund (International Health Care System Profiles; Mirror, Mirror)",
+        "KFF, Health Foundation, Nuffield Trust, King's Fund, RAND"
+      ],
+      "notes": "Record funder or institutional stance in funding_note when relevant (e.g. advocacy organizations)."
+    },
+    "4": {
+      "label": "Other (news, reputable explainers)",
+      "notes": "Only for very recent events not yet covered elsewhere, and only alongside a higher-tier source."
+    }
+  }
+}

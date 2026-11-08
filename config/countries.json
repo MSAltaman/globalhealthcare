@@ -1,0 +1,38 @@
+{
+  "definition": "In scope: countries whose law entitles all residents to health coverage, whatever the financing model. Each profile also reports effective coverage (UHC service coverage index, out-of-pocket share, catastrophic spending) so the gap between promise and delivery is visible.",
+  "baseline": { "iso3": "USA", "name": "United States", "note": "Comparison baseline; does not meet the definition." },
+  "waves": [
+    {
+      "wave": 0,
+      "label": "Pilot",
+      "countries": [
+        { "iso3": "DEU", "name": "Germany", "why": "Social health insurance, oldest Bismarck system" },
+        { "iso3": "JPN", "name": "Japan", "why": "Mixed social insurance, long life expectancy, ageing population" },
+        { "iso3": "MEX", "name": "Mexico", "why": "System in the middle of repeated reforms" }
+      ]
+    },
+    {
+      "wave": 1,
+      "label": "Large and widely studied systems",
+      "countries": [
+        { "iso3": "CHN", "name": "China" },
+        { "iso3": "BRA", "name": "Brazil" },
+        { "iso3": "CAN", "name": "Canada" },
+        { "iso3": "FRA", "name": "France" },
+        { "iso3": "GBR", "name": "United Kingdom" },
+        { "iso3": "ITA", "name": "Italy" },
+        { "iso3": "ESP", "name": "Spain" },
+        { "iso3": "KOR", "name": "South Korea" },
+        { "iso3": "AUS", "name": "Australia" },
+        { "iso3": "NLD", "name": "Netherlands" },
+        { "iso3": "THA", "name": "Thailand" },
+        { "iso3": "TWN", "name": "Taiwan", "note": "Not covered by World Bank or WHO statistics; indicators come from Taiwan's own official sources." }
+      ]
+    },
+    {
+      "wave": 2,
+      "label": "Remaining in-scope countries, by population",
+      "countries": []
+    }
+  ]
+}

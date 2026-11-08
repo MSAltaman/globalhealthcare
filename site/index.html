@@ -1,0 +1,310 @@
+<title>Global Healthcare Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Country-by-country comparison of universal health systems, every statement sourced and checked.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: reference-work column; country header, indicator ledger vs US, then sourced claim lists */
+:root {
+  --bg: #f5f7f8;
+  --surface: #ffffff;
+  --ink: #15202b;
+  --muted: #566573;
+  --rule: #d9e0e5;
+  --accent: #2b4c9b;
+  --good: #2f7350;
+  --bad: #a6402d;
+  --pending: #8a6d1a;
+  --chip: #e9eef2;
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f151b; --surface: #16202a; --ink: #e6ecf1; --muted: #9aa8b4; --rule: #2a3742;
+    --accent: #8fb0f2; --good: #6fc398; --bad: #ee8e78; --pending: #e0c069; --chip: #1f2b36;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f151b; --surface: #16202a; --ink: #e6ecf1; --muted: #9aa8b4; --rule: #2a3742;
+  --accent: #8fb0f2; --good: #6fc398; --bad: #ee8e78; --pending: #e0c069; --chip: #1f2b36;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font: 400 1rem/1.55 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 60rem; margin: 0 auto; padding-block: 2rem 4rem; display: grid; gap: 2.25rem; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.15; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.label { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+
+/* masthead */
+.masthead { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: end; justify-content: space-between; border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; }
+.masthead h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); }
+.masthead p { margin: .35rem 0 0; color: var(--muted); max-width: 38rem; }
+nav.countries { display: flex; flex-wrap: wrap; gap: .4rem; }
+nav.countries a {
+  font: 500 .85rem var(--mono); text-decoration: none; color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 4px; padding: .3rem .6rem; background: var(--surface);
+}
+nav.countries a[aria-current="page"] { border-color: var(--accent); color: var(--accent); }
+nav.countries a .n { font-family: var(--body); font-weight: 600; margin-left: .35rem; }
+
+/* country header */
+.country-head { display: grid; gap: .75rem; }
+.country-head h2 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 500; }
+.model { font-size: 1.1rem; color: var(--muted); max-width: 42rem; }
+.facts { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; align-items: center; font-size: .9rem; color: var(--muted); }
+.pill { display: inline-flex; align-items: center; gap: .35rem; font: 600 .78rem var(--body); padding: .15rem .55rem; border-radius: 999px; border: 1px solid currentColor; }
+.pill.draft { color: var(--pending); }
+.pill.verified { color: var(--good); }
+.pill.needs_review { color: var(--bad); }
+.notice { background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--pending); padding: .75rem 1rem; font-size: .92rem; max-width: 46rem; }
+
+/* indicators */
+.ledger { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); }
+.ledger table { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 34rem; }
+.ledger th, .ledger td { padding: .55rem .8rem; border-bottom: 1px solid var(--rule); text-align: right; vertical-align: top; }
+.ledger th:first-child, .ledger td:first-child { text-align: left; }
+.ledger thead th { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.ledger tbody tr.group td { background: var(--chip); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; text-align: left; padding-block: .35rem; }
+.ledger td .yr { display: block; font-size: .72rem; color: var(--muted); }
+.ledger .unit { display: block; font-size: .78rem; color: var(--muted); }
+.caption { font-size: .82rem; color: var(--muted); margin-top: .5rem; }
+
+/* rankings */
+.rankings { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: .5rem; }
+.rank { border: 1px solid var(--rule); background: var(--surface); padding: .6rem .75rem; display: grid; gap: .1rem; }
+.rank .pos { font: 500 1.3rem var(--mono); }
+.rank .pos small { font-size: .8rem; color: var(--muted); }
+
+/* sections */
+.toc { display: flex; flex-wrap: wrap; gap: .35rem .9rem; font-size: .9rem; }
+.toc a { text-decoration: none; }
+section.claims { display: grid; gap: .75rem; scroll-margin-top: 1rem; }
+section.claims h3 { font-size: 1.45rem; display: flex; align-items: baseline; gap: .6rem; }
+section.claims h3 .count { font: 400 .8rem var(--mono); color: var(--muted); }
+ol.claim-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .1rem; border-top: 1px solid var(--rule); }
+.claim { display: grid; grid-template-columns: 1.4rem minmax(0, 1fr); gap: .25rem .5rem; padding: .7rem 0; border-bottom: 1px solid var(--rule); }
+.mark { font: 600 1rem var(--mono); line-height: 1.55; color: var(--muted); text-align: center; }
+.claim.strength .mark { color: var(--good); }
+.claim.weakness .mark { color: var(--bad); }
+.claim p { margin: 0; max-width: 44rem; }
+.meta { grid-column: 2; display: flex; flex-wrap: wrap; gap: .2rem .9rem; font-size: .8rem; color: var(--muted); }
+.meta .check { color: var(--pending); }
+.meta .check.pass { color: var(--good); }
+.meta .check.fail { color: var(--bad); }
+.empty { color: var(--muted); font-style: italic; }
+
+/* sources */
+ol.sources { margin: 0; padding-left: 1.4rem; display: grid; gap: .6rem; font-size: .92rem; }
+ol.sources li { padding-left: .25rem; }
+.tier { font: 500 .72rem var(--mono); border: 1px solid var(--rule); border-radius: 3px; padding: 0 .3rem; margin-right: .35rem; color: var(--muted); }
+.src-note { display: block; color: var(--muted); font-size: .84rem; }
+footer { border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--muted); font-size: .85rem; display: grid; gap: .4rem; }
+.legend { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
+.legend span b { font-family: var(--mono); }
+@media (max-width: 480px) { .claim { grid-template-columns: 1.1rem minmax(0, 1fr); } }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div>
+      <h1>Global Healthcare Atlas</h1>
+      <p>How countries that guarantee health coverage to everyone actually do it: what they provide, what it costs, what works, what doesn't. Every statement links to its source.</p>
+    </div>
+    <nav class="countries" id="country-nav" aria-label="Countries"></nav>
+  </header>
+  <main id="view" aria-live="polite"><p class="empty">Loading country data…</p></main>
+  <footer>
+    <div class="legend">
+      <span><b style="color:var(--good)">+</b> strength</span>
+      <span><b style="color:var(--bad)">−</b> weakness</span>
+      <span><b>·</b> descriptive</span>
+    </div>
+    <div>Each claim passes two checks before it counts as verified: code confirms the cited passage still exists unchanged in the source, and a separate review confirms the passage supports the statement as written. Statistics come straight from the World Bank and WHO APIs.</div>
+  </footer>
+</div>
+
+<script>
+const SECTIONS = [
+  ["overview", "Overview"], ["financing", "How it's paid for"], ["covered", "What's covered"],
+  ["cost_sharing", "What patients pay"], ["additional_care", "Additional and private care"],
+  ["access", "Access"], ["outcomes", "Outcomes"], ["costs", "Costs"],
+  ["what_works", "What works"], ["problems", "What doesn't"], ["reforms", "Recent reforms"],
+  ["us_lessons", "Evidence for the US"]
+];
+const GROUPS = { context: "Context", costs: "Spending", coverage: "Coverage and financial protection", outcomes: "Outcomes", access: "Capacity" };
+const BASELINE = "USA";
+const cache = {};
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+async function getJSON(path) {
+  if (!(path in cache)) {
+    cache[path] = fetch(path).then(r => { if (!r.ok) throw new Error(path + " " + r.status); return r.json(); });
+  }
+  return cache[path];
+}
+
+function fmt(v, unit) {
+  if (v === null || v === undefined) return "—";
+  if (unit === "people") return v >= 1e6 ? (v / 1e6).toFixed(1) + "M" : v.toLocaleString("en-US");
+  if (unit.includes("international $")) return "$" + Math.round(v).toLocaleString("en-US");
+  if (unit.startsWith("%") || unit === "%") return v.toFixed(1) + "%";
+  return (Math.abs(v) >= 100 ? Math.round(v) : v.toFixed(1)).toLocaleString("en-US");
+}
+
+function unitLabel(unit) {
+  if (unit === "people" || unit === "%") return "";
+  if (unit.includes("international $")) return "PPP, current intl $";
+  return unit;
+}
+
+function ledger(country, base, iso3) {
+  if (!country) return '<p class="empty">Statistics not yet pulled for this country.</p>';
+  const baseById = Object.fromEntries((base?.indicators || []).map(i => [i.id, i]));
+  let rows = "", group = "";
+  for (const i of country.indicators) {
+    if (i.group !== group) { group = i.group; rows += `<tr class="group"><td colspan="3">${esc(GROUPS[group] || group)}</td></tr>`; }
+    const b = baseById[i.id];
+    const u = unitLabel(i.unit);
+    rows += `<tr>
+      <td>${esc(i.label)}${u ? `<span class="unit">${esc(u)}</span>` : ""}</td>
+      <td class="mono">${fmt(i.value, i.unit)}<span class="yr">${i.year ?? ""}</span></td>
+      <td class="mono">${b ? fmt(b.value, b.unit) : "—"}<span class="yr">${b?.year ?? ""}</span></td>
+    </tr>`;
+  }
+  return `<div class="ledger"><table>
+    <thead><tr><th>Indicator</th><th>${esc(iso3)}</th><th>US baseline</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>
+    <p class="caption">Latest available year shown under each value. Source: ${esc(country.provider)}, retrieved ${esc(country.retrieved)}. Some series update rarely; check the year before comparing.</p>`;
+}
+
+function checkLabel(v) {
+  const a = v.passage_found, b = v.supports;
+  if (a === "fail" || b === "fail") return ["fail", "check failed"];
+  if (a === "pass" && b === "pass") return ["pass", "verified"];
+  return ["", "awaiting verification"];
+}
+
+function claimItem(c, sources) {
+  const s = sources[c.source_id] || {};
+  const loc = c.locator || {};
+  const where = [loc.page != null ? `p. ${loc.page}` : "", loc.section || "", loc.table || "", loc.figure || ""].filter(Boolean).join(", ");
+  const mark = c.valence === "strength" ? "+" : c.valence === "weakness" ? "−" : "·";
+  const [cls, label] = checkLabel(c.verification);
+  return `<li class="claim ${esc(c.valence || "neutral")}" id="${esc(c.id)}">
+    <span class="mark" aria-label="${esc(c.valence || "neutral")}">${mark}</span>
+    <p>${esc(c.statement)}</p>
+    <div class="meta">
+      <span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(shortSource(s))}</a>${where ? ", " + esc(where) : ""}</span>
+      ${c.data_year ? `<span>data ${esc(c.data_year)}</span>` : ""}
+      <span class="check ${cls}">${label}</span>
+      <span class="mono">${esc(c.id)}</span>
+    </div>
+  </li>`;
+}
+
+function shortSource(s) {
+  if (!s.title) return "source";
+  const pub = s.publisher || "";
+  const authors = s.authors ? s.authors.split(",")[0].trim().split(" ")[0] : "";
+  if (s.type === "peer_reviewed" && authors) return `${authors} et al., ${pub} ${s.year}`;
+  return `${pub.split(" and ")[0]} (${s.year})`;
+}
+
+function rankings(list) {
+  if (!list?.length) return "";
+  const study = list[0].study;
+  return `<div class="label">Positions in published rankings</div>
+    <div class="rankings">${list.map(r => `<div class="rank">
+      <span class="label">${esc(r.domain || "Overall")}</span>
+      <span class="pos">${r.position}<small> of ${r.of}</small></span>
+    </div>`).join("")}</div>
+    <p class="caption">${esc(study)}, ${list[0].year}. A ranking reflects the study's own measures and country set, not an objective order.</p>`;
+}
+
+async function renderCountry(iso3, index) {
+  const view = document.getElementById("view");
+  const row = index.find(r => r.iso3 === iso3);
+  if (!row) { view.innerHTML = `<p class="empty">No profile for ${esc(iso3)} yet.</p>`; return; }
+  const [p, ind, base] = await Promise.all([
+    getJSON(`data/countries/${iso3}.json`),
+    getJSON(`data/indicators/${iso3}.json`).catch(() => null),
+    getJSON(`data/indicators/${BASELINE}.json`).catch(() => null)
+  ]);
+  const sources = Object.fromEntries(p.sources.map(s => [s.id, s]));
+  const total = SECTIONS.reduce((n, [k]) => n + (p.sections[k]?.length || 0), 0);
+  const statusText = { draft: "Draft", verified: "Verified", needs_review: "Needs review" }[p.status] || p.status;
+
+  let html = `<article style="display:grid;gap:2.25rem">
+    <div class="country-head">
+      <span class="label mono">${esc(p.iso3)}${p.wave === 0 ? " · pilot" : ""}</span>
+      <h2>${esc(p.name)}</h2>
+      <div class="model">${esc(p.model.label)}</div>
+      <div class="facts">
+        <span class="pill ${esc(p.status)}">${esc(statusText)}</span>
+        <span>System described as of <span class="mono">${esc(p.system_as_of)}</span></span>
+        <span><span class="mono">${total}</span> claims from <span class="mono">${p.sources.length}</span> sources</span>
+      </div>
+      ${p.status !== "verified" ? `<div class="notice">This profile is a draft. Its claims are written from the cited sources but have not yet passed the automated passage check and the independent support review. Treat it as a preview.</div>` : ""}
+    </div>
+    <section style="display:grid;gap:.75rem"><h3 style="font-size:1.45rem">Key figures</h3>${ledger(ind, base, p.iso3)}</section>
+    ${p.rankings?.length ? `<section style="display:grid;gap:.6rem">${rankings(p.rankings)}</section>` : ""}
+    <nav class="toc" aria-label="Sections">${SECTIONS.filter(([k]) => p.sections[k]?.length).map(([k, t]) => `<a href="#${p.iso3.toLowerCase()}" data-jump="${k}">${t}</a>`).join("")}</nav>`;
+
+  for (const [key, title] of SECTIONS) {
+    const claims = p.sections[key] || [];
+    html += `<section class="claims" id="sec-${key}">
+      <h3>${title}<span class="count">${claims.length}</span></h3>
+      ${claims.length ? `<ol class="claim-list">${claims.map(c => claimItem(c, sources)).join("")}</ol>` : `<p class="empty">No claims yet.</p>`}
+    </section>`;
+  }
+
+  html += `<section style="display:grid;gap:.75rem"><h3 style="font-size:1.45rem">Sources</h3>
+    <ol class="sources">${p.sources.map(s => `<li id="src-${esc(s.id)}">
+      <span class="tier" title="Source tier">T${s.tier}</span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>.
+      ${esc(s.authors ? s.authors + ". " : "")}${esc(s.publisher)}, ${s.year}.
+      ${s.funding_note ? `<span class="src-note">${esc(s.funding_note)}</span>` : ""}
+    </li>`).join("")}</ol>
+    <p class="caption">Tiers: T1 intergovernmental and official statistics, T2 peer-reviewed, T3 government or established research organizations.</p>
+  </section></article>`;
+
+  view.innerHTML = html;
+  view.querySelectorAll("[data-jump]").forEach(a => a.addEventListener("click", e => {
+    e.preventDefault();
+    document.getElementById("sec-" + a.dataset.jump)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  }));
+  document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === iso3 ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+}
+
+async function start() {
+  try {
+    const index = await getJSON("data/index.json");
+    const nav = document.getElementById("country-nav");
+    nav.innerHTML = index.filter(r => !r.is_baseline).map(r =>
+      `<a href="#${r.iso3.toLowerCase()}" data-iso3="${r.iso3}">${r.iso3}<span class="n">${esc(r.name)}</span></a>`).join("");
+    const route = () => {
+      const h = location.hash.replace("#", "").toUpperCase();
+      const iso3 = index.some(r => r.iso3 === h) ? h : index.find(r => !r.is_baseline)?.iso3;
+      if (iso3) renderCountry(iso3, index).catch(err => {
+        document.getElementById("view").innerHTML = `<p class="empty">Could not load ${esc(iso3)}: ${esc(err.message)}</p>`;
+      });
+    };
+    addEventListener("hashchange", route);
+    route();
+  } catch (err) {
+    document.getElementById("view").innerHTML = `<p class="empty">Could not load the country list (${esc(err.message)}). Run scripts/build_site_data.py to bundle the data.</p>`;
+  }
+}
+start();
+</script>

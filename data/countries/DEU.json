@@ -1,0 +1,909 @@
+{
+  "iso3": "DEU",
+  "name": "Germany",
+  "wave": 0,
+  "system_as_of": "2026-11-08",
+  "status": "draft",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Statutory social health insurance through competing sickness funds, with an opt-out private tier"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "DEU-overview-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "DEU-overview-001",
+        "statement": "In 2024 about 89% of residents were covered by statutory health insurance and about 10% by substitutive private insurance; roughly 0.1% had no coverage.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 7,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-overview-002",
+        "statement": "Statutory coverage is provided through 96 competing, not-for-profit sickness funds.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 7,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-overview-003",
+        "statement": "A self-governing body of payers and providers, the Federal Joint Committee (G-BA), decides which technologies, medicines and devices the statutory benefit package covers and sets care standards.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 6
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "DEU-financing-001",
+        "statement": "Statutory insurance is funded mainly by payroll contributions: a general rate of 14.6% of gross wages plus a fund-specific supplementary rate, both split equally between employer and employee. Contributions are pooled in a central health fund and passed to sickness funds using risk adjustment.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-002",
+        "statement": "The health ministry set the average supplementary contribution for 2027 at 2.9%, unchanged from 2026; each sickness fund still sets its own rate.",
+        "valence": "neutral",
+        "source_id": "bmg-2026-10-30",
+        "locator": {
+          "section": "Press release, first paragraph"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2027
+      },
+      {
+        "id": "DEU-financing-003",
+        "statement": "Employees above an income threshold (EUR 73,800 a year), the self-employed and civil servants may choose private insurance instead of the statutory system.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 7,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-financing-004",
+        "statement": "Private insurance premiums are set by age and health risk, whereas statutory contributions depend on income.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-financing-005",
+        "statement": "Mandatory long-term care insurance, introduced in 1994, covers almost the entire population, with contributions split between members and employers.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 5
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "DEU-covered-001",
+        "statement": "The statutory benefit package is broad and identical for every insured person, going beyond essential services; substitutive private plans usually match or exceed it.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 2
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-covered-002",
+        "statement": "Patients can choose their own GP, specialists, dentists and pharmacies; GPs are usually the first contact but do not formally control referrals.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-covered-003",
+        "statement": "Since 2004 sickness funds have had to offer an optional GP-centred care model, and some reward members who follow it.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 10
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-covered-004",
+        "statement": "Germany reimburses about 90% of authorised medicines, against an EU average of 43%, and new medicines reach reimbursement in an average of 128 days versus 578 across the EU.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "18-19",
+          "section": "6 Pharmaceutical sector"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "DEU-cost_sharing-001",
+        "statement": "Out-of-pocket payments made up 11% of health spending in 2023, below the EU average of 16%.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 7,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-cost_sharing-002",
+        "statement": "Outpatient prescriptions carry a 10% co-payment of at least EUR 5 and at most EUR 10; under-18s are exempt.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "12-13",
+          "section": "5.2 Accessibility"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-cost_sharing-003",
+        "statement": "Annual co-payments are capped relative to income, but patients must apply to benefit from the cap.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "12-13",
+          "section": "5.2 Accessibility"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-cost_sharing-004",
+        "statement": "Dental care involves explicit cost sharing and is not fully covered by statutory insurance.",
+        "valence": "weakness",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 12
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-cost_sharing-005",
+        "statement": "Because long-term care insurance covers costs only partially, long-term care accounts for 38% of all out-of-pocket health spending.",
+        "valence": "weakness",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 5
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "DEU-additional_care-001",
+        "statement": "Voluntary private insurance pays for about 3% of health spending, mostly to top up areas the statutory package only partly covers, such as dental care.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": "5, 12"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-additional_care-002",
+        "statement": "52 private insurance companies offer substitutive and supplementary cover.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "DEU-access-001",
+        "statement": "In 2024 only 1.2% of people reported an unmet need for a medical examination, compared with an EU average of 3.6%.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 12,
+          "section": "5.2 Accessibility"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-access-002",
+        "statement": "Unmet need for dental care was 0.9%, against an EU average of 6.3%.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 12,
+          "section": "5.2 Accessibility"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-access-003",
+        "statement": "Reported unmet need for mental health care rose from 4% in 2021 to 10% in 2024, and there is a shortage of outpatient psychotherapists.",
+        "valence": "weakness",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "12, 21"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": "2021-2024"
+      },
+      {
+        "id": "DEU-access-004",
+        "statement": "Around 15% of people cannot reach an emergency department within 15 minutes by car, but almost everyone can within 30 minutes.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 13,
+          "section": "5.2 Accessibility"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-access-005",
+        "statement": "Germany had 4.7 practising physicians and 12.3 nurses per 1,000 people in 2023 (EU nurse average 8.5); GPs make up about 16% of doctors, below the 20% average across 24 EU countries.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "8-9",
+          "section": "4 The health system",
+          "figure": "Figure 10"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-access-006",
+        "statement": "Staff shortages persist in hospitals and long-term care, and nurse-to-bed ratios are relatively low.",
+        "valence": "weakness",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "DEU-outcomes-001",
+        "statement": "Life expectancy at birth was 81.5 years in 2024, 0.2 years below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 3,
+          "section": "2 Health in Germany"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-outcomes-002",
+        "statement": "Between 2010 and 2019 life expectancy rose by 0.8 years, about half the EU-wide gain of 1.5 years.",
+        "valence": "weakness",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 3,
+          "section": "2 Health in Germany"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": "2010-2019"
+      },
+      {
+        "id": "DEU-outcomes-003",
+        "statement": "In 2022 treatable mortality was 83 per 100,000 (EU 90) and preventable mortality 165 per 100,000, slightly below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 9,
+          "section": "5.1 Effectiveness"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DEU-outcomes-004",
+        "statement": "30-day mortality after a heart attack was 8.6% in 2021, higher than in Denmark (4.8%) and other neighbouring countries.",
+        "valence": "weakness",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 15
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "DEU-outcomes-005",
+        "statement": "Insurance claims data from one large German insurer show the life-expectancy gap between low- and high-income groups widening among older men, while narrowing slightly among women.",
+        "valence": "weakness",
+        "source_id": "tetzlaff-2020",
+        "locator": {
+          "section": "Abstract: Results"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "DEU-costs-001",
+        "statement": "Germany spent 11.7% of GDP on health in 2023 (EU 10.0%), EUR 5,414 per person adjusted for purchasing power, the highest in the EU.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 7,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-costs-002",
+        "statement": "Public sources fund 86% of health spending, above the EU average of 80%.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 7,
+          "section": "4 The health system"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-costs-003",
+        "statement": "Retail spending on medicines was EUR 743 per person in 2023, the highest in the EU (average EUR 510), and about 14% of total health spending.",
+        "valence": "weakness",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 18,
+          "section": "6 Pharmaceutical sector"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-costs-004",
+        "statement": "Statutory insurance spending was expected to grow by almost 7% in 2026 and by less than 3% in 2027.",
+        "valence": "neutral",
+        "source_id": "bmg-2026-10-30",
+        "locator": {
+          "section": "Press release, paragraph after the minister's statement"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": "2026-2027"
+      }
+    ],
+    "what_works": [
+      {
+        "id": "DEU-what_works-001",
+        "statement": "The European Observatory lists universal coverage, a comprehensive benefit package, low cost-sharing, free choice of provider and short waiting times among the system's strengths.",
+        "valence": "strength",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 18
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-what_works-002",
+        "statement": "People at risk of poverty report very little unmet medical need: 1.7% in 2024, against 6.0% for the same group across the EU.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 12,
+          "section": "5.2 Accessibility"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-what_works-003",
+        "statement": "Generics account for 84% of prescription volume, the highest share in the EU, though the share has stopped growing.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 19,
+          "section": "6 Pharmaceutical sector"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "DEU-problems-001",
+        "statement": "In a 2025 survey of 2,201 adults, only about 20% believed statutory and privately insured patients receive the same quality of care, and close to 80% favoured abolishing the separate private tier, a majority in every political group.",
+        "valence": "weakness",
+        "source_id": "knesebeck-2025",
+        "locator": {
+          "section": "Abstract: Results"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-problems-002",
+        "statement": "Outpatient and hospital care are organised and paid for separately, which fragments care; despite hospitals offering more outpatient services, there are few structural incentives for integration.",
+        "valence": "weakness",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 10
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-problems-003",
+        "statement": "Hospital capacity is very high, 7.7 beds per 1,000 people in 2023 against an EU average of 5.1, alongside many avoidable admissions for chronic conditions.",
+        "valence": "weakness",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "15, 21",
+          "section": "5.3 Resilience"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-problems-004",
+        "statement": "The Observatory flags concerns about oversupply and efficiency, and a complex, self-governing stewardship structure that tends to produce only incremental change.",
+        "valence": "weakness",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": "18-19"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        }
+      },
+      {
+        "id": "DEU-problems-005",
+        "statement": "Digitalisation is uneven and electronic health records are little used: only 5.1% of people accessed records online in 2024.",
+        "valence": "weakness",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "17, 21"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "DEU-reforms-001",
+        "statement": "A 2026 contribution-stabilisation law (GKV-BStabG) is expected to relieve sickness funds by up to EUR 19 billion in 2027, and a government finance commission is due to propose structural reforms by the end of 2026.",
+        "valence": "neutral",
+        "source_id": "bmg-2026-10-30",
+        "locator": {
+          "section": "Press release"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-reforms-002",
+        "statement": "A hospital reform in force since January 2025 has states assign hospitals to defined service groups, adds standby (provision) payments alongside per-case DRG payments, shifts care to outpatient settings and creates intersectoral facilities, backed by a EUR 50 billion transformation fund for 2026-2035.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": "15-16, 22",
+          "section": "5.3 Resilience"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-reforms-003",
+        "statement": "The nationwide rollout of an electronic patient record for the statutorily insured began in April 2025, after pilot regions.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 17,
+          "section": "5.3 Resilience"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-reforms-004",
+        "statement": "Hybrid DRG payments for selected procedures that can be done as inpatient or outpatient care began in 2024; their impact is expected to stay small for several years.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 10
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2024
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "DEU-us_lessons-001",
+        "statement": "Comparing the US with ten high-income countries including Germany (data mostly 2013-2016), researchers found the US spent roughly twice as much while using care at similar rates; prices of labour and goods, including medicines, and administrative costs drove the difference.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Conclusions and relevance"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "DEU-us_lessons-002",
+        "statement": "Administrative costs were 8% of US health spending, against 1% to 3% in the comparison countries, which include Germany.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Findings"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending",
+          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+        },
+        "data_year": 2016
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/DEU.json",
+  "sources": [
+    {
+      "id": "chp-deu-2025",
+      "title": "State of Health in the EU: Germany, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-germany-final-web.pdf",
+      "accessed": "2026-11-08"
+    },
+    {
+      "id": "hss-deu-2024",
+      "title": "Germany: Health System Summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Blümel M, Spranger A, Achstetter K, Hengel P, Eriksen A, Maresso A, Busse R",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://p4h.world/app/uploads/2025/08/Germany-health-system-summary-2024.x14225.pdf",
+      "accessed": "2026-11-08",
+      "funding_note": "Copy hosted by P4H; replace with the Observatory's own URL when located."
+    },
+    {
+      "id": "bmg-2026-10-30",
+      "title": "BMG legt durchschnittlichen Zusatzbeitragssatz auf 2,9 Prozent fest (press release, 30 October 2026)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/zusatzbeitragssatz-gkv-2027-festgelegt",
+      "accessed": "2026-11-08",
+      "funding_note": "Government announcement; figures are forecasts."
+    },
+    {
+      "id": "knesebeck-2025",
+      "title": "Attitudes towards the dual health insurance system and inequalities in health care in Germany: results of a population survey",
+      "publisher": "BMC Health Services Research",
+      "authors": "von dem Knesebeck O, Klein J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12080041/",
+      "doi": "10.1186/s12913-025-12847-x",
+      "license": "CC BY",
+      "accessed": "2026-11-08",
+      "funding_note": "Measures public perception, not care quality itself."
+    },
+    {
+      "id": "tetzlaff-2020",
+      "title": "Widening income inequalities in life expectancy? Analysing time trends based on German health insurance data",
+      "publisher": "Journal of Epidemiology and Community Health",
+      "authors": "Tetzlaff F, Epping J, Sperlich S, Tetzlaff J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1136/jech-2019-212966",
+      "doi": "10.1136/jech-2019-212966",
+      "accessed": "2026-11-08",
+      "funding_note": "Data from a single large statutory insurer."
+    },
+    {
+      "id": "papanicolas-2018",
+      "title": "Health Care Spending in the United States and Other High-Income Countries",
+      "publisher": "JAMA",
+      "authors": "Papanicolas I, Woskie LR, Jha AK",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1001/jama.2018.1150",
+      "doi": "10.1001/jama.2018.1150",
+      "accessed": "2026-11-08",
+      "funding_note": "Data mostly 2013-2016."
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "accessed": "2026-11-08",
+      "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries."
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 9,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 3,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 9,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 9,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-08",
+      "note": "Pilot profile researched in chat. Open items: cite the statute making insurance compulsory (2009); locate the Observatory's canonical URL for the 2024 summary."
+    }
+  ]
+}

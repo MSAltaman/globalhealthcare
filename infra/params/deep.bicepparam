@@ -12,7 +12,7 @@ param claudeOrganizationName = ''
 param budgetAlertEmails = []
 param deployerPrincipalId = ''
 param apiContactEmail = ''
-param githubRepo = 'MSAltaman/globalheathcare'
+param githubRepo = 'MSAltaman/globalhealthcare'
 // -----------------------------------------------------------------------------
 
 param llmBackend = 'foundry'

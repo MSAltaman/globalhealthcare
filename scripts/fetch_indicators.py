@@ -24,7 +24,7 @@ API = "https://api.worldbank.org/v2"
 GHO = "https://ghoapi.azureedge.net/api"
 # Rows representing the whole population (not split by sex or urban/rural).
 GHO_TOTAL_DIMS = {None, "SEX_BTSX", "RESIDENCEAREATYPE_TOTL", "BOTHSEXES", "TOTL"}
-USER_AGENT = "GlobalHealthcareAtlas/0.1 (research; +https://github.com/MSAltaman/globalheathcare)"
+USER_AGENT = "GlobalHealthcareAtlas/0.1 (research; +https://github.com/MSAltaman/globalhealthcare)"
 
 # Not covered by World Bank / WHO series.
 UNSUPPORTED = {"TWN"}

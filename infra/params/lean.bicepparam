@@ -12,7 +12,7 @@ param claudeOrganizationName = '' // your legal entity name, exactly as register
 param budgetAlertEmails = [] // e.g. ['you@yourdomain.com']
 param deployerPrincipalId = '' // az ad signed-in-user show --query id -o tsv
 param apiContactEmail = '' // sent to OpenAlex / PubMed / Crossref as they request
-param githubRepo = 'MSAltaman/globalheathcare'
+param githubRepo = 'MSAltaman/globalhealthcare'
 // -----------------------------------------------------------------------------
 
 param llmBackend = 'foundry'

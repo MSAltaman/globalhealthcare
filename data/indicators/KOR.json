@@ -1,0 +1,137 @@
+{
+  "iso3": "KOR",
+  "retrieved": "2026-11-08",
+  "provider": "World Bank WDI API and WHO Global Health Observatory API",
+  "indicators": [
+    {
+      "id": "SP.POP.TOTL",
+      "label": "Population",
+      "unit": "people",
+      "group": "context",
+      "value": 51684564,
+      "year": 2025,
+      "original_source": "World Population Prospects, United Nations (UN), uri: https://population.un.org/wpp/, publisher: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), uri: https://unstats.un.org/home/nso_sites/, publisher: National Statistical Offices;\nEurostat: Demographic Statistics, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly, publisher: Eurostat;\nPopulation and Vital Statistics Report (various years), United Nations (UN), uri: https://unstats.un.org, publisher: UN Statistics Division",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SP.POP.TOTL?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "NY.GDP.PCAP.PP.CD",
+      "label": "GDP per capita (PPP)",
+      "unit": "current international $",
+      "group": "context",
+      "value": 63124.9152183625,
+      "year": 2025,
+      "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP\u2019s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.PCAP.PP.CD?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.XPD.CHEX.GD.ZS",
+      "label": "Health spending, % of GDP",
+      "unit": "%",
+      "group": "costs",
+      "value": 8.67656994,
+      "year": 2024,
+      "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.XPD.CHEX.GD.ZS?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.XPD.CHEX.PP.CD",
+      "label": "Health spending per person (PPP)",
+      "unit": "current international $",
+      "group": "costs",
+      "value": 5081.41151607382,
+      "year": 2024,
+      "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.XPD.CHEX.PP.CD?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.XPD.GHED.CH.ZS",
+      "label": "Government share of health spending",
+      "unit": "% of current health expenditure",
+      "group": "costs",
+      "value": 56.60574722,
+      "year": 2024,
+      "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.XPD.GHED.CH.ZS?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.XPD.OOPC.CH.ZS",
+      "label": "Out-of-pocket share of health spending",
+      "unit": "% of current health expenditure",
+      "group": "costs",
+      "value": 33.73815536,
+      "year": 2024,
+      "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SP.DYN.LE00.IN",
+      "label": "Life expectancy at birth",
+      "unit": "years",
+      "group": "outcomes",
+      "value": 83.6292682926829,
+      "year": 2024,
+      "original_source": "World Population Prospects, United Nations (UN), uri: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from male and female life expectancy at birth from sources such as statistical databases and publications from national statistical offices.;\nDemographic Statistics, Eurostat (ESTAT), note: Derived from male and female life expectancy at birth from sources such as Eurostat: Demographic Statistics.",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SP.DYN.LE00.IN?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SP.DYN.IMRT.IN",
+      "label": "Infant mortality",
+      "unit": "per 1,000 live births",
+      "group": "outcomes",
+      "value": 2.3,
+      "year": 2024,
+      "original_source": "UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org;\nWorld Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nWorld Bank (WB), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nUnited Nations (UN), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation, publisher: UN Population Division",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SP.DYN.IMRT.IN?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.STA.MMRT",
+      "label": "Maternal mortality",
+      "unit": "per 100,000 live births",
+      "group": "outcomes",
+      "value": 4,
+      "year": 2023,
+      "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.STA.MMRT?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.MED.PHYS.ZS",
+      "label": "Physicians",
+      "unit": "per 1,000 people",
+      "group": "access",
+      "value": 2.61,
+      "year": 2022,
+      "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.MED.PHYS.ZS?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "SH.MED.BEDS.ZS",
+      "label": "Hospital beds",
+      "unit": "per 1,000 people",
+      "group": "access",
+      "value": 12.81,
+      "year": 2022,
+      "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+      "api_url": "https://api.worldbank.org/v2/country/KOR/indicator/SH.MED.BEDS.ZS?format=json&date=2014:2026&per_page=100"
+    },
+    {
+      "id": "UHC_INDEX_REPORTED",
+      "label": "UHC service coverage index",
+      "unit": "index 0-100",
+      "group": "coverage",
+      "value": 88.0,
+      "year": 2023,
+      "original_source": "World Health Organization, Global Health Observatory",
+      "api_url": "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?$filter=SpatialDim eq 'KOR'"
+    },
+    {
+      "id": "FINPROTECTION_CATA_TOT_10_POP",
+      "label": "Households spending over 10% of budget on health",
+      "unit": "% of population",
+      "group": "coverage",
+      "value": 11.96,
+      "year": 2018,
+      "original_source": "World Health Organization, Global Health Observatory",
+      "api_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?$filter=SpatialDim eq 'KOR'"
+    }
+  ]
+}

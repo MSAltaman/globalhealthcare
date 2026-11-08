@@ -135,6 +135,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--mute
   </footer>
 </div>
 
+<script src="data/bundle.js" onerror="void 0"></script>
 <script>
 const SECTIONS = [
   ["overview", "Overview"], ["financing", "How it's paid for"], ["covered", "What's covered"],
@@ -149,6 +150,8 @@ const cache = {};
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 async function getJSON(path) {
+  // Prefer the bundled copy (works from file://); fall back to fetching the file.
+  if (window.ATLAS_DATA && path in window.ATLAS_DATA) return window.ATLAS_DATA[path];
   if (!(path in cache)) {
     cache[path] = fetch(path).then(r => { if (!r.ok) throw new Error(path + " " + r.status); return r.json(); });
   }
@@ -303,7 +306,7 @@ async function start() {
     addEventListener("hashchange", route);
     route();
   } catch (err) {
-    document.getElementById("view").innerHTML = `<p class="empty">Could not load the country list (${esc(err.message)}). Run scripts/build_site_data.py to bundle the data.</p>`;
+    document.getElementById("view").innerHTML = `<p class="empty">Could not load the country list (${esc(err.message)}). Run <code>python scripts/build_site_data.py</code> from the repo folder, then reload.</p>`;
   }
 }
 start();

@@ -64,8 +64,11 @@ def extract_text(content: bytes, content_type: str, url: str) -> str:
         # Page markers let locators cite pages; they are part of normalized text.
         parts = [f"[[page {i}]] {p.extract_text() or ''}" for i, p in enumerate(reader.pages, start=1)]
         return "\n".join(parts)
-    from bs4 import BeautifulSoup
+    import warnings
 
+    from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
     soup = BeautifulSoup(content, "html.parser")
     for tag in soup(["script", "style", "noscript", "nav", "footer", "header", "form"]):
         tag.decompose()

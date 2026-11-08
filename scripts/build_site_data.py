@@ -40,6 +40,15 @@ def main() -> None:
         shutil.copy(f, OUT / "indicators" / f.name)
 
     (OUT / "index.json").write_text(json.dumps(index, indent=2) + "\n", encoding="utf-8")
+
+    # Same data as one script file, so the site also works when index.html is
+    # opened straight from disk (browsers block fetch() on file:// pages).
+    bundle = {"data/index.json": index}
+    for f in sorted(OUT.glob("*/*.json")):
+        bundle[f"data/{f.parent.name}/{f.name}"] = json.loads(f.read_text(encoding="utf-8"))
+    (OUT / "bundle.js").write_text(
+        "window.ATLAS_DATA = " + json.dumps(bundle, ensure_ascii=False) + ";\n", encoding="utf-8")
+
     print(f"site/data: {len(index)} profiles, indicators for {len(list((OUT / 'indicators').glob('*.json')))} countries")
 
 

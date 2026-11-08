@@ -3,14 +3,15 @@
   "name": "Germany",
   "wave": 0,
   "system_as_of": "2026-11-08",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "social_health_insurance",
     "label": "Statutory social health insurance through competing sickness funds, with an opt-out private tier"
   },
   "universal_coverage": {
     "legal_basis_claim_ids": [
-      "DEU-overview-001"
+      "DEU-overview-004",
+      "DEU-overview-005"
     ],
     "meets_definition": true
   },
@@ -18,33 +19,41 @@
     "overview": [
       {
         "id": "DEU-overview-001",
-        "statement": "In 2024 about 89% of residents were covered by statutory health insurance and about 10% by substitutive private insurance; roughly 0.1% had no coverage.",
+        "statement": "In 2024 about 89% of residents had statutory health insurance and about 10% substitutive private insurance; others had other forms of cover, leaving roughly 0.1% uninsured.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 7,
-          "section": "4 The health system"
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 44512,
+          "char_end": 44707,
+          "passage_sha256": "8eff724ee3df5b6b7926b9ae920ed6172cfb23bb47c7478eb91a756eb6df1f6f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-overview-002",
-        "statement": "Statutory coverage is provided through 96 competing, not-for-profit sickness funds.",
+        "statement": "The multi-payer statutory system runs through 96 sickness funds, financed by wage-related contributions shared by employees and employers plus federal subsidies.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 7,
-          "section": "4 The health system"
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 45140,
+          "char_end": 45318,
+          "passage_sha256": "385456cb45dd1622fbe206da7941f4e863e1f61d9c3563317485d7f32aaea11e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -53,28 +62,72 @@
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 6
+          "page": 3,
+          "char_start": 4877,
+          "char_end": 5548,
+          "passage_sha256": "162a81e22177ffce000c17bf4ee6368c609317ec1a396395596fe88f3d0b3346"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-overview-004",
+        "statement": "Every resident must hold health insurance, either in the statutory system or through a substitutive private plan.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44073,
+          "char_end": 44239,
+          "passage_sha256": "844c9fed82f5ecbe0925f2504ce7e1a1b140e152dc2c78087e5abef6b9df64d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-overview-005",
+        "statement": "Health insurance has been compulsory in Germany since January 2009.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 10272,
+          "char_end": 10338,
+          "passage_sha256": "a218fff8c09397c85adfea79a6457d0a9c5f0d0bdaf6cf9bb6ad3e19ca2b373d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "financing": [
       {
         "id": "DEU-financing-001",
-        "statement": "Statutory insurance is funded mainly by payroll contributions: a general rate of 14.6% of gross wages plus a fund-specific supplementary rate, both split equally between employer and employee. Contributions are pooled in a central health fund and passed to sickness funds using risk adjustment.",
+        "statement": "Contributions are pooled in a central health fund and reallocated to the sickness funds by risk adjustment. The general rate is 14.6% of gross income, plus a fund-specific supplementary rate that averaged 1.7% in 2024; employers and employees split both equally.",
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 3
+          "page": 4,
+          "char_start": 6390,
+          "char_end": 6755,
+          "passage_sha256": "d2b74c0a26947edfe750e7d70b1afa695f5406065401864aa181cabddc6dcb3c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -84,28 +137,36 @@
         "valence": "neutral",
         "source_id": "bmg-2026-10-30",
         "locator": {
-          "section": "Press release, first paragraph"
+          "section": "Press release, first paragraph",
+          "char_start": 117,
+          "char_end": 732,
+          "passage_sha256": "1fb6f820f968393881a7fbe5d59a592137f3f0e19fd295e5449e1e9d0c6f299e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2027
       },
       {
         "id": "DEU-financing-003",
-        "statement": "Employees above an income threshold (EUR 73,800 a year), the self-employed and civil servants may choose private insurance instead of the statutory system.",
+        "statement": "Employees earning EUR 73,800 a year or more, the self-employed and civil servants may stay in the statutory system or switch to private insurance.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 7,
-          "section": "4 The health system"
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 44240,
+          "char_end": 44430,
+          "passage_sha256": "778a5fd89c3bc8dbdf68a50d07c08b7e1ced72962897b5e992cceb2596f7a21a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -114,12 +175,16 @@
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 3
+          "page": 4,
+          "char_start": 6756,
+          "char_end": 6842,
+          "passage_sha256": "b59bb0aea91ef1a4dbff3724e200ce3e223f90f7c19da58a20e4644aa7a68ee0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -128,12 +193,16 @@
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 5
+          "page": 12,
+          "char_start": 24212,
+          "char_end": 24473,
+          "passage_sha256": "9f99fcd74435a13bef7e080a10d0c690cee3620a5759d06f592a84c3ff15ff2c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -144,26 +213,34 @@
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 2
+          "page": 7,
+          "char_start": 11218,
+          "char_end": 11421,
+          "passage_sha256": "11b2370cae0a5ed35cffce0eb1f49d7ea3cba6c53adbcd125bef17f67a8fc7fa"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-covered-002",
-        "statement": "Patients can choose their own GP, specialists, dentists and pharmacies; GPs are usually the first contact but do not formally control referrals.",
+        "statement": "Patients may freely choose physicians, psychotherapists, dentists, pharmacists and urgent care services; GPs are often the first point of contact but are not formal gatekeepers.",
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 3
+          "page": 11,
+          "char_start": 20122,
+          "char_end": 20442,
+          "passage_sha256": "34e7b57ce71452ca795d768b79c6addb02ca18bd3ba4029aae18a0a096831420"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -172,28 +249,56 @@
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 10
+          "page": 11,
+          "char_start": 20443,
+          "char_end": 20652,
+          "passage_sha256": "68f875ddb34b3598a779abd869ec155ee9d861e140b3e93cf9d9f344176cdce1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-covered-004",
-        "statement": "Germany reimburses about 90% of authorised medicines, against an EU average of 43%, and new medicines reach reimbursement in an average of 128 days versus 578 across the EU.",
+        "statement": "For medicines approved in the EU in 2020-2023, Germany had the EU's shortest average wait for reimbursement: 128 days, against an EU average of 578.",
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "18-19",
-          "section": "6 Pharmaceutical sector"
+          "page": 20,
+          "section": "6 Pharmaceutical sector",
+          "char_start": 130162,
+          "char_end": 130336,
+          "passage_sha256": "4ee35836a8db8d9803493f3562c7b5293c40ea41650e914a6af7812eccf94ed0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
-        }
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2023"
+      },
+      {
+        "id": "DEU-covered-005",
+        "statement": "As of January 2025, 90% of authorised medicines were reimbursed in Germany, the highest share in the EU and about twice the EU average of 43%.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 130664,
+          "char_end": 130848,
+          "passage_sha256": "0ca6c7da9fdd830bdcbf34275b206e81ab85e4523a395e73278bcf27a799860a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
       }
     ],
     "cost_sharing": [
@@ -203,13 +308,17 @@
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 7,
-          "section": "4 The health system"
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 47181,
+          "char_end": 47296,
+          "passage_sha256": "380c0024a485cf1f352f009862a262a7ff31950f056e38c8e9b7031143b73a78"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -219,183 +328,251 @@
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "12-13",
-          "section": "5.2 Accessibility"
+          "page": 19,
+          "section": "5.2 Accessibility",
+          "char_start": 126299,
+          "char_end": 126732,
+          "passage_sha256": "9df07de22926584860ee1327ea2fb7f98d2135ac97b375dd7c0d339ab1963a2b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-cost_sharing-003",
-        "statement": "Annual co-payments are capped relative to income, but patients must apply to benefit from the cap.",
+        "statement": "Total co-payments are capped as a share of income, with a lower cap for people with chronic conditions, but patients must apply for the cap, which may limit its use.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "12-13",
-          "section": "5.2 Accessibility"
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 90944,
+          "char_end": 91124,
+          "passage_sha256": "d19b288cc0b1bfb610d1a8e93763ae414595b79f2f2c3c898ea4265478e05c70"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-cost_sharing-004",
-        "statement": "Dental care involves explicit cost sharing and is not fully covered by statutory insurance.",
+        "statement": "Dental care carries explicit cost sharing because statutory insurance does not fully cover it, so many people rely on supplementary insurance.",
         "valence": "weakness",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 12
+          "page": 13,
+          "char_start": 26950,
+          "char_end": 27098,
+          "passage_sha256": "504f16318bcbbd524ca771effca788c463288efde2b2f82ce6451d7eaa7dac72"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-cost_sharing-005",
-        "statement": "Because long-term care insurance covers costs only partially, long-term care accounts for 38% of all out-of-pocket health spending.",
+        "statement": "In 2022, 38% of out-of-pocket spending went on long-term care, the largest category, because statutory long-term care insurance pays only part of the cost.",
         "valence": "weakness",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 5
+          "page": 6,
+          "char_start": 9651,
+          "char_end": 10131,
+          "passage_sha256": "a93338982c21a3a0c45255a93dffd834171875736d809c7f4e35ea9a94357e2d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
-        }
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
       }
     ],
     "additional_care": [
       {
         "id": "DEU-additional_care-001",
-        "statement": "Voluntary private insurance pays for about 3% of health spending, mostly to top up areas the statutory package only partly covers, such as dental care.",
+        "statement": "Voluntary complementary and supplementary insurance plays a small role, funding about 3% of health spending.",
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": "5, 12"
+          "page": 6,
+          "char_start": 9374,
+          "char_end": 9503,
+          "passage_sha256": "c24a8ada4b9185efdd1964a6473b120be1d27c9367c1ff086d80be4d0fc7d58a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-additional_care-002",
-        "statement": "52 private insurance companies offer substitutive and supplementary cover.",
+        "statement": "Fifty-two companies sell private health insurance.",
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 3
+          "page": 4,
+          "char_start": 6843,
+          "char_end": 6870,
+          "passage_sha256": "6024ef56f778e5a25916d3c2bd9a2322c3bcfa366946eeed8b4f919bddfa0fe2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "access": [
       {
         "id": "DEU-access-001",
-        "statement": "In 2024 only 1.2% of people reported an unmet need for a medical examination, compared with an EU average of 3.6%.",
+        "statement": "Of people who needed care in 2024, 1.2% went without a medical examination because of cost, distance or waiting time, against 3.6% across the EU.",
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 12,
-          "section": "5.2 Accessibility"
+          "page": 13,
+          "section": "5.2 Accessibility",
+          "char_start": 83364,
+          "char_end": 83645,
+          "passage_sha256": "ad2b761987756bee138e43d39af7cf20db28641fed2e35e186de8a4e70fd857e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-access-002",
-        "statement": "Unmet need for dental care was 0.9%, against an EU average of 6.3%.",
+        "statement": "Among people needing dental care, 0.9% reported unmet needs in 2024, the second-lowest share in the EU (average 6.3%).",
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 12,
-          "section": "5.2 Accessibility"
+          "page": 13,
+          "section": "5.2 Accessibility",
+          "char_start": 83944,
+          "char_end": 84128,
+          "passage_sha256": "f79b3c463205b322305766ed4d6d207c0ef68b307cca41f5a087cd16c5d32abb"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-access-003",
-        "statement": "Reported unmet need for mental health care rose from 4% in 2021 to 10% in 2024, and there is a shortage of outpatient psychotherapists.",
+        "statement": "Unmet need for mental health care among adults rose from 4% in 2021 to 10% in 2024, and too few outpatient psychotherapists are available to meet growing demand.",
         "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "12, 21"
+          "page": 13,
+          "char_start": 84715,
+          "char_end": 85102,
+          "passage_sha256": "1152f4db2eba48238a1301c72aa5f768c45c56b95297ab0fe910f9d812021eaf"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2024"
       },
       {
         "id": "DEU-access-004",
-        "statement": "Around 15% of people cannot reach an emergency department within 15 minutes by car, but almost everyone can within 30 minutes.",
+        "statement": "Almost 15% of people cannot reach an emergency department within 15 minutes by car, but access within 30 minutes is possible almost everywhere.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 13,
-          "section": "5.2 Accessibility"
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 91231,
+          "char_end": 91494,
+          "passage_sha256": "f2611627e7b112c01a37d523cd074682f70fc086a238dad7f045e8947e4bae6b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-access-005",
-        "statement": "Germany had 4.7 practising physicians and 12.3 nurses per 1,000 people in 2023 (EU nurse average 8.5); GPs make up about 16% of doctors, below the 20% average across 24 EU countries.",
-        "valence": "neutral",
+        "statement": "Germany had 4.7 physicians per 1,000 people in 2023, but GPs made up only about 16% of them, below the 20% average across 24 EU countries with data.",
+        "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "8-9",
+          "page": 9,
           "section": "4 The health system",
-          "figure": "Figure 10"
+          "figure": "Figure 10",
+          "char_start": 52772,
+          "char_end": 53407,
+          "passage_sha256": "e82c7306f92712ebf07b643f17cc1bd1273b4590a3bdcb0cd09d878c188337a2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "DEU-access-006",
-        "statement": "Staff shortages persist in hospitals and long-term care, and nurse-to-bed ratios are relatively low.",
+        "statement": "Nursing shortages persist in hospitals and long-term care, and the nurse-to-bed ratio in hospitals is relatively low, partly because of the large number of beds.",
         "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 8,
-          "section": "4 The health system"
+          "page": 9,
+          "section": "4 The health system",
+          "char_start": 54291,
+          "char_end": 54496,
+          "passage_sha256": "5066d8019bd26d342deca7b766866dba85a52d3bf6c1223d764656e9ca0c9e32"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "DEU-access-007",
+        "statement": "Germany had 12.3 nurses per 1,000 people in 2023, well above the EU average of 8.5.",
+        "valence": "strength",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 54179,
+          "char_end": 54277,
+          "passage_sha256": "96af69bd123ce01bb2f98ffb1faab2b4d85ee05e7f1fecf6b24236ea466b2ff8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
       }
     ],
     "outcomes": [
@@ -405,13 +582,17 @@
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 3,
-          "section": "2 Health in Germany"
+          "page": 4,
+          "section": "2 Health in Germany",
+          "char_start": 13623,
+          "char_end": 13729,
+          "passage_sha256": "e14ba6bb733ec739657780831d7d153dd991984187c0cccf66af6d40718df274"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -421,44 +602,56 @@
         "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 3,
-          "section": "2 Health in Germany"
+          "page": 4,
+          "section": "2 Health in Germany",
+          "char_start": 13864,
+          "char_end": 13987,
+          "passage_sha256": "16f88bfc1849153be9634c6ac9f03d1f393979b1d7a309727d35f0a68aa114fd"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2010-2019"
       },
       {
         "id": "DEU-outcomes-003",
-        "statement": "In 2022 treatable mortality was 83 per 100,000 (EU 90) and preventable mortality 165 per 100,000, slightly below the EU average.",
+        "statement": "In 2022 there were 83 treatable and 165 preventable deaths per 100,000 people, both below EU averages.",
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 9,
-          "section": "5.1 Effectiveness"
+          "page": 3,
+          "section": "5.1 Effectiveness",
+          "char_start": 5676,
+          "char_end": 5929,
+          "passage_sha256": "a62625e8e7829d91fa8a2ad99adecce756cacabf7ab2d4ab1ddbb7bd56d98f53"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
       {
         "id": "DEU-outcomes-004",
-        "statement": "30-day mortality after a heart attack was 8.6% in 2021, higher than in Denmark (4.8%) and other neighbouring countries.",
+        "statement": "After a heart attack, 30-day hospital mortality was 8.6% in 2021, higher than in Denmark (4.8%), the Netherlands (2.9%), Switzerland (5.1%) and Austria (5.8%).",
         "valence": "weakness",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 15
+          "page": 16,
+          "char_start": 34901,
+          "char_end": 35122,
+          "passage_sha256": "7d467049615fab55f25212177783c60974f83aea7d2e507e2fb9f06a816e6cf1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -468,13 +661,18 @@
         "valence": "weakness",
         "source_id": "tetzlaff-2020",
         "locator": {
-          "section": "Abstract: Results"
+          "section": "Abstract: Results",
+          "char_start": 1465,
+          "char_end": 1731,
+          "passage_sha256": "f7bd0ea5a9386364749efc20f333cd4610bd818007b32aad31d59e9d73328fa4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
-        }
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2005-2016"
       }
     ],
     "costs": [
@@ -484,13 +682,17 @@
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 7,
-          "section": "4 The health system"
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 46160,
+          "char_end": 46409,
+          "passage_sha256": "6f4450a9e773420428d14cb5d8dae6babcaf707753e5b1c4b01fae1df9018379"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -500,44 +702,56 @@
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 7,
-          "section": "4 The health system"
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 46942,
+          "char_end": 47066,
+          "passage_sha256": "2f9693435e0656dc38f5ceb308ba9193f31bea4ecc4cbfb98de3137578dd3035"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "DEU-costs-003",
-        "statement": "Retail spending on medicines was EUR 743 per person in 2023, the highest in the EU (average EUR 510), and about 14% of total health spending.",
+        "statement": "Retail spending on medicines was EUR 743 per person in 2023, the highest in the EU (average EUR 510), and 14% of total health spending, slightly above the EU's 13%.",
         "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 18,
-          "section": "6 Pharmaceutical sector"
+          "page": 3,
+          "section": "6 Pharmaceutical sector",
+          "char_start": 6867,
+          "char_end": 125405,
+          "passage_sha256": "34167c4118e6fa021b2b325941cfa66fc603998cdcfce443c3c2e6d648e150d5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "DEU-costs-004",
-        "statement": "Statutory insurance spending was expected to grow by almost 7% in 2026 and by less than 3% in 2027.",
+        "statement": "Statutory health insurance spending was expected to rise by almost 7% in 2026 and by less than 3% in 2027.",
         "valence": "neutral",
         "source_id": "bmg-2026-10-30",
         "locator": {
-          "section": "Press release, paragraph after the minister's statement"
+          "section": "Press release, paragraph after the minister's statement",
+          "char_start": 1288,
+          "char_end": 1580,
+          "passage_sha256": "89b2a017b8b796cc2d78a94db793f0ea7990b87fec1a21638c5df2b88810f865"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2026-2027"
       }
@@ -545,122 +759,155 @@
     "what_works": [
       {
         "id": "DEU-what_works-001",
-        "statement": "The European Observatory lists universal coverage, a comprehensive benefit package, low cost-sharing, free choice of provider and short waiting times among the system's strengths.",
+        "statement": "The Observatory's assessment is that the system combines good access to services with financial protection for patients.",
         "valence": "strength",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 18
+          "page": 14,
+          "char_start": 30370,
+          "char_end": 30471,
+          "passage_sha256": "bb9422cf09c7d3a9b0efef02795116f42ec9912728a387582c56c0b5dbc4ab0c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-what_works-002",
-        "statement": "People at risk of poverty report very little unmet medical need: 1.7% in 2024, against 6.0% for the same group across the EU.",
+        "statement": "Among people at risk of poverty who needed care, 1.7% went without in 2024, against 6.0% across the EU.",
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 12,
-          "section": "5.2 Accessibility"
+          "page": 13,
+          "section": "5.2 Accessibility",
+          "char_start": 83646,
+          "char_end": 83864,
+          "passage_sha256": "0a9062dcebdc82c1591e9843ac0b75d90fff4fdb8fa0967f7246a75f6bc6d4c8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-what_works-003",
-        "statement": "Generics account for 84% of prescription volume, the highest share in the EU, though the share has stopped growing.",
+        "statement": "Generics made up 84% of the volume of medicines paid for by insurers in 2023, the highest share in the EU, though this share has not grown since 2018.",
         "valence": "strength",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 19,
-          "section": "6 Pharmaceutical sector"
+          "page": 21,
+          "section": "6 Pharmaceutical sector",
+          "char_start": 137394,
+          "char_end": 137604,
+          "passage_sha256": "587885a93edbf539a8092ccef8968dcf1de730baa2016d02f7f97161d6789ca9"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
-        }
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
       }
     ],
     "problems": [
       {
         "id": "DEU-problems-001",
-        "statement": "In a 2025 survey of 2,201 adults, only about 20% believed statutory and privately insured patients receive the same quality of care, and close to 80% favoured abolishing the separate private tier, a majority in every political group.",
+        "statement": "In a 2025 population survey, just over 20% believed statutory and privately insured patients receive the same quality of care, and almost 80% wanted to end the separate private tier; even among the privately insured and supporters of the liberal party, over 60% agreed.",
         "valence": "weakness",
         "source_id": "knesebeck-2025",
         "locator": {
-          "section": "Abstract: Results"
+          "section": "Abstract: Results",
+          "char_start": 2837,
+          "char_end": 3335,
+          "passage_sha256": "69a64f41b32e5570dec93689729728af4efbd59bcce40415408df59a28e56fa2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "DEU-problems-002",
-        "statement": "Outpatient and hospital care are organised and paid for separately, which fragments care; despite hospitals offering more outpatient services, there are few structural incentives for integration.",
+        "statement": "Primary care, specialist care and hospital care are strongly separated, which fragments care, especially without GP gatekeeping; despite two decades of coordination incentives, ambulatory care quality measured by avoidable admissions is only moderate by European standards.",
         "valence": "weakness",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 10
+          "page": 11,
+          "char_start": 21754,
+          "char_end": 22251,
+          "passage_sha256": "bb5bd42b28fa851c0ea5eff8cfb956ececb91ebf0a3fe52986e6044f6a146320"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-problems-003",
-        "statement": "Hospital capacity is very high, 7.7 beds per 1,000 people in 2023 against an EU average of 5.1, alongside many avoidable admissions for chronic conditions.",
+        "statement": "Hospital capacity remains among the EU's highest: 7.7 beds per 1,000 people in 2023 against an EU average of 5.1, second only to Bulgaria.",
         "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "15, 21",
-          "section": "5.3 Resilience"
+          "page": 16,
+          "section": "5.3 Resilience",
+          "char_start": 102880,
+          "char_end": 103127,
+          "passage_sha256": "0dadcd23d333813a1640a74f6c29bd97c1f7e9d70009415a8a5248ba4fe1a889"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "DEU-problems-004",
-        "statement": "The Observatory flags concerns about oversupply and efficiency, and a complex, self-governing stewardship structure that tends to produce only incremental change.",
+        "statement": "The Observatory identifies a complex stewardship structure that favours incremental change and hampers reform, and a large inpatient sector that raises efficiency and overcapacity concerns.",
         "valence": "weakness",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": "18-19"
+          "page": 20,
+          "char_start": 45428,
+          "char_end": 45708,
+          "passage_sha256": "ef8ca636c5d0d964916d48aa6197f3888af1dd3c019118dad13087cc495edc08"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-problems-005",
-        "statement": "Digitalisation is uneven and electronic health records are little used: only 5.1% of people accessed records online in 2024.",
+        "statement": "Use of electronic health records is low: only 5.1% of people accessed their records online in 2024, reflecting a slow rollout, low awareness among patients and limited participation by doctors.",
         "valence": "weakness",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "17, 21"
+          "page": 18,
+          "char_start": 116711,
+          "char_end": 117033,
+          "passage_sha256": "e9c0bb73844ff5cd7cddd6eb4e2f884e8859e5036ba82aab6654107e257d3bfa"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -668,95 +915,158 @@
     "reforms": [
       {
         "id": "DEU-reforms-001",
-        "statement": "A 2026 contribution-stabilisation law (GKV-BStabG) is expected to relieve sickness funds by up to EUR 19 billion in 2027, and a government finance commission is due to propose structural reforms by the end of 2026.",
+        "statement": "A contribution-stabilisation law (GKV-BStabG) is expected to relieve sickness funds by up to EUR 19 billion in 2027, and a finance commission is due to propose structural reforms by the end of 2026.",
         "valence": "neutral",
         "source_id": "bmg-2026-10-30",
         "locator": {
-          "section": "Press release"
+          "section": "Press release",
+          "char_start": 1203,
+          "char_end": 1712,
+          "passage_sha256": "5444f7d698fbdfe8e79455702d37a7ca9a8a0c65baf3c8754ab46a11194bc05f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": 2026
+        "data_year": 2027
       },
       {
         "id": "DEU-reforms-002",
-        "statement": "A hospital reform in force since January 2025 has states assign hospitals to defined service groups, adds standby (provision) payments alongside per-case DRG payments, shifts care to outpatient settings and creates intersectoral facilities, backed by a EUR 50 billion transformation fund for 2026-2035.",
+        "statement": "The hospital reform introduces service groups, assigned by the federal states to hospitals that meet staffing, equipment and department requirements, and adds flat payments for operating costs on top of DRG payments so funding depends less on admission numbers.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": "15-16, 22",
-          "section": "5.3 Resilience"
+          "page": 16,
+          "section": "5.3 Resilience",
+          "char_start": 104512,
+          "char_end": 105126,
+          "passage_sha256": "8b464e52f00ec5844ccaea7469553bf3d71a1e50366df67ea8666d8a2d8e4237"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "DEU-reforms-003",
-        "statement": "The nationwide rollout of an electronic patient record for the statutorily insured began in April 2025, after pilot regions.",
+        "statement": "The nationwide rollout of the electronic patient record for the statutorily insured began in April 2025, starting with a trial phase in selected pilot regions.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
-          "page": 17,
-          "section": "5.3 Resilience"
+          "page": 18,
+          "section": "5.3 Resilience",
+          "char_start": 117588,
+          "char_end": 117742,
+          "passage_sha256": "99754ead6c18a405d771030b3884d45a7550a25c600d49b80158994ffa16a5e4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "DEU-reforms-004",
-        "statement": "Hybrid DRG payments for selected procedures that can be done as inpatient or outpatient care began in 2024; their impact is expected to stay small for several years.",
+        "statement": "Hybrid DRGs, paying hospitals and outpatient specialists the same for selected procedures, began in early 2024 for a limited set of procedures.",
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
-          "page": 10
+          "page": 12,
+          "char_start": 26506,
+          "char_end": 26742,
+          "passage_sha256": "cb28fefcb24131accf22d1b4aac189bf06ffa3baf789520132c371b8df5913c4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
+      },
+      {
+        "id": "DEU-reforms-005",
+        "statement": "A EUR 50 billion transformation fund for 2026-2035 pays for hospital mergers, closures and conversions into intersectoral care facilities.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 111648,
+          "char_end": 111949,
+          "passage_sha256": "e6628186e5688b318c3dd76297d56817c0086a491b13e2cf34433547020ff3db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2026-2035"
+      },
+      {
+        "id": "DEU-reforms-006",
+        "statement": "The Hospital Care Improvement Act took effect on 1 January 2025.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 23,
+          "section": "References",
+          "char_start": 149289,
+          "char_end": 149356,
+          "passage_sha256": "718badeecd0e2143afc098f04d54e87461513393cd30df4d8ab3eb993d67ce97"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
       }
     ],
     "us_lessons": [
       {
         "id": "DEU-us_lessons-001",
-        "statement": "Comparing the US with ten high-income countries including Germany (data mostly 2013-2016), researchers found the US spent roughly twice as much while using care at similar rates; prices of labour and goods, including medicines, and administrative costs drove the difference.",
+        "statement": "Comparing the US with other high-income countries, researchers found the US spent roughly twice as much while using care at similar rates; prices of labour and goods, including medicines, and administrative costs drove the difference.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
-          "section": "Abstract: Conclusions and relevance"
+          "section": "Abstract: Conclusions and relevance",
+          "char_start": 4361,
+          "char_end": 4755,
+          "passage_sha256": "a514c3db3ae6d3d11d823cec29caec1078f1b17fb9cf7a24a2e3dee9bf0cdccc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2016"
       },
       {
         "id": "DEU-us_lessons-002",
-        "statement": "Administrative costs were 8% of US health spending, against 1% to 3% in the comparison countries, which include Germany.",
+        "statement": "Administrative costs were 8% of US health spending, against 1% to 3% in the comparison countries.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
-          "section": "Abstract: Findings"
+          "section": "Abstract: Findings",
+          "char_start": 3836,
+          "char_end": 4026,
+          "passage_sha256": "d56997d987eb95253c31c0be11c1f9203677cdad281f4892b2ed07eb7db8e327"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending",
-          "note": "Researched from the source text; awaiting fetch-and-fingerprint run."
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-08",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2016
       }
@@ -782,9 +1092,8 @@
       "tier": 1,
       "type": "system_review",
       "year": 2024,
-      "url": "https://p4h.world/app/uploads/2025/08/Germany-health-system-summary-2024.x14225.pdf",
-      "accessed": "2026-11-08",
-      "funding_note": "Copy hosted by P4H; replace with the Observatory's own URL when located."
+      "url": "https://iris.who.int/server/api/core/bitstreams/5204d87b-8e2e-4b9a-9da7-832c40e97ce1/content",
+      "accessed": "2026-11-08"
     },
     {
       "id": "bmg-2026-10-30",
@@ -809,7 +1118,8 @@
       "doi": "10.1186/s12913-025-12847-x",
       "license": "CC BY",
       "accessed": "2026-11-08",
-      "funding_note": "Measures public perception, not care quality itself."
+      "funding_note": "Measures public perception, not care quality itself.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12080041"
     },
     {
       "id": "tetzlaff-2020",
@@ -822,7 +1132,8 @@
       "url": "https://doi.org/10.1136/jech-2019-212966",
       "doi": "10.1136/jech-2019-212966",
       "accessed": "2026-11-08",
-      "funding_note": "Data from a single large statutory insurer."
+      "funding_note": "Data from a single large statutory insurer.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32277000&rettype=abstract&retmode=text"
     },
     {
       "id": "papanicolas-2018",
@@ -835,7 +1146,8 @@
       "url": "https://doi.org/10.1001/jama.2018.1150",
       "doi": "10.1001/jama.2018.1150",
       "accessed": "2026-11-08",
-      "funding_note": "Data mostly 2013-2016."
+      "funding_note": "Data mostly 2013-2016. The ten comparison countries include Germany.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29536101&rettype=abstract&retmode=text"
     },
     {
       "id": "cwf-mm-2024",
@@ -845,7 +1157,7 @@
       "tier": 3,
       "type": "ranking",
       "year": 2024,
-      "url": "https://commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
       "accessed": "2026-11-08",
       "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries."
     }
@@ -903,7 +1215,7 @@
   "changelog": [
     {
       "date": "2026-11-08",
-      "note": "Pilot profile researched in chat. Open items: cite the statute making insurance compulsory (2009); locate the Observatory's canonical URL for the 2024 summary."
+      "note": "Pilot profile: claims anchored to fingerprinted passages and support-reviewed; 11 statements corrected to match their sources, 3 combined claims split."
     }
   ]
 }

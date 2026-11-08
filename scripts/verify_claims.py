@@ -65,7 +65,7 @@ def verify_profile(profile: dict, fetch_missing: bool, today: str) -> dict:
             text = sourcetext.load(sid)
             if text is None and fetch_missing and sid in sources:
                 try:
-                    text = sourcetext.fetch(sid, sources[sid]["url"])
+                    text = sourcetext.fetch(sid, sources[sid].get("text_url") or sources[sid]["url"])
                 except Exception as e:  # network, 404, parse error
                     print(f"  ! could not fetch {sid}: {e}", file=sys.stderr)
             texts[sid] = text

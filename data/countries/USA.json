@@ -3,7 +3,7 @@
   "name": "United States",
   "wave": 0,
   "system_as_of": "2026-11-09",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "mixed",
     "label": "Mixed public-private system: employer-based private insurance alongside federal Medicare, federal-state Medicaid and subsidised individual plans, with no guaranteed coverage for all residents"
@@ -19,7 +19,7 @@
     "overview": [
       {
         "id": "USA-overview-001",
-        "statement": "The 2020 Observatory review describes a US health system that grew up mainly in the private sector, pairing very high funding with an unusually small role for government.",
+        "statement": "The review describes a US health system that developed largely through the private sector, combining high funding with a distinctively low level of government involvement.",
         "valence": "neutral",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -91,7 +91,7 @@
       },
       {
         "id": "USA-overview-005",
-        "statement": "The US was one of only four OECD countries where population coverage for core services stayed under 95% in 2024, alongside Mexico, Costa Rica and Estonia.",
+        "statement": "In 2024 population coverage was 78% in Mexico and below 95% in three further countries: Costa Rica, Estonia and the United States.",
         "valence": "weakness",
         "source_id": "oecd-hag-2025",
         "locator": {
@@ -110,7 +110,7 @@
       },
       {
         "id": "USA-overview-006",
-        "statement": "The share of people without insurance fell after the Affordable Care Act, but roughly 25 million people were still uninsured in 2023, mostly working-age adults with less education or lower incomes.",
+        "statement": "The share of people without insurance fell after the Affordable Care Act, but about 25 million people were uninsured in 2023; uninsured people tend to be working-age adults with lower education or income.",
         "valence": "neutral",
         "source_id": "oecd-hag-2025",
         "locator": {
@@ -186,7 +186,7 @@
       },
       {
         "id": "USA-financing-003",
-        "statement": "In the 2020 review, public sources paid for just under half of US health spending, private third-party payers for about 40% and patients directly for the remaining 11%.",
+        "statement": "Public sources pay just under half of US health spending, private third-party payers about 40%, and individuals the remaining 11% out of pocket.",
         "valence": "neutral",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -296,12 +296,11 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-09"
-        },
-        "data_year": 2017
+        }
       },
       {
         "id": "USA-covered-003",
-        "statement": "The Affordable Care Act of 2010 added protections against insurance that is too narrow or too thin, and against policies being cancelled when people fall ill.",
+        "statement": "The ACA also addresses underinsurance, giving insured people more protection against cover that is too limited or inadequate, or that is cancelled once they fall ill.",
         "valence": "strength",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -446,7 +445,7 @@
       },
       {
         "id": "USA-cost_sharing-005",
-        "statement": "Although US doctors are mostly paid fee-for-service, consultation rates are fairly low, which the OECD says may partly reflect high co-payments that put people off seeing a doctor.",
+        "statement": "Although US doctors are paid mainly by fee-for-service, consultation rates are relatively low, which may partly reflect the high co-payments many people face, deterring them from seeing a doctor.",
         "valence": "weakness",
         "source_id": "oecd-hag-2025",
         "locator": {
@@ -524,7 +523,7 @@
     "access": [
       {
         "id": "USA-access-001",
-        "statement": "In the Commonwealth Fund's 2024 comparison of 10 high-income countries, Americans faced the most barriers to getting and paying for care.",
+        "statement": "In the Commonwealth Fund's September 2024 comparison of 10 nations, Americans faced the most barriers to getting and paying for care.",
         "valence": "weakness",
         "source_id": "cwf-mm-2024",
         "locator": {
@@ -596,7 +595,7 @@
       },
       {
         "id": "USA-access-005",
-        "statement": "The workforce is unevenly spread: specialists outnumber primary care doctors disproportionately, physician-to-population ratios vary by more than 50% between regions with rural areas worst off, and some racial and ethnic groups are underrepresented.",
+        "statement": "The workforce is unevenly distributed: a disproportionate number of specialists relative to primary care physicians, physician-to-population ratios varying by more than 50% between regions with greater shortages in rural areas, and underrepresentation of African Americans, Latinos and American Indians.",
         "valence": "weakness",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -628,8 +627,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-09"
-        },
-        "data_year": 2023
+        }
       },
       {
         "id": "USA-access-007",
@@ -651,15 +649,15 @@
       },
       {
         "id": "USA-access-008",
-        "statement": "The US had the second-highest number of MRI units and PET scanners per person among OECD countries, after Japan for MRI and Denmark for PET.",
+        "statement": "The US had the second-highest numbers of MRI units and PET scanners, behind Japan for MRI units and Denmark for PET scanners.",
         "valence": "strength",
         "source_id": "oecd-hag-2025",
         "locator": {
           "section": "Chapter 9, Medical technologies",
           "page": 214,
           "char_start": 668437,
-          "char_end": 668558,
-          "passage_sha256": "9377b926ab65c8842646379c785eade90094cd7bf21077d659732b24120b9d95"
+          "char_end": 668747,
+          "passage_sha256": "16d462a1896b639ad43576180f603619df36aeb6249bc9c9c090a50a97135c60"
         },
         "verification": {
           "passage_found": "pass",
@@ -708,7 +706,7 @@
       },
       {
         "id": "USA-outcomes-003",
-        "statement": "Opioid use has driven up deaths of working-age adults from drug poisoning in the US and Canada, one reason life expectancy gains slowed.",
+        "statement": "In the United States and Canada in particular, opioid use has led to more working-age adults dying from accidental drug poisoning.",
         "valence": "weakness",
         "source_id": "oecd-hag-2025",
         "locator": {
@@ -782,7 +780,7 @@
       },
       {
         "id": "USA-outcomes-007",
-        "statement": "Among the 10 countries in Mirror, Mirror 2024, Americans had the shortest lives and the most avoidable deaths.",
+        "statement": "In the Commonwealth Fund's September 2024 comparison of 10 nations, Americans had the shortest lives and the most avoidable deaths.",
         "valence": "weakness",
         "source_id": "cwf-mm-2024",
         "locator": {
@@ -802,7 +800,7 @@
     "costs": [
       {
         "id": "USA-costs-001",
-        "statement": "The US spends more per person on health care than any other country, 30% more than second-placed Switzerland, according to the 2020 review.",
+        "statement": "The US spends far more per person on health care than any other country, 30% more than second-placed Switzerland.",
         "valence": "weakness",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -857,7 +855,7 @@
       },
       {
         "id": "USA-costs-004",
-        "statement": "In 2016 the US spent 17.8% of GDP on health care, compared with 9.6% to 12.4% in the other high-income countries studied.",
+        "statement": "In 2016 the US spent 17.8% of GDP on health care, while the other countries studied spent from 9.6% (Australia) to 12.4% (Switzerland).",
         "valence": "weakness",
         "source_id": "papanicolas-2018",
         "locator": {
@@ -892,7 +890,7 @@
       },
       {
         "id": "USA-costs-006",
-        "statement": "Prior authorization is estimated to account for $35 billion of US health care administrative spending.",
+        "statement": "Researchers put the administrative cost of prior authorization in the US at an estimated $35 billion.",
         "valence": "weakness",
         "source_id": "sahni-2024",
         "locator": {
@@ -902,10 +900,9 @@
           "passage_sha256": "97bbac4ed90450fabb33d5c796881018744d3a2fcd8d2aa5797eb2016cca705b"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-09",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-09"
         }
       }
     ],
@@ -937,9 +934,9 @@
         "locator": {
           "section": "Chapter 6, Cancer screening",
           "page": 130,
-          "char_start": 394783,
+          "char_start": 394669,
           "char_end": 394958,
-          "passage_sha256": "420f60eda77cd95d49a5c86cfad1dcca5642e531775ffd7a23d9958ce5e22e22"
+          "passage_sha256": "430752a699266d9125300d5bd0847a6a85854380f4f8e05d0df2485a7bea34bf"
         },
         "verification": {
           "passage_found": "pass",
@@ -950,7 +947,7 @@
       },
       {
         "id": "USA-what_works-003",
-        "statement": "For most cancers, five-year net survival in the US for patients diagnosed in 2000-2014 was among the highest in the world, together with Canada, Australia, New Zealand and four Nordic countries.",
+        "statement": "For most cancers, five-year net survival is among the highest in the world in the US, along with Canada, Australia, New Zealand, Finland, Iceland, Norway and Sweden.",
         "valence": "strength",
         "source_id": "concord3-2018",
         "locator": {
@@ -963,8 +960,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-09"
-        },
-        "data_year": "2000-2014"
+        }
       },
       {
         "id": "USA-what_works-004",
@@ -1022,7 +1018,7 @@
       },
       {
         "id": "USA-what_works-007",
-        "statement": "Among the 10 countries in Mirror, Mirror 2024, the US was one of the top performers on the care process domain.",
+        "statement": "In the Commonwealth Fund's September 2024 comparison of 10 nations, the US was among the top performers for care delivery process.",
         "valence": "strength",
         "source_id": "cwf-mm-2024",
         "locator": {
@@ -1060,7 +1056,7 @@
     "problems": [
       {
         "id": "USA-problems-001",
-        "statement": "The 2020 review lists incomplete coverage, underinsurance, poor care for the uninsured, the world's highest spending per person, weak results on many quality measures, unequal resources and outcomes, and slow uptake of health IT.",
+        "statement": "The review lists incomplete coverage, underinsurance, inadequate care for the uninsured, spending per person far above all other countries, poor results on many quality and outcome measures, unequal distribution of resources and outcomes, and slow adoption of health IT.",
         "valence": "weakness",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -1327,7 +1323,7 @@
       },
       {
         "id": "USA-problems-016",
-        "statement": "Credit-report data show that in June 2020 an estimated 17.8% of people had medical debt in collections, averaging $429, and 13.0% had taken on such debt in the previous year.",
+        "statement": "Credit-report data show that in June 2020 an estimated 17.8% of people had medical debt in collections (13.0% took on new debt in the prior year); the study reports a mean amount of $429 ($311 accrued in the prior year).",
         "valence": "weakness",
         "source_id": "kluender-2021",
         "locator": {
@@ -1345,7 +1341,7 @@
       },
       {
         "id": "USA-problems-017",
-        "statement": "Average medical debt was highest in the South and lowest in the Northeast ($616 vs $167), and far higher in the poorest zip-code income decile than the richest ($677 vs $126).",
+        "statement": "In June 2020 the mean stock of medical debt ranged from $616 in the South to $167 in the Northeast, and was higher in poor than in rich zip-code income deciles ($677 vs $126).",
         "valence": "weakness",
         "source_id": "kluender-2021",
         "locator": {
@@ -1355,10 +1351,9 @@
           "passage_sha256": "afb01aa04ab0e070b836c0c6b185a64787e4591285dae413af0aecfe55b3826f"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-09",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-09"
         },
         "data_year": 2020
       },
@@ -1381,7 +1376,7 @@
       },
       {
         "id": "USA-problems-019",
-        "statement": "Medical bankruptcy, survey-based definition: a 2007 national survey of bankruptcy filers counted a filing as medical if debtors cited medical reasons, lost income to illness, or had large medical debts; on its conservative version of that definition, 62.1% of bankruptcies were medical.",
+        "statement": "Medical bankruptcy, survey-based definition: a 2007 survey of a random national sample of 2,314 bankruptcy filers classed filings as medical based on debtors' stated reasons for filing, income lost to illness and the size of their medical debts; on a conservative definition, 62.1% of 2007 bankruptcies were medical.",
         "valence": "weakness",
         "source_id": "himmelstein-2009",
         "locator": {
@@ -1399,14 +1394,14 @@
       },
       {
         "id": "USA-problems-020",
-        "statement": "Most of the medical debtors in that 2007 survey were well educated, middle-class homeowners, and three-quarters had health insurance.",
+        "statement": "In that 2007 survey, most medical debtors were well educated, owned homes and had middle-class jobs; three-quarters had health insurance.",
         "valence": "weakness",
         "source_id": "himmelstein-2009",
         "locator": {
           "section": "Abstract",
-          "char_start": 1298,
+          "char_start": 676,
           "char_end": 1422,
-          "passage_sha256": "1d24eb15b3a00db07124948ede2e83ac2f69406fc0b6aab825678843ef6a79dc"
+          "passage_sha256": "a5d0223c0046d9b29f8a132e08e2991106d3085ed1df06f8f7243331cb34e5e0"
         },
         "verification": {
           "passage_found": "pass",
@@ -1417,7 +1412,7 @@
       },
       {
         "id": "USA-problems-021",
-        "statement": "Medical bankruptcy, 'attributable' definition: a 2026 review, citing earlier research, attributes about two-thirds (66.5%) of personal bankruptcies to medical debt, whether from high costs or lost income.",
+        "statement": "Medical bankruptcy, 'attributable' definition: about two-thirds (66.5%) of all personal bankruptcies are put down to medical debt, whether through high costs or lost income.",
         "valence": "weakness",
         "source_id": "dong-2026",
         "locator": {
@@ -1434,7 +1429,7 @@
       },
       {
         "id": "USA-problems-022",
-        "statement": "Medical bankruptcy, causal definition: following non-elderly adults through their credit reports after a first hospital admission in 2003-2007, economists estimated that hospitalizations cause about 4% of personal bankruptcies among non-elderly US adults.",
+        "statement": "Medical bankruptcy, causal definition: linking adults aged 25-64 admitted to hospital in 2003-2007 (their first non-pregnancy stay in at least three years) to their 2002-2011 credit reports, researchers estimated that hospitalizations cause only 4% of personal bankruptcies among non-elderly US adults.",
         "valence": "neutral",
         "source_id": "dobkin-2018",
         "locator": {
@@ -1448,11 +1443,11 @@
           "supports": "pending",
           "checked_on": "2026-11-09"
         },
-        "data_year": "2003-2011"
+        "data_year": "2002-2011"
       },
       {
         "id": "USA-problems-023",
-        "statement": "The same authors argue the higher estimates count every filer with large medical bills as a medical bankruptcy, citing a 2014 federal estimate that about 20% of Americans have substantial medical debt while under 1% file for bankruptcy each year.",
+        "statement": "The same authors argue the higher estimates assume any bankruptcy by someone with substantial medical bills was caused by that debt, citing a 2014 Consumer Financial Protection Bureau report that about 20% of Americans have substantial medical debt while under 1% file for bankruptcy in a given year.",
         "valence": "neutral",
         "source_id": "dobkin-2018",
         "locator": {
@@ -1471,7 +1466,7 @@
     "reforms": [
       {
         "id": "USA-reforms-001",
-        "statement": "On 1 June 2026 an interim final rule interpreting H.R.1's work requirements narrowed the medically frail exemption by adding tests of severity and functional capacity.",
+        "statement": "An interim final rule issued on 1 June 2026 to interpret H.R.1's work requirements made severity and functional capacity part of how the medically frail exemption is defined.",
         "valence": "neutral",
         "source_id": "everhart-2026",
         "locator": {
@@ -1539,7 +1534,7 @@
       },
       {
         "id": "USA-reforms-005",
-        "statement": "The 2025 federal budget reconciliation law limits new state-directed payments near Medicare rates and phases down existing ones from 2028.",
+        "statement": "Under the 2025 federal budget reconciliation law, new state-directed payments are capped close to Medicare rates, and existing ones begin to be phased down in 2028.",
         "valence": "neutral",
         "source_id": "dong-2026",
         "locator": {
@@ -1549,10 +1544,9 @@
           "passage_sha256": "742efafbb908c4d771f11b03c63a6e7c2627c8098ccde16ef339f305dde7dadd"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-09",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -1575,7 +1569,7 @@
       },
       {
         "id": "USA-reforms-007",
-        "statement": "Since 2022, 10 states and 21 local governments have bought and cancelled $13.5 billion of medical debt for 7 million residents, mostly with temporary federal pandemic funds that run out after 2026.",
+        "statement": "Since 2022 state and local governments have bought up and cancelled residents' medical debt; in all, 10 states and 21 local governments have eliminated $13.5 billion for 7 million residents, mainly with temporary federal pandemic relief funds that expire after 2026.",
         "valence": "strength",
         "source_id": "dong-2026",
         "locator": {
@@ -1593,7 +1587,7 @@
       },
       {
         "id": "USA-reforms-008",
-        "statement": "The 2022 Inflation Reduction Act introduced Medicare price negotiation for selected drugs, limited to small-molecule drugs more than 7 years and biologics more than 11 years past approval, with about 2 years between selection and the negotiated price taking effect.",
+        "statement": "The 2022 Inflation Reduction Act introduced price negotiation for selected Medicare Part D drugs, limited to small-molecule drugs more than 7 years and biologics more than 11 years past initial approval, with about 2 years between selection and the negotiated price taking effect.",
         "valence": "strength",
         "source_id": "essa-2025",
         "locator": {
@@ -1628,7 +1622,7 @@
       },
       {
         "id": "USA-reforms-010",
-        "statement": "As of the 2020 review, the ACA had cut the uninsured rate from about 16% to 9%, through subsidies for private insurance and expanded Medicaid eligibility in 39 states.",
+        "statement": "The ACA cut the uninsured rate from about 16% to 9%, almost entirely through subsidies to buy private insurance and expanded Medicaid eligibility in 39 states (count as of the 2020 review; more states have expanded since).",
         "valence": "strength",
         "source_id": "hit-usa-2020",
         "locator": {
@@ -1648,7 +1642,7 @@
     "us_lessons": [
       {
         "id": "USA-us_lessons-001",
-        "statement": "Comparing the US with other high-income countries, researchers found it spent about twice as much while using care at broadly similar rates; prices of labour and goods, including drugs, and administrative costs explained most of the gap.",
+        "statement": "The US spent about twice as much as other high-income countries on medical care while using care at largely similar rates; prices of labour and goods, including drugs, and administrative costs appeared to be the main drivers of the difference.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
@@ -1661,8 +1655,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-09"
-        },
-        "data_year": "2013-2016"
+        }
       },
       {
         "id": "USA-us_lessons-002",
@@ -1679,8 +1672,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-09"
-        },
-        "data_year": 2016
+        }
       },
       {
         "id": "USA-us_lessons-003",
@@ -1715,8 +1707,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-09"
-        },
-        "data_year": 2020
+        }
       },
       {
         "id": "USA-us_lessons-005",

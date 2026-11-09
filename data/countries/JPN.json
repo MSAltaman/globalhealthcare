@@ -3,7 +3,7 @@
   "name": "Japan",
   "wave": 0,
   "system_as_of": "2026-11-09",
-  "status": "verified",
+  "status": "draft",
   "model": {
     "type": "social_health_insurance",
     "label": "Mandatory social health insurance through about 3,000 employment- and residence-based insurers, with a single national fee schedule"
@@ -206,6 +206,25 @@
           "checked_on": "2026-11-09",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "JPN-financing-006",
+        "statement": "In FY2024, 37.4% of national medical care expenditure was paid from public funds (24.6% national government, 12.8% local government), 50.3% from insurance premiums (21.9% from employers and 28.5% from insured people) and 12.2% from other sources, including patients' own payments (11.8%).",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024",
+        "locator": {
+          "section": "3 財源別国民医療費 (表3)",
+          "page": 2,
+          "char_start": 3020,
+          "char_end": 3238,
+          "passage_sha256": "7143bee1c8f02a41c27a53fc7c3aeb8688152b7b1ae97880562b5f02ebd914c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
       }
     ],
     "covered": [
@@ -529,6 +548,41 @@
           "checked_on": "2026-11-09",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "JPN-financial_hardship-003",
+        "statement": "In the National Cancer Center's 2018 Patient Experience Survey, about 30% of the 6,766 responses from cancer patients reported financial toxicity, which the authors define as the cost of cancer treatment raising the risk of stopping treatment and causing anxiety in daily life.",
+        "valence": "weakness",
+        "source_id": "suga-2026",
+        "locator": {
+          "section": "Abstract (Purpose, Methods, Results)",
+          "char_start": 3210,
+          "char_end": 4128,
+          "passage_sha256": "b3b666865cba896fe6a02d20289a0e535873aeabafcc4873abe0297491a99294"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "JPN-financial_hardship-004",
+        "statement": "In a nationwide survey of bereaved relatives of cancer patients (the J-HOPE2016 study), about 7.5% of the 510 who returned questionnaires said cancer treatment had been stopped or changed for financial reasons.",
+        "valence": "weakness",
+        "source_id": "sasaki-2022",
+        "locator": {
+          "section": "Abstract (Methods, Results)",
+          "char_start": 1357,
+          "char_end": 2085,
+          "passage_sha256": "e8d9619c343309d3bd8e555e00d2484b7ac4d3c4e07b55744029e0ecfbaa486e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
       }
     ],
     "additional_care": [
@@ -800,6 +854,42 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1990-2015"
+      },
+      {
+        "id": "JPN-outcomes-007",
+        "statement": "Japan's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 87.5 (95% uncertainty interval 86.3-88.4) in 2019 in the GBD 2019 study, 14.6 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 overall (0-74 years) and absolute change 1990-2019 overall",
+          "char_start": 40927,
+          "char_end": 41091,
+          "passage_sha256": "5343e315e9e0762feb58027ec9fe611736f869bf410bb737cfba16315fe1ba8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "JPN-outcomes-008",
+        "statement": "In the GBD 2016 HAQ Index study, Japan was in the top (tenth) decile of countries in 2016; with Canada, Australia and New Zealand it was an exception to the clustering of top-decile countries in or near Europe.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2016",
+        "locator": {
+          "section": "Results: National HAQ Index performance (figure 1)",
+          "char_start": 42339,
+          "char_end": 42726,
+          "passage_sha256": "6f954df1321689c85b211bd5d2c73cf51b5493688aa8282d94a0c1296406de9b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2016
       }
     ],
     "costs": [
@@ -821,24 +911,6 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
-      },
-      {
-        "id": "JPN-costs-002",
-        "statement": "People aged 65 and over, 29% of the population, accounted for 62% of health spending.",
-        "valence": "neutral",
-        "source_id": "cwf-jpn-2026",
-        "locator": {
-          "section": "Health Care Spending Overview",
-          "char_start": 23535,
-          "char_end": 23643,
-          "passage_sha256": "32e4df5236dff037cf949664d258bd47bc55bb7b2191aca346608467b3d54bef"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        }
       },
       {
         "id": "JPN-costs-003",
@@ -897,6 +969,62 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1995-2015"
+      },
+      {
+        "id": "JPN-costs-006",
+        "statement": "Japan's national medical care expenditure, the ministry's own measure, was about JPY 48.8 trillion in fiscal year 2024, 1.5% more than in FY2023 (about JPY 48.1 trillion); spending per person rose 2.0% to JPY 394,300, and the total equalled 7.60% of GDP, down from 7.76% the year before.",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024",
+        "locator": {
+          "section": "1 国民医療費の状況 (表1)",
+          "page": 1,
+          "char_start": 34,
+          "char_end": 202,
+          "passage_sha256": "b35337c94ba97b47a73ef622568a0532b3a1467432a7f44e7cc220581631731e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-costs-007",
+        "statement": "The ministry's national medical care expenditure counts only the cost of treating conditions that public insurance can cover; it leaves out services outside insurance, such as advanced medical technology and private hospital rooms, as well as normal pregnancy and childbirth, health check-ups, vaccinations, and artificial eyes or limbs for permanent disabilities.",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024-def",
+        "locator": {
+          "section": "1 国民医療費の範囲",
+          "page": 1,
+          "char_start": 45,
+          "char_end": 347,
+          "passage_sha256": "febc7b7ea821a90602b5b659093fce2ba4db8614c7f6345fdcea8b94f405ad14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "JPN-costs-008",
+        "statement": "People aged 65 and over accounted for 60.1% of national medical care expenditure in FY2024 (about JPY 29.3 trillion); spending per person was JPY 809,800 for this age group against JPY 222,300 for people under 65.",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024",
+        "locator": {
+          "section": "5 年齢階級別国民医療費 (表5)",
+          "page": 4,
+          "char_start": 5942,
+          "char_end": 6132,
+          "passage_sha256": "cb50a093de8c33d09a7a4a46ef51c20c1ced4d71c368f8a05b3c2c9c809ef1f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
       }
     ],
     "what_works": [
@@ -996,6 +1124,24 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2002-2007"
+      },
+      {
+        "id": "JPN-what_works-006",
+        "statement": "In 2016 Japan had the smallest spread of HAQ Index scores between its best- and worst-performing subnational areas (4.8 points); the gap was more than twice as large in the USA and three times as large in England.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2016",
+        "locator": {
+          "section": "Summary/Findings: subnational HAQ Index",
+          "char_start": 19356,
+          "char_end": 19631,
+          "passage_sha256": "719f2166b6256a957b2c09b7fd283884eb6892abc75bbda21f8b773e1c477b7d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2016
       }
     ],
     "problems": [
@@ -1326,22 +1472,20 @@
       },
       {
         "id": "JPN-reforms-007",
-        "statement": "Since 2021 the My Number identity card has worked as a health insurance card giving providers access to patients' records, and as of 2025 it is the only form of health insurance identification.",
+        "statement": "Since 2021 residents have been able to use the government-issued My Number identity card to obtain health care; a chip in the card gives providers access to the patient's own health records.",
         "valence": "neutral",
         "source_id": "cwf-jpn-2026",
         "locator": {
           "section": "Health Care Technology",
           "char_start": 31751,
-          "char_end": 32045,
-          "passage_sha256": "04a9c224b71b06970a9c922244bd915a1e276f10622cc95e98d7e4ac3c9c7a49"
+          "char_end": 31957,
+          "passage_sha256": "36f4a7aa0f9615baec0a2c83da103cc94a050d5728016ea9afc46e06469e70bd"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2025
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
       },
       {
         "id": "JPN-reforms-008",
@@ -1360,6 +1504,98 @@
           "checked_on": "2026-11-09",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "JPN-reforms-009",
+        "statement": "As of December 2025 the ministry tells patients to show either a My Number insurance card or an eligibility certificate at the reception of medical institutions and pharmacies, and states that the validity of the old health insurance cards has ended.",
+        "valence": "neutral",
+        "source_id": "mhlw-myna-2025",
+        "locator": {
+          "section": "Page 1",
+          "page": 1,
+          "char_start": 11,
+          "char_end": 80,
+          "passage_sha256": "658daca08c9bd168378bb7c10b19f61b4e2751d5ba90b0e68b3a5cdefadd0aec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-reforms-010",
+        "statement": "People who have not registered their My Number card for health insurance are sent an eligibility certificate without having to apply, and card holders who find it hard to use the card when seeking care, such as older or disabled people, can obtain one on application.",
+        "valence": "neutral",
+        "source_id": "mhlw-myna-2025",
+        "locator": {
+          "section": "Page 2",
+          "page": 2,
+          "char_start": 616,
+          "char_end": 743,
+          "passage_sha256": "4c6fb1e9e8e6aa2158f0f0fda73d76b3bf2fce5cc130dc65ea0bde10bc5b92c3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-reforms-011",
+        "statement": "The ministry says the aims of the FY2026 fee-schedule revision include responding to rising prices, wages and staff shortages, reorganising and linking hospital functions with a view to around 2040, securing local care, and making health insurance more stable and sustainable through efficiency; the new fees and device prices took effect on 1 June 2026 and the new drug prices on 1 April 2026.",
+        "valence": "neutral",
+        "source_id": "mhlw-changes-2026-04",
+        "locator": {
+          "section": "医療関係: 令和8年度診療報酬改定・令和8年度薬価改定",
+          "char_start": 234,
+          "char_end": 457,
+          "passage_sha256": "77adbc7b28e923d0d87f6d75834d1f9593a18dbd63d39e1fbae0f35074e96389"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-012",
+        "statement": "After budget talks between ministers on 24 December, the FY2026 medical fee revision was set at +3.09% as a two-year average for FY2026 and FY2027, applied in steps of +2.41% in FY2026 and +3.7% in FY2027; of the total, 1.70% is earmarked for pay rises.",
+        "valence": "neutral",
+        "source_id": "chuikyo-639-2025",
+        "locator": {
+          "section": "議事: 令和8年度診療報酬改定の改定率等について (医療課長の説明)",
+          "char_start": 1089,
+          "char_end": 1408,
+          "passage_sha256": "8f64f6893d61ab65233bee69639a598a5e9104a7bf4d8da2aa5e115379a0e91c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-013",
+        "statement": "In the same FY2026 revision, the revision rate for drug prices was -0.86%, and -0.87% for drug and medical materials prices combined.",
+        "valence": "neutral",
+        "source_id": "chuikyo-639-2025",
+        "locator": {
+          "section": "議事: 令和8年度診療報酬改定の改定率等について (医療課長の説明)",
+          "char_start": 2402,
+          "char_end": 2453,
+          "passage_sha256": "372869a8de806b5d6fa73886636f2231579d55c3ebf959b72cc4f9ad93cc19b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
       }
     ],
     "us_lessons": [
@@ -1622,6 +1858,111 @@
       "url": "https://doi.org/10.1377/hlthaff.2011.1037",
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22566445&rettype=abstract&retmode=text",
       "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-nme-2024",
+      "title": "Overview of national medical care expenditure, FY2024 (令和6(2024)年度 国民医療費の概況): summary of results",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06kekka.pdf",
+      "accessed": "2026-11-09",
+      "funding_note": "Official statistics released 30 October 2026 (https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/)."
+    },
+    {
+      "id": "mhlw-nme-2024-def",
+      "title": "Overview of national medical care expenditure, FY2024: scope and estimation method (国民医療費の範囲と推計方法の概要)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06gaiyou.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-myna-2025",
+      "title": "Leaflet: show your My Number insurance card or eligibility certificate at reception (as of December 2025)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/content/12400000/001280688.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-changes-2026-04",
+      "title": "Main system changes of the Ministry of Health, Labour and Welfare (April 2026) (厚生労働省関係の主な制度変更(令和8年4月))",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/stf/newpage_71570.html",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "chuikyo-639-2025",
+      "title": "Central Social Insurance Medical Council (Chuikyo), general meeting no. 639, minutes, 26 December 2025",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/stf/newpage_69393.html",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "suga-2026",
+      "title": "Sociodemographic factors related to financial toxicity among cancer patients and survivors: the Second Cancer Patient Experience Survey, a nationwide study in Japan",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Suga K, Ito Y, Inoue K, Ichinose Y, Higashi T, Kondo N",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1007/s00520-026-10818-4",
+      "doi": "10.1007/s00520-026-10818-4",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13236782",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "sasaki-2022",
+      "title": "Influence of financial burden on withdrawal or change of cancer treatment in Japan: results of a bereavement survey",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Sasaki T, Aoyama M, Igarashi N, Morita T, Shima Y, Miyashita M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00520-022-06933-7",
+      "doi": "10.1007/s00520-022-06933-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35230531&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-09",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "gbd-haq-2016",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "accessed": "2026-11-09",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
     }
   ],
   "rankings": [],

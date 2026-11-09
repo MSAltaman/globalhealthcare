@@ -122,6 +122,23 @@ countries in its prompt (default 3).
    claims and sources per country, statements dropped or corrected in review,
    blocked domains, and open questions for the reviewer.
 
+## Rankings
+
+Record every published cross-country ranking that states the country's
+position, in `rankings`, each as the source's own finding:
+- **Commonwealth Fund Mirror, Mirror 2024** (10 countries: Australia, Canada,
+  France, Germany, Netherlands, New Zealand, Sweden, Switzerland, UK, US):
+  overall plus each domain.
+- **GBD Healthcare Access and Quality (HAQ) Index** (The Lancet; 195-204
+  countries), which covers every country in this atlas except Taiwan: the
+  country's rank or score where the paper or its appendix table states it,
+  with the data year.
+- Other peer-reviewed or intergovernmental comparisons that rank countries,
+  if the source states the position.
+Do not use commercial or opinion "best healthcare" lists. If no qualifying
+ranking states the country's position, leave `rankings` empty and say so in
+the PR.
+
 ## Financial hardship section
 
 Every profile fills `financial_hardship`. The comparable rates (households

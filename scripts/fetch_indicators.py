@@ -1,4 +1,4 @@
-"""Pull comparable indicators straight from the World Bank and WHO GHO APIs.
+"""Pull comparable indicators straight from the World Bank, WHO GHO and OECD APIs.
 
 No model ever writes these numbers. For each country and indicator the script
 keeps the most recent non-empty value, its year, the API URL it came from, and
@@ -63,6 +63,36 @@ def gho_latest(payload: dict) -> dict | None:
     return {"value": row["NumericValue"], "year": int(row["TimeDim"])}
 
 
+OECD = "https://sdmx.oecd.org/public/rest/data"
+_oecd_cache: dict[str, list[dict]] = {}
+
+
+def oecd_rows(dataflow: str, start: int, session) -> list[dict]:
+    """All rows of an OECD SDMX dataflow since `start`, as labelled CSV records (cached per run)."""
+    if dataflow not in _oecd_cache:
+        import csv
+        import io
+        url = f"{OECD}/{dataflow}/all?startPeriod={start}&dimensionAtObservation=AllDimensions&format=csvfilewithlabels"
+        resp = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=180)
+        resp.raise_for_status()
+        _oecd_cache[dataflow] = list(csv.DictReader(io.StringIO(resp.content.decode("utf-8-sig"))))
+    return _oecd_cache[dataflow]
+
+
+def oecd_latest(rows: list[dict], iso3: str, filters: dict) -> dict | None:
+    """Most recent value for one country matching every label filter."""
+    best = None
+    for r in rows:
+        if r.get("REF_AREA") != iso3 or not r.get("OBS_VALUE"):
+            continue
+        if any(r.get(k) != v for k, v in filters.items()):
+            continue
+        year = int(r["TIME_PERIOD"][:4])
+        if best is None or year > best["year"]:
+            best = {"value": float(r["OBS_VALUE"]), "year": year}
+    return best
+
+
 def source_org(meta_payload: list) -> str | None:
     try:
         return meta_payload[1][0].get("sourceOrganization")
@@ -86,7 +116,7 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
     out = {
         "iso3": iso3,
         "retrieved": dt.date.today().isoformat(),
-        "provider": "World Bank WDI API and WHO Global Health Observatory API",
+        "provider": "World Bank WDI, WHO Global Health Observatory and OECD Health Statistics APIs",
         "indicators": [],
     }
     for ind in CONFIG["world_bank"]:
@@ -116,6 +146,19 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
             "year": latest["year"] if latest else None,
             "original_source": "World Health Organization, Global Health Observatory",
             "api_url": url,
+        })
+    for ind in CONFIG.get("oecd", []):
+        rows = oecd_rows(ind["dataflow"], start, session)
+        latest = oecd_latest(rows, iso3, ind["filters"])
+        out["indicators"].append({
+            "id": ind["id"],
+            "label": ind["label"],
+            "unit": ind["unit"],
+            "group": ind["group"],
+            "value": latest["value"] if latest else None,
+            "year": latest["year"] if latest else None,
+            "original_source": "OECD Health Statistics",
+            "api_url": f"{OECD}/{ind['dataflow']}/all",
         })
     return out
 

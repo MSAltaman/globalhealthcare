@@ -3,7 +3,7 @@
   "name": "Mexico",
   "wave": 0,
   "system_as_of": "2026-11-09",
-  "status": "verified",
+  "status": "draft",
   "model": {
     "type": "mixed",
     "label": "Segmented system: employment-based social insurance institutes for formal workers, tax-funded public services for everyone else (now largely run by IMSS-Bienestar), and a large out-of-pocket private sector"
@@ -494,6 +494,25 @@
           "checked_on": "2026-11-09",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "MEX-cost_sharing-007",
+        "statement": "According to the national household income and expenditure survey, average monthly monetary spending on health per household was 535 pesos in 2024 (in 2024 pesos), up from 382 pesos in 2016: an 8.0% rise since 2022 and a 40.0% rise over 2016-2024.",
+        "valence": "weakness",
+        "source_id": "inegi-enigh-2024",
+        "locator": {
+          "section": "II. Gastos, cuadro 2",
+          "page": 5,
+          "char_start": 11024,
+          "char_end": 11995,
+          "passage_sha256": "b3779e04669e6fe4f011c243d165738b08eba9f342348b8c7b42cb4d93ab177f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
       }
     ],
     "financial_hardship": [
@@ -820,6 +839,80 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2015-2019"
+      },
+      {
+        "id": "MEX-access-008",
+        "statement": "A 2026 evaluation using the 2024 national health and nutrition survey compared uninsured people in states that joined IMSS-BIENESTAR with those in states that kept their own health services: people in IMSS-BIENESTAR states more often reported a health need, but in both groups a low share was treated in the public sector, and the chance of receiving care did not differ between the two kinds of state.",
+        "valence": "weakness",
+        "source_id": "colchero-2026",
+        "locator": {
+          "section": "Abstract (Spanish)",
+          "char_start": 1237,
+          "char_end": 1613,
+          "passage_sha256": "db4f2cd8e3caf8f63e74eed6e281ef11b285d890778b5355044532edb84e3c44"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-access-009",
+        "statement": "In Mexico's official poverty measurement, a person counts as lacking access to health services when they have no affiliation with, or entitlement to medical services from, a public institution or private provider; the indicator measures entitlement rather than actual use of care.",
+        "valence": "neutral",
+        "source_id": "inegi-pm-rr-2024",
+        "locator": {
+          "section": "Carencia por acceso a los servicios de salud, p. 19",
+          "page": 19,
+          "char_start": 29884,
+          "char_end": 30258,
+          "passage_sha256": "1f1ee741b0fbbea243eb084029c1df550a0236b8a81b3b1a646d2d30058f6fd9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "MEX-access-010",
+        "statement": "In 2024, 34.2% of the population (44.5 million people) lacked access to health services by this measure; the share had risen from 15.6% in 2016 to 39.1% in 2022, then fell by 4.9 percentage points between 2022 and 2024 as 5.9 million more people reported being affiliated with or entitled to care from a public or private institution.",
+        "valence": "weakness",
+        "source_id": "inegi-pm-rr-2024",
+        "locator": {
+          "section": "Carencia por acceso a los servicios de salud, p. 20, gráfica 13",
+          "page": 20,
+          "char_start": 31408,
+          "char_end": 31953,
+          "passage_sha256": "e62a13266428cc10a85cfb65b0c54ab7f49bf0ceea067096c90337f7ab9d1107"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-access-011",
+        "statement": "In 2024 the lack of access to health services by this measure affected 30.1% of the urban population (30.6 million people) and 48.7% of the rural population (13.9 million).",
+        "valence": "weakness",
+        "source_id": "inegi-pm-rr-2024",
+        "locator": {
+          "section": "Carencia por acceso a los servicios de salud, p. 20-21, cuadro 4",
+          "page": 20,
+          "char_start": 32477,
+          "char_end": 32756,
+          "passage_sha256": "6e30f636360b5bbf0cbb4777c697b13e6ca2e0923facd5be58915742860e1d09"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
       }
     ],
     "outcomes": [
@@ -953,6 +1046,42 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2006-2021"
+      },
+      {
+        "id": "MEX-outcomes-008",
+        "statement": "In the GBD 2016 Healthcare Access and Quality (HAQ) Index, Mexico was in the sixth of ten deciles nationally; six Mexican states reached the seventh decile, most were in the sixth, and four states, all on the southern border, were in the fifth.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: subnational HAQ Index",
+          "char_start": 44958,
+          "char_end": 45415,
+          "passage_sha256": "4af6c2961ebb308da779566b8843b29dce738da3e3fe6e7c580aa2f60e32a200"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "MEX-outcomes-009",
+        "statement": "Mexico's HAQ Index improved much faster in 1990-2000 than in 2000-2016, while the gap between its best- and worst-scoring states narrowed somewhat, from 20.9 points to 17.0 points.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: HAQ Index trends",
+          "char_start": 50083,
+          "char_end": 50291,
+          "passage_sha256": "32cc4d222b70100b62cd52929bdac5b849fb239abde25cbe7b16ba9774dbe431"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "1990-2016"
       }
     ],
     "costs": [
@@ -1372,6 +1501,40 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2015-2024"
+      },
+      {
+        "id": "MEX-problems-013",
+        "statement": "The authors of a 2026 review write that austerity under the previous (2018-2024) administration, together with long-standing weaknesses in how medicines were procured, caused supply disruptions, public discontent and protests.",
+        "valence": "weakness",
+        "source_id": "cad-saude-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 29125,
+          "char_end": 29331,
+          "passage_sha256": "a604f1a68839a4374eec51bf022a765ce7562c34d2a890bd0c6166fc3f8c2717"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "MEX-problems-014",
+        "statement": "A 2022 policy report argues that the health system changes made by the 2018-2024 government caused major setbacks in guaranteeing access to medicines, with effects, in the authors' view, on user and citizen satisfaction, household health spending and health conditions.",
+        "valence": "weakness",
+        "source_id": "gomez-dantes-2022",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 907,
+          "char_end": 1264,
+          "passage_sha256": "b71a3ecc4adc81c1d020301a0e67287d541ad8c155dd9b0c9b8d319a4cfd9dc2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
       }
     ],
     "reforms": [
@@ -1504,6 +1667,221 @@
           "checked_on": "2026-11-09",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "MEX-reforms-008",
+        "statement": "The decree creating the Servicio Universal de Salud (SUS, Universal Health Service) sets it up as a compulsory mechanism to coordinate and operationally integrate the federal public institutions that provide health care, plus any state health services that join, aiming at progressive, effective and non-discriminatory access for everyone, subject to the level of care needed and each institution's installed, financial and budget capacity.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Primero",
+          "char_start": 19283,
+          "char_end": 19989,
+          "passage_sha256": "70145413096344a6034369c7b450b4015ae612465ef53ddf9d0c22501801eb93"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-009",
+        "statement": "The SUS has a national register, administered by the Ministry of Health, that is built as people sign up for a health credential; registration is free and uses the CURP population registry code as the unique identifier, and the credential is meant to ease access to the network's services.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Séptimo",
+          "char_start": 28178,
+          "char_end": 28921,
+          "passage_sha256": "a83d27e404a0bccd0eed6bca242a86790fab7d1b2b7016c325596be00bca47ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-010",
+        "statement": "On 7 April 2026 the President announced the decree creating the Universal Health Service, stating that its aim is for people to be able to use any of the three public systems (IMSS, IMSS-Bienestar and ISSSTE); registration for the credential was to run from 13 to 30 April at 2,059 Welfare Ministry offices, starting with people aged 85 and over.",
+        "valence": "neutral",
+        "source_id": "presidencia-sus-2026",
+        "locator": {
+          "section": "Comunicado, 7 April 2026",
+          "char_start": 1035,
+          "char_end": 2148,
+          "passage_sha256": "0ce23387b0a93e27e9bb7ebbb8b5eb1331ec9df8a7aa0434aef92549858c3072"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-011",
+        "statement": "According to the government's announced timetable, exchange of specialised services between institutions is to begin in the second half of 2027, and in 2028 the plan is to add universal filling of prescriptions, specialist outpatient consultations, referred hospital admissions and open access to primary care for chronic conditions.",
+        "valence": "neutral",
+        "source_id": "presidencia-sus-2026",
+        "locator": {
+          "section": "Comunicado, 7 April 2026",
+          "char_start": 4199,
+          "char_end": 4509,
+          "passage_sha256": "c92c6843fd078c41368fbbfecff948c69ed44508ed6230ccc6b06e1da0707f05"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-012",
+        "statement": "A 2026 review notes that the health system changes of the previous government have been kept in place under President Claudia Sheinbaum (2024-2030), Mexico's first woman president.",
+        "valence": "neutral",
+        "source_id": "cad-saude-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 32821,
+          "char_end": 33024,
+          "passage_sha256": "8655b03e1c0864295399ec1e94d051cda44f690db3992a0e46f368b8b4078a95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "MEX-reforms-013",
+        "statement": "On 31 October 2024 the Ministry of Health presented a new consolidated purchasing model for medicines and medical supplies for 2025-2026, in which 26 institutions would take part and national and international suppliers could bid; the ministry described it as the country's largest such purchase by volume and number of items.",
+        "valence": "neutral",
+        "source_id": "ssa-compra-2025",
+        "locator": {
+          "section": "Press release 433, 31 October 2024",
+          "char_start": 1135,
+          "char_end": 2180,
+          "passage_sha256": "19f4ab6200977cd769a3e4791c0001c12c1d1e54cae6a5123b6da6819aa2321d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-reforms-014",
+        "statement": "As the ministry described the mechanism, the Ministry of Health diagnoses, plans and supervises the purchase, each institution sets its needs by item and delivery point, the state-owned company Birmex carries out the purchase, and the institutions sign contracts and receive the goods; the purchase was to cover 4,454 items of medicines and supplies with a budget of 130 billion pesos.",
+        "valence": "neutral",
+        "source_id": "ssa-compra-2025",
+        "locator": {
+          "section": "Press release 433, 31 October 2024",
+          "char_start": 3213,
+          "char_end": 4203,
+          "passage_sha256": "6f32ea5bd855df745a9cffa247aee9e981ef3cb6ae234a6a4dc160ba6ecc7103"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-reforms-015",
+        "statement": "Under the decree, the SUS is a network built on capacity shared between IMSS, ISSSTE, IMSS-BIENESTAR, PEMEX hospitals and clinics, the federal reference hospitals and the National Institutes of Health, and open to other public providers that choose to join, such as state health services outside IMSS-BIENESTAR; through it, free medical care and medicines are to be provided under rules to be issued.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Segundo",
+          "char_start": 19990,
+          "char_end": 21056,
+          "passage_sha256": "ee0661c6e3166f0e793aa7c7750e70cea477d7839689b55cb6fd8a5ea69578c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-016",
+        "statement": "The SUS network is to work by institutions exchanging services with budgetary and financial compensation: the institution a patient belongs to must reimburse the institution that treats them.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Segundo",
+          "char_start": 21373,
+          "char_end": 21740,
+          "passage_sha256": "4ecb7469f80f0d48380e96d1807785745a42b28c6536dc31fd11e2fc02afc88b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-017",
+        "statement": "The decree phases in the exchange of services between institutions; the first stage, from 1 January 2027, prioritises free emergency care in any facility until discharge, care for high-risk pregnancies including obstetric emergencies, and heart-attack and stroke protocols with access to any facility and transfer to better-equipped units.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Transitorios, Tercero",
+          "char_start": 33359,
+          "char_end": 34163,
+          "passage_sha256": "b194809d6f9b41b2c5351819bccdfe409f52fb26963f6cef30278d57dd055143"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-018",
+        "statement": "The priorities listed in the decree also include keeping outpatient treatment going, at the institution where it began, for patients with chronic kidney failure, cancer, transplants, HIV or haemophilia who lose social-security entitlement; completing vaccinations at any public unit; and primary care consultations, including prescriptions, at the unit nearest the patient.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Transitorios, Tercero",
+          "char_start": 34166,
+          "char_end": 34885,
+          "passage_sha256": "64122b30442ae478becb52218bc957bb427d16cd848cd39e718d85a9c4525961"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-019",
+        "statement": "A second stage of the exchange of services, from 1 July 2027, is to add laboratory and imaging tests (including CT, ultrasound and MRI) and radiotherapy sessions.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Transitorios, Tercero",
+          "char_start": 34886,
+          "char_end": 35218,
+          "passage_sha256": "3595d6f78a176f5626b4bf0e5ba713f3802da74d93a7dc37c9bb52b30df2d37e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2026
       }
     ],
     "us_lessons": []
@@ -1667,6 +2045,122 @@
       "accessed": "2026-11-09",
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10881114",
       "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "dof-sus-decree-2026",
+      "title": "DECRETO por el que se crea el Servicio Universal de Salud del Gobierno de México (Diario Oficial de la Federación)",
+      "publisher": "Presidencia de la República / Diario Oficial de la Federación (via SIDOF, Secretaría de Gobernación)",
+      "authors": "Sheinbaum Pardo C (Presidenta de los Estados Unidos Mexicanos)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5785257",
+      "accessed": "2026-11-09",
+      "funding_note": "Legal text of the federal government's own decree; describes intended design and timetable, not results."
+    },
+    {
+      "id": "presidencia-sus-2026",
+      "title": "Presidenta anuncia decreto para crear el Servicio Universal de Salud; del 13 al 30 de abril inicia credencialización de personas de 85 años",
+      "publisher": "Presidencia de la República (gob.mx), press release",
+      "authors": "Presidencia de la República",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gob.mx/presidencia/prensa/presidenta-anuncia-decreto-para-crear-el-servicio-universal-de-salud-del-13-al-30-de-abril-inicia-credencializacion-de-personas-de-85-anos",
+      "accessed": "2026-11-09",
+      "funding_note": "Government press release announcing its own programme; used only for announced plans and dates, attributed to the government."
+    },
+    {
+      "id": "ssa-compra-2025",
+      "title": "433. Secretaría de Salud presenta nuevo modelo, transparente y digital, para la compra de medicamentos 2025-2026",
+      "publisher": "Secretaría de Salud (gob.mx), press release",
+      "authors": "Secretaría de Salud",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.gob.mx/salud/prensa/433-secretaria-de-salud-presenta-nuevo-modelo-transparente-y-digital-para-la-compra-de-medicamentos-2025-2026",
+      "accessed": "2026-11-09",
+      "funding_note": "Ministry of Health press release describing its own procurement design; used only for the design as announced, attributed to the ministry."
+    },
+    {
+      "id": "inegi-pm-rr-2024",
+      "title": "Reporte de resultados 27/25: Análisis de los resultados de la medición de la pobreza multidimensional, 2024",
+      "publisher": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "authors": "INEGI",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/pm/pm2025_RR_08.pdf",
+      "accessed": "2026-11-09",
+      "funding_note": "Official statistics. INEGI now produces the poverty measurement, applying CONEVAL's methodology to ENIGH 2024."
+    },
+    {
+      "id": "inegi-enigh-2024",
+      "title": "Comunicado de prensa 112/25: Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2024",
+      "publisher": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "authors": "INEGI",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/enigh/ENIGH2024.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cad-saude-2026",
+      "title": "Health policies and reforms in Mexico (2000-2024): segmentation and challenges for universal rights",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "dos Anjos EF, López-Arellano O, Pereira Pinto EJ, Machado CV",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/0102-311XEN278225",
+      "doi": "10.1590/0102-311XEN278225",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13460892",
+      "license": "CC BY 4.0",
+      "funding_note": "Authors at Fiocruz (Brazil) and UAM (Mexico); a co-author has previously published a critique of market-oriented (\"neoliberal\") health reform in Mexico. One author reports Brazilian research funding (CNPq, Faperj)."
+    },
+    {
+      "id": "gomez-dantes-2022",
+      "title": "Challenges of Guaranteeing Access to Medicines in Mexico: Lessons from Recent Changes in Pharmaceuticals Procurement",
+      "publisher": "Health Systems & Reform",
+      "authors": "Gómez-Dantés O, Dreser A, Wirtz VJ, Reich MR",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1080/23288604.2022.2084221",
+      "doi": "10.1080/23288604.2022.2084221",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35723656&rettype=abstract&retmode=text",
+      "funding_note": "Policy report (abstract only used). Lead author is a researcher associated with the Seguro Popular-era Ministry of Health; the paper is critical of the 2018-2024 government's procurement changes."
+    },
+    {
+      "id": "colchero-2026",
+      "title": "Utilización de servicios en población sin derechohabiencia: evaluación de impacto del IMSS-BIENESTAR",
+      "publisher": "Salud Pública de México",
+      "authors": "Colchero-Aragonés MA, Rubio J, Bautista-Arredondo S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.21149/17891",
+      "doi": "10.21149/17891",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42873952&rettype=abstract&retmode=text",
+      "funding_note": "Spanish abstract only. Authors from the National Institute of Public Health (INSP), UNAM and the Ministry of Health's economic analysis unit, so not fully independent of government."
+    },
+    {
+      "id": "haq-2018",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "funding_note": "IHME / GBD collaboration, funded by the Bill & Melinda Gates Foundation."
     }
   ],
   "rankings": [],

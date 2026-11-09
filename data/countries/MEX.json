@@ -444,14 +444,915 @@
         }
       }
     ],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "financial_hardship": [
+      {
+        "id": "MEX-financial_hardship-001",
+        "statement": "A study of 470,104 households surveyed from 2000 to 2022 found that protection against catastrophic and excessive health spending improved for most households up to 2014, especially among Seguro Popular members, but worsened after INSABI replaced Seguro Popular in 2020, with households holding mixed public coverage reaching the highest rates by 2022.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4111,
+          "char_end": 4426,
+          "passage_sha256": "44be60451b5c4b3e7e61c3e16f9989ae5f19b31cbcecb68842fcf7d54d6d83e0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-financial_hardship-002",
+        "statement": "Over 2000-2022, households with social security consistently bore the lowest financial burden from health costs, while uninsured and INSABI-affiliated households were at substantially higher risk; growing use of private care, especially for medicines, added to out-of-pocket spending.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4427,
+          "char_end": 4679,
+          "passage_sha256": "d28a802046b067c326f0d996b04e275a18a99b4c927630cb053d0b2b48937bda"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-financial_hardship-003",
+        "statement": "Between 2018 and 2020 the share of households without health insurance almost doubled, from 8.8% (3 million households) to 16.5% (5.8 million), and catastrophic health spending rose by 18.4%; significant increases in catastrophic, impoverishing and excessive spending were seen only among uninsured households.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2023",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3068,
+          "char_end": 3494,
+          "passage_sha256": "61d6c9109e8580c8a7dabf46a27de7d8ff094fd553d267361627cc8b32acd205"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2020"
+      },
+      {
+        "id": "MEX-financial_hardship-004",
+        "statement": "The authors conclude that ending Seguro Popular and replacing it with INSABI early in the COVID-19 pandemic reduced health coverage, and that this and the pandemic together raised out-of-pocket spending and catastrophic and excessive spending in 2018-2020, most of all for uninsured households and those in central and southern states.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2023",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 3818,
+          "char_end": 4260,
+          "passage_sha256": "0f080beeb89bfb7f157de4dfc758e83a3f7550f802dad40304a92c720172254b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2020"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "MEX-additional_care-001",
+        "statement": "Private health insurance covered nearly 8% of the population, many of them higher-income people who also have IMSS or ISSSTE cover and get private insurance as an employment benefit; most private care is paid out of pocket on a fee-for-service basis.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 26,
+          "char_start": 34354,
+          "char_end": 34679,
+          "passage_sha256": "6af1e73c2e7183dbbe943af92a171c4b70fffe366bff6aab834f4096d3d0166c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-additional_care-002",
+        "statement": "Doctors' consulting rooms attached to pharmacies grew to about 15,000 by 2015; the review says they are popular for shorter waits and cheaper visits but raise concerns about weak quality oversight, inappropriate prescribing and conflicts of interest with pharmacy owners.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "5 Provision of services",
+          "page": 180,
+          "char_start": 365842,
+          "char_end": 366431,
+          "passage_sha256": "f741a2954c8c11496c1f9bb7b733820d336b2bb812f4eeb8ba77b1889f067a63"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2015
+      },
+      {
+        "id": "MEX-additional_care-003",
+        "statement": "Private hospitals held 24.3% of hospital beds and accounted for 25.1% of hospital discharges.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 29,
+          "char_start": 41844,
+          "char_end": 41954,
+          "passage_sha256": "99679ed6921af48b22e98e5105d08c2359c3b01001aef1134329cacf6ba0e288"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-additional_care-004",
+        "statement": "Among people without social security, the private sector's share of outpatient care rose from 38% in 2006 to 66% in 2022, even though two national programmes sought to extend public coverage to nearly 50 million people.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2359,
+          "char_end": 2552,
+          "passage_sha256": "a4b13a44a4d250c72e7452a7b3ea23bf0b235794c03b7f55915137c1846ca6f3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2006-2022"
+      },
+      {
+        "id": "MEX-additional_care-005",
+        "statement": "Private use is common even among the publicly insured: in the 2012 national health survey, 30.9% of IMSS members, 28.4% of ISSSTE members and 31.1% of Seguro Popular members had sought care in the private sector.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 43214,
+          "char_end": 43478,
+          "passage_sha256": "ea76fa09e9afe29b632e793d05fa33b0a3e3fb5fd18ad60df1cbed4a84f991c0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2012
+      },
+      {
+        "id": "MEX-additional_care-006",
+        "statement": "About 25% of hospital admissions in the study's data were in private facilities, peaking at 34% in 2021, which the authors link to the COVID-19 pandemic.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 38971,
+          "char_end": 39137,
+          "passage_sha256": "4a6a76e376da5498e55dfab7e3b8f2ad1eafffa7b7b252f741864df4fa7db2eb"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      }
+    ],
+    "access": [
+      {
+        "id": "MEX-access-001",
+        "statement": "About 71% of general physicians work in the public sector, and their density varies by state from 0.6 per 1,000 people in the State of Mexico to 1.8 per 1,000 in Mexico City.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 28,
+          "char_start": 39839,
+          "char_end": 40067,
+          "passage_sha256": "5ae9c31a61a88beab65a065313335e2c4d586e674be15fbd8647b66e77411f48"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-access-002",
+        "statement": "High-cost equipment is scarce: Mexico had 2.6 MRI machines per million people, against 6.8 in Brazil and an OECD average of 15.6.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 29,
+          "char_start": 41955,
+          "char_end": 42146,
+          "passage_sha256": "2e4f6b5595ea829cfc95fd6ec648193d5d557e4ce38affb6bfa80fa2fad0c76d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-access-003",
+        "statement": "Hospitals are concentrated in cities: only 46 hospitals (3.3%) were in rural localities.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 28,
+          "char_start": 41118,
+          "char_end": 41209,
+          "passage_sha256": "6921646019f970f34d5d16c91746dc5ea0e166570b75efab9e3603aa7043c35e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-access-004",
+        "statement": "Long waits for consultations and specialist care, together with quality shortcomings, lead people to seek private care or to pay out of pocket for Ministry of Health services.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "6 Patient pathways",
+          "page": 165,
+          "char_start": 331193,
+          "char_end": 331453,
+          "passage_sha256": "265a04a19ed7af841d1bffbc380b3f041e7f8b84289de8459e4c023c1d6d06db"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-access-005",
+        "statement": "A 2026 study cites Mexican evidence that long waits, staff shortages and frequent medicine stock-outs in public facilities push insured households to pay for private consultations.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 61790,
+          "char_end": 61969,
+          "passage_sha256": "96e80c4d3e15184d44ecd3195424a15aa2104a64766826dc54715c21e447188e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-access-006",
+        "statement": "The gap in hospital beds narrowed in 2003-2006, but Ministry of Health hospitals serving people without social security still had 5.84 beds per 10,000 people, 20.1% fewer than the 7.31 in social security institutions.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2595,
+          "char_end": 2804,
+          "passage_sha256": "6a877d337ab461ffcf0b30f086f8498998d135f10ba7fb50c0bc966e591d4d8f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-access-007",
+        "statement": "Of 1,891 municipalities studied, 1,187 (62.8%) had no hospital beds; these 'healthcare deserts' had 42.5% higher avoidable mortality before the pandemic (2015-2019), or 35.3% after adjusting for age structure.",
+        "valence": "neutral",
+        "source_id": "lopez-yanez-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4465,
+          "char_end": 4721,
+          "passage_sha256": "b7276f0445af7f981249f4db21f5733e84f9ea97bd031c2e60d5fdc49f3935e2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2015-2019"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "MEX-outcomes-001",
+        "statement": "Diabetes and ischaemic heart disease were the leading causes of death in 2015, both having risen markedly since 1990, followed among men by homicide.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 28921,
+          "char_end": 29164,
+          "passage_sha256": "e588f8f34909a8bd1d459bab239909d119bf9ccfc3827971fc55052353a65869"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2015
+      },
+      {
+        "id": "MEX-outcomes-002",
+        "statement": "The 2020 review reports that Mexico has the second-highest overall obesity prevalence in the world, after the United States, and the highest share of overweight and obese children.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 24,
+          "char_start": 29321,
+          "char_end": 29487,
+          "passage_sha256": "585fc8cf79c1abfc5ef5648d18e554fa4c6dbcb9fad2d01877a1012d39239bef"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-outcomes-003",
+        "statement": "Maternal mortality fell from 59.3 deaths per 100,000 live births in 2000 to 47.3 in 2018, then rose from 48.7 in 2019 to 72.4 in 2022.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3950,
+          "char_end": 4134,
+          "passage_sha256": "13d345775f038093a4159c2121c3df8dc45df513227f497fcaa381175deff969"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-outcomes-004",
+        "statement": "Among people without social security, preventable and treatable mortality increased after 2012 (by 3.26% and 5.54% a year respectively after 2018), while both declined steadily among people with social security.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 3089,
+          "char_end": 3246,
+          "passage_sha256": "a33c4e2cce9bdfed55e9c8c7b111eaa7647b358729f20817748b278365380125"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-outcomes-005",
+        "statement": "Citing a World Bank report, the 2025 study notes age-standardised rates of 435 preventable and 257 treatable deaths per 100,000 in Mexico, above those of Peru, Brazil, Colombia, Chile and Costa Rica, where avoidable mortality has been falling.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 42261,
+          "char_end": 42811,
+          "passage_sha256": "52b0561bb0bd9ec605918388899e382baf9ca7cc40b7327ba31a70e1264bcfc7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-outcomes-006",
+        "statement": "Of almost 5 million deaths under age 75 in 2015-2024, 81.2% were classed as avoidable under OECD/Eurostat criteria.",
+        "valence": "neutral",
+        "source_id": "lopez-yanez-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4407,
+          "char_end": 4464,
+          "passage_sha256": "2b37481b8bc0179cf6b6ed82b0a36961a45159790e1bb2ec7f57dc444607f02f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2015-2024"
+      },
+      {
+        "id": "MEX-outcomes-007",
+        "statement": "Vaccination coverage of one-year-olds for BCG, hepatitis B, pentavalent and MMR vaccines peaked in 2006-2012 under Seguro Popular and fell to 31% in 2021 under INSABI; the brief links the drop to weak primary care, lower demand, vaccine shortfalls, lower spending and poor stewardship.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Takeaways",
+          "char_start": 8776,
+          "char_end": 9105,
+          "passage_sha256": "c3d980038801a5f2fcc3ba2525dc811c368ef1818010e0eb0d23c3ae87afcbb9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2006-2021"
+      }
+    ],
+    "costs": [
+      {
+        "id": "MEX-costs-001",
+        "statement": "The public share of total health spending rose from 43.7% in 2000 to 53.8% in 2015, partly because of Seguro Popular, which helped cut the out-of-pocket share from 53.9% to 41.3%; out-of-pocket spending nonetheless stayed far above the OECD average of 19%.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 37786,
+          "char_end": 38258,
+          "passage_sha256": "4e7a40bfae2f643f3345dbac674db7e8b27e10c416fead9e3487c6c855b7ea73"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2015"
+      },
+      {
+        "id": "MEX-costs-002",
+        "statement": "Growth in health spending slowed from 8.5% a year in 2001-2005 to 4.2% in 2006-2010 and 2.6% in 2011-2015.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3 Financing",
+          "page": 110,
+          "char_start": 227129,
+          "char_end": 227304,
+          "passage_sha256": "4aa0427a931799747d5c613b7a63e4bfaa0c34f2d975ca6e98cdc6d46fc2e3e9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2001-2015"
+      },
+      {
+        "id": "MEX-costs-003",
+        "statement": "Public health spending rose from 2000 to 2012, faster for people without social security, then levelled off for both groups in 2012-2018.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2462,
+          "char_end": 2594,
+          "passage_sha256": "9add38ca8e8bd04cd30686da030519baecd597e6c8ee77d68da06b22d5d71394"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2018"
+      },
+      {
+        "id": "MEX-costs-004",
+        "statement": "Public spending as a share of total health spending fell from 55% in 2020 to 51% in 2021, a level last seen in 2009, and was still below its earlier peak of 55% in 2024 despite a slight rise.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Takeaways",
+          "char_start": 8403,
+          "char_end": 8652,
+          "passage_sha256": "bdeefd18575e2ad8915242e4b2cc70f3caf64dd4be8294705dd9abfa339f8ed7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2020-2024"
+      },
+      {
+        "id": "MEX-costs-005",
+        "statement": "The 2025 study puts Mexico's public health spending at 3.2% of GDP, low next to Argentina (over 5%) and Costa Rica and Colombia (over 4%).",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 36995,
+          "char_end": 37180,
+          "passage_sha256": "580c763ebd30b418a9940ea6de1616f2967a65410109237ba9ec45f246e9c20f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "MEX-what_works-001",
+        "statement": "The 2020 review credits Seguro Popular, and possibly generic medicines and low-cost private consultations, with substantial reductions in catastrophic health spending, though out-of-pocket spending fell only slightly.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7 Assessment of the health system",
+          "page": 207,
+          "char_start": 429880,
+          "char_end": 430088,
+          "passage_sha256": "99366c63e2f7142f10390f6c8da8c29959917f52b3ccfc70d87b856fac498317"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-what_works-002",
+        "statement": "Early evaluations of Seguro Popular found more use of hospital services, wider access to primary care and more births in public hospitals.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 13342,
+          "char_end": 13550,
+          "passage_sha256": "eca95e9d95524ca44b2a8ae8b1425ce13d521a166304c05184b4244715c159d4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-what_works-003",
+        "statement": "The rollout of Seguro Popular's financing system reduced geographic disparities in access by expanding hospitals and primary care clinics, and demand grew most in the most marginalised municipalities.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 39987,
+          "char_end": 40219,
+          "passage_sha256": "0c2bacab16cbc32ef9c747e36a581b8efffa17e4b30436ffc397c4a5c78215f6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-what_works-004",
+        "statement": "While Seguro Popular was expanding, the share of outpatient care that people without social security obtained privately fell from 38% in 2006 to 31% in 2012, before rising to 43% in 2018; over 2006-2018 Seguro Popular's coverage grew from 14% to 37% of the population.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Context",
+          "char_start": 5963,
+          "char_end": 6251,
+          "passage_sha256": "e165adba96d05f12e5dbe150b5eff8e9ff1a6bf248813962ae8088865e6ef62b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2006-2018"
+      },
+      {
+        "id": "MEX-what_works-005",
+        "statement": "Under Seguro Popular the list of covered benefits was regularly updated and published, and compliance with it was checked continuously at patient and facility level.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7.1 Health system governance",
+          "page": 208,
+          "char_start": 432749,
+          "char_end": 432912,
+          "passage_sha256": "9e21bd32421d196781c7e527f36e2fb47b5d35ac0820a185d39dffa44a6abff1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "MEX-problems-001",
+        "statement": "The 2020 review calls the system's segmented governance perhaps the biggest obstacle to a universal system, because the social insurance institutions largely operate outside Ministry of Health regulation, which hinders a stronger regulator able to tackle access and quality problems.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 32,
+          "char_start": 50343,
+          "char_end": 50667,
+          "passage_sha256": "3dccd927c40547e382ba48f8043c5a38ba3a5ded0b61bd2aeff5e56bb48fce71"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-002",
+        "statement": "The 2025 study argues that creating parallel schemes for informal workers has institutionalised lower health entitlements for people without social security, reinforcing their exclusion from comprehensive care and social benefits.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 41264,
+          "char_end": 41494,
+          "passage_sha256": "7cd206fa42e388edefbb83043723f4d75f5aa21d5b049d96c1bc8a8c8e8705a6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-003",
+        "statement": "The 2025 study notes that a single national system on the English or French model could in principle achieve universal coverage, but that those countries have far less informal employment (6.5% in the UK and 3.1% in France) than Mexico, where informality affects 55.5% of the labour force.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 41503,
+          "char_end": 41921,
+          "passage_sha256": "6a8cf39dfb794f3dde3b6d8be98a5ad2957fe4c678d04fea13915af05ad9bd41"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-004",
+        "statement": "Comparing the last two years of Seguro Popular with INSABI's first two, specialised care for the uninsured fell sharply between 2018 and 2021: by 80.7% for acute myocardial infarction, 78.4% for neonatal intensive care, 74.5% for childhood cancer, 50.1% for breast cancer, 48.2% for cervical cancer and 41% for prostate cancer.",
+        "valence": "neutral",
+        "source_id": "cortes-adame-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 4903,
+          "char_end": 5282,
+          "passage_sha256": "ca7381dbb81af0a72195c3db194a595ee67bc04a501e509dcfaca5c89a5e17f7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2021"
+      },
+      {
+        "id": "MEX-problems-005",
+        "statement": "A 2026 study cites evidence that INSABI's rollout brought confusion over entitlements, limited operating capacity and disrupted services, including access to medicines.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 58676,
+          "char_end": 58881,
+          "passage_sha256": "496a1b651f03181ca5f190ba600b73603157578a487ecf879c763de11aa23be9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-006",
+        "statement": "Authors who helped create Seguro Popular argue that dismantling it while trying to set up a new programme in 2020-21 left the health system more vulnerable during the worst period of the COVID-19 pandemic.",
+        "valence": "neutral",
+        "source_id": "knaul-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3510,
+          "char_end": 3683,
+          "passage_sha256": "79536d4784375655530f2cdcdf23e419fee54914ecbb2c20ef9a9e0fc8b68e11"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-007",
+        "statement": "The 2020 review describes the IMSS as technically bankrupt because of unfunded entitlements, projecting that by 2030 up to 63% of its income could be absorbed by the pension fund.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7 Assessment of the health system",
+          "page": 204,
+          "char_start": 424319,
+          "char_end": 424652,
+          "passage_sha256": "9a6131bc0f550dabe0f00ad7dd7c750a5e3446b4fc30ccb33ec10b21f26716bf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-008",
+        "statement": "During the 2012-2018 administration, per capita public health spending fell for the first time in decades because of small but significant cuts to funding for the uninsured, and Seguro Popular did not add significant new high-cost treatments.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 32,
+          "char_start": 49399,
+          "char_end": 49960,
+          "passage_sha256": "e9c6107cf7e9988adbf599a40c218ed3ed3b496d143a24289f7780aa0137f7f4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2018"
+      },
+      {
+        "id": "MEX-problems-009",
+        "statement": "A systematic review of 77 studies from 2000-2022 found that Mexico lacks an explicit national medicines policy, and that studies reported problems with the supply, selection, purchasing and distribution of medicines and with spending on them.",
+        "valence": "neutral",
+        "source_id": "vargas-lopez-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2403,
+          "char_end": 2784,
+          "passage_sha256": "653abe988414ab26a1230675dba6a16b21adae72a8a1365959bbdcaacdb8b302"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-problems-010",
+        "statement": "The Seguro Popular commission had to report each year to Congress on its finances and coverage; the 2020 review notes that when INSABI replaced Seguro Popular these accountability mechanisms were abolished and nothing replaced them.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7.1 Health system governance",
+          "page": 209,
+          "char_start": 433257,
+          "char_end": 433523,
+          "passage_sha256": "4933c97f0835aca0bb9bdc8a1d2f4a003e969d7c89fc37b21629147f384c90f5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-problems-011",
+        "statement": "From 2000 to 2018 seven in ten maternal deaths were among women without social security, falling to six in ten from 2020; these deaths were more common among younger, less-schooled, unmarried and rural women and in areas with more Indigenous people and greater marginalisation.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4135,
+          "char_end": 4509,
+          "passage_sha256": "3241bb0f1a54c01670d06f7ba5cab5df0677e95bf154c43ee43137ca83764b31"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-problems-012",
+        "statement": "Avoidable mortality was strongly clustered in southern Mexico, and by 2024 the gap in avoidable deaths between municipalities without hospital beds and adequately supplied ones had widened about fivefold, from about 12 to 69 per 100,000 people.",
+        "valence": "neutral",
+        "source_id": "lopez-yanez-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4855,
+          "char_end": 5074,
+          "passage_sha256": "01533619315a6b37a720166f9583137ed094c269cc7283de416c90716a480de3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2015-2024"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "MEX-reforms-001",
+        "statement": "A 2026 article by IMSS-Bienestar officials frames the IMSS-Bienestar model around primary care and integrated service networks, and argues that its main challenges are organisational, political and institutional: rebuilding state capacity, redefining coordination, and aligning financing, service provision and territorial responsibility for health.",
+        "valence": "neutral",
+        "source_id": "svarch-perez-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1449,
+          "char_end": 2216,
+          "passage_sha256": "21a80bec620e388b211ffdae687ae17a88cbf7a1ec10443e1e580355990b186f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-reforms-002",
+        "statement": "Citing INSABI's poor performance, the López Obrador government ended INSABI in 2023 and made IMSS-Bienestar, under the Mexican Social Security Institute, directly responsible for providing care to the uninsured.",
+        "valence": "neutral",
+        "source_id": "cortes-adame-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 5513,
+          "char_end": 5828,
+          "passage_sha256": "417c0e09adbdbff80713a8191e07a4d42f0c619dbf841b5d4b14cce956c7d29d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "MEX-reforms-003",
+        "statement": "In 2018-2024 the government dismantled Seguro Popular's financing system, centralised the purchasing of medicines and supplies and recentralised state health services under INSABI and then IMSS-Bienestar; the aim was to unify care under the IMSS, but only 23 states signed on, leaving nine running their own services.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 14314,
+          "char_end": 14879,
+          "passage_sha256": "49e021fd9fa16b3245db97e10c55fdef932ce80938bff6de8f75d1a4741e9cc8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2024"
+      },
+      {
+        "id": "MEX-reforms-004",
+        "statement": "Unlike Seguro Popular, which acted as a public insurer reimbursing providers (including some private hospitals), INSABI provided care directly through public facilities and, for catastrophic illnesses, supplied medicines and equipment to public specialty hospitals.",
+        "valence": "neutral",
+        "source_id": "cortes-adame-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 4293,
+          "char_end": 4902,
+          "passage_sha256": "1f02ea0e492c9c8a3f3626128f03a82bb446201e7fe476e607d456fdcd46f697"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-reforms-005",
+        "statement": "Seguro Popular closed in January 2020, and Mexico began a complex, wide-ranging reorganisation of its health system.",
+        "valence": "neutral",
+        "source_id": "knaul-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3392,
+          "char_end": 3509,
+          "passage_sha256": "ad882dfbeed63f50f4679d02b64b7cddbbc7e9184171c4da13212d423c1473bb"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "MEX-reforms-006",
+        "statement": "INSABI was created in 2019 to replace Seguro Popular, which had run from 2003 to 2019; its critics argued Seguro Popular had fostered corruption and 'neoliberal' practices, and INSABI assumed that removing these would free enough money for universal coverage.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Context",
+          "char_start": 4577,
+          "char_end": 5176,
+          "passage_sha256": "27fe312d41b7c8b9fc92ef219f0c3eb9a5965fa82d93d3676b467ccd0d3484c4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "MEX-reforms-007",
+        "statement": "Key reforms toward the constitutional right to health were the 2003 creation of the Seguro Popular financing system, run jointly by federal and state governments; the 2006 Strategy for Portability and Convergence, to coordinate high-specialty hospital care across social insurance and Ministry of Health services regardless of affiliation; and a 2014 reform to make the Seguro Popular financing system more accountable.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 31,
+          "char_start": 46758,
+          "char_end": 47262,
+          "passage_sha256": "8f168443b020144b4afe9257449096f8afe486e9e3300a75bfe20c50fd2d15b4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/MEX.json",

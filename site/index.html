@@ -262,7 +262,7 @@ async function renderCountry(iso3, index) {
       ${p.status !== "verified" ? `<div class="notice">This profile is a draft. Its claims are written from the cited sources but have not yet passed the automated passage check and the independent support review. Treat it as a preview.</div>` : ""}
     </div>
     <section style="display:grid;gap:.75rem"><h3 style="font-size:1.45rem">Key figures</h3>${ledger(ind, base, p.iso3)}</section>
-    ${p.rankings?.length ? `<section style="display:grid;gap:.6rem">${rankings(p.rankings)}</section>` : ""}
+    <section style="display:grid;gap:.6rem">${p.rankings?.length ? rankings(p.rankings) : `<div class="label">Positions in published rankings</div><p class="empty" style="margin:0">No ranking with a verified position for ${esc(p.name)} yet. The Commonwealth Fund's Mirror, Mirror 2024 compares only 10 countries; a global ranking (the Lancet's Healthcare Access and Quality Index) is being added for every country.</p>`}</section>
     <nav class="toc" aria-label="Sections">${SECTIONS.filter(([k]) => p.sections[k]?.length).map(([k, t]) => `<a href="#${p.iso3.toLowerCase()}" data-jump="${k}">${t}</a>`).join("")}</nav>`;
 
   for (const [key, title] of SECTIONS) {

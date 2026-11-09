@@ -5,11 +5,14 @@
   "system_as_of": "2026-11-09",
   "status": "draft",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "social_health_insurance",
+    "label": "Government-run social health insurance in two main schemes (compulsory for employees, voluntary and subsidised for other residents), with medical assistance for the poor"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "CHN-overview-005",
+      "CHN-overview-002"
+    ],
     "meets_definition": true
   },
   "sections": {
@@ -26,8 +29,9 @@
           "passage_sha256": "ac4d88ac5c2dabb2126ff63b2e2694f815a464703859bcba06981fd472750805"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -42,8 +46,9 @@
           "passage_sha256": "b4748abb01751bd593a3c162873852b48fe0a4c694e3fe9ae0663c3c8127bb46"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2016-2018"
       },
@@ -59,8 +64,9 @@
           "passage_sha256": "0d6b4737b0dcbb8d420b508d91e8de4e2fdf82d5068526d13aa8fe6c5c9d933c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -75,8 +81,26 @@
           "passage_sha256": "66f5093a3904d3ef9301b154f77fd74ce5d1ad86b23888a5d183fb69eb10d19b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "CHN-overview-005",
+        "statement": "The residents' scheme is open to every urban and rural resident not covered by employee insurance. Employee insurance is compulsory by law and funded partly by employers, while joining the residents' scheme is voluntary.",
+        "valence": "neutral",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5491,
+          "char_end": 5800,
+          "passage_sha256": "323e3d64b355e3ed936ce260a0d2ce9885f431bbb79a6ea74545616b0d6af1e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       }
     ],
@@ -93,8 +117,9 @@
           "passage_sha256": "0713bf4629bc59a8c26ce5391772615cbdcf0e89eaab2b801a59f9be36a015df"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2003-2024"
       },
@@ -111,8 +136,9 @@
           "passage_sha256": "68a8aa409ef60cef9096e9f055d20a028f874210770a7b06badda625166b193b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2015
       },
@@ -129,8 +155,28 @@
           "passage_sha256": "3de6ba93afe3c07de5414c6c1594dbebf8c51f7d5374383fb0f47b40df7caacd"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2015
+      },
+      {
+        "id": "CHN-financing-004",
+        "statement": "The 2015 review reported that the residents' schemes of that time (URBMI and NRCMS, merged from 2016) were funded by individual premiums and government money, with government subsidies the larger part.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-chn-2015",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 39058,
+          "char_end": 39177,
+          "passage_sha256": "dbad4e0d8592f089b28eeeb52abd20b9c5be49e1c64fe597c8551379fd945df7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2015
       }
@@ -148,8 +194,9 @@
           "passage_sha256": "a7fbcd592f8f2b696ca9744d2948861e10db3a0919c5b69744c4382c066af62c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2018
       },
@@ -165,8 +212,9 @@
           "passage_sha256": "ff961a9522a1f8b9de3194e321bb3c79e42f71676a4a6bc136ac4e59b074a727"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2019
       },
@@ -182,8 +230,9 @@
           "passage_sha256": "c500ef2f75bf52a9ae387c08781ca7d894bc77081ec06660fcd71f7a80b2aa3c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2009-2018"
       },
@@ -199,8 +248,9 @@
           "passage_sha256": "c6acfd64e03702052fa1206db995c4be438c23aaa03287f5cdbad3b1254ce769"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -215,8 +265,9 @@
           "passage_sha256": "0f73caa95b43b4182a42c68b4ec32b5e8700251f29f5ce6b1ac78e127def3337"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -231,8 +282,9 @@
           "passage_sha256": "c1ad7bc4b103a3da9fc176c3b995772a0bb7ac14df3262480e104c73290c5754"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2017-2020"
       },
@@ -248,8 +300,9 @@
           "passage_sha256": "4c682af01dd1fb51088eb6ba226a3d40e1afafc740f5f648dde351648b9e882a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -264,8 +317,9 @@
           "passage_sha256": "d3f1b4c6128202082be3def3abf46a6559c3d1d39283d1157a15da52a3445a65"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       }
     ],
@@ -282,8 +336,9 @@
           "passage_sha256": "f591ee959a0dde2ba29b47b98ca4475881f3d6d52fa947aefe483eb271672a46"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -298,8 +353,9 @@
           "passage_sha256": "2d0f9504bc0c9dcb67308c52c3d9b47a7f99c6a438187cf6b33c7c1d58ed09da"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -315,8 +371,9 @@
           "passage_sha256": "1221fd5bc73b65026929fe9bda09b2743314bd931952014026da33298f636238"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2015
       },
@@ -332,8 +389,9 @@
           "passage_sha256": "13c12e79a78da98cae0dd948b85206c947f17560390d116e322f4d482f188a41"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       }
     ],
@@ -350,8 +408,9 @@
           "passage_sha256": "fc10d75d74d2ec482fed56c7daf9226fba7ae227d2c25cac3a7be772b2729337"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2018
       },
@@ -367,8 +426,9 @@
           "passage_sha256": "b75851edb5f85ca82f58b195af63d884bb23af52e57b640242fc711a140c508c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -383,8 +443,9 @@
           "passage_sha256": "3123c32decbed131a7b2995419670cbb261b08cafd36d1565a41d7c83bec3555"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2017
       },
@@ -400,8 +461,9 @@
           "passage_sha256": "ceabc9e4b22a8a9615ad13790959550927bbc3e71f275db35cd6474dad65c40f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -416,8 +478,9 @@
           "passage_sha256": "86322fb5d2a03512ff01885f9e90619cf6e7ebec5b554707c7fa606586daf347"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2015
       },
@@ -433,8 +496,9 @@
           "passage_sha256": "054fe0de167b538b0d19d9001fcf8e69399e58f116a193c65ba3b0840a22d79e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       }
     ],
@@ -451,8 +515,9 @@
           "passage_sha256": "036ffc137cbffb48c0c18b1536625e5f172dc2dc6d9f11ea3947750c092c8e53"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -467,8 +532,9 @@
           "passage_sha256": "f7ce37427853a8f792e8ceaf7a344808202e0597cba7001a51cb53ca83d2d662"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2021
       },
@@ -484,8 +550,9 @@
           "passage_sha256": "50aaf6764ab01ba83c49db92d51489b152bcb06f753e164f01b2575aa8aadd9e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2012-2022"
       }
@@ -503,8 +570,9 @@
           "passage_sha256": "47bc8110d67209fec1ca76167066d163160102075de85f1e003ab4325de54f22"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2012-2017"
       },
@@ -520,8 +588,9 @@
           "passage_sha256": "c67b23789533895a7df2ef2f4ef434e416a27c7684817d03c2103b9c768d1000"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2010-2018"
       },
@@ -538,8 +607,9 @@
           "passage_sha256": "c10430c2b8e58105e2e9ed9c29492b671bc50193f1fa7b99f22abc61d57a7075"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2015
       },
@@ -556,8 +626,9 @@
           "passage_sha256": "c0fe3d07093a9743a75de312aebb61362dcc70d47ff08dcb08b2d157365b37a6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2012
       },
@@ -573,8 +644,9 @@
           "passage_sha256": "39dcb6ca072f4db992c16b3ae1ce33c2d548591520dd48a44a42e28bba29a4f8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2012-2021"
       },
@@ -590,13 +662,87 @@
           "passage_sha256": "7a95d1622fbeb6f1698f742a1ca70ae259d1e98b64bd518038430f1a5cdf1aef"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2012-2021"
       }
     ],
-    "outcomes": [],
+    "outcomes": [
+      {
+        "id": "CHN-outcomes-001",
+        "statement": "In the GBD 2016 Healthcare Access and Quality (HAQ) Index, China sat in the eighth of ten deciles nationally, but its provinces ranged from the top decile (Beijing, 91.5) to the fourth (Tibet, 48.0), with eastern provinces scoring higher than western ones.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: subnational HAQ Index",
+          "char_start": 44423,
+          "char_end": 44722,
+          "passage_sha256": "0abf35111d35ca12544dd7b3d7095c4d990e142022ac5949b4b6ba6f22e07b8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "CHN-outcomes-002",
+        "statement": "Between 1990 and 2016, China was among the middle-income countries with the largest gains in the HAQ Index, which measures deaths from causes that timely, effective health care should prevent.",
+        "valence": "strength",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: HAQ Index trends",
+          "char_start": 51473,
+          "char_end": 51721,
+          "passage_sha256": "eb87bfaa58740868a52626d9250e2550c17a9323eec50ee22501b8a5e91fff46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "1990-2016"
+      },
+      {
+        "id": "CHN-outcomes-003",
+        "statement": "A composite index of management of non-communicable diseases (eight service and risk-factor indicators) rose only slowly, from 62.0% in 2004 to 64.3% in 2018, with prevention lagging; all the indicators were unlikely to reach their 2030 targets.",
+        "valence": "weakness",
+        "source_id": "ncd-ineq-2024",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2563,
+          "char_end": 2889,
+          "passage_sha256": "be77176b86f911237809230668ae49bc873f99492a09ca0d231359e767df0072"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2004-2018"
+      },
+      {
+        "id": "CHN-outcomes-004",
+        "statement": "Rural areas consistently had fewer health resources than urban areas and scored 2.2% lower on management of non-communicable diseases in 2018.",
+        "valence": "weakness",
+        "source_id": "ncd-ineq-2024",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 3295,
+          "char_end": 3465,
+          "passage_sha256": "5a440d1cb7a65bb49a8e2e09b227db9bf5e213d76909b5888363b1e24e8af07e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2018
+      }
+    ],
     "costs": [
       {
         "id": "CHN-costs-001",
@@ -610,8 +756,9 @@
           "passage_sha256": "5c56c9f4d8d5956889e343f45c323ee5a7a29c512d3ae344213e35e64285af82"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2017
       },
@@ -627,8 +774,9 @@
           "passage_sha256": "305fb8172b4e3b428e006f7a71a331b9df39521e34825840c656dfc5afb370a4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2008-2018"
       },
@@ -644,10 +792,65 @@
           "passage_sha256": "139cb3f0c34b1f2af2a8dc1a3e579b68f20f7cd0ab689ab398b5c3e8ca7cd91d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2021
+      },
+      {
+        "id": "CHN-costs-004",
+        "statement": "Government health spending rose from 24.7% of total health spending in 2008 to 30.4% in 2020, and from 4.4% to 7.8% of all government spending over the same period.",
+        "valence": "neutral",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7626,
+          "char_end": 7935,
+          "passage_sha256": "9d437abd7b0fa2d66266fa7fabc05d29d5da057fb282ebf810d31a3808421764"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2008-2020"
+      },
+      {
+        "id": "CHN-costs-005",
+        "statement": "China's total health spending passed 9 trillion yuan in 2023; the authors report that medical costs have grown by more than 10% a year, well above growth in GDP and disposable income, and that residents' out-of-pocket costs have risen despite higher reimbursement rates.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 48106,
+          "char_end": 48487,
+          "passage_sha256": "0fb173b2318639b81d2e9508863446a447bf8191213a43f8047f97e6781ff5d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHN-costs-006",
+        "statement": "Total out-of-pocket medical spending rose from 657 billion yuan in 2009 to 1,513 billion yuan in 2017, while its share of total health spending fell from 37.46% in 2009 to under 30% by 2015 and stayed there through 2017.",
+        "valence": "neutral",
+        "source_id": "meddebt-2020",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10503,
+          "char_end": 10798,
+          "passage_sha256": "23a5f0a0d09fff10ae22919edcf6352fa48e623488da8d98b69f7b7810bfa4a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2009-2017"
       }
     ],
     "what_works": [
@@ -663,8 +866,9 @@
           "passage_sha256": "80650e48dc1f51cccede0be47ee8839d439d8431f5078dbc3609413609096478"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -679,8 +883,9 @@
           "passage_sha256": "32a6db3528a6a7997065c9e37480203fa1e5807c36734859a619d140c36ce7a4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -695,8 +900,9 @@
           "passage_sha256": "31abaaaf512dd716782d1950c7e98eeec3b4ae8538b1e39eb5b6a9faf3561497"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2018-2022"
       },
@@ -712,8 +918,9 @@
           "passage_sha256": "d35cbb848fc553fa0afe62be19ff9b15203c82a086f10817eef2d825a1b48147"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2011-2018"
       },
@@ -729,10 +936,46 @@
           "passage_sha256": "b804b112cc1cb174ddef2eafc76f2b8c2ad9e8e4a8e801385a76bbe568e22e77"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2021-2022"
+      },
+      {
+        "id": "CHN-what_works-006",
+        "statement": "The same analysis credits strong political commitment and targeted funding for good results in reproductive, maternal, newborn and child health and in infectious diseases.",
+        "valence": "strength",
+        "source_id": "yip-2023-lph-2",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1483,
+          "char_end": 1663,
+          "passage_sha256": "1aeb57ae0f370301311d767d900e43d379217eb4174d9974864ff6719f1748b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "CHN-what_works-007",
+        "statement": "Rates of catastrophic health spending and medical impoverishment fell significantly between 2010 and 2016, according to earlier research the study cites.",
+        "valence": "strength",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7936,
+          "char_end": 8069,
+          "passage_sha256": "4368d2bf07de685f48fe36dee8bcc295d66c97b6b982e94b6044c0afeb094456"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2010-2016"
       }
     ],
     "problems": [
@@ -748,8 +991,9 @@
           "passage_sha256": "ea69ff8635314aeeb1468534edaecae8f61c1702159f5692a146806315f4e48f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -764,8 +1008,9 @@
           "passage_sha256": "fbae5ff66f4202ea4947b0d02e43bc68300aafe70bb10732a4cdcf70934a513b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -780,8 +1025,9 @@
           "passage_sha256": "cf518985daccb36df5c5d0272ebc689a25157d82919100965244e906fb3eb245"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -796,8 +1042,9 @@
           "passage_sha256": "c021a8136760a6c7ed2aec66f70e89bfc0cef5d6959effa1246345f9f0bae814"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -812,8 +1059,9 @@
           "passage_sha256": "441272d869ed53d628aa2d62d2202f42fe8ad9cba5117e9238f25053ec3ef43c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -828,8 +1076,9 @@
           "passage_sha256": "36c61f9c5db7980d526a0bef8a55466676fa36477d97c15319e28690ed45358a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -844,8 +1093,9 @@
           "passage_sha256": "0a842575554b0c0d7fa57c5e2c63338c1ad8e2a8992701336135088bcf59534a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -860,8 +1110,9 @@
           "passage_sha256": "2575b7cce584ef21957cf83e00e7bc0912c0b6e94edbb21fc93dff8974519061"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2019-2022"
       },
@@ -877,8 +1128,9 @@
           "passage_sha256": "36ad309f0f4ad39a5fb4deff156801e4e1e65c322e3801312cbe3b5fa8d7a5b3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -893,8 +1145,9 @@
           "passage_sha256": "91876531ecfb5490975338081213d0417369869a1a7d2e9d2bc0b361967b4de7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -909,10 +1162,28 @@
           "passage_sha256": "128d29b01a75d7f27a047de976400eaf3eede61c78cc26208bcb200644767d2e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2021-2022"
+      },
+      {
+        "id": "CHN-problems-012",
+        "statement": "A 2023 Lancet Public Health analysis attributes China's weak chronic disease control and financial protection, especially for lower-income households, to a fragmented, hospital-centred delivery system, rising costs, shallow insurance benefits, and little attention to health across other policy areas.",
+        "valence": "weakness",
+        "source_id": "yip-2023-lph-2",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1664,
+          "char_end": 2014,
+          "passage_sha256": "96468c0248d66293bdf4b33b2f9f5667171aee805cc8c18a52647e3d21a2099b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
       }
     ],
     "reforms": [
@@ -928,8 +1199,9 @@
           "passage_sha256": "65e5133931569fd095c27c6ec9b1812e5d969bffc9c22912fdebe04604c03649"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2017
       },
@@ -945,8 +1217,9 @@
           "passage_sha256": "b04e70621853584ff5920576d26f4c330d7fbcfb920bca3dfed53d81e008d402"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2017-2019"
       },
@@ -962,8 +1235,9 @@
           "passage_sha256": "4192c527de93c7934a32c35b8235fac323348c8d08067d8b2e010e0c15c0e024"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2012-2019"
       },
@@ -979,8 +1253,9 @@
           "passage_sha256": "a57afd882daae813829e3ca4fa3c26baa0a6e131e4db9f1d10419609c081c43a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2018-2019"
       },
@@ -996,8 +1271,9 @@
           "passage_sha256": "3ff467507fb56b0f3e96cad16eb2e29e8b746ab300aaabdf3df2a858e7d9c99b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": 2021
       },
@@ -1013,8 +1289,9 @@
           "passage_sha256": "91c3b1d2e261b4cb3232d58615165f690416e9d610f8b2084a8bf0a8c5aca0cb"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2019-2020"
       }
@@ -1032,8 +1309,9 @@
           "passage_sha256": "05f49f814235bc346da965339967c25a6680226efbab7b202e85438c3f727a6b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -1048,8 +1326,9 @@
           "passage_sha256": "f657a273e1f0798774f91a6d1c16f006eba9b105f02ef192013f13fe9790f8d8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         },
         "data_year": "2016-2020"
       },
@@ -1065,8 +1344,9 @@
           "passage_sha256": "7b6dc49c0e839ed2b234a6026afae2949d1fa562f95532cbe2aae2580592be48"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -1081,8 +1361,9 @@
           "passage_sha256": "0b18aa7eb8cf58576eaae271f7d2625eab98c1c95d65c44d94c449a22aa692e8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -1097,8 +1378,9 @@
           "passage_sha256": "43d24b7fc10dbef9671beb221aa213def85a1d66134d3912c6879c294160f882"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       },
       {
@@ -1113,8 +1395,9 @@
           "passage_sha256": "8962694b31ccea56ab9d7d900aab781da99dc38173d65e6df86c0bbd01857dec"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
         }
       }
     ]
@@ -1271,7 +1554,7 @@
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10266112",
       "accessed": "2026-11-09",
       "authors": "Macabeo B, Wilson L, Xuan J, Guo R, Atanasov P, Zheng L, et al.",
-      "funding_note": "Three authors were employees of the drug company Pierre Fabre Group and two worked for a consultancy paid by Pierre Fabre to support the study; it draws partly on interviews with five Chinese experts."
+      "funding_note": "Study supported by the drug company Pierre Fabre Group: three authors were its employees and two worked for a consultancy it paid; draws partly on interviews with five Chinese experts."
     },
     {
       "id": "integration-2023",
@@ -1339,6 +1622,30 @@
       "year": 2023,
       "url": "https://doi.org/10.3389/fpubh.2023.1121783",
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10643177",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "ncd-ineq-2024",
+      "title": "Inequalities in non-communicable disease management in China and progress toward universal health coverage: an analysis of nationwide household survey data from 2004 to 2018",
+      "publisher": "The Lancet Regional Health - Western Pacific",
+      "authors": "Zhou Y, Wu Q, Li C, Meng P, Ding L",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1016/j.lanwpc.2023.100989",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10788262",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "yip-2023-lph-2",
+      "title": "Universal health coverage in China part 2: addressing challenges and recommendations",
+      "publisher": "The Lancet Public Health",
+      "authors": "Yip W, Fu H, Jian W, Liu J, Pan J, Xu D, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/S2468-2667(23)00255-4",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38000883&rettype=abstract&retmode=text",
       "accessed": "2026-11-09"
     }
   ],

@@ -140,6 +140,29 @@ sharply because they measure different things (for example, whether illness
 "contributed" vs. whether a hospitalisation "caused" a filing). Report each
 estimate with its definition, never one figure alone.
 
+## United States baseline profile
+
+The US profile (`USA.json`, `is_baseline: true`, `universal_coverage.meets_definition: false`)
+uses the same sections and rules, plus these, each reported with its
+definition and data year:
+- **Uninsured:** count and rate from the Census Bureau (CPS ASEC and ACS
+  reports), and how it changed recently.
+- **Underinsured:** the Commonwealth Fund biennial coverage survey (state its
+  definition of underinsured) and coverage gaps during the year.
+- **Insurer decisions on care:** claim denial rates (e.g. KFF analysis of
+  HealthCare.gov plans: in-network denials, appeal rates), prior authorization
+  (e.g. AMA physician survey, HHS Office of Inspector General reports on
+  Medicare Advantage), and how often denials are appealed and overturned.
+  State the data's limits as the source does.
+- **Medical debt and bankruptcy:** see the financial hardship section; report
+  each bankruptcy estimate with its definition.
+- **Balance still applies:** at least three `what_works` claims with evidence
+  (for example cancer survival, waiting times for specialists or elective
+  surgery, innovation), from tier 1-3 sources.
+For other countries, record comparable evidence on who decides what care is
+covered (benefit-basket bodies, budgets, waiting lists, private insurer
+approval for supplementary cover) so the comparison is like for like.
+
 ## Files
 
 | Path | What it is |

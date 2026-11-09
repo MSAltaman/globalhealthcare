@@ -1,0 +1,1934 @@
+{
+  "iso3": "AUS",
+  "name": "Australia",
+  "wave": 1,
+  "system_as_of": "2026-11-09",
+  "status": "draft",
+  "model": {
+    "type": "mixed",
+    "label": "Tax-funded universal public insurance (Medicare) with free public hospitals, alongside subsidised voluntary private insurance"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "AUS-overview-001",
+      "AUS-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "AUS-overview-001",
+        "statement": "Medicare, the public insurance scheme, covers Australian and New Zealand citizens, permanent residents and people from countries with reciprocal agreements; some migrants, refugees and humanitarian entrants qualify depending on their visa, and other residents must buy private cover.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Summary",
+          "char_start": 1971,
+          "char_end": 2379,
+          "passage_sha256": "531947dc70bc0e348cdeb07e37495517f8289d4ab4b3680e5b555e187aa6a5d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-overview-002",
+        "statement": "Universal public coverage first arrived with Medibank in 1975, was wound back and dismantled by 1981, and was restored in 1984 as Medicare, paid for by a 1% income levy plus general taxation.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Background and History",
+          "char_start": 3639,
+          "char_end": 4802,
+          "passage_sha256": "00d1401533b7c42853135f4c867eb9d497b50198015f027e59530188119d4dba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-overview-003",
+        "statement": "The federal government sets health policy, funds Medicare and the Pharmaceutical Benefits Scheme (PBS), regulates medicines, devices and private insurance, and helps fund public hospitals, which state and territory governments run.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "The Role of Government",
+          "char_start": 12540,
+          "char_end": 12993,
+          "passage_sha256": "4725a504f3be243687d01051dacc1c60b47c63b3f099562a1eec0815dfecc6e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-overview-004",
+        "statement": "Medicare pays doctors fee-for-service through the Medicare Benefits Schedule (MBS); public hospitals are paid partly by activity, priced against a national cost standard, and partly through block budgets for services that cannot be paid per activity.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Operations and Resources",
+          "char_start": 14597,
+          "char_end": 15205,
+          "passage_sha256": "51671f751be3933008cbad207066128cac51f9ae6bcc5724d546d1274faf771b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-overview-005",
+        "statement": "Public hospitals, owned and run by state governments, treat patients without charge; most other services come from private for-profit or not-for-profit providers whose charges Medicare subsidises in part.",
+        "valence": "neutral",
+        "source_id": "callander-2023",
+        "locator": {
+          "section": "Universal health care and private health insurance in Australia",
+          "char_start": 4661,
+          "char_end": 5096,
+          "passage_sha256": "ab320f39297f67bdb1f77abaa8071d4be88ca342f8bdbf5cfd581c088a71faf5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "AUS-financing-001",
+        "statement": "Most taxpayers pay a Medicare levy of 2% of taxable income; people with lower incomes pay less or nothing.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 37294,
+          "char_end": 37445,
+          "passage_sha256": "e89b2a66997418aa1b0d9d1f27a5b3872a4b138992aa25acb7e98d6f3091baa8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-financing-002",
+        "statement": "Governments paid for 74% of total health expenditure in 2023-24.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Summary",
+          "char_start": 2643,
+          "char_end": 2728,
+          "passage_sha256": "a2278be2748d869d0459e55c69dcd41a84269a86b2727fdb57702440fa14adfa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023-24"
+      },
+      {
+        "id": "AUS-financing-003",
+        "statement": "Hospital care cost AUD 114 billion in 2023-24, 42% of all health spending; state and territory governments funded 47% of it, the federal government 36% and non-government sources 17%.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 26017,
+          "char_end": 26274,
+          "passage_sha256": "b64bf3bc8cb70b529665b887c11d15368ed657138836cb4ca106eaa250055e3a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023-24"
+      },
+      {
+        "id": "AUS-financing-004",
+        "statement": "Higher earners without private hospital cover pay a Medicare levy surcharge of up to 1.5% of taxable income; in 2024-25 the income threshold was AUD 97,000 for individuals and AUD 194,000 for families, and people earning less can receive a government contribution towards private premiums.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 11876,
+          "char_end": 12216,
+          "passage_sha256": "3bb0c8fb2884e3b5c9e4358f7891415d86f5e9e96015d4872ca878f3bc06b543"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024-25"
+      },
+      {
+        "id": "AUS-financing-005",
+        "statement": "Individuals pay about 15% of all health spending directly as out-of-pocket fees, close to twice the share contributed by private health insurers.",
+        "valence": "neutral",
+        "source_id": "callander-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 2083,
+          "char_end": 2275,
+          "passage_sha256": "d2884ff348daa4f27490cd543ce224b0529ae81d076172dd73a0a6dfc90ef0c7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "AUS-covered-001",
+        "statement": "Medicare pays 100% of the schedule fee for GP visits, 85% for most specialist services outside hospital and 75% for treatment in private hospitals; patients pay any remaining gap.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Medicare Benefits Work",
+          "char_start": 6232,
+          "char_end": 6587,
+          "passage_sha256": "efd5e1738918069d26e76a91b7c6ce8fdbc6f0a9c5f75b71a7a6dd6e98f4def6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-covered-002",
+        "statement": "Public hospital care is covered in full, and most prescription medicines are subsidised through the PBS for everyone enrolled in Medicare.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Medicare Benefits Work",
+          "char_start": 6907,
+          "char_end": 7134,
+          "passage_sha256": "f20e61b56e8d9a919a307a368d3cf40350a9a4bbea95d8c48af29dfeb2f7257e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-covered-003",
+        "statement": "Medicare covers preventive, inpatient, outpatient, maternity, primary, mental health, palliative and rehabilitative care and home visits, with mental health patients able to claim 10 sessions a year with a professional.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Medicare Benefits Work",
+          "char_start": 7656,
+          "char_end": 8073,
+          "passage_sha256": "ef741a6f56de6e3da7e3cb3b82b936358147cff3481714a9f187327892d6b4c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-covered-004",
+        "statement": "Dental care, glasses and contact lenses, assistive devices and ambulance services are generally outside Medicare (eye tests are covered); dental care and emergency transport are mostly paid privately, though some states, territories or councils fund ambulances.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Medicare Benefits Work",
+          "char_start": 7421,
+          "char_end": 8343,
+          "passage_sha256": "a6746b5dfb241bd8f28ebe3e03aad15ac83e9a379a67b124c0800bf1ce9a9b79"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-covered-005",
+        "statement": "A medicine reaches the PBS only after Therapeutic Goods Administration approval and review by the Pharmaceutical Benefits Advisory Committee; if it adds health benefit at reasonable cost compared with existing treatment, the federal government negotiates its listing with the supplier.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 35091,
+          "char_end": 35456,
+          "passage_sha256": "6b658e7fb95a3e1eeb808220fbba1137dbd39fe70a78c558595201073fc166b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-covered-006",
+        "statement": "Health technology assessment is used with the aim that Medicare pays only for treatments that are clinically effective, cost-effective and safe.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 37103,
+          "char_end": 37289,
+          "passage_sha256": "8579bc897a8b81f502b4047ec838cf1cc978c84d88990f31734918637b690532"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-covered-007",
+        "statement": "Allied health care is mostly outside Medicare, which subsidises some services for people with complex needs or chronic conditions; in 2022-23, 39% of Australians used at least one Medicare-subsidised allied health service.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Allied Health Services",
+          "char_start": 23570,
+          "char_end": 23969,
+          "passage_sha256": "b023602628c0d3d9c5ca346a61c851e1c6babc4f90d6b19c52c2cf2e94208e09"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022-23"
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "AUS-cost_sharing-001",
+        "statement": "Patients pay nothing when a doctor bulk bills, that is, bills Medicare directly. The national bulk-billing rate has drifted down in recent years, and as of October 2024 annual rates ran from 53.2% in the Australian Capital Territory to 82.2% in New South Wales.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5387,
+          "char_end": 5827,
+          "passage_sha256": "f88bb218331902970e1dd9a5fc46922f0bdbbbc7edb994775f7b6755ad7d5e21"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024"
+      },
+      {
+        "id": "AUS-cost_sharing-002",
+        "statement": "In 2022, 82% of GP services were bulk billed; where patients were charged, they paid $43 per visit on average, with regional averages between $16 and $99.",
+        "valence": "neutral",
+        "source_id": "mja-2025-bb-sa3",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1326,
+          "char_end": 1679,
+          "passage_sha256": "172912238dc7135b64b2805591cb6456344b4ccc2a367953303f4153f8a942a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022"
+      },
+      {
+        "id": "AUS-cost_sharing-003",
+        "statement": "Providers may charge more than the MBS schedule fee, and in that case patients usually pay the difference themselves.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 9488,
+          "char_end": 10049,
+          "passage_sha256": "9bab389a444145048b66ecfc5182773e9479c9ba5ad7bf185781bae0b8fdb3c3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-cost_sharing-004",
+        "statement": "Under the Original Medicare Safety Net, once a person's gap payments in a year pass a threshold (AUD 576 in 2025), Medicare pays 100% instead of 85% of the schedule fee for further out-of-hospital MBS services.",
+        "valence": "strength",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 9237,
+          "char_end": 9487,
+          "passage_sha256": "6e39c45051f70e12834b400856e1fab743108648f1d3f9d9013fc21e2665ff4c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-cost_sharing-005",
+        "statement": "Under the Extended Medicare Safety Net, once out-of-pocket costs pass a yearly threshold (AUD 2,616 in 2025), Medicare covers 80% of further out-of-pocket costs for eligible out-of-hospital MBS care; concession cardholders and some families reach a lower threshold.",
+        "valence": "strength",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 10053,
+          "char_end": 10694,
+          "passage_sha256": "a26714878e8413d9716fd61bf381d2fe8b7e503420856c1e96fb75cf6b27bf93"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-cost_sharing-006",
+        "statement": "For certain specialist services, the Greatest Permissible Gap caps the difference between the MBS fee and the Medicare benefit, so Medicare pays more than 85% when fees are high; the cap was AUD 105 as at 1 November 2025.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8599,
+          "char_end": 9012,
+          "passage_sha256": "aaa0ea4bb0d21394dc6aed1d76dd355d97c1f5be9662c2acaaa4ded0dbf8b19c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-cost_sharing-007",
+        "statement": "The standard PBS co-payment was cut from AUD 43 to AUD 30 in 2023; further measures froze it at AUD 32 until 2026, and at AUD 8 for concession cardholders until 2030.",
+        "valence": "strength",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 34341,
+          "char_end": 34631,
+          "passage_sha256": "8eb64b0b37d70508fc9d418c930ea2dab8723992109e2c912e3ca009ef349fe4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-cost_sharing-008",
+        "statement": "The average cost of a specialist visit rose from AUD 140 to AUD 153, faster than Medicare rebates, and Medicare's share of specialist visit costs fell from 64% in 2012-13 to 55% in 2022-23.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 18851,
+          "char_end": 19089,
+          "passage_sha256": "41693637e869ca5563b7f83bb48efa2a0361dab29786a12d26cf9d888f0895cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2012-13 to 2022-23"
+      },
+      {
+        "id": "AUS-cost_sharing-009",
+        "statement": "In 2020-21, only 44% of private hospital admissions carried no out-of-pocket fee and only 34% of specialist attendances were bulk billed; non-bulk-billed visits cost patients $98 on average for specialists outside hospital and $303 for obstetric care.",
+        "valence": "weakness",
+        "source_id": "callander-2023",
+        "locator": {
+          "section": "Universal health care and private health insurance in Australia",
+          "char_start": 5993,
+          "char_end": 6320,
+          "passage_sha256": "f72a06f013818ed0da85c79a4e999e11ad354ffa3ef13d0f28b6438a11c29a6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2020-21"
+      },
+      {
+        "id": "AUS-cost_sharing-010",
+        "statement": "Under the Constitution, the government cannot regulate the fees health care providers charge, so providers set their own prices.",
+        "valence": "neutral",
+        "source_id": "callander-2023",
+        "locator": {
+          "section": "User fees and the role of the market in setting price",
+          "char_start": 7442,
+          "char_end": 7591,
+          "passage_sha256": "5964fba80e99d9ce596319e9ad8a1c8c2c58875b67555c4c0f97f034bea0733d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "AUS-financial_hardship-001",
+        "statement": "A systematic review of 19 Australian studies (over 70,000 people affected by cancer) found that financial burden after a cancer diagnosis is common; younger patients, Aboriginal and Torres Strait Islander people, rural and remote residents, low-income and unemployed people, and privately insured patients faced higher risk.",
+        "valence": "weakness",
+        "source_id": "cancer-oop-sr-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2247,
+          "char_end": 2909,
+          "passage_sha256": "9e1b9279d50924f959f57cdb2dcb1bdc4e42ce9f8eb19fb45ca3e7f97b413b29"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-financial_hardship-002",
+        "statement": "In one survey of men with prostate cancer included in that review, the median out-of-pocket cost of treatment was AUD 8,000; to pay, 38% drew on savings, 8% sold assets and 22% raised their credit card limits.",
+        "valence": "weakness",
+        "source_id": "cancer-oop-sr-2021",
+        "locator": {
+          "section": "Table of included studies",
+          "char_start": 12752,
+          "char_end": 13126,
+          "passage_sha256": "c96c708c76d05ea5b8682e02dacd40d1ab534fa6b5f1e751bb99eca299150b21"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-financial_hardship-003",
+        "statement": "A 2025 review of 37 qualitative studies found that people with chronic conditions lost income through reduced work, struggled with up-front fees, co-payments and medicine costs, found cost the largest barrier to dental care, and traded off health care against basic living needs, especially those who earned too much for welfare support.",
+        "valence": "weakness",
+        "source_id": "oop-lived-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2070,
+          "char_end": 2658,
+          "passage_sha256": "5c0d2c4314c9cc02d130e26cd2589b9808e7fa4848818e1a3f446d30bde95a01"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "AUS-additional_care-001",
+        "statement": "Private insurance pays for treatment as a private patient in public or private hospitals and for services Medicare excludes, such as dental and ambulance; it is sold as hospital, extras and ambulance cover, and insurers may not cover Medicare-funded out-of-hospital services such as GP visits and diagnostic tests.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 10735,
+          "char_end": 11366,
+          "passage_sha256": "252995e8b0545f6b2b959ef12fbf13d8ab1f9dd7c2d06f94b1d3e602530f1513"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-additional_care-002",
+        "statement": "Everyone has public coverage, and about 55% of the population also holds private insurance (profile data as of February 2026).",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Summary",
+          "char_start": 2436,
+          "char_end": 2527,
+          "passage_sha256": "13e65088a06f5d205df04d6d63d5f234f0c0a6749fbfd665d0d4e0c205298c7e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-additional_care-003",
+        "statement": "Among OECD countries, duplicate private insurance, which buys faster access or wider choice of provider alongside public cover, was most widespread in Australia and Ireland.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5: Population coverage for healthcare",
+          "page": 104,
+          "char_start": 308718,
+          "char_end": 309373,
+          "passage_sha256": "9a878bed03f0391ea6397f52a717ccf3068c08af3b71e60d877881fe66354d41"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024"
+      },
+      {
+        "id": "AUS-additional_care-004",
+        "statement": "Voluntary private hospital insurance must be community-rated, which makes young, healthy members predictably profitable and elderly or chronically ill members predictably loss-making for insurers; a risk equalisation scheme is used to counter this.",
+        "valence": "neutral",
+        "source_id": "hp-2026-phi-risk",
+        "locator": {
+          "section": "Abstract: Background",
+          "char_start": 1075,
+          "char_end": 1464,
+          "passage_sha256": "bac25d274c959398cb76c4b889843b3cfd1edfb990db435f5fc8c96c31a173dd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-additional_care-005",
+        "statement": "In a privately insured cohort in one New South Wales health district (2010-2015), 40% of people with a hospital stay used only public hospitals, and only 62% of overnight admissions were claimed on private insurance.",
+        "valence": "neutral",
+        "source_id": "private-public-2021",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1951,
+          "char_end": 2184,
+          "passage_sha256": "ae0715ad0b231aa3a8b85a9e5bc7ebfa276b0f9b85b73b974e5f6128ab2c7edb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2010-2015"
+      },
+      {
+        "id": "AUS-additional_care-006",
+        "statement": "Being liable for the Medicare levy surcharge in a given year raised the probability of buying private hospital insurance by 2 to 3 percent that year, and by 13 percent after a decade of continued liability.",
+        "valence": "neutral",
+        "source_id": "mls-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1226,
+          "char_end": 1539,
+          "passage_sha256": "63697bc18b0568bc51dcaf71958e3e48328780f2a43acd0ba688de843d929aca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-additional_care-007",
+        "statement": "Larger private insurance rebates for people over 65 produced only a modest rise in take-up, with price elasticities of -0.1 to -0.2 in the first two years; low-income older people responded more.",
+        "valence": "neutral",
+        "source_id": "hec-2023-phi-elderly",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1261,
+          "char_end": 1522,
+          "passage_sha256": "7286d56633f33b876b51f021d0c1f4f3a07ca9c519bcda302939b0612f3768eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "AUS-access-001",
+        "statement": "Patients usually need a referral from a primary care provider to see a specialist; without one, they receive a lower Medicare rebate or pay the whole fee.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 17852,
+          "char_end": 18081,
+          "passage_sha256": "5586e21de95f478af89de56de453291f6e6820837bbfcf27e655f1f559c6b794"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-access-002",
+        "statement": "Patients waited 49 days for elective surgery in 2022-23, compared with 39 days in 2019-20.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 25579,
+          "char_end": 25664,
+          "passage_sha256": "b2ab1521974cfc7852dc85535d1402e0ab2484175a9f7f273e5d1665ded0bdcd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022-23"
+      },
+      {
+        "id": "AUS-access-003",
+        "statement": "In 2022-23, 90% of elective surgery patients were treated within 361 days, up from 279 days in 2018-19.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 26554,
+          "char_end": 26684,
+          "passage_sha256": "334a55325b92f38822c4ed0ea95e1488363fdc2ba50a4af2ff9bbb7f359d6949"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022-23"
+      },
+      {
+        "id": "AUS-access-004",
+        "statement": "In 2024-25, half of emergency department visits were completed within four hours, while 10% of patients waited longer than 11.5 hours.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 26394,
+          "char_end": 26550,
+          "passage_sha256": "6a487f796c9f7d28e8c17ad0bb67fdb1af3fa688f67c0779c64dd8f99593073e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024-25"
+      },
+      {
+        "id": "AUS-access-005",
+        "statement": "In 2022-23, 22.5% of patients delayed or skipped specialist visits, and 10.5% of those gave cost as the reason.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 19147,
+          "char_end": 19275,
+          "passage_sha256": "d3455b5364a2d72ea9b03264c753c59b00f0d639606b267b12c761e46196ece6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022-23"
+      },
+      {
+        "id": "AUS-access-006",
+        "statement": "Staff shortages are worst in remote areas, which in 2022 had 53 full-time-equivalent specialists per 100,000 people against 160 in major cities.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 21866,
+          "char_end": 22109,
+          "passage_sha256": "783d0ed6233f02f24ec9c638d9e0c0c0fcbe74eb332f014c689747c78ff8bddf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022"
+      },
+      {
+        "id": "AUS-access-007",
+        "statement": "In 2023, 86% of psychiatrists worked in major cities and fewer than 1%, 19 psychiatrists in all, in remote and very remote areas.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 29458,
+          "char_end": 29653,
+          "passage_sha256": "3be4035dd853f18f59afe663dfb4b6c7e7b915a862023e35a63d9dad0cfde362"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      },
+      {
+        "id": "AUS-access-008",
+        "statement": "By 2023, 82% of health professions reported workforce shortages, and the share of job vacancies filled fell from 60% in 2022 to 44% in 2023, largely because of skill gaps.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 20057,
+          "char_end": 20254,
+          "passage_sha256": "227b4ea42a3efa8d1638b91f53f138f5d0fb04830ba34d26a171d1d42454907e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      },
+      {
+        "id": "AUS-access-009",
+        "statement": "Australia relies increasingly on doctors trained abroad: 32% of medical practitioners in 2022, up from 29% in 2013, including 51% of intensive care specialists and about 44% of GPs.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 20366,
+          "char_end": 20577,
+          "passage_sha256": "d5b3b5568f0483d050fcefb37d8589faea3e804a9032c94b8fdd7ee83b6a3a5f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022"
+      },
+      {
+        "id": "AUS-access-010",
+        "statement": "Among people with at least four GP visits in two years (about 80% of the population), roughly one in three had high continuity with a single GP across 2016-17 to 2022-23; high continuity was more common among people with greater care needs but much less common in very remote areas.",
+        "valence": "neutral",
+        "source_id": "continuity-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2540,
+          "char_end": 3720,
+          "passage_sha256": "04944b2cd5819a0aa01470c76a5fe243fe88e03a107d00376376fd765ab1ec73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2016-17 to 2022-23"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "AUS-outcomes-001",
+        "statement": "There were 97 avoidable deaths per 100,000 people in 2023, with a much higher rate for men (126) than women (69).",
+        "valence": "strength",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 39171,
+          "char_end": 39339,
+          "passage_sha256": "e5b1593ac673397dac4dfbb2eafd8a212a67791bf0d1c3eb821148c15992c8e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      },
+      {
+        "id": "AUS-outcomes-002",
+        "statement": "The age-standardised death rate in very remote areas was 1.6 times that of major cities over 2018-2022; First Nations people, 32% of the remote and very remote population, lived on average eight years less than non-Indigenous people in 2020-2022, and 12 years less in remote and very remote areas.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 40399,
+          "char_end": 40794,
+          "passage_sha256": "decb70757adba4ada1c0f38f56bffa092eecfc661e8b38e5ebcfed27239f2b26"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2018-2022"
+      },
+      {
+        "id": "AUS-outcomes-003",
+        "statement": "In 2023 Australia was among the five countries with the lowest 30-day in-hospital death rates after admission for heart attack (under 4%, patients aged 45 and over, unlinked data).",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6: Mortality following acute myocardial infarction",
+          "page": 144,
+          "char_start": 444400,
+          "char_end": 444805,
+          "passage_sha256": "138bd17341497b6f2c17842a4c879651799752f4ed0f006b128c7132089bcddd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      },
+      {
+        "id": "AUS-outcomes-004",
+        "statement": "The OECD cites Australia, with Norway and Belgium, as having below-average cancer mortality despite relatively high cancer incidence, which it attributes in part to earlier diagnosis and treatment.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 3: Cancer incidence and mortality",
+          "page": 68,
+          "char_start": 199951,
+          "char_end": 200211,
+          "passage_sha256": "97a99789dffdcf75bac58c5131bfeb935e95e00d9b3882658f561a75d9d0e175"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-outcomes-005",
+        "statement": "Australia's score on the Healthcare Access and Quality Index rose from 83.9 in 1990 to 90.4 in 2000 and 95.9 in 2016.",
+        "valence": "strength",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 67232,
+          "char_end": 67301,
+          "passage_sha256": "817f74bee17194455b66b1cfbea495db6c86e9dbbff7b3a21cf35006d4724ba9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "1990-2016"
+      },
+      {
+        "id": "AUS-outcomes-006",
+        "statement": "In 2016 Australia was in the top decile of the Healthcare Access and Quality Index, one of a few countries outside Europe there alongside Canada, Japan and New Zealand.",
+        "valence": "strength",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results",
+          "char_start": 42343,
+          "char_end": 42726,
+          "passage_sha256": "1cd9c9fbed00b8b6e845270a3a7ffbb96ab04641bafd41dcc06a4abdf957b86a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2016"
+      }
+    ],
+    "costs": [
+      {
+        "id": "AUS-costs-001",
+        "statement": "Health spending reached 10.1% of GDP in 2023-24, 1.1% more in real terms than in 2022-23, compared with an average of 8.1% across high-income countries.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Health Care Spending Overview",
+          "char_start": 33828,
+          "char_end": 34021,
+          "passage_sha256": "a5c96b51c3d56ac5105b2555cd7509fad17e81b2c6fe715c1f472bf0a82b70a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023-24"
+      },
+      {
+        "id": "AUS-costs-002",
+        "statement": "COVID-19 drove a sharp rise in spending, from AUD 203 billion in 2019-20 to AUD 241 billion in 2021-22, before spending eased slightly in real terms in 2022-23 back towards its pre-pandemic trend.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Health Care Spending Overview",
+          "char_start": 33349,
+          "char_end": 33823,
+          "passage_sha256": "7216d491d388cd03688b4ef0d31e6eea88eebdb7480443448bf109048d78575b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2019-20 to 2022-23"
+      },
+      {
+        "id": "AUS-costs-003",
+        "statement": "Australia, like Israel, has relatively high health care prices compared with the OECD average, though below Iceland, Switzerland and the United States.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7: Health expenditure",
+          "page": 160,
+          "char_start": 494789,
+          "char_end": 495035,
+          "passage_sha256": "26c02f7ab2bcbe56d6cded805120c2caac734b4870edc6860ce86354d21b2d20"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-costs-004",
+        "statement": "Australia was among a group of countries, with Canada and several Western European countries, spending between USD 7,000 and USD 8,500 per person on health, below Switzerland, Norway and Germany.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7: Health expenditure per capita",
+          "page": 158,
+          "char_start": 487340,
+          "char_end": 487634,
+          "passage_sha256": "1898c861f11f1bd66655980c9e1074628005d71b8ef95a24f9a6c811acc34208"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-costs-005",
+        "statement": "In 2016 Australia spent 9.6% of GDP on health, the lowest of the 11 high-income countries compared, against 17.8% in the United States and 12.4% in Switzerland.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 2179,
+          "char_end": 2341,
+          "passage_sha256": "7a6d8de9414a1c2719a28106dd8c5b9e770e3736d97c34aced69f43188471f01"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2016"
+      },
+      {
+        "id": "AUS-costs-006",
+        "statement": "Government spending per person on PBS medicines rose 13% between 2021-22 and 2022-23, driven by inflation, lower co-payments and new high-cost medicines.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 35770,
+          "char_end": 35939,
+          "passage_sha256": "1aec11a9c8b09656ebf663dea9557092ef4fdc00761002b55e08e2a0575a72df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2021-22 to 2022-23"
+      },
+      {
+        "id": "AUS-costs-007",
+        "statement": "Out-of-pocket payments fell from 20.6% of total health spending in 2000 to 15.3% in 2022, still slightly above the high-income-country average of 13.2%.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 35984,
+          "char_end": 36219,
+          "passage_sha256": "aaa979b2581e2a392ff0fe20eb29c0f4cba2e8f8756d3b0759508d0f9aea025e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2000-2022"
+      }
+    ],
+    "what_works": [
+      {
+        "id": "AUS-what_works-001",
+        "statement": "Price discounts the government negotiates for PBS medicines meant that, while pharmaceutical spending grew 23% from 2010 to 2018, net pharmaceutical revenue grew only 5% from 2010 to 2019.",
+        "valence": "strength",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 37496,
+          "char_end": 37786,
+          "passage_sha256": "6bb37368cd0e31ff9194c1933b31acb30e43b6c7d96f3dbfd0aad5390734d6ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2010-2019"
+      },
+      {
+        "id": "AUS-what_works-002",
+        "statement": "Avoidable mortality was 97 deaths per 100,000 people in 2023, against 158 across OECD countries.",
+        "valence": "strength",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 38196,
+          "char_end": 38309,
+          "passage_sha256": "527478654f25e87557b2b4f71412db2c85ebadded7b9f21459b53f9830c990ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      },
+      {
+        "id": "AUS-what_works-003",
+        "statement": "Bulk billing reaches poorer areas: in 2022, 86% of GP services were bulk billed in the most disadvantaged areas against 73% in the least disadvantaged, and rates in remote areas did not differ significantly from metropolitan ones.",
+        "valence": "strength",
+        "source_id": "mja-2025-bb-sa3",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1680,
+          "char_end": 1991,
+          "passage_sha256": "a7db7bae7c22f89154479b783f8bd2865ce909685a70d95e6bea1ddc4860cbde"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022"
+      },
+      {
+        "id": "AUS-what_works-004",
+        "statement": "Higher bulk-billing incentives for rural and remote GPs, introduced in 2022, raised GP visits by 2.7% and bulk-billed visits by 9.0%, and cut the out-of-pocket cost per visit by 13.0%, for rural residents relative to urban residents.",
+        "valence": "strength",
+        "source_id": "rural-incentives-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1857,
+          "char_end": 2183,
+          "passage_sha256": "bb6adc4c99467e45772322c1ad02540245c61a0c7583b1118954e672c87ed80b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2021-2022"
+      },
+      {
+        "id": "AUS-what_works-005",
+        "statement": "A 2025 review concluded that Australian health policies effectively lower the financial burden of care for many people with chronic conditions, while groups who do not qualify for concessional thresholds still face distinct difficulties.",
+        "valence": "strength",
+        "source_id": "oop-lived-2025",
+        "locator": {
+          "section": "Abstract: Conclusion",
+          "char_start": 2659,
+          "char_end": 2852,
+          "passage_sha256": "2a672a5c3d1de0d5d701148bea8734ea0b72771877571f3082d7bdd412741625"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "AUS-problems-001",
+        "statement": "Between 2006 and 2014, people in the lowest income decile had 15 times the odds of catastrophic health spending (10% or more of household income, counting practitioner fees, medicines and insurance premiums) as those in the highest decile, after adjustment; the share with catastrophic spending rose from 13% to 19% in decile 2 and from 7% to 13% in decile 3.",
+        "valence": "weakness",
+        "source_id": "callander-2019",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2619,
+          "char_end": 3030,
+          "passage_sha256": "083887e571fe8a23dbc68589beae2401e3c63a0fd3cf6e0f91614497a862c6a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2006-2014"
+      },
+      {
+        "id": "AUS-problems-002",
+        "statement": "Using 2014-15 Medicare data, specialist visits favoured people in wealthier areas; visits with out-of-pocket costs were distributed in favour of the rich, and the slightly pro-poor spread of free (bulk-billed) visits did not offset this.",
+        "valence": "weakness",
+        "source_id": "ahr-2022-specialist-oop",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1544,
+          "char_end": 2027,
+          "passage_sha256": "85a9e793f4bc3427f0b5ab04c7facff97c69cdd59ac773210c30e08f63945550"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2014-15"
+      },
+      {
+        "id": "AUS-problems-003",
+        "statement": "For GP visits that were not bulk billed in 2022, patients in remote areas paid more on average ($56) than those in metropolitan areas ($43).",
+        "valence": "weakness",
+        "source_id": "mja-2025-bb-sa3",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1993,
+          "char_end": 2155,
+          "passage_sha256": "8fd3f1f849779029d2d3d387a5134a894ba7909bd363ce3267358b492600fd4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2022"
+      },
+      {
+        "id": "AUS-problems-004",
+        "statement": "A 2026 simulation study found that the current risk equalisation scheme for private hospital insurance leaves strong incentives for insurers to select risks and weak incentives to control spending.",
+        "valence": "weakness",
+        "source_id": "hp-2026-phi-risk",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2049,
+          "char_end": 2179,
+          "passage_sha256": "e94dadb8d7b0a79e4abdd7f959f1bc409e60895efb5d980172edb78f7ee7bef2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-problems-005",
+        "statement": "The gains from the 2022 rural bulk-billing incentives were uneven: effects were larger for people with higher initial out-of-pocket costs, such as adults, people without concession cards and residents of less disadvantaged areas, and inequities in access persisted.",
+        "valence": "weakness",
+        "source_id": "rural-incentives-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2184,
+          "char_end": 2541,
+          "passage_sha256": "080cd0d572741543dd4f0b75421a18f01a0407027ca7cefa7ecf18e22e6f47f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2021-2022"
+      },
+      {
+        "id": "AUS-problems-006",
+        "statement": "In 2024, 77% of adults aged 75 and over in Australia took five or more medications, the highest rate among reporting OECD countries, although Australia recorded one of the largest declines over time.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 10: Polypharmacy",
+          "page": 230,
+          "char_start": 722474,
+          "char_end": 723151,
+          "passage_sha256": "babfbe8d8e28881307ffc30968ed269741643ae14ff3f9c87f9c2ee2359f9ff6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024"
+      },
+      {
+        "id": "AUS-problems-007",
+        "statement": "Australia had 6.4 mental hospital beds per 100,000 people in 2020, against 28.6 in other high-income countries.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 28961,
+          "char_end": 29120,
+          "passage_sha256": "0e4480e2ed046a8473197f48883619016c0ab9d13cdccd81b387edf69b0ba59e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2020"
+      },
+      {
+        "id": "AUS-problems-008",
+        "statement": "Medicare rules let after-hours deputising services bill higher out-of-hours rates that GPs working from their own clinics cannot, which discourages practices from opening late.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 16428,
+          "char_end": 16621,
+          "passage_sha256": "d849265ac84ca390c63f86d2d296ecfeea1210f602d9c5c20e3811892b0a94bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-problems-009",
+        "statement": "The 31 Primary Health Networks that commission local services vary widely in performance; in 2025 over half of GPs rated their local network's value as poor or very poor.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Integration and Care Coordination",
+          "char_start": 13269,
+          "char_end": 13782,
+          "passage_sha256": "2ae9a3f040aed001f85cb0f1b189108ca6f48d339f46e562e306c0f0501cf7a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-problems-010",
+        "statement": "Recognition of overseas medical qualifications is considerably harder in Australia than in the UK, New Zealand and Canada; overseas practitioners cite lack of recognition of their experience and complex, costly accreditation.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 20578,
+          "char_end": 20890,
+          "passage_sha256": "a958f9785126f126ab649b9d3d8d832026238370bb2916860e8195dca5023e63"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      },
+      {
+        "id": "AUS-problems-011",
+        "statement": "In 2021-22, 69% of residential aged care providers reported operating losses.",
+        "valence": "weakness",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 31414,
+          "char_end": 31506,
+          "passage_sha256": "fc6ee285c70f4d2ea953b4ac7dcf114cd16083c04ff3d6772ed18dd71daed8ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2021-22"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "AUS-reforms-001",
+        "statement": "The Aged Care Act 2024, in force since November 2025, set new person-centred care standards meant to help older people make informed decisions about their care and stay independent.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Innovation and Reform",
+          "char_start": 42815,
+          "char_end": 43052,
+          "passage_sha256": "ca01118818cc31238b0e5722553bd58648ab05bc0490e6e5af6c1185104209c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-reforms-002",
+        "statement": "A National Lung Cancer Screening Program was launched in July 2025, designed in line with recommendations of the Medical Services Advisory Committee.",
+        "valence": "neutral",
+        "source_id": "lung-screening-2026",
+        "locator": {
+          "section": "Abstract: Introduction",
+          "char_start": 4452,
+          "char_end": 4666,
+          "passage_sha256": "a595929ee281a5bd7383f458943a1d9f2a82ae9176e79427068a4ebab78d040c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-reforms-003",
+        "statement": "With the number of older people using home care projected to grow by about 44,000 a year to nearly 2 million by 2042, the government introduced the Support at Home Program in 2025.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 31181,
+          "char_end": 31409,
+          "passage_sha256": "55b32be0e6a2869727c228338a90b0c7832364d0b87eb726c60a615e16e7a1b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025"
+      },
+      {
+        "id": "AUS-reforms-004",
+        "statement": "In October 2024 the government launched an Expedited Specialist Pathway that lets eligible specialists credentialed in Ireland, New Zealand and the UK fast-track their specialist registration.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 21538,
+          "char_end": 21741,
+          "passage_sha256": "7af33ed149302cc5d24a286fb2815ed2debfe3aa6977e07f72cecb97344abcb1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024"
+      },
+      {
+        "id": "AUS-reforms-005",
+        "statement": "In 2024 the federal government introduced payments of up to AUD 21,000 a year for GPs to attract doctors to rural and remote areas.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 42319,
+          "char_end": 42483,
+          "passage_sha256": "14dfba808ca20b62968a839ab7943540f0726dc97bfd0a6bb00d442f1ddef630"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2024"
+      },
+      {
+        "id": "AUS-reforms-006",
+        "statement": "MyMedicare, a voluntary patient registration scheme introduced in October 2023 to strengthen continuity of care, had broad support in principle, but practice staff interviewed in 2025-2026 reported limited benefits so far and a heavy administrative burden that could undermine continuity.",
+        "valence": "neutral",
+        "source_id": "mymedicare-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2215,
+          "char_end": 3617,
+          "passage_sha256": "50bec128ef21f92b4cceb91afc49a991088229431ab5ea7f280aa559018110ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2025-2026"
+      },
+      {
+        "id": "AUS-reforms-007",
+        "statement": "In November 2023 the government tripled bulk-billing incentive payments for concession card holders and children; a 2025 study described a proposal to extend the tripled incentive to all Australians from November 2025, together with extra payments for practices that bulk bill every patient.",
+        "valence": "neutral",
+        "source_id": "rural-incentives-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 44189,
+          "char_end": 44552,
+          "passage_sha256": "0953b59bded0f34e8efbb04f0d69e66033fb35355df099bfbbb9a25b6bbb83e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      },
+      {
+        "id": "AUS-reforms-008",
+        "statement": "Since 2023, people with stable, ongoing conditions can get a 60-day supply of eligible medicines, including mental health medication, for the cost of one prescription (AUD 32 as of January 2024); more than 300 PBS-listed medicines are covered.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 28081,
+          "char_end": 28334,
+          "passage_sha256": "2eaa464af3ceba9409f419f85a40d67d21f4b06a3e0736711bd3e3060531047b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2023"
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "AUS-us_lessons-001",
+        "statement": "Comparing the US with ten other high-income countries, including Australia, researchers found the US spent roughly twice as much while using care at similar rates; prices of labour and goods, including medicines, and administrative costs were the main drivers of the gap.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Conclusions and relevance",
+          "char_start": 4361,
+          "char_end": 4756,
+          "passage_sha256": "5683bf36ba50bfbb20c5d140451fff8d1d8e28be583699bb50305f7cb4dd40eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "AUS-us_lessons-002",
+        "statement": "In the same comparison, administrative costs made up 8% of US health spending against 1% to 3% in the other ten countries.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3836,
+          "char_end": 4026,
+          "passage_sha256": "d56997d987eb95253c31c0be11c1f9203677cdad281f4892b2ed07eb7db8e327"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "AUS-us_lessons-003",
+        "statement": "Between 2013 and 2017, government-paid prices for three costly drugs fell much faster under Australia's PBS than under US Medicare; adalimumab rose 12.8% a year in the US but fell 11.1% a year in Australia, a gap of 23.9 percentage points.",
+        "valence": "neutral",
+        "source_id": "ophth-prices-2019",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 6913,
+          "char_end": 7142,
+          "passage_sha256": "33524201ab14788c7f2a2ee3d7268df195df834fec42ddf6f12c87a08485e38d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        },
+        "data_year": "2013-2017"
+      },
+      {
+        "id": "AUS-us_lessons-004",
+        "statement": "The authors of the US-Australia drug price comparison caution that their data do not explain why prices diverged or what actions would change future prices in either country.",
+        "valence": "neutral",
+        "source_id": "ophth-prices-2019",
+        "locator": {
+          "section": "Abstract: Conclusions and relevance",
+          "char_start": 7606,
+          "char_end": 7912,
+          "passage_sha256": "08e81ea98e90a71a69e1f8e4b573224ce2538a9ab94b2a2b99abf25e16506a22"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-09"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/AUS.json",
+  "sources": [
+    {
+      "id": "cwf-aus",
+      "title": "International Health Care System Profiles: Australia (2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/australia",
+      "funding_note": "US private foundation; profile written by FT Longitude on the Fund's behalf from data collected February-December 2025, reflecting data as of February 2026. Most figures are drawn from AIHW and Australian government sources, which were blocked in this run.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "oecd-hag-2025",
+      "title": "Health at a Glance 2025: OECD Indicators",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "haq-2018",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation. Data year 2016; the paper reports scores, and this run found no stated rank for Australia in the main text.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "papanicolas-2018",
+      "title": "Health Care Spending in the United States and Other High-Income Countries",
+      "publisher": "JAMA",
+      "authors": "Papanicolas I, Woskie LR, Jha AK",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1001/jama.2018.1150",
+      "doi": "10.1001/jama.2018.1150",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29536101&rettype=abstract&retmode=text",
+      "funding_note": "Data mostly 2013-2016. The ten comparison countries include Australia.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "ophth-prices-2019",
+      "title": "Comparison of Ophthalmic Medication Prices Between the United States and Australia",
+      "publisher": "JAMA Ophthalmology",
+      "authors": "Parikh R, Feng PW, Tainsh L, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2019,
+      "url": "https://doi.org/10.1001/jamaophthalmol.2018.6395",
+      "doi": "10.1001/jamaophthalmol.2018.6395",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6459104",
+      "funding_note": "Covers three drugs only (adalimumab, ranibizumab, aflibercept), 2013-2017 prices paid by US Medicare and the Australian PBS.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "callander-2019",
+      "title": "Out-of-pocket healthcare expenditure in Australia: trends, inequalities and the impact on household living standards in a high-income country with a universal health care system",
+      "publisher": "Health Economics Review",
+      "authors": "Callander EJ, Fox H, Lindsay D",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2019,
+      "url": "https://doi.org/10.1186/s13561-019-0227-9",
+      "doi": "10.1186/s13561-019-0227-9",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6734455",
+      "funding_note": "HILDA survey data 2006-2014; out-of-pocket measure includes private insurance premiums.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "callander-2023",
+      "title": "Out-of-pocket fees for health care in Australia: implications for equity",
+      "publisher": "Medical Journal of Australia",
+      "authors": "Callander EJ",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.5694/mja2.51895",
+      "doi": "10.5694/mja2.51895",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10953298",
+      "funding_note": "Perspective article (not original research); author argues for policy change on out-of-pocket fees.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mja-2025-bb-sa3",
+      "title": "Bulk-billing rates and out-of-pocket costs for general practitioner services in Australia, 2022, by SA3 region: analysis of Medicare claims data",
+      "publisher": "Medical Journal of Australia",
+      "authors": "Saxby K, Zhang Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.5694/mja2.52562",
+      "doi": "10.5694/mja2.52562",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39688101&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "ahr-2022-specialist-oop",
+      "title": "The link between out-of-pocket costs and inequality in specialist care in Australia",
+      "publisher": "Australian Health Review",
+      "authors": "Pulok MH, van Gool K, Hall J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1071/AH22126",
+      "doi": "10.1071/AH22126",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=36175167&rettype=abstract&retmode=text",
+      "funding_note": "Data from 2014-15.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mls-2021",
+      "title": "The effect of income-based mandates on the demand for private hospital insurance and its dynamics",
+      "publisher": "Journal of Health Economics",
+      "authors": "Buchmueller TC, Cheng TC, Pham NTA, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1016/j.jhealeco.2020.102403",
+      "doi": "10.1016/j.jhealeco.2020.102403",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33285341&rettype=abstract&retmode=text",
+      "funding_note": "Uses HILDA longitudinal survey data.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "hec-2023-phi-elderly",
+      "title": "Elderly responses to private health insurance incentives: Evidence from Australia",
+      "publisher": "Health Economics",
+      "authors": "Liu J, Zhang Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1002/hec.4751",
+      "doi": "10.1002/hec.4751",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37641496&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "hp-2026-phi-risk",
+      "title": "Policy innovation in voluntary hospital private health insurance: Combining risk adjustment and risk sharing in Australia",
+      "publisher": "Health Policy",
+      "authors": "Henriquez J, McGuire T, van Kleef R, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.healthpol.2026.105584",
+      "doi": "10.1016/j.healthpol.2026.105584",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41724136&rettype=abstract&retmode=text",
+      "funding_note": "Simulation study; one author is affiliated with an actuarial consultancy (Finity).",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "private-public-2021",
+      "title": "Private versus public? Examining hospital use by a privately insured population in New South Wales, Australia, using data linkage",
+      "publisher": "Australian Health Review",
+      "authors": "Khoo J, Hasan H, Eagar K",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1071/AH19274",
+      "doi": "10.1071/AH19274",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33012306&rettype=abstract&retmode=text",
+      "funding_note": "One local health district, 2010-2015 data.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "oop-lived-2025",
+      "title": "Lived experience of out-of-pocket costs of health care and medicines by people with chronic conditions and their families in Australia: a systematic review of the qualitative literature",
+      "publisher": "Health Policy",
+      "authors": "Desborough J, Maskell-Knight C, Wang S, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.healthpol.2025.105359",
+      "doi": "10.1016/j.healthpol.2025.105359",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40411941&rettype=abstract&retmode=text",
+      "funding_note": "Co-author from Chronic Pain Australia, a patient advocacy organisation.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cancer-oop-sr-2021",
+      "title": "Australian Experiences of Out-of-Pocket Costs and Financial Burden Following a Cancer Diagnosis: A Systematic Review",
+      "publisher": "International Journal of Environmental Research and Public Health",
+      "authors": "Bygrave A, Whittaker K, Paul C, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.3390/ijerph18052422",
+      "doi": "10.3390/ijerph18052422",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7967550",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "rural-incentives-2025",
+      "title": "Do Rurality-Based Financial Incentives Improve Equity of Primary Healthcare Access? Evidence From Australia",
+      "publisher": "Health Economics",
+      "authors": "Saxby K, Zhang Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1002/hec.70000",
+      "doi": "10.1002/hec.70000",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12316583",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "continuity-2026",
+      "title": "Continuity of Care in General Practice in Australia: A Whole-Of-Population Serial Cross-Sectional Study",
+      "publisher": "Medical Journal of Australia",
+      "authors": "Welsh J, Freeman-Robinson R, Butler DC, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.5694/mja2.70229",
+      "doi": "10.5694/mja2.70229",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13275638",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mymedicare-2026",
+      "title": "General Practice Staff and Consumer Views of Voluntary Patient Registration in Australia Under the MyMedicare Scheme: A Qualitative Study",
+      "publisher": "Medical Journal of Australia",
+      "authors": "Vagholkar S, Chauhan A, Arnolda G, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.5694/mja2.70318",
+      "doi": "10.5694/mja2.70318",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13720891",
+      "funding_note": "Qualitative interviews (45 staff, 50 consumers); not a measure of uptake.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "lung-screening-2026",
+      "title": "Program Guidelines for the National Lung Cancer Screening Program: Targeted Lung Cancer Screening in High-Risk Individuals in Australia",
+      "publisher": "Medical Journal of Australia",
+      "authors": "Rankin NM, Zosel R, Whop LJ, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.5694/mja2.70234",
+      "doi": "10.5694/mja2.70234",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13358458",
+      "funding_note": "Authors include staff of Cancer Australia, the government agency running the program.",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 1,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 9,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 5,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 1,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 1,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-09",
+      "note": "First profile: claims anchored to fingerprinted passages and support-reviewed."
+    }
+  ]
+}

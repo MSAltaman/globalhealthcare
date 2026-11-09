@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SECTIONS = ["overview", "financing", "covered", "cost_sharing", "additional_care", "access",
+SECTIONS = ["overview", "financing", "covered", "cost_sharing", "financial_hardship", "additional_care", "access",
             "outcomes", "costs", "what_works", "problems", "reforms", "us_lessons"]
 
 

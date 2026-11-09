@@ -55,10 +55,15 @@ A profile is `verified` only when every claim passes both checks.
 The scheduled task runs this procedure. Each run handles at most the number of
 countries in its prompt (default 3).
 
-1. **Pick countries.** If the run's prompt names countries, do exactly those.
-   Otherwise, in order: profiles with `status: needs_review`; then countries in
-   `config/countries.json` with no profile, by wave; then profiles whose
-   `system_as_of` is older than 6 months.
+1. **Pick ONE country per run.** If the run's prompt names countries, take the
+   first one that has neither a profile on `main` nor a remote branch
+   `claude/research-<iso3>` (`git ls-remote --heads origin`). Otherwise, in
+   order: profiles with `status: needs_review`; then countries in
+   `config/countries.json` with no profile and no such branch, by wave; then
+   profiles whose `system_as_of` is older than 6 months. If a branch
+   `claude/research-<iso3>` exists with unfinished work, continue it instead.
+   One country per run keeps usage low and means a usage limit never loses
+   more than one country's work.
 2. **Indicators.** `python scripts/fetch_indicators.py <ISO3...>` (skip if
    `data/indicators/<ISO3>.json` is less than a month old). Taiwan is not in
    World Bank or WHO data: cite its key statistics as ordinary claims from
@@ -83,12 +88,17 @@ countries in its prompt (default 3).
    - If a source cannot be downloaded (blocked domain, robots, 403), do not
      use it. Find another source for those facts, and list the blocked domain
      in the pull request so the human can allow it.
-6. **Write and anchor each claim.** Write the statement in your own words
+6. **Save progress as you go.** Work on branch `claude/research-<iso3>`.
+   Commit and push after the sources are downloaded and again after every
+   section's claims are anchored (`git push -u origin claude/research-<iso3>`).
+   A run can stop at any time on a usage limit; the next run resumes from the
+   branch.
+7. **Write and anchor each claim.** Write the statement in your own words
    from the passage, then anchor it:
    `python scripts/anchor.py <ISO3> <claim_id> --start "<first words>" --end "<last words>"`.
    Check the printed passage. Keep passages tight (one to three sentences).
    Claim ids are `<ISO3>-<section>-<nnn>`, numbered from 001 per section.
-7. **Support review: a separate, cold pass.** After all claims are anchored,
+8. **Support review: a separate, cold pass.** After all claims are anchored,
    go back through every claim reading only the printed passage
    (`anchor.py ... --show`) and the statement. Mark `verification.supports`
    `pass` only if the passage supports the statement exactly. In the Germany
@@ -103,15 +113,55 @@ countries in its prompt (default 3).
      even if it is elsewhere in the document. Split the claim or drop the detail.
    Rewrite and re-anchor, or delete the claim. Set `checked_on` and
    `checked_by` (model name plus "support review").
-8. **Verify and validate.**
+9. **Verify and validate.**
    `python scripts/verify_claims.py <ISO3...>`, then `python scripts/validate.py`
    and `python -m pytest -q tests`. Fix anything that fails. Never open a pull
    request with a failed claim.
-9. **Pull request.** Only touch your countries' files under `data/` (plus
-   `config/` if a source tier note needs it). Push a `claude/research-<iso3s>`
-   branch and open a PR titled `research: <Names> (<date>)`. In the PR body:
+10. **Pull request.** Only touch your country's files under `data/` (plus
+   `config/` if a source tier note needs it). Open a PR from `claude/research-<iso3>` titled `research: <Names> (<date>)`. In the PR body:
    claims and sources per country, statements dropped or corrected in review,
    blocked domains, and open questions for the reviewer.
+
+## Financial hardship section
+
+Every profile fills `financial_hardship`. The comparable rates (households
+spending over 10% and 25% of their budget on health, and people pushed into
+poverty by health costs) are pulled automatically from WHO into
+`data/indicators/`; do not restate them as claims. Instead, look for national
+evidence on medical debt, arrears and personal bankruptcy or insolvency
+linked to health costs: insolvency statistics that record causes, debt
+counselling data, and peer-reviewed studies. Many countries do not record
+medical causes of bankruptcy at all. When your search finds none, add one
+claim saying so only if a source states it; otherwise leave the section empty
+and note "no national data found" in the PR. Never estimate a bankruptcy rate.
+
+For the US baseline, published estimates of medical bankruptcy disagree
+sharply because they measure different things (for example, whether illness
+"contributed" vs. whether a hospitalisation "caused" a filing). Report each
+estimate with its definition, never one figure alone.
+
+## United States baseline profile
+
+The US profile (`USA.json`, `is_baseline: true`, `universal_coverage.meets_definition: false`)
+uses the same sections and rules, plus these, each reported with its
+definition and data year:
+- **Uninsured:** count and rate from the Census Bureau (CPS ASEC and ACS
+  reports), and how it changed recently.
+- **Underinsured:** the Commonwealth Fund biennial coverage survey (state its
+  definition of underinsured) and coverage gaps during the year.
+- **Insurer decisions on care:** claim denial rates (e.g. KFF analysis of
+  HealthCare.gov plans: in-network denials, appeal rates), prior authorization
+  (e.g. AMA physician survey, HHS Office of Inspector General reports on
+  Medicare Advantage), and how often denials are appealed and overturned.
+  State the data's limits as the source does.
+- **Medical debt and bankruptcy:** see the financial hardship section; report
+  each bankruptcy estimate with its definition.
+- **Balance still applies:** at least three `what_works` claims with evidence
+  (for example cancer survival, waiting times for specialists or elective
+  surgery, innovation), from tier 1-3 sources.
+For other countries, record comparable evidence on who decides what care is
+covered (benefit-basket bodies, budgets, waiting lists, private insurer
+approval for supplementary cover) so the comparison is like for like.
 
 ## Files
 

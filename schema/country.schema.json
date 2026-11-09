@@ -90,6 +90,7 @@
         "financing",
         "covered",
         "cost_sharing",
+        "financial_hardship",
         "additional_care",
         "access",
         "outcomes",
@@ -114,6 +115,10 @@
         "cost_sharing": {
           "$ref": "#/$defs/claimList",
           "description": "Co-pays, deductibles, caps, exemptions; what is subsidized."
+        },
+        "financial_hardship": {
+          "$ref": "#/$defs/claimList",
+          "description": "Medical debt, bankruptcy and impoverishment linked to health costs. Comparable rates come from WHO indicators; this section holds country studies, and states plainly when no national data exists."
         },
         "additional_care": {
           "$ref": "#/$defs/claimList",

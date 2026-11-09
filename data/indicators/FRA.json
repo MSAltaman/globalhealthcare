@@ -1,6 +1,6 @@
 {
   "iso3": "FRA",
-  "retrieved": "2026-11-08",
+  "retrieved": "2026-11-09",
   "provider": "World Bank WDI API and WHO Global Health Observatory API",
   "indicators": [
     {
@@ -127,11 +127,31 @@
       "id": "FINPROTECTION_CATA_TOT_10_POP",
       "label": "Households spending over 10% of budget on health",
       "unit": "% of population",
-      "group": "coverage",
+      "group": "hardship",
       "value": null,
       "year": null,
       "original_source": "World Health Organization, Global Health Observatory",
       "api_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?$filter=SpatialDim eq 'FRA'"
+    },
+    {
+      "id": "FINPROTECTION_CATA_TOT_25_POP",
+      "label": "Households spending over 25% of budget on health",
+      "unit": "% of population",
+      "group": "hardship",
+      "value": null,
+      "year": null,
+      "original_source": "World Health Organization, Global Health Observatory",
+      "api_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_25_POP?$filter=SpatialDim eq 'FRA'"
+    },
+    {
+      "id": "FINPROTECTION_IMP_NPRELPL_POP",
+      "label": "People pushed into poverty by health costs (relative poverty line)",
+      "unit": "% of population",
+      "group": "hardship",
+      "value": null,
+      "year": null,
+      "original_source": "World Health Organization, Global Health Observatory",
+      "api_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_IMP_NPRELPL_POP?$filter=SpatialDim eq 'FRA'"
     }
   ]
 }

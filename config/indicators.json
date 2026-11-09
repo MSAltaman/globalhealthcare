@@ -1,5 +1,5 @@
 {
-  "description": "Indicators pulled by scripts/fetch_indicators.py from the World Bank and WHO Global Health Observatory APIs. Values come straight from the API; no model ever writes a number. The script records the original source organization for each.",
+  "description": "Indicators pulled by scripts/fetch_indicators.py from the World Bank, WHO Global Health Observatory and OECD APIs. Values come straight from the API; no model ever writes a number. The script records the original source organization for each.",
   "world_bank": [
     {
       "id": "SP.POP.TOTL",
@@ -93,6 +93,32 @@
       "label": "People pushed into poverty by health costs (relative poverty line)",
       "unit": "% of population",
       "group": "hardship"
+    }
+  ],
+  "oecd": [
+    {
+      "id": "OECD_COVERAGE",
+      "label": "Population covered for core services (public or primary private insurance)",
+      "unit": "% of population",
+      "group": "coverage",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,1.1",
+      "filters": {
+        "Unit of measure": "Percentage of population",
+        "Insurance type": "Public and primary voluntary health insurance"
+      }
+    },
+    {
+      "id": "OECD_TREATABLE_MORT",
+      "label": "Treatable mortality (deaths healthcare should prevent), age-standardised",
+      "unit": "deaths per 100,000",
+      "group": "outcomes",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_STAT@DF_AM,1.1",
+      "filters": {
+        "Measure": "Treatable mortality",
+        "Unit of measure": "Deaths per 100 000 inhabitants",
+        "Sex": "Total",
+        "Calculation methodology": "Standardised rate"
+      }
     }
   ]
 }

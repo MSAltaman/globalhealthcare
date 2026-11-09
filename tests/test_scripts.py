@@ -86,3 +86,36 @@ def test_gho_latest_uses_whole_population_rows():
         {"TimeDim": 2020, "NumericValue": None, "Dim1": None},
     ]}
     assert fetch_indicators.gho_latest(payload) == {"value": 4.0, "year": 2019}
+
+
+def test_oecd_latest_applies_filters_and_takes_newest():
+    rows = [
+        {"REF_AREA": "USA", "TIME_PERIOD": "2022", "OBS_VALUE": "90.1", "Sex": "Total"},
+        {"REF_AREA": "USA", "TIME_PERIOD": "2024", "OBS_VALUE": "91.8", "Sex": "Total"},
+        {"REF_AREA": "USA", "TIME_PERIOD": "2025", "OBS_VALUE": "50.0", "Sex": "Male"},
+        {"REF_AREA": "CAN", "TIME_PERIOD": "2025", "OBS_VALUE": "100", "Sex": "Total"},
+    ]
+    assert fetch_indicators.oecd_latest(rows, "USA", {"Sex": "Total"}) == {"value": 91.8, "year": 2024}
+    assert fetch_indicators.oecd_latest(rows, "MEX", {"Sex": "Total"}) is None
+
+
+import score  # noqa: E402
+
+
+def test_normalise_orients_and_rescales():
+    out = score.normalise({"A": 10, "B": 20, "C": 30}, "lower", log=False)
+    assert out == {"A": 100.0, "B": 50.0, "C": 0.0}
+
+
+def test_compute_drops_stale_data_and_ranks(monkeypatch):
+    import datetime as dt
+    cfg = {"max_data_age_years": 10, "min_indicator_share_per_domain": 0.5, "min_domains_for_overall": 1,
+           "sensitivity": {"samples": 50, "seed": 1},
+           "domains": [{"id": "d", "label": "D", "weight": 1, "question": "?",
+                        "indicators": [{"id": "x", "better": "higher"}]}]}
+    monkeypatch.setattr(score, "CFG", cfg)
+    data = {"A": {"x": {"value": 5, "year": 2024}}, "B": {"x": {"value": 9, "year": 2024}},
+            "C": {"x": {"value": 99, "year": 2001}}}
+    res = score.compute(data, ["A", "B", "C"], today=dt.date(2026, 1, 1))
+    ranks = {r["iso3"]: r["rank"] for r in res["rows"]}
+    assert ranks == {"B": 1, "A": 2, "C": None}

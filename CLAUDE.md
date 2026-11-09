@@ -55,6 +55,11 @@ A profile is `verified` only when every claim passes both checks.
 The scheduled task runs this procedure. Each run handles at most the number of
 countries in its prompt (default 3).
 
+0. **Backfill first.** If `config/backfill.json` has an item with
+   `status: open`, this run fills that country's gaps instead of starting a
+   new country: work on its open PR branch (or `claude/backfill-<iso3>` from
+   `main` if already merged), keep every existing rule and check, update the
+   PR body, and set the item's `status` to `done` in the same branch.
 1. **Pick ONE country per run.** If the run's prompt names countries, take the
    first one that has neither a profile on `main` nor a remote branch
    `claude/research-<iso3>` (`git ls-remote --heads origin`). Otherwise, in
@@ -121,6 +126,25 @@ countries in its prompt (default 3).
    `config/` if a source tier note needs it). Open a PR from `claude/research-<iso3>` titled `research: <Names> (<date>)`. In the PR body:
    claims and sources per country, statements dropped or corrected in review,
    blocked domains, and open questions for the reviewer.
+
+## Rankings
+
+Record every published cross-country ranking that states the country's
+position, in `rankings`, each as the source's own finding:
+- **Commonwealth Fund Mirror, Mirror 2024** (10 countries: Australia, Canada,
+  France, Germany, Netherlands, New Zealand, Sweden, Switzerland, UK, US):
+  overall plus each domain.
+- **GBD Healthcare Access and Quality (HAQ) Index** (The Lancet; 195-204
+  countries), which covers every country in this atlas except Taiwan: the
+  country's rank or score where the paper or its appendix table states it,
+  with the data year. A table row may be anchored when the passage contains
+  the country name and its values; put the table number and the column
+  (year or measure) in `locator.table`.
+- Other peer-reviewed or intergovernmental comparisons that rank countries,
+  if the source states the position.
+Do not use commercial or opinion "best healthcare" lists. If no qualifying
+ranking states the country's position, leave `rankings` empty and say so in
+the PR.
 
 ## Financial hardship section
 

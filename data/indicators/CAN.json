@@ -1,7 +1,7 @@
 {
   "iso3": "CAN",
   "retrieved": "2026-11-09",
-  "provider": "World Bank WDI API and WHO Global Health Observatory API",
+  "provider": "World Bank WDI, WHO Global Health Observatory and OECD Health Statistics APIs",
   "indicators": [
     {
       "id": "SP.POP.TOTL",
@@ -152,6 +152,26 @@
       "year": 2019,
       "original_source": "World Health Organization, Global Health Observatory",
       "api_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_IMP_NPRELPL_POP?$filter=SpatialDim eq 'CAN'"
+    },
+    {
+      "id": "OECD_COVERAGE",
+      "label": "Population covered for core services (public or primary private insurance)",
+      "unit": "% of population",
+      "group": "coverage",
+      "value": 100.0,
+      "year": 2025,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,1.1/all"
+    },
+    {
+      "id": "OECD_TREATABLE_MORT",
+      "label": "Treatable mortality (deaths healthcare should prevent), age-standardised",
+      "unit": "deaths per 100,000",
+      "group": "outcomes",
+      "value": 57.0,
+      "year": 2024,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_STAT@DF_AM,1.1/all"
     }
   ]
 }

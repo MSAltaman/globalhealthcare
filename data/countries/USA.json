@@ -505,6 +505,176 @@
         }
       }
     ],
+    "financial_hardship": [
+      {
+        "id": "USA-financial_hardship-001",
+        "statement": "Over a third of working-age adults who were uninsured or underinsured were paying off medical or dental debt; among adults with medical debt, 48% owed $2,000 or more and 21% owed $5,000 or more.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024",
+        "locator": {
+          "section": "News release, p. 2",
+          "page": 2,
+          "char_start": 2517,
+          "char_end": 2853,
+          "passage_sha256": "a3f2ef9e2ac683271fc9d935e13ab5095a44b3dd0a34c89cc3598ed80783f64b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-002",
+        "statement": "Credit-report data show that in June 2020 an estimated 17.8% of people had medical debt in collections (13.0% took on new debt in the prior year); the study reports a mean amount of $429 ($311 accrued in the prior year).",
+        "valence": "weakness",
+        "source_id": "kluender-2021",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1685,
+          "char_end": 2102,
+          "passage_sha256": "2408036564acfde8aef2b9dd1b8504c9e17742bc40fbfbe5164f92c7c89f3898"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "USA-financial_hardship-003",
+        "statement": "In June 2020 the mean stock of medical debt ranged from $616 in the South to $167 in the Northeast, and was higher in poor than in rich zip-code income deciles ($677 vs $126).",
+        "valence": "weakness",
+        "source_id": "kluender-2021",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1927,
+          "char_end": 2309,
+          "passage_sha256": "afb01aa04ab0e070b836c0c6b185a64787e4591285dae413af0aecfe55b3826f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "USA-financial_hardship-004",
+        "statement": "More than 100 million Americans are estimated to hold about $220 billion of medical debt, with a quarter of them owing over $5000.",
+        "valence": "weakness",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4547,
+          "char_end": 4723,
+          "passage_sha256": "31a4b55dae381a6deb753d592d9ab401028346e0b39a8afc46daf66782cadbac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-005",
+        "statement": "Medical bankruptcy, survey-based definition: a 2007 survey of a random national sample of 2,314 bankruptcy filers classed filings as medical based on debtors' stated reasons for filing, income lost to illness and the size of their medical debts; on a conservative definition, 62.1% of 2007 bankruptcies were medical.",
+        "valence": "weakness",
+        "source_id": "himmelstein-2009",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 676,
+          "char_end": 1063,
+          "passage_sha256": "0b54934441562da2d065b119373bad9c397e4f967fe89a9d7c73f613b3995415"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2007
+      },
+      {
+        "id": "USA-financial_hardship-006",
+        "statement": "In that 2007 survey, most medical debtors were well educated, owned homes and had middle-class jobs; three-quarters had health insurance.",
+        "valence": "weakness",
+        "source_id": "himmelstein-2009",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 676,
+          "char_end": 1422,
+          "passage_sha256": "a5d0223c0046d9b29f8a132e08e2991106d3085ed1df06f8f7243331cb34e5e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2007
+      },
+      {
+        "id": "USA-financial_hardship-007",
+        "statement": "Medical bankruptcy, 'attributable' definition: about two-thirds (66.5%) of all personal bankruptcies are put down to medical debt, whether through high costs or lost income.",
+        "valence": "weakness",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4726,
+          "char_end": 4856,
+          "passage_sha256": "421ef6efc73320b07cb694587dbbed658a74e634577549c0337dcf314da17d84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-008",
+        "statement": "Medical bankruptcy, causal definition: linking adults aged 25-64 admitted to hospital in 2003-2007 (their first non-pregnancy stay in at least three years) to their 2002-2011 credit reports, researchers estimated that hospitalizations cause only 4% of personal bankruptcies among non-elderly US adults.",
+        "valence": "neutral",
+        "source_id": "dobkin-2018",
+        "locator": {
+          "section": "Main text",
+          "char_start": 5330,
+          "char_end": 6440,
+          "passage_sha256": "55c2545ad9e27259d6b6af05479cb31e713833ea6f6657ab3d41900241f6e0a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2002-2011"
+      },
+      {
+        "id": "USA-financial_hardship-009",
+        "statement": "The same authors argue that earlier studies of people who went bankrupt assumed any bankruptcy by someone reporting substantial medical bills was caused by that debt, citing a 2014 Consumer Financial Protection Bureau report that about 20% of Americans have substantial medical debt while under 1% file for bankruptcy in a given year.",
+        "valence": "neutral",
+        "source_id": "dobkin-2018",
+        "locator": {
+          "section": "Main text",
+          "char_start": 2684,
+          "char_end": 3462,
+          "passage_sha256": "71b0726c6761c0bbc0aae9bd5ad5d121b2f863da9df1da861c84d428d1652c4e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
     "additional_care": [
       {
         "id": "USA-additional_care-001",
@@ -1372,174 +1542,6 @@
           "checked_on": "2026-11-09",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
-      },
-      {
-        "id": "USA-problems-015",
-        "statement": "Over a third of working-age adults who were uninsured or underinsured were paying off medical or dental debt; among adults with medical debt, 48% owed $2,000 or more and 21% owed $5,000 or more.",
-        "valence": "weakness",
-        "source_id": "cwf-biennial-2024",
-        "locator": {
-          "section": "News release, p. 2",
-          "page": 2,
-          "char_start": 2517,
-          "char_end": 2853,
-          "passage_sha256": "a3f2ef9e2ac683271fc9d935e13ab5095a44b3dd0a34c89cc3598ed80783f64b"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        }
-      },
-      {
-        "id": "USA-problems-016",
-        "statement": "Credit-report data show that in June 2020 an estimated 17.8% of people had medical debt in collections (13.0% took on new debt in the prior year); the study reports a mean amount of $429 ($311 accrued in the prior year).",
-        "valence": "weakness",
-        "source_id": "kluender-2021",
-        "locator": {
-          "section": "Abstract: Results",
-          "char_start": 1685,
-          "char_end": 2102,
-          "passage_sha256": "2408036564acfde8aef2b9dd1b8504c9e17742bc40fbfbe5164f92c7c89f3898"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        },
-        "data_year": 2020
-      },
-      {
-        "id": "USA-problems-017",
-        "statement": "In June 2020 the mean stock of medical debt ranged from $616 in the South to $167 in the Northeast, and was higher in poor than in rich zip-code income deciles ($677 vs $126).",
-        "valence": "weakness",
-        "source_id": "kluender-2021",
-        "locator": {
-          "section": "Abstract: Results",
-          "char_start": 1927,
-          "char_end": 2309,
-          "passage_sha256": "afb01aa04ab0e070b836c0c6b185a64787e4591285dae413af0aecfe55b3826f"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        },
-        "data_year": 2020
-      },
-      {
-        "id": "USA-problems-018",
-        "statement": "More than 100 million Americans are estimated to hold about $220 billion of medical debt, with a quarter of them owing over $5000.",
-        "valence": "weakness",
-        "source_id": "dong-2026",
-        "locator": {
-          "section": "Introduction",
-          "char_start": 4547,
-          "char_end": 4723,
-          "passage_sha256": "31a4b55dae381a6deb753d592d9ab401028346e0b39a8afc46daf66782cadbac"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        }
-      },
-      {
-        "id": "USA-problems-019",
-        "statement": "Medical bankruptcy, survey-based definition: a 2007 survey of a random national sample of 2,314 bankruptcy filers classed filings as medical based on debtors' stated reasons for filing, income lost to illness and the size of their medical debts; on a conservative definition, 62.1% of 2007 bankruptcies were medical.",
-        "valence": "weakness",
-        "source_id": "himmelstein-2009",
-        "locator": {
-          "section": "Abstract",
-          "char_start": 676,
-          "char_end": 1063,
-          "passage_sha256": "0b54934441562da2d065b119373bad9c397e4f967fe89a9d7c73f613b3995415"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        },
-        "data_year": 2007
-      },
-      {
-        "id": "USA-problems-020",
-        "statement": "In that 2007 survey, most medical debtors were well educated, owned homes and had middle-class jobs; three-quarters had health insurance.",
-        "valence": "weakness",
-        "source_id": "himmelstein-2009",
-        "locator": {
-          "section": "Abstract",
-          "char_start": 676,
-          "char_end": 1422,
-          "passage_sha256": "a5d0223c0046d9b29f8a132e08e2991106d3085ed1df06f8f7243331cb34e5e0"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        },
-        "data_year": 2007
-      },
-      {
-        "id": "USA-problems-021",
-        "statement": "Medical bankruptcy, 'attributable' definition: about two-thirds (66.5%) of all personal bankruptcies are put down to medical debt, whether through high costs or lost income.",
-        "valence": "weakness",
-        "source_id": "dong-2026",
-        "locator": {
-          "section": "Introduction",
-          "char_start": 4726,
-          "char_end": 4856,
-          "passage_sha256": "421ef6efc73320b07cb694587dbbed658a74e634577549c0337dcf314da17d84"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        }
-      },
-      {
-        "id": "USA-problems-022",
-        "statement": "Medical bankruptcy, causal definition: linking adults aged 25-64 admitted to hospital in 2003-2007 (their first non-pregnancy stay in at least three years) to their 2002-2011 credit reports, researchers estimated that hospitalizations cause only 4% of personal bankruptcies among non-elderly US adults.",
-        "valence": "neutral",
-        "source_id": "dobkin-2018",
-        "locator": {
-          "section": "Main text",
-          "char_start": 5330,
-          "char_end": 6440,
-          "passage_sha256": "55c2545ad9e27259d6b6af05479cb31e713833ea6f6657ab3d41900241f6e0a6"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        },
-        "data_year": "2002-2011"
-      },
-      {
-        "id": "USA-problems-023",
-        "statement": "The same authors argue that earlier studies of people who went bankrupt assumed any bankruptcy by someone reporting substantial medical bills was caused by that debt, citing a 2014 Consumer Financial Protection Bureau report that about 20% of Americans have substantial medical debt while under 1% file for bankruptcy in a given year.",
-        "valence": "neutral",
-        "source_id": "dobkin-2018",
-        "locator": {
-          "section": "Main text",
-          "char_start": 2684,
-          "char_end": 3462,
-          "passage_sha256": "71b0726c6761c0bbc0aae9bd5ad5d121b2f863da9df1da861c84d428d1652c4e"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        }
       }
     ],
     "reforms": [
@@ -2171,6 +2173,10 @@
     {
       "date": "2026-11-09",
       "note": "Baseline profile: 94 claims from 20 sources, anchored to fingerprinted passages and support-reviewed in two cold passes; 46 statements corrected, 1 claim dropped (Medigap, unreadable PDF text)."
+    },
+    {
+      "date": "2026-11-09",
+      "note": "Moved 9 medical debt and bankruptcy claims from problems to the new financial_hardship section (statements and anchors unchanged)."
     }
   ],
   "is_baseline": true

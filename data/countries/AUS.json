@@ -3,7 +3,7 @@
   "name": "Australia",
   "wave": 1,
   "system_as_of": "2026-11-09",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "mixed",
     "label": "Tax-funded universal public insurance (Medicare) with free public hospitals, alongside subsidised voluntary private insurance"
@@ -30,8 +30,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -47,8 +48,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -64,8 +66,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -81,13 +84,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-overview-005",
-        "statement": "Public hospitals, owned and run by state governments, treat patients without charge; most other services come from private for-profit or not-for-profit providers whose charges Medicare subsidises in part.",
+        "statement": "Public hospitals, owned and run by state governments, treat patients without charge; services outside public hospitals are run by private for-profit or not-for-profit providers, and Medicare subsidises part of what patients pay for them.",
         "valence": "neutral",
         "source_id": "callander-2023",
         "locator": {
@@ -98,8 +102,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -117,8 +122,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -134,8 +140,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-24"
       },
@@ -152,26 +159,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-24"
       },
       {
         "id": "AUS-financing-004",
-        "statement": "Higher earners without private hospital cover pay a Medicare levy surcharge of up to 1.5% of taxable income; in 2024-25 the income threshold was AUD 97,000 for individuals and AUD 194,000 for families, and people earning less can receive a government contribution towards private premiums.",
+        "statement": "High-income earners without private hospital cover pay a Medicare levy surcharge, now up to 1.5% of taxable income; in 2024-25 it applied from AUD 97,000 for individuals and AUD 194,000 for families, and people earning less can receive a government contribution towards private premiums.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
           "section": "The Role of Private Health Insurance",
-          "char_start": 11876,
+          "char_start": 11711,
           "char_end": 12216,
-          "passage_sha256": "3bb0c8fb2884e3b5c9e4358f7891415d86f5e9e96015d4872ca878f3bc06b543"
+          "passage_sha256": "78eed507a7c988166dcdbf754f11c0f4c57f400941e5cd64a82fa77ef82df59b"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024-25"
       },
@@ -188,8 +197,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -207,13 +217,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-covered-002",
-        "statement": "Public hospital care is covered in full, and most prescription medicines are subsidised through the PBS for everyone enrolled in Medicare.",
+        "statement": "Public hospital care is covered in full, and most medicines are subsidised through the PBS for everyone covered by Medicare.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
@@ -224,8 +235,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -241,8 +253,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -258,8 +271,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -275,8 +289,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -292,8 +307,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -309,8 +325,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-23"
       }
@@ -318,7 +335,7 @@
     "cost_sharing": [
       {
         "id": "AUS-cost_sharing-001",
-        "statement": "Patients pay nothing when a doctor bulk bills, that is, bills Medicare directly. The national bulk-billing rate has drifted down in recent years, and as of October 2024 annual rates ran from 53.2% in the Australian Capital Territory to 82.2% in New South Wales.",
+        "statement": "Patients pay nothing when a doctor bulk bills, that is, bills Medicare directly. The national share of doctors who bulk bill has declined gradually in recent years, and as of October 2024 annual bulk-billing rates ran from 53.2% in the Australian Capital Territory to 82.2% in New South Wales.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
@@ -329,8 +346,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024"
       },
@@ -347,8 +365,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022"
       },
@@ -365,8 +384,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -382,8 +402,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
@@ -400,8 +421,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
@@ -418,8 +440,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
@@ -436,8 +459,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -453,8 +477,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-13 to 2022-23"
       },
@@ -466,31 +491,33 @@
         "locator": {
           "section": "Universal health care and private health insurance in Australia",
           "char_start": 5993,
-          "char_end": 6320,
-          "passage_sha256": "f72a06f013818ed0da85c79a4e999e11ad354ffa3ef13d0f28b6438a11c29a6a"
+          "char_end": 6353,
+          "passage_sha256": "874a77f950e6dfe658987fbe3b280c4f9692c573aa936cfd9dba3aafde2ffbb5"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2020-21"
       },
       {
         "id": "AUS-cost_sharing-010",
-        "statement": "Under the Constitution, the government cannot regulate the fees health care providers charge, so providers set their own prices.",
+        "statement": "Private providers set their own fees to cover costs and earn profits, and the Constitution excludes the government from regulating the fees they charge.",
         "valence": "neutral",
         "source_id": "callander-2023",
         "locator": {
           "section": "User fees and the role of the market in setting price",
-          "char_start": 7442,
+          "char_start": 7262,
           "char_end": 7591,
-          "passage_sha256": "5964fba80e99d9ce596319e9ad8a1c8c2c58875b67555c4c0f97f034bea0733d"
+          "passage_sha256": "33802dbd39da386d2582d38c3493620b479d0801e0a2177f7ca2842c3f2739d5"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -508,25 +535,27 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-financial_hardship-002",
-        "statement": "In one survey of men with prostate cancer included in that review, the median out-of-pocket cost of treatment was AUD 8,000; to pay, 38% drew on savings, 8% sold assets and 22% raised their credit card limits.",
+        "statement": "In one survey of 289 men with prostate cancer included in that review, the median out-of-pocket cost of treatment was AUD 8,000; to pay, 38% drew on savings, 8% sold assets and 22% raised their credit card limits.",
         "valence": "weakness",
         "source_id": "cancer-oop-sr-2021",
         "locator": {
           "section": "Table of included studies",
-          "char_start": 12752,
+          "char_start": 12681,
           "char_end": 13126,
-          "passage_sha256": "c96c708c76d05ea5b8682e02dacd40d1ab534fa6b5f1e751bb99eca299150b21"
+          "passage_sha256": "2412a3cefa5c01d194f9b28551d31a9209690286631135f0a0eced4e07e692a1"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -542,8 +571,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -561,13 +591,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-additional_care-002",
-        "statement": "Everyone has public coverage, and about 55% of the population also holds private insurance (profile data as of February 2026).",
+        "statement": "Everyone has public coverage, and about 55% of the population also holds private insurance.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
@@ -578,8 +609,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -596,14 +628,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024"
       },
       {
         "id": "AUS-additional_care-004",
-        "statement": "Voluntary private hospital insurance must be community-rated, which makes young, healthy members predictably profitable and elderly or chronically ill members predictably loss-making for insurers; a risk equalisation scheme is used to counter this.",
+        "statement": "Voluntary private hospital insurance uses community-rated premiums, which make young, healthy members predictably profitable and elderly or chronically ill members predictably loss-making for insurers; a risk equalisation scheme is used to counter this.",
         "valence": "neutral",
         "source_id": "hp-2026-phi-risk",
         "locator": {
@@ -614,8 +647,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -625,14 +659,15 @@
         "source_id": "private-public-2021",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 1951,
+          "char_start": 1311,
           "char_end": 2184,
-          "passage_sha256": "ae0715ad0b231aa3a8b85a9e5bc7ebfa276b0f9b85b73b974e5f6128ab2c7edb"
+          "passage_sha256": "27133d7ac8ad9d0917f882faa37b3c0057c99672f5274d3b13c8e2876abc5919"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2010-2015"
       },
@@ -649,8 +684,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -660,14 +696,15 @@
         "source_id": "hec-2023-phi-elderly",
         "locator": {
           "section": "Abstract",
-          "char_start": 1261,
+          "char_start": 950,
           "char_end": 1522,
-          "passage_sha256": "7286d56633f33b876b51f021d0c1f4f3a07ca9c519bcda302939b0612f3768eb"
+          "passage_sha256": "9bbfc0816dbe1080e33e6479bbb33f27456de8291c0326369b638d9e0d38cf66"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -685,8 +722,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -702,8 +740,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-23"
       },
@@ -720,26 +759,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-23"
       },
       {
         "id": "AUS-access-004",
-        "statement": "In 2024-25, half of emergency department visits were completed within four hours, while 10% of patients waited longer than 11.5 hours.",
+        "statement": "In 2024-25, half of emergency department visits were completed within four hours.",
         "valence": "weakness",
         "source_id": "cwf-aus",
         "locator": {
           "section": "Hospitals",
           "char_start": 26394,
-          "char_end": 26550,
-          "passage_sha256": "6a487f796c9f7d28e8c17ad0bb67fdb1af3fa688f67c0779c64dd8f99593073e"
+          "char_end": 26463,
+          "passage_sha256": "45dccbe2114c4ae1c84d2585fdbd95d606108041c38d958d13fc7bb185f506f1"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024-25"
       },
@@ -756,8 +797,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-23"
       },
@@ -774,8 +816,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022"
       },
@@ -792,8 +835,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       },
@@ -810,8 +854,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       },
@@ -828,8 +873,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022"
       },
@@ -846,8 +892,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016-17 to 2022-23"
       }
@@ -866,8 +913,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       },
@@ -884,8 +932,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2018-2022"
       },
@@ -903,8 +952,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       },
@@ -922,30 +972,13 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-outcomes-005",
-        "statement": "Australia's score on the Healthcare Access and Quality Index rose from 83.9 in 1990 to 90.4 in 2000 and 95.9 in 2016.",
-        "valence": "strength",
-        "source_id": "haq-2018",
-        "locator": {
-          "section": "Table 2",
-          "char_start": 67232,
-          "char_end": 67301,
-          "passage_sha256": "817f74bee17194455b66b1cfbea495db6c86e9dbbff7b3a21cf35006d4724ba9"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
-        },
-        "data_year": "1990-2016"
-      },
-      {
-        "id": "AUS-outcomes-006",
         "statement": "In 2016 Australia was in the top decile of the Healthcare Access and Quality Index, one of a few countries outside Europe there alongside Canada, Japan and New Zealand.",
         "valence": "strength",
         "source_id": "haq-2018",
@@ -957,8 +990,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016"
       }
@@ -966,7 +1000,7 @@
     "costs": [
       {
         "id": "AUS-costs-001",
-        "statement": "Health spending reached 10.1% of GDP in 2023-24, 1.1% more in real terms than in 2022-23, compared with an average of 8.1% across high-income countries.",
+        "statement": "Health spending reached 10.1% of GDP in 2023-24, compared with an average of 8.1% across high-income countries.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
@@ -977,8 +1011,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-24"
       },
@@ -995,8 +1030,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-20 to 2022-23"
       },
@@ -1014,8 +1050,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1032,13 +1069,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-costs-005",
-        "statement": "In 2016 Australia spent 9.6% of GDP on health, the lowest of the 11 high-income countries compared, against 17.8% in the United States and 12.4% in Switzerland.",
+        "statement": "In 2016 Australia spent 9.6% of GDP on health, the lowest among the high-income countries compared, against 17.8% in the United States and 12.4% in Switzerland.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
@@ -1049,8 +1087,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016"
       },
@@ -1067,8 +1106,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-22 to 2022-23"
       },
@@ -1085,8 +1125,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2000-2022"
       }
@@ -1105,8 +1146,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2010-2019"
       },
@@ -1123,50 +1165,53 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       },
       {
         "id": "AUS-what_works-003",
-        "statement": "Bulk billing reaches poorer areas: in 2022, 86% of GP services were bulk billed in the most disadvantaged areas against 73% in the least disadvantaged, and rates in remote areas did not differ significantly from metropolitan ones.",
+        "statement": "Bulk billing of GP services was more common in poorer areas in 2022: 86% in the most disadvantaged areas against 73% in the least disadvantaged, and rates in remote areas did not differ significantly from metropolitan ones.",
         "valence": "strength",
         "source_id": "mja-2025-bb-sa3",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 1680,
+          "char_start": 1326,
           "char_end": 1991,
-          "passage_sha256": "a7db7bae7c22f89154479b783f8bd2865ce909685a70d95e6bea1ddc4860cbde"
+          "passage_sha256": "80f7d12aaffd8d50ad2f65264fc6068233bc587c93e02bcddb8353cd738b799f"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022"
       },
       {
         "id": "AUS-what_works-004",
-        "statement": "Higher bulk-billing incentives for rural and remote GPs, introduced in 2022, raised GP visits by 2.7% and bulk-billed visits by 9.0%, and cut the out-of-pocket cost per visit by 13.0%, for rural residents relative to urban residents.",
+        "statement": "Higher incentives, introduced in 2022, for GPs to bulk bill children and concession card holders in rural and remote areas raised GP visits by 2.7% and bulk-billed visits by 9.0%, and cut the out-of-pocket cost per visit by 13.0%, for rural residents relative to urban residents.",
         "valence": "strength",
         "source_id": "rural-incentives-2025",
         "locator": {
           "section": "Abstract",
-          "char_start": 1857,
+          "char_start": 1375,
           "char_end": 2183,
-          "passage_sha256": "bb6adc4c99467e45772322c1ad02540245c61a0c7583b1118954e672c87ed80b"
+          "passage_sha256": "98dadfa3780cb2aaf04840ce0ba3c333f73265b39786037a8a2505b108bbab10"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2022"
       },
       {
         "id": "AUS-what_works-005",
-        "statement": "A 2025 review concluded that Australian health policies effectively lower the financial burden of care for many people with chronic conditions, while groups who do not qualify for concessional thresholds still face distinct difficulties.",
+        "statement": "A 2025 review concluded that Australian health policies effectively lower the financial burden of care for many people, while groups who do not qualify for concessional thresholds still face distinct difficulties.",
         "valence": "strength",
         "source_id": "oop-lived-2025",
         "locator": {
@@ -1177,8 +1222,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -1190,14 +1236,15 @@
         "source_id": "callander-2019",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 2619,
+          "char_start": 2029,
           "char_end": 3030,
-          "passage_sha256": "083887e571fe8a23dbc68589beae2401e3c63a0fd3cf6e0f91614497a862c6a4"
+          "passage_sha256": "2def9e3255fd1c63cac0826d78aa5b3f42ec0334a433fde4b96eee7eedd8a7cc"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2006-2014"
       },
@@ -1208,14 +1255,15 @@
         "source_id": "ahr-2022-specialist-oop",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 1544,
+          "char_start": 977,
           "char_end": 2027,
-          "passage_sha256": "85a9e793f4bc3427f0b5ab04c7facff97c69cdd59ac773210c30e08f63945550"
+          "passage_sha256": "970f44915489669391eba6eb3197a4735121b47bf9a7bcb1385a03f9c1a178b9"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2014-15"
       },
@@ -1226,14 +1274,15 @@
         "source_id": "mja-2025-bb-sa3",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 1993,
+          "char_start": 1326,
           "char_end": 2155,
-          "passage_sha256": "8fd3f1f849779029d2d3d387a5134a894ba7909bd363ce3267358b492600fd4d"
+          "passage_sha256": "2ce436f1d2f6f5db622879a313f00f6a230e3ce547f2e9e328f7847d18bee7cb"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022"
       },
@@ -1244,19 +1293,20 @@
         "source_id": "hp-2026-phi-risk",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 2049,
+          "char_start": 1409,
           "char_end": 2179,
-          "passage_sha256": "e94dadb8d7b0a79e4abdd7f959f1bc409e60895efb5d980172edb78f7ee7bef2"
+          "passage_sha256": "37298ddab581c0b847b0d4666f4a2c46e827bd77b5a25333af87f405b62870eb"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "AUS-problems-005",
-        "statement": "The gains from the 2022 rural bulk-billing incentives were uneven: effects were larger for people with higher initial out-of-pocket costs, such as adults, people without concession cards and residents of less disadvantaged areas, and inequities in access persisted.",
+        "statement": "The gains from this rural bulk-billing incentive reform were uneven: effects were larger for people with higher initial out-of-pocket costs, such as adults, people without concession cards and residents of less disadvantaged areas, and inequities in access persisted.",
         "valence": "weakness",
         "source_id": "rural-incentives-2025",
         "locator": {
@@ -1267,8 +1317,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2022"
       },
@@ -1286,8 +1337,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024"
       },
@@ -1304,8 +1356,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2020"
       },
@@ -1322,8 +1375,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1339,8 +1393,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
@@ -1357,8 +1412,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1374,8 +1430,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-22"
       }
@@ -1394,8 +1451,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
@@ -1412,8 +1470,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
@@ -1430,26 +1489,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025"
       },
       {
         "id": "AUS-reforms-004",
-        "statement": "In October 2024 the government launched an Expedited Specialist Pathway that lets eligible specialists credentialed in Ireland, New Zealand and the UK fast-track their specialist registration.",
+        "statement": "To speed up hiring of foreign-trained staff, in October 2024 the government launched an Expedited Specialist Pathway that lets eligible specialists credentialed in Ireland, New Zealand and the UK fast-track their specialist registration.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
           "section": "Physician Education and the Workforce",
-          "char_start": 21538,
+          "char_start": 21251,
           "char_end": 21741,
-          "passage_sha256": "7af33ed149302cc5d24a286fb2815ed2debfe3aa6977e07f72cecb97344abcb1"
+          "passage_sha256": "193da493b8cf42cb97ffb49ffd7a220803db4d2ef88db98f94a34a570f7f6b8a"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024"
       },
@@ -1466,8 +1527,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024"
       },
@@ -1484,8 +1546,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2025-2026"
       },
@@ -1502,14 +1565,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       },
       {
         "id": "AUS-reforms-008",
-        "statement": "Since 2023, people with stable, ongoing conditions can get a 60-day supply of eligible medicines, including mental health medication, for the cost of one prescription (AUD 32 as of January 2024); more than 300 PBS-listed medicines are covered.",
+        "statement": "Since 2023, patients whose conditions are stable and ongoing may obtain a two-month (60-day) supply of their mental health medicines for one prescription co-payment (AUD 32 as of January 2024); more than 300 PBS-listed medicines fall under the policy.",
         "valence": "neutral",
         "source_id": "cwf-aus",
         "locator": {
@@ -1520,8 +1584,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023"
       }
@@ -1529,7 +1594,7 @@
     "us_lessons": [
       {
         "id": "AUS-us_lessons-001",
-        "statement": "Comparing the US with ten other high-income countries, including Australia, researchers found the US spent roughly twice as much while using care at similar rates; prices of labour and goods, including medicines, and administrative costs were the main drivers of the gap.",
+        "statement": "Comparing the US with other high-income countries, researchers found the US spent roughly twice as much while using care at similar rates; prices of labour and goods, including medicines, and administrative costs were the main drivers of the gap.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
@@ -1540,14 +1605,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2016"
       },
       {
         "id": "AUS-us_lessons-002",
-        "statement": "In the same comparison, administrative costs made up 8% of US health spending against 1% to 3% in the other ten countries.",
+        "statement": "In the same comparison, administrative costs made up 8% of US health spending against 1% to 3% in the other countries.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
@@ -1558,26 +1624,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2016"
       },
       {
         "id": "AUS-us_lessons-003",
-        "statement": "Between 2013 and 2017, government-paid prices for three costly drugs fell much faster under Australia's PBS than under US Medicare; adalimumab rose 12.8% a year in the US but fell 11.1% a year in Australia, a gap of 23.9 percentage points.",
+        "statement": "Between 2013 and 2017, government-paid prices for three costly drugs (adalimumab, ranibizumab and aflibercept) fell faster each year in Australia than in the United States; aflibercept's price fell 16.9% a year in Australia against 1.5% in the US.",
         "valence": "neutral",
         "source_id": "ophth-prices-2019",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 6913,
-          "char_end": 7142,
-          "passage_sha256": "33524201ab14788c7f2a2ee3d7268df195df834fec42ddf6f12c87a08485e38d"
+          "char_start": 4257,
+          "char_end": 4676,
+          "passage_sha256": "b67f5366970de1ba3c03fd5974d63920f0ff3baf298be6801753a82159b03080"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2017"
       },
@@ -1594,8 +1662,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-09"
+          "supports": "pass",
+          "checked_on": "2026-11-09",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ]
@@ -1928,7 +1997,7 @@
   "changelog": [
     {
       "date": "2026-11-09",
-      "note": "First profile: claims anchored to fingerprinted passages and support-reviewed."
+      "note": "First profile: 87 claims anchored to fingerprinted passages and support-reviewed; 27 statements corrected or re-anchored in review and 1 dropped."
     }
   ]
 }

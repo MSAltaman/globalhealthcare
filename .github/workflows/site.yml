@@ -46,6 +46,9 @@ jobs:
           action: upload
           app_location: site
           skip_app_build: true
+          # Until the Azure Static Web App exists and its token is a repo secret,
+          # skip deployment instead of failing. Data checks still run.
+          skip_deploy_on_missing_secrets: true
 
   close_preview:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -55,3 +58,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: close
+          skip_deploy_on_missing_secrets: true

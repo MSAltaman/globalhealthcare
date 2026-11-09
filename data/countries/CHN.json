@@ -13,19 +13,674 @@
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
+    "overview": [
+      {
+        "id": "CHN-overview-001",
+        "statement": "China began its current round of health reform in 2009 with the aim of giving everyone basic health care coverage by the end of 2020.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2286,
+          "char_end": 2449,
+          "passage_sha256": "ac4d88ac5c2dabb2126ff63b2e2694f815a464703859bcba06981fd472750805"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-overview-002",
+        "statement": "Public coverage was built on three basic schemes: one for urban employees, one for rural residents (NRCMS) and one for non-employed urban residents (URBMI). In 2016 the government merged the two residents' schemes into a single urban and rural residents' scheme, and in 2018 it created the National Healthcare Security Administration to run the schemes under one body.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Main reform initiatives: health insurance system",
+          "char_start": 17390,
+          "char_end": 18285,
+          "passage_sha256": "b4748abb01751bd593a3c162873852b48fe0a4c694e3fe9ae0663c3c8127bb46"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2016-2018"
+      },
+      {
+        "id": "CHN-overview-003",
+        "statement": "With the 2009 reform, China committed to equal access to basic health care of reasonable quality with financial protection for all citizens, and the government has since increased its health funding fourfold.",
+        "valence": "neutral",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1568,
+          "char_end": 1808,
+          "passage_sha256": "0d6b4737b0dcbb8d420b508d91e8de4e2fdf82d5068526d13aa8fe6c5c9d933c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-overview-004",
+        "statement": "The residents' scheme covers nearly 960 million people, about 80% of them rural residents, while around 5% of the population (nearly 50 million people) is uninsured, according to the sources this 2025 study cites.",
+        "valence": "neutral",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7291,
+          "char_end": 7564,
+          "passage_sha256": "66f5093a3904d3ef9301b154f77fd74ce5d1ad86b23888a5d183fb69eb10d19b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financing": [
+      {
+        "id": "CHN-financing-001",
+        "statement": "Residents pay a flat yearly contribution that has risen from 10 yuan per person when rural insurance began in 2003 to 380 yuan by 2024, while rural residents' disposable income averaged 23,119 yuan in 2024; interviewees described the rising contributions as a heavy burden for rural families.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Results: Economic burden",
+          "char_start": 24268,
+          "char_end": 24765,
+          "passage_sha256": "0713bf4629bc59a8c26ce5391772615cbdcf0e89eaab2b801a59f9be36a015df"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2003-2024"
+      }
+    ],
+    "covered": [
+      {
+        "id": "CHN-covered-001",
+        "statement": "By 2018, over 95% of China's population was enrolled in a social health insurance scheme.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 23330,
+          "char_end": 23413,
+          "passage_sha256": "a7fbcd592f8f2b696ca9744d2948861e10db3a0919c5b69744c4382c066af62c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "CHN-covered-002",
+        "statement": "The national insurance drug list had grown to 2,643 medicines by 2019, and per-person government subsidies for the residents' schemes in 2018 were more than five times their 2009 level.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 23414,
+          "char_end": 23684,
+          "passage_sha256": "ff961a9522a1f8b9de3194e321bb3c79e42f71676a4a6bc136ac4e59b074a727"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CHN-covered-003",
+        "statement": "A government-funded basic public health package is offered to nearly everyone; it grew from 9 service categories in 2009 to 14 in 2017, and funding rose from ¥15 per person in 2009 to ¥55 in 2018.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 27659,
+          "char_end": 28029,
+          "passage_sha256": "c500ef2f75bf52a9ae387c08781ca7d894bc77081ec06660fcd71f7a80b2aa3c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2009-2018"
+      },
+      {
+        "id": "CHN-covered-004",
+        "statement": "Under national procurement, the manufacturers that win a tender are guaranteed 60-70% of the previous year's total use of that drug, which gives the public payer strong leverage over prices.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Clear and guaranteed market expectations",
+          "char_start": 15256,
+          "char_end": 15482,
+          "passage_sha256": "c6acfd64e03702052fa1206db995c4be438c23aaa03287f5cdbad3b1254ce769"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CHN-cost_sharing-001",
+        "statement": "Two supplementary layers sit on top of basic insurance: Medical Financial Assistance for people in poverty, started in 2003, and Catastrophic Medical Insurance for people with very high medical costs, started in 2012.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Main reform initiatives: health insurance system",
+          "char_start": 18286,
+          "char_end": 18506,
+          "passage_sha256": "f591ee959a0dde2ba29b47b98ca4475881f3d6d52fa947aefe483eb271672a46"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-cost_sharing-002",
+        "statement": "Insurance reimbursement for a procured drug is set by the winning bid's price: patients who take the winning manufacturer's product pay a small share, while those who choose another version pay the difference in price themselves.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Payment reform",
+          "char_start": 19362,
+          "char_end": 19889,
+          "passage_sha256": "2d0f9504bc0c9dcb67308c52c3d9b47a7f99c6a438187cf6b33c7c1d58ed09da"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "CHN-financial_hardship-001",
+        "statement": "In 2018, medical assistance funds spent ¥42.46 billion nationally: they paid insurance contributions for 76.7 million people and helped 53.6 million people with outpatient and inpatient costs.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 23685,
+          "char_end": 23976,
+          "passage_sha256": "fc10d75d74d2ec482fed56c7daf9226fba7ae227d2c25cac3a7be772b2729337"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "CHN-financial_hardship-002",
+        "statement": "It also found that catastrophic health spending is unusually common in China compared with countries at a similar level of economic development.",
+        "valence": "weakness",
+        "source_id": "yip-2023-lph",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1953,
+          "char_end": 2101,
+          "passage_sha256": "b75851edb5f85ca82f58b195af63d884bb23af52e57b640242fc711a140c508c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-financial_hardship-003",
+        "statement": "A study of 28 provinces using the 2017 China Household Finance Survey estimated that 11.0% of households nationally had catastrophic health expenditure, ranging from 6.3% in Beijing to 16.0% in Heilongjiang, and that 2.0% experienced medical impoverishment, from 0.03% in Shanghai to 4.6% in Anhui.",
+        "valence": "weakness",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Summary: Methods and Findings",
+          "char_start": 1732,
+          "char_end": 2695,
+          "passage_sha256": "3123c32decbed131a7b2995419670cbb261b08cafd36d1565a41d7c83bec3555"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CHN-financial_hardship-004",
+        "statement": "In that study, a household had catastrophic health expenditure when its health spending in a year reached at least 40% of its total spending other than food; medical impoverishment means out-of-pocket health spending left a household below, or further below, the poverty line.",
+        "valence": "neutral",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Methods: Indicators",
+          "char_start": 13825,
+          "char_end": 14643,
+          "passage_sha256": "ceabc9e4b22a8a9615ad13790959550927bbc3e71f275db35cd6474dad65c40f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-financial_hardship-005",
+        "statement": "Using 2015 survey data (before the 2016 merger of the rural and urban residents' schemes) and counting only money borrowed from family, friends or third parties to pay for care, a study found medical debt in 2.42% of middle-income and 3.92% of low-income households; among low-income households the average debt was 2.49 times average yearly household income, and medical debt impoverished about 10% of non-poor households.",
+        "valence": "weakness",
+        "source_id": "meddebt-2020",
+        "locator": {
+          "section": "Abstract: Method and Results",
+          "char_start": 2536,
+          "char_end": 3352,
+          "passage_sha256": "86322fb5d2a03512ff01885f9e90619cf6e7ebec5b554707c7fa606586daf347"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2015
+      },
+      {
+        "id": "CHN-financial_hardship-006",
+        "statement": "The authors note that with this narrow definition medical debt was relatively uncommon, but that where it occurred it was a lasting burden, pushing many low- and middle-income households into poverty and committing them to years of repayments.",
+        "valence": "neutral",
+        "source_id": "meddebt-2020",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 3617,
+          "char_end": 3977,
+          "passage_sha256": "054fe0de167b538b0d19d9001fcf8e69399e58f116a193c65ba3b0840a22d79e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
     "additional_care": [],
-    "access": [],
+    "access": [
+      {
+        "id": "CHN-access-001",
+        "statement": "Between 2012 and 2017, the primary care workforce grew by 7.1% to 3.863 million, and general practitioners rose from 0.8 to 1.8 per 10,000 people.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 26314,
+          "char_end": 26513,
+          "passage_sha256": "47bc8110d67209fec1ca76167066d163160102075de85f1e003ab4325de54f22"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2017"
+      },
+      {
+        "id": "CHN-access-002",
+        "statement": "Primary care providers are usually neither patients' first point of contact nor coordinators of specialist care; primary care facilities handled 53% of outpatient visits in 2018, down from 62% in 2010, despite the 2009 reform's push to strengthen them.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Coordination of care",
+          "char_start": 25337,
+          "char_end": 25590,
+          "passage_sha256": "c67b23789533895a7df2ef2f4ef434e416a27c7684817d03c2103b9c768d1000"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2010-2018"
+      }
+    ],
     "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
-    "us_lessons": []
+    "costs": [
+      {
+        "id": "CHN-costs-001",
+        "statement": "In 2017, drugs and consumables made up 48.0% of public hospitals' revenue (medicines alone 34.7%), while payment for medical staff services was 27.5%.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 27018,
+          "char_end": 27395,
+          "passage_sha256": "5c56c9f4d8d5956889e343f45c323ee5a7a29c512d3ae344213e35e64285af82"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CHN-costs-002",
+        "statement": "Between 2008 and 2018, government funding for primary care institutions grew more than tenfold, reaching ¥197 billion (it had been ¥19 billion).",
+        "valence": "neutral",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7415,
+          "char_end": 7564,
+          "passage_sha256": "305fb8172b4e3b428e006f7a71a331b9df39521e34825840c656dfc5afb370a4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2008-2018"
+      },
+      {
+        "id": "CHN-costs-003",
+        "statement": "By the end of 2021, national volume-based procurement had saved more than 260 billion yuan (about US$36.3 billion), according to the figures the authors cite.",
+        "valence": "strength",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Effects of the NVBP",
+          "char_start": 23295,
+          "char_end": 23444,
+          "passage_sha256": "139cb3f0c34b1f2af2a8dc1a3e579b68f20f7cd0ab689ab398b5c3e8ca7cd91d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CHN-what_works-001",
+        "statement": "A Lancet review of the decade after 2009 found major gains in equal access to care and in financial protection, with the largest gains among people of lower socioeconomic status.",
+        "valence": "strength",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2272,
+          "char_end": 2454,
+          "passage_sha256": "80650e48dc1f51cccede0be47ee8839d439d8431f5078dbc3609413609096478"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-what_works-002",
+        "statement": "A 2023 Lancet Public Health assessment found that coverage of maternal, newborn and child health, infectious disease services and service capacity and access is now comparable to high-income countries, with smaller inequalities than before.",
+        "valence": "strength",
+        "source_id": "yip-2023-lph",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1323,
+          "char_end": 1688,
+          "passage_sha256": "32a6db3528a6a7997065c9e37480203fa1e5807c36734859a619d140c36ce7a4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-what_works-003",
+        "statement": "Seven rounds of national volume-based drug procurement between 2018 and 2022 lowered the prices of 294 drug formulations by an average of 53%.",
+        "valence": "strength",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4619,
+          "char_end": 4805,
+          "passage_sha256": "31abaaaf512dd716782d1950c7e98eeec3b4ae8538b1e39eb5b6a9faf3561497"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2022"
+      }
+    ],
+    "problems": [
+      {
+        "id": "CHN-problems-001",
+        "statement": "The same review found remaining gaps in quality of care, control of non-communicable diseases, efficiency, spending growth and public satisfaction.",
+        "valence": "weakness",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2455,
+          "char_end": 2621,
+          "passage_sha256": "ea69ff8635314aeeb1468534edaecae8f61c1702159f5692a146806315f4e48f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-002",
+        "statement": "The same assessment found large gaps in chronic disease services: risk-factor control has barely improved in ten years, and coverage for most chronic conditions is below that of high-income countries.",
+        "valence": "weakness",
+        "source_id": "yip-2023-lph",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1689,
+          "char_end": 1952,
+          "passage_sha256": "fbae5ff66f4202ea4947b0d02e43bc68300aafe70bb10732a4cdcf70934a513b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-003",
+        "statement": "Social health insurance pays wherever patients seek care, with no referral needed, and pays more generously for hospital care than for primary care, which encourages patients to bypass primary care and leaves it unable to act as a gatekeeper.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Coordination of care",
+          "char_start": 27235,
+          "char_end": 27684,
+          "passage_sha256": "cf518985daccb36df5c5d0272ebc689a25157d82919100965244e906fb3eb245"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-004",
+        "statement": "In a study in western China using trained actors posing as patients with dysentery or angina, village doctors asked 18% of recommended questions, did 15% of recommended examinations, and correctly diagnosed 26% of cases.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Quality of diagnosis and treatment",
+          "char_start": 12537,
+          "char_end": 13007,
+          "passage_sha256": "c021a8136760a6c7ed2aec66f70e89bfc0cef5d6959effa1246345f9f0bae814"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-005",
+        "statement": "Systematic reviews put average antibiotic use in primary care facilities above 50% (of prescriptions), far above the WHO-recommended level of under 30%.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Prescribing behaviour",
+          "char_start": 13554,
+          "char_end": 13745,
+          "passage_sha256": "441272d869ed53d628aa2d62d2202f42fe8ad9cba5117e9238f25053ec3ef43c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-006",
+        "statement": "A 2020 Lancet review traced poor primary care quality to weak practitioner training, fee-for-service payment that rewards tests and treatment over prevention, separation of clinical care from public health services, and poor continuity of care.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Summary",
+          "char_start": 5528,
+          "char_end": 5857,
+          "passage_sha256": "36c61f9c5db7980d526a0bef8a55466676fa36477d97c15319e28690ed45358a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-007",
+        "statement": "Financial protection varies widely between provinces: income-related inequality was generally much lower within the developed eastern provinces than within central and western ones, and the authors call for particular attention to low-income households in central and western provinces.",
+        "valence": "weakness",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Summary: Findings and Interpretation",
+          "char_start": 2781,
+          "char_end": 3269,
+          "passage_sha256": "0a842575554b0c0d7fa57c5e2c63338c1ad8e2a8992701336135088bcf59534a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "CHN-problems-008",
+        "statement": "Citing National Healthcare Security Administration data, a 2025 study reports that enrolment in the urban and rural residents' scheme fell each year from 2019, by 0.3%, 0.8%, 0.8% and then 2.5% in 2022, when it dropped by 25.17 million people.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7716,
+          "char_end": 8130,
+          "passage_sha256": "2575b7cce584ef21957cf83e00e7bc0912c0b6e94edbb21fc93dff8974519061"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2022"
+      },
+      {
+        "id": "CHN-problems-009",
+        "statement": "In interviews with 42 officials, village staff and residents in one rural county, the main reasons people dropped out of insurance were heavy cost, a scheme design seen as unfair, failing enrolment campaigns, and misleading information online.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2603,
+          "char_end": 2894,
+          "passage_sha256": "36ad309f0f4ad39a5fb4deff156801e4e1e65c322e3801312cbe3b5fa8d7a5b3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CHN-reforms-001",
+        "statement": "By 2017 every public hospital in China had stopped adding a mark-up to the medicines it sells, which had been a source of hospital revenue.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 24926,
+          "char_end": 25036,
+          "passage_sha256": "65e5133931569fd095c27c6ec9b1812e5d969bffc9c22912fdebe04604c03649"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CHN-reforms-002",
+        "statement": "By 2017, 65% of public hospitals at level two or above had begun paying by disease category under insurance, and in 2019 the government named 30 pilot cities for diagnosis-related group (DRG) payment.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 24666,
+          "char_end": 24893,
+          "passage_sha256": "b04e70621853584ff5920576d26f4c330d7fbcfb920bca3dfed53d81e008d402"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2019"
+      },
+      {
+        "id": "CHN-reforms-003",
+        "statement": "From 2012 the reform's second phase turned to the delivery system: public hospital reform (ending drug-sale mark-ups, changing fee schedules, provider payment and governance) and moving away from a hospital-centred, treatment-focused model.",
+        "valence": "neutral",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1940,
+          "char_end": 2271,
+          "passage_sha256": "4192c527de93c7934a32c35b8235fac323348c8d08067d8b2e010e0c15c0e024"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2019"
+      },
+      {
+        "id": "CHN-reforms-004",
+        "statement": "In 2018 the central government launched national volume-based procurement of medicines, starting with a pilot in 11 cities (the '4+7' scheme); a year later every province of mainland China had joined.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "The evolution of the NVBP",
+          "char_start": 9670,
+          "char_end": 9990,
+          "passage_sha256": "a57afd882daae813829e3ca4fa3c26baa0a6e131e4db9f1d10419609c081c43a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2019"
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "CHN-us_lessons-001",
+        "statement": "Writing about other low- and middle-income countries rather than the US, the authors argue that parts of China's pooled procurement can transfer (procurement targeted by market size and drug importance, several winning suppliers, and quality checks on generics), but that it depends on a strong public drug plan with large purchasing power.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "What is next?",
+          "char_start": 24562,
+          "char_end": 25432,
+          "passage_sha256": "05f49f814235bc346da965339967c25a6680226efbab7b202e85438c3f727a6b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ]
   },
   "indicators_file": "data/indicators/CHN.json",
   "sources": [

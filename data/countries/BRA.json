@@ -549,14 +549,14 @@
       },
       {
         "id": "BRA-additional_care-006",
-        "statement": "Private health plans must pay for the service when their members are treated in the public system; the new programme lets these companies replace those reimbursements to the SUS with free care.",
+        "statement": "Under a 1998 law, private health plans must reimburse the SUS whenever one of their members is treated in it; Agora Tem Especialistas lets plan companies join the programme and offset these reimbursement debts.",
         "valence": "neutral",
-        "source_id": "camara-ate-2025",
+        "source_id": "costa-2026",
         "locator": {
-          "section": "Planos de saúde",
-          "char_start": 1700,
-          "char_end": 1934,
-          "passage_sha256": "1b1f0115e5ce4e7166e7ab1c9896456cbc93a3a4241b43d38308d8dfeb071469"
+          "section": "Planos de saúde e ressarcimento ao SUS",
+          "char_start": 15394,
+          "char_end": 15722,
+          "passage_sha256": "ed62febce7bd746a52f24a3dbbe4aeeefa01c0e491bfe7b8a5bef796390cea12"
         },
         "verification": {
           "passage_found": "pass",
@@ -702,25 +702,6 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
-      },
-      {
-        "id": "BRA-access-008",
-        "statement": "Ministry of Health data from 2025 show a shortage and uneven distribution of medical specialists, who are concentrated in the private network and in the Southeast region.",
-        "valence": "neutral",
-        "source_id": "camara-ate-2025",
-        "locator": {
-          "section": "News report",
-          "char_start": 1492,
-          "char_end": 1683,
-          "passage_sha256": "2e83200b894d0c9d28ba62d559bea8d0423e92d99d50e6a48c494bafcfa91e6e"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2025
       }
     ],
     "outcomes": [
@@ -860,22 +841,21 @@
     "costs": [
       {
         "id": "BRA-costs-001",
-        "statement": "Total health spending rose from 7.0% to 8.3% of GDP between 2000 and 2014, and per-person spending from US$263 to US$947.",
-        "valence": "neutral",
-        "source_id": "massuda-2018",
+        "statement": "A 2026 review of the Family Health Strategy called chronic underfunding of the SUS a central obstacle to expanding primary care, noting public health spending below 4% of GDP against roughly 7% in countries with universal systems.",
+        "valence": "weakness",
+        "source_id": "giovanella-2026",
         "locator": {
-          "section": "Changes in health system financing",
-          "char_start": 13307,
-          "char_end": 13459,
-          "passage_sha256": "ad7986d0c6a0a98e2ef0c7c9d3bdfd9fec3534a316b542d85ae38c4e5180b649"
+          "section": "Desafios: Financiamento (Portuguese-language version of the article)",
+          "char_start": 105932,
+          "char_end": 106196,
+          "passage_sha256": "2cbcbc59a34e1bfe8bd1185c1ddc13d6aa60e5495bd741fe079fea2942e9325a"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2000-2014"
+        }
       },
       {
         "id": "BRA-costs-002",
@@ -991,25 +971,6 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2000-2016"
-      },
-      {
-        "id": "BRA-what_works-003",
-        "statement": "Between 2002 and 2013, as the SUS expanded, access to essential services such as immunisation and antenatal care became nearly universal, population health improved and regional health inequalities declined.",
-        "valence": "strength",
-        "source_id": "massuda-2018",
-        "locator": {
-          "section": "Expansion of the Unified Health System in Brazil",
-          "char_start": 10066,
-          "char_end": 10303,
-          "passage_sha256": "a962bdb8cb951c9ef34843712ad57445239ff74bae80a0f1fdae90e050da5942"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2002-2013"
       },
       {
         "id": "BRA-what_works-004",
@@ -1312,22 +1273,22 @@
     "reforms": [
       {
         "id": "BRA-reforms-001",
-        "statement": "President Lula signed Law 15.233/25, which grew out of provisional measure MP 1301/25, issued by the federal government on 30 May.",
+        "statement": "Agora Tem Especialistas was launched in May 2025 through Provisional Measure 1,301, merging the National Programme for Reducing Queues with the More Access to Specialists programme (PMAE).",
         "valence": "neutral",
-        "source_id": "camara-ate-2025",
+        "source_id": "costa-2026",
         "locator": {
-          "section": "News report",
-          "char_start": 621,
-          "char_end": 813,
-          "passage_sha256": "e7d3d2eb8254f91c182ee5c9c5e48016693abc799dab42f74a08cf5fbc45bc02"
+          "section": "Introdução",
+          "char_start": 11067,
+          "char_end": 11417,
+          "passage_sha256": "24fc9ee0e7589be6df24d0feab7c902adb9aa425e4841d05850e152dc8bd6a00"
         },
+        "data_year": 2025,
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2025
+        }
       },
       {
         "id": "BRA-reforms-002",
@@ -1348,33 +1309,15 @@
         }
       },
       {
-        "id": "BRA-reforms-003",
-        "statement": "The programme has three main parts: federal tax credits for private hospitals and clinics that join, letting private plans swap their debts to the SUS for care provided, and direct specialist care by the federal government in emergencies the Ministry recognises.",
-        "valence": "neutral",
-        "source_id": "camara-ate-2025",
-        "locator": {
-          "section": "News report",
-          "char_start": 816,
-          "char_end": 1264,
-          "passage_sha256": "e421bdb2d7a01b275addebbd7df5c48d44729aa9a33cb880f9cf3f9a1d013f86"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        }
-      },
-      {
         "id": "BRA-reforms-004",
-        "statement": "Total federal tax benefits granted may not exceed R$2 billion a year.",
+        "statement": "The law caps the financial credits granted under the programme at R$2 billion a year.",
         "valence": "neutral",
-        "source_id": "camara-ate-2025",
+        "source_id": "lei-15233-2025",
         "locator": {
-          "section": "News report on Agora Tem Especialistas (Lei 15.233/25)",
-          "char_start": 2576,
-          "char_end": 2673,
-          "passage_sha256": "cb9acfecdda3e44363bdb9a90fb85f409eecbda58889b9c1d5de1eb525e41fef"
+          "section": "Art. 4, § 2",
+          "char_start": 4693,
+          "char_end": 4827,
+          "passage_sha256": "9ea10acf1d371377b0aafb9e213f280d9d74c76fb96d5717c1f970aea3540e5b"
         },
         "verification": {
           "passage_found": "pass",
@@ -1851,17 +1794,6 @@
       "accessed": "2026-11-10"
     },
     {
-      "id": "camara-ate-2025",
-      "title": "Programa que acelera acesso a médicos especialistas no SUS agora é lei",
-      "publisher": "Agência Câmara de Notícias, Câmara dos Deputados",
-      "tier": 3,
-      "type": "government",
-      "year": 2025,
-      "url": "https://www.camara.leg.br/noticias/1209168-programa-que-acelera-acesso-a-medicos-especialistas-no-sus-agora-e-lei/",
-      "funding_note": "News service of the Chamber of Deputies (federal legislature).",
-      "accessed": "2026-11-10"
-    },
-    {
       "id": "haq-2018",
       "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
       "publisher": "The Lancet",
@@ -1895,6 +1827,10 @@
     {
       "date": "2026-11-10",
       "note": "Profile created: 84 claims from 22 sources anchored to fingerprinted passages and support-reviewed in a separate cold pass; 43 statements rewritten and 7 re-anchored to wider passages in review."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill (data older than 10 years): BRA-costs-001 (2000-2014 spending) replaced with a 2026 source on public spending below 4% of GDP; BRA-what_works-003 (2002-2013) dropped as its current equivalent is already BRA-outcomes-001. camara.leg.br could not be re-downloaded, so its 5 claims were re-sourced to the law text and Costa et al. 2026 (3) or dropped (BRA-reforms-003, BRA-access-008). Now 81 claims from 21 sources, all passing both checks."
     }
   ]
 }

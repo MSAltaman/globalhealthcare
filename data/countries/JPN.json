@@ -113,26 +113,6 @@
     ],
     "financing": [
       {
-        "id": "JPN-financing-001",
-        "statement": "Public sources paid for 85% of health spending in 2015, well above the OECD average of 76%.",
-        "valence": "neutral",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "3 Financing, chapter summary",
-          "page": 61,
-          "char_start": 131256,
-          "char_end": 131362,
-          "passage_sha256": "98a3c300ca2b76798932c768891a9e223fbcc27fc80866ef690fdf21943238e1"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
-      },
-      {
         "id": "JPN-financing-002",
         "statement": "Public insurance is funded by a mix of social insurance premiums and government tax transfers, with tax money propping up financially weaker plans so that benefits stay equal.",
         "valence": "neutral",
@@ -688,26 +668,6 @@
         }
       },
       {
-        "id": "JPN-access-002",
-        "statement": "In national surveys, 0.76% of households reported in 2007 that they had skipped a health-care visit for financial reasons in the previous year; the 2012 survey used different questions and found up to 2.9% among people aged 20-65 and 1.1% among those 65 and over.",
-        "valence": "neutral",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "7.2.1 Financial protection",
-          "page": 186,
-          "char_start": 396349,
-          "char_end": 396907,
-          "passage_sha256": "929d05ae4097d44a4d285a5d030d7142408c3eb5d49da9c44ed739c5525bfd99"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2007-2012"
-      },
-      {
         "id": "JPN-access-003",
         "statement": "Large hospitals may charge patients who arrive without a referral an extra fee of JPY 5,000-7,000 to discourage inappropriate use.",
         "valence": "neutral",
@@ -839,46 +799,6 @@
         "data_year": 2023
       },
       {
-        "id": "JPN-outcomes-004",
-        "statement": "Comparing Japanese hospital data from 2006-2008 with US data from 2008, the review found post-operative mortality similar in some areas but lower in Japan for liver and gastric surgery, mainly because of fewer complications and partly because patients had better risk profiles, such as less obesity.",
-        "valence": "strength",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "7.4 Health outcomes, Table 7.1",
-          "page": 203,
-          "char_start": 427768,
-          "char_end": 428270,
-          "passage_sha256": "5e9481a894aee3bc163bc2e27046d7c7b1e1e1527d11e0016fd02eac6c2500da"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2006-2008"
-      },
-      {
-        "id": "JPN-outcomes-005",
-        "statement": "Japanese hospitals' death rate after heart attack, about 12% against an OECD average of 8.0%, came from a 2011 national patient survey that included chronic-care hospitals; Japan's acute-care hospital database showed in-hospital mortality of 7.2%, so the review says cross-country comparisons need better data.",
-        "valence": "neutral",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "7.4 Health outcomes",
-          "page": 204,
-          "char_start": 429679,
-          "char_end": 430407,
-          "passage_sha256": "9f0ab68890fb596c4f7d8191353c76723dee8fd1e263b2cb6f2d4a168f389292"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2011
-      },
-      {
         "id": "JPN-outcomes-006",
         "statement": "The gap in life expectancy between the prefectures with the lowest and highest values widened from 2.5 to 3.1 years between 1990 and 2015, and the gap in healthy life expectancy from 2.3 to 2.7 years.",
         "valence": "weakness",
@@ -896,7 +816,8 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "1990-2015"
+        "data_year": "1990-2015",
+        "historical": true
       },
       {
         "id": "JPN-outcomes-007",
@@ -1013,7 +934,8 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "1995-2015"
+        "data_year": "1995-2015",
+        "historical": true
       },
       {
         "id": "JPN-costs-006",
@@ -1134,26 +1056,6 @@
         }
       },
       {
-        "id": "JPN-what_works-004",
-        "statement": "A comparison of surveys of older adults found that fewer people in Japan (2009) than in the European countries surveyed (2004-2005) had forgone care for financial reasons, especially at 65 and over, though the Japanese sample was not probability-based.",
-        "valence": "strength",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "7.3.2 Equity of access to health care, Fig. 7.7",
-          "page": 194,
-          "char_start": 411031,
-          "char_end": 412247,
-          "passage_sha256": "ad10609c18fc00f2557757211bd52cb1655a765df818982b9bbfb4ab9a69bbd7"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2004-2009"
-      },
-      {
         "id": "JPN-what_works-005",
         "statement": "After the DPC system with performance reporting was introduced in 2003, average length of stay in participating hospitals fell from 21.2 days in 2002 to 16.7 days in 2007.",
         "valence": "strength",
@@ -1171,7 +1073,8 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "2002-2007"
+        "data_year": "2002-2007",
+        "historical": true
       },
       {
         "id": "JPN-what_works-006",
@@ -1306,26 +1209,6 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
-      },
-      {
-        "id": "JPN-problems-007",
-        "statement": "There are no official statistics on people without effective insurance; one estimate put them at about 1.3% of the population in 2007, and the same working definition gives 3.2% in 2013.",
-        "valence": "weakness",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "7.2.1 Financial protection",
-          "page": 187,
-          "char_start": 398900,
-          "char_end": 399332,
-          "passage_sha256": "4cbd0edb2bc69ebd3952f97af63ead61ff3098b7fb9754c98a86b0c77990f951"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2007-2013"
       },
       {
         "id": "JPN-problems-008",
@@ -1656,7 +1539,7 @@
     "us_lessons": [
       {
         "id": "JPN-us_lessons-001",
-        "statement": "Japan codifies the prices that all of its payers pay for nearly all care in one fee schedule, revised item by item within an overall rate set by government; the authors found this has held down total spending despite fee-for-service incentives, an ageing population and new technology.",
+        "statement": "Japan codified the prices that all its payers paid for nearly all care in one fee schedule, revised item by item within an overall rate set by government; in 2012 the authors found this had held down total spending despite fee-for-service incentives, an ageing population and new technology.",
         "valence": "neutral",
         "source_id": "ikegami-2012",
         "locator": {
@@ -1671,7 +1554,8 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "2000-2008"
+        "data_year": "2000-2008",
+        "historical": true
       },
       {
         "id": "JPN-us_lessons-002",
@@ -1690,11 +1574,12 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "2000-2008"
+        "data_year": "2000-2008",
+        "historical": true
       },
       {
         "id": "JPN-us_lessons-003",
-        "statement": "The authors conclude that Japan's experience shows government regulation can preserve access, avoid rationing, use new technology and accommodate several insurers and an ageing population while restraining spending growth.",
+        "statement": "In 2012 the authors concluded that Japan's experience showed government regulation could preserve access, avoid rationing, use new technology and accommodate several insurers and an ageing population while restraining spending growth.",
         "valence": "neutral",
         "source_id": "ikegami-2012",
         "locator": {
@@ -1708,7 +1593,9 @@
           "supports": "pass",
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        }
+        },
+        "historical": true,
+        "data_year": 2012
       },
       {
         "id": "JPN-us_lessons-004",
@@ -2040,6 +1927,10 @@
     {
       "date": "2026-11-10",
       "note": "Backfill: 9 sources added (MHLW FY2024 national medical expenditure, FY2026 revisions, My Number card notices, Chuikyo minutes, GBD HAQ 2016/2019, two cancer financial-toxicity studies) and the JFBA 2023 bankruptcy-records survey; 16 claims added, all support-reviewed."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Current-data rule: 6 claims resting on data older than 10 years dropped (public share of spending 2015, forgone care 2007/2012, surgical and heart-attack mortality 2006-2011, older adults' forgone care 2009, uninsured estimate 2007/2013); 6 trend or past-event claims marked historical, 2 reworded in the past tense."
     }
   ]
 }

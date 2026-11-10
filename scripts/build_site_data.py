@@ -43,7 +43,12 @@ def main() -> None:
 
     # Same data as one script file, so the site also works when index.html is
     # opened straight from disk (browsers block fetch() on file:// pages).
+    scores = DATA / "scores.json"
+    if scores.exists():
+        shutil.copy(scores, OUT / "scores.json")
     bundle = {"data/index.json": index}
+    if scores.exists():
+        bundle["data/scores.json"] = json.loads(scores.read_text(encoding="utf-8"))
     for f in sorted(OUT.glob("*/*.json")):
         bundle[f"data/{f.parent.name}/{f.name}"] = json.loads(f.read_text(encoding="utf-8"))
     (OUT / "bundle.js").write_text(

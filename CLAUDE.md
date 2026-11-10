@@ -24,7 +24,15 @@ about lessons for the US. Strengths and failures get equal care.
    `config/sources.json`. Tier 4 (news, explainers) can never be a claim's
    only support. Record the funder or stance of tier-3 sources in
    `funding_note` when it bears on bias.
-5. **Current, and dated.** Check for reforms in the last five years before
+5. **Current, and dated.** Claims about how things are now must rest on data
+   from the last 10 years (`scripts/validate.py` enforces this using
+   `data_year`, else the source's year). Prefer the most recent data that
+   exists; a 2023 figure beats a 2017 one. Older data is allowed only for a
+   claim that states a past event or a past level for a trend, marked
+   `"historical": true` and worded in the past tense with its year. Never keep
+   an old figure because it is striking or widely quoted: find the current
+   equivalent, or drop the claim.
+   Check for reforms in the last five years before
    describing a system. Every claim records `data_year` when the data year
    differs from publication. A study describing a system that has since been
    reformed must say so in the statement.

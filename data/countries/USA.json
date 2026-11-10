@@ -3,7 +3,7 @@
   "name": "United States",
   "wave": 0,
   "system_as_of": "2026-11-09",
-  "status": "verified",
+  "status": "draft",
   "model": {
     "type": "mixed",
     "label": "Mixed public-private system: employer-based private insurance alongside federal Medicare, federal-state Medicaid and subsidised individual plans, with no guaranteed coverage for all residents"
@@ -32,7 +32,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -51,7 +51,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -70,7 +70,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -88,7 +88,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2022
@@ -108,7 +108,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2024
@@ -128,7 +128,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -148,8 +148,97 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-overview-008",
+        "statement": "Under the Census Bureau's CPS ASEC measure, which counts a person as uninsured only if they had no coverage at any point in the calendar year, 26.7 million people (7.9%) were uninsured in 2025; 92.1% had cover for at least part of the year, and the uninsured rate did not change significantly from 2024.",
+        "valence": "weakness",
+        "source_id": "census-p60-291",
+        "locator": {
+          "page": 7,
+          "char_start": 11250,
+          "char_end": 11937,
+          "passage_sha256": "f846d72503d5e97618e0ed0ba58c06557868d5ead2807291fab85a11a9881564"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-overview-009",
+        "statement": "Among the civilian noninstitutionalized population in 2025, employment-based insurance was the most common type of cover (53.5%), ahead of Medicare (20.1%), Medicaid (17.1%), directly purchased cover (10.5%), TRICARE (2.8%) and VA and CHAMPVA care (1.2%).",
+        "valence": "neutral",
+        "source_id": "census-p60-291",
+        "locator": {
+          "page": 8,
+          "char_start": 12023,
+          "char_end": 12334,
+          "passage_sha256": "f8c96396ecf7935974060b94f23fb707b9ab83ecf692a71b34336324d69774ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-overview-010",
+        "statement": "The American Community Survey put the national uninsured rate at 8.2% in 2024, a statistically significant rise from 7.9% in 2023.",
+        "valence": "weakness",
+        "source_id": "census-acsbr-024",
+        "locator": {
+          "page": 2,
+          "char_start": 3007,
+          "char_end": 3210,
+          "passage_sha256": "a5d836dc070862274e7858576f21da0773fce8b61b20c7be31c8d29004e167b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-overview-011",
+        "statement": "The National Health Interview Survey estimated that 28.0 million people (8.3%) lacked health insurance when interviewed in 2025, which was not significantly different from 27.2 million (8.2%) in 2024.",
+        "valence": "weakness",
+        "source_id": "nchs-nhis-insur-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 2203,
+          "char_end": 2410,
+          "passage_sha256": "c44349752150596cf41808cf60739962a0badfa77c1e510f95cd3b635c8160c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-overview-012",
+        "statement": "CMS projects that the insured share of the population will slip from 91.8% in 2024 to 90.5% in 2034.",
+        "valence": "weakness",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Projected NHE, 2025-2034",
+          "char_start": 2313,
+          "char_end": 2422,
+          "passage_sha256": "4c0cdda61c4823ecec87a52e644af5d95237f5e80e56990aaf5bc9dd44819de7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         }
       }
     ],
@@ -169,7 +258,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -189,7 +278,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -208,7 +297,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -227,7 +316,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2017
@@ -247,7 +336,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2017
@@ -267,7 +356,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2017
@@ -289,7 +378,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2017
@@ -309,7 +398,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -328,7 +417,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -347,7 +436,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -365,7 +454,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -383,8 +472,42 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-007",
+        "statement": "The federal claim-denial data analysed by KFF cover only claims submitted after care was given; denied prior authorization requests, which are decided before care, are not included.",
+        "valence": "neutral",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 3668,
+          "char_end": 4005,
+          "passage_sha256": "7b028a46e8fdd9d697f7d999ca2a22ba9be9b6f1c8290ea7b6216c8fdb9c8e1b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-covered-008",
+        "statement": "The ACA requires insurers to report denial data for all non-grandfathered plans, but reporting, begun with the 2015 plan year, so far covers only marketplace plans that use HealthCare.gov; plans on fully state-run marketplaces and employer group plans are not yet included.",
+        "valence": "neutral",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 759,
+          "char_end": 1381,
+          "passage_sha256": "7982f5de712d7ac42e69e80409a98b1f2b6c87baab9ec850fb4d0fe157cae7e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         }
       }
     ],
@@ -404,7 +527,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -423,7 +546,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2019
@@ -443,7 +566,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -462,7 +585,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -481,7 +604,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -500,7 +623,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       }
@@ -521,7 +644,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -531,16 +654,15 @@
         "valence": "weakness",
         "source_id": "kluender-2021",
         "locator": {
-          "section": "Abstract: Results",
-          "char_start": 1685,
-          "char_end": 2102,
-          "passage_sha256": "2408036564acfde8aef2b9dd1b8504c9e17742bc40fbfbe5164f92c7c89f3898"
+          "section": "Abstract (PMC full text)",
+          "char_start": 5122,
+          "char_end": 5537,
+          "passage_sha256": "5e60af3da7d8b7c77d7a9960f8f0657208d89ab7405999551d42d51c96c17665"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         },
         "data_year": 2020
       },
@@ -551,14 +673,14 @@
         "source_id": "kluender-2021",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 1927,
-          "char_end": 2309,
+          "char_start": 5362,
+          "char_end": 5744,
           "passage_sha256": "afb01aa04ab0e070b836c0c6b185a64787e4591285dae413af0aecfe55b3826f"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2020
@@ -577,7 +699,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -595,7 +717,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2007
@@ -614,7 +736,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2007
@@ -633,7 +755,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -651,7 +773,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": "2002-2011"
@@ -670,9 +792,82 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
+      },
+      {
+        "id": "USA-financial_hardship-010",
+        "statement": "The CFPB counted $88 billion of medical debt on consumer credit records as of June 2021, and said the full amount in collections is likely higher because not every medical debt in collections is reported to the credit bureaus.",
+        "valence": "weakness",
+        "source_id": "cfpb-medburden-2022",
+        "locator": {
+          "section": "Executive Summary",
+          "page": 3,
+          "char_start": 2182,
+          "char_end": 2441,
+          "passage_sha256": "cacfc18602b851810797cc48442a93e8acb6ad30e8211a0720ced51f5a0298ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-financial_hardship-011",
+        "statement": "As of 2021, medical bills accounted for 58% of all third-party collection items on credit records, more than any other kind of debt; telecommunications debt was next at 15%.",
+        "valence": "weakness",
+        "source_id": "cfpb-medburden-2022",
+        "locator": {
+          "section": "Executive Summary",
+          "page": 3,
+          "char_start": 2614,
+          "char_end": 2892,
+          "passage_sha256": "11ee10aca803e2d0f31d55728cf274f21814e5285512638e54d7c43140ee929f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-financial_hardship-012",
+        "statement": "The proportion of consumers whose credit files listed medical collections dropped from roughly 14% in March 2022 to roughly 5% in June 2023, according to CFPB research.",
+        "valence": "neutral",
+        "source_id": "cfpb-medcollections-2024",
+        "locator": {
+          "section": "Summary",
+          "char_start": 1393,
+          "char_end": 1558,
+          "passage_sha256": "b6581a47af3b0385fc5b35f01748f095a946a886871b765258b20894b3c78c49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-013",
+        "statement": "Medical debt, survey definition (Census SIPP; adults owing more than $250 in unpaid medical bills as of December 2021): about 20 million people, nearly one adult in 12, had such debt, and the survey implies at least $220 billion owed in total.",
+        "valence": "weakness",
+        "source_id": "pkff-meddebt",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 1825,
+          "char_end": 2331,
+          "passage_sha256": "d077f8017534302ad28e05639ca9fa75b6e5ae9fba9a1df3f2fe64cb0727cde5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2021
       }
     ],
     "additional_care": [
@@ -691,7 +886,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2017
@@ -711,7 +906,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2017
@@ -733,7 +928,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -752,7 +947,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -771,7 +966,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -790,7 +985,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -809,7 +1004,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -828,7 +1023,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -847,7 +1042,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -866,9 +1061,99 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
+      },
+      {
+        "id": "USA-access-009",
+        "statement": "In 2025, 11.0% of adults aged 19-64 had no coverage for the whole year (CPS ASEC), not significantly different from 2024; the rate was 8.9% for native-born and 19.4% for foreign-born adults of that age, and 28.9% for non-citizens.",
+        "valence": "weakness",
+        "source_id": "census-p60-291",
+        "locator": {
+          "page": 14,
+          "char_start": 35973,
+          "char_end": 36534,
+          "passage_sha256": "57362adb0e6ae2ee3c8bb7f528effc46db3c889649ebb22665108fb4bce7f4c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-access-010",
+        "statement": "In 2024 the share of people without insurance varied widely by state, from 2.8% in Massachusetts to 16.7% in Texas (American Community Survey).",
+        "valence": "weakness",
+        "source_id": "census-acsbr-024",
+        "locator": {
+          "page": 2,
+          "char_start": 3679,
+          "char_end": 3792,
+          "passage_sha256": "eb12cb6eba0053e733185afda221717b6920e54a486f156c3fd0bbf0569faac3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-access-011",
+        "statement": "In states that had not expanded Medicaid, 18.1% of adults were uninsured in 2025 (down from 20.4% in 2021, and not significantly different from 2024); adults in expansion states were less likely to be uninsured and more likely to have public cover.",
+        "valence": "weakness",
+        "source_id": "nchs-nhis-insur-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 15403,
+          "char_end": 15892,
+          "passage_sha256": "5c5d033e58eeacf6847d8c4a6d4c19f6a4d097cd7f2228575d404dc8d62d91c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-access-012",
+        "statement": "The share of adults aged 18-64 without insurance fell from 13.5% in 2021 to 11.6% in 2025, the same rate as in 2024 (National Health Interview Survey).",
+        "valence": "strength",
+        "source_id": "nchs-nhis-insur-2025",
+        "locator": {
+          "page": 2,
+          "char_start": 4119,
+          "char_end": 4354,
+          "passage_sha256": "d540709c712993025e049b6dfa966cf1a4a947f06f2ef22f62f954eefec80b85"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-access-013",
+        "statement": "In NCHS's early-release estimates for 2025, 6.0% did not get needed medical care in the past 12 months because of cost, 5.4% did not get needed mental health care because of cost, and 7.5% did not take medication as prescribed in order to save money.",
+        "valence": "weakness",
+        "source_id": "nchs-nhis-er-2025",
+        "locator": {
+          "table": "Selected key health indicators, Health care access rows, Jan-Dec 2025 column",
+          "page": 1,
+          "char_start": 2758,
+          "char_end": 3114,
+          "passage_sha256": "5911d43ba83144e3bab651b03f2950e1a4dace220d9d73513c3dd21f6f8617ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
       }
     ],
     "outcomes": [
@@ -887,7 +1172,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -907,7 +1192,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -926,7 +1211,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -945,7 +1230,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -965,7 +1250,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": "2000-2023"
@@ -985,7 +1270,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1004,9 +1289,63 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
+      },
+      {
+        "id": "USA-outcomes-008",
+        "statement": "In the GBD 2019 Healthcare Access and Quality (HAQ) Index study, the US scored 80.6 out of 100 in 2019 for ages 0-74 (86.3 for ages 0-14, 79.1 for 15-64 and 78.5 for 65-74), up 8.5 points from 1990.",
+        "valence": "neutral",
+        "source_id": "haq-gbd2019",
+        "locator": {
+          "table": "Table (HAQ Index by location, 2019, and absolute change 1990-2019): USA row; 2019 columns overall (0-74), young (0-14), working (15-64), post-working (65-74), then change 1990-2019",
+          "char_start": 41943,
+          "char_end": 42098,
+          "passage_sha256": "b9f3187579e3f3adcea59b075a37718f3097d7ed1a83151ba164d224dec03db3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "USA-outcomes-009",
+        "statement": "For comparison, the same study puts the average 2019 HAQ Index score at 83.4 for high-SDI countries and 83.9 for the high-income super-region.",
+        "valence": "neutral",
+        "source_id": "haq-gbd2019",
+        "locator": {
+          "section": "Results",
+          "char_start": 32628,
+          "char_end": 32968,
+          "passage_sha256": "16ac52ed6e99fa08f3b681394af1912b49bb57eae180bd8bff11fe745463ba46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "USA-outcomes-010",
+        "statement": "In the GBD 2016 HAQ Index study the US as a whole was in the ninth decile in 2016, while its states spread from the tenth down to the seventh decile; Mississippi had the lowest state score (81.5).",
+        "valence": "weakness",
+        "source_id": "haq-gbd2016",
+        "locator": {
+          "section": "Results",
+          "char_start": 45416,
+          "char_end": 45696,
+          "passage_sha256": "0183cf8409c83206839fde1d0b6d370dae17585801bd595fc39131d917c5c0a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2016
       }
     ],
     "costs": [
@@ -1025,7 +1364,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1044,7 +1383,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1063,7 +1402,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -1082,7 +1421,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2016
@@ -1094,14 +1433,14 @@
         "source_id": "chow-2022",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 1820,
-          "char_end": 1953,
+          "char_start": 4596,
+          "char_end": 4729,
           "passage_sha256": "49a75ed9fe2d4d1fba8c4a694d39e8b41a0789eccb04904fe2392e12bfaa4881"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1119,8 +1458,61 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-costs-007",
+        "statement": "US national health spending reached $5.3 trillion in 2024 ($15,474 per person), equal to 18.0% of GDP, after growing 7.2% that year.",
+        "valence": "weakness",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Historical NHE, 2024",
+          "char_start": 58,
+          "char_end": 177,
+          "passage_sha256": "401fdf895d4ff182f2e29824b9b884b49c3863127c631829181915f3b695f756"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-costs-008",
+        "statement": "Of national health spending in 2024, private health insurance accounted for 31%, Medicare 21%, Medicaid 18% and out-of-pocket payments 11% ($556.6 billion).",
+        "valence": "neutral",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Historical NHE, 2024",
+          "char_start": 178,
+          "char_end": 534,
+          "passage_sha256": "efcf690b5266bc4e41d2dfff8300a85b9b8171723097d7ba0bacaed226cf8b39"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-costs-009",
+        "statement": "CMS projects health spending to grow faster than GDP over 2025-34 (5.4% against 4.1% a year on average), lifting its share of GDP from 18.0% in 2024 to 20.6% in 2034.",
+        "valence": "weakness",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Projected NHE, 2025-2034",
+          "char_start": 1424,
+          "char_end": 1672,
+          "passage_sha256": "09808793cddc245bb238214631a0f2952949fd118d3cedacc7cef5cb8214e54b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         }
       }
     ],
@@ -1140,7 +1532,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -1160,7 +1552,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -1171,16 +1563,15 @@
         "valence": "strength",
         "source_id": "concord3-2018",
         "locator": {
-          "section": "Abstract: Findings",
-          "char_start": 10394,
-          "char_end": 10568,
-          "passage_sha256": "8588ce8a2b8349158ed7a0998314c067401ce40e2841626051cb8b6a38787c4b"
+          "section": "Abstract (PMC full text)",
+          "char_start": 4381,
+          "char_end": 4565,
+          "passage_sha256": "dea8cd659fb65e0fcdb8c07e08d83eeb97f72acb7b84a9309a783f615bf88ce7"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         }
       },
       {
@@ -1189,16 +1580,15 @@
         "valence": "strength",
         "source_id": "chow-2022",
         "locator": {
-          "section": "Abstract: Results and conclusions",
-          "char_start": 1059,
-          "char_end": 1819,
-          "passage_sha256": "26128ffcf7dcbb119d5fa614a5b438808edbabf140a7ef03e752ef6f75ea8162"
+          "section": "Abstract (PMC full text)",
+          "char_start": 3836,
+          "char_end": 4595,
+          "passage_sha256": "54d5a84000cfeaaeb65500af031260b64d9fc3e7febe494316098660ac2a25d3"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-09",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         },
         "data_year": 2020
       },
@@ -1217,7 +1607,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1236,7 +1626,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1255,7 +1645,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1274,7 +1664,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       }
@@ -1295,7 +1685,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1314,7 +1704,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1333,7 +1723,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1352,7 +1742,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1371,7 +1761,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2023
@@ -1390,7 +1780,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2021
@@ -1409,7 +1799,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2021
@@ -1428,7 +1818,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1446,7 +1836,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2019
@@ -1465,7 +1855,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2019
@@ -1484,7 +1874,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1502,7 +1892,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1520,7 +1910,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": "2019-2023"
@@ -1539,9 +1929,153 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
+      },
+      {
+        "id": "USA-problems-015",
+        "statement": "Insurers selling HealthCare.gov plans received about 496 million claims in 2024; they denied about 85 million of the 451 million in-network claims (an average denial rate of 19%) and 37% of the 44 million out-of-network claims.",
+        "valence": "weakness",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Insurer-level Claims Denials Data",
+          "char_start": 5093,
+          "char_end": 5443,
+          "passage_sha256": "2488fec7a161f60482c9d85d5912315bfdae65d418dd2661ee300f32b2a4d13e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-problems-016",
+        "statement": "In-network denial rates differed widely between HealthCare.gov insurers in 2024, from 3% to 36%; 17 of 157 reporting insurers denied under 10% and 26 denied 25% or more.",
+        "valence": "weakness",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Insurer-level Claims Denials Data",
+          "char_start": 6484,
+          "char_end": 6733,
+          "passage_sha256": "5bfdb67ec94f182dc5d6838610268d327f2fd544f8cdcd5ea663c372bf0ad56b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-problems-017",
+        "statement": "HealthCare.gov enrollees appealed at least 262,982 of the roughly 85 million in-network denials in 2024, an appeal rate below 1% (the true number may be somewhat higher because small values are suppressed), and insurers upheld 66% of the appealed denials.",
+        "valence": "weakness",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Appeals Data",
+          "char_start": 13653,
+          "char_end": 13971,
+          "passage_sha256": "f2e6f0d1ffa751626d5ed361ada48edd0b944452215cce1c09cd223c6c899a49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-problems-018",
+        "statement": "In the American Medical Association's 2025 survey of physicians on prior authorization, 26% reported that the process had caused a serious adverse event for one of their patients.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 2248,
+          "char_end": 2417,
+          "passage_sha256": "a5f8837da48e3393e58df97e18c3fca509cd935db7bc61bda38d8b39423dad61"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-problems-019",
+        "statement": "The AMA survey had 44 questions, was run on the web in December 2025, and sampled 1,000 practising physicians from a Medscape panel, 40% of them in primary care and 60% specialists.",
+        "valence": "neutral",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "section": "Survey methodology",
+          "page": 4,
+          "char_start": 9966,
+          "char_end": 10158,
+          "passage_sha256": "a6bb33f09503648caca6d43d6557388b1054767d47744afd9af898598d76feb7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-problems-020",
+        "statement": "Most physicians in the AMA survey said the number of prior authorizations required had grown over the past five years: 84% for prescription drugs and 82% for medical services (among those who handle each type).",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7877,
+          "char_end": 8051,
+          "passage_sha256": "f1e44ff6cbba02aaf68e1edb246345ce55b0307e6e949d6ae0bdcdf413a438ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-problems-021",
+        "statement": "In the AMA survey, 88% of physicians said prior authorization interferes with continuity of care.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 8571,
+          "char_end": 8666,
+          "passage_sha256": "872ad90055bb6564c8866d7cdebbe8863ad37d4447d36d9e0f740e4d4ae47359"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-problems-022",
+        "statement": "Only 5% of physicians in the AMA survey reported contracts with health plans that exempt providers from prior authorization, such as gold-card programmes.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7646,
+          "char_end": 7780,
+          "passage_sha256": "c769b88ba0390214e6122d5c243b50681f0a9d80032ab054e3fe930dcefeb243"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2025
       }
     ],
     "reforms": [
@@ -1559,7 +2093,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1577,7 +2111,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1595,7 +2129,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1613,7 +2147,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1631,7 +2165,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1649,7 +2183,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": "2023-2024"
@@ -1668,7 +2202,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1686,7 +2220,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1705,7 +2239,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1724,8 +2258,148 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-011",
+        "statement": "The enhanced ACA premium tax credits, introduced by the American Rescue Plan in 2021 and prolonged to the end of 2025 by the Inflation Reduction Act, lapsed when 2025 ended; many enrollees then faced much higher premium payments, especially those with incomes over 400% of the federal poverty level.",
+        "valence": "weakness",
+        "source_id": "kff-2026-whatweknow",
+        "locator": {
+          "section": "Full text",
+          "char_start": 539,
+          "char_end": 1007,
+          "passage_sha256": "4e752cf27dbe5061edfaaa997b112a28f0d96cf8e9c466ac6ece434266232a84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-reforms-012",
+        "statement": "KFF's early estimate is that the premiums Marketplace enrollees pay themselves rose by an average of 58% in 2026, from $113 to $178 a month.",
+        "valence": "weakness",
+        "source_id": "kff-2026-whatweknow",
+        "locator": {
+          "section": "Key Findings",
+          "char_start": 1960,
+          "char_end": 2051,
+          "passage_sha256": "f8b372f5dc9765e7dfba9273ea733f9d64e90a64db183081bf0b84f76fb5e9fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-reforms-013",
+        "statement": "The average Marketplace deductible rose by 37% ($1,027 per person) to a record $3,786 in 2026, mostly because enrollees shifted from silver plans with reduced deductibles to bronze plans with very high ones.",
+        "valence": "weakness",
+        "source_id": "kff-2026-whatweknow",
+        "locator": {
+          "section": "Key Findings",
+          "char_start": 2503,
+          "char_end": 2829,
+          "passage_sha256": "b2e4b3069a21f7e6f82fc611c464654acc5dd8038979f8060794bc274fef6dea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-reforms-014",
+        "statement": "KFF estimates that individual-market enrollment dropped by over 4.6 million people between June 2025 (25.2 million) and June 2026 (20.5 million); the fall came at the same time as the end of the enhanced tax credits and other policy changes projected to cut enrollment.",
+        "valence": "weakness",
+        "source_id": "kff-indiv-mkt-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1093,
+          "char_end": 1402,
+          "passage_sha256": "5a301566b4cce8b25ad5cbcfd24b274027b760dfb496928d85548395bca62806"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-reforms-015",
+        "statement": "On 18 March 2022 the three national credit bureaus said, voluntarily, that they would stop reporting some medical collections.",
+        "valence": "neutral",
+        "source_id": "cfpb-medcollections-2024",
+        "locator": {
+          "section": "Summary",
+          "char_start": 699,
+          "char_end": 849,
+          "passage_sha256": "f3052d892b7811b17a6f005070905dd2ee5f57540eb771d64e73101e1f83dfb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-reforms-016",
+        "statement": "In January 2025 the CFPB issued a final rule that barred creditors from taking medical debt information into account and barred credit bureaus from putting medical debt on credit reports.",
+        "valence": "neutral",
+        "source_id": "cfpb-regv-page",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1497,
+          "char_end": 1886,
+          "passage_sha256": "5f4382b7d2eba610fbed72e8e9d8d9d03602f0a8c92293e25a144d6a9e477c47"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-reforms-017",
+        "statement": "On 11 July 2025 a federal district court in eastern Texas vacated the CFPB medical debt rule at the joint request of the Bureau and the plaintiffs, agreeing that it went beyond the Bureau's statutory authority and conflicted with the Fair Credit Reporting Act.",
+        "valence": "neutral",
+        "source_id": "cfpb-regv-page",
+        "locator": {
+          "section": "Full text",
+          "char_start": 300,
+          "char_end": 800,
+          "passage_sha256": "7c101b4093bf68b1b5f8a65086cd8961893a805c1c1870ce86ebdd73d82c8052"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
+        }
+      },
+      {
+        "id": "USA-reforms-018",
+        "statement": "On 23 June 2025 more than 60 health insurers pledged voluntary reforms to their prior authorization programmes, with six commitments taking effect in stages between June 2025 and 1 January 2027.",
+        "valence": "neutral",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "section": "2025 insurer pledge to improve PA",
+          "page": 3,
+          "char_start": 5311,
+          "char_end": 5890,
+          "passage_sha256": "de93da1eb868143d1f2dc108d27864dbb892b150bc0a1d5cfb3defb32cf22167"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-10"
         }
       }
     ],
@@ -1744,7 +2418,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1762,7 +2436,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1773,14 +2447,14 @@
         "source_id": "kluender-2021",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 2350,
-          "char_end": 2633,
+          "char_start": 5785,
+          "char_end": 6068,
           "passage_sha256": "60985c419d2ad23fd4bd55356b6bc388dffd45dfb997940a2000e47063b8c623"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": "2013-2020"
@@ -1792,14 +2466,14 @@
         "source_id": "chow-2022",
         "locator": {
           "section": "Abstract: Conclusions and relevance",
-          "char_start": 2505,
-          "char_end": 2881,
+          "char_start": 5280,
+          "char_end": 5656,
           "passage_sha256": "c5e232796db61238af2dd7edc72ac2bb6b87c059bdf178431cac611c2a765f6a"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       },
@@ -1817,7 +2491,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-09",
+          "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
       }
@@ -1978,7 +2652,7 @@
       "url": "https://doi.org/10.1001/jama.2021.8694",
       "doi": "10.1001/jama.2021.8694",
       "funding_note": "Counts only medical debt in collections on credit reports; data end June 2020.",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34283184&rettype=abstract&retmode=text",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8293024",
       "accessed": "2026-11-09",
       "content_sha256": "4d02e6cefb9b6579e4bbd2cf8fc96d04bcc9e0563b001b22c0db2d5a7f2161c9"
     },
@@ -2099,7 +2773,7 @@
       "url": "https://doi.org/10.1001/jamahealthforum.2022.1229",
       "doi": "10.1001/jamahealthforum.2022.1229",
       "funding_note": "Cross-sectional; mortality data for 2020.",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35977250&rettype=abstract&retmode=text",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9142870",
       "accessed": "2026-11-09",
       "content_sha256": "3438539724a17d90efbe336d04c3ab193ad0762e1d63ee3f7309bc087243028a"
     },
@@ -2114,7 +2788,7 @@
       "url": "https://doi.org/10.1016/S0140-6736(17)33326-3",
       "doi": "10.1016/S0140-6736(17)33326-3",
       "funding_note": "Patients diagnosed 2000-2014; registry coverage differs by country.",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29395269&rettype=abstract&retmode=text",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5879496",
       "accessed": "2026-11-09",
       "content_sha256": "3e2a11cf4ef40c495fe25fc5edd3e4d4c917aaafa2bf5b69e6f748142975f21a"
     },
@@ -2245,6 +2919,60 @@
       "url": "https://www.kff.org/affordable-care-act/individual-market-enrollment-continues-to-fall-through-mid-2026/",
       "funding_note": "Independent nonprofit; analysis of insurer filings compiled by Mark Farrah Associates, published October 2026.",
       "accessed": "2026-11-09"
+    },
+    {
+      "id": "nchs-nhis-insur-2025",
+      "title": "Health Insurance Coverage: Early Release of Estimates From the National Health Interview Survey, 2025",
+      "publisher": "National Center for Health Statistics (CDC)",
+      "authors": "Cohen RA, Briones EM",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cdc.gov/nchs/data/nhis/earlyrelease/Health-Insurance-Coverage-Early-Release-of-Estimates-2025.pdf",
+      "funding_note": "Official survey statistics released May 2026 before final editing and weighting; coverage measured at the time of interview, a different concept from the Census CPS ASEC full-year measure.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "nchs-nhis-er-2025",
+      "title": "Early Release of Selected Estimates Based on Data From the 2025 National Health Interview Survey",
+      "publisher": "National Center for Health Statistics (CDC)",
+      "authors": "Norris T, Bottoms-McClain L, Adjaye-Gbewonyo D",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cdc.gov/nchs/data/nhis/earlyrelease/Early-Release-of-Selected-Estimates-Based-on-Data-from-the-2025.pdf",
+      "funding_note": "Official survey statistics released May 2026 before final editing and weighting; indicator definitions and populations are in the NHIS technical notes, not in this table.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "haq-gbd2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "funding_note": "Institute for Health Metrics and Evaluation (GBD), funded by the Bill & Melinda Gates Foundation; data year 2019. The paper reports scores, not a numbered rank for each country.",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "haq-gbd2016",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "funding_note": "Institute for Health Metrics and Evaluation (GBD), funded by the Bill & Melinda Gates Foundation; data year 2016; superseded by the GBD 2019 HAQ estimates.",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-10"
     }
   ],
   "rankings": [

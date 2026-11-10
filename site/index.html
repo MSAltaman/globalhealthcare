@@ -214,6 +214,13 @@ function checkLabel(v) {
   return ["", "awaiting verification"];
 }
 
+function isOutdated(c, s) {
+  if (c.historical) return false;
+  const ys = String(c.data_year ?? "").match(/(19|20)\d\d/g);
+  const y = ys ? Math.max(...ys.map(Number)) : s.year;
+  return y && y < new Date().getFullYear() - 10;
+}
+
 function claimItem(c, sources) {
   const s = sources[c.source_id] || {};
   const loc = c.locator || {};
@@ -226,6 +233,7 @@ function claimItem(c, sources) {
     <div class="meta">
       <span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(shortSource(s))}</a>${where ? ", " + esc(where) : ""}</span>
       ${c.data_year ? `<span>data ${esc(c.data_year)}</span>` : ""}
+      ${isOutdated(c, s) ? `<span class="check fail">data over 10 years old, being replaced</span>` : ""}
       <span class="check ${cls}">${label}</span>
       <span class="mono">${esc(c.id)}</span>
     </div>

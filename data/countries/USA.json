@@ -713,14 +713,15 @@
       },
       {
         "id": "USA-financial_hardship-005",
-        "statement": "Medical bankruptcy, survey-based definition: a 2007 survey of a random national sample of 2,314 bankruptcy filers classed filings as medical based on debtors' stated reasons for filing, income lost to illness and the size of their medical debts; on a conservative definition, 62.1% of 2007 bankruptcies were medical.",
+        "statement": "Medical bankruptcy, self-reported 'contributing factor' definition: according to Debt's Grip, 65% of bankruptcy filers name medical costs as one factor contributing to their filing; of these, 30% said medical expenses alone were a reason.",
         "valence": "weakness",
-        "source_id": "himmelstein-2009",
+        "source_id": "sickler-ablj-2025",
         "locator": {
-          "section": "Abstract",
-          "char_start": 676,
-          "char_end": 1063,
-          "passage_sha256": "0b54934441562da2d065b119373bad9c397e4f967fe89a9d7c73f613b3995415"
+          "section": "III. Medical debt (review of Debt's Grip, ch. 4)",
+          "page": 13,
+          "char_start": 34430,
+          "char_end": 34790,
+          "passage_sha256": "838728840e93e456ef6fb3a90b08b713a606a4cfe12a83e5ce15cf4308b3dfba"
         },
         "verification": {
           "passage_found": "pass",
@@ -728,18 +729,19 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
-        "data_year": 2007
+        "data_year": "2013-2023"
       },
       {
         "id": "USA-financial_hardship-006",
-        "statement": "In that 2007 survey, most medical debtors were well educated, owned homes and had middle-class jobs; three-quarters had health insurance.",
-        "valence": "weakness",
-        "source_id": "himmelstein-2009",
+        "statement": "Debt's Grip, the latest round of the CBP's research on bankruptcy filers, uses court records for 8,800 households that filed for bankruptcy from 2013 to 2023, together with a survey asking those households about their situation and why they filed.",
+        "valence": "neutral",
+        "source_id": "sickler-ablj-2025",
         "locator": {
-          "section": "Abstract",
-          "char_start": 676,
-          "char_end": 1422,
-          "passage_sha256": "a5d0223c0046d9b29f8a132e08e2991106d3085ed1df06f8f7243331cb34e5e0"
+          "section": "III. Methodology",
+          "page": 9,
+          "char_start": 24909,
+          "char_end": 25611,
+          "passage_sha256": "f9a1b80a0ff4f2ea638f1ff5357a29004686a853234582ee74a00fde22457923"
         },
         "verification": {
           "passage_found": "pass",
@@ -747,7 +749,7 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
-        "data_year": 2007
+        "data_year": "2013-2023"
       },
       {
         "id": "USA-financial_hardship-007",
@@ -769,14 +771,14 @@
       },
       {
         "id": "USA-financial_hardship-008",
-        "statement": "Medical bankruptcy, causal definition: linking adults aged 25-64 admitted to hospital in 2003-2007 (their first non-pregnancy stay in at least three years) to their 2002-2011 credit reports, researchers estimated that hospitalizations cause only 4% of personal bankruptcies among non-elderly US adults.",
-        "valence": "neutral",
-        "source_id": "dobkin-2018",
+        "statement": "Medical debt and bankruptcy after injury, difference-in-differences estimate against matched controls: using a statewide trauma registry linked to 2019-2021 credit reports, 12,823 people hospitalized for traumatic injury were compared with 25,195 matched people not yet injured; at 18 months after injury the share with medical debt in collections was up 5.2 percentage points (a 24% relative increase), and bankruptcy filings peaked 15 months after injury at 3.2 more per 1,000 people (a 6% relative increase).",
+        "valence": "weakness",
+        "source_id": "scott-2026",
         "locator": {
-          "section": "Main text",
-          "char_start": 5330,
-          "char_end": 6440,
-          "passage_sha256": "55c2545ad9e27259d6b6af05479cb31e713833ea6f6657ab3d41900241f6e0a6"
+          "section": "Abstract",
+          "char_start": 1866,
+          "char_end": 2615,
+          "passage_sha256": "36755650fef87369b99bc5418041a631205e82af16cf7155a8bce4b5ed430343"
         },
         "verification": {
           "passage_found": "pass",
@@ -784,11 +786,11 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
-        "data_year": "2002-2011"
+        "data_year": "2019-2021"
       },
       {
         "id": "USA-financial_hardship-009",
-        "statement": "The same authors argue that earlier studies of people who went bankrupt assumed any bankruptcy by someone reporting substantial medical bills was caused by that debt, citing a 2014 Consumer Financial Protection Bureau report that about 20% of Americans have substantial medical debt while under 1% file for bankruptcy in a given year.",
+        "statement": "A critique of the survey studies of bankruptcy filers, which counted a filing as medical whenever the filer reported large medical bills or illness-related income loss, calls that assumption questionable: a 2014 Consumer Financial Protection Bureau report found about 20% of Americans carry substantial medical debt, yet fewer than 1% file for bankruptcy in a given year.",
         "valence": "neutral",
         "source_id": "dobkin-2018",
         "locator": {
@@ -880,6 +882,45 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2021
+      },
+      {
+        "id": "USA-financial_hardship-014",
+        "statement": "Debt's Grip also finds that filers with health insurance can still build up medical debts beyond their means through high deductibles, co-payments and other out-of-pocket costs, above all when they have a chronic illness or face a sudden health crisis.",
+        "valence": "weakness",
+        "source_id": "sickler-ablj-2025",
+        "locator": {
+          "section": "III. Medical debt (review of Debt's Grip, ch. 4)",
+          "page": 14,
+          "char_start": 36507,
+          "char_end": 36785,
+          "passage_sha256": "fa65f47da8d25cfb71d339629d6f4b34f6d8fc2487bd31a0373a627766a09e8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "USA-financial_hardship-015",
+        "statement": "Medical debt after cancer, matched comparison: a Massachusetts study covering 2010-2019 compared 74,146 people diagnosed with cancer with as many matched controls; medical debt in collections worsened for years after diagnosis, whereas total debt, overall collections debt, credit scores and bankruptcy rates were no different from controls.",
+        "valence": "weakness",
+        "source_id": "uppal-2025",
+        "locator": {
+          "section": "Key Points: Findings",
+          "char_start": 4245,
+          "char_end": 5163,
+          "passage_sha256": "f590a9985ed5ad9f24e51d8a2a4084a820d7e5fb71c8e3d13657fae21191a96f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2010-2019"
       }
     ],
     "additional_care": [
@@ -1347,47 +1388,9 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
         "data_year": 2019
-      },
-      {
-        "id": "USA-outcomes-010",
-        "statement": "In the GBD 2016 HAQ Index study the US as a whole was in the ninth decile in 2016, while its states spread from the tenth down to the seventh decile; Mississippi had the lowest state score (81.5).",
-        "valence": "weakness",
-        "source_id": "haq-gbd2016",
-        "locator": {
-          "section": "Results",
-          "char_start": 45416,
-          "char_end": 45696,
-          "passage_sha256": "0183cf8409c83206839fde1d0b6d370dae17585801bd595fc39131d917c5c0a8"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        },
-        "data_year": 2016
       }
     ],
     "costs": [
-      {
-        "id": "USA-costs-001",
-        "statement": "The US spends far more per person on health care than any other country, 30% more than second-placed Switzerland.",
-        "valence": "weakness",
-        "source_id": "hit-usa-2020",
-        "locator": {
-          "section": "Executive summary",
-          "page": 25,
-          "char_start": 34891,
-          "char_end": 35033,
-          "passage_sha256": "6062c10d35c0d84728f5b3d9d8079f01eba4b1cb48b12146158ab8a52405f59a"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
-        }
-      },
       {
         "id": "USA-costs-002",
         "statement": "On a standard basket of health goods and services, prices in the US and Switzerland were 52% above the OECD average, among the highest measured.",
@@ -1429,14 +1432,15 @@
       },
       {
         "id": "USA-costs-004",
-        "statement": "In 2016 the US spent 17.8% of GDP on health care, while the other countries studied spent from 9.6% (Australia) to 12.4% (Switzerland).",
+        "statement": "In 2024 the US spent the equivalent of more than USD 14,880 per person on health (adjusted for purchasing power), 2.5 times the estimated OECD average of nearly USD 6,000; the next-highest spenders, Switzerland, Norway and Germany, spent about two-thirds of the US level.",
         "valence": "weakness",
-        "source_id": "papanicolas-2018",
+        "source_id": "oecd-hag-2025",
         "locator": {
-          "section": "Abstract: Findings",
-          "char_start": 2179,
-          "char_end": 2341,
-          "passage_sha256": "7a6d8de9414a1c2719a28106dd8c5b9e770e3736d97c34aced69f43188471f01"
+          "section": "Ch. 7, Health expenditure per capita",
+          "page": 158,
+          "char_start": 487039,
+          "char_end": 487488,
+          "passage_sha256": "be3a9f8b9666210d49652d8d51cd93ca98aced7f92b90b1a124fb7acd62f3169"
         },
         "verification": {
           "passage_found": "pass",
@@ -1444,7 +1448,7 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         },
-        "data_year": 2016
+        "data_year": 2024
       },
       {
         "id": "USA-costs-005",
@@ -1537,6 +1541,26 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
         }
+      },
+      {
+        "id": "USA-costs-010",
+        "statement": "Of all OECD countries, the US devoted by far the largest share of its economy to health throughout the period the OECD trend analysis covers; the share exceeded 17% of GDP in 2024, after peaking at 18.5% in 2020.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Ch. 7, Health expenditure in relation to GDP",
+          "page": 156,
+          "char_start": 483355,
+          "char_end": 483550,
+          "passage_sha256": "d214ae661d3ffda6aced3a5e1cbc7924e9b4c8e51b9c805b006c3fe619427aa5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
       }
     ],
     "what_works": [
@@ -2697,21 +2721,6 @@
       "content_sha256": "4d02e6cefb9b6579e4bbd2cf8fc96d04bcc9e0563b001b22c0db2d5a7f2161c9"
     },
     {
-      "id": "himmelstein-2009",
-      "title": "Medical bankruptcy in the United States, 2007: results of a national study",
-      "publisher": "American Journal of Medicine",
-      "authors": "Himmelstein DU, Thorne D, Warren E, Woolhandler S",
-      "tier": 2,
-      "type": "peer_reviewed",
-      "year": 2009,
-      "url": "https://doi.org/10.1016/j.amjmed.2009.04.012",
-      "doi": "10.1016/j.amjmed.2009.04.012",
-      "funding_note": "Two authors co-founded Physicians for a National Health Program, which advocates single-payer reform. Survey of bankruptcy filers; counts a bankruptcy as medical when illness or medical bills contributed, not proven causation.",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=19501347&rettype=abstract&retmode=text",
-      "accessed": "2026-11-09",
-      "content_sha256": "a6c19e865c6ed9eba9be0bed494675e53cf7208513dcc721ac9df7bd5b8fdaf2"
-    },
-    {
       "id": "dobkin-2018",
       "title": "Myth and Measurement: The Case of Medical Bankruptcies",
       "publisher": "New England Journal of Medicine",
@@ -3000,18 +3009,43 @@
       "accessed": "2026-11-10"
     },
     {
-      "id": "haq-gbd2016",
-      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
-      "publisher": "The Lancet",
-      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "id": "sickler-ablj-2025",
+      "title": "Surviving on the Financial Edge: Review of Debt's Grip: Risk and Consumer Bankruptcy by Pamela Foohey, Robert Lawless & Deborah Thorne",
+      "publisher": "American Bankruptcy Law Journal 99:3 (National Conference of Bankruptcy Judges)",
+      "authors": "Sickler A",
+      "tier": 3,
+      "type": "other",
+      "year": 2025,
+      "url": "https://www.ablj.org/wp-content/uploads/2025/12/Sickler_ABLJ_99-3.pdf",
+      "funding_note": "Book review by a law professor, reporting findings of Debt's Grip (University of California Press, 2025), which was not reachable as open text. Figures come from the Consumer Bankruptcy Project's survey of filers and are self-reported; the CBP's earlier medical-bankruptcy estimates have been criticized for broad definitions (see dobkin-2018). One CBP author (Thorne) co-wrote Himmelstein et al. 2009.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "scott-2026",
+      "title": "Changes In Medical Debt And Bankruptcy After Acute Traumatic Injuries, 2019-21",
+      "publisher": "Health Affairs",
+      "authors": "Scott JW, Becker NV, Hemmila MR, Kunnath N, Ayanian JZ, Fendrick AM, Ryan AM, Dimick JB",
       "tier": 2,
       "type": "peer_reviewed",
-      "year": 2018,
-      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
-      "doi": "10.1016/S0140-6736(18)30994-2",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
-      "funding_note": "Institute for Health Metrics and Evaluation (GBD), funded by the Bill & Melinda Gates Foundation; data year 2016; superseded by the GBD 2019 HAQ estimates.",
-      "license": "CC BY 4.0",
+      "year": 2026,
+      "url": "https://doi.org/10.1377/hlthaff.2025.00847",
+      "doi": "10.1377/hlthaff.2025.00847",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13109849",
+      "funding_note": "Michigan Trauma Quality Improvement Program registry (Michigan trauma patients) linked to consumer credit reports, 2019-2021; difference-in-differences against not-yet-injured matched controls.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "uppal-2025",
+      "title": "Debt, Bankruptcy, and Credit Scores After Cancer Diagnosis",
+      "publisher": "JAMA Oncology",
+      "authors": "Uppal N, Gomez-Mayorga JL, O'Donoghue AL, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1001/jamaoncol.2025.3302",
+      "doi": "10.1001/jamaoncol.2025.3302",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12395357",
+      "funding_note": "Massachusetts Cancer Registry patients diagnosed 2010-2019, matched to controls; Massachusetts has had near-universal coverage since its 2006 reform, so results may not generalize to other states. PMC holds the abstract and front matter only.",
       "accessed": "2026-11-10"
     }
   ],
@@ -3077,6 +3111,10 @@
     {
       "date": "2026-11-10",
       "note": "Backfill: 38 claims added from primary sources now reachable (Census CPS ASEC and ACS, NCHS NHIS, CMS NHE, KFF Marketplace denials, AMA prior authorization survey, CFPB medical debt, KFF 2026 Marketplace, GBD HAQ Index); 3 claims re-anchored to PMC full text; cold support review passed all after 4 rewrites."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill round 2 (data older than 10 years): replaced Himmelstein 2009 and Dobkin 2018 bankruptcy estimates with Debt's Grip (via Sickler 2025 review), Scott 2026 (trauma) and Uppal 2025 (cancer); replaced 2016 spending comparison with OECD Health at a Glance 2025 (2024 data); dropped USA-costs-001 (superseded) and USA-outcomes-010 (GBD 2016 state deciles, no GBD 2019 equivalent)."
     }
   ],
   "is_baseline": true

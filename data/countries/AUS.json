@@ -3,7 +3,7 @@
   "name": "Australia",
   "wave": 1,
   "system_as_of": "2026-11-09",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "mixed",
     "label": "Tax-funded universal public insurance (Medicare) with free public hospitals, alongside subsidised voluntary private insurance"
@@ -540,7 +540,7 @@
       },
       {
         "id": "AUS-cost_sharing-011",
-        "statement": "In 2024-25, 77.9% of non-referred GP services and 28.2% of specialist services were bulk billed, so the patient paid nothing at the point of care.",
+        "statement": "Medicare bulk billing in 2024-25 covered 77.9% of GP services that needed no referral, but only 28.2% of specialist services.",
         "valence": "neutral",
         "source_id": "pc-rogs-2026-pch",
         "locator": {
@@ -550,10 +550,9 @@
           "passage_sha256": "2f72ce5e6eecd6ed869d6a0e28b570daf633f18aed8be253e441353ead99521b"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-10",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-10"
         },
         "data_year": "2024-25"
       },

@@ -1,7 +1,7 @@
 {
   "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR.",
   "items": [
-    {"iso3": "USA", "pr": 1, "status": "open", "todo": [
+    {"iso3": "USA", "pr": 1, "status": "done", "todo": [
       "Replace substitutes with primary sources: Census Bureau uninsured count and rate (latest P60 report), KFF claim-denial analysis of HealthCare.gov plans, AMA prior authorization physician survey, HHS OIG report on Medicare Advantage denials.",
       "Add CDC/NCHS (National Health Interview Survey) uninsured and cost-related unmet need, CFPB medical debt report, CBO coverage projections where relevant.",
       "Use JAMA / NEJM / Health Affairs full text where a claim now rests on an abstract.",

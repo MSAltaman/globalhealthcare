@@ -1,0 +1,29 @@
+{
+  "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR.",
+  "items": [
+    {"iso3": "USA", "pr": 1, "status": "open", "todo": [
+      "Replace substitutes with primary sources: Census Bureau uninsured count and rate (latest P60 report), KFF claim-denial analysis of HealthCare.gov plans, AMA prior authorization physician survey, HHS OIG report on Medicare Advantage denials.",
+      "Add CDC/NCHS (National Health Interview Survey) uninsured and cost-related unmet need, CFPB medical debt report, CBO coverage projections where relevant.",
+      "Use JAMA / NEJM / Health Affairs full text where a claim now rests on an abstract.",
+      "Add HAQ Index ranking."]},
+    {"iso3": "JPN", "pr": 2, "status": "open", "todo": [
+      "Financial hardship: Japan Federation of Bar Associations survey of causes of personal bankruptcy (nichibenren.or.jp), court bankruptcy statistics (courts.go.jp).",
+      "Add OECD Health at a Glance 2025 / Japan country note and e-Stat national statistics where they improve on existing claims.",
+      "Add HAQ Index ranking."]},
+    {"iso3": "MEX", "pr": 3, "status": "open", "todo": [
+      "Add OECD Health at a Glance 2025 Mexico note and OECD reviews (oecd.org, oecd-ilibrary.org).",
+      "Find a tier 1-3 source on reforms under the 2024-2030 administration (gob.mx, Secretaría de Salud, IMSS-Bienestar, CONEVAL).",
+      "Search again for national data on medical debt or bankruptcy (CONEVAL, INEGI ENIGH).",
+      "Add HAQ Index ranking."]},
+    {"iso3": "AUS", "pr": 4, "status": "open", "todo": [
+      "Re-anchor national statistics to AIHW (aihw.gov.au) and ABS Patient Experiences survey (abs.gov.au) instead of the Commonwealth Fund profile.",
+      "Confirm from health.gov.au whether the November 2025 bulk-billing expansion took effect; update AUS-reforms-007.",
+      "Add HAQ Index ranking (table-row anchors are allowed; see CLAUDE.md Rankings)."]},
+    {"iso3": "CHN", "pr": 5, "status": "open", "todo": [
+      "Add National Healthcare Security Administration and National Health Commission statistics (gov.cn sites).",
+      "Use Lancet full text where claims rest on abstracts; add the Commonwealth Fund China profile if reachable.",
+      "Add HAQ Index ranking."]},
+    {"iso3": "DEU", "pr": null, "status": "open", "todo": [
+      "Add HAQ Index ranking."]}
+  ]
+}

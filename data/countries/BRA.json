@@ -3,13 +3,16 @@
   "name": "Brazil",
   "wave": 1,
   "system_as_of": "2026-11-10",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "national_health_service",
     "label": "Tax-funded unified national health system (SUS), free at the point of use and run jointly by federal, state and municipal governments, alongside voluntary private health plans"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "BRA-overview-001",
+      "BRA-overview-002"
+    ],
     "meets_definition": true
   },
   "sections": {
@@ -26,24 +29,28 @@
           "passage_sha256": "0bee4765a2c2bc84f60c536e60e5b08a3380e49a41f927d8cb0854561dc2ff82"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-overview-002",
-        "statement": "Two 1990 laws, 8.080 and 8.142, turned the constitutional right to health into practice and set out how the SUS is organised.",
+        "statement": "Two 1990 laws, 8.080 and 8.142, put the constitutional principle of health as a right into practice and defined how the system is organised.",
         "valence": "neutral",
         "source_id": "padilha-2025",
         "locator": {
           "section": "Commentary",
-          "char_start": 1759,
+          "char_start": 1699,
           "char_end": 1866,
-          "passage_sha256": "d683e7652771b6e093843e6f54695fef5864afa9e293100c0f5b6a97ca4b981c"
+          "passage_sha256": "6a84f1b2f53d021600d2dcd9568505effe2252e4cd07bd2782f61f437dee4c57"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -58,8 +65,10 @@
           "passage_sha256": "df423450b0c89c56094a2ac0e46529e1767617004661046f644627e9a19129dc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -74,13 +83,15 @@
           "passage_sha256": "d4b26dc8c4dea9f0343bfcc9504a6c300341d2fcd32d8c9bd3db8c786d37ced1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-overview-005",
-        "statement": "According to the 2024 census of basic health units, most units (85%) are owned by municipalities, but 20% are run under private management arrangements such as social health organisations, charities and other non-profit bodies.",
+        "statement": "Most basic health units (85%) are owned by municipalities, but the 2024 census of these units found 20% run under private management arrangements, with social health organisations, public-interest civil society organisations and charities taking a growing role, especially in large cities.",
         "valence": "neutral",
         "source_id": "giovanella-2026",
         "locator": {
@@ -90,8 +101,10 @@
           "passage_sha256": "b88e039d0488116771f4f39569b39b8424ce44810fd4276cbf4b5700f333e6c0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -108,8 +121,10 @@
           "passage_sha256": "003db84a8f2eb903071e0a9caac474e0fa535f40e598c276c349bcf58906e51d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -124,8 +139,10 @@
           "passage_sha256": "888a58649753d1a6a2fb1433b51acb4658500d5c00008383d91f2c3155b7745c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2003-2016"
       },
@@ -141,14 +158,16 @@
           "passage_sha256": "5da59a4293a5e688237233da64b895b1e59e40402092565bfc93c767d4cc75e5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2003-2016"
       },
       {
         "id": "BRA-financing-004",
-        "statement": "A 2018 analysis put public spending at 46.0% of Brazil's health spending, one of the lowest shares in Latin America and the Caribbean (regional average 51.28%) and below the averages for upper-middle-income (55.2%) and OECD (62.2%) countries.",
+        "statement": "A 2018 analysis put public spending at 46.0% of Brazil's health spending, one of the lowest shares in Latin America and the Caribbean (average 51.28%), among upper-middle-income countries (55.2%) and among OECD countries (62.2%).",
         "valence": "neutral",
         "source_id": "massuda-2018",
         "locator": {
@@ -158,8 +177,10 @@
           "passage_sha256": "863288b1bf74ea516e9ef7ac9e9057498a59b4abe9dbc89b8eac9a778b23902a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -174,15 +195,17 @@
           "passage_sha256": "035fa6b38419c0814f9e78f78f02425fa39424cff212b3febb31d3fc341fe462"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "covered": [
       {
         "id": "BRA-covered-001",
-        "statement": "The SUS runs a national network covering primary, emergency and mental health care, plus specialised centres for transplantation, HIV/AIDS and cancer, supported by a broad pharmaceutical policy.",
+        "statement": "Brazil now has a nationwide network of primary, emergency and mental health services, plus specialised centres for transplantation, HIV/AIDS and cancer, supported by a comprehensive pharmaceutical policy.",
         "valence": "neutral",
         "source_id": "padilha-2025",
         "locator": {
@@ -192,8 +215,10 @@
           "passage_sha256": "de0adc98ca1bf56ddabd72acfeb94df703039e7d31fca3d2e434516973221849"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -208,8 +233,10 @@
           "passage_sha256": "6f88a850f7e789e2801a359ff9a76bc1b7fa39c80c85acd1cfdea2e57f1f0b1b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -224,14 +251,16 @@
           "passage_sha256": "9ed06451fa91e5d983c2150d476c7607b891d4c7144c3b836274e4d0181b4bdd"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2002-2017"
       },
       {
         "id": "BRA-covered-004",
-        "statement": "Since 2011 a national commission (CONITEC) has supported evidence-based decisions on adding new medicines and technologies to the SUS.",
+        "statement": "A national technology-incorporation commission (Comissão Nacional de Incorporação de Tecnologias) was created in 2011 to back evidence-based decisions on adopting new medicines and technologies in the SUS.",
         "valence": "neutral",
         "source_id": "massuda-2018",
         "locator": {
@@ -241,13 +270,15 @@
           "passage_sha256": "1bb5faf8f61f394351b276506cc15222b8ce8f6549aa47c464ad3a9e94b7e4a6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-covered-005",
-        "statement": "A 2026 study of Brazil's health technology assessment system, based on institutional surveys and interviews, found CONITEC widely recognised as central to coordinating evidence and appraisal, but identified possible conflicts of interest and sole reliance on government funding as challenges.",
+        "statement": "A 2026 study of Brazil's health technology assessment system found broad recognition of CONITEC's central role in coordinating evidence generation and appraisal, but identified possible conflicts of interest and sole reliance on government funding as challenges.",
         "valence": "neutral",
         "source_id": "alkhaldi-2026",
         "locator": {
@@ -257,13 +288,15 @@
           "passage_sha256": "2cb661677342cfb50d40d1c62569d7d0feac5e84bab508dbfcf6fb801bd9e632"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-covered-006",
-        "statement": "Of 199 drugs added to the SUS after CONITEC appraisal between 2012 and 2024, 64 were projected to save money, with projected savings of Int$6.67 billion.",
+        "statement": "Of 199 drugs incorporated into the SUS that the study analysed, 64 were projected to be cost-saving, with projected savings of Int$6.67 billion.",
         "valence": "neutral",
         "source_id": "curado-2026",
         "locator": {
@@ -273,14 +306,16 @@
           "passage_sha256": "840e740472031aa6ef8073cd07e1f7354af5aa3139904476cc3a5a3d0e9c42bd"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2024"
       },
       {
         "id": "BRA-covered-007",
-        "statement": "Family health teams were originally made up of a general practitioner, a nurse, a nursing technician or assistant and four to six community health workers, each worker making routine home visits to around 150 families in a small area.",
+        "statement": "Family health teams were originally made up of a general practitioner, a nurse, a nursing technician or assistant and four to six community health workers chosen from the local community, who make routine home visits to around 150 families in small areas.",
         "valence": "neutral",
         "source_id": "giovanella-2026",
         "locator": {
@@ -290,8 +325,10 @@
           "passage_sha256": "97aaaf1a9bd64a1506c2c69b7d6c97731b3302f2e7c7fa750dbc3565c777fe14"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -308,8 +345,10 @@
           "passage_sha256": "72745821f9e9197eea7fc38dff76303ac02a1799f19d6461d0400551bd25df79"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -324,13 +363,15 @@
           "passage_sha256": "18dde581c79ea4c677ae04af4184f9f7eb4e67c52c71870d76905deadf572979"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-cost_sharing-003",
-        "statement": "In the 2017/18 household budget survey, medicines were the largest part of out-of-pocket health spending, reaching 85% of such payments among the lowest consumption deciles.",
+        "statement": "Medicines were the main component of out-of-pocket health spending, making up 85% of such payments in the lowest consumption deciles.",
         "valence": "neutral",
         "source_id": "araujo-2021",
         "locator": {
@@ -340,8 +381,10 @@
           "passage_sha256": "c088b8be029318eb74498e48c66040fd577ad90bba329f2b3a54550983e9f9ac"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2018"
       },
@@ -357,15 +400,17 @@
           "passage_sha256": "5a547c355447d05ba964b172d398ed4e31bae03bf90216438df21045fe40c793"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "financial_hardship": [
       {
         "id": "BRA-financial_hardship-001",
-        "statement": "Using the 2017/18 national household budget survey, World Bank researchers estimated that over 10 million Brazilians a year are pushed into poverty by out-of-pocket health payments, 4.87% of people, compared with 2.5% globally and 1.8% in Latin America and the Caribbean.",
+        "statement": "More than 10 million Brazilians a year are pushed into poverty by out-of-pocket health payments: 4.87% of people, against 2.5% globally and 1.8% in Latin America and the Caribbean.",
         "valence": "neutral",
         "source_id": "araujo-2021",
         "locator": {
@@ -375,14 +420,16 @@
           "passage_sha256": "0129b5609ad7851906a7456c347ed562cab1e28a4953a9b7fed9d5ade8b6ed8f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2018"
       },
       {
         "id": "BRA-financial_hardship-002",
-        "statement": "The same study found that a third of households spent more than 10% of their budget on health, and that financial hardship was much more common among the poor (37% in the bottom consumption deciles).",
+        "statement": "One household in three devotes over 10% of its budget to health; financial hardship is significantly more frequent among poor Brazilians, reaching 37% in the bottom consumption deciles.",
         "valence": "neutral",
         "source_id": "araujo-2021",
         "locator": {
@@ -392,8 +439,10 @@
           "passage_sha256": "09a6574d18ef3615495ea5069181052ce4234a731196026bc0816c40f7b41f3f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2018"
       }
@@ -412,32 +461,36 @@
           "passage_sha256": "568e279dc858a13f8c1da7cdcd1fdbdcd6c0143e212cd0901a3c38b40bfee367"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-additional_care-002",
-        "statement": "Plan coverage in 2019 was highest in the Southeast (37.5%), South (32.8%) and Centre-West (28.9%) and lowest in the North (14.7%) and Northeast (16.6%).",
+        "statement": "In 2019 plan coverage was highest in the Southeast (37.5%), South (32.8%) and Centre-West (28.9%) and lowest in the North (14.7%) and Northeast (16.6%).",
         "valence": "neutral",
         "source_id": "ibge-pns-2019",
         "locator": {
           "section": "Cobertura de plano de saúde, médico ou odontológico",
           "page": 31,
-          "char_start": 58982,
+          "char_start": 58750,
           "char_end": 59172,
-          "passage_sha256": "69d67311fef2b3a23cd15d8bede50328da5d5d189491dcfbfe6780c99bd58b48"
+          "passage_sha256": "da343f47d1bf6afb95e39e0dc92b5df5a494d1000cd1dbf88c209f1cc0c6cc4d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-additional_care-003",
-        "statement": "In 2019 only 2.2% of people with household income per person of up to a quarter of the minimum wage had a medical plan, compared with 86.8% of those with more than five minimum wages a month.",
+        "statement": "Only 2.2% of people with no income or up to a quarter of the minimum wage had a medical plan, against 86.8% of those receiving more than five minimum wages a month.",
         "valence": "neutral",
         "source_id": "ibge-pns-2019",
         "locator": {
@@ -448,14 +501,16 @@
           "passage_sha256": "22fb22e9e72b945001ae603cebedc3ff0ce5f944036b16bea0295e8d45f4b96f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-additional_care-004",
-        "statement": "Dental plans were much less common than medical plans in 2019: 12.9% of people had a dental plan and 26.0% a medical plan.",
+        "statement": "Dental plan coverage was much less common than medical plan coverage (12.9% against 26.0%).",
         "valence": "neutral",
         "source_id": "ibge-pns-2019",
         "locator": {
@@ -466,8 +521,10 @@
           "passage_sha256": "beb788a156e72d3013367c9c2218ad2b6ef7a16b1e7260552d33dd4510e40534"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -483,14 +540,16 @@
           "passage_sha256": "29aa054e17a828315495dda6ca1a71c05fbe201e4e96da6d06706c0b6c51c694"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2000-2017"
       },
       {
         "id": "BRA-additional_care-006",
-        "statement": "Private health plans must pay the SUS back when their members are treated in the public system; the 2025 Agora Tem Especialistas law lets plan operators settle these debts by providing free care instead.",
+        "statement": "Private health plans must pay for the service when their members are treated in the public system; the new programme lets these companies replace those reimbursements to the SUS with free care.",
         "valence": "neutral",
         "source_id": "camara-ate-2025",
         "locator": {
@@ -500,15 +559,17 @@
           "passage_sha256": "1b1f0115e5ce4e7166e7ab1c9896456cbc93a3a4241b43d38308d8dfeb071469"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "access": [
       {
         "id": "BRA-access-001",
-        "statement": "In 2019 the public basic health unit (Unidade Básica de Saúde) was the place people most often said they usually went for care (46.8%), ahead of private practices or clinics (22.9%) and public emergency units or hospital emergency departments (14.1%).",
+        "statement": "The basic health unit (Unidade Básica de Saúde) was the facility the largest share of people (46.8%) said they usually went to for care, followed by private practices or clinics (22.9%) and public emergency units or public hospital emergency departments (14.1%).",
         "valence": "neutral",
         "source_id": "ibge-pns-2019",
         "locator": {
@@ -519,8 +580,10 @@
           "passage_sha256": "a85ecd945fea51defa9bbf46da3b353fe7b8bb0e8b25609dc50de14f874f1cc0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -537,8 +600,10 @@
           "passage_sha256": "50ba10cc390282ecd87b3598dbc7c4464fb817da00eee2be35766a6034b40b2a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -555,14 +620,16 @@
           "passage_sha256": "1a2ec8054619b2d9cbe8d6255219bfdea89add022fb9b8139b59b04000edba44"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-access-004",
-        "statement": "Of people hospitalised for 24 hours or more in the year before the 2019 survey, 64.6% (8.9 million) were admitted through the SUS.",
+        "statement": "Of people hospitalised for 24 hours or more, 64.6% (8.9 million) were admitted through the SUS in 2019.",
         "valence": "neutral",
         "source_id": "ibge-pns-2019",
         "locator": {
@@ -573,8 +640,10 @@
           "passage_sha256": "99103a368e812dcce94c079d2f535579ffdd0fda71b1eb42ae3199b81b6bf897"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -591,14 +660,16 @@
           "passage_sha256": "7f4a06dd085cc27096188f7986be7953acd171f8b405068f0a920f5382a67853"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-access-006",
-        "statement": "Brazil has almost doubled its medical workforce since 2003, to 2.77 doctors per 1,000 people, with the largest increase after the 2013 More Doctors legislation; poorer, remote states gained, but most new doctors and students are still in richer regions.",
+        "statement": "Brazil has almost doubled its medical workforce since 2003, to 2.77 doctors per 1,000 people, with the largest increase after the 2013 legislation; poorer, remote states gained, but most new doctors and students are still in richer regions.",
         "valence": "neutral",
         "source_id": "scheffer-2025",
         "locator": {
@@ -608,8 +679,10 @@
           "passage_sha256": "32c89ae1bb0b0b05432310d83911c6175cb64a37ccb9305182da9b370dc8af7b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -624,8 +697,10 @@
           "passage_sha256": "707f4d30cbf23582f33e03fb095c673926914b878bb70ea2c6b6e4daee55f687"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -640,8 +715,10 @@
           "passage_sha256": "2e83200b894d0c9d28ba62d559bea8d0423e92d99d50e6a48c494bafcfa91e6e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -659,8 +736,10 @@
           "passage_sha256": "03e208dc30821d1faaea13ad497a0c5e32ada0f20b2ea3148dce3dbc2e5c04f1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1985-2025"
       },
@@ -676,8 +755,10 @@
           "passage_sha256": "74185eedea0b01107aa8189df3ce472eef83a2113197b1068e581a7b534ce3d0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -693,8 +774,10 @@
           "passage_sha256": "74185eedea0b01107aa8189df3ce472eef83a2113197b1068e581a7b534ce3d0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -710,14 +793,16 @@
           "passage_sha256": "f3dab152af4002acf5e7d896222bf23e9c3b92c83e65876631a268e849364741"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2016
       },
       {
         "id": "BRA-outcomes-005",
-        "statement": "The gap in HAQ Index scores between Brazil's states widened slightly, from 17.2 points in 1990 to 20.4 points in 2016, although Brazil's overall progress was steadier over time than Mexico's.",
+        "statement": "Disparities in HAQ Index scores between Brazil's states widened slightly after 2000, with the absolute gap going from 17.2 points in 1990 to 20.4 in 2016; Brazil's overall progress was more consistent over time than Mexico's.",
         "valence": "neutral",
         "source_id": "haq-2018",
         "locator": {
@@ -727,8 +812,10 @@
           "passage_sha256": "d0facb849b6e8d47c1ca6219791ca33a7bece2c18c014ba29edd6b10ba28f100"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1990-2016"
       },
@@ -744,8 +831,10 @@
           "passage_sha256": "70d8d088640691adb30c0343d1ff1c2355d95d92e19a92a0d3e6fd30e2965c62"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2008-2017"
       },
@@ -756,13 +845,15 @@
         "source_id": "sliwa-ruiz-2026",
         "locator": {
           "section": "Abstract",
-          "char_start": 2242,
+          "char_start": 1910,
           "char_end": 2517,
-          "passage_sha256": "947959cebdcbc3f79bcd9bd086035572cf0527117f664ee7a89beb506a531b81"
+          "passage_sha256": "8aa7239d5f3a04e0d132061f14ad6adc2889e95a445582b52620b68105f24bdf"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -779,8 +870,10 @@
           "passage_sha256": "ad7986d0c6a0a98e2ef0c7c9d3bdfd9fec3534a316b542d85ae38c4e5180b649"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2000-2014"
       },
@@ -796,14 +889,16 @@
           "passage_sha256": "aca44808263ec3dd9d561bdff124ede04a1eb94d04208d1603321ad68590834f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2003-2016"
       },
       {
         "id": "BRA-costs-003",
-        "statement": "Most of the federal budget goes to debt service, which rose from 50.3% of the budget in 2013 to 57.0% in 2016, limiting fiscal space for other areas such as health.",
+        "statement": "Most of the federal budget goes to debt service, which limits fiscal space for other areas; debt service rose from 50.3% of the federal budget in 2013 to 57.0% in 2016.",
         "valence": "neutral",
         "source_id": "massuda-2018",
         "locator": {
@@ -813,14 +908,16 @@
           "passage_sha256": "a88602e53a572515b22badf495a2046543fb003857b9e35f7498e72ea7d905e9"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2016"
       },
       {
         "id": "BRA-costs-004",
-        "statement": "For drugs paid for solely by the Ministry of Health, the projected added budget impact of CONITEC-approved drugs equalled 29% of the specialised pharmaceutical care budget in 2024, and over 45% in 2019-2022.",
+        "statement": "Among drugs paid for solely by the Ministry of Health, the cumulative projected incremental budget impact equalled 29% of the CEAF (specialised pharmaceutical care) budget in 2024, after exceeding 45% from 2019 to 2022.",
         "valence": "neutral",
         "source_id": "curado-2026",
         "locator": {
@@ -830,14 +927,16 @@
           "passage_sha256": "f576d67996f457f9cdc3316c5e29aa05cb3a7c437da6ab978b525f02a10ce618"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2024"
       },
       {
         "id": "BRA-costs-005",
-        "statement": "In 2019, court-ordered purchases took 25.2% of the federal budget for the Specialised Component of Pharmaceutical Care, with 21% going to 10 medicines.",
+        "statement": "In 2019, lawsuits consumed 25.2% of the resources of the Specialised Component of Pharmaceutical Care, with 21% going to 10 medicines.",
         "valence": "neutral",
         "source_id": "vieira-2023",
         "locator": {
@@ -847,8 +946,10 @@
           "passage_sha256": "855115e12451d6f1ff6b39c3c38618f9ce4979dcdb3b9f26061c41cf706d94bd"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       }
@@ -856,7 +957,7 @@
     "what_works": [
       {
         "id": "BRA-what_works-001",
-        "statement": "A 2019 review of the SUS's first 30 years concluded that Brazil, despite successes and setbacks, has reached nearly universal access to health-care services.",
+        "statement": "A 2019 review concluded that Brazil, despite successes and setbacks, has achieved nearly universal access to health-care services for its population.",
         "valence": "strength",
         "source_id": "castro-2019",
         "locator": {
@@ -866,8 +967,10 @@
           "passage_sha256": "c6c57cdfe5bc9403e146f7a4e2fdb9e6bfb417d3fa54d42459bd605e3803a1c6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -882,8 +985,10 @@
           "passage_sha256": "0b27f56cf14a4df0787778c7ca8fd68d2972bcce1462a8a36ee754bad08918c9"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2000-2016"
       },
@@ -899,14 +1004,16 @@
           "passage_sha256": "a962bdb8cb951c9ef34843712ad57445239ff74bae80a0f1fdae90e050da5942"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2002-2013"
       },
       {
         "id": "BRA-what_works-004",
-        "statement": "Family health coverage is concentrated where it is most needed: in the 2019 national health survey it reached 74% of the poorest income fifth against 38% of the richest, and people registered with it more often had a regular source of care (79% vs 73%).",
+        "statement": "Family health coverage is distributed equitably: in the 2019 national health survey it reached 74% of the poorest income fifth against 38% of the richest, and registered people more often had a regular source of care (79% vs 73%).",
         "valence": "strength",
         "source_id": "giovanella-2026",
         "locator": {
@@ -916,14 +1023,16 @@
           "passage_sha256": "c43508e5f60c92a123501f6379ecc003d358966ab4c64b890c318c1b642fab02"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-what_works-005",
-        "statement": "Studies, mostly longitudinal ecological analyses, link the Family Health Strategy to lower infant and under-5 mortality and fewer avoidable hospital admissions among adults and older people, with larger effects in vulnerable groups.",
+        "statement": "Studies link the Family Health Strategy to lower infant and under-5 mortality and fewer ambulatory-care-sensitive admissions among adults and older people, especially where coverage was consistently high; effects were larger in vulnerable groups.",
         "valence": "strength",
         "source_id": "giovanella-2026",
         "locator": {
@@ -933,8 +1042,10 @@
           "passage_sha256": "23254e466d7324a39662f4e63a33eb6de643a8255c8d5624be7f0b26e8a6bfde"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -949,14 +1060,16 @@
           "passage_sha256": "9769c8d7dd0ef58252fee7a465f942f2ccbc739d077e38fb226bd85be301a1b6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2023"
       },
       {
         "id": "BRA-what_works-007",
-        "statement": "A 13-year review found CONITEC's drug coverage decisions consistent with affordability principles, judged on the projections available at decision time rather than on real-world spending after adoption.",
+        "statement": "A review found CONITEC's decisions consistent with affordability principles in health technology assessment, judged on the evidence available at each decision rather than on real-world data after incorporation into the SUS.",
         "valence": "strength",
         "source_id": "curado-2026",
         "locator": {
@@ -966,24 +1079,28 @@
           "passage_sha256": "c5dff0903a3f3fdfd644a336c0647d6b062ba08515d2853e1fb727ba9f622825"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-what_works-008",
-        "statement": "When many doctors left suddenly, the system adapted: more supply from elsewhere and patients seeking care in other places helped avoid major harm to population health at the market level.",
+        "statement": "After Cuban doctors left the More Doctors Program, supply-side responses and patients diverting to other sources of care helped mitigate major harm to population health at the market level.",
         "valence": "strength",
         "source_id": "sliwa-ruiz-2026",
         "locator": {
           "section": "Abstract",
-          "char_start": 2518,
+          "char_start": 1910,
           "char_end": 2646,
-          "passage_sha256": "eee4d4d73702610176b47ebbc6f590aa166acd0bb16c09d04895b1a874c74cb3"
+          "passage_sha256": "8a4c0f4dca5cbe45945d9d246dfa12566e31417b9e4e1475710bfab5f089d164"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -1000,8 +1117,10 @@
           "passage_sha256": "f1b6596cdd1bb50419c7253d0bc1ef29bd03697fb8092ddd3f05e9d47a69b797"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1016,8 +1135,10 @@
           "passage_sha256": "71c1cdfaecfe709334dee2ae5a1af13726ae017dc258fd4bd53a99b21f720b1f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1032,8 +1153,10 @@
           "passage_sha256": "d0b034574e6a740e5a0c1f62410016a23ebb2974bcf269a4b315fc5828316e5d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1048,8 +1171,10 @@
           "passage_sha256": "700f13ea6cb6f022cddd93a56dfa352d9b115b39f743c9fe384ab8a494a56eda"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1064,8 +1189,10 @@
           "passage_sha256": "d03053f18e1ea6c73ac8c4a63e2b7e0a68256c485ed33deb3026183e870f930c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1080,66 +1207,74 @@
           "passage_sha256": "16c277dd31cc62f4802aee3ce9c322b8ea9ca8ee75cf4963b20f0dc674ef5209"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-problems-007",
-        "statement": "Among households registered with a family health unit for at least a year, 38.4% had a monthly visit from a community health worker or team member in 2019, down from 47.2% in 2013.",
+        "statement": "Among households registered with a family health unit for a year or more, 38.4% (15.4 million) received a monthly visit from a community health worker or family health team member in 2019, down from 47.2% in 2013.",
         "valence": "weakness",
         "source_id": "ibge-pns-2019",
         "locator": {
           "section": "Estratégia de Saúde da Família",
           "page": 29,
-          "char_start": 54658,
+          "char_start": 54575,
           "char_end": 54935,
-          "passage_sha256": "f6e4235c37e2efb5fe6ca72a3bdc3ac0d74b75bf906de96bd972a5c9aed1aefb"
+          "passage_sha256": "4624b38a854a585f549c147ca1785a060d508629040f8658e59fd2da140611f3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-problems-008",
-        "statement": "About 23.8% (9.5 million) of households registered with a family health unit for at least a year had never been visited by a community health worker or team member in 2019, up from 17.7% (5.3 million) in 2013.",
+        "statement": "Among households registered with a family health unit for a year or more, about 23.8% (9.5 million) had never been visited by a community health worker or team member in 2019, a sharp rise from 17.7% (5.3 million) in 2013.",
         "valence": "weakness",
         "source_id": "ibge-pns-2019",
         "locator": {
           "section": "Estratégia de Saúde da Família",
           "page": 30,
-          "char_start": 56301,
+          "char_start": 56192,
           "char_end": 56536,
-          "passage_sha256": "d404bdad40b628239cdfbde800a6210151870165580298618f6852632579b952"
+          "passage_sha256": "cb6a77bc8c33066f5d0250434ca0cddd300051c144ba6600abc830aa35f56716"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "BRA-problems-009",
-        "statement": "Under the Previne Brasil financing model, only one of seven primary care performance indicators (syphilis and HIV testing in pregnancy: 62.5% against a 60% target) met its target on average from early 2022 to early 2023.",
+        "statement": "Under Previne Brasil, the primary care financing model, only one of seven performance indicators (syphilis and HIV testing in pregnancy: 62.5% against a 60% target) met its target on average across the four-month periods from early 2022 to early 2023.",
         "valence": "weakness",
         "source_id": "souza-2024",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 2919,
+          "char_start": 2157,
           "char_end": 3140,
-          "passage_sha256": "91ea371b0fc739601f711a586ca8fe4b8b820232776a40b1b7be39f4dadf9459"
+          "passage_sha256": "852acfe9af26996c69c07b019a45835d269a8b9d5fc131d844b13afe12f8f6f5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-2023"
       },
       {
         "id": "BRA-problems-010",
-        "statement": "Student achievement scores and resources show significantly lower teaching quality in private medical schools, which drove much of the expansion.",
+        "statement": "Student achievement scores and resources point to significantly lower teaching quality in private medical schools.",
         "valence": "weakness",
         "source_id": "scheffer-2025",
         "locator": {
@@ -1149,13 +1284,15 @@
           "passage_sha256": "5a289d800952d5a6549c9532565278ea8138b463fdc69c69ad2c132a0269fd2b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-problems-011",
-        "statement": "The authors conclude that, despite universal coverage, financial protection is not yet guaranteed, especially for the poor, and that better access to affordable essential medicines is key.",
+        "statement": "The authors conclude that, despite progress in implementing universal coverage, financial protection is not yet guaranteed, especially for the poor, and that wider access to affordable essential medicines is key to improving it.",
         "valence": "weakness",
         "source_id": "araujo-2021",
         "locator": {
@@ -1165,15 +1302,17 @@
           "passage_sha256": "294f82f168f549ebce0f2c9a1dedb45d4329fbaec0bee6647ac56b9aed8e679c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "reforms": [
       {
         "id": "BRA-reforms-001",
-        "statement": "On 7 October 2025 the President signed Law 15.233/25, which grew out of a provisional measure (MP 1301/25) the federal government issued on 30 May.",
+        "statement": "President Lula signed Law 15.233/25, which grew out of provisional measure MP 1301/25, issued by the federal government on 30 May.",
         "valence": "neutral",
         "source_id": "camara-ate-2025",
         "locator": {
@@ -1183,25 +1322,29 @@
           "passage_sha256": "e7d3d2eb8254f91c182ee5c9c5e48016693abc799dab42f74a08cf5fbc45bc02"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "BRA-reforms-002",
-        "statement": "Law 15.233/2025 creates the Agora Tem Especialistas programme, joined by private hospitals (for-profit or not), to expand beds and services and cut waiting times for specialist consultations, procedures and tests in the SUS.",
+        "statement": "Article 1 of the law creates the Agora Tem Especialistas programme, joined by private hospitals (for-profit or not), to expand beds and services and cut waiting times for specialist consultations, procedures and tests.",
         "valence": "neutral",
         "source_id": "lei-15233-2025",
         "locator": {
-          "section": "Art. 1",
+          "section": "Lei nº 15.233/2025, Art. 1",
           "char_start": 674,
           "char_end": 1209,
           "passage_sha256": "538a80ad4c396187355136c01dcf23330567d6225880e644039fb62bc91fef84"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1216,24 +1359,28 @@
           "passage_sha256": "e421bdb2d7a01b275addebbd7df5c48d44729aa9a33cb880f9cf3f9a1d013f86"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-004",
-        "statement": "Total federal tax benefits under Agora Tem Especialistas are capped at R$2 billion a year.",
+        "statement": "Total federal tax benefits granted may not exceed R$2 billion a year.",
         "valence": "neutral",
         "source_id": "camara-ate-2025",
         "locator": {
-          "section": "News report",
+          "section": "News report on Agora Tem Especialistas (Lei 15.233/25)",
           "char_start": 2576,
           "char_end": 2673,
           "passage_sha256": "cb9acfecdda3e44363bdb9a90fb85f409eecbda58889b9c1d5de1eb525e41fef"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1248,13 +1395,15 @@
           "passage_sha256": "9c33df7d83f2bb8cfa19d8e8cfed9bee99a70e98813668514cd25aa1f148a227"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-006",
-        "statement": "The national primary care quality improvement programme (PMAQ-AB) was wound down from 2017 and ended in 2019, replaced by Previne Brasil, which relied on a narrow set of process indicators and was itself discontinued in 2024.",
+        "statement": "PMAQ-AB was progressively dismantled from 2017 amid political and institutional change and ended in 2019; its successor, Previne Brasil, narrowed assessment to a small number of process indicators and was itself discontinued in 2024.",
         "valence": "neutral",
         "source_id": "giovanella-2026",
         "locator": {
@@ -1264,13 +1413,15 @@
           "passage_sha256": "67ee26714e15b120e6b78b17106bbab105c924295847bc3c2e206991ebc14334"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-007",
-        "statement": "A study of Pernambuco's municipalities in 2018-2024 found that the federal government's share of primary care funding was larger after Previne Brasil was discontinued.",
+        "statement": "A 2018-2024 trend study using Pernambuco as a case found the federal government's share of primary care financing was greater after Previne was discontinued.",
         "valence": "neutral",
         "source_id": "silva-junior-2026",
         "locator": {
@@ -1280,8 +1431,10 @@
           "passage_sha256": "19ac8d03c3e78c12458f804cfe0c5169d91e02771b78fed283f51d32161ce8d0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2018-2024"
       },
@@ -1297,13 +1450,15 @@
           "passage_sha256": "9654f7454eaa4ddf1780098e8e16d095e4afd4e454c73b8923f1cc55633643e3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-009",
-        "statement": "In 2023, as family health was made a priority again, the federal support teams (NASF) were reformed into federally co-financed multidisciplinary primary care teams with a wider remit, including telehealth.",
+        "statement": "In 2023, with the rebuilding of the SUS and renewed priority for family health, the NASF programme was reformulated into federally co-financed multidisciplinary primary care teams with a broader scope, including telehealth.",
         "valence": "neutral",
         "source_id": "giovanella-2026",
         "locator": {
@@ -1313,13 +1468,15 @@
           "passage_sha256": "5597faed47921c9d383b9162b43d992c91a9854c179297def63afe54dabd0458"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-010",
-        "statement": "The More Doctors for Brazil project was relaunched in 2023, emphasising rebuilding teams, training and retaining doctors in priority areas, after the 2019 Doctors for Brazil programme was slow to start and limited in reach.",
+        "statement": "The PMMB was relaunched in 2023, emphasising rebuilding teams, training and retaining doctors in priority areas, after the 2019 Doctors for Brazil Program (PMpB) proved slow and limited in reach, and amid political change.",
         "valence": "neutral",
         "source_id": "pedreira-2026",
         "locator": {
@@ -1329,13 +1486,15 @@
           "passage_sha256": "bca427d6ac94b97e2b57142e34f770bd1b0298faa6534b88b839526b41be5bf5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-011",
-        "statement": "A 2023 provisional measure (MP 1,165/2023) revived More Doctors with 15,000 new vacancies.",
+        "statement": "Under MP n. 1,165/2023, More Doctors offered 15,000 new vacancies.",
         "valence": "neutral",
         "source_id": "vazquez-2023",
         "locator": {
@@ -1345,13 +1504,15 @@
           "passage_sha256": "d96eb120735d8cec8436f97ee2c8fa7c9280552194c2d0d1e70471576f782930"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-012",
-        "statement": "Constitutional Amendment 126/2022 abolished the 2016 expenditure ceiling, which had in practice frozen real federal primary spending for 20 years, and opened R$145 billion of extra room in the 2023 budget.",
+        "statement": "Constitutional Amendment 126/2022 opened R$145 billion of budget space for 2023 and abolished the Temer government's expenditure ceiling, which had in practice frozen real federal primary spending for 20 years.",
         "valence": "neutral",
         "source_id": "vazquez-2023",
         "locator": {
@@ -1361,13 +1522,15 @@
           "passage_sha256": "3cd2ce0ddddb158bcfd5151bc733e0cb2cd5591ba7c74b10b4e9efcd8e8a5d37"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-013",
-        "statement": "The replacement fiscal rule proposed in 2023 (the New Sustainable Fiscal Regime, PLP 93/2023, still before the Senate when this editorial was written) caps real growth in federal spending at 70% of real revenue growth and at most 2.5% a year.",
+        "statement": "The third Lula government's new fiscal framework (the New Sustainable Fiscal Regime, PLP 93/2023, still before the Senate when this editorial was written) would limit real growth in federal spending to 70% of real growth in primary revenue, with a maximum of 2.5% real growth.",
         "valence": "neutral",
         "source_id": "vazquez-2023",
         "locator": {
@@ -1377,13 +1540,15 @@
           "passage_sha256": "36248af6ed90c7aea17924961ce22c259411a52b831e6fedf4adc33cb0162aa3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "BRA-reforms-014",
-        "statement": "At the end of 2018, after the elections, Cuba ended its PAHO-mediated agreement and withdrew most Cuban doctors; the Bolsonaro government then launched Médicos pelo Brasil, which required doctors trained abroad to validate their diplomas in Brazil.",
+        "statement": "At the end of 2018, after the elections, Cuba suspended its PAHO-mediated agreement with Brazil and withdrew most Cuban doctors; under health minister Mandetta, the Bolsonaro government launched Médicos pelo Brasil, which required national validation of diplomas obtained abroad.",
         "valence": "neutral",
         "source_id": "machado-2026",
         "locator": {
@@ -1393,8 +1558,10 @@
           "passage_sha256": "0a9ad7d3e45bcd8b283487048306e31e72034a27a96f802771e96515e7675dd5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1409,8 +1576,10 @@
           "passage_sha256": "4efee0b6d0a61ad9d0086bf58b9e629074b2a15277e5a4ee416499ce73b23f67"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1425,8 +1594,10 @@
           "passage_sha256": "139cd479492ac05e5747a8a576bb98312c5a54bf864dce5b6c5aa854efce1571"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -1723,7 +1894,7 @@
   "changelog": [
     {
       "date": "2026-11-10",
-      "note": "Profile created."
+      "note": "Profile created: 84 claims from 22 sources anchored to fingerprinted passages and support-reviewed in a separate cold pass; 43 statements rewritten and 6 re-anchored to wider passages in review."
     }
   ]
 }

@@ -1,0 +1,104 @@
+{
+  "version": "0.1-draft",
+  "description": "The atlas's own composite ranking. Computed by scripts/score.py from data/indicators only; no model writes or adjusts a score. Every choice below is a published, adjustable assumption.",
+  "max_data_age_years": 10,
+  "min_indicator_share_per_domain": 0.4,
+  "min_domains_for_overall": 3,
+  "sensitivity": {
+    "samples": 5000,
+    "seed": 20261109,
+    "note": "Domain weights are redrawn at random (uniform over all weightings) to show how far each rank depends on the weighting choice."
+  },
+  "domains": [
+    {
+      "id": "coverage",
+      "label": "Coverage",
+      "weight": 1,
+      "question": "Is everyone covered, and do they get essential services?",
+      "indicators": [
+        {
+          "id": "OECD_COVERAGE",
+          "better": "higher"
+        },
+        {
+          "id": "UHC_INDEX_REPORTED",
+          "better": "higher"
+        }
+      ]
+    },
+    {
+      "id": "financial_protection",
+      "label": "Financial protection",
+      "weight": 1,
+      "question": "Are people protected from ruinous health costs?",
+      "indicators": [
+        {
+          "id": "SH.XPD.OOPC.CH.ZS",
+          "better": "lower",
+          "weight": 2
+        },
+        {
+          "id": "FINPROTECTION_CATA_TOT_10_POP",
+          "better": "lower",
+          "log": true
+        },
+        {
+          "id": "FINPROTECTION_CATA_TOT_25_POP",
+          "better": "lower",
+          "log": true
+        },
+        {
+          "id": "FINPROTECTION_IMP_NPRELPL_POP",
+          "better": "lower",
+          "log": true
+        }
+      ],
+      "note": "Out-of-pocket share counts double because it is current for every country; the WHO household-survey measures are often years old or missing."
+    },
+    {
+      "id": "outcomes",
+      "label": "Health outcomes",
+      "weight": 1,
+      "question": "Does the system keep people alive and healthy?",
+      "indicators": [
+        {
+          "id": "OECD_TREATABLE_MORT",
+          "better": "lower",
+          "log": true,
+          "weight": 2
+        },
+        {
+          "id": "SP.DYN.IMRT.IN",
+          "better": "lower",
+          "log": true
+        },
+        {
+          "id": "SH.STA.MMRT",
+          "better": "lower",
+          "log": true
+        },
+        {
+          "id": "SP.DYN.LE00.IN",
+          "better": "higher"
+        }
+      ]
+    }
+  ],
+  "not_yet_scored": [
+    {
+      "domain": "Equity",
+      "reason": "Needs comparable data on gaps between income groups for every country."
+    },
+    {
+      "domain": "Access and timeliness",
+      "reason": "Needs comparable waiting-time and unmet-need data beyond the EU and the Commonwealth Fund's 10 countries."
+    },
+    {
+      "domain": "Efficiency",
+      "reason": "Shown separately as the score against spending per person, not folded into the score, so cost and performance can be read apart."
+    }
+  ],
+  "excluded_countries": {
+    "TWN": "Not covered by World Bank, WHO or OECD statistics; needs official Taiwanese data on the same definitions."
+  }
+}

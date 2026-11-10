@@ -505,9 +505,354 @@
         }
       }
     ],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
+    "access": [
+      {
+        "id": "BRA-access-001",
+        "statement": "In 2019 the public basic health unit (Unidade Básica de Saúde) was the place people most often said they usually went for care (46.8%), ahead of private practices or clinics (22.9%) and public emergency units or hospital emergency departments (14.1%).",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Acesso e utilização dos serviços de saúde",
+          "page": 41,
+          "char_start": 78442,
+          "char_end": 78826,
+          "passage_sha256": "a85ecd945fea51defa9bbf46da3b353fe7b8bb0e8b25609dc50de14f874f1cc0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-002",
+        "statement": "In 2019, 76.2% of people (159.6 million) had seen a doctor in the previous 12 months, up from 71.2% in 2013.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Acesso e utilização dos serviços de saúde",
+          "page": 41,
+          "char_start": 79021,
+          "char_end": 79229,
+          "passage_sha256": "50ba10cc390282ecd87b3598dbc7c4464fb817da00eee2be35766a6034b40b2a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-003",
+        "statement": "In 2019, 60.0% of households (44.0 million) were registered with a family health unit, up from 53.3% in 2013.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Estratégia de Saúde da Família",
+          "page": 29,
+          "char_start": 53666,
+          "char_end": 53888,
+          "passage_sha256": "1a2ec8054619b2d9cbe8d6255219bfdea89add022fb9b8139b59b04000edba44"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-004",
+        "statement": "Of people hospitalised for 24 hours or more in the year before the 2019 survey, 64.6% (8.9 million) were admitted through the SUS.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Internação em hospitais do SUS",
+          "page": 52,
+          "char_start": 99348,
+          "char_end": 99492,
+          "passage_sha256": "99103a368e812dcce94c079d2f535579ffdd0fda71b1eb42ae3199b81b6bf897"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-005",
+        "statement": "Reliance on the SUS for hospital care falls steeply with income: in 2019 the last hospital stay was through the SUS for 95.0% of hospitalised people with household income per person of up to a quarter of the minimum wage, but for only 6.8% of those with more than five minimum wages.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Internação em hospitais do SUS",
+          "page": 52,
+          "char_start": 100077,
+          "char_end": 100793,
+          "passage_sha256": "7f4a06dd085cc27096188f7986be7953acd171f8b405068f0a920f5382a67853"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-006",
+        "statement": "Brazil has almost doubled its medical workforce since 2003, to 2.77 doctors per 1,000 people, with the largest increase after the 2013 More Doctors legislation; poorer, remote states gained, but most new doctors and students are still in richer regions.",
+        "valence": "neutral",
+        "source_id": "scheffer-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3375,
+          "char_end": 3704,
+          "passage_sha256": "32c89ae1bb0b0b05432310d83911c6175cb64a37ccb9305182da9b370dc8af7b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-access-007",
+        "statement": "Doctor shortages persist in rural areas and in primary care, and specialists are concentrated in the private sector and unevenly spread across the country.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 15648,
+          "char_end": 15837,
+          "passage_sha256": "707f4d30cbf23582f33e03fb095c673926914b878bb70ea2c6b6e4daee55f687"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-access-008",
+        "statement": "Ministry of Health data from 2025 show a shortage and uneven distribution of medical specialists, who are concentrated in the private network and in the Southeast region.",
+        "valence": "neutral",
+        "source_id": "camara-ate-2025",
+        "locator": {
+          "section": "News report",
+          "char_start": 1492,
+          "char_end": 1683,
+          "passage_sha256": "2e83200b894d0c9d28ba62d559bea8d0423e92d99d50e6a48c494bafcfa91e6e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "BRA-outcomes-001",
+        "statement": "Infant mortality fell from 53.4 to 12.7 deaths per 1,000 live births between 1990 and 2023, life expectancy rose from 65 years in 1985 to 76.8 years in 2025, and polio (1989) and measles (2000) were eliminated.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 2927,
+          "char_end": 3225,
+          "passage_sha256": "03e208dc30821d1faaea13ad497a0c5e32ada0f20b2ea3148dce3dbc2e5c04f1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "1985-2025"
+      },
+      {
+        "id": "BRA-outcomes-002",
+        "statement": "In the GBD 2019 study, Brazil's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 53.0 (95% uncertainty interval 51.5-54.3) in 2019, 17.5 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 overall (0-74 years) and absolute change 1990-2019 overall",
+          "char_start": 53053,
+          "char_end": 53219,
+          "passage_sha256": "74185eedea0b01107aa8189df3ce472eef83a2113197b1068e581a7b534ce3d0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-outcomes-003",
+        "statement": "By age group in the GBD 2019 study, Brazil's 2019 HAQ Index score was 62.4 for ages 0-14, 53.4 for ages 15-64 and 48.6 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019, young (0-14), working (15-64) and post-working (65-74) age groups",
+          "char_start": 53053,
+          "char_end": 53219,
+          "passage_sha256": "74185eedea0b01107aa8189df3ce472eef83a2113197b1068e581a7b534ce3d0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-outcomes-004",
+        "statement": "In the GBD 2016 HAQ Index, Brazil was in the sixth of ten deciles nationally; the Federal District reached the eighth decile (score 75.4), while most states, especially northern ones, were in the fifth.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: subnational HAQ Index",
+          "char_start": 44958,
+          "char_end": 45228,
+          "passage_sha256": "f3dab152af4002acf5e7d896222bf23e9c3b92c83e65876631a268e849364741"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "BRA-outcomes-005",
+        "statement": "The gap in HAQ Index scores between Brazil's states widened slightly, from 17.2 points in 1990 to 20.4 points in 2016, although Brazil's overall progress was steadier over time than Mexico's.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: HAQ Index trends",
+          "char_start": 50292,
+          "char_end": 50520,
+          "passage_sha256": "d0facb849b6e8d47c1ca6219791ca33a7bece2c18c014ba29edd6b10ba28f100"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "1990-2016"
+      },
+      {
+        "id": "BRA-outcomes-006",
+        "statement": "A study of all Brazilian microregions in 2008-2017 found no significant effect of the extra primary care doctors supplied by the Mais Médicos programme on hospitalisation or mortality rates.",
+        "valence": "neutral",
+        "source_id": "thomas-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2515,
+          "char_end": 2875,
+          "passage_sha256": "70d8d088640691adb30c0343d1ff1c2355d95d92e19a92a0d3e6fd30e2965c62"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2008-2017"
+      },
+      {
+        "id": "BRA-outcomes-007",
+        "statement": "After Cuban doctors left the More Doctors programme, affected municipalities saw lasting falls in chronic-disease care, while use of urgent services such as maternal care and infection treatment soon recovered; the fall in use did not translate into changes in health outcomes.",
+        "valence": "neutral",
+        "source_id": "sliwa-ruiz-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2242,
+          "char_end": 2517,
+          "passage_sha256": "947959cebdcbc3f79bcd9bd086035572cf0527117f664ee7a89beb506a531b81"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "BRA-costs-001",
+        "statement": "Total health spending rose from 7.0% to 8.3% of GDP between 2000 and 2014, and per-person spending from US$263 to US$947.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 13307,
+          "char_end": 13459,
+          "passage_sha256": "ad7986d0c6a0a98e2ef0c7c9d3bdfd9fec3534a316b542d85ae38c4e5180b649"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2014"
+      },
+      {
+        "id": "BRA-costs-002",
+        "statement": "Municipal health spending per person grew 226% in real terms between 2003 and 2014 (from R$315.7 to R$716.5), then fell 6.3% to R$617.1 in 2016.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14383,
+          "char_end": 14651,
+          "passage_sha256": "aca44808263ec3dd9d561bdff124ede04a1eb94d04208d1603321ad68590834f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2003-2016"
+      },
+      {
+        "id": "BRA-costs-003",
+        "statement": "Most of the federal budget goes to debt service, which rose from 50.3% of the budget in 2013 to 57.0% in 2016, limiting fiscal space for other areas such as health.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14875,
+          "char_end": 15098,
+          "passage_sha256": "a88602e53a572515b22badf495a2046543fb003857b9e35f7498e72ea7d905e9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "BRA-costs-004",
+        "statement": "For drugs paid for solely by the Ministry of Health, the projected added budget impact of CONITEC-approved drugs equalled 29% of the specialised pharmaceutical care budget in 2024, and over 45% in 2019-2022.",
+        "valence": "neutral",
+        "source_id": "curado-2026",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2863,
+          "char_end": 3030,
+          "passage_sha256": "f576d67996f457f9cdc3316c5e29aa05cb3a7c437da6ab978b525f02a10ce618"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "BRA-costs-005",
+        "statement": "In 2019, court-ordered purchases took 25.2% of the federal budget for the Specialised Component of Pharmaceutical Care, with 21% going to 10 medicines.",
+        "valence": "neutral",
+        "source_id": "vieira-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1613,
+          "char_end": 1737,
+          "passage_sha256": "855115e12451d6f1ff6b39c3c38618f9ce4979dcdb3b9f26061c41cf706d94bd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      }
+    ],
     "what_works": [],
     "problems": [],
     "reforms": [],

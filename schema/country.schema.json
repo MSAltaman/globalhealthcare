@@ -356,6 +356,10 @@
               "type": "string"
             }
           }
+        },
+        "historical": {
+          "type": "boolean",
+          "description": "True only when the claim states a past event or how things were (a reform's date, a past level used for a trend). Such claims may use data older than the current-data limit."
         }
       }
     },

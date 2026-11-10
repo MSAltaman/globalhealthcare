@@ -1,29 +1,65 @@
 {
-  "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR.",
+  "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR. 2026-11-10: second round for data older than 10 years (rule now enforced by validate.py).",
   "items": [
-    {"iso3": "USA", "pr": 1, "status": "open", "todo": [
-      "Replace substitutes with primary sources: Census Bureau uninsured count and rate (latest P60 report), KFF claim-denial analysis of HealthCare.gov plans, AMA prior authorization physician survey, HHS OIG report on Medicare Advantage denials.",
-      "Add CDC/NCHS (National Health Interview Survey) uninsured and cost-related unmet need, CFPB medical debt report, CBO coverage projections where relevant.",
-      "Use JAMA / NEJM / Health Affairs full text where a claim now rests on an abstract.",
-      "Add HAQ Index ranking."]},
-    {"iso3": "JPN", "pr": 2, "status": "open", "todo": [
-      "Financial hardship: Japan Federation of Bar Associations survey of causes of personal bankruptcy (nichibenren.or.jp), court bankruptcy statistics (courts.go.jp).",
-      "Add OECD Health at a Glance 2025 / Japan country note and e-Stat national statistics where they improve on existing claims.",
-      "Add HAQ Index ranking."]},
-    {"iso3": "MEX", "pr": 3, "status": "open", "todo": [
-      "Add OECD Health at a Glance 2025 Mexico note and OECD reviews (oecd.org, oecd-ilibrary.org).",
-      "Find a tier 1-3 source on reforms under the 2024-2030 administration (gob.mx, Secretaría de Salud, IMSS-Bienestar, CONEVAL).",
-      "Search again for national data on medical debt or bankruptcy (CONEVAL, INEGI ENIGH).",
-      "Add HAQ Index ranking."]},
-    {"iso3": "AUS", "pr": 4, "status": "open", "todo": [
-      "Re-anchor national statistics to AIHW (aihw.gov.au) and ABS Patient Experiences survey (abs.gov.au) instead of the Commonwealth Fund profile.",
-      "Confirm from health.gov.au whether the November 2025 bulk-billing expansion took effect; update AUS-reforms-007.",
-      "Add HAQ Index ranking (table-row anchors are allowed; see CLAUDE.md Rankings)."]},
-    {"iso3": "CHN", "pr": 5, "status": "open", "todo": [
-      "Add National Healthcare Security Administration and National Health Commission statistics (gov.cn sites).",
-      "Use Lancet full text where claims rest on abstracts; add the Commonwealth Fund China profile if reachable.",
-      "Add HAQ Index ranking."]},
-    {"iso3": "DEU", "pr": null, "status": "open", "todo": [
-      "Add HAQ Index ranking."]}
+    {
+      "iso3": "USA",
+      "pr": 1,
+      "status": "done",
+      "todo": [
+        "Replace USA-financial_hardship-005 and -006 (Himmelstein et al. 2009, 2007 survey) with the Consumer Bankruptcy Project's latest work: Foohey, Lawless & Thorne, Debt's Grip (University of Chicago Press), filings 2013-2023 (65% of filers cite medical costs or illness-related income loss as a contributing factor). Cite the book if its text is reachable; otherwise cite Sickler's review in the American Bankruptcy Law Journal 99:3 (2025), https://www.ablj.org/wp-content/uploads/2025/12/Sickler_ABLJ_99-3.pdf, and say the figure is self-reported by filers.",
+        "Replace USA-financial_hardship-008 (Dobkin et al. 2018, data 2003-2011) with: Scott et al., Health Affairs 2026, 'Changes In Medical Debt And Bankruptcy After Acute Traumatic Injuries, 2019-21' (doi 10.1377/hlthaff.2025.00847, PMC13109849) and Uppal et al., JAMA Oncology 2025, 'Debt, Bankruptcy, and Credit Scores After Cancer Diagnosis' (doi 10.1001/jamaoncol.2025.3302, PMC12395357). Keep each estimate's definition and population explicit (Michigan trauma patients; Massachusetts cancer patients).",
+        "Review Himmelstein et al. 2019 (AJPH, data 2013-2016): keep only if not superseded by Debt's Grip; set data_year.",
+        "Update USA-costs-004 and USA-outcomes-010 (2016 data) with current figures: OECD Health at a Glance 2025 spending comparison, and GBD 2019 HAQ Index.",
+        "Fix every claim scripts/validate.py reports as older than 10 years."
+      ]
+    },
+    {
+      "iso3": "JPN",
+      "pr": 2,
+      "status": "done",
+      "todo": [
+        "Fix the 12 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
+      ]
+    },
+    {
+      "iso3": "MEX",
+      "pr": 3,
+      "status": "open",
+      "todo": [
+        "Fix the 9 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
+      ]
+    },
+    {
+      "iso3": "CHN",
+      "pr": 5,
+      "status": "open",
+      "todo": [
+        "Fix the 7 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
+      ]
+    },
+    {
+      "iso3": "AUS",
+      "pr": 4,
+      "status": "open",
+      "todo": [
+        "Fix the 3 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
+      ]
+    },
+    {
+      "iso3": "BRA",
+      "pr": 7,
+      "status": "open",
+      "todo": [
+        "Fix the 2 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
+      ]
+    },
+    {
+      "iso3": "DEU",
+      "pr": null,
+      "status": "open",
+      "todo": [
+        "Bring the pilot profile up to the current standard: fill the financial_hardship section (medical debt, insolvency statistics recording health causes, debt counselling data), add who-decides-coverage evidence, and check every claim's data year."
+      ]
+    }
   ]
 }

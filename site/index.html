@@ -275,7 +275,7 @@ function atlasPosition(scores, iso3, name) {
       <span>Plausible rank range <b class="mono">${rankRange(r)}</b></span>
     </div>
     <div class="facts">${doms}</div>
-    <p class="caption">Computed by the atlas from the statistics above, scored 0-100 against the other countries compared. The range shows how the rank moves under other weightings. <a href="#ranking">See the full ranking and method</a>.</p>`;
+    <p class="caption">Computed by the atlas from the statistics above, each scored 0-100 against worldwide benchmarks. The range shows how the rank moves under other weightings. <a href="#ranking">See the full ranking and method</a>.</p>`;
 }
 
 async function renderRanking(index) {
@@ -297,7 +297,7 @@ async function renderRanking(index) {
     <div class="country-head">
       <span class="label">Atlas ranking · draft method ${esc(scores.method_version)} · computed ${esc(scores.computed)}</span>
       <h2>How the systems compare</h2>
-      <div class="model">${scores.countries_compared} countries scored on ${scores.domains.length} areas, equally weighted, using only official statistics. No model sets or adjusts a score.</div>
+      <div class="model">${scores.countries_compared} countries scored on ${scores.domains.length} areas, equally weighted, against worldwide benchmarks from official statistics. No model sets or adjusts a score.</div>
     </div>
     <div class="rank-table"><table>
       <thead><tr><th>#</th><th>Country</th><th>Score</th><th>Rank range</th>${scores.domains.map(d => `<th>${esc(d.label)}</th>`).join("")}</tr></thead>
@@ -307,7 +307,7 @@ async function renderRanking(index) {
       <ol style="margin:0;padding-left:1.3rem;display:grid;gap:.35rem;max-width:46rem">
         ${scores.domains.map(d => `<li><b>${esc(d.label)}:</b> ${esc(d.question)}</li>`).join("")}
       </ol>
-      <p style="margin:0;max-width:46rem">Each statistic is rescaled 0-100 from the worst to the best country compared, skewed rates on a log scale. Data older than 10 years is ignored. The rank range is the 5th to 95th percentile of each country's rank over 5,000 random weightings of the areas.</p>
+      <p style="margin:0;max-width:46rem">Each statistic is scored 0-100 against the whole world, not just the countries shown. Measures already on a 0-100 scale, such as the share of people covered, are used as they are. For the rest, 0 and 100 sit at the 5th and 95th percentile of every country's latest value worldwide, worst to best, with skewed rates on a log scale. Adding a country never changes another's score. Data older than 10 years is ignored. The rank range is the 5th to 95th percentile of each country's rank over 5,000 random weightings of the areas.</p>
       <p class="caption">Not scored yet: ${scores.not_yet_scored.map(n => `${esc(n.domain)} (${esc(n.reason)})`).join("; ")}${Object.keys(scores.excluded_countries).length ? ` Excluded: ${Object.entries(scores.excluded_countries).map(([k, v]) => `${esc(k)}: ${esc(v)}`).join("; ")}` : ""}</p>
     </section></article>`;
   document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "RANKING" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));

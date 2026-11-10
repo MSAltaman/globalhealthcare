@@ -2,6 +2,7 @@
   "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR. 2026-11-10: second round for data older than 10 years (rule now enforced by validate.py).",
   "items": [
     {
+      "id": "USA-r2",
       "iso3": "USA",
       "pr": 1,
       "status": "done",
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "id": "JPN-r2",
       "iso3": "JPN",
       "pr": 2,
       "status": "done",
@@ -22,14 +24,16 @@
       ]
     },
     {
+      "id": "MEX-r2",
       "iso3": "MEX",
       "pr": 3,
-      "status": "open",
+      "status": "done",
       "todo": [
         "Fix the 9 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
       ]
     },
     {
+      "id": "CHN-r2",
       "iso3": "CHN",
       "pr": 5,
       "status": "open",
@@ -38,6 +42,7 @@
       ]
     },
     {
+      "id": "AUS-r2",
       "iso3": "AUS",
       "pr": 4,
       "status": "open",
@@ -46,14 +51,16 @@
       ]
     },
     {
+      "id": "BRA-r2",
       "iso3": "BRA",
       "pr": 7,
-      "status": "open",
+      "status": "done",
       "todo": [
         "Fix the 2 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
       ]
     },
     {
+      "id": "DEU-r2",
       "iso3": "DEU",
       "pr": null,
       "status": "open",

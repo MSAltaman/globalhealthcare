@@ -69,9 +69,10 @@ countries in its prompt (default 3).
    `main` if already merged), keep every existing rule and check, update the
    PR body, and set the item's `status` to `done` in the same branch.
    Because that change is not on `main` until the PR merges, an item counts
-   as done if it is `done` either on `main` or in `config/backfill.json` on
-   that country's branch (`git show origin/<branch>:config/backfill.json`).
-   Check both before picking an item.
+   as done if the item with the **same `id`** (e.g. `CHN-r2`) is `done`
+   either on `main` or in `config/backfill.json` on that country's branch
+   (`git show origin/<branch>:config/backfill.json`). An item without that id
+   on the branch, or from an earlier round, does not count.
 1. **Pick ONE country per run.** If the run's prompt names countries, take the
    first one that has neither a profile on `main` nor a remote branch
    `claude/research-<iso3>` (`git ls-remote --heads origin`). Otherwise, in

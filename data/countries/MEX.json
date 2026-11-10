@@ -111,26 +111,6 @@
         "data_year": 2018
       },
       {
-        "id": "MEX-overview-006",
-        "statement": "Coverage is unstable because it follows employment: during 2014, up to 38% of people insured by the IMSS left their jobs for more than two months and so lost access to IMSS medical facilities.",
-        "valence": "neutral",
-        "source_id": "hit-mex-2020",
-        "locator": {
-          "section": "Executive summary",
-          "page": 26,
-          "char_start": 35145,
-          "char_end": 35332,
-          "passage_sha256": "39ef447d509214b030b3328adf3245132679412fd456ab9cad01a3e04c349ece"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2014
-      },
-      {
         "id": "MEX-overview-007",
         "statement": "Legal eligibility for health coverage depends on a person's employment status, and differs according to whether the job is public or private and formal or informal.",
         "valence": "neutral",
@@ -170,26 +150,6 @@
         }
       },
       {
-        "id": "MEX-financing-002",
-        "statement": "In 2015 social insurance accounted for 30% of total health spending while covering over 42% of the population, and public services for others were paid from general taxes and government revenues; the Seguro Popular financing system made up 24% of total health spending.",
-        "valence": "neutral",
-        "source_id": "hit-mex-2020",
-        "locator": {
-          "section": "Executive summary",
-          "page": 27,
-          "char_start": 38573,
-          "char_end": 38847,
-          "passage_sha256": "a35e6d48192c7966eb08b0de00013364ebe3a03e299e8f3fb152709203270638"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
-      },
-      {
         "id": "MEX-financing-003",
         "statement": "Seguro Popular, started in 2003, copied the three-way funding of social insurance: the federal government paid a fixed fee per enrolled person (largely from rising oil revenue), states added half that amount, and enrollees above the poverty level were to pay an annual income-related fee.",
         "valence": "neutral",
@@ -207,45 +167,6 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
-      },
-      {
-        "id": "MEX-financing-004",
-        "statement": "Private insurance played a small but growing part in funding, rising from 2.3% of total health spending in 2000 to 5% in 2015.",
-        "valence": "neutral",
-        "source_id": "hit-mex-2020",
-        "locator": {
-          "section": "3 Financing",
-          "page": 109,
-          "char_start": 226420,
-          "char_end": 226573,
-          "passage_sha256": "82825a096ba53a37170dba63a944266bcd47bea2cf2e4605bd2f254f101805b6"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2000-2015"
-      },
-      {
-        "id": "MEX-financing-005",
-        "statement": "Government spending for people without social security went from 0.84% of GDP in 2003 to 1.42% in 2009, which narrowed the gap with people who have social security (1.67% of GDP in 2009).",
-        "valence": "neutral",
-        "source_id": "alvarez-aceves-2025",
-        "locator": {
-          "section": "Discussion",
-          "char_start": 36669,
-          "char_end": 36886,
-          "passage_sha256": "1bee66d65ad1e49ce69682af6110b08f9526e01e43075eae7876259a49d8b976"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2003-2009"
       }
     ],
     "covered": [
@@ -615,23 +536,21 @@
       },
       {
         "id": "MEX-additional_care-002",
-        "statement": "Doctors' consulting rooms attached to pharmacies grew to about 15,000 by 2015; the review says they are popular for shorter waits and cheaper visits but raise concerns about weak quality oversight, inappropriate prescribing and conflicts of interest with pharmacy owners.",
+        "statement": "A 2025 commentary reports that visits to retail pharmacy clinics typically cost US$2-5, with some services free, and that the clinics receive hundreds of millions of visits a year, which the authors read as a sign of both high demand and deep unmet need in the public sector.",
         "valence": "neutral",
-        "source_id": "hit-mex-2020",
+        "source_id": "lancet-ra-pharmacy-2025",
         "locator": {
-          "section": "5 Provision of services",
-          "page": 180,
-          "char_start": 365842,
-          "char_end": 366431,
-          "passage_sha256": "f741a2954c8c11496c1f9bb7b733820d336b2bb812f4eeb8ba77b1889f067a63"
+          "section": "Comment",
+          "char_start": 2593,
+          "char_end": 2878,
+          "passage_sha256": "12117dbedee49bef9354a07cda6bbb24afb9a1ce8e74ba09179b60a744bb8acb"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
+        }
       },
       {
         "id": "MEX-additional_care-003",
@@ -706,6 +625,43 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "MEX-additional_care-007",
+        "statement": "The same commentary says doctors in these clinics often face pressure to prescribe in order to meet sales quotas, and cites population studies suggesting their patients are prescribed more active substances per visit than patients of public or private institutions.",
+        "valence": "weakness",
+        "source_id": "lancet-ra-pharmacy-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 3322,
+          "char_end": 3710,
+          "passage_sha256": "bd905c45295e3df65c498e450a04d431bcc815157fd971bc8d24114bffc351ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-008",
+        "statement": "A 2026 commentary reports that retail pharmacy clinics began expanding in 2010, when a regulation required a medical prescription for antibiotics sold in pharmacies; they grew fastest in 2010-2013, from 2 to 4 per 100,000 people, and reached 8 per 100,000 in 2023.",
+        "valence": "neutral",
+        "source_id": "lancet-ra-pharmacy-2026",
+        "locator": {
+          "section": "Correspondence",
+          "char_start": 2284,
+          "char_end": 2660,
+          "passage_sha256": "861030937e858132e8186674b61f07cbde9d8943b0448e99057e921401e7471b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2010-2023"
       }
     ],
     "access": [
@@ -802,25 +758,6 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
-      },
-      {
-        "id": "MEX-access-006",
-        "statement": "The gap in hospital beds narrowed in 2003-2006, but Ministry of Health hospitals serving people without social security still had 5.84 beds per 10,000 people, 20.1% fewer than the 7.31 in social security institutions.",
-        "valence": "neutral",
-        "source_id": "alvarez-aceves-2025",
-        "locator": {
-          "section": "Summary: Findings",
-          "char_start": 2595,
-          "char_end": 2804,
-          "passage_sha256": "6a877d337ab461ffcf0b30f086f8498998d135f10ba7fb50c0bc966e591d4d8f"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2003-2006"
       },
       {
         "id": "MEX-access-007",
@@ -923,15 +860,15 @@
     "outcomes": [
       {
         "id": "MEX-outcomes-001",
-        "statement": "Diabetes and ischaemic heart disease were the leading causes of death in 2015, both having risen markedly since 1990, followed among men by homicide.",
+        "statement": "Heart disease, diabetes and malignant tumours were the three leading causes of death nationally in 2024, for women and for men.",
         "valence": "neutral",
-        "source_id": "hit-mex-2020",
+        "source_id": "inegi-edr-2024",
         "locator": {
-          "section": "Executive summary",
-          "page": 23,
-          "char_start": 28921,
-          "char_end": 29164,
-          "passage_sha256": "e588f8f34909a8bd1d459bab239909d119bf9ccfc3827971fc55052353a65869"
+          "section": "Causas de la defunción",
+          "page": 4,
+          "char_start": 5256,
+          "char_end": 5636,
+          "passage_sha256": "3c78a442b8e6233133582cba3c1602aa27450faa0f27e0e41b5aa1ef48ca5dcd"
         },
         "verification": {
           "passage_found": "pass",
@@ -939,7 +876,7 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": 2015
+        "data_year": 2024
       },
       {
         "id": "MEX-outcomes-002",
@@ -1129,27 +1066,8 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "2000-2015"
-      },
-      {
-        "id": "MEX-costs-002",
-        "statement": "Growth in health spending slowed from 8.5% a year in 2001-2005 to 4.2% in 2006-2010 and 2.6% in 2011-2015.",
-        "valence": "neutral",
-        "source_id": "hit-mex-2020",
-        "locator": {
-          "section": "3 Financing",
-          "page": 110,
-          "char_start": 227129,
-          "char_end": 227304,
-          "passage_sha256": "4aa0427a931799747d5c613b7a63e4bfaa0c34f2d975ca6e98cdc6d46fc2e3e9"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": "2001-2015"
+        "data_year": "2000-2015",
+        "historical": true
       },
       {
         "id": "MEX-costs-003",
@@ -2215,6 +2133,47 @@
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
       "accessed": "2026-11-10",
       "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "inegi-edr-2024",
+      "title": "Comunicado de prensa 142/25: Estadísticas de Defunciones Registradas (EDR) 2024",
+      "publisher": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "authors": "INEGI",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/EDR2024-def_CP.pdf",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "lancet-ra-pharmacy-2025",
+      "title": "The duality of retail pharmacy clinics in Mexico: from threat to opportunity",
+      "publisher": "Lancet Regional Health - Americas",
+      "authors": "Ramonfaur D, Auron M, Torre-Amione G",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.lana.2025.101258",
+      "doi": "10.1016/j.lana.2025.101258",
+      "accessed": "2026-11-10",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12508860",
+      "funding_note": "Comment piece, not original research; authors declare no competing interests.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "lancet-ra-pharmacy-2026",
+      "title": "Retail pharmacy clinics in Mexico: a commentary",
+      "publisher": "Lancet Regional Health - Americas",
+      "authors": "Colchero MA, Barrientos-Gutiérrez T, Hernández-Ávila M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.lana.2025.101341",
+      "doi": "10.1016/j.lana.2025.101341",
+      "accessed": "2026-11-10",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12796101",
+      "funding_note": "Correspondence replying to the 2025 comment; two authors are at the National Institute of Public Health (INSP) and one at the Mexican Social Security Institute (IMSS), both government bodies.",
+      "license": "CC BY-NC-ND 4.0"
     }
   ],
   "rankings": [],
@@ -2226,6 +2185,10 @@
     {
       "date": "2026-11-10",
       "note": "Backfill: 22 claims added from the 2026 Servicio Universal de Salud decree and presidential announcement, the Ministry of Health's 2025-2026 consolidated medicines purchase, INEGI's 2024 poverty-measurement and ENIGH 2024 releases, a 2026 IMSS-BIENESTAR evaluation, a 2026 review, a 2022 policy report and the GBD 2016 and 2019 HAQ Index studies; all support-reviewed (7 statements corrected, 2 re-anchored). OECD Health at a Glance 2025 could not be downloaded (403)."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Data-age backfill: dropped 6 claims resting on 2003-2015 data (IMSS job turnover 2014, 2015 financing shares, private insurance share 2000-2015, spending for the uninsured 2003-2009, bed gap 2003-2006, spending growth 2001-2015); marked the 2000-2015 public/out-of-pocket share trend as historical; replaced 2015 causes of death with INEGI 2024 registered-death statistics; replaced the 2015 pharmacy-clinic count with two 2025-2026 Lancet Regional Health - Americas commentaries (3 claims). New claims support-reviewed (3 statements corrected, 1 re-anchored)."
     }
   ]
 }

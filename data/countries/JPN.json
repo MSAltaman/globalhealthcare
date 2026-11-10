@@ -586,6 +586,46 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "JPN-financial_hardship-005",
+        "statement": "For its 2023 survey, the Japan Federation of Bar Associations reviewed court files of personal bankruptcy and rehabilitation cases filed by individuals between 1 June and 30 November 2022, sampled at random at all 50 district courts in the 47 prefectures; it obtained usable data on 1,233 bankruptcy cases and 773 rehabilitation cases.",
+        "valence": "neutral",
+        "source_id": "jfba-bankruptcy-2023",
+        "locator": {
+          "section": "第1 調査の目的・概要",
+          "page": 5,
+          "char_start": 10373,
+          "char_end": 10648,
+          "passage_sha256": "f7addafdb4326f0d24eaf3362fca51146625545c98a709367655e4ee7846dd1c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-financial_hardship-006",
+        "statement": "In the bar federation's 2023 survey of bankruptcy files, illness or medical costs were among the recorded causes of debt for 26.44% of debtors, up from 23.31% in the 2020 survey and 20.98% in the 2008 survey; living hardship or low income was recorded for 65.86%.",
+        "valence": "weakness",
+        "source_id": "jfba-bankruptcy-2023",
+        "locator": {
+          "table": "負債原因(人数比), 23調査-08調査",
+          "page": 5,
+          "char_start": 11828,
+          "char_end": 11966,
+          "passage_sha256": "7c645e7390dd2aef1b957c8bc063a31786e565ba5cc5fbb648c89cd9eb192124"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-10",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
       }
     ],
     "additional_care": [
@@ -1978,6 +2018,17 @@
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
       "accessed": "2026-11-09",
       "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "jfba-bankruptcy-2023",
+      "title": "2023 survey of bankruptcy and individual rehabilitation case records (2023年破産事件及び個人再生事件記録調査)",
+      "publisher": "Japan Federation of Bar Associations, Consumer Affairs Committee",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.nichibenren.or.jp/library/pdf/jfba_info/publication/pamphlet/2023_hasan_kojinsaisei.pdf",
+      "accessed": "2026-11-10",
+      "funding_note": "Produced by the national bar association's consumer-affairs committee, which campaigns on consumer over-indebtedness; data are coded from court case files."
     }
   ],
   "rankings": [],

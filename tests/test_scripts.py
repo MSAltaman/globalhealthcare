@@ -119,3 +119,9 @@ def test_compute_drops_stale_data_and_ranks(monkeypatch):
     res = score.compute(data, ["A", "B", "C"], today=dt.date(2026, 1, 1))
     ranks = {r["iso3"]: r["rank"] for r in res["rows"]}
     assert ranks == {"B": 1, "A": 2, "C": None}
+
+
+def test_latest_data_year_prefers_data_year_range_end():
+    import validate
+    assert validate.latest_data_year({"data_year": "2013-2016"}, {"year": 2019}) == 2016
+    assert validate.latest_data_year({}, {"year": 2009}) == 2009

@@ -24,7 +24,15 @@ about lessons for the US. Strengths and failures get equal care.
    `config/sources.json`. Tier 4 (news, explainers) can never be a claim's
    only support. Record the funder or stance of tier-3 sources in
    `funding_note` when it bears on bias.
-5. **Current, and dated.** Check for reforms in the last five years before
+5. **Current, and dated.** Claims about how things are now must rest on data
+   from the last 10 years (`scripts/validate.py` enforces this using
+   `data_year`, else the source's year). Prefer the most recent data that
+   exists; a 2023 figure beats a 2017 one. Older data is allowed only for a
+   claim that states a past event or a past level for a trend, marked
+   `"historical": true` and worded in the past tense with its year. Never keep
+   an old figure because it is striking or widely quoted: find the current
+   equivalent, or drop the claim.
+   Check for reforms in the last five years before
    describing a system. Every claim records `data_year` when the data year
    differs from publication. A study describing a system that has since been
    reformed must say so in the statement.
@@ -60,6 +68,10 @@ countries in its prompt (default 3).
    new country: work on its open PR branch (or `claude/backfill-<iso3>` from
    `main` if already merged), keep every existing rule and check, update the
    PR body, and set the item's `status` to `done` in the same branch.
+   Because that change is not on `main` until the PR merges, an item counts
+   as done if it is `done` either on `main` or in `config/backfill.json` on
+   that country's branch (`git show origin/<branch>:config/backfill.json`).
+   Check both before picking an item.
 1. **Pick ONE country per run.** If the run's prompt names countries, take the
    first one that has neither a profile on `main` nor a remote branch
    `claude/research-<iso3>` (`git ls-remote --heads origin`). Otherwise, in

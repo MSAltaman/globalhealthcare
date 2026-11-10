@@ -13,12 +13,498 @@
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
+    "overview": [
+      {
+        "id": "BRA-overview-001",
+        "statement": "Brazil's 1988 Constitution made health a universal right and a duty of the state; the unified health system (Sistema Único de Saúde, SUS), created in 1990, is the vehicle for progress towards universal coverage.",
+        "valence": "neutral",
+        "source_id": "castro-2019",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1921,
+          "char_end": 2172,
+          "passage_sha256": "0bee4765a2c2bc84f60c536e60e5b08a3380e49a41f927d8cb0854561dc2ff82"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-overview-002",
+        "statement": "Two 1990 laws, 8.080 and 8.142, turned the constitutional right to health into practice and set out how the SUS is organised.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 1759,
+          "char_end": 1866,
+          "passage_sha256": "d683e7652771b6e093843e6f54695fef5864afa9e293100c0f5b6a97ca4b981c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-overview-003",
+        "statement": "From its start the SUS was meant to be universal, comprehensive and decentralised, and free of charge where services are delivered, resting on principles of equity, solidarity and social participation.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Expansion of the Unified Health System in Brazil",
+          "char_start": 8379,
+          "char_end": 8604,
+          "passage_sha256": "df423450b0c89c56094a2ac0e46529e1767617004661046f644627e9a19129dc"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-overview-004",
+        "statement": "Management of the system moved from a centralised social-security bureaucracy to shared (tripartite) governance by municipalities, states and the federal government.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 3307,
+          "char_end": 3465,
+          "passage_sha256": "d4b26dc8c4dea9f0343bfcc9504a6c300341d2fcd32d8c9bd3db8c786d37ced1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-overview-005",
+        "statement": "According to the 2024 census of basic health units, most units (85%) are owned by municipalities, but 20% are run under private management arrangements such as social health organisations, charities and other non-profit bodies.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Current status of PHC",
+          "char_start": 44152,
+          "char_end": 44587,
+          "passage_sha256": "b88e039d0488116771f4f39569b39b8424ce44810fd4276cbf4b5700f333e6c0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "BRA-financing-001",
+        "statement": "Minimum levels of health spending for each level of government (federal, state and municipal) were introduced in 2000 and written into law in 2012.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Expansion of the Unified Health System in Brazil",
+          "char_start": 9882,
+          "char_end": 9997,
+          "passage_sha256": "003db84a8f2eb903071e0a9caac474e0fa535f40e598c276c349bcf58906e51d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-financing-002",
+        "statement": "Between 2003 and 2016 the federal government's share of public health spending fell from 50.0% to 40.8%.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14727,
+          "char_end": 14874,
+          "passage_sha256": "888a58649753d1a6a2fb1433b51acb4658500d5c00008383d91f2c3155b7745c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2003-2016"
+      },
+      {
+        "id": "BRA-financing-003",
+        "statement": "States' share of public health spending rose from 22.3% in 2003 to 27.0% in 2016, and municipalities' share from 25.5% to 32.2%.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14233,
+          "char_end": 14382,
+          "passage_sha256": "5da59a4293a5e688237233da64b895b1e59e40402092565bfc93c767d4cc75e5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2003-2016"
+      },
+      {
+        "id": "BRA-financing-004",
+        "statement": "A 2018 analysis put public spending at 46.0% of Brazil's health spending, one of the lowest shares in Latin America and the Caribbean (regional average 51.28%) and below the averages for upper-middle-income (55.2%) and OECD (62.2%) countries.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 13676,
+          "char_end": 13926,
+          "passage_sha256": "863288b1bf74ea516e9ef7ac9e9057498a59b4abe9dbc89b8eac9a778b23902a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-financing-005",
+        "statement": "The Constitution makes the private sector complementary to the public one, but in practice the government partly subsidises it through tax breaks for people with private insurance, who also obtain high-complexity procedures in the SUS because their plans cover them poorly or reimburse little.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 20101,
+          "char_end": 20480,
+          "passage_sha256": "035fa6b38419c0814f9e78f78f02425fa39424cff212b3febb31d3fc341fe462"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "BRA-covered-001",
+        "statement": "The SUS runs a national network covering primary, emergency and mental health care, plus specialised centres for transplantation, HIV/AIDS and cancer, supported by a broad pharmaceutical policy.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 2486,
+          "char_end": 2784,
+          "passage_sha256": "de0adc98ca1bf56ddabd72acfeb94df703039e7d31fca3d2e434516973221849"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-covered-002",
+        "statement": "Expansion of the SUS widened public health programmes such as immunisation, tuberculosis and HIV, and complex services such as organ transplants, cancer care and kidney dialysis.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 17594,
+          "char_end": 17790,
+          "passage_sha256": "6f88a850f7e789e2801a359ff9a76bc1b7fa39c80c85acd1cfdea2e57f1f0b1b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-covered-003",
+        "statement": "The national essential medicines list grew from 327 medicines in 2002 to 869 in 2017, alongside policies to improve access to medicines and promote generics.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16366,
+          "char_end": 16557,
+          "passage_sha256": "9ed06451fa91e5d983c2150d476c7607b891d4c7144c3b836274e4d0181b4bdd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2002-2017"
+      },
+      {
+        "id": "BRA-covered-004",
+        "statement": "Since 2011 a national commission (CONITEC) has supported evidence-based decisions on adding new medicines and technologies to the SUS.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16710,
+          "char_end": 16908,
+          "passage_sha256": "1bb5faf8f61f394351b276506cc15222b8ce8f6549aa47c464ad3a9e94b7e4a6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-covered-005",
+        "statement": "A 2026 study of Brazil's health technology assessment system, based on institutional surveys and interviews, found CONITEC widely recognised as central to coordinating evidence and appraisal, but identified possible conflicts of interest and sole reliance on government funding as challenges.",
+        "valence": "neutral",
+        "source_id": "alkhaldi-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 5761,
+          "char_end": 6112,
+          "passage_sha256": "2cb661677342cfb50d40d1c62569d7d0feac5e84bab508dbfcf6fb801bd9e632"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-covered-006",
+        "statement": "Of 199 drugs added to the SUS after CONITEC appraisal between 2012 and 2024, 64 were projected to save money, with projected savings of Int$6.67 billion.",
+        "valence": "neutral",
+        "source_id": "curado-2026",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2220,
+          "char_end": 2334,
+          "passage_sha256": "840e740472031aa6ef8073cd07e1f7354af5aa3139904476cc3a5a3d0e9c42bd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2024"
+      },
+      {
+        "id": "BRA-covered-007",
+        "statement": "Family health teams were originally made up of a general practitioner, a nurse, a nursing technician or assistant and four to six community health workers, each worker making routine home visits to around 150 families in a small area.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "The transformation of the Family Health Program into a strategy",
+          "char_start": 11061,
+          "char_end": 11356,
+          "passage_sha256": "97aaaf1a9bd64a1506c2c69b7d6c97731b3302f2e7c7fa750dbc3565c777fe14"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "BRA-cost_sharing-001",
+        "statement": "Since 2004 the Popular Pharmacy Programme (Farmácia Popular) has widened access to medicines at subsidised prices with low copayments.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16561,
+          "char_end": 16709,
+          "passage_sha256": "72745821f9e9197eea7fc38dff76303ac02a1799f19d6461d0400551bd25df79"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-cost_sharing-002",
+        "statement": "Out-of-pocket payments, though reduced, made up nearly half of private health spending in this 2018 analysis and remained a considerable burden for households.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 13927,
+          "char_end": 14232,
+          "passage_sha256": "18dde581c79ea4c677ae04af4184f9f7eb4e67c52c71870d76905deadf572979"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "BRA-cost_sharing-003",
+        "statement": "In the 2017/18 household budget survey, medicines were the largest part of out-of-pocket health spending, reaching 85% of such payments among the lowest consumption deciles.",
+        "valence": "neutral",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1116,
+          "char_end": 1256,
+          "passage_sha256": "c088b8be029318eb74498e48c66040fd577ad90bba329f2b3a54550983e9f9ac"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2018"
+      },
+      {
+        "id": "BRA-cost_sharing-004",
+        "statement": "Catastrophic health spending has declined since 2004, but medicines remain an important item in the budgets of the poorest families.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 17056,
+          "char_end": 17209,
+          "passage_sha256": "5a547c355447d05ba964b172d398ed4e31bae03bf90216438df21045fe40c793"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "BRA-financial_hardship-001",
+        "statement": "Using the 2017/18 national household budget survey, World Bank researchers estimated that over 10 million Brazilians a year are pushed into poverty by out-of-pocket health payments, 4.87% of people, compared with 2.5% globally and 1.8% in Latin America and the Caribbean.",
+        "valence": "neutral",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1414,
+          "char_end": 1655,
+          "passage_sha256": "0129b5609ad7851906a7456c347ed562cab1e28a4953a9b7fed9d5ade8b6ed8f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2018"
+      },
+      {
+        "id": "BRA-financial_hardship-002",
+        "statement": "The same study found that a third of households spent more than 10% of their budget on health, and that financial hardship was much more common among the poor (37% in the bottom consumption deciles).",
+        "valence": "neutral",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 882,
+          "char_end": 1115,
+          "passage_sha256": "09a6574d18ef3615495ea5069181052ce4234a731196026bc0816c40f7b41f3f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2018"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "BRA-additional_care-001",
+        "statement": "In 2019, 59.7 million people (28.5% of residents) had a private medical or dental health plan, not significantly different from 27.9% in 2013.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 31,
+          "char_start": 58750,
+          "char_end": 58981,
+          "passage_sha256": "568e279dc858a13f8c1da7cdcd1fdbdcd6c0143e212cd0901a3c38b40bfee367"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-002",
+        "statement": "Plan coverage in 2019 was highest in the Southeast (37.5%), South (32.8%) and Centre-West (28.9%) and lowest in the North (14.7%) and Northeast (16.6%).",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 31,
+          "char_start": 58982,
+          "char_end": 59172,
+          "passage_sha256": "69d67311fef2b3a23cd15d8bede50328da5d5d189491dcfbfe6780c99bd58b48"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-003",
+        "statement": "In 2019 only 2.2% of people with household income per person of up to a quarter of the minimum wage had a medical plan, compared with 86.8% of those with more than five minimum wages a month.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 33,
+          "char_start": 63020,
+          "char_end": 63259,
+          "passage_sha256": "22fb22e9e72b945001ae603cebedc3ff0ce5f944036b16bea0295e8d45f4b96f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-004",
+        "statement": "Dental plans were much less common than medical plans in 2019: 12.9% of people had a dental plan and 26.0% a medical plan.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 33,
+          "char_start": 64142,
+          "char_end": 64253,
+          "passage_sha256": "beb788a156e72d3013367c9c2218ad2b6ef7a16b1e7260552d33dd4510e40534"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-005",
+        "statement": "Private medical insurance grew from 30.5 million people (17.6%) in 2000 to 50.3 million (24.8%) in 2014, then fell to 47.3 million (22.8%) in 2017 as incomes and employment declined.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 19827,
+          "char_end": 20100,
+          "passage_sha256": "29aa054e17a828315495dda6ca1a71c05fbe201e4e96da6d06706c0b6c51c694"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2000-2017"
+      },
+      {
+        "id": "BRA-additional_care-006",
+        "statement": "Private health plans must pay the SUS back when their members are treated in the public system; the 2025 Agora Tem Especialistas law lets plan operators settle these debts by providing free care instead.",
+        "valence": "neutral",
+        "source_id": "camara-ate-2025",
+        "locator": {
+          "section": "Planos de saúde",
+          "char_start": 1700,
+          "char_end": 1934,
+          "passage_sha256": "1b1f0115e5ce4e7166e7ab1c9896456cbc93a3a4241b43d38308d8dfeb071469"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
     "access": [],
     "outcomes": [],
     "costs": [],

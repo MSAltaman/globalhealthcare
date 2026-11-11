@@ -227,6 +227,383 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
+      },
+      {
+        "id": "FRA-financing-006",
+        "statement": "As of 1 January 2026 employers pay a health insurance (sickness, maternity, disability and death) contribution of 13% on the whole salary, with no earnings ceiling; employees pay no share of it.",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "table": "Taux et plafonds, assurance maladie, maternité, invalidité, décès",
+          "char_start": 452,
+          "char_end": 557,
+          "passage_sha256": "6690990fb781d5a57416ee4e95e3b48bf4e41cd83f48d95b92065d85b45722fd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-007",
+        "statement": "Employers eligible for the general reduction in contributions pay a reduced 7% health insurance rate for employees whose pay does not exceed 2.25 times the minimum wage in force on 31 December 2023 (2.396 times the minimum wage as of 1 January 2026).",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "section": "Notes to the rate table",
+          "char_start": 1481,
+          "char_end": 1799,
+          "passage_sha256": "58d1c9c9328aa61ea13540e1a6196a90ed82b461880d6048899ad4ea22bcff13"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-008",
+        "statement": "As of 1 January 2026 employees pay the general social contribution (CSG) at 9.2% on 98.25% of gross salary, with no employer share.",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "table": "Taux et plafonds, contribution sociale généralisée",
+          "char_start": 851,
+          "char_end": 943,
+          "passage_sha256": "1a99d90a5caa2545db58d80df535afb82d4f8b156eab77e2b2cd94bd3642987c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-009",
+        "statement": "The CSG is also levied on replacement income such as sick pay and unemployment benefits at 6.2%, and on pensions at a rate that depends on the pensioner's resources (8.3% at the standard rate), as of 1 January 2026.",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "section": "Notes to the rate table",
+          "char_start": 2303,
+          "char_end": 2604,
+          "passage_sha256": "e6acff7a17014ff8e1a7039978bbd81ac73f0bc1566f77b8843ec7a0a8983850"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-010",
+        "statement": "The CSG is charged person by person from the first euro, at a rate set by the type of income rather than on a progressive scale; it covers income beyond wages, such as investment income, pensions, unemployment and disability benefits and gambling.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 91,
+          "char_start": 175560,
+          "char_end": 175990,
+          "passage_sha256": "197e0bdd91407b5e031b3201a442f3cec679d2f289363a5ea91c4a349ed222f4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-011",
+        "statement": "The 2023 health system review reported that since 2019 workers' 9.2% CSG has included 6 percentage points earmarked for statutory health insurance, and pensioners' 8.3% included 4.8 points.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 91,
+          "char_start": 175991,
+          "char_end": 176268,
+          "passage_sha256": "4aea8a594e3e6d4433c8988faaaa75274134d66fb1be2d75b04b9ef039e5e581"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "FRA-financing-012",
+        "statement": "Employees' own payroll contributions to health insurance fell to about 0.75% of pay in 1998, from 6.8%, and were abolished in 2018; employer contributions stayed around 13% until they were cut substantially from 2019, with the lost revenue replaced from taxes.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 91,
+          "char_start": 176799,
+          "char_end": 177165,
+          "passage_sha256": "bc4a3a5c7690113589ed5f4bdde111258adbc971f704c7090927110c312cfa28"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-013",
+        "statement": "Part of VAT revenue now goes to health insurance, because since 2020 a portion of the CSG has been moved to the new long-term care (autonomy) branch; earmarked taxes on alcohol, tobacco and pharmaceutical company sales have also helped fund health care.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 92,
+          "char_start": 177279,
+          "char_end": 177638,
+          "passage_sha256": "8e87cfd8389490e60b4fe2823fdc36da41f5944249bbca7b42771416b8ac2980"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-014",
+        "statement": "Complementary health insurers pay a solidarity tax (TSA) on health care premiums of 13.27% for 'solidarity and responsible' contracts and 20.27% for other contracts; health contracts are exempt from the general insurance contracts tax (TSCA).",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "page": 22,
+          "table": "Tableau 1 (dispositifs sociaux et fiscaux), complémentaire santé",
+          "char_start": 60381,
+          "char_end": 60555,
+          "passage_sha256": "64cd60a962de5a896d8e56904b7e84b1a02a3712a149f67107ca701f34daa778"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-015",
+        "statement": "Employer contributions to employees' complementary health and other complementary protection (prévoyance) are exempt from social security contributions up to a joint ceiling of 6% of the social security ceiling plus 1.5% of the employee's pay, capped at 12% of the ceiling (EUR 5,652 a year).",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.1.3",
+          "page": 16,
+          "char_start": 41491,
+          "char_end": 41834,
+          "passage_sha256": "04884723aea4cae8600e4c623a61d4ac478ebecdc188beeb8f4dd68402942d0b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-016",
+        "statement": "For complementary health, only 'solidarity and responsible' contracts qualify for the social contribution exemption; employers with 11 or more employees pay an 8% 'forfait social' levy on these contributions instead, and employees pay CSG and CRDS (9.7%) on them.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "table": "Tableau 1 (dispositifs sociaux et fiscaux), complémentaire santé",
+          "page": 22,
+          "char_start": 59796,
+          "char_end": 60208,
+          "passage_sha256": "d12ede2fb8bf7b7f9e34d23c119a0ef3aa85bf25e8a056228dcdc8ba1fb0e338"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-017",
+        "statement": "For complementary health insurance, only employees' own contributions are excluded from taxable income; the income tax exemption for employers' contributions to collective health contracts was removed by the 2014 finance law.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.1.4",
+          "page": 20,
+          "char_start": 56277,
+          "char_end": 56834,
+          "passage_sha256": "37c1da4cffb4e4a7398d7f3993d078c8fe2590c56e6308f9c25d17528695839a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-018",
+        "statement": "The social contribution exemption for employer-funded complementary cover (health and prévoyance combined) applied to an exempted base of EUR 23.4 billion in 2024 (provisional), equivalent to EUR 5.1 billion in net social contributions, according to the government's annex to the 2024 social security accounts bill.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.2.2.1",
+          "page": 27,
+          "char_start": 73599,
+          "char_end": 73920,
+          "passage_sha256": "cdc50ff865527cf05ef09885065973e02d74247211c7461867207f08f37dd1bc"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financing-019",
+        "statement": "For 2023, the government estimated that the exemption of employer-funded complementary cover (health and prévoyance) theoretically reduced the contributions received by the basic social security schemes by EUR 6.1 billion, a loss the state budget does not make up.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.2.2.1",
+          "page": 26,
+          "char_start": 72693,
+          "char_end": 72926,
+          "passage_sha256": "effddd4576e1b953c9c3bdddd4b5a5f606fc32a93d1df3cad24c4080bf2ba595"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-020",
+        "statement": "DREES estimated that excluding employees' complementary health contributions from taxable income is a public subsidy worth EUR 830 million a year.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.3",
+          "page": 34,
+          "char_start": 89497,
+          "char_end": 89674,
+          "passage_sha256": "e2cddd5da9c334bad7eff09b15d638e358df4f7333fbc56646ccdc52894050fd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-021",
+        "statement": "The income tax relief on employees' contributions to workplace health insurance mostly benefits better-off households: DREES estimated an average of EUR 0 a year for the poorest tenth of households and EUR 89 for the richest tenth.",
+        "valence": "weakness",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "page": 34,
+          "table": "Tableau 5",
+          "char_start": 88820,
+          "char_end": 89297,
+          "passage_sha256": "0397224a733183f878439b07c257147dd55fbba267af888a5e5a7d32fd38bbc0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-022",
+        "statement": "Self-employed people can deduct the whole of their complementary health insurance premium from their taxable income under the 1994 'Madelin' law.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "page": 60,
+          "section": "footnote 73",
+          "char_start": 157578,
+          "char_end": 157799,
+          "passage_sha256": "166978980a2d255630b49f02de074b9dea95c7d206eb7fd6fb591af54f2a8c7c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-023",
+        "statement": "Private insurance paid for 12.7% of health spending in France in 2023, the second-highest share in Europe; France is one of a few countries that combine large public coverage with a private insurance share of 10-15%.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 2,
+          "char_start": 4056,
+          "char_end": 4525,
+          "passage_sha256": "3ac10456895c365ca6b31cf430834f3de969af649d6a310b65e4b6264a6da35f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-024",
+        "statement": "In this comparison the HCAAM counts French complementary insurance as private, market-based cover because coverage levels differ between contracts, while it groups the compulsory, uniform basic insurance of the Netherlands and Switzerland with public cover.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 2,
+          "section": "Encadré: Couverture publique, couverture privée",
+          "char_start": 5111,
+          "char_end": 5567,
+          "passage_sha256": "446d94d9ac370af5a33c38ebc94a2860fd4e5d5375ef71291ebee5419d452312"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FRA-financing-025",
+        "statement": "General government paid for 78% of French health spending in 2023, which placed France 10th in the EU on this measure.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 3,
+          "char_start": 7405,
+          "char_end": 7529,
+          "passage_sha256": "397bfd25f951d87bc20ed5aca1f92c4397a19ff1787e446d74be418ecb1352f1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-026",
+        "statement": "Patients' direct out-of-pocket share of health care and medical goods consumption (CSBM, the national measure) fell almost without interruption from 10.1% in 2010 to 7.7% in 2023, and rose slightly to 7.8% in 2024.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 3,
+          "char_start": 7920,
+          "char_end": 8098,
+          "passage_sha256": "7ac7158d49b1387c10b00a3018f22f76b2b222be9b916a82bbe9a40e67349873"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financing-027",
+        "statement": "In 2019 households spent on average 4.5% of disposable income on out-of-pocket health costs and private insurance premiums combined: 5.6% for the poorest tenth of households against 2.5% for the richest tenth.",
+        "valence": "weakness",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 2,
+          "char_start": 3764,
+          "char_end": 3955,
+          "passage_sha256": "9fb5b4c1f08cd1d8fa7c1b66c8c7da80b869d3cc7e2df983433b3f44deabe173"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
       }
     ],
     "covered": [
@@ -2152,6 +2529,39 @@
       "year": 2023,
       "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022",
       "accessed": "2026-11-11"
+    },
+    {
+      "id": "cleiss-fra-2026",
+      "title": "Taux de cotisations de sécurité sociale et de chômage en France au 1er janvier 2026",
+      "publisher": "Centre des liaisons européennes et internationales de sécurité sociale (Cleiss)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.cleiss.fr/docs/regimes/regime_francea2.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Public body under the French ministries of social affairs and budget; official rate table."
+    },
+    {
+      "id": "igas-psc-2026",
+      "title": "La protection sociale complémentaire en entreprise (rapport n°2025-010R)",
+      "publisher": "Inspection générale des affaires sociales (IGAS)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.igas.gouv.fr/sites/igas/files/2026-06/Rapport%20Igas%20Protection%20sociale%20compl%C3%A9mentaire%20en%20entreprise%20%28rapport%29.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Government inspectorate report; its cost figures for tax and social-contribution exemptions come from the Social Security Directorate (DSS) annexes to the social security accounts bill and from DREES."
+    },
+    {
+      "id": "hcaam-decryptages-2026",
+      "title": "Décryptages santé n°2: Le système de santé français est-il exceptionnellement « généreux » ?",
+      "publisher": "Haut conseil pour l'avenir de l'assurance maladie (HCAAM), published by the Haut-Commissariat à la Stratégie et au Plan",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.strategie-plan.gouv.fr/files/2026-06/D%C3%A9cryptages%20sant%C3%A9_n%C2%B02%20juin%202026_1.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Government advisory council on health insurance; figures are from DREES health accounts (2025 edition)."
     }
   ],
   "rankings": [

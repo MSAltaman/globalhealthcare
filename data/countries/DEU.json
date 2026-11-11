@@ -3,7 +3,7 @@
   "name": "Germany",
   "wave": 0,
   "system_as_of": "2026-11-11",
-  "status": "verified",
+  "status": "draft",
   "model": {
     "type": "social_health_insurance",
     "label": "Statutory social health insurance through competing sickness funds, with an opt-out private tier"
@@ -204,6 +204,480 @@
           "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "DEU-financing-006",
+        "statement": "Statutory health insurance is financed by income-related contributions, an annual federal subsidy paid from taxes, and other revenue; contributions are paid by members and by employers, pension insurers or other bodies, and both contributions and the subsidy flow into the central Health Fund.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 117,
+          "char_end": 544,
+          "passage_sha256": "4c314d6500b3b83fb5d7d683fc0740e70b2f385cfcc5f622ef0d4f1b242769ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-007",
+        "statement": "The general statutory contribution rate is 14.6% of contributory income, and the average supplementary rate actually charged by the sickness funds was 3.13% as of 1 April 2026; employers and employees each pay half of both.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1687,
+          "char_end": 2228,
+          "passage_sha256": "a68d4328afef4f30ae31b663b4b45e8cba78d0b8c720ee31568feb643289af24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-financing-008",
+        "statement": "For compulsorily insured members, contributions are levied on wages, statutory pensions, occupational and similar pensions, and self-employment income earned alongside a pension; voluntary members also pay on other income such as investment and rental income.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2229,
+          "char_end": 2730,
+          "passage_sha256": "af1be7a445a03d1ddf6e1472ed4e62442455bc34327bfc536abba83a543244e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-009",
+        "statement": "In 2026 income counts towards health and long-term care insurance contributions only up to an earnings ceiling of EUR 69,750 a year (EUR 5,812.50 a month), up from EUR 66,150 in 2025; earnings above the ceiling pay no contributions.",
+        "valence": "neutral",
+        "source_id": "breg-rechengroessen-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3357,
+          "char_end": 4043,
+          "passage_sha256": "b07cc5fcce10f5780644ac41c25ca1ec431f302de148160d87f89db07a6fca2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-financing-010",
+        "statement": "Employees must be in statutory insurance up to an income threshold of EUR 77,400 a year in 2026 (EUR 73,800 in 2025); those earning more may take out private insurance instead.",
+        "valence": "neutral",
+        "source_id": "breg-rechengroessen-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3591,
+          "char_end": 4262,
+          "passage_sha256": "8ebb1bff2c50121c8caa18dabdd46df0fa60197ee2562dc39428ffac48c40f77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-financing-011",
+        "statement": "The federal subsidy from taxes is paid as a lump sum for benefits not linked to contributions, such as free family cover for children and spouses and maternity benefits, and has been EUR 14.5 billion a year since 2017.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2953,
+          "char_end": 3261,
+          "passage_sha256": "ccc561442fba4cf8f21516a28ab20e2b5d0d432129c8af87fe5130f778a1f977"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-012",
+        "statement": "In 2020, 2021 and 2022 the federal government paid statutory insurance extra subsidies of EUR 3.5 billion, EUR 5 billion and EUR 14 billion.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3262,
+          "char_end": 3434,
+          "passage_sha256": "2d243acdea3daea7cfc4f71e2489e3ff3986aa179bbcd998e7cda98b98ee079a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-013",
+        "statement": "For 2025 and 2026 the federal budget provides EUR 4 billion in extra subsidies, tied to hospital surcharges paid by the sickness funds, plus two loans of EUR 2.3 billion each that are to be repaid gradually from 2029.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4179,
+          "char_end": 4678,
+          "passage_sha256": "47722f47a5b291ed3430e89d959ed1d7906449aef05b92574b4cfd358387cdd3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-014",
+        "statement": "The 2026 contribution-stabilisation law cuts the federal subsidy by EUR 1.35 billion in 2027 and EUR 1.55 billion a year from 2028, while permanently increasing the federal payment for the health care of people on basic income support, with the increase rising from EUR 1 billion in 2027 to EUR 2.75 billion from 2031.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2814,
+          "char_end": 3202,
+          "passage_sha256": "e4702a94d24e8d2cc885fb23bc5c66ec6f0b8506507c9daf8ae9f4949e8759b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-015",
+        "statement": "The same law introduces from 2028 a 2.5% contribution surcharge for spouses or registered partners who are covered free of charge through a member, with exemptions for parents of children under 12 and for partners with care grade 3 to 5, a full disability pension, or basic income support for people unable to work.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 7542,
+          "char_end": 8043,
+          "passage_sha256": "61b19effd1ec67b1933881f7af55307556c2eff8f0e07058d25d6fc8d2816faf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-016",
+        "statement": "In 2024 private households financed EUR 286.8 billion, or 54.3%, of Germany's EUR 528.5 billion in current health spending.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 540,
+          "char_end": 712,
+          "passage_sha256": "4bf7c072071542a877b1c210a474367157060df60112cdb1558460ce2757a705"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-017",
+        "statement": "In 2024 businesses financed 31.1% of current health spending, the state 14.0% (down from 15.0% in 2023), and non-profit organisations 0.6%.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2149,
+          "char_end": 2547,
+          "passage_sha256": "783b4de5a582c44bf299e44508b21f4a2b8a90f989780386efa6317bd0d7b85b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-018",
+        "statement": "Of the EUR 286.8 billion financed by households in 2024, EUR 136.5 billion was employees' social insurance contributions and EUR 59.5 billion other payments, for example for outpatient and residential care or over-the-counter pharmacy products.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2646,
+          "char_end": 3097,
+          "passage_sha256": "fac11d72d174429c637c3f5b6e98ce7482b18d866b56deea327210125f68d803"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-019",
+        "statement": "Employers' social insurance contributions made up 85.0% of businesses' EUR 164.5 billion financing of current health spending in 2024, or EUR 139.9 billion.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3333,
+          "char_end": 3644,
+          "passage_sha256": "f19979be194d55774d6e5be8900a4843fbf35ad49199cac406b605214e23a561"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-020",
+        "statement": "In 2024, 90.1% of the state's EUR 73.9 billion contribution went on transfers and subsidies, which include the annual federal subsidy to the Health Fund and the health care allowances (Beihilfe) paid by public employers.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3645,
+          "char_end": 3878,
+          "passage_sha256": "bd17568603956fe5663b34c9a83b12a73bbb0a8cef2cee73b4497a59852fb711"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-021",
+        "statement": "Counted by the body that pays for care, statutory health insurance was the largest payer in 2024, spending EUR 300.8 billion or 55.9% of health spending, 7.8% more than in 2023; social long-term care insurance accounted for 12.0%.",
+        "valence": "neutral",
+        "source_id": "destatis-he-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1802,
+          "char_end": 2160,
+          "passage_sha256": "497003a491a3ce952a93d83a562633f61ae86cd08a29496fcfe592f1504760a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-022",
+        "statement": "In 2024 private households and non-profit organisations paid 12.1% of health spending (EUR 65 billion) and private health insurance 8.3% (EUR 44.8 billion).",
+        "valence": "neutral",
+        "source_id": "destatis-he-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2161,
+          "char_end": 2601,
+          "passage_sha256": "c3df5ed9923bcc330310c506ebf641ce9e2dd256621f6233e8bd221b390f39b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-023",
+        "statement": "In the Observatory's 2025 profile, the public share of health spending (86% in 2023) includes statutory insurance contributions, substitutive private insurance and tax subsidies as public sources.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46942,
+          "char_end": 47180,
+          "passage_sha256": "dfe66caa4dfe1bc7f9c37fbc2bca34ae09fa48b5a8564d7f8877082417be42d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-financing-024",
+        "statement": "Besides the federal subsidy, general taxes fund health purposes through federal and state budgets, and capital investment in hospitals comes from the states' budgets.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 6871,
+          "char_end": 7077,
+          "passage_sha256": "54ab6fdf382273d4c8120397cb6f273006f0192bd5857e24d1b23d37538b2586"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-025",
+        "statement": "Civil servants are partly covered by Beihilfe, a scheme reimbursing their medical costs, which international health accounts classify under employers; because they need only partial cover, most choose private insurance.",
+        "valence": "neutral",
+        "source_id": "hit-deu-2020",
+        "locator": {
+          "page": 111,
+          "char_start": 227791,
+          "char_end": 228253,
+          "passage_sha256": "ef7d39dd2058dea024f5d2760568f03230866280649ce5c1098765c848c337ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-026",
+        "statement": "Since 1 January 2025 the social long-term care insurance contribution is 3.6% of contributory income, in principle split 1.8% each between employer and employee; childless members pay a further 0.6%, which employees bear alone, for 4.2% in total.",
+        "valence": "neutral",
+        "source_id": "bmg-pflege-finanzierung",
+        "locator": {
+          "section": "Full text",
+          "char_start": 261,
+          "char_end": 732,
+          "passage_sha256": "52da3f6cd6899bfc030b4a9a3708ce6d4bb011d1ee72237d760f6d0bf29e6a96"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financing-027",
+        "statement": "Employees who are privately insured because their pay exceeds the compulsory insurance threshold, or who are exempt from compulsory insurance, receive a contribution subsidy from their employer, capped at half of what they pay for their health insurance.",
+        "valence": "neutral",
+        "source_id": "sgbv-257",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1449,
+          "char_end": 2400,
+          "passage_sha256": "3482232301ee59665fadca1b11cd01229d5561acfd75492001278f2d3fb1317e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-028",
+        "statement": "Income tax law lets taxpayers deduct as special expenses their contributions to statutory health insurance, the part of a private health premium that pays for benefits comparable to statutory benefits, and contributions to compulsory long-term care insurance.",
+        "valence": "neutral",
+        "source_id": "estg-10",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3192,
+          "char_end": 4444,
+          "passage_sha256": "6c74c530e58611c9dba6624fa36e33ceb145c956053106db95dd67aa72afbc08"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-029",
+        "statement": "Other insurance contributions share a deduction cap of EUR 2,800 a year (EUR 1,900 for people whose health costs are partly paid or reimbursed by others), but basic health and long-term care contributions above the cap are deducted in full, in which case the other contributions cannot be deducted.",
+        "valence": "neutral",
+        "source_id": "estg-10",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21786,
+          "char_end": 22669,
+          "passage_sha256": "0ec015a8787db25cca7db8f498141f52eacfed4957a75368f350bf0a8fe1374f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
+      },
+      {
+        "id": "DEU-financing-030",
+        "statement": "Private health insurers' premium income across all types of insurance was EUR 48.7 billion in 2023, and comprehensive cover, held by 8.7 million people, provided 65% of it.",
+        "valence": "neutral",
+        "source_id": "pkv-zahlenbericht-2023",
+        "locator": {
+          "page": 3,
+          "char_start": 448,
+          "char_end": 879,
+          "passage_sha256": "eaa1541a03613a53fe4c9ebb319c33c3d504ebcd5a8a2a9eed0c068679b53622"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-financing-031",
+        "statement": "Private insurers put about a third of premiums into capital-funded ageing reserves for the higher costs of old age; these reserves stood at EUR 328 billion at the end of 2023.",
+        "valence": "neutral",
+        "source_id": "pkv-zahlenbericht-2023",
+        "locator": {
+          "page": 3,
+          "char_start": 3118,
+          "char_end": 3357,
+          "passage_sha256": "62e0f695bae00b98d60b1a9e21ab67bf8dbd1e7be67d609ef4864b6deb9de6fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-financing-032",
+        "statement": "Destatis counts employees' social insurance contributions as part of the households' financing share; that share was back near its pre-pandemic level in 2024 (54.7% in 2019) after falling to 49.5% by 2022.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 909,
+          "char_end": 1178,
+          "passage_sha256": "182f976b11beddd64b1354099ecbc46db11eb93c42a9e5ab1672f7cdf9ba0484"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        },
+        "data_year": 2024
       }
     ],
     "covered": [
@@ -1350,6 +1824,23 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
+      },
+      {
+        "id": "DEU-reforms-007",
+        "statement": "The 2026 contribution-stabilisation law raises statutory co-payment amounts and limits by 50% to reflect price and wage growth, with no further automatic indexation.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8044,
+          "char_end": 8269,
+          "passage_sha256": "9b520ed310fb50bff683f69d4fad19b1db7dc292601a8bb73455c953e7ed17d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
       }
     ],
     "us_lessons": [
@@ -1617,6 +2108,100 @@
       "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022",
       "accessed": "2026-11-11",
       "funding_note": "US private foundation focused on health system improvement; data from OECD Health Statistics."
+    },
+    {
+      "id": "bmg-finanzierung-gkv",
+      "title": "Finanzierungsgrundlagen der gesetzlichen Krankenversicherung (web page, as of 26 May 2026)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/finanzierung-gkv.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "breg-rechengroessen-2026",
+      "title": "Rechengrößen in der Sozialversicherung (Beitragsbemessungsgrenzen 2026)",
+      "publisher": "Press and Information Office of the Federal Government",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsbemessungsgrenzen-2386514",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "bmg-bstabg-2026",
+      "title": "Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz (10 July 2026, updated after the Bundesrat vote)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026",
+      "accessed": "2026-11-11",
+      "funding_note": "Ministry announcement of its own reform."
+    },
+    {
+      "id": "destatis-financing-2024",
+      "title": "Private Haushalte finanzieren mehr als die Hälfte der laufenden Gesundheitsausgaben im Jahr 2024 (press release no. 210, 18 June 2026)",
+      "publisher": "Federal Statistical Office (Destatis)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_210_23611.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "destatis-he-2024",
+      "title": "Gesundheitsausgaben im Jahr 2024 auf 538 Milliarden Euro gestiegen (press release no. 115, 2 April 2026)",
+      "publisher": "Federal Statistical Office (Destatis)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_115_23611.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "bmg-pflege-finanzierung",
+      "title": "Finanzierung der sozialen Pflegeversicherung (web page)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/die-pflegeversicherung/finanzierung",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "estg-10",
+      "title": "Einkommensteuergesetz (Income Tax Act), § 10 Sonderausgaben",
+      "publisher": "Federal Ministry of Justice (gesetze-im-internet.de)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gesetze-im-internet.de/estg/__10.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Statute text as currently in force."
+    },
+    {
+      "id": "sgbv-257",
+      "title": "Sozialgesetzbuch V, § 257 Beitragszuschüsse für Beschäftigte",
+      "publisher": "Federal Ministry of Justice (gesetze-im-internet.de)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__257.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Statute text as currently in force."
+    },
+    {
+      "id": "hit-deu-2020",
+      "title": "Germany: Health System Review (Health Systems in Transition 22(6))",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2020,
+      "url": "https://eurohealthobservatory.who.int/publications/i/germany-health-system-review-2020",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/6d80af7c-950d-4f25-8908-722042e43824/content",
+      "accessed": "2026-11-11"
     }
   ],
   "rankings": [

@@ -1,0 +1,3707 @@
+{
+  "iso3": "USA",
+  "name": "United States",
+  "wave": 0,
+  "system_as_of": "2026-11-10",
+  "status": "verified",
+  "model": {
+    "type": "mixed",
+    "label": "Mixed public-private system: employer-based private insurance alongside federal Medicare, federal-state Medicaid and subsidised individual plans, with no guaranteed coverage for all residents"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "USA-overview-003",
+      "USA-overview-005"
+    ],
+    "meets_definition": false
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "USA-overview-001",
+        "statement": "The review describes a US health system that developed largely through the private sector, combining high funding with a distinctively low level of government involvement.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 25,
+          "char_start": 34689,
+          "char_end": 34890,
+          "passage_sha256": "4bb02b262e7e8c5fe1b70cd530c8309025dc1cbe611e536df09d4ac2879ac157"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-overview-002",
+        "statement": "Private interests built the system from the early 1930s; the two big federal programmes came only in the mid-1960s, with Medicare for older people and some disabled people and Medicaid for some low-income people.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 26,
+          "char_start": 37362,
+          "char_end": 37699,
+          "passage_sha256": "71ea23e57ec380487048ba1a42943167b519bc3a83e251b3873cdcd4f4b062ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-overview-003",
+        "statement": "Among the features that set the US apart from peer countries, the review names a historic dislike of central planning and, above all, the lack of any guarantee of insurance coverage.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 32,
+          "char_start": 52387,
+          "char_end": 52745,
+          "passage_sha256": "6f4c5a3175b5deac3fef4c64c789f200d8ebb78ad2712cea1f2f9fecc0bea3f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-overview-004",
+        "statement": "In 2022 employer-sponsored private plans were the biggest source of cover (49% of the population), followed by Medicaid for people on low incomes (21%) and Medicare for older and disabled people (15%).",
+        "valence": "neutral",
+        "source_id": "gupta-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4982,
+          "char_end": 5268,
+          "passage_sha256": "875e0e42031e012a3cb5e66663337ed6d4c1bb8311f16178b11af980f3e7b785"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "USA-overview-005",
+        "statement": "In 2024 population coverage was 78% in Mexico and below 95% in three further countries: Costa Rica, Estonia and the United States.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1, Access",
+          "page": 22,
+          "char_start": 50710,
+          "char_end": 50864,
+          "passage_sha256": "70d8dd0212d0973a68621eb474de8b2d6e02ee46831032629905f3d61cdfab9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-overview-006",
+        "statement": "The share of people without insurance fell after the Affordable Care Act, but about 25 million people were uninsured in 2023; uninsured people tend to be working-age adults with lower education or income.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5, Population coverage",
+          "page": 104,
+          "char_start": 307066,
+          "char_end": 307300,
+          "passage_sha256": "0ee9e25412963b25db28b93d501aebd7642b5471684cdd46eef6dd41c9b513cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-overview-007",
+        "statement": "Hospitals that take Medicare payments, which is nearly every US hospital, are legally required to treat anyone who needs emergency care until their condition is stable.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 29,
+          "char_start": 44454,
+          "char_end": 44673,
+          "passage_sha256": "dac45a7b9144352f3e6642052fc6c980ee764468260c20a6e1abf66fc2616a34"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-overview-008",
+        "statement": "Under the Census Bureau's CPS ASEC measure, which counts a person as uninsured only if they had no coverage at any point in the calendar year, 26.7 million people (7.9%) were uninsured in 2025; 92.1% had cover for at least part of the year, and the uninsured rate did not change significantly from 2024.",
+        "valence": "weakness",
+        "source_id": "census-p60-291",
+        "locator": {
+          "page": 7,
+          "char_start": 11250,
+          "char_end": 11937,
+          "passage_sha256": "f846d72503d5e97618e0ed0ba58c06557868d5ead2807291fab85a11a9881564"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-overview-009",
+        "statement": "Among the civilian noninstitutionalized population in 2025, employment-based insurance was the most common type of cover (53.5%), ahead of Medicare (20.1%), Medicaid (17.1%), directly purchased cover (10.5%), TRICARE (2.8%) and VA and CHAMPVA care (1.2%).",
+        "valence": "neutral",
+        "source_id": "census-p60-291",
+        "locator": {
+          "page": 8,
+          "char_start": 12023,
+          "char_end": 12334,
+          "passage_sha256": "f8c96396ecf7935974060b94f23fb707b9ab83ecf692a71b34336324d69774ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-overview-010",
+        "statement": "The American Community Survey put the national uninsured rate at 8.2% in 2024, a statistically significant rise from 7.9% in 2023.",
+        "valence": "weakness",
+        "source_id": "census-acsbr-024",
+        "locator": {
+          "page": 2,
+          "char_start": 3007,
+          "char_end": 3210,
+          "passage_sha256": "a5d836dc070862274e7858576f21da0773fce8b61b20c7be31c8d29004e167b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-overview-011",
+        "statement": "The National Health Interview Survey estimated that 28.0 million people (8.3%) lacked health insurance when interviewed in 2025, which was not significantly different from 27.2 million (8.2%) in 2024.",
+        "valence": "weakness",
+        "source_id": "nchs-nhis-insur-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 2203,
+          "char_end": 2410,
+          "passage_sha256": "c44349752150596cf41808cf60739962a0badfa77c1e510f95cd3b635c8160c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-overview-012",
+        "statement": "CMS projects that the insured share of the population will slip from 91.8% in 2024 to 90.5% in 2034.",
+        "valence": "weakness",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Projected NHE, 2025-2034",
+          "char_start": 2313,
+          "char_end": 2422,
+          "passage_sha256": "4c0cdda61c4823ecec87a52e644af5d95237f5e80e56990aaf5bc9dd44819de7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "USA-financing-001",
+        "statement": "Federal and state programmes paid for about 28% of health spending in 2023; a further 55% went through compulsory insurance schemes, a mix of public arrangements and private cover treated as compulsory under the Affordable Care Act.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Financing of health care",
+          "page": 162,
+          "char_start": 500982,
+          "char_end": 501289,
+          "passage_sha256": "dfc71882f28ac620fac751aaf97cc705c3cc417715a13a3cb10fc729e7c6fe78"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-financing-002",
+        "statement": "Government and compulsory schemes together account for 83% of US health spending, yet public funding makes up only 54%, because compulsory private insurance does not count as public spending.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Financing of health care",
+          "page": 164,
+          "char_start": 508631,
+          "char_end": 508950,
+          "passage_sha256": "efa6167375f56de13ad9637c1882e28f11c5a6e7993978e48014371a8525d50d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-003",
+        "statement": "Public sources pay just under half of US health spending, private third-party payers about 40%, and individuals the remaining 11% out of pocket.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 26,
+          "char_start": 38007,
+          "char_end": 38206,
+          "passage_sha256": "a987b8f2319bd6221c6c828d72a2e80c531cecd351ece369713cf0eeedcafe96"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-004",
+        "statement": "Under FICA, the current Medicare (hospital insurance) tax rate is 1.45% for the employer and 1.45% for the employee, 2.9% in total.",
+        "valence": "neutral",
+        "source_id": "irs-tc751",
+        "locator": {
+          "section": "Social Security and Medicare withholding rates",
+          "char_start": 464,
+          "char_end": 989,
+          "passage_sha256": "560d319a48c8345d13d41fa753b24bc22e615db3b74a43231c1e42b2f24d50f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-005",
+        "statement": "Medicaid is jointly financed by the federal government and each state from general revenues; eligibility and some benefits differ from state to state, and it covered 74 million people (27%) in 2017.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Table 3.5",
+          "page": 152,
+          "char_start": 304311,
+          "char_end": 305587,
+          "passage_sha256": "30a4c14b2da8e46855b16367597635b87354edbc2f98e57c23a754a4c35da502"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "USA-financing-006",
+        "statement": "Employer-sponsored insurance, paid for through employer and employee premiums, covered 151 million people (46% of the population) in 2017.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Table 3.5",
+          "page": 152,
+          "char_start": 305052,
+          "char_end": 305587,
+          "passage_sha256": "0e2947b83111a8257f5dfdd502e87914ab29f294b0fca72dad8a92354321e71f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "USA-financing-007",
+        "statement": "Unlike the Social Security tax, which in 2026 applies only to the first $184,500 of earnings, the Medicare payroll tax has no earnings ceiling: every dollar of covered wages is taxed.",
+        "valence": "neutral",
+        "source_id": "irs-tc751",
+        "locator": {
+          "section": "Wage base limits",
+          "char_start": 1844,
+          "char_end": 2213,
+          "passage_sha256": "3d10a162f5089a34e3990e938c8ec773778d25b224ad85512a1863c54de86484"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-008",
+        "statement": "Workers whose wages exceed a threshold that depends on filing status pay an extra 0.9% Additional Medicare Tax; employers start withholding it once a worker's pay passes $200,000 in the year, and employers pay no matching share.",
+        "valence": "neutral",
+        "source_id": "irs-tc751",
+        "locator": {
+          "section": "Additional Medicare tax withholding rate",
+          "char_start": 1112,
+          "char_end": 1709,
+          "passage_sha256": "c7e1bdd349e50279310f2a48ff34ae97a54bbd81daf051d7733be4b19f15b037"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-009",
+        "statement": "The Additional Medicare Tax threshold is $250,000 for married couples filing jointly, $125,000 for married people filing separately and $200,000 for single filers and heads of household.",
+        "valence": "neutral",
+        "source_id": "irs-addl-medicare",
+        "locator": {
+          "section": "Who must pay Additional Medicare Tax?",
+          "char_start": 1381,
+          "char_end": 1842,
+          "passage_sha256": "aa3522057a2793afa782be5d970d64e9c443c2d54dff004fbe170fb8ad0f9276"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-010",
+        "statement": "Medicare's trust funds took in $1,226.2 billion in 2025: $572.9 billion in government contributions, $403.2 billion in payroll taxes, $171.5 billion in premiums, $41.1 billion from taxation of benefits, $19.1 billion in payments from states, and small amounts of interest and other income.",
+        "valence": "neutral",
+        "source_id": "cms-trustees-2026",
+        "locator": {
+          "table": "Table II.B1, calendar year 2025, Total column",
+          "page": 18,
+          "char_start": 30636,
+          "char_end": 31050,
+          "passage_sha256": "c88352f3cc4d5ee4996d221e19ede8116e56bde06ac14224724b1adda50526c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-financing-011",
+        "statement": "Medicare's hospital insurance (HI) is generally compulsory and paid for mainly through payroll taxes, whereas both parts of Supplementary Medical Insurance (SMI) are voluntary and paid for mostly by enrollee premiums and transfers from the Treasury's general fund.",
+        "valence": "neutral",
+        "source_id": "cms-trustees-2026",
+        "locator": {
+          "section": "II.F SMI Financial Outlook",
+          "page": 40,
+          "char_start": 75545,
+          "char_end": 75773,
+          "passage_sha256": "3e8d6a5671a3a778e1efab3d4df5c9cf08368f0c112c9923303698eaa5824dd8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-012",
+        "statement": "Government contributions to Medicare's Supplementary Medical Insurance (SMI) trust fund equalled 17.6% of federal personal and corporate income tax revenue in fiscal year 2025, up from 16.1% in 2024 and 5.4% in 2000.",
+        "valence": "neutral",
+        "source_id": "cms-trustees-2026",
+        "locator": {
+          "table": "Table II.F3, historical data, fiscal years 2000, 2024 and 2025",
+          "page": 49,
+          "char_start": 92122,
+          "char_end": 92441,
+          "passage_sha256": "56293a013bd91605799f11eec1f1aaeca7cb4465a0bf11549339278f91d61144"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-financing-013",
+        "statement": "The standard Medicare Part B premium is $202.90 a month in 2026, up $17.90 from 2025, and the annual Part B deductible is $283.",
+        "valence": "neutral",
+        "source_id": "cms-premiums-2026",
+        "locator": {
+          "section": "Medicare Part B Premium and Deductible",
+          "char_start": 3020,
+          "char_end": 3293,
+          "passage_sha256": "ed10988507cbcecb01afce2cff5d8a53856c4025a42cc67eb6495fab31512a15"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-financing-014",
+        "statement": "About 99% of Medicare beneficiaries pay no Part A premium, because they have at least 40 quarters of Medicare-covered employment.",
+        "valence": "neutral",
+        "source_id": "cms-premiums-2026",
+        "locator": {
+          "section": "Medicare Part A Premium and Deductible",
+          "char_start": 702,
+          "char_end": 896,
+          "passage_sha256": "5569e1933cd0da739f80669604bb15eb0271559c683349cc7c51b477f9c85b92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-financing-015",
+        "statement": "Part B premiums have depended on income since 2007; the income-related surcharges apply to roughly 8% of Part B enrollees.",
+        "valence": "neutral",
+        "source_id": "cms-premiums-2026",
+        "locator": {
+          "section": "Medicare Part B Income-Related Monthly Adjustment Amounts",
+          "char_start": 4199,
+          "char_end": 4384,
+          "passage_sha256": "02049d4c26c7ec22487ed160d838e2d4412d01713e4bd3c3783b9f87e1aa454a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-financing-016",
+        "statement": "The federal government paid about 64.5% of Medicaid spending nationally in fiscal year 2024 (preliminary MACPAC estimate), a figure that still includes a temporary pandemic-era increase in the first quarter of that year.",
+        "valence": "neutral",
+        "source_id": "macpac-financing-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 2788,
+          "char_end": 3118,
+          "passage_sha256": "4871443089d5c085866612e77e44bd6dd4b32cf4d596ae454c1d2335a184753c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-financing-017",
+        "statement": "For most Medicaid services, the federal share in each state is set by a formula that pays more to states with lower per capita income; HHS computes it a year ahead from three years of income data, and the law keeps it between 50% and 83%.",
+        "valence": "neutral",
+        "source_id": "macpac-financing-2025",
+        "locator": {
+          "section": "FMAP",
+          "page": 2,
+          "char_start": 3815,
+          "char_end": 4581,
+          "passage_sha256": "364315cac67d36b303322ff2d3b670008f5b7a67c7e213bb70509ae3d58295b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-018",
+        "statement": "For adults made newly eligible by the ACA Medicaid expansion, the federal government paid 100% of costs in 2014-2016, phasing down to 90% from 2020 onward.",
+        "valence": "neutral",
+        "source_id": "macpac-financing-2025",
+        "locator": {
+          "section": "Exceptions to standard match: Medicaid expansion population",
+          "page": 2,
+          "char_start": 6760,
+          "char_end": 7093,
+          "passage_sha256": "0a91ec6dc3144e7f60bf37b1a2ff8db00f9bb8f7bda563bfb1b62f4361cea0eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-019",
+        "statement": "States can raise their share of Medicaid costs from state general revenue, contributions from local governments and permitted health care-related taxes; at least 40% of it must come from the state, and up to 60% may come from local governments.",
+        "valence": "neutral",
+        "source_id": "macpac-financing-2025",
+        "locator": {
+          "section": "State Funding Sources",
+          "page": 4,
+          "char_start": 12987,
+          "char_end": 13427,
+          "passage_sha256": "8f9583675d894abee14319ac35f85871080fe5906e5f48645a1edb1391a38378"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-020",
+        "statement": "Public Law 119-21 tightens the safe harbor for Medicaid provider taxes: new provider taxes get a zero threshold, existing arrangements keep their current tax rate as the safe harbor, and expansion states face a phase-down of the threshold starting in 2028.",
+        "valence": "neutral",
+        "source_id": "macpac-financing-2025",
+        "locator": {
+          "section": "Health care-related taxes",
+          "page": 5,
+          "char_start": 16846,
+          "char_end": 17159,
+          "passage_sha256": "0040dd8b7256f67e0098e4ac37e26df277f38dca2042acbad2c36da961936248"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-021",
+        "statement": "CMS also tracks health spending by 'sponsor', meaning whoever is ultimately responsible for paying the bill (businesses, households or governments), whether they pay through premiums, out-of-pocket costs, dedicated taxes or general revenues.",
+        "valence": "neutral",
+        "source_id": "cms-nhe-highlights",
+        "locator": {
+          "section": "Health Spending by Type of Sponsor, footnote 1",
+          "page": 4,
+          "char_start": 12496,
+          "char_end": 12802,
+          "passage_sha256": "aed655c202f6fe7180a7a92e5d919faeb637365d70d7b0c2982948e1fc078c0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-022",
+        "statement": "By sponsor, the federal government financed 31% of US health spending in 2024 ($1.7 trillion); its spending grew 5.5% that year, driven by rapidly growing Marketplace tax credits and subsidies and by federal Medicare spending.",
+        "valence": "neutral",
+        "source_id": "cms-nhe-highlights",
+        "locator": {
+          "section": "Health Spending by Type of Sponsor",
+          "page": 4,
+          "char_start": 10098,
+          "char_end": 10737,
+          "passage_sha256": "9faa74a54a36aa914ac1961f7b3f5c897e0d0005010e1a2a46fb136cdda045ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-financing-023",
+        "statement": "Households financed 28% of 2024 health spending ($1.5 trillion), through Medicare premiums and payroll taxes paid by individuals, individually bought insurance, out-of-pocket payments and workers' contributions to employer insurance.",
+        "valence": "neutral",
+        "source_id": "cms-nhe-highlights",
+        "locator": {
+          "section": "Health Spending by Type of Sponsor",
+          "page": 4,
+          "char_start": 10740,
+          "char_end": 11352,
+          "passage_sha256": "fff7175c9f1e798dcfd002aebbae0ab5e842c2cd8e415135d2cfd707baaa3704"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-financing-024",
+        "statement": "Private businesses financed 18% of 2024 health spending ($967.4 billion); of spending on employer-sponsored insurance, employers paid 72% and households 28%, a split that has changed little in recent years.",
+        "valence": "neutral",
+        "source_id": "cms-nhe-highlights",
+        "locator": {
+          "section": "Health Spending by Type of Sponsor",
+          "page": 4,
+          "char_start": 11355,
+          "char_end": 11719,
+          "passage_sha256": "5500fb40d8cf1d344ca6ad64a5b7dac50d2428a56ad6490089d8b70a22dc4f9d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-financing-025",
+        "statement": "State and local governments financed 16% of 2024 health spending ($859.7 billion); states' share of Medicaid payments made up 39% of that spending and grew fast in 2023 and 2024 as the temporary pandemic increase in federal Medicaid funding was phased out.",
+        "valence": "neutral",
+        "source_id": "cms-nhe-highlights",
+        "locator": {
+          "section": "Health Spending by Type of Sponsor",
+          "page": 4,
+          "char_start": 11874,
+          "char_end": 12493,
+          "passage_sha256": "47d70c408d4ee3a4e5fedffe6e4596d1a9912dceab0da040d17803f23c3e3167"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-financing-026",
+        "statement": "In 2025 the average annual premium for employer-sponsored insurance was $9,325 for single coverage and $26,993 for family coverage, up 5% and 6% respectively from 2024.",
+        "valence": "neutral",
+        "source_id": "kff-ehbs-2025",
+        "locator": {
+          "section": "Summary of Findings: Health insurance premiums and worker contributions",
+          "char_start": 3237,
+          "char_end": 3487,
+          "passage_sha256": "b955cbf6b113afab3a9d28f6fdd59724a212e17e039b6246fc5f77a7a5080afa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-financing-027",
+        "statement": "In 2025 covered workers contributed on average 16% of the premium for single coverage ($1,440 a year) and 26% for family coverage ($6,850 a year).",
+        "valence": "neutral",
+        "source_id": "kff-ehbs-2025",
+        "locator": {
+          "section": "Section 6: Worker and employer contributions for premiums",
+          "char_start": 165081,
+          "char_end": 165907,
+          "passage_sha256": "75de445be1dabd5d7072390c45b2e2cd723a8922df7bbea935f86878db2c3b99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-financing-028",
+        "statement": "Employer-paid health insurance premiums and other employer-paid medical costs are left out of workers' taxable income even though employers deduct them as a business expense; Treasury measures this against a baseline under which all compensation, in-kind benefits included, would be taxed.",
+        "valence": "neutral",
+        "source_id": "treasury-te-fy2027",
+        "locator": {
+          "section": "Health, item 130",
+          "page": 18,
+          "char_start": 103116,
+          "char_end": 103619,
+          "passage_sha256": "1e34f97dfd1715ef01757d3d709a8b9e69ee0ec9be93397728273a9139ba1c26"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financing-029",
+        "statement": "Treasury estimates that excluding employer contributions for health insurance premiums and medical care from income tax costs $295.7 billion in fiscal year 2026 ($279.2 billion in 2025), rising to $474.0 billion in 2035.",
+        "valence": "neutral",
+        "source_id": "treasury-te-fy2027",
+        "locator": {
+          "table": "Table 1, line 130, fiscal years 2025, 2026 and 2035 ($ millions)",
+          "page": 25,
+          "char_start": 150155,
+          "char_end": 150604,
+          "passage_sha256": "a27ca1ac65f418ff35e15307168787b3b4accb145b71a784b83e04b79cb74fd7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-financing-030",
+        "statement": "In addition to the income tax effect, Treasury puts the effect of employer health contributions on payroll tax receipts at $182.6 billion in fiscal year 2026.",
+        "valence": "neutral",
+        "source_id": "treasury-te-fy2027",
+        "locator": {
+          "table": "Table 1, footnote 6, fiscal year 2026",
+          "page": 26,
+          "char_start": 158383,
+          "char_end": 158540,
+          "passage_sha256": "1e3bc8ce2ef34df7b53e7a6e18fb9d51e3b0d94879ee21a4da45306fcea8dc9d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-financing-031",
+        "statement": "Treasury also lists tax expenditures for self-employed people's medical insurance premiums, estimated at $9.5 billion in fiscal year 2026, and for Medical Savings Accounts and Health Savings Accounts, estimated at $14.9 billion.",
+        "valence": "neutral",
+        "source_id": "treasury-te-fy2027",
+        "locator": {
+          "table": "Table 1, lines 131-132, fiscal year 2026 ($ millions)",
+          "page": 25,
+          "char_start": 150615,
+          "char_end": 151068,
+          "passage_sha256": "ae42343e886f7fa3f785c000f953e11f01a56db088c93a1e0e7591f1845b7a79"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-financing-032",
+        "statement": "The OECD's split of health spending groups government schemes with compulsory ones, including mandatory private insurance; because of data limits, US voluntary private insurance is counted with employer-based private insurance, which the ACA currently mandates.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Health expenditure per capita: Definition and comparability",
+          "page": 156,
+          "char_start": 484137,
+          "char_end": 484459,
+          "passage_sha256": "d7f3fa7075af9525ab785c4569b2c8deffb92e5b60862e09e55b0acf9025dc52"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "USA-covered-001",
+        "statement": "Medicare covered 58.5 million people in 2017 (18% of the population): people aged 65 and over, some disabled people and people with kidney failure.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Table 3.5",
+          "page": 151,
+          "char_start": 303176,
+          "char_end": 303535,
+          "passage_sha256": "9f2c179a6b9d85c9298ebc8c4600bbbb535b9d309d8d14f45a66ab13a3594211"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "USA-covered-002",
+        "statement": "Medicaid generally pays for hospital, physician and long-term care, while dental, vision and prescription drug cover varies by state; eligibility also varies by state but broadly includes low-income pregnant women, children, disabled people, seniors and parents of dependent children.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Table 3.5",
+          "page": 152,
+          "char_start": 304311,
+          "char_end": 304678,
+          "passage_sha256": "dd21ffc7f201a30709f986a91f3ae096bea5c1f6b0e9ab6cf23772c0bc3f0cd3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-003",
+        "statement": "The ACA also addresses underinsurance, giving insured people more protection against cover that is too limited or inadequate, or that is cancelled once they fall ill.",
+        "valence": "strength",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 31,
+          "char_start": 48929,
+          "char_end": 49134,
+          "passage_sha256": "8117a5428ed9af23924df222f9b2373e43ee358e495b90646bf16b801a3cf547"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-004",
+        "statement": "The ACA also bars Medicare from using cost-benefit analysis in clinical practice or payment, and contains a ban on residents buying and importing cheaper medicines from abroad.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 31,
+          "char_start": 49814,
+          "char_end": 50115,
+          "passage_sha256": "51d6135163477ef8cad5526a018670bf8153af8419583b6934f6198fd7fcf190"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-005",
+        "statement": "Traditional Medicare uses prior authorization very little and limits coverage mainly by refusing claims after care is given, whereas private insurers may require prior approval in Medicare Advantage and Part D drug plans.",
+        "valence": "neutral",
+        "source_id": "gupta-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 12603,
+          "char_end": 12848,
+          "passage_sha256": "45741ab3f4751ee010deea93c40ac4274c0d4fb701e9b2e9367eb1213e73d1be"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-006",
+        "statement": "Medicare Advantage insurers must follow Medicare's coverage determinations, but many services are covered by Medicare implicitly, without any formal determination.",
+        "valence": "neutral",
+        "source_id": "gupta-2024",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 34460,
+          "char_end": 34670,
+          "passage_sha256": "dbe39e5c73d8380891c87cb57411283167c38a46a6ab6b0e193165d81bb17199"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-007",
+        "statement": "The federal claim-denial data analysed by KFF cover only claims submitted after care was given; denied prior authorization requests, which are decided before care, are not included.",
+        "valence": "neutral",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 3668,
+          "char_end": 4005,
+          "passage_sha256": "7b028a46e8fdd9d697f7d999ca2a22ba9be9b6f1c8290ea7b6216c8fdb9c8e1b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-covered-008",
+        "statement": "Under the ACA, insurers must report transparency data for every non-grandfathered plan, whether sold on or off the Marketplace; reporting began only partially with the 2015 plan year and so far covers plans on HealthCare.gov (including state marketplaces that use it), leaving out other state-based marketplaces and group health plans.",
+        "valence": "neutral",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 759,
+          "char_end": 1381,
+          "passage_sha256": "7982f5de712d7ac42e69e80409a98b1f2b6c87baab9ec850fb4d0fe157cae7e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "USA-cost_sharing-001",
+        "statement": "About one American in ten has no insurance, and for many with insurance, high out-of-pocket costs can still stand in the way of timely care and medicines.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 39369,
+          "char_end": 39519,
+          "passage_sha256": "81277e974e527c902c8fa99a033c30206edcd908a8c86d5f8d08552cf89ef0a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-cost_sharing-002",
+        "statement": "In 2019, 44% of insured employees were in preferred provider organization plans, 26% in HMOs or similar plans, and 30% in high-deductible plans with a savings option.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 39217,
+          "char_end": 39368,
+          "passage_sha256": "92a5dcc4020f98f14f98e2d8a8dbeed008e4a4297bec1825c840aa751ddb70a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "USA-cost_sharing-003",
+        "statement": "Real out-of-pocket spending has risen over four decades, and the US has consistently been near the top of high-income countries for out-of-pocket spending per person.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 39890,
+          "char_end": 40085,
+          "passage_sha256": "580e3b48df131702b0b0df09e2f02e379a821542726857b6297ac4199062944b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-cost_sharing-004",
+        "statement": "Doctors who accept the Medicare payment as full payment may not bill patients anything beyond the deductible and co-payment.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Box 3.5",
+          "page": 198,
+          "char_start": 412032,
+          "char_end": 412198,
+          "passage_sha256": "1634991265d0ea9adf09033f34cc290cc9f450d0e1fce395fb30be0065211bf6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-cost_sharing-005",
+        "statement": "Although US doctors are paid mainly by fee-for-service, consultation rates are relatively low, which may partly reflect the high co-payments many people face, deterring them from seeing a doctor.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6, Doctor consultations",
+          "page": 116,
+          "char_start": 351643,
+          "char_end": 351930,
+          "passage_sha256": "0627d6aedf15a7519e6b547162f911cb332bdb2d4be9dcc20775085ea41b4195"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-cost_sharing-006",
+        "statement": "In 2024, 23% of adults aged 19-64 had insurance all year but were underinsured, which the Commonwealth Fund defines as out-of-pocket costs (excluding premiums) of at least 10% of household income, or 5% for those below 200% of poverty, or a deductible of at least 5% of income.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024-exhibits",
+        "locator": {
+          "section": "Exhibit 1",
+          "page": 1,
+          "char_start": 329,
+          "char_end": 1140,
+          "passage_sha256": "10366fcf04a99c798de3772dea22c979ba641e95c9058f6e8168db3279712b92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "USA-financial_hardship-001",
+        "statement": "Over a third of working-age adults who were uninsured or underinsured were paying off medical or dental debt; among adults with medical debt, 48% owed $2,000 or more and 21% owed $5,000 or more.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024",
+        "locator": {
+          "section": "News release, p. 2",
+          "page": 2,
+          "char_start": 2517,
+          "char_end": 2853,
+          "passage_sha256": "a3f2ef9e2ac683271fc9d935e13ab5095a44b3dd0a34c89cc3598ed80783f64b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-002",
+        "statement": "Credit-report data show that in June 2020 an estimated 17.8% of people had medical debt in collections (13.0% took on new debt in the prior year); the study reports a mean amount of $429 ($311 accrued in the prior year).",
+        "valence": "weakness",
+        "source_id": "kluender-2021",
+        "locator": {
+          "section": "Abstract (PMC full text)",
+          "char_start": 5122,
+          "char_end": 5537,
+          "passage_sha256": "5e60af3da7d8b7c77d7a9960f8f0657208d89ab7405999551d42d51c96c17665"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "USA-financial_hardship-003",
+        "statement": "In June 2020 the mean stock of medical debt ranged from $616 in the South to $167 in the Northeast, and was higher in poor than in rich zip-code income deciles ($677 vs $126).",
+        "valence": "weakness",
+        "source_id": "kluender-2021",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 5362,
+          "char_end": 5744,
+          "passage_sha256": "afb01aa04ab0e070b836c0c6b185a64787e4591285dae413af0aecfe55b3826f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "USA-financial_hardship-004",
+        "statement": "More than 100 million Americans are estimated to hold about $220 billion of medical debt, with a quarter of them owing over $5000.",
+        "valence": "weakness",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4547,
+          "char_end": 4723,
+          "passage_sha256": "31a4b55dae381a6deb753d592d9ab401028346e0b39a8afc46daf66782cadbac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-005",
+        "statement": "Medical bankruptcy, self-reported 'contributing factor' definition: according to Debt's Grip, 65% of bankruptcy filers name medical costs as one factor contributing to their filing; of these, 30% said medical expenses alone were a reason.",
+        "valence": "weakness",
+        "source_id": "sickler-ablj-2025",
+        "locator": {
+          "section": "III. Medical debt (review of Debt's Grip, ch. 4)",
+          "page": 13,
+          "char_start": 34430,
+          "char_end": 34790,
+          "passage_sha256": "838728840e93e456ef6fb3a90b08b713a606a4cfe12a83e5ce15cf4308b3dfba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "USA-financial_hardship-006",
+        "statement": "Debt's Grip, the latest round of the CBP's research on bankruptcy filers, uses court records for 8,800 households that filed for bankruptcy from 2013 to 2023, together with a survey asking those households about their situation and why they filed.",
+        "valence": "neutral",
+        "source_id": "sickler-ablj-2025",
+        "locator": {
+          "section": "III. Methodology",
+          "page": 9,
+          "char_start": 24909,
+          "char_end": 25611,
+          "passage_sha256": "f9a1b80a0ff4f2ea638f1ff5357a29004686a853234582ee74a00fde22457923"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "USA-financial_hardship-007",
+        "statement": "Medical bankruptcy, 'attributable' definition: about two-thirds (66.5%) of all personal bankruptcies are put down to medical debt, whether through high costs or lost income.",
+        "valence": "weakness",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4726,
+          "char_end": 4856,
+          "passage_sha256": "421ef6efc73320b07cb694587dbbed658a74e634577549c0337dcf314da17d84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-008",
+        "statement": "Medical debt and bankruptcy after injury, difference-in-differences estimate against matched controls: using a statewide trauma registry linked to 2019-2021 credit reports, 12,823 people hospitalized for traumatic injury were compared with 25,195 matched people not yet injured; at 18 months after injury the share with medical debt in collections was up 5.2 percentage points (a 24% relative increase), and bankruptcy filings peaked 15 months after injury at 3.2 more per 1,000 people (a 6% relative increase).",
+        "valence": "weakness",
+        "source_id": "scott-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1866,
+          "char_end": 2615,
+          "passage_sha256": "36755650fef87369b99bc5418041a631205e82af16cf7155a8bce4b5ed430343"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "USA-financial_hardship-009",
+        "statement": "A critique of the survey studies of bankruptcy filers, which counted a filing as medical whenever the filer reported large medical bills or illness-related income loss, calls that assumption questionable: a 2014 Consumer Financial Protection Bureau report found about 20% of Americans carry substantial medical debt, yet fewer than 1% file for bankruptcy in a given year.",
+        "valence": "neutral",
+        "source_id": "dobkin-2018",
+        "locator": {
+          "section": "Main text",
+          "char_start": 2684,
+          "char_end": 3462,
+          "passage_sha256": "71b0726c6761c0bbc0aae9bd5ad5d121b2f863da9df1da861c84d428d1652c4e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-010",
+        "statement": "The CFPB counted $88 billion of medical debt on consumer credit records as of June 2021, and said the full amount in collections is likely higher because not every medical debt in collections is reported to the credit bureaus.",
+        "valence": "weakness",
+        "source_id": "cfpb-medburden-2022",
+        "locator": {
+          "section": "Executive Summary",
+          "page": 3,
+          "char_start": 2182,
+          "char_end": 2441,
+          "passage_sha256": "cacfc18602b851810797cc48442a93e8acb6ad30e8211a0720ced51f5a0298ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-financial_hardship-011",
+        "statement": "As of 2021, medical bills accounted for 58% of all third-party collection items on credit records, more than any other kind of debt; telecommunications debt was next at 15%.",
+        "valence": "weakness",
+        "source_id": "cfpb-medburden-2022",
+        "locator": {
+          "section": "Executive Summary",
+          "page": 3,
+          "char_start": 2614,
+          "char_end": 2892,
+          "passage_sha256": "11ee10aca803e2d0f31d55728cf274f21814e5285512638e54d7c43140ee929f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-financial_hardship-012",
+        "statement": "The proportion of consumers whose credit files listed medical collections dropped from roughly 14% in March 2022 to roughly 5% in June 2023, according to CFPB research.",
+        "valence": "neutral",
+        "source_id": "cfpb-medcollections-2024",
+        "locator": {
+          "section": "Summary",
+          "char_start": 1393,
+          "char_end": 1558,
+          "passage_sha256": "b6581a47af3b0385fc5b35f01748f095a946a886871b765258b20894b3c78c49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-financial_hardship-013",
+        "statement": "Medical debt, survey definition (Census SIPP; adults owing more than $250 in unpaid medical bills as of December 2021): about 20 million people, nearly one adult in 12, had such debt, and the survey implies at least $220 billion owed in total.",
+        "valence": "weakness",
+        "source_id": "pkff-meddebt",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 1825,
+          "char_end": 2331,
+          "passage_sha256": "d077f8017534302ad28e05639ca9fa75b6e5ae9fba9a1df3f2fe64cb0727cde5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-financial_hardship-014",
+        "statement": "Debt's Grip also finds that filers with health insurance can still build up medical debts beyond their means through high deductibles, co-payments and other out-of-pocket costs, above all when they have a chronic illness or face a sudden health crisis.",
+        "valence": "weakness",
+        "source_id": "sickler-ablj-2025",
+        "locator": {
+          "section": "III. Medical debt (review of Debt's Grip, ch. 4)",
+          "page": 14,
+          "char_start": 36507,
+          "char_end": 36785,
+          "passage_sha256": "fa65f47da8d25cfb71d339629d6f4b34f6d8fc2487bd31a0373a627766a09e8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "USA-financial_hardship-015",
+        "statement": "Medical debt after cancer, matched comparison: a Massachusetts study covering 2010-2019 compared 74,146 people diagnosed with cancer with as many matched controls; medical debt in collections worsened for years after diagnosis, whereas total debt, overall collections debt, credit scores and bankruptcy rates were no different from controls.",
+        "valence": "weakness",
+        "source_id": "uppal-2025",
+        "locator": {
+          "section": "Key Points: Findings",
+          "char_start": 4245,
+          "char_end": 5163,
+          "passage_sha256": "f590a9985ed5ad9f24e51d8a2a4084a820d7e5fb71c8e3d13657fae21191a96f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2010-2019"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "USA-additional_care-001",
+        "statement": "Medicare Advantage (Part C) lets beneficiaries get Medicare benefits through a private plan, which may charge a premium and may add drug, vision, hearing or dental cover; 32% of Medicare beneficiaries were in such plans in 2017.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Table 3.5",
+          "page": 151,
+          "char_start": 303176,
+          "char_end": 304023,
+          "passage_sha256": "11a39e5d921b190af32e651e57eee13ea0cd21d63a98f5341663def97fa2676d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "USA-additional_care-002",
+        "statement": "Individually bought private insurance covered 22 million people (7%) in 2017; about half of these policies were bought on the ACA exchanges, and more than 80% of exchange policies received federal premium subsidies.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Table 3.5",
+          "page": 152,
+          "char_start": 305325,
+          "char_end": 305730,
+          "passage_sha256": "453d759d0a7c0355c547b929c4981d58c9f102f4b8ce5bd4ac10fd19d5d7fb42"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2017
+      }
+    ],
+    "access": [
+      {
+        "id": "USA-access-001",
+        "statement": "In the Commonwealth Fund's September 2024 comparison of 10 nations, Americans faced the most barriers to getting and paying for care.",
+        "valence": "weakness",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Exhibit 5",
+          "page": 5,
+          "char_start": 3367,
+          "char_end": 3518,
+          "passage_sha256": "8c448cfc2c53e0de9a872a097d491c2d768577e186da5c161a605e78af8682ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-002",
+        "statement": "In 2024, 9% of adults aged 19-64 were uninsured when surveyed and another 12% were insured but had been without coverage at some point in the previous 12 months.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024-exhibits",
+        "locator": {
+          "section": "Exhibit 1",
+          "page": 1,
+          "char_start": 701,
+          "char_end": 1192,
+          "passage_sha256": "ce3440f119807f685e558bb8921d7d0e2686b01035fd99d9cf62c7e987679b77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-003",
+        "statement": "Of adults aged 19-64 in 2024, 48% reported at least one of four cost-related problems getting care (such as not filling a prescription); the share was 36% for the adequately insured, 57% for the underinsured and 70% for those uninsured at some point in the year.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024-exhibits",
+        "locator": {
+          "section": "Exhibit 3",
+          "page": 3,
+          "char_start": 2587,
+          "char_end": 3707,
+          "passage_sha256": "20c3f9aee793ffbec1448c605ccd2a5f4742f45f3257e9f2ae8fbf09f1941d87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-004",
+        "statement": "Uninsured people often lack a regular primary care provider and rely instead on community health centres and hospital emergency departments, which undermines continuity of care.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 29,
+          "char_start": 44031,
+          "char_end": 44311,
+          "passage_sha256": "59e7f1542414b208a3f9d910b2cb48b7475c7374799161e22cd6ba1d52109d73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-005",
+        "statement": "The workforce is unevenly distributed: a disproportionate number of specialists relative to primary care physicians, physician-to-population ratios varying by more than 50% between regions with greater shortages in rural areas, and underrepresentation of African Americans, Latinos and American Indians.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 28,
+          "char_start": 42379,
+          "char_end": 42955,
+          "passage_sha256": "18f4e0931c8adf6d8950b083c615beebe597b05bcf88ebb4489c6c2a4e630052"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-006",
+        "statement": "The US is among the non-European OECD countries with relatively few doctors compared with the OECD average.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 8, Doctors",
+          "page": 182,
+          "char_start": 562778,
+          "char_end": 562959,
+          "passage_sha256": "b9e8cca1fc0e103b75cc9abbc243d31929ec5933cb359b53d769cba2480e8462"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-007",
+        "statement": "The US is one of four OECD countries with more than four nurses for every doctor.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 8, Nurses",
+          "page": 190,
+          "char_start": 592321,
+          "char_end": 592540,
+          "passage_sha256": "f76c1c3b66128226707ec6c81bf0412ec2bcaf6dfbf30a7cfca58a5cba0a0883"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-008",
+        "statement": "The US had the second-highest numbers of MRI units and PET scanners, behind Japan for MRI units and Denmark for PET scanners.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 9, Medical technologies",
+          "page": 214,
+          "char_start": 668437,
+          "char_end": 668747,
+          "passage_sha256": "16d462a1896b639ad43576180f603619df36aeb6249bc9c9c090a50a97135c60"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-009",
+        "statement": "In 2025, 11.0% of adults aged 19-64 had no health insurance (CPS ASEC), not significantly different from 2024; the rate was 8.9% for native-born and 19.4% for foreign-born working-age adults, and 28.9% for foreign-born working-age non-citizens.",
+        "valence": "weakness",
+        "source_id": "census-p60-291",
+        "locator": {
+          "page": 14,
+          "char_start": 35973,
+          "char_end": 36534,
+          "passage_sha256": "57362adb0e6ae2ee3c8bb7f528effc46db3c889649ebb22665108fb4bce7f4c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-access-010",
+        "statement": "In 2024 the share of people without insurance varied widely by state, from 2.8% in Massachusetts to 16.7% in Texas (American Community Survey).",
+        "valence": "weakness",
+        "source_id": "census-acsbr-024",
+        "locator": {
+          "page": 2,
+          "char_start": 3679,
+          "char_end": 3792,
+          "passage_sha256": "eb12cb6eba0053e733185afda221717b6920e54a486f156c3fd0bbf0569faac3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-access-011",
+        "statement": "In states that had not expanded Medicaid, 18.1% of adults were uninsured in 2025 (down from 20.4% in 2021, and not significantly different from 2024); adults in expansion states were less likely to be uninsured and more likely to have public cover.",
+        "valence": "weakness",
+        "source_id": "nchs-nhis-insur-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 15403,
+          "char_end": 15892,
+          "passage_sha256": "5c5d033e58eeacf6847d8c4a6d4c19f6a4d097cd7f2228575d404dc8d62d91c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-access-012",
+        "statement": "The share of adults aged 18-64 without insurance fell from 13.5% in 2021 to 11.6% in 2025, the same rate as in 2024 (National Health Interview Survey).",
+        "valence": "strength",
+        "source_id": "nchs-nhis-insur-2025",
+        "locator": {
+          "page": 2,
+          "char_start": 4119,
+          "char_end": 4354,
+          "passage_sha256": "d540709c712993025e049b6dfa966cf1a4a947f06f2ef22f62f954eefec80b85"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-access-013",
+        "statement": "In NCHS's early-release estimates for 2025, 6.0% did not get needed medical care in the past 12 months because of cost, 5.4% did not get needed mental health care because of cost, and 7.5% did not take medication as prescribed in order to save money.",
+        "valence": "weakness",
+        "source_id": "nchs-nhis-er-2025",
+        "locator": {
+          "table": "Selected key health indicators, Health care access rows, Jan-Dec 2025 column",
+          "page": 1,
+          "char_start": 2758,
+          "char_end": 3114,
+          "passage_sha256": "5911d43ba83144e3bab651b03f2950e1a4dace220d9d73513c3dd21f6f8617ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "USA-outcomes-001",
+        "statement": "Average life expectancy at birth across the OECD was 81.1 years in 2023; the US was in the group of countries between 75 and 80 years.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 3, Life expectancy at birth",
+          "page": 60,
+          "char_start": 169972,
+          "char_end": 170320,
+          "passage_sha256": "246e51633621ff1a87bdf397c64116ec5c43e5f26fb56fed94bc7ba4687ed005"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-outcomes-002",
+        "statement": "The US spends far more than other OECD countries on health yet has lower life expectancy than the OECD average, and its avoidable mortality is also worse than average.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1",
+          "page": 28,
+          "char_start": 70850,
+          "char_end": 71533,
+          "passage_sha256": "dad992364c69811769568b41362cea8d4fc6c5055b818e3108faf68a9c90a18a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-outcomes-003",
+        "statement": "In the United States and Canada in particular, opioid use has led to more working-age adults dying from accidental drug poisoning.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 3, Life expectancy at birth",
+          "page": 60,
+          "char_start": 173191,
+          "char_end": 173345,
+          "passage_sha256": "cd1b7e016c6e2f94bc5ebbcb429177c067b219a75ce41f3415e00ad8576b9b6f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-outcomes-004",
+        "statement": "In 2023 the US was one of the three countries, with Lithuania and Germany, with the most avoidable hospital admissions for chronic conditions treatable in primary care, among 31 countries with data.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1, Quality of care",
+          "page": 24,
+          "char_start": 56913,
+          "char_end": 57319,
+          "passage_sha256": "0b0c842ec3f7154ae484a728a20a789f51918339684b62cba856f13b204bef6d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-outcomes-005",
+        "statement": "Life expectancy at 65 rose by less than two years in the US between 2000 and 2023, one of five OECD countries with gains that small (OECD average gain: 2.8 years).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 10, Life expectancy at older ages",
+          "page": 224,
+          "char_start": 696717,
+          "char_end": 697264,
+          "passage_sha256": "062a95d3e89f069a91d2d06cff015a26a8a17fd1c2a209b1b42f7bca054aee3e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2000-2023"
+      },
+      {
+        "id": "USA-outcomes-006",
+        "statement": "International comparisons show mixed US results on quality and outcomes: very good for some diseases such as certain cancers, poor for others such as asthma.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 25,
+          "char_start": 35248,
+          "char_end": 35469,
+          "passage_sha256": "8fe8e4e8c1624a90e3dd2fbbc9f7cdcf62224b9141d908e7144c5dd43c2a3bbc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-outcomes-007",
+        "statement": "In the Commonwealth Fund's September 2024 comparison of 10 nations, Americans had the shortest lives and the most avoidable deaths.",
+        "valence": "weakness",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Exhibit 9",
+          "page": 10,
+          "char_start": 6805,
+          "char_end": 6992,
+          "passage_sha256": "c3ca4332bb2e262cbcac0c7f01c0cb1df65a1e3f05477c30728dc3aa6d6e99aa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-outcomes-008",
+        "statement": "In the GBD 2019 Healthcare Access and Quality (HAQ) Index study, the US scored 80.6 out of 100 in 2019 for ages 0-74 (86.3 for ages 0-14, 79.1 for 15-64 and 78.5 for 65-74), up 8.5 points from 1990.",
+        "valence": "neutral",
+        "source_id": "haq-gbd2019",
+        "locator": {
+          "table": "Table (HAQ Index by location, 2019, and absolute change 1990-2019): USA row; 2019 columns overall (0-74), young (0-14), working (15-64), post-working (65-74), then change 1990-2019",
+          "char_start": 41943,
+          "char_end": 42098,
+          "passage_sha256": "b9f3187579e3f3adcea59b075a37718f3097d7ed1a83151ba164d224dec03db3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "USA-outcomes-009",
+        "statement": "For comparison, the same study puts the average 2019 HAQ Index score at 83.4 for high-SDI countries and 83.9 for the high-income super-region.",
+        "valence": "neutral",
+        "source_id": "haq-gbd2019",
+        "locator": {
+          "section": "Results",
+          "char_start": 32628,
+          "char_end": 32968,
+          "passage_sha256": "16ac52ed6e99fa08f3b681394af1912b49bb57eae180bd8bff11fe745463ba46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "USA-costs-002",
+        "statement": "On a standard basket of health goods and services, prices in the US and Switzerland were 52% above the OECD average, among the highest measured.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Price levels",
+          "page": 160,
+          "char_start": 494789,
+          "char_end": 494966,
+          "passage_sha256": "05704595c48f2654765226f08f59810cf6d12d7cf3c5c49ed44e86b35c5e1af3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-costs-003",
+        "statement": "US retail pharmaceutical spending was the highest in the OECD in 2023 at USD 1 713 per person (PPP), more than twice the OECD average of USD 766.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 9, Pharmaceutical expenditure",
+          "page": 206,
+          "char_start": 639017,
+          "char_end": 639274,
+          "passage_sha256": "a1c1ab9c8c513f551d8588804ff373fe8bd57a307de8f6a51c8c25cda3d9e128"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-costs-004",
+        "statement": "In 2024 the US spent the equivalent of more than USD 14,880 per person on health (adjusted for purchasing power), 2.5 times the estimated OECD average of nearly USD 6,000; the next-highest spenders, Switzerland, Norway and Germany, spent about two-thirds of the US level.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Ch. 7, Health expenditure per capita",
+          "page": 158,
+          "char_start": 487039,
+          "char_end": 487488,
+          "passage_sha256": "be3a9f8b9666210d49652d8d51cd93ca98aced7f92b90b1a124fb7acd62f3169"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-costs-005",
+        "statement": "Per-person spending on cancer care was highest in the US ($584), about double the median of $296 across the countries studied.",
+        "valence": "weakness",
+        "source_id": "chow-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4596,
+          "char_end": 4729,
+          "passage_sha256": "49a75ed9fe2d4d1fba8c4a694d39e8b41a0789eccb04904fe2392e12bfaa4881"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-costs-006",
+        "statement": "Researchers put the administrative cost of prior authorization in the US at an estimated $35 billion.",
+        "valence": "weakness",
+        "source_id": "sahni-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4265,
+          "char_end": 4518,
+          "passage_sha256": "97bbac4ed90450fabb33d5c796881018744d3a2fcd8d2aa5797eb2016cca705b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-costs-007",
+        "statement": "US national health spending reached $5.3 trillion in 2024 ($15,474 per person), equal to 18.0% of GDP, after growing 7.2% that year.",
+        "valence": "weakness",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Historical NHE, 2024",
+          "char_start": 58,
+          "char_end": 177,
+          "passage_sha256": "401fdf895d4ff182f2e29824b9b884b49c3863127c631829181915f3b695f756"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-costs-008",
+        "statement": "Of national health spending in 2024, private health insurance accounted for 31%, Medicare 21%, Medicaid 18% and out-of-pocket payments 11% ($556.6 billion).",
+        "valence": "neutral",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Historical NHE, 2024",
+          "char_start": 178,
+          "char_end": 534,
+          "passage_sha256": "efcf690b5266bc4e41d2dfff8300a85b9b8171723097d7ba0bacaed226cf8b39"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-costs-009",
+        "statement": "CMS projects health spending to grow faster than GDP over 2025-34 (5.4% against 4.1% a year on average), lifting its share of GDP from 18.0% in 2024 to 20.6% in 2034.",
+        "valence": "weakness",
+        "source_id": "cms-nhe-factsheet",
+        "locator": {
+          "section": "Projected NHE, 2025-2034",
+          "char_start": 1424,
+          "char_end": 1672,
+          "passage_sha256": "09808793cddc245bb238214631a0f2952949fd118d3cedacc7cef5cb8214e54b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-costs-010",
+        "statement": "Of all OECD countries, the US devoted by far the largest share of its economy to health throughout the period the OECD trend analysis covers; the share exceeded 17% of GDP in 2024, after peaking at 18.5% in 2020.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Ch. 7, Health expenditure in relation to GDP",
+          "page": 156,
+          "char_start": 483355,
+          "char_end": 483550,
+          "passage_sha256": "d214ae661d3ffda6aced3a5e1cbc7924e9b4c8e51b9c805b006c3fe619427aa5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "what_works": [
+      {
+        "id": "USA-what_works-001",
+        "statement": "In 2023 the US was among the four OECD countries with the highest mammography screening rates, at 80% or more of women aged 50-69.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1, Quality of care",
+          "page": 24,
+          "char_start": 57699,
+          "char_end": 57838,
+          "passage_sha256": "64dabafecb76e6140734a43ccebce1e07fd5c78e43652a176cd619ddaf5420c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-what_works-002",
+        "statement": "Colorectal cancer screening coverage in the US was 68% in 2023, third highest after Finland (74%) and the United Kingdom (72%).",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6, Cancer screening",
+          "page": 130,
+          "char_start": 394669,
+          "char_end": 394958,
+          "passage_sha256": "430752a699266d9125300d5bd0847a6a85854380f4f8e05d0df2485a7bea34bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-what_works-003",
+        "statement": "For most cancers, five-year net survival is among the highest in the world in the US, along with Canada, Australia, New Zealand, Finland, Iceland, Norway and Sweden.",
+        "valence": "strength",
+        "source_id": "concord3-2018",
+        "locator": {
+          "section": "Abstract (PMC full text)",
+          "char_start": 4381,
+          "char_end": 4565,
+          "passage_sha256": "dea8cd659fb65e0fcdb8c07e08d83eeb97f72acb7b84a9309a783f615bf88ce7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-what_works-004",
+        "statement": "The US cancer death rate in 2020 (86.3 per 100 000) was below the median of 22 high-income countries (91.4), although six countries had lower rates.",
+        "valence": "strength",
+        "source_id": "chow-2022",
+        "locator": {
+          "section": "Abstract (PMC full text)",
+          "char_start": 3836,
+          "char_end": 4595,
+          "passage_sha256": "54d5a84000cfeaaeb65500af031260b64d9fc3e7febe494316098660ac2a25d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "USA-what_works-005",
+        "statement": "The review credits the US with a large, well-trained workforce, many high-quality specialists and secondary and tertiary institutions, strong health research and, for some services, outcomes among the best in the world.",
+        "valence": "strength",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 32373,
+          "char_end": 32716,
+          "passage_sha256": "201fcda53a660f5673e86253bf9c92826bc9dc1f8d7553894e3e7e0c62cd5efa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-what_works-006",
+        "statement": "The US has been notably successful at cutting smoking rates, though not at tackling poor nutrition and obesity.",
+        "valence": "strength",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 25,
+          "char_start": 35470,
+          "char_end": 35677,
+          "passage_sha256": "69bc282ffdf66e6d95ea95d6be0706efcf2420fed22b91627bc2fef28516e377"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-what_works-007",
+        "statement": "In the Commonwealth Fund's September 2024 comparison of 10 nations, the US was among the top performers for care delivery process.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Exhibit 6",
+          "page": 6,
+          "char_start": 4035,
+          "char_end": 4177,
+          "passage_sha256": "ed4322d26917dffb2371a61bd0fefa5c93824a65f7c667de0976ad100ad266ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-what_works-008",
+        "statement": "The US is seen as a world leader in developing and using innovative payment systems aimed at better value.",
+        "valence": "strength",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 40500,
+          "char_end": 40679,
+          "passage_sha256": "3f4a0cac7a331b9af27806cba15dced89c8058c61b33859ba5c2a3614ec4816e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "USA-problems-001",
+        "statement": "The review lists incomplete coverage, underinsurance, inadequate care for the uninsured, spending per person far above all other countries, poor results on many quality and outcome measures, unequal distribution of resources and outcomes, and slow adoption of health IT.",
+        "valence": "weakness",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 32,
+          "char_start": 50745,
+          "char_end": 51198,
+          "passage_sha256": "dbb35261310702c6f50356a6833f6b50c242cab0a377976f2600471bb7d4fb92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-002",
+        "statement": "US doctors and patients were the most likely of the 10 countries to run into problems with insurance rules, billing disputes and reporting requirements.",
+        "valence": "weakness",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Exhibit 7",
+          "page": 7,
+          "char_start": 4692,
+          "char_end": 4905,
+          "passage_sha256": "aac79c431ecb6d54e4356bcd56d9089734249f1dfa69765325a98cd7c9e70aac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-003",
+        "statement": "Two-thirds (66%) of underinsured working-age adults in 2024 had employer coverage; 57% of the underinsured went without care because of cost and 44% had medical debt.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024",
+        "locator": {
+          "section": "News release, p. 1",
+          "page": 1,
+          "char_start": 864,
+          "char_end": 1617,
+          "passage_sha256": "cb9818a0a3ac4bc3ba5028a97ab7942bbbc155c8808f38d792b8e4b64566c13b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-004",
+        "statement": "Of adults who delayed or skipped care because of cost, 41% said their health problem got worse as a result.",
+        "valence": "weakness",
+        "source_id": "cwf-biennial-2024",
+        "locator": {
+          "section": "News release, p. 2",
+          "page": 2,
+          "char_start": 3096,
+          "char_end": 3227,
+          "passage_sha256": "a700a7701455bd82475a85fdec2e83b8f4d8f7522d823253f27254e8e8ac9a0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-005",
+        "statement": "In 2023 obesity rates were among the highest in the OECD in the US, together with Mexico and New Zealand.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1, Risk factors",
+          "page": 20,
+          "char_start": 44578,
+          "char_end": 44815,
+          "passage_sha256": "c08a26fb82d92b291a470fa112d4e549be439f59729b3747e2ee17aae2c5ce23"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "USA-problems-006",
+        "statement": "Under the 2021 prior authorization rules of five large Medicare Advantage insurers, 40% of traditional Medicare Part B spending ($57bn) and 48% of services would have needed approval from at least one insurer, but only 12% of spending from all five.",
+        "valence": "weakness",
+        "source_id": "gupta-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2457,
+          "char_end": 3375,
+          "passage_sha256": "b068bbd613649fcc53eeea9d0ad5d220f46c10648b1645cff8c8dc64294c0197"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-problems-007",
+        "statement": "Under the 2021 rules of five large Medicare Advantage insurers, at least one would have required prior authorization for 93% of traditional Medicare Part B medication spending (74% of medication use).",
+        "valence": "weakness",
+        "source_id": "gupta-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2457,
+          "char_end": 3503,
+          "passage_sha256": "13cc950714589486638d3b0bc3aa7e0b4cc40c19c97a6454ca64a09070b8e070"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "USA-problems-008",
+        "statement": "An Office of Inspector General report found that Medicare Advantage insurers sometimes refused services after prior authorization requests that met Medicare's coverage criteria.",
+        "valence": "weakness",
+        "source_id": "gupta-2024",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 34272,
+          "char_end": 34457,
+          "passage_sha256": "551232ad4098256f6b6d1bb2273be43eeaaeb1a77ab31c92ac0a2d2932bdfa54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-009",
+        "statement": "In 2019 multipayer claims data, Medicaid managed care plans had the highest initial denial rate for professional claims (15.1%), and Medicare Advantage the highest for inpatient (20.0%) and outpatient (16.5%) claims.",
+        "valence": "weakness",
+        "source_id": "weinreb-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1726,
+          "char_end": 2104,
+          "passage_sha256": "9ba8f3e048d1f4e0f165ce98996665e48eff53b5888d92a84dd74b3af38de1e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "USA-problems-010",
+        "statement": "Safety-net providers had higher initial claim denial rates than other providers for professional (13.6% vs 9.2%), inpatient (18.3% vs 14.7%) and outpatient (13.3% vs 12.9%) services in the same 2019 data.",
+        "valence": "weakness",
+        "source_id": "weinreb-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1726,
+          "char_end": 2305,
+          "passage_sha256": "5c8c295e976979352a70d3f2850a9a094fb79e86bb4aebfbf01b49975fa58b92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "USA-problems-011",
+        "statement": "No comprehensive denial data exist for traditional Medicare; in a provider survey, 8% of its claims were initially denied, against 14%-17% for private payers.",
+        "valence": "weakness",
+        "source_id": "weinreb-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 3759,
+          "char_end": 3951,
+          "passage_sha256": "08103c5ac9acf5bee10d005b82140d2f89da605afd79b1a6eef73980ddb8d079"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-012",
+        "statement": "Appeals are expensive: one study put appeal costs at about half the denied revenue, so many denied claims are never appealed.",
+        "valence": "weakness",
+        "source_id": "weinreb-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4603,
+          "char_end": 4759,
+          "passage_sha256": "19fafe3a0791b9e833e83bc5bc31a34a3c05a038d1bc5c9d7b733f3fcb05ad69"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-013",
+        "statement": "Of health plan coverage denials appealed to independent medical review in four states in 2019-23, almost half were overturned.",
+        "valence": "neutral",
+        "source_id": "lin-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 669,
+          "char_end": 824,
+          "passage_sha256": "cda24f00b5c905ed21710025ab055f7b797dd299564079fe802c34ad0206f849"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2019-2023"
+      },
+      {
+        "id": "USA-problems-014",
+        "statement": "Provider staff surveyed reported spending time on prior authorization equal to more than 100 000 full-time registered nurses a year.",
+        "valence": "weakness",
+        "source_id": "sahni-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3137,
+          "char_end": 3273,
+          "passage_sha256": "9d7eda98d2dbbd1ac795865f86b1ed31bb489e5a5078f515760d8e6670ce9127"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-015",
+        "statement": "Insurers selling HealthCare.gov plans received about 496 million claims in 2024; they denied about 85 million of the 451 million in-network claims (an average denial rate of 19%) and 37% of the 44 million out-of-network claims.",
+        "valence": "weakness",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Insurer-level Claims Denials Data",
+          "char_start": 5093,
+          "char_end": 5443,
+          "passage_sha256": "2488fec7a161f60482c9d85d5912315bfdae65d418dd2661ee300f32b2a4d13e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-problems-016",
+        "statement": "In-network denial rates differed widely between HealthCare.gov insurers in 2024, from 3% to 36%; 17 of 157 reporting insurers denied under 10% and 26 denied 25% or more.",
+        "valence": "weakness",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Insurer-level Claims Denials Data",
+          "char_start": 6484,
+          "char_end": 6733,
+          "passage_sha256": "5bfdb67ec94f182dc5d6838610268d327f2fd544f8cdcd5ea663c372bf0ad56b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-problems-017",
+        "statement": "HealthCare.gov enrollees appealed at least 262,982 of the roughly 85 million in-network denials in 2024, an appeal rate below 1% (the true number may be somewhat higher because small values are suppressed), and insurers upheld 66% of the appealed denials.",
+        "valence": "weakness",
+        "source_id": "kff-denials-2024",
+        "locator": {
+          "section": "Appeals Data",
+          "char_start": 13653,
+          "char_end": 13971,
+          "passage_sha256": "f2e6f0d1ffa751626d5ed361ada48edd0b944452215cce1c09cd223c6c899a49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "USA-problems-018",
+        "statement": "In the American Medical Association's 2025 survey of physicians on prior authorization, 26% reported that the process had caused a serious adverse event for one of their patients.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 2248,
+          "char_end": 2417,
+          "passage_sha256": "a5f8837da48e3393e58df97e18c3fca509cd935db7bc61bda38d8b39423dad61"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-problems-019",
+        "statement": "The AMA survey had 44 questions, was run on the web in December 2025, and sampled 1,000 practising physicians from a Medscape panel, 40% of them in primary care and 60% specialists.",
+        "valence": "neutral",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "section": "Survey methodology",
+          "page": 4,
+          "char_start": 9966,
+          "char_end": 10158,
+          "passage_sha256": "a6bb33f09503648caca6d43d6557388b1054767d47744afd9af898598d76feb7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-problems-020",
+        "statement": "Most physicians in the AMA survey said the number of prior authorizations required had grown over the past five years: 84% for prescription medications and 82% for medical services.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7877,
+          "char_end": 8051,
+          "passage_sha256": "f1e44ff6cbba02aaf68e1edb246345ce55b0307e6e949d6ae0bdcdf413a438ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-problems-021",
+        "statement": "In the AMA survey, 88% of physicians said prior authorization interferes with continuity of care.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 8571,
+          "char_end": 8666,
+          "passage_sha256": "872ad90055bb6564c8866d7cdebbe8863ad37d4447d36d9e0f740e4d4ae47359"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "USA-problems-022",
+        "statement": "Only 5% of physicians in the AMA survey reported contracts with health plans that exempt providers from prior authorization, such as gold-card programmes.",
+        "valence": "weakness",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7646,
+          "char_end": 7780,
+          "passage_sha256": "c769b88ba0390214e6122d5c243b50681f0a9d80032ab054e3fe930dcefeb243"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "reforms": [
+      {
+        "id": "USA-reforms-001",
+        "statement": "An interim final rule issued on 1 June 2026 to interpret H.R.1's work requirements made severity and functional capacity part of how the medically frail exemption is defined.",
+        "valence": "neutral",
+        "source_id": "everhart-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5644,
+          "char_end": 5893,
+          "passage_sha256": "085457980e2310842a34cf618de693e539dca58d0a0edd11adb0a8543eadd5ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-002",
+        "statement": "The enhanced premium tax credits for ACA Marketplace plans expired in 2026.",
+        "valence": "neutral",
+        "source_id": "goldsteinnovick-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 697,
+          "char_end": 818,
+          "passage_sha256": "57f553739f8783d17c2dd780e333ddb9aea44d959e6afa710bc717ad9f8a16f4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-003",
+        "statement": "In a simulation of families' adjusted net premiums, letting the enhanced credits lapse would raise premiums from 6.3% to 9.5% of income for families at 250% to under 400% of poverty, and from 8.4% to 15.2% for those at or above 400%.",
+        "valence": "weakness",
+        "source_id": "goldsteinnovick-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1562,
+          "char_end": 1941,
+          "passage_sha256": "00ac40a5d3a253bb15e056d8862e185fb213172146506c0bfb71d19f87462f24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-004",
+        "statement": "In July 2025 Congress passed H.R.1, which requires adults covered by the ACA Medicaid expansion (incomes up to 138% of poverty) to document work, school or volunteering; the Congressional Budget Office projects more than 5.2 million people will lose Medicaid over a decade as a result.",
+        "valence": "neutral",
+        "source_id": "everhart-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5101,
+          "char_end": 6123,
+          "passage_sha256": "8dd8cda48363a2e0a37611f919a289bc91451f92445746c9acd33746efa3f21b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-005",
+        "statement": "Under the 2025 federal budget reconciliation law, new state-directed payments are capped close to Medicare rates, and existing ones begin to be phased down in 2028.",
+        "valence": "neutral",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Approaches to sustainable financing",
+          "char_start": 9937,
+          "char_end": 10093,
+          "passage_sha256": "742efafbb908c4d771f11b03c63a6e7c2627c8098ccde16ef339f305dde7dadd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-006",
+        "statement": "When pandemic-era continuous Medicaid enrollment ended, states resumed eligibility checks from 1 April 2023; about 25 million people lost Medicaid over 14 months, and in a survey of non-elderly adults in certain states about half of those who lost it became uninsured.",
+        "valence": "weakness",
+        "source_id": "khodakarami-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5383,
+          "char_end": 5977,
+          "passage_sha256": "7d466386928c45b0366ab0e14f310d17ff7aae7e22be2872b5f24a46bee71b0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "USA-reforms-007",
+        "statement": "Since 2022 state and local governments have bought up and cancelled residents' medical debt; in all, 10 states and 21 local governments have eliminated $13.5 billion for 7 million residents, mainly with temporary federal pandemic relief funds that expire after 2026.",
+        "valence": "strength",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1893,
+          "char_end": 2365,
+          "passage_sha256": "366908d0ebdd475408087ddc27eda5fa968a63f4c4eef3a311fa4cf91006cd5e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-008",
+        "statement": "The 2022 Inflation Reduction Act introduced price negotiation for selected Medicare Part D drugs, limited to small-molecule drugs more than 7 years and biologics more than 11 years past initial approval, with about 2 years between selection and the negotiated price taking effect.",
+        "valence": "strength",
+        "source_id": "essa-2025",
+        "locator": {
+          "section": "Main text",
+          "char_start": 3225,
+          "char_end": 3583,
+          "passage_sha256": "dbda82941d8d0f94e7cd0c92c6144e6da5744dd170b00825e20f290924495a3c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-009",
+        "statement": "The ACA required nearly everyone to have health insurance, but Congress repealed that requirement with effect from January 2019.",
+        "valence": "neutral",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 31,
+          "char_start": 48288,
+          "char_end": 48515,
+          "passage_sha256": "b9b917eead2a40e625c6d3893ec3c975e6c2494ec1796139451f4ecb20ec4584"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-010",
+        "statement": "The uninsured rate fell from about 16% to 9%, nearly entirely as a result of the ACA; coverage grew both through subsidies to buy private insurance and, in 39 states, through expanded Medicaid eligibility (state count as of the review's 2020 publication).",
+        "valence": "strength",
+        "source_id": "hit-usa-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 31,
+          "char_start": 48516,
+          "char_end": 48928,
+          "passage_sha256": "ec9c6b2bb0367858e6feba17e95a3c9774ca7695c31e7b053784eaed2416eb45"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-011",
+        "statement": "The enhanced ACA premium tax credits, introduced by the American Rescue Plan in 2021 and prolonged to the end of 2025 by the Inflation Reduction Act, lapsed when 2025 ended; many enrollees then faced much higher premium payments, especially those with incomes over 400% of the federal poverty level.",
+        "valence": "weakness",
+        "source_id": "kff-2026-whatweknow",
+        "locator": {
+          "section": "Full text",
+          "char_start": 539,
+          "char_end": 1007,
+          "passage_sha256": "4e752cf27dbe5061edfaaa997b112a28f0d96cf8e9c466ac6ece434266232a84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-012",
+        "statement": "KFF estimates that the premiums Marketplace enrollees pay themselves rose by an average of 58%, from $113 to $178 a month.",
+        "valence": "weakness",
+        "source_id": "kff-2026-whatweknow",
+        "locator": {
+          "section": "Key Findings",
+          "char_start": 1960,
+          "char_end": 2051,
+          "passage_sha256": "f8b372f5dc9765e7dfba9273ea733f9d64e90a64db183081bf0b84f76fb5e9fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-013",
+        "statement": "The average Marketplace deductible rose by 37% ($1,027 per person) to a record $3,786 in 2026, mostly because enrollees shifted from silver plans with reduced deductibles to bronze plans with very high ones.",
+        "valence": "weakness",
+        "source_id": "kff-2026-whatweknow",
+        "locator": {
+          "section": "Key Findings",
+          "char_start": 2503,
+          "char_end": 2829,
+          "passage_sha256": "b2e4b3069a21f7e6f82fc611c464654acc5dd8038979f8060794bc274fef6dea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-reforms-014",
+        "statement": "KFF estimates that individual-market enrollment dropped by over 4.6 million people between June 2025 (25.2 million) and June 2026 (20.5 million); the fall came at the same time as the end of the enhanced tax credits and other policy changes projected to cut enrollment.",
+        "valence": "weakness",
+        "source_id": "kff-indiv-mkt-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1093,
+          "char_end": 1402,
+          "passage_sha256": "5a301566b4cce8b25ad5cbcfd24b274027b760dfb496928d85548395bca62806"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "USA-reforms-015",
+        "statement": "On 18 March 2022 the three national credit bureaus said, voluntarily, that they would stop reporting some medical collections.",
+        "valence": "neutral",
+        "source_id": "cfpb-medcollections-2024",
+        "locator": {
+          "section": "Summary",
+          "char_start": 699,
+          "char_end": 849,
+          "passage_sha256": "f3052d892b7811b17a6f005070905dd2ee5f57540eb771d64e73101e1f83dfb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-016",
+        "statement": "In January 2025 the CFPB issued a final rule that barred creditors from taking medical debt information into account and barred credit bureaus from putting medical debt on credit reports.",
+        "valence": "neutral",
+        "source_id": "cfpb-regv-page",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1497,
+          "char_end": 1886,
+          "passage_sha256": "5f4382b7d2eba610fbed72e8e9d8d9d03602f0a8c92293e25a144d6a9e477c47"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-017",
+        "statement": "On 11 July 2025 a federal district court in eastern Texas vacated the CFPB medical debt rule at the joint request of the Bureau and the plaintiffs, agreeing that it went beyond the Bureau's statutory authority and conflicted with the Fair Credit Reporting Act.",
+        "valence": "neutral",
+        "source_id": "cfpb-regv-page",
+        "locator": {
+          "section": "Full text",
+          "char_start": 300,
+          "char_end": 800,
+          "passage_sha256": "7c101b4093bf68b1b5f8a65086cd8961893a805c1c1870ce86ebdd73d82c8052"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-reforms-018",
+        "statement": "On 23 June 2025 more than 60 health insurers pledged voluntary reforms to their prior authorization programmes, with six commitments taking effect in stages between June 2025 and 1 January 2027.",
+        "valence": "neutral",
+        "source_id": "ama-pa-survey-2025",
+        "locator": {
+          "section": "2025 insurer pledge to improve PA",
+          "page": 3,
+          "char_start": 5311,
+          "char_end": 5890,
+          "passage_sha256": "de93da1eb868143d1f2dc108d27864dbb892b150bc0a1d5cfb3defb32cf22167"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "USA-us_lessons-001",
+        "statement": "The US spent about twice as much as other high-income countries on medical care while using care at largely similar rates; prices of labour and goods, including drugs, and administrative costs appeared to be the main drivers of the difference.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Conclusions and relevance",
+          "char_start": 4361,
+          "char_end": 4756,
+          "passage_sha256": "5683bf36ba50bfbb20c5d140451fff8d1d8e28be583699bb50305f7cb4dd40eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-us_lessons-002",
+        "statement": "Administrative costs made up 8% of US health spending, against 1% to 3% in the comparison countries.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3836,
+          "char_end": 4026,
+          "passage_sha256": "d56997d987eb95253c31c0be11c1f9203677cdad281f4892b2ed07eb7db8e327"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-us_lessons-003",
+        "statement": "From 2013 to 2020, new medical debt fell much more in states that expanded Medicaid in 2014 (mean flow $330 to $175) than in states that did not ($613 to $550), a decline 34.0 percentage points larger.",
+        "valence": "strength",
+        "source_id": "kluender-2021",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 5785,
+          "char_end": 6068,
+          "passage_sha256": "60985c419d2ad23fd4bd55356b6bc388dffd45dfb997940a2000e47063b8c623"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        },
+        "data_year": "2013-2020"
+      },
+      {
+        "id": "USA-us_lessons-004",
+        "statement": "Comparing 22 countries, researchers found the US spent twice the median on cancer care while its cancer mortality was lower than the median; they conclude the extra spending may not be matched by better outcomes.",
+        "valence": "neutral",
+        "source_id": "chow-2022",
+        "locator": {
+          "section": "Abstract: Conclusions and relevance",
+          "char_start": 5280,
+          "char_end": 5656,
+          "passage_sha256": "c5e232796db61238af2dd7edc72ac2bb6b87c059bdf178431cac611c2a765f6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      },
+      {
+        "id": "USA-us_lessons-005",
+        "statement": "North Carolina tied enhanced hospital Medicaid payments to debt-relief policies and erased $6.5 billion of medical debt (48% of all US relief) without pandemic funds; the authors argue such payment incentives may offer a more durable approach.",
+        "valence": "neutral",
+        "source_id": "dong-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2366,
+          "char_end": 2811,
+          "passage_sha256": "d1df2832a10f8047ebf4d886525888683f6d49b97caae65cdce3ccd85442841b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, independent cold pass)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/USA.json",
+  "sources": [
+    {
+      "id": "hit-usa-2020",
+      "title": "United States of America: Health System Review (Health Systems in Transition, Vol. 22 No. 4)",
+      "publisher": "European Observatory on Health Systems and Policies and North American Observatory on Health Systems and Policies",
+      "authors": "Rice T, Rosenau P, Unruh LY, Barnes AJ",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2020,
+      "url": "https://iris.who.int/server/api/core/bitstreams/97d7acbc-d925-4978-8444-4c2587516101/content",
+      "funding_note": "Reflects data available in August 2020. Predates the 2022 Inflation Reduction Act, the 2023-24 Medicaid unwinding, the 2025 budget law (H.R.1) and the 2026 expiry of enhanced premium tax credits.",
+      "accessed": "2026-11-09",
+      "content_sha256": "2d83b06f4ee9a0ccb9c643adbea9b1f4fbb9f1615746ee4e0c34b9e1f2ae8fe8"
+    },
+    {
+      "id": "oecd-hag-2025",
+      "title": "Health at a Glance 2025: OECD Indicators",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-09",
+      "content_sha256": "486bdadb471533fadf9aef0dc93eddbbd1a6203a23b99d1ed28dbf228fc58930"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries.",
+      "accessed": "2026-11-09",
+      "content_sha256": "1b54a2d9beeb18893de9e98190be7b014a377321f4624eee0859149900b763b8"
+    },
+    {
+      "id": "cwf-biennial-2024",
+      "title": "New survey: nearly 1 of 4 adults with health coverage struggle with high out-of-pocket costs and deductibles (news release on the Commonwealth Fund 2024 Biennial Health Insurance Survey)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-11/Collins_state_of_health_insurance_coverage_2024_biennial_2024-11-21_PR.pdf",
+      "funding_note": "Private foundation that advocates broader, more affordable coverage; survey fielded by SSRS, March-June 2024, adults 19-64. The full report page could not be downloaded (403), so the news release and exhibits are cited.",
+      "accessed": "2026-11-09",
+      "content_sha256": "a07a8fae60941aee6d6cc5946455d55d8f90651a7cff4e06a12cbdcae1b37cf8"
+    },
+    {
+      "id": "cwf-biennial-2024-exhibits",
+      "title": "The State of Health Insurance Coverage in the U.S.: Findings from the Commonwealth Fund 2024 Biennial Health Insurance Survey (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Collins SR, Gupta A",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-11/PDF_Collins_state_of_health_insurance_coverage_2024_biennial_Exhibits.pdf",
+      "doi": "10.26099/byce-qc28",
+      "funding_note": "Private foundation that advocates broader, more affordable coverage; survey of adults 19-64, March-June 2024.",
+      "accessed": "2026-11-09",
+      "content_sha256": "dabaebf7f3afff804c721e5363ae9e715a57843a38dddb01add25be135aa0ca9"
+    },
+    {
+      "id": "papanicolas-2018",
+      "title": "Health Care Spending in the United States and Other High-Income Countries",
+      "publisher": "JAMA",
+      "authors": "Papanicolas I, Woskie LR, Jha AK",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1001/jama.2018.1150",
+      "doi": "10.1001/jama.2018.1150",
+      "funding_note": "Data mostly 2013-2016.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29536101&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09",
+      "content_sha256": "72d758f7ae1002683dfb30cfbd7e9e89b5472dda1c1e63efd1f18fe8cdb44081"
+    },
+    {
+      "id": "gupta-2024",
+      "title": "Comparison of prior authorization across insurers: cross sectional evidence from Medicare Advantage",
+      "publisher": "BMJ",
+      "authors": "Gupta R, Fein J, Newhouse JP, Schwartz AL",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1136/bmj-2023-077797",
+      "doi": "10.1136/bmj-2023-077797",
+      "license": "CC BY-NC",
+      "funding_note": "Measures insurers' written prior authorization policies for 2021, applied to traditional Medicare use; not actual denials.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10919211",
+      "accessed": "2026-11-09",
+      "content_sha256": "65988009324ce42de03e3ce71505539487c71bd9c30c47a1c50b0c05de6ecff4"
+    },
+    {
+      "id": "weinreb-2026",
+      "title": "Variation in medical claim denials: safety-net providers are hardest hit",
+      "publisher": "Health Affairs Scholar",
+      "authors": "Weinreb G, Landon BE",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/haschl/qxag206",
+      "doi": "10.1093/haschl/qxag206",
+      "license": "CC BY",
+      "funding_note": "Multipayer claims data from 2019.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13492083",
+      "accessed": "2026-11-09",
+      "content_sha256": "2d3363eeec1802d7e3a9c8d504352a0463d3247793d55106018acb44007eee0b"
+    },
+    {
+      "id": "sahni-2024",
+      "title": "Perceptions of prior authorization burden and solutions",
+      "publisher": "Health Affairs Scholar",
+      "authors": "Sahni NR, Istvan B, Stafford C, Cutler D",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1093/haschl/qxae096",
+      "doi": "10.1093/haschl/qxae096",
+      "license": "CC BY-NC",
+      "funding_note": "Funded by Gates Ventures; lead author affiliated with McKinsey & Company. Survey-based estimates.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11425057",
+      "accessed": "2026-11-09",
+      "content_sha256": "5d5f0df80ae55d46aae4e2b3546344cb707458f8ae262367d132b1b940af8d53"
+    },
+    {
+      "id": "lin-2026",
+      "title": "Use Of Independent Medical Review: Almost One-Half Of Coverage Denials Overturned",
+      "publisher": "Health Affairs",
+      "authors": "Lin GA, Coffman JM, Douglas MP, Phillips KA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1377/hlthaff.2025.00716",
+      "doi": "10.1377/hlthaff.2025.00716",
+      "funding_note": "Covers only denials appealed to independent medical review in four states, 2019-23.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41370722&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09",
+      "content_sha256": "0dbf8ed40d9def7a168306ffcae67843b7eb5743b5642929a948a424315b1e8a"
+    },
+    {
+      "id": "kluender-2021",
+      "title": "Medical Debt in the US, 2009-2020",
+      "publisher": "JAMA",
+      "authors": "Kluender R, Mahoney N, Wong F, Yin W",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1001/jama.2021.8694",
+      "doi": "10.1001/jama.2021.8694",
+      "funding_note": "Counts only medical debt in collections on credit reports; data end June 2020.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8293024",
+      "accessed": "2026-11-09",
+      "content_sha256": "4d02e6cefb9b6579e4bbd2cf8fc96d04bcc9e0563b001b22c0db2d5a7f2161c9"
+    },
+    {
+      "id": "dobkin-2018",
+      "title": "Myth and Measurement: The Case of Medical Bankruptcies",
+      "publisher": "New England Journal of Medicine",
+      "authors": "Dobkin C, Finkelstein A, Kluender R, Notowidigdo MJ",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1056/NEJMp1716604",
+      "doi": "10.1056/NEJMp1716604",
+      "funding_note": "Estimates bankruptcies caused by hospital admission among California adults 25-64 admitted 2003-2007; excludes illness without admission.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5865642",
+      "accessed": "2026-11-09",
+      "content_sha256": "03c6e60abf15fb44cefaf253cd319865526e4a3a56e3a382c282872afbef9b39"
+    },
+    {
+      "id": "dong-2026",
+      "title": "The future of medical debt relief in the United States",
+      "publisher": "Health Affairs Scholar",
+      "authors": "Dong AJ, Agbafe VC, Berlin NL",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/haschl/qxag286",
+      "doi": "10.1093/haschl/qxag286",
+      "license": "CC BY",
+      "funding_note": "Commentary with a scoping review of programmes through April 2026.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13717197",
+      "accessed": "2026-11-09",
+      "content_sha256": "91cfd09e54dad45b29e84bd24e9ab5ea8395066e04385f85b191fdfaa51ce9f1"
+    },
+    {
+      "id": "everhart-2026",
+      "title": "Minimizing H.R.1-related Medicaid coverage disruptions for high-risk patients",
+      "publisher": "Health Affairs Scholar",
+      "authors": "Everhart RM, Gillespie S, Maguire M, Stella SA, Hanratty R, Johnson TL, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/haschl/qxag162",
+      "doi": "10.1093/haschl/qxag162",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13367571",
+      "accessed": "2026-11-09",
+      "content_sha256": "4302804db4ed460677f8fd82c30f8af6653abcf9ff944492892c335b7777ac66"
+    },
+    {
+      "id": "goldsteinnovick-2026",
+      "title": "Estimating Costs to Families Facing Changes to ACA Enhanced Premium Tax Credits",
+      "publisher": "Pediatrics",
+      "authors": "Goldstein Novick NP, Formanowski B, Lorch SA, Nelin TD, Montoya-Williams D, Wilpers AB, Salazar EG",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1542/peds.2026-076871",
+      "doi": "10.1542/peds.2026-076871",
+      "funding_note": "Simulation using 2023 survey data; authors call for restoring the enhanced credits.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42036769&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09",
+      "content_sha256": "f1e8255a99c3eeedd1a1e2d28ac22eb5c33f317313dee314acb14eb276d8c261"
+    },
+    {
+      "id": "khodakarami-2026",
+      "title": "Unwinding of Medicaid enrollment and increased uninsured emergency department visits in California",
+      "publisher": "Health Affairs Scholar",
+      "authors": "Khodakarami N, Giannouchos TV, Marthey D, Ukert B, Segel JD, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/haschl/qxaf238",
+      "doi": "10.1093/haschl/qxaf238",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12849369",
+      "accessed": "2026-11-09",
+      "content_sha256": "1eecf446dda01487bf326ef5f20f8d474cd86dea55a991f364dfcaae68fe7dc7"
+    },
+    {
+      "id": "essa-2025",
+      "title": "Ten-Year Medicare Use and Spending on the 10 Drugs Selected for Negotiation Under the Inflation Reduction Act",
+      "publisher": "Journal of the American Heart Association",
+      "authors": "Essa M, Ross JS, Dhruva SS, Desai NR, Spatz ES, Faridi KF",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1161/JAHA.124.034682",
+      "doi": "10.1161/JAHA.124.034682",
+      "license": "CC BY-NC",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12074754",
+      "accessed": "2026-11-09",
+      "content_sha256": "3dc04023df417cda0c811585c13745b504f7bb55048793788623fe5e3ae03e13"
+    },
+    {
+      "id": "chow-2022",
+      "title": "Comparison of Cancer-Related Spending and Mortality Rates in the US vs 21 High-Income Countries",
+      "publisher": "JAMA Health Forum",
+      "authors": "Chow RD, Bradley EH, Gross CP",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1001/jamahealthforum.2022.1229",
+      "doi": "10.1001/jamahealthforum.2022.1229",
+      "funding_note": "Cross-sectional; mortality data for 2020.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9142870",
+      "accessed": "2026-11-09",
+      "content_sha256": "3438539724a17d90efbe336d04c3ab193ad0762e1d63ee3f7309bc087243028a"
+    },
+    {
+      "id": "concord3-2018",
+      "title": "Global surveillance of trends in cancer survival 2000-14 (CONCORD-3)",
+      "publisher": "The Lancet",
+      "authors": "Allemani C, Matsuda T, Di Carlo V, et al.; CONCORD Working Group",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(17)33326-3",
+      "doi": "10.1016/S0140-6736(17)33326-3",
+      "funding_note": "Patients diagnosed 2000-2014; registry coverage differs by country.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5879496",
+      "accessed": "2026-11-09",
+      "content_sha256": "3e2a11cf4ef40c495fe25fc5edd3e4d4c917aaafa2bf5b69e6f748142975f21a"
+    },
+    {
+      "id": "census-p60-291",
+      "title": "Health Insurance Coverage in the United States: 2025 (Current Population Reports P60-291)",
+      "publisher": "U.S. Census Bureau",
+      "authors": "Bunch LN, Ketema H",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www2.census.gov/library/publications/2026/demo/p60-291.pdf",
+      "funding_note": "Official statistics from the 2026 CPS ASEC (calendar-year 2025 coverage); issued September 2026.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "census-acsbr-024",
+      "title": "Health Insurance Coverage by State: 2023 and 2024 (American Community Survey Briefs ACSBR-024)",
+      "publisher": "U.S. Census Bureau",
+      "authors": "Carter C",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www2.census.gov/library/publications/2025/demo/acsbr-024.pdf",
+      "funding_note": "Official statistics from ACS 1-year data (coverage at time of interview), issued September 2025. The Census Bureau changed the ACS health insurance question in 2025 and advises caution comparing 2025 estimates with earlier years.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cms-nhe-factsheet",
+      "title": "NHE Fact Sheet (National Health Expenditure Accounts, historical 2024 and projections 2025-2034)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+      "funding_note": "Official national health accounts; web fact sheet updated over time, so figures may be revised.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "kff-denials-2024",
+      "title": "Claims Denials and Appeals in ACA Marketplace Plans in 2024",
+      "publisher": "KFF",
+      "authors": "Long M, Lo J, Pestaina K",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.kff.org/patient-consumer-protections/claims-denials-and-appeals-in-aca-marketplace-plans-in-2024/",
+      "funding_note": "Independent nonprofit health policy research organization; analysis of CMS Transparency in Coverage public use files for HealthCare.gov plans, published March 2026.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "ama-pa-survey-2025",
+      "title": "2025 AMA Prior Authorization Physician Survey",
+      "publisher": "American Medical Association",
+      "tier": 3,
+      "type": "other",
+      "year": 2026,
+      "url": "https://www.ama-assn.org/system/files/prior-authorization-survey.pdf",
+      "funding_note": "Physician professional association that campaigns for prior authorization reform; web survey of 1,000 practicing physicians from a Medscape panel, December 2025.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cfpb-medburden-2022",
+      "title": "Medical Debt Burden in the United States",
+      "publisher": "Consumer Financial Protection Bureau",
+      "tier": 3,
+      "type": "government",
+      "year": 2022,
+      "url": "https://files.consumerfinance.gov/f/documents/cfpb_medical-debt-burden-in-the-united-states_report_2022-03.pdf",
+      "funding_note": "Federal regulator report (March 2022) based on credit-record data through June 2021; predates the 2022-2023 voluntary removal of some medical collections by the credit reporting companies.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cfpb-medcollections-2024",
+      "title": "Recent Changes in Medical Collections on Consumer Credit Records (data point summary page)",
+      "publisher": "Consumer Financial Protection Bureau",
+      "authors": "Blizard Z, Sandler R",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/",
+      "funding_note": "Federal regulator research; credit-record data through June 2023.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cfpb-regv-page",
+      "title": "Prohibition on Creditors and Consumer Reporting Agencies Concerning Medical Information (Regulation V): final rule page",
+      "publisher": "Consumer Financial Protection Bureau",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.consumerfinance.gov/rules-policy/final-rules/prohibition-on-creditors-and-consumer-reporting-agencies-concerning-medical-information-regulation-v/",
+      "funding_note": "Agency rule page, last modified February 2026; records the July 2025 court vacatur of the January 2025 rule.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "pkff-meddebt",
+      "title": "The burden of medical debt in the United States",
+      "publisher": "Peterson-KFF Health System Tracker",
+      "authors": "Rakshit S, Rae M, Claxton G, Amin K, Cox C",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2024,
+      "url": "https://www.healthsystemtracker.org/brief/the-burden-of-medical-debt-in-the-united-states/",
+      "funding_note": "Peterson Center on Healthcare and KFF partnership; analysis of Census SIPP data on unpaid medical bills as of December 2021.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "kff-2026-whatweknow",
+      "title": "What We Know So Far About 2026 ACA Marketplace Enrollment, Premiums, and Deductibles",
+      "publisher": "KFF",
+      "authors": "McGough M, Ortaliza J, Lo J, Cox C",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.kff.org/affordable-care-act/what-we-know-so-far-about-2026-aca-marketplace-enrollment-premiums-and-deductibles/",
+      "funding_note": "Independent nonprofit; early estimates (May 2026) from CMS and state Open Enrollment reports, KFF surveys and Wakely Consulting data.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "kff-indiv-mkt-2026",
+      "title": "Individual Market Enrollment Continues to Fall Through Mid-2026",
+      "publisher": "KFF",
+      "authors": "McGough M, Lo J, Cox C",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.kff.org/affordable-care-act/individual-market-enrollment-continues-to-fall-through-mid-2026/",
+      "funding_note": "Independent nonprofit; analysis of insurer filings compiled by Mark Farrah Associates, published October 2026.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "nchs-nhis-insur-2025",
+      "title": "Health Insurance Coverage: Early Release of Estimates From the National Health Interview Survey, 2025",
+      "publisher": "National Center for Health Statistics (CDC)",
+      "authors": "Cohen RA, Briones EM",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cdc.gov/nchs/data/nhis/earlyrelease/Health-Insurance-Coverage-Early-Release-of-Estimates-2025.pdf",
+      "funding_note": "Official survey statistics released May 2026 before final editing and weighting; coverage measured at the time of interview, a different concept from the Census CPS ASEC full-year measure.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "nchs-nhis-er-2025",
+      "title": "Early Release of Selected Estimates Based on Data From the 2025 National Health Interview Survey",
+      "publisher": "National Center for Health Statistics (CDC)",
+      "authors": "Norris T, Bottoms-McClain L, Adjaye-Gbewonyo D",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cdc.gov/nchs/data/nhis/earlyrelease/Early-Release-of-Selected-Estimates-Based-on-Data-from-the-2025.pdf",
+      "funding_note": "Official survey statistics released May 2026 before final editing and weighting; indicator definitions and populations are in the NHIS technical notes, not in this table.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "haq-gbd2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "funding_note": "Institute for Health Metrics and Evaluation (GBD), funded by the Bill & Melinda Gates Foundation; data year 2019. The paper reports scores, not a numbered rank for each country.",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "sickler-ablj-2025",
+      "title": "Surviving on the Financial Edge: Review of Debt's Grip: Risk and Consumer Bankruptcy by Pamela Foohey, Robert Lawless & Deborah Thorne",
+      "publisher": "American Bankruptcy Law Journal 99:3 (National Conference of Bankruptcy Judges)",
+      "authors": "Sickler A",
+      "tier": 3,
+      "type": "other",
+      "year": 2025,
+      "url": "https://www.ablj.org/wp-content/uploads/2025/12/Sickler_ABLJ_99-3.pdf",
+      "funding_note": "Book review by a law professor, reporting findings of Debt's Grip (University of California Press, 2025), which was not reachable as open text. Figures come from the Consumer Bankruptcy Project's survey of filers and are self-reported; the CBP's earlier medical-bankruptcy estimates have been criticized for broad definitions (see dobkin-2018). One CBP author (Thorne) co-wrote Himmelstein et al. 2009.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "scott-2026",
+      "title": "Changes In Medical Debt And Bankruptcy After Acute Traumatic Injuries, 2019-21",
+      "publisher": "Health Affairs",
+      "authors": "Scott JW, Becker NV, Hemmila MR, Kunnath N, Ayanian JZ, Fendrick AM, Ryan AM, Dimick JB",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1377/hlthaff.2025.00847",
+      "doi": "10.1377/hlthaff.2025.00847",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13109849",
+      "funding_note": "Michigan Trauma Quality Improvement Program registry (Michigan trauma patients) linked to consumer credit reports, 2019-2021; difference-in-differences against not-yet-injured matched controls.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "uppal-2025",
+      "title": "Debt, Bankruptcy, and Credit Scores After Cancer Diagnosis",
+      "publisher": "JAMA Oncology",
+      "authors": "Uppal N, Gomez-Mayorga JL, O'Donoghue AL, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1001/jamaoncol.2025.3302",
+      "doi": "10.1001/jamaoncol.2025.3302",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12395357",
+      "funding_note": "Massachusetts Cancer Registry patients diagnosed 2010-2019, matched to controls; Massachusetts has had near-universal coverage since its 2006 reform, so results may not generalize to other states. PMC holds the abstract and front matter only.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "irs-tc751",
+      "title": "Topic no. 751, Social Security and Medicare withholding rates",
+      "publisher": "Internal Revenue Service",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.irs.gov/taxtopics/tc751",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "irs-addl-medicare",
+      "title": "Questions and answers for the Additional Medicare Tax",
+      "publisher": "Internal Revenue Service",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/questions-and-answers-for-the-additional-medicare-tax",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "cms-trustees-2026",
+      "title": "2026 Annual Report of the Boards of Trustees of the Federal Hospital Insurance and Federal Supplementary Medical Insurance Trust Funds",
+      "publisher": "Boards of Trustees, Medicare trust funds (CMS)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cms.gov/files/document/2026-medicare-trustees-report.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Statutory annual report; income figures are for calendar year 2025 (actual), projections use intermediate assumptions."
+    },
+    {
+      "id": "cms-premiums-2026",
+      "title": "2026 Medicare Parts A & B Premiums and Deductibles (fact sheet, 14 November 2025)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "macpac-financing-2025",
+      "title": "Medicaid Financing (issue brief, August 2025)",
+      "publisher": "Medicaid and CHIP Payment and Access Commission (MACPAC)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.macpac.gov/wp-content/uploads/2025/08/Medicaid-Financing.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "MACPAC is a non-partisan congressional advisory commission. The brief reflects Public Law 119-21 (July 2025)."
+    },
+    {
+      "id": "cms-nhe-highlights",
+      "title": "National Health Expenditures 2024 Highlights",
+      "publisher": "Centers for Medicare & Medicaid Services, Office of the Actuary",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.cms.gov/files/document/highlights.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "kff-ehbs-2025",
+      "title": "2025 Employer Health Benefits Survey",
+      "publisher": "KFF",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2025,
+      "url": "https://www.kff.org/health-costs/report/2025-employer-health-benefits-survey/",
+      "accessed": "2026-11-11",
+      "funding_note": "KFF is an independent non-profit health policy organization. Survey of private and non-federal public employers with 10 or more workers."
+    },
+    {
+      "id": "treasury-te-fy2027",
+      "title": "Tax Expenditures FY2027",
+      "publisher": "U.S. Department of the Treasury, Office of Tax Analysis",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://home.treasury.gov/system/files/131/Tax-Expenditures-FY2027.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Official revenue-loss estimates dated 16 December 2025, relative to a baseline that taxes all compensation; they are not estimates of what repeal would raise."
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 10,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 10,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 9,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 9,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 10,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-09",
+      "note": "Baseline profile: 94 claims from 20 sources, anchored to fingerprinted passages and support-reviewed in two cold passes; 46 statements corrected, 1 claim dropped (Medigap, unreadable PDF text)."
+    },
+    {
+      "date": "2026-11-09",
+      "note": "Moved 9 medical debt and bankruptcy claims from problems to the new financial_hardship section (statements and anchors unchanged)."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill: 38 claims added from primary sources now reachable (Census CPS ASEC and ACS, NCHS NHIS, CMS NHE, KFF Marketplace denials, AMA prior authorization survey, CFPB medical debt, KFF 2026 Marketplace, GBD HAQ Index); 3 claims re-anchored to PMC full text; cold support review passed all after 4 rewrites."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill round 2 (data older than 10 years): replaced Himmelstein 2009 and Dobkin 2018 bankruptcy estimates with Debt's Grip (via Sickler 2025 review), Scott 2026 (trauma) and Uppal 2025 (cancer); replaced 2016 spending comparison with OECD Health at a Glance 2025 (2024 data); dropped USA-costs-001 (superseded) and USA-outcomes-010 (GBD 2016 state deciles, no GBD 2019 equivalent)."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill round 3 (USA-r3): financing section brought to the who-pays standard: payroll tax rates and caps (IRS), Medicare income by source (2026 Trustees Report), Part A/B premiums 2026, Medicaid matching and state funding (MACPAC), spending by sponsor 2024 (CMS NHE), employer premiums 2025 (KFF), tax exclusion for employer insurance (Treasury FY2027), OECD classification note. 26 claims added, USA-financing-004 re-sourced to the IRS."
+    }
+  ],
+  "is_baseline": true
+}

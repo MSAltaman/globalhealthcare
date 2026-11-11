@@ -1,6 +1,6 @@
 {
   "iso3": "KOR",
-  "retrieved": "2026-11-09",
+  "retrieved": "2026-11-11",
   "provider": "World Bank WDI, WHO Global Health Observatory and OECD Health Statistics APIs",
   "indicators": [
     {
@@ -172,6 +172,85 @@
       "year": 2023,
       "original_source": "OECD Health Statistics",
       "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_STAT@DF_AM,1.1/all"
+    },
+    {
+      "id": "GOV_HEALTH_PC",
+      "label": "Government health spending per person (PPP)",
+      "unit": "current international $",
+      "group": "costs",
+      "value": 2876.37,
+      "year": 2024,
+      "original_source": "Computed by the atlas: SH.XPD.CHEX.PP.CD * SH.XPD.GHED.CH.ZS / 100",
+      "api_url": null
+    },
+    {
+      "id": "GOV_HEALTH_GDP",
+      "label": "Government health spending, % of GDP",
+      "unit": "% of GDP",
+      "group": "costs",
+      "value": 4.91,
+      "year": 2024,
+      "original_source": "Computed by the atlas: SH.XPD.CHEX.GD.ZS * SH.XPD.GHED.CH.ZS / 100",
+      "api_url": null
     }
-  ]
+  ],
+  "financing_revenue": {
+    "source": "OECD Health Statistics, System of Health Accounts: revenues of financing schemes",
+    "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_SHA@DF_SHA_FS,1.1/all",
+    "note": "OECD System of Health Accounts (SHA 2011) revenue classification. Segments sum to current health spending as % of GDP. 'General taxes' (FS.1) includes government transfers to social insurance funds. OECD counts US employer insurance as compulsory prepayment since the ACA mandate.",
+    "year": 2025,
+    "total_pct_gdp": 8.459,
+    "segments": [
+      {
+        "id": "taxes",
+        "label": "General taxes (government budget)",
+        "pct_gdp": 1.53
+      },
+      {
+        "id": "payroll_employer",
+        "label": "Social insurance: employer contributions",
+        "pct_gdp": 1.49
+      },
+      {
+        "id": "payroll_worker",
+        "label": "Social insurance: employee and self-employed contributions",
+        "pct_gdp": 1.82
+      },
+      {
+        "id": "payroll_other",
+        "label": "Social insurance: other contributions",
+        "pct_gdp": 0.0
+      },
+      {
+        "id": "mandated_employer",
+        "label": "Mandatory private premiums: employers",
+        "pct_gdp": 0.0
+      },
+      {
+        "id": "mandated_individual",
+        "label": "Mandatory private premiums: individuals",
+        "pct_gdp": 0.113
+      },
+      {
+        "id": "voluntary",
+        "label": "Voluntary insurance premiums",
+        "pct_gdp": 0.788
+      },
+      {
+        "id": "households",
+        "label": "Paid directly by households (out of pocket)",
+        "pct_gdp": 2.703
+      },
+      {
+        "id": "private_unsplit",
+        "label": "Households and other private payments (not broken down by OECD)",
+        "pct_gdp": 0
+      },
+      {
+        "id": "other",
+        "label": "Other (charities, companies, foreign aid)",
+        "pct_gdp": 0.015
+      }
+    ]
+  }
 }

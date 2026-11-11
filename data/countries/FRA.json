@@ -3,7 +3,7 @@
   "name": "France",
   "wave": 1,
   "system_as_of": "2026-11-11",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "mixed",
     "label": "Universal statutory health insurance run as a single public payer, with near-universal complementary private insurance"
@@ -30,8 +30,10 @@
           "passage_sha256": "9903ab2a38f50854a5169f671b2c345425f42ebcc6efb25fb3076016c63a096e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -46,8 +48,10 @@
           "passage_sha256": "59b210eb80c107da6450e295f93b5cb3da443c3c38015740a048900eab705f63"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -62,8 +66,10 @@
           "passage_sha256": "5e96415d82604f9429355c6ae0838255ef230a14640dad1366ccb1f54219195d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -78,14 +84,16 @@
           "passage_sha256": "5215f2b7b0f484b8c57ef07856069df33aa24f0475016901f14d8f679f9a5e37"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "historical": true
       },
       {
         "id": "FRA-overview-005",
-        "statement": "Statutory insurance is split into non-competing schemes assigned by occupation: the general fund (CNAM) covered 88% of the population in 2021, the agricultural fund (MSA) about 5%, and more than 20 schemes for specific occupations about 7% in 2022.",
+        "statement": "Statutory insurance is split into non-competing schemes assigned by employment status: the general fund (CNAM) covered 88% of the population in 2021, the agricultural fund (MSA) about 5%, and more than 20 schemes for specific occupations about 7% in 2022.",
         "valence": "neutral",
         "source_id": "cwf-fra",
         "locator": {
@@ -95,14 +103,16 @@
           "passage_sha256": "767f42a913d04c5f16bf3d6f0f5434bdbf3bbe7e3b6b6156c963b6b45632a2e3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2022"
       },
       {
         "id": "FRA-overview-006",
-        "statement": "Regional health agencies have managed much of care provision locally, especially hospitals, since 2009, but the national insurer and central government still set the system's operating rules, and the state controls insurance-funded spending through an annual national target (ONDAM).",
+        "statement": "Since 2009 regional health agencies have taken a larger role in managing care locally, especially hospital care, but statutory insurance and central government still play a strong role in organising the system, and over the past two decades the state has increasingly controlled insurance-funded spending through an annual national target (ONDAM).",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -113,8 +123,10 @@
           "passage_sha256": "46904c48e49734929826f8344169ff333747f7b0bab09dbc17cd8ca3f0b10f63"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -131,8 +143,10 @@
           "passage_sha256": "9d36050b76315a3a39e4d2a16d81eb4201df16a6c2c79be79f9ae4eb87b4a25e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -149,14 +163,16 @@
           "passage_sha256": "19d1b9548b3add9167348bc649984d2f135576a0f6a1a279042c74c596a3100c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FRA-financing-003",
-        "statement": "Statutory insurance spending has been capped by annual national targets since 1996; the target (ONDAM) rose by 4.8% a year over 2019-2025, largely because of pandemic measures, compared with 2.4% a year in 2015-2019.",
+        "statement": "Statutory insurance spending has been controlled through annual national targets since 1996; the target (ONDAM) rose by 4.8% a year over 2019-2025, largely because of pandemic measures, compared with 2.4% a year in 2015-2019.",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -167,9 +183,12 @@
           "passage_sha256": "e9e6f7e4c851f3d5c983bdaa11946a5b9d650889b34b0ac4492bc21075001b35"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        }
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2025"
       },
       {
         "id": "FRA-financing-004",
@@ -183,25 +202,29 @@
           "passage_sha256": "4fd430a3e0736f2c6d1af8d0080f939996360e7ce4f73dc2c07763b3ae207b79"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-financing-005",
-        "statement": "Administering the system of statutory insurance plus the many complementary insurers cost EUR 15.7 billion in 2020 (5.5% of health spending), and 48% of that cost came from managing complementary insurance, against 46% for statutory insurance.",
+        "statement": "Administering the health insurance system, with statutory insurance and numerous complementary insurers, cost EUR 15.7 billion in 2020 (5.5% of health spending), and 48% of that cost came from managing complementary insurance, against 46% for statutory insurance.",
         "valence": "weakness",
         "source_id": "hit-fra-2023",
         "locator": {
           "page": 95,
           "section": "3.3 Pooling of funds",
-          "char_start": 186857,
+          "char_start": 186811,
           "char_end": 187107,
-          "passage_sha256": "4cb692e61cbc912e9327e9fe0a698082306e22420675d8ba48fbe1a0a5fd735a"
+          "passage_sha256": "cd888ad7823c8d14e5488f4bd7ac89d9df693c33176bc63ba39ca7dff968fde1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
       }
@@ -219,8 +242,10 @@
           "passage_sha256": "4e6e0dce61858b7c7ccd21ea4646b7215b7bb7611a82ef2803b714ee657b76b6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -235,8 +260,10 @@
           "passage_sha256": "8e1fb44d3d1fa59d754c5c80d249401816dfb6f956aa7d16a00b80a8f177252c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -252,8 +279,10 @@
           "passage_sha256": "ed5f40e8940150ae29f1b12e2235a1aead4a25db9bf5834663902bd2ea669f42"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -268,8 +297,10 @@
           "passage_sha256": "8c598f9a8908cf03425bb68c26d4b6f5a8b95328c76c97ea1e07ff326765faa2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -285,13 +316,15 @@
           "passage_sha256": "1e13b7242ff856a62b02f4eb8b5f575696a7adf7389ca4ac169ea011d5101526"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-covered-006",
-        "statement": "Who decides drug coverage: a medicine is reimbursed only if a ministerial decree adds it to the positive list, on the advice of the HAS Transparency Commission and the pricing committee (CEPS); its reimbursement rate follows its assessed medical benefit and the severity of the condition, and the Commission also rates its added benefit over existing treatments.",
+        "statement": "Who decides drug coverage: a medicine is reimbursed only if a ministerial decree adds it to the positive list, on the advice of the HAS Transparency Commission and the Economic Committee for Health Products (CEPS); its reimbursement rate follows its assessed medical benefit and the severity of the condition, and the Commission also rates its added benefit over existing treatments.",
         "valence": "neutral",
         "source_id": "hit-fra-2023",
         "locator": {
@@ -302,13 +335,15 @@
           "passage_sha256": "1ec833cb9661ec6e0e611c731612c4fd34dc15a603e4fca31206576c7792051e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-covered-007",
-        "statement": "A drug's price is either negotiated between the manufacturer and the pricing committee CEPS, whose members represent ministries, statutory insurance and complementary insurers, or set by international benchmarking; by law it must reflect the drug's added benefit, the prices of comparable drugs and expected sales volume.",
+        "statement": "A drug's price is either negotiated between the manufacturer and the pricing committee CEPS, made up of representatives of the health, economy and research ministries, statutory insurance and UNOCAM, or set by international benchmarking; by law it must reflect the drug's added benefit, the prices of comparable drugs and expected sales volume.",
         "valence": "neutral",
         "source_id": "hit-fra-2023",
         "locator": {
@@ -319,8 +354,10 @@
           "passage_sha256": "2711eaa3d195643f1d1a8146ed994422dfa5d6132af56c57676b9ddb0fc694c1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -335,8 +372,10 @@
           "passage_sha256": "54b425e1e0318728f2f769a0a6f50e2c3603a0594b660ca7373ad9116d9af23e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -352,15 +391,17 @@
           "passage_sha256": "751e36c286c1630e934cdcf4f4a89d160ba6a2e4b0d15416a77e3f5d8c6c4359"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "cost_sharing": [
       {
         "id": "FRA-cost_sharing-001",
-        "statement": "Statutory insurance pays 80% of the cost of inpatient stays, 70% of outpatient visits and between 15% and 100% of approved medicines, with the rest typically left to complementary insurance or the patient.",
+        "statement": "Statutory insurance pays 80% of the cost of inpatient stays, 70% of outpatient visits and between 15% and 100% of approved medicines.",
         "valence": "neutral",
         "source_id": "cwf-fra",
         "locator": {
@@ -370,13 +411,15 @@
           "passage_sha256": "8ecd5ecedaec4d043c95d52b7a534d8a280af0c3d223668c9baadf3a78f7e816"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-cost_sharing-002",
-        "statement": "Patients who see a doctor without a referral from their designated attending physician are reimbursed at a reduced 30% rate; psychiatric, gynaecological and eye care for people under 26 and all pregnancy care are exempt from this penalty.",
+        "statement": "Patients who see a doctor without a referral from their attending physician are reimbursed at a reduced 30% rate; psychiatric, gynaecological and eye care for people under 26 and all pregnancy care are exempt from this penalty.",
         "valence": "neutral",
         "source_id": "cwf-fra",
         "locator": {
@@ -386,8 +429,10 @@
           "passage_sha256": "61a23db4593cf518789214ed4d2fd0b2fe63862967931a80769cf0151e2d79f7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -402,8 +447,10 @@
           "passage_sha256": "7eb20f83fdbe03bde82e46ae4f58ea9fa2deebe05a5bcb1c6976b8f5b17924e2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -418,25 +465,29 @@
           "passage_sha256": "b98c5c23aec2985be418ddf065729493d3a71ffbc37ecf84c54d9a8a7febfef6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-cost_sharing-005",
-        "statement": "Retail medicines are reimbursed at 15%, 30%, 65% or 100% of list price depending on their therapeutic value and the severity of the disease; complementary insurance usually covers the remainder, leaving a EUR 0.50 fixed fee per prescription.",
+        "statement": "Retail medicines are reimbursed at 15%, 30%, 65% or 100% of list price depending on their therapeutic value and the severity of the disease.",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
           "page": 19,
           "section": "6 Spotlight on pharmaceuticals",
           "char_start": 115998,
-          "char_end": 116435,
-          "passage_sha256": "c5180b67fe53ef31ddc3156e7aa1a4038077ef5bd145fad143bee4954ceb34da"
+          "char_end": 116183,
+          "passage_sha256": "78a7dd4cc65cebada9aaaeb2b4fbbdd282fe30d20d83afea9bf0b5afcb318836"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -452,8 +503,10 @@
           "passage_sha256": "e3ae8eeb6e0ca78d23185d381bde5b8ad93a7f3f40abe73bb1d731d086455d0c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -469,8 +522,10 @@
           "passage_sha256": "a263f5008fbba228be5d3e09abc397d5d0d21fc03371a35ac87cbfa1047f79a5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -486,8 +541,10 @@
           "passage_sha256": "7abcfb5fca7be846c8b7b69c5538a030ae21aa558cc2754f616466f480f27b21"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -503,13 +560,15 @@
           "passage_sha256": "ac620fac9938f3dac3fb97931c51b1a5590cb910b09bd81b737aef6f64b1bf9c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-cost_sharing-010",
-        "statement": "Free state-funded complementary cover (C2S) is means-tested: in mainland France a single person with annual income up to EUR 10,339 gets it free, and up to EUR 13,957 for a small contribution of typically under EUR 1 a day.",
+        "statement": "Complementary cover through C2S is means-tested: in mainland France a single person with annual income up to EUR 10,339 gets it free, and up to EUR 13,957 for a small contribution of typically under EUR 1 a day.",
         "valence": "strength",
         "source_id": "cwf-fra",
         "locator": {
@@ -519,10 +578,11 @@
           "passage_sha256": "0b22ac58f14c2ec5cb7c3e0375953c77c00f989dc9c8c7da1b3568e58094c166"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2025
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
       }
     ],
     "financial_hardship": [
@@ -539,8 +599,10 @@
           "passage_sha256": "02a3b444496824c32ae5c7cb2f4c63106282a73a52ca81c7fc24208c4b4df0f5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -557,8 +619,10 @@
           "passage_sha256": "be83fe4fb2c8ab6dbe833f36f114924a3b3eb8cfc2f13ab6c3c32f0207107c0b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -575,31 +639,15 @@
           "passage_sha256": "dc5cf107a409487d2a60dd10698102d63235dbbf371afbeb54a7d915f064d4d3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FRA-financial_hardship-004",
-        "statement": "In that letter sample, employment problems were raised together with health problems in 80% of the letters.",
-        "valence": "neutral",
-        "source_id": "bdf-surendettement-2024",
-        "locator": {
-          "page": 28,
-          "section": "Encadré: lettres jointes par des déposants",
-          "char_start": 59923,
-          "char_end": 60017,
-          "passage_sha256": "ba127e339bbaaab60248f157f77e987eb3eae4aed8967fbd89d007197c9acf75"
-        },
-        "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2023
-      },
-      {
-        "id": "FRA-financial_hardship-005",
         "statement": "Across over-indebtedness files processed in 2024, a combined category of health and education debts made up 0.7% of total debt and appeared in 20% of files, with a median of EUR 475.",
         "valence": "neutral",
         "source_id": "bdf-surendettement-2024",
@@ -611,31 +659,35 @@
           "passage_sha256": "12a196e2d3a17cc192f4d02a368fd3f074f81505cd537022aadd2d2c8ec64168"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
-        "id": "FRA-financial_hardship-006",
-        "statement": "In a 2023 web survey of 1,012 French cancer survivors recruited through patient associations and social media groups, financial hardship was more common among those in pain (odds ratio 2.7).",
+        "id": "FRA-financial_hardship-005",
+        "statement": "In a survey of 1,012 cancer survivors recruited from January to March 2023 through 12 cancer associations and 12 Facebook groups, financial hardship was more common among those in pain (odds ratio 2.7).",
         "valence": "weakness",
         "source_id": "cancer-fin-2026",
         "locator": {
           "section": "Abstract",
-          "char_start": 1524,
+          "char_start": 1124,
           "char_end": 1780,
-          "passage_sha256": "5d68374506c22e67ea44ae146010e2be4b4ca4fd79e8bc359c09a004dffee288"
+          "passage_sha256": "57a9304b1d7adfe44413740081d898681a161c52deeadea86e4de0a3095a90b0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
-        "id": "FRA-financial_hardship-007",
-        "statement": "Among 50 patients with ALS surveyed in 2024, mean annual out-of-pocket spending was EUR 7,764, even though the French system fully covers ALS-related health care; adding lost family income, the mean yearly burden was EUR 15,397.",
+        "id": "FRA-financial_hardship-006",
+        "statement": "In a survey of people with ALS and their families, mean annual out-of-pocket spending was EUR 7,764, mainly on home adaptations, vehicle adaptations and paid caregivers; adding EUR 7,633 of lost family income, the mean yearly economic burden was EUR 15,397.",
         "valence": "weakness",
         "source_id": "als-oop-2026",
         "locator": {
@@ -645,13 +697,15 @@
           "passage_sha256": "24dc50d462774c8e719719671e3f518814f6475f1ac07db687c7d6759945e141"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
-        "id": "FRA-financial_hardship-008",
+        "id": "FRA-financial_hardship-007",
         "statement": "The Commonwealth Fund reports that no data are available to confirm whether out-of-pocket costs push people in France below the poverty line.",
         "valence": "neutral",
         "source_id": "cwf-fra",
@@ -662,8 +716,10 @@
           "passage_sha256": "38c6d876445b3236756d095817181fc44dcaa2f911f936d83263e7332fe4a03c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -681,8 +737,10 @@
           "passage_sha256": "07666daaa40c008095ef747fd2b473c2f48ae1b280f94e00a311e5e99ca7d8f2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -697,8 +755,10 @@
           "passage_sha256": "bd485ea269d4cdcc65866ef39e18b85f52e19d9db22d2959c2de6a6026db2f1e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -714,8 +774,10 @@
           "passage_sha256": "487738e05753f99c37d043383b2d51e33f51ed5cdaafc9784bc11d7435777a13"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -731,8 +793,10 @@
           "passage_sha256": "9d3bbd7d27832446cc346f0af1782fa9fa803dd60119fd80399a9dda17598160"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -748,8 +812,10 @@
           "passage_sha256": "3f3b45f03ff988819706e3ea81e303b7173c619a56b3321d0dafdd282be081ca"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2017
       },
@@ -766,8 +832,10 @@
           "passage_sha256": "a0b0e764842fcc3671726e884c85b7464918c5895812d37e79a36b2346f0038d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -783,8 +851,10 @@
           "passage_sha256": "c2c190a3c8cbaed69ea969caf17a1cd3bb7932f7b6b7b3b9afd672e0d0ac0b2a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       }
@@ -803,8 +873,10 @@
           "passage_sha256": "cf372d39467e3744eb5f867628054ad30dc51e9c62c8443347867cee4ec74c0b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -821,8 +893,10 @@
           "passage_sha256": "56c1b8be8608c27132e680dabf5e87d011152cae4718f24a2214476edc26412b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -839,8 +913,10 @@
           "passage_sha256": "0fde8a671d3df171f93a572df7ddff0bf47b78af3878b37dba02a0bd918ee5f1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -857,8 +933,10 @@
           "passage_sha256": "254900ced2b4b6bed61dd03eb7d9075e8e3ed41cf12cb720579b184176098eea"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2023"
       },
@@ -875,8 +953,10 @@
           "passage_sha256": "b8bbf34cd4944c9f986e926af38987dbc236b1c2a45c1343f53a4a00ca087eb6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2018
       },
@@ -892,8 +972,10 @@
           "passage_sha256": "f994fa041c139febda10fe325f6fc9f757f1bd7ca6bebdc09641b08f651d3fd1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2023"
       },
@@ -909,8 +991,10 @@
           "passage_sha256": "ba8522d8a55615e4938b6f32fdf611e3df2c80aa55bb01248a174ec753e68163"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -926,8 +1010,10 @@
           "passage_sha256": "fbb91139b2fd6836911ddb88830da8df9145e39d153a67ca8818e7d2cf7a551d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -944,10 +1030,12 @@
           "passage_sha256": "28093728d7bd08e049716821f8dc557088125d55fda8a597396897f26c8f6871"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "2020-2025"
+        "data_year": "2020-2023"
       },
       {
         "id": "FRA-access-010",
@@ -962,8 +1050,10 @@
           "passage_sha256": "12f0c860b058caf5f404a4a090c4e487968d90316eb7faeaab798a3a8d82528d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -980,8 +1070,10 @@
           "passage_sha256": "0ae8b940b02c490bc91d7afb158787ade689af753ba8cba27d1d94aebde81d5d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-2023"
       }
@@ -1000,8 +1092,10 @@
           "passage_sha256": "17763fa992fe14b27db93e382d9209993e916e305540f34733c66aea96313756"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1017,8 +1111,10 @@
           "passage_sha256": "41b69b3dc291be01356aadf3b0d5b0ffb6e7e9d80f3c769e29cf9532ed6d07ad"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -1034,14 +1130,16 @@
           "passage_sha256": "41b69b3dc291be01356aadf3b0d5b0ffb6e7e9d80f3c769e29cf9532ed6d07ad"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "FRA-outcomes-004",
-        "statement": "Life expectancy in France was 1.4 years above the EU average in 2024, but at age 35 men with tertiary education can expect to live 8.0 years longer than men without a secondary diploma; for women the gap is 5.4 years.",
+        "statement": "French life expectancy exceeded the EU average by 1.4 years in 2024, yet at age 35 the most educated men (tertiary degree) can expect 8.0 more years of life than men who did not finish secondary school, and the equivalent gap for women is 5.4 years.",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1052,8 +1150,10 @@
           "passage_sha256": "8f4463421601ff3a4898a9862bc871cdf1d5ea8034aff49aa3ffa77859cf6f92"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1070,15 +1170,17 @@
           "passage_sha256": "ff2acbecc0603ce94c8bc8af15b1003dd25937aba483e620cd99bc72bb5e0127"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1990-2015",
         "historical": true
       },
       {
         "id": "FRA-outcomes-006",
-        "statement": "In 2023, 47% of eligible women in France took part in breast cancer screening against an average of 58%, and colorectal screening was 34% against 48%, among the EU countries with data.",
+        "statement": "In 2023 France's breast cancer screening rate was 47% against an average of 58%, and its colorectal screening rate 34% against an average of 48%.",
         "valence": "weakness",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1089,8 +1191,10 @@
           "passage_sha256": "c4e4a55ce33029de8721c8441dbe004c0a2f2207c3ac41c3eac4857242ed9290"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1107,8 +1211,10 @@
           "passage_sha256": "cbfbe33acb1284e8e7d6db0d550da1846ad6f34f3ae6caf0194a413d6dbfd8e5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1125,8 +1231,10 @@
           "passage_sha256": "0e4023d81d6b094bdad00b1084c2a99d005f70cc53117f0530b01ae4bb043cc0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1142,8 +1250,10 @@
           "passage_sha256": "f872d091fd81d448b16d08d2b0273c31d0c40a1963267ec085d6434d5847d0f7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -1162,8 +1272,10 @@
           "passage_sha256": "6ce1db4bf85ad4dcfbed2b4d45e2f9038930d16f5d00085568e2171d198b7982"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1180,14 +1292,16 @@
           "passage_sha256": "2eaad2912ae200462191d583e3d3b1f3a3092d81317a06956201a0a1c98ea1e8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FRA-costs-003",
-        "statement": "Out-of-pocket payments were 9.3% of health spending in France, among the lowest shares in the EU (average 15.5%), in data for 2023.",
+        "statement": "Out-of-pocket payments were 9.3% of health spending in France, among the lowest shares in the EU (average 15.5%).",
         "valence": "strength",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1198,8 +1312,10 @@
           "passage_sha256": "dae6b1d24f701a98aa43ec1ab5ebc11375449a61684ebd4f4130e6246f081d0b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1216,8 +1332,10 @@
           "passage_sha256": "05b9b96dbb4608280b80234be6a15375d01437b1b795e0991bcfe683cb9d33db"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1234,8 +1352,10 @@
           "passage_sha256": "85f4b44f78ba3d731e0df35cbb47baee8c48a8b214b4b181cf5726594bfb9833"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1252,8 +1372,10 @@
           "passage_sha256": "52a59dd9ff7535d5b50ee623ded5461e0c63fc26a462d2fb724e3559461ca1b5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1269,8 +1391,10 @@
           "passage_sha256": "ad840d18619900b7eb1e88375c82608edf7db22ff5746a9edeb2c7f2e9df39cc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1282,20 +1406,22 @@
         "locator": {
           "page": 18,
           "section": "5.3 Resilience",
-          "char_start": 111242,
+          "char_start": 111170,
           "char_end": 111353,
-          "passage_sha256": "1277594ee663b04b9fd6b67c92c9731e41618bde7c3b1d7f3ee928befcb136f4"
+          "passage_sha256": "fcad5b4bb792b71a1802eab70a993f6b6d8c4864e82ed7d60ac4b90bf2591ab4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "what_works": [
       {
         "id": "FRA-what_works-001",
-        "statement": "Public schemes cover all health costs linked to a recognised chronic condition, and most people hold complementary insurance that pays their cost sharing, which together keep France's out-of-pocket share among the lowest in the EU.",
+        "statement": "Public schemes cover all health costs linked to a recognised chronic condition, and most people hold complementary insurance that pays their cost sharing.",
         "valence": "strength",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1306,59 +1432,67 @@
           "passage_sha256": "9cec1aa490fa0b89ccc6b34cee318ee33a466e703a558edad48a1aa4ac9e67f0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-what_works-002",
-        "statement": "Using SHI claims data for 2014-2023, a quasi-experimental study found that after the 100% Health reform removed out-of-pocket costs for resin-based full dentures, their use was 58.85% higher than expected (95% CI 37.18%-83.95%), while use of other dental care largely unaffected by the reform did not change.",
+        "statement": "A controlled interrupted time series study of over 1 billion dental treatments in social insurance data for 2014-2023 found that after France's 2019 reform to cut out-of-pocket costs removed them for resin-based full dentures, their use was 58.85% higher than in the control scenario (95% CI 37.18%-83.95%), while use of other dental care largely unaffected by the reform did not change.",
         "valence": "strength",
         "source_id": "dental-100sante-2026",
         "locator": {
           "section": "Abstract",
-          "char_start": 3011,
+          "char_start": 1998,
           "char_end": 3292,
-          "passage_sha256": "b1b549c53b809bef16af44a889b7f9e757ed6484660eeb379261bf0ec0ada067"
+          "passage_sha256": "f9b60549f8384d59dc4bfcfb5b1bb9bd585f4d5b4d05d389dfb26e90af90861a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2014-2023"
       },
       {
         "id": "FRA-what_works-003",
-        "statement": "An early evaluation by the Court of Auditors concluded that the 100% Health reform lowered overall out-of-pocket costs for dental and hearing care.",
+        "statement": "Since 2021 a selection of basic optical, dental and hearing treatments and aids at regulated prices has been fully covered under the 100% Santé reform, and an early evaluation by the Court of Auditors concluded that the reform lowered overall out-of-pocket costs for dental and hearing care.",
         "valence": "strength",
         "source_id": "hit-fra-2023",
         "locator": {
           "page": 206,
           "section": "7.2 Accessibility",
-          "char_start": 435334,
+          "char_start": 434639,
           "char_end": 435484,
-          "passage_sha256": "fe2b30c9d4bb5d9d558e06c1bb9cc30c99849c9bcbdace2d9e6d6785b7955b1c"
+          "passage_sha256": "e32fdade0677b4bbb83191e9ebf9ae567d9de5f86ead8cda642f2d14aed7b04a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-what_works-004",
-        "statement": "In the OECD PaRIS survey (2023-2024), 92% of people with chronic conditions in France felt confident managing their own health, well above the 63% average of the 10 participating EU countries.",
+        "statement": "In the OECD PaRIS survey, 92% of people with chronic conditions in France felt confident managing their own health, well above the 63% average of the 10 participating EU countries.",
         "valence": "strength",
         "source_id": "chp-fra-2025",
         "locator": {
           "page": 12,
           "section": "5.1 Effectiveness",
-          "char_start": 69512,
+          "char_start": 69361,
           "char_end": 69712,
-          "passage_sha256": "eb25f7e2e633e3e566d57bb693a9752b961098d7c459692e117f890dfc5cbd2d"
+          "passage_sha256": "9eaa6db18ddb2333c963d43c3d97389c0f4f3d2fd1d363f0d08ac67cef76e293"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-2024"
       },
@@ -1375,8 +1509,10 @@
           "passage_sha256": "b4913f130a03dff8a8b44ffe6b734ca0e4793fd867ca02212d37c76244bb62a5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1391,8 +1527,10 @@
           "passage_sha256": "34ca92d1612a8f29f6b26506eb5132a38203d3d586f82bfda145bfe4f66b98dc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -1405,33 +1543,36 @@
         "locator": {
           "page": 17,
           "section": "5.3 Resilience",
-          "char_start": 104269,
+          "char_start": 104208,
           "char_end": 104544,
-          "passage_sha256": "d12e2e15fb1d92ca783f6d5b9b92bd9b426e19e843c6e5b466bd4d09ab977809"
+          "passage_sha256": "74c1a4660031238e77049a6535067ca01672ea81be1e7261b172bbec457e2a0f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2050"
       },
       {
         "id": "FRA-problems-002",
-        "statement": "Dropout among nursing students nearly doubled, from about 11% in the 2010s to 20% in 2022.",
+        "statement": "High dropout among nursing students and poor retention in hospitals, where only half of nurses remain after ten years, hold back growth in nurse supply.",
         "valence": "weakness",
         "source_id": "chp-fra-2025",
         "locator": {
-          "page": 18,
-          "section": "5.3 Resilience",
-          "char_start": 108384,
-          "char_end": 108456,
-          "passage_sha256": "ff6bf9dc6438248550daaf0f1b0db939d30acd018ab9e14bf6b4d5e98a264feb"
+          "page": 22,
+          "section": "7 Key findings",
+          "char_start": 135486,
+          "char_end": 135650,
+          "passage_sha256": "5407fb974156b445686d0f7c61e1c4780e2eebd8546b16222fdb89fec49f9529"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2022
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
       },
       {
         "id": "FRA-problems-003",
@@ -1446,8 +1587,10 @@
           "passage_sha256": "d6ada58fd8a47fee162aa2508e34b1e9397fe9e8f6dc60177a3661c64cedf776"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1463,8 +1606,10 @@
           "passage_sha256": "df50e1a82fe58ffaa2075a55fa89c976ea960522c936c357c5a23e58056e11ce"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1480,8 +1625,10 @@
           "passage_sha256": "c4b21309d82b29859a68a19f08c3696fa88e2e23ff2dcc1f02f6410106fd0177"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1498,13 +1645,15 @@
           "passage_sha256": "242d4dc8039c9cc4eb646fb7c3831d91c41c890febe8995e78b4cf0f3df66b9c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-problems-007",
-        "statement": "GPs choose where to practise mainly for personal, family and lifestyle reasons, and financial incentives play a comparatively minor role, which limits incentive schemes aimed at underserved areas.",
+        "statement": "GPs choose where to practise mainly for personal, family and lifestyle reasons, and financial incentives play a comparatively minor role.",
         "valence": "weakness",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1515,13 +1664,15 @@
           "passage_sha256": "8476a82dc4bfdf2d15a572aacfaad5812d96b3d6eb26b6430bdb35d61e46d330"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-problems-008",
-        "statement": "Only about 60% of people with chronic conditions reported good care coordination and trust in the health system in the PaRIS survey, a pattern also seen in other countries.",
+        "statement": "Only about 60% of people with chronic conditions in France reported good care coordination and trust in their health system, a pattern also seen in other countries.",
         "valence": "weakness",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1532,8 +1683,10 @@
           "passage_sha256": "7bec04559639d373cc6972a5b23894f3840dffba53648458328f7627ed21bf24"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-2024"
       },
@@ -1549,8 +1702,10 @@
           "passage_sha256": "1f263965375b62d1a08410bce779d24eeeb069e5fbf06ade6bef7e7baa7e77e4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1566,8 +1721,10 @@
           "passage_sha256": "9e666b93b57237e4dd6de7e29e830a77beda94872efb5a81db7be2ecc2f411a1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2018
       }
@@ -1575,7 +1732,7 @@
     "reforms": [
       {
         "id": "FRA-reforms-001",
-        "statement": "In 2016 the Universal Health Protection system (PUMa) made statutory insurance eligibility universal, replacing the earlier patchwork with automatic coverage for all residents and merging CMU coverage with the state scheme for immigrants.",
+        "statement": "In 2016 the Universal Health Protection system (PUMa) made statutory insurance eligibility universal, replacing and simplifying the previous arrangements with systematic coverage for all residents and merging CMU coverage with the state scheme for immigrants.",
         "valence": "neutral",
         "source_id": "cwf-fra",
         "locator": {
@@ -1585,13 +1742,15 @@
           "passage_sha256": "9c9eda9adcb0d55f897944039ffac9356ad5a787a38d8138aab06063fb864ffb"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-reforms-002",
-        "statement": "A law adopted in May 2025 widened nurses' scope of practice for the first time in over 20 years, adding nursing consultations and nursing diagnoses, and the principle of mandatory nurse-to-patient ratios was adopted in 2025 for implementation in 2027.",
+        "statement": "A law adopted in May 2025 widened nurses' scope of practice for the first time in over 20 years, adding nursing consultations and nursing diagnoses, and the principle of mandatory nurse-to-patient ratios was introduced in 2025, with implementation planned for 2027.",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1602,8 +1761,10 @@
           "passage_sha256": "5399024537aa7cfd10ea5fc70cf6b599e58a6879b57d242ba81386f635c31dcc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1619,13 +1780,15 @@
           "passage_sha256": "0f4fa38645a3cc77361242a2fb598f258c4da8b37d6852afc62c35cfc209e83b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-reforms-004",
-        "statement": "Since 2024 pharmacists may vaccinate, screen for and treat simple sore throats and cystitis without a doctor's referral, and hand out colorectal cancer screening kits.",
+        "statement": "Since 2024, pharmacists have been allowed to give vaccinations, to test for and treat uncomplicated sore throat and cystitis with no referral from a doctor, and to distribute colorectal screening kits.",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1636,8 +1799,10 @@
           "passage_sha256": "cc361c47c31183606d24e3b973d2ef8130e60e25c8a2d73e5b18db06b1f087e1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1653,13 +1818,15 @@
           "passage_sha256": "f0af1818cfd63f7f5869e39d7bcc4697fdf81bc251856fbd501d401e988a867b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FRA-reforms-006",
-        "statement": "Pharmacists' automatic substitution of biosimilars was reintroduced in 2024 for products on the market for at least two years, and the 2025 law cut that period to one year.",
+        "statement": "Automatic substitution of biosimilars was reintroduced in 2024 for products on the market for at least two years, and the 2025 law cut that period to one year.",
         "valence": "neutral",
         "source_id": "chp-fra-2025",
         "locator": {
@@ -1670,8 +1837,10 @@
           "passage_sha256": "5a88332a6f8b64e1da295170edf6a49d2327e9fc296c6091e33f0bc9839625d4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1682,13 +1851,15 @@
         "locator": {
           "page": 21,
           "section": "6 Spotlight on pharmaceuticals",
-          "char_start": 128669,
+          "char_start": 128654,
           "char_end": 128957,
-          "passage_sha256": "368b7eded5f4d0dcfd9c6665f92437e9c4d58ea3a685560cddceeb7c8c774d5d"
+          "passage_sha256": "dec5830a28c78f03c554c2ea41696434a5e80dce22c6ae0fecfdf8e83acd3101"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1704,8 +1875,10 @@
           "passage_sha256": "48542780e645121d7678ecec44d0e96cc0d68f3777588e9edf786e54e64b24bc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1721,32 +1894,36 @@
           "passage_sha256": "5f713e46e3f27b5f4b26ae5b2e2308b1dc6cd7c57b20e4c12f8ab151be9ac338"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FRA-reforms-010",
-        "statement": "By summer 2025, 20 million people, nearly 40% of adults, had used the personal electronic health space (Mon espace santé) at least once, up from 9 million in 2023 and 14 million in 2024.",
+        "statement": "By summer 2025, 20 million people, nearly 40% of adults, had accessed the individual electronic health space (Mon espace santé), launched in 2022 to share records between patients and professionals, at least once, up from 9 million in 2023 and 14 million in 2024.",
         "valence": "strength",
         "source_id": "chp-fra-2025",
         "locator": {
           "page": 17,
           "section": "5.3 Resilience",
-          "char_start": 102434,
+          "char_start": 102081,
           "char_end": 102601,
-          "passage_sha256": "c0d610f480cd8c797fa3f4c871647e11c43aa600d2cb85e157e43bce6065b23b"
+          "passage_sha256": "b767c04b1b4301d6bed34a40c3dc91299bb03b130a5dd49563514f0ef1dbf93d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "FRA-reforms-011",
-        "statement": "Since 2015 France has moved away from pure fee-for-service and activity-based payment by adding capitation, global budgets, pay-for-performance and bundled payments.",
+        "statement": "Since 2015 a series of reforms has introduced mixed provider payment systems, including capitation, global budgets, pay-for-performance and bundled payments.",
         "valence": "neutral",
         "source_id": "cwf-fra",
         "locator": {
@@ -1756,8 +1933,10 @@
           "passage_sha256": "34e2540adadc0b0cf3e92ba01528d7559c5bcec79a8133f1448b44d15a66b901"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -1774,14 +1953,16 @@
           "passage_sha256": "fe0a8b3c26e7ae93d72cf453b8b009d78eb79cfa5fcedf86837559daa293d5f1"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "FRA-us_lessons-002",
-        "statement": "In the 2020 Commonwealth Fund survey, 3 in 10 US adults reported having been diagnosed with two or more chronic conditions, nearly twice the rate in France.",
+        "statement": "In a 2020 survey, 3 in 10 US adults reported having been diagnosed with two or more chronic conditions, nearly twice the rate in France.",
         "valence": "neutral",
         "source_id": "cwf-global-2023",
         "locator": {
@@ -1791,14 +1972,16 @@
           "passage_sha256": "0311854592d39e23723840441b12c2d3d40c8b2a6301783e78ce0572bb8c4447"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
       },
       {
         "id": "FRA-us_lessons-003",
-        "statement": "Between 2012 and 2018 coronary revascularization rose in France by 13.3% among patients aged 35-64 and 24.6% among those 65 and older, while in the US it fell by 16.3% and 19.6%; the divergence was not explained by hospitalisation trends.",
+        "statement": "Between 2012 and 2018 coronary revascularization rose in France by 13.3% among patients aged 35-64 and 24.6% among those 65 and older, while in the US it fell by 16.3% and 19.6%; the divergence could not be explained solely by changes in hospitalisations for coronary disease or heart failure.",
         "valence": "neutral",
         "source_id": "revasc-fra-us-2026",
         "locator": {
@@ -1808,8 +1991,10 @@
           "passage_sha256": "fc2916d793b3252e1fc625782289f9b907ae6c527b4699d429d68967f510445b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2018"
       },
@@ -1825,8 +2010,10 @@
           "passage_sha256": "4414b41ce8dba9f56a5f7fc1188722282f8ddb5601f3be43fab6a0d7d48bd22a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ]
@@ -2020,7 +2207,7 @@
   "changelog": [
     {
       "date": "2026-11-11",
-      "note": "Profile created."
+      "note": "Profile created: 103 claims from 11 sources, anchored to fingerprinted passages and support-reviewed. In the support review 34 statements were corrected (scope, overstatement, causal wording, and details taken from outside the anchored passage), 12 passages re-anchored, one claim dropped, and two statements rewritten after the copy check."
     }
   ]
 }

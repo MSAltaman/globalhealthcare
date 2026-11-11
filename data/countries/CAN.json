@@ -226,7 +226,10 @@
         "valence": "neutral",
         "source_id": "cwf-can",
         "locator": {
-          "section": "Health Spending"
+          "section": "Health Spending",
+          "char_start": 20675,
+          "char_end": 20846,
+          "passage_sha256": "155ec07183e6acba6c2d5866748079197b98ae46a7db8e8dd8de468098d43ae1"
         },
         "verification": {
           "passage_found": "pending",
@@ -240,7 +243,11 @@
         "valence": "neutral",
         "source_id": "oecd-hag-2025",
         "locator": {
-          "section": "Chapter 7, Financing of health care"
+          "section": "Chapter 7, Financing of health care",
+          "page": 162,
+          "char_start": 501290,
+          "char_end": 501942,
+          "passage_sha256": "584b361b475bddf56faade9a9e073ccea484dc7d47f833c41c3be58249415ce7"
         },
         "verification": {
           "passage_found": "pending",
@@ -254,7 +261,10 @@
         "valence": "neutral",
         "source_id": "fin-transfers-2025",
         "locator": {
-          "section": "News release"
+          "section": "News release",
+          "char_start": 2796,
+          "char_end": 3496,
+          "passage_sha256": "e2c1cd46f4f7674a7785024c7803c6530515323eee83137e793da1862cb1eeb3"
         },
         "verification": {
           "passage_found": "pending",
@@ -264,12 +274,15 @@
       },
       {
         "id": "CAN-financing-009",
-        "statement": "Medicare is paid largely from general provincial revenues: Ontario's 2024-25 actual taxation revenue of CAD 151.5 billion came mainly from personal income tax (CAD 55.7 billion), sales tax (CAD 39.4 billion) and corporate tax (CAD 27.8 billion), with CAD 5.2 billion from the Ontario Health Premium; federal transfers added CAD 36.6 billion.",
+        "statement": "Ontario's 2026 Budget reports 2024-25 taxation revenue of CAD 151.5 billion, including personal income tax (CAD 55.7 billion), sales tax (CAD 39.4 billion), corporate tax (CAD 27.8 billion) and the Ontario Health Premium (CAD 5.2 billion), plus CAD 36.6 billion in Government of Canada transfers.",
         "valence": "neutral",
         "source_id": "on-budget-2026",
         "locator": {
           "section": "Table 3.6 Summary of Medium-Term Revenue Outlook",
-          "table": "Table 3.6, Actual 2024-25 column"
+          "table": "Table 3.6, Actual 2024-25 column",
+          "char_start": 13479,
+          "char_end": 13996,
+          "passage_sha256": "bd7f19afb709686885384ed54726c22c36bd67eafa02d15ab2cc1c94ae2e804d"
         },
         "verification": {
           "passage_found": "pending",
@@ -283,7 +296,10 @@
         "valence": "neutral",
         "source_id": "on-budget-2026",
         "locator": {
-          "section": "Medium-Term Expense Outlook"
+          "section": "Medium-Term Expense Outlook",
+          "char_start": 20483,
+          "char_end": 20589,
+          "passage_sha256": "9c3fed3818126dbae0b65afd727ca3969e3ea055b88b2fadc48ddfa9e8d1e907"
         },
         "verification": {
           "passage_found": "pending",
@@ -297,7 +313,10 @@
         "valence": "neutral",
         "source_id": "on-ohp",
         "locator": {
-          "section": "Overview"
+          "section": "Overview",
+          "char_start": 419,
+          "char_end": 826,
+          "passage_sha256": "cf379f7a3e29fd6679dc60ef8bef8e59b45711c05a48e0f0c12431f9e1566614"
         },
         "verification": {
           "passage_found": "pending",
@@ -307,11 +326,14 @@
       },
       {
         "id": "CAN-financing-012",
-        "statement": "Ontario's Employer Health Tax is a payroll tax paid by employers on employee remuneration to raise revenue for health care. The rate rises with total Ontario payroll from 0.98% (up to CAD 200,000) to 1.95% (over CAD 400,000), and eligible employers with payroll under CAD 5 million deduct a CAD 1 million exemption.",
+        "statement": "Ontario's Employer Health Tax is a payroll tax that employers pay on what they pay current and former employees (salaries, wages, bonuses, taxable benefits and similar), intended to help the province raise revenue for health care.",
         "valence": "neutral",
         "source_id": "on-eht",
         "locator": {
-          "section": "Tax rates and how to calculate EHT"
+          "section": "Overview",
+          "char_start": 1200,
+          "char_end": 1520,
+          "passage_sha256": "7bc6fcbd65789fe688fdf332a0f25e69f6027d90cbf8a11b610a500f0adccce2"
         },
         "verification": {
           "passage_found": "pending",
@@ -321,11 +343,14 @@
       },
       {
         "id": "CAN-financing-013",
-        "statement": "British Columbia's employer health tax, in place since 2019, exempts employers with B.C. remuneration of CAD 1 million or less, charges 5.85% on the amount above CAD 1 million for payrolls up to CAD 1.5 million, and 1.95% of the whole payroll above that.",
+        "statement": "British Columbia's employer health tax (from the 2024 return) exempts employers with B.C. remuneration of CAD 1 million or less, charges 5.85% on the amount above CAD 1 million for remuneration up to CAD 1.5 million, and 1.95% of total remuneration above CAD 1.5 million.",
         "valence": "neutral",
         "source_id": "bc-eht",
         "locator": {
-          "section": "Employers"
+          "section": "Employers",
+          "char_start": 1004,
+          "char_end": 1990,
+          "passage_sha256": "d58a8bc9333ca8cf2d0e26385b86e54230809223fc34fdad2d33e8b53045e55c"
         },
         "verification": {
           "passage_found": "pending",
@@ -339,7 +364,10 @@
         "valence": "neutral",
         "source_id": "mb-hel",
         "locator": {
-          "section": "The Health and Post Secondary Education Tax Levy"
+          "section": "The Health and Post Secondary Education Tax Levy",
+          "char_start": 321,
+          "char_end": 1023,
+          "passage_sha256": "79c4b3db5ca71a91f1411262d14485ab0cd3fe427b69eca9c533a2662c6b6e73"
         },
         "verification": {
           "passage_found": "pending",
@@ -353,7 +381,10 @@
         "valence": "neutral",
         "source_id": "fin-te-2026-desc",
         "locator": {
-          "section": "Non-taxation of benefits from private health and dental plans"
+          "section": "Non-taxation of benefits from private health and dental plans",
+          "char_start": 58448,
+          "char_end": 59254,
+          "passage_sha256": "3cad8c50b909c89094d1fe7b832fe29c3d3599644e314528d106c5ca74eca561"
         },
         "verification": {
           "passage_found": "pending",
@@ -368,7 +399,10 @@
         "source_id": "fin-te-2026-desc",
         "locator": {
           "section": "Non-taxation of benefits from private health and dental plans: number of beneficiaries and cost",
-          "table": "Cost Information, 2023, 2025 (P) and 2027 (P) columns"
+          "table": "Cost Information, 2023, 2025 (P) and 2027 (P) columns",
+          "char_start": 61205,
+          "char_end": 61475,
+          "passage_sha256": "c9beb117dd00739ab92c08aeca142be067419ce471c53e1a796977cebe11322f"
         },
         "verification": {
           "passage_found": "pending",
@@ -382,7 +416,10 @@
         "valence": "neutral",
         "source_id": "fin-te-2026-desc",
         "locator": {
-          "section": "Medical Expense Tax Credit"
+          "section": "Medical Expense Tax Credit",
+          "char_start": 33385,
+          "char_end": 33581,
+          "passage_sha256": "1359a4f2adf22606b4ff62880efe78c6121f96fbd3e9437a9782058dce4c6180"
         },
         "verification": {
           "passage_found": "pending",
@@ -397,7 +434,10 @@
         "source_id": "fin-te-2026-desc",
         "locator": {
           "section": "Medical Expense Tax Credit: number of beneficiaries and cost",
-          "table": "Cost Information, 2023 column"
+          "table": "Cost Information, 2023 column",
+          "char_start": 37429,
+          "char_end": 37649,
+          "passage_sha256": "bbbd29f0373ddc7bc339f97b6d13f2a876060c6f6f47e50cf7fc67ee3ef8d7eb"
         },
         "verification": {
           "passage_found": "pending",
@@ -411,13 +451,50 @@
         "valence": "neutral",
         "source_id": "clhia-2025",
         "locator": {
-          "section": "News release"
+          "section": "News release",
+          "char_start": 1426,
+          "char_end": 1578,
+          "passage_sha256": "d2d5dd0f0d702e9d5eea3734be139eb007fa6ecf289dfb34fdcdc9346b8a23b5"
         },
         "verification": {
           "passage_found": "pending",
           "supports": "pending"
         },
         "data_year": 2024
+      },
+      {
+        "id": "CAN-financing-020",
+        "statement": "Ontario's Employer Health Tax rate depends on total Ontario remuneration: 0.98% up to CAD 200,000, rising in steps to 1.95% for payrolls over CAD 400,000.",
+        "valence": "neutral",
+        "source_id": "on-eht",
+        "locator": {
+          "section": "Tax rates and how to calculate EHT",
+          "char_start": 5025,
+          "char_end": 5347,
+          "passage_sha256": "8c653026974ef5ff13ae79f15696273945254cd6969faad5cfc810e3bee7b463"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-021",
+        "statement": "Eligible Ontario employers can claim an Employer Health Tax exemption, currently CAD 1 million of payroll, if their Ontario payroll (with associated employers) is under CAD 5 million or they are a registered charity.",
+        "valence": "neutral",
+        "source_id": "on-eht",
+        "locator": {
+          "section": "EHT exemption",
+          "char_start": 2273,
+          "char_end": 2943,
+          "passage_sha256": "7b9c49b39a2396ff6dbac0a148840ccd124fca8507f53dda56921496e32de7bf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
       }
     ],
     "covered": [

@@ -119,3 +119,18 @@ def test_compute_drops_stale_data_and_ranks(monkeypatch):
     res = score.compute(data, ["A", "B", "C"], today=dt.date(2026, 1, 1))
     ranks = {r["iso3"]: r["rank"] for r in res["rows"]}
     assert ranks == {"B": 1, "A": 2, "C": None}
+
+
+def test_latest_data_year_prefers_data_year_range_end():
+    import validate
+    assert validate.latest_data_year({"data_year": "2013-2016"}, {"year": 2019}) == 2016
+    assert validate.latest_data_year({}, {"year": 2009}) == 2009
+
+
+def test_world_goalposts_and_natural_scale():
+    pool = list(range(1, 101))  # 1..100
+    worst, best = score.goalposts(pool, "lower", log=False)
+    assert round(worst, 2) == 95.05 and round(best, 2) == 5.95
+    assert score.score_value(5.0, "world", "lower", False, (worst, best)) == 100.0
+    assert score.score_value(50.0, "world", "lower", False, (worst, best)) > 45
+    assert score.score_value(80.2, "natural", "higher", False, None) == 80.2

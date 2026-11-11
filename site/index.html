@@ -110,6 +110,21 @@ ol.sources { margin: 0; padding-left: 1.4rem; display: grid; gap: .6rem; font-si
 ol.sources li { padding-left: .25rem; }
 .tier { font: 500 .72rem var(--mono); border: 1px solid var(--rule); border-radius: 3px; padding: 0 .3rem; margin-right: .35rem; color: var(--muted); }
 .src-note { display: block; color: var(--muted); font-size: .84rem; }
+/* atlas ranking */
+.rank-table { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); }
+.rank-table table { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 40rem; }
+.rank-table th, .rank-table td { padding: .5rem .7rem; border-bottom: 1px solid var(--rule); text-align: right; vertical-align: middle; }
+.rank-table th:nth-child(2), .rank-table td:nth-child(2) { text-align: left; }
+.rank-table thead th { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.rank-table tr.is-us td { background: var(--chip); }
+.bar { display: flex; align-items: center; gap: .5rem; justify-content: flex-end; }
+.bar i { display: block; height: .5rem; border-radius: 2px; background: var(--accent); }
+.bar .track { width: 7rem; background: var(--chip); border-radius: 2px; }
+.tag { font-size: .75rem; color: var(--muted); margin-left: .35rem; }
+.atlas-pos { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: baseline; }
+.atlas-pos .big { font: 500 2rem var(--mono); }
+.atlas-pos .big small { font-size: .9rem; color: var(--muted); }
+nav.countries a.rank-link { border-color: var(--accent); }
 footer { border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--muted); font-size: .85rem; display: grid; gap: .4rem; }
 .legend { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
 .legend span b { font-family: var(--mono); }
@@ -199,6 +214,13 @@ function checkLabel(v) {
   return ["", "awaiting verification"];
 }
 
+function isOutdated(c, s) {
+  if (c.historical) return false;
+  const ys = String(c.data_year ?? "").match(/(19|20)\d\d/g);
+  const y = ys ? Math.max(...ys.map(Number)) : s.year;
+  return y && y < new Date().getFullYear() - 10;
+}
+
 function claimItem(c, sources) {
   const s = sources[c.source_id] || {};
   const loc = c.locator || {};
@@ -211,6 +233,7 @@ function claimItem(c, sources) {
     <div class="meta">
       <span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(shortSource(s))}</a>${where ? ", " + esc(where) : ""}</span>
       ${c.data_year ? `<span>data ${esc(c.data_year)}</span>` : ""}
+      ${isOutdated(c, s) ? `<span class="check fail">data over 10 years old, being replaced</span>` : ""}
       <span class="check ${cls}">${label}</span>
       <span class="mono">${esc(c.id)}</span>
     </div>
@@ -236,14 +259,69 @@ function rankings(list) {
     <p class="caption">${esc(study)}, ${list[0].year}. A ranking reflects the study's own measures and country set, not an objective order.</p>`;
 }
 
+function domainLabel(scores, id) { return (scores.domains.find(d => d.id === id) || {}).label || id; }
+
+function rankRange(r) { return r.rank_range ? `${r.rank_range[0]}–${r.rank_range[1]}` : "—"; }
+
+function atlasPosition(scores, iso3, name) {
+  const r = scores?.rows.find(x => x.iso3 === iso3);
+  if (!r) return "";
+  const ranked = scores.rows.filter(x => x.rank).length;
+  const doms = scores.domains.map(d => `<span>${esc(d.label)} <b class="mono">${r.domains[d.id] != null ? r.domains[d.id].toFixed(0) : "—"}</b></span>`).join("");
+  return `<div class="label">Atlas ranking (draft method ${esc(scores.method_version)})</div>
+    <div class="atlas-pos">
+      <span class="big">${r.rank ?? "—"}<small> of ${ranked}</small></span>
+      <span>Score <b class="mono">${r.overall ?? "—"}</b></span>
+      <span>Plausible rank range <b class="mono">${rankRange(r)}</b></span>
+    </div>
+    <div class="facts">${doms}</div>
+    <p class="caption">Computed by the atlas from the statistics above, each scored 0-100 against worldwide benchmarks. The range shows how the rank moves under other weightings. <a href="#ranking">See the full ranking and method</a>.</p>`;
+}
+
+async function renderRanking(index) {
+  const view = document.getElementById("view");
+  const scores = await getJSON("data/scores.json");
+  const profiles = new Set(index.map(r => r.iso3));
+  const rows = scores.rows.map(r => {
+    const name = profiles.has(r.iso3) ? `<a href="#${r.iso3.toLowerCase()}">${esc(r.name)}</a>` : `${esc(r.name)}<span class="tag">profile in progress</span>`;
+    const pct = r.overall ?? 0;
+    return `<tr class="${r.iso3 === BASELINE ? "is-us" : ""}">
+      <td class="mono">${r.rank ?? "—"}</td>
+      <td>${name}${r.iso3 === BASELINE ? '<span class="tag">baseline</span>' : ""}</td>
+      <td><div class="bar"><span class="mono">${r.overall ?? "—"}</span><span class="track"><i style="width:${pct}%"></i></span></div></td>
+      <td class="mono">${rankRange(r)}</td>
+      ${scores.domains.map(d => `<td class="mono">${r.domains[d.id] != null ? r.domains[d.id].toFixed(1) : "—"}</td>`).join("")}
+    </tr>`;
+  }).join("");
+  view.innerHTML = `<article style="display:grid;gap:2rem">
+    <div class="country-head">
+      <span class="label">Atlas ranking · draft method ${esc(scores.method_version)} · computed ${esc(scores.computed)}</span>
+      <h2>How the systems compare</h2>
+      <div class="model">${scores.countries_compared} countries scored on ${scores.domains.length} areas, equally weighted, against worldwide benchmarks from official statistics. No model sets or adjusts a score.</div>
+    </div>
+    <div class="rank-table"><table>
+      <thead><tr><th>#</th><th>Country</th><th>Score</th><th>Rank range</th>${scores.domains.map(d => `<th>${esc(d.label)}</th>`).join("")}</tr></thead>
+      <tbody>${rows}</tbody></table></div>
+    <section style="display:grid;gap:.6rem">
+      <h3 style="font-size:1.45rem">How it's calculated</h3>
+      <ol style="margin:0;padding-left:1.3rem;display:grid;gap:.35rem;max-width:46rem">
+        ${scores.domains.map(d => `<li><b>${esc(d.label)}:</b> ${esc(d.question)}</li>`).join("")}
+      </ol>
+      <p style="margin:0;max-width:46rem">Each statistic is scored 0-100 against the whole world, not just the countries shown. Measures already on a 0-100 scale, such as the share of people covered, are used as they are. For the rest, 0 and 100 sit at the 5th and 95th percentile of every country's latest value worldwide, worst to best, with skewed rates on a log scale. Adding a country never changes another's score. Data older than 10 years is ignored. The rank range is the 5th to 95th percentile of each country's rank over 5,000 random weightings of the areas.</p>
+      <p class="caption">Not scored yet: ${scores.not_yet_scored.map(n => `${esc(n.domain)} (${esc(n.reason)})`).join("; ")}${Object.keys(scores.excluded_countries).length ? ` Excluded: ${Object.entries(scores.excluded_countries).map(([k, v]) => `${esc(k)}: ${esc(v)}`).join("; ")}` : ""}</p>
+    </section></article>`;
+  document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "RANKING" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+}
+
 async function renderCountry(iso3, index) {
   const view = document.getElementById("view");
   const row = index.find(r => r.iso3 === iso3);
   if (!row) { view.innerHTML = `<p class="empty">No profile for ${esc(iso3)} yet.</p>`; return; }
-  const [p, ind, base] = await Promise.all([
+  const [p, ind, base, scores] = await Promise.all([
     getJSON(`data/countries/${iso3}.json`),
     getJSON(`data/indicators/${iso3}.json`).catch(() => null),
-    getJSON(`data/indicators/${BASELINE}.json`).catch(() => null)
+    getJSON(`data/indicators/${BASELINE}.json`).catch(() => null),
+    getJSON("data/scores.json").catch(() => null)
   ]);
   const sources = Object.fromEntries(p.sources.map(s => [s.id, s]));
   const total = SECTIONS.reduce((n, [k]) => n + (p.sections[k]?.length || 0), 0);
@@ -262,7 +340,8 @@ async function renderCountry(iso3, index) {
       ${p.status !== "verified" ? `<div class="notice">This profile is a draft. Its claims are written from the cited sources but have not yet passed the automated passage check and the independent support review. Treat it as a preview.</div>` : ""}
     </div>
     <section style="display:grid;gap:.75rem"><h3 style="font-size:1.45rem">Key figures</h3>${ledger(ind, base, p.iso3)}</section>
-    <section style="display:grid;gap:.6rem">${p.rankings?.length ? rankings(p.rankings) : `<div class="label">Positions in published rankings</div><p class="empty" style="margin:0">No ranking with a verified position for ${esc(p.name)} yet. The Commonwealth Fund's Mirror, Mirror 2024 compares only 10 countries; a global ranking (the Lancet's Healthcare Access and Quality Index) is being added for every country.</p>`}</section>
+    ${scores ? `<section style="display:grid;gap:.6rem">${atlasPosition(scores, p.iso3, p.name)}</section>` : ""}
+    <section style="display:grid;gap:.6rem">${p.rankings?.length ? rankings(p.rankings) : `<div class="label">Positions in published rankings</div><p class="empty" style="margin:0">${esc(p.name)} is not ranked in the published studies the atlas uses (the Commonwealth Fund's Mirror, Mirror 2024 compares only 10 countries). Its Healthcare Access and Quality Index scores, where available, are under Outcomes.</p>`}</section>
     <nav class="toc" aria-label="Sections">${SECTIONS.filter(([k]) => p.sections[k]?.length).map(([k, t]) => `<a href="#${p.iso3.toLowerCase()}" data-jump="${k}">${t}</a>`).join("")}</nav>`;
 
   for (const [key, title] of SECTIONS) {
@@ -295,11 +374,18 @@ async function start() {
     const index = await getJSON("data/index.json");
     const nav = document.getElementById("country-nav");
     const ordered = [...index.filter(r => r.is_baseline), ...index.filter(r => !r.is_baseline)];
-    nav.innerHTML = ordered.map(r =>
+    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a>` + ordered.map(r =>
       `<a href="#${r.iso3.toLowerCase()}" data-iso3="${r.iso3}">${r.iso3}<span class="n">${esc(r.name)}${r.is_baseline ? " (baseline)" : ""}</span></a>`).join("");
     const route = () => {
       const h = location.hash.replace("#", "").toUpperCase();
-      const iso3 = index.some(r => r.iso3 === h) ? h : index.find(r => !r.is_baseline)?.iso3;
+      if (!index.some(r => r.iso3 === h)) {
+        renderRanking(index).catch(() => {
+          const first = index.find(r => !r.is_baseline)?.iso3;
+          if (first) renderCountry(first, index);
+        });
+        return;
+      }
+      const iso3 = h;
       if (iso3) renderCountry(iso3, index).catch(err => {
         document.getElementById("view").innerHTML = `<p class="empty">Could not load ${esc(iso3)}: ${esc(err.message)}</p>`;
       });

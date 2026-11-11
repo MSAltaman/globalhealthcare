@@ -100,14 +100,21 @@ def source_org(meta_payload: list) -> str | None:
         return None
 
 
-def get_json(url: str, session) -> list:
-    for attempt in range(3):
-        resp = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
-        if resp.status_code == 200:
-            return resp.json()
-        time.sleep(2 * (attempt + 1))
-    resp.raise_for_status()
-    return []
+def get_json(url: str, session, attempts: int = 4, timeout: int = 90):
+    """GET JSON with retries on timeouts, connection errors and non-200 replies."""
+    import requests
+
+    last: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            resp = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=timeout)
+            if resp.status_code == 200:
+                return resp.json()
+            last = requests.HTTPError(f"{resp.status_code} for {url}")
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last = e
+        time.sleep(3 * (attempt + 1))
+    raise last
 
 
 def fetch_country(iso3: str, session, meta_cache: dict) -> dict:

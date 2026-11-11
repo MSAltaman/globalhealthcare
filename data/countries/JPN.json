@@ -169,25 +169,6 @@
         }
       },
       {
-        "id": "JPN-financing-004",
-        "statement": "As the 2018 review describes the financing of older people's care, older patients paid 10% of costs; of the remaining 90%, half came from government subsidies, 40% from contributions by National Health Insurance and employee insurance, and 10% from older people's own premiums.",
-        "valence": "neutral",
-        "source_id": "apo-hsr-jpn-2018",
-        "locator": {
-          "section": "3.3 Overview of the public financing schemes",
-          "page": 80,
-          "char_start": 166734,
-          "char_end": 166962,
-          "passage_sha256": "37640dcf615601093b2b482b58c4fcce16cf5c6da711d10e3d54a8e6d8d1a3c4"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        }
-      },
-      {
         "id": "JPN-financing-005",
         "statement": "Mandatory long-term care insurance, introduced in 2000, pays for nursing-home and home-based care for people aged 65 and over and for 40-64-year-olds with specific age-related disabilities, and is funded by taxes plus premiums from every citizen over 40.",
         "valence": "neutral",
@@ -224,6 +205,300 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
+      },
+      {
+        "id": "JPN-financing-007",
+        "statement": "The 2018 Observatory review describes employers withholding employee health insurance premiums directly from pay on the insurer's behalf, with the premium shared equally between employer and employee; premium rates vary considerably between insurers, reflecting their spending and their members' incomes.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 77,
+          "char_start": 159447,
+          "char_end": 159978,
+          "passage_sha256": "3a5567365eb14c30147a6cb1bab028ff7e398c85987d423d3f6da3597b6ce4ed"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "JPN-financing-008",
+        "statement": "In FY2026 the Japan Health Insurance Association (Kyokai Kenpo), which insures employees of smaller firms, charges a health insurance premium rate set by prefecture, ranging from 9.21% in Niigata to 10.55% in Saga (9.85% in Tokyo); most prefectures' rates fell from FY2025.",
+        "valence": "neutral",
+        "source_id": "kyokai-rates-2026",
+        "locator": {
+          "section": "FY2026 prefecture premium rates (table)",
+          "char_start": 227,
+          "char_end": 1154,
+          "passage_sha256": "4a74a2626d597914b7ea207cfec8d9987a9f1203f87400d24b5fdcbfb5fbebf0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-009",
+        "statement": "From April 2026 a nationwide child and child-rearing support levy of 0.23% is added to Kyokai Kenpo health insurance premiums, and members aged 40 to 64 also pay a nationwide long-term care insurance rate of 1.62%.",
+        "valence": "neutral",
+        "source_id": "kyokai-rates-2026",
+        "locator": {
+          "section": "FY2026 prefecture premium rates (notes)",
+          "char_start": 1155,
+          "char_end": 1289,
+          "passage_sha256": "a4a3f7d5f7bf63b0bed25d31ced67c9175e98a9cc9047ce8404074192940c6c8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-010",
+        "statement": "In their FY2026 budgets, company-based health insurance societies set an average premium rate of 9.32% (simple average across societies), against a 9.90% average for Kyokai Kenpo; 27.6% of societies charged at or above the Kyokai Kenpo average.",
+        "valence": "neutral",
+        "source_id": "kenporen-budget-2026",
+        "locator": {
+          "section": "4. Coverage and financial indicators",
+          "page": 6,
+          "char_start": 4260,
+          "char_end": 4510,
+          "passage_sha256": "0f9771e958089b81e2c81f0a47d1ce8b3069349cda1f08a3ad18fd0cf910b35e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-011",
+        "statement": "Health insurance societies budgeted JPY 9.62 trillion of premium income for FY2026; contributions they must pay towards older people's health care (support for the late-stage elderly scheme and payments for members aged 65-74) take 43.3% of their mandatory spending and equal 41.4% of their premium income.",
+        "valence": "neutral",
+        "source_id": "kenporen-budget-2026",
+        "locator": {
+          "section": "3. Breakdown of income and expenditure",
+          "page": 5,
+          "char_start": 3603,
+          "char_end": 3923,
+          "passage_sha256": "b36d96eca13b97b2081e39b2e383febd281122fe9cf72dc4fb5d3954e7dff4d0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-012",
+        "statement": "For FY2026 the child and child-rearing support levy in health insurance societies is 0.23%, split equally between employers (0.115%) and insured people (0.115%); societies pay about 35% (JPY 212.5 billion) of a total levy of about JPY 600 billion.",
+        "valence": "neutral",
+        "source_id": "kenporen-budget-2026",
+        "locator": {
+          "section": "6. Child and child-rearing support levy",
+          "page": 12,
+          "char_start": 9880,
+          "char_end": 10014,
+          "passage_sha256": "2a017b96b33f5c987c04fe266a3d06cf22af5f0e67613cacf6d7ec204961069b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-013",
+        "statement": "The 2018 review reports that the central government subsidises Kyokai Kenpo, the financially weaker employee insurer, at up to 16.4%, and that municipal National Health Insurance receives subsidies of 32% of its budget from the central government and 9% from prefectures.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.3 Overview of the public financing schemes (Fig. 3.4)",
+          "page": 76,
+          "char_start": 157596,
+          "char_end": 157937,
+          "passage_sha256": "ff22415b924273ea7871b6a0e8c71273540ef906741b5f368b450685eac091c6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "JPN-financing-014",
+        "statement": "Municipal National Health Insurance premiums are set locally from four parts, each with a per-person flat charge and an income-based rate; in Shinjuku City (Tokyo) in FY2026 the income-based rates are 7.51% for medical care, 2.80% for support of the late-stage elderly scheme, 2.43% for long-term care (members aged 40-64 only) and 0.27% for the new child-rearing support levy, with annual caps of JPY 670,000, 260,000, 170,000 and 30,000 respectively.",
+        "valence": "neutral",
+        "source_id": "shinjuku-nhi-2026",
+        "locator": {
+          "section": "FY2026 premium rates",
+          "char_start": 141,
+          "char_end": 561,
+          "passage_sha256": "0283ad6269a8e7e7faf162778e36b4ef5a84a38f10e7d27163a022a465a340a9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-015",
+        "statement": "Premiums in the scheme for people aged 75 and over averaged JPY 7,192 a month nationally in FY2025 (JPY 7,082 in FY2024), made up of a flat JPY 50,389 per person a year and 10.21% of income, both national averages for FY2024-2025.",
+        "valence": "neutral",
+        "source_id": "mhlw-koki-premiums",
+        "locator": {
+          "section": "Premium rates for FY2024 and FY2025",
+          "char_start": 533,
+          "char_end": 955,
+          "passage_sha256": "03698b026db161cb6ad012889b1cda33ba0971d387f678d0e94b81f74754e4e4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-financing-016",
+        "statement": "Between the creation of the scheme for people aged 75 and over in FY2008 and the FY2024 reform, the premium per older person rose 1.2-fold while the support contribution per working-age person rose 1.7-fold; from FY2024 the two are set to grow at the same rate.",
+        "valence": "neutral",
+        "source_id": "mhlw-koki-premiums",
+        "locator": {
+          "section": "FY2024 reform (2023 amendment)",
+          "char_start": 1087,
+          "char_end": 1308,
+          "passage_sha256": "291f955aee37a521745b71119f8796a50bfe730c9ee132d00b7824d52e0f2f9a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-financing-017",
+        "statement": "In the FY2022 budget, the JPY 18.4 trillion of medical spending for people aged 75 and over was financed, apart from patient charges, about 50% by public funds (JPY 8.0 trillion, split 4:1:1 between national government, prefectures and municipalities), about 40% by support payments from other insurers' working-age members (JPY 6.9 trillion) and about 10% by older people's own premiums (JPY 1.5 trillion).",
+        "valence": "neutral",
+        "source_id": "mhlw-hoken-bukai-2022",
+        "locator": {
+          "section": "Finance of the elderly medical care system",
+          "page": 5,
+          "char_start": 2094,
+          "char_end": 2465,
+          "passage_sha256": "826d71d06cccee923ffe247228ffea08ac0b0d9f173588a24080513b1368cc33"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-financing-018",
+        "statement": "The ministry explains that working-age people, with higher incomes and lower medical costs, are mostly in employee insurance, while people move into National Health Insurance on retiring, when incomes fall and costs rise; to share the cost across society, about 90% of care for people aged 75 and over is paid by working-age support payments and public funds, and costs for those aged 65-74 are redistributed among insurers.",
+        "valence": "neutral",
+        "source_id": "mhlw-hoken-bukai-2022",
+        "locator": {
+          "section": "Finance of the elderly medical care system",
+          "page": 5,
+          "char_start": 2777,
+          "char_end": 2978,
+          "passage_sha256": "182823360102ed3c5e1fb8cf0c0f8fc4ae4e9a3d2c191fef082687a4731ae2f0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-financing-019",
+        "statement": "For FY2024-2026 the standard monthly long-term care insurance premium paid by people aged 65 and over averages JPY 6,225 nationally (weighted average), up from JPY 6,014 in FY2021-2023.",
+        "valence": "neutral",
+        "source_id": "mhlw-ltci-premium-9th",
+        "locator": {
+          "section": "Press release summary",
+          "char_start": 284,
+          "char_end": 459,
+          "passage_sha256": "2586f52e077e28930f23cd15db3c257cf0db716076f8b4a8c4f696a53a31b03a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-financing-020",
+        "statement": "Japan's consumption tax is 10%: 7.8% national and 2.2% local; in the FY2026 budget the national revenue is assigned to four social security costs (pensions, medical care, long-term care and child-rearing support), with JPY 12.7 trillion going to medical care.",
+        "valence": "neutral",
+        "source_id": "mof-shohizei-2026",
+        "locator": {
+          "section": "Use of consumption tax, FY2026 budget (chart)",
+          "page": 1,
+          "char_start": 11,
+          "char_end": 300,
+          "passage_sha256": "2f4897b56715c45b949c3b7d2f8716c71e87ae7ae29b91d9b8be547a0348476b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-021",
+        "statement": "In the FY2026 budget, the four social security costs funded from consumption tax total JPY 48.9 trillion (national and local), JPY 18.3 trillion more than consumption tax revenue excluding the local 1% share (JPY 30.6 trillion).",
+        "valence": "neutral",
+        "source_id": "mof-shohizei-2026",
+        "locator": {
+          "section": "Use of consumption tax, FY2026 budget (chart)",
+          "page": 1,
+          "char_start": 368,
+          "char_end": 526,
+          "passage_sha256": "89af1b8f432f478eb65f0ddd4ec38059fc3a0ea0cde3ba720c51dc4a628800a7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-022",
+        "statement": "Premiums for private medical and long-term care insurance qualify for an income tax deduction: for contracts signed from 2012, the deduction for these premiums reaches a maximum of JPY 40,000 once annual premiums exceed JPY 80,000, within an overall life insurance deduction capped at JPY 120,000.",
+        "valence": "neutral",
+        "source_id": "nta-1140",
+        "locator": {
+          "section": "Amount of the life insurance premium deduction",
+          "char_start": 396,
+          "char_end": 710,
+          "passage_sha256": "9dab35d54b435b428a73dcba149316bef6e63da591e4bcbf395c0f01acb653a5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "JPN-financing-023",
+        "statement": "Households can deduct from taxable income the medical costs they pay above JPY 100,000 a year (or 5% of income for people with total income under JPY 2 million), after subtracting insurance reimbursements, up to a maximum deduction of JPY 2 million.",
+        "valence": "neutral",
+        "source_id": "nta-1120",
+        "locator": {
+          "section": "Amount eligible for the medical expense deduction",
+          "char_start": 464,
+          "char_end": 746,
+          "passage_sha256": "f8276c66ce24b7af78bf367086fa05e0950e996c3e99c37c9850e07b89d65197"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
       }
     ],
     "covered": [
@@ -1972,6 +2247,99 @@
       "url": "https://www.mhlw.go.jp/content/12400000/001546569.pdf",
       "accessed": "2026-11-10",
       "funding_note": "Official press release (https://www.mhlw.go.jp/stf/newpage_62223.html); arrears figures are preliminary values as of 1 June 2024."
+    },
+    {
+      "id": "kyokai-rates-2026",
+      "title": "FY2026 Japan Health Insurance Association premium rates take effect from March 2026 pay (令和8年度の協会けんぽの保険料率は3月分(4月納付分)から改定されます)",
+      "publisher": "Japan Health Insurance Association (Kyokai Kenpo)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.kyoukaikenpo.or.jp/g7/cat330/sb3130/r08/",
+      "accessed": "2026-11-11",
+      "funding_note": "Public insurer for employees of small and medium-sized firms; publishes its own statutory premium rates."
+    },
+    {
+      "id": "kenporen-budget-2026",
+      "title": "Health insurance society budgets: FY2026 early tally and financial outlook (健康保険組合 予算編成状況について 令和8年度予算早期集計結果)",
+      "publisher": "National Federation of Health Insurance Societies (Kenporen)",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.kenporen.com/include/press/2026/2026042802.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Kenporen is the federation of company-based health insurance societies and lobbies on their behalf, including against the cost of contributions to elderly care; figures are its own budget tally (1,362 of 1,364 societies reporting, March 2026)."
+    },
+    {
+      "id": "mhlw-koki-premiums",
+      "title": "Late-stage elderly medical care system: premiums and the FY2024 reform (後期高齢者医療制度の保険料について)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/newpage_00009.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "mhlw-hoken-bukai-2022",
+      "title": "Health insurance system reform: reference materials, 160th meeting of the Social Security Council Health Insurance Subcommittee, 9 December 2022 (医療保険制度改革について(参考資料))",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan, Health Insurance Bureau",
+      "tier": 3,
+      "type": "government",
+      "year": 2022,
+      "url": "https://www.mhlw.go.jp/content/12401000/001022179.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "mhlw-ltci-premium-9th",
+      "title": "First-category long-term care insurance premiums for the 9th plan period (FY2024-2026) (第9期介護保険事業計画期間における介護保険の第1号保険料及びサービス見込み量等について), press release 14 May 2024",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.mhlw.go.jp/stf/newpage_40211.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "mof-shohizei-2026",
+      "title": "Use of consumption tax revenue, FY2026 budget (消費税の使途(令和8年度予算))",
+      "publisher": "Ministry of Finance of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.mof.go.jp/tax_information/images/image22.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "shinjuku-nhi-2026",
+      "title": "How National Health Insurance premiums are calculated (保険料の計算方法について), updated 1 April 2026",
+      "publisher": "Shinjuku City, Tokyo",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.city.shinjuku.lg.jp/hoken/hoken01_001028.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Municipal insurer; rates are Shinjuku's own and illustrate one Tokyo ward, not a national average. The four annual caps are national limits set by cabinet order."
+    },
+    {
+      "id": "nta-1140",
+      "title": "Tax Answer No.1140: Life insurance premium deduction (生命保険料控除)",
+      "publisher": "National Tax Agency of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "nta-1120",
+      "title": "Tax Answer No.1120: When you pay medical expenses (medical expense deduction) (医療費を支払ったとき(医療費控除))",
+      "publisher": "National Tax Agency of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+      "accessed": "2026-11-11"
     }
   ],
   "rankings": [],

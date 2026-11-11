@@ -120,5 +120,109 @@
         "Calculation methodology": "Standardised rate"
       }
     }
+  ],
+  "oecd_financing": {
+    "dataflow": "OECD.ELS.HD,DSD_SHA@DF_SHA_FS,1.1",
+    "label": "Where health money comes from: revenues of all financing schemes, % of GDP",
+    "filters": {
+      "FINANCING_SCHEME": "_T",
+      "UNIT_MEASURE": "PT_B1GQ"
+    },
+    "note": "OECD System of Health Accounts (SHA 2011) revenue classification. Segments sum to current health spending as % of GDP. 'General taxes' (FS.1) includes government transfers to social insurance funds. OECD counts US employer insurance as compulsory prepayment since the ACA mandate.",
+    "segments": [
+      {
+        "id": "taxes",
+        "label": "General taxes (government budget)",
+        "codes": [
+          "FS1"
+        ]
+      },
+      {
+        "id": "payroll_employer",
+        "label": "Social insurance: employer contributions",
+        "codes": [
+          "FS32"
+        ]
+      },
+      {
+        "id": "payroll_worker",
+        "label": "Social insurance: employee and self-employed contributions",
+        "codes": [
+          "FS31",
+          "FS33"
+        ]
+      },
+      {
+        "id": "payroll_other",
+        "label": "Social insurance: other contributions",
+        "codes": [
+          "FS34"
+        ],
+        "residual_of": "FS3"
+      },
+      {
+        "id": "mandated_employer",
+        "label": "Mandatory private premiums: employers",
+        "codes": [
+          "FS42"
+        ]
+      },
+      {
+        "id": "mandated_individual",
+        "label": "Mandatory private premiums: individuals",
+        "codes": [
+          "FS41",
+          "FS43"
+        ],
+        "residual_of": "FS4"
+      },
+      {
+        "id": "voluntary",
+        "label": "Voluntary insurance premiums",
+        "codes": [
+          "FS5"
+        ]
+      },
+      {
+        "id": "households",
+        "label": "Paid directly by households (out of pocket)",
+        "codes": [
+          "FS61"
+        ]
+      },
+      {
+        "id": "private_unsplit",
+        "label": "Households and other private payments (not broken down by OECD)",
+        "codes": [],
+        "unsplit_of": "FS6"
+      },
+      {
+        "id": "other",
+        "label": "Other (charities, companies, foreign aid)",
+        "codes": [
+          "FS62",
+          "FS63",
+          "FS2",
+          "FS7"
+        ],
+        "residual_of": "FS6+FS2+FS7"
+      }
+    ]
+  },
+  "derived": [
+    {
+      "id": "GOV_HEALTH_PC",
+      "label": "Government health spending per person (PPP)",
+      "unit": "current international $",
+      "group": "costs",
+      "formula": "SH.XPD.CHEX.PP.CD * SH.XPD.GHED.CH.ZS / 100"
+    },
+    {
+      "id": "GOV_HEALTH_GDP",
+      "label": "Government health spending, % of GDP",
+      "unit": "% of GDP",
+      "group": "costs",
+      "formula": "SH.XPD.CHEX.GD.ZS * SH.XPD.GHED.CH.ZS / 100"
+    }
   ]
 }

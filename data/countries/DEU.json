@@ -299,6 +299,120 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
+      },
+      {
+        "id": "DEU-covered-006",
+        "statement": "Since the AMNOG law took effect on 1 January 2011, a manufacturer must submit a dossier on a new medicine's benefit at launch, and the G-BA assesses within six months of authorisation whether it adds benefit over an appropriate comparator.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "The responsibilities of the GBA following AMNOG",
+          "char_start": 1165,
+          "char_end": 1606,
+          "passage_sha256": "89f416f58323af573a4ee7f8b1e17f22598b706dd7632bc94c406ada63c50e7f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "DEU-covered-007",
+        "statement": "The G-BA may hand a medicine's benefit assessment to the Institute for Quality and Efficiency in Health Care (IQWiG) or other third parties.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Benefit assessment",
+          "char_start": 2355,
+          "char_end": 2483,
+          "passage_sha256": "c140a586fc8496506b8b6daa40b8d0730ca3168c3503fc3915b881f7ad34f048"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "DEU-covered-008",
+        "statement": "The G-BA's resolution on a new medicine sets out the extent of added benefit, which patient groups qualify, quality requirements for its use and the cost of treatment.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Consultation and decision-making in the GBA",
+          "char_start": 3184,
+          "char_end": 3399,
+          "passage_sha256": "1e1145b3a3618fec49e6e21fbebe0e9cb700a66e1be5f4facce9f8f073a634b1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "DEU-covered-009",
+        "statement": "The national association of sickness funds and the manufacturer then have six months to agree the price statutory insurance pays, as a rebate on the launch price; if they fail, an arbitration board sets it with European prices as the yardstick.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Price negotiation",
+          "char_start": 3541,
+          "char_end": 3941,
+          "passage_sha256": "06356ff99ff34ed3e455c733ef93ff7e0029d85c6ff222005a3d42ba860b8d3f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "DEU-covered-010",
+        "statement": "A new medicine found to add no benefit over its comparator joins the reference price system within six months of launch; if no reference group fits, a price is agreed, and its annual treatment cost may not exceed the comparator's.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Price negotiation",
+          "char_start": 3942,
+          "char_end": 4484,
+          "passage_sha256": "e7e6005273270c71b49fcb59528d81a9d6af2e13d252a5c0e73c2e0a3b44cfdf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "DEU-covered-011",
+        "statement": "A statutory insurance finance law passed in November 2022 (GKV-FinStG) aimed to cut statutory insurers' drug spending and changed the AMNOG price negotiations in several ways.",
+        "valence": "neutral",
+        "source_id": "jcer-2023",
+        "locator": {
+          "section": "Germany",
+          "char_start": 9896,
+          "char_end": 10165,
+          "passage_sha256": "5c43ba45142d79d29df18db64374524c18653c40854da7cf57311b3581f84f72"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DEU-covered-012",
+        "statement": "Under the 2022 law, the period of free pricing after launch was cut from 12 to six months; afterwards, drugs with minor or non-quantifiable added benefit are priced no higher than their comparator, and those with no added benefit 10% below it.",
+        "valence": "neutral",
+        "source_id": "jcer-2023",
+        "locator": {
+          "section": "Germany",
+          "char_start": 10607,
+          "char_end": 10876,
+          "passage_sha256": "79380f5701cdea8eaa8356b6174ced1491dd1abcbacb329012dd449537078274"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
       }
     ],
     "cost_sharing": [
@@ -398,7 +512,127 @@
         "data_year": 2022
       }
     ],
-    "financial_hardship": [],
+    "financial_hardship": [
+      {
+        "id": "DEU-financial_hardship-001",
+        "statement": "Among people who sought help from a debt counselling service in 2025, illness, addiction or accident was the most often named main trigger of over-indebtedness (18%), ahead of unemployment (about 17%).",
+        "valence": "weakness",
+        "source_id": "destatis-overindebtedness-2026",
+        "locator": {
+          "section": "Lead paragraph",
+          "char_start": 393,
+          "char_end": 786,
+          "passage_sha256": "27a439bdfbb7a5c425c6f5a4ce620651b268c999e3b9c83890e9966ae40fa8ec"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financial_hardship-002",
+        "statement": "Just over half of the people counselled in 2025 lived alone, and for about 24% of them health problems were the main trigger of their over-indebtedness.",
+        "valence": "weakness",
+        "source_id": "destatis-overindebtedness-2026",
+        "locator": {
+          "section": "Mehrheit der beratenen Personen lebt allein",
+          "char_start": 1778,
+          "char_end": 1980,
+          "passage_sha256": "76a90dba6540717bdd7945ae0507ce3c27c8d009510a9be5682fc9b428a83c55"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financial_hardship-003",
+        "statement": "The 2025 over-indebtedness statistics draw on 738 of roughly 1,360 debt and insolvency counselling services, covering about 187,000 people; participation is voluntary, and the statistical office warns the figures say nothing about the total number of over-indebted people.",
+        "valence": "neutral",
+        "source_id": "destatis-overindebtedness-2026",
+        "locator": {
+          "section": "Methodische Hinweise",
+          "char_start": 3183,
+          "char_end": 3880,
+          "passage_sha256": "89b88418189e9b6aaee171bcf4ea99d11f347f6ebec0802242a7710ee176ee8f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financial_hardship-004",
+        "statement": "In a multicentre cohort of 1,103 sarcoma patients treated at 39 German centres, 44.7% reported financial toxicity, and their odds of reporting financial difficulties were 2.5 times those of an age- and sex-matched norm population.",
+        "valence": "weakness",
+        "source_id": "buettner-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3933,
+          "char_end": 4180,
+          "passage_sha256": "017c6c83b42b3556831b3db3c85636d6e99652ecd68983ab549bd41951499dab"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2019"
+      },
+      {
+        "id": "DEU-financial_hardship-005",
+        "statement": "In the same sarcoma cohort, patients on a disability pension, on sick leave or holding a disability pass had significantly higher odds of financial toxicity.",
+        "valence": "weakness",
+        "source_id": "buettner-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4392,
+          "char_end": 4577,
+          "passage_sha256": "3a2eb73b6a841eceff84f32524f7ca267d259e2433a41a22f86aaecce1ce207c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2019"
+      },
+      {
+        "id": "DEU-financial_hardship-006",
+        "statement": "Of 100 patients surveyed at the end of radiotherapy at two German centres, 68% reported direct costs, 25% lost income and 31% reported subjective financial distress.",
+        "valence": "weakness",
+        "source_id": "fabian-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3199,
+          "char_end": 3332,
+          "passage_sha256": "5d707b76d2132536cbc94da9029249dbfe06a105ed6e18b634eac37448180808"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "DEU-financial_hardship-007",
+        "statement": "Just under 1% of people with private health insurance were in the emergency tariff (Notlagentarif), which the insurers' association describes as a social tariff that makes premium arrears easier to pay off.",
+        "valence": "neutral",
+        "source_id": "pkv-zahlenbericht-2023",
+        "locator": {
+          "page": 7,
+          "char_start": 7955,
+          "char_end": 8106,
+          "passage_sha256": "2cad13a9973c248ebd065a5aea3c7fa355e1c25ff6d3c0a7c93b93d510c5448d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
     "additional_care": [
       {
         "id": "DEU-additional_care-001",
@@ -658,22 +892,21 @@
       },
       {
         "id": "DEU-outcomes-005",
-        "statement": "Insurance claims data from one large German insurer show the life-expectancy gap between low- and high-income groups widening among older men, while narrowing slightly among women.",
+        "statement": "In claims data from one large German insurer comparing 2005-2008, 2009-2012 and 2013-2016, the life-expectancy gap between low- and high-income groups widened among older men, while inequality narrowed slightly among women.",
         "valence": "weakness",
         "source_id": "tetzlaff-2020",
         "locator": {
-          "section": "Abstract: Results",
-          "char_start": 1465,
+          "section": "Abstract: Methods and Results",
+          "char_start": 1259,
           "char_end": 1731,
-          "passage_sha256": "f7bd0ea5a9386364749efc20f333cd4610bd818007b32aad31d59e9d73328fa4"
+          "passage_sha256": "7c4309283c7243d9e4f4eb8faa5e055c6f97fbd2d779c4f6347fdc01f2c311a3"
         },
         "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+          "passage_found": "pending",
+          "supports": "pending"
         },
-        "data_year": "2005-2016"
+        "data_year": "2005-2016",
+        "historical": true
       },
       {
         "id": "DEU-outcomes-006",
@@ -730,7 +963,8 @@
           "checked_on": "2026-11-10",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "1990-2016"
+        "data_year": "1990-2016",
+        "historical": true
       }
     ],
     "costs": [
@@ -1127,6 +1361,23 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2016
+      },
+      {
+        "id": "DEU-us_lessons-003",
+        "statement": "In a Commonwealth Fund comparison of high-income countries, US health spending per person in 2021 was nearly twice that of Germany, the next-highest spender.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Health care spending",
+          "char_start": 5261,
+          "char_end": 5543,
+          "passage_sha256": "4d06374e5b9337c9f2f2544f8856834c7c919437a9f1fae326ff10dc89cbfe78"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
       }
     ]
   },
@@ -1247,6 +1498,94 @@
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
       "accessed": "2026-11-10",
       "funding_note": "Funded by the Bill & Melinda Gates Foundation. Data year 2016; the paper reports scores but states no rank for Germany. Its index method differs from the GBD 2019 update, so scores from the two studies are not directly comparable."
+    },
+    {
+      "id": "destatis-overindebtedness-2026",
+      "title": "Überschuldung am häufigsten durch Erkrankung, Sucht oder Unfall ausgelöst (press release no. 249, 15 July 2026; over-indebtedness statistics 2025)",
+      "publisher": "Federal Statistical Office of Germany (Destatis)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_249_63511.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Covers only people advised by participating debt counselling services; not representative of all over-indebted people."
+    },
+    {
+      "id": "buettner-2022",
+      "title": "Financial toxicity in sarcoma patients and survivors in Germany: results from the multicenter PROSa study",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Büttner M, Singer S, Hentschel L, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00520-021-06406-3",
+      "doi": "10.1007/s00520-021-06406-3",
+      "license": "CC BY",
+      "accessed": "2026-11-11",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8636412"
+    },
+    {
+      "id": "fabian-2022",
+      "title": "Financial toxicity in cancer patients treated with radiotherapy in Germany - a cross-sectional study",
+      "publisher": "Strahlentherapie und Onkologie",
+      "authors": "Fabian A, Domschikowski J, Greiner W, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00066-022-01936-z",
+      "doi": "10.1007/s00066-022-01936-z",
+      "accessed": "2026-11-11",
+      "funding_note": "Small sample (100 patients, two centres in Schleswig-Holstein).",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9700565"
+    },
+    {
+      "id": "pkv-zahlenbericht-2023",
+      "title": "PKV in Zahlen 2023 (Zahlenbericht)",
+      "publisher": "Verband der Privaten Krankenversicherung (PKV association)",
+      "tier": 3,
+      "type": "other",
+      "year": 2023,
+      "url": "https://pkv.de/fileadmin/user_upload/PKV/3_PDFs/Publikationen/Zahlenbericht_2023.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Trade association of the private health insurers."
+    },
+    {
+      "id": "gba-benefit-assessment",
+      "title": "The benefit assessment of medicinal products in accordance with the German Social Code, Book Five (SGB V), section 35a",
+      "publisher": "Federal Joint Committee (Gemeinsamer Bundesausschuss, G-BA)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.g-ba.de/english/benefitassessment/",
+      "accessed": "2026-11-11",
+      "funding_note": "The decision-making body describing its own procedure; undated web page, accessed 2026-11-11 (it refers to the EU HTA Regulation 2021/2282, applied from 2025)."
+    },
+    {
+      "id": "jcer-2023",
+      "title": "Access in all areas? A round up of developments in market access and health technology assessment: part 2",
+      "publisher": "Journal of Comparative Effectiveness Research",
+      "authors": "Beattie A, Treharne C, Mardiguian S, Ramagopalan SV",
+      "tier": 3,
+      "type": "other",
+      "year": 2023,
+      "url": "https://doi.org/10.57264/cer-2023-0162",
+      "doi": "10.57264/cer-2023-0162",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-11",
+      "funding_note": "'Industry Update' column, not original research; authors work for a consultancy (Lane Clark & Peacock) and a drug maker (BeiGene).",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10734314"
+    },
+    {
+      "id": "cwf-global-2023",
+      "title": "U.S. Health Care from a Global Perspective, 2022: Accelerating Spending, Worsening Outcomes",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Gunja MZ, Gumas ED, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022",
+      "accessed": "2026-11-11",
+      "funding_note": "US private foundation focused on health system improvement; data from OECD Health Statistics."
     }
   ],
   "rankings": [

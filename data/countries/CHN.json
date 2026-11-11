@@ -3,7 +3,7 @@
   "name": "China",
   "wave": 1,
   "system_as_of": "2026-11-10",
-  "status": "verified",
+  "status": "draft",
   "model": {
     "type": "social_health_insurance",
     "label": "Government-run social health insurance in two main schemes (compulsory for employees, voluntary and subsidised for other residents), with medical assistance for the poor"
@@ -31,7 +31,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -49,7 +49,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016-2018"
@@ -68,7 +68,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -86,7 +86,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -104,7 +104,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -122,7 +122,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -141,7 +141,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -160,7 +160,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -179,7 +179,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -197,7 +197,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -215,7 +215,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -233,7 +233,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -253,70 +253,44 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2003-2024"
       },
       {
-        "id": "CHN-financing-002",
-        "statement": "As described in the 2015 WHO/Asia Pacific Observatory review, all urban employers and their employees, including retirees, must join the employee scheme, with contributions of at least 2% of salary from the employee and 6% from the employer.",
-        "valence": "neutral",
-        "source_id": "apo-hsr-chn-2015",
-        "locator": {
-          "section": "3.3 Sources of revenue: social insurance contribution",
-          "page": 111,
-          "char_start": 245051,
-          "char_end": 245428,
-          "passage_sha256": "68a8aa409ef60cef9096e9f055d20a028f874210770a7b06badda625166b193b"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
-      },
-      {
         "id": "CHN-financing-003",
-        "statement": "The 2015 review notes that each local government, usually at the prefecture-level city, sets the actual employee-scheme contribution rate, and that retirees pay no contribution.",
+        "statement": "Under Article 27 of the Social Insurance Law, members of the employee scheme who have paid contributions for the nationally required number of years by statutory retirement age pay no further premiums in retirement and keep their benefits; those short of the required years may keep paying until they reach it.",
         "valence": "neutral",
-        "source_id": "apo-hsr-chn-2015",
+        "source_id": "sil-2018",
         "locator": {
-          "section": "3.3 Sources of revenue: social insurance contribution",
-          "page": 111,
-          "char_start": 245613,
-          "char_end": 245767,
-          "passage_sha256": "3de6ba93afe3c07de5414c6c1594dbebf8c51f7d5374383fb0f47b40df7caacd"
+          "section": "Chapter III, Article 27",
+          "char_start": 2677,
+          "char_end": 2775,
+          "passage_sha256": "aa644d964c893b82e343d8215d8529271b01a2752a726398788b212b47273308"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
       },
       {
         "id": "CHN-financing-004",
-        "statement": "The 2015 review reported that the two residents' schemes of that time, URBMI and NRCMS, were funded by premiums and by government, with government subsidies playing the dominant role.",
+        "statement": "The State Council's 2024 enrolment guideline asks that residents' scheme contributions be linked to economic development and to per-capita disposable income, keeping a reasonable balance between government subsidies and individual premiums.",
         "valence": "neutral",
-        "source_id": "apo-hsr-chn-2015",
+        "source_id": "sc-enrolment-2024",
         "locator": {
-          "section": "Executive summary",
-          "page": 21,
-          "char_start": 39058,
-          "char_end": 39177,
-          "passage_sha256": "dbad4e0d8592f089b28eeeb52abd20b9c5be49e1c64fe597c8551379fd945df7"
+          "section": "II. Improving policy measures, (2) Improving financing policy",
+          "char_start": 1340,
+          "char_end": 1389,
+          "passage_sha256": "fff4ec81f3ff593608e84459c4e84d54ec78d655428db623e60cdb3bd4ed7883"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
       },
       {
         "id": "CHN-financing-005",
@@ -332,7 +306,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -351,7 +325,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -371,7 +345,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -392,7 +366,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2018
@@ -411,7 +385,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
@@ -430,7 +404,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2009-2018"
@@ -449,7 +423,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -467,7 +441,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -485,7 +459,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2020"
@@ -504,7 +478,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -522,7 +496,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -540,7 +514,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -558,7 +532,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -577,7 +551,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -596,7 +570,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -616,7 +590,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -634,29 +608,26 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "CHN-cost_sharing-003",
-        "statement": "According to the 2015 review, the basic schemes reimburse eligible hospital costs and outpatient costs for severe diseases subject to deductibles, co-payments and ceilings; insured people pay out of pocket for items outside the reimbursement list, deductibles, co-payments and costs above the ceiling.",
+        "statement": "Article 28 of the Social Insurance Law says the basic insurance fund pays, according to national rules, for medical costs that fall within the basic insurance drug list, the covered treatment items and the medical service facility standards, as well as for emergency and rescue care.",
         "valence": "neutral",
-        "source_id": "apo-hsr-chn-2015",
+        "source_id": "sil-2018",
         "locator": {
-          "section": "3.4 Out-of-pocket payments",
-          "page": 105,
-          "char_start": 228980,
-          "char_end": 229404,
-          "passage_sha256": "1221fd5bc73b65026929fe9bda09b2743314bd931952014026da33298f636238"
+          "section": "Chapter III, Article 28",
+          "char_start": 2776,
+          "char_end": 2840,
+          "passage_sha256": "14127745804fa6720ee0c4284567407e4ca763ceb3c5ad92c5da423424d6c8a4"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
       },
       {
         "id": "CHN-cost_sharing-004",
@@ -672,7 +643,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -690,7 +661,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -709,7 +680,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -730,7 +701,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2018
@@ -749,7 +720,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -767,7 +738,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2017
@@ -786,46 +757,27 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "CHN-financial_hardship-005",
-        "statement": "Using 2015 survey data and counting only money borrowed from family, friends or third parties, a study found medical debt in 2.42% of middle-income and 3.92% of low-income households; among low-income households the average debt was 2.49 times average yearly household income, and medical debt impoverished about 10% of non-poor households.",
+        "statement": "A 2026 study of 19,670 middle-aged and older adults in the 2018 wave of the China Health and Retirement Longitudinal Study found that health shocks were significantly and positively associated with households' risk of cash debt; the risk was higher for people with a heavier burden of chronic disease, particularly those in middle age.",
         "valence": "weakness",
-        "source_id": "meddebt-2020",
+        "source_id": "shu-2026",
         "locator": {
-          "section": "Abstract: Method and Results",
-          "char_start": 2536,
-          "char_end": 3352,
-          "passage_sha256": "86322fb5d2a03512ff01885f9e90619cf6e7ebec5b554707c7fa606586daf347"
+          "section": "Abstract: Methods and Results",
+          "char_start": 773,
+          "char_end": 1481,
+          "passage_sha256": "3b2d2a3079b2b330093137dbb1f1b7889946ff3bd3963b3001fe09e3f741defe"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+          "supports": "pending",
+          "checked_on": "2026-11-11"
         },
-        "data_year": 2015
-      },
-      {
-        "id": "CHN-financial_hardship-006",
-        "statement": "The authors note that with this narrow definition medical debt was relatively uncommon, but that where it occurred it was a lasting burden, pushing many low- and middle-income households into poverty and committing them to years of repayments.",
-        "valence": "neutral",
-        "source_id": "meddebt-2020",
-        "locator": {
-          "section": "Abstract: Conclusions",
-          "char_start": 3617,
-          "char_end": 3977,
-          "passage_sha256": "054fe0de167b538b0d19d9001fcf8e69399e58f116a193c65ba3b0840a22d79e"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        }
+        "data_year": 2018
       },
       {
         "id": "CHN-financial_hardship-007",
@@ -841,7 +793,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -862,7 +814,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -880,7 +832,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
@@ -899,7 +851,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2022"
@@ -918,7 +870,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -939,7 +891,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2017"
@@ -958,50 +910,27 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2010-2018"
       },
       {
         "id": "CHN-access-003",
-        "statement": "The 2015 review found no gatekeeping: patients can go directly to any hospital, which crowds tertiary hospitals while primary care is underused.",
+        "statement": "A 2020 Lancet review noted that China did not require patients to see a primary care provider as their first point of contact; as a first step towards gatekeeping, the government had begun registering each resident with a family doctor team, a policy the review described as still at an early stage.",
         "valence": "weakness",
-        "source_id": "apo-hsr-chn-2015",
+        "source_id": "li-2020-phc",
         "locator": {
-          "section": "7.5 Efficiency",
-          "page": 229,
-          "char_start": 500793,
-          "char_end": 501017,
-          "passage_sha256": "c10430c2b8e58105e2e9ed9c29492b671bc50193f1fa7b99f22abc61d57a7075"
+          "section": "Continuity of care",
+          "char_start": 30461,
+          "char_end": 30851,
+          "passage_sha256": "b887009fd6a98b1c0827b11ad27948e5f5937478255998d78df4888c99f2cb52"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2015
-      },
-      {
-        "id": "CHN-access-004",
-        "statement": "The 2015 review described general practice as still in its infancy and severely short-staffed, with 109,794 GPs in 2012.",
-        "valence": "weakness",
-        "source_id": "apo-hsr-chn-2015",
-        "locator": {
-          "section": "4.2 Human resources: general practitioners",
-          "page": 145,
-          "char_start": 320943,
-          "char_end": 321096,
-          "passage_sha256": "c0fe3d07093a9743a75de312aebb61362dcc70d47ff08dcb08b2d157365b37a6"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pass",
-          "checked_on": "2026-11-10",
-          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
-        },
-        "data_year": 2012
+          "supports": "pending",
+          "checked_on": "2026-11-11"
+        }
       },
       {
         "id": "CHN-access-005",
@@ -1017,7 +946,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2021"
@@ -1036,7 +965,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2021"
@@ -1056,7 +985,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -1076,7 +1005,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -1096,7 +1025,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -1115,7 +1044,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1133,7 +1062,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -1154,7 +1083,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2016
@@ -1173,7 +1102,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1990-2016"
@@ -1192,7 +1121,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2004-2018"
@@ -1211,7 +1140,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2018
@@ -1232,7 +1161,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -1251,7 +1180,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
@@ -1272,7 +1201,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2017
@@ -1291,7 +1220,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2008-2018"
@@ -1310,7 +1239,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
@@ -1329,7 +1258,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2008-2020"
@@ -1348,7 +1277,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -1367,7 +1296,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2009-2017"
@@ -1387,7 +1316,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -1407,7 +1336,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -1427,7 +1356,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1445,7 +1374,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1463,7 +1392,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2018-2022"
@@ -1482,7 +1411,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2011-2018"
@@ -1501,7 +1430,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2022"
@@ -1520,7 +1449,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1538,7 +1467,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2010-2016"
@@ -1558,7 +1487,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -1578,7 +1507,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1596,7 +1525,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1614,7 +1543,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1632,7 +1561,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1650,7 +1579,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1668,7 +1597,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1686,7 +1615,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1704,7 +1633,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2022"
@@ -1723,7 +1652,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1741,7 +1670,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1759,7 +1688,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2022"
@@ -1778,7 +1707,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1797,7 +1726,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1816,7 +1745,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1834,7 +1763,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -1855,7 +1784,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2017
@@ -1874,7 +1803,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2019"
@@ -1893,7 +1822,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2019"
@@ -1912,7 +1841,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2018-2019"
@@ -1931,7 +1860,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
@@ -1950,7 +1879,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2020"
@@ -1969,7 +1898,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -1987,7 +1916,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -2005,7 +1934,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -2023,7 +1952,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -2042,7 +1971,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -2063,7 +1992,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -2081,7 +2010,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016-2020"
@@ -2100,7 +2029,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -2118,7 +2047,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -2136,7 +2065,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -2154,7 +2083,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-10",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -2162,17 +2091,6 @@
   },
   "indicators_file": "data/indicators/CHN.json",
   "sources": [
-    {
-      "id": "apo-hsr-chn-2015",
-      "title": "People's Republic of China Health System Review (Health Systems in Transition, Vol. 5 No. 7)",
-      "publisher": "World Health Organization Regional Office for the Western Pacific, for the Asia Pacific Observatory on Health Systems and Policies",
-      "authors": "Meng Q, Yang H, Chen W, Sun Q, Liu X",
-      "tier": 1,
-      "type": "system_review",
-      "year": 2015,
-      "url": "https://iris.who.int/server/api/core/bitstreams/2c8ad173-e3e4-4f9c-b756-9d05938d8808/content",
-      "accessed": "2026-11-09"
-    },
     {
       "id": "yip-2023-lph",
       "title": "Universal health coverage in China part 1: progress and gaps",
@@ -2487,6 +2405,18 @@
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
       "accessed": "2026-11-10",
       "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "shu-2026",
+      "title": "Health Shocks and Debt Risk Among Middle-Aged and Elderly Individuals in China: The Mediating Roles of Informal Self-Treatment and Formal Healthcare Utilization",
+      "publisher": "Risk Management and Healthcare Policy",
+      "authors": "Shu Z, Wei Z, Huang Z, Dong M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.2147/RMHP.S571554",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41878663&rettype=abstract&retmode=text",
+      "accessed": "2026-11-11"
     }
   ],
   "rankings": [],

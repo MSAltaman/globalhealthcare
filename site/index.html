@@ -77,7 +77,7 @@ nav.countries a .n { font-family: var(--body); font-weight: 600; margin-left: .3
 .ledger th:first-child, .ledger td:first-child { text-align: left; }
 .ledger thead th { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .ledger tbody tr.group td { background: var(--chip); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; text-align: left; padding-block: .35rem; }
-.ledger td .yr { display: block; font-size: .72rem; color: var(--muted); }
+.ledger td .yr, .rank-table td .yr, .fin-row .yr { display: block; font-size: .72rem; color: var(--muted); }
 .ledger .unit { display: block; font-size: .78rem; color: var(--muted); }
 .caption { font-size: .82rem; color: var(--muted); margin-top: .5rem; }
 
@@ -121,6 +121,21 @@ ol.sources li { padding-left: .25rem; }
 .bar i { display: block; height: .5rem; border-radius: 2px; background: var(--accent); }
 .bar .track { width: 7rem; background: var(--chip); border-radius: 2px; }
 .tag { font-size: .75rem; color: var(--muted); margin-left: .35rem; }
+:root { --f-taxes:#2b4c9b; --f-payroll_employer:#2f8f86; --f-payroll_worker:#62b3a9; --f-payroll_other:#a4d4cd;
+  --f-mandated_employer:#c7772c; --f-mandated_individual:#e8b27a; --f-voluntary:#7b5ea7; --f-households:#a6402d; --f-private_unsplit:#d39a8e; --f-other:#9aa3ab; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --f-taxes:#7f9fe6; --f-payroll_employer:#4fb3a8; --f-payroll_worker:#2f7f77; --f-payroll_other:#1f544f;
+  --f-mandated_employer:#e0954d; --f-mandated_individual:#9c6630; --f-voluntary:#a68ad0; --f-households:#e07a63; --f-private_unsplit:#7a4a40; --f-other:#5d6872; } }
+:root[data-theme="dark"] { --f-taxes:#7f9fe6; --f-payroll_employer:#4fb3a8; --f-payroll_worker:#2f7f77; --f-payroll_other:#1f544f;
+  --f-mandated_employer:#e0954d; --f-mandated_individual:#9c6630; --f-voluntary:#a68ad0; --f-households:#e07a63; --f-private_unsplit:#7a4a40; --f-other:#5d6872; }
+.fin-row { display: grid; grid-template-columns: 9rem 1fr 3.5rem; gap: .6rem; align-items: center; }
+.fin-row .name { font-size: .95rem; }
+.fin-row .name .yr { display: inline; margin-left: .3rem; }
+.fin-row.is-us .name { font-weight: 600; }
+.fin-stack { display: flex; height: 1.4rem; background: var(--chip); border-radius: 2px; overflow: hidden; }
+.fin-stack i { display: block; height: 100%; border-right: 1px solid var(--surface); }
+.fin-legend { display: flex; flex-wrap: wrap; gap: .35rem 1rem; font-size: .85rem; color: var(--muted); }
+.fin-legend span::before { content: ""; display: inline-block; width: .7rem; height: .7rem; border-radius: 2px; margin-right: .35rem; vertical-align: -1px; background: var(--c); }
+@media (max-width: 560px) { .fin-row { grid-template-columns: 1fr 3rem; } .fin-row .name { grid-column: 1 / -1; } }
 .atlas-pos { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: baseline; }
 .atlas-pos .big { font: 500 2rem var(--mono); }
 .atlas-pos .big small { font-size: .9rem; color: var(--muted); }
@@ -214,6 +229,13 @@ function checkLabel(v) {
   return ["", "awaiting verification"];
 }
 
+function isOutdated(c, s) {
+  if (c.historical) return false;
+  const ys = String(c.data_year ?? "").match(/(19|20)\d\d/g);
+  const y = ys ? Math.max(...ys.map(Number)) : s.year;
+  return y && y < new Date().getFullYear() - 10;
+}
+
 function claimItem(c, sources) {
   const s = sources[c.source_id] || {};
   const loc = c.locator || {};
@@ -226,6 +248,7 @@ function claimItem(c, sources) {
     <div class="meta">
       <span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(shortSource(s))}</a>${where ? ", " + esc(where) : ""}</span>
       ${c.data_year ? `<span>data ${esc(c.data_year)}</span>` : ""}
+      ${isOutdated(c, s) ? `<span class="check fail">data over 10 years old, being replaced</span>` : ""}
       <span class="check ${cls}">${label}</span>
       <span class="mono">${esc(c.id)}</span>
     </div>
@@ -267,7 +290,7 @@ function atlasPosition(scores, iso3, name) {
       <span>Plausible rank range <b class="mono">${rankRange(r)}</b></span>
     </div>
     <div class="facts">${doms}</div>
-    <p class="caption">Computed by the atlas from the statistics above, scored 0-100 against the other countries compared. The range shows how the rank moves under other weightings. <a href="#ranking">See the full ranking and method</a>.</p>`;
+    <p class="caption">Computed by the atlas from the statistics above, each scored 0-100 against worldwide benchmarks. The range shows how the rank moves under other weightings. <a href="#ranking">See the full ranking and method</a>.</p>`;
 }
 
 async function renderRanking(index) {
@@ -289,7 +312,7 @@ async function renderRanking(index) {
     <div class="country-head">
       <span class="label">Atlas ranking · draft method ${esc(scores.method_version)} · computed ${esc(scores.computed)}</span>
       <h2>How the systems compare</h2>
-      <div class="model">${scores.countries_compared} countries scored on ${scores.domains.length} areas, equally weighted, using only official statistics. No model sets or adjusts a score.</div>
+      <div class="model">${scores.countries_compared} countries scored on ${scores.domains.length} areas, equally weighted, against worldwide benchmarks from official statistics. No model sets or adjusts a score.</div>
     </div>
     <div class="rank-table"><table>
       <thead><tr><th>#</th><th>Country</th><th>Score</th><th>Rank range</th>${scores.domains.map(d => `<th>${esc(d.label)}</th>`).join("")}</tr></thead>
@@ -299,10 +322,62 @@ async function renderRanking(index) {
       <ol style="margin:0;padding-left:1.3rem;display:grid;gap:.35rem;max-width:46rem">
         ${scores.domains.map(d => `<li><b>${esc(d.label)}:</b> ${esc(d.question)}</li>`).join("")}
       </ol>
-      <p style="margin:0;max-width:46rem">Each statistic is rescaled 0-100 from the worst to the best country compared, skewed rates on a log scale. Data older than 10 years is ignored. The rank range is the 5th to 95th percentile of each country's rank over 5,000 random weightings of the areas.</p>
+      <p style="margin:0;max-width:46rem">Each statistic is scored 0-100 against the whole world, not just the countries shown. Measures already on a 0-100 scale, such as the share of people covered, are used as they are. For the rest, 0 and 100 sit at the 5th and 95th percentile of every country's latest value worldwide, worst to best, with skewed rates on a log scale. Adding a country never changes another's score. Data older than 10 years is ignored. The rank range is the 5th to 95th percentile of each country's rank over 5,000 random weightings of the areas.</p>
       <p class="caption">Not scored yet: ${scores.not_yet_scored.map(n => `${esc(n.domain)} (${esc(n.reason)})`).join("; ")}${Object.keys(scores.excluded_countries).length ? ` Excluded: ${Object.entries(scores.excluded_countries).map(([k, v]) => `${esc(k)}: ${esc(v)}`).join("; ")}` : ""}</p>
     </section></article>`;
   document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "RANKING" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+}
+
+async function renderFinancing(index) {
+  const view = document.getElementById("view");
+  const scores = await getJSON("data/scores.json");
+  const profiles = new Set(index.map(r => r.iso3));
+  const countries = [];
+  for (const r of scores.rows) {
+    const ind = await getJSON(`data/indicators/${r.iso3}.json`).catch(() => null);
+    if (ind) countries.push({ iso3: r.iso3, name: r.name, ind, by: Object.fromEntries(ind.indicators.map(i => [i.id, i])) });
+  }
+  const withMix = countries.filter(c => c.ind.financing_revenue?.segments).sort((a, b) => b.ind.financing_revenue.total_pct_gdp - a.ind.financing_revenue.total_pct_gdp);
+  const without = countries.filter(c => !c.ind.financing_revenue?.segments);
+  const segs = withMix[0]?.ind.financing_revenue.segments || [];
+  const max = Math.max(...withMix.map(c => c.ind.financing_revenue.total_pct_gdp));
+  const link = c => profiles.has(c.iso3) ? `<a href="#${c.iso3.toLowerCase()}">${esc(c.name)}</a>` : esc(c.name);
+  const bars = withMix.map(c => {
+    const f = c.ind.financing_revenue;
+    const parts = f.segments.filter(s => s.pct_gdp > 0).map(s =>
+      `<i style="width:${(100 * s.pct_gdp / max).toFixed(2)}%;background:var(--f-${s.id})" title="${esc(s.label)}: ${s.pct_gdp.toFixed(2)}% of GDP (${(100 * s.pct_gdp / f.total_pct_gdp).toFixed(0)}% of the total)"></i>`).join("");
+    return `<div class="fin-row ${c.iso3 === BASELINE ? "is-us" : ""}"><span class="name">${link(c)} <span class="yr">${f.year}</span></span>
+      <div class="fin-stack" role="img" aria-label="${esc(c.name)}: ${f.segments.filter(s => s.pct_gdp > 0).map(s => `${s.label} ${s.pct_gdp.toFixed(1)}%`).join(", ")} of GDP">${parts}</div>
+      <span class="mono">${f.total_pct_gdp.toFixed(1)}%</span></div>`;
+  }).join("");
+  const share = (c, ids) => { const f = c.ind.financing_revenue; if (!f?.segments) return "—"; const v = f.segments.filter(s => ids.includes(s.id)).reduce((n, s) => n + s.pct_gdp, 0); return (100 * v / f.total_pct_gdp).toFixed(0) + "%"; };
+  const v = (c, id) => { const i = c.by[id]; return i ? `${fmt(i.value, i.unit)}<span class="yr">${i.year ?? ""}</span>` : "—"; };
+  const rows = [...countries].sort((a, b) => (b.by.GOV_HEALTH_PC?.value ?? 0) - (a.by.GOV_HEALTH_PC?.value ?? 0)).map(c => `<tr class="${c.iso3 === BASELINE ? "is-us" : ""}">
+      <td>${link(c)}</td><td class="mono">${v(c, "SH.XPD.CHEX.PP.CD")}</td><td class="mono">${v(c, "SH.XPD.GHED.CH.ZS")}</td>
+      <td class="mono">${v(c, "GOV_HEALTH_PC")}</td><td class="mono">${v(c, "GOV_HEALTH_GDP")}</td>
+      <td class="mono">${share(c, ["taxes"])}</td><td class="mono">${share(c, ["payroll_employer", "payroll_worker", "payroll_other"])}</td>
+      <td class="mono">${share(c, ["mandated_employer", "mandated_individual", "voluntary"])}</td><td class="mono">${c.ind.financing_revenue?.segments?.some(s => s.id === "private_unsplit" && s.pct_gdp > 0) ? "not split" : share(c, ["households"])}</td></tr>`).join("");
+  view.innerHTML = `<article style="display:grid;gap:2rem">
+    <div class="country-head">
+      <span class="label">Financing · official statistics</span>
+      <h2>Where the money comes from</h2>
+      <div class="model">Every health system is paid for by the same people, through different channels: general taxes, payroll contributions, insurance premiums and payments at the point of care. This page puts the channels side by side.</div>
+    </div>
+    <section style="display:grid;gap:.8rem">
+      <h3 style="font-size:1.45rem">Health spending by source of funds, % of GDP</h3>
+      <div class="fin-legend">${segs.map(s => `<span style="--c:var(--f-${s.id})">${esc(s.label)}</span>`).join("")}</div>
+      <div style="display:grid;gap:.45rem">${bars}</div>
+      <p class="caption">Bar length is total current health spending as a share of the economy; segments show who supplied the money. Hover a segment for its value. ${esc(withMix[0]?.ind.financing_revenue.note || "")} ${without.length ? `Not in the OECD revenue data: ${without.map(c => esc(c.name)).join(", ")}; see each profile's financing section.` : ""} Source: ${esc(withMix[0]?.ind.financing_revenue.source || "")}.</p>
+    </section>
+    <section style="display:grid;gap:.6rem">
+      <h3 style="font-size:1.45rem">Government spending in dollars, not just shares</h3>
+      <p style="margin:0;max-width:46rem">A government share of spending says nothing about size. Multiplying it by total spending per person gives what governments actually spend per resident.</p>
+      <div class="rank-table"><table>
+        <thead><tr><th>Country</th><th>Total per person</th><th>Government share</th><th>Government per person</th><th>Government, % of GDP</th><th>From general taxes</th><th>From payroll contributions</th><th>From insurance premiums</th><th>Out of pocket</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>
+      <p class="caption">Per-person values in purchasing-power-adjusted international dollars. Total, government share and per-person figures from the WHO Global Health Expenditure Database via the World Bank; "government" there includes compulsory social insurance funds but not compulsory private insurance. The last four columns are shares of the OECD revenue totals above, so their definitions differ: OECD treats US employer coverage as compulsory private insurance. Tax subsidies for private insurance, such as the US income-tax exclusion for employer premiums, are revenue a government forgoes and appear in neither source; each profile's financing section reports them.</p>
+    </section></article>`;
+  document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "FINANCING" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
 }
 
 async function renderCountry(iso3, index) {
@@ -366,10 +441,11 @@ async function start() {
     const index = await getJSON("data/index.json");
     const nav = document.getElementById("country-nav");
     const ordered = [...index.filter(r => r.is_baseline), ...index.filter(r => !r.is_baseline)];
-    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a>` + ordered.map(r =>
+    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a>` + ordered.map(r =>
       `<a href="#${r.iso3.toLowerCase()}" data-iso3="${r.iso3}">${r.iso3}<span class="n">${esc(r.name)}${r.is_baseline ? " (baseline)" : ""}</span></a>`).join("");
     const route = () => {
       const h = location.hash.replace("#", "").toUpperCase();
+      if (h === "FINANCING") { renderFinancing(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load financing data: ${esc(err.message)}</p>`; }); return; }
       if (!index.some(r => r.iso3 === h)) {
         renderRanking(index).catch(() => {
           const first = index.find(r => !r.is_baseline)?.iso3;

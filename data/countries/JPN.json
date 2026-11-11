@@ -1,0 +1,2398 @@
+{
+  "iso3": "JPN",
+  "name": "Japan",
+  "wave": 0,
+  "system_as_of": "2026-11-09",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Mandatory social health insurance through about 3,000 employment- and residence-based insurers, with a single national fee schedule"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "JPN-overview-001",
+      "JPN-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "JPN-overview-001",
+        "statement": "A 1958 National Health Insurance Act required every municipality to turn voluntary community insurance into mandatory National Health Insurance; it took effect in 1959, and Japan formally reached universal health insurance coverage in 1961.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "1.3 Political context",
+          "page": 26,
+          "char_start": 52049,
+          "char_end": 52339,
+          "passage_sha256": "e6318e29a18f3493cdc967dd7bc316e637944ee9679f18256b07aebe5ee8ae0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-overview-002",
+        "statement": "Coverage is compulsory: salaried workers belong to Employees' Health Insurance, while National Health Insurance covers the self-employed, the unemployed, retirees and anyone, foreign nationals included, who lives in Japan for three months or more.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Coverage and Access",
+          "char_start": 4629,
+          "char_end": 4957,
+          "passage_sha256": "b9f0d874c45772c3379ff1a036b3ec3273408a031cf18d70b06bc61469a65d48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-overview-003",
+        "statement": "The Observatory's 2018 review reported that employee insurance covered 58.7% of the population, National Health Insurance 28.3% and the separate scheme for people aged 75 and over 12.4%.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "8 Conclusions",
+          "page": 208,
+          "char_start": 441368,
+          "char_end": 441574,
+          "passage_sha256": "d7267d3ddb4dcd4273e5fa3b10f58f136725926dd0f032ad4e7484d7ff549d9b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-overview-004",
+        "statement": "Most services are delivered by private organisations, yet the government regulates almost every part of the system at national, prefectural and municipal level, above all through a single national fee schedule.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "8 Conclusions",
+          "page": 207,
+          "char_start": 438645,
+          "char_end": 438973,
+          "passage_sha256": "e56ed7f4a55405b500824ba5639077732c9359d0c57af8106e64a29d831bfc88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-overview-005",
+        "statement": "Patients may consult any clinic or hospital without a referral, as the system combines universal coverage with free choice of provider.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Operations and Resources",
+          "char_start": 14250,
+          "char_end": 14388,
+          "passage_sha256": "a8ec9057895b0014a40d3c825200ffe543402e181a15f15d451c21c421571ff4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "JPN-financing-001",
+        "statement": "The Commonwealth Fund's 2026 profile reports that public funding pays for 87% of health spending, with the remainder shared between out-of-pocket payments and voluntary insurance (2%).",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Health coverage and access: Health care spending",
+          "char_start": 2381,
+          "char_end": 2520,
+          "passage_sha256": "4fc156fb10e29b11185845d700d9dd474f79bca5fbcbf7d485d803dfdc800df7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-002",
+        "statement": "Public insurance is funded by a mix of social insurance premiums and government tax transfers, with tax money propping up financially weaker plans so that benefits stay equal.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "7.2.2 Equity in financing",
+          "page": 187,
+          "char_start": 399526,
+          "char_end": 399739,
+          "passage_sha256": "c0f62dbd70c75d4d65afbf4607bff528e4b04bca6bd5e52fdaa5897c862518a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-003",
+        "statement": "A separate insurance scheme for people aged 75 and over was introduced in 2008 to ease the financial imbalance between employee insurance and National Health Insurance.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "8 Conclusions",
+          "page": 209,
+          "char_start": 441819,
+          "char_end": 442010,
+          "passage_sha256": "4eeaf3abb712855baa57bf08b27220e8cc66b08b9bd4a546a0944598dbf6ffa8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-005",
+        "statement": "Mandatory long-term care insurance, introduced in 2000, pays for nursing-home and home-based care for people aged 65 and over and for 40-64-year-olds with specific age-related disabilities, and is funded by taxes plus premiums from every citizen over 40.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 22169,
+          "char_end": 22601,
+          "passage_sha256": "8de5383c2e6f89a4bff2846d644033e3cbba154bbdcb53729277f89d3d65aae7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-006",
+        "statement": "In FY2024, 37.4% of national medical care expenditure was paid from public funds (24.6% national government, 12.8% local government), 50.3% from insurance premiums (21.9% from employers and 28.5% from insured people) and 12.2% from other sources, including patients' own payments (11.8%).",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024",
+        "locator": {
+          "section": "3 財源別国民医療費 (表3)",
+          "page": 2,
+          "char_start": 3020,
+          "char_end": 3238,
+          "passage_sha256": "7143bee1c8f02a41c27a53fc7c3aeb8688152b7b1ae97880562b5f02ebd914c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-financing-007",
+        "statement": "The 2018 Observatory review describes employers withholding employee health insurance premiums directly from pay on the insurer's behalf, with the premium shared equally between employer and employee; premium rates vary considerably between insurers, reflecting their spending and their members' incomes.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 77,
+          "char_start": 159447,
+          "char_end": 159978,
+          "passage_sha256": "3a5567365eb14c30147a6cb1bab028ff7e398c85987d423d3f6da3597b6ce4ed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-008",
+        "statement": "For FY2026 the Japan Health Insurance Association (Kyokai Kenpo) sets a health insurance premium rate for each prefecture, from 9.21% in Niigata to 10.55% in Saga (9.85% in Tokyo); the rate fell from FY2025 in 40 prefectures and stayed the same in the other 7.",
+        "valence": "neutral",
+        "source_id": "kyokai-rates-2026",
+        "locator": {
+          "section": "FY2026 prefecture premium rates (table)",
+          "char_start": 227,
+          "char_end": 1154,
+          "passage_sha256": "4a74a2626d597914b7ea207cfec8d9987a9f1203f87400d24b5fdcbfb5fbebf0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-009",
+        "statement": "From April 2026 a nationwide child and child-rearing support levy of 0.23% is added to Kyokai Kenpo health insurance premiums, and members aged 40 to 64 also pay a nationwide long-term care insurance rate of 1.62%.",
+        "valence": "neutral",
+        "source_id": "kyokai-rates-2026",
+        "locator": {
+          "section": "FY2026 prefecture premium rates (notes)",
+          "char_start": 1155,
+          "char_end": 1289,
+          "passage_sha256": "a4a3f7d5f7bf63b0bed25d31ced67c9175e98a9cc9047ce8404074192940c6c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-010",
+        "statement": "In the early tally of FY2026 budgets, company-based health insurance societies set an average premium rate of 9.32% (simple average across societies), against a 9.90% average for Kyokai Kenpo; 27.6% of societies set a rate at or above the Kyokai Kenpo average.",
+        "valence": "neutral",
+        "source_id": "kenporen-budget-2026",
+        "locator": {
+          "section": "4. Coverage and financial indicators",
+          "page": 6,
+          "char_start": 4260,
+          "char_end": 4510,
+          "passage_sha256": "0f9771e958089b81e2c81f0a47d1ce8b3069349cda1f08a3ad18fd0cf910b35e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-011",
+        "statement": "Health insurance societies budgeted JPY 9.62 trillion of premium income for FY2026; their contributions towards older people's care (mainly support payments for the late-stage elderly scheme and payments for 'early elderly' members) take 43.3% of their mandatory spending and equal 41.4% of their premium income.",
+        "valence": "neutral",
+        "source_id": "kenporen-budget-2026",
+        "locator": {
+          "section": "3. Breakdown of income and expenditure",
+          "page": 5,
+          "char_start": 3603,
+          "char_end": 3923,
+          "passage_sha256": "b36d96eca13b97b2081e39b2e383febd281122fe9cf72dc4fb5d3954e7dff4d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-012",
+        "statement": "For FY2026 the child and child-rearing support levy in health insurance societies is 0.23%, split equally between employers (0.115%) and insured people (0.115%); societies pay about 35% (JPY 212.5 billion) of a total levy of about JPY 600 billion.",
+        "valence": "neutral",
+        "source_id": "kenporen-budget-2026",
+        "locator": {
+          "section": "6. Child and child-rearing support levy",
+          "page": 12,
+          "char_start": 9880,
+          "char_end": 10014,
+          "passage_sha256": "2a017b96b33f5c987c04fe266a3d06cf22af5f0e67613cacf6d7ec204961069b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-013",
+        "statement": "The 2018 review reports that the central government subsidises Kyokai Kenpo, the financially weaker employee insurer, at up to 16.4%, and that National Health Insurance receives subsidies of 32% of its budget from the central government and 9% from prefectures.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.3 Overview of the public financing schemes (Fig. 3.4)",
+          "page": 76,
+          "char_start": 157596,
+          "char_end": 157937,
+          "passage_sha256": "ff22415b924273ea7871b6a0e8c71273540ef906741b5f368b450685eac091c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-014",
+        "statement": "In Shinjuku City (Tokyo), the FY2026 National Health Insurance premium is the sum of four parts, for medical care, support for the late-stage elderly scheme, long-term care and (new from FY2026) child-rearing support, each with a flat charge per member and an income-based charge; the income-based rates are 7.51%, 2.80%, 2.43% (members aged 40-64 only) and 0.27%, and the levy caps are JPY 670,000, 260,000, 170,000 and 30,000 respectively.",
+        "valence": "neutral",
+        "source_id": "shinjuku-nhi-2026",
+        "locator": {
+          "section": "FY2026 premium rates",
+          "char_start": 141,
+          "char_end": 561,
+          "passage_sha256": "0283ad6269a8e7e7faf162778e36b4ef5a84a38f10e7d27163a022a465a340a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-015",
+        "statement": "Premiums in the late-stage elderly scheme were projected to average JPY 7,192 a month nationally in FY2025, up from JPY 7,082 in FY2024; the flat charge per insured person (JPY 50,389 a year) and the income-based rate (10.21%) were the same in both years.",
+        "valence": "neutral",
+        "source_id": "mhlw-koki-premiums",
+        "locator": {
+          "section": "Premium rates for FY2024 and FY2025",
+          "char_start": 533,
+          "char_end": 955,
+          "passage_sha256": "03698b026db161cb6ad012889b1cda33ba0971d387f678d0e94b81f74754e4e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-financing-016",
+        "statement": "Between the creation of the scheme for people aged 75 and over in FY2008 and the FY2024 reform, the premium per older person rose 1.2-fold while the support contribution per working-age person rose 1.7-fold; from FY2024 the two are set to grow at the same rate.",
+        "valence": "neutral",
+        "source_id": "mhlw-koki-premiums",
+        "locator": {
+          "section": "FY2024 reform (2023 amendment)",
+          "char_start": 1087,
+          "char_end": 1308,
+          "passage_sha256": "291f955aee37a521745b71119f8796a50bfe730c9ee132d00b7824d52e0f2f9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-financing-017",
+        "statement": "In the FY2022 budget, of JPY 18.4 trillion of medical spending in the late-stage elderly scheme (people aged 75 and over), patients paid JPY 1.5 trillion; the rest was financed about 50% by public funds (JPY 8.0 trillion, split 4:1:1 between national government, prefectures and municipalities), about 40% by support payments from younger people's insurance premiums (JPY 6.9 trillion) and about 10% by older people's own premiums (JPY 1.5 trillion, effectively about 9% after premium reductions).",
+        "valence": "neutral",
+        "source_id": "mhlw-hoken-bukai-2022",
+        "locator": {
+          "section": "Finance of the elderly medical care system",
+          "page": 5,
+          "char_start": 2094,
+          "char_end": 2465,
+          "passage_sha256": "826d71d06cccee923ffe247228ffea08ac0b0d9f173588a24080513b1368cc33"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-financing-018",
+        "statement": "The ministry explains that working-age people, with higher incomes and lower medical costs, are mostly in employee insurance, while people move into National Health Insurance on retiring, when incomes fall and costs rise; to share the cost across society, about 90% of care for people aged 75 and over is paid by working-age support payments and public funds, and costs for those aged 65-74 are redistributed among insurers.",
+        "valence": "neutral",
+        "source_id": "mhlw-hoken-bukai-2022",
+        "locator": {
+          "section": "Finance of the elderly medical care system",
+          "page": 5,
+          "char_start": 2777,
+          "char_end": 2978,
+          "passage_sha256": "182823360102ed3c5e1fb8cf0c0f8fc4ae4e9a3d2c191fef082687a4731ae2f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-financing-019",
+        "statement": "For the 9th long-term care plan period (FY2024-2026), the standard monthly 'first-category' long-term care insurance premium, compiled from municipalities nationwide, averages JPY 6,225 nationally (weighted average), up from JPY 6,014 in the 8th period.",
+        "valence": "neutral",
+        "source_id": "mhlw-ltci-premium-9th",
+        "locator": {
+          "section": "Press release summary",
+          "char_start": 284,
+          "char_end": 459,
+          "passage_sha256": "2586f52e077e28930f23cd15db3c257cf0db716076f8b4a8c4f696a53a31b03a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-financing-020",
+        "statement": "Japan's consumption tax rate is 10%, of which 7.8% is national tax and 2.2% local consumption tax, raising JPY 26.7 trillion and JPY 7.4 trillion (JPY 34.0 trillion in total) in the FY2026 budget; the local share is to be spent on social security measures, including the four social security costs: pensions, medical care, long-term care and child-rearing support.",
+        "valence": "neutral",
+        "source_id": "mof-shohizei-2026",
+        "locator": {
+          "section": "Use of consumption tax, FY2026 budget (chart)",
+          "page": 1,
+          "char_start": 90,
+          "char_end": 367,
+          "passage_sha256": "9eda25d17890551d5f003de1748ea9e447c8074294e14ce069151ebb82c80a18"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-021",
+        "statement": "In the FY2026 budget, the four social security costs (national and local) total JPY 48.9 trillion, JPY 18.3 trillion more than consumption tax revenue excluding the 1% local consumption tax share (JPY 30.6 trillion).",
+        "valence": "neutral",
+        "source_id": "mof-shohizei-2026",
+        "locator": {
+          "section": "Use of consumption tax, FY2026 budget (chart)",
+          "page": 1,
+          "char_start": 368,
+          "char_end": 526,
+          "passage_sha256": "89af1b8f432f478eb65f0ddd4ec38059fc3a0ea0cde3ba720c51dc4a628800a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-financing-022",
+        "statement": "Premiums for medical and long-term care insurance policies count towards the life insurance premium deduction: for contracts signed from 1 January 2012 the deduction for these premiums reaches its maximum of JPY 40,000 once annual premiums exceed JPY 80,000, and the total life insurance premium deduction is capped at JPY 120,000.",
+        "valence": "neutral",
+        "source_id": "nta-1140",
+        "locator": {
+          "section": "Amount of the life insurance premium deduction",
+          "char_start": 396,
+          "char_end": 710,
+          "passage_sha256": "9dab35d54b435b428a73dcba149316bef6e63da591e4bcbf395c0f01acb653a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financing-023",
+        "statement": "The medical expense deduction equals the medical costs paid, minus amounts reimbursed by insurance, minus JPY 100,000 (or 5% of total income for people whose total income is under JPY 2 million), up to a maximum of JPY 2 million.",
+        "valence": "neutral",
+        "source_id": "nta-1120",
+        "locator": {
+          "section": "Amount eligible for the medical expense deduction",
+          "char_start": 464,
+          "char_end": 746,
+          "passage_sha256": "f8276c66ce24b7af78bf367086fa05e0950e996c3e99c37c9850e07b89d65197"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "JPN-covered-001",
+        "statement": "The national uniform fee schedule both defines which services insurance covers and fixes their prices and billing conditions; prices are identical across the country and providers are barred from balance billing.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.3.3 Purchasing and purchaser-provider relations",
+          "page": 81,
+          "char_start": 170599,
+          "char_end": 170956,
+          "passage_sha256": "4e19097c11289e69172fa1c77fcbd3990dbe63eff160b4ed2cc5163e49c3d3b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-covered-002",
+        "statement": "The health ministry sets the benefit package and revises the national fee schedule every two years; all public and private providers must follow it.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Coverage and Access",
+          "char_start": 5186,
+          "char_end": 5398,
+          "passage_sha256": "5fa0af6b98908d133a551f3665d012494cf63dbe08e126596d257d92d0e3c44a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-covered-003",
+        "statement": "As of the 2018 review, insurance covered more than 5,000 medical procedures plus dental care and medicines, and the health ministry reviewed the scope of coverage and the billing conditions for each procedure, drug and device every two years.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3 Financing, chapter summary",
+          "page": 61,
+          "char_start": 131988,
+          "char_end": 132254,
+          "passage_sha256": "b63f4a34f2b177fcdd17a5db72d9d1d0551741f823d91e4c42258be2ab2851b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-covered-004",
+        "statement": "Public insurance covers preventive, inpatient, outpatient, primary, maternity, mental health, dental, palliative and rehabilitative care, medicines and home visits, with co-payments on all of them; non-urgent vaginal deliveries are not covered, though emergency and caesarean deliveries are.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Services Covered by Public Health Insurance",
+          "char_start": 6049,
+          "char_end": 6502,
+          "passage_sha256": "661bb8f1e667880563dba901945ee83e9207cc1884cd41c3e942dce3abfb15ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-covered-005",
+        "statement": "Although routine deliveries are not insured, a one-off childbirth payment of JPY 500,000 per child applies whatever the delivery method and is generally paid to the insured person to help with delivery costs.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Services Covered by Public Health Insurance",
+          "char_start": 6733,
+          "char_end": 7064,
+          "passage_sha256": "9b7e3523f37c89d56c6b9980a17191babeb0853304b5316528df5b947a0e148e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-covered-006",
+        "statement": "Mixing insured and uninsured care is generally not allowed: if a doctor provides a service outside the fee schedule alongside covered care, the provider cannot bill insurance at all and none of that care is covered.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.4 Out of pocket payments",
+          "page": 88,
+          "char_start": 185040,
+          "char_end": 185422,
+          "passage_sha256": "0420a0ac4e2319b72ededcaeaa9c09e8dff72819cc2ef62eeca4bb42b0fad2d2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-covered-007",
+        "statement": "After seven years of deliberation, cost-effectiveness assessment was formally introduced in April 2019; it is used to inform price adjustments for health technologies, and at the time of the study it had not been used to decide insurance coverage.",
+        "valence": "neutral",
+        "source_id": "hasegawa-2020",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1104,
+          "char_end": 1396,
+          "passage_sha256": "cc3b914e9f3bfcf954a73f22df67215cc613705d87e172d368ca8a33ed956419"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "JPN-covered-008",
+        "statement": "Short-term visitors and undocumented immigrants are excluded from statutory coverage, which applies to citizens, permanent residents and foreign nationals with visas of three months or more.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Coverage and Access",
+          "char_start": 4960,
+          "char_end": 5182,
+          "passage_sha256": "88a69387b6a06633e90c49e0fce2f45afc21779997d15473bc392bd9c7e122a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "JPN-cost_sharing-001",
+        "statement": "Most patients pay coinsurance of about 30% for most services; children under 6 pay 20%, and people aged 70-74 pay between 20% and 30% depending on income.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 24787,
+          "char_end": 25026,
+          "passage_sha256": "3fc08604e13c8dee2e90f07d77c91f26d552da9b9916cf9689ce5ea9c3b056f6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-cost_sharing-002",
+        "statement": "Out-of-pocket payments were 12.2% of health spending in 2023, up from 11.6% in 2022 and below the 19.3% average for high-income countries.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 25147,
+          "char_end": 25321,
+          "passage_sha256": "35b557494408f5b4925a6ff12968de97b4cf8dcfc6989eed7e8d5ac9dc2abcaa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-cost_sharing-003",
+        "statement": "The high-cost medical expense benefit, introduced in 1973 to stop health costs from impoverishing patients, sets a monthly maximum co-payment per household according to household income.",
+        "valence": "strength",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.4.2 Out of pocket payments",
+          "page": 84,
+          "char_start": 175937,
+          "char_end": 176205,
+          "passage_sha256": "ddaa23e483f31e5fddd7d47a4e69e05a9a9703877e03daf9f84d04c75f417ae2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-cost_sharing-004",
+        "statement": "In the ministry's example, the existing high-cost limit for a person with annual income of about JPY 3.7-7.7 million was JPY 80,100 plus 1% for each of the first three qualifying times in a year, and JPY 44,400 from the fourth time.",
+        "valence": "neutral",
+        "source_id": "mhlw-kogaku-review",
+        "locator": {
+          "section": "Explanatory sheet, page 1",
+          "page": 1,
+          "char_start": 216,
+          "char_end": 283,
+          "passage_sha256": "7d68e408a79db40509c576a91c8a8a16e0688e300dabf7ee75b74824a0283929"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-cost_sharing-005",
+        "statement": "Patients with one of more than 300 government-designated intractable diseases receive subsidies that sharply reduce or cap out-of-pocket costs for approved treatment, with monthly co-payments limited to at most JPY 20,000 depending on household income and sometimes waived.",
+        "valence": "strength",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8546,
+          "char_end": 8937,
+          "passage_sha256": "1f79d21b24a7e1665358f2ebc4d0130dfb5e1e089c62b1d25d007f7c72802ef9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-cost_sharing-006",
+        "statement": "People who qualify for public assistance under the Livelihood Protection Law pay nothing out of pocket for medical care, including coinsurance and prescription charges.",
+        "valence": "strength",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8299,
+          "char_end": 8542,
+          "passage_sha256": "11f8a586cce6e9bc31c06531188bb261441d9857184365011de51f8697c5a530"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-cost_sharing-007",
+        "statement": "In a study of the coinsurance increase from 10% to 20% on 1 October 2022, outpatient spending fell only modestly right after the reform (by about 8% for doctor visits and 5% for prescriptions, with no significant change for dental visits), and demand proved highly inelastic to price.",
+        "valence": "neutral",
+        "source_id": "kusama-2026",
+        "locator": {
+          "section": "Abstract, Results",
+          "char_start": 2876,
+          "char_end": 4027,
+          "passage_sha256": "a5b00a4735a0a0ce3027949bb1ce0c91ec05c6d34f5c059a49753f07ed9f0d85"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2021-2023"
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "JPN-financial_hardship-001",
+        "statement": "The 2018 Observatory review judged financial protection to be relatively strong but weakening, because household incomes fell in real and nominal terms after the late 1990s and health spending took a growing share of households' non-food spending.",
+        "valence": "weakness",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "7.2.1 Financial protection",
+          "page": 186,
+          "char_start": 396979,
+          "char_end": 397369,
+          "passage_sha256": "c2d0b2de8e73dda193deb8a421acfca4b0b652068e776ee20d05d2673cd95db6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financial_hardship-002",
+        "statement": "Because the high-cost cap used only rough income bands, as of the 2018 review the same cap applied to annual incomes from about US$33,300 to US$69,360, so poor households bore relatively heavier out-of-pocket costs than high-income households.",
+        "valence": "weakness",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "7.2.1 Financial protection",
+          "page": 187,
+          "char_start": 397851,
+          "char_end": 398155,
+          "passage_sha256": "29c49faf97c946acb89765cc47c0731c2c4b6879bf2daac031e6e8c66b02e073"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financial_hardship-003",
+        "statement": "In the National Cancer Center's 2018 Patient Experience Survey, about 30% of the 6,766 responses from cancer patients reported financial toxicity, which the authors define as the cost of cancer treatment raising the risk of stopping treatment and causing anxiety in daily life.",
+        "valence": "weakness",
+        "source_id": "suga-2026",
+        "locator": {
+          "section": "Abstract (Purpose, Methods, Results)",
+          "char_start": 3210,
+          "char_end": 4128,
+          "passage_sha256": "b3b666865cba896fe6a02d20289a0e535873aeabafcc4873abe0297491a99294"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "JPN-financial_hardship-004",
+        "statement": "In a nationwide survey of bereaved relatives of cancer patients (the J-HOPE2016 study), about 7.5% of the 510 who returned questionnaires said cancer treatment had been stopped or changed for financial reasons.",
+        "valence": "weakness",
+        "source_id": "sasaki-2022",
+        "locator": {
+          "section": "Abstract (Methods, Results)",
+          "char_start": 1357,
+          "char_end": 2085,
+          "passage_sha256": "e8d9619c343309d3bd8e555e00d2484b7ac4d3c4e07b55744029e0ecfbaa486e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-financial_hardship-005",
+        "statement": "For its 2023 survey, the Japan Federation of Bar Associations reviewed court files of personal bankruptcy and rehabilitation cases filed by individuals between 1 June and 30 November 2022, sampled at random at all 50 district courts in the 47 prefectures; it obtained usable data on 1,233 bankruptcy cases and 773 rehabilitation cases.",
+        "valence": "neutral",
+        "source_id": "jfba-bankruptcy-2023",
+        "locator": {
+          "section": "第1 調査の目的・概要",
+          "page": 5,
+          "char_start": 10373,
+          "char_end": 10648,
+          "passage_sha256": "f7addafdb4326f0d24eaf3362fca51146625545c98a709367655e4ee7846dd1c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-financial_hardship-006",
+        "statement": "In the bar federation's 2023 survey of bankruptcy files, illness or medical costs were among the recorded causes of debt for 26.44% of debtors, up from 23.31% in the 2020 survey and 20.98% in the 2008 survey; living hardship or low income was recorded for 65.86%.",
+        "valence": "weakness",
+        "source_id": "jfba-bankruptcy-2023",
+        "locator": {
+          "table": "負債原因(人数比), 23調査-08調査",
+          "page": 5,
+          "char_start": 11828,
+          "char_end": 11966,
+          "passage_sha256": "7c645e7390dd2aef1b957c8bc063a31786e565ba5cc5fbb648c89cd9eb192124"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "JPN-additional_care-001",
+        "statement": "Voluntary private insurance is common: an estimated almost 90% of households hold at least one policy, which typically pays cash to replace lost income or cover costs such as transport and food rather than paying for care already covered by public insurance.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3.5 Voluntary private health insurance",
+          "page": 88,
+          "char_start": 185462,
+          "char_end": 186375,
+          "passage_sha256": "352270b3d54a34b32c5f00f9dbd66e2f508bec947fb32b06200430c4329a0a24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-additional_care-002",
+        "statement": "Private policies play a narrow role: fee regulation, comprehensive public coverage and the ban on mixed billing prevent insurers from reimbursing co-payments or offering faster access, so they mostly pay lump sums that households use for lost income, transport, childcare and other indirect costs.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 9727,
+          "char_end": 10274,
+          "passage_sha256": "bfb54dbc1e9bfea72ecfb987abf54d93681fb6fc73f69d96e420f0782da7a6ed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "JPN-access-001",
+        "statement": "With free access to providers and a dense network of clinics and hospitals, waiting for specialist care is seldom a complaint, although some report that specialist services are harder to reach in rural areas, where fewer specialists practise.",
+        "valence": "strength",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "7.3.1 User experience",
+          "page": 190,
+          "char_start": 404768,
+          "char_end": 405078,
+          "passage_sha256": "53447fbf237e8d884aa774c8a074619af9ad847f0492c430c9c9edfb7f12d22a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-access-003",
+        "statement": "Large hospitals may charge patients who arrive without a referral an extra fee of JPY 5,000-7,000 to discourage inappropriate use.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 16689,
+          "char_end": 16837,
+          "passage_sha256": "1472593ea536f96d7698619afe0400720c6819e96c829cfc64601660315ffffa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-access-004",
+        "statement": "About 11 million people, 8.9% of the population, live in \"depopulated areas\", and about 130,000 live in \"districts without a doctor\" with poor access to care.",
+        "valence": "weakness",
+        "source_id": "kaneko-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4990,
+          "char_end": 5309,
+          "passage_sha256": "96302121a727eaa1cb6716bdd810b8f5fc410ef15e21926dccf30b6162f55483"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-access-005",
+        "statement": "Prefectures such as Iwate, Aomori, Fukushima and Niigata have among the lowest physician densities, and rural prefectures in the Tohoku region face severe shortages of emergency and surgical staff.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 29589,
+          "char_end": 29819,
+          "passage_sha256": "4dac55d0961395134b4addd5b7c00dac899998560533a50e19ce68b760bc84b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-access-006",
+        "statement": "Many technical interns have left their first workplaces in recent years and so lost employer-based insurance; they can join local residence-based insurance but must keep paying premiums and may lose eligibility unknowingly, and the income-based monthly cap is available only to people who have formally declared their income.",
+        "valence": "weakness",
+        "source_id": "saeki-2025",
+        "locator": {
+          "section": "Correspondence",
+          "char_start": 2424,
+          "char_end": 3163,
+          "passage_sha256": "053137bd7080c1673ee312adf94d4276b3fe317ceceba7aab100439e85cc4912"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "JPN-outcomes-001",
+        "statement": "Average life expectancy was 84.1 years in 2023, compared with 81.1 years in high-income countries.",
+        "valence": "strength",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Quality and Outcomes",
+          "char_start": 26786,
+          "char_end": 26879,
+          "passage_sha256": "8accee8162f997f269aa55580c1b39042d86bfb3e03fc5c369e48ddac81351b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-outcomes-002",
+        "statement": "In 2023 maternal mortality was three deaths per 100,000 live births (Western Pacific average 35) and infant mortality two deaths per 1,000 live births (Western Pacific average nine).",
+        "valence": "strength",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Quality and Outcomes",
+          "char_start": 27145,
+          "char_end": 27420,
+          "passage_sha256": "cd101ae8a4f676c1f0220fd0134daac4705cd004ce67cfefcdcc4fa737a5fd7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-outcomes-003",
+        "statement": "The suicide rate was 21.5 deaths per 100,000 people in 2023, against an average of 12 across high-income countries.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Quality and Outcomes",
+          "char_start": 27570,
+          "char_end": 27692,
+          "passage_sha256": "f3b6d0d2999dd5d1d61b93c725fe16c7791b9c3968dba9bf0d6f810f2272317f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-outcomes-006",
+        "statement": "Life expectancy in the prefectures with the longest and shortest lives was 2.3 years apart in 1990 and 2.9 years apart in 2021 (both sexes); for men the spread widened from 3.2 to 3.9 years, whereas for women it narrowed slightly, from 2.9 to 2.6 years.",
+        "valence": "weakness",
+        "source_id": "gbd-japan-2025",
+        "locator": {
+          "section": "Results: Life expectancy",
+          "char_start": 19877,
+          "char_end": 20224,
+          "passage_sha256": "5e5bd9f37478ece3391f51c80f5dde4d0b37a665fb2a1c055fbfe1cfa81d84ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1990-2021"
+      },
+      {
+        "id": "JPN-outcomes-007",
+        "statement": "Japan's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 87.5 (95% uncertainty interval 86.3-88.4) in 2019 in the GBD 2019 study, 14.6 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 overall (0-74 years) and absolute change 1990-2019 overall",
+          "char_start": 40927,
+          "char_end": 41091,
+          "passage_sha256": "5343e315e9e0762feb58027ec9fe611736f869bf410bb737cfba16315fe1ba8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "JPN-outcomes-008",
+        "statement": "In the GBD 2016 HAQ Index study, Japan was in the top (tenth) decile of countries in 2016; with Canada, Australia and New Zealand it was an exception to the clustering of top-decile countries in or near Europe.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2016",
+        "locator": {
+          "section": "Results: National HAQ Index performance (figure 1)",
+          "char_start": 42339,
+          "char_end": 42726,
+          "passage_sha256": "6f954df1321689c85b211bd5d2c73cf51b5493688aa8282d94a0c1296406de9b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2016
+      }
+    ],
+    "costs": [
+      {
+        "id": "JPN-costs-001",
+        "statement": "Health spending was 10.7% of GDP in 2023, above the 8.1% average for high-income countries.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Health Care Spending Overview",
+          "char_start": 23194,
+          "char_end": 23331,
+          "passage_sha256": "3cd79255daafeab19e6f92164105588ff46dc9aedd576a1beb62ba9218e56027"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-costs-003",
+        "statement": "Medicines accounted for 17.6% of health spending in 2023, a share that has been fairly stable for a decade, or about USD 847 per person.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 23973,
+          "char_end": 24184,
+          "passage_sha256": "a42cc2a6de2673e76f1a1256be19214ddf065fb47b20197f9fd577208a348f49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-costs-004",
+        "statement": "Long-term care costs tripled from JPY 3.6 trillion in 2000 to JPY 10.8 trillion in 2020 as the population aged.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 21974,
+          "char_end": 22144,
+          "passage_sha256": "4d15ff68d2a1aedcc72cc86ca68bd32157ede917412d4943f8a6fa5ba59f561d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2020"
+      },
+      {
+        "id": "JPN-costs-005",
+        "statement": "Between 1995 and 2015, health spending rose from 6.3% to 10.9% of GDP by OECD measures; the 2018 review attributed the rise to slow economic growth, long life expectancy and wider use of expensive technologies.",
+        "valence": "neutral",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "Executive summary",
+          "page": 17,
+          "char_start": 33365,
+          "char_end": 33574,
+          "passage_sha256": "eba31139ed1725f58a1269720e927e25398a4e0c7279fdc6b1c7638550d6e6b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1995-2015",
+        "historical": true
+      },
+      {
+        "id": "JPN-costs-006",
+        "statement": "Japan's national medical care expenditure, the ministry's own measure, was about JPY 48.8 trillion in fiscal year 2024, 1.5% more than in FY2023 (about JPY 48.1 trillion); spending per person rose 2.0% to JPY 394,300, and the total equalled 7.60% of GDP, down from 7.76% the year before.",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024",
+        "locator": {
+          "section": "1 国民医療費の状況 (表1)",
+          "page": 1,
+          "char_start": 34,
+          "char_end": 202,
+          "passage_sha256": "b35337c94ba97b47a73ef622568a0532b3a1467432a7f44e7cc220581631731e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-costs-007",
+        "statement": "The ministry's national medical care expenditure counts only the cost of treating conditions that public insurance can cover; it leaves out services outside insurance, such as advanced medical technology and private hospital rooms, as well as normal pregnancy and childbirth, health check-ups, vaccinations, and artificial eyes or limbs for permanent disabilities.",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024-def",
+        "locator": {
+          "section": "1 国民医療費の範囲",
+          "page": 1,
+          "char_start": 45,
+          "char_end": 347,
+          "passage_sha256": "febc7b7ea821a90602b5b659093fce2ba4db8614c7f6345fdcea8b94f405ad14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-costs-008",
+        "statement": "People aged 65 and over accounted for 60.1% of national medical care expenditure in FY2024 (about JPY 29.3 trillion); spending per person was JPY 809,800 for this age group against JPY 222,300 for people under 65.",
+        "valence": "neutral",
+        "source_id": "mhlw-nme-2024",
+        "locator": {
+          "section": "5 年齢階級別国民医療費 (表5)",
+          "page": 4,
+          "char_start": 5942,
+          "char_end": 6132,
+          "passage_sha256": "cb50a093de8c33d09a7a4a46ef51c20c1ced4d71c368f8a05b3c2c9c809ef1f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "what_works": [
+      {
+        "id": "JPN-what_works-001",
+        "statement": "The Observatory review describes a system that achieves excellent health outcomes at relatively low cost and stresses equity, through universal insurance funded by premiums and tax subsidies and almost unrestricted access to facilities.",
+        "valence": "strength",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "2 Organization and governance, chapter summary",
+          "page": 41,
+          "char_start": 81325,
+          "char_end": 81604,
+          "passage_sha256": "1481c07d4ede3eefea3ea11e7c08eeb3a8cec70b7b36beccf59006f095c37f57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-what_works-002",
+        "statement": "A national study found that income-related inequity in health care use stayed low once needs were accounted for; the modest pro-rich effect of income was increasingly offset by residence-based insurance and insurance programmes for older adults.",
+        "valence": "strength",
+        "source_id": "oshio-2025",
+        "locator": {
+          "section": "Abstract, Results",
+          "char_start": 2818,
+          "char_end": 3275,
+          "passage_sha256": "fafb7fa112c7c088715fdc8c060c7617ceeb297deba76411671eade80c4b22ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1986-2022"
+      },
+      {
+        "id": "JPN-what_works-003",
+        "statement": "Income-related inequity in using care was small among people over 65, which the review attributes to lower co-payments for older people that evened out use regardless of income.",
+        "valence": "strength",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "7.3.2 Equity of access to health care",
+          "page": 192,
+          "char_start": 408832,
+          "char_end": 409173,
+          "passage_sha256": "72fdf9636416f8a7412309dc486434631de416360ebb9088f938d21198719176"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-what_works-005",
+        "statement": "In hospitals paid under the DPC system, which was introduced with performance reporting in 2003, the average inpatient stay fell from 21.2 days in 2002 to 16.7 days in 2007.",
+        "valence": "strength",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "7.5.2 Technical efficiency",
+          "page": 205,
+          "char_start": 432372,
+          "char_end": 432641,
+          "passage_sha256": "62d7605ca5c2e96da6f1b5759ca0f3cf72aa6a9d8a0acbe9b0d58f2b31337ebd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2002-2007",
+        "historical": true
+      },
+      {
+        "id": "JPN-what_works-006",
+        "statement": "In 2016 Japan had the smallest spread of HAQ Index scores between its best- and worst-performing subnational areas (4.8 points); the gap was more than twice as large in the USA and three times as large in England.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2016",
+        "locator": {
+          "section": "Summary/Findings: subnational HAQ Index",
+          "char_start": 19356,
+          "char_end": 19631,
+          "passage_sha256": "719f2166b6256a957b2c09b7fd283884eb6892abc75bbda21f8b773e1c477b7d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2016
+      }
+    ],
+    "problems": [
+      {
+        "id": "JPN-problems-001",
+        "statement": "The lack of a primary care gatekeeping system has contributed to inefficiency, fragmented care and heavy reliance on hospitals, even for minor conditions.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Overview",
+          "char_start": 1170,
+          "char_end": 1341,
+          "passage_sha256": "4918090a6e3ad83dfc30babfed7e8ef1a051660b80aa98d82cabd3c23b19ebb2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-problems-002",
+        "statement": "Japan had 1,191 hospital beds per 100,000 people in 2025, against an OECD average of 420 in 2023.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 18830,
+          "char_end": 18946,
+          "passage_sha256": "48340ee31775ebe5673ecc2a87c1b523d0c5d0a3ee5bc727272ca2c1f3643b10"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-problems-003",
+        "statement": "The average general-care hospital stay was 16 days in 2023, more than twice the OECD average of 7.7 days in 2021, reflecting hospitals' role in long-term rehabilitation and social care rather than clinical need.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 19895,
+          "char_end": 20322,
+          "passage_sha256": "734a93636093e3e2beb4afa71ad645d2080b2895ec6f591325c02d2e2f5b0cda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "JPN-problems-004",
+        "statement": "Family medicine is new: board certification began only in 2009, and in 2022 just 1,126 physicians were certified family doctors, 0.9 per 100,000 people.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 15573,
+          "char_end": 15977,
+          "passage_sha256": "c147c55f6ebe6b8172c9c1af6afddd703403d96731c21a436098dace730595ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-problems-005",
+        "statement": "The Observatory review found that tight control of costs combined with a hands-off approach to service delivery and weak governance of providers produced a mismatch between needs and resources and undermined accountability for quality.",
+        "valence": "weakness",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "8 Conclusions",
+          "page": 208,
+          "char_start": 439642,
+          "char_end": 439936,
+          "passage_sha256": "c19d043ffdec0cef6964dc6f8a13f41264e046684f42aae3bc7f414ee7143755"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-problems-006",
+        "statement": "Insurance is split among about 3,000 insurers whose premium rates differ widely, a fragmentation the review calls a source of inefficiency and of unequal premiums.",
+        "valence": "weakness",
+        "source_id": "apo-hsr-jpn-2018",
+        "locator": {
+          "section": "3 Financing, chapter summary",
+          "page": 61,
+          "char_start": 132694,
+          "char_end": 132982,
+          "passage_sha256": "573ddacb60c27a3505426e6da6a335650134a6d2ac4295b378eb5455e746c4b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-problems-007",
+        "statement": "As of 1 June 2024, 1.83 million households, 11.4% of all households in municipal National Health Insurance, were behind on at least part of their premiums, 70,000 fewer than a year earlier; 337,000 households held short-term insurance cards and 77,000 held eligibility certificates.",
+        "valence": "weakness",
+        "source_id": "mhlw-nhi-finance-2023",
+        "locator": {
+          "section": "(3) Premium arrears, Fig. 4",
+          "page": 7,
+          "char_start": 11561,
+          "char_end": 11875,
+          "passage_sha256": "f4f5ad283580e5b46fcdde7246e3ca4ded053a56b1431d3bbad9adc9d22c6979"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-problems-008",
+        "statement": "Japan had lacked any regulation of doctors' working hours; a 2019 survey found about 40% of physicians worked over 60 hours a week and 10% over 80.",
+        "valence": "weakness",
+        "source_id": "fujikawa-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5223,
+          "char_end": 5437,
+          "passage_sha256": "b78c6076060cf4c9ebb9e0c006820251cd4a2becc6652a08df806566408bc8fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "JPN-problems-009",
+        "statement": "Japan's share of global phase III cancer drug trials rose from 34.3% in 2008-2012 to 60.2% in 2018-2022, but the number of trials without Japan stayed at about 157-167 per five years, and the authors expect drug lag and the number of unapproved drugs to grow.",
+        "valence": "weakness",
+        "source_id": "shiga-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2717,
+          "char_end": 3308,
+          "passage_sha256": "b7e7d77197ae1e59b1ad05dd05b56ff657608e7f3fbcb77198be16908624e326"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2008-2022"
+      },
+      {
+        "id": "JPN-problems-010",
+        "statement": "A study of public assistance recipients found that removing cost sharing was associated with more outpatient use, especially dental care; the authors say this points to financial barriers to care among low-income people, while noting that free care may also need measures against overuse.",
+        "valence": "weakness",
+        "source_id": "shiota-2025",
+        "locator": {
+          "section": "Key Points",
+          "char_start": 6684,
+          "char_end": 7033,
+          "passage_sha256": "b0e01d1975992420590dd4afa9fb25e3e78329f37d2f067b63ff8d72570df331"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2022"
+      },
+      {
+        "id": "JPN-problems-011",
+        "statement": "Mental health care relies heavily on long inpatient stays, mainly in private psychiatric hospitals: in 2023 there were 289 psychiatric inpatients per 100,000 people.",
+        "valence": "weakness",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 21220,
+          "char_end": 21453,
+          "passage_sha256": "53a5d2be30cf25bcfe24fa0b1a80e9292faef345d389c1626fca2e46c2fe3efd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "JPN-reforms-001",
+        "statement": "On 1 October 2022 coinsurance for people aged 75 and over with relatively high incomes rose from 10% to 20%, to narrow the gap between generations in contributions to medical costs; the Cabinet approved the change in December 2020.",
+        "valence": "neutral",
+        "source_id": "kusama-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7204,
+          "char_end": 7604,
+          "passage_sha256": "da3ebf8f83819846baa3704e751bd9eec1489cfd44c2dcbbfd3f11f9ff470915"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "JPN-reforms-002",
+        "statement": "Since April 2024 physicians' overtime is capped at 960 hours a year, or 1,860 hours in special circumstances such as community and emergency hospitals, residents and doctors in advanced training.",
+        "valence": "neutral",
+        "source_id": "fujikawa-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5861,
+          "char_end": 6243,
+          "passage_sha256": "f2513daa115d788856d440ce8ac49341a7ded7626a6ca71e96cd5e122fe06e41"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "JPN-reforms-003",
+        "statement": "The ministry describes the 2026-2027 revision of the high-cost benefit as a measure to keep the system sustainable that asks mainly patients with short treatment periods to pay more, while strengthening protection for long-term and low-income patients.",
+        "valence": "neutral",
+        "source_id": "mhlw-kogaku-2026",
+        "locator": {
+          "section": "令和8年8月・令和9年8月からの見直しの内容",
+          "char_start": 610,
+          "char_end": 806,
+          "passage_sha256": "cb4261b80792a0f65aa0432f33bbcf32bbd5aa8a46d786e315e4e18bab0ea45c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-004",
+        "statement": "From August 2026 the monthly caps are adjusted in line with growth in medical spending per person, with allowance for low-income patients; from August 2027 the income bands are to be divided more finely according to ability to pay, avoiding sharp rises from existing limits.",
+        "valence": "neutral",
+        "source_id": "mhlw-kogaku-2026",
+        "locator": {
+          "section": "令和8年8月・令和9年8月からの見直しの内容",
+          "char_start": 815,
+          "char_end": 965,
+          "passage_sha256": "66f5261e2fa38ad3b17b8d1e8d85b6bcae9df2895893666f2a7c257e68ac7a7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-005",
+        "statement": "The reduced limit for patients with many high-cost months is kept, a new annual out-of-pocket cap is added from August 2026, and from August 2027 the reduced limit falls by 25% for taxable households with incomes below JPY 2 million.",
+        "valence": "strength",
+        "source_id": "mhlw-kogaku-2026",
+        "locator": {
+          "section": "令和8年8月・令和9年8月からの見直しの内容",
+          "char_start": 966,
+          "char_end": 1157,
+          "passage_sha256": "f335097ce283244a080b83b5746b11c5d4642f3a14cc0c39610f361e0bf14d4b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-006",
+        "statement": "Under the rules from August 2026, a patient under 70 with annual income of about JPY 3.7-5.1 million who receives JPY 1 million of treatment pays about JPY 93,000 out of pocket.",
+        "valence": "neutral",
+        "source_id": "mhlw-kogaku-2026",
+        "locator": {
+          "section": "高額療養費制度について",
+          "char_start": 233,
+          "char_end": 342,
+          "passage_sha256": "0c1bbcaed71d9fd8a75311aaa463a6c32bdecef8500e1bb0cc811d9f3df2384e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-007",
+        "statement": "Since 2021 residents have been able to use the government-issued My Number identity card to obtain health care; a chip in the card gives providers access to the patient's own health records.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Health Care Technology",
+          "char_start": 31751,
+          "char_end": 31957,
+          "passage_sha256": "36f4a7aa0f9615baec0a2c83da103cc94a050d5728016ea9afc46e06469e70bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-reforms-008",
+        "statement": "Drug prices have been revised every year rather than every two years since 2018, and in 2025 the prices of nearly half of all insured drugs were set to be cut, with targeted savings of about JPY 250 billion.",
+        "valence": "neutral",
+        "source_id": "cwf-jpn-2026",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 24244,
+          "char_end": 24653,
+          "passage_sha256": "11a30de66b6d9390955d2489f799ccb3d6e66d898530f9c55badd29f99852178"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-reforms-009",
+        "statement": "As of December 2025 the ministry tells patients to show either a My Number insurance card or an eligibility certificate at the reception of medical institutions and pharmacies, and states that the validity of the old health insurance cards has ended.",
+        "valence": "neutral",
+        "source_id": "mhlw-myna-2025",
+        "locator": {
+          "section": "Page 1",
+          "page": 1,
+          "char_start": 11,
+          "char_end": 80,
+          "passage_sha256": "658daca08c9bd168378bb7c10b19f61b4e2751d5ba90b0e68b3a5cdefadd0aec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-reforms-010",
+        "statement": "People who have not registered their My Number card for health insurance are sent an eligibility certificate without having to apply, and card holders who find it hard to use the card when seeking care, such as older or disabled people, can obtain one on application.",
+        "valence": "neutral",
+        "source_id": "mhlw-myna-2025",
+        "locator": {
+          "section": "Page 2",
+          "page": 2,
+          "char_start": 616,
+          "char_end": 743,
+          "passage_sha256": "4c6fb1e9e8e6aa2158f0f0fda73d76b3bf2fce5cc130dc65ea0bde10bc5b92c3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "JPN-reforms-011",
+        "statement": "The ministry says the aims of the FY2026 fee-schedule revision include responding to rising prices, wages and staff shortages, reorganising and linking hospital functions with a view to around 2040, securing local care, and making health insurance more stable and sustainable through efficiency; the new fees and device prices took effect on 1 June 2026 and the new drug prices on 1 April 2026.",
+        "valence": "neutral",
+        "source_id": "mhlw-changes-2026-04",
+        "locator": {
+          "section": "医療関係: 令和8年度診療報酬改定・令和8年度薬価改定",
+          "char_start": 234,
+          "char_end": 457,
+          "passage_sha256": "77adbc7b28e923d0d87f6d75834d1f9593a18dbd63d39e1fbae0f35074e96389"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-012",
+        "statement": "After budget talks between ministers on 24 December, the FY2026 medical fee revision was set at +3.09% as a two-year average for FY2026 and FY2027, applied in steps of +2.41% in FY2026 and +3.7% in FY2027; of the total, 1.70% is earmarked for pay rises.",
+        "valence": "neutral",
+        "source_id": "chuikyo-639-2025",
+        "locator": {
+          "section": "議事: 令和8年度診療報酬改定の改定率等について (医療課長の説明)",
+          "char_start": 1089,
+          "char_end": 1408,
+          "passage_sha256": "8f64f6893d61ab65233bee69639a598a5e9104a7bf4d8da2aa5e115379a0e91c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "JPN-reforms-013",
+        "statement": "In the same FY2026 revision, the revision rate for drug prices was -0.86%, and -0.87% for drug and medical materials prices combined.",
+        "valence": "neutral",
+        "source_id": "chuikyo-639-2025",
+        "locator": {
+          "section": "議事: 令和8年度診療報酬改定の改定率等について (医療課長の説明)",
+          "char_start": 2402,
+          "char_end": 2453,
+          "passage_sha256": "372869a8de806b5d6fa73886636f2231579d55c3ebf959b72cc4f9ad93cc19b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "JPN-us_lessons-004",
+        "statement": "Comparing the US with other high-income countries, researchers found the US spent roughly twice as much while using care at largely similar rates; prices of labour and goods, including medicines, and administrative costs appeared to drive the difference.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract, Conclusions",
+          "char_start": 4361,
+          "char_end": 4756,
+          "passage_sha256": "5683bf36ba50bfbb20c5d140451fff8d1d8e28be583699bb50305f7cb4dd40eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "JPN-us_lessons-005",
+        "statement": "Administrative costs were 8% of US health spending, against 1% to 3% in the comparison countries.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract, Findings",
+          "char_start": 3836,
+          "char_end": 4026,
+          "passage_sha256": "d56997d987eb95253c31c0be11c1f9203677cdad281f4892b2ed07eb7db8e327"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "JPN-us_lessons-006",
+        "statement": "Japan has kept acute-care costs relatively contained by revising, every two years, a fee schedule that covers all physician and hospital services, and by cutting drug prices; the schedule controls volume as well as price by setting billing conditions for each item.",
+        "valence": "neutral",
+        "source_id": "ikegami-rice-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 699,
+          "char_end": 984,
+          "passage_sha256": "40a7637aca57367128830cf594f9fa94cd554bf4ffa583299004b3f7c08ff35d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-us_lessons-007",
+        "statement": "Although long-term care insurance uses a similar fee schedule, its spending has grown faster than health care spending, both because long-term care became an entitlement and because ageing has affected it more than health insurance.",
+        "valence": "neutral",
+        "source_id": "ikegami-rice-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1131,
+          "char_end": 1445,
+          "passage_sha256": "958fcde4e509f625f1e512c61622c501d5c540730d8fa8c5655b19677def21b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "JPN-us_lessons-008",
+        "statement": "Analysing Japanese spending data to inform the US, the authors draw a key lesson: as the US population ages, long-term care needs will grow, so acute-care spending will need tighter control.",
+        "valence": "neutral",
+        "source_id": "ikegami-rice-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1446,
+          "char_end": 1809,
+          "passage_sha256": "7cf60d12f7a1eb79948ba5cdc9d73a329281e013746418de871d052f28621ece"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/JPN.json",
+  "sources": [
+    {
+      "id": "apo-hsr-jpn-2018",
+      "title": "Japan Health System Review (Health Systems in Transition, Vol. 8 No. 1)",
+      "publisher": "World Health Organization Regional Office for South-East Asia, for the Asia Pacific Observatory on Health Systems and Policies",
+      "authors": "Sakamoto H, Rahman M, Nomura S, Okamoto E, Koike S, Yasunaga H, et al.",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2018,
+      "url": "https://iris.who.int/server/api/core/bitstreams/f03712f1-83ad-4157-8ba2-64efc1e1e423/content",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cwf-jpn-2026",
+      "title": "International Health Care System Profiles: Japan",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/japan",
+      "accessed": "2026-11-09",
+      "funding_note": "Written by FT Longitude (Financial Times Group) on behalf of the Commonwealth Fund, a private US foundation; reflects data as of February 2026."
+    },
+    {
+      "id": "mhlw-kogaku-2026",
+      "title": "For people using the high-cost medical expense benefit (高額療養費制度を利用される皆さまへ), updated 31 July 2026",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juuyou/kougakuiryou/index.html",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-kogaku-review",
+      "title": "New annual cap on high-cost medical expenses (高額療養費の年間上限の新設), explanatory sheet",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/content/12400000/001659789.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "oshio-2025",
+      "title": "Income-related inequality and horizontal inequity in healthcare utilization under population aging and labor market changes in Japan",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Oshio T, Ping R, Honda A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12939-025-02729-3",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12797999",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "shiota-2025",
+      "title": "No Cost Sharing for Public Assistance Recipients and Health Service Usage in Japan",
+      "publisher": "JAMA Health Forum",
+      "authors": "Shiota C, Takeuchi K, Kusama T, Tamada Y, Oda F, Maeda M, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1001/jamahealthforum.2025.3713",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12552928",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "kusama-2026",
+      "title": "Impacts of cost-sharing rate increment on the expenditure of outpatient care among older adults: quasi-experimental study of cost-sharing reform in Japan",
+      "publisher": "BMC Health Services Research",
+      "authors": "Kusama T, Tamada Y, Hoshi-Harada M, Osaka K, Takeuchi K",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14387-4",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13123153",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "shiga-2025",
+      "title": "Evaluation of drug lag and drug loss in Japan: participation in global phase III oncology trials",
+      "publisher": "International Journal of Clinical Oncology",
+      "authors": "Shiga K, Shibata T, Miyata T",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1007/s10147-025-02756-8",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12122644",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "kaneko-2025",
+      "title": "Rural and urban disparities in access and quality of healthcare in the Japanese healthcare system: a scoping review",
+      "publisher": "BMC Health Services Research",
+      "authors": "Kaneko M, Ohta R, Mathews M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12913-025-12848-w",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12063375",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "saeki-2025",
+      "title": "Universal health coverage for immigrants in Japan (correspondence)",
+      "publisher": "The Lancet Regional Health - Western Pacific",
+      "authors": "Saeki S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.lanwpc.2025.101539",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11999367",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "hasegawa-2020",
+      "title": "Formal Implementation of Cost-Effectiveness Evaluations in Japan: A Unique Health Technology Assessment System",
+      "publisher": "Value in Health",
+      "authors": "Hasegawa M, Komoto S, Shiroiwa T, Fukuda T",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1016/j.jval.2019.10.005",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31952673&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "papanicolas-2018",
+      "title": "Health Care Spending in the United States and Other High-Income Countries",
+      "publisher": "JAMA",
+      "authors": "Papanicolas I, Woskie LR, Jha AK",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1001/jama.2018.1150",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29536101&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "fujikawa-2024",
+      "title": "Laypeople's Perspective on Physician Work-Hour Restrictions in Japan: A Cross-Sectional Study",
+      "publisher": "Journal of Patient Experience",
+      "authors": "Fujikawa H, Haruta J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1177/23743735241305337",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11638991",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-nme-2024",
+      "title": "Overview of national medical care expenditure, FY2024 (令和6(2024)年度 国民医療費の概況): summary of results",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06kekka.pdf",
+      "accessed": "2026-11-09",
+      "funding_note": "Official statistics released 30 October 2026 (https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/)."
+    },
+    {
+      "id": "mhlw-nme-2024-def",
+      "title": "Overview of national medical care expenditure, FY2024: scope and estimation method (国民医療費の範囲と推計方法の概要)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-iryohi/24/dl/R06gaiyou.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-myna-2025",
+      "title": "Leaflet: show your My Number insurance card or eligibility certificate at reception (as of December 2025)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/content/12400000/001280688.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "mhlw-changes-2026-04",
+      "title": "Main system changes of the Ministry of Health, Labour and Welfare (April 2026) (厚生労働省関係の主な制度変更(令和8年4月))",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.mhlw.go.jp/stf/newpage_71570.html",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "chuikyo-639-2025",
+      "title": "Central Social Insurance Medical Council (Chuikyo), general meeting no. 639, minutes, 26 December 2025",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/stf/newpage_69393.html",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "suga-2026",
+      "title": "Sociodemographic factors related to financial toxicity among cancer patients and survivors: the Second Cancer Patient Experience Survey, a nationwide study in Japan",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Suga K, Ito Y, Inoue K, Ichinose Y, Higashi T, Kondo N",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1007/s00520-026-10818-4",
+      "doi": "10.1007/s00520-026-10818-4",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13236782",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "sasaki-2022",
+      "title": "Influence of financial burden on withdrawal or change of cancer treatment in Japan: results of a bereavement survey",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Sasaki T, Aoyama M, Igarashi N, Morita T, Shima Y, Miyashita M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00520-022-06933-7",
+      "doi": "10.1007/s00520-022-06933-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35230531&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-09",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "gbd-haq-2016",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "accessed": "2026-11-09",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "jfba-bankruptcy-2023",
+      "title": "2023 survey of bankruptcy and individual rehabilitation case records (2023年破産事件及び個人再生事件記録調査)",
+      "publisher": "Japan Federation of Bar Associations, Consumer Affairs Committee",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.nichibenren.or.jp/library/pdf/jfba_info/publication/pamphlet/2023_hasan_kojinsaisei.pdf",
+      "accessed": "2026-11-10",
+      "funding_note": "Produced by the national bar association's consumer-affairs committee, which campaigns on consumer over-indebtedness; data are coded from court case files."
+    },
+    {
+      "id": "gbd-japan-2025",
+      "title": "Three decades of population health changes in Japan, 1990-2021: a subnational analysis for the Global Burden of Disease Study 2021",
+      "publisher": "The Lancet Public Health",
+      "authors": "GBD 2021 Japan Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/S2468-2667(25)00044-1",
+      "doi": "10.1016/S2468-2667(25)00044-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11959113",
+      "accessed": "2026-11-10",
+      "funding_note": "Funded by the Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "ikegami-rice-2023",
+      "title": "Controlling Spending For Health Care And Long-Term Care: Japan's Experience With A Rapidly Aging Society",
+      "publisher": "Health Affairs",
+      "authors": "Ikegami N, Rice T",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1377/hlthaff.2022.00700",
+      "doi": "10.1377/hlthaff.2022.00700",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37276471&rettype=abstract&retmode=text",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "mhlw-nhi-finance-2023",
+      "title": "Financial situation of National Health Insurance (municipal NHI), FY2023 (令和5年度国民健康保険（市町村国保）の財政状況について)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/content/12400000/001546569.pdf",
+      "accessed": "2026-11-10",
+      "funding_note": "Official press release (https://www.mhlw.go.jp/stf/newpage_62223.html); arrears figures are preliminary values as of 1 June 2024."
+    },
+    {
+      "id": "kyokai-rates-2026",
+      "title": "FY2026 Japan Health Insurance Association premium rates take effect from March 2026 pay (令和8年度の協会けんぽの保険料率は3月分(4月納付分)から改定されます)",
+      "publisher": "Japan Health Insurance Association (Kyokai Kenpo)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.kyoukaikenpo.or.jp/g7/cat330/sb3130/r08/",
+      "accessed": "2026-11-11",
+      "funding_note": "Public insurer for employees of small and medium-sized firms; publishes its own statutory premium rates."
+    },
+    {
+      "id": "kenporen-budget-2026",
+      "title": "Health insurance society budgets: FY2026 early tally and financial outlook (健康保険組合 予算編成状況について 令和8年度予算早期集計結果)",
+      "publisher": "National Federation of Health Insurance Societies (Kenporen)",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.kenporen.com/include/press/2026/2026042802.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Kenporen is the federation of company-based health insurance societies and lobbies on their behalf, including against the cost of contributions to elderly care; figures are its own budget tally (1,362 of 1,364 societies reporting, March 2026)."
+    },
+    {
+      "id": "mhlw-koki-premiums",
+      "title": "Late-stage elderly medical care system: premiums and the FY2024 reform (後期高齢者医療制度の保険料について)",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/newpage_00009.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "mhlw-hoken-bukai-2022",
+      "title": "Health insurance system reform: reference materials, 160th meeting of the Social Security Council Health Insurance Subcommittee, 9 December 2022 (医療保険制度改革について(参考資料))",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan, Health Insurance Bureau",
+      "tier": 3,
+      "type": "government",
+      "year": 2022,
+      "url": "https://www.mhlw.go.jp/content/12401000/001022179.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "mhlw-ltci-premium-9th",
+      "title": "First-category long-term care insurance premiums for the 9th plan period (FY2024-2026) (第9期介護保険事業計画期間における介護保険の第1号保険料及びサービス見込み量等について), press release 14 May 2024",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.mhlw.go.jp/stf/newpage_40211.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "mof-shohizei-2026",
+      "title": "Use of consumption tax revenue, FY2026 budget (消費税の使途(令和8年度予算))",
+      "publisher": "Ministry of Finance of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.mof.go.jp/tax_information/images/image22.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "shinjuku-nhi-2026",
+      "title": "How National Health Insurance premiums are calculated (保険料の計算方法について), updated 1 April 2026",
+      "publisher": "Shinjuku City, Tokyo",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.city.shinjuku.lg.jp/hoken/hoken01_001028.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Municipal insurer; the rates are Shinjuku's own and illustrate one Tokyo ward, not a national average."
+    },
+    {
+      "id": "nta-1140",
+      "title": "Tax Answer No.1140: Life insurance premium deduction (生命保険料控除)",
+      "publisher": "National Tax Agency of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "nta-1120",
+      "title": "Tax Answer No.1120: When you pay medical expenses (medical expense deduction) (医療費を支払ったとき(医療費控除))",
+      "publisher": "National Tax Agency of Japan",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+      "accessed": "2026-11-11"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-09",
+      "note": "Profile created: 75 claims from 14 sources anchored to fingerprinted passages and support-reviewed; 20 statements corrected to match their passages and 6 re-anchored during review."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill: 9 sources added (MHLW FY2024 national medical expenditure, FY2026 revisions, My Number card notices, Chuikyo minutes, GBD HAQ 2016/2019, two cancer financial-toxicity studies) and the JFBA 2023 bankruptcy-records survey; 16 claims added, all support-reviewed."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill round 2 (data older than 10 years): replaced 5 claims with current sources (CWF 2026 public share, GBD 2021 Japan prefecture gaps, MHLW NHI premium arrears as of June 2024, Ikegami & Rice 2023 US lessons), marked 2 past-trend claims historical, dropped 4 claims with no current equivalent; all support-reviewed."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill round 3 (financing standard): 9 sources added (Kyokai Kenpo FY2026 rates, Kenporen FY2026 budget tally, MHLW late-stage elderly premiums, MHLW insurance subcommittee 2022 materials, MHLW LTCI premiums FY2024-26, MOF consumption tax use FY2026, Shinjuku NHI premiums FY2026, NTA life insurance and medical expense deductions); 17 financing claims added, JPN-financing-004 (2018 description of elderly-care financing) replaced by the FY2022 MHLW breakdown; all support-reviewed."
+    }
+  ]
+}

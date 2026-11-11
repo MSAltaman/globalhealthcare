@@ -1,10 +1,11 @@
 {
-  "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR. 2026-11-10: second round for data older than 10 years (rule now enforced by validate.py).",
+  "description": "Gaps left by earlier runs because source domains were blocked (all domains are allowed since 2026-11-09). Each research run takes the first country with open items, fills them on that country's branch (the open PR branch if not merged, otherwise a new claude/backfill-<iso3> branch from main), then marks the items done here in the same PR. 2026-11-10: second round for data older than 10 years (rule now enforced by validate.py). 2026-11-11: round 3, financing detail for every profile.",
   "items": [
     {
+      "id": "USA-r2",
       "iso3": "USA",
       "pr": 1,
-      "status": "open",
+      "status": "done",
       "todo": [
         "Replace USA-financial_hardship-005 and -006 (Himmelstein et al. 2009, 2007 survey) with the Consumer Bankruptcy Project's latest work: Foohey, Lawless & Thorne, Debt's Grip (University of Chicago Press), filings 2013-2023 (65% of filers cite medical costs or illness-related income loss as a contributing factor). Cite the book if its text is reachable; otherwise cite Sickler's review in the American Bankruptcy Law Journal 99:3 (2025), https://www.ablj.org/wp-content/uploads/2025/12/Sickler_ABLJ_99-3.pdf, and say the figure is self-reported by filers.",
         "Replace USA-financial_hardship-008 (Dobkin et al. 2018, data 2003-2011) with: Scott et al., Health Affairs 2026, 'Changes In Medical Debt And Bankruptcy After Acute Traumatic Injuries, 2019-21' (doi 10.1377/hlthaff.2025.00847, PMC13109849) and Uppal et al., JAMA Oncology 2025, 'Debt, Bankruptcy, and Credit Scores After Cancer Diagnosis' (doi 10.1001/jamaoncol.2025.3302, PMC12395357). Keep each estimate's definition and population explicit (Michigan trauma patients; Massachusetts cancer patients).",
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "id": "JPN-r2",
       "iso3": "JPN",
       "pr": 2,
       "status": "done",
@@ -22,14 +24,16 @@
       ]
     },
     {
+      "id": "MEX-r2",
       "iso3": "MEX",
       "pr": 3,
-      "status": "open",
+      "status": "done",
       "todo": [
         "Fix the 9 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
       ]
     },
     {
+      "id": "CHN-r2",
       "iso3": "CHN",
       "pr": 5,
       "status": "open",
@@ -38,6 +42,7 @@
       ]
     },
     {
+      "id": "AUS-r2",
       "iso3": "AUS",
       "pr": 4,
       "status": "open",
@@ -46,19 +51,102 @@
       ]
     },
     {
+      "id": "BRA-r2",
       "iso3": "BRA",
       "pr": 7,
-      "status": "open",
+      "status": "done",
       "todo": [
         "Fix the 2 claims scripts/validate.py reports as resting on data older than 10 years: replace with current data, mark historical only if the claim states a past event, or drop."
       ]
     },
     {
+      "id": "DEU-r2",
       "iso3": "DEU",
       "pr": null,
       "status": "open",
       "todo": [
         "Bring the pilot profile up to the current standard: fill the financial_hardship section (medical debt, insolvency statistics recording health causes, debt counselling data), add who-decides-coverage evidence, and check every claim's data year."
+      ]
+    },
+    {
+      "id": "USA-r3",
+      "iso3": "USA",
+      "pr": 1,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "FRA-r3",
+      "iso3": "FRA",
+      "pr": 9,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "DEU-r3",
+      "iso3": "DEU",
+      "pr": 6,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "JPN-r3",
+      "iso3": "JPN",
+      "pr": 2,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "CAN-r3",
+      "iso3": "CAN",
+      "pr": 8,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "AUS-r3",
+      "iso3": "AUS",
+      "pr": 4,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "MEX-r3",
+      "iso3": "MEX",
+      "pr": 3,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "BRA-r3",
+      "iso3": "BRA",
+      "pr": 7,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
+      ]
+    },
+    {
+      "id": "CHN-r3",
+      "iso3": "CHN",
+      "pr": 5,
+      "status": "open",
+      "todo": [
+        "Bring the financing section up to the 'Financing section: where the money comes from' standard in CLAUDE.md: every revenue source with rate, base, who pays and its share of health funding; tax subsidies for private insurance and their cost; definitions stated."
       ]
     }
   ]

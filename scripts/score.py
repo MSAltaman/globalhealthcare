@@ -4,8 +4,10 @@
 
 Method (all settings in config/scoring.json):
   1. For each indicator, drop values older than max_data_age_years.
-  2. Orient so higher = better, optionally log-transform skewed rates, then
-     rescale to 0-100 across the countries being compared (min-max).
+  2. Score each indicator 0-100: "natural" measures (already 0-100, higher is
+     better) are used as is; "world" measures are placed between goalposts at
+     the 5th (worst) and 95th (best) percentile of all countries' latest
+     values worldwide (data/reference.json), log scale for skewed rates.
   3. Domain score = weighted mean of its available indicators, if at least
      min_indicator_share_per_domain of the indicator weight is present.
   4. Overall score = weighted mean of available domain scores, if at least
@@ -13,8 +15,8 @@ Method (all settings in config/scoring.json):
   5. Sensitivity: redraw domain weights at random many times and report each
      country's best and worst plausible rank (5th-95th percentile).
 
-Scores are relative to the countries compared: adding a country can move
-everyone. Writes data/scores.json.
+Scores are absolute: adding a country does not move anyone else's score.
+Writes data/scores.json.
 """
 from __future__ import annotations
 
@@ -45,6 +47,29 @@ def names() -> dict[str, str]:
     return n
 
 
+def goalposts(pool: list[float], better: str, log: bool) -> tuple[float, float]:
+    """(worst, best) at the 5th and 95th percentile of the worldwide pool."""
+    xs = sorted(math.log(max(v, 1e-9)) if log else v for v in pool)
+
+    def pct(q: float) -> float:
+        k = (len(xs) - 1) * q
+        f, c = math.floor(k), math.ceil(k)
+        return xs[f] + (xs[c] - xs[f]) * (k - f)
+
+    lo, hi = pct(0.05), pct(0.95)
+    return (hi, lo) if better == "lower" else (lo, hi)
+
+
+def score_value(v: float, scale: str, better: str, log: bool, posts: tuple[float, float] | None) -> float:
+    if scale == "natural":
+        return max(0.0, min(100.0, v if better == "higher" else 100 - v))
+    worst, best = posts
+    x = math.log(max(v, 1e-9)) if log else v
+    if best == worst:
+        return 100.0
+    return max(0.0, min(100.0, 100 * (x - worst) / (best - worst)))
+
+
 def normalise(values: dict[str, float], better: str, log: bool) -> dict[str, float]:
     """Rescale to 0-100 where 100 is the best value among the countries compared."""
     xs = {k: (math.log(max(v, 1e-9)) if log else v) for k, v in values.items()}
@@ -61,7 +86,8 @@ def weighted_mean(pairs: list[tuple[float, float]]) -> float:
     return sum(v * w for v, w in pairs) / total
 
 
-def compute(data: dict[str, dict], countries: list[str], today: dt.date | None = None) -> dict:
+def compute(data: dict[str, dict], countries: list[str], today: dt.date | None = None,
+            reference: dict | None = None) -> dict:
     today = today or dt.date.today()
     min_year = today.year - CFG["max_data_age_years"]
 
@@ -77,9 +103,21 @@ def compute(data: dict[str, dict], countries: list[str], today: dt.date | None =
                 rec = data.get(c, {}).get(ind["id"])
                 if rec and rec.get("value") is not None and rec.get("year") and rec["year"] >= min_year:
                     vals[c] = rec["value"]
-            if len(vals) < 2:
+            if not vals:
                 continue
-            norm = normalise(vals, ind["better"], ind.get("log", False))
+            scale = ind.get("scale", "relative")
+            if scale == "relative":
+                if len(vals) < 2:
+                    continue
+                norm = normalise(vals, ind["better"], ind.get("log", False))
+            else:
+                posts = None
+                if scale == "world":
+                    pool = [x["value"] for x in (reference or {}).get(ind["id"], {}).get("values", {}).values()]
+                    if len(pool) < 10:
+                        continue
+                    posts = goalposts(pool, ind["better"], ind.get("log", False))
+                norm = {c: score_value(v, scale, ind["better"], ind.get("log", False), posts) for c, v in vals.items()}
             for c, s in norm.items():
                 parts[c].append((s, ind.get("weight", 1)))
                 detail[c].setdefault(dom["id"], {})[ind["id"]] = {
@@ -137,7 +175,9 @@ def main() -> None:
     n = names()
     excluded = CFG.get("excluded_countries", {})
     countries = [c for c in n if c not in excluded and c in data]
-    result = compute(data, countries)
+    ref_path = ROOT / "data" / "reference.json"
+    reference = json.loads(ref_path.read_text(encoding="utf-8"))["indicators"] if ref_path.exists() else {}
+    result = compute(data, countries, reference=reference)
     for r in result["rows"]:
         r["name"] = n.get(r["iso3"], r["iso3"])
     out = {
@@ -145,6 +185,7 @@ def main() -> None:
         "computed": dt.date.today().isoformat(),
         "countries_compared": len(countries),
         "domains": [{k: d[k] for k in ("id", "label", "weight", "question")} for d in CFG["domains"]],
+        "scaling": CFG.get("scaling", {}),
         "not_yet_scored": CFG["not_yet_scored"],
         "excluded_countries": excluded,
         "rows": result["rows"],

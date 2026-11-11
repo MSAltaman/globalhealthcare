@@ -63,6 +63,7 @@ def gho_latest(payload: dict) -> dict | None:
     return {"value": row["NumericValue"], "year": int(row["TimeDim"])}
 
 
+MAX_DATA_AGE_YEARS = 10  # same current-data rule as validate.py
 OECD = "https://sdmx.oecd.org/public/rest/data"
 _oecd_cache: dict[str, list[dict]] = {}
 
@@ -93,6 +94,44 @@ def oecd_latest(rows: list[dict], iso3: str, filters: dict) -> dict | None:
     return best
 
 
+def financing_mix(rows: list[dict], iso3: str, spec: dict, min_year: int = 0) -> dict | None:
+    """Revenue sources of all health financing, % of GDP, for the latest year with a total.
+
+    Rows are OECD SHA revenue records (FINANCING_SCHEME_REV codes). Each segment
+    sums its codes; a segment with `residual_of` also takes whatever its parent
+    codes report beyond their listed sub-codes, so the segments add up to the total.
+    """
+    by_year: dict[int, dict[str, float]] = {}
+    for r in rows:
+        if r.get("REF_AREA") != iso3 or not r.get("OBS_VALUE"):
+            continue
+        if any(r.get(k) != v for k, v in spec["filters"].items()):
+            continue
+        by_year.setdefault(int(r["TIME_PERIOD"][:4]), {})[r["FINANCING_SCHEME_REV"]] = float(r["OBS_VALUE"])
+    years = [y for y, v in by_year.items() if "_T" in v and y >= min_year]
+    if not years:
+        return None
+    year = max(years)
+    vals = by_year[year]
+    segs = {g["id"]: sum(vals.get(c, 0.0) for c in g["codes"]) for g in spec["segments"]}
+    for g in spec["segments"]:  # a parent reported without any breakdown
+        p = g.get("unsplit_of")
+        if p and p in vals and not any(k.startswith(p) and k != p for k in vals):
+            segs[g["id"]] = vals[p]
+    for g in spec["segments"]:
+        if "residual_of" not in g:
+            continue
+        parents = g["residual_of"].split("+")
+        parent_total = sum(vals.get(c, 0.0) for c in parents)
+        siblings = [h["id"] for h in spec["segments"] if all(any(c.startswith(p) for p in parents) for c in h["codes"])]
+        segs[g["id"]] += max(0.0, parent_total - sum(segs[h] for h in siblings))
+    return {
+        "year": year,
+        "total_pct_gdp": vals["_T"],
+        "segments": [{"id": g["id"], "label": g["label"], "pct_gdp": round(segs[g["id"]], 3)} for g in spec["segments"]],
+    }
+
+
 def source_org(meta_payload: list) -> str | None:
     try:
         return meta_payload[1][0].get("sourceOrganization")
@@ -100,14 +139,21 @@ def source_org(meta_payload: list) -> str | None:
         return None
 
 
-def get_json(url: str, session) -> list:
-    for attempt in range(3):
-        resp = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
-        if resp.status_code == 200:
-            return resp.json()
-        time.sleep(2 * (attempt + 1))
-    resp.raise_for_status()
-    return []
+def get_json(url: str, session, attempts: int = 4, timeout: int = 90):
+    """GET JSON with retries on timeouts, connection errors and non-200 replies."""
+    import requests
+
+    last: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            resp = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=timeout)
+            if resp.status_code == 200:
+                return resp.json()
+            last = requests.HTTPError(f"{resp.status_code} for {url}")
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last = e
+        time.sleep(3 * (attempt + 1))
+    raise last
 
 
 def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
@@ -160,6 +206,28 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
             "original_source": "OECD Health Statistics",
             "api_url": f"{OECD}/{ind['dataflow']}/all",
         })
+    byid = {i["id"]: i for i in out["indicators"]}
+    for d in CONFIG.get("derived", []):
+        names = [t for t in d["formula"].replace("*", " ").replace("/", " ").split() if t in byid]
+        recs = [byid[n] for n in names]
+        ok = recs and all(r["value"] is not None for r in recs)
+        value = None
+        if ok:  # every derived formula is "A * B / 100"
+            a, b = recs[0]["value"], recs[1]["value"]
+            value = a * b / 100
+        out["indicators"].append({
+            "id": d["id"], "label": d["label"], "unit": d["unit"], "group": d["group"],
+            "value": round(value, 2) if value is not None else None,
+            "year": min(r["year"] for r in recs) if ok else None,
+            "original_source": "Computed by the atlas: " + d["formula"],
+            "api_url": None,
+        })
+    fin = CONFIG.get("oecd_financing")
+    if fin:
+        mix = financing_mix(oecd_rows(fin["dataflow"], start, session), iso3, fin,
+                            min_year=dt.date.today().year - MAX_DATA_AGE_YEARS)
+        out["financing_revenue"] = {"source": "OECD Health Statistics, System of Health Accounts: revenues of financing schemes",
+                                    "api_url": f"{OECD}/{fin['dataflow']}/all", "note": fin["note"], **(mix or {"year": None})}
     return out
 
 

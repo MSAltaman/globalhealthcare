@@ -3,7 +3,7 @@
   "name": "Germany",
   "wave": 0,
   "system_as_of": "2026-11-11",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "social_health_insurance",
     "label": "Statutory social health insurance through competing sickness funds, with an opt-out private tier"
@@ -207,7 +207,7 @@
       },
       {
         "id": "DEU-financing-006",
-        "statement": "Statutory health insurance is financed by income-related contributions, an annual federal subsidy paid from taxes, and other revenue; contributions are paid by members and by employers, pension insurers or other bodies, and both contributions and the subsidy flow into the central Health Fund.",
+        "statement": "Statutory health insurance is funded by contributions, an annual federal subsidy and other revenue. Contributions are in principle income-related and paid by members together with employers, pension insurers or other bodies; they flow into the Health Fund, which also receives the federal subsidy, paid from tax revenue.",
         "valence": "neutral",
         "source_id": "bmg-finanzierung-gkv",
         "locator": {
@@ -218,8 +218,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -235,14 +236,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "DEU-financing-008",
-        "statement": "For compulsorily insured members, contributions are levied on wages, statutory pensions, occupational and similar pensions, and self-employment income earned alongside a pension; voluntary members also pay on other income such as investment and rental income.",
+        "statement": "For compulsorily insured members, contributions are charged on employment earnings, statutory pensions, pension-type benefits such as occupational pensions, and self-employment income received alongside a statutory pension or such benefits; voluntary members also pay on other income, for example from investments or renting out property.",
         "valence": "neutral",
         "source_id": "bmg-finanzierung-gkv",
         "locator": {
@@ -253,8 +255,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -270,8 +273,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -288,14 +292,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "DEU-financing-011",
-        "statement": "The federal subsidy from taxes is paid as a lump sum for benefits not linked to contributions, such as free family cover for children and spouses and maternity benefits, and has been EUR 14.5 billion a year since 2017.",
+        "statement": "The annual federal subsidy, paid from tax revenue, is a lump sum for so-called non-insurance benefits, such as free family cover for children and spouses or maternity and pregnancy benefits; it has been EUR 14.5 billion since 2017.",
         "valence": "neutral",
         "source_id": "bmg-finanzierung-gkv",
         "locator": {
@@ -306,8 +311,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -323,13 +329,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-financing-013",
-        "statement": "For 2025 and 2026 the federal budget provides EUR 4 billion in extra subsidies, tied to hospital surcharges paid by the sickness funds, plus two loans of EUR 2.3 billion each that are to be repaid gradually from 2029.",
+        "statement": "For 2025 and 2026 together, the federal budget provides EUR 4 billion in extra subsidies to refinance surcharges that sickness funds pay on hospital bills for hospitals' immediate transformation costs, plus two loans of EUR 2.3 billion each (2025 and 2026) to be repaid in steps from 2029.",
         "valence": "neutral",
         "source_id": "bmg-finanzierung-gkv",
         "locator": {
@@ -340,13 +347,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-financing-014",
-        "statement": "The 2026 contribution-stabilisation law cuts the federal subsidy by EUR 1.35 billion in 2027 and EUR 1.55 billion a year from 2028, while permanently increasing the federal payment for the health care of people on basic income support, with the increase rising from EUR 1 billion in 2027 to EUR 2.75 billion from 2031.",
+        "statement": "The planned cut in the federal subsidy was scaled back from EUR 2 billion to EUR 1.35 billion for 2027 (EUR 1.55 billion from 2028), and the federal payment for the health care of people on basic income support rises permanently, by EUR 1 billion in 2027 and up to EUR 2.75 billion from 2031.",
         "valence": "neutral",
         "source_id": "bmg-bstabg-2026",
         "locator": {
@@ -357,13 +365,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "DEU-financing-015",
-        "statement": "The same law introduces from 2028 a 2.5% contribution surcharge for spouses or registered partners who are covered free of charge through a member, with exemptions for parents of children under 12 and for partners with care grade 3 to 5, a full disability pension, or basic income support for people unable to work.",
+        "statement": "From 2028 spouses or registered partners covered free through a member face a 2.5% contribution surcharge; parents of children under 12 are exempt, as are partners with care grade 3, 4 or 5, partners entitled to a pension for full reduction in earning capacity, and partners unable to work who receive basic income support.",
         "valence": "neutral",
         "source_id": "bmg-bstabg-2026",
         "locator": {
@@ -374,8 +383,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -391,8 +401,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -409,14 +420,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-financing-018",
-        "statement": "Of the EUR 286.8 billion financed by households in 2024, EUR 136.5 billion was employees' social insurance contributions and EUR 59.5 billion other payments, for example for outpatient and residential care or over-the-counter pharmacy products.",
+        "statement": "Of the EUR 286.8 billion financed by households, EUR 136.5 billion was employees' social insurance contributions and EUR 59.5 billion other domestic revenue, such as household spending on home and residential long-term care or on non-prescription pharmacy products.",
         "valence": "neutral",
         "source_id": "destatis-financing-2024",
         "locator": {
@@ -427,14 +439,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-financing-019",
-        "statement": "Employers' social insurance contributions made up 85.0% of businesses' EUR 164.5 billion financing of current health spending in 2024, or EUR 139.9 billion.",
+        "statement": "Employers' social insurance contributions made up 85.0% of businesses' EUR 164.5 billion financing of current health spending, or EUR 139.9 billion, up EUR 12.1 billion (9.5%) on the previous year.",
         "valence": "neutral",
         "source_id": "destatis-financing-2024",
         "locator": {
@@ -445,14 +458,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-financing-020",
-        "statement": "In 2024, 90.1% of the state's EUR 73.9 billion contribution went on transfers and subsidies, which include the annual federal subsidy to the Health Fund and the health care allowances (Beihilfe) paid by public employers.",
+        "statement": "The state spent 90.1% of its EUR 73.9 billion financing contribution on transfers and subsidies, which include the annual federal subsidy to the Health Fund and, for example, the health care allowances (Beihilfe) paid by public employers.",
         "valence": "neutral",
         "source_id": "destatis-financing-2024",
         "locator": {
@@ -463,8 +477,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -481,8 +496,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -499,14 +515,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "DEU-financing-023",
-        "statement": "In the Observatory's 2025 profile, the public share of health spending (86% in 2023) includes statutory insurance contributions, substitutive private insurance and tax subsidies as public sources.",
+        "statement": "In the Observatory's 2025 profile, public funding made up 86% of current health expenditure in 2023, and its public sources include statutory insurance contributions, substitutive private insurance, tax subsidies and other public channels.",
         "valence": "neutral",
         "source_id": "chp-deu-2025",
         "locator": {
@@ -517,14 +534,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "DEU-financing-024",
-        "statement": "Besides the federal subsidy, general taxes fund health purposes through federal and state budgets, and capital investment in hospitals comes from the states' budgets.",
+        "statement": "General tax revenue also funds various health purposes through budgets set at federal and state level, and capital investment in hospitals is paid from state budgets.",
         "valence": "neutral",
         "source_id": "hss-deu-2024",
         "locator": {
@@ -535,8 +553,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -552,8 +571,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -569,14 +589,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "DEU-financing-027",
-        "statement": "Employees who are privately insured because their pay exceeds the compulsory insurance threshold, or who are exempt from compulsory insurance, receive a contribution subsidy from their employer, capped at half of what they pay for their health insurance.",
+        "statement": "Employees who are free of compulsory insurance solely because their pay exceeds the annual earnings threshold, or for one other statutory reason, or who have been exempted from it, receive an employer subsidy if their private cover gives them and their dependants benefits of the same kind as statutory ones; it equals half the contribution rate under § 241 plus half the average supplementary rate, applied to the income that would count if they were compulsorily insured, but never more than half of what they pay for health insurance.",
         "valence": "neutral",
         "source_id": "sgbv-257",
         "locator": {
@@ -587,42 +608,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
-        }
-      },
-      {
-        "id": "DEU-financing-028",
-        "statement": "Income tax law lets taxpayers deduct as special expenses their contributions to statutory health insurance, the part of a private health premium that pays for benefits comparable to statutory benefits, and contributions to compulsory long-term care insurance.",
-        "valence": "neutral",
-        "source_id": "estg-10",
-        "locator": {
-          "section": "Full text",
-          "char_start": 3192,
-          "char_end": 4444,
-          "passage_sha256": "6c74c530e58611c9dba6624fa36e33ceb145c956053106db95dd67aa72afbc08"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
-        }
-      },
-      {
-        "id": "DEU-financing-029",
-        "statement": "Other insurance contributions share a deduction cap of EUR 2,800 a year (EUR 1,900 for people whose health costs are partly paid or reimbursed by others), but basic health and long-term care contributions above the cap are deducted in full, in which case the other contributions cannot be deducted.",
-        "valence": "neutral",
-        "source_id": "estg-10",
-        "locator": {
-          "section": "Full text",
-          "char_start": 21786,
-          "char_end": 22669,
-          "passage_sha256": "0ec015a8787db25cca7db8f498141f52eacfed4957a75368f350bf0a8fe1374f"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -638,8 +626,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -650,14 +639,15 @@
         "source_id": "pkv-zahlenbericht-2023",
         "locator": {
           "page": 3,
-          "char_start": 3118,
+          "char_start": 3059,
           "char_end": 3357,
-          "passage_sha256": "62e0f695bae00b98d60b1a9e21ab67bf8dbd1e7be67d609ef4864b6deb9de6fa"
+          "passage_sha256": "11438fc5083a31dda249991f109ee036a5312e2f7fd30337061d72023286d6b6"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -674,8 +664,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -1827,7 +1818,7 @@
       },
       {
         "id": "DEU-reforms-007",
-        "statement": "The 2026 contribution-stabilisation law raises statutory co-payment amounts and limits by 50% to reflect price and wage growth, with no further automatic indexation.",
+        "statement": "Statutory co-payment amounts and limits are to be adjusted to price and wage developments and raised by 50%, with no indexation planned after that.",
         "valence": "neutral",
         "source_id": "bmg-bstabg-2026",
         "locator": {
@@ -1838,9 +1829,29 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "DEU-reforms-008",
+        "statement": "The Bundestag passed the statutory health insurance contribution-stabilisation law on 10 July 2026; the ministry says that by curbing spending growth in all parts of the health system it spares insured people rising supplementary contributions and secures high-quality care for the coming years.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 213,
+          "char_end": 709,
+          "passage_sha256": "c757644c3dcf075f5eb4d440d5afc362f933720233c761677d708a560aceb6d2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
       }
     ],
     "us_lessons": [
@@ -2171,17 +2182,6 @@
       "accessed": "2026-11-11"
     },
     {
-      "id": "estg-10",
-      "title": "Einkommensteuergesetz (Income Tax Act), § 10 Sonderausgaben",
-      "publisher": "Federal Ministry of Justice (gesetze-im-internet.de)",
-      "tier": 3,
-      "type": "government",
-      "year": 2026,
-      "url": "https://www.gesetze-im-internet.de/estg/__10.html",
-      "accessed": "2026-11-11",
-      "funding_note": "Statute text as currently in force."
-    },
-    {
       "id": "sgbv-257",
       "title": "Sozialgesetzbuch V, § 257 Beitragszuschüsse für Beschäftigte",
       "publisher": "Federal Ministry of Justice (gesetze-im-internet.de)",
@@ -2266,6 +2266,10 @@
     {
       "date": "2026-11-11",
       "note": "Backfill DEU-r2: financial_hardship filled (Destatis 2025 over-indebtedness statistics, two cancer financial-toxicity studies, private insurers' emergency tariff); who-decides-coverage evidence added on the G-BA/AMNOG benefit assessment and the 2022 GKV-FinStG price rules; US spending comparison updated with 2021 data; claims on 2005-2016 income inequality and the 1990-2016 HAQ trend marked historical and reworded. In support review 5 statements were corrected (scope, year and setting details not in the anchored passage) and one data_year removed."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill DEU-r3: financing section brought up to the 'where the money comes from' standard: contribution rates, base, earnings ceiling and compulsory-insurance threshold for 2026; federal tax subsidy and its 2020-2026 top-ups and 2027 cut; Destatis 2024 financing by households, businesses and the state (SHA definitions stated); spending by payer; long-term care contribution; employer subsidy for privately insured employees; private insurers' premium income and ageing reserves; Beihilfe classification. Co-payment increase and passage of the 2026 contribution-stabilisation law added to reforms. Two support-review passes: 19 statements corrected, two tax-deduction claims dropped."
     }
   ]
 }

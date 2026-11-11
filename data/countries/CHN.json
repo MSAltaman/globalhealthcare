@@ -3,7 +3,7 @@
   "name": "China",
   "wave": 1,
   "system_as_of": "2026-11-10",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "social_health_insurance",
     "label": "Government-run social health insurance in two main schemes (compulsory for employees, voluntary and subsidised for other residents), with medical assistance for the poor"
@@ -260,7 +260,7 @@
       },
       {
         "id": "CHN-financing-003",
-        "statement": "Under Article 27 of the Social Insurance Law, members of the employee scheme who have paid contributions for the nationally required number of years by statutory retirement age pay no further premiums in retirement and keep their benefits; those short of the required years may keep paying until they reach it.",
+        "statement": "Under Article 27 of the Social Insurance Law, employee-scheme members whose total contributions reach the nationally required number of years by statutory retirement age stop paying premiums once retired and receive basic medical insurance benefits under national rules; members short of the required years may keep contributing until they reach it.",
         "valence": "neutral",
         "source_id": "sil-2018",
         "locator": {
@@ -271,13 +271,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "CHN-financing-004",
-        "statement": "The State Council's 2024 enrolment guideline asks that residents' scheme contributions be linked to economic development and to per-capita disposable income, keeping a reasonable balance between government subsidies and individual premiums.",
+        "statement": "The State Council's 2024 enrolment guideline calls for residents' scheme contributions to be tied to the level of economic and social development and to residents' per-capita disposable income, while keeping a reasonable ratio between government subsidies and individual premiums.",
         "valence": "neutral",
         "source_id": "sc-enrolment-2024",
         "locator": {
@@ -288,8 +289,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -625,8 +627,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -774,8 +777,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2018
       },
@@ -917,7 +921,7 @@
       },
       {
         "id": "CHN-access-003",
-        "statement": "A 2020 Lancet review noted that China did not require patients to see a primary care provider as their first point of contact; as a first step towards gatekeeping, the government had begun registering each resident with a family doctor team, a policy the review described as still at an early stage.",
+        "statement": "A 2020 Lancet review noted that China did not require patients to use a primary care provider as their first point of contact; as an initial step towards gatekeeping, the government had introduced a family doctor registration policy intended to sign up every resident with a family doctor team, which the review described as still at an early stage with its potential not yet realised.",
         "valence": "weakness",
         "source_id": "li-2020-phc",
         "locator": {
@@ -928,8 +932,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-11"
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -2428,6 +2433,10 @@
     {
       "date": "2026-11-10",
       "note": "Backfill: 36 claims added from NHSA 2024 and NHC 2025 statistical bulletins, the Social Insurance Law and the Basic Medical and Health Care Law, the 2024 State Council enrolment guideline, the World Bank/WHO Healthy China review and GBD 2019 HAQ; two cold support-review passes rewrote 24 statements; 5 drafted claims dropped."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill CHN-r2: replaced 5 claims resting on data older than 10 years (2015 APO review, 2015 household survey) with the Social Insurance Law (Arts. 27, 28), the 2024 State Council enrolment guideline, Li et al. 2020 and Shu et al. 2026 (CHARLS 2018); dropped 3 (2015 contribution rates, 2012 GP count already covered by CHN-access-005, and a second claim from the 2015 debt survey); APO 2015 review no longer cited and removed. Cold support review corrected 3 of 5 new statements."
     }
   ]
 }

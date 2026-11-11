@@ -140,6 +140,28 @@ countries in its prompt (default 3).
    claims and sources per country, statements dropped or corrected in review,
    blocked domains, and open questions for the reviewer.
 
+## Financing section: where the money comes from
+
+Every profile's `financing` section must let a reader see exactly who pays
+and how, comparable across countries. Cover each revenue source that funds
+health care, with its rate, base and who pays it, from official sources
+(finance or social security ministries, tax authorities, OECD, WHO):
+- **General taxation:** which taxes (income, VAT, earmarked taxes) and the
+  share of health funding they provide.
+- **Payroll / social insurance contributions:** rates for employers and
+  employees, income caps, and the share of health funding they provide.
+- **Earmarked social taxes** (e.g. France's CSG): rate and base.
+- **Premiums:** compulsory or voluntary private insurance; average premium
+  and who pays it.
+- **Tax subsidies for private insurance** (e.g. the US exclusion of employer
+  premiums from income tax, Australia's private health insurance rebate):
+  their cost, because they are government support not counted as government
+  spending.
+- **Out-of-pocket payments.**
+Statistical bodies classify the same money differently (OECD counts US
+employer insurance as compulsory since the ACA; WHO does not). State which
+definition each figure uses.
+
 ## Rankings
 
 Record every published cross-country ranking that states the country's

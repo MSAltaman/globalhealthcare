@@ -1,0 +1,2209 @@
+{
+  "iso3": "CHE",
+  "name": "Switzerland",
+  "wave": 2,
+  "system_as_of": "2026-11-12",
+  "status": "verified",
+  "model": {
+    "type": "regulated_private_insurance",
+    "label": "Mandatory, community-rated basic health insurance (OKP/LAMal) bought from competing private non-profit insurers, with income-tested premium subsidies from the cantons and federal government, and cantonal co-funding of hospital care"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CHE-overview-001",
+      "CHE-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CHE-overview-001",
+        "statement": "Since 1996, Swiss residents have been obliged to buy mandatory health insurance (MHI) from one of several competing insurers, and insurers must take every applicant whatever their individual risk.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 12203,
+          "char_end": 12449,
+          "passage_sha256": "3510cb96d764331e7d0de87df5e422c1cc5366d12d3044c08457c106966602d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-overview-002",
+        "statement": "The current system rests on the Federal Health Insurance Act (KVG) of 1994, in force since 1996, which brought near-universal compulsory coverage, a standard benefit package, community-rated premiums and income-based subsidies, and obliged insurers to accept all applicants.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Coverage and Access: Background and History",
+          "char_start": 4691,
+          "char_end": 5042,
+          "passage_sha256": "7e1c0f6db061c2d80041d6fdefb26179f90cde8508ad8972a4f154dbff2d7a52"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-overview-003",
+        "statement": "Every resident must take out basic insurance (OKP) within three months of birth or of arriving in Switzerland; the obligation also covers undocumented migrants, and those who cannot pay depend on non-governmental organizations for care, according to the Commonwealth Fund profile.",
+        "valence": "weakness",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5974,
+          "char_end": 6239,
+          "passage_sha256": "ac239fbe3c924c1c26a5bfa86a48a24d9ad5c235d085cc0649303a2fbeddb2d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-overview-004",
+        "statement": "According to the Commonwealth Fund profile, the whole population (100%) was covered by basic insurance (OKP) in 2023.",
+        "valence": "strength",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5909,
+          "char_end": 5970,
+          "passage_sha256": "df2374ff9f9ec8d84b6f080ea0d7ba2e0bbcc51c4dbc3019d6f57763861bf2b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHE-overview-005",
+        "statement": "Although sold by private insurers, basic insurance (OKP) is tightly regulated, has a standard benefit package and is publicly subsidized, so the Commonwealth Fund treats it as Switzerland's public insurance model.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5337,
+          "char_end": 5770,
+          "passage_sha256": "865270b8aebaff3cf02c8ee89c7ed2dc000514cbda189ab3ba4152929051b44c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-overview-006",
+        "statement": "Switzerland's federal structure gives the cantons significant autonomy, which lets them tailor health care provision, financing, prevention and health promotion, though they increasingly stress cooperation between cantons.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 10398,
+          "char_end": 10729,
+          "passage_sha256": "10279ad92e0c628c8dd7f001a43426fbf2a2e142376b640e01dbddd1a47dfd1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-overview-007",
+        "statement": "Through direct democracy, voters can shape health policy by popular initiatives and referendums, for example on curbing health spending growth, presumed consent for organ donation and COVID-19 rules.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 11483,
+          "char_end": 11788,
+          "passage_sha256": "aa08b42aff5b3b2a02986a8eb041a02b95f8ca5d4a7bd06f4404af97054c4864"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "CHE-financing-001",
+        "statement": "Basic insurance premiums are community-rated rather than tied to income; to help low-income households, the cantons pay premium subsidies.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 12450,
+          "char_end": 12634,
+          "passage_sha256": "820ec28ac0ae47a264fb883d29c6513dd398408623e4ece395fa132299a3773c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financing-002",
+        "statement": "Swiss health care cost CHF 97 billion in 2024, over 4% more than in 2023, according to the Federal Statistical Office.",
+        "valence": "neutral",
+        "source_id": "bfs-costs-2024",
+        "locator": {
+          "section": "Press release, lead",
+          "char_start": 160,
+          "char_end": 286,
+          "passage_sha256": "bd2180bc75e4d6a2def0974cc0085684fb6a9d3c57a977430db7513cb09071e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHE-financing-003",
+        "statement": "Private households are the main financers of Swiss health care: in 2024 they paid 21.3% of health costs out of pocket and 40.7% indirectly, mainly through health insurance premiums; most of the remaining 31.3% was covered by the public sector, chiefly the cantons (Federal Statistical Office).",
+        "valence": "neutral",
+        "source_id": "bfs-costs-2024",
+        "locator": {
+          "section": "Die Haushalte tragen den Grossteil der Gesundheitskosten",
+          "char_start": 2711,
+          "char_end": 3067,
+          "passage_sha256": "201285aa539522cc16df03043bfe051981d1a933724555293c105073b0ec4833"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHE-financing-004",
+        "statement": "Between 2023 and 2024, health spending by households rose 5.8% and by the state 5.7%, while companies' social insurance contributions to health fell 3.1% (Federal Statistical Office).",
+        "valence": "neutral",
+        "source_id": "bfs-costs-2024",
+        "locator": {
+          "section": "Die Haushalte tragen den Grossteil der Gesundheitskosten",
+          "char_start": 3068,
+          "char_end": 3258,
+          "passage_sha256": "c9e859536772ba2febf348c3d197b70e4483344bb8dd66343515853175109032"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "CHE-financing-005",
+        "statement": "Public sources, mostly federal and cantonal tax revenue, funded only 36.2% of Swiss current health spending in 2021, against an EU average of 76.7%.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 9,
+          "char_start": 17090,
+          "char_end": 17275,
+          "passage_sha256": "ab37878e948874d12f2e269d0e3f9c7b7957d64b4f9fae302484e2ab8d196e13"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-financing-006",
+        "statement": "In 2021, public sources funded 36.2% and mandatory insurance premiums a further 34.5% of current health spending; together these compulsory sources came to about 68.7%, below the EU average of 78.3%.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 9,
+          "char_start": 17090,
+          "char_end": 17583,
+          "passage_sha256": "c0bd4def1353bcf48e25c8e61815945e4d3c1714155bfc71e9aa14e0d2b406a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-financing-007",
+        "statement": "Public spending on health equalled 4.3% of GDP in 2021, well below the EU average of 7.1%.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 9,
+          "char_start": 17985,
+          "char_end": 18103,
+          "passage_sha256": "24707dc326987b93ff0119440e64c614362d919b425b36feffad3001db985cda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-financing-008",
+        "statement": "Counting mandatory insurance premiums together with public spending, these financing schemes equalled 8.1% of GDP in 2021, above the EU average of 7.2%.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 9,
+          "char_start": 18255,
+          "char_end": 18412,
+          "passage_sha256": "b02de48798d7249ca80e5c1810ce971543ab5bc33588afeb4c5fd6c8a2ed2fb4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-financing-009",
+        "statement": "In 2023, total Swiss health costs were CHF 95 billion, of which about CHF 52 billion were services covered by basic insurance (OKP); about CHF 36 billion of those were paid for by insured people's premiums.",
+        "valence": "neutral",
+        "source_id": "foph-benefits-report",
+        "locator": {
+          "section": "Bilanz zur Überprüfung des Leistungskatalogs",
+          "char_start": 1493,
+          "char_end": 1993,
+          "passage_sha256": "21451b7cc51ce10272c4e51cb907fab5ee4bcc1f3917245f48e59c9d47091fbd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHE-financing-010",
+        "statement": "The share of total health costs paid by premiums rose from just under 30% when the KVG took effect in 1996 to just under 38% in 2023.",
+        "valence": "weakness",
+        "source_id": "foph-benefits-report",
+        "locator": {
+          "section": "Bilanz zur Überprüfung des Leistungskatalogs",
+          "char_start": 1994,
+          "char_end": 2165,
+          "passage_sha256": "8d443fa99727c7723cc048118c8fd57997f37a9133ed9a279c730eec22f83859"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "1996-2023"
+      },
+      {
+        "id": "CHE-financing-011",
+        "statement": "The average basic insurance premium for 2027 is CHF 412 a month, 5.0% (CHF 19.70) more than in 2026.",
+        "valence": "neutral",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Press release, lead",
+          "char_start": 283,
+          "char_end": 451,
+          "passage_sha256": "51713c06de790d4ff165f98a00b001da065e312eae90385d73ca94de724c8b88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2027
+      },
+      {
+        "id": "CHE-financing-012",
+        "statement": "For 2027 the average monthly premium rises to CHF 487.60 for adults (+4.9%), CHF 338.80 for young adults (+4.8%) and CHF 128.10 for children (+4.6%).",
+        "valence": "neutral",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Press release",
+          "char_start": 972,
+          "char_end": 1272,
+          "passage_sha256": "8568ac55b0aefca9d02e541d483f4999e505751696cd8154e7b50742649a6782"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2027
+      },
+      {
+        "id": "CHE-financing-013",
+        "statement": "The FOPH's average premium is all premiums paid in Switzerland divided by the number of insured; what a person actually pays depends on, among other things, where they live, their age, the deductible chosen, the insurer and the insurance model.",
+        "valence": "neutral",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Press release",
+          "char_start": 1273,
+          "char_end": 1610,
+          "passage_sha256": "3218964323c1a00090c3c667f9b74bcd0b63899535a1de7e5bd37feeb17f11ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financing-014",
+        "statement": "Premiums must cover the expected costs for each insurer in each canton, so rising basic insurance costs feed directly into higher premiums.",
+        "valence": "neutral",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Eine Folge des Kostenanstiegs",
+          "char_start": 1879,
+          "char_end": 2119,
+          "passage_sha256": "2f3dc2302313de1b501ca92233308b548f553fec3b6664efd111d63ffe2c1135"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financing-015",
+        "statement": "As a social counterweight to flat per-person premiums, the KVG requires cantons to reduce premiums for insured people of modest means, and for lower- and middle-income families to cut children's premiums by at least 80% and those of young adults in education by at least 50%.",
+        "valence": "strength",
+        "source_id": "foph-ipv-2026",
+        "locator": {
+          "section": "Grundsätze der Prämienverbilligung",
+          "page": 1,
+          "char_start": 626,
+          "char_end": 1033,
+          "passage_sha256": "30556c5f9d76fda248a56e0509930463aaa6ddfb3f4730a5816cfa9aed9e6e5f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financing-016",
+        "statement": "Premium reductions are funded jointly by the federal government and the cantons; since 2008 the federal contribution has equalled 7.5% of the gross costs of basic insurance, shared among cantons by resident population, and the cantons add their own funds.",
+        "valence": "neutral",
+        "source_id": "foph-ipv-2026",
+        "locator": {
+          "section": "Grundsätze der Prämienverbilligung",
+          "page": 1,
+          "char_start": 1148,
+          "char_end": 1615,
+          "passage_sha256": "144fb5e7bb90925e4aedd424b0bfcf09b551c18c5ae4e914fdc007aecca1d9e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financing-017",
+        "statement": "About CHF 6.6 billion in premium reductions were paid out in 2024, just over half of it (CHF 3.3 billion, 50.6%) from the federal government.",
+        "valence": "neutral",
+        "source_id": "foph-ipv-2026",
+        "locator": {
+          "section": "Leistungen Bund und Kantone",
+          "page": 1,
+          "char_start": 2342,
+          "char_end": 2534,
+          "passage_sha256": "8900e46424b7085cefaa7c2a83a561d2e00c31e2c0cf9656775324f0bf13cf6f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHE-financing-018",
+        "statement": "Under current rules the cantons pay at least 55% of the cost of inpatient hospital care and premiums at most 45%; outpatient care is paid entirely from premiums; and for nursing care basic insurance and patients each contribute, with the cantons covering the rest.",
+        "valence": "neutral",
+        "source_id": "foph-efas",
+        "locator": {
+          "section": "Ausgangslage",
+          "char_start": 1087,
+          "char_end": 1472,
+          "passage_sha256": "d3907a3725cfe516535f667958c5bc1eda5fd6186e03596004aac21d55f166bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "CHE-covered-001",
+        "statement": "The basic benefit package is set by federal law and covers a broad range of services, including GP and specialist consultations, inpatient care and some services from other health professionals when a physician refers the patient.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 12970,
+          "char_end": 13212,
+          "passage_sha256": "72c42ed028b7cf9ff4b566adb40cecdfc4f0c11f3f84455042d7b1270540c071"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-covered-002",
+        "statement": "Coverage gaps remain in the basic package, for example limited cover for dental care and vision aids.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 13213,
+          "char_end": 13302,
+          "passage_sha256": "cf90cd2080ff805c2279e42e6c6d73df2f40494f7f40dc790bb0222331663253"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-covered-003",
+        "statement": "Dental care is paid mostly out of pocket: in 2021, 78% of health spending on dental care came from out-of-pocket payments.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 11,
+          "char_start": 24410,
+          "char_end": 24557,
+          "passage_sha256": "1d05a658c3a700a5f121c2463695a1d1df7c7da42902ac179d1bcf7b4718a07b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-covered-004",
+        "statement": "Psychotherapy is covered by basic insurance, but reimbursement often requires a medical prescription or referral, and the supply of therapists differs considerably by canton, region and language area.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 18420,
+          "char_end": 18627,
+          "passage_sha256": "66a5782b7e4d30375f266824a1a0ee95c3a076e7c8e790e3f3ceea77e92239b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-covered-005",
+        "statement": "By law, every covered service must be reviewed regularly against the criteria of effectiveness, appropriateness and cost-effectiveness (WZW); a service that no longer meets them is no longer reimbursed by basic insurance.",
+        "valence": "neutral",
+        "source_id": "foph-benefits-report",
+        "locator": {
+          "section": "Bilanz zur Überprüfung des Leistungskatalogs",
+          "char_start": 3069,
+          "char_end": 3312,
+          "passage_sha256": "8de7135507500aa45e193058899d17cf270fc285fcd07b82cd5797358d7c6a2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-covered-006",
+        "statement": "In the federal health technology assessment (HTA) programme, federal expert commissions appraise each HTA report and make a recommendation; the Federal Department of Home Affairs, or the FOPH for medicines, then decides whether to keep, restrict or remove coverage, and the decision is published.",
+        "valence": "neutral",
+        "source_id": "foph-hta",
+        "locator": {
+          "section": "Bewertung (Appraisal); Beschluss (Decision)",
+          "char_start": 3141,
+          "char_end": 3508,
+          "passage_sha256": "9b8bf098691bb61512da4c0092348149493a2286b520844368ac3280bbc17334"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-covered-007",
+        "statement": "The Federal Council's report says a wholesale shift of services that fall under the KVG and meet the WZW criteria into supplementary insurance would create two-tier medicine, and the Federal Council does not consider such a shift expedient.",
+        "valence": "neutral",
+        "source_id": "foph-benefits-report",
+        "locator": {
+          "section": "Bilanz zur Überprüfung des Leistungskatalogs",
+          "char_start": 3313,
+          "char_end": 3561,
+          "passage_sha256": "1d4578d487564cb830a03af83a3cf30b876f33b6935577086a0baefd0f25a9d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CHE-cost_sharing-001",
+        "statement": "Adults choose an annual deductible within a legal range: the minimum is CHF 300, with optional higher levels of CHF 500, 1,000, 1,500, 2,000 or 2,500. Above the deductible patients pay 10% co-payment up to CHF 700 a year.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 13968,
+          "char_end": 14246,
+          "passage_sha256": "791a222a02ec21ceed93eaa4824df489104d4965047e66ea2c054b2d68ca011d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-cost_sharing-002",
+        "statement": "A higher deductible buys a lower premium, but the European Observatory notes these charges can create financial barriers and gaps in access to needed care, especially for people with lower incomes or chronic conditions.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 14247,
+          "char_end": 14504,
+          "passage_sha256": "7d366eaffddc1db1d297fcd08e250c15a6f651a553a4fe91c53ce7d16da856c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-cost_sharing-003",
+        "statement": "Children under 18 do not pay the deductible; the 10% coinsurance on costs above the deductible is capped at CHF 700 a year for adults and CHF 350 for children.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 22393,
+          "char_end": 22639,
+          "passage_sha256": "97d2030dffebc50e761b46593101455064bb6fe5b9bd2065d7bf1cfd614153bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-cost_sharing-004",
+        "statement": "A hospital contribution of CHF 15 per day applies with no time limit, with exemptions for children, young adults in education and maternity-related stays.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 22643,
+          "char_end": 22828,
+          "passage_sha256": "a3a40cd50c845d1de702c202a01c3409f6cb396127f14c787b19b1f176d4d4a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-cost_sharing-005",
+        "statement": "Women pay no deductible or coinsurance for prenatal, childbirth and postnatal care.",
+        "valence": "strength",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 7573,
+          "char_end": 7689,
+          "passage_sha256": "1b9d80e646da733ee22b0fb318c86992506ae7e9bc86db55b0b33f1a175858b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-cost_sharing-006",
+        "statement": "To steer patients to cheaper medicines, the co-payment on an originator or reference drug can be as high as 40% when a lower-cost generic or biosimilar exists; the measures are expected to save CHF 250 million a year, though there are worries about affordability for patients.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 21532,
+          "char_end": 21857,
+          "passage_sha256": "17cc2796a6d90b718ef2b9c4b16b8e98e095f006ae20122289e06201c6ae18fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-cost_sharing-007",
+        "statement": "Out-of-pocket payments made up 23% of current health spending in 2021, above the EU average of 19%.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 20353,
+          "char_end": 20475,
+          "passage_sha256": "60340624d298aa3a45466037f55fedc97527147e21151049a7cef30cf71f3444"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-cost_sharing-008",
+        "statement": "Between 2000 and 2021, out-of-pocket payments per person grew faster than GDP (3.1% against 1.1%), even though their share of spending fell for much of that period.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 20476,
+          "char_end": 20762,
+          "passage_sha256": "23964a05d4f901fde8728ab80183e19af2d2abcf9b9307d48289d739ffe46148"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2000-2021"
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "CHE-financial_hardship-001",
+        "statement": "In 2022, the most common payment arrears were on taxes and on health insurance premiums, affecting 5.5% and 4.4% of the population respectively (Federal Statistical Office).",
+        "valence": "weakness",
+        "source_id": "bfs-silc-debt-2022",
+        "locator": {
+          "section": "5,5% de la population vit dans un ménage ayant au moins un arriéré d'impôt",
+          "page": 1,
+          "char_start": 1995,
+          "char_end": 2170,
+          "passage_sha256": "4eeb9664f6d1614f11907ad722586c9dd26b1d5e4d0ef634b909333a5bb9cf98"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHE-financial_hardship-002",
+        "statement": "In the Federal Statistical Office's survey, arrears are bills that could not be paid on time for financial reasons; health insurance premiums are one of the categories counted, alongside rent, utilities, credit repayments, taxes and others.",
+        "valence": "neutral",
+        "source_id": "bfs-silc-debt-2022",
+        "locator": {
+          "section": "5,5% de la population vit dans un ménage ayant au moins un arriéré d'impôt",
+          "page": 1,
+          "char_start": 1552,
+          "char_end": 1994,
+          "passage_sha256": "644cd37cd1c2d083daaa8361248d3dc7c8b35c0d10836289c39f8961779d0ce2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHE-financial_hardship-003",
+        "statement": "If an insured person does not pay premiums or cost-sharing, they first receive a reminder, then a demand for payment, and finally debt enforcement proceedings (Betreibung) are opened against them.",
+        "valence": "neutral",
+        "source_id": "foph-premium-arrears",
+        "locator": {
+          "section": "Nichtbezahlung der Prämien",
+          "char_start": 76,
+          "char_end": 286,
+          "passage_sha256": "0d134887fc9daa199a72b70367a94bd3447e81894fce3ae425e7454120763d19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financial_hardship-004",
+        "statement": "The canton takes over 85% of the claims that have led to a certificate of unpaid debt (Verlustschein) or an equivalent legal title.",
+        "valence": "neutral",
+        "source_id": "foph-premium-arrears",
+        "locator": {
+          "section": "Übernahme der ausstehenden Prämien und Kostenbeteiligungen durch die Kantone",
+          "char_start": 712,
+          "char_end": 849,
+          "passage_sha256": "f063f33ee8475169e32733e4d99879ab844da038de0fc3cab776e20377ecc21e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-financial_hardship-005",
+        "statement": "Cantons may put people who still do not pay their premiums despite debt enforcement on a list; insurers then suspend paying for their care, except emergency treatment.",
+        "valence": "weakness",
+        "source_id": "foph-premium-arrears",
+        "locator": {
+          "section": "Kantonale Liste der Versicherten, die ihre Prämien nicht zahlen",
+          "char_start": 950,
+          "char_end": 1235,
+          "passage_sha256": "de1142063aa333753cd0959c960d13ede9d320d322d4c4711bb3bd8e429655fc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "CHE-additional_care-001",
+        "statement": "Voluntary health insurance can top up basic cover, for example for a semi-private or private hospital ward or dental care; its premiums are usually risk-rated and it is sold by for-profit companies.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 13303,
+          "char_end": 13528,
+          "passage_sha256": "92b54e32740e618ed611d571bc2327aac2056a4185a026890a05d61508f94687"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-additional_care-002",
+        "statement": "According to the Commonwealth Fund profile, 28% of people voluntarily buy supplementary private insurance, which covers things outside basic insurance such as dental care, alternative medicine, private or semi-private hospital rooms and care abroad.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 7823,
+          "char_end": 8129,
+          "passage_sha256": "38264f6afb888850ca390ca4b6f9c8ccc5118b0fa93e8620cee6bb38f2f7ca09"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-additional_care-003",
+        "statement": "Supplementary insurance is not bound by the rules for universal access: insurers can turn applicants down and set premiums by health status, age and sex.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 8133,
+          "char_end": 8301,
+          "passage_sha256": "fa0ae3303407a58bdaa3052c60c018f7f74bd5ac21d34aa1e1dc52fd5cf813fd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-additional_care-004",
+        "statement": "Voluntary health insurance paid for 6.6% of current health spending in 2021, much more than the EU average of 3.7%.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 20763,
+          "char_end": 20874,
+          "passage_sha256": "1ea872b52e2ccd673183b818c8011d91de0a088bd70fe35dae3ef14ba437de1b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "access": [
+      {
+        "id": "CHE-access-001",
+        "statement": "Patients can generally choose their doctors and hospitals and see them without a referral.",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 29091,
+          "char_end": 29225,
+          "passage_sha256": "52240cce063d731d667d15e432d590b23634c8a6f8ad51cc614693b9aa6e095a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-access-002",
+        "statement": "In 2021, 76% of insured people were in alternative insurance plans that restrict their choice of provider, such as HMO models.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 29413,
+          "char_end": 29554,
+          "passage_sha256": "53c0938d44c90f0ddaa96565b70f43d2a3e98a20762082fcc2e0bb806be6e087"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-access-003",
+        "statement": "The standard basic plan allows direct access to specialists, but about 70% of people choose cheaper plans that require seeing a primary care provider first.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 13988,
+          "char_end": 14238,
+          "passage_sha256": "a59fdfd76a6ef880104c6294be844c28fe9621d3657fb12de9fb0829c0188189"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-access-004",
+        "statement": "Switzerland had 444 physicians per 100,000 people in 2021, above the averages for the WHO European Region (389) and the EU (412).",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 27080,
+          "char_end": 27245,
+          "passage_sha256": "6777c7baa88ad782090f2fabeb330400d9cfec6e08f9dea28ad1833783ec2172"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-access-005",
+        "statement": "Nurse density, at 1,842 per 100,000 people in 2021, is among the highest in the WHO European Region, far above the regional (803) and EU (838) averages.",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 27246,
+          "char_end": 27529,
+          "passage_sha256": "4f06cfcaae9396a8028b229991be3b7b2f51cf215180ed0f658c8413e9c1158e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-access-006",
+        "statement": "The nurse figures are high partly because they count nursing-related staff trained at secondary level, who do not have the competencies or scope of practice of tertiary-trained nurses.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 27676,
+          "char_end": 28069,
+          "passage_sha256": "d36af411867801890d37605f873925265001bac8836ad195065cb97e0231c2bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-access-007",
+        "statement": "Switzerland had 444 hospital beds per 100,000 people in 2021, below the WHO European Region average of 470 and nearly a third fewer than the 629 of 2000.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 11,
+          "char_start": 24973,
+          "char_end": 25316,
+          "passage_sha256": "5bf4534771a1740554b11bc5cc84432d04f4fdf24a54e451d50f53992690d7df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CHE-outcomes-001",
+        "statement": "Life expectancy at birth was 83.7 years in 2022, far above the WHO European Region average (78.2) and higher than in France (82.3), Italy (82.8) and Germany (80.7).",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "4 Improving the health of the population",
+          "page": 14,
+          "char_start": 36026,
+          "char_end": 36315,
+          "passage_sha256": "63dff00a311166a6c3c9daf8efb7c3783382332bf32bcc07a408e6ee11511e74"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHE-outcomes-002",
+        "statement": "COVID-19 excess mortality was estimated at 102 per 100,000 people in 2020, 26% below the WHO European Region average, and fell to 42 in 2021 while the regional figure rose to 207.",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "4 Improving the health of the population",
+          "page": 15,
+          "char_start": 39483,
+          "char_end": 39808,
+          "passage_sha256": "29d9de20cadfe50a21a0558d81dd7d0059ee8fce1a4ca21af0a4db1a47b73958"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2020-2021"
+      },
+      {
+        "id": "CHE-outcomes-003",
+        "statement": "In the GBD 2019 study, Switzerland's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 92.6 (95% uncertainty interval 90.1-94.3) in 2019, 14.2 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 46621,
+          "char_end": 46790,
+          "passage_sha256": "c0e1bac605cf0569cad3967f5b6ea7d0faf8f355483d8bdea5da5ab76ebc9f7f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CHE-outcomes-004",
+        "statement": "Among the UHC sub-indices, Switzerland scored 97% on service capacity and access, 93% on reproductive, maternal, newborn and child health and 92% on infectious disease treatment, but 67% on service coverage for noncommunicable diseases (2021).",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 14,
+          "char_start": 35322,
+          "char_end": 35659,
+          "passage_sha256": "198f638ebcaf2017abbee2e7718bdd85911b21f06375746ed26b5a23b93961dd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-outcomes-005",
+        "statement": "Infant mortality was 3.8 deaths per 1,000 live births in 2022, higher than in neighbouring countries and than in earlier years, when it ranged from 3.1 to 3.6.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "4 Improving the health of the population",
+          "page": 16,
+          "char_start": 41339,
+          "char_end": 41589,
+          "passage_sha256": "e47982e10f28a6fb5c6e7e6bb575466a75b86f7171446ae13f3be1cb9aabdc6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "costs": [
+      {
+        "id": "CHE-costs-001",
+        "statement": "In 2021, health spending was US$8,998 per person (PPP), the second highest in the world after the United States (US$12,012) and nearly twice the EU average (US$4,733).",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 9,
+          "char_start": 16238,
+          "char_end": 16468,
+          "passage_sha256": "95b41e28dc1363d42a74c0d1264debc4f8ecfaea27fefc72334ee690498dda5c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-costs-002",
+        "statement": "Health spending equalled 11.8% of GDP in 2021, a lower share than in Germany (12.9%), the UK (12.4%), France (12.3%) and Austria (12.1%) and well below the United States (17.4%).",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 9,
+          "char_start": 16566,
+          "char_end": 16837,
+          "passage_sha256": "5c97761cc216041722a760bba710e37e394db4c219f4f20f8a7d61d7937123e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-costs-003",
+        "statement": "Health costs were CHF 10,792 per person nationally in 2024, ranging from CHF 13,709 in Basel-Stadt to CHF 8,671 in Uri, 37% less.",
+        "valence": "neutral",
+        "source_id": "bfs-costs-2024",
+        "locator": {
+          "section": "Grosse kantonale Unterschiede",
+          "char_start": 2172,
+          "char_end": 2460,
+          "passage_sha256": "2d20db3a8716dc96b5104dd302c66539c52aa0e0f5c53d7f1ed1c54a094cc4bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHE-costs-004",
+        "statement": "Basic insurance (OKP) costs per insured person rose from CHF 1,723 in 1996 to CHF 4,482 in 2023.",
+        "valence": "weakness",
+        "source_id": "foph-benefits-report",
+        "locator": {
+          "section": "Bilanz zur Überprüfung des Leistungskatalogs",
+          "char_start": 2166,
+          "char_end": 2279,
+          "passage_sha256": "fd5752f6edf49cee587a18fc5479dce67c98df461457e68ccfd1ea0a0c0662e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "1996-2023"
+      },
+      {
+        "id": "CHE-costs-005",
+        "statement": "Basic insurance (OKP) costs, which premiums must cover, rose 5.3% in 2025, again a strong increase compared with the average since the KVG came into force.",
+        "valence": "weakness",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Eine Folge des Kostenanstiegs",
+          "char_start": 1879,
+          "char_end": 2296,
+          "passage_sha256": "87df607ab782d8aec5a7d8486111cef242430b888f03cd257364f8fefa2f57a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHE-costs-006",
+        "statement": "In 2021, long-term care took 20.6% of health spending, significantly above the EU average (10.9%), while medical goods took 14.3%, below the EU average (19.4%).",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 20993,
+          "char_end": 21363,
+          "passage_sha256": "1961981f28e7781ef04c5dbd4520c096872cf0d5a480e7cdddf82a923e7302c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-costs-007",
+        "statement": "Only 2.8% of current health spending went to preventive care in 2021, against an EU average of 5.1%.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 21364,
+          "char_end": 21520,
+          "passage_sha256": "a3cfbf8180a319f00c82d2b8866640603717d7623297e7283d348656ccdd9b5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-costs-008",
+        "statement": "A study cited by the European Observatory estimated the efficiency potential of services covered by mandatory insurance at 16-19% of its costs.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "Box 1",
+          "page": 10,
+          "char_start": 19249,
+          "char_end": 19383,
+          "passage_sha256": "5883942b2f1966e43fd74cde2b6bbcefca526cbe0aefe78fceb0a3bd88e8d696"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-costs-009",
+        "statement": "Using claims data from Switzerland's largest insurer, a study found that adults who chose a CHF 500 or a CHF 2,500 deductible had 11% and 27% lower health spending, respectively, than comparable adults with the CHF 300 minimum; the effects were larger for outpatient care and drugs.",
+        "valence": "neutral",
+        "source_id": "bmc-deductibles-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2176,
+          "char_end": 2715,
+          "passage_sha256": "36f83eb3ca97671367522f2cba4be469863e0d3fb81541a2117b27de0c3d89fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-costs-010",
+        "statement": "Mirror, Mirror 2024 reports Swiss health spending at 11.7% of GDP (2022 data), against 16.5% in the United States (2022 data).",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "figure": "Exhibit 3 - Health Care Spending",
+          "page": 3,
+          "char_start": 1910,
+          "char_end": 2335,
+          "passage_sha256": "e2e896383173c6683d4e48daa108e6b043fd65edc9c66494a4a8e160d7f5779a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CHE-what_works-001",
+        "statement": "Switzerland has consistently had the lowest premature mortality in Europe from the four major noncommunicable diseases (ages 30-69), at around 260 deaths per 100,000 in the early 2000s and falling since.",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "4 Improving the health of the population",
+          "page": 17,
+          "char_start": 44924,
+          "char_end": 45259,
+          "passage_sha256": "4592ef96a471cc2dc932fc3b7966c5fa995558d53856ebc75a970f5f7177e179"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-what_works-002",
+        "statement": "Few people report going without a medical examination because of cost: 0.8% in 2022, below the EU average of 1.1%, though 1.3% among low-income groups against 0% among high-income groups.",
+        "valence": "strength",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 22224,
+          "char_end": 22546,
+          "passage_sha256": "9dd1fd167dcd8e92ab95f43b2cf3e9ca476a19bf31d44dade0b971f2516bc218"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHE-what_works-003",
+        "statement": "In Mirror, Mirror 2024, Switzerland was among the three best performers on health outcomes (life expectancy, excess deaths in the pandemic and avoidable deaths), with Australia and New Zealand.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 20697,
+          "char_end": 20975,
+          "passage_sha256": "cd7a8b33d16b99fdc0c7e397d7c9b06d818f2546339a088a476b8c186ae418b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-what_works-004",
+        "statement": "When Mirror, Mirror 2024 widened its equity measure to cover geography and gender, Switzerland ranked first, because of very small differences between rural and other areas and between men and women.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Equity",
+          "char_start": 19631,
+          "char_end": 20122,
+          "passage_sha256": "9da58dc59675de288714e9ad9020f3ef6f5f4ab8487d1598bafe2129cb293557"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-what_works-005",
+        "statement": "The Federal Council's report finds that the HTA programme pays off: by no longer reimbursing ineffective services, it now saves CHF 150 million a year.",
+        "valence": "strength",
+        "source_id": "foph-benefits-report",
+        "locator": {
+          "section": "Bilanz des HTA-Programms des Bundes",
+          "char_start": 4421,
+          "char_end": 4758,
+          "passage_sha256": "01c4649bfbe3214034d113f2600a63791825a72b3a2f8ecbd3a1a8d841fc084f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHE-what_works-006",
+        "statement": "The FOPH says that by reviewing covered services, regularly reviewing drug prices and checking tariff structures and contracts, the Department of Home Affairs and the FOPH saved more than CHF 2 billion in total over the past ten years.",
+        "valence": "strength",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Kostendämpfungsmassnahmen sind und bleiben zentral",
+          "char_start": 3643,
+          "char_end": 4046,
+          "passage_sha256": "04909418f2d69fd1650d27aea771fe60fb86a23aa7466ef8b3097afedae3bdef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2016-2026"
+      }
+    ],
+    "problems": [
+      {
+        "id": "CHE-problems-001",
+        "statement": "The European Observatory finds that Switzerland's multilevel governance also causes inefficiency, fragmentation and slow progress on health reforms.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 9606,
+          "char_end": 9759,
+          "passage_sha256": "d5febaddfe8ddc42f7b759cc61b2213e0dd42b56c0b12e951d699e2a88ce17c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-002",
+        "statement": "Coverage gaps remain for people between jobs or who do not know they are entitled to cantonal premium subsidies, which can cause temporary lapses; take-up of subsidies by eligible people is not monitored systematically in all cantons.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "1 Organizing the health system",
+          "page": 8,
+          "char_start": 12635,
+          "char_end": 12969,
+          "passage_sha256": "7bfb2d426726b002074cc553cdb3a14300233450781d043dd72e79ae84b68099"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-003",
+        "statement": "The FOPH says today's differing financing rules by area of care create perverse incentives: insurers have less incentive to promote cost-saving shifts from inpatient to outpatient care; where the shift happens anyway the premium-funded share rises, so the tax-funded share has fallen steadily in recent years and premiums have grown faster than total costs of KVG services.",
+        "valence": "weakness",
+        "source_id": "foph-efas",
+        "locator": {
+          "section": "Ausgangslage",
+          "char_start": 1473,
+          "char_end": 2007,
+          "passage_sha256": "83e6cf6646a1b30b1652e041dc242b8725eec89a569dcd8329ffb0205d0804c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-004",
+        "statement": "In Geneva, an annual population survey found the share of people forgoing health care for financial reasons rose from 15.8% in 2011 to 25.8% in 2025, while premiums rose 61.9%; across all years 18.1% reported forgoing care.",
+        "valence": "weakness",
+        "source_id": "ijph-geneva-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1558,
+          "char_end": 2443,
+          "passage_sha256": "ea34bbf4a67c94f869375ee3ea874e58f0b1ac2ba4d87f430e9c3d729943007a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2011-2025"
+      },
+      {
+        "id": "CHE-problems-005",
+        "statement": "In 2024, 20% of Swiss adults aged 65 and over said they had forgone at least one health service because of cost (13% dental care, 13% services covered by basic insurance), compared with 21% in 2017 and 16% in 2021.",
+        "valence": "weakness",
+        "source_id": "ejph-forgone-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2782,
+          "char_end": 3813,
+          "passage_sha256": "f8d7e0a6e64858db0a98b78b4a63f295f1963c18bb411c04f98ca7587783bbec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2017-2024"
+      },
+      {
+        "id": "CHE-problems-006",
+        "statement": "Unmet need for dental care was 2.5% overall in 2021 and 4.6% in the poorest income fifth.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "2 Financing and ensuring financial protection",
+          "page": 10,
+          "char_start": 22547,
+          "char_end": 22675,
+          "passage_sha256": "44a69a866305fac2fc315a2408e6b9adeb236774a3fd1bbd10fc2b5dc5ff83e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-problems-007",
+        "statement": "Primary care doctors are unevenly spread: urban areas have about 1 full-time-equivalent doctor per 1,000 inhabitants, rural areas 0.4.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 28234,
+          "char_end": 28457,
+          "passage_sha256": "8d87eb520e354bfd304d0156e3c63a2f60fd6b368f6775c18d9a99939e071499"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-008",
+        "statement": "In 2021, 38.4% of doctors working in Switzerland had trained abroad, one of the highest shares in the WHO European Region and up from 27.0% in 2012.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "5 Spotlight on health workforce trends",
+          "page": 23,
+          "char_start": 62862,
+          "char_end": 63123,
+          "passage_sha256": "cd9b6ea3ca948cebb42688091c4e89c01f98ce74878453a763ad16967bc78c49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHE-problems-009",
+        "statement": "The share of doctors aged 55 or over rose from 32.9% in 2013 to 37.2% in 2021.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "5 Spotlight on health workforce trends",
+          "page": 19,
+          "char_start": 55296,
+          "char_end": 55487,
+          "passage_sha256": "37747b4c97f24c4b84f059dc5b5a3d26844565efdd06d8b791293607438190b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2013-2021"
+      },
+      {
+        "id": "CHE-problems-010",
+        "statement": "Mirror, Mirror 2024 suggests that the fragmentation of care delivery across Switzerland's many cantons and municipalities may be hampering efficiency for providers and patients.",
+        "valence": "weakness",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Administrative Efficiency",
+          "char_start": 16097,
+          "char_end": 16258,
+          "passage_sha256": "0c1b7dbfb0af4df5f547398aed9b9d0c33826163c19e052ed9985a39241bbd04"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-011",
+        "statement": "In the sensitivity tests for Mirror, Mirror 2024, Switzerland was nearly always ranked toward the bottom.",
+        "valence": "weakness",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "How We Conducted This Study",
+          "char_start": 42596,
+          "char_end": 43012,
+          "passage_sha256": "e239e49ddb8dfb7574ef50b36d2b60e527aca834c420c6f840ab08e8dadb441c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-012",
+        "statement": "Uptake of the electronic patient record has been slow, held back by interoperability problems, decentralized governance and resistance from providers and patients.",
+        "valence": "weakness",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Health Care Technology",
+          "char_start": 30046,
+          "char_end": 30582,
+          "passage_sha256": "f1fa1e8616735059f3c426fb87e21cbcad17ccd821f8996dfa7cbf4db58f18d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-problems-013",
+        "statement": "Tobacco use (age-standardized, ages 15 and over) was estimated at 22.8% in 2020, below the EU's 26.8%, but it has fallen only modestly from 27% in 2000.",
+        "valence": "weakness",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "4 Improving the health of the population",
+          "page": 17,
+          "char_start": 48156,
+          "char_end": 48432,
+          "passage_sha256": "12e227f716501abe16293f43a5fde3161f60f156a5f4a18f64dd3a9f69e98bc3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2000-2020"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CHE-reforms-001",
+        "statement": "After the indirect counter-proposal to the 2024 cost-brake initiative took effect, the Federal Council can set targets for cost and quality growth in basic insurance; it is due to set them for the first time at the end of 2026, for 2028-2031, and if costs in an area exceed the target, the Federal Council and cantons must consider corrective measures.",
+        "valence": "neutral",
+        "source_id": "foph-premiums-2027",
+        "locator": {
+          "section": "Alle Akteure sind gefordert",
+          "char_start": 4672,
+          "char_end": 5098,
+          "passage_sha256": "13ba40cd4bfdea166beed2ed941ea3c096839f49dca14c4f9fb929d266509d48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHE-reforms-002",
+        "statement": "Since 1 January 2026, each canton must contribute a minimum amount to premium reductions, and within four years must set the maximum share of disposable income that premiums may take for its residents.",
+        "valence": "strength",
+        "source_id": "foph-gegenvorschlag",
+        "locator": {
+          "section": "Lead",
+          "char_start": 469,
+          "char_end": 767,
+          "passage_sha256": "3bfc5ddef41cba53b6aed6e909060faf3afe311b75be0a3ac10c1815d9a719ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHE-reforms-003",
+        "statement": "A canton's minimum contribution is 3.5% of gross costs if premiums take on average under 11% of the income of its lowest-income 40% of insured residents, rising linearly to 7.5% when they take 18.5% or more.",
+        "valence": "neutral",
+        "source_id": "foph-gegenvorschlag",
+        "locator": {
+          "section": "Mindestanteil der Kantone",
+          "char_start": 2841,
+          "char_end": 3305,
+          "passage_sha256": "53b426c8c98eb72d43cf14f7d0c439bdaa0d98e044915625d92dfc859357975c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-reforms-004",
+        "statement": "Voters rejected the 'premium relief' initiative, which would have capped premiums at 10% of income, on 9 June 2024, with 55.47% voting no.",
+        "valence": "neutral",
+        "source_id": "foph-gegenvorschlag",
+        "locator": {
+          "section": "Informationen zur Volksinitiative",
+          "char_start": 833,
+          "char_end": 1013,
+          "passage_sha256": "6413f558f0934704b2fbe11426f7d5a36b9b00532e1e4af6221665a3693cf9d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHE-reforms-005",
+        "statement": "On 24 November 2024, voters approved the amendment to the Federal Health Insurance Act on uniform financing of services, with 53.31% in favour.",
+        "valence": "neutral",
+        "source_id": "foph-efas",
+        "locator": {
+          "section": "Informationen zur Volksabstimmung",
+          "char_start": 412,
+          "char_end": 741,
+          "passage_sha256": "74b842d0a4f81011a1e53d252fe602b684c9b3335ccb76d5be614eeb85e07af9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHE-reforms-006",
+        "statement": "From 2028 outpatient and inpatient care are to be financed the same way, and nursing care from 2032: the cantons will pay 26.9% of net costs (after patient cost-sharing) to insurers and premiums the remaining 73.1%.",
+        "valence": "neutral",
+        "source_id": "foph-efas",
+        "locator": {
+          "section": "Inhalt der Änderung",
+          "char_start": 3238,
+          "char_end": 3704,
+          "passage_sha256": "f236ced909046d6fc120b4e18c8a557c4ae3ab995ff1fd8f68bbdc59d6a71234"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-reforms-007",
+        "statement": "Outpatient and primary care is paid fee-for-service under a national tariff schedule negotiated by insurers, provider associations and federal authorities; the TARDOC schedule is to replace TARMED from January 2026.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "Payment Mechanisms",
+          "char_start": 12224,
+          "char_end": 12491,
+          "passage_sha256": "2c391374adbb0f766d7747d5f44a37c59301e612ed61668623573d7b2a48eacc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHE-reforms-008",
+        "statement": "Cost-containment packages have been rolled out in stages: package 1a (2022-2023) brought billing transparency, promoted outpatient flat-rate tariffs and set up a national tariff organization; cost targets for basic insurance were introduced in 2023; package 1b (2024) strengthened insurers' cost monitoring and widened pharmacists' ability to dispense cheaper drugs; and package 2, adopted in March 2025, aims to expand federal oversight of reimbursement and strengthen coordinated care.",
+        "valence": "neutral",
+        "source_id": "cwf-che",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 24053,
+          "char_end": 24751,
+          "passage_sha256": "76e6afde657b2796ad279dddc4200f0b6e79f5b43aeb5c6a0eb227594e285b5c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2022-2025"
+      },
+      {
+        "id": "CHE-reforms-009",
+        "statement": "A 2026 study reported that both chambers of parliament had recently voted to raise the minimum deductible from CHF 300 to CHF 500.",
+        "valence": "neutral",
+        "source_id": "bmc-deductibles-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1988,
+          "char_end": 2175,
+          "passage_sha256": "28482a940f40f8b6801356c3e5ccefb27dc0fd7200c902a523bb8676e7c68936"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "CHE-reforms-010",
+        "statement": "Switzerland raised the number of places to study human medicine from 900 in 2016 to a projected 1,350 by 2025, to address the urban-rural gap in primary care doctors.",
+        "valence": "neutral",
+        "source_id": "hsia-che-2024",
+        "locator": {
+          "section": "3 Generating resources, providing services and ensuring access",
+          "page": 12,
+          "char_start": 28234,
+          "char_end": 28658,
+          "passage_sha256": "0f89683b14b711e0e3637214697ba61f58347d239096d6041a9ba849fe22d7c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2016-2025"
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "CHE-us_lessons-001",
+        "statement": "Mirror, Mirror 2024 names Switzerland, together with Australia and New Zealand, as worthy of study for outcomes of care.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Conclusions and implications",
+          "char_start": 23032,
+          "char_end": 23125,
+          "passage_sha256": "609df1dcdfedebf5ffe1111426a93a4596a5f1d914ff637e71ab6226476fd6c9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/CHE.json",
+  "sources": [
+    {
+      "id": "hsia-che-2024",
+      "title": "Health Systems in Action (HSiA) Insights: Switzerland, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Boes S, Weisstanner D, Durvy B",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/publications/i/health-systems-in-action-switzerland-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/7d189cca-1094-46c0-8000-116ed4d2928e/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-che",
+      "title": "International Health Care System Profiles: Switzerland (2026 country profile)",
+      "publisher": "Commonwealth Fund",
+      "tier": 3,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/switzerland",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024-report",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (report)",
+      "publisher": "Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-premiums-2027",
+      "title": "Krankenkassenprämien steigen durchschnittlich um 5,0 Prozent (press release on 2027 premiums, 29 September 2026)",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/newnsb/BfuGvedj0OOX",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bfs-costs-2024",
+      "title": "Die Gesundheitskosten stiegen 2024 um 4,1% (press release, 24 April 2026)",
+      "publisher": "Federal Statistical Office (BFS/FSO)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/newnsb/j2rSvoYBZ7n589CpirkcB",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bfs-silc-debt-2022",
+      "title": "Revenus et conditions de vie 2022 (SILC): endettement (press release, 29 October 2024)",
+      "publisher": "Federal Statistical Office (OFS/FSO)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2024,
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/32426691/master",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-premium-arrears",
+      "title": "Krankenversicherung: Prämienausstände",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/krankenversicherung-praemienausstaende",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-ipv-2026",
+      "title": "Faktenblatt Prämienverbilligung (premium reduction fact sheet, 23 September 2025)",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.bag.admin.ch/dam/de/sd-web/ED8vGQo248Tu/PG26-FB-Pr%C3%A4mienverbilligung_DE.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-gegenvorschlag",
+      "title": "Änderung des KVG (Prämienverbilligung) als indirekter Gegenvorschlag zur Prämien-Entlastungs-Initiative",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.bag.admin.ch/de/anderung-des-kvg-praemienverbilligung-als-indirekter-gegenvorschlag-zur-praemien-entlastungs-initiative",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-efas",
+      "title": "KVG-Änderung: Einheitliche Finanzierung der Leistungen",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.bag.admin.ch/de/kvg-anderung-einheitliche-finanzierung-der-leistungen",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-hta",
+      "title": "HTA-Programm",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/hta-programm",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-benefits-report",
+      "title": "Bundesrat verabschiedet Bericht zur Entwicklung des Leistungskatalogs der obligatorischen Krankenversicherung (press release, 14 January 2026)",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/newnsb/pwGPlqnWtp7n-FU2nvwJ0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ejph-forgone-2026",
+      "title": "Trends in cost-related forgone care among older adults in Switzerland: a repeated cross-sectional study",
+      "publisher": "European Journal of Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41678585/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13017530",
+      "license": "CC BY",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ijph-geneva-2025",
+      "title": "Forgoing Healthcare and Insurance Premiums Trends: A 15-Year Population-Based Study in Geneva, Switzerland",
+      "publisher": "International Journal of Public Health",
+      "authors": "Nehme M, Dumont R, Heritier H, Lamour J, Mechoullam S, De Ridder D, Guessous I",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.3389/ijph.2025.1609027",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12689442",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bmc-deductibles-2026",
+      "title": "The effect of deductibles on healthcare expenditure: new evidence for Switzerland",
+      "publisher": "BMC Health Services Research",
+      "authors": "Felder S, Meyer S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14052-w",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12931060",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 10,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created: 101 claims from 17 sources, anchored and support-reviewed in two separate cold passes; 44 statements reworded or re-anchored in review (details from outside the passage, missing years, overstatement, causal wording, passages too short to carry their subject)."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "iso3": "CHE",
+  "name": "Switzerland",
+  "wave": 2,
+  "system_as_of": "2026-11-12",
+  "status": "draft",
+  "model": {
+    "type": "regulated_private_insurance",
+    "label": "Mandatory, community-rated basic health insurance (OKP/LAMal) bought from competing private non-profit insurers, with income-tested premium subsidies from the cantons and federal government, and cantonal co-funding of hospital care"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [],
+    "financing": [],
+    "covered": [],
+    "cost_sharing": [],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/CHE.json",
+  "sources": [
+    {
+      "id": "hsia-che-2024",
+      "title": "Health Systems in Action (HSiA) Insights: Switzerland, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Boes S, Weisstanner D, Durvy B",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/publications/i/health-systems-in-action-switzerland-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/7d189cca-1094-46c0-8000-116ed4d2928e/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-che",
+      "title": "International Health Care System Profiles: Switzerland (2026 country profile)",
+      "publisher": "Commonwealth Fund",
+      "tier": 3,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/switzerland",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024-report",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (report)",
+      "publisher": "Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-premiums-2027",
+      "title": "Krankenkassenprämien steigen durchschnittlich um 5,0 Prozent (press release on 2027 premiums, 29 September 2026)",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/newnsb/BfuGvedj0OOX",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bfs-costs-2024",
+      "title": "Die Gesundheitskosten stiegen 2024 um 4,1% (press release, 24 April 2026)",
+      "publisher": "Federal Statistical Office (BFS/FSO)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/newnsb/j2rSvoYBZ7n589CpirkcB",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bfs-silc-debt-2022",
+      "title": "Revenus et conditions de vie 2022 (SILC): endettement (press release, 29 October 2024)",
+      "publisher": "Federal Statistical Office (OFS/FSO)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2024,
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/32426691/master",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-premium-arrears",
+      "title": "Krankenversicherung: Prämienausstände",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/krankenversicherung-praemienausstaende",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-ipv-2026",
+      "title": "Faktenblatt Prämienverbilligung (premium reduction fact sheet, 23 September 2025)",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.bag.admin.ch/dam/de/sd-web/ED8vGQo248Tu/PG26-FB-Pr%C3%A4mienverbilligung_DE.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-gegenvorschlag",
+      "title": "Änderung des KVG (Prämienverbilligung) als indirekter Gegenvorschlag zur Prämien-Entlastungs-Initiative",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.bag.admin.ch/de/anderung-des-kvg-praemienverbilligung-als-indirekter-gegenvorschlag-zur-praemien-entlastungs-initiative",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-efas",
+      "title": "KVG-Änderung: Einheitliche Finanzierung der Leistungen",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.bag.admin.ch/de/kvg-anderung-einheitliche-finanzierung-der-leistungen",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-hta",
+      "title": "HTA-Programm",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/hta-programm",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "foph-benefits-report",
+      "title": "Bundesrat verabschiedet Bericht zur Entwicklung des Leistungskatalogs der obligatorischen Krankenversicherung (press release, 14 January 2026)",
+      "publisher": "Federal Office of Public Health (BAG/FOPH)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bag.admin.ch/de/newnsb/pwGPlqnWtp7n-FU2nvwJ0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ejph-forgone-2026",
+      "title": "Trends in cost-related forgone care among older adults in Switzerland: a repeated cross-sectional study",
+      "publisher": "European Journal of Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41678585/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13017530",
+      "license": "CC BY",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ijph-geneva-2025",
+      "title": "Forgoing Healthcare and Insurance Premiums Trends: A 15-Year Population-Based Study in Geneva, Switzerland",
+      "publisher": "International Journal of Public Health",
+      "authors": "Nehme M, Dumont R, Heritier H, Lamour J, Mechoullam S, De Ridder D, Guessous I",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.3389/ijph.2025.1609027",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12689442",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bmc-deductibles-2026",
+      "title": "The effect of deductibles on healthcare expenditure: new evidence for Switzerland",
+      "publisher": "BMC Health Services Research",
+      "authors": "Felder S, Meyer S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14052-w",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12931060",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created."
+    }
+  ]
+}

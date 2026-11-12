@@ -3,7 +3,7 @@
   "name": "Switzerland",
   "wave": 2,
   "system_as_of": "2026-11-12",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "regulated_private_insurance",
     "label": "Mandatory, community-rated basic health insurance (OKP/LAMal) bought from competing private non-profit insurers, with income-tested premium subsidies from the cantons and federal government, and cantonal co-funding of hospital care"
@@ -90,11 +90,15 @@
         "valence": "neutral",
         "source_id": "cwf-che",
         "locator": {
-          "section": "Health coverage and access"
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5337,
+          "char_end": 5770,
+          "passage_sha256": "865270b8aebaff3cf02c8ee89c7ed2dc000514cbda189ab3ba4152929051b44c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
@@ -1086,7 +1090,7 @@
       },
       {
         "id": "CHE-outcomes-004",
-        "statement": "On the WHO UHC service coverage sub-indices for 2021, Switzerland scored highly on service capacity and access (97%), reproductive, maternal, newborn and child health (93%) and infectious diseases (92%), but lower on noncommunicable diseases (67%).",
+        "statement": "Among the 2021 UHC service coverage sub-indices, Switzerland's lowest score was for noncommunicable diseases (67%), compared with 97% for service capacity and access, 93% for maternal, newborn, child and reproductive health, and 92% for treating infectious diseases.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -1097,10 +1101,9 @@
           "passage_sha256": "198f638ebcaf2017abbee2e7718bdd85911b21f06375746ed26b5a23b93961dd"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-12",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-12"
         },
         "data_year": 2021
       },

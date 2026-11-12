@@ -127,6 +127,16 @@ ol.sources li { padding-left: .25rem; }
   --f-mandated_employer:#e0954d; --f-mandated_individual:#9c6630; --f-voluntary:#a68ad0; --f-households:#e07a63; --f-private_unsplit:#7a4a40; --f-other:#5d6872; } }
 :root[data-theme="dark"] { --f-taxes:#7f9fe6; --f-payroll_employer:#4fb3a8; --f-payroll_worker:#2f7f77; --f-payroll_other:#1f544f;
   --f-mandated_employer:#e0954d; --f-mandated_individual:#9c6630; --f-voluntary:#a68ad0; --f-households:#e07a63; --f-private_unsplit:#7a4a40; --f-other:#5d6872; }
+.about { display: grid; gap: 2rem; max-width: 52rem; }
+.about h3 { font-size: 1.45rem; margin: 0 0 .5rem; }
+.about p, .about li { line-height: 1.55; }
+.about ul { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; }
+.src-group { border-top: 1px solid var(--rule); padding: .55rem 0; }
+.src-group summary { cursor: pointer; display: flex; justify-content: space-between; gap: 1rem; }
+.src-group summary .n { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+.src-group ol { margin: .5rem 0 .3rem; padding-left: 1.2rem; display: grid; gap: .4rem; font-size: .92rem; }
+.src-meta { color: var(--muted); font-size: .82rem; }
+.src-filter { width: 100%; max-width: 24rem; padding: .45rem .6rem; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); color: var(--ink); font: inherit; }
 .fin-row { display: grid; grid-template-columns: 9rem 1fr 3.5rem; gap: .6rem; align-items: center; }
 .fin-row .name { font-size: .95rem; }
 .fin-row .name .yr { display: inline; margin-left: .3rem; }
@@ -161,7 +171,7 @@ footer { border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--mute
       <span><b style="color:var(--bad)">−</b> weakness</span>
       <span><b>·</b> descriptive</span>
     </div>
-    <div>Each claim passes two checks before it counts as verified: code confirms the cited passage still exists unchanged in the source, and a separate review confirms the passage supports the statement as written. Statistics come straight from the World Bank and WHO APIs.</div>
+    <div>Each claim passes two checks before it counts as verified: code confirms the cited passage still exists unchanged in the source, and a separate review confirms the passage supports the statement as written. Statistics come straight from the World Bank, WHO and OECD data services. <a href="#about">About and sources</a>.</div>
   </footer>
 </div>
 
@@ -328,6 +338,85 @@ async function renderRanking(index) {
   document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "RANKING" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
 }
 
+const TIERS = { 1: "Official statistics", 2: "Peer-reviewed research", 3: "Government and independent research", 4: "News and explainers" };
+
+async function renderAbout(index) {
+  const view = document.getElementById("view");
+  const profiles = await Promise.all(index.map(r => getJSON(`data/countries/${r.iso3}.json`).then(p => ({ r, p })).catch(() => null)));
+  const byKey = new Map();
+  let claims = 0;
+  for (const x of profiles.filter(Boolean)) {
+    claims += Object.values(x.p.sections || {}).reduce((n, v) => n + v.length, 0);
+    for (const src of x.p.sources || []) {
+      const key = (src.url || src.title || src.id).toLowerCase();
+      if (!byKey.has(key)) byKey.set(key, { ...src, countries: new Set() });
+      byKey.get(key).countries.add(x.r.name);
+    }
+  }
+  const sources = [...byKey.values()];
+  const groups = new Map();
+  for (const src of sources) {
+    const k = src.publisher || "Other";
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(src);
+  }
+  const ordered = [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  const item = src => `<li data-q="${esc([src.title, src.publisher, ...(src.authors || []), ...src.countries].join(" ").toLowerCase())}">
+      ${src.url ? `<a href="${esc(src.url)}" rel="noopener">${esc(src.title)}</a>` : esc(src.title)}${src.year ? ` (${esc(src.year)})` : ""}
+      <div class="src-meta">${esc(TIERS[src.tier] || "")}${src.license ? ` · ${esc(src.license)}` : ""} · cited for ${esc([...src.countries].sort().join(", "))}</div></li>`;
+  const list = ordered.map(([pub, xs]) => `<details class="src-group"><summary><span>${esc(pub)}</span><span class="n">${xs.length} ${xs.length === 1 ? "source" : "sources"}</span></summary>
+      <ol>${xs.sort((a, b) => (b.year || 0) - (a.year || 0)).map(item).join("")}</ol></details>`).join("");
+  view.innerHTML = `<article class="about">
+    <div class="country-head">
+      <span class="label">About the atlas</span>
+      <h2>About and sources</h2>
+      <div class="model">The atlas brings together what governments, international organizations and researchers have already published about health systems, checks it, and puts it side by side. It does no clinical or survey research of its own. Every fact on the site belongs to the source it cites.</div>
+    </div>
+    <section>
+      <h3>What the atlas did</h3>
+      <ul>
+        <li><b>Consolidation.</b> ${index.length} country profiles with ${claims.toLocaleString("en-US")} statements drawn from ${sources.length} sources, each statement written in the atlas's own words and linked to the page, section or table it comes from.</li>
+        <li><b>Verification.</b> Code confirms that each cited passage still exists, unchanged, in the source and that the statement does not copy it; a separate review reads only the passage and the statement and confirms the passage supports it as written. A statement that fails either check is rewritten or dropped.</li>
+        <li><b>The ranking.</b> The <a href="#ranking">atlas's own composite ranking</a>: the choice of measures, their scaling against worldwide benchmarks, the weights, and the test of how far each rank depends on those weights. The method is published with the results.</li>
+        <li><b>Derived figures.</b> Values the atlas calculates from published data, such as government health spending per person and the <a href="#financing">breakdown of who pays</a>, are shown with the formula or classification used.</li>
+        <li><b>Selection and wording.</b> Which findings to include, and how each is summarized, are the atlas's choices. Any error in them is the atlas's, not the source's.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Statistics providers</h3>
+      <p>Comparable statistics are pulled directly from these providers' public data services, never typed in by hand. Each value on the site keeps its year and the address it was retrieved from.</p>
+      <ul>
+        <li><b>World Bank, World Development Indicators</b>, including health spending series from the WHO Global Health Expenditure Database. Licensed <a href="https://datacatalog.worldbank.org/infrastructure-data/search/dataset/0037712/World-Development-Indicators" rel="noopener">Creative Commons Attribution 4.0</a>.</li>
+        <li><b>World Health Organization, Global Health Observatory</b>: UHC service coverage and financial protection measures. Used under <a href="https://www.who.int/about/who-we-are/publishing-policies/copyright" rel="noopener">WHO's copyright and licensing terms</a>, which allow non-commercial reuse with attribution.</li>
+        <li><b>OECD Health Statistics</b>: population coverage, treatable mortality and the System of Health Accounts revenue data. Used under the <a href="https://www.oecd.org/en/about/terms-conditions.html" rel="noopener">OECD terms and conditions</a>, which allow reuse of OECD data with credit to the OECD.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Every source cited</h3>
+      <p>All ${sources.length} sources cited in the country profiles, grouped by publisher. Statements link to their exact location from each country page.</p>
+      <input class="src-filter" type="search" placeholder="Filter by title, publisher or country" aria-label="Filter sources">
+      <div id="src-list">${list}</div>
+    </section>
+    <section>
+      <h3>Independence</h3>
+      <p>The atlas is not affiliated with, or endorsed by, any organization it cites. Rankings published by others are reported as those organizations' findings. Where a source is funded by, or advocates for, an interested party, the profile notes it.</p>
+    </section>
+  </article>`;
+  const input = view.querySelector(".src-filter");
+  input.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    view.querySelectorAll("#src-list .src-group").forEach(g => {
+      let shown = 0;
+      g.querySelectorAll("li").forEach(li => { const ok = !q || li.dataset.q.includes(q); li.hidden = !ok; shown += ok; });
+      g.hidden = shown === 0;
+      g.open = !!q && shown > 0;
+      const total = g.querySelectorAll("li").length;
+      g.querySelector(".n").textContent = q ? `${shown} of ${total}` : `${total} ${total === 1 ? "source" : "sources"}`;
+    });
+  });
+  document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "ABOUT" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+}
+
 async function renderFinancing(index) {
   const view = document.getElementById("view");
   const scores = await getJSON("data/scores.json");
@@ -441,10 +530,11 @@ async function start() {
     const index = await getJSON("data/index.json");
     const nav = document.getElementById("country-nav");
     const ordered = [...index.filter(r => r.is_baseline), ...index.filter(r => !r.is_baseline)];
-    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a>` + ordered.map(r =>
+    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a><a href="#about" data-iso3="ABOUT" class="rank-link">About and sources</a>` + ordered.map(r =>
       `<a href="#${r.iso3.toLowerCase()}" data-iso3="${r.iso3}">${r.iso3}<span class="n">${esc(r.name)}${r.is_baseline ? " (baseline)" : ""}</span></a>`).join("");
     const route = () => {
       const h = location.hash.replace("#", "").toUpperCase();
+      if (h === "ABOUT") { renderAbout(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load sources: ${esc(err.message)}</p>`; }); return; }
       if (h === "FINANCING") { renderFinancing(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load financing data: ${esc(err.message)}</p>`; }); return; }
       if (!index.some(r => r.iso3 === h)) {
         renderRanking(index).catch(() => {

@@ -1,0 +1,1897 @@
+{
+  "iso3": "GBR",
+  "name": "United Kingdom",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "draft",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health services, run separately in England, Scotland, Wales and Northern Ireland, free at the point of use"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "GBR-overview-003",
+      "GBR-overview-004"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "GBR-overview-001",
+        "statement": "In England the NHS provides care free at the point of use to UK citizens who are ordinarily resident and to holders of a UK Global Health Insurance Card, including GP, hospital and mental health care; prescriptions and dental care are also provided but carry charges with means-tested help.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Overview",
+          "char_start": 765,
+          "char_end": 1189,
+          "passage_sha256": "1147f7125e19fe96e225045c70a8254ee7028aad06b8282e5584403c4fdcd872"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-overview-002",
+        "statement": "Since devolution in the late 1990s, England, Scotland, Wales and Northern Ireland each organise and run their own health services; the UK government sets England's health budget, while the other three nations get a general block grant and decide for themselves how much goes to health.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 20,
+          "char_start": 27990,
+          "char_end": 28440,
+          "passage_sha256": "ba2d0efa1a6aca1adc72b3fac0fd2e5bb25bc301736433a4d78890189d354bab"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-overview-003",
+        "statement": "Coverage in England extends to citizens, other people who are ordinarily resident and UK Global Health Insurance Card holders; people coming to England for more than six months must pay the Immigration Health Surcharge to use NHS care.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 4694,
+          "char_end": 4958,
+          "passage_sha256": "cdd7444e8d9fe9668578356d2953999904b3190958b5edd1ddb43f9027a5eea0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-overview-004",
+        "statement": "Rights of people eligible for NHS care in England, including care without discrimination and access within set time limits for some categories such as emergency and planned hospital treatment, are written into the NHS Constitution for England.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 4961,
+          "char_end": 5215,
+          "passage_sha256": "f56021630dca5697405df83e1752758a2bc10e7bc2814685f726715d7dc96656"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-overview-005",
+        "statement": "Health services across the UK are funded mainly through progressive general taxation, with private medical insurance and out-of-pocket payments making up the rest, and access to the NHS is meant to depend on clinical need rather than ability to pay.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 29965,
+          "char_end": 30405,
+          "passage_sha256": "7ea9c6ce0e9eee213fd8f7dfd7fd50f4f1fa4705dacee598f1b6072fbe387b12"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-overview-006",
+        "statement": "Scotland, Wales and Northern Ireland each abolished prescription charges after devolution; England still charges for many prescriptions, with exemptions for some groups.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "How Does the NHS in England Relate to the NHS Across the U.K.?",
+          "char_start": 6376,
+          "char_end": 6555,
+          "passage_sha256": "2da72ebe63ab934521fde5363a92d63145b2b24c0e1b5bfc407c74b08df0c6f6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "GBR-financing-001",
+        "statement": "Most UK health funding comes from general tax revenue rather than a dedicated health contribution; the three biggest taxes are income tax, National Insurance contributions and VAT, and the public share of health spending held at about 80% over the two decades before the 2022 review.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "3.1 Health expenditure",
+          "page": 77,
+          "char_start": 156663,
+          "char_end": 157024,
+          "passage_sha256": "a6aea745d14155e0acfea66e5ca6e25da854570aafb9ccb4764ca382094c438c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-financing-002",
+        "statement": "Taxes are collected by HM Revenue and Customs; in the figures the 2022 review cites (Adam, 2019), income tax raised 26% of tax revenue, National Insurance contributions 19% and VAT 18%.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 90,
+          "char_start": 177777,
+          "char_end": 177999,
+          "passage_sha256": "67ac7c50987e1819207115b07489b2e2f183f1357b401e1cb526414fe3d65c12"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "GBR-financing-003",
+        "statement": "The 2022 review judged UK taxation progressive overall because direct taxes charge higher rates on higher incomes, while noting that VAT is not progressive and takes a roughly constant share of household budgets across the income range.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Box 3.2 Is health financing fair?",
+          "page": 90,
+          "char_start": 178897,
+          "char_end": 179557,
+          "passage_sha256": "3cad009a30fdced40241369b9d8f1e58130eac87c8f6a8a09d4d6bd9d77fe7f9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "GBR-financing-004",
+        "statement": "On the international System of Health Accounts definition, government financing paid for 81.3% of UK current health spending in 2025 (about £280 billion, provisional), up from 73.1% in 1997 and 78.9% in 2019.",
+        "valence": "neutral",
+        "source_id": "ons-ukha-2025",
+        "locator": {
+          "section": "Financing of healthcare expenditure in the UK",
+          "char_start": 6697,
+          "char_end": 7423,
+          "passage_sha256": "44752b56235e6d5ee94085254fd206cb8a2d3b7d9766f5fd1a51fcd3b601246c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-financing-005",
+        "statement": "ONS notes that its health accounts follow the OECD System of Health Accounts 2011, which is broader than other UK measures and includes some services treated as social care in the UK, so its spending figures are not the same as NHS spending.",
+        "valence": "neutral",
+        "source_id": "ons-ukha-2025",
+        "locator": {
+          "section": "Main points",
+          "char_start": 1359,
+          "char_end": 1720,
+          "passage_sha256": "67b65515c28dc5bc1cce00ca6a0f78ea328e129545f58048fa345cd9c4d2d15f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-financing-006",
+        "statement": "Of non-government financing in 2025 (provisional), out-of-pocket payments were 14.1% of UK health spending (£49 billion), voluntary health insurance 2.8% (£9.5 billion), charities 1.8% and employer-run schemes 0.1%.",
+        "valence": "neutral",
+        "source_id": "ons-ukha-2025",
+        "locator": {
+          "section": "Financing of healthcare expenditure in the UK",
+          "char_start": 7928,
+          "char_end": 8686,
+          "passage_sha256": "797480401f30c4a848bc950138cfbbac232049447cc4bfdadb6e461fc489f680"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-financing-007",
+        "statement": "National Insurance contributions are split by law between the National Insurance Fund, which pays contributory benefits, and the NHS: section 162(5) of the Social Security Administration Act 1992 sets the split, and roughly 80% of contributions go to the Fund with the rest paid to the NHS.",
+        "valence": "neutral",
+        "source_id": "gad-nif-2026",
+        "locator": {
+          "section": "1. Executive summary",
+          "page": 7,
+          "char_start": 8507,
+          "char_end": 8589,
+          "passage_sha256": "ac57af28a2fd09ca6621766c58f49eb2eb6cd3d0f7f3a3ccb8ae7c0e37c7ffec"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-2027"
+      },
+      {
+        "id": "GBR-financing-008",
+        "statement": "The legal basis of the split between the National Insurance Fund and the NHS is section 162(5) of the Social Security Administration Act 1992.",
+        "valence": "neutral",
+        "source_id": "gad-nif-2026",
+        "locator": {
+          "section": "2. Contribution income, para 2.6",
+          "page": 13,
+          "char_start": 19845,
+          "char_end": 19979,
+          "passage_sha256": "2ef9acc53e38fb5ff3175c0df3ea0f703eb2712d84d99aea89fc592ffc2e747a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-2027"
+      },
+      {
+        "id": "GBR-financing-009",
+        "statement": "The Government Actuary projected National Insurance contributions allocated to the NHS in Great Britain at £36.2 billion in 2025-26 and £37.5 billion in 2026-27, out of total contributions of £197.0 billion and £207.7 billion.",
+        "valence": "neutral",
+        "source_id": "gad-nif-2026",
+        "locator": {
+          "table": "Appendix F, Table F.1 NICs split between NI Fund and NHS, Great Britain, GBP billion (columns 2025-2026, 2026-2027)",
+          "page": 44,
+          "char_start": 89953,
+          "char_end": 90675,
+          "passage_sha256": "f0375fa4e2c7f45114334a54e02350d96fdbdf4e4756a45b8507e432dc15ba7a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-2027"
+      },
+      {
+        "id": "GBR-financing-010",
+        "statement": "Employees pay Class 1 National Insurance of 8% on weekly earnings between the primary threshold (£242 a week in 2025-26 and 2026-27) and the upper earnings limit and 2% above it; of this, 2.05% and 1.00% of earnings respectively are allocated to the NHS.",
+        "valence": "neutral",
+        "source_id": "gad-nif-2026",
+        "locator": {
+          "table": "Appendix C, Table C1 contribution rates and thresholds (2025-2026, 2026-2027)",
+          "page": 28,
+          "char_start": 49571,
+          "char_end": 50134,
+          "passage_sha256": "c620e3260238591030979385245c1cc8d80832a135ede677833c2273f5d43383"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-2027"
+      },
+      {
+        "id": "GBR-financing-011",
+        "statement": "Employers pay Class 1 National Insurance of 15% on all of an employee's earnings above the secondary threshold of £96 a week (2025-26 and 2026-27), with no upper limit; the NHS allocation within this is 1.90% of earnings for employees earning above the primary threshold.",
+        "valence": "neutral",
+        "source_id": "gad-nif-2026",
+        "locator": {
+          "table": "Appendix C, Table C1 contribution rates and thresholds (2025-2026, 2026-2027)",
+          "page": 28,
+          "char_start": 49618,
+          "char_end": 50406,
+          "passage_sha256": "72924bc5d9f6cc4ae371d5cd95f36c1a0ee93195a465f96df4e3b6281dc880f2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-2027"
+      },
+      {
+        "id": "GBR-financing-012",
+        "statement": "Self-employed people pay Class 4 National Insurance of 6% on profits between the lower profits limit (£12,570 a year) and the upper profits limit (£50,270) and 2% above, of which 2.15% and 1.00% of profits respectively go to the NHS (2025-26 and 2026-27).",
+        "valence": "neutral",
+        "source_id": "gad-nif-2026",
+        "locator": {
+          "table": "Appendix C, Table C1 contribution rates and thresholds (2025-2026, 2026-2027)",
+          "page": 29,
+          "char_start": 51179,
+          "char_end": 51551,
+          "passage_sha256": "11a682421b4cf5475b8b8f287eb2e12626312306a3edf0ae23875985c2d384c6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-2027"
+      },
+      {
+        "id": "GBR-financing-013",
+        "statement": "Employer-paid medical insurance is not tax-free unless an exemption applies (for example, cover for work-related injury or illness, or treatment needed while working overseas): when the employer arranges and pays the insurer directly, it must report the benefit on form P11D and pay Class 1A National Insurance on its value.",
+        "valence": "neutral",
+        "source_id": "hmrc-bik-medical",
+        "locator": {
+          "section": "3. What to report and pay",
+          "char_start": 2566,
+          "char_end": 2894,
+          "passage_sha256": "7e3c726e1ae1de29d5d51e6508faedf2ac078c766c5e15ed3091285dbf919e7d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-financing-014",
+        "statement": "Among the narrow exemptions from tax on employer-provided medical cover are treatment or insurance abroad for employees working overseas, cover limited to work-related injury or disease, and up to £500 of treatment to help an employee return to work.",
+        "valence": "neutral",
+        "source_id": "hmrc-bik-medical",
+        "locator": {
+          "section": "2. What's exempt",
+          "char_start": 1767,
+          "char_end": 2221,
+          "passage_sha256": "0bc130b11430d23582e731283d48e98cd9374acfeebef5d0ebc74cbf8e8fba1e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-financing-015",
+        "statement": "In 2023-24 the Department of Health and Social Care, which funds health services in England, spent £188.5 billion, 94.4% of it on day-to-day items such as salaries and medicines; NHS England was allocated £171 billion of the day-to-day budget.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Health Care Spending Overview",
+          "char_start": 22734,
+          "char_end": 23161,
+          "passage_sha256": "33b00f2bc4a69cf8153b8eedbf5fe57b973b8231696faa06ed3d565b98f822a7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GBR-financing-016",
+        "statement": "The Commonwealth Fund reports that in 2025 the NHS took 38% of day-to-day government spending, a share projected to reach 40% by the next election in 2028.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 25012,
+          "char_end": 25166,
+          "passage_sha256": "29973b09257fe5e200e497b66344cec712588a3fc83bb98a722bb4b346b7469d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "covered": [
+      {
+        "id": "GBR-covered-001",
+        "statement": "NHS services in England that are free for all residents include preventive care, inpatient and outpatient hospital care, maternity care, primary care, rehabilitation, clinically necessary home visits, mental health care and palliative care.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Services Covered Under Public Health Insurance",
+          "char_start": 6605,
+          "char_end": 6936,
+          "passage_sha256": "f7341e2c963656e58064e46fc400931eab80543e2fd266ca4b564253ea1fc11c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-covered-002",
+        "statement": "Clinically necessary dental care, eye care, long-term care and assistive devices are means-tested NHS services in England rather than free to all.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Services Covered Under Public Health Insurance",
+          "char_start": 6937,
+          "char_end": 7051,
+          "passage_sha256": "127100c14c277216b772ec1d3b444a3c69fb8cfae5381c8f38f4ecbb29956180"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-covered-003",
+        "statement": "Patients reach specialists through GP referral: general practitioners act as gatekeepers and there is no direct access to specialist care.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 22,
+          "char_start": 34076,
+          "char_end": 34274,
+          "passage_sha256": "369c07b737c314fd47e658a22b3cfa0e0e2315f946731d12e34e8b446a04a778"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-covered-004",
+        "statement": "NICE technology appraisals decide which new and existing medicines and treatments the NHS should use, and the NHS is legally required to fund and provide those that NICE recommends.",
+        "valence": "neutral",
+        "source_id": "nice-ta",
+        "locator": {
+          "section": "About technology appraisal guidance",
+          "char_start": 79,
+          "char_end": 353,
+          "passage_sha256": "2e3ddb80f0ef21d757b7c2a6a1b65bd5d214302dcfdcac10332e59c0ca630b6a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-covered-005",
+        "statement": "Health technology assessment is done by NICE in England, the Scottish Medicines Consortium in Scotland and the All Wales Medicines Strategy Group in Wales, using cost per quality-adjusted life-year and a threshold approach.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 20,
+          "char_start": 29373,
+          "char_end": 29756,
+          "passage_sha256": "361b6ec8a5515055db018df80d3c93340c56f014c3c432b7e298c88bf5b9d19f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-covered-006",
+        "statement": "Social care is not free at the point of use like the NHS: eligibility for publicly funded social care is means-tested and the criteria differ across the four UK nations.",
+        "valence": "neutral",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 20,
+          "char_start": 27861,
+          "char_end": 27989,
+          "passage_sha256": "ed247fe4864a65d44decf7dbfcacf9197a8930f603a626eb5386b03278a2a8e7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "GBR-cost_sharing-001",
+        "statement": "In England the standard charge is £9.90 per prescription item for people who are not exempt; exempt groups include children under 16, full-time students aged 16-18, people aged 60 and over, people on certain low-income benefits, pregnant women and those who gave birth in the last 12 months, holders of a medical exemption certificate and people receiving war pensions or armed forces compensation.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 7585,
+          "char_end": 8071,
+          "passage_sha256": "eb3a22a1ac00a8c3b4f89df8691c1bcc2843c84d27623a9dd20c98fb64ca961b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-cost_sharing-002",
+        "statement": "About 89% of prescription items dispensed by community pharmacies in England in 2025 were free of charge.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 7460,
+          "char_end": 7581,
+          "passage_sha256": "1dee80b1e9c218cfd81c31934d1d7aa0f6b4b5b70909e5b4acef4bc1284c096f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-cost_sharing-003",
+        "statement": "People in England who need many prescriptions can buy a prescription prepayment certificate covering all NHS prescriptions for three or 12 months, which caps what they pay.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8075,
+          "char_end": 8330,
+          "passage_sha256": "3c91d681d7a649e6148f1423110c8faebf27575e54ddceb52c0115e4564314f1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-cost_sharing-004",
+        "statement": "NHS dental care in England is charged in bands per course of treatment; the NHS website lists Band 1 (examination, diagnosis, advice, X-rays, scaling) at £27.90.",
+        "valence": "neutral",
+        "source_id": "nhs-dental-charges",
+        "locator": {
+          "section": "NHS dental treatment costs",
+          "char_start": 277,
+          "char_end": 889,
+          "passage_sha256": "34cec00b9d45b2a968005988a69f9cb070c2661f381fef7498dfe90dd7295d9d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-cost_sharing-005",
+        "statement": "The NHS website lists the Band 2 dental charge, which adds treatments such as fillings, root canal work and extractions, at £76.60.",
+        "valence": "neutral",
+        "source_id": "nhs-dental-charges",
+        "locator": {
+          "section": "NHS dental treatment costs",
+          "char_start": 1817,
+          "char_end": 2023,
+          "passage_sha256": "035d7c01fb8fd6a25c51e72b0581b5004966b7e30ce57c7d17e6375e7c6df464"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-cost_sharing-009",
+        "statement": "The NHS website lists the Band 3 dental charge, which adds crowns, dentures and similar work, at £332.10.",
+        "valence": "neutral",
+        "source_id": "nhs-dental-charges",
+        "locator": {
+          "section": "NHS dental treatment costs",
+          "char_start": 3507,
+          "char_end": 3647,
+          "passage_sha256": "cf7c2506f5465e0646ad9e4f8737321bdba1c59a2e07ae5aa270d59d736a3b93"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-cost_sharing-006",
+        "statement": "In England, people under 18 (or under 19 in full-time education), pregnant women and those who were recently pregnant, patients of hospital dentists, prisoners and people on certain low-income benefits do not pay NHS dental charges.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8397,
+          "char_end": 8630,
+          "passage_sha256": "325c2ee67816dd63fb698dc52636e88180528c14110bf5a179efe4105c67f400"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-cost_sharing-007",
+        "statement": "NHS eye tests in England are free for people under 18 (or under 19 in full-time education), people over 60, people on certain low-income benefits, people with glaucoma or a close relative with it, and people registered blind or partially sighted; under-18s and qualifying low-income people can get help with the cost of glasses or contact lenses.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8634,
+          "char_end": 9082,
+          "passage_sha256": "def915ee87b0d44f66fa53b1d1e88afc32f7825d26167572319aa9e34b545214"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-cost_sharing-008",
+        "statement": "Out-of-pocket spending made up 14.6% of UK health spending in 2024, with long-term care and dental services the largest items in 2023.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 24340,
+          "char_end": 24638,
+          "passage_sha256": "d16f599fc4332e910f411413904601aab35541ef4243f9fa454a4ac8797f7b23"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "GBR-financial_hardship-001",
+        "statement": "In a 2023 online survey of 600 cancer patients and survivors in the UK and the US, 32% of UK participants with financial toxicity were in debt (median I$7,200), compared with 54% of their US counterparts (median I$11,500).",
+        "valence": "neutral",
+        "source_id": "ft-uk-us-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2734,
+          "char_end": 2904,
+          "passage_sha256": "e2b40cb237c4d904502ff34e75dc9ffd93594bf22fe23c6dfc321fd71319abbd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-financial_hardship-002",
+        "statement": "The 2022 review lists the gaps in UK financial protection as means-tested out-of-pocket payments for social care, dental care, optometry and, in England only, prescriptions.",
+        "valence": "weakness",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 30958,
+          "char_end": 31116,
+          "passage_sha256": "d75970c899f21fec9c31be81971c646b7130a8238fcd1ad09e3fccb06e77b7dd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "GBR-additional_care-001",
+        "statement": "In 2023, 12% of the UK population had private medical insurance; it is supplementary, and buying it does not let people opt out of the public system.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 9276,
+          "char_end": 9458,
+          "passage_sha256": "fd0f37ff4ba96ac65c49bc4b301efd8b9768b873c2c8b8710704696a9e62a626"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-additional_care-002",
+        "statement": "UK private medical insurance usually does not cover emergency treatment or maternity care, and seeing a private specialist under a policy usually needs a referral from an NHS GP; some employers provide it as a benefit and individuals can also buy policies.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 9462,
+          "char_end": 9872,
+          "passage_sha256": "bf40d9abb31984676af6acbe6a89e764a66c027f47e7f8fe74e3cfc4e0349244"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-additional_care-003",
+        "statement": "NHS specialists may also treat private patients in designated wards of NHS or private hospitals; a 2022 Department of Health and Social Care estimate put about 20% of UK specialist doctors in private practice and about 2% working only privately.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 16813,
+          "char_end": 17119,
+          "passage_sha256": "2b3a6b60aca3fbdf7d270385a972dddbca77e446e1e365301dc1bedb21783529"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      }
+    ],
+    "access": [
+      {
+        "id": "GBR-access-001",
+        "statement": "At the end of August 2026, 7.4 million referral-to-treatment pathways in England were waiting for consultant-led elective care, an estimated 6.2 million individual patients because some wait on more than one pathway.",
+        "valence": "weakness",
+        "source_id": "nhse-rtt-aug2026",
+        "locator": {
+          "section": "Main findings",
+          "page": 1,
+          "char_start": 1189,
+          "char_end": 1415,
+          "passage_sha256": "1e885784f54d0e0068af59c899855c04b690e3c44d7c83109a5609401f5292de"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-access-002",
+        "statement": "In August 2026, 65.2% of waiting pathways in England had waited up to 18 weeks, short of the 92% standard; 113,339 had waited more than 52 weeks.",
+        "valence": "weakness",
+        "source_id": "nhse-rtt-aug2026",
+        "locator": {
+          "section": "Main findings",
+          "page": 1,
+          "char_start": 1418,
+          "char_end": 1762,
+          "passage_sha256": "b2f873c0cc33267638ce101d6ecd20445813cd48604a65d521d7d65c2c1fc04f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-access-003",
+        "statement": "The share of England's elective waits within 18 weeks rose 4.2 percentage points between August 2025 and August 2026, and the waiting list was 0.5% (33,512 pathways) smaller than a year earlier.",
+        "valence": "strength",
+        "source_id": "nhse-rtt-aug2026",
+        "locator": {
+          "section": "National trends",
+          "page": 3,
+          "char_start": 3358,
+          "char_end": 4200,
+          "passage_sha256": "ffb0af17da505f4498028f460f1d31eddc9b1fa956816e836845c2ada4f7931d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-access-004",
+        "statement": "For patients still waiting at the end of August 2026 in England, the median wait was 12.2 weeks and the 92nd percentile wait 38.8 weeks.",
+        "valence": "neutral",
+        "source_id": "nhse-rtt-aug2026",
+        "locator": {
+          "section": "Main findings",
+          "page": 1,
+          "char_start": 2008,
+          "char_end": 2192,
+          "passage_sha256": "fcb6a8fba3ca12cf2a9c7ae5f4a1be83e643a09b2089ed49958a714ce56923e3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-access-005",
+        "statement": "England had 64 GPs per 100,000 people in 2024, and 38,649 full-time-equivalent GPs (including trainees, excluding ad-hoc locums) in October 2025.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 13720,
+          "char_end": 13903,
+          "passage_sha256": "fbc2a4233245205b306968fd93d1208c5d7d9e77ae5e0856deb04bb1f981c0be"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-access-006",
+        "statement": "The number of GP partners in England fell 25% between 2015 and 2025 (from 24,491 to 18,367) while salaried GPs rose 81% to almost half of the GP workforce.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 14237,
+          "char_end": 14484,
+          "passage_sha256": "7d3d3053102f213b9221d0ee8211ebe01278170ccb48fcc606e8b007fdf20d28"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-access-007",
+        "statement": "England had 652 nursing and midwifery staff per 100,000 people in 2024, up from 623 in 2015 but below the European average of 826 in 2022.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 19132,
+          "char_end": 19442,
+          "passage_sha256": "a2b9b977860e509aca4382a57fb94834cd5b16f4dbcf44769296e464c770cab1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GBR-access-008",
+        "statement": "The NHS in England had 100,023 vacancies in September 2025, down from 109,919 a year earlier.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 17161,
+          "char_end": 17293,
+          "passage_sha256": "56c4608543d21344cf9534d26a770af817928e0af0afb2cae6ac84770c94dcdd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-access-009",
+        "statement": "Children and young people in England waited a median of 142 days for a second mental health appointment, as contacts with services grew faster than the number of interactions between June 2022 and June 2024.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 20236,
+          "char_end": 20701,
+          "passage_sha256": "e10c3627cf4c103a8c56f2de5b2edc6da864b57489e977145f682f83972049fa"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GBR-access-010",
+        "statement": "In 2025 few British adults were satisfied with waiting times: 27% for GP appointments, 16% for hospital appointments and 14% in A&E.",
+        "valence": "weakness",
+        "source_id": "bsa-2025",
+        "locator": {
+          "section": "Key findings: Attitudes to NHS standards, access and staffing",
+          "char_start": 2699,
+          "char_end": 2836,
+          "passage_sha256": "6d8c08fac139e299985cd9b5b521953d76344122ca035777766fb91e01ada169"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "GBR-outcomes-001",
+        "statement": "In the GBD 2019 study, the UK's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 83.3 (95% uncertainty interval 80.9-85.6) in 2019, 13.3 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 46791,
+          "char_end": 46952,
+          "passage_sha256": "af19c755fb598bfa6f68261e1c2d06d1465fab3fbfccb629a885d4c9275dc5c5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "GBR-outcomes-002",
+        "statement": "By age group in the GBD 2019 study, the UK's 2019 HAQ Index score was 91.0 for ages 0-14, 82.4 for ages 15-64 and 71.9 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 46791,
+          "char_end": 46873,
+          "passage_sha256": "1a63fdff9982f81dc429050510152339a84c578502ee325d98f6fc7d593e0c57"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "GBR-outcomes-003",
+        "statement": "The UK's avoidable mortality rate was 227 deaths per 100,000 people in 2021, below the OECD figure of 237.",
+        "valence": "strength",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 26990,
+          "char_end": 27115,
+          "passage_sha256": "bc65494d7d1249377a0e176f6df54b844b23f4d6012d345b2df759c09422e278"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "GBR-outcomes-004",
+        "statement": "Maternal mortality in the UK was 8.5 deaths per 100,000 live births in 2023, against a European average of 11.",
+        "valence": "strength",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 27357,
+          "char_end": 27484,
+          "passage_sha256": "777b9e5491e5528cfaaf485d2a3609208b47b18a57d64f4209bdfe236dc0c0e9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-outcomes-005",
+        "statement": "People living in England's most deprived tenth of areas are three times as likely to die before age 70 as those in the least deprived tenth, mainly because of more deaths from lung cancer, heart disease and respiratory disease.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 28636,
+          "char_end": 28900,
+          "passage_sha256": "4a97175cf4b533a3237729ad6a59aab7578471b302dc5e21d5f727cc0f86a05c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-outcomes-006",
+        "statement": "In 2021 Black women in England were 2.9 times as likely as white women to die around the end of pregnancy, and in 2023 the infant mortality rate for Black babies in England and Wales was 6.1 per 1,000 live births against 3 for white babies.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 29954,
+          "char_end": 30275,
+          "passage_sha256": "76ed7b85690e9c1a785c9d988c67830f47aa504b93801a21579011a8bc600638"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-outcomes-007",
+        "statement": "The 2022 review found that the UK trails many comparable high-income countries on life expectancy, infant mortality and cancer survival, and that gains in life expectancy have been stalling.",
+        "valence": "weakness",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 19,
+          "char_start": 26334,
+          "char_end": 26635,
+          "passage_sha256": "c1c59b3d037637c9fd7f95eb51b8822fb8c54b17f73b82f52edf3a9ffd13ed6c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "GBR-costs-001",
+        "statement": "UK current health spending was about £345 billion in 2025 (provisional), around £4,966 per person, or 11.4% of GDP, up from 11.1% in 2024.",
+        "valence": "neutral",
+        "source_id": "ons-ukha-2025",
+        "locator": {
+          "section": "Main points",
+          "char_start": 815,
+          "char_end": 1191,
+          "passage_sha256": "668356d19291dec729b539ebad0be6ba8f3ce9001f0e1751b2c69234700f3c48"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-costs-002",
+        "statement": "Health spending took between 9.7% and 10.0% of UK GDP each year from 2009 to 2019, a lower share than since the COVID-19 pandemic.",
+        "valence": "neutral",
+        "source_id": "ons-ukha-2025",
+        "locator": {
+          "section": "Healthcare expenditure as a share of GDP",
+          "char_start": 5864,
+          "char_end": 6080,
+          "passage_sha256": "0878d8aa92ab6e21fef5c56c800c0522a24b3f3905bbc554b7e4e97465febe91"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-costs-003",
+        "statement": "After general inflation, UK health spending grew 3.9% in 2025 and has grown 3.8% a year on average since 2023, slightly faster than the 3.6% average from 1997 to 2019.",
+        "valence": "neutral",
+        "source_id": "ons-ukha-2025",
+        "locator": {
+          "section": "Total current healthcare expenditure",
+          "char_start": 3371,
+          "char_end": 3812,
+          "passage_sha256": "44a41446f13a02315c670ad5bb75235f7ccb97528326210ef20b298e28229dda"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-costs-004",
+        "statement": "Pharmaceuticals were 9.7% of UK health spending in 2023, about USD 620 per person; about half went on community-prescribed medicines and about a quarter on over-the-counter medicines.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 23493,
+          "char_end": 23751,
+          "passage_sha256": "b36b6ce25f70bc2e1e88dfc8b46907145bcd9c01930ca6bfca5e5a3dfe046c92"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-costs-005",
+        "statement": "Under the Voluntary Scheme for Branded Medicines Pricing and Access, agreed by the government, NHS England and the pharmaceutical industry body, total NHS sales of branded medicines are capped, the cap rises 2% a year, and companies repay sales above it through a levy.",
+        "valence": "strength",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 23865,
+          "char_end": 24296,
+          "passage_sha256": "f63f93eb4fa13a75e9b76edb352130ac387cdbc0c3e7501126aa708a43d7cf19"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-costs-006",
+        "statement": "The NHS in England spent £16 billion on mental health services in 2022-23, about 14% of its budget.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 19789,
+          "char_end": 19930,
+          "passage_sha256": "aa1591bda017911aa81ce6781c85dd86938561bb3cf49f03979a549105f7af08"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-costs-007",
+        "statement": "Before the 2025 reforms the NHS in England spent billions each year covering provider deficits; in 2025 the government said its £2.2 billion deficit support fund would not go to bodies that missed their targets, and the fund is to end by 2026-27.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 25683,
+          "char_end": 26006,
+          "passage_sha256": "ded58563b465eba3d3215696fe7dc7694aea3c6bf914839c9fe7d34ac0cc3125"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "what_works": [
+      {
+        "id": "GBR-what_works-001",
+        "statement": "The 2022 review credits the NHS, with access based on need rather than ability to pay, with protecting people from the financial consequences of ill health, redistributing from rich to poor, and keeping administrative costs relatively low.",
+        "valence": "strength",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Abstract",
+          "page": 17,
+          "char_start": 23278,
+          "char_end": 23613,
+          "passage_sha256": "9e0b7f44defbac19b9ce9bc430984b146b0476988f0ce9a8c83dcb211472452a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-what_works-002",
+        "statement": "Mirror, Mirror 2024 found the UK's health system the best of 10 high-income countries on affordability, and among the three best (with the Netherlands and Germany) on access to care overall.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "How Countries Did on Each Performance Domain: Access to care",
+          "char_start": 9173,
+          "char_end": 9442,
+          "passage_sha256": "b65565f6b01d73ef5b3f5e1b0a0335ed20721f0a5d3bcf40e9bc8236b52e8545"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-what_works-003",
+        "statement": "Mirror, Mirror 2024 found Australia and the UK virtually tied for the best administrative efficiency of 10 countries, which it attributes to minimising payment and billing burdens.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "How Countries Did on Each Performance Domain: Administrative efficiency",
+          "char_start": 14679,
+          "char_end": 14926,
+          "passage_sha256": "6092341ba7e885a1d17d52b2d1f18f6739be08e2cbb0302e1fd2689f367c6e68"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-what_works-004",
+        "statement": "The 2022 review found that allocating fixed annual budgets to local bodies by formulae that account for local need strengthens the redistributive effect of UK health financing and supports financial control and equity of access.",
+        "valence": "strength",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 30406,
+          "char_end": 30711,
+          "passage_sha256": "a14136dece1f7f33fc0327f65fc25f8ad61cb1f551d8bead1d05b13f3844a848"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-what_works-005",
+        "statement": "NHS Talking Therapies in England, which takes GP referrals and self-referrals for anxiety and depression, saw 91.6% of patients for a first appointment within six weeks in 2024-25, and about 1.2 million people used it that year.",
+        "valence": "strength",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 21432,
+          "char_end": 21798,
+          "passage_sha256": "597661818980807fe2f3bf81a5dce5faac6a53a87b0987e08f429aa3e5bde4b0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-what_works-006",
+        "statement": "Large majorities of British adults in 2025 still backed the NHS founding principles: free at the point of use (89%), funded mainly through taxes (81%) and available to everyone (74%).",
+        "valence": "strength",
+        "source_id": "bsa-2025",
+        "locator": {
+          "section": "Key findings: NHS priorities and principles",
+          "char_start": 4651,
+          "char_end": 4953,
+          "passage_sha256": "729546794cf0eca124090fa8691ed1541c468a68d22024b43ecb04c74a8e8335"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-what_works-007",
+        "statement": "Public satisfaction with the NHS rose in 2025 for the first time since 2019, and the fall in dissatisfaction was the largest in more than 25 years.",
+        "valence": "strength",
+        "source_id": "bsa-2025",
+        "locator": {
+          "section": "Key findings: Satisfaction with the NHS",
+          "char_start": 1174,
+          "char_end": 1291,
+          "passage_sha256": "122e09b9f85cd9ab78e3cdbaf92cb7386da2091416fa4b607b7dc246e65e53ea"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "problems": [
+      {
+        "id": "GBR-problems-001",
+        "statement": "Only 26% of British adults were satisfied with the way the NHS runs in 2025 (up 6 points from 2024) and 51% were dissatisfied; just 16% expected NHS care to get better over the next five years, against 53% who expected it to get worse.",
+        "valence": "weakness",
+        "source_id": "bsa-2025",
+        "locator": {
+          "section": "Key findings: Satisfaction with the NHS",
+          "char_start": 843,
+          "char_end": 1625,
+          "passage_sha256": "b7f5abf03e7d981a88767d30be3dba71972237d8bb0d4204f4bb0bee6665b716"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-problems-002",
+        "statement": "In 2025 only 22% of British adults were satisfied with NHS dentistry and 54% were dissatisfied, similar to 2024.",
+        "valence": "weakness",
+        "source_id": "bsa-2025",
+        "locator": {
+          "section": "Key findings: Satisfaction with different NHS services",
+          "char_start": 1906,
+          "char_end": 2073,
+          "passage_sha256": "f1aa5a4618ecaf56f8b1a9739cb9bf1c05a9956da251bc3a3a8ca707f9a86a98"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-problems-003",
+        "statement": "The 2022 review found the UK unusual among comparable high-income countries in having relatively few doctors and few nurses, along with relatively few hospital beds and CT and MRI scanners.",
+        "valence": "weakness",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 31252,
+          "char_end": 31687,
+          "passage_sha256": "9d395e2e99f0340e794e3156d3e2c4bee955838a403957805618f702b09dd2e7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-problems-004",
+        "statement": "Access to mental health services is hard because mental health has had lower political priority and less funding than physical health since the NHS began, and rehabilitation services are limited across the UK.",
+        "valence": "weakness",
+        "source_id": "hit-gbr-2022",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 34456,
+          "char_end": 34796,
+          "passage_sha256": "41f623a0d5a60fe5c20480adfec386e25f4b713a7791937edebc007d55111c2d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-problems-005",
+        "statement": "Staff shortages and NHS pay rising more slowly than private-sector pay contributed to strikes by health workers in 2023-24, especially by trainee doctors.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 17503,
+          "char_end": 17703,
+          "passage_sha256": "2f44d3acc275a1de4a802a4b54d7888318446b9163e4115294bf24905923adb8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GBR-problems-010",
+        "statement": "Understaffing, overwork and low pay led NHS nurses to strike in December 2022, the first strike in the Royal College of Nursing's history.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 15787,
+          "char_end": 16145,
+          "passage_sha256": "c31486328a83f7535114d5123cf970e7a4421864651d9763d486e199eb8e5379"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GBR-problems-006",
+        "statement": "Only 12% of British adults agreed in 2025 that the NHS has enough staff (71% disagreed), and only 13% agreed it spends its money efficiently.",
+        "valence": "weakness",
+        "source_id": "bsa-2025",
+        "locator": {
+          "section": "Key findings",
+          "char_start": 2908,
+          "char_end": 3425,
+          "passage_sha256": "e7b30d3a2d58ae519f81e69b57ceda1c644dd6939eced290719ecf51330b34c7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-problems-007",
+        "statement": "The NHS in England has struggled with an underfunded social care sector that often blocked the flow of patients through health care.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 21836,
+          "char_end": 21952,
+          "passage_sha256": "8eecb942e238d12f19764077d4e5cfdcdadf5f45b39512accb4550004d00faae"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-problems-008",
+        "statement": "About 630,000 people in the UK were on waiting lists for women's health problems such as endometriosis and menopause care in 2024.",
+        "valence": "weakness",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 30411,
+          "char_end": 30529,
+          "passage_sha256": "1221fe4d4c7bfb73e5ea335f23f216228e8f3d40918fcf58f0441c0d6a0a5e3e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GBR-problems-009",
+        "statement": "In Mirror, Mirror 2024 the UK ranked in the middle of 10 countries on most domains other than access and administrative efficiency, and lower on health outcomes; reviewers questioned its high overall rank given long elective waits and staff burnout.",
+        "valence": "weakness",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Note on the United Kingdom's ranking",
+          "char_start": 59920,
+          "char_end": 60642,
+          "passage_sha256": "1a6aedd8f4e48ffbd75bbdff727b96c493d6a632958c85f8dd51130edda313a0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "GBR-reforms-001",
+        "statement": "The Health Bill introduced in 2026 would abolish NHS England, which held and allocated NHS funding and produced most policy and guidance, and pass its powers and duties to the Department of Health and Social Care.",
+        "valence": "neutral",
+        "source_id": "nuffield-healthbill-2026",
+        "locator": {
+          "section": "Key changes: structural reorganisation and abolishing NHS England",
+          "page": 3,
+          "char_start": 1584,
+          "char_end": 1894,
+          "passage_sha256": "d60c6fb87ce74324e4967df079ed30a81872f5c0ef0c18f3eed23d34940b6675"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-reforms-002",
+        "statement": "The 2026 Health Bill would also give the Health Secretary and department more power to intervene in NHS trusts and boards, abolish the patient body Healthwatch, and fold the patient safety investigator HSSIB into the CQC regulator.",
+        "valence": "neutral",
+        "source_id": "nuffield-healthbill-2026",
+        "locator": {
+          "section": "What the Bill does",
+          "page": 2,
+          "char_start": 111,
+          "char_end": 924,
+          "passage_sha256": "644ed1e00b7da74411a956550b79e46e82f5bdf5a791d13f629cada2c79de017"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-reforms-003",
+        "statement": "Alongside the Bill, the reorganisation merges integrated care boards regionally and sets targets to halve the combined workforce of NHS England and the Department of Health and Social Care and to halve integrated care boards' running costs.",
+        "valence": "neutral",
+        "source_id": "nuffield-healthbill-2026",
+        "locator": {
+          "section": "Key changes: Not in the Bill, but important to know",
+          "page": 3,
+          "char_start": 2505,
+          "char_end": 2887,
+          "passage_sha256": "42e7cbd0337fa0e0852ece9bef925355e1b7bbc0c514221bb6f948e377957975"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "GBR-reforms-004",
+        "statement": "In March 2025 the UK government announced it would abolish NHS England to bring it under direct ministerial control, citing clearer accountability and less duplication; its functions are being merged into the Department of Health and Social Care over two years.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "The Role of Government",
+          "char_start": 10691,
+          "char_end": 11098,
+          "passage_sha256": "eee1b8b6aeef095afb5a863025a7cb53bca049e7e8083b31a6ae8bd18227eb8a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-reforms-005",
+        "statement": "The 10 Year Health Plan for England, published in July 2025, sets three shifts: from hospital to community care, from analogue to digital, and from treating sickness to prevention.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Health Care Innovation",
+          "char_start": 32572,
+          "char_end": 32766,
+          "passage_sha256": "64e104dbca59163e76dcf2f91397ed426d3eb10859709a22f18e998000998942"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-reforms-006",
+        "statement": "Under the 10 Year Health Plan, NICE is being given the power to withdraw treatments that are no longer cost-effective.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 26338,
+          "char_end": 26476,
+          "passage_sha256": "c0deb8c40fc8b96e53a1f4c240d756568c6eca732603bf6b0afae28017dd4b83"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GBR-reforms-007",
+        "statement": "In July 2022, 42 integrated care systems, partnerships of NHS bodies and local councils, took over local planning in England from clinical commissioning groups, which had commissioned services since 2013.",
+        "valence": "neutral",
+        "source_id": "cwf-gbr",
+        "locator": {
+          "section": "Integration and Care Coordination",
+          "char_start": 11922,
+          "char_end": 12307,
+          "passage_sha256": "86121afa05b64d2f727211678d5f98fd62c4938c52141a2a14d92bac0681ef31"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "GBR-us_lessons-001",
+        "statement": "Mirror, Mirror 2024 attributes the UK's high overall rank to strong access and administrative efficiency, which it traces to care free at the point of use removing both cost barriers and the paperwork of billing; it judged that ending free care would likely lower the UK's ranking.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Note on the United Kingdom's ranking",
+          "char_start": 60188,
+          "char_end": 60776,
+          "passage_sha256": "01b0c9ef3a95e8da2f541b30e7aeb3d7089894e23ce362eeb14ef40dc903d19b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-us_lessons-002",
+        "statement": "In the Commonwealth Fund's comparison, an MRI scan in the US averaged $1,119, 42% more than the average cost in the UK.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Health Care Use and Prices",
+          "char_start": 12281,
+          "char_end": 12398,
+          "passage_sha256": "0b6a87ec4f283e5f435daadc65e5e090656e28b43c1bd79c28b6ff3ccdbee408"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-us_lessons-003",
+        "statement": "In the Commonwealth Fund's comparison of high-income countries, the UK had the lowest suicide rate, close to half that of the US, which had the third-highest.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Population Health",
+          "char_start": 8591,
+          "char_end": 8694,
+          "passage_sha256": "6a8a084300e55fbaad0e8d9a4948e3a8c1a63733be94787ec688aaaf9776bdee"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "GBR-us_lessons-004",
+        "statement": "In a 2023 survey of cancer patients and survivors, US participants with financial toxicity were 2.48 times as likely to be in debt as UK participants with financial toxicity.",
+        "valence": "neutral",
+        "source_id": "ft-uk-us-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2905,
+          "char_end": 3031,
+          "passage_sha256": "6b7b06c0bcca3544bfd9b1f932d4a6c50dd8cf8a0ff87d9314f2fd6e4b0e5aec"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GBR-us_lessons-005",
+        "statement": "Mirror, Mirror 2024 found Australia and the UK best on administrative efficiency, by keeping payment and billing burdens low, while Switzerland and the US came last.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "How Countries Did on Each Performance Domain: Administrative efficiency",
+          "char_start": 14679,
+          "char_end": 14825,
+          "passage_sha256": "7ecbf4b8a8f7dc295a015331f308e0960ff7addbf9bcb8f9af1bf5320b7fc7b2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/GBR.json",
+  "sources": [
+    {
+      "id": "hit-gbr-2022",
+      "title": "United Kingdom: Health System Review",
+      "publisher": "European Observatory on Health Systems and Policies (Health Systems in Transition, Vol. 24 No. 1)",
+      "authors": "Anderson M, Pitchforth E, Edwards N, Alderwick H, McGuire A, Mossialos E",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2022,
+      "url": "https://iris.who.int/server/api/core/bitstreams/9c05fab0-2d28-4094-a79e-2b37f8684fc3/content",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-gbr",
+      "title": "International Health Care System Profiles: England (2026 country profile, data as of January 2026)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/england",
+      "funding_note": "Content produced by FT Longitude for the Commonwealth Fund, a US private foundation. Covers England only unless stated.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "doi": "10.26099/ta0g-zp66",
+      "funding_note": "US private foundation; the report is framed around lessons for the US.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024-report",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System - Comparing Performance in 10 Nations (full report)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024",
+      "doi": "10.26099/ta0g-zp66",
+      "funding_note": "US private foundation; the report is framed around lessons for the US.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-global-2023",
+      "title": "U.S. Health Care from a Global Perspective, 2022: Accelerating Spending, Worsening Outcomes",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Gunja MZ, Gumas ED, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022",
+      "funding_note": "US private foundation.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nhse-rtt-aug2026",
+      "title": "Statistical Press Notice: NHS referral to treatment (RTT) waiting times data, August 2026",
+      "publisher": "NHS England",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/10/Aug26-RTT-statistical-press-notice-PDF-389K-vjgRdG.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ons-ukha-2025",
+      "title": "Healthcare expenditure, UK Health Accounts: 2024 and 2025",
+      "publisher": "Office for National Statistics",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthcaresystem/bulletins/ukhealthaccounts/2024and2025",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bsa-2025",
+      "title": "Public satisfaction with the NHS and social care in 2025: Results from the British Social Attitudes survey",
+      "publisher": "Nuffield Trust and The King's Fund",
+      "authors": "Jefferies D, Wellings D, Taylor B, Dayan M, Merry L",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.nuffieldtrust.org.uk/research/public-satisfaction-with-the-nhs-and-social-care-in-2025-results-from-the-british-social-attitudes-survey",
+      "funding_note": "Independent health think tanks (Nuffield Trust, The King's Fund); survey fieldwork by NatCen.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gad-nif-2026",
+      "title": "Report by the Government Actuary on the draft Social Security Benefits Up-rating Order 2026 and the draft Social Security (Contributions) Regulations 2026",
+      "publisher": "Government Actuary's Department (UK Government)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://assets.publishing.service.gov.uk/media/69666e391f94f51fd079cbbc/E03471795_Un_Act_GAD_NIF_Uprating_Report_Jan26_Web_Accessible.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hmrc-bik-medical",
+      "title": "Expenses and benefits: medical or dental treatment and insurance (printable guide)",
+      "publisher": "HM Revenue & Customs (GOV.UK)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gov.uk/expenses-and-benefits-medical-treatment/print",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nuffield-healthbill-2026",
+      "title": "What's in the Bill? Nuffield Trust briefing on the 2026 Health Bill",
+      "publisher": "Nuffield Trust",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.nuffieldtrust.org.uk/sites/default/files/2026-05/what-does-the-health-bill-do.pdf",
+      "funding_note": "Independent health think tank; the briefing includes the Trust's own assessment of the Bill.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ft-uk-us-2025",
+      "title": "Impact of Financial Toxicity on the Health-Related Quality of Life and Financial Well-Being of Cancer Patients and Survivors: A Comparative Study of the United Kingdom and United States",
+      "publisher": "Cancer Medicine",
+      "authors": "Ngan TT, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1002/cam4.70606",
+      "doi": "10.1002/cam4.70606",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11733585",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nice-ta",
+      "title": "About technology appraisal guidance",
+      "publisher": "National Institute for Health and Care Excellence (NICE)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nice.org.uk/about/what-we-do/our-programmes/nice-guidance/nice-technology-appraisal-guidance",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nhs-dental-charges",
+      "title": "How much NHS dental treatment costs",
+      "publisher": "NHS (nhs.uk, England)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 3,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 1,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity (Sweden not ranked)",
+      "position": 5,
+      "of": 9,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created."
+    }
+  ]
+}

@@ -65,7 +65,9 @@ Other things you will meet:
 ## One-time setup
 
 You need the `gcloud` CLI and Terraform 1.9 or newer
-(`brew install terraform` on a Mac).
+(on a Mac: `brew tap hashicorp/tap && brew install hashicorp/tap/terraform`;
+plain `brew install terraform` gives an old 1.5.x build, because Homebrew's own
+formula stopped updating after HashiCorp's 2023 license change).
 
 1. **Create the two projects and link billing.** In the console or:
    ```sh

@@ -1,0 +1,219 @@
+{
+  "iso3": "NLD",
+  "name": "Netherlands",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "draft",
+  "model": {
+    "type": "regulated_private_insurance",
+    "label": "Mandatory, community-rated basic insurance bought from competing private non-profit insurers (managed competition, with risk equalisation), plus a single-payer social insurance for long-term care"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [],
+    "financing": [],
+    "covered": [],
+    "cost_sharing": [],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/NLD.json",
+  "sources": [
+    {
+      "id": "chp-nld-2025",
+      "title": "The Netherlands: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-netherlands-final-web.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hss-nld-2024",
+      "title": "The Netherlands: Health System Summary 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Kroneman M, de Jong J, Polin K, Webb E",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://iris.who.int/handle/10665/381432",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/020e6e0c-ee8f-475f-b4b9-5a18d7b5445f/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "vws-begroting-2026",
+      "title": "Vaststelling begrotingsstaten Ministerie van Volksgezondheid, Welzijn en Sport 2026 (memorie van toelichting)",
+      "publisher": "Ministerie van Volksgezondheid, Welzijn en Sport (Rijksfinancien)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.rijksfinancien.nl/memorie-van-toelichting/2026/OWB/XVI",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "vws-begroting-2027",
+      "title": "Vaststelling begrotingsstaten Ministerie van Volksgezondheid, Welzijn en Sport 2027 (memorie van toelichting)",
+      "publisher": "Ministerie van Volksgezondheid, Welzijn en Sport (Rijksfinancien)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksfinancien.nl/memorie-van-toelichting/2027/OWB/XVI",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bd-zvw-2026",
+      "title": "Fiscale informatie 2026, hoofdstuk 28: Inkomensafhankelijke bijdrage Zorgverzekeringswet",
+      "publisher": "Belastingdienst (Dutch Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/fisin/fisin2026/inkomensafhankelijke_bijdrage_zorgverzekeringswet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bd-pvv-2026",
+      "title": "Fiscale informatie 2026, hoofdstuk 27: Premie volksverzekeringen",
+      "publisher": "Belastingdienst (Dutch Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/fisin/fisin2026/premie_volksverzekeringen",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ro-premie",
+      "title": "Wat kost het om een zorgverzekering af te sluiten?",
+      "publisher": "Rijksoverheid (Ministerie van Volksgezondheid, Welzijn en Sport)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/premie-zorgverzekering",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ro-eigen-risico",
+      "title": "Wanneer betaal ik een eigen risico voor mijn zorg?",
+      "publisher": "Rijksoverheid (Ministerie van Volksgezondheid, Welzijn en Sport)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/eigen-risico-zorgverzekering",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ro-basispakket",
+      "title": "Wat verandert er in het basispakket van de zorgverzekering in 2026?",
+      "publisher": "Rijksoverheid (Ministerie van Volksgezondheid, Welzijn en Sport)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/veranderingen-basispakket",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cbs-wanbetalers",
+      "title": "Betalingsachterstand zorgpremie; geslacht en leeftijd per 31 december (StatLine table 81062ned)",
+      "publisher": "Centraal Bureau voor de Statistiek (Statistics Netherlands)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cbs.nl/nl-nl/cijfers/detail/81062ned",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-nld",
+      "title": "International Health Care System Profiles: Netherlands (2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/netherlands",
+      "funding_note": "US private foundation; profile written by FT Longitude for the Fund, reflecting data as of January 2026. Its statement of a planned deductible cut for 2027 was overtaken by the 2026 coalition's budget (see vws-begroting-2027).",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024-report",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (report)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024",
+      "doi": "10.26099/ta0g-zp66",
+      "funding_note": "US private foundation focused on health system improvement; written explicitly to draw lessons for the US.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hepl-15yrs-2024",
+      "title": "Healthcare reform in the Netherlands: after 15 years of regulated competition",
+      "publisher": "Health Economics, Policy and Law",
+      "authors": "Maarse H, Jeurissen P",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1017/S1744133123000385",
+      "doi": "10.1017/S1744133123000385",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38299305&rettype=abstract&retmode=text",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "resid-spenders-2021",
+      "title": "Very high and low residual spenders in private health insurance markets: Germany, The Netherlands and the U.S. Marketplaces",
+      "publisher": "The European Journal of Health Economics",
+      "authors": "McGuire TG, Schillo S, van Kleef RC",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1007/s10198-020-01227-3",
+      "doi": "10.1007/s10198-020-01227-3",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7822791",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created."
+    }
+  ]
+}

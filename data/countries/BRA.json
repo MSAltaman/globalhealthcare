@@ -3,7 +3,7 @@
   "name": "Brazil",
   "wave": 1,
   "system_as_of": "2026-11-10",
-  "status": "verified",
+  "status": "draft",
   "model": {
     "type": "national_health_service",
     "label": "Tax-funded unified national health system (SUS), free at the point of use and run jointly by federal, state and municipal governments, alongside voluntary private health plans"
@@ -207,11 +207,15 @@
         "valence": "neutral",
         "source_id": "correa-2024",
         "locator": {
-          "section": "Background"
+          "section": "Background",
+          "char_start": 4727,
+          "char_end": 4848,
+          "passage_sha256": "3cc045c9b6074bfacb859b11b50ea79d1decaad1ca6413991bad7e8d7d23b3fa"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
@@ -220,24 +224,34 @@
         "valence": "neutral",
         "source_id": "camara-nt20-2023",
         "locator": {
-          "section": "IV. Emenda Constitucional nº 86, de 2015"
+          "section": "IV. Emenda Constitucional nº 86, de 2015",
+          "page": 4,
+          "char_start": 7023,
+          "char_end": 7305,
+          "passage_sha256": "c401eaebdfef27608aeb67d4627bd0058688b5148b70f7cddde6d2cf19d1a990"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
         "id": "BRA-financing-008",
-        "statement": "Constitutional Amendment 95 of 2016 brought forward the 15%-of-net-current-revenue floor to 2017 and, for later years, replaced it with the previous year's floor adjusted for consumer price inflation (IPCA), as part of a cap on federal primary spending planned to run from 2017 to 2036.",
+        "statement": "Constitutional Amendment 95 of 2016 brought forward to 2017 the floor of 15% of net current revenue and, for the years after, set it at that base corrected by accumulated consumer price inflation (IPCA).",
         "valence": "neutral",
         "source_id": "camara-nt20-2023",
         "locator": {
-          "section": "V. Emenda Constitucional nº 95, de 2016"
+          "section": "V. Emenda Constitucional nº 95, de 2016",
+          "page": 5,
+          "char_start": 10728,
+          "char_end": 11023,
+          "passage_sha256": "e8ff9c6a89bb07bdb02ac6a853baa2866fe64292a6fcd321d4c4d3b1de4f151f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": "2016-2017",
         "historical": true
@@ -248,50 +262,68 @@
         "valence": "neutral",
         "source_id": "camara-nt20-2023",
         "locator": {
-          "section": "VI. Emenda Constitucional nº 126, de 2022"
+          "section": "VI. Emenda Constitucional nº 126, de 2022",
+          "page": 6,
+          "char_start": 11486,
+          "char_end": 11946,
+          "passage_sha256": "3095bdb6d80e481bc2880eda6aa34bbf3d8adbad27fb30e6cab8b13a77093287"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
         "id": "BRA-financing-010",
-        "statement": "Complementary Law 141 of 2012 requires the states and the Federal District to spend at least 12% of their revenue from state taxes and from specified federal transfers on public health actions and services each year, after deducting the shares passed on to their municipalities.",
+        "statement": "Complementary Law 141 of 2012 requires the states and the Federal District to spend at least 12% of their revenue from state taxes and from specified constitutional transfers on public health actions and services each year, after deducting the shares passed on to their municipalities.",
         "valence": "neutral",
         "source_id": "lc-141-2012",
         "locator": {
-          "section": "Art. 6º"
+          "section": "Art. 6º",
+          "char_start": 6749,
+          "char_end": 7143,
+          "passage_sha256": "887d65616831ad86a534da19cf158d401925fb5b41d72744d33048e08399ccae"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
         "id": "BRA-financing-011",
-        "statement": "The same law requires municipalities (and the Federal District) to spend at least 15% of their revenue from municipal taxes and from specified federal and state transfers on public health actions and services each year.",
+        "statement": "The same law requires municipalities (and the Federal District) to spend at least 15% of their revenue from municipal taxes and from specified constitutional transfers on public health actions and services each year.",
         "valence": "neutral",
         "source_id": "lc-141-2012",
         "locator": {
-          "section": "Art. 7º"
+          "section": "Art. 7º",
+          "char_start": 7171,
+          "char_end": 7492,
+          "passage_sha256": "599af016d208cd756b400a4cbc3ff35429738e9d5bf2b86e1b8991ee13e553e0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
         "id": "BRA-financing-012",
-        "statement": "According to the Ministry of Health's public health budget system (SIOPS), in 2021 the states and the Federal District spent R$ 11.4 billion of their own revenue on public health actions and services above the constitutional minimum, and the municipalities R$ 40.0 billion.",
+        "statement": "CONASS, citing SIOPS data, reports that in 2021 the states and the Federal District spent R$ 11.4 billion of their own revenue on public health actions and services above the constitutional minimum, and the municipalities R$ 40.0 billion.",
         "valence": "neutral",
         "source_id": "conass-2023",
         "locator": {
-          "section": "Financiamento do SUS"
+          "section": "Financiamento do SUS",
+          "page": 7,
+          "char_start": 8840,
+          "char_end": 9066,
+          "passage_sha256": "eb07f331d5393f8a3beada2f71f5b6082386d1f5bb0c99de05c4e57d0315085b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2021
       },
@@ -301,54 +333,74 @@
         "valence": "neutral",
         "source_id": "anfip-2023",
         "locator": {
-          "section": "Análise da Seguridade Social em 2022"
+          "section": "Análise da Seguridade Social em 2022",
+          "page": 57,
+          "char_start": 138778,
+          "char_end": 139389,
+          "passage_sha256": "382f3fd80859615f36ab4673ff72190e9f0a5fb4e55840ba32325cb5220336b5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": "1988-1998",
         "historical": true
       },
       {
         "id": "BRA-financing-014",
-        "statement": "In IBGE's health satellite account, final consumption of health goods and services was 9.7% of GDP in 2021: 4.0% of GDP by government and 5.7% by households and non-profit institutions serving households. These are national-accounts final-consumption figures, not the System of Health Accounts definition used by WHO and the OECD.",
+        "statement": "In IBGE's health satellite account, final consumption spending on health goods and services was 9.7% of GDP in 2021: 4.0% of GDP by government and 5.7% by households and non-profit institutions serving households.",
         "valence": "neutral",
         "source_id": "ibge-css-2024",
         "locator": {
-          "section": "Despesas com consumo final de bens e serviços de saúde como percentual do PIB, por setor institucional"
+          "section": "Despesas com consumo final de bens e serviços de saúde como percentual do PIB, por setor institucional",
+          "page": 3,
+          "char_start": 10345,
+          "char_end": 10569,
+          "passage_sha256": "28011d1d67c7eaca087ed261bb17936c2174f4a3cedff260eaf930200c6d110f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2021
       },
       {
         "id": "BRA-financing-015",
-        "statement": "In the satellite account, households' spending on private health services (which counts all payments to health plans, including those made by employers) was their largest health expense: 67.5% of household final health consumption in 2019, 64.9% in 2020 and 63.7% in 2021.",
+        "statement": "In the satellite account, private health services were households' largest health expense, at 67.5% of their final consumption spending on health in 2019, 64.9% in 2020 and 63.7% in 2021; this item counts all payments to health plans, including payments made by employers.",
         "valence": "neutral",
         "source_id": "ibge-css-2024",
         "locator": {
-          "section": "Consumo final das famílias"
+          "section": "Consumo final das famílias",
+          "page": 4,
+          "char_start": 14872,
+          "char_end": 15210,
+          "passage_sha256": "17ffbc4ee698a621f5925bdeca964ab6b88baf393f1af28f4c2ae21bf3564072"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": "2019-2021"
       },
       {
         "id": "BRA-financing-016",
-        "statement": "Medicines were 32.5% of households' health spending in 2020 (R$ 143.1 billion) and 33.7% in 2021 (R$ 168.3 billion).",
+        "statement": "Medicines took a growing share of households' health spending: 32.5% in 2020 (R$ 143.1 billion) and 33.7% in 2021 (R$ 168.3 billion).",
         "valence": "neutral",
         "source_id": "ibge-css-2024",
         "locator": {
-          "section": "Consumo final das famílias"
+          "section": "Consumo final das famílias",
+          "page": 4,
+          "char_start": 15211,
+          "char_end": 15513,
+          "passage_sha256": "b4a2620d316d18920908dcd6d8d949780e86e98cf69646f9055cd72efcf66125"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": "2020-2021"
       },
@@ -358,11 +410,16 @@
         "valence": "neutral",
         "source_id": "ans-panorama-2025",
         "locator": {
-          "section": "2 Beneficiários de planos de saúde"
+          "section": "2 Beneficiários de planos de saúde",
+          "page": 5,
+          "char_start": 7385,
+          "char_end": 7534,
+          "passage_sha256": "014bb9bb62433e5809aa1be663644124c8e3ebafe6064eef1659c15b29745950"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2025
       },
@@ -372,39 +429,54 @@
         "valence": "neutral",
         "source_id": "ans-panorama-2025",
         "locator": {
-          "section": "Figura 1: Grandes Números do Setor de Saúde Suplementar"
+          "section": "Figura 1: Grandes Números do Setor de Saúde Suplementar",
+          "page": 5,
+          "char_start": 6878,
+          "char_end": 6997,
+          "passage_sha256": "ef04cc20e5a777ad50f29399a6acd702fde7020e47056472145c5b1c626e7653"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2024
       },
       {
         "id": "BRA-financing-019",
-        "statement": "Enrolment in medical plans grew most in employer-sponsored group plans (3.90%), which cover people linked to a company by employment; individual plans lost 1.38% of their beneficiaries between 2023 and 2024 and group plans joined through professional or trade associations lost 4.87%.",
+        "statement": "Among medical plans, employer-type group plans (for people linked to an organisation by employment or statutory relationship) had the largest growth in beneficiaries, 3.90%; between 2023 and 2024 individual plans lost 1.38% of their beneficiaries and group plans joined through professional, trade or sector bodies lost 4.87%.",
         "valence": "neutral",
         "source_id": "ans-panorama-2025",
         "locator": {
-          "section": "2 Beneficiários de planos de saúde"
+          "section": "2 Beneficiários de planos de saúde",
+          "page": 6,
+          "char_start": 8548,
+          "char_end": 9301,
+          "passage_sha256": "110373dda569448ad22c92f4efdaeea010cbbe0119e3db54c14edbb3cd9e2e22"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": "2023-2025"
       },
       {
         "id": "BRA-financing-020",
-        "statement": "The Federal Revenue Service estimated federal tax expenditures (revenue forgone through tax benefits) for 2026 at R$ 612.84 billion, equal to 4.43% of GDP and 20.20% of the revenue it administers.",
+        "statement": "The Federal Revenue Service estimated federal tax expenditures (gastos tributários) for 2026 at R$ 612.84 billion, equal to 4.43% of GDP and 20.20% of the revenue it administers.",
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
         "locator": {
-          "section": "Análise dos valores estimados"
+          "section": "Análise dos valores estimados",
+          "page": 9,
+          "char_start": 14015,
+          "char_end": 14383,
+          "passage_sha256": "4dc94ec4e9f9fd4eb4f395a7d747a74e6cfa1a490b9cfc81a2629e2182f77a86"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2026
       },
@@ -414,11 +486,16 @@
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
         "locator": {
-          "section": "Análise dos valores estimados"
+          "section": "Análise dos valores estimados",
+          "page": 10,
+          "char_start": 15131,
+          "char_end": 15452,
+          "passage_sha256": "4a0deea2a6f120e7b85dbcf9a40354eb45b03564525cd9d22ec2ce2a17fa1c09"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2026
       },
@@ -428,11 +505,16 @@
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
         "locator": {
-          "section": "Anexo: gastos tributários por tributo (IRPF)"
+          "section": "Anexo: gastos tributários por tributo (IRPF)",
+          "page": 22,
+          "char_start": 44407,
+          "char_end": 44475,
+          "passage_sha256": "ad2e5845d7ec26e96d1f26a2d7986b39cb0fb3dec9f9a9de65a79505de0eece8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
@@ -441,37 +523,52 @@
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
         "locator": {
-          "section": "Anexo: gastos tributários por tributo (IRPJ)"
+          "section": "Anexo: gastos tributários por tributo (IRPJ)",
+          "page": 22,
+          "char_start": 45498,
+          "char_end": 45606,
+          "passage_sha256": "55f86a60733c0c8682d67b352af15ec5b0b63685bcd03548ebfe07dff840cdac"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
         "id": "BRA-financing-024",
-        "statement": "Unlike education expenses, personal income tax deductions for health expenses have no ceiling, although the deduction cannot exceed the taxpayer's income.",
+        "statement": "Unlike families' education expenses, personal income tax deductions for health expenses have no ceiling, although the amount deducted cannot exceed the taxpayer's taxable income, because Brazilian law makes no provision for negative income tax.",
         "valence": "neutral",
         "source_id": "ocke-reis-2021",
         "locator": {
-          "section": "2 Gasto tributário em saúde"
+          "section": "2 Gasto tributário em saúde",
+          "page": 9,
+          "char_start": 15707,
+          "char_end": 16057,
+          "passage_sha256": "5d8c105b2ede4da67eae827f6d5a31c338aa267dba97fedbfaf8d2ccd208ea58"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
         "id": "BRA-financing-025",
-        "statement": "An Ipea study put the corporate income tax revenue forgone on health in 2018 at R$ 8.3 billion; companies can deduct the health care they pay for their employees from taxable profit.",
+        "statement": "Employers that pay part of their employees' health plans can deduct this as an operating expense from taxable profit; the Ipea study put the health-related corporate income tax (IRPJ) revenue forgone at R$ 8.3 billion in 2018.",
         "valence": "neutral",
         "source_id": "ocke-reis-2021",
         "locator": {
-          "section": "5 Proposições"
+          "section": "5 Proposições",
+          "page": 19,
+          "char_start": 37773,
+          "char_end": 38205,
+          "passage_sha256": "e123b6504bbc120c213e894eb30b0132c3859210db83272ac7c2cd7aa3571c54"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2018
       },
@@ -481,11 +578,16 @@
         "valence": "weakness",
         "source_id": "ocke-reis-2021",
         "locator": {
-          "section": "3 Impacto do subsídio"
+          "section": "3 Impacto do subsídio",
+          "page": 13,
+          "char_start": 24061,
+          "char_end": 24211,
+          "passage_sha256": "07de3864f4164ae5857e9b01280205a9e9dd879995219f9750f970ae36d707d3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       },
       {
@@ -494,38 +596,35 @@
         "valence": "neutral",
         "source_id": "tcu-gt-2025",
         "locator": {
-          "section": "Deduções do Rendimento Tributável - IRPF"
+          "section": "Deduções do Rendimento Tributável - IRPF",
+          "page": 23,
+          "char_start": 27744,
+          "char_end": 27927,
+          "passage_sha256": "fca67ed97689a5ddb58b8f625d9e193939ef6fa618ed29db3955950983ac2f2a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         },
         "data_year": 2025
       },
       {
         "id": "BRA-financing-028",
-        "statement": "The TCU rates these personal income tax deductions high-risk: it finds them strongly regressive, with 88% of the benefit going to the richest 20%, and inconsistent with the universal SUS.",
+        "statement": "The TCU classes the personal income tax deductions as high risk, finding them strongly regressive (88% of the benefit goes to the richest 20%) and inconsistent with the universal health (SUS) and education policies.",
         "valence": "weakness",
         "source_id": "tcu-gt-2025",
         "locator": {
-          "section": "Deduções do Rendimento Tributável - IRPF"
+          "section": "Deduções do Rendimento Tributável - IRPF",
+          "page": 23,
+          "char_start": 25805,
+          "char_end": 27023,
+          "passage_sha256": "bab6b6c1813fb5f0e74a21f6a805e7290c70b627bb23da0527a8629d3b32ba9d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        }
-      },
-      {
-        "id": "BRA-financing-029",
-        "statement": "For the tax relief on medical assistance that employers provide to workers, the TCU reports that evaluations recommended reviewing the benefit (controlling, reducing or ending it) and redirecting the money to the SUS, and that this relief goes mostly to the richest part of the population.",
-        "valence": "weakness",
-        "source_id": "tcu-gt-2025",
-        "locator": {
-          "section": "Benefícios do Trabalhador"
-        },
-        "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-12"
         }
       }
     ],

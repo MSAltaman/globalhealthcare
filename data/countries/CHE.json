@@ -103,7 +103,7 @@
       },
       {
         "id": "CHE-overview-006",
-        "statement": "Health care responsibilities are split across federal, cantonal and municipal government; the cantons have wide autonomy over provision, financing, prevention and health promotion, though they increasingly work together.",
+        "statement": "Switzerland's federal structure gives the cantons wide autonomy over health care provision, financing, prevention and health promotion, although they increasingly work together across cantonal borders.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -177,14 +177,14 @@
       },
       {
         "id": "CHE-financing-003",
-        "statement": "By the Federal Statistical Office's count of who finances health care, households paid 21.3% of 2024 health costs directly out of pocket and 40.7% indirectly, mostly through health insurance premiums; most of the remaining 31.3% came from the public sector, chiefly the cantons.",
+        "statement": "Private households are the main financers of Swiss health care: in 2024 they paid 21.3% of health costs out of pocket and 40.7% indirectly, mainly through health insurance premiums; most of the remaining 31.3% was covered by the public sector, chiefly the cantons (Federal Statistical Office).",
         "valence": "neutral",
         "source_id": "bfs-costs-2024",
         "locator": {
           "section": "Die Haushalte tragen den Grossteil der Gesundheitskosten",
-          "char_start": 2794,
+          "char_start": 2711,
           "char_end": 3067,
-          "passage_sha256": "98cca6e22d159e0c30fd3f0fe4ca8408941a0eada9191baefb7703f182bdaf91"
+          "passage_sha256": "201285aa539522cc16df03043bfe051981d1a933724555293c105073b0ec4833"
         },
         "verification": {
           "passage_found": "pass",
@@ -213,7 +213,7 @@
       },
       {
         "id": "CHE-financing-005",
-        "statement": "On WHO's definitions, public sources (mainly federal and cantonal tax revenue) funded only 36.2% of Swiss current health spending in 2021, against an EU average of 76.7%.",
+        "statement": "Public sources, mostly federal and cantonal tax revenue, funded only 36.2% of Swiss current health spending in 2021, against an EU average of 76.7%.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -232,7 +232,7 @@
       },
       {
         "id": "CHE-financing-006",
-        "statement": "Mandatory insurance premiums, which WHO classes as compulsory prepayment rather than public spending, paid for another 34.5% of current health spending in 2021; public and premium funding together came to about 68.7%, below the EU average of 78.3%.",
+        "statement": "Mandatory insurance premiums paid for another 34.5% of current health spending in 2021; even with public sources added, these two compulsory sources came to about 68.7%, below the EU average of 78.3%.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -413,15 +413,15 @@
       },
       {
         "id": "CHE-financing-016",
-        "statement": "Since 2008 the federal government has paid 7.5% of the gross costs of basic insurance towards premium reductions, shared among the cantons by resident population; the cantons add their own funds.",
+        "statement": "Premium reductions are funded jointly by the federal government and the cantons; since 2008 the federal contribution has equalled 7.5% of the gross costs of basic insurance, shared among cantons by resident population, and the cantons add their own funds.",
         "valence": "neutral",
         "source_id": "foph-ipv-2026",
         "locator": {
           "section": "Grundsätze der Prämienverbilligung",
           "page": 1,
-          "char_start": 1221,
+          "char_start": 1148,
           "char_end": 1615,
-          "passage_sha256": "c0e45627537230d5ab3f6e4b9b1732e05a6a9453a4bc6c6ddfb2f88e861a3afc"
+          "passage_sha256": "144fb5e7bb90925e4aedd424b0bfcf09b551c18c5ae4e914fdc007aecca1d9e7"
         },
         "verification": {
           "passage_found": "pass",
@@ -575,7 +575,7 @@
       },
       {
         "id": "CHE-covered-007",
-        "statement": "The Federal Council has rejected moving services that meet the WZW criteria out of basic insurance into supplementary insurance, arguing that it would create two-tier medicine.",
+        "statement": "The Federal Council does not consider it appropriate to move services that meet the WZW criteria out of basic insurance into supplementary insurance, because that would lead to two-tier medicine.",
         "valence": "neutral",
         "source_id": "foph-benefits-report",
         "locator": {
@@ -588,8 +588,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-12"
-        },
-        "data_year": 2026
+        }
       }
     ],
     "cost_sharing": [
@@ -613,7 +612,7 @@
       },
       {
         "id": "CHE-cost_sharing-002",
-        "statement": "A higher deductible buys a lower premium, but the European Observatory notes these charges can deter or delay needed care, particularly for people on lower incomes or with chronic conditions.",
+        "statement": "A higher deductible buys a lower premium, but the European Observatory notes these charges can create financial barriers and gaps in access to needed care, especially for people with lower incomes or chronic conditions.",
         "valence": "weakness",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -739,7 +738,7 @@
     "financial_hardship": [
       {
         "id": "CHE-financial_hardship-001",
-        "statement": "In 2022, the most common payment arrears in Switzerland were on taxes and on health insurance premiums: 5.5% and 4.4% of the population respectively lived in a household with such arrears (Federal Statistical Office, SILC survey).",
+        "statement": "In 2022, the most common payment arrears were on taxes and on health insurance premiums, affecting 5.5% and 4.4% of the population respectively (Federal Statistical Office).",
         "valence": "weakness",
         "source_id": "bfs-silc-debt-2022",
         "locator": {
@@ -777,14 +776,14 @@
       },
       {
         "id": "CHE-financial_hardship-003",
-        "statement": "When an insured person does not pay premiums or cost-sharing, the insurer sends a reminder, then a demand for payment, and finally starts debt enforcement proceedings.",
+        "statement": "If an insured person does not pay premiums or cost-sharing, the insurer first sends a reminder, then a demand for payment, and finally starts debt enforcement proceedings (Betreibung).",
         "valence": "neutral",
         "source_id": "foph-premium-arrears",
         "locator": {
           "section": "Nichtbezahlung der Prämien",
-          "char_start": 430,
-          "char_end": 597,
-          "passage_sha256": "f7a8dbae66e8aeab2123d10f8abd3aa6726ea492bb78eb730915449a560db4e5"
+          "char_start": 76,
+          "char_end": 286,
+          "passage_sha256": "0d134887fc9daa199a72b70367a94bd3447e81894fce3ae425e7454120763d19"
         },
         "verification": {
           "passage_found": "pass",
@@ -794,7 +793,7 @@
       },
       {
         "id": "CHE-financial_hardship-004",
-        "statement": "If enforcement ends in a certificate of unpaid debt (Verlustschein), the canton pays the insurer 85% of the outstanding claims.",
+        "statement": "The canton covers 85% of unpaid premium and cost-sharing claims that have led to a certificate of unpaid debt (Verlustschein) or an equivalent title.",
         "valence": "neutral",
         "source_id": "foph-premium-arrears",
         "locator": {
@@ -811,7 +810,7 @@
       },
       {
         "id": "CHE-financial_hardship-005",
-        "statement": "Cantons may put people who still do not pay their premiums after enforcement on a list; insurers then suspend paying for their care, except emergency treatment, until the debt is settled.",
+        "statement": "Cantons may put people who still do not pay their premiums despite debt enforcement on a list; insurers then suspend paying for their care, except emergency treatment.",
         "valence": "weakness",
         "source_id": "foph-premium-arrears",
         "locator": {
@@ -1090,7 +1089,7 @@
       },
       {
         "id": "CHE-outcomes-004",
-        "statement": "Among the 2021 UHC service coverage sub-indices, Switzerland's lowest score was for noncommunicable diseases (67%), compared with 97% for service capacity and access, 93% for maternal, newborn, child and reproductive health, and 92% for treating infectious diseases.",
+        "statement": "In 2021, Switzerland scored 97% on service capacity and access, 93% on reproductive, maternal, newborn and child health and 92% on infectious disease treatment among the UHC service coverage sub-indices, but only 67% on coverage of services for noncommunicable diseases.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -1204,14 +1203,14 @@
       },
       {
         "id": "CHE-costs-005",
-        "statement": "Basic insurance costs rose 5.3% in 2025, again a strong increase compared with the average since the KVG came into force.",
+        "statement": "Basic insurance (OKP) costs, which premiums must cover, rose 5.3% in 2025, again a strong increase compared with the average since the KVG came into force.",
         "valence": "weakness",
         "source_id": "foph-premiums-2027",
         "locator": {
           "section": "Eine Folge des Kostenanstiegs",
-          "char_start": 2120,
+          "char_start": 1879,
           "char_end": 2296,
-          "passage_sha256": "f2b3e5a7c29a4afd1d8973216065fa0f7d352cdf2f6f1a7774e66250364f6862"
+          "passage_sha256": "87df607ab782d8aec5a7d8486111cef242430b888f03cd257364f8fefa2f57a5"
         },
         "verification": {
           "passage_found": "pass",
@@ -1222,15 +1221,15 @@
       },
       {
         "id": "CHE-costs-006",
-        "statement": "In 2021, long-term care took 20.6% of health spending, almost double the EU average (10.9%), while medical goods took 14.3%, below the EU average (19.4%).",
+        "statement": "In 2021, long-term care took 20.6% of health spending, significantly above the EU average (10.9%), while medical goods took 14.3%, below the EU average (19.4%).",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
           "section": "2 Financing and ensuring financial protection",
           "page": 10,
-          "char_start": 21186,
+          "char_start": 20993,
           "char_end": 21363,
-          "passage_sha256": "ea5307351ee77db6e310f3135f107a6e555922827fadb28b0933e53d6bacc6d5"
+          "passage_sha256": "1961981f28e7781ef04c5dbd4520c096872cf0d5a480e7cdddf82a923e7302c4"
         },
         "verification": {
           "passage_found": "pass",
@@ -1278,7 +1277,7 @@
       },
       {
         "id": "CHE-costs-009",
-        "statement": "Using claims data from Switzerland's largest insurer, a 2026 study found that adults who chose a CHF 500 or a CHF 2,500 deductible had 11% and 27% lower health spending, respectively, than comparable adults with the CHF 300 minimum; the effects were larger for outpatient care and drugs.",
+        "statement": "Using claims data from Switzerland's largest insurer, a study found that adults who chose a CHF 500 or a CHF 2,500 deductible had 11% and 27% lower health spending, respectively, than comparable adults with the CHF 300 minimum; the effects were larger for outpatient care and drugs.",
         "valence": "neutral",
         "source_id": "bmc-deductibles-2026",
         "locator": {
@@ -1295,7 +1294,7 @@
       },
       {
         "id": "CHE-costs-010",
-        "statement": "Swiss health spending was 11.7% of GDP in 2022 in the OECD data used by Mirror, Mirror 2024, against 16.5% in the United States.",
+        "statement": "Mirror, Mirror 2024 reports Swiss health spending at 11.7% of GDP (2022 data), against 16.5% in the United States (2022 data).",
         "valence": "neutral",
         "source_id": "cwf-mm-2024",
         "locator": {
@@ -1334,7 +1333,7 @@
       },
       {
         "id": "CHE-what_works-002",
-        "statement": "Few people report going without a medical examination because of cost: 0.8% in 2022, below the EU average of 1.1%, though 1.3% in the lowest income group against 0% in the highest.",
+        "statement": "Few people report going without a medical examination because of cost: 0.8% in 2022, below the EU average of 1.1%, though 1.3% among low-income groups against 0% among high-income groups.",
         "valence": "strength",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -1358,9 +1357,9 @@
         "source_id": "cwf-mm-2024-report",
         "locator": {
           "section": "Health Outcomes",
-          "char_start": 20867,
+          "char_start": 20697,
           "char_end": 20975,
-          "passage_sha256": "34979ed713703ef55c6d18d45b144f1e18de4917927f1a4bef4b3d6fb339b2c8"
+          "passage_sha256": "cd7a8b33d16b99fdc0c7e397d7c9b06d818f2546339a088a476b8c186ae418b3"
         },
         "verification": {
           "passage_found": "pass",
@@ -1375,9 +1374,9 @@
         "source_id": "cwf-mm-2024-report",
         "locator": {
           "section": "Equity",
-          "char_start": 19987,
+          "char_start": 19631,
           "char_end": 20122,
-          "passage_sha256": "e665288dc410758561662cac62e3e01f849aa6fca5a375e3a0cf75b963d3df58"
+          "passage_sha256": "9da58dc59675de288714e9ad9020f3ef6f5f4ab8487d1598bafe2129cb293557"
         },
         "verification": {
           "passage_found": "pass",
@@ -1387,14 +1386,14 @@
       },
       {
         "id": "CHE-what_works-005",
-        "statement": "The federal health technology assessment programme, which removes ineffective services from basic insurance, now saves about CHF 150 million a year, according to a January 2026 Federal Council report.",
+        "statement": "The Federal Council's report finds that the federal HTA programme pays off: by no longer reimbursing ineffective services, it now saves about CHF 150 million a year.",
         "valence": "strength",
         "source_id": "foph-benefits-report",
         "locator": {
           "section": "Bilanz des HTA-Programms des Bundes",
-          "char_start": 4496,
+          "char_start": 4421,
           "char_end": 4758,
-          "passage_sha256": "1719a8dfa213264a56a84d33ef5475edcbe1bac5adfa07e4d7730d71177758f6"
+          "passage_sha256": "01c4649bfbe3214034d113f2600a63791825a72b3a2f8ecbd3a1a8d841fc084f"
         },
         "verification": {
           "passage_found": "pass",
@@ -1461,14 +1460,14 @@
       },
       {
         "id": "CHE-problems-003",
-        "statement": "Because outpatient care is funded only from premiums, shifting care from inpatient to outpatient settings has steadily reduced the tax-funded share, and premiums have risen faster than total costs of KVG services, according to the FOPH.",
+        "statement": "Under current financing, insurers have less incentive to promote cost-saving shifts from inpatient to outpatient care; where the shift happens anyway the premium-funded share rises, so the tax-funded share has fallen steadily in recent years and premiums have grown faster than total costs of KVG services (FOPH).",
         "valence": "weakness",
         "source_id": "foph-efas",
         "locator": {
           "section": "Ausgangslage",
-          "char_start": 1675,
+          "char_start": 1567,
           "char_end": 2007,
-          "passage_sha256": "153d070fc8efde4d8b4cf43a7c797ba26eabe61fd3cd2ca58b5e95b9b0d2e627"
+          "passage_sha256": "97888e5cce7ddf0305394613f400458fd4061b850824ab0ea6326fa9ac5cbea2"
         },
         "verification": {
           "passage_found": "pass",
@@ -1478,14 +1477,14 @@
       },
       {
         "id": "CHE-problems-004",
-        "statement": "In Geneva, a yearly population survey found the share of people forgoing health care for financial reasons rose from 15.8% in 2011 to 25.8% in 2025, while premiums rose 61.9%; across all years 18.1% reported forgoing care.",
+        "statement": "In Geneva, an annual population survey found the share of people forgoing health care for financial reasons rose from 15.8% in 2011 to 25.8% in 2025, while premiums rose 61.9%; across all years 18.1% reported forgoing care.",
         "valence": "weakness",
         "source_id": "ijph-geneva-2025",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 2305,
+          "char_start": 1558,
           "char_end": 2443,
-          "passage_sha256": "983f9a1ea0c022217581f0842d67758ecdd3ef248c0466ba7e4dd254fad69b6c"
+          "passage_sha256": "ea34bbf4a67c94f869375ee3ea874e58f0b1ac2ba4d87f430e9c3d729943007a"
         },
         "verification": {
           "passage_found": "pass",
@@ -1501,9 +1500,9 @@
         "source_id": "ejph-forgone-2026",
         "locator": {
           "section": "Abstract: Results",
-          "char_start": 3626,
+          "char_start": 2782,
           "char_end": 3813,
-          "passage_sha256": "f78108f4c9e8e211f91dc0f1c0bd356525e43ce08d3b789dbd510991761b9a59"
+          "passage_sha256": "f8d7e0a6e64858db0a98b78b4a63f295f1963c18bb411c04f98ca7587783bbec"
         },
         "verification": {
           "passage_found": "pass",
@@ -1514,7 +1513,7 @@
       },
       {
         "id": "CHE-problems-006",
-        "statement": "Unmet need for dental care was higher than for medical care, at 2.5% overall in 2021 and 4.6% in the poorest income fifth.",
+        "statement": "Unmet need for dental care was 2.5% overall in 2021 and 4.6% in the poorest income fifth.",
         "valence": "weakness",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -1606,14 +1605,14 @@
       },
       {
         "id": "CHE-problems-011",
-        "statement": "In the sensitivity tests for Mirror, Mirror 2024, Switzerland was nearly always ranked near the bottom of the 10 countries overall.",
+        "statement": "In the sensitivity tests for Mirror, Mirror 2024, Switzerland was nearly always ranked toward the bottom.",
         "valence": "weakness",
         "source_id": "cwf-mm-2024-report",
         "locator": {
           "section": "How We Conducted This Study",
-          "char_start": 42904,
+          "char_start": 42596,
           "char_end": 43012,
-          "passage_sha256": "6232d35a252c378f446da0afc76b0461ca80343fb3bfe9feaebd3d86297a021e"
+          "passage_sha256": "e239e49ddb8dfb7574ef50b36d2b60e527aca834c420c6f840ab08e8dadb441c"
         },
         "verification": {
           "passage_found": "pass",
@@ -1628,9 +1627,9 @@
         "source_id": "cwf-che",
         "locator": {
           "section": "Health Care Technology",
-          "char_start": 30437,
+          "char_start": 30046,
           "char_end": 30582,
-          "passage_sha256": "454fc123e0454063d78d1f20d69fb19be20da4cdcac9b50257292d882e4908f3"
+          "passage_sha256": "f1fa1e8616735059f3c426fb87e21cbcad17ccd821f8996dfa7cbf4db58f18d8"
         },
         "verification": {
           "passage_found": "pass",
@@ -1697,7 +1696,7 @@
       },
       {
         "id": "CHE-reforms-003",
-        "statement": "A canton's minimum contribution is 3.5% of the gross basic insurance costs of its residents if premiums take under 11% of the income of its lowest-income 40% of insured, rising linearly to 7.5% when they take 18.5% or more.",
+        "statement": "A canton's minimum contribution is 3.5% of gross costs if premiums take under 11% of the income of its lowest-income 40% of insured residents, rising linearly to 7.5% when they take 18.5% or more.",
         "valence": "neutral",
         "source_id": "foph-gegenvorschlag",
         "locator": {
@@ -1714,7 +1713,7 @@
       },
       {
         "id": "CHE-reforms-004",
-        "statement": "Voters rejected the 'premium relief' initiative, which would have capped premiums at 10% of income, on 9 June 2024, with 55.47% voting no; the counter-proposal on premium subsidies took its place.",
+        "statement": "Voters rejected the 'premium relief' initiative, which would have capped premiums at 10% of income, on 9 June 2024, with 55.47% voting no.",
         "valence": "neutral",
         "source_id": "foph-gegenvorschlag",
         "locator": {
@@ -1732,14 +1731,14 @@
       },
       {
         "id": "CHE-reforms-005",
-        "statement": "On 24 November 2024, voters approved the KVG amendment for uniform financing of health services (EFAS) with 53.31% in favour.",
+        "statement": "On 24 November 2024, voters approved the amendment to the Federal Health Insurance Act on uniform financing of services, with 53.31% in favour.",
         "valence": "neutral",
         "source_id": "foph-efas",
         "locator": {
           "section": "Informationen zur Volksabstimmung",
-          "char_start": 572,
+          "char_start": 412,
           "char_end": 741,
-          "passage_sha256": "cc673c5bda73d7c8fbd7dec454f9a0e7453f2535e7626c698443f8539bef97a6"
+          "passage_sha256": "74b842d0a4f81011a1e53d252fe602b684c9b3335ccb76d5be614eeb85e07af9"
         },
         "verification": {
           "passage_found": "pass",
@@ -1785,7 +1784,7 @@
       },
       {
         "id": "CHE-reforms-008",
-        "statement": "Cost-containment packages have been rolled out in stages: package 1a (2022-2023) brought billing transparency, outpatient flat-rate tariffs and a national tariff organization; cost targets for basic insurance were introduced in 2023; package 1b (2024) strengthened insurers' cost monitoring and widened pharmacists' ability to dispense cheaper drugs; and package 2, adopted in March 2025, extends federal oversight of reimbursement and promotes coordinated care.",
+        "statement": "Cost-containment packages have been rolled out in stages: package 1a (2022-2023) brought billing transparency, promoted outpatient flat-rate tariffs and set up a national tariff organization; cost targets for basic insurance were introduced in 2023; package 1b (2024) strengthened insurers' cost monitoring and widened pharmacists' ability to dispense cheaper drugs; and package 2, adopted in March 2025, aims to expand federal oversight of reimbursement and strengthen coordinated care.",
         "valence": "neutral",
         "source_id": "cwf-che",
         "locator": {
@@ -1803,7 +1802,7 @@
       },
       {
         "id": "CHE-reforms-009",
-        "statement": "According to a study published in January 2026, both chambers of parliament had recently voted to raise the minimum deductible from CHF 300 to CHF 500.",
+        "statement": "A study reports that both chambers of parliament recently voted to raise the minimum deductible from CHF 300 to CHF 500.",
         "valence": "neutral",
         "source_id": "bmc-deductibles-2026",
         "locator": {
@@ -1820,15 +1819,15 @@
       },
       {
         "id": "CHE-reforms-010",
-        "statement": "To ease regional shortages, Switzerland increased university places in human medicine from 900 in 2016 to a projected 1,350 by 2025.",
+        "statement": "To address the gap in primary care doctors between urban and rural areas, Switzerland increased university places in human medicine from 900 in 2016 to a projected 1,350 by 2025.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
           "section": "3 Generating resources, providing services and ensuring access",
           "page": 12,
-          "char_start": 28458,
+          "char_start": 28234,
           "char_end": 28658,
-          "passage_sha256": "2e44758a0dc90750fed1f7b5748ffb4664db9063c06dc212566c1dfe8a4fa24b"
+          "passage_sha256": "0f89683b14b711e0e3637214697ba61f58347d239096d6041a9ba849fe22d7c6"
         },
         "verification": {
           "passage_found": "pass",
@@ -1841,7 +1840,7 @@
     "us_lessons": [
       {
         "id": "CHE-us_lessons-001",
-        "statement": "Mirror, Mirror 2024, which compares the US with nine other countries, names Switzerland together with Australia and New Zealand as worth studying for outcomes of care.",
+        "statement": "Mirror, Mirror 2024 names Switzerland, together with Australia and New Zealand, as worthy of study for outcomes of care.",
         "valence": "strength",
         "source_id": "cwf-mm-2024-report",
         "locator": {

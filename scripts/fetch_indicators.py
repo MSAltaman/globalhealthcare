@@ -167,9 +167,16 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
     }
     for ind in CONFIG["world_bank"]:
         url = series_url(iso3, ind["id"], start, end)
-        latest = latest_value(get_json(url, session))
+        try:
+            latest = latest_value(get_json(url, session))
+        except Exception as e:  # one failing series must not cost the whole country
+            print(f"  {iso3} {ind['id']}: {e}; recorded as missing")
+            latest = None
         if ind["id"] not in meta_cache:
-            meta_cache[ind["id"]] = source_org(get_json(f"{API}/indicator/{ind['id']}?format=json", session))
+            try:
+                meta_cache[ind["id"]] = source_org(get_json(f"{API}/indicator/{ind['id']}?format=json", session))
+            except Exception:
+                meta_cache[ind["id"]] = None
         out["indicators"].append({
             "id": ind["id"],
             "label": ind["label"],
@@ -182,7 +189,11 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
         })
     for ind in CONFIG.get("who_gho", []):
         url = f"{GHO}/{ind['id']}?$filter=SpatialDim eq '{iso3}'"
-        latest = gho_latest(get_json(url, session))
+        try:
+            latest = gho_latest(get_json(url, session))
+        except Exception as e:
+            print(f"  {iso3} {ind['id']}: {e}; recorded as missing")
+            latest = None
         out["indicators"].append({
             "id": ind["id"],
             "label": ind["label"],

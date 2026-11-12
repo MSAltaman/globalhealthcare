@@ -134,3 +134,29 @@ def test_world_goalposts_and_natural_scale():
     assert score.score_value(5.0, "world", "lower", False, (worst, best)) == 100.0
     assert score.score_value(50.0, "world", "lower", False, (worst, best)) > 45
     assert score.score_value(80.2, "natural", "higher", False, None) == 80.2
+
+
+def test_financing_mix_segments_sum_to_total():
+    spec = json.loads((ROOT / "config" / "indicators.json").read_text(encoding="utf-8"))["oecd_financing"]
+    base = {"REF_AREA": "USA", "FINANCING_SCHEME": "_T", "UNIT_MEASURE": "PT_B1GQ", "TIME_PERIOD": "2024"}
+    vals = {"_T": 17.2, "FS1": 7.18, "FS3": 1.952, "FS31": 0.646, "FS32": 0.752, "FS33": 0.086,
+            "FS4": 5.171, "FS41": 1.599, "FS42": 3.572, "FS5": 0.189, "FS6": 2.711, "FS61": 1.9}
+    rows = [{**base, "FINANCING_SCHEME_REV": k, "OBS_VALUE": str(v)} for k, v in vals.items()]
+    rows.append({**base, "TIME_PERIOD": "2023", "FINANCING_SCHEME_REV": "_T", "OBS_VALUE": "16"})
+    mix = fetch_indicators.financing_mix(rows, "USA", spec)
+    seg = {s["id"]: s["pct_gdp"] for s in mix["segments"]}
+    assert mix["year"] == 2024
+    assert abs(sum(seg.values()) - 17.203) < 0.01
+    assert round(seg["payroll_other"], 3) == 0.468 and round(seg["other"], 3) == 0.811
+    assert fetch_indicators.financing_mix(rows, "FRA", spec) is None
+
+
+def test_financing_mix_unsplit_and_stale():
+    spec = json.loads((ROOT / "config" / "indicators.json").read_text(encoding="utf-8"))["oecd_financing"]
+    base = {"REF_AREA": "JPN", "FINANCING_SCHEME": "_T", "UNIT_MEASURE": "PT_B1GQ", "TIME_PERIOD": "2024"}
+    vals = {"_T": 10.447, "FS1": 3.966, "FS3": 4.936, "FS31": 3.148, "FS32": 1.788, "FS5": 0.209, "FS6": 1.336}
+    rows = [{**base, "FINANCING_SCHEME_REV": k, "OBS_VALUE": str(v)} for k, v in vals.items()]
+    seg = {s["id"]: s["pct_gdp"] for s in fetch_indicators.financing_mix(rows, "JPN", spec)["segments"]}
+    assert seg["private_unsplit"] == 1.336 and seg["other"] == 0 and seg["households"] == 0
+    assert abs(sum(seg.values()) - 10.447) < 0.01
+    assert fetch_indicators.financing_mix(rows, "JPN", spec, min_year=2025) is None

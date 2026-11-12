@@ -3,13 +3,16 @@
   "name": "Switzerland",
   "wave": 2,
   "system_as_of": "2026-11-12",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "regulated_private_insurance",
     "label": "Mandatory, community-rated basic health insurance (OKP/LAMal) bought from competing private non-profit insurers, with income-tested premium subsidies from the cantons and federal government, and cantonal co-funding of hospital care"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "CHE-overview-001",
+      "CHE-overview-002"
+    ],
     "meets_definition": true
   },
   "sections": {
@@ -28,8 +31,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -45,8 +49,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -62,8 +67,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -79,8 +85,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2023
       },
@@ -97,13 +104,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
         "id": "CHE-overview-006",
-        "statement": "Switzerland's federal structure gives the cantons wide autonomy over health care provision, financing, prevention and health promotion, although they increasingly work together across cantonal borders.",
+        "statement": "Switzerland's federal structure gives the cantons significant autonomy, which lets them tailor health care provision, financing, prevention and health promotion, though they increasingly stress cooperation between cantons.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -115,8 +123,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -133,8 +142,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       }
     ],
@@ -153,8 +163,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -170,8 +181,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2024
       },
@@ -188,8 +200,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2024
       },
@@ -206,8 +219,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2023-2024"
       },
@@ -225,27 +239,29 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
       {
         "id": "CHE-financing-006",
-        "statement": "Mandatory insurance premiums paid for another 34.5% of current health spending in 2021; even with public sources added, these two compulsory sources came to about 68.7%, below the EU average of 78.3%.",
+        "statement": "In 2021, public sources funded 36.2% and mandatory insurance premiums a further 34.5% of current health spending; together these compulsory sources came to about 68.7%, below the EU average of 78.3%.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
           "section": "2 Financing and ensuring financial protection",
           "page": 9,
-          "char_start": 17276,
+          "char_start": 17090,
           "char_end": 17583,
-          "passage_sha256": "41ffbf566eba40d45b814e91c3608dc9d17da96a99b683670e7a9c159be905b4"
+          "passage_sha256": "c0bd4def1353bcf48e25c8e61815945e4d3c1714155bfc71e9aa14e0d2b406a2"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -263,8 +279,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -282,8 +299,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -300,8 +318,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2023
       },
@@ -318,8 +337,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "1996-2023"
       },
@@ -336,8 +356,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2027
       },
@@ -354,8 +375,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2027
       },
@@ -372,8 +394,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -389,8 +412,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -407,8 +431,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -425,8 +450,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -443,8 +469,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2024
       },
@@ -461,8 +488,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       }
     ],
@@ -481,8 +509,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -499,8 +528,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -517,8 +547,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -535,8 +566,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -552,8 +584,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -569,13 +602,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
         "id": "CHE-covered-007",
-        "statement": "The Federal Council does not consider it appropriate to move services that meet the WZW criteria out of basic insurance into supplementary insurance, because that would lead to two-tier medicine.",
+        "statement": "The Federal Council's report says a wholesale shift of services that fall under the KVG and meet the WZW criteria into supplementary insurance would create two-tier medicine, and the Federal Council does not consider such a shift expedient.",
         "valence": "neutral",
         "source_id": "foph-benefits-report",
         "locator": {
@@ -586,8 +620,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       }
     ],
@@ -606,8 +641,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -624,8 +660,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -641,8 +678,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -658,8 +696,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -675,8 +714,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -692,8 +732,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -710,8 +751,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -729,8 +771,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2000-2021"
       }
@@ -750,8 +793,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2022
       },
@@ -769,14 +813,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2022
       },
       {
         "id": "CHE-financial_hardship-003",
-        "statement": "If an insured person does not pay premiums or cost-sharing, the insurer first sends a reminder, then a demand for payment, and finally starts debt enforcement proceedings (Betreibung).",
+        "statement": "If an insured person does not pay premiums or cost-sharing, they first receive a reminder, then a demand for payment, and finally debt enforcement proceedings (Betreibung) are opened against them.",
         "valence": "neutral",
         "source_id": "foph-premium-arrears",
         "locator": {
@@ -787,13 +832,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
         "id": "CHE-financial_hardship-004",
-        "statement": "The canton covers 85% of unpaid premium and cost-sharing claims that have led to a certificate of unpaid debt (Verlustschein) or an equivalent title.",
+        "statement": "The canton takes over 85% of the claims that have led to a certificate of unpaid debt (Verlustschein) or an equivalent legal title.",
         "valence": "neutral",
         "source_id": "foph-premium-arrears",
         "locator": {
@@ -804,8 +850,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -821,8 +868,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       }
     ],
@@ -841,8 +889,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -858,8 +907,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -875,8 +925,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -893,8 +944,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       }
@@ -914,8 +966,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -932,8 +985,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -950,8 +1004,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -968,8 +1023,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -987,8 +1043,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1006,8 +1063,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1024,8 +1082,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       }
@@ -1045,8 +1104,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2022
       },
@@ -1064,8 +1124,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2020-2021"
       },
@@ -1082,14 +1143,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2019
       },
       {
         "id": "CHE-outcomes-004",
-        "statement": "In 2021, Switzerland scored 97% on service capacity and access, 93% on reproductive, maternal, newborn and child health and 92% on infectious disease treatment among the UHC service coverage sub-indices, but only 67% on coverage of services for noncommunicable diseases.",
+        "statement": "Among the UHC sub-indices, Switzerland scored 97% on service capacity and access, 93% on reproductive, maternal, newborn and child health and 92% on infectious disease treatment, but 67% on service coverage for noncommunicable diseases (2021).",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -1101,8 +1163,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1120,8 +1183,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2022
       }
@@ -1141,8 +1205,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1160,8 +1225,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1178,8 +1244,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2024
       },
@@ -1196,8 +1263,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "1996-2023"
       },
@@ -1214,8 +1282,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2025
       },
@@ -1233,8 +1302,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1252,8 +1322,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1271,8 +1342,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1288,8 +1360,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1306,8 +1379,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2022
       }
@@ -1327,8 +1401,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1345,8 +1420,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2022
       },
@@ -1363,8 +1439,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1380,13 +1457,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
         "id": "CHE-what_works-005",
-        "statement": "The Federal Council's report finds that the federal HTA programme pays off: by no longer reimbursing ineffective services, it now saves about CHF 150 million a year.",
+        "statement": "The Federal Council's report finds that the HTA programme pays off: by no longer reimbursing ineffective services, it now saves CHF 150 million a year.",
         "valence": "strength",
         "source_id": "foph-benefits-report",
         "locator": {
@@ -1397,8 +1475,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2026
       },
@@ -1415,8 +1494,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2016-2026"
       }
@@ -1436,8 +1516,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1454,25 +1535,27 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
         "id": "CHE-problems-003",
-        "statement": "Under current financing, insurers have less incentive to promote cost-saving shifts from inpatient to outpatient care; where the shift happens anyway the premium-funded share rises, so the tax-funded share has fallen steadily in recent years and premiums have grown faster than total costs of KVG services (FOPH).",
+        "statement": "The FOPH says today's differing financing rules by area of care create perverse incentives: insurers have less incentive to promote cost-saving shifts from inpatient to outpatient care; where the shift happens anyway the premium-funded share rises, so the tax-funded share has fallen steadily in recent years and premiums have grown faster than total costs of KVG services.",
         "valence": "weakness",
         "source_id": "foph-efas",
         "locator": {
           "section": "Ausgangslage",
-          "char_start": 1567,
+          "char_start": 1473,
           "char_end": 2007,
-          "passage_sha256": "97888e5cce7ddf0305394613f400458fd4061b850824ab0ea6326fa9ac5cbea2"
+          "passage_sha256": "83e6cf6646a1b30b1652e041dc242b8725eec89a569dcd8329ffb0205d0804c5"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1488,8 +1571,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2011-2025"
       },
@@ -1506,8 +1590,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2017-2024"
       },
@@ -1525,8 +1610,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1544,8 +1630,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1562,8 +1649,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2021
       },
@@ -1581,8 +1669,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2013-2021"
       },
@@ -1599,8 +1688,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1616,8 +1706,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1633,8 +1724,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1651,8 +1743,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2000-2020"
       }
@@ -1671,8 +1764,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2026
       },
@@ -1689,14 +1783,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2026
       },
       {
         "id": "CHE-reforms-003",
-        "statement": "A canton's minimum contribution is 3.5% of gross costs if premiums take under 11% of the income of its lowest-income 40% of insured residents, rising linearly to 7.5% when they take 18.5% or more.",
+        "statement": "A canton's minimum contribution is 3.5% of gross costs if premiums take on average under 11% of the income of its lowest-income 40% of insured residents, rising linearly to 7.5% when they take 18.5% or more.",
         "valence": "neutral",
         "source_id": "foph-gegenvorschlag",
         "locator": {
@@ -1707,8 +1802,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1724,8 +1820,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2024
       },
@@ -1742,8 +1839,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2024
       },
@@ -1760,8 +1858,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
@@ -1777,8 +1876,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": 2026
       },
@@ -1795,14 +1895,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2022-2025"
       },
       {
         "id": "CHE-reforms-009",
-        "statement": "A study reports that both chambers of parliament recently voted to raise the minimum deductible from CHF 300 to CHF 500.",
+        "statement": "A 2026 study reported that both chambers of parliament had recently voted to raise the minimum deductible from CHF 300 to CHF 500.",
         "valence": "neutral",
         "source_id": "bmc-deductibles-2026",
         "locator": {
@@ -1813,13 +1914,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       },
       {
         "id": "CHE-reforms-010",
-        "statement": "To address the gap in primary care doctors between urban and rural areas, Switzerland increased university places in human medicine from 900 in 2016 to a projected 1,350 by 2025.",
+        "statement": "Switzerland raised the number of places to study human medicine from 900 in 2016 to a projected 1,350 by 2025, to address the urban-rural gap in primary care doctors.",
         "valence": "neutral",
         "source_id": "hsia-che-2024",
         "locator": {
@@ -1831,8 +1933,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         },
         "data_year": "2016-2025"
       }
@@ -1851,8 +1954,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
         }
       }
     ]
@@ -2046,11 +2150,60 @@
       "accessed": "2026-11-12"
     }
   ],
-  "rankings": [],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 8,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 10,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
   "changelog": [
     {
       "date": "2026-11-12",
-      "note": "Profile created."
+      "note": "Profile created: 101 claims from 17 sources, anchored and support-reviewed in two separate cold passes; 44 statements reworded or re-anchored in review (details from outside the passage, missing years, overstatement, causal wording, passages too short to carry their subject)."
     }
   ]
 }

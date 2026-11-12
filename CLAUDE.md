@@ -77,7 +77,8 @@ countries in its prompt (default 3).
    first one that has neither a profile on `main` nor a remote branch
    `claude/research-<iso3>` (`git ls-remote --heads origin`). Otherwise, in
    order: profiles with `status: needs_review`; then countries in
-   `config/countries.json` with no profile and no such branch, by wave; then
+   `config/countries.json` with no profile and no such branch, by wave and
+   in the listed order within a wave; then
    profiles whose `system_as_of` is older than 6 months. If a branch
    `claude/research-<iso3>` exists with unfinished work, continue it instead.
    One country per run keeps usage low and means a usage limit never loses
@@ -92,7 +93,8 @@ countries in its prompt (default 3).
 4. **Find sources.** Start with the tier-1 system review (European Observatory
    Country Health Profile 2025 or Health System Summary for EU countries;
    WHO / Asia Pacific Observatory reviews for others; OECD Health at a
-   Glance), the Commonwealth Fund country profile and Mirror, Mirror 2024
+   Glance; for Latin America, PAHO country reports and OECD Health
+   Systems Reviews where they exist), the Commonwealth Fund country profile and Mirror, Mirror 2024
    exhibits where the country is covered, and the ministry of health. Search
    Europe PMC (`https://www.ebi.ac.uk/europepmc/webservices/rest/search`,
    use `TITLE:` filters) and PubMed E-utilities for recent studies on access,

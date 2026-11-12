@@ -3,13 +3,16 @@
   "name": "Thailand",
   "wave": 1,
   "system_as_of": "2026-11-12",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "label": "Three public schemes: the tax-funded Universal Coverage Scheme for most citizens, the tax-funded Civil Servant Medical Benefit Scheme, and contribution-funded Social Health Insurance for private-sector employees"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "THA-overview-001",
+      "THA-overview-002"
+    ],
     "meets_definition": true
   },
   "sections": {
@@ -28,8 +31,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -46,8 +50,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -64,13 +69,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-overview-004",
-        "statement": "Creating the National Health Security Office (NHSO) changed the Ministry of Public Health from both buyer and provider of care into mainly a provider, with the NHSO buying care for UCS members.",
+        "statement": "Creating the National Health Security Office (NHSO) changed the Ministry of Public Health from both buyer and provider of care into mainly a provider, with the NHSO as purchaser.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -82,13 +88,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-overview-005",
-        "statement": "Care is delivered mostly by the public sector: in 2021 Ministry of Public Health facilities held 67.2% of hospital beds and private hospitals 19.5%.",
+        "statement": "In 2021 Ministry of Public Health facilities held 67.2% of all hospital beds and private hospitals 19.5%.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -100,8 +107,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -121,13 +129,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-financing-002",
-        "statement": "The SHI contribution is not only for health: it also pays for maternity benefits, disability and death benefits, cash allowances and old-age pensions, and it is compulsory for private-sector employees.",
+        "statement": "SHI is a compulsory scheme whose contributions, split equally between employers, employees and the government, pay not only for care of non-work-related illness and injury but also for maternity, disability allowances, old-age pensions and death compensation.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -139,8 +148,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -157,14 +167,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "historical": true
       },
       {
         "id": "THA-financing-004",
-        "statement": "Because of the contribution ceiling, the 2024 review found almost no difference between what minimum-wage workers and white-collar employees earning THB 80,000-100,000 a month paid into SHI, and it called the ceiling a source of regressivity.",
+        "statement": "Because of the contribution ceiling, the 2024 review found almost no difference between what minimum-wage workers and white-collar employees earning THB 80,000-100,000 a month paid into SHI, and it warned that the ceiling could make contributions regressive.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -176,14 +187,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "historical": true
       },
       {
         "id": "THA-financing-005",
-        "statement": "Most of Thailand's tax revenue comes from indirect taxes, chiefly value added tax, followed by direct taxes such as personal and corporate income tax; this mix was unchanged between 1995 and 2019.",
+        "statement": "The largest part of Thailand's tax revenue comes from indirect taxes, with a high share from value added tax, followed by direct taxes such as personal and corporate income tax; this mix was unchanged between 1995 and 2019.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -195,8 +207,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1995-2019"
       },
@@ -214,8 +227,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -232,8 +246,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -250,17 +265,18 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-financing-009",
-        "statement": "In national health accounts for 2019, general government funding paid for 63.2% of current health spending, Social Health Insurance 9.0%, voluntary private insurance 13.6%, compulsory road-traffic insurance 3.0%, out-of-pocket payments 8.5% and employer benefits 1.9%.",
+        "statement": "In 2019, general government funding paid for 63.2% of current health spending, Social Health Insurance 9.0%, voluntary private insurance 13.6%, compulsory road-traffic insurance 3.0%, out-of-pocket payments 8.5% and employer benefits 1.9%.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
-          "table": "Table 3.3",
+          "table": "Table 3.3 (health-care spending by source of fund, % of current health expenditure), column 2019",
           "page": 86,
           "char_start": 192738,
           "char_end": 193055,
@@ -268,14 +284,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "THA-financing-010",
-        "statement": "Using the WHO definition of domestic general government health expenditure, which counts social insurance as government spending, public funding rose from 43.1% of current health expenditure in 1995 to 72.2% in 2019, while private domestic funding fell from 56.9% to 27.7%.",
+        "statement": "Measured as domestic general government health expenditure (GGHE-D), public funding rose from 43.1% of current health expenditure in 1995 to 72.2% in 2019, while domestic private health expenditure fell from 56.9% to 27.7%.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -287,8 +304,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1995-2019"
       },
@@ -306,8 +324,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -324,8 +343,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -342,8 +362,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -361,8 +382,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -380,8 +402,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       }
@@ -401,8 +424,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -419,13 +443,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-covered-003",
-        "statement": "The UCS adds new interventions to its package only after assessment against a cost-effectiveness threshold of THB 160,000 per quality-adjusted life year, long-term affordability and the system's capacity to deliver; when the National Health Security Board adopts one, it also approves the budget for it, so no new benefit goes unfunded.",
+        "statement": "The UCS assesses new interventions for its package against a cost-effectiveness threshold of THB 160,000 per quality-adjusted life year, long-term affordability and the system's capacity to deliver; when the National Health Security Board adopts one, it also approves the budget for it, to avoid unfunded mandates.",
         "valence": "strength",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -437,13 +462,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-covered-004",
-        "statement": "The National List of Essential Medicines is the drug benefit list for all three public schemes, and the CSMBS and SHI generally take up new benefits adopted by the UCS.",
+        "statement": "The National List of Essential Medicines is the drug benefit list for all three public schemes, and the CSMBS and SHI apply new UCS benefits to their own schemes as appropriate.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -455,8 +481,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -473,8 +500,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -492,14 +520,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-2023"
       },
       {
         "id": "THA-covered-007",
-        "statement": "Prevention and health-promotion services financed by the NHSO cover the whole population, not only UCS members; for example, HPV vaccination for girls aged 11-12 through schools was added in 2017.",
+        "statement": "Because HPV vaccination counts as prevention and health promotion, the school-based programme for girls aged 11-12 added in 2017 covers all Thai girls, not only UCS members.",
         "valence": "strength",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -511,8 +540,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2017
       },
@@ -530,13 +560,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-covered-009",
-        "statement": "High-cost medicines that do not offer good value for money are excluded from public reimbursement in Thailand; the authors, from the government's HTA agency, propose a separate pathway for some life-saving high-cost medicines that fail the cost-effectiveness threshold.",
+        "statement": "High-cost medicines that do not offer good value for money are excluded from public reimbursement in Thailand; the authors propose a framework for reimbursing some high-cost medicines that are not cost-effective at the current willingness-to-pay threshold.",
         "valence": "neutral",
         "source_id": "jppp-highcost-2023",
         "locator": {
@@ -547,8 +578,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -567,8 +599,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -585,8 +618,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -603,8 +637,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -621,14 +656,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "THA-cost_sharing-005",
-        "statement": "Out-of-pocket payments fell from 44.9% of current health spending in 1995 to 8.5% in 2019 (national health accounts).",
+        "statement": "Out-of-pocket payments fell from 44.9% of current health spending in 1995 to 8.5% in 2019.",
         "valence": "strength",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -640,14 +676,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1995-2019"
       },
       {
         "id": "THA-cost_sharing-006",
-        "statement": "Analysing national surveys from 2019 and 2021, a study found that the type of public insurance a person had was linked to out-of-pocket medical and transport spending only to a small degree, but people with high needs, such as chronic conditions, bore heavier out-of-pocket medical and transport costs.",
+        "statement": "A national survey study found that the type of health insurance a person had was linked to out-of-pocket medical and transport spending only to a small degree, before and during the pandemic, but people with high needs, such as chronic conditions, bore heavier out-of-pocket medical and transport costs.",
         "valence": "neutral",
         "source_id": "plos-oop-2025",
         "locator": {
@@ -658,8 +695,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2021"
       }
@@ -667,25 +705,100 @@
     "financial_hardship": [
       {
         "id": "THA-financial_hardship-001",
-        "statement": "In a nationwide study of 1,224 patients with chronic kidney disease (interviews June 2019 to January 2021), catastrophic health expenditure, defined as spending at least 40% of household capacity to pay, affected 50.0% of UCS haemodialysis patients and 19.5% of UCS peritoneal dialysis patients under the 'PD First' policy then in place; in the poorest UCS quintile all haemodialysis patients and two-thirds of peritoneal dialysis patients were medically impoverished, and travel costs were the main driver for haemodialysis.",
+        "statement": "Among UCS patients with chronic kidney disease, a multicentre study found catastrophic health expenditure in 50.0% of those on haemodialysis and 19.5% of those on peritoneal dialysis; in the poorest UCS quintile, all haemodialysis patients and two-thirds of peritoneal dialysis patients were medically impoverished, and travel costs were the main driver of catastrophic spending for haemodialysis.",
         "valence": "weakness",
         "source_id": "ckd-pd-2022",
         "locator": {
           "section": "Abstract, Results",
-          "char_start": 4729,
+          "char_start": 4585,
           "char_end": 5133,
-          "passage_sha256": "a3412b6c8a127e0cb79cea9e32f47a45df7f65f12cd0f16ffe3375a1edf7cccf"
+          "passage_sha256": "8096ac4c9e000e69938a6c0fe593607c34c7f1d49d4aa2a7de652e99a3dfd47d"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2021"
       },
       {
         "id": "THA-financial_hardship-002",
-        "statement": "Clinicians at a public neurological institute in Bangkok write that the UCS does not reimburse travel, caregivers' accommodation or food, and that these unpaid costs weigh most on rural patients who must travel far for care.",
+        "statement": "The kidney disease study defined catastrophic health expenditure as health spending of at least 40% of the household's capacity to pay, the measure used by WHO.",
+        "valence": "neutral",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Methods, Outcomes of interest",
+          "char_start": 11579,
+          "char_end": 11717,
+          "passage_sha256": "49718938d2f8fb14e204b9a4f1a7bedea601630a0a326e24ddde5d810a85ac8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financial_hardship-003",
+        "statement": "The kidney disease study surveyed patients in 11 tertiary or regional hospitals covering all five regions of Thailand between June 2019 and January 2021.",
+        "valence": "neutral",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Methods, Data source and target population",
+          "char_start": 9666,
+          "char_end": 9799,
+          "passage_sha256": "66f27d0ab5f5e5d9743884fd60517296e019bf43bf324ca77bcd20c722ef0ece"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "THA-financial_hardship-004",
+        "statement": "The study measured the financial burden left for patients with kidney disease under the UCS's 'PD First' policy, as it applied at the time.",
+        "valence": "neutral",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Abstract, Objective",
+          "char_start": 3959,
+          "char_end": 4134,
+          "passage_sha256": "6c5c79c2cd251bbfaec2b673e500b791186dee33385f958fac187db32abc9040"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "THA-financial_hardship-005",
+        "statement": "A 2023 commentary argues that, although Thailand's UHC system is widely seen as one of the most robust, its hidden costs still drive a significant share of patients into catastrophic health expenditure.",
+        "valence": "weakness",
+        "source_id": "bmjgh-cat-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5183,
+          "char_end": 5762,
+          "passage_sha256": "e974f442b36c24bf5e3795beab149bd58acbbc948e358c17a1cfc2a2c27f3b19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financial_hardship-006",
+        "statement": "The commentary names these unreimbursed costs as travel, caregivers' accommodation and food, and says they hit hardest rural patients who must travel long distances for care.",
         "valence": "weakness",
         "source_id": "bmjgh-cat-2023",
         "locator": {
@@ -696,8 +809,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -716,8 +830,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -734,17 +849,18 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-additional_care-003",
-        "statement": "Voluntary private health insurance grew from 2.5% of current health spending in 1995 to 13.6% in 2019 (national health accounts).",
+        "statement": "Voluntary private health insurance grew from 2.5% of current health spending in 1995 to 13.6% in 2019.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
-          "table": "Table 3.3",
+          "table": "Table 3.3 (% of current health expenditure), columns 1995 and 2019",
           "page": 86,
           "char_start": 192843,
           "char_end": 192907,
@@ -752,8 +868,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1995-2019"
       },
@@ -771,8 +888,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -791,8 +909,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -802,7 +921,7 @@
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
-          "table": "Table 4.3",
+          "table": "Table 4.3 (health workforce density per 10 000 population), Doctors 2021 column",
           "page": 132,
           "char_start": 288038,
           "char_end": 288773,
@@ -810,15 +929,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "THA-access-003",
-        "statement": "Unmet need for care was low in 2019: 1.4% for outpatient care, 1.1% for dental care and about 0.1% for inpatient care; the main reasons given were cost, difficulty reaching services and long waits.",
-        "valence": "strength",
+        "statement": "In 2019, unmet need was 1.4% for outpatient care, 1.1% for dental care and about 0.1% for inpatient care; it remained a significant problem for groups such as older people and those with less income and education, and the main reasons were financial constraints, difficulty reaching services and long waits.",
+        "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
           "section": "7.3.3 Equity of access to health care",
@@ -829,8 +949,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -848,8 +969,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -866,14 +988,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2003-2020"
       },
       {
         "id": "THA-access-006",
-        "statement": "Between 2015 and 2024 the number of general practitioners and specialists grew, and the geographic inequality of GPs fell sharply (Gini coefficient 0.42 in 2015, 0.22 in 2024), which the authors attribute to mandatory service and rural recruitment.",
+        "statement": "Between 2015 and 2024 the number of general practitioners and specialists grew, and the geographic inequality of GPs improved the most (Gini coefficient 0.42 in 2015, 0.22 in 2024), which the authors attribute to mandatory service and rural recruitment.",
         "valence": "strength",
         "source_id": "bmjopen-specialists-2026",
         "locator": {
@@ -884,14 +1007,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2015-2024"
       },
       {
         "id": "THA-access-007",
-        "statement": "Specialists in established, scarce fields such as gynaecology, anaesthesiology and neurosurgery became more concentrated between regions over 2015-2024, clustering in central provinces and around Bangkok.",
+        "statement": "In established, scarce specialties such as gynaecology, anaesthesiology and neurosurgery, inequality between regions increased despite improvement at the provincial level, with specialists clustering in central provinces and around Bangkok.",
         "valence": "weakness",
         "source_id": "bmjopen-specialists-2026",
         "locator": {
@@ -902,8 +1026,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2015-2024"
       }
@@ -915,15 +1040,16 @@
         "valence": "neutral",
         "source_id": "gbd-haq-2019",
         "locator": {
-          "table": "Table, 2019 HAQ Index, Overall (0-74 years)",
+          "table": "Table: HAQ Index estimates by location, 2019 HAQ Index, Overall (0-74 years) column",
           "char_start": 63904,
           "char_end": 63952,
           "passage_sha256": "85386c2d0e182f0c107b2d691a134467e87ca20915f517aeae56d04260d4ce49"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -941,14 +1067,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2000-2020"
       },
       {
         "id": "THA-outcomes-003",
-        "statement": "Effective coverage of diabetes (HbA1c-based control) rose from 8.1% in 2016 to 11.7% in 2019 and of hypertension from 11.3% to 15.7%, which the review calls still relatively low.",
+        "statement": "Effective coverage of diabetes rose from 8.1% in 2016 to 11.7% in 2019 and of hypertension from 11.3% to 15.7%, which the review calls still relatively low.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -960,8 +1087,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016-2019"
       },
@@ -979,8 +1107,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2020-2022"
       },
@@ -998,8 +1127,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2016-2020"
       },
@@ -1017,8 +1147,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1035,8 +1166,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -1054,8 +1186,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2004-2021"
       }
@@ -1075,14 +1208,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2003-2020"
       },
       {
         "id": "THA-costs-002",
-        "statement": "In 2019, government spending on health per CSMBS member was about six times that per UCS member; CSMBS costs climbed fast after direct billing of the government for outpatient care was fully applied in 2008.",
+        "statement": "Health spending per CSMBS member was about six times that per UCS member, and CSMBS costs rose rapidly in 2008 once direct disbursement was fully applied, after pilots in 2004 and 2006.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1094,14 +1228,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "THA-costs-003",
-        "statement": "Thailand borrowed THB 1 trillion for its COVID-19 response; 70.9% went to mitigating the impact on people and businesses, 22.7% to economic and social recovery and 6.4% to the health sector response.",
+        "statement": "Thailand borrowed THB 1 trillion for its COVID-19 response; 70.9% went to impact mitigation, 22.7% to economic and social recovery and 6.4% to the health sector response.",
         "valence": "neutral",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1113,8 +1248,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1132,8 +1268,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -1152,33 +1289,35 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "THA-what_works-002",
-        "statement": "Using national household surveys, the share of households spending more than 10% of consumption on health fell from 6.0% in 1996 to 1.9% in 2020, and the share pushed below the poverty line by health payments from 2.2% to 0.2%.",
+        "statement": "The share of households whose health spending exceeded 10% of household consumption fell from 6.0% in 1996 to 1.9% in 2020, and the share pushed below the poverty line by health payments from 2.2% to 0.2%.",
         "valence": "strength",
         "source_id": "tha-hit-2024",
         "locator": {
           "section": "3.3.2 Financial risk protection",
           "page": 96,
-          "char_start": 218051,
+          "char_start": 217723,
           "char_end": 218276,
-          "passage_sha256": "2faf9d6531f1ed7158c3c78e665d5825bc10a40734b947bc3cf2c3e834e29e85"
+          "passage_sha256": "e5d8f0d28d04a51c420dc16357f6e6c377c07cf97648d1269bfb36e46df4dc3b"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "1996-2020"
       },
       {
         "id": "THA-what_works-003",
-        "statement": "Paying providers mainly by capitation and diagnosis-related groups within fixed budgets (SHI since 1991, UCS since 2002) brought large efficiency gains, encouraging cheaper generic medicines and rational prescribing.",
+        "statement": "Closed-ended provider payment, used by SHI since 1991 and the UCS since 2002, contributed significantly to efficiency gains by encouraging cheaper generic medicines and rational prescribing.",
         "valence": "strength",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1190,8 +1329,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1208,13 +1348,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-what_works-005",
-        "statement": "Compared with other upper-middle-income countries, Thailand had lower child mortality and longer life expectancy for its health spending per person (latest year 2020), which the review suggests may reflect its closed-ended provider payment.",
+        "statement": "Compared with other upper-middle-income countries, Thailand had lower child mortality and longer life expectancy for its health spending per person, which the review suggests may reflect its closed-ended provider payment.",
         "valence": "strength",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1226,8 +1367,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -1240,19 +1382,20 @@
           "section": "6.1.3 COVID-19 pandemic: health system adaptations",
           "page": 221,
           "char_start": 493311,
-          "char_end": 493846,
-          "passage_sha256": "03fe02d5e264eef2ae956bc789647e401eb5cc6494a6c329741438cad3df951a"
+          "char_end": 493980,
+          "passage_sha256": "834a70e61ac2ad8cc9ade8f092db4fd82916a948b2b2cd694ebf75496584ef69"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2020-2022"
       },
       {
         "id": "THA-what_works-007",
-        "statement": "The Health Intervention and Technology Assessment Program (HITAP), set up in 2007, built health technology assessment capacity in Thailand and linked research to policy and practice.",
+        "statement": "The Health Intervention and Technology Assessment Program (HITAP) built health technology assessment capacity in Thailand and linked research to policy and practice.",
         "valence": "strength",
         "source_id": "hsr-hitap-2024",
         "locator": {
@@ -1263,15 +1406,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
     "problems": [
       {
         "id": "THA-problems-001",
-        "statement": "Because the three schemes were created at different times with different provider payment methods, the system remains fragmented and the services members receive can differ between schemes.",
+        "statement": "Because the three schemes were created at different times with different provider payment methods, the system remains fragmented which could lead to differences in the services provided.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1283,13 +1427,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-problems-002",
-        "statement": "Access to higher-cost drugs is unequal across the three schemes: the closed-ended UCS and SHI give access to more cost-effective but narrower drug choices than the fee-for-service CSMBS.",
+        "statement": "Access to higher-cost drugs is unequal across the three schemes: medicines covered by schemes paying providers on a closed-ended basis tend to be more cost-effective but offer a narrower choice than under the fee-for-service scheme.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1301,13 +1446,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-problems-003",
-        "statement": "Many health workers are leaving: nurses and newly qualified doctors resign at high rates because of heavy workloads and low pay, and the push to make Thailand a medical hub has drawn staff from rural to urban areas and from public to private hospitals.",
+        "statement": "Many health workers are leaving: nurses and newly qualified doctors resign at high rates because of heavy workloads and low pay, and the government's push to make Thailand a medical hub has increased internal brain drain.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1319,8 +1465,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1336,14 +1483,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2015-2024"
       },
       {
         "id": "THA-problems-005",
-        "statement": "Low-skilled migrant workers in the informal sector rely on the Ministry of Public Health's Health Insurance Card Scheme, which is semi-voluntary, with no legal mechanism making migrants enrol.",
+        "statement": "Low-skilled migrant workers in the informal sector are eligible for the Ministry of Public Health's Health Insurance Card Scheme, which is semi-voluntary, with no legal mechanism making migrants enrol.",
         "valence": "weakness",
         "source_id": "tha-hit-2024",
         "locator": {
@@ -1355,8 +1503,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1372,8 +1521,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1390,8 +1540,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -1399,7 +1550,7 @@
     "reforms": [
       {
         "id": "THA-reforms-001",
-        "statement": "As of October 2025 the Public Health Minister was driving a '30-Baht Treatment Anywhere, Free Dialysis Everywhere' initiative, with plans for kidney transplant services in all 12 health regions; the NHSO was revising its reimbursement guidelines so that patients can choose, with medical advice, the type of dialysis that suits them.",
+        "statement": "As of October 2025 the Public Health Minister was driving a '30-Baht Treatment Anywhere, Free Dialysis Everywhere' initiative, with plans for kidney transplant services in all 12 health regions; the NHSO was updating its reimbursement guidelines to support these measures, and patients were to be able to choose, with medical guidance, the dialysis treatment that suits them.",
         "valence": "neutral",
         "source_id": "prd-ucs-reform-2025",
         "locator": {
@@ -1410,8 +1561,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1428,8 +1580,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1447,8 +1600,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1466,8 +1620,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -1485,8 +1640,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1504,8 +1660,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       }
@@ -1513,7 +1670,7 @@
     "us_lessons": [
       {
         "id": "THA-us_lessons-001",
-        "statement": "Analysing Thailand's reform as a lesson for other countries, the authors conclude that the reform team's ability to generate and use evidence kept the reform on track despite opposition and path dependence.",
+        "statement": "A political-economy study of Thailand's reform concludes that the reform team's ability to generate and use evidence kept the reform on track despite opposition and path dependence.",
         "valence": "neutral",
         "source_id": "hsr-poleco-2019",
         "locator": {
@@ -1524,13 +1681,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-us_lessons-002",
-        "statement": "The same study names two contested changes as key to securing enough money for and good governance of the UCS: a budgeting process that curbed the Bureau of Budget's discretion, and the split between the purchaser (NHSO) and the main provider (Ministry of Public Health).",
+        "statement": "The same study names two contested changes as key to securing enough money for and good governance of the UCS: a budgeting process that curbed the Bureau of Budget's discretion, and the split between the purchaser (NHSO) and the provider (Ministry of Public Health).",
         "valence": "neutral",
         "source_id": "hsr-poleco-2019",
         "locator": {
@@ -1541,13 +1699,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-us_lessons-003",
-        "statement": "HITAP's own staff report that its semi-autonomous structure helped it build health technology assessment and suggest its experience may be relevant to other countries setting up HTA programmes.",
+        "statement": "HITAP's semi-autonomous structure facilitated its development, though not without challenges, and its experience may be relevant to other countries and institutions wanting to build HTA programmes.",
         "valence": "neutral",
         "source_id": "hsr-hitap-2024",
         "locator": {
@@ -1558,13 +1717,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "THA-us_lessons-004",
-        "statement": "Reviewing countries with established HTA systems, including Australia, England and South Korea, a study found nearly all had set up special programmes to pay for high-cost medicines that are not cost-effective, and recommended that Thailand not reimburse cost-ineffective medicines except where they are the only life-saving option.",
+        "statement": "Reviewing countries with established HTA systems, a study found nearly all had set up special programmes or other mechanisms to pay for high-cost medicines that are not cost-effective, and the authors advise against paying for cost-ineffective medicines, funding other high-cost medicines only where no other life-saving treatment exists.",
         "valence": "neutral",
         "source_id": "jppp-highcost-2023",
         "locator": {
@@ -1575,8 +1735,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1592,8 +1753,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ]
@@ -1636,7 +1798,8 @@
       "url": "https://doi.org/10.1136/bmjgh-2023-011932",
       "doi": "10.1136/bmjgh-2023-011932",
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10255241",
-      "accessed": "2026-11-12"
+      "accessed": "2026-11-12",
+      "funding_note": "A commentary (not original research) by clinicians at the Neurological Institute of Thailand, a public hospital, describing their own institution's programmes."
     },
     {
       "id": "jppp-highcost-2023",
@@ -1712,13 +1875,61 @@
       "url": "https://www.rd.go.th/fileadmin/download/english_form/220364guide-allow.pdf",
       "funding_note": "Official guide for the 2020 tax year; the 2025 and 2026 English forms keep the same health-premium allowance lines but do not restate the limits.",
       "accessed": "2026-11-12"
+    },
+    {
+      "id": "ckd-pd-2022",
+      "title": "The hidden financial catastrophe of chronic kidney disease under universal coverage and Thai \"Peritoneal Dialysis First Policy\"",
+      "publisher": "Frontiers in Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.3389/fpubh.2022.965808",
+      "doi": "10.3389/fpubh.2022.965808",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9606783",
+      "funding_note": "Data collected June 2019 to January 2021, under the UCS 'PD First' policy; the UCS ended self-payment for haemodialysis in 2022 (see THA-reforms-003).",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "plos-oop-2025",
+      "title": "Health insurance type, healthcare utilization and out-of-pocket expenditure in the face of COVID-19: Evidence from Thai national survey data",
+      "publisher": "PLOS ONE",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1371/journal.pone.0321468",
+      "doi": "10.1371/journal.pone.0321468",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11977970",
+      "funding_note": "Uses the 2019 and 2021 waves of the national Health and Welfare Survey.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "prd-anywhere-2024",
+      "title": "The \"30-baht Treatment Anywhere\" Program Covers All Provinces Nationwide (26 December 2024)",
+      "publisher": "The Government Public Relations Department, Thailand",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/350879",
+      "funding_note": "Government press release; states the government's own programme and goals.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "prd-ucs-reform-2025",
+      "title": "Thailand Rolls Out Universal Healthcare Reforms to Cut Costs and Improve Access (14 October 2025)",
+      "publisher": "The Government Public Relations Department, Thailand",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/431637",
+      "funding_note": "Government press release; describes announced plans, not evaluated results.",
+      "accessed": "2026-11-12"
     }
   ],
   "rankings": [],
   "changelog": [
     {
       "date": "2026-11-12",
-      "note": "Profile created."
+      "note": "Profile created: 89 claims from 9 sources, anchored and support-reviewed in a separate cold pass; 41 statements reworded or re-anchored in review (details from outside the passage, overstatement, scope, dates) and 1 rewritten after the 12-word overlap check; 1 claim split in two and 1 replaced by four narrower claims."
     }
   ]
 }

@@ -69,9 +69,10 @@ countries in its prompt (default 3).
    `main` if already merged), keep every existing rule and check, update the
    PR body, and set the item's `status` to `done` in the same branch.
    Because that change is not on `main` until the PR merges, an item counts
-   as done if it is `done` either on `main` or in `config/backfill.json` on
-   that country's branch (`git show origin/<branch>:config/backfill.json`).
-   Check both before picking an item.
+   as done if the item with the **same `id`** (e.g. `CHN-r2`) is `done`
+   either on `main` or in `config/backfill.json` on that country's branch
+   (`git show origin/<branch>:config/backfill.json`). An item without that id
+   on the branch, or from an earlier round, does not count.
 1. **Pick ONE country per run.** If the run's prompt names countries, take the
    first one that has neither a profile on `main` nor a remote branch
    `claude/research-<iso3>` (`git ls-remote --heads origin`). Otherwise, in
@@ -138,6 +139,28 @@ countries in its prompt (default 3).
    `config/` if a source tier note needs it). Open a PR from `claude/research-<iso3>` titled `research: <Names> (<date>)`. In the PR body:
    claims and sources per country, statements dropped or corrected in review,
    blocked domains, and open questions for the reviewer.
+
+## Financing section: where the money comes from
+
+Every profile's `financing` section must let a reader see exactly who pays
+and how, comparable across countries. Cover each revenue source that funds
+health care, with its rate, base and who pays it, from official sources
+(finance or social security ministries, tax authorities, OECD, WHO):
+- **General taxation:** which taxes (income, VAT, earmarked taxes) and the
+  share of health funding they provide.
+- **Payroll / social insurance contributions:** rates for employers and
+  employees, income caps, and the share of health funding they provide.
+- **Earmarked social taxes** (e.g. France's CSG): rate and base.
+- **Premiums:** compulsory or voluntary private insurance; average premium
+  and who pays it.
+- **Tax subsidies for private insurance** (e.g. the US exclusion of employer
+  premiums from income tax, Australia's private health insurance rebate):
+  their cost, because they are government support not counted as government
+  spending.
+- **Out-of-pocket payments.**
+Statistical bodies classify the same money differently (OECD counts US
+employer insurance as compulsory since the ACA; WHO does not). State which
+definition each figure uses.
 
 ## Rankings
 

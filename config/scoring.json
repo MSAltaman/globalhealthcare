@@ -1,6 +1,6 @@
 {
-  "version": "0.1-draft",
-  "description": "The atlas's own composite ranking. Computed by scripts/score.py from data/indicators only; no model writes or adjusts a score. Every choice below is a published, adjustable assumption.",
+  "version": "0.2-draft",
+  "description": "The atlas's own composite ranking. Computed by scripts/score.py from data/indicators and data/reference.json only; no model writes or adjusts a score. Every choice below is a published, adjustable assumption.",
   "max_data_age_years": 10,
   "min_indicator_share_per_domain": 0.4,
   "min_domains_for_overall": 3,
@@ -18,11 +18,13 @@
       "indicators": [
         {
           "id": "OECD_COVERAGE",
-          "better": "higher"
+          "better": "higher",
+          "scale": "natural"
         },
         {
           "id": "UHC_INDEX_REPORTED",
-          "better": "higher"
+          "better": "higher",
+          "scale": "natural"
         }
       ]
     },
@@ -35,22 +37,26 @@
         {
           "id": "SH.XPD.OOPC.CH.ZS",
           "better": "lower",
-          "weight": 2
+          "weight": 2,
+          "scale": "world"
         },
         {
           "id": "FINPROTECTION_CATA_TOT_10_POP",
           "better": "lower",
-          "log": true
+          "log": true,
+          "scale": "world"
         },
         {
           "id": "FINPROTECTION_CATA_TOT_25_POP",
           "better": "lower",
-          "log": true
+          "log": true,
+          "scale": "world"
         },
         {
           "id": "FINPROTECTION_IMP_NPRELPL_POP",
           "better": "lower",
-          "log": true
+          "log": true,
+          "scale": "world"
         }
       ],
       "note": "Out-of-pocket share counts double because it is current for every country; the WHO household-survey measures are often years old or missing."
@@ -65,21 +71,25 @@
           "id": "OECD_TREATABLE_MORT",
           "better": "lower",
           "log": true,
-          "weight": 2
+          "weight": 2,
+          "scale": "world"
         },
         {
           "id": "SP.DYN.IMRT.IN",
           "better": "lower",
-          "log": true
+          "log": true,
+          "scale": "world"
         },
         {
           "id": "SH.STA.MMRT",
           "better": "lower",
-          "log": true
+          "log": true,
+          "scale": "world"
         },
         {
           "id": "SP.DYN.LE00.IN",
-          "better": "higher"
+          "better": "higher",
+          "scale": "world"
         }
       ]
     }
@@ -100,5 +110,9 @@
   ],
   "excluded_countries": {
     "TWN": "Not covered by World Bank, WHO or OECD statistics; needs official Taiwanese data on the same definitions."
+  },
+  "scaling": {
+    "natural": "The value is already a 0-100 measure where 100 is best (share of population covered, WHO service coverage index); it is used as is.",
+    "world": "0 and 100 are set at the 5th and 95th percentile of every country's latest value worldwide (data/reference.json), worst to best, on a log scale for skewed rates. Scores are clamped to 0-100. Adding countries to the atlas does not move anyone's score."
   }
 }

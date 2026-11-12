@@ -3,7 +3,7 @@
   "name": "Mexico",
   "wave": 0,
   "system_as_of": "2026-11-09",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "mixed",
     "label": "Segmented system: employment-based social insurance institutes for formal workers, tax-funded public services for everyone else (now largely run by IMSS-Bienestar), and a large out-of-pocket private sector"
@@ -182,8 +182,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
@@ -200,8 +201,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
@@ -218,8 +220,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
@@ -236,13 +239,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-010",
-        "statement": "ISSSTE health insurance for federal government employees is funded by worker contributions of 2.75% of basic salary (for active workers and their families) plus 0.625% (for pensioners), employer contributions from government agencies of 7.375% plus 0.72%, and a daily per-worker social contribution from the federal government.",
+        "statement": "ISSSTE health insurance is funded by worker contributions of 2.75% of basic salary (for active workers and their families) plus 0.625% (for pensioners and their families), contributions from the employing public agencies and entities of 7.375% plus 0.72%, and a daily social contribution per worker paid by the federal government.",
         "valence": "neutral",
         "source_id": "dof-lissste",
         "locator": {
@@ -254,8 +258,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
@@ -272,13 +277,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-012",
-        "statement": "State governments also contribute to free care for people without social security, in amounts set by coordination agreements, and their contributions must rise in the same proportion as the federal funding.",
+        "statement": "State governments also contribute funds for free health services, medicines and related supplies, in amounts set by coordination agreements (which must specify sanctions for non-compliance), and their contributions must grow in the same proportion as the resources the General Health Law assigns under article 77 bis 12.",
         "valence": "neutral",
         "source_id": "dof-lgs",
         "locator": {
@@ -290,13 +296,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-013",
-        "statement": "Each year IMSS-BIENESTAR must channel the equivalent of 11% of the combined federal and state funding for free care into the Health for Wellbeing Fund (Fondo de Salud para el Bienestar), whose technical committee approves its use.",
+        "statement": "Each year IMSS-BIENESTAR must transfer to the Health for Wellbeing Fund (Fondo de Salud para el Bienestar), out of its article 77 bis 12 resources, the equivalent of 11% of the combined resources of articles 77 bis 12 and 77 bis 13, and allocate it to the purposes listed in article 77 bis 29 (sections I-III) once the fund's technical committee approves.",
         "valence": "neutral",
         "source_id": "dof-lgs",
         "locator": {
@@ -308,13 +315,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-014",
-        "statement": "In their annual income tax return, individuals may deduct fees for medical, dental, psychology and nutrition services and hospital costs paid for themselves, a spouse or partner, or parents and children, provided payment is made electronically, by cheque or by card.",
+        "statement": "Resident individuals may deduct, in their annual income tax return, fees for medical, dental, psychology and nutrition services from professionals with legally registered degrees, and hospital costs, paid for themselves, a spouse or partner, or direct-line ascendants or descendants, provided those relatives earn less than the annual general minimum wage and payment is made by the taxpayer's own cheque, electronic transfer from the taxpayer's account, or credit, debit or service card.",
         "valence": "neutral",
         "source_id": "dof-lisr",
         "locator": {
@@ -326,8 +334,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
@@ -344,8 +353,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
@@ -362,13 +372,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-017",
-        "statement": "Employers may deduct, as a business expense, the premiums they pay for medical insurance for their workers.",
+        "statement": "Taxpayers may deduct the premiums they pay for medical expense insurance for the benefit of their workers.",
         "valence": "neutral",
         "source_id": "dof-lisr",
         "locator": {
@@ -380,13 +391,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-018",
-        "statement": "Workers whose pay plus tax-exempt welfare benefits exceeds seven times the annual minimum wage normally have that exemption limited, but the limit does not apply to medical insurance or to reimbursed medical, dental and hospital costs granted generally under laws or employment contracts, provided the employer-side deduction requirements are met.",
+        "statement": "The income tax law's limit on tax-exempt employee welfare benefits does not apply to reimbursements of medical, dental and hospital costs granted generally under laws or employment contracts, or to medical insurance, provided the requirements of article 27 (sections XI and XXI) are met.",
         "valence": "neutral",
         "source_id": "dof-lisr",
         "locator": {
@@ -398,26 +410,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       },
       {
         "id": "MEX-financing-019",
-        "statement": "Using Finance Ministry estimates, CIEP puts the revenue forgone in 2026 through personal income tax deductions, chiefly for medical, dental, psychology, nutrition and hospital costs, at 0.0337% of GDP, close to its historical average of 0.0321%.",
+        "statement": "CIEP's table of selected tax expenditures puts the estimated 2026 cost of personal income tax deductions, chiefly for medical, dental, psychology, nutrition and other hospital costs, at 0.0337% of GDP, against a historical average of 0.0321% of GDP.",
         "valence": "neutral",
         "source_id": "ciep-renuncias-2026",
         "locator": {
-          "table": "Cuadro 1, row 'Deducciones personales del ISRPF'",
+          "table": "Cuadro 1: renuncias recaudatorias seleccionadas, row 'Deducciones personales del ISRPF' (columns: % of GDP 2026; historical average % of GDP)",
           "page": 5,
-          "char_start": 17595,
+          "char_start": 16850,
           "char_end": 17802,
-          "passage_sha256": "00f4f5bad5d0e550816c9308a011c2a080741b2dbc4e65f62d2b9c8cd6b5bf55"
+          "passage_sha256": "35b10a0f6e7612875cb6ab9d9d306a1113faeedec4228004200b58c14e0b0051"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2026
       },
@@ -435,14 +449,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2026
       },
       {
         "id": "MEX-financing-021",
-        "statement": "In the 2026 budget proposal, most of the increase went to the IMSS (an extra MXN 58,213.9 million), while the Ministry of Health faced a cut of MXN 2,228.6 million and IMSS-Bienestar a real increase of 0.8%, although CIEP notes it serves the largest number of people.",
+        "statement": "In the 2026 budget proposal the increase is concentrated in the IMSS (an extra MXN 58,213.9 million), while the Ministry of Health would face a cut of MXN 2,228.6 million and IMSS-Bienestar a real increase of 0.8%, although, citing INEGI (2025), CIEP notes that IMSS-Bienestar would serve the largest number of people.",
         "valence": "neutral",
         "source_id": "ciep-salud-2026",
         "locator": {
@@ -454,14 +469,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2026
       },
       {
         "id": "MEX-financing-022",
-        "statement": "IMSS's sickness and maternity insurance ran a deficit in every year from 2020 to 2025: its revenue grew by an average 3.5% a year in real terms against 4.2% for spending, the operating deficit equalled 23% of revenue, and the 2025 deficit was 40.3% larger than in 2020.",
+        "statement": "From 2020 to 2025 IMSS's sickness and maternity insurance ran a deficit, with spending above revenue throughout the period: revenue grew by an average 3.5% a year in real terms against 4.2% for spending, the operating deficit over the period equalled 23% of revenue, and the 2025 deficit was 40.3% larger than that of 2020.",
         "valence": "weakness",
         "source_id": "imss-informe-2026-sem",
         "locator": {
@@ -473,14 +489,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": "2020-2025"
       },
       {
         "id": "MEX-financing-023",
-        "statement": "In 2025, IMSS's sickness and maternity insurance received MXN 501,618 million (current pesos) in social security contributions, according to its audited financial statements.",
+        "statement": "In 2025 IMSS's sickness and maternity insurance recorded MXN 501,618 million (current pesos) in social security fees and contributions (cuotas y aportaciones), according to its audited financial statements.",
         "valence": "neutral",
         "source_id": "imss-informe-2026-sem",
         "locator": {
@@ -492,14 +509,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2025
       },
       {
         "id": "MEX-financing-024",
-        "statement": "The federal government pays IMSS a fixed annual contribution per insured student; it rose from 63 pesos in 1989 to 711 pesos in 2025, but would have been 1,222 pesos had it kept pace with inflation, leaving a 41.8% shortfall in 2025.",
+        "statement": "The federal government, through the Finance Ministry, pays IMSS an annual contribution per student; it rose from 63 pesos in 1989 to 711 pesos in 2025, less than inflation because in some years the minimum wage grew more slowly than prices, and had it been indexed to inflation it would have been 1,222 pesos in 2025, a 41.8% difference.",
         "valence": "weakness",
         "source_id": "imss-informe-2026-sem",
         "locator": {
@@ -511,33 +529,35 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2025
       },
       {
         "id": "MEX-financing-025",
-        "statement": "Across all its insurance branches (not health alone), IMSS's own revenue in 2025 was MXN 832,340 million: worker and employer contributions supplied 75.1%, federal government contributions 19.1%, and investment income from reserves and other income 5.8%.",
+        "statement": "In 2025 IMSS's own revenue was MXN 832,340 million; worker-employer contributions remained its main source of financing at 75.1%, with federal government contributions at 19.1% and financial income from reserves and other income at 5.8%. These figures are for the IMSS as a whole.",
         "valence": "neutral",
         "source_id": "imss-informe-2026-fin",
         "locator": {
-          "section": "Capítulo II. Situación Financiera Global",
+          "section": "II.2 Información presupuestaria 2025",
           "page": 5,
-          "char_start": 13858,
+          "char_start": 13333,
           "char_end": 14223,
-          "passage_sha256": "31888c36d8608980ebba4eae4af673ddb3ddc6ae6af8b69eddeb0adcb08e1201"
+          "passage_sha256": "fdb1badb084f26f5c8586955d30c554bdd50bb2c413b18fcaf674877ad0a77a2"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2025
       },
       {
         "id": "MEX-financing-026",
-        "statement": "As of December 2025, medical care in kind under IMSS sickness and maternity insurance was funded by a fixed contribution equal to 20.40% of the UMA from the employer and 14.83% of the UMA from the federal government (35.23% in total), plus, on the contribution wage above three times the UMA, 1.10% from the employer and 0.40% from the worker.",
+        "statement": "As of December 2025, the IMSS table of contribution rates lists, for medical care in kind under sickness and maternity insurance, a fixed contribution totalling 35.23% of the UMA (of which 20.40% from employers) and, on the contribution wage above three times the UMA, a contribution totalling 1.50% (of which 1.10% from employers).",
         "valence": "neutral",
         "source_id": "imss-informe-2026-anexos",
         "locator": {
@@ -549,8 +569,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2025
       },
@@ -568,8 +589,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         },
         "data_year": 2025
       },
@@ -587,8 +609,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
         }
       }
     ],
@@ -2709,6 +2732,10 @@
     {
       "date": "2026-11-10",
       "note": "Data-age backfill: dropped 6 claims resting on 2003-2015 data (IMSS job turnover 2014, 2015 financing shares, private insurance share 2000-2015, spending for the uninsured 2003-2009, bed gap 2003-2006, spending growth 2001-2015); marked the 2000-2015 public/out-of-pocket share trend as historical; replaced 2015 causes of death with INEGI 2024 registered-death statistics; replaced the 2015 pharmacy-clinic count with two 2025-2026 Lancet Regional Health - Americas commentaries (3 claims). New claims support-reviewed (3 statements corrected, 1 re-anchored)."
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Backfill round 3 (MEX-r3): financing section brought up to the 'where the money comes from' standard with 23 new claims from 8 new sources (Social Security Law, ISSSTE Law, General Health Law, Income Tax Law, IMSS 2025-2026 report chapters II, V and annexes, two CIEP notes) plus the 2020 HiT: IMSS and ISSSTE contribution rates and who pays them, federal and state funding for care of people without social security, the 11% transfer to the Fondo de Salud para el Bienestar, income tax deductions for medical costs and private medical insurance and their 2026 cost, the 2026 health budget proposal, and the IMSS sickness and maternity insurance deficit. Cold support review corrected 11 statements and re-anchored 2. Re-anchored MEX-reforms-010 and -011 to identical passages whose offsets had shifted on the gob.mx page."
     }
   ]
 }

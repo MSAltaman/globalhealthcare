@@ -220,6 +220,355 @@
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-24"
+      },
+      {
+        "id": "AUS-financing-007",
+        "statement": "The Commonwealth Fund profile describes Medicare as funded mainly from general taxation plus a levy based on income.",
+        "valence": "neutral",
+        "source_id": "cwf-aus",
+        "locator": {
+          "section": "Summary",
+          "char_start": 1001,
+          "char_end": 1103,
+          "passage_sha256": "0fa2e6d8fca035577700b207c9555af535f4ac10a922292e142d2173c332a28e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "AUS-financing-008",
+        "statement": "Taxpayers without private hospital cover whose income is above a threshold pay a Medicare levy surcharge of 1% to 1.5% of income, on top of the 2% Medicare levy that most taxpayers pay; its stated aim is to push people towards private hospital cover and the private system.",
+        "valence": "neutral",
+        "source_id": "phgov-mls",
+        "locator": {
+          "section": "Medicare Levy Surcharge",
+          "char_start": 375,
+          "char_end": 900,
+          "passage_sha256": "a440fd1a6c8b1e530c43b3c3ab514e17f4529cad12cedb65cc8500c78649aef8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "AUS-financing-009",
+        "statement": "For 2026-27 the surcharge is 0% for singles with income for surcharge purposes up to AUD 105,000 (families AUD 210,000), then 1%, 1.25% and 1.5% in higher bands, the top rate applying from AUD 164,001 for singles and AUD 328,001 for families.",
+        "valence": "neutral",
+        "source_id": "phgov-mls",
+        "locator": {
+          "section": "Income thresholds 1 July 2026 to 30 June 2027",
+          "table": "Medicare Levy Surcharge thresholds 2026-27",
+          "char_start": 2220,
+          "char_end": 2483,
+          "passage_sha256": "1088eb0bf29b583bccb8dbc4703ef67540abc8b21e77747c3ca5c3f670e97cb6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
+      },
+      {
+        "id": "AUS-financing-010",
+        "statement": "The government rebate on private health insurance premiums varies with age and income: from 1 July 2026 to 31 March 2027 it is 24.118% of the premium for people under 65 in the base income tier and 32.158% for people 70 or older, smaller in the middle tiers, and zero in the top tier (singles above AUD 164,000, families above AUD 328,000).",
+        "valence": "neutral",
+        "source_id": "phgov-rebate",
+        "locator": {
+          "section": "Income thresholds and rebates 1 July 2026 to 31 March 2027",
+          "table": "Rebate tiers 2026-27",
+          "char_start": 2135,
+          "char_end": 2488,
+          "passage_sha256": "876370e63e58233eae94baa106ebe90b12cd8788d7d1794239a7226130729a15"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
+      },
+      {
+        "id": "AUS-financing-011",
+        "statement": "People can take the private insurance rebate either as a lower premium charged by their insurer or as a tax offset in their annual tax return.",
+        "valence": "neutral",
+        "source_id": "phgov-rebate",
+        "locator": {
+          "section": "Claiming the Rebate",
+          "char_start": 2934,
+          "char_end": 3199,
+          "passage_sha256": "0902d0eeafcaa00c81f4d21d2a82174377385c8825583380c09f044b71afaa38"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "AUS-financing-012",
+        "statement": "Lifetime Health Cover adds a premium loading of 2% for each year over age 30 at which a person first takes out hospital cover, up to 70%; it is removed after 10 continuous years of cover, and the rebate does not apply to the loading.",
+        "valence": "neutral",
+        "source_id": "phgov-rebate",
+        "locator": {
+          "section": "The rebate and Lifetime Health Cover",
+          "char_start": 4980,
+          "char_end": 5502,
+          "passage_sha256": "5fd9ee38ac839cc29d3272e6d010fff76a251d544fbd1f8f3a7f49f406da3248"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "AUS-financing-013",
+        "statement": "At 30 June 2026, 12.8 million people (45.8% of the population) held private hospital cover and 15.5 million (55.5%) held some general treatment (extras) cover.",
+        "valence": "neutral",
+        "source_id": "apra-phi-2026-06",
+        "locator": {
+          "section": "Membership and coverage",
+          "char_start": 368,
+          "char_end": 1744,
+          "passage_sha256": "2cb9f2296c5891fbbffac785ad40c240bb17b84b9a1e3c7f4089823def0ebb99"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026"
+      },
+      {
+        "id": "AUS-financing-014",
+        "statement": "At 30 June 2026, 86.8% of adults with hospital cover had no Lifetime Health Cover loading, while 1,209,359 people were paying one.",
+        "valence": "neutral",
+        "source_id": "apra-phi-2026-06",
+        "locator": {
+          "section": "Lifetime health cover",
+          "char_start": 1004,
+          "char_end": 1274,
+          "passage_sha256": "2952c3396af2761784d9dad194770863506dd8c5e09f83ec5deb6ed56b200392"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026"
+      },
+      {
+        "id": "AUS-financing-015",
+        "statement": "Private insurers paid AUD 5,330.86 million in hospital treatment benefits in the June 2026 quarter.",
+        "valence": "neutral",
+        "source_id": "apra-phi-2026-06",
+        "locator": {
+          "section": "Benefits Paid - Hospital treatment",
+          "char_start": 3167,
+          "char_end": 3319,
+          "passage_sha256": "0e797b1dc266e6068c12756a441b6e9237c1060663fa1634cb317f0a8156e053"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026"
+      },
+      {
+        "id": "AUS-financing-016",
+        "statement": "The federal budget puts spending on the private health insurance rebate at AUD 7.86 billion in 2025-26 and AUD 7.90 billion in 2026-27, then projects it to fall to about AUD 7.4 billion in 2027-28.",
+        "valence": "neutral",
+        "source_id": "bp1-2026-bs6",
+        "locator": {
+          "table": "Table 6.8.1: Trends in the major components of the medical services and benefits sub-function expense",
+          "page": 17,
+          "char_start": 28445,
+          "char_end": 28719,
+          "passage_sha256": "c8255fe3d7ac01ce9341a71707f5ead549c253d22a7f6cdc8c40887c4c3f4592"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-017",
+        "statement": "Health accounts for 16.4% of total federal government expenses in 2026-27; the health function covers Medicare medical services, payments to states for public hospitals, the Pharmaceutical Benefits Schemes and the private health insurance rebate, among other items.",
+        "valence": "neutral",
+        "source_id": "bp1-2026-bs6",
+        "locator": {
+          "section": "Health",
+          "page": 16,
+          "char_start": 25901,
+          "char_end": 26386,
+          "passage_sha256": "aaa08f21dbea2ba6165728ab045b5be99b123ffa2acfc64ece0d20dfe7dd3b14"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
+      },
+      {
+        "id": "AUS-financing-018",
+        "statement": "Because the private health insurance rebate is not taxed as income, whether paid as a premium reduction or a tax offset, Treasury estimates a further AUD 1.55 billion of revenue forgone in 2025-26 (revenue-forgone method).",
+        "valence": "neutral",
+        "source_id": "teis-2025",
+        "locator": {
+          "section": "Appendix, A18 Exemption of the Private Health Insurance Rebate",
+          "page": 71,
+          "char_start": 110590,
+          "char_end": 111392,
+          "passage_sha256": "661c5fabc96ae740fc25a9253ba009a271259e5147eea65a4dfae76ea337b5a9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-019",
+        "statement": "Treasury counts the Medicare levy surcharge as a negative tax expenditure, a higher rate than the benchmark: it raised an estimated AUD 1.15 billion in 2025-26.",
+        "valence": "neutral",
+        "source_id": "teis-2025",
+        "locator": {
+          "section": "Appendix, A21 Medicare levy surcharge",
+          "page": 72,
+          "char_start": 113283,
+          "char_end": 114101,
+          "passage_sha256": "9fcc86a59798a36e2d6b2b28136aa93d29a525904139bd21ea6aaf938e441982"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-020",
+        "statement": "Residents with taxable income below the low-income thresholds are exempt from the Medicare levy, which is phased in above them; Treasury estimates this exemption cost AUD 3.05 billion in revenue in 2025-26.",
+        "valence": "neutral",
+        "source_id": "teis-2025",
+        "locator": {
+          "section": "Appendix, A20 Medicare levy exemption for residents with taxable income below the low-income thresholds",
+          "page": 71,
+          "char_start": 112413,
+          "char_end": 113286,
+          "passage_sha256": "e4e14e6e4da45bd9e758cd5a395f7c7e42e877a04547732a6b020edae61a53d9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-021",
+        "statement": "GST normally applies at 10%, but certain medical and health services are GST-free; Treasury estimates the revenue forgone at AUD 6.75 billion in 2025-26.",
+        "valence": "neutral",
+        "source_id": "teis-2025",
+        "locator": {
+          "section": "Appendix, H17 Health - medical and health services",
+          "page": 204,
+          "char_start": 411495,
+          "char_end": 412072,
+          "passage_sha256": "da4d5fbc99129e7bf67dd939bbcc97849ec3f9624b2b3c46496534a52c73c47a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-026",
+        "statement": "Private health insurance supplied by private health insurers is also GST-free, which Treasury estimates forgoes AUD 0.52 billion in 2025-26.",
+        "valence": "neutral",
+        "source_id": "teis-2025",
+        "locator": {
+          "section": "Appendix, H19 Private health insurance",
+          "page": 205,
+          "char_start": 413825,
+          "char_end": 414443,
+          "passage_sha256": "62fe3316db57c196f2af56b42e4b274655ef405fd42781930a36fad1a306f160"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-022",
+        "statement": "The Medicare levy low-income thresholds were raised by 2.9% from 1 July 2025 for singles, families, and seniors and pensioners, which the government says keeps over 1 million lower-income Australians exempt from the levy or paying a reduced rate.",
+        "valence": "neutral",
+        "source_id": "bp1-2026-bs4",
+        "locator": {
+          "section": "Increasing Medicare levy low-income thresholds",
+          "page": 37,
+          "char_start": 74860,
+          "char_end": 75204,
+          "passage_sha256": "b9b0b00b84f3860e2fe6abf418f6311c17916690984279a5b2e7f16f6e5feefd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2025-26"
+      },
+      {
+        "id": "AUS-financing-023",
+        "statement": "Federal National Health Reform funding payments to the states are estimated at AUD 37.4 billion in 2026-27, rising to AUD 47.2 billion in 2029-30.",
+        "valence": "neutral",
+        "source_id": "bp3-2026",
+        "locator": {
+          "table": "Table 1.2: Total Australian Government payments to the states",
+          "page": 16,
+          "char_start": 20724,
+          "char_end": 20954,
+          "passage_sha256": "338d95e907124f904a10aab7705794b49c3ffc6f2e2ae4e48a66c7fa7859c1a0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
+      },
+      {
+        "id": "AUS-financing-024",
+        "statement": "Under the 2026-2031 Addendum to the National Health Reform Agreement, agreed on 30 January 2026, federal hospital funding is tied to public hospital activity and nationally set efficient prices and costs, with the federal cap rising 10.25% in 2026-27 and 8.0% a year from 2027-28 to 2030-31.",
+        "valence": "neutral",
+        "source_id": "bp3-2026",
+        "locator": {
+          "section": "Part 2: Payments for specific purposes, National Health Reform funding, note a",
+          "page": 29,
+          "char_start": 49277,
+          "char_end": 50097,
+          "passage_sha256": "42901e6c91ae8d829ed01a65406d5ba3fcb479618e7175931b510ed69b439260"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
+      },
+      {
+        "id": "AUS-financing-025",
+        "statement": "States also receive untied federal general revenue assistance, almost all of it GST revenue, to support their services: AUD 110.3 billion expected in 2026-27, of which AUD 109.8 billion is GST-related.",
+        "valence": "neutral",
+        "source_id": "bp3-2026",
+        "locator": {
+          "section": "Part 1: General revenue assistance",
+          "page": 14,
+          "char_start": 16397,
+          "char_end": 16698,
+          "passage_sha256": "82cf0dd6f839d36c649168bfa739bf704c5ab0c64e77ebef9ab1262b50a28e62"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
       }
     ],
     "covered": [
@@ -1872,6 +2221,42 @@
           "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "AUS-reforms-011",
+        "statement": "The 2026-27 federal budget proposed removing the age-based increase in the private health insurance rebate from 1 April 2027, saving AUD 3.0 billion over four years from 2026-27 and AUD 1.0 billion a year after that, with the savings to go to aged care.",
+        "valence": "neutral",
+        "source_id": "bp2-2026",
+        "locator": {
+          "section": "Part 2: Payment Measures, Health, Disability and Ageing: Modernising Private Health",
+          "page": 115,
+          "char_start": 234557,
+          "char_end": 235229,
+          "passage_sha256": "33a64520b5f22789537e605082bc97ac62989453d827caf26db47b2ef65715e7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
+      },
+      {
+        "id": "AUS-reforms-012",
+        "statement": "The 2026-27 budget commits AUD 220.3 billion over five years from 2026-27 to the states for public hospital services and the 2026-2031 Addendum to the National Health Reform Agreement, including AUD 24.4 billion in additional funding from a higher funding cap.",
+        "valence": "neutral",
+        "source_id": "bp2-2026",
+        "locator": {
+          "section": "Part 2: Payment Measures, National Health Reform Agreement - hospital funding",
+          "page": 115,
+          "char_start": 236084,
+          "char_end": 236488,
+          "passage_sha256": "8fecc09d86e86b79b5585fa84af5e4c491149b6f81ff0558c7449b01c9eae12a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2026-27"
       }
     ],
     "us_lessons": [
@@ -2276,6 +2661,93 @@
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13452749",
       "funding_note": "HILDA survey waves 9, 13, 17 and 21 (2009-2021), pooled.",
       "accessed": "2026-11-11"
+    },
+    {
+      "id": "teis-2025",
+      "title": "2025-26 Tax Expenditures and Insights Statement",
+      "publisher": "Australian Treasury",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://treasury.gov.au/sites/default/files/2025-12/p2025-721342.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Official Treasury statement; estimates use the revenue-forgone method against a benchmark tax system and are not the revenue that abolition would raise."
+    },
+    {
+      "id": "bp1-2026-bs6",
+      "title": "Budget 2026-27, Budget Paper No. 1, Statement 6: Expenses and Net Capital Investment",
+      "publisher": "Commonwealth of Australia (Treasury and Finance)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://budget.gov.au/content/bp1/download/bp1_bs-6.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Federal budget estimates (May 2026); 2025-26 figures are estimates, later years projections."
+    },
+    {
+      "id": "bp1-2026-bs4",
+      "title": "Budget 2026-27, Budget Paper No. 1, Statement 4: Tax reform for workers, businesses and future generations",
+      "publisher": "Commonwealth of Australia (Treasury)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://budget.gov.au/content/bp1/download/bp1_bs-4.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bp2-2026",
+      "title": "Budget 2026-27, Budget Paper No. 2: Budget Measures",
+      "publisher": "Commonwealth of Australia",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Government budget measures as announced in May 2026; measures needing legislation take effect only if Parliament passes it."
+    },
+    {
+      "id": "bp3-2026",
+      "title": "Budget 2026-27, Budget Paper No. 3: Federal Financial Relations",
+      "publisher": "Commonwealth of Australia",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://budget.gov.au/content/bp3/download/bp3_2026-27.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Federal budget estimates of payments to states (May 2026)."
+    },
+    {
+      "id": "phgov-mls",
+      "title": "Medicare Levy Surcharge",
+      "publisher": "PrivateHealth.gov.au (Commonwealth Ombudsman, Private Health Insurance Ombudsman)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://privatehealth.gov.au/health_insurance/surcharges_incentives/medicare_levy.htm",
+      "accessed": "2026-11-12",
+      "funding_note": "Government consumer information site; thresholds and rates shown when accessed."
+    },
+    {
+      "id": "phgov-rebate",
+      "title": "Australian Government Private Health Insurance Rebate",
+      "publisher": "PrivateHealth.gov.au (Commonwealth Ombudsman, Private Health Insurance Ombudsman)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://privatehealth.gov.au/health_insurance/surcharges_incentives/insurance_rebate.htm",
+      "accessed": "2026-11-12",
+      "funding_note": "Government consumer information site; rebate rates shown when accessed."
+    },
+    {
+      "id": "apra-phi-2026-06",
+      "title": "Quarterly private health insurance membership and benefits summary - June 2026",
+      "publisher": "Australian Prudential Regulation Authority",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.apra.gov.au/quarterly-private-health-insurance-membership-and-benefits-summary-june-2026",
+      "accessed": "2026-11-12",
+      "funding_note": "Official prudential regulator statistics."
     }
   ],
   "rankings": [

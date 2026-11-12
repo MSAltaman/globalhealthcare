@@ -236,7 +236,8 @@ approval for supplementary cover) so the comparison is like for like.
 | `data/indicators/<ISO3>.json` | Machine-pulled statistics |
 | `scripts/` | `fetch_indicators`, `new_profile`, `sourcetext` (fetch), `anchor`, `verify_claims`, `validate`, `build_site_data`; see each file's docstring |
 | `site/` | The static site; reads `data/` at build time |
-| `infra/` | Azure Bicep (see `infra/README.md`) |
+| `infra/terraform/` | Google Cloud infrastructure as Terraform (see its README) |
+| `infra/` (other) | Earlier Azure Bicep, to be retired |
 
 ## Network
 

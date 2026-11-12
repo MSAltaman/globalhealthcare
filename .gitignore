@@ -6,3 +6,10 @@ __pycache__/
 .azure/
 node_modules/
 site/data/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+infra/terraform/bootstrap/terraform.tfvars
+crash.log

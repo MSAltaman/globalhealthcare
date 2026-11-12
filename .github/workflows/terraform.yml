@@ -1,0 +1,178 @@
+# Infrastructure pipeline for infra/terraform.
+#
+#   Pull request  -> format and validate, then a plan for staging and production, posted on the PR
+#   Merge to main -> apply to staging, then apply to production after your approval
+#   Every Monday  -> plan both; fails (and GitHub emails you) if someone changed things by hand
+#
+# Until the bootstrap outputs are saved as repository variables, the steps that
+# need Google Cloud are skipped and only format and validate run.
+
+name: Terraform
+
+on:
+  pull_request:
+    paths: ["infra/terraform/**", ".github/workflows/terraform.yml"]
+  push:
+    branches: [main]
+    paths: ["infra/terraform/**", ".github/workflows/terraform.yml"]
+  schedule:
+    - cron: "17 13 * * 1" # Mondays 13:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # lets the job request a GitHub sign-in token for Google Cloud
+  pull-requests: write # lets the plan be posted on the pull request
+
+concurrency:
+  group: terraform-${{ github.ref }}
+  cancel-in-progress: false # never interrupt an apply halfway
+
+env:
+  TF_IN_AUTOMATION: "true"
+  TF_INPUT: "false"
+  TF_VERSION: "1.13.4"
+  CONFIGURED: ${{ vars.GCP_WIF_PROVIDER != '' }}
+
+jobs:
+  check:
+    name: Format and validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+      - run: terraform fmt -check -recursive -diff infra/terraform
+      - name: Validate every root
+        run: |
+          for d in infra/terraform/bootstrap infra/terraform/envs/staging infra/terraform/envs/prod; do
+            echo "== $d"
+            terraform -chdir="$d" init -backend=false
+            terraform -chdir="$d" validate
+          done
+
+  plan:
+    name: Plan (${{ matrix.env }})
+    needs: check
+    if: github.event_name == 'pull_request' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - env: staging
+            sa_var: TF_SA_STAGING
+            project_var: GCP_PROJECT_STAGING
+          - env: prod
+            sa_var: TF_PLAN_SA_PROD # read-only account: plans need no approval, applies do
+            project_var: GCP_PROJECT_PROD
+    defaults:
+      run:
+        working-directory: infra/terraform/envs/${{ matrix.env }}
+    env:
+      TF_VAR_project_id: ${{ vars[matrix.project_var] }}
+      TF_VAR_wif_pool_name: ${{ vars.GCP_POOL_NAME }}
+      TF_VAR_alert_email: ${{ secrets.ALERT_EMAIL }}
+    steps:
+      - uses: actions/checkout@v4
+        if: env.CONFIGURED == 'true'
+      - uses: google-github-actions/auth@v2
+        if: env.CONFIGURED == 'true'
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars[matrix.sa_var] }}
+      - uses: hashicorp/setup-terraform@v3
+        if: env.CONFIGURED == 'true'
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+          terraform_wrapper: false
+      - run: terraform init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+        if: env.CONFIGURED == 'true'
+      - name: Plan
+        id: plan
+        if: env.CONFIGURED == 'true'
+        # -lock=false: a read-only plan must not block a running apply.
+        # -detailed-exitcode: 0 = no changes, 2 = changes, 1 = error.
+        run: |
+          set +e
+          terraform plan -lock=false -no-color -detailed-exitcode -out=tfplan > plan.txt 2>&1
+          code=$?
+          cat plan.txt
+          echo "exitcode=$code" >> "$GITHUB_OUTPUT"
+          [ "$code" -eq 1 ] && exit 1 || exit 0
+      - name: Post plan on the pull request
+        if: env.CONFIGURED == 'true' && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        env:
+          ENV_NAME: ${{ matrix.env }}
+          WORKDIR: infra/terraform/envs/${{ matrix.env }}
+        with:
+          script: |
+            const fs = require('fs');
+            let plan = fs.readFileSync(`${process.env.WORKDIR}/plan.txt`, 'utf8');
+            const summary = (plan.match(/Plan: .*|No changes\..*/) || ['(see log)'])[0];
+            if (plan.length > 60000) plan = plan.slice(-60000);
+            const body = `#### Terraform plan: ${process.env.ENV_NAME}\n**${summary}**\n<details><summary>Full plan</summary>\n\n\`\`\`\n${plan}\n\`\`\`\n</details>`;
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });
+      - name: Fail on drift
+        if: env.CONFIGURED == 'true' && github.event_name == 'schedule' && steps.plan.outputs.exitcode == '2'
+        run: |
+          echo "::error::${{ matrix.env }} no longer matches the code. Someone changed it outside Terraform; review the plan above."
+          exit 1
+      - name: Not set up yet
+        if: env.CONFIGURED != 'true'
+        working-directory: .
+        run: echo "Google Cloud repository variables are not set yet; skipping plan. See infra/terraform/README.md."
+
+  apply-staging:
+    name: Apply to staging
+    needs: check
+    if: github.event_name == 'push' && vars.GCP_WIF_PROVIDER != ''
+    runs-on: ubuntu-latest
+    environment: staging
+    defaults:
+      run:
+        working-directory: infra/terraform/envs/staging
+    env:
+      TF_VAR_project_id: ${{ vars.GCP_PROJECT_STAGING }}
+      TF_VAR_wif_pool_name: ${{ vars.GCP_POOL_NAME }}
+      TF_VAR_alert_email: ${{ secrets.ALERT_EMAIL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.TF_SA_STAGING }}
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+      - run: terraform init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+      - run: terraform apply -auto-approve -no-color
+
+  apply-prod:
+    name: Apply to production
+    needs: apply-staging
+    runs-on: ubuntu-latest
+    # Set "Required reviewers" on this environment in GitHub (Settings > Environments),
+    # so this job waits for your approval. Only jobs in this environment can sign in
+    # as the production Terraform account.
+    environment: production
+    defaults:
+      run:
+        working-directory: infra/terraform/envs/prod
+    env:
+      TF_VAR_project_id: ${{ vars.GCP_PROJECT_PROD }}
+      TF_VAR_wif_pool_name: ${{ vars.GCP_POOL_NAME }}
+      TF_VAR_alert_email: ${{ secrets.ALERT_EMAIL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.TF_SA_PROD }}
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+      - run: terraform init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+      - run: terraform apply -auto-approve -no-color

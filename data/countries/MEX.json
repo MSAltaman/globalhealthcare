@@ -1,0 +1,2741 @@
+{
+  "iso3": "MEX",
+  "name": "Mexico",
+  "wave": 0,
+  "system_as_of": "2026-11-09",
+  "status": "verified",
+  "model": {
+    "type": "mixed",
+    "label": "Segmented system: employment-based social insurance institutes for formal workers, tax-funded public services for everyone else (now largely run by IMSS-Bienestar), and a large out-of-pocket private sector"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "MEX-overview-001",
+      "MEX-overview-007"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "MEX-overview-001",
+        "statement": "Mexico's constitution has recognised health as a fundamental right since reforms in 1983; the authors of a 2025 study judge that universal health coverage has not been achieved, and that fragmentation among public providers and limited public investment have held back progress toward equitable access.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7986,
+          "char_end": 8506,
+          "passage_sha256": "afd8a75b4dc5f43c3d409e0b7121a080400e5d93c627bac265fa29791fa4f084"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-overview-002",
+        "statement": "The 2020 Observatory review describes three parallel parts: social insurance tied to employment, public services for people without social insurance backed by a financial protection scheme, and a private sector of providers, insurers and suppliers.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Abstract",
+          "page": 21,
+          "char_start": 25422,
+          "char_end": 25779,
+          "passage_sha256": "5dea642b3d3919b326b0d678f45feb966f8a880fc5331249818034c5fdd403b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-overview-003",
+        "statement": "Formal-sector workers and their families are covered by separate social security institutions: ISSSTE for state workers (13.7 million people), the IMSS for private-sector employees (68.7 million), and smaller institutes for employees of the state oil company Pemex and the armed forces.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Table 1",
+          "char_start": 10199,
+          "char_end": 10799,
+          "passage_sha256": "1634b09b0f62847a9bb63230b09ffdded3f832e9d4f5f833dc135b50bd510b47"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-overview-004",
+        "statement": "IMSS-Bienestar, a programme created in 1973 for marginalised populations, was expanded in 2022 to serve informal workers and the unemployed in place of INSABI, and by 2024 served 50 million people in the 23 of 32 states that signed federalisation agreements; in the states that opted out, the Ministry of Health and state health services serve 15.6 million people.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Table 1",
+          "char_start": 11581,
+          "char_end": 12032,
+          "passage_sha256": "bfb122800e793b621261147bcaf2661bdfb28c31688a5cbd4c4fe679d65e8a64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-overview-005",
+        "statement": "In 2018, 13.6% of the population (about 17.8 million people) had no public financial protection entitling them to free public care, and likely no private insurance either.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 26,
+          "char_start": 34680,
+          "char_end": 34923,
+          "passage_sha256": "216a1db099c888803c46e2727d995d23e732257c33ea635161f039da2fd7155e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "MEX-overview-007",
+        "statement": "Legal eligibility for health coverage depends on a person's employment status, and differs according to whether the job is public or private and formal or informal.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 8616,
+          "char_end": 8793,
+          "passage_sha256": "7b299ca662590eb33b64bf2f46ae8fb7a65bd6176eba85d77ed44411c0497257"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "MEX-financing-001",
+        "statement": "The IMSS is financed jointly by workers, employers and the federal government: worker and employer contributions go straight to the IMSS, while the government pays its share through the federal budget.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3 Financing",
+          "page": 118,
+          "char_start": 237745,
+          "char_end": 238056,
+          "passage_sha256": "60deca75090ca4016e84faf0fd4f673361a918c0c9c4b46d30dfa484a48bb2c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-financing-003",
+        "statement": "Seguro Popular, started in 2003, copied the three-way funding of social insurance: the federal government paid a fixed fee per enrolled person (largely from rising oil revenue), states added half that amount, and enrollees above the poverty level were to pay an annual income-related fee.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "2 Organization and governance",
+          "page": 61,
+          "char_start": 114449,
+          "char_end": 114862,
+          "passage_sha256": "855a7aeeb48de0a8672afb24646aa7711e7f46ec21f1e32d71267662e6ec0d80"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-financing-006",
+        "statement": "The 2020 review reports that public services for people without social insurance, run by the federal and state governments, are paid for mainly from general taxes and other government revenue, and to a smaller extent from user fees paid out of pocket.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3.2.1 Sources of revenue",
+          "page": 118,
+          "char_start": 238221,
+          "char_end": 238479,
+          "passage_sha256": "c007de979da2af871c6c3c10640b3aeb6217667d3113293539810c84e014c2a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-007",
+        "statement": "The 2020 review cites estimates that 7.8% of Mexicans had private health insurance, mostly policies covering major medical expenses.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3.2.1 Sources of revenue",
+          "page": 119,
+          "char_start": 240188,
+          "char_end": 240298,
+          "passage_sha256": "8a83c73a886b845c36c070f994caa50499487287bbd436fbc4c13f93c22f3b38"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-008",
+        "statement": "Under the Social Security Law, the cash benefits of IMSS sickness and maternity insurance are funded by a contribution of 1% of the worker's contribution wage base, split 70% employer, 25% worker and 5% federal government.",
+        "valence": "neutral",
+        "source_id": "dof-lss",
+        "locator": {
+          "section": "Artículo 107",
+          "page": 35,
+          "char_start": 113518,
+          "char_end": 113966,
+          "passage_sha256": "6f98f2301300c8388ddc3ad87f67f618d5af5bf7f71bce5e62344f1fe2d37476"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-009",
+        "statement": "To fund medical care in kind for IMSS pensioners and their dependants, the Social Security Law sets a contribution of 1.5% of the contribution wage base: 1.05% paid by the employer, 0.375% by the worker and 0.075% by the State.",
+        "valence": "neutral",
+        "source_id": "dof-lss",
+        "locator": {
+          "section": "Artículo 25",
+          "page": 10,
+          "char_start": 29973,
+          "char_end": 30542,
+          "passage_sha256": "30078a2e3e68d63dcd4fa05bc8fa42ba39bc13fedba2c39cfcee7639f8e0fb96"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-010",
+        "statement": "ISSSTE health insurance is funded by worker contributions of 2.75% of basic salary (for active workers and their families) plus 0.625% (for pensioners and their families), contributions from the employing public agencies and entities of 7.375% plus 0.72%, and a daily social contribution per worker paid by the federal government.",
+        "valence": "neutral",
+        "source_id": "dof-lissste",
+        "locator": {
+          "section": "Artículo 42",
+          "page": 19,
+          "char_start": 59757,
+          "char_end": 60983,
+          "passage_sha256": "8688f0c6c2543fecda1537c044c11bce0b70e3f91115c4111e05e63e638027e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-011",
+        "statement": "Under the General Health Law, the federal government funds free health services, medicines and supplies each year through IMSS-BIENESTAR, as set in the federal budget; the amount may not fall below the previous year's, subject to budget availability. Where IMSS-BIENESTAR does not provide this care, the money goes to the states.",
+        "valence": "neutral",
+        "source_id": "dof-lgs",
+        "locator": {
+          "section": "Artículo 77 bis 12",
+          "page": 48,
+          "char_start": 154482,
+          "char_end": 155448,
+          "passage_sha256": "8c5dfcd2a62a96759bef3e7e9930954517915106e330255a839b646ad70a1a9e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-012",
+        "statement": "State governments also contribute funds for free health services, medicines and related supplies, in amounts set by coordination agreements (which must specify sanctions for non-compliance), and their contributions must grow in the same proportion as the resources the General Health Law assigns under article 77 bis 12.",
+        "valence": "neutral",
+        "source_id": "dof-lgs",
+        "locator": {
+          "section": "Artículo 77 bis 13",
+          "page": 48,
+          "char_start": 155568,
+          "char_end": 156318,
+          "passage_sha256": "420bed751553b5fa702abfc3b7b3ed0631d0597e2c2de9f7b2202b0e1a04a094"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-013",
+        "statement": "Each year IMSS-BIENESTAR must transfer to the Health for Wellbeing Fund (Fondo de Salud para el Bienestar), out of its article 77 bis 12 resources, the equivalent of 11% of the combined resources of articles 77 bis 12 and 77 bis 13, and allocate it to the purposes listed in article 77 bis 29 (sections I-III) once the fund's technical committee approves.",
+        "valence": "neutral",
+        "source_id": "dof-lgs",
+        "locator": {
+          "section": "Artículo 77 bis 17",
+          "page": 52,
+          "char_start": 168619,
+          "char_end": 169282,
+          "passage_sha256": "c483268d9daa6665ed17dbcf088a53951d60647ded292df77fab7aef63de6d1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-014",
+        "statement": "Resident individuals may deduct, in their annual income tax return, fees for medical, dental, psychology and nutrition services from professionals with legally registered degrees, and hospital costs, paid for themselves, a spouse or partner, or direct-line ascendants or descendants, provided those relatives earn less than the annual general minimum wage and payment is made by the taxpayer's own cheque, electronic transfer from the taxpayer's account, or credit, debit or service card.",
+        "valence": "neutral",
+        "source_id": "dof-lisr",
+        "locator": {
+          "section": "Artículo 151, fracción I",
+          "page": 181,
+          "char_start": 668684,
+          "char_end": 669942,
+          "passage_sha256": "00beb8f9d649608041860e46d08ae8538e956afebe33ab81794cb052f38ba19d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-015",
+        "statement": "Individuals may also deduct premiums for private medical insurance that complements or is independent of public social security health services, when the insured person is the taxpayer, a spouse or partner, or a direct ascendant or descendant.",
+        "valence": "neutral",
+        "source_id": "dof-lisr",
+        "locator": {
+          "section": "Artículo 151, fracción VI",
+          "page": 184,
+          "char_start": 680318,
+          "char_end": 680649,
+          "passage_sha256": "b77f6f38c3adebf253ff3c3847f7fe78798fd58b22a99b24dc0e6942e5e0f916"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-016",
+        "statement": "With one listed exception, an individual's total personal deductions are capped at the lower of five times the annual value of the UMA (Mexico's reference unit for fees and limits) or 15% of total income, including tax-exempt income.",
+        "valence": "neutral",
+        "source_id": "dof-lisr",
+        "locator": {
+          "section": "Artículo 151, penúltimo párrafo",
+          "page": 184,
+          "char_start": 682642,
+          "char_end": 683132,
+          "passage_sha256": "71d5ce2d6bf4385f3d9c56a10ff91a0d81b4beade49b6ee67715ad7918f7299e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-017",
+        "statement": "Taxpayers may deduct the premiums they pay for medical expense insurance for the benefit of their workers.",
+        "valence": "neutral",
+        "source_id": "dof-lisr",
+        "locator": {
+          "section": "Artículo 27, fracción XI",
+          "page": 40,
+          "char_start": 153380,
+          "char_end": 153508,
+          "passage_sha256": "933408dcf0f0af95ad06c7b6a0caf0e9324aec7acaacdd4e2a4feabbd1220713"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-018",
+        "statement": "The income tax law's limit on tax-exempt employee welfare benefits does not apply to reimbursements of medical, dental and hospital costs granted generally under laws or employment contracts, or to medical insurance, provided the requirements of article 27 (sections XI and XXI) are met.",
+        "valence": "neutral",
+        "source_id": "dof-lisr",
+        "locator": {
+          "section": "Artículo 93, penúltimo y último párrafos",
+          "page": 127,
+          "char_start": 473364,
+          "char_end": 474466,
+          "passage_sha256": "3bf83084cb248d2414f3910234d1fedf4e53db2e1fe69605b47d2c22d488c9ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      },
+      {
+        "id": "MEX-financing-019",
+        "statement": "CIEP's table of selected tax expenditures puts the estimated 2026 cost of personal income tax deductions, chiefly for medical, dental, psychology, nutrition and other hospital costs, at 0.0337% of GDP, against a historical average of 0.0321% of GDP.",
+        "valence": "neutral",
+        "source_id": "ciep-renuncias-2026",
+        "locator": {
+          "table": "Cuadro 1: renuncias recaudatorias seleccionadas, row 'Deducciones personales del ISRPF' (columns: % of GDP 2026; historical average % of GDP)",
+          "page": 5,
+          "char_start": 16850,
+          "char_end": 17802,
+          "passage_sha256": "35b10a0f6e7612875cb6ab9d9d306a1113faeedec4228004200b58c14e0b0051"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-financing-020",
+        "statement": "CIEP calculates that the 2026 budget proposal of September 2025 would raise public health spending by 5.9% in real terms over 2025 but leave it 4.7% below what was spent in 2024, at 2.6% of GDP (MXN 996,528 million), under half of the 6% of GDP the WHO suggests.",
+        "valence": "neutral",
+        "source_id": "ciep-salud-2026",
+        "locator": {
+          "section": "1 Salud en el Paquete Económico 2026",
+          "page": 1,
+          "char_start": 1648,
+          "char_end": 2125,
+          "passage_sha256": "8c5b2851a38b8699cd00cf839524bf56d59ce9a29a08d17cd80177d458407ecd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-financing-021",
+        "statement": "In the 2026 budget proposal the increase is concentrated in the IMSS (an extra MXN 58,213.9 million), while the Ministry of Health would face a cut of MXN 2,228.6 million and IMSS-Bienestar a real increase of 0.8%, although, citing INEGI (2025), CIEP notes that IMSS-Bienestar would serve the largest number of people.",
+        "valence": "neutral",
+        "source_id": "ciep-salud-2026",
+        "locator": {
+          "section": "1 Salud en el Paquete Económico 2026",
+          "page": 1,
+          "char_start": 2140,
+          "char_end": 2518,
+          "passage_sha256": "88be1540b8d620d73dc4cf97efafc00a6172f1db43638947eeb7a02fa5e7ce1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-financing-022",
+        "statement": "From 2020 to 2025 IMSS's sickness and maternity insurance ran a deficit, with spending above revenue throughout the period: revenue grew by an average 3.5% a year in real terms against 4.2% for spending, the operating deficit over the period equalled 23% of revenue, and the 2025 deficit was 40.3% larger than that of 2020.",
+        "valence": "weakness",
+        "source_id": "imss-informe-2026-sem",
+        "locator": {
+          "section": "V.4 Evolución de ingresos y egresos",
+          "page": 26,
+          "char_start": 65102,
+          "char_end": 65486,
+          "passage_sha256": "fd0edecc68f5e4319ede0cee05c3f280b896c6c183dcd3349a5d19bd34ba9df8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": "2020-2025"
+      },
+      {
+        "id": "MEX-financing-023",
+        "statement": "In 2025 IMSS's sickness and maternity insurance recorded MXN 501,618 million (current pesos) in social security fees and contributions (cuotas y aportaciones), according to its audited financial statements.",
+        "valence": "neutral",
+        "source_id": "imss-informe-2026-sem",
+        "locator": {
+          "table": "Cuadro V.11 Estado de Actividades del SEM, 2025",
+          "page": 29,
+          "char_start": 69497,
+          "char_end": 69899,
+          "passage_sha256": "8920166249a9baf4db238b975ac77d1eab838cda08e25b4ecce7651bf430316c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MEX-financing-024",
+        "statement": "The federal government, through the Finance Ministry, pays IMSS an annual contribution per student; it rose from 63 pesos in 1989 to 711 pesos in 2025, less than inflation because in some years the minimum wage grew more slowly than prices, and had it been indexed to inflation it would have been 1,222 pesos in 2025, a 41.8% difference.",
+        "valence": "weakness",
+        "source_id": "imss-informe-2026-sem",
+        "locator": {
+          "section": "V.4 Evolución de ingresos y egresos",
+          "page": 27,
+          "char_start": 66833,
+          "char_end": 67559,
+          "passage_sha256": "8c58aed7981d180236ba3c52f53d9afb27231d351f4fd4a12016440f6e9b20d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MEX-financing-025",
+        "statement": "In 2025 IMSS's own revenue was MXN 832,340 million; worker-employer contributions remained its main source of financing at 75.1%, with federal government contributions at 19.1% and financial income from reserves and other income at 5.8%. These figures are for the IMSS as a whole.",
+        "valence": "neutral",
+        "source_id": "imss-informe-2026-fin",
+        "locator": {
+          "section": "II.2 Información presupuestaria 2025",
+          "page": 5,
+          "char_start": 13333,
+          "char_end": 14223,
+          "passage_sha256": "fdb1badb084f26f5c8586955d30c554bdd50bb2c413b18fcaf674877ad0a77a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MEX-financing-026",
+        "statement": "As of December 2025, the IMSS table of contribution rates lists, for medical care in kind under sickness and maternity insurance, a fixed contribution totalling 35.23% of the UMA (of which 20.40% from employers) and, on the contribution wage above three times the UMA, a contribution totalling 1.50% (of which 1.10% from employers).",
+        "valence": "neutral",
+        "source_id": "imss-informe-2026-anexos",
+        "locator": {
+          "table": "Cuadro A.3 Esquema de financiamiento por tipo de seguro, diciembre de 2025: Enfermedades y Maternidad, prestaciones en especie",
+          "page": 6,
+          "char_start": 16019,
+          "char_end": 16435,
+          "passage_sha256": "f9ceea7a73bfbcc2e109c3b872f477f92258e2734b7220e677e684aba8bbaf41"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MEX-financing-027",
+        "statement": "The 14.83%-of-UMA contribution is a daily payment for each insured person set by the Social Security Law and updated every quarter; in December 2025 it was 16.78 pesos.",
+        "valence": "neutral",
+        "source_id": "imss-informe-2026-anexos",
+        "locator": {
+          "table": "Cuadro A.3, note 3",
+          "page": 6,
+          "char_start": 17531,
+          "char_end": 17738,
+          "passage_sha256": "892c6a75b49b59565db13e00bc710fcf63ddfdfaa22fabdba6e490f4a222831d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MEX-financing-028",
+        "statement": "The Social Security Law makes the federal government pay IMSS a daily amount for every insured person toward medical care in kind, updated each quarter in line with the national consumer price index.",
+        "valence": "neutral",
+        "source_id": "dof-lss",
+        "locator": {
+          "section": "Artículo 106, fracción III",
+          "page": 35,
+          "char_start": 112429,
+          "char_end": 113517,
+          "passage_sha256": "e293074c914e5c0ed1136d5a86381624b2c3efa9cc7e7bd206904705c41c13fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 11 statements corrected and 2 re-anchored)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "MEX-covered-001",
+        "statement": "Until its abolition, Seguro Popular promised enrollees a benefit package free at the point of use; its core catalogue (CAUSES) listed 294 interventions across prevention, general and specialist medicine, emergencies, general surgery and obstetrics.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3.3 Coverage",
+          "page": 122,
+          "char_start": 245092,
+          "char_end": 245789,
+          "passage_sha256": "9eacb6e9979f4229693bbca1ddd793231c56e0e6bd4033e260816af24f6f6c36"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-covered-002",
+        "statement": "Under Seguro Popular, the package was revised every two years, and high-cost treatments for its catastrophic expenditure fund were chosen through a General Health Council consultation using criteria such as cost-effectiveness and affordability, with a technical committee deciding what to fund depending on the money available; the fund covered 66 high-cost interventions.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3.3 Coverage",
+          "page": 122,
+          "char_start": 245790,
+          "char_end": 246472,
+          "passage_sha256": "d2e5dac23772e624819d59f57e4f14192a34f320cce66392c3d8d474f0729696"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-covered-003",
+        "statement": "Medicines and devices must be registered by the General Health Council before each public institution decides whether to put them on its own approved list, based on whether it considers them necessary and affordable.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 26,
+          "char_start": 36038,
+          "char_end": 36419,
+          "passage_sha256": "2980173998ab7beecb828fb2832d0911897fa697116795c8f34e2e282f50d380"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-covered-004",
+        "statement": "Seguro Popular paid for a defined essential package that included tertiary care and medicines, funded according to enrolment; INSABI in practice covered less, excluded tertiary care, and did not clearly define how it was financed.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Context",
+          "char_start": 5177,
+          "char_end": 5465,
+          "passage_sha256": "e47b302c063482e33856431dcee2e2f5e719d1866d0e4d80ca2456e9b705f188"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-covered-005",
+        "statement": "Emergency departments in both public and private hospitals take patients regardless of which institution covers them.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 30,
+          "char_start": 43995,
+          "char_end": 44177,
+          "passage_sha256": "fab966ee55165e85fc4f9ce83a37cc40e863e7632bd45cd2de312cfb25f76ce8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-covered-006",
+        "statement": "As of the 2020 review, long-term care was practically non-existent, palliative care policy was recent, and mental health services were underdeveloped and centred on psychiatric hospitals.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 30,
+          "char_start": 44989,
+          "char_end": 45352,
+          "passage_sha256": "c27feec15a703ca635b761b2d817f0ab7101703db9197460d657174336ab9d94"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-covered-007",
+        "statement": "INSABI took over from Seguro Popular on 1 January 2020 with the aim of providing health services, medicines and supplies free of charge at all levels of care to people without social security.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Figure 1 note",
+          "char_start": 21205,
+          "char_end": 21520,
+          "passage_sha256": "58a885b1956135704b007a7c63972211222e8b062e0a12b66229194a21f5697d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "MEX-cost_sharing-001",
+        "statement": "Each of the public contributory schemes (IMSS, ISSSTE and other social insurance institutions, and formerly the Seguro Popular system) officially covers its own population and provides most services without user fees.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3 Financing",
+          "page": 120,
+          "char_start": 241287,
+          "char_end": 241567,
+          "passage_sha256": "b8e60d49f55285cea7b61437641dbf1ab2d46719204459de8ae828e5a838d365"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-cost_sharing-002",
+        "statement": "Seguro Popular was free for members in the lower five income deciles, which include most Mexicans, while higher-income members owed an annual contribution tied to income.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3 Financing",
+          "page": 122,
+          "char_start": 244895,
+          "char_end": 245091,
+          "passage_sha256": "3a4bf5db01706123a40dd57cef890faef77a9e4fa405e78f355608093c6fa20b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-cost_sharing-003",
+        "statement": "In practice most Seguro Popular members in the higher income deciles were enrolled without the contribution being collected.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "3 Financing",
+          "page": 118,
+          "char_start": 238590,
+          "char_end": 238714,
+          "passage_sha256": "5913a6f4d90e3251e0181cc040185c901d05e7d1911f2e7ffd010e5097a5d594"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-cost_sharing-004",
+        "statement": "People without Seguro Popular (later INSABI) cover, and even people with other insurance, can use Ministry of Health hospitals and state facilities by paying out of pocket on an income-related scale.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 25,
+          "char_start": 32924,
+          "char_end": 33154,
+          "passage_sha256": "2e57622c637c090c64ac492308a76fb20f9a5a354982122e39fd2fa8132c233d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-cost_sharing-005",
+        "statement": "Medicines made up the largest share of out-of-pocket health spending among households covered by Seguro Popular/INSABI (64.5%) and mixed-insurance households (63.6%).",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 63265,
+          "char_end": 63423,
+          "passage_sha256": "ccbcff9a77203065dc0ea2e2656e8c8fe396297f9f7bfc0357b426fb9d2159e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-cost_sharing-006",
+        "statement": "The 2020 review found that long waits, lack of trust and missing medicines push many people to private providers, and that the probability of paying out of pocket is high even for people who have public insurance.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 28,
+          "char_start": 39269,
+          "char_end": 39535,
+          "passage_sha256": "d6e3f60c60b2d848ff2e00e16e1cfc7316bc1687036419664bd8e73618fe1b0a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-cost_sharing-007",
+        "statement": "According to the national household income and expenditure survey, average monthly current monetary spending on health per household was 535 pesos in 2024 (in 2024 pesos), up from 382 pesos in 2016: an 8.0% rise since 2022 and a 40.0% rise over 2016-2024.",
+        "valence": "weakness",
+        "source_id": "inegi-enigh-2024",
+        "locator": {
+          "section": "II. Gastos, cuadro 2",
+          "page": 5,
+          "char_start": 10696,
+          "char_end": 11995,
+          "passage_sha256": "4c746f8fdfa4c064349af7329b469dde238c8ff477c9650f154cfaf80b1538fc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "MEX-financial_hardship-001",
+        "statement": "Financial protection improved for most households between 2000 and 2014, especially among Seguro Popular members, but deteriorated after 2020 once INSABI had replaced Seguro Popular, with catastrophic and excessive health spending reaching their highest levels among mixed-insurance households by 2022.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4111,
+          "char_end": 4426,
+          "passage_sha256": "44be60451b5c4b3e7e61c3e16f9989ae5f19b31cbcecb68842fcf7d54d6d83e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-financial_hardship-002",
+        "statement": "Households with social security consistently bore the lowest financial burden from health costs, while uninsured and INSABI-affiliated households were at substantially higher risk; growing use of private care, especially for medicines, added to out-of-pocket spending.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4427,
+          "char_end": 4679,
+          "passage_sha256": "d28a802046b067c326f0d996b04e275a18a99b4c927630cb053d0b2b48937bda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-financial_hardship-003",
+        "statement": "Between 2018 and 2020 the share of households without health insurance almost doubled, from 8.8% (3 million households) to 16.5% (5.8 million); the study found large increases in households with catastrophic spending (estimated 18.4%, 95% CI 6.1-30.7), and significant increases in catastrophic, impoverishing and excessive spending only among uninsured households.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2023",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3068,
+          "char_end": 3494,
+          "passage_sha256": "61d6c9109e8580c8a7dabf46a27de7d8ff094fd553d267361627cc8b32acd205"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2020"
+      },
+      {
+        "id": "MEX-financial_hardship-004",
+        "statement": "The authors conclude that ending Seguro Popular and replacing it with INSABI early in the COVID-19 pandemic reduced health coverage, and that this and the pandemic together raised out-of-pocket spending and catastrophic and excessive spending in 2018-2020, most of all for uninsured households and those in central and southern states.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2023",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 3818,
+          "char_end": 4260,
+          "passage_sha256": "0f080beeb89bfb7f157de4dfc758e83a3f7550f802dad40304a92c720172254b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2020"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "MEX-additional_care-001",
+        "statement": "Private health insurance covered nearly 8% of the population, many of them higher-income people who also have IMSS or ISSSTE cover and get private insurance as an employment benefit; most private care is paid out of pocket on a fee-for-service basis.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 26,
+          "char_start": 34354,
+          "char_end": 34679,
+          "passage_sha256": "6af1e73c2e7183dbbe943af92a171c4b70fffe366bff6aab834f4096d3d0166c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-002",
+        "statement": "A 2025 commentary reports that visits to retail pharmacy clinics typically cost US$2-5, with some services free, and that the clinics receive hundreds of millions of visits a year, which the authors read as a sign of both high demand and deep unmet need in the public sector.",
+        "valence": "neutral",
+        "source_id": "lancet-ra-pharmacy-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 2593,
+          "char_end": 2878,
+          "passage_sha256": "12117dbedee49bef9354a07cda6bbb24afb9a1ce8e74ba09179b60a744bb8acb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-003",
+        "statement": "Private hospitals held 24.3% of hospital beds and accounted for 25.1% of hospital discharges.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 29,
+          "char_start": 41844,
+          "char_end": 41954,
+          "passage_sha256": "99679ed6921af48b22e98e5105d08c2359c3b01001aef1134329cacf6ba0e288"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-004",
+        "statement": "The private sector's share of outpatient care grew from 38% in 2006 to 66% in 2022, even though two national programmes sought to extend public coverage to nearly 50 million people.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2359,
+          "char_end": 2552,
+          "passage_sha256": "a4b13a44a4d250c72e7452a7b3ea23bf0b235794c03b7f55915137c1846ca6f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2006-2022"
+      },
+      {
+        "id": "MEX-additional_care-005",
+        "statement": "Private use is common even among the publicly insured: 30.9% of IMSS members, 28.4% of ISSSTE members and 31.1% of members of the now-dismantled Seguro Popular had sought care in the private sector.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 43214,
+          "char_end": 43478,
+          "passage_sha256": "ea76fa09e9afe29b632e793d05fa33b0a3e3fb5fd18ad60df1cbed4a84f991c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-006",
+        "statement": "About 25% of hospital admissions in the study's data were in private facilities, peaking at 34% in 2021, which the authors link to the COVID-19 pandemic.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 38971,
+          "char_end": 39137,
+          "passage_sha256": "4a6a76e376da5498e55dfab7e3b8f2ad1eafffa7b7b252f741864df4fa7db2eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-007",
+        "statement": "The same commentary says doctors in these clinics often face pressure to prescribe in order to meet sales quotas, and cites population studies suggesting their patients are prescribed more active substances per visit than patients of public or private institutions.",
+        "valence": "weakness",
+        "source_id": "lancet-ra-pharmacy-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 3322,
+          "char_end": 3710,
+          "passage_sha256": "bd905c45295e3df65c498e450a04d431bcc815157fd971bc8d24114bffc351ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-additional_care-008",
+        "statement": "A 2026 commentary reports that retail pharmacy clinics began expanding in 2010, when a regulation required a medical prescription for antibiotics sold in pharmacies; they grew fastest in 2010-2013, from 2 to 4 per 100,000 people, and reached 8 per 100,000 in 2023.",
+        "valence": "neutral",
+        "source_id": "lancet-ra-pharmacy-2026",
+        "locator": {
+          "section": "Correspondence",
+          "char_start": 2284,
+          "char_end": 2660,
+          "passage_sha256": "861030937e858132e8186674b61f07cbde9d8943b0448e99057e921401e7471b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2010-2023"
+      }
+    ],
+    "access": [
+      {
+        "id": "MEX-access-001",
+        "statement": "Up to 71% of general physicians work in the public sector, and physician density varies by state from 0.6 per 1,000 people in the State of Mexico to 1.8 per 1,000 in Mexico City.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 28,
+          "char_start": 39839,
+          "char_end": 40067,
+          "passage_sha256": "5ae9c31a61a88beab65a065313335e2c4d586e674be15fbd8647b66e77411f48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-access-002",
+        "statement": "High-cost equipment is scarce: Mexico had 2.6 MRI machines per million people, against 6.8 in Brazil and an OECD average of 15.6.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 29,
+          "char_start": 41955,
+          "char_end": 42146,
+          "passage_sha256": "2e4f6b5595ea829cfc95fd6ec648193d5d557e4ce38affb6bfa80fa2fad0c76d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-access-003",
+        "statement": "Hospitals are concentrated in cities: only 46 hospitals (3.3%) were in rural localities.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 28,
+          "char_start": 41118,
+          "char_end": 41209,
+          "passage_sha256": "6921646019f970f34d5d16c91746dc5ea0e166570b75efab9e3603aa7043c35e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-access-004",
+        "statement": "Because of long waits for consultations and specialist care and shortcomings in quality, people tend to seek private care or even pay out of pocket for Ministry of Health services.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "6 Patient pathways",
+          "page": 165,
+          "char_start": 331193,
+          "char_end": 331453,
+          "passage_sha256": "265a04a19ed7af841d1bffbc380b3f041e7f8b84289de8459e4c023c1d6d06db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-access-005",
+        "statement": "A 2026 study cites Mexican evidence that long waits, staff shortages and frequent medicine stock-outs in public facilities push insured households to pay for private consultations.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 61790,
+          "char_end": 61969,
+          "passage_sha256": "96e80c4d3e15184d44ecd3195424a15aa2104a64766826dc54715c21e447188e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-access-007",
+        "statement": "Of 1,891 municipalities studied, 1,187 (62.8%) had no hospital beds; these 'healthcare deserts' had 42.5% higher avoidable mortality before the pandemic (2015-2019), with an incidence rate ratio of 1.353 after adjusting for age structure.",
+        "valence": "neutral",
+        "source_id": "lopez-yanez-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4465,
+          "char_end": 4721,
+          "passage_sha256": "b7276f0445af7f981249f4db21f5733e84f9ea97bd031c2e60d5fdc49f3935e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2019"
+      },
+      {
+        "id": "MEX-access-008",
+        "statement": "A 2026 evaluation using the 2024 national health and nutrition survey compared uninsured people in states that joined IMSS-BIENESTAR with those in states that kept their own health services: people in IMSS-BIENESTAR states more often reported a health need, but in both groups a low share was treated in the public sector, and the chance of receiving care did not differ between the two kinds of state.",
+        "valence": "weakness",
+        "source_id": "colchero-2026",
+        "locator": {
+          "section": "Abstract (Spanish)",
+          "char_start": 657,
+          "char_end": 1613,
+          "passage_sha256": "9722282728dd2e294296fe58f6343b4b076b400dac2c9eff29da55adc5328d9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-access-009",
+        "statement": "In Mexico's official poverty measurement, the threshold for lacking access to health services is having no affiliation with, or entitlement to medical services from, a public institution or private provider.",
+        "valence": "neutral",
+        "source_id": "inegi-pm-rr-2024",
+        "locator": {
+          "section": "Carencia por acceso a los servicios de salud, p. 19",
+          "page": 19,
+          "char_start": 29884,
+          "char_end": 30258,
+          "passage_sha256": "1f1ee741b0fbbea243eb084029c1df550a0236b8a81b3b1a646d2d30058f6fd9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-access-010",
+        "statement": "In 2024, 34.2% of the population (44.5 million people) lacked access to health services by this measure; the share had risen from 15.6% in 2016 to 39.1% in 2022, then fell by 4.9 percentage points between 2022 and 2024, meaning 5.9 million more people reported being affiliated with or entitled to care from a public or private institution.",
+        "valence": "weakness",
+        "source_id": "inegi-pm-rr-2024",
+        "locator": {
+          "section": "Carencia por acceso a los servicios de salud, p. 20, gráfica 13",
+          "page": 20,
+          "char_start": 31408,
+          "char_end": 31953,
+          "passage_sha256": "e62a13266428cc10a85cfb65b0c54ab7f49bf0ceea067096c90337f7ab9d1107"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-access-011",
+        "statement": "In 2024 the lack of access to health services by this measure affected 30.1% of the urban population (30.6 million people) and 48.7% of the rural population (13.9 million).",
+        "valence": "weakness",
+        "source_id": "inegi-pm-rr-2024",
+        "locator": {
+          "section": "Carencia por acceso a los servicios de salud, p. 20-21, cuadro 4",
+          "page": 20,
+          "char_start": 32477,
+          "char_end": 32756,
+          "passage_sha256": "6e30f636360b5bbf0cbb4777c697b13e6ca2e0923facd5be58915742860e1d09"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "MEX-outcomes-001",
+        "statement": "Heart disease, diabetes and malignant tumours were the three leading causes of death nationally in 2024, for women and for men.",
+        "valence": "neutral",
+        "source_id": "inegi-edr-2024",
+        "locator": {
+          "section": "Causas de la defunción",
+          "page": 4,
+          "char_start": 5256,
+          "char_end": 5636,
+          "passage_sha256": "3c78a442b8e6233133582cba3c1602aa27450faa0f27e0e41b5aa1ef48ca5dcd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-outcomes-002",
+        "statement": "The 2020 review reports that Mexico has the second-highest overall obesity prevalence in the world, after the United States, and the highest share of overweight and obese children.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 24,
+          "char_start": 29321,
+          "char_end": 29487,
+          "passage_sha256": "585fc8cf79c1abfc5ef5648d18e554fa4c6dbcb9fad2d01877a1012d39239bef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-outcomes-003",
+        "statement": "Maternal mortality fell from 59.3 deaths per 100,000 live births in 2000 to 47.3 in 2018, then rose from 48.7 in 2019 to 72.4 in 2022.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3950,
+          "char_end": 4134,
+          "passage_sha256": "13d345775f038093a4159c2121c3df8dc45df513227f497fcaa381175deff969"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-outcomes-004",
+        "statement": "Among people without social security, preventable and treatable mortality increased after 2012 (by 3.26% and 5.54% a year respectively after 2018), while both declined steadily among people with social security.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 3089,
+          "char_end": 3246,
+          "passage_sha256": "a33c4e2cce9bdfed55e9c8c7b111eaa7647b358729f20817748b278365380125"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-outcomes-005",
+        "statement": "Citing a World Bank report, the 2025 study notes age-standardised rates of 435 preventable and 257 treatable deaths per 100,000 in Mexico, above those of Peru, Brazil, Colombia, Chile and Costa Rica, where avoidable mortality has been falling.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 42261,
+          "char_end": 42811,
+          "passage_sha256": "52b0561bb0bd9ec605918388899e382baf9ca7cc40b7327ba31a70e1264bcfc7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-outcomes-006",
+        "statement": "Of 4,960,244 deaths under age 75 in the study, 81.2% were classed as avoidable.",
+        "valence": "neutral",
+        "source_id": "lopez-yanez-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4407,
+          "char_end": 4464,
+          "passage_sha256": "2b37481b8bc0179cf6b6ed82b0a36961a45159790e1bb2ec7f57dc444607f02f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-outcomes-007",
+        "statement": "Coverage of BCG, hepatitis B, pentavalent and MMR vaccination peaked in 2006-2012 under Seguro Popular and fell to 31% in 2021 under INSABI; the brief links the drop to weak primary care, lower demand, vaccine shortfalls, lower spending and poor stewardship.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Takeaways",
+          "char_start": 8776,
+          "char_end": 9105,
+          "passage_sha256": "c3d980038801a5f2fcc3ba2525dc811c368ef1818010e0eb0d23c3ae87afcbb9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2006-2021"
+      },
+      {
+        "id": "MEX-outcomes-008",
+        "statement": "In the GBD 2016 Healthcare Access and Quality (HAQ) Index, Mexico was in the sixth of ten deciles nationally; six Mexican states reached the seventh decile, most were in the sixth, and four states, all on the southern border, were in the fifth.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: subnational HAQ Index",
+          "char_start": 44958,
+          "char_end": 45415,
+          "passage_sha256": "4af6c2961ebb308da779566b8843b29dce738da3e3fe6e7c580aa2f60e32a200"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "MEX-outcomes-009",
+        "statement": "Mexico's HAQ Index improved much faster in 1990-2000 than in 2000-2016, while absolute inequalities narrowed somewhat by 2016, from a 20.9-point to a 17.0-point difference.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: HAQ Index trends",
+          "char_start": 50083,
+          "char_end": 50291,
+          "passage_sha256": "32cc4d222b70100b62cd52929bdac5b849fb239abde25cbe7b16ba9774dbe431"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1990-2016"
+      },
+      {
+        "id": "MEX-outcomes-010",
+        "statement": "Mexico's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 52.5 (95% uncertainty interval 48.7-56.8) in 2019 in the GBD 2019 study, 17.3 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 overall (0-74 years) and absolute change 1990-2019 overall",
+          "char_start": 52208,
+          "char_end": 52372,
+          "passage_sha256": "93734cfdf9992eeaa1010f3add331ebcfef0f7552753fea264c1573a07ccc7b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "MEX-costs-001",
+        "statement": "The public share of total health spending rose from 43.7% in 2000 to 53.8% in 2015, partly because of Seguro Popular, which helped cut the out-of-pocket share from 53.9% to 41.3%; out-of-pocket spending nonetheless stayed far above the OECD average of 19%.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 37786,
+          "char_end": 38258,
+          "passage_sha256": "4e7a40bfae2f643f3345dbac674db7e8b27e10c416fead9e3487c6c855b7ea73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2015",
+        "historical": true
+      },
+      {
+        "id": "MEX-costs-003",
+        "statement": "Public health spending rose from 2000 to 2012, faster for people without social security, then levelled off for both groups in 2012-2018.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2462,
+          "char_end": 2594,
+          "passage_sha256": "9add38ca8e8bd04cd30686da030519baecd597e6c8ee77d68da06b22d5d71394"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2018"
+      },
+      {
+        "id": "MEX-costs-004",
+        "statement": "Public spending as a share of total health spending fell from 55% in 2020 to 51% in 2021, a level last seen in 2009, and was still below its earlier peak of 55% in 2024 despite a slight rise.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Takeaways",
+          "char_start": 8403,
+          "char_end": 8652,
+          "passage_sha256": "bdeefd18575e2ad8915242e4b2cc70f3caf64dd4be8294705dd9abfa339f8ed7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2024"
+      },
+      {
+        "id": "MEX-costs-005",
+        "statement": "The 2025 study puts Mexico's public health spending at 3.2% of GDP, low next to Argentina (over 5%) and Costa Rica and Colombia (over 4%).",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 36995,
+          "char_end": 37180,
+          "passage_sha256": "580c763ebd30b418a9940ea6de1616f2967a65410109237ba9ec45f246e9c20f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "MEX-what_works-001",
+        "statement": "The 2020 review credits Seguro Popular, and possibly generic medicines and low-cost private consultations, with substantial reductions in catastrophic health spending, though out-of-pocket spending fell only slightly.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7 Assessment of the health system",
+          "page": 207,
+          "char_start": 429880,
+          "char_end": 430088,
+          "passage_sha256": "99366c63e2f7142f10390f6c8da8c29959917f52b3ccfc70d87b856fac498317"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-what_works-002",
+        "statement": "Early evaluations of Seguro Popular found more use of hospital services, wider access to primary care and more births in public hospitals.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 13342,
+          "char_end": 13550,
+          "passage_sha256": "eca95e9d95524ca44b2a8ae8b1425ce13d521a166304c05184b4244715c159d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-what_works-003",
+        "statement": "The rollout of Seguro Popular's financing system reduced geographic disparities in access for people without social security by expanding hospitals and primary care clinics, and demand grew most in the most marginalised municipalities.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 39987,
+          "char_end": 40219,
+          "passage_sha256": "0c2bacab16cbc32ef9c747e36a581b8efffa17e4b30436ffc397c4a5c78215f6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-what_works-004",
+        "statement": "While Seguro Popular was expanding, private use of outpatient care fell from 38% in 2006 to 31% in 2012, before rising to 43% in 2018; over 2006-2018 Seguro Popular's coverage grew from 14% to 37% of the population.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Context",
+          "char_start": 5963,
+          "char_end": 6251,
+          "passage_sha256": "e165adba96d05f12e5dbe150b5eff8e9ff1a6bf248813962ae8088865e6ef62b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2006-2018"
+      },
+      {
+        "id": "MEX-what_works-005",
+        "statement": "Under Seguro Popular the list of covered benefits was regularly updated and published, and compliance with it was checked continuously at patient and facility level.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7.1 Health system governance",
+          "page": 208,
+          "char_start": 432749,
+          "char_end": 432912,
+          "passage_sha256": "9e21bd32421d196781c7e527f36e2fb47b5d35ac0820a185d39dffa44a6abff1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "MEX-problems-001",
+        "statement": "The 2020 review calls the system's segmented governance perhaps the biggest obstacle to a universal system, because the social insurance institutions largely operate outside Ministry of Health regulation, which hinders a stronger regulator able to tackle access and quality problems.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 32,
+          "char_start": 50343,
+          "char_end": 50667,
+          "passage_sha256": "3dccd927c40547e382ba48f8043c5a38ba3a5ded0b61bd2aeff5e56bb48fce71"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-002",
+        "statement": "The 2025 study argues that creating parallel schemes for informal workers has institutionalised lower health entitlements for people without social security, reinforcing their exclusion from comprehensive care and social benefits.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 41264,
+          "char_end": 41494,
+          "passage_sha256": "7cd206fa42e388edefbb83043723f4d75f5aa21d5b049d96c1bc8a8c8e8705a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-003",
+        "statement": "The 2025 study notes that a single national system on the English or French model could in principle achieve universal coverage, but that those countries have far less informal employment (6.5% in the UK and 3.1% in France) than Mexico, where informality affects 55.5% of the labour force.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 41503,
+          "char_end": 41921,
+          "passage_sha256": "6a8cf39dfb794f3dde3b6d8be98a5ad2957fe4c678d04fea13915af05ad9bd41"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-004",
+        "statement": "Comparing Seguro Popular's last two years with INSABI's first two, the authors report steep falls in specialised care between 2018 and 2021: heart-attack care dropped 80.7%, neonatal intensive care 78.4%, childhood cancer care 74.5%, and breast, cervical and prostate cancer care 50.1%, 48.2% and 41% respectively.",
+        "valence": "neutral",
+        "source_id": "cortes-adame-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 4903,
+          "char_end": 5282,
+          "passage_sha256": "ca7381dbb81af0a72195c3db194a595ee67bc04a501e509dcfaca5c89a5e17f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2021"
+      },
+      {
+        "id": "MEX-problems-005",
+        "statement": "A 2026 study cites evidence that INSABI's rollout brought confusion over entitlements, limited operating capacity and disrupted services, including access to medicines.",
+        "valence": "neutral",
+        "source_id": "cerecero-garcia-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 58676,
+          "char_end": 58881,
+          "passage_sha256": "496a1b651f03181ca5f190ba600b73603157578a487ecf879c763de11aa23be9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-006",
+        "statement": "The authors argue that dismantling Seguro Popular while trying to set up a new programme in 2020-21 left the health system more vulnerable during the worst period of the COVID-19 pandemic.",
+        "valence": "neutral",
+        "source_id": "knaul-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3510,
+          "char_end": 3683,
+          "passage_sha256": "79536d4784375655530f2cdcdf23e419fee54914ecbb2c20ef9a9e0fc8b68e11"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-007",
+        "statement": "The 2020 review describes the IMSS as technically bankrupt because of unfunded entitlements, projecting that by 2030 up to 63% of its income could be absorbed by the pension fund.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7 Assessment of the health system",
+          "page": 204,
+          "char_start": 424319,
+          "char_end": 424652,
+          "passage_sha256": "9a6131bc0f550dabe0f00ad7dd7c750a5e3446b4fc30ccb33ec10b21f26716bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-008",
+        "statement": "The 2020 review judges that the goal of a universal national health system fell short under the 2012-2018 administration: per capita public health spending fell for the first time in decades because of small but significant cuts to funding for the uninsured, and Seguro Popular did not add significant new high-cost treatments.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 32,
+          "char_start": 49250,
+          "char_end": 49960,
+          "passage_sha256": "15319154e5c6371a31562bba7e23c9831a7f7b6e890eaa5ec6c0391b987e182e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2018"
+      },
+      {
+        "id": "MEX-problems-009",
+        "statement": "A systematic review found that studies described the lack of an explicit national policy and gaps in regulation and transparency, and reported problems with the supply, selection, purchasing and distribution of medicines and with spending on them.",
+        "valence": "neutral",
+        "source_id": "vargas-lopez-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2403,
+          "char_end": 2784,
+          "passage_sha256": "653abe988414ab26a1230675dba6a16b21adae72a8a1365959bbdcaacdb8b302"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-010",
+        "statement": "The Seguro Popular commission had to report each year to Congress on its finances and coverage; the 2020 review notes that when INSABI replaced Seguro Popular these accountability mechanisms were abolished and nothing replaced them.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "7.1 Health system governance",
+          "page": 209,
+          "char_start": 433257,
+          "char_end": 433523,
+          "passage_sha256": "4933c97f0835aca0bb9bdc8a1d2f4a003e969d7c89fc37b21629147f384c90f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-011",
+        "statement": "From 2000 to 2018 seven in ten maternal deaths were among women without social security, falling to six in ten from 2020; these deaths were more common among younger, less-schooled, unmarried and rural women and in areas with more Indigenous people and greater marginalisation.",
+        "valence": "neutral",
+        "source_id": "servan-mori-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4135,
+          "char_end": 4509,
+          "passage_sha256": "3241bb0f1a54c01670d06f7ba5cab5df0677e95bf154c43ee43137ca83764b31"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2022"
+      },
+      {
+        "id": "MEX-problems-012",
+        "statement": "Avoidable mortality was strongly clustered in southern Mexico, and by 2024 the gap in avoidable mortality between 'healthcare desert' municipalities and adequately supplied ones had widened about fivefold, from about 12 to 69 per 100,000 people.",
+        "valence": "neutral",
+        "source_id": "lopez-yanez-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4855,
+          "char_end": 5074,
+          "passage_sha256": "01533619315a6b37a720166f9583137ed094c269cc7283de416c90716a480de3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2024"
+      },
+      {
+        "id": "MEX-problems-013",
+        "statement": "The authors of a 2026 review write that austerity under the previous administration, together with long-standing weaknesses in how medicines were procured, led to supply disruptions, public discontent and protests.",
+        "valence": "weakness",
+        "source_id": "cad-saude-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 29125,
+          "char_end": 29331,
+          "passage_sha256": "a604f1a68839a4374eec51bf022a765ce7562c34d2a890bd0c6166fc3f8c2717"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-problems-014",
+        "statement": "A 2022 policy report argues that the health system changes made by the 2018-2024 government caused major setbacks in guaranteeing access to medicines, with effects, in the authors' view, on user and citizen satisfaction, household health spending and health conditions.",
+        "valence": "weakness",
+        "source_id": "gomez-dantes-2022",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 907,
+          "char_end": 1264,
+          "passage_sha256": "b71a3ecc4adc81c1d020301a0e67287d541ad8c155dd9b0c9b8d319a4cfd9dc2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "MEX-reforms-001",
+        "statement": "A 2026 article frames the IMSS-Bienestar model around primary care and integrated service networks, and argues that its challenges are organisational, political and institutional: rebuilding state capacity, redefining coordination, and aligning financing, service provision and territorial responsibility for health.",
+        "valence": "neutral",
+        "source_id": "svarch-perez-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1449,
+          "char_end": 2216,
+          "passage_sha256": "21a80bec620e388b211ffdae687ae17a88cbf7a1ec10443e1e580355990b186f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-reforms-002",
+        "statement": "According to the authors, INSABI's poor performance led the López Obrador government to end it in 2023 and set up IMSS-Bienestar under the Mexican Social Security Institute, which now provides care directly to the uninsured.",
+        "valence": "neutral",
+        "source_id": "cortes-adame-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 5513,
+          "char_end": 5828,
+          "passage_sha256": "417c0e09adbdbff80713a8191e07a4d42f0c619dbf841b5d4b14cce956c7d29d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "MEX-reforms-003",
+        "statement": "In 2018-2024 the government dismantled Seguro Popular's financing system, centralised the purchasing of medicines and supplies, recentralised state health services, and created INSABI and later IMSS-Bienestar for people without social security; the aim was to unify care under the IMSS, but only 23 states signed federalisation agreements, leaving nine with their own services.",
+        "valence": "neutral",
+        "source_id": "alvarez-aceves-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 14314,
+          "char_end": 14879,
+          "passage_sha256": "49e021fd9fa16b3245db97e10c55fdef932ce80938bff6de8f75d1a4741e9cc8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2024"
+      },
+      {
+        "id": "MEX-reforms-004",
+        "statement": "Unlike Seguro Popular, which acted as a public insurer reimbursing providers (including some private hospitals), INSABI provided care directly through public facilities and, for catastrophic illnesses, supplied medicines and equipment to public specialty hospitals.",
+        "valence": "neutral",
+        "source_id": "cortes-adame-2025",
+        "locator": {
+          "section": "Comment",
+          "char_start": 4293,
+          "char_end": 4902,
+          "passage_sha256": "1f02ea0e492c9c8a3f3626128f03a82bb446201e7fe476e607d456fdcd46f697"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-reforms-005",
+        "statement": "Seguro Popular closed in January 2020, and Mexico began a complex, wide-ranging reorganisation of its health system.",
+        "valence": "neutral",
+        "source_id": "knaul-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3392,
+          "char_end": 3509,
+          "passage_sha256": "ad882dfbeed63f50f4679d02b64b7cddbbc7e9184171c4da13212d423c1473bb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "MEX-reforms-006",
+        "statement": "INSABI was created in 2019 to replace Seguro Popular, which had run from 2003 to 2019; its critics argued Seguro Popular had fostered corruption and 'neoliberal' practices, and INSABI assumed that removing these would free enough money for universal coverage.",
+        "valence": "neutral",
+        "source_id": "martinez-valle-2025",
+        "locator": {
+          "section": "Context",
+          "char_start": 4577,
+          "char_end": 5176,
+          "passage_sha256": "27fe312d41b7c8b9fc92ef219f0c3eb9a5965fa82d93d3676b467ccd0d3484c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-reforms-007",
+        "statement": "Key reforms toward the constitutional right to health were the 2003 creation of the Seguro Popular financing system, run jointly by federal and state governments; the 2006 Strategy for Portability and Convergence, to coordinate high-specialty hospital care across social insurance and Ministry of Health services regardless of affiliation; and a 2014 reform to make the Seguro Popular financing system more accountable.",
+        "valence": "neutral",
+        "source_id": "hit-mex-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 31,
+          "char_start": 46758,
+          "char_end": 47262,
+          "passage_sha256": "8f168443b020144b4afe9257449096f8afe486e9e3300a75bfe20c50fd2d15b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-reforms-008",
+        "statement": "The decree creating the Servicio Universal de Salud (SUS, Universal Health Service) sets it up as a compulsory mechanism to coordinate and operationally integrate the federal public institutions that provide health care, plus any state health services that join, aiming at progressive, effective and non-discriminatory access for everyone, subject to the level of care needed and each institution's installed, financial and budget capacity.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Primero",
+          "char_start": 19283,
+          "char_end": 19989,
+          "passage_sha256": "70145413096344a6034369c7b450b4015ae612465ef53ddf9d0c22501801eb93"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-009",
+        "statement": "The SUS has a national register, administered by the Ministry of Health, that is built as people sign up for a health credential; registration is free and uses the CURP population registry code as the unique identifier, and the credential is meant to ease access to the network's services.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Séptimo",
+          "char_start": 28178,
+          "char_end": 28921,
+          "passage_sha256": "a83d27e404a0bccd0eed6bca242a86790fab7d1b2b7016c325596be00bca47ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-010",
+        "statement": "On 7 April 2026 the President announced the decree creating the Universal Health Service, stating that its aim is for people to be able to use any of the three public systems (IMSS, IMSS-Bienestar and ISSSTE); registration for the credential was to run from 13 to 30 April at 2,059 Welfare Ministry offices, starting with people aged 85 and over.",
+        "valence": "neutral",
+        "source_id": "presidencia-sus-2026",
+        "locator": {
+          "section": "Comunicado, 7 April 2026",
+          "char_start": 1132,
+          "char_end": 2245,
+          "passage_sha256": "0ce23387b0a93e27e9bb7ebbb8b5eb1331ec9df8a7aa0434aef92549858c3072"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-011",
+        "statement": "According to the government's announced timetable, exchange of specialised services between institutions is to begin in the second half of 2027, and in 2028 the plan is to add universal filling of prescriptions, specialist outpatient consultations, referred hospital admissions and open access to primary care for chronic conditions.",
+        "valence": "neutral",
+        "source_id": "presidencia-sus-2026",
+        "locator": {
+          "section": "Comunicado, 7 April 2026",
+          "char_start": 4296,
+          "char_end": 4606,
+          "passage_sha256": "c92c6843fd078c41368fbbfecff948c69ed44508ed6230ccc6b06e1da0707f05"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-012",
+        "statement": "A 2026 review notes that the ongoing changes it describes have been maintained under President Claudia Sheinbaum (2024-2030), the first woman to hold the office in Mexico.",
+        "valence": "neutral",
+        "source_id": "cad-saude-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 32821,
+          "char_end": 33024,
+          "passage_sha256": "8655b03e1c0864295399ec1e94d051cda44f690db3992a0e46f368b8b4078a95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "MEX-reforms-013",
+        "statement": "On 31 October 2024 the Minister of Health presented a new consolidated purchasing model for medicines and medical supplies for 2025-2026, in which 26 institutions would take part and which would be open to national and international suppliers; officials described it as the largest such purchase in the country's history by volume and number of items.",
+        "valence": "neutral",
+        "source_id": "ssa-compra-2025",
+        "locator": {
+          "section": "Press release 433, 31 October 2024",
+          "char_start": 1135,
+          "char_end": 2180,
+          "passage_sha256": "19f4ab6200977cd769a3e4791c0001c12c1d1e54cae6a5123b6da6819aa2321d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-reforms-014",
+        "statement": "As the ministry described the mechanism, the Ministry of Health diagnoses, plans and supervises the purchase, each institution sets its needs by item and delivery point, the state-owned company Birmex carries out the purchase, and the institutions sign contracts and receive the goods; the purchase was to cover 4,454 items of medicines and supplies with a budget of 130 billion pesos.",
+        "valence": "neutral",
+        "source_id": "ssa-compra-2025",
+        "locator": {
+          "section": "Press release 433, 31 October 2024",
+          "char_start": 3213,
+          "char_end": 4203,
+          "passage_sha256": "6f32ea5bd855df745a9cffa247aee9e981ef3cb6ae234a6a4dc160ba6ecc7103"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MEX-reforms-015",
+        "statement": "Under the decree, the SUS is a network built on capacity shared between IMSS, ISSSTE, IMSS-BIENESTAR, PEMEX hospitals and clinics, the federal reference hospitals and the National Institutes of Health, and open to other public providers that choose to join, such as state health services outside IMSS-BIENESTAR; through it, free medical care and medicines are to be provided under rules to be issued.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Segundo",
+          "char_start": 19990,
+          "char_end": 21056,
+          "passage_sha256": "ee0661c6e3166f0e793aa7c7750e70cea477d7839689b55cb6fd8a5ea69578c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-016",
+        "statement": "The SUS network is to work by institutions exchanging services with budgetary and financial compensation: the institution a patient belongs to must reimburse the institution that treats them.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Decreto, Artículo Segundo",
+          "char_start": 21373,
+          "char_end": 21740,
+          "passage_sha256": "4ecb7469f80f0d48380e96d1807785745a42b28c6536dc31fd11e2fc02afc88b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-017",
+        "statement": "The decree phases in the exchange of services between institutions; the first stage, from 1 January 2027, prioritises free emergency care in any facility until discharge, care for high-risk pregnancies including obstetric emergencies, and heart-attack and stroke protocols with access to any facility and transfer to better-equipped units.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Transitorios, Tercero",
+          "char_start": 33359,
+          "char_end": 34163,
+          "passage_sha256": "b194809d6f9b41b2c5351819bccdfe409f52fb26963f6cef30278d57dd055143"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-018",
+        "statement": "The priorities listed in the decree also include keeping outpatient treatment going, at the institution where it began, for patients with chronic kidney failure, cancer, transplants, HIV or haemophilia who lose social-security entitlement; completing vaccinations at any public unit; and primary care consultations, including prescriptions, at the unit nearest the patient.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Transitorios, Tercero",
+          "char_start": 34166,
+          "char_end": 34885,
+          "passage_sha256": "64122b30442ae478becb52218bc957bb427d16cd848cd39e718d85a9c4525961"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "MEX-reforms-019",
+        "statement": "A second stage of the exchange of services, from 1 July 2027, is to add laboratory and imaging tests (including CT, ultrasound and MRI) and radiotherapy sessions.",
+        "valence": "neutral",
+        "source_id": "dof-sus-decree-2026",
+        "locator": {
+          "section": "Transitorios, Tercero",
+          "char_start": 34886,
+          "char_end": 35218,
+          "passage_sha256": "3595d6f78a176f5626b4bf0e5ba713f3802da74d93a7dc37c9bb52b30df2d37e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/MEX.json",
+  "sources": [
+    {
+      "id": "hit-mex-2020",
+      "title": "Mexico: Health System Review",
+      "publisher": "World Health Organization, on behalf of the European Observatory on Health Systems and Policies (North American Observatory on Health Systems and Policies), Health Systems in Transition Vol. 22 No. 2",
+      "authors": "González Block MÁ, Reyes Morales H, Cahuana Hurtado L, Balandrán A, Méndez E",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2020,
+      "url": "https://iris.who.int/server/api/core/bitstreams/2fa96fb5-c888-4f67-9408-6b7b99874863/content",
+      "accessed": "2026-11-09",
+      "funding_note": "Written mostly before the 2020-2023 reforms: it describes Seguro Popular as in force until 2019-2020 and INSABI only as newly created."
+    },
+    {
+      "id": "alvarez-aceves-2025",
+      "title": "23 years of public policy towards universal health coverage in Mexico. A cross-sectional time-series analysis using routinely collected health data, 2000-2022",
+      "publisher": "Lancet Regional Health - Americas",
+      "authors": "Álvarez-Aceves M, Palacio-Mejía LS, Hernández-Ávila M, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.lana.2025.101271",
+      "doi": "10.1016/j.lana.2025.101271",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12553023",
+      "funding_note": "Authors are at Mexico's National Institute of Public Health and the Mexican Social Security Institute; funded by the National Institute of Public Health and Mexico's science ministry (SECIHTI).",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "cerecero-garcia-2026",
+      "title": "Catastrophic and impoverishing health expenditures in fragmented public health systems: lessons from Mexico, 2000-2022",
+      "publisher": "Health Economics Review",
+      "authors": "Cerecero-García D, Gómez-Dantés O, Hone T, Pineda-Antúnez C, Mohar-Betancourt A, Flamand L, Serván-Mori E",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s13561-026-00717-z",
+      "doi": "10.1186/s13561-026-00717-z",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12924604",
+      "funding_note": "Funded partly by a UK NIHR global health policy grant. Co-author Gómez-Dantés was a Ministry of Health official during the initial rollout of Seguro Popular (2000-2006).",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "servan-mori-2023",
+      "title": "Increase of catastrophic and impoverishing health expenditures in Mexico associated to policy changes and the COVID-19 pandemic",
+      "publisher": "Journal of Global Health",
+      "authors": "Serván-Mori E, Gómez-Dantés O, Contreras D, Flamand L, Cerecero-García D, Arreola-Ornelas H, Knaul FM, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.7189/jogh.13.06044",
+      "doi": "10.7189/jogh.13.06044",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10602209",
+      "funding_note": "Co-authors include people involved in designing Seguro Popular (Knaul, Gómez-Dantés)."
+    },
+    {
+      "id": "servan-mori-2025",
+      "title": "Health system financing fragmentation and maternal mortality transition in Mexico, 2000-2022",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Serván-Mori E, Pineda-Antúnez C, Cerecero-García D, Flamand L, Mohar-Betancourt A, Millett C, Hone T, Moreno-Serra R, Gómez-Dantés O",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12939-024-02357-3",
+      "doi": "10.1186/s12939-024-02357-3",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11781072",
+      "funding_note": "Funded partly by a UK NIHR global health policy grant.",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "martinez-valle-2025",
+      "title": "Why expanding public health insurance coverage is not enough to provide effective ambulatory care: policy lessons from Mexico, 2000-2022",
+      "publisher": "Journal of Public Health Policy",
+      "authors": "Martínez-Valle A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1057/s41271-025-00564-y",
+      "doi": "10.1057/s41271-025-00564-y",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12328214",
+      "funding_note": "Policy brief (trend analysis, not a causal study). The author took part in designing and implementing Seguro Popular (2001-2007) and later held Ministry of Health posts.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "cortes-adame-2025",
+      "title": "The termination of Seguro Popular: impacts on the care of high-cost diseases in the uninsured population in Mexico",
+      "publisher": "Lancet Regional Health - Americas",
+      "authors": "Cortés-Adame LJ, Gómez-Dantés O",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.lana.2025.101078",
+      "doi": "10.1016/j.lana.2025.101078",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11999300",
+      "funding_note": "Comment piece, not original research. Co-author Gómez-Dantés was Director General for Performance Evaluation at the Ministry of Health during the initial implementation of Seguro Popular (2001-2006).",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "knaul-2023",
+      "title": "Setbacks in the quest for universal health coverage in Mexico: polarised politics, policy upheaval, and pandemic disruption",
+      "publisher": "The Lancet",
+      "authors": "Knaul FM, Arreola-Ornelas H, Touchton M, et al., Frenk J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/S0140-6736(23)00777-8",
+      "doi": "10.1016/S0140-6736(23)00777-8",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37562419&rettype=abstract&retmode=text",
+      "funding_note": "Claims use the PubMed abstract only. Authors include the designers of Seguro Popular: Frenk was Minister of Health 2000-2006 and responsible for it, and Knaul helped design it; other authors held Ministry of Health posts."
+    },
+    {
+      "id": "svarch-perez-2026",
+      "title": "El modelo IMSS-BIENESTAR y la reorganización del sistema público de salud en México (The IMSS-BIENESTAR model and the reorganisation of Mexico's public health system)",
+      "publisher": "Salud Pública de México",
+      "authors": "Svarch-Perez A, Comes Y, Suárez-Rienda V, Molina-Leza J, Orantes-Jordan G, Beutel-Rabinovich T",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.21149/18391",
+      "doi": "10.21149/18391",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42873937&rettype=abstract&retmode=text",
+      "funding_note": "Claims use the PubMed abstract (Spanish) only. Most authors are senior officials of IMSS-BIENESTAR, the institution described; one is from PAHO."
+    },
+    {
+      "id": "lopez-yanez-2026",
+      "title": "Healthcare Deserts and Avoidable Mortality in Mexico: A Municipal-Level Ecological Analysis of Health System Resources, Social Deprivation, and Preventable Deaths, 2015-2024",
+      "publisher": "Healthcare (Basel), MDPI",
+      "authors": "López-Yáñez AM, De Arcos-Jiménez JC, Herrera-Fuentes LF, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.3390/healthcare14070890",
+      "doi": "10.3390/healthcare14070890",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13073501",
+      "funding_note": "Ecological study; no external funding.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "vargas-lopez-2024",
+      "title": "Medicines policy, access and use in Mexico: a systematic literature review 2000-2022",
+      "publisher": "Drugs in Context",
+      "authors": "Vargas López LC, Chávez Gallegos D, Blanco Borjas DM, Wirtz VJ",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.7573/dic.2023-7-3",
+      "doi": "10.7573/dic.2023-7-3",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10881114",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "dof-sus-decree-2026",
+      "title": "DECRETO por el que se crea el Servicio Universal de Salud del Gobierno de México (Diario Oficial de la Federación)",
+      "publisher": "Presidencia de la República / Diario Oficial de la Federación (via SIDOF, Secretaría de Gobernación)",
+      "authors": "Sheinbaum Pardo C (Presidenta de los Estados Unidos Mexicanos)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5785257",
+      "accessed": "2026-11-09",
+      "funding_note": "Legal text of the federal government's own decree; describes intended design and timetable, not results."
+    },
+    {
+      "id": "presidencia-sus-2026",
+      "title": "Presidenta anuncia decreto para crear el Servicio Universal de Salud; del 13 al 30 de abril inicia credencialización de personas de 85 años",
+      "publisher": "Presidencia de la República (gob.mx), press release",
+      "authors": "Presidencia de la República",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gob.mx/presidencia/prensa/presidenta-anuncia-decreto-para-crear-el-servicio-universal-de-salud-del-13-al-30-de-abril-inicia-credencializacion-de-personas-de-85-anos",
+      "accessed": "2026-11-09",
+      "funding_note": "Government press release announcing its own programme; used only for announced plans and dates, attributed to the government."
+    },
+    {
+      "id": "ssa-compra-2025",
+      "title": "433. Secretaría de Salud presenta nuevo modelo, transparente y digital, para la compra de medicamentos 2025-2026",
+      "publisher": "Secretaría de Salud (gob.mx), press release",
+      "authors": "Secretaría de Salud",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.gob.mx/salud/prensa/433-secretaria-de-salud-presenta-nuevo-modelo-transparente-y-digital-para-la-compra-de-medicamentos-2025-2026",
+      "accessed": "2026-11-09",
+      "funding_note": "Ministry of Health press release describing its own procurement design; used only for the design as announced, attributed to the ministry."
+    },
+    {
+      "id": "inegi-pm-rr-2024",
+      "title": "Reporte de resultados 27/25: Análisis de los resultados de la medición de la pobreza multidimensional, 2024",
+      "publisher": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "authors": "INEGI",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/pm/pm2025_RR_08.pdf",
+      "accessed": "2026-11-09",
+      "funding_note": "Official statistics. INEGI now produces the poverty measurement, applying CONEVAL's methodology to ENIGH 2024."
+    },
+    {
+      "id": "inegi-enigh-2024",
+      "title": "Comunicado de prensa 112/25: Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2024",
+      "publisher": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "authors": "INEGI",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/enigh/ENIGH2024.pdf",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "cad-saude-2026",
+      "title": "Health policies and reforms in Mexico (2000-2024): segmentation and challenges for universal rights",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "dos Anjos EF, López-Arellano O, Pereira Pinto EJ, Machado CV",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/0102-311XEN278225",
+      "doi": "10.1590/0102-311XEN278225",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13460892",
+      "license": "CC BY 4.0",
+      "funding_note": "Authors at Fiocruz (Brazil) and UAM (Mexico); a co-author has previously published a critique of market-oriented (\"neoliberal\") health reform in Mexico. One author reports Brazilian research funding (CNPq, Faperj)."
+    },
+    {
+      "id": "gomez-dantes-2022",
+      "title": "Challenges of Guaranteeing Access to Medicines in Mexico: Lessons from Recent Changes in Pharmaceuticals Procurement",
+      "publisher": "Health Systems & Reform",
+      "authors": "Gómez-Dantés O, Dreser A, Wirtz VJ, Reich MR",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1080/23288604.2022.2084221",
+      "doi": "10.1080/23288604.2022.2084221",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35723656&rettype=abstract&retmode=text",
+      "funding_note": "Policy report (abstract only used). Lead author is a researcher associated with the Seguro Popular-era Ministry of Health; the paper is critical of the 2018-2024 government's procurement changes."
+    },
+    {
+      "id": "colchero-2026",
+      "title": "Utilización de servicios en población sin derechohabiencia: evaluación de impacto del IMSS-BIENESTAR",
+      "publisher": "Salud Pública de México",
+      "authors": "Colchero-Aragonés MA, Rubio J, Bautista-Arredondo S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.21149/17891",
+      "doi": "10.21149/17891",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42873952&rettype=abstract&retmode=text",
+      "funding_note": "Spanish abstract only. Authors from the National Institute of Public Health (INSP), UNAM and the Ministry of Health's economic analysis unit, so not fully independent of government."
+    },
+    {
+      "id": "haq-2018",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "accessed": "2026-11-09",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "funding_note": "IHME / GBD collaboration, funded by the Bill & Melinda Gates Foundation."
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-10",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "inegi-edr-2024",
+      "title": "Comunicado de prensa 142/25: Estadísticas de Defunciones Registradas (EDR) 2024",
+      "publisher": "Instituto Nacional de Estadística y Geografía (INEGI)",
+      "authors": "INEGI",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/edr/EDR2024-def_CP.pdf",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "lancet-ra-pharmacy-2025",
+      "title": "The duality of retail pharmacy clinics in Mexico: from threat to opportunity",
+      "publisher": "Lancet Regional Health - Americas",
+      "authors": "Ramonfaur D, Auron M, Torre-Amione G",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.lana.2025.101258",
+      "doi": "10.1016/j.lana.2025.101258",
+      "accessed": "2026-11-10",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12508860",
+      "funding_note": "Comment piece, not original research; authors declare no competing interests.",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "lancet-ra-pharmacy-2026",
+      "title": "Retail pharmacy clinics in Mexico: a commentary",
+      "publisher": "Lancet Regional Health - Americas",
+      "authors": "Colchero MA, Barrientos-Gutiérrez T, Hernández-Ávila M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.lana.2025.101341",
+      "doi": "10.1016/j.lana.2025.101341",
+      "accessed": "2026-11-10",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12796101",
+      "funding_note": "Correspondence replying to the 2025 comment; two authors are at the National Institute of Public Health (INSP) and one at the Mexican Social Security Institute (IMSS), both government bodies.",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "dof-lss",
+      "title": "Ley del Seguro Social (texto vigente, última reforma DOF 15-01-2026)",
+      "publisher": "Cámara de Diputados del H. Congreso de la Unión (compiled text of the federal law)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Statute text. Contribution rates in articles 106-107 are the original 1997 values; transitory articles changed some of them over 1998-2007, so current IMSS rates are taken from the IMSS annual report instead."
+    },
+    {
+      "id": "dof-lissste",
+      "title": "Ley del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (texto vigente, última reforma DOF 15-01-2026)",
+      "publisher": "Cámara de Diputados del H. Congreso de la Unión (compiled text of the federal law)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISSSTE.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "dof-lgs",
+      "title": "Ley General de Salud (texto vigente, últimas reformas DOF 15-01-2026)",
+      "publisher": "Cámara de Diputados del H. Congreso de la Unión (compiled text of the federal law)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "dof-lisr",
+      "title": "Ley del Impuesto sobre la Renta (texto vigente)",
+      "publisher": "Cámara de Diputados del H. Congreso de la Unión (compiled text of the federal law)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "imss-informe-2026-sem",
+      "title": "Informe al Ejecutivo Federal y al Congreso de la Unión sobre la Situación Financiera y los Riesgos del IMSS 2025-2026, Capítulo V: Seguro de Enfermedades y Maternidad",
+      "publisher": "Instituto Mexicano del Seguro Social",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.imss.gob.mx/sites/all/statics/pdf/informes/20252026/09-Cap05.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Statutory annual report of the IMSS (the insurer itself) to the President and Congress; figures to 31 December 2025."
+    },
+    {
+      "id": "imss-informe-2026-fin",
+      "title": "Informe al Ejecutivo Federal y al Congreso de la Unión sobre la Situación Financiera y los Riesgos del IMSS 2025-2026, Capítulo II: Situación Financiera Global",
+      "publisher": "Instituto Mexicano del Seguro Social",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.imss.gob.mx/sites/all/statics/pdf/informes/20252026/06-Cap02.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Statutory annual report of the IMSS to the President and Congress; covers all IMSS insurance branches, not health only."
+    },
+    {
+      "id": "ciep-renuncias-2026",
+      "title": "Renuncias recaudatorias: hacia una agenda inicial de evaluación de política fiscal",
+      "publisher": "Centro de Investigación Económica y Presupuestaria, A.C. (CIEP)",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://ciep.mx/wp-content/uploads/2026/07/Renuncias-recaudatorias.-Hacia-una-agenda-inicial-de-evaluacion.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "CIEP is an independent non-profit fiscal research centre. Table 1 compiles the Ministry of Finance (SHCP) 2026 tax-expenditure estimates; the SHCP report itself (finanzaspublicas.hacienda.gob.mx) could not be downloaded (TLS error)."
+    },
+    {
+      "id": "ciep-salud-2026",
+      "title": "Gasto en salud para 2026: aumentos en hospitales y medicamentos; recortes en salud mental",
+      "publisher": "Centro de Investigación Económica y Presupuestaria, A.C. (CIEP)",
+      "authors": "Méndez Méndez JS, Macías Sánchez A",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2025,
+      "url": "https://ciep.mx/wp-content/uploads/2025/10/SaludPE26_v2.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Independent non-profit fiscal research centre; analyses the 2026 budget proposal (Paquete Económico, 8 September 2025), not the budget as approved or spent."
+    },
+    {
+      "id": "imss-informe-2026-anexos",
+      "title": "Informe al Ejecutivo Federal y al Congreso de la Unión sobre la Situación Financiera y los Riesgos del IMSS 2025-2026, Anexos (Anexo A: prestaciones y fuentes de financiamiento)",
+      "publisher": "Instituto Mexicano del Seguro Social",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.imss.gob.mx/sites/all/statics/pdf/informes/20252026/15-anexos.pdf",
+      "accessed": "2026-11-12",
+      "funding_note": "Statutory annual report of the IMSS; Table A.3 gives the contribution rates in force in December 2025."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-09",
+      "note": "Profile created: 78 claims from 11 sources anchored to fingerprinted passages and support-reviewed; 30 statements corrected after an independent support review and 2 re-anchored."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill: 22 claims added from the 2026 Servicio Universal de Salud decree and presidential announcement, the Ministry of Health's 2025-2026 consolidated medicines purchase, INEGI's 2024 poverty-measurement and ENIGH 2024 releases, a 2026 IMSS-BIENESTAR evaluation, a 2026 review, a 2022 policy report and the GBD 2016 and 2019 HAQ Index studies; all support-reviewed (7 statements corrected, 2 re-anchored). OECD Health at a Glance 2025 could not be downloaded (403)."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Data-age backfill: dropped 6 claims resting on 2003-2015 data (IMSS job turnover 2014, 2015 financing shares, private insurance share 2000-2015, spending for the uninsured 2003-2009, bed gap 2003-2006, spending growth 2001-2015); marked the 2000-2015 public/out-of-pocket share trend as historical; replaced 2015 causes of death with INEGI 2024 registered-death statistics; replaced the 2015 pharmacy-clinic count with two 2025-2026 Lancet Regional Health - Americas commentaries (3 claims). New claims support-reviewed (3 statements corrected, 1 re-anchored)."
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Backfill round 3 (MEX-r3): financing section brought up to the 'where the money comes from' standard with 23 new claims from 8 new sources (Social Security Law, ISSSTE Law, General Health Law, Income Tax Law, IMSS 2025-2026 report chapters II, V and annexes, two CIEP notes) plus the 2020 HiT: IMSS and ISSSTE contribution rates and who pays them, federal and state funding for care of people without social security, the 11% transfer to the Fondo de Salud para el Bienestar, income tax deductions for medical costs and private medical insurance and their 2026 cost, the 2026 health budget proposal, and the IMSS sickness and maternity insurance deficit. Cold support review corrected 11 statements and re-anchored 2. Re-anchored MEX-reforms-010 and -011 to identical passages whose offsets had shifted on the gob.mx page."
+    }
+  ]
+}

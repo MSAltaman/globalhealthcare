@@ -3,7 +3,7 @@
   "name": "China",
   "wave": 1,
   "system_as_of": "2026-11-10",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "social_health_insurance",
     "label": "Government-run social health insurance in two main schemes (compulsory for employees, voluntary and subsidised for other residents), with medical assistance for the poor"
@@ -354,19 +354,20 @@
       },
       {
         "id": "CHN-financing-008",
-        "statement": "In the authors' 2023 estimates from a national household survey, taxes financed 26.7% of total health spending, social and private health insurance together 46.0%, and out-of-pocket payments 27.3%.",
+        "statement": "In the authors' 2023 baseline estimate, taxes financed 26.7% of total health financing, social and private health insurance together 46.0%, and out-of-pocket payments 27.3%.",
         "valence": "neutral",
         "source_id": "chen-2026-equity",
         "locator": {
-          "table": "Table 4, Baseline column (share of total health financing, 2023)",
-          "char_start": 40268,
+          "table": "Table 3, results of policy scenario analyses (2023), Baseline column",
+          "char_start": 39986,
           "char_end": 40395,
-          "passage_sha256": "9b07b8ec22dd3621af0342aa47c4d1dbdb11789e4c9ee5802de9e6fe0f746d4c"
+          "passage_sha256": "eaeae7a56f05f550c97d6ec5d6b7985296f4c30819e9cca8dc8b779bc8c6de20"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -383,8 +384,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -400,14 +402,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "CHN-financing-011",
-        "statement": "Across 2013-2023, direct taxes and employees' payroll-based insurance contributions were progressive, while indirect taxes, the flat contributions of non-employed residents and out-of-pocket payments were regressive; overall the system was mildly regressive, with a Kakwani index of -0.071 in 2023.",
+        "statement": "Across 2013-2023, direct taxes and employees' social health insurance contributions stayed progressive, while indirect taxes, non-employed residents' insurance contributions and out-of-pocket payments were regressive; the system overall was mildly regressive, with a Kakwani index of -0.016 in 2013 and -0.071 in 2023.",
         "valence": "weakness",
         "source_id": "chen-2026-equity",
         "locator": {
@@ -418,14 +421,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2023"
       },
       {
         "id": "CHN-financing-012",
-        "statement": "The employee scheme is funded by payroll contributions shared between employers and employees, while the resident schemes for people without formal jobs charged flat individual contributions, uniform within each locality, topped up by government subsidies worth about two-thirds of their revenue; the 2018 merger into one residents' scheme kept the flat contribution.",
+        "statement": "The employee scheme is funded by payroll contributions shared between employers and employees, while the resident schemes for non-employed people charged flat individual contributions, uniform within each locality, topped up by government subsidies worth about two-thirds of their revenue; their 2018 merger into one residents' scheme kept the flat contribution.",
         "valence": "neutral",
         "source_id": "chen-2026-equity",
         "locator": {
@@ -436,13 +440,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "CHN-financing-013",
-        "statement": "The State Council's 1998 decision creating the employee scheme set contribution rates of 6% of wages for employers and 2% for employees; a 2024 projection study of the employee fund still uses these rates, with the previous year's average wage of working employees as the contribution base.",
+        "statement": "Under the State Council's 1998 decision (No. 44) establishing the employee scheme, premiums are paid jointly, at a contribution rate of 6% by employers and 2% by employees; a 2024 study gives the contribution base as the previous year's average wage of working employees.",
         "valence": "neutral",
         "source_id": "lin-2024-uebmi",
         "locator": {
@@ -453,13 +458,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "CHN-financing-014",
-        "statement": "Under the State Council's 2021 outpatient reform, a working employee's personal savings account receives only the employee's own contribution, in principle capped at 2% of the contribution base, and all employer contributions go to the pooled fund; retirees' accounts get a fixed transfer from the pooled fund, moving toward about 2% of the local average pension.",
+        "statement": "Under the State Council's 2021 guidance on outpatient mutual aid, a working employee's personal account is credited from the employee's own contribution, in principle kept at 2% of their contribution base, and all employer contributions go to the pooled fund; retirees' accounts in principle receive a fixed amount from the pooled fund, adjusted gradually toward about 2% of the local average basic pension in the year the area implements the reform.",
         "valence": "neutral",
         "source_id": "guobanfa-2021-14",
         "locator": {
@@ -470,8 +476,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -487,8 +494,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -505,8 +513,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -523,14 +532,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "CHN-financing-018",
-        "statement": "Since 1 July 2017, premiums for qualifying commercial health insurance can be deducted from taxable income for individual income tax, up to 2,400 yuan a year (200 yuan a month), on top of the standard deduction; policies an employer buys for staff are counted as the employee's wages and fall under the same limit.",
+        "statement": "From 1 July 2017 the income-tax pilot for commercial health insurance was extended nationwide: spending on qualifying policies can be deducted from taxable income up to 2,400 yuan a year (200 yuan a month), on top of the standard deduction; policies an employer buys for staff count as the employee's wages and fall under the same limit.",
         "valence": "neutral",
         "source_id": "caishui-2017-39",
         "locator": {
@@ -541,13 +551,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "CHN-financing-019",
-        "statement": "Products qualifying for the tax deduction must cover adults from age 16 up to statutory retirement age, may not reject applicants for past illness, and must guarantee renewal.",
+        "statement": "Products qualifying for the tax deduction must insure taxpayers aged 16 or over who are below statutory retirement age; insurers may not refuse cover because of past illness and must guarantee renewal.",
         "valence": "neutral",
         "source_id": "caishui-2017-39",
         "locator": {
@@ -558,8 +569,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -575,8 +587,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2014-2024"
       },
@@ -593,8 +606,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -611,26 +625,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "CHN-financing-023",
-        "statement": "In national statistics, 'social' health expenditure rose from 35.08% of total health expenditure in 2009 to 47.62% in 2024, mainly reflecting the expansion of basic medical insurance, while the out-of-pocket share fell from 37.46% to 27.51%.",
+        "statement": "Between 2009 and 2024, social health expenditure rose from 35.08% to 47.62% of total health expenditure, mainly reflecting the expansion of basic medical insurance, while the out-of-pocket share fell from 37.46% to 27.51%.",
         "valence": "strength",
         "source_id": "qiu-2026-oop",
         "locator": {
           "section": "Results: Evolution of health financing structure",
-          "char_start": 22653,
+          "char_start": 22586,
           "char_end": 23110,
-          "passage_sha256": "d339a24add058b6f7e2afb088de94aba77bb895e31e8d87c06f386ee4d2c437c"
+          "passage_sha256": "ef198f7064a44b0addb770ddb05658bebc93684003250ce0aa06d5339c9403fb"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2009-2024"
       }
@@ -2831,6 +2847,10 @@
     {
       "date": "2026-11-11",
       "note": "Backfill CHN-r2: replaced 5 claims resting on data older than 10 years (2015 APO review, 2015 household survey) with the Social Insurance Law (Arts. 27, 28), the 2024 State Council enrolment guideline, Li et al. 2020 and Shu et al. 2026 (CHARLS 2018); dropped 3 (2015 contribution rates, 2012 GP count already covered by CHN-access-005, and a second claim from the 2015 debt survey); APO 2015 review no longer cited and removed. Cold support review corrected 3 of 5 new statements."
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Backfill CHN-r3 (financing standard): 16 financing claims added from 9 new sources: Chen et al. 2026 financing incidence (tax, insurance and out-of-pocket shares; tax mix; progressivity), the 1998 contribution rates (via Lin et al. 2024), the 2021 State Council individual-account reform, NHSA 2024 employee-fund revenue, the 2024 residents' scheme subsidy and premium floors and the 2025 Government Work Report increase, the 2017 income-tax deduction for commercial health insurance, commercial insurance premiums and claims (Jiang 2026, Song 2026) and the WHO vs. national out-of-pocket definitions (Qiu 2026). Two cold support-review passes corrected 9 statements; none dropped."
     }
   ]
 }

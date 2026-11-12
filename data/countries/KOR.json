@@ -1,0 +1,1867 @@
+{
+  "iso3": "KOR",
+  "name": "South Korea",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "draft",
+  "model": {
+    "type": "mixed",
+    "label": "TODO: plain-language name of the model"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "KOR-overview-001",
+        "statement": "Under the National Health Insurance Act, every Korean national living in Korea must be enrolled in national health insurance, either as a policyholder or as a dependant; the main exceptions are people receiving Medical Aid and people covered by the separate medical care scheme for persons of distinguished service to the state.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 5 (Eligible Persons)",
+          "char_start": 9495,
+          "char_end": 10195,
+          "passage_sha256": "71d249208e619fcf6df2ed06b8cd91fb2d92e26faaf8fd0e0d047d7834c0b6b0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-overview-002",
+        "statement": "Foreign nationals and overseas Koreans who live in Korea and work for an employer covered by the scheme are enrolled as employee insured once they have registered their residence or alien status.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 109 (Special Cases concerning Foreigners)",
+          "char_start": 180120,
+          "char_end": 180901,
+          "passage_sha256": "8df82401adcb145f942c3e315be98e6e1b1926306601d5b208083abdf53e8a0b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-overview-003",
+        "statement": "The law names one insurer for the whole national scheme: the National Health Insurance Service (NHIS).",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 13 (Insurer)",
+          "char_start": 20963,
+          "char_end": 21111,
+          "passage_sha256": "4df2111568e8039f8ee30e6b70ff5f6d24686522f77fb321a7fac62200b6d588"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-overview-004",
+        "statement": "A separate public body, the Health Insurance Review and Assessment Service (HIRA), is set up by the same Act to review what providers charge the scheme and to evaluate whether the care given was appropriate.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 62 (Establishment)",
+          "char_start": 87078,
+          "char_end": 87288,
+          "passage_sha256": "9b46436577ad15541749cfd50b7c2a5ff916cccbba72b6c52b9e28b1ed13b363"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-overview-005",
+        "statement": "About 97% of the population is covered by National Health Insurance; the other 3%, people in socio-economic hardship, are covered by the Medical Aid programme, which pays in full for hospital stays and almost in full for outpatient care, leaving at most a nominal charge.",
+        "valence": "neutral",
+        "source_id": "nhi-medaid-2026",
+        "locator": {
+          "section": "Background",
+          "char_start": 8747,
+          "char_end": 9105,
+          "passage_sha256": "aef7e15d51b8a8d7ae72e4829e434362ddc1d2fbd186d004ed06fec4864ce27a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-overview-006",
+        "statement": "Roughly 94% of Korean hospitals and clinics are privately owned and are paid fee-for-service; government regulates the services NHI covers, including their prices, but services outside NHI coverage are not price-regulated.",
+        "valence": "neutral",
+        "source_id": "cat-exp-kor-2026",
+        "locator": {
+          "section": "1. Background",
+          "char_start": 6676,
+          "char_end": 6889,
+          "passage_sha256": "1624ddd193d6ce7953181aeacd69bd206d1e4347596fddff60a9cc9d565715a4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-overview-007",
+        "statement": "Care in Korea is delivered mainly by private providers, with public health facilities at central, regional and municipal level supplying some services.",
+        "valence": "neutral",
+        "source_id": "eastasia-lowinc-2025",
+        "locator": {
+          "section": "Health financing systems: South Korea",
+          "char_start": 19468,
+          "char_end": 19644,
+          "passage_sha256": "436ff50e10b40b625ec3b07e81a3576dd182ff45b771b734b4b7a8d47fe4f229"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-overview-008",
+        "statement": "Between 1980 and 2003, South Korea merged its separate health insurance risk pools into a single-payer system, one of only a few countries to have done so (2024 political analysis).",
+        "valence": "neutral",
+        "source_id": "hsr-pools-kor-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 581,
+          "char_end": 827,
+          "passage_sha256": "81c743df7fecfcefb271347c5758e100ce394731f88b6e497b7ce9e060fdd8cd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "1980-2003",
+        "historical": true
+      }
+    ],
+    "financing": [
+      {
+        "id": "KOR-financing-001",
+        "statement": "The contribution rate for employees is fixed by presidential decree after a vote of the Health Insurance Policy Deliberative Committee, and the Act caps it at 8% of pay.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 73 (Insurance Contribution Rate)",
+          "char_start": 104483,
+          "char_end": 104715,
+          "passage_sha256": "05fe0275e94a3af0162916e9f4f9a1775c65b6a8faec363062d0dcdc98ef5f82"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-002",
+        "statement": "Contributions on wages are split equally: the employee pays half and the employer pays half (for public officials, the state or local government is the employer). For private-school staff, the employee pays half, the school operator 30% and the state 20%.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 76 (Burden of Insurance Contributions)",
+          "char_start": 109173,
+          "char_end": 109684,
+          "passage_sha256": "a7ce6447826d4d56c0b9425a6949d63abaada0f8b27acec55f63b21a34e925b4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-003",
+        "statement": "Employees pay the whole contribution on income they earn on top of their wages, and for the self-employed the contribution is owed jointly by all self-employed insured members of the household.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 76 (Burden of Insurance Contributions)",
+          "char_start": 110110,
+          "char_end": 110458,
+          "passage_sha256": "834c4bbe87aac7c68905d42bce0ff0289642b0f191acde0c756da42be880da23"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-004",
+        "statement": "A self-employed household's monthly contribution adds two parts: its monthly income multiplied by the contribution rate, and points assigned to its property multiplied by a set value per point.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 69 (Insurance Contributions)",
+          "char_start": 96236,
+          "char_end": 96916,
+          "passage_sha256": "04ff39f9294cd1e26d937c5f75d423419c5f6f08d6570e5a2231e09a4f0fb7f3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-005",
+        "statement": "In 2024 the contribution rate for employees was 7.09% of pay and each property-based contribution point for the self-employed was worth 208.4 won; the rates are set by the Health Insurance Policy Deliberative Committee, which includes representatives of the insured, of providers and of the public interest.",
+        "valence": "neutral",
+        "source_id": "mohw-uhc-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 4158,
+          "char_end": 4480,
+          "passage_sha256": "6de8d5f16a1004da39071be3b997b17022d6f54b6746c5a7b10cba33dd9309d9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-006",
+        "statement": "In September 2026 the Health Insurance Policy Deliberative Committee decided to keep the contribution rate for 2027 at 7.19%, unchanged from 2026.",
+        "valence": "neutral",
+        "source_id": "mohw-hipdc-2026",
+        "locator": {
+          "section": "Briefing statement",
+          "char_start": 1840,
+          "char_end": 1893,
+          "passage_sha256": "2c12667102960d4a63a722140b914052f7e221573f038394d948970c35697211"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-financing-007",
+        "statement": "By law the state pays the NHIS each year, from general revenue and within its budget, an amount equal to 14% of the contribution income expected for that year; the National Health Promotion Fund may provide further money.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 108-2 (Government's Subsidies for Insurance Finance)",
+          "char_start": 178557,
+          "char_end": 178917,
+          "passage_sha256": "ec312bb0a930f024b8e8d37a06826e9c57c136b55f07642a20b95fb76f62acc2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-008",
+        "statement": "Money from the National Health Promotion Fund is to be used for health promotion such as health check-ups, for treating illness caused by smoking, and for benefits for insured people aged 65 or older.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 108-2 (Government's Subsidies for Insurance Finance)",
+          "char_start": 179362,
+          "char_end": 179667,
+          "passage_sha256": "8d2671a3069bcb01dbf0025358c0062275d7e072179ef82a5bddf029009d938f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-009",
+        "statement": "The government subsidy provision (Article 108-2) is temporary: it stays in force only until 31 December 2027.",
+        "valence": "weakness",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 108-2, note on duration",
+          "char_start": 179706,
+          "char_end": 179880,
+          "passage_sha256": "d8c36cd778b499c57c4063ffc4561b14690ae3393fe1c7804d4b21bfea8dd5f8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-010",
+        "statement": "In 2024, government subsidies to the NHI from the general budget equalled 12.2% of NHI contribution revenue.",
+        "valence": "neutral",
+        "source_id": "nhi-aging-2025",
+        "locator": {
+          "section": "Methods: revenue projections",
+          "char_start": 16791,
+          "char_end": 16949,
+          "passage_sha256": "009c9c125d12b7a886435aefbce0e7909704e382f111d7922bc9c2729292e99e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-011",
+        "statement": "A second government subsidy comes from the tobacco surcharge, but under current rules no more than 65% of the surcharge's revenue may go to the NHI.",
+        "valence": "neutral",
+        "source_id": "nhi-aging-2025",
+        "locator": {
+          "section": "Methods: revenue projections",
+          "char_start": 16951,
+          "char_end": 17230,
+          "passage_sha256": "a7f76850d409fe67e5a7282f2ac070700fc8255eb917bac7b2ed829c78fdf714"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-financing-012",
+        "statement": "NHI revenue was about 99 trillion won and NHI spending about 97 trillion won in 2024, when the contribution rate was 7.09%.",
+        "valence": "neutral",
+        "source_id": "nhi-aging-2025",
+        "locator": {
+          "table": "Table 1: Demographic, economic, and NHI financial indicators; row 2024 (NHI revenue, NHI expenditure, contribution rate)",
+          "char_start": 12812,
+          "char_end": 12885,
+          "passage_sha256": "d1aefb34077972a7cae23bbd27f854e499f0790449dde1a3a296a9f22057dac0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-financing-013",
+        "statement": "In 2023, government and compulsory insurance schemes paid for only about 60% of all health spending in Korea, against about 75% on average across OECD countries (OECD definition of publicly mandated financing).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1, Access to care",
+          "page": 22,
+          "char_start": 51479,
+          "char_end": 51745,
+          "passage_sha256": "388e7c86f33e38e0af8648ba4688dbc8bf714aeb901db2cabbef6132b1723765"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-financing-014",
+        "statement": "Tax subsidy: wage earners can take 12% of the premiums they pay for protection-type insurance (policies that pay back no more than the premiums paid in) off their income tax, on up to 1 million won of premiums a year (15% for policies covering only a disabled person). The credit applies to such insurance generally, not only to private health cover; no estimate of its cost was found.",
+        "valence": "neutral",
+        "source_id": "income-tax-act",
+        "locator": {
+          "section": "Article 59-4 (Special tax credits)",
+          "char_start": 166760,
+          "char_end": 167528,
+          "passage_sha256": "165c3fbddb5d8a11fc91a890874c82cdeecc71ce9e95db58cc6a18298af5159b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "covered": [
+      {
+        "id": "KOR-covered-001",
+        "statement": "The Minister of Health and Welfare may exclude items from NHI benefits, such as treatment of conditions that do not get in the way of work or daily life; these become 'non-benefit items' that patients pay for themselves.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 41 (Health Care Benefits)",
+          "char_start": 40501,
+          "char_end": 40901,
+          "passage_sha256": "dc9edd5c63d83f25a32735f1667414145debb68d38168d6762d19c9a65f30016"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-covered-002",
+        "statement": "Who decides: the Health Insurance Policy Deliberative Committee has 25 members, is chaired by the Vice Minister of Health and Welfare, and includes members nominated by workers' and employers' organisations.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 4 (Health Insurance Policy Deliberative Committee)",
+          "char_start": 7304,
+          "char_end": 7866,
+          "passage_sha256": "4dd823069608ca32d1ba0b075c080a01b32ee36bb43b1cf0c0d687d04e5cc859"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-covered-003",
+        "statement": "Who decides: since 2010, new non-drug health technologies have been assessed by the National Evidence-based Healthcare Collaborating Agency (NECA, set up in December 2008), while drugs are assessed by HIRA.",
+        "valence": "neutral",
+        "source_id": "hsr-hta-kor-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1195,
+          "char_end": 1436,
+          "passage_sha256": "e4fee56aeb9c95fb0c019934431c323a3f7ebf64aa08940a19488bb7d814a369"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-covered-004",
+        "statement": "In 2012, after political argument over expensive but important technologies missing from the benefits list, Korea created a Participatory Priority Setting Committee led by members of the public, which can give such technologies a second chance at coverage.",
+        "valence": "strength",
+        "source_id": "hsr-hta-kor-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1437,
+          "char_end": 1900,
+          "passage_sha256": "8d8ce313c9ed47cd9d7eaa254f2db3e8751be1a3cea1c79f8308d0bf62cfb9d6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-covered-005",
+        "statement": "Long-term care insurance covers people aged 65 or older, and younger people with age-related illness such as dementia or cerebrovascular disease, who have been unable to manage daily life on their own for over six months; once assessed and given a care level, they receive help with physical activities, household tasks and cognitive activities.",
+        "valence": "neutral",
+        "source_id": "mohw-uhc-2024",
+        "locator": {
+          "page": 17,
+          "char_start": 6649,
+          "char_end": 7135,
+          "passage_sha256": "54c48a5d53b519fcaae2618aeb74dafbd5cf197c60bd8155d286ae64829fe85e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-covered-006",
+        "statement": "A 2026 study describes the NHI benefit package as comparatively shallow: some services are only partly covered and newer, often costly drugs, devices and procedures are added slowly, so out-of-pocket payments make up roughly 30% of total health spending.",
+        "valence": "weakness",
+        "source_id": "indemnity-kor-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6485,
+          "char_end": 6810,
+          "passage_sha256": "a18b8c628af3013a2700e7e7c2bf778db1ac54a0d86c210c264ea2e3eb5d9ccd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "KOR-cost_sharing-001",
+        "statement": "Patients pay part of the cost of covered care at shares set by presidential decree, and a higher share may apply to 'selective benefits' than to other covered care.",
+        "valence": "neutral",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 44 (Co-Payment of Expenses)",
+          "char_start": 51957,
+          "char_end": 52281,
+          "passage_sha256": "aa3ae9420c301883c88e97a74ddaac4ecbd82d4b50f9fb4474592d52685d4a7b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-cost_sharing-002",
+        "statement": "When a patient's total co-payments exceed a ceiling set by decree, the NHIS pays the excess, and the ceiling is set with regard to the insured person's income.",
+        "valence": "strength",
+        "source_id": "nhi-act",
+        "locator": {
+          "section": "Article 44 (Co-Payment of Expenses)",
+          "char_start": 52309,
+          "char_end": 53166,
+          "passage_sha256": "6b099997c1a39803824d5b8c3f5cda071ae3b9deaa39e222e18f7735682e3174"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-cost_sharing-003",
+        "statement": "Co-payment rates depend on the type of provider used; the NHI refunds co-payments above an annual ceiling that varies by income decile, and registered cancer patients pay a reduced 5%.",
+        "valence": "neutral",
+        "source_id": "eastasia-lowinc-2025",
+        "locator": {
+          "section": "Health financing systems: South Korea",
+          "char_start": 19077,
+          "char_end": 19467,
+          "passage_sha256": "d5d2e1ec57382d813e44cdfd9e6c9144b491c8181125453000ba793f6e12594c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-cost_sharing-004",
+        "statement": "In 2020 (Seoul), NHI co-payment rates were 30-60% for outpatient care and 5-20% for inpatient care, 5% for cancer and 10% for rare or intractable diseases, with no deductibles.",
+        "valence": "neutral",
+        "source_id": "eastasia-lowinc-2025",
+        "locator": {
+          "table": "Table 1: Policy information of SHI/GS and MFA in six societies (2020); South Korea (Seoul) column",
+          "char_start": 24624,
+          "char_end": 25113,
+          "passage_sha256": "063732bc758099249530eba302e00b6ffaa12e69f343960887f7e0f30066c45b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "KOR-cost_sharing-005",
+        "statement": "NHI pays for hospital stays with no limit on their length, with the patient paying 20% coinsurance.",
+        "valence": "strength",
+        "source_id": "us-kor-cat-2022",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 27469,
+          "char_end": 27582,
+          "passage_sha256": "96071e26d33e9130e6d01bdd7279d051635111e17abd362c97e446d148a4da83"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-cost_sharing-006",
+        "statement": "Medical Aid is generally limited to people whose income is below 40% of the standard median income and who have no family member able to support them; beneficiaries pay small co-payments that differ by beneficiary type.",
+        "valence": "neutral",
+        "source_id": "eastasia-lowinc-2025",
+        "locator": {
+          "section": "Health financing systems: South Korea",
+          "char_start": 20043,
+          "char_end": 20386,
+          "passage_sha256": "27e4107aadde99fea9465653051cb57db976a316b0236418e717e696ca7556ac"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-cost_sharing-007",
+        "statement": "In 2023, public and compulsory schemes paid only around two-thirds of the cost of inpatient care in Korea and less than 60% of outpatient care, against OECD averages of 89% and 78%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5, Extent of healthcare coverage",
+          "page": 108,
+          "char_start": 321913,
+          "char_end": 322624,
+          "passage_sha256": "c6c3c8ceb1d6aebc4df24022566dea1f7feb21a59351a148e01ed50876f5ef8b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-cost_sharing-008",
+        "statement": "In 2023, Korean households spent more than 5% of their total consumption on health goods and services, one of the three highest shares in the OECD (average 3.2%).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "figure": "Figure 5.8",
+          "section": "Chapter 5, Financial hardship and out-of-pocket expenditure",
+          "page": 110,
+          "char_start": 329088,
+          "char_end": 329327,
+          "passage_sha256": "7c5a4551f03d9e7bb1c98a16d0408b9d2e774a82f11969db51033c9600e823ec"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-cost_sharing-009",
+        "statement": "Wage earners can also deduct from income tax 15% of medical expenses paid for themselves and their dependants above 3% of their gross pay, with eligible spending on most dependants capped at 7 million won a year.",
+        "valence": "neutral",
+        "source_id": "income-tax-act",
+        "locator": {
+          "section": "Article 59-4 (Special tax credits)",
+          "char_start": 168094,
+          "char_end": 168985,
+          "passage_sha256": "457c58b037c35c3725264e9ad0451a0d8dfc64ae73327ee85776b482e51d557b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "KOR-financial_hardship-001",
+        "statement": "A Korean panel study covering 2009-2019, summarised in a 2023 commentary, found that out-of-pocket spending fell steadily as the public payer took on more costs, yet households' total health care burden (counting insurance premiums) stayed regressive, with about a third of households spending over 10% of income on health care.",
+        "valence": "weakness",
+        "source_id": "inquiry-kor-us-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 3371,
+          "char_end": 3851,
+          "passage_sha256": "c2c7bd499d0b4f3580af9c452d34da563225a1f31cbcc44aea20d06d0420b124"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2009-2019"
+      },
+      {
+        "id": "KOR-financial_hardship-002",
+        "statement": "After NHI coverage for cancer, heart and cerebrovascular disease and rare illnesses was expanded in 2013, the yearly probability that patients with these conditions paid anything out of pocket for non-covered services fell by 7.3 percentage points relative to a comparison group, and their non-covered spending (among those who had any) fell by about US$164 a year overall and US$254 for inpatient care (panel data 2011-2016).",
+        "valence": "strength",
+        "source_id": "cat-exp-kor-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3012,
+          "char_end": 3450,
+          "passage_sha256": "7d7a33ed1dc460f6251d7c9ed6d288a888836e482d7246b16d984ded934cf7f8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2011-2016"
+      },
+      {
+        "id": "KOR-financial_hardship-003",
+        "statement": "Even with universal coverage, high cost-sharing and a limited benefit package still create financial barriers to care in Korea, so income continues to shape access and use, though the income gradient is smaller than in the US.",
+        "valence": "weakness",
+        "source_id": "us-kor-ineq-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 38212,
+          "char_end": 38632,
+          "passage_sha256": "59f42a865258beadfdd26c6d715bb3cd35a8ba7ae61c6d7c12f953690136aebd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2010-2019"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "KOR-additional_care-001",
+        "statement": "Indemnity-type private health insurance, which reimburses what patients actually pay, is held by about 75% of the population (around 39 million people) as of 2023 and is sometimes called a 'second national health insurance'; fixed-benefit plans are less common.",
+        "valence": "neutral",
+        "source_id": "indemnity-kor-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6879,
+          "char_end": 7115,
+          "passage_sha256": "e8433612722c3b02ed7f6c442d353725ecf43ca5fb30de4c867b3e1b1870342a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-additional_care-002",
+        "statement": "Worries about overuse and fast-rising claims have led the government to redesign indemnity insurance products repeatedly, in successive 'generations' up to a fifth-generation plan introduced in 2026, and to intervene more to curb overuse of non-covered services.",
+        "valence": "neutral",
+        "source_id": "indemnity-kor-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7118,
+          "char_end": 7416,
+          "passage_sha256": "afd21ec5c40a0e6af2d92dd6ecbdf96a6ea997b0f946d2b8ab6bea7dae1d3e2d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-additional_care-003",
+        "statement": "Among adults under 65 without chronic disease in 2019-2020, those with indemnity insurance had more outpatient visits than those with fixed-benefit plans (9.14 vs 7.46 a year), with no significant difference in emergency or inpatient spending.",
+        "valence": "weakness",
+        "source_id": "indemnity-kor-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2621,
+          "char_end": 2853,
+          "passage_sha256": "e3e3b009fc8419936ebd9cd46fbd1ff489f98a7fce9ae66bbb660979a3101b40"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2020"
+      }
+    ],
+    "access": [
+      {
+        "id": "KOR-access-001",
+        "statement": "Koreans had 18 in-person doctor consultations per person in 2023, the most in the OECD, against an OECD average of 6.5.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5, Consultations with doctors",
+          "page": 116,
+          "char_start": 349977,
+          "char_end": 350233,
+          "passage_sha256": "fcb969b63ad90a8e803dc08cae00f278b39960505e8375fd0c0c8db36bf12bbb"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-access-002",
+        "statement": "Korea has the highest estimated number of consultations per doctor in the OECD, partly because consultations are short; the government sees this as a way to keep waits low, and most patients can see a primary care doctor the same day without an appointment.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5, Consultations with doctors",
+          "page": 116,
+          "char_start": 352723,
+          "char_end": 353170,
+          "passage_sha256": "06108335312f6f5a51d7c56ea90b744cf563795ddc644a526b5b39d6fbeb355e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-access-003",
+        "statement": "Korea had 12.6 hospital beds per 1,000 people in 2023, the highest rate in the OECD, against an average of 4.2.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5, Hospital beds and occupancy",
+          "page": 118,
+          "char_start": 357846,
+          "char_end": 358036,
+          "passage_sha256": "070be4a6d8dc7f50f025af3430cbd44168bd7941fefa691e4e9939d4c5cbf49b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-access-004",
+        "statement": "Korea has relatively few doctors for its population compared with the OECD average, as do Japan, Canada, Mexico and the United States.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 8, Doctors (overall number and distribution)",
+          "page": 182,
+          "char_start": 562778,
+          "char_end": 562959,
+          "passage_sha256": "b9e8cca1fc0e103b75cc9abbc243d31929ec5933cb359b53d769cba2480e8462"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-access-005",
+        "statement": "Korea was the only OECD country where the number of new medical graduates fell between 2013 and 2023, both in total and per head of population, because medical school admissions had not been increased since 2006.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 8, Medical graduates",
+          "page": 196,
+          "char_start": 613725,
+          "char_end": 614035,
+          "passage_sha256": "2420342ff24e3bbcc8a555f6a530cde400adf7592cb7e18a1f923bd30cdcfd76"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "KOR-access-006",
+        "statement": "Doctors were spread relatively evenly across regions in Korea, as in Belgium and Japan, compared with other OECD countries reporting regional data for 2023.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5, Geographic access",
+          "page": 114,
+          "char_start": 343826,
+          "char_end": 343918,
+          "passage_sha256": "1162d3c0b3043e330ec7802fb829a3aba988886f09faf132bfa1252ac1814929"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-access-007",
+        "statement": "At the end of 2023, resident physicians were only 8.5% of Korea's doctors (9,812 of 114,699) but about 30% of doctors in tertiary hospitals.",
+        "valence": "neutral",
+        "source_id": "walkout-cancer-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7639,
+          "char_end": 7910,
+          "passage_sha256": "3b66135440b12b1849fd0fd92edd6bbc03d0c6c8669a47568427addba56cdb4f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-access-008",
+        "statement": "Patients can go straight to specialists without primary care coordination, which may fragment care and weaken prevention; Korea has 23.9 primary care physicians per 100,000 people, against 67.2 in the US.",
+        "valence": "weakness",
+        "source_id": "us-kor-ineq-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 36634,
+          "char_end": 36963,
+          "passage_sha256": "987b153d82c391564c8632f393e9fe44a936b72d6e14c3185a9863549eabf375"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-access-009",
+        "statement": "Korea has long-standing doctor shortages in emergency medicine, paediatrics, obstetrics and key surgical specialties (general, thoracic and neurosurgery), which recent medical school quota increases were meant to address.",
+        "valence": "weakness",
+        "source_id": "quota-kingdon-2025",
+        "locator": {
+          "section": "1 Background",
+          "char_start": 4729,
+          "char_end": 5006,
+          "passage_sha256": "9883249895be7463ca2f7de96969ef4188d508c0fab0ccfe6cbcbaef531009ee"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "KOR-outcomes-001",
+        "statement": "In the GBD 2019 study, South Korea's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 86.3 (95% uncertainty interval 84.9-87.6) in 2019, 35.8 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 41262,
+          "char_end": 41433,
+          "passage_sha256": "d2f15dc493015bf01b65dd9d5ca183ddd38a37dc447820da22b82d55d42e51de"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "KOR-outcomes-002",
+        "statement": "By age group in the GBD 2019 study, South Korea's 2019 HAQ Index score was 88.5 for ages 0-14, 88.5 for ages 15-64 and 84.9 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 41262,
+          "char_end": 41433,
+          "passage_sha256": "d2f15dc493015bf01b65dd9d5ca183ddd38a37dc447820da22b82d55d42e51de"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "KOR-outcomes-003",
+        "statement": "In 2023 Korea had one of the lowest 30-day death rates after hospital admission for ischaemic stroke in the OECD (under 8%, against an average of 12.1%); the OECD attributes this to better acute stroke care, more comprehensive stroke centres and wider insurance coverage of mechanical thrombectomy.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6, Mortality following ischaemic stroke",
+          "page": 146,
+          "char_start": 453237,
+          "char_end": 453870,
+          "passage_sha256": "4c78fda071ef44e7a6bf78f32a7e232f5ce44da3c913ccf5a15c0d911398cb34"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-outcomes-004",
+        "statement": "Korea had the highest suicide rate in the OECD in 2023, at 23.2 deaths per 100,000 people, against an OECD average of 10.7.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 3, Suicide",
+          "page": 76,
+          "char_start": 226058,
+          "char_end": 226239,
+          "passage_sha256": "5a1e87405731231f3d54a0fc7220ffcd01c920d90a1242ec4d072f3f277262ca"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-outcomes-005",
+        "statement": "Among patients hospitalised in the previous year, Korea had the highest suicide rate of the OECD countries reporting in 2023: 6.9 per 1,000 patients, against 1.4 in the United Kingdom.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6, Suicide following hospitalisation for a mental disorder",
+          "page": 148,
+          "char_start": 457835,
+          "char_end": 458033,
+          "passage_sha256": "887a4833a462993ec7d3ae32dc7d95caa5cd47af4e18b8dc9ef1ea67680817a9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-outcomes-006",
+        "statement": "Korea, like Japan and Portugal, combines high life expectancy with a relatively high share of adults rating their own health as poor.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 3, Self-rated health",
+          "page": 78,
+          "char_start": 233148,
+          "char_end": 233261,
+          "passage_sha256": "9d9dac2dd5e797a8f77efb8a8fbb1eda1288ddc50780d0d91f3921b1130d1f06"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-outcomes-007",
+        "statement": "Life expectancy at age 65 rose by at least 3.5 years in Korea between 2000 and 2023, one of six OECD countries with gains that large (OECD average 2.8 years).",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 10, Life expectancy and healthy life expectancy at older ages",
+          "page": 224,
+          "char_start": 696832,
+          "char_end": 697120,
+          "passage_sha256": "ac6598f0af54e22d3fcf44883bdc9c043d33bb2ef4109143d54f7c50d4f0e269"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "KOR-costs-001",
+        "statement": "Korea's health spending as a share of GDP rose almost every year for 20 years, peaking at 8.8% in 2022 before falling slightly.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Health expenditure in relation to GDP",
+          "page": 156,
+          "char_start": 483551,
+          "char_end": 483765,
+          "passage_sha256": "11056354c87c8cc78d85eb8554262257f5f7eb08219ccfd2f3682ce2de8d10d9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-costs-002",
+        "statement": "Korea's health spending grew by 5-8% a year on average in 2014-2019, among the fastest rates in the OECD.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Health expenditure per capita",
+          "page": 158,
+          "char_start": 488580,
+          "char_end": 488692,
+          "passage_sha256": "c447f43d4f7e6fb498e2d7d1b3bbc16acbc34537e4bad564f0ea8192d756dafe"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2014-2019"
+      },
+      {
+        "id": "KOR-costs-003",
+        "statement": "The OECD projects public health spending per person in Korea to grow by more than 3.5% a year from 2024 to 2045, among the fastest in the OECD, against an average of 2.6%.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Projections of health spending",
+          "page": 176,
+          "char_start": 549976,
+          "char_end": 550417,
+          "passage_sha256": "76225834342ce5b0dfd365d8cb9d743df1713b6c5102e979a1958bdae987657c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-costs-004",
+        "statement": "NHI benefit spending reached 88.8 trillion won in 2023, 6.8% more than in 2022.",
+        "valence": "neutral",
+        "source_id": "mohw-uhc-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 4878,
+          "char_end": 4974,
+          "passage_sha256": "dcd79515db5cd7c728ab7b8cafae399468617be6a0cd1b0332532844701cf21a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-costs-005",
+        "statement": "In 2022, people aged 65 and over accounted for 43.2% of all NHI medical spending.",
+        "valence": "neutral",
+        "source_id": "nhi-aging-2025",
+        "locator": {
+          "section": "Background",
+          "char_start": 8635,
+          "char_end": 8745,
+          "passage_sha256": "b27c8a6395f1531fcb8c910d3ec9965f0b78d7d5b3d8f5192edaa68009223dc4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "KOR-costs-006",
+        "statement": "Between 2013 and 2023 the number of publicly financed CT exams more than doubled in Korea, as did the number of MRI exams.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 9, Diagnostic technologies",
+          "page": 214,
+          "char_start": 669965,
+          "char_end": 670163,
+          "passage_sha256": "b6f7c106cf5655f8d4cafbd264b66ae4adfec161f9f5c7cdd6a2cb5c5e06f976"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-costs-007",
+        "statement": "According to the Ministry of Health and Welfare, NHI finances recorded a current-year surplus for five years in a row, and accumulated reserves were about 30.2 trillion won at the end of 2025.",
+        "valence": "strength",
+        "source_id": "mohw-hipdc-2026",
+        "locator": {
+          "section": "Briefing statement",
+          "char_start": 2015,
+          "char_end": 2111,
+          "passage_sha256": "caa332ef4f8c3b592d7ff8713440a039a68899f401d9dd3900e65fe5fe8df0ef"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "what_works": [
+      {
+        "id": "KOR-what_works-001",
+        "statement": "Korea is one of eight OECD countries that spend less than the OECD average on health as a share of GDP yet have lower avoidable mortality than average.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "figure": "Figure 1.7",
+          "section": "Chapter 1",
+          "page": 28,
+          "char_start": 71266,
+          "char_end": 71435,
+          "passage_sha256": "b1797d24a37cd176110cf6a281a73b29826e4af347b1e9e8ad38f8460368cdee"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-what_works-002",
+        "statement": "Although Korea's health spending per person is relatively low, a noticeably larger share of its population is satisfied with the availability of good-quality care than the OECD average.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1",
+          "page": 29,
+          "char_start": 73140,
+          "char_end": 73339,
+          "passage_sha256": "c2798c6068ecd5e33b1224570728de6e684fed01631a9e2cc30c4e2aca572c48"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-what_works-003",
+        "statement": "In 2023 Korea vaccinated 85% of its older population against influenza, one of only four OECD countries to reach the WHO target of 75% (annual vaccination is recommended for high-risk groups including adults aged 65 and over).",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6, Childhood vaccination and influenza vaccination",
+          "page": 128,
+          "char_start": 387504,
+          "char_end": 387766,
+          "passage_sha256": "b82c2615e64fa212727b9d306f865fa3dfb2540701b982992dba8f11dba6ddf3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-what_works-004",
+        "statement": "HIRA and NECA brought evidence-based, efficiency-based decisions on what to cover into the system, while the Participatory Priority Setting Committee added decisions based on social values; the authors suggest this reassessment model may suit other countries whose citizens want the benefits list expanded quickly.",
+        "valence": "strength",
+        "source_id": "hsr-hta-kor-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1901,
+          "char_end": 2253,
+          "passage_sha256": "f7663ccbac6cf4540e7196247a8e4e248f0d2b5635e87eb28b6c1f49e3e881fe"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-what_works-005",
+        "statement": "Korea achieves health outcomes comparable to the US at much lower spending per person, which the authors link to strengths of universal health insurance while noting it cannot be credited wholly to the health system.",
+        "valence": "strength",
+        "source_id": "us-kor-ineq-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 35822,
+          "char_end": 36085,
+          "passage_sha256": "7ccf37d2637510e202a0ecbff7bcbd089b0f819a8a59373f338a4d9269bfada5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2010-2019"
+      }
+    ],
+    "problems": [
+      {
+        "id": "KOR-problems-001",
+        "statement": "Despite universal coverage, unmet medical needs remain high in Korea, mostly because of high out-of-pocket costs and limited benefit coverage.",
+        "valence": "weakness",
+        "source_id": "us-kor-ineq-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 36234,
+          "char_end": 36364,
+          "passage_sha256": "5306ecf5afb4a72dc4183269af9dead31370c05ead6aabe2a53e97f07ab84e7d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-problems-002",
+        "statement": "After more than 10,000 resident physicians walked out in February 2024, operations at tertiary hospitals fell for five of six common cancers (incidence rate ratios 0.68-0.80, 2019-2024 claims data); general hospitals took on only part of the displaced cases, about 58% for breast cancer and 16-25% for colorectal, gastric and lung cancer, leaving a net fall nationwide.",
+        "valence": "weakness",
+        "source_id": "walkout-cancer-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 5611,
+          "char_end": 6428,
+          "passage_sha256": "8536e1d914b99792dac58c886b936032ad8c0a8f6648c50fa5669c196bc26121"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "KOR-problems-003",
+        "statement": "The 2024 medical school quota expansion set off mass resignations by residents and leaves of absence by medical students; analysts link this backlash to the exclusion of professional associations, hospital administrators and trainees when the policy was drawn up.",
+        "valence": "weakness",
+        "source_id": "quota-kingdon-2025",
+        "locator": {
+          "section": "1 Background",
+          "char_start": 5756,
+          "char_end": 6441,
+          "passage_sha256": "37e93083616d147c3aef3bd48cfbd1fd04877cdd8817896f28bdf5ddfef8f618"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-problems-004",
+        "statement": "A 2025 projection expected NHI spending to exceed revenue from 2025 and reserves to run out by 2030, with annual deficits growing from 21.8 trillion won in 2032 to 123.3 trillion won in 2042 if policy is unchanged.",
+        "valence": "weakness",
+        "source_id": "nhi-aging-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2816,
+          "char_end": 3134,
+          "passage_sha256": "4c333c2276a4457851a72dcbfa560cf67e2e005a6f516b31fe1237b1ac33e0be"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-problems-005",
+        "statement": "In 2023, Medical Aid beneficiaries' inpatient spending per person (US$3,011) was more than five times that of NHI beneficiaries (US$576), and their average hospital stay (87.9 days) was about 4.8 times as long, which the authors say calls for investigating possible overuse.",
+        "valence": "weakness",
+        "source_id": "nhi-medaid-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3206,
+          "char_end": 3465,
+          "passage_sha256": "361fc80cf3b37c88a151316f3cdecf6f7b5e517d428e68160f05b9c09647f8a4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-problems-006",
+        "statement": "Korea, with Greece, prescribed the largest volume of antibiotics per person among the countries compared in 2023.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1",
+          "page": 24,
+          "char_start": 56510,
+          "char_end": 56728,
+          "passage_sha256": "b47e4df82546f75aaffc7a47e8b4cc6adbfb9bc79b2909b7e59dad63e1e83f72"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-problems-007",
+        "statement": "Self-employed specialists in Korea earn at least twice as much as self-employed GPs, and salaried specialists also earn double what salaried GPs do, against an OECD average gap of around 40%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 8, Remuneration of doctors",
+          "page": 188,
+          "char_start": 584534,
+          "char_end": 584926,
+          "passage_sha256": "98b205c99e365dcdd536b11575b71e14c4cfdb0eac01b1e1a5a96674b6c872a2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-problems-008",
+        "statement": "About half (52%) of Korea's long-term care beds were in hospitals in 2023, one of only four OECD countries where the hospital share exceeded 10%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 10, Long-term care beds",
+          "page": 238,
+          "char_start": 748776,
+          "char_end": 748932,
+          "passage_sha256": "10b4128fb0b6cd59a6b23b706985a37922e8a503bf478e1f966567cd7660a98a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "KOR-problems-009",
+        "statement": "Korea is projected to age faster than any other OECD country: the share of people aged 80 and over is expected to rise almost fourfold, from 4.4% in 2023 to 16.5% by 2050.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 10, Demographic trends",
+          "page": 222,
+          "char_start": 691975,
+          "char_end": 692260,
+          "passage_sha256": "acd42fc50534f5c3c27c5ddf1c4cee61990c2b6745004574d29a509ba1efc4f1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "KOR-reforms-001",
+        "statement": "September 2026: the government approved cutting the NHI co-payment for patients with rare and severe intractable diseases from 10% to 7% in December 2026 and to 5% in 2028, estimating average annual savings of 360,000 won for 1.36 million patients, and plans to shorten the time to list rare-disease drugs from 240 to 100 days.",
+        "valence": "neutral",
+        "source_id": "mohw-hipdc-2026",
+        "locator": {
+          "section": "Briefing statement",
+          "char_start": 940,
+          "char_end": 1161,
+          "passage_sha256": "168e33614542b1fb7e41787e8c115ab078a80bd4bb4c8245dd20dff0002676f8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-reforms-002",
+        "statement": "September 2026: the government announced NHI support for dental implants for older people with no teeth from January 2027, and extension of covered composite resin fillings for children from age 12 to age 13.",
+        "valence": "neutral",
+        "source_id": "mohw-hipdc-2026",
+        "locator": {
+          "section": "Briefing statement",
+          "char_start": 1515,
+          "char_end": 1715,
+          "passage_sha256": "331f368317655634caeb55e71302bb29fa51181f59de9d10f923df4db8b40bcb"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-reforms-003",
+        "statement": "February 2026: the Health and Medical Policy Deliberative Committee decided to train an average of 668 more doctors a year from 2027 to 2031 (3,342 in total), with all additional places at existing medical schools filled through a new regional doctor scheme.",
+        "valence": "neutral",
+        "source_id": "mohw-quota-2026",
+        "locator": {
+          "section": "Minister's briefing",
+          "char_start": 395,
+          "char_end": 553,
+          "passage_sha256": "0a7f15e96e5698a337b2c688950ae740d78879cbf91581ce98db7ab9be5058e5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-reforms-004",
+        "statement": "Under the February 2026 decision, the medical school quota is set at 3,548 for 2027 (490 above the 2024 level of 3,058), 3,671 for 2028-2029 and 3,871 for 2030-2031, the last step reflecting planned public and regional medical schools.",
+        "valence": "neutral",
+        "source_id": "mohw-quota-2026",
+        "locator": {
+          "section": "Minister's briefing",
+          "char_start": 737,
+          "char_end": 924,
+          "passage_sha256": "b8f01a150dcce37920538de95ab941c5fdeb1de9225a44df9922b9db77d8b181"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-reforms-005",
+        "statement": "The government also said that remote (non-face-to-face) medical care would be implemented from December 2026 and, along with AI tools, used to support regional care.",
+        "valence": "neutral",
+        "source_id": "mohw-quota-2026",
+        "locator": {
+          "section": "Minister's briefing",
+          "char_start": 2897,
+          "char_end": 2972,
+          "passage_sha256": "0100f286aa65b3252375314fe1c33d0bf722f17d3cdc47837b5b49527705474b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "KOR-reforms-006",
+        "statement": "February 2024: the then government announced a plan to raise medical student numbers by two-thirds, which junior doctors fiercely opposed, arguing the money should instead improve pay and working conditions in core hospital specialties.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 8, Medical graduates",
+          "page": 196,
+          "char_start": 614036,
+          "char_end": 614406,
+          "passage_sha256": "c5232fa4d0d34df17fbc3c22fb33db50286b5b9e8363f5193db14b899dd3ae30"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "KOR-reforms-007",
+        "statement": "In 2013, more than 580 services for cancer, cardiovascular and cerebrovascular disease and rare illnesses were added to NHI coverage, including ultrasound, MRI, cancer drugs and genetic tests, at a cost of over US$9 billion for 5.5 million covered people.",
+        "valence": "neutral",
+        "source_id": "cat-exp-kor-2026",
+        "locator": {
+          "section": "1. Background",
+          "char_start": 5780,
+          "char_end": 6114,
+          "passage_sha256": "35abc093d208015155c23b65ea88dd7f80ab8042baace9c211af1a877943c70d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2013,
+        "historical": true
+      },
+      {
+        "id": "KOR-reforms-008",
+        "statement": "Under a mid-term benefit expansion plan begun in 2005, co-insurance for patients with these serious conditions was cut from 20% to 10% in 2005 and from 10% to 5% in 2009.",
+        "valence": "neutral",
+        "source_id": "cat-exp-kor-2026",
+        "locator": {
+          "section": "1. Background",
+          "char_start": 4781,
+          "char_end": 5153,
+          "passage_sha256": "2ff7204e1d724c8eaa3afd5342fa6a693705f60523a5d1f8ebf89901b046080d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2005-2009",
+        "historical": true
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "KOR-us_lessons-001",
+        "statement": "In 2016, 5.8% of adults aged 65 and over in the US had catastrophic out-of-pocket medical spending (over 50% of annual household income across two years), against 3.0% in South Korea; the gap was explained mostly by unobserved health-system factors rather than differences in population characteristics.",
+        "valence": "neutral",
+        "source_id": "us-kor-cat-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3138,
+          "char_end": 3570,
+          "passage_sha256": "1b37265c0465647c6de63f335f3f249ed1fabb5bbc1bb24392694b6a0ec70dd9"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "KOR-us_lessons-002",
+        "statement": "The authors point to Korea's single-payer system, under which prices are actively managed and systematically lower than in the US, and to universal coverage from birth, as possible reasons for the gap.",
+        "valence": "neutral",
+        "source_id": "us-kor-cat-2022",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 27902,
+          "char_end": 28531,
+          "passage_sha256": "e7c622d0482b10151948d3e200c03c55443295c396b84bd2b193aff473ed43ba"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "KOR-us_lessons-003",
+        "statement": "In a comparison of nationally representative surveys, US adults had far higher mean total health spending than Korean adults (for example $7,852 vs $1,184 in the lowest income decile) despite similar levels of self-reported good health.",
+        "valence": "neutral",
+        "source_id": "us-kor-ineq-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 6138,
+          "char_end": 6454,
+          "passage_sha256": "52de8062b89a106fe8d88de3b23561bab19b54fce6a9536d868e04cb696e9e2b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2009-2019"
+      },
+      {
+        "id": "KOR-us_lessons-004",
+        "statement": "The study found that US utilisation was not higher than Korea's despite higher spending, and the authors say this points to the need to consider price regulation and price transparency in the US; they also found the US ahead on several measures of access and care coordination, even for low-income people.",
+        "valence": "neutral",
+        "source_id": "us-kor-ineq-2026",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 35123,
+          "char_end": 35727,
+          "passage_sha256": "f0741c3332a4d2236dd66c8a57c894eadf5528552acd91bff5dd8d80c4a12216"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2009-2019"
+      },
+      {
+        "id": "KOR-us_lessons-005",
+        "statement": "A 2023 commentary argued the opposite policy lesson: making Korea's single-payer financing more progressive does not address demand for care and cannot be generalised to the multi-payer US system, where the author favours more competition among private payers.",
+        "valence": "neutral",
+        "source_id": "inquiry-kor-us-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1741,
+          "char_end": 1996,
+          "passage_sha256": "e8333976400fb6a1c932be0e4f144b4351363a917c7bb4a228f1d2d1f2671f7b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/KOR.json",
+  "sources": [
+    {
+      "id": "oecd-hag-2025",
+      "title": "Health at a Glance 2025: OECD Indicators",
+      "publisher": "OECD Publishing",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nhi-act",
+      "title": "National Health Insurance Act (Act No. 20324, 20 February 2024), official English translation",
+      "publisher": "Korea Legislation Research Institute (Statutes of the Republic of Korea)",
+      "tier": 1,
+      "type": "government",
+      "year": 2024,
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=68619",
+      "funding_note": "Unofficial-for-legal-purposes English translation published by a government research institute; the Korean text is authoritative. This version predates any amendment after February 2024.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "income-tax-act",
+      "title": "Income Tax Act (Act No. 21223, 23 December 2025), official English translation",
+      "publisher": "Korea Legislation Research Institute (Statutes of the Republic of Korea)",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=72668",
+      "funding_note": "English translation published by a government research institute; the Korean text is authoritative.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "mohw-hipdc-2026",
+      "title": "제15차 건강보험정책심의위원회 결과 브리핑 (Briefing on the results of the 15th Health Insurance Policy Deliberative Committee meeting, 8 September 2026)",
+      "publisher": "Ministry of Health and Welfare, via Korea.kr (Korea Policy Briefing)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.korea.kr/policy/civilView.do?newsId=156780681",
+      "funding_note": "Government announcement in Korean (transcript of a ministry briefing); states the government's own plans and estimates.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "mohw-quota-2026",
+      "title": "의사인력 양성규모 관련 브리핑 (Briefing on the scale of physician training, 10 February 2026)",
+      "publisher": "Ministry of Health and Welfare, via Korea.kr (Korea Policy Briefing)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=156744044",
+      "funding_note": "Government announcement in Korean (transcript of the minister's briefing); states the government's own decisions and plans.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "mohw-uhc-2024",
+      "title": "Korea's Efforts to achieve UHC (presentation by Lee Hwa-yeon, Senior Deputy Director, Ministry of Health and Welfare, November 2024)",
+      "publisher": "Ministry of Health and Welfare of Korea; hosted by Japan's Ministry of Health, Labour and Welfare (22nd ASEAN & Japan High Level Officials Meeting)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.mhlw.go.jp/english/policy/affairs/asean/dl/22nd_sum_12.pdf",
+      "funding_note": "Slide presentation by a Korean government official; text extracted from slides is fragmentary, so only clearly labelled slide statements are used.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nhi-aging-2025",
+      "title": "The bill of aging: fiscal projections of demographic changes on South Korea's national health insurance, 2023-2042",
+      "publisher": "Health Economics Review",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s13561-025-00690-z",
+      "doi": "10.1186/s13561-025-00690-z",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12625416",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "eastasia-lowinc-2025",
+      "title": "Providing financial protection in health for low-income populations: a comparison of health financing designs in East Asia",
+      "publisher": "International Journal for Equity in Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12939-025-02568-2",
+      "doi": "10.1186/s12939-025-02568-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12315319",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "indemnity-kor-2026",
+      "title": "Does Indemnity Private Insurance Increase Healthcare Utilization? Evidence from Korea's National Health Insurance System",
+      "publisher": "Risk Management and Healthcare Policy",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.2147/RMHP.S607999",
+      "doi": "10.2147/RMHP.S607999",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13333070",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "walkout-cancer-2026",
+      "title": "Resident Physician Walkout and High-Incidence Cancer Operation Volumes in South Korea",
+      "publisher": "JAMA Network Open",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1001/jamanetworkopen.2026.0697",
+      "doi": "10.1001/jamanetworkopen.2026.0697",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12993696",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "quota-kingdon-2025",
+      "title": "Rushed health workforce reform in South Korea: a Kingdon's multiple streams framework analysis of the 2024 medical school quota expansion",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Lee Y, Shin H-Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.3389/fpubh.2025.1673605",
+      "doi": "10.3389/fpubh.2025.1673605",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12644070",
+      "funding_note": "Funded by Seoul St. Mary's Hospital (Catholic University of Korea) research fund; authors are hospital-based physicians/researchers, a group that opposed the 2024 quota policy.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "us-kor-cat-2022",
+      "title": "Comparison of catastrophic out-of-pocket medical expenditure among older adults in the United States and South Korea: what affects the apparent difference?",
+      "publisher": "BMC Health Services Research",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1186/s12913-022-08575-1",
+      "doi": "10.1186/s12913-022-08575-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9511719",
+      "funding_note": "Funded by the US Agency for Healthcare Research and Quality.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "us-kor-ineq-2026",
+      "title": "Income-Based Inequalities in Health System Performance in the US and South Korea",
+      "publisher": "JAMA Health Forum",
+      "authors": "Park S, Eggleston K, Kyung DY, Cutler DM",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1001/jamahealthforum.2026.0136",
+      "doi": "10.1001/jamahealthforum.2026.0136",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13005164",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "inquiry-kor-us-2023",
+      "title": "Does Universal Health Insurance in Korea provide a Lesson for U.S. Health Care Financing?",
+      "publisher": "INQUIRY: The Journal of Health Care Organization, Provision, and Financing",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1177/00469580231168740",
+      "doi": "10.1177/00469580231168740",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10108412",
+      "funding_note": "A short commentary (opinion) by a business-school author arguing for competition among private payers; not original research.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hsr-hta-kor-2024",
+      "title": "Institutionalizing Health Technology Assessment and Priority Setting in South Korea's Universal Health Coverage Journey",
+      "publisher": "Health Systems & Reform",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1080/23288604.2024.2338308",
+      "doi": "10.1080/23288604.2024.2338308",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38715186&rettype=abstract&retmode=text",
+      "funding_note": "Authors include staff of NECA, NHIS and HIRA, the agencies described. Full text blocked (403) for automated download; claims rest on the PubMed abstract only.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hsr-pools-kor-2024",
+      "title": "The Consolidation of Risk Pools in the National Health Insurance Program of the Republic of Korea: Analysis of the Political Processes",
+      "publisher": "Health Systems & Reform",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1080/23288604.2024.2375101",
+      "doi": "10.1080/23288604.2024.2375101",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39159476&rettype=abstract&retmode=text",
+      "funding_note": "Full text blocked (403) for automated download; claims rest on the PubMed abstract only.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "nhi-medaid-2026",
+      "title": "Comparison of health care utilisation and spending among National Health Insurance and Medical Aid beneficiaries in Korea",
+      "publisher": "BMC Health Services Research",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14352-1",
+      "doi": "10.1186/s12913-026-14352-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13104255",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cat-exp-kor-2026",
+      "title": "Effects of Catastrophic Coverage Expansion on Out-of-Pocket Spending for Non-Covered Services and Financial Equity: Evidence from South Korea's National Health Insurance",
+      "publisher": "Healthcare (Basel)",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.3390/healthcare14030302",
+      "doi": "10.3390/healthcare14030302",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12896595",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created."
+    }
+  ]
+}

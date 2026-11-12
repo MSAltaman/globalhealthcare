@@ -1,0 +1,2461 @@
+{
+  "iso3": "NLD",
+  "name": "Netherlands",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "verified",
+  "model": {
+    "type": "regulated_private_insurance",
+    "label": "Mandatory, community-rated basic insurance bought from competing private non-profit insurers (managed competition, with risk equalisation), plus a single-payer social insurance for long-term care"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "NLD-overview-001",
+      "NLD-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "NLD-overview-001",
+        "statement": "Since the Health Insurance Act took effect in 2006, every resident has had to buy health insurance from competing private non-profit insurers, which must offer a standard package defined by the government and must accept anyone who applies.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45923,
+          "char_end": 46400,
+          "passage_sha256": "f0fc9cc7c2493bbaa7ae0ba95a3167202507fdea5e17b1639ff1f083ac73eaa4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-overview-002",
+        "statement": "Statutory health insurance covers 99.9% of the population and gives access to a broad set of services, including primary, outpatient specialist and hospital care, maternity care, mental health services and ambulance transport.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 89682,
+          "char_end": 90001,
+          "passage_sha256": "1a9088686110ca345fa980be57374d62ff468fb7ba7e3e4df1eb76a762585ae5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-overview-003",
+        "statement": "The insurance obligation does not extend to everyone: certain groups such as some foreign students, undocumented migrants and asylum seekers fall outside it.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Overview",
+          "char_start": 884,
+          "char_end": 1148,
+          "passage_sha256": "aa40c665901c051a167c33c7841ad2cfa484c8ec6e8c62b000c0742edfe48417"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-overview-004",
+        "statement": "Government tracing of people without the required insurance found about 28,500 uninsured residents in 2023; people who stay uninsured or do not pay can be fined and have premiums deducted directly from wages or benefits.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Health coverage and access: The Role of Public Health Insurance",
+          "char_start": 6828,
+          "char_end": 7125,
+          "passage_sha256": "224fc018e39e6063d0e59caede75817a210548900abe6177486bbec44e6986a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-overview-005",
+        "statement": "The 2006 reform brought managed competition into Dutch health care and shifted the government from directly controlling volumes and prices to setting rules and overseeing the system.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 2880,
+          "char_end": 3066,
+          "passage_sha256": "5de4ebb226b309b651724c4b8461c177a67e1d881856c025ede8af7a15c86e77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2006,
+        "historical": true
+      },
+      {
+        "id": "NLD-overview-006",
+        "statement": "In 2024 there were 20 health insurers, and the four largest held about three-quarters of the market.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Health coverage and access: The Role of Public Health Insurance",
+          "char_start": 6085,
+          "char_end": 6194,
+          "passage_sha256": "fdac5af512be027fe85a738a13d4c0318f55e03cb78777199357dbb5b10d91aa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-overview-007",
+        "statement": "Care is delivered mostly by private providers whom patients may choose freely; most GPs work in group practices or multidisciplinary centres and act as gatekeepers to most specialist care.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 47347,
+          "char_end": 47719,
+          "passage_sha256": "4fa6d11638448e544a7e3c3c54a1d2728f803fe6452bc6b518ced63f4c51c902"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-overview-008",
+        "statement": "Long-term care runs as a separate single-payer social insurance scheme administered by the dominant insurer in each region, while municipalities are responsible for social care.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 3314,
+          "char_end": 3475,
+          "passage_sha256": "fa98767563c12ea5e37274256c32cf47e79d2bea09059f47a1098512988be268"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "NLD-financing-001",
+        "statement": "By law, half of the revenue for basic health insurance (Zvw) is raised through the income-related contribution, and the other half through flat-rate premiums, patients' own payments and the state's premium-replacing contribution for children (the '50/50 split').",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "6.5 Financiering van de zorguitgaven: Zorgverzekeringswet",
+          "char_start": 473274,
+          "char_end": 473512,
+          "passage_sha256": "edd8b6ded55c6e40b9273a87ac439c73765100049f3addc2a9445e51b51f7bc1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financing-002",
+        "statement": "For 2026 the health ministry projected that the €69.0 billion to be financed under basic insurance would come from €34.1 billion of income-related contributions, €28.0 billion of flat-rate premiums, €3.4 billion of state funding for children under 18 and €3.4 billion of deductible payments.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "table": "Tabel 14 Financiering Zvw (EUR billion), column 2026",
+          "char_start": 480505,
+          "char_end": 480693,
+          "passage_sha256": "b6eaa58ac31ef0efe3e9df8557dd7d130abfc58eaca521dbd9466e1ecf627406"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-003",
+        "statement": "On wages and certain benefits, the income-related contribution is paid by the employer or benefit agency as an employer levy; in 2026 it is 6.10% of income up to €79,409.",
+        "valence": "neutral",
+        "source_id": "bd-zvw-2026",
+        "locator": {
+          "section": "28.2.1 Werkgeversheffing Zvw",
+          "char_start": 2851,
+          "char_end": 3355,
+          "passage_sha256": "e0d87202b36fba28b48a14666a3aa0b9cb593281e71a3c6c4a2539d6faf8576e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-004",
+        "statement": "On pensions and some other payments subject to wage tax, a contribution of 4.85% (up to the same €79,409 ceiling) is withheld from the recipient's own payment in 2026.",
+        "valence": "neutral",
+        "source_id": "bd-zvw-2026",
+        "locator": {
+          "section": "28.2.2 Bijdrage Zvw via uw nettoloon of uitkering",
+          "char_start": 3762,
+          "char_end": 4185,
+          "passage_sha256": "651f7608c68ef60eb4b08b74f6c5a5b8a37337f2842d9b1efd44a3837b8798bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-005",
+        "statement": "The average premium that people pay directly to their insurer for basic cover in 2026 is €1,884 a year, or about €157 a month.",
+        "valence": "neutral",
+        "source_id": "ro-premie",
+        "locator": {
+          "section": "Hoogte zorgpremie 2026",
+          "char_start": 276,
+          "char_end": 400,
+          "passage_sha256": "e958f45c63a13b17b435f0530634676e5aca7dfdfbfdc1062b3f111275880e31"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-006",
+        "statement": "Each insurer sets its own flat premium for basic insurance, and no premium is charged for children under 18.",
+        "valence": "neutral",
+        "source_id": "ro-premie",
+        "locator": {
+          "section": "Premie basisverzekering",
+          "char_start": 793,
+          "char_end": 1007,
+          "passage_sha256": "46a44560bcaae13e759cf5b67c762ed23555409551bd2ba966a1db4c3c556ee2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financing-007",
+        "statement": "Insurers may charge different premiums for different plans, but within a plan every enrollee pays the same premium whatever their age or health.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Health coverage and access: The Role of Public Health Insurance",
+          "char_start": 8185,
+          "char_end": 8477,
+          "passage_sha256": "1df46d8b73505ddd90427572a3003fa3c0c5c032647ef4d82ea0ad1454c85ac6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financing-008",
+        "statement": "Households with low and middle incomes receive a healthcare allowance (zorgtoeslag) that partly offsets the flat premium and the average deductible, so that no household pays more than a legally defined acceptable share of its income for them.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "6.5 Financiering van de zorguitgaven: Zorgverzekeringswet",
+          "char_start": 476772,
+          "char_end": 477155,
+          "passage_sha256": "003acb095da4283be37843ba6e1112b55071ce9d241c4d5015dd70de571140b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financing-009",
+        "statement": "Spending on the healthcare allowance was projected at about €7.7 billion in 2026.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "Artikel 8 Tegemoetkomingen en Rijksbijdragen: Zorgtoeslag",
+          "char_start": 320259,
+          "char_end": 320333,
+          "passage_sha256": "822cc8d1d08c1554c6b8a6f3cbc44559b538776c72df3376b9e5ec93fe65f11f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-010",
+        "statement": "With a projected standard premium of €2,143 for 2026, the maximum healthcare allowance was expected to be €1,574 for single people and €3,010 for couples.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "Artikel 8 Tegemoetkomingen en Rijksbijdragen: Zorgtoeslag",
+          "char_start": 312046,
+          "char_end": 312186,
+          "passage_sha256": "732a1c35d34e8b0c51affb380fe08460838a5e3da8fab96410e6c6cc4a2842e3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-011",
+        "statement": "In 2026 the national-insurance contribution for long-term care (Wlz) is 9.65% of a person's contribution income.",
+        "valence": "neutral",
+        "source_id": "bd-pvv-2026",
+        "locator": {
+          "section": "27 Premie volksverzekeringen",
+          "char_start": 2822,
+          "char_end": 2942,
+          "passage_sha256": "12b6f395bc66911319bbe642f18bbf569a63231abcf4909a323c8da8423e4e32"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-012",
+        "statement": "The long-term care contribution rate is held constant at 9.65%, and since 2019 the long-term care fund's expected shortfalls have been covered by a state contribution (rijksbijdrage Wlz).",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "6.5.3.2 Wet langdurige zorg",
+          "char_start": 502690,
+          "char_end": 502822,
+          "passage_sha256": "4904fefde270d852124bdb45f524637bf7390d2a2cc7e0c7ee42c620eedee8e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financing-013",
+        "statement": "The state contribution to the long-term care fund was estimated at €15.2 billion for 2026.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "Artikel 8 Tegemoetkomingen en Rijksbijdragen: Rijksbijdrage Wlz",
+          "char_start": 323426,
+          "char_end": 323493,
+          "passage_sha256": "f4ee680927d5e99461390f1d9686ef9f1a88470690b8b03321d36a0df5eabe0a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-014",
+        "statement": "A further state payment, the BIKK, set up with the 2001 tax reform to make up for long-term care contribution revenue lost when tax deductions became tax credits, was estimated at €6.3 billion for long-term care in 2026.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "section": "Artikel 8 Tegemoetkomingen en Rijksbijdragen: BIKK",
+          "char_start": 322154,
+          "char_end": 322872,
+          "passage_sha256": "191158539b303f525f324057237c41ddd55586151f1218519b298121e8bb69c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-015",
+        "statement": "Gross spending for 2026 was budgeted at €69.8 billion under basic insurance (of which €3.4 billion is paid through the deductible) and €41.9 billion under long-term care insurance (of which €2.8 billion comes from user contributions).",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2026",
+        "locator": {
+          "table": "Tabel 13 Financiering bruto zorguitgaven (EUR billion), 2026",
+          "char_start": 471573,
+          "char_end": 471754,
+          "passage_sha256": "ebdcfbe262ce6a3b68f187ffd3522f92ea536f26809039424e2365b9c934611a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-financing-016",
+        "statement": "In 2023 government and compulsory insurance schemes paid for 83% of current health spending (EU average 80%), out-of-pocket payments for 12% (EU 16%) and voluntary health insurance for the remaining 5%.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 52497,
+          "char_end": 52835,
+          "passage_sha256": "079337a0c6b45f0cc5a95e23e873bd2cd85060415b611ec29b530550cc17a4f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-financing-017",
+        "statement": "Preventive services, including public health measures and infectious disease control, are paid for separately out of general taxation under the Public Health Act.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 47080,
+          "char_end": 47238,
+          "passage_sha256": "b923babc7e730583633df6051b6d697a8a3638010496c7ba4c86d8d16e27bd3e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "NLD-covered-001",
+        "statement": "The standard package covers most primary and specialist care, medicines, medical devices, mental health care for adults, allied health services and community nursing.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46168,
+          "char_end": 46346,
+          "passage_sha256": "a00f4aac91e434b940ce8815790b13bd6caf7b2d8ace959d6441f89722b0b6d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-covered-002",
+        "statement": "Some services are left out of basic insurance, including adult dental care and physiotherapy except for certain chronic conditions; coverage rules and access to particular providers can differ between insurers.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Health coverage and access: The Role of Public Health Insurance",
+          "char_start": 6417,
+          "char_end": 6764,
+          "passage_sha256": "d45b410f4a27ab194740a7e5b903a286cc1588c2e5bc991578947b6c46482be9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-covered-003",
+        "statement": "The government decides which services basic insurance covers, reviews the list every year, and requires all insurers to offer it to every policyholder whatever their age or health.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Health coverage and access: The Role of Public Health Insurance",
+          "char_start": 6198,
+          "char_end": 6416,
+          "passage_sha256": "4aab8bce8e790cf01b03f8e40f1d9e2e094fa09d47efae6897cf7cbb1ddac6c3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-covered-004",
+        "statement": "The National Health Care Institute (Zorginstituut Nederland) reviews existing benefits on a regular basis and advises the government on what belongs in the mandatory package, with a focus on proven and appropriate care.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "The Role of Government",
+          "char_start": 14291,
+          "char_end": 14490,
+          "passage_sha256": "e480431f642d06c1cbe382e42057461eacb0d702e213c596e12ac3c7a3a6b922"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-covered-005",
+        "statement": "Three changes to the basic package took effect in 2026: stop-smoking programmes are reimbursed up to three times a year instead of once, exercise therapy for adults with severe axial spondyloarthritis is now permanently covered, and a GP's request for a specialist's advice (and an exploratory mental health consultation) no longer counts against the deductible.",
+        "valence": "neutral",
+        "source_id": "ro-basispakket",
+        "locator": {
+          "section": "Wijzigingen basispakket zorgverzekering",
+          "char_start": 266,
+          "char_end": 1060,
+          "passage_sha256": "caaf262d9bcae5168b4706946c1e23b1c73eaea1228b1473943ab41d34d2210b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-covered-006",
+        "statement": "Since 2015, to limit the budget impact of new inpatient medicines, reimbursement is suspended when projected annual spending exceeds €10 million or €50,000 per patient while the National Health Care Institute assesses the drug's therapeutic value and cost-effectiveness; manufacturers often supply the drug free of charge during this period.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 138591,
+          "char_end": 139075,
+          "passage_sha256": "65d5d466d52e026948f8129305f11121d4a16747aa815ab10814f9319c585777"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-covered-007",
+        "statement": "The Long-term Care Act (Wlz) covers institutional, residential and home-based care for people who need permanent supervision or have severe mental or physical disabilities, with eligibility decided by a government assessment agency on clinical need alone.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 28051,
+          "char_end": 28331,
+          "passage_sha256": "763bbc4dd75cabfcc4f45e059ab373c3a92e316e18bc2d6fcdca3eedfd9398e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-covered-008",
+        "statement": "Dental care for children under 18 is part of the basic benefits package.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 12,
+          "char_start": 26150,
+          "char_end": 26228,
+          "passage_sha256": "45156e736cb4ed638828ddf8695701a5061d3c2ef246823da3e814d52d8c327c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "NLD-cost_sharing-001",
+        "statement": "A compulsory deductible of €385, the amount set for both 2026 and 2027, must be paid before insurance covers care that falls under it.",
+        "valence": "neutral",
+        "source_id": "ro-eigen-risico",
+        "locator": {
+          "section": "Wanneer u een eigen risico betaalt",
+          "char_start": 554,
+          "char_end": 697,
+          "passage_sha256": "a9a1b8b31ebe530629568de2eb1983ca10dbba6aa9146aacef3851bb1976e4db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-cost_sharing-002",
+        "statement": "The deductible does not apply to GP care (including out-of-hours GP posts), midwifery and maternity care, coordinated care for type 2 diabetes, COPD and cardiovascular risk, district nursing, and a combined lifestyle intervention, among other exemptions.",
+        "valence": "neutral",
+        "source_id": "ro-eigen-risico",
+        "locator": {
+          "section": "Geen eigen risico voor bepaalde zorg",
+          "char_start": 735,
+          "char_end": 1292,
+          "passage_sha256": "0aef9a6a005b446b2c86d8dd571b894cf32fb79db29df7bfbea0442932a55a3c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-cost_sharing-003",
+        "statement": "Children under 18 pay no deductible for any care in the basic package.",
+        "valence": "neutral",
+        "source_id": "ro-eigen-risico",
+        "locator": {
+          "section": "Voor kinderen tot 18 jaar geen eigen risico",
+          "char_start": 1424,
+          "char_end": 1591,
+          "passage_sha256": "633ff2b4b56a9907650db9fc7bdcb9e75e18952646ff62fb4daf0f1d0028c104"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-cost_sharing-004",
+        "statement": "Policyholders can raise their deductible voluntarily in steps of €100 up to €500 extra in return for a lower premium, which can mean paying up to €885 themselves if they use care.",
+        "valence": "neutral",
+        "source_id": "ro-premie",
+        "locator": {
+          "section": "Betaal ik minder premie als ik het verplichte eigen risico verhoog?",
+          "char_start": 2536,
+          "char_end": 2976,
+          "passage_sha256": "5d31262347c32d194356075e1b753ae8f0112825ec777fd7eca2eb105fdf83da"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-cost_sharing-005",
+        "statement": "In 2024, 85% of enrollees chose no voluntary deductible, while about 10% chose the maximum.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 33357,
+          "char_end": 33469,
+          "passage_sha256": "8b65fda5a659c026b42311e8a1982bcc1a1b6d1aa9bb3303dc29009d2ee8e298"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-cost_sharing-006",
+        "statement": "Since 2019, co-payments on prescription medicines have been capped at €250 a year, with insurers reimbursing anything above the cap; the cap is separate from the deductible.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 91325,
+          "char_end": 91516,
+          "passage_sha256": "3b6554836b89296243d24bfd70ef20440b50745975dec611a7e92e3aa0eb2691"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-cost_sharing-007",
+        "statement": "The government has extended the €250 annual cap on co-payments for outpatient medicines through 2027.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2027",
+        "locator": {
+          "section": "Beleidsagenda: eigen risico en eigen bijdragen",
+          "char_start": 52681,
+          "char_end": 52842,
+          "passage_sha256": "438670e0ba22e6e62345154fa29e8d0574a84ad220bb2ca0f42a92384a37ea62"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2027
+      },
+      {
+        "id": "NLD-cost_sharing-008",
+        "statement": "In 2023, outpatient medical care accounted for 38% of out-of-pocket spending (EU average 17%) and retail medicines for 17% (EU average 26%).",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 91019,
+          "char_end": 91747,
+          "passage_sha256": "cabe1b454c9d3751ae6d07d9849f8d21ff54eeab1d98ef95dba631900bcdc817"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-cost_sharing-009",
+        "statement": "Some people with minimum-wage incomes do not pay the mandatory deductible because they are covered through collective insurance packages arranged by municipalities.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 12506,
+          "char_end": 12660,
+          "passage_sha256": "6183241b770b0dc140c4ed130dfb662bf74162ef2eae2980bf4f048eae67d079"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-cost_sharing-010",
+        "statement": "For residential long-term care, users pay a copayment linked to income and wealth of up to €2,954 a month.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 29931,
+          "char_end": 30065,
+          "passage_sha256": "a7320fd51009debdef9a78ca7b490e89018de27c8e6865d3f88de3fef873069b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "NLD-financial_hardship-001",
+        "statement": "Statistics Netherlands counts as being in premium arrears those who, on 31 December, are more than six months behind on the flat-rate basic-insurance premium and pay a raised premium (formerly called defaulters).",
+        "valence": "neutral",
+        "source_id": "cbs-wanbetalers",
+        "locator": {
+          "section": "Toelichting",
+          "char_start": 5080,
+          "char_end": 5351,
+          "passage_sha256": "2da70382092d05047e35e7983ef5f97d461e2797ec7f2f7b9185c7553e75d369"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financial_hardship-002",
+        "statement": "The number of adults in premium arrears rose from 166,070 at the end of 2023 to 173,230 at the end of 2024 and 181,720 at the end of 2025.",
+        "valence": "weakness",
+        "source_id": "cbs-wanbetalers",
+        "locator": {
+          "table": "81062ned: persons with premium arrears, men and women, 18 and older, by year (31 December)",
+          "char_start": 525,
+          "char_end": 690,
+          "passage_sha256": "6cefcd7516e249812960ee7b9c26284e60cb0332691781e3e9a200d30dcd6e4c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-financial_hardship-003",
+        "statement": "Statistics Netherlands marks its 2025 figures on premium arrears as provisional; earlier years are final.",
+        "valence": "neutral",
+        "source_id": "cbs-wanbetalers",
+        "locator": {
+          "section": "Toelichting",
+          "char_start": 6465,
+          "char_end": 6560,
+          "passage_sha256": "3a3c80cbbbf2faba2f6bc61776c0ec3fb04246cfce561ae0a5e6899698b9cf89"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-financial_hardship-004",
+        "statement": "A law change in force from 1 July 2016 gave insurers wider powers to take people with arrears out of the CAK defaulter scheme, for example once they agree a payment plan; insurers already anticipated it in 2015, so its effects already show in the 2015 figures.",
+        "valence": "neutral",
+        "source_id": "cbs-wanbetalers",
+        "locator": {
+          "section": "Toelichting",
+          "char_start": 5629,
+          "char_end": 6431,
+          "passage_sha256": "7f3cbd5d64d235317965e8c93046b8c87668a88f8f629d8ebced60db3e56a6c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2016,
+        "historical": true
+      },
+      {
+        "id": "NLD-financial_hardship-005",
+        "statement": "People six or more months behind on their premium are reported by their insurer to the CAK defaulter scheme, which imposes an administrative premium, deducted from income where possible; they remain insured for basic cover.",
+        "valence": "neutral",
+        "source_id": "ro-premie",
+        "locator": {
+          "section": "Wat gebeurt er als ik mijn zorgverzekering niet betaal?",
+          "char_start": 3230,
+          "char_end": 3577,
+          "passage_sha256": "101ba0a923073f18fd6e875c62cfb8d793f0e376897404f2a15b86200c7ccaef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-financial_hardship-006",
+        "statement": "Growing pressure on household finances has led more people to avoid care for financial reasons, according to the Commonwealth Fund's profile.",
+        "valence": "weakness",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 38423,
+          "char_end": 38521,
+          "passage_sha256": "ecb77cbedd253491eebf1361b84aa745799139d579fd48f2c924a4df84375c4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "NLD-additional_care-001",
+        "statement": "In 2025, 80.6% of people with basic insurance also bought some form of supplementary private insurance.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 12095,
+          "char_end": 12230,
+          "passage_sha256": "a8e366b6588c4c379929ccf46a1ddee62dfaf252a0910375803c2f7e21ad590e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-additional_care-002",
+        "statement": "Most supplementary plans pay for services that basic insurance excludes or only partly covers, such as dental care, physiotherapy, eye care, contraceptives, care abroad and alternative medicine, and they can reduce or fully cover copayments.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 12234,
+          "char_end": 12569,
+          "passage_sha256": "c0f5bd4a7a38ceda40d0f63450ce837b9fd47dd593bbff553e4966e03785f85b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-additional_care-003",
+        "statement": "Depending on the package, supplementary insurance can give access to a wider network of providers and quicker specialist appointments than basic insurance alone.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 12570,
+          "char_end": 12780,
+          "passage_sha256": "1cc1c7679fcf0763ccb729a123024a5276c33d4712897086dbd577d62f35cd8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-additional_care-004",
+        "statement": "Health insurance plans with higher premiums generally allow more freedom to choose providers, while cheaper plans offer a more limited choice.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 15,
+          "char_start": 35744,
+          "char_end": 35902,
+          "passage_sha256": "8cbfa29fd4cf6db9d09f26fffb757e4610e5adfbb9ba9beb1400ca9c43622b9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-additional_care-005",
+        "statement": "Specialist care is normally reached through a GP referral; patients who go without one must use private insurance or pay out of pocket.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 19683,
+          "char_end": 20103,
+          "passage_sha256": "f1d000dc4b8690e6b27df273c6f6052ae4d563fdc3653e5410d6a8e04372b978"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-additional_care-006",
+        "statement": "Premiums for supplementary insurance are set by the insurer, and no contribution to the government is due on them.",
+        "valence": "neutral",
+        "source_id": "ro-premie",
+        "locator": {
+          "section": "Premie aanvullende zorgverzekering",
+          "char_start": 1822,
+          "char_end": 2048,
+          "passage_sha256": "c3a205feb081a235ddee71f254937f322f154dc964d7685ff197a3950a798368"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "NLD-access-001",
+        "statement": "In 2024 only 1.6% of people needing medical care reported unmet needs because of cost, distance or waiting times, under half the EU average of 3.5%; among people at risk of poverty the figure was 4.3%.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 92004,
+          "char_end": 92348,
+          "passage_sha256": "0176c9a5b5bc164ae139c1a753dce706146f4e596442115c64ee6c1eaea9c483"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-access-002",
+        "statement": "In a 2024 Eurofound survey, 9% of adults needing mental health care reported an unmet need, above the EU average of 7%.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 92659,
+          "char_end": 92831,
+          "passage_sha256": "51313761cae096f91cf5ef53254c1202ac7f3a9a3ac332499f9b6a9b6b9c8874"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-access-003",
+        "statement": "In 2024 roughly two in three people referred for specialist mental health care had to wait more than four weeks for their first appointment, and close to 40% waited over ten weeks before treatment began.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 98825,
+          "char_end": 99043,
+          "passage_sha256": "09a9b8c528dcac7f90d36e0832e91e8f5886bf433c4bf58eda45bdd33f4782c9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-access-004",
+        "statement": "About 78,000 people were on mental health waiting lists at the end of 2023, with limited capacity and a shortage of professionals, especially in children's services, cited as reasons.",
+        "valence": "weakness",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 26571,
+          "char_end": 26819,
+          "passage_sha256": "7f4731bc1b0dc3867b627a207747dd26441e7f3d7a4082621835f443e409ec96"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-access-005",
+        "statement": "A GP appointment can usually be had within two days, and nearly the whole population lives within 15 minutes' travel of a GP.",
+        "valence": "strength",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 11,
+          "char_start": 21608,
+          "char_end": 21740,
+          "passage_sha256": "c0b04ca6d0b2646a42d65330764b753d61c8c38cdce1d4798078bc0d999605a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-access-006",
+        "statement": "GPs can turn away new patients and practice lists are capped, and 60% of GP practices stopped taking new patients in 2024.",
+        "valence": "weakness",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 18449,
+          "char_end": 18622,
+          "passage_sha256": "3ab9d9a1809509c5194d25efc80f479d4a5bf1e156fac6249e90988eae2f68e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-access-007",
+        "statement": "In 2023 there were 3.9 practising doctors per 1,000 people, up from 3.4 in 2014 but below the EU average of 4.3; about one in four doctors is a GP.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 54165,
+          "char_end": 54515,
+          "passage_sha256": "a25b5b089e19c0cd01bfcf54e9dfc336ceae7f2065cc15e9e69f615e41a12e4a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-access-008",
+        "statement": "Nurse numbers rose from 10.3 per 1,000 people in 2014 to 11.1 in 2023, above the EU average of 8.4.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 58413,
+          "char_end": 58604,
+          "passage_sha256": "6e030da1f236a1546aad9e85af6be7d30e12f914a422bbb308dbf9c496a32b44"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-access-009",
+        "statement": "Waiting times for hip and knee replacement fell in 2023 and again in 2024 to near pre-pandemic levels, but waits for cataract surgery rose in 2023, eased only slightly in 2024 and stayed well above pre-pandemic levels.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 103054,
+          "char_end": 103551,
+          "passage_sha256": "066992c05e2b6d007cea61e92b000f7e75e77d4e9d7fae2b4344e8f909c8da46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-access-010",
+        "statement": "GPs must provide 50 hours of after-hours care a year, paid separately, and local and regional GP posts provide out-of-hours care that reduces the need for emergency room visits.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "How Countries Did on Each Performance Domain: Access to care",
+          "char_start": 10754,
+          "char_end": 11073,
+          "passage_sha256": "6b2369c7dd3fd4df34bd8f5c40ae0109aa3e72553eb1d12b81cbf6515a9d93de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-access-011",
+        "statement": "Hospital beds fell from 3.2 per 1,000 people in 2017 to 2.3 in 2023, less than half the EU average of 5.1.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 101357,
+          "char_end": 101494,
+          "passage_sha256": "5717d9f51e00434219a3053cca3372cb912fb76ed664aa7791eab0619c84d853"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "NLD-outcomes-001",
+        "statement": "Life expectancy at birth was 82 years in 2024, four months above the EU average; it has recovered from the pandemic more slowly than the EU average and is still below pre-pandemic levels.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 4542,
+          "char_end": 4942,
+          "passage_sha256": "f2422d5b0951d1c7e444f951f8133ea19720b4e16008f48b1ff56738ff0d2383"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-outcomes-002",
+        "statement": "In 2022 mortality from treatable causes was 34% lower than the EU average, and mortality from preventable causes 21% lower.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 66934,
+          "char_end": 67254,
+          "passage_sha256": "82566a0a772c90d67e6268d40e6fea43eb2dd242002d04973da588b28e6cd5be"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NLD-outcomes-003",
+        "statement": "Among EU countries reporting 30-day mortality from patient-level data, the Netherlands had one of the lowest rates in 2023: 5.0 deaths per 100 patients admitted for heart attack and 9.3 per 100 for ischaemic stroke.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 80636,
+          "char_end": 80968,
+          "passage_sha256": "6d9381364703f99bb0a9e3b1f302a793e6b38c299b663780a481336f3455e788"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-outcomes-004",
+        "statement": "In 2023 combined hospital admission rates for diabetes, congestive heart failure, asthma and COPD were 29% below the EU average, though the rate for asthma and COPD alone was slightly above average.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 77959,
+          "char_end": 78316,
+          "passage_sha256": "c905edb75d45c340c888d626160cb54ba19919ab5b5687f98c53987b550d05f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-outcomes-005",
+        "statement": "Breast cancer screening among women aged 50-69 fell from 77% in 2018 to 70% in 2023, continuing a decline since 2007.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 76623,
+          "char_end": 76775,
+          "passage_sha256": "a82214c207d810c8d4e5e92eb9ac5ec55eb1c586026a411e8cb57e8fe5854280"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-outcomes-006",
+        "statement": "First-dose measles vaccination coverage fell to 89% in 2024, below the EU average of 92% and the 95% needed for herd immunity.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 75205,
+          "char_end": 75392,
+          "passage_sha256": "b2b35589915806de08e000f3806b96ef3d41d0fd084acfff9ebeb42195ef2794"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-outcomes-007",
+        "statement": "In the GBD 2019 study, the Netherlands' Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 91.1 (95% uncertainty interval 88.7-92.6) in 2019, 16.0 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 45617,
+          "char_end": 45788,
+          "passage_sha256": "1392330446556022d9cceb7980a47779fb76117ccb03795d9a2e53721b1e17c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "NLD-outcomes-008",
+        "statement": "Five-year survival for prostate, breast, cervical, colon and lung cancer and for childhood leukaemia is above the EU average, partly because of successful screening programmes.",
+        "valence": "strength",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 17,
+          "char_start": 41261,
+          "char_end": 41474,
+          "passage_sha256": "ad9dfe1c8589f30d57ec10528a16246d9fe254ae6bccd5b2f6cff6381d03447f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-outcomes-009",
+        "statement": "Dutch women live shorter lives than women in the EU on average, partly because of higher smoking rates in the past.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 143980,
+          "char_end": 144098,
+          "passage_sha256": "772c35d32eae4e1c208735ef0fcff2a6511c0ce3ba9e5986102145e74b5f2661"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-outcomes-010",
+        "statement": "Between 2015 and 2018, people with the least education lived on average 6.3 years less than people with higher education.",
+        "valence": "weakness",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 17,
+          "char_start": 41102,
+          "char_end": 41228,
+          "passage_sha256": "6dccb5d2a7e30e7af64474ca5abc28a355ee1d11b57c39022c918246bc1c4215"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2018
+      }
+    ],
+    "costs": [
+      {
+        "id": "NLD-costs-001",
+        "statement": "In 2023 health spending was 9.8% of GDP, slightly under the EU average of 10%, but spending per person (EUR 4,848, adjusted for purchasing power) was 26% above the EU average, ranking just behind Norway, Germany and Austria.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 51682,
+          "char_end": 52127,
+          "passage_sha256": "6cd242fe4fff1b032ebb3e7689acd66e703f7fc342bdf27bb17761ba4fe1cab5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-costs-002",
+        "statement": "Long-term care took 29% of health spending in 2023, far above the EU average of 18%.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 53204,
+          "char_end": 53376,
+          "passage_sha256": "5aa920b0c9695eb5d660138e5c57d9c82c5cf85b1149229762d2972221b41b42"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-costs-003",
+        "statement": "After real-terms rises of over 10% in 2020 and nearly 8% in 2021, public health spending fell by over 6% in 2022 and 1% in 2023, and health's share of government spending dropped from 18% in 2021 to 16% in 2023, one point below its pre-pandemic level.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 106986,
+          "char_end": 107394,
+          "passage_sha256": "1aef825e0d6036e0f3feaa68358740c7df876332b85910ec001e3f8569453eae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-costs-004",
+        "statement": "Retail pharmaceutical spending was EUR 6.7 billion in 2023, or EUR 309 per person adjusted for purchasing power, the lowest in the EU, because people use fewer medicines and pay lower prices for them.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 127587,
+          "char_end": 127880,
+          "passage_sha256": "0b5a9fb0fce1cdc4c92244c797534589d90caab77f5cc905aeaef4d484a0f735"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-costs-005",
+        "statement": "Generics made up 79% of the medicine units dispensed by community pharmacies in 2023, up from 67% in 2012 and among the highest shares in the EU.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 139912,
+          "char_end": 140117,
+          "passage_sha256": "bf6adba58df9a79379917908613381c3a24f23b12c1bb2d31fc452b35010f050"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-costs-006",
+        "statement": "In 2021 the average hospital stay was 4.3 days, the shortest in the EU, compared with 5.9 days in Belgium and 8.9 in Germany.",
+        "valence": "strength",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 19,
+          "char_start": 44725,
+          "char_end": 44893,
+          "passage_sha256": "b7bb7bc61b8c47e64abbc04e8b72780fa3febcd5b9812e48dee48620536e1f85"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "NLD-costs-007",
+        "statement": "The average annual premium for basic insurance rose from about €1,400 in 2020 to about €1,900 in 2025, faster than inflation and faster than the healthcare allowance for lower-income people.",
+        "valence": "weakness",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Health coverage and access: The Role of Public Health Insurance",
+          "char_start": 8478,
+          "char_end": 8774,
+          "passage_sha256": "c3f88e5242a9dd14ba36418b0aadb9c7f5a6044d4572aa5edd26018030707d81"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-costs-008",
+        "statement": "Deaths from treatable causes are very low, yet Dutch health spending per person is well above that of many other EU countries, some of which achieve comparable treatable mortality.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 17,
+          "char_start": 41927,
+          "char_end": 42149,
+          "passage_sha256": "5c6e1ac028071a74a78839a756c9c6861fc1d3d7113c6ceb70569b2dedde1c8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "NLD-what_works-001",
+        "statement": "In Mirror, Mirror 2024, the Netherlands, the UK and Germany performed best on access to care, helped by low cost-related barriers reported by patients and minimal out-of-pocket costs.",
+        "valence": "strength",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "How Countries Did on Each Performance Domain: Access to care",
+          "char_start": 9173,
+          "char_end": 9645,
+          "passage_sha256": "3a24583e70a670d6da308369d39033fbe7baf8c829a9b51e3ded140336201a9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-what_works-002",
+        "statement": "Accessibility and quality are key strengths of Dutch primary care, with quick access supported by exempting GP care from the compulsory deductible.",
+        "valence": "strength",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 11,
+          "char_start": 21429,
+          "char_end": 21606,
+          "passage_sha256": "673c7fef6c0e8ff43cba2e4d68e8e653bfdc445e144e4bf9e1a4e04996fcc04d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-what_works-003",
+        "statement": "Antibiotic use in the Netherlands is the lowest in the EU and has stayed at roughly half the EU average.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 127070,
+          "char_end": 127213,
+          "passage_sha256": "f3ab7f5df25e65b07b856f4a39f73dbb269a97d961d83853ef15a0c5289323f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-what_works-004",
+        "statement": "Day surgery has expanded: the share of tonsillectomies done as day cases rose from 70% in 2015 to 85% in 2021, and of inguinal hernia repairs from 81% to 87%.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 102098,
+          "char_end": 102301,
+          "passage_sha256": "6971858c6e537d42540d9da71b9a941dd5fb738bbd1ab4cad3a20aa1598d7d2d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "NLD-what_works-005",
+        "statement": "For medicines approved in the EU between 2020 and 2023, reimbursement took 459 days on average, about four months faster than the EU average of 578, and 58% of them were reimbursed by January 2025 (EU average 43%).",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 139517,
+          "char_end": 139843,
+          "passage_sha256": "7cf7358fda015dfda0ac348c04d37596e85b6dd175066e65866fd18420507f46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-what_works-006",
+        "statement": "In 2022 the Netherlands invested about EUR 14 million per 100,000 people in health ICT equipment, software and databases, the most of any EU country.",
+        "valence": "strength",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 115236,
+          "char_end": 115419,
+          "passage_sha256": "edf63603774d0b402cf2fabeee0160d97167276949ca9a19f040015cf84155e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "problems": [
+      {
+        "id": "NLD-problems-001",
+        "statement": "GP shortages are growing and expected to worsen as many GPs near retirement or leave early, and shortages also affect psychiatry, paediatrics and geriatrics.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 54516,
+          "char_end": 54917,
+          "passage_sha256": "43fd036d58083f85d8d5b10486b640c2174057e93a5d203104d0763f57ee680c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-002",
+        "statement": "Vacancy rates have risen across health care, most of all for nurses, psychologists and GPs, and projections suggest meeting care needs could take 20% of the labour force by 2030 and over 30% by 2060 if trends continue.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 114784,
+          "char_end": 115162,
+          "passage_sha256": "aeead821bdd42b295476ad014ce32bc6f04ed685cd0006d558232c533bbacec0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-003",
+        "statement": "Surveyed GPs worked 48 hours a week on average in 2024, four hours more than in 2018 and 2013, and all of the extra time went on tasks not related to patients.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 113417,
+          "char_end": 113627,
+          "passage_sha256": "4103ea7f9c4e6a896d06136ed662ee4e8809d47d76c72d84b64d9175f593df9e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NLD-problems-004",
+        "statement": "Very low generic prices make the Dutch market unattractive to suppliers and have led to more frequent temporary medicine shortages over the past decade.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 140517,
+          "char_end": 140720,
+          "passage_sha256": "cb01ae3b0d1beac139149438afdc537783b4538f667e0da41c036d4e599bd46f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-005",
+        "statement": "A 2024 review of the Dutch market reform concluded that its high expectations have not come true and that the increasingly hybrid system works much less like a market than its framing suggests.",
+        "valence": "weakness",
+        "source_id": "hepl-15yrs-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1008,
+          "char_end": 1298,
+          "passage_sha256": "2e8bbcb87e0edd7e494128182ce1a81e8b205c34fc56087874a5d26f122efc45"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-006",
+        "statement": "The conditions needed for the Dutch system to work efficiently are not fully met, partly because of the complicated risk adjustment among insurers and the difficulty of assessing all its possible effects.",
+        "valence": "weakness",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 19,
+          "char_start": 45148,
+          "char_end": 45464,
+          "passage_sha256": "249a65863928232969ab2c471916a3efbd7c1e521f42a739d02d150150749765"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-007",
+        "statement": "Insurers can negotiate quality with providers and increasingly use quality-based incentives such as pay-for-performance, but most contracts are still based more on volume and price than on quality.",
+        "valence": "weakness",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 17,
+          "char_start": 38215,
+          "char_end": 38619,
+          "passage_sha256": "20dbc603f349d2f53404c1ab051dfc7677b863531d67d1d78bb7b758c156b660"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-008",
+        "statement": "Price negotiations can be lengthy, leaving some medicines unreimbursed even though they continue to be supplied free, a practice manufacturers increasingly resist because of its cost.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 139240,
+          "char_end": 139415,
+          "passage_sha256": "eee37807388bb365df253e6a2d6c0ef2eea150f7dd7fe3b47e026a044e893703"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-009",
+        "statement": "In its 2025 budget the government announced a EUR 300 million cut to funding for pandemic preparedness and infectious disease control, which municipal health services fear could seriously weaken future public health protection.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 100487,
+          "char_end": 100812,
+          "passage_sha256": "bb141a51552455d57ed4958d7fe69785d674c976e9a0fa663d46aabea8cd262d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-010",
+        "statement": "Although GP-based mental health services are covered by basic insurance, inpatient and ambulatory mental health care remain subject to the deductible, which may further limit access.",
+        "valence": "weakness",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 99044,
+          "char_end": 99249,
+          "passage_sha256": "84a0ce2ac6b62bb014b8a8f8a1ab33093cc68be4f4a03d3db5a47196c5075b0a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-problems-011",
+        "statement": "Access to some expensive medicines for rare diseases is restricted, and some residents are uninsured or default on premiums, although overall coverage gaps are low.",
+        "valence": "weakness",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 11728,
+          "char_end": 12714,
+          "passage_sha256": "c007fc7c7ce7c73e32de1d0aaf8c88124f22beb8d748df4e2e9f3031b7571727"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "NLD-reforms-001",
+        "statement": "In its 2027 budget the government said the compulsory deductible, unchanged at €385 since 2016, should again move with care costs, and it postponed a planned €60 increase to 2028.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2027",
+        "locator": {
+          "section": "Beleidsagenda: eigen risico en eigen bijdragen",
+          "char_start": 50606,
+          "char_end": 51229,
+          "passage_sha256": "a88bf7b582bd5dbc1a4395dcd32249928535388809984ef7cec727f2673e193f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-reforms-002",
+        "statement": "The government is preparing to limit the deductible to at most €150 per specialist-care treatment, to take effect in 2028 after a one-year implementation period.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2027",
+        "locator": {
+          "section": "Beleidsagenda: eigen risico en eigen bijdragen",
+          "char_start": 51524,
+          "char_end": 51786,
+          "passage_sha256": "0dc57874a209681fe015999f62294e467e43d404a8e52efca0a4b32783f2dc6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-reforms-003",
+        "statement": "To contain costs the government plans user charges for youth care and district nursing, and from 2029 will no longer provide household help as an individually tailored (maatwerk) service.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2027",
+        "locator": {
+          "section": "Beleidsagenda: eigen risico en eigen bijdragen",
+          "char_start": 52016,
+          "char_end": 52285,
+          "passage_sha256": "f24cf5f9b3d4e4186296246eb8c3e5cc21a51bdc12b5109a4e18197ea94bdb46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-reforms-004",
+        "statement": "The coalition agreement underlying the 2027 budget includes a measure not to lower the deductible and to index it from 2027.",
+        "valence": "neutral",
+        "source_id": "vws-begroting-2027",
+        "locator": {
+          "table": "Belangrijkste beleidsmatige uitgavenmutaties Zvw: Mutaties coalitieakkoord",
+          "char_start": 435910,
+          "char_end": 435972,
+          "passage_sha256": "5c3114d83b1e1c2dfe4cacb859e661868ac235695f818413c9ece271ebf5c134"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NLD-reforms-005",
+        "statement": "The four-party coalition in office from mid-2024 had planned, citing unequal access to care, to lower the deductible to €165 from 2027 and to cap it at €50 per hospital treatment.",
+        "valence": "neutral",
+        "source_id": "cwf-nld",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 32889,
+          "char_end": 33191,
+          "passage_sha256": "e3597404dbc0342a48e2d956a89ed921481c55dc86e701fa0a006734873f6776"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025,
+        "historical": true
+      },
+      {
+        "id": "NLD-reforms-006",
+        "statement": "In October 2025 the competition authority (ACM), the Dutch Healthcare Authority (NZa) and the National Health Care Institute jointly proposed a framework for judging when prices of high-cost medicines are socially acceptable.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 128059,
+          "char_end": 128605,
+          "passage_sha256": "d76995ecc6cd83211829dd9687e3ad06a01922c07b1d4a2fcad274681f4c81b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-reforms-007",
+        "statement": "Since January 2025 the authorities have applied stricter rules to clarify work relationships and steer freelance nurses towards stable salaried jobs.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59334,
+          "char_end": 59537,
+          "passage_sha256": "f6beca22277d9a6c8384f859a1458295ff89033522414572021742765c639b3b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-reforms-008",
+        "statement": "In 2025 the health ministry launched a National Vision and Strategy on the Health Information System to modernise health data infrastructure so that medical information is available and usable for patients, providers, researchers and policymakers.",
+        "valence": "neutral",
+        "source_id": "chp-nld-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 119862,
+          "char_end": 120232,
+          "passage_sha256": "07c1fd29e2454bc6da9c2743a791c60ee8d3b67118a347a7ba732ec15edadb9f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NLD-reforms-009",
+        "statement": "The Integrated Care Agreement (IZA) concluded in 2022-23 sets out about 400 agreements on appropriate care, regional cooperation, primary care, links between social, primary and mental health care, prevention, workforce and digitalisation.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 29750,
+          "char_end": 30217,
+          "passage_sha256": "e62e5322e085c69e64ad57935a6a2670d0ed8152c7783cd538561d9cef916bdb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-reforms-010",
+        "statement": "Since 1 January 2022 adult mental health care has been financed through a fee-for-service system in which providers are reimbursed only for consultations and inpatient days, at maximum prices set by the Dutch Healthcare Authority.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 29270,
+          "char_end": 29595,
+          "passage_sha256": "45585ce3374f79b4ad79d5d64a309a018a067dbb3ec8846b8c3162bb1cb474cd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NLD-reforms-011",
+        "statement": "Legislation in 2023 gave more options to regulate care providers in order to prevent fraud such as upcoding or billing for care not delivered.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 30402,
+          "char_end": 30592,
+          "passage_sha256": "a4d95680e95be76ad764fbbcf8dff4bdc929cc7f348de2f1310703f75d76ce58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NLD-reforms-012",
+        "statement": "The 2015 reform of non-acute care introduced the Long-term Care Act, the Youth Act and the Social Support Act, aiming to reduce inpatient nursing care and help people live at home longer, and it came with a significant cut in the total budget.",
+        "valence": "neutral",
+        "source_id": "hss-nld-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 31496,
+          "char_end": 31909,
+          "passage_sha256": "d9c4d353b0d920b51bea11922f516d160a31c3b3c5f9c9785b4f4d5fcd1622e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2015,
+        "historical": true
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "NLD-us_lessons-001",
+        "statement": "In its section on what the US can do to improve, Mirror, Mirror 2024 suggests that countries seeking to address problems of access could turn to the Netherlands.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "What the U.S. Can Do to Improve",
+          "char_start": 22802,
+          "char_end": 23031,
+          "passage_sha256": "4bb57186f00d612876bf80d212831b4f0a574eb0130bd7afcc056c196e93668e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "NLD-us_lessons-002",
+        "statement": "In Mirror, Mirror 2024, Australia and the Netherlands ranked highest overall while spending the lowest share of GDP on health, whereas the US spent far more of its GDP and performed worst.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Health System Performance Overview",
+          "char_start": 8698,
+          "char_end": 9022,
+          "passage_sha256": "aceffec00ee7a3bf94cc775d6c051e6de5a27c5dcb4a2a380708a4375c039aa5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NLD-us_lessons-003",
+        "statement": "A comparison of risk adjustment in Germany, the Netherlands and the US Marketplaces found in all three that the most under- and overpaid enrollees tend to remain so the following year, making these payment errors predictable and a potential source of risk selection by insurers.",
+        "valence": "neutral",
+        "source_id": "resid-spenders-2021",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 56315,
+          "char_end": 56886,
+          "passage_sha256": "e97995ffe98279a700243dcaac0c5e84c245160926db36228e01c51e5ff56b3c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "NLD-us_lessons-004",
+        "statement": "The same three-country study proposed combining risk pooling with reinsurance aimed at enrollees predicted to be undercompensated, and found that this substantially improved how well payments matched spending in Germany, the Netherlands and the US Marketplaces alike.",
+        "valence": "neutral",
+        "source_id": "resid-spenders-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3211,
+          "char_end": 3538,
+          "passage_sha256": "b728337b207878114c4c9267e831466a9239c22226d9cb9873240ac2dcf0ff65"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/NLD.json",
+  "sources": [
+    {
+      "id": "chp-nld-2025",
+      "title": "The Netherlands: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-netherlands-final-web.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hss-nld-2024",
+      "title": "The Netherlands: Health System Summary 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Kroneman M, de Jong J, Polin K, Webb E",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://iris.who.int/handle/10665/381432",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/020e6e0c-ee8f-475f-b4b9-5a18d7b5445f/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "vws-begroting-2026",
+      "title": "Vaststelling begrotingsstaten Ministerie van Volksgezondheid, Welzijn en Sport 2026 (memorie van toelichting)",
+      "publisher": "Ministerie van Volksgezondheid, Welzijn en Sport (Rijksfinancien)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.rijksfinancien.nl/memorie-van-toelichting/2026/OWB/XVI",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "vws-begroting-2027",
+      "title": "Vaststelling begrotingsstaten Ministerie van Volksgezondheid, Welzijn en Sport 2027 (memorie van toelichting)",
+      "publisher": "Ministerie van Volksgezondheid, Welzijn en Sport (Rijksfinancien)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksfinancien.nl/memorie-van-toelichting/2027/OWB/XVI",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bd-zvw-2026",
+      "title": "Fiscale informatie 2026, hoofdstuk 28: Inkomensafhankelijke bijdrage Zorgverzekeringswet",
+      "publisher": "Belastingdienst (Dutch Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/fisin/fisin2026/inkomensafhankelijke_bijdrage_zorgverzekeringswet",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bd-pvv-2026",
+      "title": "Fiscale informatie 2026, hoofdstuk 27: Premie volksverzekeringen",
+      "publisher": "Belastingdienst (Dutch Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/fisin/fisin2026/premie_volksverzekeringen",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ro-premie",
+      "title": "Wat kost het om een zorgverzekering af te sluiten?",
+      "publisher": "Rijksoverheid (Ministerie van Volksgezondheid, Welzijn en Sport)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/premie-zorgverzekering",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ro-eigen-risico",
+      "title": "Wanneer betaal ik een eigen risico voor mijn zorg?",
+      "publisher": "Rijksoverheid (Ministerie van Volksgezondheid, Welzijn en Sport)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/eigen-risico-zorgverzekering",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ro-basispakket",
+      "title": "Wat verandert er in het basispakket van de zorgverzekering in 2026?",
+      "publisher": "Rijksoverheid (Ministerie van Volksgezondheid, Welzijn en Sport)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering/vraag-en-antwoord/veranderingen-basispakket",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cbs-wanbetalers",
+      "title": "Betalingsachterstand zorgpremie; geslacht en leeftijd per 31 december (StatLine table 81062ned)",
+      "publisher": "Centraal Bureau voor de Statistiek (Statistics Netherlands)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cbs.nl/nl-nl/cijfers/detail/81062ned",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-nld",
+      "title": "International Health Care System Profiles: Netherlands (2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/netherlands",
+      "funding_note": "US private foundation; profile written by FT Longitude for the Fund, reflecting data as of January 2026. Its statement of a planned deductible cut for 2027 was overtaken by the 2026 coalition's budget (see vws-begroting-2027).",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024-report",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (report)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024",
+      "doi": "10.26099/ta0g-zp66",
+      "funding_note": "US private foundation focused on health system improvement; written explicitly to draw lessons for the US.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hepl-15yrs-2024",
+      "title": "Healthcare reform in the Netherlands: after 15 years of regulated competition",
+      "publisher": "Health Economics, Policy and Law",
+      "authors": "Maarse H, Jeurissen P",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1017/S1744133123000385",
+      "doi": "10.1017/S1744133123000385",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38299305&rettype=abstract&retmode=text",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "resid-spenders-2021",
+      "title": "Very high and low residual spenders in private health insurance markets: Germany, The Netherlands and the U.S. Marketplaces",
+      "publisher": "The European Journal of Health Economics",
+      "authors": "McGuire TG, Schillo S, van Kleef RC",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1007/s10198-020-01227-3",
+      "doi": "10.1007/s10198-020-01227-3",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7822791",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 2,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 1,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 3,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 3,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 7,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created: 117 claims from 16 sources, anchored and support-reviewed in a separate cold pass; 33 statements reworded or re-anchored in review (details from outside the passage, missing years, scope, overstatement), 1 claim split into four after a misreading of the CBS table note, 1 comparison dropped (2015 arrears level, not comparable after the 2016 rule change), and 3 rewritten after the 12-word overlap check."
+    }
+  ]
+}

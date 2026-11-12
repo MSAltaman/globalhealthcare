@@ -3,7 +3,7 @@
   "name": "Brazil",
   "wave": 1,
   "system_as_of": "2026-11-10",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "national_health_service",
     "label": "Tax-funded unified national health system (SUS), free at the point of use and run jointly by federal, state and municipal governments, alongside voluntary private health plans"
@@ -214,13 +214,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
         "id": "BRA-financing-007",
-        "statement": "Since Constitutional Amendment 86 of 2015, the Constitution itself (art. 198, §2, I) sets the federal government's minimum for public health actions and services: at least 15% of its net current revenue (RCL) for the year.",
+        "statement": "Since Constitutional Amendment 86 of 2015, the Constitution itself (art. 198, §2, I) sets the federal government's minimum health spending: at least 15% of its net current revenue (RCL) for the year.",
         "valence": "neutral",
         "source_id": "camara-nt20-2023",
         "locator": {
@@ -232,8 +233,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
@@ -250,15 +252,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": "2016-2017",
         "historical": true
       },
       {
         "id": "BRA-financing-009",
-        "statement": "Constitutional Amendment 126 of 2022 provided for the repeal of that transitional rule once a new fiscal-framework law was signed; with Complementary Law 200 of 30 August 2023 it was revoked, and the permanent constitutional rules for the health and education floors applied again.",
+        "statement": "Constitutional Amendment 126 of 2022 provided for the repeal of the transitional rule for calculating the health and education floors (ADCT art. 110) once a new fiscal-framework complementary law was signed; with Complementary Law 200 of 30 August 2023, that rule was revoked.",
         "valence": "neutral",
         "source_id": "camara-nt20-2023",
         "locator": {
@@ -270,46 +273,32 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
         "id": "BRA-financing-010",
-        "statement": "Complementary Law 141 of 2012 requires the states and the Federal District to spend at least 12% of their revenue from state taxes and from specified constitutional transfers on public health actions and services each year, after deducting the shares passed on to their municipalities.",
+        "statement": "CONASS notes that the minimum percentages are currently set by Complementary Law 141 of 2012: each year municipalities must spend at least 15% of their tax revenue on public health actions and services, and the states and the Federal District 12%, after deducting the shares passed on to their municipalities.",
         "valence": "neutral",
-        "source_id": "lc-141-2012",
+        "source_id": "conass-2023",
         "locator": {
-          "section": "Art. 6º",
-          "char_start": 6749,
-          "char_end": 7143,
-          "passage_sha256": "887d65616831ad86a534da19cf158d401925fb5b41d72744d33048e08399ccae"
+          "section": "Financiamento do SUS",
+          "page": 5,
+          "char_start": 4928,
+          "char_end": 5444,
+          "passage_sha256": "5aba0addc23329505c1b76e7b91771d79eaabffe7b1116f42513a742bc198834"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
         "id": "BRA-financing-011",
-        "statement": "The same law requires municipalities (and the Federal District) to spend at least 15% of their revenue from municipal taxes and from specified constitutional transfers on public health actions and services each year.",
-        "valence": "neutral",
-        "source_id": "lc-141-2012",
-        "locator": {
-          "section": "Art. 7º",
-          "char_start": 7171,
-          "char_end": 7492,
-          "passage_sha256": "599af016d208cd756b400a4cbc3ff35429738e9d5bf2b86e1b8991ee13e553e0"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
-        }
-      },
-      {
-        "id": "BRA-financing-012",
         "statement": "CONASS, citing SIOPS data, reports that in 2021 the states and the Federal District spent R$ 11.4 billion of their own revenue on public health actions and services above the constitutional minimum, and the municipalities R$ 40.0 billion.",
         "valence": "neutral",
         "source_id": "conass-2023",
@@ -322,13 +311,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2021
       },
       {
-        "id": "BRA-financing-013",
+        "id": "BRA-financing-012",
         "statement": "Under the 1988 Constitution as first written, social contributions financed health, pensions and social assistance in the social security budget without distinction; the 1998 pension reform reserved contributions levied on payroll exclusively for paying general-regime (RGPS) pension benefits.",
         "valence": "neutral",
         "source_id": "anfip-2023",
@@ -341,14 +331,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": "1988-1998",
         "historical": true
       },
       {
-        "id": "BRA-financing-014",
+        "id": "BRA-financing-013",
         "statement": "In IBGE's health satellite account, final consumption spending on health goods and services was 9.7% of GDP in 2021: 4.0% of GDP by government and 5.7% by households and non-profit institutions serving households.",
         "valence": "neutral",
         "source_id": "ibge-css-2024",
@@ -361,13 +352,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2021
       },
       {
-        "id": "BRA-financing-015",
+        "id": "BRA-financing-014",
         "statement": "In the satellite account, private health services were households' largest health expense, at 67.5% of their final consumption spending on health in 2019, 64.9% in 2020 and 63.7% in 2021; this item counts all payments to health plans, including payments made by employers.",
         "valence": "neutral",
         "source_id": "ibge-css-2024",
@@ -380,13 +372,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": "2019-2021"
       },
       {
-        "id": "BRA-financing-016",
+        "id": "BRA-financing-015",
         "statement": "Medicines took a growing share of households' health spending: 32.5% in 2020 (R$ 143.1 billion) and 33.7% in 2021 (R$ 168.3 billion).",
         "valence": "neutral",
         "source_id": "ibge-css-2024",
@@ -399,14 +392,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": "2020-2021"
       },
       {
-        "id": "BRA-financing-017",
-        "statement": "In April 2025 private medical and hospital plans had 52,331,258 beneficiary enrolments, 1.94% more than a year earlier.",
+        "id": "BRA-financing-016",
+        "statement": "In April 2025 private medical-care plans had 52,331,258 beneficiary enrolments, 1.94% more than in April 2024.",
         "valence": "neutral",
         "source_id": "ans-panorama-2025",
         "locator": {
@@ -418,13 +412,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2025
       },
       {
-        "id": "BRA-financing-018",
+        "id": "BRA-financing-017",
         "statement": "According to the ANS, private health plans received R$ 312.1 billion in premium payments (contraprestações) and paid R$ 256.8 billion in health care expenses in 2024.",
         "valence": "neutral",
         "source_id": "ans-panorama-2025",
@@ -437,32 +432,34 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2024
       },
       {
-        "id": "BRA-financing-019",
-        "statement": "Among medical plans, employer-type group plans (for people linked to an organisation by employment or statutory relationship) had the largest growth in beneficiaries, 3.90%; between 2023 and 2024 individual plans lost 1.38% of their beneficiaries and group plans joined through professional, trade or sector bodies lost 4.87%.",
+        "id": "BRA-financing-018",
+        "statement": "Between 2023 and 2024 individual private medical plans lost 1.38% of their beneficiaries and group plans joined through professional, trade or sector bodies lost 4.87%; employer group plans cover people linked to an organisation by employment or statutory relationship.",
         "valence": "neutral",
         "source_id": "ans-panorama-2025",
         "locator": {
           "section": "2 Beneficiários de planos de saúde",
           "page": 6,
-          "char_start": 8548,
+          "char_start": 8799,
           "char_end": 9301,
-          "passage_sha256": "110373dda569448ad22c92f4efdaeea010cbbe0119e3db54c14edbb3cd9e2e22"
+          "passage_sha256": "37246ac7135a0ffd03d1549a1538e10be518cb0e7a81b42700b419cfff5f13d0"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": "2023-2025"
       },
       {
-        "id": "BRA-financing-020",
+        "id": "BRA-financing-019",
         "statement": "The Federal Revenue Service estimated federal tax expenditures (gastos tributários) for 2026 at R$ 612.84 billion, equal to 4.43% of GDP and 20.20% of the revenue it administers.",
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
@@ -475,13 +472,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2026
       },
       {
-        "id": "BRA-financing-021",
+        "id": "BRA-financing-020",
         "statement": "By budget function, health accounts for 17.41% of the estimated 2026 federal tax expenditures, second only to commerce and services (22.54%).",
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
@@ -494,13 +492,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2026
       },
       {
-        "id": "BRA-financing-022",
+        "id": "BRA-financing-021",
         "statement": "The Federal Revenue Service lists the personal income tax deduction for medical expenses (Law 9.250/1995, art. 8, II, a) as a tax expenditure with no end date.",
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
@@ -513,12 +512,13 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
-        "id": "BRA-financing-023",
+        "id": "BRA-financing-022",
         "statement": "It also lists as an open-ended corporate income tax (IRPJ) expenditure the medical, dental and pharmaceutical assistance that companies provide to their employees (Law 9.249/1995, art. 13, V).",
         "valence": "neutral",
         "source_id": "dgt-ploa-2026",
@@ -531,12 +531,13 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
-        "id": "BRA-financing-024",
+        "id": "BRA-financing-023",
         "statement": "Unlike families' education expenses, personal income tax deductions for health expenses have no ceiling, although the amount deducted cannot exceed the taxpayer's taxable income, because Brazilian law makes no provision for negative income tax.",
         "valence": "neutral",
         "source_id": "ocke-reis-2021",
@@ -549,12 +550,13 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
-        "id": "BRA-financing-025",
+        "id": "BRA-financing-024",
         "statement": "Employers that pay part of their employees' health plans can deduct this as an operating expense from taxable profit; the Ipea study put the health-related corporate income tax (IRPJ) revenue forgone at R$ 8.3 billion in 2018.",
         "valence": "neutral",
         "source_id": "ocke-reis-2021",
@@ -567,13 +569,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2018
       },
       {
-        "id": "BRA-financing-026",
+        "id": "BRA-financing-025",
         "statement": "The Ipea author argues that health tax subsidies burden the public budget and are regressive at a time of underfunding of the SUS.",
         "valence": "weakness",
         "source_id": "ocke-reis-2021",
@@ -586,12 +589,13 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       },
       {
-        "id": "BRA-financing-027",
+        "id": "BRA-financing-026",
         "statement": "The Federal Court of Accounts (TCU) reports that the deductions of health and education expenses from personal income tax cost R$ 34.76 billion in 2025, the fifth-largest federal tax expenditure; the figure combines health and education.",
         "valence": "neutral",
         "source_id": "tcu-gt-2025",
@@ -604,13 +608,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         },
         "data_year": 2025
       },
       {
-        "id": "BRA-financing-028",
+        "id": "BRA-financing-027",
         "statement": "The TCU classes the personal income tax deductions as high risk, finding them strongly regressive (88% of the benefit goes to the richest 20%) and inconsistent with the universal health (SUS) and education policies.",
         "valence": "weakness",
         "source_id": "tcu-gt-2025",
@@ -623,8 +628,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-12"
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
         }
       }
     ],
@@ -2273,16 +2279,6 @@
       "accessed": "2026-11-12"
     },
     {
-      "id": "lc-141-2012",
-      "title": "Lei Complementar nº 141, de 13 de janeiro de 2012 (minimum health spending by the Union, states, Federal District and municipalities)",
-      "publisher": "Senado Federal (Legislação Federal)",
-      "tier": 3,
-      "type": "government",
-      "year": 2012,
-      "url": "https://legis.senado.leg.br/norma/572896/publicacao/15760034",
-      "accessed": "2026-11-12"
-    },
-    {
       "id": "conass-2023",
       "title": "Financiamento do SUS (chapter 3, CONASS guide for state health managers)",
       "publisher": "Conselho Nacional de Secretários de Saúde (CONASS)",
@@ -2366,6 +2362,10 @@
     {
       "date": "2026-11-10",
       "note": "Backfill (data older than 10 years): BRA-costs-001 (2000-2014 spending) replaced with a 2026 source on public spending below 4% of GDP; BRA-what_works-003 (2002-2013) dropped as its current equivalent is already BRA-outcomes-001. camara.leg.br could not be re-downloaded, so its 5 claims were re-sourced to the law text and Costa et al. 2026 (3) or dropped (BRA-reforms-003, BRA-access-008). Now 81 claims from 21 sources, all passing both checks."
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Backfill round 3 (financing): 22 claims added from 9 new sources (constitutional and legal spending floors, satellite-account split of spending, private plan enrolment and premiums, federal tax expenditures on health). Cold support review rewrote 6 statements; 3 drafted claims were dropped or merged. Now 103 claims from 30 sources."
     }
   ]
 }

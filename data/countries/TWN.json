@@ -1,0 +1,169 @@
+{
+  "iso3": "TWN",
+  "name": "Taiwan",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "draft",
+  "model": {
+    "type": "single_payer_insurance",
+    "label": "Single-payer National Health Insurance run by a government agency, funded mainly by income-related premiums paid by the insured, employers and the government"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [],
+    "financing": [],
+    "covered": [],
+    "cost_sharing": [],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/TWN.json",
+  "sources": [
+    {
+      "id": "twn-nhi-ar-2025",
+      "title": "National Health Insurance Annual Report 2025-2026 (bilingual)",
+      "publisher": "National Health Insurance Administration, Ministry of Health and Welfare, Taiwan",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://media.nhi.gov.tw/md/dl-95246-fa6dcd93ece54f16a73a5760d5415591-3.pdf",
+      "funding_note": "The insurer's own annual report (published November 2025); most figures refer to 2024. It presents the NHI favourably and cites commercial 'Health Care Index' rankings, which this profile does not use.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "twn-nhe-2024",
+      "title": "National Health Expenditure 2024",
+      "publisher": "Department of Statistics, Ministry of Health and Welfare, Taiwan",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.mohw.gov.tw/dl-99631-cfe880cf-a90b-4eba-b240-351bf8abfd75.html",
+      "funding_note": "Official national health accounts compiled to the OECD/Eurostat/WHO System of Health Accounts definitions; published February 2026, data for 2024. The summary text is in Chinese; tables are bilingual.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "twn-hwr-2024",
+      "title": "2024 Taiwan Health and Welfare Report",
+      "publisher": "Ministry of Health and Welfare, Taiwan",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.mohw.gov.tw/dl-92420-84bc8962-369c-42ff-860a-0dd6f5e73b21.html",
+      "funding_note": "The ministry's own annual report; most figures refer to 2023.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cmwf-twn-profile",
+      "title": "International Health Care System Profiles: Taiwan",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/taiwan",
+      "doi": "10.26099/R631-C728",
+      "funding_note": "Written by FT Longitude (Financial Times Group) for the Commonwealth Fund; data as of January 2026. Some figures rest on secondary or web sources and two out-of-pocket shares in the profile disagree (21.4% and 38.8%); neither is used here.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "permj-phi-2025",
+      "title": "Private Health Insurance in Taiwan: Insights From the US Medicare Program",
+      "publisher": "The Permanente Journal",
+      "authors": "Liao JM, Lin CC",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.7812/TPP/25.064",
+      "doi": "10.7812/TPP/25.064",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12485243",
+      "funding_note": "A commentary, not original research. Dr Liao serves on the US Medicare Payment Advisory Commission (views his own).",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ijtahc-hta-2026",
+      "title": "Advancing health technology assessment in Taiwan: over 15 years of evidence-based reform, innovation, and patient partnership",
+      "publisher": "International Journal of Technology Assessment in Health Care",
+      "authors": "Huang LY, Lin SY, Liu MH",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1017/S0266462326103766",
+      "doi": "10.1017/S0266462326103766",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13161923",
+      "funding_note": "A commentary written by staff of the Center for Drug Evaluation, the body that carries out the HTA it describes.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "jacme-ed-2025",
+      "title": "Challenges and Contributing Factors to Emergency Department Overcrowding in Taiwan After the Lunar New Year Holiday: A 2024 Survey",
+      "publisher": "Journal of Acute Medicine",
+      "authors": "Tai TL, Chou SF, Hsieh CC, Sim SS, Hung TY, Yeh YC, Tsai KC",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.6705/j.jacme.202509_15(3).0002",
+      "doi": "10.6705/j.jacme.202509_15(3).0002",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12411117",
+      "funding_note": "Survey of ED directors at 59 hospitals one week after the February 2024 holiday; claims rest on the abstract.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "fph-edhosp-2025",
+      "title": "Preventable hospitalizations through ED: does the number of hospital beds matter under the global budget in a single-payer system in Taiwan?",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Chen HF, Hsieh HM, Chang WS",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.3389/fpubh.2024.1460270",
+      "doi": "10.3389/fpubh.2024.1460270",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11743612",
+      "funding_note": "Analysis uses 2011-2015 claims; only the paper's description of the current payment mechanism is used here.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "jhsrp-oop-2024",
+      "title": "Health-related inequalities in out-of-pocket expenditure under universal health coverage in Taiwan: A cross-sectional decomposition analysis",
+      "publisher": "Journal of Health Services Research & Policy",
+      "authors": "Lee MC, Pu C",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1177/13558196241251626",
+      "doi": "10.1177/13558196241251626",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38715396&rettype=abstract&retmode=text",
+      "funding_note": "National household survey of 657 people, January-August 2022. Claims rest on the PubMed abstract only.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hsr-digital-2024",
+      "title": "The Role of Digital Health Under Taiwan's National Health Insurance System: Progress and Challenges",
+      "publisher": "Health Systems & Reform",
+      "authors": "Lu JR, Liang LL",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1080/23288604.2024.2375433",
+      "doi": "10.1080/23288604.2024.2375433",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39437236&rettype=abstract&retmode=text",
+      "funding_note": "Claims rest on the PubMed abstract only.",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created."
+    }
+  ]
+}

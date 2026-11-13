@@ -13,18 +13,2035 @@
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "overview": [
+      {
+        "id": "AUT-overview-001",
+        "statement": "Austria's health system rests on social health insurance (SHI), which covers 99.9% of the population.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50387,
+          "char_end": 50514,
+          "passage_sha256": "9ed2b485e6c7950aa5404c6860813d3f313419108fe531f199d8d54ff32c18bb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-overview-002",
+        "statement": "Over recent decades SHI eligibility was widened to take in people in non-standard employment and asylum seekers receiving basic care.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 85076,
+          "char_end": 85231,
+          "passage_sha256": "5f0729837637b5eec00a46552753d35db79596cc14590e26103776d684406d2a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-overview-003",
+        "statement": "Health insurance is compulsory in Austria, and more than 99% of the population was covered through SHI funds in 2023.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How much is spent on health services? Coverage",
+          "page": 5,
+          "char_start": 8619,
+          "char_end": 8758,
+          "passage_sha256": "e38de8b91790226e4ccd9b25f6b3ae09bea875d3e120401f9c9519949cab979d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-overview-004",
+        "statement": "The federal government sets the legal framework, regulates providers and shapes most service areas, while the nine Länder (states) plan and regulate hospital care, pay for capital investment and run about three-quarters of acute hospital capacity.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50614,
+          "char_end": 50958,
+          "passage_sha256": "fca70d4b20f639b690008fab6f4f39adbfb49e1a16279d7d4db7aa83a3f05ef7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-overview-005",
+        "statement": "Outpatient care is mostly provided by private office-based doctors working under collective contracts with the SHI funds, and there is practically no formal gatekeeping: patients can go to specialists and hospital outpatient departments without a referral.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 51159,
+          "char_end": 51510,
+          "passage_sha256": "ca16b91bddc672d857900777187c60523aee587a6f7db1a6527ae3574370eb45"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-overview-006",
+        "statement": "Since a 2020 reform, SHI is run by three main funds - ÖGK for employees, SVS for the self-employed and farmers, and BVAEB for public-sector, mining and railway employees - coordinated by an umbrella body, the Dachverband.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 51645,
+          "char_end": 51900,
+          "passage_sha256": "a2a2604e08aaa56e81d46c017784ddb9a4c4ffe083d30fb7ab0058234b75799f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-overview-007",
+        "statement": "The nine former regional funds were merged into a single fund (ÖGK) that covers about 82% of insured people.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 5 Key health system reforms over the last 10 years",
+          "page": 14,
+          "char_start": 34885,
+          "char_end": 34981,
+          "passage_sha256": "afe0c59615ed125e035274452b249fb03876cc626df0e6b6d46372ebc0c19461"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "AUT-financing-001",
+        "statement": "Health care is paid for from general tax revenue and compulsory SHI contributions, and financing is highly fragmented: the federal government, the states and municipalities, and the three SHI funds all contribute.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How much is spent on health services? Funding mechanisms",
+          "page": 4,
+          "char_start": 6160,
+          "char_end": 6414,
+          "passage_sha256": "78403ba64bba18aa26374e569531c0bdf6bac25ddb40db8f664f67794ce0c5d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-002",
+        "statement": "In 2022 SHI contributions were the largest source of health revenue (43%) and direct government spending the second largest (35%); the latter is mostly state payments for inpatient care, but also includes federal, state and municipal spending on hospital care, long-term care, public health and prevention, plus payments into SHI funds on behalf of unemployed people and for maternity benefits.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How much is spent on health services? Funding mechanisms",
+          "page": 4,
+          "char_start": 6428,
+          "char_end": 6885,
+          "passage_sha256": "86a56f601c9b8d60a3385150c4ba188a5540ad7603a91e84b3290a674cc4e7b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "AUT-financing-003",
+        "statement": "Public sources paid for 76.7% of health spending in 2023, less than the EU average of 80.0%; most of the remainder came from out-of-pocket payments and voluntary health insurance (VHI). Figures follow the OECD System of Health Accounts.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 56989,
+          "char_end": 57190,
+          "passage_sha256": "db2fa84d03cb7cac8f422a6ef69d176d9437f5c5079d99cd0084ce1ffdcc872d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-financing-004",
+        "statement": "Voluntary health insurance is mostly supplementary - it buys better hospital amenities, the choice of non-contracted doctors or quicker access - and accounted for nearly 7% of health spending.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 57466,
+          "char_end": 57642,
+          "passage_sha256": "41de449ce64cec087592bfdf5bae0e50f9e5cb132d4c1f44bf45043341c6cf16"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-005",
+        "statement": "About 39% of the population holds some kind of supplementary private health policy.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 91729,
+          "char_end": 91925,
+          "passage_sha256": "326c871c063aee467ff2c7de35939f1adb7ca01c535c59d364a425fe36c37d5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-006",
+        "statement": "In 2026 the health insurance (KV) contribution for blue- and white-collar employees is 7.65% of earnings: 3.87% paid by the employee and 3.78% by the employer.",
+        "valence": "neutral",
+        "source_id": "wko-beitrag-2026",
+        "locator": {
+          "section": "Beitragssätze Arbeiter/Angestellte",
+          "char_start": 307,
+          "char_end": 377,
+          "passage_sha256": "c373c2c961def8c636a4b389fb1f049210db091ba7140a740d41606f9cd32f67"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-007",
+        "statement": "Employee social insurance contributions in 2026 are levied only on earnings up to a ceiling of EUR 231 a day or EUR 6,930 a month, with a separate annual ceiling of EUR 13,860 for special payments.",
+        "valence": "neutral",
+        "source_id": "wko-beitrag-2026",
+        "locator": {
+          "section": "Höchstbeitragsgrundlagen Dienstnehmer",
+          "char_start": 38,
+          "char_end": 162,
+          "passage_sha256": "43e31f01eba2e8cbcf5bedae9c46343ebeafde4b22f780a6351e0f3ce6647875"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-008",
+        "statement": "According to ÖGK, employees pay 3.87% of their wages as the health insurance part of their social insurance deductions, employers also pay contributions for their staff, and pensioners pay 6% of their pension as a health insurance contribution.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Mein Krankenversicherungsbeitrag",
+          "page": 3,
+          "char_start": 9359,
+          "char_end": 9719,
+          "passage_sha256": "61c64f6b02925b59640bd387c443d659513f1e59d9a5d04e10908efaa6df704e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-009",
+        "statement": "Because of the earnings ceiling, the employee's health contribution stops rising at EUR 268.19 a month once gross monthly pay reaches EUR 6,930 (ÖGK, 2026).",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Mein Krankenversicherungsbeitrag",
+          "page": 3,
+          "char_start": 9955,
+          "char_end": 10018,
+          "passage_sha256": "2ccaec17e0f52cf1a14be53bb0cf1dc932f16a8ded77da5197045e0276ff5664"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-010",
+        "statement": "Self-employed people pay health insurance contributions of 6.80% of their contribution base in 2026, on a base of at least EUR 551.10 and at most EUR 8,085 a month (EUR 97,020 a year).",
+        "valence": "neutral",
+        "source_id": "wko-selbst-2026",
+        "locator": {
+          "section": "Krankenversicherung",
+          "char_start": 276,
+          "char_end": 561,
+          "passage_sha256": "42fe12f4b21a4885cacb343e03f38a7374bb118771e66ac20a5527515c9f4c0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-011",
+        "statement": "When an adult dependant is co-insured, the insured person may owe a supplementary contribution of 3.40% of their own contribution base (pension or other income); it is not charged to people receiving sickness, maternity or unemployment benefits or emergency assistance, or to those found to be socially in need.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Meine Mitversicherung",
+          "page": 10,
+          "char_start": 25284,
+          "char_end": 25688,
+          "passage_sha256": "722f2f312dd83c2ac9f2a79f870c77fd51a71757f03082cab4540e706f24b6fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-012",
+        "statement": "Running costs of the state hospitals are paid through regional health funds (Landesgesundheitsfonds), which pool SHI contributions and tax money and pay hospitals using Austria's DRG system.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50959,
+          "char_end": 51158,
+          "passage_sha256": "576a4aaf74a0dbae9df48d58f360b722092f56698579594bd1e6ee0984619c7e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-013",
+        "statement": "Acute hospitals are paid mainly through a DRG-based budget allocation from the state health funds; contracted ambulatory providers are paid directly by the SHI funds through a mix of fee-for-service and contact capitation, while non-contracted providers, a large share of outpatient specialists, can set their own fees.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How much is spent on health services? Paying providers",
+          "page": 6,
+          "char_start": 10261,
+          "char_end": 10806,
+          "passage_sha256": "a00b85974c955b17179e8be3791e3ef6a390299a6a6abb97c4bb1e3000d992ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-financing-014",
+        "statement": "Under income tax rules, premiums for personal insurance (Personenversicherungen) could be deducted as special expenses (Sonderausgaben) only up to 2020, and then only under certain conditions.",
+        "valence": "neutral",
+        "source_id": "oegv-sonderausgaben",
+        "locator": {
+          "section": "Sonderausgaben",
+          "char_start": 608,
+          "char_end": 777,
+          "passage_sha256": "5af62632d00831703ba4c679dc6f1b6c7c53cd6d08d3e663b439aadcdf3c373f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "AUT-covered-001",
+        "statement": "Apart from medicines, Austria has no explicit positive list defining which services or products SHI has to cover.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How much is spent on health services? Coverage",
+          "page": 5,
+          "char_start": 8802,
+          "char_end": 8931,
+          "passage_sha256": "cd0de3790b197016eaae66b9a8bfb669e4c5fb24358a9184ec28354b31fef53e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-002",
+        "statement": "Outpatient medicines covered by SHI are listed in the reimbursement code (EKO), which has three boxes: green (freely prescribable), yellow (extra authorisation or documentation needed) and red (temporary reimbursement while under evaluation); in 2024 it listed 7,720 medicines, about 80% green and under 0.2% red.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 117546,
+          "char_end": 118085,
+          "passage_sha256": "bccbf092374625bd7afa20a7228289afa26b4425257d9cd2c6b2ac3ea58a9205"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "AUT-covered-003",
+        "statement": "The health ministry, advised by a pricing committee, sets maximum ex-factory prices for reimbursable medicines based on the EU average price, while the Austrian social insurance decides which medicines enter the EKO list.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 118548,
+          "char_end": 118915,
+          "passage_sha256": "fb15dc251b048d77288437dee89c6e2810345ae1d5545324a8b2b5d84fa899c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-004",
+        "statement": "Under the 2024-2028 reform, new high-priced medicines must be assessed by an independent evaluation board, which issues recommendations based on scientific criteria, before they are used in hospitals.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 8 Is there waste in pharmaceutical spending?",
+          "page": 20,
+          "char_start": 49643,
+          "char_end": 49990,
+          "passage_sha256": "b0668e56a3359b3fce91081b364f795b6c9a27afcef19beb7ac05b8046d139ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-005",
+        "statement": "Benefits are still not fully harmonised across the SHI funds; psychotherapy is one example.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 2 What are the key gaps in coverage?",
+          "page": 5,
+          "char_start": 9984,
+          "char_end": 10096,
+          "passage_sha256": "49b8c68a1ae16ba320b55cc21bccafae616972131711ace9eeaffe2247ea27d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-006",
+        "statement": "Basic restorative dental care and some further treatments from SHI-contracted dentists are generally paid in full by SHI, as are braces for children with significant misalignment; removable dentures are covered at 75%, and fixed prostheses must be paid entirely by the patient.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How are health services delivered? Dental care",
+          "page": 13,
+          "char_start": 28888,
+          "char_end": 29334,
+          "passage_sha256": "0ff1069be48133051197e9f57fa2b6d340f42fe530195a8d38bbe9a2e9946840"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-007",
+        "statement": "Since the 2024/25 season, flu vaccination has been free for all residents under the national immunisation programme.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 71184,
+          "char_end": 71288,
+          "passage_sha256": "72d5023d7f804549f894ea026dcf273ce364107bc7d8d2b01805fa815d6b299c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-008",
+        "statement": "HPV vaccination is free for everyone up to age 21, and a temporary catch-up offer up to age 30 reached 170,000 people.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 71391,
+          "char_end": 71598,
+          "passage_sha256": "dfc973588ddd1beb67f5890e64055ebb190f1bac8b016238eb7f3bc4bd65de7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-009",
+        "statement": "Care from ÖGK-contracted providers - contracted group practices, contracted facilities such as hospital outpatient clinics, ÖGK's own health centres and primary care units - is covered with no co-payment for the insured.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Ärztliche Hilfe",
+          "page": 18,
+          "char_start": 58873,
+          "char_end": 59221,
+          "passage_sha256": "4aa6db2d62991978f4fa1c5704ea46ad80f143adfecf9228cfa1c6f13cb2e865"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-covered-010",
+        "statement": "For as long as illness requires it, ÖGK pays in full for hospital care in the general ward class of a hospital financed by a state health fund (for example state or religious-order hospitals) or of a contracted private hospital.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Krankenhauspflege",
+          "page": 24,
+          "char_start": 80235,
+          "char_end": 80512,
+          "passage_sha256": "2a5e7314d54d62566503aa29a2ad4cec02d3ff42b179d96b5d35db0c32212e56"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "AUT-cost_sharing-001",
+        "statement": "Patients who see a non-contracted doctor (Wahlarzt) are generally refunded 80% of what SHI would pay a contracted doctor for the same service, which is often far below the private fee, so a substantial co-payment remains unless supplementary insurance pays it.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 87624,
+          "char_end": 87832,
+          "passage_sha256": "4714335b356e43f5f8b35182128e35e3a4747999f52ae7052b97ad8bf536d09e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-002",
+        "statement": "Patients of non-contracted doctors must first pay the fee themselves; on submitting the paid invoice, ÖGK refunds 80% of the amount it would have paid a contracted doctor.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Ärztliche Hilfe",
+          "page": 18,
+          "char_start": 59413,
+          "char_end": 59649,
+          "passage_sha256": "c9c6d09b95659419983296ccc64d6f4c24cb94ec64f0b4a6a7e41a4fa1745de5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-003",
+        "statement": "The prescription fee is EUR 7.55 per package in 2026.",
+        "valence": "neutral",
+        "source_id": "oegk-rezept",
+        "locator": {
+          "section": "Rezeptgebühr",
+          "char_start": 8474,
+          "char_end": 8525,
+          "passage_sha256": "fc5211618951e1f9cd00241d387dd9255903de2fe5f0cc13ac533b3934a0beb4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-004",
+        "statement": "The fee is paid at the pharmacy or the doctor's dispensary; when a medicine costs less than the fee, the patient pays only the lower price.",
+        "valence": "neutral",
+        "source_id": "oegk-rezept",
+        "locator": {
+          "section": "Rezeptgebühr",
+          "char_start": 4045,
+          "char_end": 4241,
+          "passage_sha256": "cd394de0e9e599ab7ff29b2395fa7484404a2b30461eefa4c7ab39d1813a320c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-005",
+        "statement": "Since 1 January 2008, insured people pay prescription fees only until their payments in a calendar year reach 2% of their annual net income, and are exempt for the rest of that year.",
+        "valence": "strength",
+        "source_id": "sv-obergrenze",
+        "locator": {
+          "section": "Die Sozialleistung im Detail",
+          "char_start": 1360,
+          "char_end": 1623,
+          "passage_sha256": "691b169922e88e3eaa94985b4168c5d3889ba252d3250f4bed0b6de752dad5e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-006",
+        "statement": "The exemption under the 2% cap applies automatically, without an application.",
+        "valence": "strength",
+        "source_id": "sv-obergrenze",
+        "locator": {
+          "section": "Auf einen Blick",
+          "char_start": 903,
+          "char_end": 1079,
+          "passage_sha256": "6520bc4dede74fd28c4bf000884aa91204093213a3b7db1f90806e485d0a5f57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-007",
+        "statement": "Some groups are exempt from co-payments, including socially deprived people, patients with notifiable infectious diseases, people in compulsory community service, asylum seekers in federal care, pensioners receiving the compensatory allowance, and children or co-insured dependants up to 18.",
+        "valence": "strength",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How much is spent on health services? Out-of-pocket payments",
+          "page": 5,
+          "char_start": 8283,
+          "char_end": 8609,
+          "passage_sha256": "bf5ee5bf2304781929a47ddd6537657b012b9d5a734e5a29221cadf83e2ec936"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-008",
+        "statement": "Insured hospital patients pay a charge that the hospital's owner (for example a municipality or state) sets and collects; a charge fixed by law also applies for co-insured dependants, and both are payable for no more than 28 days in a calendar year.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Krankenhauspflege",
+          "page": 24,
+          "char_start": 80513,
+          "char_end": 80933,
+          "passage_sha256": "c42e125d94afd1ab978eb6d42347e7fff8ae31dea6de3be5a59562935ed0d381"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-009",
+        "statement": "The hospital charge is not levied for maternity stays (delivery stays of up to ten days), stays for organ donation, or patients under 18.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Krankenhauspflege",
+          "page": 24,
+          "char_start": 80934,
+          "char_end": 81269,
+          "passage_sha256": "dab4c39f2db57a434d5dc28adab26d46bebe1a452daf1543122e4e8b4bf7258f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-010",
+        "statement": "For medical aids, insured people pay 10% of the cost with a minimum of EUR 46.20 (no minimum for those needing supplies permanently); for glasses and contact lenses the minimum is EUR 138.60.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Heilbehelfe",
+          "page": 23,
+          "char_start": 76982,
+          "char_end": 77379,
+          "passage_sha256": "4c503d41af906f96cb5ea4d8b2c44ec6e3bd70a8c9fde650303b0323667e8e75"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-cost_sharing-011",
+        "statement": "Non-emergency patient transport carries a charge of EUR 7.55 per trip by taxi or transport service and EUR 15.10 where paramedic accompaniment is needed; emergency transports, trips to dialysis, chemotherapy, radiotherapy or immunotherapy, children under 15 and people exempt from prescription fees pay nothing.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Krankentransport",
+          "page": 33,
+          "char_start": 116944,
+          "char_end": 117515,
+          "passage_sha256": "1eb19fd833c658ff59e600fd59ec632eddee40538786610ab7af2fe45508ea4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "AUT-financial_hardship-001",
+        "statement": "Austria's state-recognised debt counselling services record the reasons for over-indebtedness given at first consultations; in their 2025 statistics, where more than one reason can be given, 'addiction / illness' is one of ten listed categories alongside unemployment or income loss, money management, former self-employment and separation.",
+        "valence": "neutral",
+        "source_id": "asb-report-2026",
+        "locator": {
+          "section": "Gründe für Überschuldung",
+          "page": 13,
+          "char_start": 23850,
+          "char_end": 24287,
+          "passage_sha256": "1e45ecc9a9740957ed10e6d21ab9269fbdfa35cf5aacc8921a53e494295e8eec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "AUT-additional_care-001",
+        "statement": "Long-term care takes four forms: informal family care, formal home care including day care, residential care, and round-the-clock home care by privately paid assistants.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How are health services delivered? Long-term care",
+          "page": 12,
+          "char_start": 25341,
+          "char_end": 25584,
+          "passage_sha256": "654f5ca7ef3ad0bda23cd842c5d5741fc1f2a804b341208431cba567b1b86d48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-additional_care-002",
+        "statement": "In 2022 there were about 980 residential care facilities; half were run by public bodies and a quarter each by non-profit and for-profit organisations.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How are health services delivered? Long-term care",
+          "page": 13,
+          "char_start": 27642,
+          "char_end": 27802,
+          "passage_sha256": "a33bff5387df988467a1a7f23f23a7d0a50b7385028fb9b443a20bb22ef173dd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "AUT-additional_care-003",
+        "statement": "The federal and state governments plan to put EUR 8.6 billion into community nursing and long-term care over five years, with the federal government contributing about EUR 1.2 billion a year on average.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 15,
+          "char_start": 36172,
+          "char_end": 36428,
+          "passage_sha256": "d83e8029529607cc748521c03a7008f1e2d1a76a7ffa1072a1df571a0de7dd3a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-additional_care-004",
+        "statement": "A pilot running since 2022 lets community nurses support people with complex or chronic conditions and their carers through preventive home visits, advice on care needs, help setting up care and coordination of providers.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 4 Are efforts to improve integration of care working?",
+          "page": 12,
+          "char_start": 26678,
+          "char_end": 27176,
+          "passage_sha256": "1783689a8a9eff89b48b90723ce5c3470ca007c6c4cf4ee46823a1637cb71da0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-additional_care-005",
+        "statement": "The number of dentists without an SHI contract rose by 39% between 2003 and 2023, and about 30% of ambulatory dentists now have no contract; they set their own prices, while SHI refunds only 80% of the contracted rate.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How are health services delivered? Dental care",
+          "page": 13,
+          "char_start": 28539,
+          "char_end": 28887,
+          "passage_sha256": "5bd8ee712e6e2fab19de13a6d590d2631dd9241f5810cf5f63a3904af86b6119"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "AUT-access-001",
+        "statement": "In 2024, 2% of people who reported a medical need said it went unmet because of cost, distance or waiting time; among people at risk of poverty the share was 2.4%, against an EU average of 6% that the profile cites for comparison.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 86587,
+          "char_end": 86864,
+          "passage_sha256": "4deea711a4c61ac62c266797e64161a7534e57a4a6138eaa8aed8b0d74232378"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "AUT-access-002",
+        "statement": "Measured across the whole population, only 0.6% reported an unmet need for medical care due to cost, waiting time or travel distance in 2023, lower than in most EU countries.",
+        "valence": "strength",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How is the health system performing? Accessibility and financial protection",
+          "page": 15,
+          "char_start": 38031,
+          "char_end": 38210,
+          "passage_sha256": "6dc941eb169424aa07a8b28be9e3855d6e225880788f0d3d5a560296bd1fada6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-access-003",
+        "statement": "Free access to hospital outpatient departments, and providers in large cities who treat uninsured people without charge, help keep unmet need low.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 86878,
+          "char_end": 87097,
+          "passage_sha256": "d56d6e5e9884483242b121b1d320dd80ec7d8e7e248537b10f428b4774fd41ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-access-004",
+        "statement": "Patients may choose their provider freely and have unrestricted access to GPs, specialists and hospitals.",
+        "valence": "strength",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How are health services delivered? Primary and ambulatory care",
+          "page": 11,
+          "char_start": 20741,
+          "char_end": 20908,
+          "passage_sha256": "a8361844bc033e48afd3522533e5195cdb1ec4032a091edacad597df944d5d8f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-access-005",
+        "statement": "Physician supply is uneven: against a national average of 553 practising physicians per 100,000 people, density ranges from 705 in Vienna to 446 in Upper Austria.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 92145,
+          "char_end": 92344,
+          "passage_sha256": "83b9a54405fe9876fd398d9d199e576a22ad2dbec4bb2ccb9b753bb9fd846c03"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-access-006",
+        "statement": "A chronic GP shortage left 80 SHI-contracted posts unfilled; as of mid-2024 the vacancies were concentrated in largely rural states such as Lower and Upper Austria.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 92358,
+          "char_end": 92583,
+          "passage_sha256": "619700f5b81cd78a35120fa227f2c20b1bfa4835c17f67994fd02d046f9536f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "AUT-access-007",
+        "statement": "Waits for elective surgery differ widely by hospital: in 2024 the median wait for a hip replacement was six weeks at Vienna's largest hospital but could exceed 30 weeks at smaller hospitals in Vienna.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 92898,
+          "char_end": 93127,
+          "passage_sha256": "abdb2ff525adca5665dab6770763cd671bc2b31ddc5ff79eac828d658b2baeb7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "AUT-access-008",
+        "statement": "In a 2019 survey of patients in 11 Austrian rehabilitation centres, the median wait was 8.9 weeks for hip replacement and 8.4 weeks for knee replacement.",
+        "valence": "neutral",
+        "source_id": "waiting-elective-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1562,
+          "char_end": 1693,
+          "passage_sha256": "972607b3bebf53bd7ab496d08c550b5d660d7ef7d829da525b5134fcf48aa20a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "AUT-access-009",
+        "statement": "A 2025 simulated-patient study calling all 90 SHI-contracted MRI providers found median waits under statutory cover of 15 working days for a suspected knee ligament (ACL) rupture and 38 for haemochromatosis; 60% and 11% of providers respectively met the 20-working-day target.",
+        "valence": "weakness",
+        "source_id": "mri-wait-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2985,
+          "char_end": 3207,
+          "passage_sha256": "96129427ca7bb7e6a2b86236ca39169ecf9ce83a5f2f8e75108de3e202fb0ede"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "AUT-access-010",
+        "statement": "Austria set a 20-working-day maximum wait for outpatient MRI in 2018, but how well it is met had not been clear.",
+        "valence": "neutral",
+        "source_id": "mri-wait-2026",
+        "locator": {
+          "section": "Abstract: Background",
+          "char_start": 2071,
+          "char_end": 2202,
+          "passage_sha256": "2feeb429ae0e0bb893d2a3eaba9b0354433b307010b72ca8ff1e220282273666"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-access-011",
+        "statement": "Waiting times for hospital treatment vary considerably between patients, and waits for and opening hours of outpatient specialists affect many patients, particularly for radiology.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How is the health system performing? Accessibility and financial protection",
+          "page": 15,
+          "char_start": 38340,
+          "char_end": 38569,
+          "passage_sha256": "aae8129a9a2677f8d66d31a56065ffc8963352b3ecf4166e93c2c6989eaae8fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "AUT-outcomes-001",
+        "statement": "Life expectancy at birth was 82.3 years in 2024, half a year above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 4501,
+          "char_end": 4587,
+          "passage_sha256": "9e9a487cc6fb312b0aaac737b0fed27fbbf73dff26225b106765127a6067d5bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "AUT-outcomes-002",
+        "statement": "In 2022 there were 163 preventable and 69 treatable deaths per 100,000 people, 3% and 23% below the respective EU averages.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 65523,
+          "char_end": 65670,
+          "passage_sha256": "e36bf82df11f392fb1d76ee01644db260ca60243de2e4cff8ee389b6f8cdc5c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "AUT-outcomes-003",
+        "statement": "Preventable mortality is nevertheless among the highest in Western Europe, driven mainly by lung cancer (18% of preventable deaths), alcohol (11%) and ischaemic heart disease (11%).",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 65671,
+          "char_end": 65978,
+          "passage_sha256": "f3956389483512cf91f3422d27532edef0fdb47b1429dabe3c8fac305302c13f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "AUT-outcomes-004",
+        "statement": "Thirty-day mortality after hospital admission for heart attack (ages 45+) was about 6%, in line with the EU, while after ischaemic stroke it was 6% against an EU average of 9%.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 14,
+          "char_start": 84606,
+          "char_end": 84854,
+          "passage_sha256": "5cab4c7de1ff45b889796ef471019cdd4d88fd760e5cbcb0de42172f08d84ed7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-outcomes-005",
+        "statement": "Hospital admissions for conditions usually manageable outside hospital were 14% below the EU average in 2023, and 26% below for congestive heart failure; asthma, COPD and diabetes admissions were close to EU levels.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 79778,
+          "char_end": 80109,
+          "passage_sha256": "99aaeaf5be2d4162dea6085e8290dc2079c4cd26bdfa0f412efadeebbddfee33"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-outcomes-006",
+        "statement": "The Global Burden of Disease study put Austria's Healthcare Access and Quality (HAQ) Index at 88.0 (95% uncertainty interval 85.8-89.8) for ages 0-74 in 2019, with 94.6 for ages 0-14, 88.1 for ages 15-64 and 78.8 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 (columns: overall 0-74, young 0-14, working 15-64, post-working 65-74 years)",
+          "char_start": 43121,
+          "char_end": 43208,
+          "passage_sha256": "17abf52f39422b5618b59d5247d2280475bc09896f5c5435d3bc7c42c2a5adfe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "AUT-outcomes-007",
+        "statement": "Only 24% of people aged 65 and over were vaccinated against flu in the 2023/24 season, below the EU average and far from the 75% target.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 70880,
+          "char_end": 71052,
+          "passage_sha256": "d77483569d72ff7ba172292879d29f73461d0a86fa91b8cc226ca2e88c5146a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "AUT-outcomes-008",
+        "statement": "Participation in the organised breast cancer screening programme has stayed around 40% for five years, well below the EU average of nearly 60%.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 78115,
+          "char_end": 78312,
+          "passage_sha256": "d35e70ce6202ec7ec3fcfd33c0500add70eb16485355dc21c493d577218b0beb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "AUT-costs-001",
+        "statement": "Current health spending was 11.2% of GDP in 2023, 1.2 percentage points above the EU average; per person it was EUR 4,901 at purchasing power parity, about 28% above the EU average of EUR 3,832.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52116,
+          "char_end": 52359,
+          "passage_sha256": "0395d10fe65b23e59d8874ae48836b3b5ac19db511dcbc5fdf3f7398cba72e92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-costs-002",
+        "statement": "Public spending per person was 22.6% above the EU average and private spending per person more than 49% above it.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52373,
+          "char_end": 52545,
+          "passage_sha256": "643acb120fa5bc91a68a6303cb5fa20a426e1757d445b0b271c00cfbc90923ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-costs-003",
+        "statement": "Inpatient care was the largest spending category in 2023 at nearly 32% of current expenditure (EU 28%); outpatient care took 31%, medicines and medical goods 16% (EU 18%) and prevention 4%, in line with the EU.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 58038,
+          "char_end": 58540,
+          "passage_sha256": "2ba0c2ba520a798a06f84b115cc47da02332014c264f0592daeae449c88020fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-costs-004",
+        "statement": "Private spending was nearly a quarter of health spending in 2023 (EU: 20%), and household out-of-pocket payments were 17% (EU: 16%).",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 88584,
+          "char_end": 88831,
+          "passage_sha256": "d98fbe4c62d925a33a81625ffb9cb7c2a016d8dbad59cb825cad5841844498ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-costs-005",
+        "statement": "Retail medicines take more than a fifth of out-of-pocket spending, and outpatient medical care, long-term care and dental care each take 18%.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 88845,
+          "char_end": 89089,
+          "passage_sha256": "a165ddd1d7f653ea82a9829b6599256ce79367c8d72a4b64ab90d2f7745f8cfc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-costs-006",
+        "statement": "Real public health spending per person grew 1.7% a year in 2015-2019, slower than the EU's 2.9%, then jumped 17% in real terms between 2019 and 2021 because of pandemic testing and vaccination.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 106019,
+          "char_end": 106303,
+          "passage_sha256": "26631a003446c0b08174f6260abde703722e9b6100ca3d9f3b308c04db4d3a38"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2015-2021"
+      },
+      {
+        "id": "AUT-costs-007",
+        "statement": "Retail pharmaceutical spending was EUR 554 per person in 2023 (purchasing-power adjusted), about 10% above the EU average of EUR 510, and 11% of total health spending (EU 13%).",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 117219,
+          "char_end": 117426,
+          "passage_sha256": "1267083711379518b6da450636bf63db3ccf615d0c3995cf1103e344e1af1f2f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-costs-008",
+        "statement": "SHI pays 68% of retail pharmaceutical spending and patients pay 31% directly.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 119395,
+          "char_end": 119485,
+          "passage_sha256": "108e8aa7ce1db9ce89c05481b06eab77ec74e4710c72a906ecefaaf129ebaae8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "AUT-what_works-001",
+        "statement": "The system is strong at treating illness: treatable mortality is below the EU average and falling faster than in the EU as a whole.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 5656,
+          "char_end": 5798,
+          "passage_sha256": "a296a8b9627163bd7b852afbe1b562a3f6322ef06f14c8faf972b6fae46ad11d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-what_works-002",
+        "statement": "Treatable mortality fell 13% between 2012 and 2022, a slightly faster improvement than the EU average.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 66736,
+          "char_end": 66898,
+          "passage_sha256": "a72f826036759bd57bc182dd3511e3f90767c1c21bb0b1e4e9d9fb8e75fcae68"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2012-2022"
+      },
+      {
+        "id": "AUT-what_works-003",
+        "statement": "Near-universal SHI coverage keeps unmet medical need low, including among people at risk of poverty.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 6096,
+          "char_end": 6223,
+          "passage_sha256": "9984c2d9e2c7a3f74c8de790be19fe7023558a98cf7151b5743ac32bdf9f60e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-what_works-004",
+        "statement": "Access is generally good, and vulnerable groups are well protected financially through many exemptions from cost sharing.",
+        "valence": "strength",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Summing up",
+          "page": 20,
+          "char_start": 48044,
+          "char_end": 48272,
+          "passage_sha256": "e1cc76763cb983b87bc90842ba09e3deb3bb013a733de5503f6a0dea5d1f1aad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-what_works-005",
+        "statement": "In a 2019 survey, 88% were satisfied or very satisfied with their GP and 85% with specialists, but satisfaction was lower for hospital outpatient departments (63%), inpatient care (71%) and therapists (50%).",
+        "valence": "strength",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 6 What do patients think of the care they receive?",
+          "page": 17,
+          "char_start": 41410,
+          "char_end": 41751,
+          "passage_sha256": "c06873fd47ada1a3b5f5a322bf469741ff5c043cfad3adc8169ed5b0edf519b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "AUT-what_works-006",
+        "statement": "From 2018 to 2023 hospital admission rates for heart failure and diabetes fell almost twice as fast as in the EU, alongside a 16% drop in total inpatient discharges.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 80208,
+          "char_end": 80392,
+          "passage_sha256": "3fdb02bc704c604cfb2805d0ddec0fdf5eabe5488b903e25f859d01921367186"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2018-2023"
+      },
+      {
+        "id": "AUT-what_works-007",
+        "statement": "The authors of the 2019 rehabilitation-centre survey conclude that elective surgery waits in Austria are below international levels, though faster access for privately insured patients and offers of informal payments raise equity concerns.",
+        "valence": "strength",
+        "source_id": "waiting-elective-2024",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 2082,
+          "char_end": 2351,
+          "passage_sha256": "5e8f58668b8966fe55b509ec77f8ec56c5cbb6c22f82155933e8d0da4c0c4e0d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "AUT-what_works-008",
+        "statement": "Antibiotic use is among the lowest in the EU: 11.3 defined daily doses in 2023, 43% below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 112897,
+          "char_end": 112995,
+          "passage_sha256": "ad038ec576360e06069791561593f00df7a14be526896c2dc7bbec08c1604923"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "AUT-problems-001",
+        "statement": "The number of SHI-contracted doctors has stagnated while non-contracted private doctors (Wahlärzte) have increased by 61% since 2004, leaving patients to choose between sometimes long waits for fully covered care and paying upfront for faster private care with only partial refund.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 87240,
+          "char_end": 87623,
+          "passage_sha256": "0e0be9f21623753bb8401307b4196e6bd769b6d2d614f18f9ded8d12478a91b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-002",
+        "statement": "Between 2014 and 2023 contracted physicians fell by about 2% (10,477 to 10,294) while non-contracted physicians rose by nearly 22% (10,229 to 12,462); the population grew 8% to 9.16 million.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How is the health system performing? Accessibility and financial protection",
+          "page": 16,
+          "char_start": 39155,
+          "char_end": 39436,
+          "passage_sha256": "40dd90f3de04b765571b77c2988ca57734917b7f70b692d65d17f17389d6228f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2014-2023"
+      },
+      {
+        "id": "AUT-problems-003",
+        "statement": "In the 2019 survey, 10.9% of surgical patients said they had been offered a shorter wait in return for a visit to the surgeon's private practice or an informal payment to the surgeon; surgery in private for-profit hospitals, supplementary private insurance and severe pain were linked to shorter waits.",
+        "valence": "weakness",
+        "source_id": "waiting-elective-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1694,
+          "char_end": 2068,
+          "passage_sha256": "ea9ef025301463da816fd03bb8c72e0fa89894a3af74804f70e42434110e8073"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "AUT-problems-004",
+        "statement": "In 13% of the 2025 calls, MRI providers said paying privately would cut the wait to a median of 1-2 days, at an average cost of EUR 315 or EUR 361 depending on the case.",
+        "valence": "weakness",
+        "source_id": "mri-wait-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3329,
+          "char_end": 3532,
+          "passage_sha256": "56d7a905328536d5bde9c49e4f6f4c49e76fd6740fcd94a571364f30b4cf7b8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "AUT-problems-005",
+        "statement": "GPs made up only 13% of physicians in 2023, down from over 16% in 2010, and ministry projections say about 51,100 more nursing staff will be needed by 2030 than in 2023.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 60188,
+          "char_end": 60574,
+          "passage_sha256": "b900d2f3765a7b44e7ca2d00f2f8ad317e5f31222d16a06e801ab9c07f3fc617"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "AUT-problems-006",
+        "statement": "Austria had 672 hospital beds per 100,000 people in 2022, the fourth-highest ratio in the EU, against an EU average of 516.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "What resources are available for the health system? Health infrastructure",
+          "page": 9,
+          "char_start": 14620,
+          "char_end": 14875,
+          "passage_sha256": "a93b65c641e298c51b8196ef2d7c8a66aacb98a160b3ea3f0403967e98d278e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "AUT-problems-007",
+        "statement": "Efficiency is held back by the separate financing of inpatient and ambulatory care.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How is the health system performing? Health system efficiency",
+          "page": 20,
+          "char_start": 47304,
+          "char_end": 47459,
+          "passage_sha256": "9d1cac3c5fd26365f5e40688782519a364fd1a810c92b15bce3682fb2ca8d147"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-008",
+        "statement": "Shared federal-state governance and wide delegation to self-governing insurance and provider bodies produce fragmentation and inefficiency; inpatient care is financed and run by federal and state governments, ambulatory care by the SHI funds.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Summing up",
+          "page": 21,
+          "char_start": 50158,
+          "char_end": 50625,
+          "passage_sha256": "89078d078aab5fdb13d4abb8eacba28a9481b8572b055ff434354bb34aecc97a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-009",
+        "statement": "The binding expenditure ceilings of the 2024-2028 cost-containment framework have been exceeded consistently since the pandemic.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 106864,
+          "char_end": 107247,
+          "passage_sha256": "b65ec010033b4748921e41e59281540ea89e6ae95a330416151002198b5dcf3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-010",
+        "statement": "The Court of Audit found in December 2022 that the 2020 fund merger had not delivered the roughly 30% administrative savings it aimed for and had only partly unified benefits; provider contracts are still negotiated state by state, so services and fees differ across the country.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 14,
+          "char_start": 31477,
+          "char_end": 31986,
+          "passage_sha256": "ec190ba996fe5e6aade11b339be447ca7d616319df1d56a7d1cca70f88dbbed8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-011",
+        "statement": "There are no large national programmes against alcohol misuse and no comprehensive heart disease prevention strategy; action is limited to regional initiatives and pilots.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 66293,
+          "char_end": 66618,
+          "passage_sha256": "3e183cfb495fd3e9430cdcc7bd117e59387bd0cfc3b50c113babdd114e03d22b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-012",
+        "statement": "The national electronic health record (ELGA) has suffered from diffuse governance spread over more than 20 committees; its roughly 80 million documents come mostly from hospitals, with few from outpatient specialists, partial links to private labs and imaging, and inconsistent dosage recording in e-medication.",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "Box 1. Austria is overhauling the governance of its e-health system",
+          "page": 18,
+          "char_start": 115757,
+          "char_end": 116344,
+          "passage_sha256": "6d0c36a8576f86215cb0662ae7ca6d6efff36d0139879e899bb2e3dc9b740440"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-013",
+        "statement": "Uptake of digital services is low: in 2024, 28% of residents booked a medical appointment online (EU 40%) and 23% looked at their own electronic health record (EU 28%).",
+        "valence": "weakness",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 108347,
+          "char_end": 108553,
+          "passage_sha256": "3199a0aa48b3e9f6c8bc8dd7fa4fb6dec17e23affdf5340f6cd067ae5afd209d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "AUT-problems-014",
+        "statement": "Workforce projections to 2035 for internal medicine specialists show only a small gap in public hospitals (within 5%) but a 10-25% shortfall in publicly financed outpatient care.",
+        "valence": "weakness",
+        "source_id": "im-gaps-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2835,
+          "char_end": 3060,
+          "passage_sha256": "c5845377ae41915d505465a3fac63e2082707e093b72a44d93743f983596082d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-015",
+        "statement": "The authors warn that, without major reform, capacity limits in publicly financed outpatient care are likely to block the planned shift from inpatient to outpatient care or push patients towards private outpatient care with higher charges.",
+        "valence": "weakness",
+        "source_id": "im-gaps-2025",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 3073,
+          "char_end": 3326,
+          "passage_sha256": "6ce534a9645477ee1e6b28d455a7e664d431ffcc7ba89195e2bf03804b79c93e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-016",
+        "statement": "Some groups are more likely to be uninsured, including older students who no longer qualify as dependants, unregistered asylum seekers and unemployed people with no benefit entitlement.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 2 What are the key gaps in coverage?",
+          "page": 5,
+          "char_start": 9326,
+          "char_end": 9562,
+          "passage_sha256": "0e0ef1fb0af1d406167374956f1b6ecdec5fda26af658e439430819859399a1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-problems-017",
+        "statement": "Austria has no incentives for generic use such as reference pricing, and pharmacist substitution and prescribing by active ingredient are mostly not allowed; generics were about 36% of medicine volume in 2021, against 79% in the Netherlands and 83% in Germany.",
+        "valence": "weakness",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "Box 8 Is there waste in pharmaceutical spending?",
+          "page": 20,
+          "char_start": 48659,
+          "char_end": 49226,
+          "passage_sha256": "099857e40a6ad5304b56d19eded84d84ecfe65e7b2f6facab4a7f1c338f78732"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      }
+    ],
+    "reforms": [
+      {
+        "id": "AUT-reforms-001",
+        "statement": "The 2024-2028 reform sets the principle 'digital before ambulatory before inpatient' and earmarks new money: about EUR 300 million a year for SHI and EUR 600 million a year for hospitals to move care out of inpatient settings, and EUR 51 million for electronic records and phone and online triage.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 58615,
+          "char_end": 59073,
+          "passage_sha256": "1f5126cc9382b65c1bb553a10f9061d31d87a1886e2f46156c2b2db8dcf15b87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-reforms-002",
+        "statement": "Main strands of the reform are hiring more SHI-contracted doctors, tripling primary care centres, faster approval of group practices and outpatient clinics, modernising the collective contracts with doctors, and allowing regional plans to fix SHI-contracted posts without the Physicians' Chamber's mandatory approval.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 14,
+          "char_start": 32569,
+          "char_end": 33121,
+          "passage_sha256": "b5806215b8b34143547349b8814ed48a573f2330a61cce1770d223448c0470dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-reforms-003",
+        "statement": "In 2020 the 18 SHI funds were merged into three, with the aims of cutting SHI spending and unifying benefits.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 14,
+          "char_start": 31270,
+          "char_end": 31476,
+          "passage_sha256": "b6ab2c5b279a951ffe688e751079d08f6f55029ce161211aa9dca1466322d515"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "AUT-reforms-004",
+        "statement": "Of 75 multidisciplinary primary care centres planned by end-2021, only 39 had opened by March 2023 because SHI funds and the Physicians' Chamber disagreed over staffing, contracts and fees.",
+        "valence": "neutral",
+        "source_id": "hss-aut-2024",
+        "locator": {
+          "section": "How are health services delivered? Primary and ambulatory care",
+          "page": 11,
+          "char_start": 21628,
+          "char_end": 21894,
+          "passage_sha256": "525388c14603df5fffbd59a4e22d3d320ad8594f4c060e07c02f3a242ce695cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023,
+        "historical": true
+      },
+      {
+        "id": "AUT-reforms-005",
+        "statement": "Austria had 100 primary health care units by July 2025.",
+        "valence": "strength",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 11,
+          "char_start": 64298,
+          "char_end": 64359,
+          "passage_sha256": "c4284ded748c63725d0a9d401b05bd5c03f8eff630928f3f4ca50c5f175c91a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "AUT-reforms-006",
+        "statement": "A new five-year specialist training in general and family medicine starts in mid-2026, and time-limited start-up grants of up to EUR 100,000 have been introduced for SHI posts.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 60668,
+          "char_end": 60854,
+          "passage_sha256": "09da66d0c5d597a2f583ce542f956b9d9b914115038ad2f35a2b204616848df0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-reforms-007",
+        "statement": "Since 1 January 2026 non-contracted doctors are in principle legally required to use the e-card and its infrastructure, except those with fewer than 300 patients a year.",
+        "valence": "neutral",
+        "source_id": "oegk-ueberblick-2026",
+        "locator": {
+          "section": "Ärztliche Hilfe",
+          "page": 18,
+          "char_start": 57337,
+          "char_end": 57696,
+          "passage_sha256": "1d0af20c77298a7c260df6acf3a84e89469ebb4ad5f206aa380370d6935d7cf0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-reforms-008",
+        "statement": "Under a 2024 revision of the Health Telematics Act, discharge summaries, laboratory findings and other key documents must be stored in a standard format from 2026.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "Box 1. Austria is overhauling the governance of its e-health system",
+          "page": 18,
+          "char_start": 116377,
+          "char_end": 116527,
+          "passage_sha256": "fcaed93a874a181b2a6c8c58d0deefc5087d32525fa8046f9772404225c3eb67"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-reforms-009",
+        "statement": "The prescription fee of EUR 7.55, normally indexed to inflation, is to be frozen until 2026, after which the exemption threshold is to be lowered from 2% to 1.5% of net annual earnings, according to government plans reported in 2025.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 118916,
+          "char_end": 119194,
+          "passage_sha256": "bfd95d074557253576a100ebb0e9416629188649eb8458a1be09c8a376568bad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "AUT-reforms-010",
+        "statement": "Austria received EUR 254 million from the EU Recovery and Resilience Facility, aimed at primary care units, community nursing and a new precision medicine centre among other priorities.",
+        "valence": "neutral",
+        "source_id": "chp-aut-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 107332,
+          "char_end": 107674,
+          "passage_sha256": "91439d0216140529289cbc2e7f6b9979e7aa13bfd8e05d451121919c9b51c9d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/AUT.json",

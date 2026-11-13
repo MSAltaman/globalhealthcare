@@ -3,13 +3,16 @@
   "name": "Costa Rica",
   "wave": 2,
   "system_as_of": "2026-11-13",
-  "status": "draft",
+  "status": "verified",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "social_health_insurance",
+    "label": "Single public social health insurance run by the Costa Rican Social Security Fund (CCSS), which both insures and delivers care; funded by payroll contributions from employers, workers and the State, with the State paying cover for people without income; the Ministry of Health is steward"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "CRI-covered-008",
+      "CRI-covered-009"
+    ],
     "meets_definition": true
   },
   "sections": {
@@ -28,8 +31,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -46,8 +50,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -64,8 +69,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -82,13 +88,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-overview-005",
-        "statement": "As part of the primary care reforms, all public-sector health care, from primary to tertiary, was moved to the CCSS alone instead of being provided by both the Ministry of Health and the CCSS, and the ministry was given responsibility for stewardship of the system.",
+        "statement": "As part of the primary care reforms, all public-sector health care, from primary to tertiary, was moved to the CCSS alone instead of being provided by both the Ministry of Health and the CCSS, with the ministry responsible for stewardship of the system.",
         "valence": "neutral",
         "source_id": "phc-bmjgh-2020",
         "locator": {
@@ -99,15 +106,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
     "financing": [
       {
         "id": "CRI-financing-001",
-        "statement": "Health insurance (the CCSS's Seguro de Enfermedad y Maternidad, SEM) is funded by payroll contributions of 9.25% of wages paid by employers and 5.5% paid by employees, 14.75% in total, according to an OECD table sourced to the CCSS (2025).",
+        "statement": "Health insurance (SEM, the CCSS health scheme) is funded by payroll-based contributions of 9.25% paid by employers and 5.5% paid by employees, 14.75% in total, according to a 2025 OECD table.",
         "valence": "neutral",
         "source_id": "oecd-informality-2025",
         "locator": {
@@ -119,8 +127,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -137,8 +146,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -155,8 +165,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -173,14 +184,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": "2022-2023"
       },
       {
         "id": "CRI-financing-005",
-        "statement": "Contribution to the health insurance is compulsory for all workers. For employees it is shared three ways, by employers, workers and the State; for self-employed and voluntary members it is shared two ways, by the worker and the State. Pensioners' contributions and specific State-funded programmes complete the scheme.",
+        "statement": "Contribution to the health insurance is compulsory for all workers. In some cases it is shared three ways, by employers, workers and the State; in others, such as self-employed and voluntary members, two ways, by workers and the State. Pensioners and specific programmes run by the State complete the contributory scheme.",
         "valence": "neutral",
         "source_id": "binasss-177",
         "locator": {
@@ -192,13 +204,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-financing-006",
-        "statement": "In the July 2025 national household survey, 11.7% of people were insured through the State (seguro por el Estado), a share that reached 40.7% among people who were poor by both the income-poverty line and the multidimensional poverty index.",
+        "statement": "In the July 2025 national household survey (table excluding domestic workers and pensioners living in the household), 11.7% of people were insured through the State (seguro por el Estado), a share that reached 40.7% among people who were poor by both the income-poverty line and the multidimensional poverty index.",
         "valence": "neutral",
         "source_id": "inec-enaho-2025",
         "locator": {
@@ -210,14 +223,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2025
       },
       {
         "id": "CRI-financing-007",
-        "statement": "Public spending makes up 70% of total health spending.",
+        "statement": "A 2026 study reports that public spending makes up 70% of total health spending (data year not stated).",
         "valence": "neutral",
         "source_id": "gacsanit-2026",
         "locator": {
@@ -229,13 +243,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-financing-008",
-        "statement": "Citing World Bank data, the OECD puts out-of-pocket payments at 22.3% of current health expenditure, below the Latin American regional average of 28.3%; on this basis it describes financial protection for health care as high.",
+        "statement": "The OECD (2025) describes financial protection for health care as high and, citing World Bank Development Indicators (year not stated), puts out-of-pocket payments at 22.3% of current health expenditure, below the Latin American regional average of 28.3%.",
         "valence": "strength",
         "source_id": "oecd-informality-2025",
         "locator": {
@@ -247,8 +262,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -265,8 +281,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -283,8 +300,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2024
       },
@@ -302,8 +320,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
@@ -322,13 +341,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-covered-002",
-        "statement": "An OECD estimate based on the 2024 national household survey puts the share of the population with social health insurance at 90.2%.",
+        "statement": "An OECD table of social protection coverage rates for 2024 puts the share of the population with social health insurance at 90.2%.",
         "valence": "neutral",
         "source_id": "oecd-informality-2025",
         "locator": {
@@ -340,8 +360,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2024
       },
@@ -359,14 +380,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2024
       },
       {
         "id": "CRI-covered-004",
-        "statement": "Non-contributory forms of coverage, such as the family benefit insurance, give economically dependent close relatives of directly insured people access to health care.",
+        "statement": "Non-contributory forms of coverage, such as the family benefit insurance, give close relatives of directly insured people who depend on them access to health care.",
         "valence": "neutral",
         "source_id": "binasss-177",
         "locator": {
@@ -378,8 +400,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -396,8 +419,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -413,8 +437,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -430,8 +455,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -447,8 +473,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -465,13 +492,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-covered-010",
-        "statement": "In the public system most people with diabetes are treated in primary care, and the diabetes medicines available are limited to sulphonylureas, metformin and human insulins; referral to specialists and nutritional counselling exist but usually involve long waiting lists (2023 review).",
+        "statement": "A 2023 review of diabetes care in Costa Rica concludes that most patients are treated at the primary care level, that access to diabetes medicines is limited to sulphonylureas, metformin and human insulins, and that referral to specialists and nutritional counselling are available but usually with long waiting lists.",
         "valence": "weakness",
         "source_id": "diabetes-cureus-2023",
         "locator": {
@@ -482,15 +510,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
     "cost_sharing": [
       {
         "id": "CRI-cost_sharing-001",
-        "statement": "In the 2026 OECD/IDB/World Bank survey, Costa Rica named 'Insurance from the State' (Seguro por el Estado) as the channel through which people without sufficient income are insured, with the State paying for their cover.",
+        "statement": "The 2026 OECD/IDB/World Bank report states that Costa Rica describes 'Insurance from the State' (Seguro por el Estado) as the channel for insuring people who lack sufficient income.",
         "valence": "strength",
         "source_id": "oecd-hag-lac-2026",
         "locator": {
@@ -502,13 +531,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-cost_sharing-002",
-        "statement": "Apart from contributions, the health insurance has small revenues such as interest, rents and the sale of services to people without insurance, who have to pay for the care they receive.",
+        "statement": "Apart from contributions, the health insurance has small revenues such as interest, rents and the sale of services, including to uninsured people, who have to pay for the care they receive.",
         "valence": "neutral",
         "source_id": "binasss-177",
         "locator": {
@@ -520,8 +550,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
@@ -541,8 +572,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -558,8 +590,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -575,13 +608,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-additional_care-004",
-        "statement": "Newer diabetes medicines are available in the private sector, but most of the cost is paid out of pocket, which limits access to them.",
+        "statement": "Newer diabetes medicines are available in the private sector, but most of the cost is paid out of pocket, which limits access to them (2023 review).",
         "valence": "weakness",
         "source_id": "diabetes-cureus-2023",
         "locator": {
@@ -592,15 +626,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
     "access": [
       {
         "id": "CRI-access-001",
-        "statement": "CCSS records show the number of people on waiting lists grew between 2019 and 2024: from 438,599 to 695,328 for outpatient procedures (58.5% more), from 121,270 to 185,845 for surgery (53.2% more) and from 255,672 to 322,901 for specialist outpatient consultations (37% more).",
+        "statement": "Between 2019 and 2024 the number of people on waiting lists grew from 438,599 to 695,328 for outpatient procedures (58.5% more), from 121,270 to 185,845 for surgery (53.2% more) and from 255,672 to 322,901 for specialist outpatient consultations.",
         "valence": "weakness",
         "source_id": "gacsanit-2026",
         "locator": {
@@ -612,14 +647,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": "2019-2024"
       },
       {
         "id": "CRI-access-002",
-        "statement": "In 2024 the average wait for a new specialist outpatient appointment was 466 days, 13% longer than in 2020.",
+        "statement": "In 2024 the average wait for specialist outpatient consultations was 466 days, 13% longer than in 2020.",
         "valence": "weakness",
         "source_id": "gacsanit-2026",
         "locator": {
@@ -631,8 +667,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2024
       },
@@ -650,8 +687,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2024
       },
@@ -669,14 +707,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2024
       },
       {
         "id": "CRI-access-005",
-        "statement": "The CCSS responds to waiting lists mainly with extra 'production' sessions outside normal working hours, yet operating theatres are used for only 63% of regular working hours, while the number of people on waiting lists grew by 7% a year on average.",
+        "statement": "To tackle waiting lists, the CCSS runs extra 'production' sessions beyond normal working hours, yet a 2026 study reports that operating theatres are used for only 63% of regular working hours, while the number of patients on waiting lists grew by 7% a year on average.",
         "valence": "weakness",
         "source_id": "gacsanit-2026",
         "locator": {
@@ -688,8 +727,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": "2019-2024"
       },
@@ -707,8 +747,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -725,8 +766,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -743,13 +785,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-access-009",
-        "statement": "Costa Rica trains the fewest new doctors among the Latin American countries compared, 4.3 medical graduates per 100,000 people, against a LAC10 average of 12.8 and an OECD average of 14.5.",
+        "statement": "Among the countries compared in Figure 8.13 of the 2026 OECD/IDB/World Bank report, medical graduate output ranges from 33.9 graduates per 100,000 people in the Dominican Republic down to 4.3 in Costa Rica; the LAC10 average is 12.8, close to the OECD average of 14.5.",
         "valence": "weakness",
         "source_id": "oecd-hag-lac-2026",
         "locator": {
@@ -762,8 +805,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
@@ -782,8 +826,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -800,8 +845,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -818,8 +864,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -837,8 +884,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2023
       },
@@ -857,8 +905,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -874,14 +923,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2019
       },
       {
         "id": "CRI-outcomes-007",
-        "statement": "In 2018 life expectancy in Costa Rica was 80 years, slightly above the 79.5-year average of countries with 'very high' human development and about 4 years above the 76-year average of the 'high' group in which Costa Rica is ranked.",
+        "statement": "In 2018 life expectancy in Costa Rica was 80 years, compared with an average of 79.5 for the 'Very High' human development group of countries and 76 for the 'High' group.",
         "valence": "strength",
         "source_id": "equity-rpsp-2020",
         "locator": {
@@ -892,8 +942,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2018
       }
@@ -913,8 +964,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -931,8 +983,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
@@ -951,8 +1004,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -968,13 +1022,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-what_works-003",
-        "statement": "A study based on 39 key-informant interviews found that Costa Rica carried out its primary care reforms through strong leadership, a compelling vision and deliberate strategies: building on existing knowledge, resources and infrastructure, bringing key stakeholders together and engaging closely with communities.",
+        "statement": "A 2020 study found that Costa Rica carried out its primary care reforms through strong leadership, a compelling vision and deliberate implementation strategies: building on existing knowledge, resources and infrastructure, bringing key stakeholders together and engaging closely with communities.",
         "valence": "strength",
         "source_id": "phc-bmjgh-2020",
         "locator": {
@@ -985,8 +1040,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1002,8 +1058,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1019,13 +1076,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-what_works-006",
-        "statement": "The 2026 OECD/IDB/World Bank report cites Costa Rica's single digital health record, EDUS, as an example of digital access for patients.",
+        "statement": "The 2026 OECD/IDB/World Bank report cites Costa Rica's EDUS as an example of patient-facing digital access.",
         "valence": "strength",
         "source_id": "oecd-hag-lac-2026",
         "locator": {
@@ -1037,15 +1095,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
     "problems": [
       {
         "id": "CRI-problems-001",
-        "statement": "The authors conclude that waiting lists rise and fall with the availability of extra budget, even with the same installed capacity, a cyclical pattern that does not resolve them in a lasting way and points to weaknesses in planning, governance and operational continuity.",
+        "statement": "The authors conclude that increases in waiting lists and waiting times tied to the availability of extraordinary budgets, even with the same installed capacity, point to a cyclical pattern that does not tackle waiting lists in a sustained way and reveals weaknesses in planning, governance and operational continuity.",
         "valence": "weakness",
         "source_id": "gacsanit-2026",
         "locator": {
@@ -1057,8 +1116,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1075,13 +1135,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-problems-003",
-        "statement": "In July 2025, 21.3% of poor people had no formal health insurance, compared with 6.0% of people who were not poor by either measure.",
+        "statement": "In July 2025, 21.3% of poor people had no formal health insurance, compared with 6.0% of people who were not poor by any method.",
         "valence": "weakness",
         "source_id": "inec-enaho-2025",
         "locator": {
@@ -1093,8 +1154,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2025
       },
@@ -1112,8 +1174,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1130,13 +1193,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-problems-006",
-        "statement": "Even after the court's 2014 reform, low-priority and experimental medicines made up nearly two-thirds of successful lawsuits for medicines and, by the authors' estimate, more than nine-tenths of the spending on approved claims.",
+        "statement": "Even after the court's reform, low-priority and experimental medicines together made up nearly two-thirds of successful claims and, by the authors' estimate, more than nine-tenths of the spending on approved claims.",
         "valence": "weakness",
         "source_id": "litigation-hhr-2019",
         "locator": {
@@ -1147,8 +1211,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2016
       },
@@ -1165,13 +1230,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-problems-008",
-        "statement": "Costa Rica reported to the 2026 OECD/IDB/World Bank survey that it does not measure patient experience at all.",
+        "statement": "Costa Rica reports that patient experience is not measured at all (OECD/IDB/World Bank, 2026).",
         "valence": "weakness",
         "source_id": "oecd-hag-lac-2026",
         "locator": {
@@ -1183,8 +1249,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1201,8 +1268,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1214,19 +1282,20 @@
           "section": "Chapter 7: In-hospital mortality following AMI and stroke",
           "figure": "Figure 7.10",
           "page": 153,
-          "char_start": 515792,
+          "char_start": 515108,
           "char_end": 516015,
-          "passage_sha256": "8a20435fb7f865d2469b059c3f73c52f85e9c0b86a3ccf7efd3117c35ed6c890"
+          "passage_sha256": "99ea9db1410e59016ea904db704dfcf2247063fccd53603dadab793e2e01f77a"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-problems-011",
-        "statement": "Social protection, including CCSS health insurance, relies heavily on high payroll contributions, which the OECD identifies as a barrier to formal employment.",
+        "statement": "The financing of social protection programmes in Costa Rica relies heavily on high payroll contributions, which the OECD identifies as barriers to formalisation.",
         "valence": "weakness",
         "source_id": "oecd-informality-2025",
         "locator": {
@@ -1238,15 +1307,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ],
     "reforms": [
       {
         "id": "CRI-reforms-001",
-        "statement": "In 2014, with World Bank support, the Constitutional Chamber started a joint programme with the Cochrane Collaboration: instead of mostly accepting the treating doctor's evidence, the court can refer medicine claims to forensic clinics, where a doctor examines the patient and checks the prescribed drug against Cochrane evidence.",
+        "statement": "In 2014, with World Bank support, the court started a joint programme with the Cochrane Collaboration: instead of typically accepting the treating doctor's evidence, it can refer cases to forensic clinics, where a doctor examines the patient and checks the prescribed medicine against Cochrane evidence.",
         "valence": "neutral",
         "source_id": "litigation-hhr-2019",
         "locator": {
@@ -1257,13 +1327,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
         "id": "CRI-reforms-002",
-        "statement": "The success rate of lawsuits for medicines at the Constitutional Chamber rose from 57.9% of 192 cases in 2008, before the reform, to 76.6% of 128 cases in 2016, after it.",
+        "statement": "The success rate of litigation for the provision of medicines rose from 57.9% of 192 cases in 2008, before the reform, to 76.6% of 128 cases in 2016, after it.",
         "valence": "neutral",
         "source_id": "litigation-hhr-2019",
         "locator": {
@@ -1274,8 +1345,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": "2008-2016"
       },
@@ -1293,14 +1365,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": 2022
       },
       {
         "id": "CRI-reforms-004",
-        "statement": "To widen digital access, the Ministry of Health created a Virtual Office, piloted kiosks in health areas, issued a decree regulating teleconsultation and began work on digital literacy (as reported in 2026).",
+        "statement": "As digital inclusion measures, Costa Rica created a Virtual Office within the Ministry of Health, piloted kiosks in health areas, developed a decree to regulate teleconsultation and took initial steps on digital literacy (as reported in 2026).",
         "valence": "neutral",
         "source_id": "oecd-hag-lac-2026",
         "locator": {
@@ -1312,8 +1385,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1329,31 +1403,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
-        }
-      },
-      {
-        "id": "CRI-reforms-006",
-        "statement": "The reforms followed the 1980s recession, when an IMF and World Bank structural adjustment programme led Costa Rica to cut public employment and health and social services, after which problems such as less safe drinking water, undernourished children and a measles outbreak appeared.",
-        "valence": "neutral",
-        "source_id": "phc-bmjgh-2020",
-        "locator": {
-          "section": "Exploration",
-          "char_start": 12437,
-          "char_end": 12858,
-          "passage_sha256": "15871180cc9c445bbe4b08f73437ef66aef72940ef39c96717440164184a0f0b"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "historical": true
       },
       {
-        "id": "CRI-reforms-007",
-        "statement": "After the reform, claims for medicines made up a smaller share of all amparo (constitutional protection) cases at the Constitutional Chamber: 128 of 15,782 cases (0.8%) in 2016, against 192 of 16,345 (1.2%) in 2008.",
+        "id": "CRI-reforms-006",
+        "statement": "After the reform, claims for medicines made up a smaller share of all amparo (constitutional protection) cases: 128 of 15,782 (0.8%) in 2016, against 192 of 16,345 (1.2%) in 2008.",
         "valence": "neutral",
         "source_id": "litigation-hhr-2019",
         "locator": {
@@ -1364,8 +1422,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         },
         "data_year": "2008-2016"
       }
@@ -1384,8 +1443,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1401,8 +1461,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       },
       {
@@ -1418,8 +1479,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
         }
       }
     ]
@@ -1605,7 +1667,7 @@
   "changelog": [
     {
       "date": "2026-11-13",
-      "note": "Profile created."
+      "note": "Profile created: 76 claims from 13 sources, anchored and support-reviewed in a separate cold pass by independent reviewer agents (two rounds); 29 statements reworded in review (one also re-anchored), one dropped. financial_hardship left empty (no national data on medical debt or health-related insolvency found); no qualifying ranking states Costa Rica's position."
     }
   ]
 }

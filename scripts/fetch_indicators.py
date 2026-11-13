@@ -132,6 +132,24 @@ def financing_mix(rows: list[dict], iso3: str, spec: dict, min_year: int = 0) ->
     }
 
 
+_reference: dict | None = None
+
+
+def reference_value(indicator: str, iso3: str) -> dict | None:
+    """Fallback when the per-country World Bank call fails: the same series from
+    the worldwide pull in data/reference.json (scripts/fetch_reference.py)."""
+    global _reference
+    if _reference is None:
+        path = ROOT / "data" / "reference.json"
+        _reference = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    ind = _reference.get("indicators", {}).get(indicator, {})
+    rec = ind.get("values", {}).get(iso3)
+    if not rec or rec.get("value") is None:
+        return None
+    return {"value": rec["value"], "year": rec["year"], "retrieved": _reference.get("retrieved", "unknown date"),
+            "api_url": f"{API}/country/all/indicator/{indicator}?format=json&mrnev=1"}
+
+
 def source_org(meta_payload: list) -> str | None:
     try:
         return meta_payload[1][0].get("sourceOrganization")
@@ -170,8 +188,12 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
         try:
             latest = latest_value(get_json(url, session))
         except Exception as e:  # one failing series must not cost the whole country
-            print(f"  {iso3} {ind['id']}: {e}; recorded as missing")
-            latest = None
+            latest = reference_value(ind["id"], iso3)
+            if latest:
+                url = latest["api_url"]
+                print(f"  {iso3} {ind['id']}: {e}; used the worldwide pull in data/reference.json ({latest['retrieved']})")
+            else:
+                print(f"  {iso3} {ind['id']}: {e}; recorded as missing")
         if ind["id"] not in meta_cache:
             try:
                 meta_cache[ind["id"]] = source_org(get_json(f"{API}/indicator/{ind['id']}?format=json", session))

@@ -160,3 +160,11 @@ def test_financing_mix_unsplit_and_stale():
     assert seg["private_unsplit"] == 1.336 and seg["other"] == 0 and seg["households"] == 0
     assert abs(sum(seg.values()) - 10.447) < 0.01
     assert fetch_indicators.financing_mix(rows, "JPN", spec, min_year=2025) is None
+
+
+def test_reference_fallback(monkeypatch):
+    monkeypatch.setattr(fetch_indicators, "_reference", {"retrieved": "2026-11-10", "indicators": {
+        "X": {"values": {"NOR": {"value": 13.7, "year": 2023}}}}})
+    rec = fetch_indicators.reference_value("X", "NOR")
+    assert rec["value"] == 13.7 and rec["year"] == 2023 and "country/all/indicator/X" in rec["api_url"]
+    assert fetch_indicators.reference_value("X", "SWE") is None

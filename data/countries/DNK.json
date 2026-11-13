@@ -1,0 +1,1850 @@
+{
+  "iso3": "DNK",
+  "name": "Denmark",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health system: the state sets policy and funds most care through block grants, five regions (four from 2027) own the hospitals and pay self-employed GPs and specialists, and 98 municipalities run long-term care, rehabilitation and prevention; services are largely free at the point of use, with co-payments mainly for outpatient medicines and adult dental care"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "DNK-covered-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "DNK-overview-001",
+        "statement": "Denmark's national health system covers about 5.9 million people; it is funded mainly from taxes and is organised on three levels of government: the state, the regions and the municipalities (2024 Health System Summary).",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 1846,
+          "char_end": 2041,
+          "passage_sha256": "15691b020485258fdb06db89410232c771b2d1248671c5a70b0097d518746bab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-overview-002",
+        "statement": "The state sets policy, regulates and allocates funds; five regions run hospitals and organise and pay for primary care; and 98 municipalities are responsible for rehabilitation, home and residential long-term care, and public health including local prevention (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 44974,
+          "char_end": 45473,
+          "passage_sha256": "1d0b7f90a7641e407f14a8a5fccdb2ab13131ad4fed05d5c50abd2561757ceab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-overview-003",
+        "statement": "Almost all hospitals are owned and run by the regions and must meet guarantees on waiting and treatment; when a guarantee cannot be met, the region has to offer treatment in another region, in the private sector or abroad. Self-employed GPs act as gatekeepers.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 45704,
+          "char_end": 46034,
+          "passage_sha256": "6ac6816265559357fe4c484f46d15b935bdd816baf354849243833fd7aaac89f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-overview-004",
+        "statement": "Public hospitals hold over 95% of hospital beds. Private clinics and hospitals have a small role, funded by patients themselves, by private insurers, or by regional contracts used to keep within waiting-time guarantees (2024 Health System Summary).",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 3711,
+          "char_end": 3941,
+          "passage_sha256": "0ef990485584fa20ba49ad3c8084a7884f5af0fd5847eb05910893b4e625dcaf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-overview-005",
+        "statement": "GPs are patients' first point of contact and gatekeepers to hospitals, specialists, physiotherapists, psychologists and some municipal services; 90% of all patient contacts are handled in primary care (2024 Health System Summary).",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 18578,
+          "char_end": 18849,
+          "passage_sha256": "9af0fe53680a093d6452d7ef336df2818aacc1340bca3ac407d5dd1572ac9649"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "DNK-financing-001",
+        "statement": "The state's main revenue is a progressive personal income tax on wages, while municipalities rely on a flat-rate local income tax, a flat-rate land tax and block grants from the state (2024 Health System Summary).",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 4750,
+          "char_end": 4971,
+          "passage_sha256": "c29bf1a5e98dbc179d52f7b6c03eb930821d35a9e56747706f76382e3d083d79"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financing-002",
+        "statement": "Personal income tax and the labour market contribution (arbejdsmarkedsbidrag) together provide more than half of the state's total revenue (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 74,
+          "char_start": 133744,
+          "char_end": 133892,
+          "passage_sha256": "98eca0661cc0bd8f73f8247998b5e7a3404beed2240afc24e300ebdc3997f599"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financing-003",
+        "statement": "Am-bidrag, the labour market contribution, is levied at 8% on all earnings from employment and deducted by employers before other taxes (Danish Tax Agency, 2026).",
+        "valence": "neutral",
+        "source_id": "skat-am-bidrag",
+        "locator": {
+          "section": "Full text",
+          "char_start": 79,
+          "char_end": 478,
+          "passage_sha256": "120b7c0cc01c6efbae32dd24473bed2d59c19326abc61c621d585e200d9a46b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financing-004",
+        "statement": "According to the Danish Tax Agency, the labour market contribution mainly finances the state's labour-market spending, such as unemployment benefits, further education and leave schemes.",
+        "valence": "neutral",
+        "source_id": "skat-am-bidrag",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1843,
+          "char_end": 2011,
+          "passage_sha256": "2d627dca002c1ecc953f6ed5744157e4ea34c729030f79b4f28b654ada25c84a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financing-005",
+        "statement": "The 2023 state income tax was progressive in two steps (12.1% basic, 15% top, applied to both earnings and capital income), and a tax ceiling stopped combined state and municipal income tax from exceeding 52.07% of income.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 75,
+          "char_start": 135200,
+          "char_end": 135476,
+          "passage_sha256": "c40c80b029f1c8df0118c15fca613d6b3061c79a6f5f0ed60ad85265c63a52a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-financing-006",
+        "statement": "Municipalities are funded by a flat local income tax (22.8% to 26.3% in 2022, depending on the municipality), a land tax (1.6% to 3.4% in 2022) and central government block grants; councils set their tax rates within limits negotiated with the state.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 75,
+          "char_start": 135824,
+          "char_end": 136171,
+          "passage_sha256": "fe396ed71c0cbb971fa0d495705d7c4ca21e5a580542bb707009f8ef27b78555"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DNK-financing-007",
+        "statement": "None of the taxes partly motivated by health (excise duties on spirits, tobacco, chocolate, ice cream and soft drinks) is earmarked for health care; a fat tax introduced in 2011 was abolished in 2013 (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 75,
+          "char_start": 135477,
+          "char_end": 135762,
+          "passage_sha256": "eb0a5016931e56eb66378bf93346ff910c1b642fb4449f8fe885ff713365806f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financing-008",
+        "statement": "In 2022 the regions drew 83% of their health care income from a state block grant, about 1% from state performance payments meant to reflect continuity of care, and 16% from activity-based payments by the municipalities in the region.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 77,
+          "char_start": 139984,
+          "char_end": 140314,
+          "passage_sha256": "8d326ced732b3027ad47c1ad62f6dd7ddb264f8acee75470b7005f6eec03049d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DNK-financing-009",
+        "statement": "In 2023, public sources paid for 83% of health spending (EU average 80%), out-of-pocket payments for 14% and voluntary health insurance for 3% (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 46775,
+          "char_end": 47183,
+          "passage_sha256": "e275f9300460714b4b12f220b5997d5b158813d94aee468f11cf5e7d830d31ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-financing-010",
+        "statement": "Individuals can buy voluntary insurance to smooth out-of-pocket costs, and employers can provide it to staff, but employer-provided cover can be taxable for the employee as a benefit (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 70,
+          "char_start": 127363,
+          "char_end": 127599,
+          "passage_sha256": "d14c4ee37829d856be32c516156cfe349f19feb49d3740d59794d3df7f79ac6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financing-011",
+        "statement": "Employer-paid health insurance covering all of a firm's staff was tax-free for employees from 2002 to 2012; the HiT authors say this could be seen as an indirect tax subsidy favouring the employed.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 83,
+          "char_start": 151710,
+          "char_end": 152203,
+          "passage_sha256": "acd66a0d18ffbcd891c54de088c3dd025a97b99c70ebb1fd551656e0fdabf54c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": "2002-2012",
+        "historical": true
+      },
+      {
+        "id": "DNK-financing-012",
+        "statement": "A 2011 study cited in the 2024 HiT review found that nine in ten people with supplementary insurance got it through their employer; the level stayed stable after the tax exemption was abolished, and in 2020, 7% paid individually.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 84,
+          "char_start": 154528,
+          "char_end": 154814,
+          "passage_sha256": "802ece7314640ecf1f76e289f389bd0c51f0ff64e55f9dc7ba8b277c659fbb34"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": "2011-2020"
+      },
+      {
+        "id": "DNK-financing-013",
+        "statement": "Out-of-pocket health payments cannot be deducted from taxable income (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 80,
+          "char_start": 147322,
+          "char_end": 147358,
+          "passage_sha256": "8723295e8b65a412ee4af4d2601c6eef3aed0ba03d9aee44519d3d0197eee794"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "DNK-covered-001",
+        "statement": "Under the 2007 Health Act, every legal resident registered in the national population register is entitled to health care, independently of any contributions; non-residents get acute but not elective care.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 72,
+          "char_start": 129516,
+          "char_end": 129802,
+          "passage_sha256": "c3b737a9d4965a447907f385ff029c5e53213303fa2885c56cf83252de192f27"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-002",
+        "statement": "Denmark has no explicit list of covered services: the 2007 Health Act describes the scope only broadly, and it includes primary and preventive care, specialist and hospital care with medicines for inpatients, mental health, long-term care, and dental care for those under 22 (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 72,
+          "char_start": 129942,
+          "char_end": 130304,
+          "passage_sha256": "42f9b5d659e5f4b61a5042cc944ba540381c0d62fdc795a1249c6daef49befa3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-003",
+        "statement": "Residents choose between two options: in group 1, specialist care is free after a GP referral; group 2 allows direct access to specialists but with co-payments. About 99% of residents are in group 1 (Commonwealth Fund profile, 2026).",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5197,
+          "char_end": 5522,
+          "passage_sha256": "910ff4d544b54d1633404377b6035251323aaeb812b21e3d8ec6904f3b133c19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-004",
+        "statement": "Non-residents and undocumented migrants are entitled to emergency but not elective care; asylum seekers receive 'necessary' care, funded by the Danish Immigration Service, covering urgent treatment to prevent a life-threatening injury, serious deterioration or a condition becoming chronic.",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4845,
+          "char_end": 5194,
+          "passage_sha256": "e6fc36a86530fab4888c875d9faf52d1064466d21c6d638144956591ffff7329"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-005",
+        "statement": "Public coverage is very high for inpatient and outpatient care, but coverage of pharmaceuticals is below the EU average and dental coverage remains fairly limited (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 87427,
+          "char_end": 87697,
+          "passage_sha256": "5356ee99f133a295fd7203f9d0faa06c2e1143fa0e8ca83f429d8058ece4c55c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-006",
+        "statement": "Since 2021, specified groups, including adults over 18 with mild to moderate depression or anxiety, victims of certain crimes and relatives of people with serious mental illness, can receive psychological treatment with a 60% subsidy after a doctor's referral.",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 19628,
+          "char_end": 20238,
+          "passage_sha256": "a3990662491549c4b1f67293c61d9d30340f97ed6941827bffe856fe55b8b45f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-007",
+        "statement": "Whether a new intervention joins the implicit benefits package is not transparent: clinicians can generally introduce new techniques if they stay within budget and national specialty planning does not cover the intervention (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 72,
+          "char_start": 130593,
+          "char_end": 130851,
+          "passage_sha256": "d275c98445860536c033d6baf0e471b196777178f46b1b1725ffafbb134ded5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-008",
+        "statement": "Each region chooses the treatments it offers, with few restrictions on evidence-based care, guided by Danish Health Authority guidelines, medicine assessments by the Danish Medicines Council and assessments of other technologies by the Danish Health Technology Council; HTA itself is done at regional level.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 54,
+          "char_start": 97667,
+          "char_end": 98097,
+          "passage_sha256": "126be85ba1e4b40420c1e04b7539c1dd1cb05e4d5c3ca9c423d07f32c039a492"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-covered-009",
+        "statement": "Experimental or costly new medicines are not covered systematically (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 74,
+          "char_start": 134747,
+          "char_end": 134841,
+          "passage_sha256": "3ad4be6d131ecd9e856708920dda0e22290a8cebdfc8aafb217950381f49462c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "DNK-cost_sharing-001",
+        "statement": "Patients pay nothing for primary care, hospital care, maternity and hospice care, permanent home care, cancer screening, childhood vaccinations, or dental care for under-22s (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 73,
+          "char_start": 132667,
+          "char_end": 132875,
+          "passage_sha256": "e87b52fa9caa67f212e4779ce4dd128289d38cc4f7a64ca36cb8d4ddb452485e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-cost_sharing-002",
+        "statement": "Adult dental care carries a co-payment of 35-60%; patients also share the cost of outpatient prescriptions, nursing-home and temporary home care, glasses and lenses, and vaccines for travel (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 73,
+          "char_start": 132876,
+          "char_end": 133103,
+          "passage_sha256": "d09d4dfeda015c6c8162eb9c3d4530cf068cc94e47271346380ee527f8308347"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-cost_sharing-003",
+        "statement": "For reimbursable prescription medicines in 2026, adults pay the full price of their first DKK 1,135 of annual spending, then 50%, 25% and 15% in successive bands, and nothing above DKK 22,596 of spending, so an adult's co-payment is capped at DKK 4,850 a year; under-18s get 60% reimbursement from the first krone, with the same cap.",
+        "valence": "neutral",
+        "source_id": "lmst-thresholds",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3964,
+          "char_end": 4456,
+          "passage_sha256": "f0f2818644b88f191db3f56df235833f0e5e70c85bc4bb8b3164bf09a1981c5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DNK-cost_sharing-004",
+        "statement": "Only co-payments for outpatient medicines are capped; there is no limit on charges in other areas such as dentistry and some other outpatient services (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 80,
+          "char_start": 147359,
+          "char_end": 147494,
+          "passage_sha256": "0a1aca7453dd6eb8c22ad741d353d65f640bc878f961c23622f95c9bc8046090"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-cost_sharing-005",
+        "statement": "The state sets user charges without uniform principles; charges grew out of historical choices, and many charges and subsidies do not vary with the patient's income (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 80,
+          "char_start": 147644,
+          "char_end": 148157,
+          "passage_sha256": "484b663e45ea5a7cb78ded7ca47ef1da47762622c7bc850a55e85e17aff6e71a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-cost_sharing-006",
+        "statement": "Permanent home care costs nothing, temporary care may involve co-payments linked to income, and people in nursing homes or sheltered housing pay part of the cost, low-income residents from their pension (Commonwealth Fund profile).",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21577,
+          "char_end": 21823,
+          "passage_sha256": "6e8f6454586ed9951bd16fe6691463be250844a7f3cddac233fce2747b1d7eaa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-cost_sharing-007",
+        "statement": "A register study of all adults living in Denmark in 2020 found that people with five or more chronic conditions spent on average EUR 320 out of pocket on prescription medicines, compared with EUR 187 for those with two conditions and EUR 44 for those with none.",
+        "valence": "neutral",
+        "source_id": "oop-multimorb-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1450,
+          "char_end": 2051,
+          "passage_sha256": "feba23f1dbf54e1b0e5956e4e13dac6ec3a8ad7a9d159599c280929e6a0f8380"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2020
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "DNK-financial_hardship-001",
+        "statement": "The 2024 HiT review says financial protection appears to be high, but notes that Denmark has no national data on households' capacity to pay or on impoverishing or catastrophic health spending.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 148,
+          "char_start": 289372,
+          "char_end": 289692,
+          "passage_sha256": "690fea2e9c9fc431aff088139d44d5d74c90e19f86f419779c32d9fa3faef9d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-financial_hardship-002",
+        "statement": "The debt counselling service of the Danish Consumer Council Taenk reports that, among its clients in 2021-2023, debt problems were often triggered by a life crisis such as illness, divorce or unemployment.",
+        "valence": "neutral",
+        "source_id": "taenk-gaeld-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 5,
+          "char_start": 3940,
+          "char_end": 4077,
+          "passage_sha256": "339510c0f30edad89727e7b9edbf39182988213406ffce5a876d7385b589408e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": "2021-2023"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "DNK-additional_care-001",
+        "statement": "In 2023, about 48% of the population had voluntary private health insurance, mainly covering co-payments and reimbursement for private care such as dental care and outpatient prescriptions (Commonwealth Fund profile).",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6943,
+          "char_end": 7157,
+          "passage_sha256": "c808c1598c11191b3174e39be8cc1d4f4f076723a1e95f3021f947ab4c0cc12f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-additional_care-002",
+        "statement": "The dominant voluntary insurer is the non-profit mutual association 'danmark', which the 2024 HiT review reports covers about half of dental care and 14% of out-of-pocket spending on outpatient prescription medicines; its premiums are not tax-deductible.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 83,
+          "char_start": 152575,
+          "char_end": 152794,
+          "passage_sha256": "67262827430021cd84be10a0edd29eb4d621b82a92b5a5ea410cae9c6fcd5d49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-additional_care-003",
+        "statement": "Membership of 'danmark' reached 2.7 million (46% of inhabitants) in 2023, making complementary cover the most common form of voluntary insurance in Denmark.",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 84,
+          "char_start": 153669,
+          "char_end": 153919,
+          "passage_sha256": "bfecbaf4d3414a9269440a415d61253df74bc2211a0b81598a2d35a853b980ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-additional_care-004",
+        "statement": "'danmark' can reject applicants who do not meet its conditions, which include being under 60 and otherwise mainly concern health status (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 83,
+          "char_start": 153395,
+          "char_end": 153657,
+          "passage_sha256": "a2d43c1d6463680dc92789dd64fc844aa7ab52561f4c363ecb8a1ef30f536674"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-additional_care-005",
+        "statement": "A second type of voluntary insurance, mostly employer-funded, appeared in the early 2000s and is now fairly standard in employment contracts; it typically pays for private hospital and clinic care, physiotherapy and other care, and about 2.9 million Danes have it (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 49839,
+          "char_end": 50118,
+          "passage_sha256": "68abb3679acedf99524985785f4fd225e5353162969b92d7d8d3a66427e2af26"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-additional_care-006",
+        "statement": "Voluntary insurers set premiums competitively and can refuse applicants; they buy care from private specialists and hospitals in Denmark or abroad (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 85,
+          "char_start": 155502,
+          "char_end": 155774,
+          "passage_sha256": "67143d6fc1825d030058b2c8abda746f7243557528f6907239b54b49fbcb062a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-additional_care-007",
+        "statement": "A 2023 agreement between the government and the regions cut the price the public sector pays private hospitals and clinics by 10% until June 2025 and allowed private hospitals to offer more specialised treatments where waiting lists were long, which had previously been forbidden.",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 25710,
+          "char_end": 26162,
+          "passage_sha256": "99f2ab1e4666b459ac83e7351b8c99993e31d05fdd84aa478c32efbde4625f53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "DNK-access-001",
+        "statement": "The law guarantees diagnosis within 30 days and treatment within a further 30 days; if the region cannot meet this, it must offer an alternative provider (2024 HiT review).",
+        "valence": "neutral",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 72,
+          "char_start": 130852,
+          "char_end": 131085,
+          "passage_sha256": "ec9bb809ad793e873e3d4c4a220b29dba0a97d0a02f9aa6b8dc456730ee81606"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-access-002",
+        "statement": "In 2024, 3.9% of Danish adults with medical needs reported unmet needs because of cost, travel distance or waiting times (EU average 3.6%); among people at risk of poverty the share was 7.3%, most often because of waiting times.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 85577,
+          "char_end": 85981,
+          "passage_sha256": "9d4d0249ca82cb63cdf36e89609a9a1808ef07c4f323a95fd8b9647c564ef293"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DNK-access-003",
+        "statement": "Doctors per 1,000 people grew from 3.7 in 2013 to 4.5 in 2023, but GPs make up a shrinking share: there are 0.7 per 1,000 people versus an EU average of 0.9. Training posts in general medicine rose 35% over 2018-2020.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 59817,
+          "char_end": 60252,
+          "passage_sha256": "5b2e19d41eaa90e37ceb3d462311101a1eeca3a4edbe15ddb429bc1e565fd114"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-access-004",
+        "statement": "Teleconsultations stayed at close to two per person a year in 2021 and 2022, fell slightly in 2023, and made up about a quarter of all doctor consultations in 2023; video consultations became a permanent option in 2022.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 104533,
+          "char_end": 104893,
+          "passage_sha256": "e1afa439ed9562c9f77f8ad089056f55a408886017a4711786b28f3ec1ad1f87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-access-005",
+        "statement": "Doctor density differs between regions, highest in the Capital Region and lowest in Zealand and Northern Denmark, and some areas within regions are less well served (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 86682,
+          "char_end": 86963,
+          "passage_sha256": "9b895828daa238770768856665edb06c0a1705f00825fab179739207a59b0507"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "DNK-outcomes-001",
+        "statement": "Life expectancy at birth was 82.3 years in 2024, slightly above the EU average, and unlike most EU countries Denmark had no significant fall during the COVID-19 pandemic.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 4492,
+          "char_end": 4677,
+          "passage_sha256": "b9aaec641bc87e05e0d232aa62a5ef0bbe092565ab934f067a2864b2b2471473"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DNK-outcomes-002",
+        "statement": "In 2022, death rates from treatable and preventable causes were well below EU averages but higher than in most other Nordic countries (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 5534,
+          "char_end": 5687,
+          "passage_sha256": "3c69f03792ef6d2e935b512ab5e281a22fc2a0c50655a766a1344d119db04374"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DNK-outcomes-003",
+        "statement": "In the GBD 2019 study, Denmark's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 85.5 (95% uncertainty interval 83.4-87.4) in 2019, 16.1 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 43623,
+          "char_end": 43789,
+          "passage_sha256": "1645cbaaa4aebda3836d956f42f8a30fee362a8eb88f4c80b3393a06694a7d4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "DNK-outcomes-004",
+        "statement": "Hospital admission rates remain high for asthma and COPD, conditions that could be managed effectively outside hospital, while admissions for diabetes and congestive heart failure are below the average of the 24 EU countries with data (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 73341,
+          "char_end": 73696,
+          "passage_sha256": "464d2d561885bead94d8b5ba2b64a0e97c15574935446b7469b3bf112a14bea0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-outcomes-005",
+        "statement": "In the 2021 patient experience survey, covering more than 120,000 patients in its first three care areas, 86% were very satisfied with their hospital stay overall; among acute inpatients the figure was 67%.",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 35575,
+          "char_end": 36062,
+          "passage_sha256": "bcae4cfe09075753575473271ddd013a96e8c6324552cddf01621f3768ed5d0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "costs": [
+      {
+        "id": "DNK-costs-001",
+        "statement": "In 2023 Denmark spent EUR 4,173 per person on health, adjusted for purchasing power, 9% more than the EU average of EUR 3,832, but 9.5% of GDP, below the EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 46099,
+          "char_end": 46410,
+          "passage_sha256": "eac374c29632d5ac4a959266487e6709f437a396c18945a71cd1a10f1a1c76d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-costs-002",
+        "statement": "Health spending as a share of GDP in 2023 was below its pre-pandemic level of over 10%, because GDP grew strongly while health spending grew modestly (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 46423,
+          "char_end": 46686,
+          "passage_sha256": "c23b2fd8e75ca1af3f97ffed0b11e7a50dfcd5032780b70b71a9f51f769cdfbb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-costs-003",
+        "statement": "In 2023, outpatient care took 38% of health spending and inpatient care 22%, unlike the similar shares typical in the EU; long-term care took 21% and pharmaceuticals and medical devices 12%, against an EU average of 18%.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 50196,
+          "char_end": 50628,
+          "passage_sha256": "03a6a4786c5a921e488966fb07c7783d73b7c5912ff64696006ce211bae2a34b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-costs-004",
+        "statement": "Total health expenditure was DKK 278 billion (about USD 44 billion) in 2024 (Commonwealth Fund profile).",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 22588,
+          "char_end": 22689,
+          "passage_sha256": "69be71d3a9b077cd17a4c557d739039a5247f968d135ce36145a542d82c3249a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DNK-costs-005",
+        "statement": "The Commonwealth Fund profile lists three ways spending is held down: global budgets for regions and municipalities, joint buying of generic drugs, and incentives to treat patients as outpatients instead of admitting them.",
+        "valence": "neutral",
+        "source_id": "cwf-dnk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 25196,
+          "char_end": 25405,
+          "passage_sha256": "be6b3efe42f2769dbb7b590bb029d9abada495920e06c266e1418c65a2061646"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "DNK-what_works-001",
+        "statement": "The Observatory judges the system to have good capacity to make and carry out policy, citing effective measures to control spending and raise activity and a COVID-19 response with very limited excess mortality (2024 Health System Summary).",
+        "valence": "strength",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 4171,
+          "char_end": 4651,
+          "passage_sha256": "868220e9cc75ff3d02dfedd76402bd9051ad4f364ca5b74d9f96de9ee14f3289"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-what_works-002",
+        "statement": "Age-standardised survival for all cancers rose from 59% to 74% for women and from 54% to 72% for men between diagnoses in 2002-06 and 2017-21; by 2017-21 women's survival matched Finland, Norway and Sweden, while men's was above Finland (70%) but below Norway (77%) and Sweden (78%).",
+        "valence": "strength",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 79614,
+          "char_end": 80022,
+          "passage_sha256": "08a1847f34861a77e904c4729d58a0a8002f8ce5d814d39559da96fa6bdf7a97"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": "2017-2021"
+      },
+      {
+        "id": "DNK-what_works-003",
+        "statement": "Denmark had among the best 30-day mortality rates after hospital admission for heart attack in Europe in 2019; the Observatory attributes the marked improvement over the preceding decade to investment in acute care and policies targeting heart disease mortality.",
+        "valence": "strength",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 34677,
+          "char_end": 35018,
+          "passage_sha256": "992e12e764d946197ad34b6708e13252407bab33d82757124d0f29748db948f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "DNK-what_works-004",
+        "statement": "The Observatory sees general practice as key to the system's cost-effectiveness: GPs are well spread and easy to reach, patients are very satisfied with them, and continuity is good (2024 Health System Summary).",
+        "valence": "strength",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 19996,
+          "char_end": 20210,
+          "passage_sha256": "24e32ff24c3e68753a2613318fd90ba32d36d3a6edc418a85fcc88faffd01344"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-what_works-005",
+        "statement": "Retail pharmaceutical spending was EUR 315 per person in 2023 against an EU average of EUR 510 (purchasing-power adjusted), among the lowest in the EU, partly because of mandatory generic substitution and reference pricing that ties reimbursement to the cheapest alternative.",
+        "valence": "strength",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 122944,
+          "char_end": 123556,
+          "passage_sha256": "52006e33f08442057f4ba7c38bb545ce5ddb551295f820dc7253171aaebe0112"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-what_works-006",
+        "statement": "According to the EFPIA WAIT indicator cited in the 2025 Country Health Profile, Denmark took an average of 339 days to reimburse medicines approved by the EMA in 2020-2023, against an EU average of 578 days; by January 2025, 38% of those medicines were covered (EU average 40%).",
+        "valence": "strength",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 135868,
+          "char_end": 136350,
+          "passage_sha256": "f3c9fac302139d46bbb857e1160d9bc6b6327dacebc0610b4811a0347d42402b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DNK-what_works-007",
+        "statement": "Digital messaging fully covers referrals, discharge letters and lab results, and the citizen portal sundhed.dk, which gives access to records, test results, vaccination history and e-prescriptions, has over 3 million visits a month (2025 Country Health Profile).",
+        "valence": "strength",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 110332,
+          "char_end": 110653,
+          "passage_sha256": "b686918a667099a663ac38c0a00e97b9a89f37c5d59fc39ce12d17148e960152"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-what_works-008",
+        "statement": "Most residents live near a hospital and none is more than 50 km from a hospital with an emergency department; specialised services are concentrated in larger cities, but good transport means this is not a major barrier to access (2024 Health System Summary).",
+        "valence": "strength",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 16737,
+          "char_end": 17120,
+          "passage_sha256": "c745aea345f07acdcea7549809f7a011dcc59e114182133dd1d8ffd300d1ef94"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "DNK-problems-001",
+        "statement": "Over 9% of people reported unmet dental care needs in 2024, rising to 21.5% among people at risk of poverty, who mostly cited cost; apart from extending free dental care, no recent measure has made dental care cheaper.",
+        "valence": "weakness",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 86126,
+          "char_end": 86459,
+          "passage_sha256": "14c78b8b50b48ebe1095710d36881f796cef18ebb5a0be9e8197a1b8b368cfb7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DNK-problems-002",
+        "statement": "Only 42% of retail pharmaceutical spending is publicly covered, one of the lowest shares in the EU and well below the EU average of 62%; over-the-counter medicines, nearly a third of retail spending, are not covered, while medicines used in hospital are fully covered (2025 Country Health Profile).",
+        "valence": "weakness",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 123639,
+          "char_end": 124034,
+          "passage_sha256": "8a526a8760ecf1f6bc7c157da7cba7f82eeb4b235bc15ec86a3fdb226ae8f5ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-problems-003",
+        "statement": "About 4,700 nursing posts, around 10% of all positions and mostly in hospitals, were unfilled in 2022, partly as nurses moved from hospitals to community care.",
+        "valence": "weakness",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 103816,
+          "char_end": 104052,
+          "passage_sha256": "b0e6ba8e019ce30f6c6dde8c45da7cbddde606cdd9db8ee0d1b454b798899252"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DNK-problems-004",
+        "statement": "In 2018 an estimated 1.8 million people lived in areas with low GP coverage, according to PLO as cited in the 2024 HiT review.",
+        "valence": "weakness",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 115,
+          "char_start": 218649,
+          "char_end": 218757,
+          "passage_sha256": "acf504d2e3760e499aca0cc413c8bb8a3c64854235b2e3bd6f9e7a5f8bee9727"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DNK-problems-005",
+        "statement": "Average waits for elective surgery fell between 2005 and 2019 but have risen since; the number of patients waiting grew during the COVID-19 pandemic, a rise accelerated by the nurses' strike in summer 2021 (2024 HiT review).",
+        "valence": "weakness",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 27,
+          "char_start": 46684,
+          "char_end": 46954,
+          "passage_sha256": "2f62f49b6bdeec5bf5551479fdabdf3add8c3628217bbaaeef72558a3281891b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-problems-006",
+        "statement": "The Observatory finds that, despite effective provision of good-quality care and high patient satisfaction, the decentralised system, with care delivered by regions, municipalities and private providers, struggles with coordination and fragmentation.",
+        "valence": "weakness",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 42455,
+          "char_end": 42733,
+          "passage_sha256": "77897e33e616918ee5f1c9f15bba94ca3da5f957dd184bfabfa294ac57c62eee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-problems-007",
+        "statement": "Only about 2% of health spending went to prevention in 2023, well below the EU average of 4% (2025 Country Health Profile).",
+        "valence": "weakness",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 50758,
+          "char_end": 50880,
+          "passage_sha256": "c2b944ec95f25a92ba79d373e5df0938196e370b24e5105c16a033bbd05a87d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DNK-problems-008",
+        "statement": "The HiT authors describe user charges as inherently regressive, and note they may reduce use of expensive care such as dentistry (2024 HiT review).",
+        "valence": "weakness",
+        "source_id": "hit-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 75,
+          "char_start": 136919,
+          "char_end": 137213,
+          "passage_sha256": "b46f4daca995dd570b1b30adb9b53c0b50ca07576446bfbfe66db8d75d359f03"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "DNK-reforms-001",
+        "statement": "On 15 November 2024 the government announced a health reform agreement backed by the three governing parties and four other parties, building on two expert commission reports from November 2023 and May 2024.",
+        "valence": "neutral",
+        "source_id": "hspm-dnk-mosaic",
+        "locator": {
+          "section": "Full text",
+          "char_start": 705,
+          "char_end": 1118,
+          "passage_sha256": "bf09f5b1a6e3e04de5632ffdb7f985b9be74f9cf42e5b1581007ed55baf100a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-002",
+        "statement": "The reform will cut the number of regions from five to four by merging the Capital Region and Region Zealand into Region East Denmark, with about 2.7 million inhabitants, roughly half the population.",
+        "valence": "neutral",
+        "source_id": "hspm-dnk-mosaic",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1454,
+          "char_end": 1724,
+          "passage_sha256": "9e09cce0d218985c04e6f157bf029b696a87af4ac10283309af0258bdac9579b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-003",
+        "statement": "Seventeen health councils of regional and municipal politicians, funded through the regional councils, will take operational responsibility for health and hospitals from the regions and for specialised home nursing, rehabilitation and local acute care from the municipalities.",
+        "valence": "neutral",
+        "source_id": "hspm-dnk-mosaic",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1725,
+          "char_end": 2347,
+          "passage_sha256": "033fb2af13bd7b8c3c8f0663e81d4f6e14d342c8ce5111adf65313a530e731fd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-004",
+        "statement": "The reform will establish a National Prioritization Council to make priority-setting across primary and specialised care cross-sectoral, transparent and systematic, and will introduce new patient rights that extend to primary and digital care.",
+        "valence": "neutral",
+        "source_id": "hspm-dnk-mosaic",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3651,
+          "char_end": 3909,
+          "passage_sha256": "ced29537b86a3cbd138fd6324b3560b0491f30f66ec6f4967178ceb5bff71e1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-005",
+        "statement": "The new administrative structure takes effect on 1 January 2027 (Health Systems and Policy Monitor, November 2024).",
+        "valence": "neutral",
+        "source_id": "hspm-dnk-mosaic",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3937,
+          "char_end": 4005,
+          "passage_sha256": "a5168bc2b9828bf60fdc687c7cf787ce38b1557b4330e27f1a7e71877774ce65"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-006",
+        "statement": "Under the reform, annual operating funds will rise by DKK 6.4 billion by 2030, two-thirds earmarked for local services, and the target is at least 5,000 GPs by 2035, up from 3,500 in 2024 (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 105758,
+          "char_end": 106257,
+          "passage_sha256": "69bdd1c8f5f41d0d4e0dbf3249dccaed9cceaff4eee4afda88b7e9fcd9bbf0b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-007",
+        "statement": "The reform aims to introduce a national model for distributing GP practice licences by patient need and higher fees for GPs whose patients need more care, and will let regions open their own clinics or tender practices to private companies or municipalities, though GP-owned practices are expected to stay dominant.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 109451,
+          "char_end": 109938,
+          "passage_sha256": "4d8a6917b11ea38a384dec509ab601f72b1e96a76909c0d108042fca93670bbc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        }
+      },
+      {
+        "id": "DNK-reforms-008",
+        "statement": "In 2025 the government and PLO agreed a framework for legislation; under the draft bill, GPs with fewer sick patients would take on more patients, DKK 482 million will be allocated for 2027-2032 to compensate GPs who take on more patients, and a new council with four GPs among its eight members will advise on GP tasks.",
+        "valence": "neutral",
+        "source_id": "hspm-dnk-gp",
+        "locator": {
+          "section": "Full text",
+          "char_start": 977,
+          "char_end": 1949,
+          "passage_sha256": "b8365fb573179aeb700830392e72c546604d957b8da026d147eac2512acd30c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DNK-reforms-009",
+        "statement": "In 2019, activity-based funding of the regions was replaced by 'proximity financing', a pay-for-performance scheme designed to move care out of hospitals into primary, local and digital settings.",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 29025,
+          "char_end": 29272,
+          "passage_sha256": "7abb812c7759a3d617439a7688f36fb15e4f34d822bb1acca43762eabbbcff77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "DNK-reforms-010",
+        "statement": "In 2017 the Danish Regions set up the Danish Medicines Council to support priority decisions, especially on expensive hospital medicines; a Danish Health Technology Council followed in 2021.",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 28546,
+          "char_end": 28828,
+          "passage_sha256": "da00c373db86484efa2d4026eef609347fbdbe090da5804baab9d0cf59a8b111"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "DNK-reforms-011",
+        "statement": "In December 2022, psychiatry was prioritised for the following 10 years, with a new mental health plan funded at DKK 4 billion a year.",
+        "valence": "neutral",
+        "source_id": "hss-dnk-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 27444,
+          "char_end": 27620,
+          "passage_sha256": "f8e28ceea5c8887243dbfbca0375dcd311cbbe68ee1dff7fc2ab8ac17ca8fe2b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DNK-reforms-012",
+        "statement": "Since April 2025, under-18s may not buy drinks above 6% alcohol, but 16- and 17-year-olds can still buy weaker drinks such as beer.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 66772,
+          "char_end": 67073,
+          "passage_sha256": "64ff10f96e2eb277636c109dbfa6345a738cd5ca9868ee40d0f275161844f4ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DNK-reforms-013",
+        "statement": "The National Cancer Plan, running since 2000, entered a fifth phase in 2025 with DKK 600 million a year and 36 initiatives spanning early detection, treatment and survivorship.",
+        "valence": "neutral",
+        "source_id": "chp-dnk-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 74272,
+          "char_end": 75092,
+          "passage_sha256": "f56f903b61e1e418fd353d55d2bcd28a6c66cd88cc2daf4a31c6dcb357134a5e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by an independent reviewer agent, three rounds)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/DNK.json",
+  "sources": [
+    {
+      "id": "chp-dnk-2025",
+      "title": "State of Health in the EU: Denmark, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-denmark-final-web.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hss-dnk-2024",
+      "title": "Denmark: Health System Summary 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Birk HO, Vrangbæk K, Rudkjøbing A, Krasnik A, Horschig M, Eriksen A, Richardson E, Jervelund SS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/denmark-health-system-summary-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/3cc7c187-9d17-4f31-b5e7-464f80e9c5fe/content",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hit-dnk-2024",
+      "title": "Denmark: Health System Review (Health Systems in Transition, 2024)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Birk HO, Vrangbæk K, Rudkjøbing A, Krasnik A, Eriksen A, Richardson E, Jervelund SS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/denmark-health-system-review-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/b0992867-dee5-45fa-80b6-1e008fd353c0/content",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hspm-dnk-mosaic",
+      "title": "A comprehensive mosaic reform to strengthen primary and chronic care capacity (HSPM policy analysis, Denmark, 25 November 2024)",
+      "publisher": "European Observatory on Health Systems and Policies, Health Systems and Policy Monitor",
+      "authors": "Vrangbæk K, Jervelund SS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/denmark-2024/a-comprehensive-mosaic-reform-to-strengthen-primary-and-chronic-care-capacity",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hspm-dnk-gp",
+      "title": "Reform of general practice: balancing patient load and professional input (HSPM country update, Denmark, 26 September 2025)",
+      "publisher": "European Observatory on Health Systems and Policies, Health Systems and Policy Monitor",
+      "authors": "Jervelund SS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/denmark-2024/reform-of-general-practice-balancing-patient-load-and-professional-input",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cwf-dnk",
+      "title": "International Health Care System Profiles: Denmark",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/denmark",
+      "doi": "10.26099/Z5ZV-0F68",
+      "funding_note": "Private US foundation; profile researched and written by FT Longitude on the Fund's behalf (data as of January 2026).",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "lmst-thresholds",
+      "title": "Reimbursement thresholds (2026)",
+      "publisher": "Lægemiddelstyrelsen (Danish Medicines Agency)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://laegemiddelstyrelsen.dk/en/reimbursement/reimbursement-thresholds",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "skat-am-bidrag",
+      "title": "Labour market contribution (am-bidrag)",
+      "publisher": "Skattestyrelsen (Danish Tax Agency)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://skat.dk/en-us/individuals/labour-market-contribution",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "oop-multimorb-2025",
+      "title": "The association between multimorbidity and out-of-pocket expenditure for prescription medicines among adults in Denmark: A population-based register study",
+      "publisher": "Research in Social and Administrative Pharmacy",
+      "authors": "Larkin J, Smith SM, Christensen LD, Voss TS, Vestergaard CH, Paust A, Prior A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.sapharm.2025.03.009",
+      "doi": "10.1016/j.sapharm.2025.03.009",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40121125&rettype=abstract&retmode=text",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "taenk-gaeld-2024",
+      "title": "Nøgletal 2021-2023 for Forbrugerrådet Tænks Økonomi- og Gældsrådgivning (key figures of the debt counselling service, 2021-2023)",
+      "publisher": "Forbrugerrådet Tænk (Danish Consumer Council Tænk)",
+      "tier": 3,
+      "type": "other",
+      "year": 2024,
+      "url": "https://gaeld.taenk.dk/system/files/2024-05/N%C3%B8gletal_2021-2023_FINAL.pdf",
+      "funding_note": "Independent consumer organisation reporting on clients of its own free debt counselling service; not a population sample, and causes are reported as triggers, not as medical bills.",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created: 87 claims from 11 sources, anchored and support-reviewed in a separate cold pass (three rounds); 33 statements reworded or re-anchored in review (details from outside the passage, overstatement, planned reforms stated as done, dates and scope)."
+    }
+  ]
+}

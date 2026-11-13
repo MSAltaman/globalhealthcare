@@ -1,0 +1,1900 @@
+{
+  "iso3": "NZL",
+  "name": "New Zealand",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health system: the Ministry of Health sets policy and Health New Zealand (Te Whatu Ora) runs public hospitals and funds primary and community care nationally since 2022; GPs are private practices paid capitation plus patient fees, Pharmac buys medicines within a fixed budget, and the Accident Compensation Corporation covers injuries on a no-fault basis"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "NZL-covered-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "NZL-overview-001",
+        "statement": "New Zealand gives permanent residents universal coverage through a publicly funded system paid for from general taxation and overseen by the Ministry of Health (Manatū Hauora); it covers inpatient and outpatient care, mental health care, long-term care and prescription medicines (Commonwealth Fund profile, data as of January 2026).",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 773,
+          "char_end": 1173,
+          "passage_sha256": "d55937f27141cf7278758b6c9c3aed4f38a663e4c5c066a3ecb4fdd1c62eb578"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-overview-002",
+        "statement": "Eligible residents are covered automatically and do not have to enrol in a public insurance plan.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6651,
+          "char_end": 6771,
+          "passage_sha256": "800a9f6ffddc5d5e11a6b3bb6cfb7b3830776a52d20faf791573c73299f1ccca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-overview-003",
+        "statement": "The system is mainly publicly funded and gives universal coverage, while care is delivered by a mix of public, private and not-for-profit (voluntary) organisations (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 69,
+          "char_start": 144831,
+          "char_end": 145081,
+          "passage_sha256": "d262903dbe019922b0da797385452951937f075dd18df0e8b7870a4dd0553397"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-overview-004",
+        "statement": "Since 2022, planning and delivery of public health care have been run centrally by Health New Zealand, which took over from the district health boards; it runs public hospitals and health centres and works with private and non-profit providers to meet national goals.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 9777,
+          "char_end": 10071,
+          "passage_sha256": "1ae36104725486597ea929b05d58f552dffe5ae6b0e6807f7b1567f823c212cd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-overview-005",
+        "statement": "Pharmac (Te Pātaka Whaioranga) chooses, prices and subsidises publicly funded medicines, and the Accident Compensation Corporation (ACC) pays for treatment and rehabilitation after accidental injuries.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 10134,
+          "char_end": 10343,
+          "passage_sha256": "edb9ec688e95c7d2db8f21d08fa3ed69092397face2a475388b200a701da38ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "NZL-financing-001",
+        "statement": "Public health revenue comes from general taxation, mainly pay-as-you-earn income tax, company tax and the Goods and Services Tax (GST, a value-added tax); part of general tax revenue is allocated to the health budget each year, and a second compulsory stream comes through ACC, funded by a mix of taxes and levies (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 127,
+          "char_start": 278403,
+          "char_end": 278819,
+          "passage_sha256": "8165e3dd6956460e17c7c012b0ebeda65baade9c75e2882ccf364ef746699d76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-002",
+        "statement": "As of 2022, personal income tax was progressive, with four PAYE rates from 10.5% to 39%, and earnings also carried an ACC levy of 1.39 per 100 of income, up to NZ$1,820 a year (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 127,
+          "char_start": 278995,
+          "char_end": 279253,
+          "passage_sha256": "6832e426397589945aa555ee3437a3ec4d14a87d3d144a575ebb7f90dd872ec3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-financing-003",
+        "statement": "The 2022 Health System Review judged that progressive income tax is offset in part by the regressive GST, because lower-income people spend a larger share of their income, and that the absence of a capital gains tax further reduces progressivity.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 292,
+          "char_start": 679117,
+          "char_end": 679414,
+          "passage_sha256": "5cf698b47037894f7bcf890758f863b95de749c58a92e6c27390ac19f5038a31"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-004",
+        "statement": "Of total health spending of US$25.2 billion in 2022, government sources paid 81.3% (US$20.5 billion), out-of-pocket payments 11.6% (US$2.93 billion) and voluntary spending such as private insurance 7.1% (US$1.78 billion) (Commonwealth Fund profile).",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21409,
+          "char_end": 21765,
+          "passage_sha256": "3d1caf47b76a4d6e912b867fb5a8e02dc6a26ffc4ac90332f592d5509e695bfd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-financing-005",
+        "statement": "Per person in 2022, government health spending was US$3,920, out-of-pocket spending US$560 and prepaid private spending US$341.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21766,
+          "char_end": 21928,
+          "passage_sha256": "338c7d339b136c14b07c2d1cec1c897909e1dc2dec3ce1f173af033500f6488d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-financing-006",
+        "statement": "Vote Health totals NZ$33,031 million in 2026/27.",
+        "valence": "neutral",
+        "source_id": "vote-health-2026",
+        "locator": {
+          "section": "Full text",
+          "page": 2,
+          "char_start": 432,
+          "char_end": 575,
+          "passage_sha256": "9c07e3558ce5e9dfbd5de32f72e61c1b82e0ab4be01925d114a562ca6117e169"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-007",
+        "statement": "Of Vote Health in 2026/27, NZ$15,995 million (48%) goes to Health New Zealand for hospital and specialist services, NZ$10,348 million (31%) mainly for primary, community, public and population health services, NZ$3,731 million (11%) to capital investment, and NZ$1,839 million (6%) to Pharmac, of which NZ$1,807 million buys medicines.",
+        "valence": "neutral",
+        "source_id": "vote-health-2026",
+        "locator": {
+          "section": "Full text",
+          "page": 2,
+          "char_start": 1353,
+          "char_end": 1923,
+          "passage_sha256": "0112bb966adc27636abc4e162078e24197b26c7cc2f02164c6104af10630b64c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-008",
+        "statement": "ACC levies are collected separately from general tax and are paid by employers, employees, self-employed people and vehicle owners: employers deduct employees' levies from wages, and motorists pay through petrol and vehicle licence fees.",
+        "valence": "neutral",
+        "source_id": "acc-levy-business-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1199,
+          "char_end": 1620,
+          "passage_sha256": "d72e8976e59d7007ac728d5b0896bd7d787502bbb36843941ba371ad6e7405f9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-009",
+        "statement": "The ACC earners' levy, paid on wages, is NZ$1.45 per NZ$100 for 2025/26, NZ$1.52 for 2026/27 and NZ$1.59 for 2027/28, up from a current rate of NZ$1.39.",
+        "valence": "neutral",
+        "source_id": "acc-levy-households-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 10499,
+          "char_end": 10629,
+          "passage_sha256": "08090d80b9355b57619440407640e202edae819fa3c83c0203979c230f7f45b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-010",
+        "statement": "The ACC work levy is NZ$0.66 per NZ$100 of liable earnings for 2025/26, NZ$0.69 for 2026/27 and NZ$0.72 for 2027/28, up from a current rate of NZ$0.63.",
+        "valence": "neutral",
+        "source_id": "acc-levy-business-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 9095,
+          "char_end": 9231,
+          "passage_sha256": "3bce16ec697a299a312a6988c561d055e7b3f87d72ed19b68ab52fbd7275fb60"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financing-011",
+        "statement": "In 2018, government funding through Vote Health paid for 71% of health spending and ACC, the social insurance scheme for accident-related care, for a further 10%, while out-of-pocket payments made up 12.9% (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 72,
+          "char_start": 151959,
+          "char_end": 152325,
+          "passage_sha256": "fcbcc16193e0143fd2e1c415a12ef6b63de764af9b9ca5524059f904ce4af85a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "NZL-financing-012",
+        "statement": "An employer that pays medical insurance premiums for its staff must pay fringe benefit tax on those premiums (Inland Revenue guidance).",
+        "valence": "neutral",
+        "source_id": "ird-fbt-contrib",
+        "locator": {
+          "section": "Full text",
+          "char_start": 573,
+          "char_end": 919,
+          "passage_sha256": "f48f6c0a278bde825c38d9acedd31745fc405b7732080f674c7a7378118050f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "NZL-covered-001",
+        "statement": "Publicly funded services are limited to New Zealand citizens, permanent residents who have lived in the country for at least two years, Australian citizens and permanent residents who have lived, or intend to live, in New Zealand for two years or more, work-permit holders eligible to stay two years or more and some other groups such as refugees; anyone injured in New Zealand, including visitors, can use ACC services (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 113,
+          "char_start": 250748,
+          "char_end": 251273,
+          "passage_sha256": "625e5e22089eb8d9a90cd26e7baac25c74bb94af151c06465bd075ffb961098e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-covered-002",
+        "statement": "Publicly funded services include preventive care, inpatient and outpatient care, maternity and mental health care, prescription medicines in and out of hospital, dental care for under-18s, rehabilitation, palliative care, home visits and assistive devices.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6816,
+          "char_end": 7105,
+          "passage_sha256": "3db37a874b06ed15a95788783d48517424589e31b395d4e0fc69b418754ded28"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-covered-003",
+        "statement": "Basic dental care is free for children under 18, but publicly funded dental treatment for adults is limited and mostly confined to emergencies (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 29,
+          "char_start": 58271,
+          "char_end": 58430,
+          "passage_sha256": "9f480300683de798db5b78a2327bbbd90ce9c7c7b774e1f1f9ef9c802773ca8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-covered-004",
+        "statement": "ACC gives no-fault personal injury cover to all residents and to visitors injured in New Zealand; it can pay medical costs, compensation of up to 80% of weekly earnings, rehabilitation to help people back to work and daily life, and payments after a death, including funeral costs (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 87,
+          "char_start": 188859,
+          "char_end": 189153,
+          "passage_sha256": "fac03c9ecff9e5871b64711b0d171cfe094dd1c4d74ad1be4030ac906d8d1f55"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-covered-005",
+        "statement": "Pharmacists work mainly from independently owned community pharmacies and from hospital pharmacies; Pharmac decides which medicines, vaccines and medical devices are publicly funded, applying decision criteria that include cost-effectiveness, within a capped budget (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 28,
+          "char_start": 56815,
+          "char_end": 57228,
+          "passage_sha256": "b2e45a715d270b7bef0cb41753b9ddc4e01524ea99d35283557e2fb5e97a020a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-covered-006",
+        "statement": "Publicly subsidised long-term residential care is open to adults over 65 and to people aged 50 to 64 without dependent children; the subsidy depends on assessments of clinical need and financial means, and people with more assets pay more.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 20023,
+          "char_end": 20323,
+          "passage_sha256": "e1cfc58adc0a9a3c34e85376cc4192b5b55cb9c363f587fbf2051ffba2466aab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-covered-007",
+        "statement": "Almost all aged residential care is delivered by private providers; in 2022-23, 57% of its funding came from Health New Zealand and 43% from residents' fees.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 20327,
+          "char_end": 20501,
+          "passage_sha256": "e7a3e62934f7ab9977092f11dce7b87b2ab51d1b4a8cc40b36ed8e28b82816c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2022-23"
+      },
+      {
+        "id": "NZL-covered-008",
+        "statement": "Government mental health funding has historically concentrated on the roughly 3% of people with severe mental distress; publicly funded primary mental health care options other than medicines were limited but expanding as of the 2022 review.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 28,
+          "char_start": 57971,
+          "char_end": 58270,
+          "passage_sha256": "ee93114b63899df0afc560d98aec2e80598b24c48e4a07ae8c02eb8b271f063f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "NZL-cost_sharing-001",
+        "statement": "Patients pay no user charges for inpatient or outpatient services in public hospitals (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 32470,
+          "char_end": 32561,
+          "passage_sha256": "3103c1376de23299efc0287ed0e8fd875a9761005ab36a6265945812d5b409ed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-002",
+        "statement": "The public system has no deductibles, but co-payments are common for some services.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 23464,
+          "char_end": 23557,
+          "passage_sha256": "8b85205709cc203ea048efbd04d603571b5af9d56e464ac9fa7c9bbcce3eb1a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-003",
+        "statement": "General practice visits typically cost patients NZ$15 to NZ$50 depending on the practice and enrolment; children under 14 are exempt, and fees are lower for Community Services Card and High Use Health Card holders and at practices in the Very Low Cost Access programme (Commonwealth Fund profile, data as of January 2026).",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 23561,
+          "char_end": 23898,
+          "passage_sha256": "7e8c76f548ffcca44669bb10723d9400c296d2d5ed889d56a3466800350683bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-004",
+        "statement": "General practices set their own patient fees, which vary by age and location and by whether the practice accepts Very Low Cost Access or Community Services Card funding, which pays higher capitation in return for capped fees (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 132,
+          "char_start": 289191,
+          "char_end": 289439,
+          "passage_sha256": "484cca32a01c160f7ac5e79b6779edc94fca6f7348e4ea08939445a707e296c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-005",
+        "statement": "Outside the capped groups, there is no limit on what practices charge, although a fees review process applies when charges rise above a figure set each year (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 124,
+          "char_start": 271483,
+          "char_end": 271655,
+          "passage_sha256": "d9b68610c026e5f34be331f35af04c84cd6b6e11a193d7aa150d7dbb77ef4fa3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-006",
+        "statement": "Prescription co-payments are at most NZ$5 per item from approved providers, and children under 14, people over 65 and Community Services Card holders do not pay this co-payment.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 22422,
+          "char_end": 22626,
+          "passage_sha256": "65579d1a8671c28162f6b3544f07a913e9ad8c7d252bb5f34aafed8cb80c1996"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-007",
+        "statement": "After a household has paid for 20 new prescription items in a year, further prescriptions are free for the rest of that year.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8183,
+          "char_end": 8317,
+          "passage_sha256": "60c7b052577df0ccb1687023d6cc79612bf18526e2c72f2ef07f6e1f3030c2b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-cost_sharing-008",
+        "statement": "The Community Services Card subsidises GP visits and prescriptions for low- and middle-income households, for example a single person with pre-tax income under NZ$35,997 a year or a four-person household under NZ$93,364.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 7570,
+          "char_end": 7892,
+          "passage_sha256": "eb1b2ea43cef2f2283f20ef567a7e85ce82bff10b3d6459af2f4e26f8dc7c64f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "NZL-financial_hardship-001",
+        "statement": "The 2022 Health System Review judged that the system gives excellent overall financial protection, so most people are unlikely to pay large sums for care, but noted several areas of poor coverage where some families may spend more.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 291,
+          "char_start": 676634,
+          "char_end": 676996,
+          "passage_sha256": "c3dcb1d0600eb4161f2ecb6bc2085ea0466fd7b8a28e3cf3dc85bf486489cd67"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-financial_hardship-002",
+        "statement": "In one study, 8 of 10 cervical cancer patients met the criteria for financial toxicity, and their median out-of-pocket costs plus lost income were NZ$1,814, against NZ$264 for the other participants.",
+        "valence": "neutral",
+        "source_id": "fintox-cervix-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1788,
+          "char_end": 2108,
+          "passage_sha256": "73d945770cf5e30a63e3b99f5730e32c5b31d8d9ee01cbc3e8811d86c98a06d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "NZL-additional_care-001",
+        "statement": "Private health insurance is designed to complement and supplement the public system rather than replace it: it covers services largely outside public funding (such as adult dental care and optometry), user charges for primary care, and faster access and better facilities (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 134,
+          "char_start": 292287,
+          "char_end": 292775,
+          "passage_sha256": "4dc959a1c4f4e8c5b77d485fd2e2f27707ebb796ee1f61ac12a7e0894bcae278"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-additional_care-002",
+        "statement": "Private health insurance covered nearly half the population in 1990; coverage fell after tax deductions for it were withdrawn and employer-provided cover became subject to fringe benefit tax, and it stood at 34.7% of adults in 2021 (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 135,
+          "char_start": 294750,
+          "char_end": 295096,
+          "passage_sha256": "7e9ab4b4bea3b0b380ab43e76444d32324f3769ba2c8f1a41f085249b1c1283d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "NZL-additional_care-003",
+        "statement": "Private insurance often lets policyholders avoid public waiting times and is commonly used for elective surgery such as hip and knee operations, specialist consultations and diagnostic tests in the private sector.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8843,
+          "char_end": 9086,
+          "passage_sha256": "f52310f38983c3764308aee94ac748ab319c37d50fd23dcd257f1e612f7b5884"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-additional_care-004",
+        "statement": "Some people get private health insurance through employer schemes and others buy it themselves.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 9299,
+          "char_end": 9398,
+          "passage_sha256": "989b7ece2110a7f7ad10c19fbb767fefab99915b53d746c1310e346838447eb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-additional_care-005",
+        "statement": "An exception in section 48 of the Human Rights Act 1993 lets health insurers set terms that differ by sex, disability and age, provided the difference rests on reasonable actuarial or statistical data (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 134,
+          "char_start": 292776,
+          "char_end": 293115,
+          "passage_sha256": "377f0ed4b426795400c1f6c7752c8a7ffc2d2be384e561fa85e6f9572896ee9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-additional_care-006",
+        "statement": "Private hospitals charge fees for service, paid out of pocket, by private insurers or by ACC for injury care.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 16644,
+          "char_end": 16840,
+          "passage_sha256": "0c45b0fdfba6a07f604a50d518608fc25f9f23a092ed99e5186603af5edf1f1e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-additional_care-007",
+        "statement": "Most specialists are employed by public hospitals, but many also run private practices; hospital inpatient and outpatient services are provided mainly by public hospitals (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 183,
+          "char_start": 400154,
+          "char_end": 400372,
+          "passage_sha256": "4972412c595ddb14ae92ec39f1a97fe2910b35e5a0029409b20fb0ba9f6b568d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "NZL-access-001",
+        "statement": "In the 2024/25 New Zealand Health Survey, 14.9% of adults said cost had stopped them visiting a GP in the previous 12 months, similar to the year before (15.1%) but up from 13.4% in 2019/20.",
+        "valence": "neutral",
+        "source_id": "nzhs-aide-2425",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 36783,
+          "char_end": 36972,
+          "passage_sha256": "142b94ff894e3907e7a0a7f95f7dacfa4ef0d2673afdc122a450156627965555"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2024/25"
+      },
+      {
+        "id": "NZL-access-002",
+        "statement": "In the 2024/25 survey, 25.1% of Pacific adults reported not visiting a GP because of cost in the previous 12 months, against 18.7% of Māori, 14.5% of European/Other and 12.8% of Asian adults.",
+        "valence": "neutral",
+        "source_id": "nzhs-aide-2425",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 36783,
+          "char_end": 37125,
+          "passage_sha256": "6d10739be4e07969559b5173dcc2261e352813ccd1c01d22165a1cd8e0f917e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2024/25"
+      },
+      {
+        "id": "NZL-access-003",
+        "statement": "About a quarter of adults (25.5%) named the time needed to get an appointment as a barrier to seeing a GP in 2024/25, similar to the previous year (24.8%) but more than in 2021/22 (11.6%).",
+        "valence": "neutral",
+        "source_id": "nzhs-aide-2425",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 36288,
+          "char_end": 36534,
+          "passage_sha256": "5cf67083c86fa92126a57b4672cbf2488ff6622fb9b36490d451dd0219cc9b84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2024/25"
+      },
+      {
+        "id": "NZL-access-004",
+        "statement": "In 2024/25, 43.0% of adults avoided visiting a dental health worker because of cost.",
+        "valence": "neutral",
+        "source_id": "nzhs-aide-2425",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 35584,
+          "char_end": 35702,
+          "passage_sha256": "d33fa8ec8f862f14fb263a73ed28544e1fad70621528c7ec60417f838226749c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2024/25"
+      },
+      {
+        "id": "NZL-access-005",
+        "statement": "In 2024/25, 3.6% of adults did not collect a prescription because of cost, similar to the previous year (3.9%).",
+        "valence": "neutral",
+        "source_id": "nzhs-aide-2425",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 37128,
+          "char_end": 37268,
+          "passage_sha256": "e75755478726f9357bfd23f8097a823725df85811b52fa367e299e47fad909e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2024/25"
+      },
+      {
+        "id": "NZL-access-006",
+        "statement": "The government's health targets aim for 95% of emergency department patients to be admitted, discharged or transferred within six hours, and for 95% of people to wait less than four months for elective treatment.",
+        "valence": "neutral",
+        "source_id": "dpmc-targets-sep25",
+        "locator": {
+          "section": "Full text",
+          "page": 1,
+          "char_start": 111,
+          "char_end": 362,
+          "passage_sha256": "89efce2d23a4ff5353bd409a57f0bb7f709b9162e658c8f2252c9314fe7db3eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-access-007",
+        "statement": "On the Shorter Stays in Emergency Departments target, results in the quarter ending September 2025 were better than a year earlier despite 7.4% more emergency department presentations, but fell from 73.9% in the June 2025 quarter to 68.9%, which the briefing described as in line with historical seasonal variation; 5 of 20 districts met the Year 2 milestone of 77%.",
+        "valence": "neutral",
+        "source_id": "moh-targets-brief-2026",
+        "locator": {
+          "section": "Full text",
+          "page": 2,
+          "char_start": 2396,
+          "char_end": 3045,
+          "passage_sha256": "8d5c0a15f9bd1f5524e6b6bd0f980cbadf144aafa8841136167e4481033d0ea8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NZL-access-008",
+        "statement": "In the quarter ending September 2025, Health New Zealand achieved 65.9% on the Shorter Wait Times for Elective Treatment target, an improvement of 2% on the previous quarter and its best elective treatment result since September 2021.",
+        "valence": "neutral",
+        "source_id": "moh-targets-brief-2026",
+        "locator": {
+          "section": "Full text",
+          "page": 2,
+          "char_start": 2396,
+          "char_end": 3861,
+          "passage_sha256": "47206411b3e31d9b584a00d30f75742df05ae60a545f9614440c8e081ff95108"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NZL-access-009",
+        "statement": "Under the district health board system described in the 2022 review, clinical priority tools decided who was accepted for planned surgery, each board set its own score threshold based on what it could treat within four months, and patients below it were sent back to their GP.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 184,
+          "char_start": 403531,
+          "char_end": 403932,
+          "passage_sha256": "99b0326d2012c7252935a5880cab04e6de42ae154e43efd69baf3a6f87fd2483"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-access-010",
+        "statement": "As of 2022, 74.8% of doctors worked in main urban areas, home to 61.2% of the population, while only 11.6% worked in rural areas, where 25% of people live.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 179,
+          "char_start": 392327,
+          "char_end": 392565,
+          "passage_sha256": "d5ff976cf26b969c8b9057d5e693da0d92434c38e7b03f45c110de63471d5763"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-access-011",
+        "statement": "Forty-two percent of doctors are international medical graduates, the highest share in the OECD.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 15265,
+          "char_end": 15423,
+          "passage_sha256": "94b30e81494e5d1c1bce3c541adb563b9dd1ef713a5dc326eaadc785a492b4a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-access-012",
+        "statement": "In 2022-23, 89% of residents of the northern region lived within 30 minutes of care, compared with 72% in Te Manawa Taki and 68% of Māori in that region.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 28962,
+          "char_end": 29207,
+          "passage_sha256": "44b86a8286b7243d801409f7e00a9119b040bf42aead944bbc10a52784577951"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2022-23"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "NZL-outcomes-001",
+        "statement": "In 2022, life expectancy was seven years shorter for Māori women and eight years shorter for Māori men than for people of European ethnicity, and six years shorter for Pacific women and men.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 27004,
+          "char_end": 27322,
+          "passage_sha256": "bfce9d81b7671d3bd3efabd24412eb3e98aa37711f45d0ad994cbfeac805d84d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-outcomes-002",
+        "statement": "Women in the most deprived areas live nine fewer years than women in the least deprived areas, and child mortality in the most deprived areas is consistently about three times higher.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 28228,
+          "char_end": 28534,
+          "passage_sha256": "2deec6371fad97192f65978d3933fa2808e4bffeae6fda8734d247c31e6db221"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-outcomes-003",
+        "statement": "An OECD comparison using mostly 2019 data placed New Zealand close to the OECD average for life expectancy, avoidable mortality and chronic disease, better for self-rated health, and worse for cancer incidence (second highest in the OECD), cancer mortality, infant mortality, suicide and overweight adults (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 54,
+          "char_start": 112209,
+          "char_end": 112828,
+          "passage_sha256": "f0c3a8aa57cadbb708e21139f4614974faf9308f131ddb4513116d8d0d4b573f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "NZL-outcomes-004",
+        "statement": "In the GBD 2019 study, New Zealand scored 85.5 (95% uncertainty interval 83.3 to 87.7) on the Healthcare Access and Quality Index for ages 0-74 in 2019, 14.4 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "section": "Full text",
+          "table": "Table: HAQ Index estimates by location, 2019 (Overall 0-74 years; absolute change 1990-2019)",
+          "char_start": 40406,
+          "char_end": 40576,
+          "passage_sha256": "d5a497806cf931fce1817696156db150f787c4e7f07b40b164f194498f6f6520"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "NZL-outcomes-005",
+        "statement": "The suicide rate was 13 per 100,000 people in 2023, above the high-income-country average of 11.8 in 2021.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 26340,
+          "char_end": 26480,
+          "passage_sha256": "42678bc3de102b7a1a16f987e7bfe93b45563f0f8f55b0b65829e2ffddbab17b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NZL-outcomes-006",
+        "statement": "In the 2021-23 New Zealand Health Survey, 34.8% of adults reported symptoms of anxiety or depression, up from 25% in 2016-17.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 17658,
+          "char_end": 17797,
+          "passage_sha256": "0b2a719f558fb4a3e3df070397a50b3dc76e9fd5c811fe18fa2dfb44f43ec0b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2021-23"
+      }
+    ],
+    "costs": [
+      {
+        "id": "NZL-costs-001",
+        "statement": "Current health spending was 11.3% of GDP in New Zealand in 2022, against 16.5% in the United States (Mirror, Mirror 2024, Exhibit 3).",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Full text",
+          "figure": "Exhibit 3",
+          "page": 3,
+          "char_start": 1910,
+          "char_end": 2335,
+          "passage_sha256": "e2e896383173c6683d4e48daa108e6b043fd65edc9c66494a4a8e160d7f5779a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-costs-002",
+        "statement": "Total health spending was US$25.2 billion in 2022, about US$4,820 per person.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21409,
+          "char_end": 21501,
+          "passage_sha256": "4f8c7fcd7fb1e1a82fc33f4be52719d1ac5c7174e152c101ff9a70a103b92e64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NZL-costs-003",
+        "statement": "In 2020, New Zealand's health spending of US$4,469 per person (PPP) was below that of the United Kingdom (US$5,019), Australia (US$5,627) and Canada (US$5,828), and its spending of 9.7% of GDP equalled the OECD average and ranked 18th in the OECD (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 46202,
+          "char_end": 46708,
+          "passage_sha256": "2b6caa9d795cd182c2a5f39c7552299b4eb8c2981d3482d6eb08bdf0f019ce1a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "NZL-costs-004",
+        "statement": "The combined pharmaceutical budget was NZ$1.81 billion in 2023-24, about 6.8% of total health spending.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 22088,
+          "char_end": 22238,
+          "passage_sha256": "353293d7b946c2cc8e17ac992cc813a4e0c96ca45625a8f506ebf034cbf1bcb2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2023-24"
+      },
+      {
+        "id": "NZL-costs-005",
+        "statement": "In its 2024 budget, the government allocated an extra NZ$5.7 billion over four years to manage cost pressures (Commonwealth Fund profile, cost-containment section).",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 24587,
+          "char_end": 24721,
+          "passage_sha256": "42c7ac7f387701d7d1b2c3bf64afd38c938bdb553f753589547e08af9aadc69b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "NZL-what_works-001",
+        "statement": "Mirror, Mirror 2024 ranked New Zealand 1st of 10 countries on care process, 3rd on administrative efficiency, 3rd on health outcomes and 4th overall.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Full text",
+          "figure": "Exhibit 1",
+          "page": 1,
+          "char_start": 216,
+          "char_end": 512,
+          "passage_sha256": "85bb9f613e03b5bcabdd903d3d10c286c81754516c1933ecb788ccbc0cbffc40"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-what_works-002",
+        "statement": "The 2022 Health System Review described Pharmac as widely seen as a significant success: it works within a fixed budget, weighs the relative cost-effectiveness of medicines, and uses price negotiation, sole-supply contracts and reference pricing to control prices and total drug spending.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 237,
+          "char_start": 539981,
+          "char_end": 540441,
+          "passage_sha256": "640540c2d83e91312f8bfc9068e8646bfd134c1513ea325ffab37c55e3c7680a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-what_works-003",
+        "statement": "Most general practice visits and prescriptions are free for children under 14 (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 124,
+          "char_start": 271158,
+          "char_end": 271245,
+          "passage_sha256": "76f215057757561c2ba9fb3924cb9e13b44f0f5a1c640964e8a6b7604d3daffb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-what_works-004",
+        "statement": "Relative to its spending, New Zealand did well on avoidable mortality; Israel, South Korea and Italy were named as having lower rates while spending less (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 310,
+          "char_start": 723587,
+          "char_end": 723866,
+          "passage_sha256": "9dcf96077797ee545fdd21fa0de64219e25e9ab8810a30973551f639809dc46c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-what_works-005",
+        "statement": "New Zealand had 14 psychiatrists per 100,000 people in 2023, compared with an average of 8.6 in high-income countries in 2020.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 17043,
+          "char_end": 17165,
+          "passage_sha256": "dc5b814bffa76ab6fb57bf1e4ed11d4823b8d7c09dd90a233d7574cfa385acb3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "NZL-problems-001",
+        "statement": "Mirror, Mirror 2024 ranked New Zealand 8th on equity; Sweden was not ranked in that domain, and only the United States (9th) ranked lower.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024",
+        "locator": {
+          "section": "Full text",
+          "figure": "Exhibit 1",
+          "page": 1,
+          "char_start": 216,
+          "char_end": 475,
+          "passage_sha256": "263c65218c4ebaacb5997b4e3a5ee117a6c650f3c59536208880a1fec069e880"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-problems-002",
+        "statement": "Between 2023 and 2025, Australia's PBS listed five new cardiovascular drugs and added new heart-failure indications, while the Pharmac schedule saw one major change; the authors found a pronounced gap in access between the two countries.",
+        "valence": "neutral",
+        "source_id": "cvdrugs-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2399,
+          "char_end": 3230,
+          "passage_sha256": "b74e2fd5c01b1ddbc07ddb46374a5df5f9cacfa0d2a9b25fc456ec8f44a36423"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2023-2025"
+      },
+      {
+        "id": "NZL-problems-003",
+        "statement": "In New Zealand Health Survey participants from 2013/14 to 2018/19, people with unmet need for a GP consultation because of cost had a 28% higher hazard rate for time to an inpatient hospitalisation than those without that unmet need.",
+        "valence": "neutral",
+        "source_id": "unmet-need-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 818,
+          "char_end": 1895,
+          "passage_sha256": "e0a578217c5daec22a6bfbf467fc45ad3f084f9247b7e31f86fd9aed443d6423"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": "2013/14-2018/19"
+      },
+      {
+        "id": "NZL-problems-004",
+        "statement": "Unmet need for primary care is high, especially for Māori and Pacific peoples, people in deprived areas and disabled people, and enrolment with general practices has been falling (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 28,
+          "char_start": 55630,
+          "char_end": 55880,
+          "passage_sha256": "c065222fe49fb568e4f03fe18ab7fc4f5d85b9dcd38786904ec595fd5a57d66f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-problems-005",
+        "statement": "The public system relies on more than 4,000 fragmented information technology systems, many outdated and poorly connected, which limits data sharing and coordination.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 34018,
+          "char_end": 34230,
+          "passage_sha256": "133cad2617b9d5e809bb030490ac40143c53af344a4fe74f67785450baf2e0c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-problems-006",
+        "statement": "In 2021, 85% of psychiatrists said people needing specialist mental health treatment were often unable to get the right care because of resource limits, and 13% said this happened sometimes.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 19154,
+          "char_end": 19371,
+          "passage_sha256": "c9383da89c20c541d8d4e1e0abba8a6fae724cb1f50e5af99bd8d8b369c44036"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "NZL-problems-007",
+        "statement": "Retaining overseas-trained doctors is hard: just over 40% of international medical graduates leave within a year and 75% within ten years.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 15427,
+          "char_end": 15567,
+          "passage_sha256": "b59acfe12bc19ccb07b06469e5d36799b39263e2cc6213bdfc818982e16a2f3c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-problems-008",
+        "statement": "Health policy researcher Robin Gauld, quoted in the 2026 Commonwealth Fund profile, judged that more than two years after the Pae Ora Act most of the system had yet to show significant change.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5804,
+          "char_end": 6226,
+          "passage_sha256": "23640163d7d75c24457df4885cea796ee27767483bb2e108e442bcc8c4356db9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "NZL-reforms-001",
+        "statement": "A 2024 amendment, the Pae Ora (Disestablishment of Māori Health Authority) Amendment, abolished the Māori Health Authority and moved its functions to Health New Zealand and the Ministry of Health.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5487,
+          "char_end": 5763,
+          "passage_sha256": "bcd4da9ae2c4ec8652f54636ad7e02ab9dbc71aeed50225e059e70dd9b34c2d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-reforms-002",
+        "statement": "In 2024 a tribunal found that the Amendment Bill breached the Treaty of Waitangi principles of good government and partnership.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 31170,
+          "char_end": 31346,
+          "passage_sha256": "e3213469b976a7b6f57e782724e4447f38a3fee03929c1bef3c84daa81b09257"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-reforms-003",
+        "statement": "The Pae Ora (Healthy Futures) Act 2022 centralised the system under Health New Zealand, replacing the district health boards, and set up a parallel Māori Health Authority (Te Aka Whai Ora) to support Māori leadership in health planning and delivery.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4778,
+          "char_end": 5213,
+          "passage_sha256": "03cfb50366da592000aa254d6fa87f92f9f282d599c830f1ca8225b0dc13e792"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-reforms-004",
+        "statement": "Health New Zealand was modelled largely on the UK National Health Service and organised into four regions: Northern, Te Manawa Taki, Central and Te Waipounamu (2023 commentary).",
+        "valence": "neutral",
+        "source_id": "reform-equity-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8194,
+          "char_end": 8332,
+          "passage_sha256": "143aa01db3d21f63504c1171c53d3a153cfe91756279250679a793d9d5dac2f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-reforms-005",
+        "statement": "A major review of the health and disability system began in 2018; its recommendations, made in 2020 and mostly accepted by the government, took effect from 1 July 2022, and the Ministry of Health continues to lead policy with a new Public Health Agency inside it to strengthen public health (2022 Health System Review).",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 31,
+          "char_start": 63436,
+          "char_end": 63795,
+          "passage_sha256": "d0313bfaa3ebe806fc01c4376e1dd2b5cf639a020f783b42c90c1016b2bd36f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-reforms-006",
+        "statement": "Since 2023, family members have been able to be paid for providing home care through official support service providers, to the same standard as formal carers.",
+        "valence": "neutral",
+        "source_id": "cwf-nzl",
+        "locator": {
+          "section": "Full text",
+          "char_start": 20899,
+          "char_end": 21214,
+          "passage_sha256": "75582f5de06fc32d09b25164f31af864d40360ec6aa6021efd68fec21545682f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        }
+      },
+      {
+        "id": "NZL-reforms-007",
+        "statement": "The New Zealand Public Health and Disability Act 2000 created 21 mostly elected district health boards to plan and provide hospital and public health services, and from 2002 primary health organisations were set up and funded by capitation for enrolled populations.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 30,
+          "char_start": 61594,
+          "char_end": 61941,
+          "passage_sha256": "e528b48bdc95c89bf08a656dfaa550f7f8e47dedac6786357e1fa571155c1111"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "historical": true
+      },
+      {
+        "id": "NZL-reforms-008",
+        "statement": "In the early 1990s, a National government split purchasing from provision: four regional health authorities bought services for their populations from public and private providers, and 23 Crown health enterprises ran hospitals as commercial entities.",
+        "valence": "neutral",
+        "source_id": "hit-nzl-2022",
+        "locator": {
+          "section": "Full text",
+          "page": 29,
+          "char_start": 59987,
+          "char_end": 60480,
+          "passage_sha256": "8ca0d8559e61ff2edcb72d575945f14d04d966d0862bc24b1a46c370c614718f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, three rounds)"
+        },
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/NZL.json",
+  "sources": [
+    {
+      "id": "cwf-nzl",
+      "title": "International Health Care System Profiles: New Zealand (2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/new-zealand",
+      "funding_note": "Written by FT Longitude (Financial Times Group) on behalf of the Commonwealth Fund; data as of January 2026. Some figures in the profile cite industry or secondary sources; claims here use only passages checked against the statement.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hit-nzl-2022",
+      "title": "New Zealand Health System Review (Health Systems in Transition, Vol. 11 No. 2)",
+      "publisher": "Asia Pacific Observatory on Health Systems and Policies, World Health Organization",
+      "authors": "Cumming J",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2022,
+      "url": "https://iris.who.int/server/api/core/bitstreams/c76875f0-3167-4b11-b0db-91476b9a8b57/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "doi": "10.26099/ta0g-zp66",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "nzhs-aide-2425",
+      "title": "Aide-Memoire H2025074911: Publication of results from the 2024/25 New Zealand Health Survey",
+      "publisher": "Ministry of Health (Manatū Hauora), New Zealand",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.health.govt.nz/system/files/2026-06/H2025074911-Aide-Memoire-Publication-of-results-from-the-2024-25-New-Zealand-Health-Survey.pdf",
+      "funding_note": "Proactively released ministerial briefing summarising official New Zealand Health Survey statistics.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "moh-targets-brief-2026",
+      "title": "Briefing H2026077416: All of Government Health Targets - December 2025/26 reporting for endorsement",
+      "publisher": "Ministry of Health (Manatū Hauora), New Zealand",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.health.govt.nz/system/files/2026-06/H2026077416-Briefing-All-of-Government-Health-Targets-December-2025-26-reporting-for-endorsement.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "dpmc-targets-sep25",
+      "title": "Target Quarterly Report Summary and Fact Sheets for quarter ending 30 September 2025",
+      "publisher": "Department of the Prime Minister and Cabinet, New Zealand",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.dpmc.govt.nz/sites/default/files/2025-11/gt-quarterly-report-summary-sep25.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "vote-health-2026",
+      "title": "Vote Health: The Estimates of Appropriations 2026/27 - Health Sector (B.5 Vol.5)",
+      "publisher": "New Zealand Treasury",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://budget.govt.nz/budget/pdfs/estimates/v5/est26-v5-health.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "acc-levy-business-2025",
+      "title": "ACC's Levy Rate Consultation 2024: A Report on the Results for Levies Affecting New Zealand Businesses (Gazette notice 2025-au1361)",
+      "publisher": "Accident Compensation Corporation, New Zealand Gazette",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://gazette.govt.nz/notice/id/2025-au1361",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "acc-levy-households-2025",
+      "title": "ACC's Levy Rate Consultation 2024: A Report on the Results for Levies Affecting New Zealand Households (Gazette notice 2025-au1363)",
+      "publisher": "Accident Compensation Corporation, New Zealand Gazette",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://gazette.govt.nz/notice/id/2025-au1363",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "ird-fbt-contrib",
+      "title": "Employer contributions to funds, insurance and superannuation schemes (fringe benefit tax guidance)",
+      "publisher": "Inland Revenue (Te Tari Taake), New Zealand",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.ird.govt.nz/employing-staff/deductions-from-other-payments/fringe-benefit-tax/types/employer-contributions",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "unmet-need-2024",
+      "title": "Unmet need for primary health care and subsequent inpatient hospitalisation in Aotearoa New Zealand. A cohort study",
+      "publisher": "Journal of Primary Health Care",
+      "authors": "Pledger M, Cumming J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1071/HC24018",
+      "doi": "10.1071/HC24018",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&retmode=text&id=38941253",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "fintox-cervix-2026",
+      "title": "Financial Toxicity in Cervical Cancer Patients Undergoing Radical Treatment With External Beam Radiation and Brachytherapy at a Tertiary New Zealand Radiation Oncology Centre",
+      "publisher": "Journal of Medical Imaging and Radiation Oncology",
+      "authors": "Franklin G, Larsen P, Henry C, Johnson C",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1111/1754-9485.70112",
+      "doi": "10.1111/1754-9485.70112",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&retmode=text&id=42046485",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cvdrugs-2026",
+      "title": "Cardiovascular Drug Access in Australia and New Zealand: New PBS and PHARMAC Listings, 2023-2025",
+      "publisher": "Heart, Lung and Circulation",
+      "authors": "Ciofani JL, Puranik R, Ekmejian A, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.hlc.2026.06.001",
+      "doi": "10.1016/j.hlc.2026.06.001",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&retmode=text&id=42409691",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "reform-equity-2023",
+      "title": "Health Reform in Aotearoa New Zealand: Insights on Health Equity Challenges One Year On",
+      "publisher": "Applied Health Economics and Health Policy",
+      "authors": "Lorgelly PK, Exeter DJ",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/s40258-023-00823-7",
+      "doi": "10.1007/s40258-023-00823-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10403391",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 5,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 1,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 3,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 8,
+      "of": 9,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 3,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created: 86 claims from 15 sources, anchored and support-reviewed in a separate cold pass (three rounds); 30 statements reworded or re-anchored in review and 1 dropped (details from outside the passage, missing dates, overstatement, attribution)."
+    }
+  ]
+}

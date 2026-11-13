@@ -1,6 +1,6 @@
 {
   "iso3": "NOR",
-  "retrieved": "2026-11-13",
+  "retrieved": "2026-11-12",
   "provider": "World Bank WDI, WHO Global Health Observatory and OECD Health Statistics APIs",
   "indicators": [
     {
@@ -28,8 +28,8 @@
       "label": "Health spending, % of GDP",
       "unit": "%",
       "group": "costs",
-      "value": null,
-      "year": null,
+      "value": 9.42925453,
+      "year": 2023,
       "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
       "api_url": "https://api.worldbank.org/v2/country/NOR/indicator/SH.XPD.CHEX.GD.ZS?format=json&date=2014:2026&per_page=100"
     },
@@ -38,8 +38,8 @@
       "label": "Health spending per person (PPP)",
       "unit": "current international $",
       "group": "costs",
-      "value": null,
-      "year": null,
+      "value": 9523.30517462555,
+      "year": 2023,
       "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
       "api_url": "https://api.worldbank.org/v2/country/NOR/indicator/SH.XPD.CHEX.PP.CD?format=json&date=2014:2026&per_page=100"
     },
@@ -58,10 +58,10 @@
       "label": "Out-of-pocket share of health spending",
       "unit": "% of current health expenditure",
       "group": "costs",
-      "value": null,
-      "year": null,
+      "value": 13.68724823,
+      "year": 2023,
       "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
-      "api_url": "https://api.worldbank.org/v2/country/NOR/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2014:2026&per_page=100"
+      "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.OOPC.CH.ZS?format=json&mrnev=1"
     },
     {
       "id": "SP.DYN.LE00.IN",

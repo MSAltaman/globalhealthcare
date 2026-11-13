@@ -1,0 +1,1673 @@
+{
+  "iso3": "CRI",
+  "name": "Costa Rica",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Single public social health insurance run by the Costa Rican Social Security Fund (CCSS), which both insures and delivers care; funded by payroll contributions from employers, workers and the State, with the State paying cover for people without income; the Ministry of Health is steward"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CRI-covered-008",
+      "CRI-covered-009"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CRI-overview-001",
+        "statement": "Costa Rica's health system is public and organised as a National Health System that links two bodies: the Costa Rican Social Security Fund (CCSS), which runs both the health insurance and the disability, old-age and death pension insurance and also delivers care, and the Ministry of Health, which acts as the sector's steward.",
+        "valence": "neutral",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización del sistema de salud costarricense",
+          "page": 2,
+          "char_start": 5104,
+          "char_end": 5435,
+          "passage_sha256": "e537a38eb8af0ac5a4c25768d124133855a05da1d770c012837fadfc14956a95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-overview-002",
+        "statement": "Care is delivered through three integrated networks organised by territory and by level of complexity, made up of peripheral, regional and national clinics and hospitals; basic comprehensive health care teams (EBAIS) are the point of entry and the link with communities.",
+        "valence": "neutral",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización del sistema de salud costarricense",
+          "page": 2,
+          "char_start": 5762,
+          "char_end": 6040,
+          "passage_sha256": "15aa2edf85535554c4bae8cb4b51e305e4ab33f5b70aeefaa61fdabb667ba2b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-overview-003",
+        "statement": "The CCSS, set up in 1941, is the main social insurance institution: it provides medical care together with sickness, maternity, old-age and invalidity benefits to its direct members, and for health care it can also cover their dependants. It is financed by contributions from employers, workers and the State.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems",
+          "page": 150,
+          "char_start": 494970,
+          "char_end": 495575,
+          "passage_sha256": "9da0218cb6325c93e5834e4df184feec7db5a76f601c40cf6fdc1569a1f4cfa4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-overview-004",
+        "statement": "A 2026 OECD, IDB and World Bank report names Costa Rica, with Chile, Colombia and Uruguay, as one of the few Latin American countries whose programmes bring the whole population into a single system with cross-subsidies, while noting that benefits and access in such systems still vary between rural and urban areas and between contributors and fully subsidised people.",
+        "valence": "strength",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 2: Inequalities in health and health care",
+          "page": 47,
+          "char_start": 194714,
+          "char_end": 195067,
+          "passage_sha256": "61d11f33fb3cedff1784d69625ec5d2067d0834776b36c5068ad304c457ff142"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-overview-005",
+        "statement": "As part of the primary care reforms, all public-sector health care, from primary to tertiary, was moved to the CCSS alone instead of being provided by both the Ministry of Health and the CCSS, with the ministry responsible for stewardship of the system.",
+        "valence": "neutral",
+        "source_id": "phc-bmjgh-2020",
+        "locator": {
+          "table": "Table 3: Reforms identified for Costa Rica's PHC model, row 'Governance restructuring'",
+          "char_start": 15136,
+          "char_end": 15444,
+          "passage_sha256": "cf063eb8de197c9c4b528d60aa2bdc6447bd634d2377c2a394a47b49eb0abfca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "CRI-financing-001",
+        "statement": "Health insurance (SEM, the CCSS health scheme) is funded by payroll-based contributions of 9.25% paid by employers and 5.5% paid by employees, 14.75% in total, according to a 2025 OECD table.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "table": "Table 8.4: Payroll-based contributions in Costa Rica, by entity of destination (row SEM/Health: employer, employee, total)",
+          "page": 155,
+          "char_start": 512407,
+          "char_end": 512500,
+          "passage_sha256": "4f90e69751b2c949470bb4e7a4ea938b81b3c8ff85180d9389a83757f9e6d9c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-002",
+        "statement": "The State adds its own contribution of 0.25% to the health insurance scheme (and 1.91% to the contributory pension fund); each year the Ministry of Finance sets aside funds in the national budget that are then transferred to the CCSS.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems",
+          "page": 150,
+          "char_start": 495864,
+          "char_end": 496127,
+          "passage_sha256": "b89f7822f2002e19825e9a13e673e9cf4050a5fd68b1ea8b6d57f28ec6b01b0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-003",
+        "statement": "The State also pays for several health programmes created by legislation, such as vaccination, in vitro fertilisation, insurance cover for vulnerable groups and smoking cessation, financing them from taxes or borrowing.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems",
+          "page": 150,
+          "char_start": 495576,
+          "char_end": 495863,
+          "passage_sha256": "2c670f951bfd83fa126e5d879eef4d8a8983075827403e6a79e02c81ce08465d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-004",
+        "statement": "Contributions are charged on a minimum base: in 2023 the floor below which no salaried worker could contribute was set at US$603 for health care (US$564 for pensions), and in 2022 the CCSS board lowered the minimum contributory income for independent workers to US$283.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems",
+          "page": 150,
+          "char_start": 496128,
+          "char_end": 496452,
+          "passage_sha256": "d6cc150fd1d44b52dfbb3bbd955980891e4d5153abeeb780d3a4af204759e149"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2022-2023"
+      },
+      {
+        "id": "CRI-financing-005",
+        "statement": "Contribution to the health insurance is compulsory for all workers. In some cases it is shared three ways, by employers, workers and the State; in others, such as self-employed and voluntary members, two ways, by workers and the State. Pensioners and specific programmes run by the State complete the contributory scheme.",
+        "valence": "neutral",
+        "source_id": "binasss-177",
+        "locator": {
+          "section": "Antecedentes",
+          "page": 2,
+          "char_start": 5028,
+          "char_end": 5585,
+          "passage_sha256": "de3527844f9a639e1e72946ce3fee70b0a8097547f61293c557785e310be5bfd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-006",
+        "statement": "In the July 2025 national household survey (table excluding domestic workers and pensioners living in the household), 11.7% of people were insured through the State (seguro por el Estado), a share that reached 40.7% among people who were poor by both the income-poverty line and the multidimensional poverty index.",
+        "valence": "neutral",
+        "source_id": "inec-enaho-2025",
+        "locator": {
+          "table": "Cuadro 4.12 (households and people by poverty status, July 2025; excludes domestic workers and pensioners living in the household); row 'Porcentaje de personas con seguro por el Estado'; columns in order: total country, not poor by either measure, poor by income line, poor by multidimensional index, poor by both",
+          "page": 76,
+          "char_start": 136519,
+          "char_end": 136590,
+          "passage_sha256": "559525a692739bb9e94568cf95e50510d6e851d41016547be0d730d3afe15cb0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CRI-financing-007",
+        "statement": "A 2026 study reports that public spending makes up 70% of total health spending (data year not stated).",
+        "valence": "neutral",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización del sistema de salud costarricense",
+          "page": 2,
+          "char_start": 6156,
+          "char_end": 6212,
+          "passage_sha256": "fb9b41aa3f4bfa24e77c63041a02c5df4ee31dfa090b232a94094e2943769236"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-008",
+        "statement": "The OECD (2025) describes financial protection for health care as high and, citing World Bank Development Indicators (year not stated), puts out-of-pocket payments at 22.3% of current health expenditure, below the Latin American regional average of 28.3%.",
+        "valence": "strength",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems (coverage and financial protection)",
+          "page": 154,
+          "char_start": 509047,
+          "char_end": 509349,
+          "passage_sha256": "522a6fa376ce5e3d1de664b673a725fa03a58311e8ee96b62a28e8db9b91c4cd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-009",
+        "statement": "Taken together, payroll contributions to all bodies come to about 37% of wages; employers pay 72% of this (26.5% of wages) and workers 28% (10.5%), and 64.8% of the total goes to the CCSS for health insurance and contributory pensions.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.2 The financing of social protection",
+          "page": 155,
+          "char_start": 511776,
+          "char_end": 512037,
+          "passage_sha256": "c864c12d7c4a88a2272f469c9618d05da915acbf72f31369f0be8317b80ff0fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-financing-010",
+        "statement": "Employers' payroll charges, at 21% of labour costs in 2024, are higher than in the average OECD country.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "figure": "Figure 8.8: Employer contributions, % of labour costs, 2024",
+          "page": 156,
+          "char_start": 513238,
+          "char_end": 513522,
+          "passage_sha256": "a65466d87a968df5b26f9d91e58f7657d75159ad42a2b6d78fa47183fd219416"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CRI-financing-011",
+        "statement": "The OECD estimates that cutting the employer health-insurance contribution rate by one percentage point would reduce health revenues by the equivalent of 0.4% of GDP.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.5.2 Reducing employers' contributions to the CCSS",
+          "page": 160,
+          "char_start": 525362,
+          "char_end": 525604,
+          "passage_sha256": "342a742c7adb54277e63ebba94ccd41bae0fead4a75de10ae01904aa79928e5e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "CRI-covered-001",
+        "statement": "By law, the whole population has access to emergency services, and contributory health insurance covers about 89% of the population (OECD, 2025).",
+        "valence": "strength",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems (coverage)",
+          "page": 153,
+          "char_start": 505232,
+          "char_end": 505422,
+          "passage_sha256": "ff20872c286d3d3dc9e158f7aea9242dd8c93e537470d9673db6b0ec9221d3ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-002",
+        "statement": "An OECD table of social protection coverage rates for 2024 puts the share of the population with social health insurance at 90.2%.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "table": "Table 8.3: Social protection coverage rates, by group, 2024",
+          "page": 154,
+          "char_start": 507117,
+          "char_end": 507250,
+          "passage_sha256": "26121b8402594366f2e92180da337c41bbd5de41e040b90f032295e5a1543f6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CRI-covered-003",
+        "statement": "According to the 2024 National Household Survey, 10% of people nationally had no health insurance, rising to 11% in rural areas.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización del sistema de salud costarricense",
+          "page": 2,
+          "char_start": 5590,
+          "char_end": 5759,
+          "passage_sha256": "8a082c5a56ab347c7fd7ca1ccc38bbc48bd528dc6caa0b48cf6f31b3b76d0b34"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CRI-covered-004",
+        "statement": "Non-contributory forms of coverage, such as the family benefit insurance, give close relatives of directly insured people who depend on them access to health care.",
+        "valence": "neutral",
+        "source_id": "binasss-177",
+        "locator": {
+          "section": "Brecha entre la cobertura asegurada y la contributiva",
+          "page": 2,
+          "char_start": 6728,
+          "char_end": 6982,
+          "passage_sha256": "ee6b2b577a7e1318fd55ff13e59d55ac017af632fb42b4d541877ec945bbd729"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-005",
+        "statement": "Social security cannot refuse care to anyone who needs it, regardless of insurance status, although in principle it is supposed to charge uninsured people for the cost of that care.",
+        "valence": "neutral",
+        "source_id": "binasss-177",
+        "locator": {
+          "section": "Brecha entre la cobertura asegurada y la contributiva",
+          "page": 2,
+          "char_start": 6983,
+          "char_end": 7192,
+          "passage_sha256": "dcdbfb70be398fc007962359971ce6ac7c4b5d6be91e5c94283777a3b4ebdfdd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-006",
+        "statement": "Under the primary care reform, each household was assigned to a multidisciplinary team (EBAIS) purely according to where it lives, with about 4,000 people per team.",
+        "valence": "neutral",
+        "source_id": "phc-bmjgh-2020",
+        "locator": {
+          "table": "Table 3: Reforms identified for Costa Rica's PHC model, row 'Geographic empanelment'",
+          "char_start": 15709,
+          "char_end": 15948,
+          "passage_sha256": "12e2ed62507d9fd93466ccc977fa377fb684afd2a8cc09b26bfc843f1dc3ea6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-007",
+        "statement": "Which medicines the CCSS covers is set by its Official Medicines List, compiled by expert doctors and pharmacists against criteria that include efficacy, safety, the ratio of costs to benefits, the effect on the system's financial sustainability, and whether all population groups can obtain and properly use the medicine.",
+        "valence": "neutral",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "section": "Effects of the reform on resource allocation",
+          "char_start": 25859,
+          "char_end": 26271,
+          "passage_sha256": "1cdc7d60610ab53f472bca194a93efd16cf909bbd7aa52dd2ff77e7f59a6896c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-008",
+        "statement": "The Constitution contains no explicit right to health, but the Constitutional Chamber of the Supreme Court (Sala IV) has derived one from the right to life (article 21), the right to social security (article 73) and international human rights treaties; this right covers public and preventive health services as well as medical care.",
+        "valence": "neutral",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4127,
+          "char_end": 4530,
+          "passage_sha256": "90b836de73e0ebb91003285061e5230f85ea52479e72fa0ff2b0d221876c262a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-009",
+        "statement": "The General Health Law of 1974 and the solidarity-based social security model establish a universal right to health care.",
+        "valence": "neutral",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Propuesta teórica para el abordaje de las listas y los tiempos de espera",
+          "page": 2,
+          "char_start": 10361,
+          "char_end": 10486,
+          "passage_sha256": "29d6140578aaa52d06abcd08413916512f009ffcec1a334f4ac571ff4713094a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-covered-010",
+        "statement": "A 2023 review of diabetes care in Costa Rica concludes that most patients are treated at the primary care level, that access to diabetes medicines is limited to sulphonylureas, metformin and human insulins, and that referral to specialists and nutritional counselling are available but usually with long waiting lists.",
+        "valence": "weakness",
+        "source_id": "diabetes-cureus-2023",
+        "locator": {
+          "section": "Conclusions",
+          "char_start": 20612,
+          "char_end": 20913,
+          "passage_sha256": "3f8da5a95cee5e25f085c0da1e963088a032b520bd9b272297c2a49d5fcf21ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CRI-cost_sharing-001",
+        "statement": "The 2026 OECD/IDB/World Bank report states that Costa Rica describes 'Insurance from the State' (Seguro por el Estado) as the channel for insuring people who lack sufficient income.",
+        "valence": "strength",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 2: financial protection policies",
+          "page": 54,
+          "char_start": 217838,
+          "char_end": 217974,
+          "passage_sha256": "f4539cf9d50b21dafc01f2a4dec67e082737108cc3abb55ee48684c7131772b9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-cost_sharing-002",
+        "statement": "Apart from contributions, the health insurance has small revenues such as interest, rents and the sale of services, including to uninsured people, who have to pay for the care they receive.",
+        "valence": "neutral",
+        "source_id": "binasss-177",
+        "locator": {
+          "section": "Esquema de financiamiento: desaceleración de los ingresos por contribuciones",
+          "page": 4,
+          "char_start": 11407,
+          "char_end": 11704,
+          "passage_sha256": "7c462a82d05f7a95c94ed70a0e3dc56da913146e14f2d33605cccfae0acbca0e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [
+      {
+        "id": "CRI-additional_care-001",
+        "statement": "The private sector is concentrated in the Greater Metropolitan Area and is financed mainly through out-of-pocket payments.",
+        "valence": "neutral",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización del sistema de salud costarricense",
+          "page": 2,
+          "char_start": 6041,
+          "char_end": 6155,
+          "passage_sha256": "0b69c9114a74f9dda93ceffb0f6f6a048a2b090f1fbe427f32ae311b5613607c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-additional_care-002",
+        "statement": "Only a small share of patients have private health insurance, bought individually or received as a job benefit; cover varies and usually involves a co-payment of about 20% for medicines and medical care (2023 review).",
+        "valence": "neutral",
+        "source_id": "diabetes-cureus-2023",
+        "locator": {
+          "section": "Private Insurance",
+          "char_start": 15284,
+          "char_end": 15556,
+          "passage_sha256": "ae36cbbb28cb30292488d855d8a31999cae43c13e4ee89f013c4cd050a7dea81"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-additional_care-003",
+        "statement": "With private insurance, patients usually pay the provider first and then claim reimbursement from the insurer, which adds to their financial burden.",
+        "valence": "weakness",
+        "source_id": "diabetes-cureus-2023",
+        "locator": {
+          "section": "Private Insurance",
+          "char_start": 15557,
+          "char_end": 15783,
+          "passage_sha256": "a27f3a89df873ea2e4b6fb31ddcf21be2b278f1a1b86fae95f0d9f886cb59bc9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-additional_care-004",
+        "statement": "Newer diabetes medicines are available in the private sector, but most of the cost is paid out of pocket, which limits access to them (2023 review).",
+        "valence": "weakness",
+        "source_id": "diabetes-cureus-2023",
+        "locator": {
+          "section": "Conclusions",
+          "char_start": 20914,
+          "char_end": 21055,
+          "passage_sha256": "5ba6777ff3b5dc6fc5584a59b09aa044714c776363e0e61334199d1777a85b02"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "CRI-access-001",
+        "statement": "Between 2019 and 2024 the number of people on waiting lists grew from 438,599 to 695,328 for outpatient procedures (58.5% more), from 121,270 to 185,845 for surgery (53.2% more) and from 255,672 to 322,901 for specialist outpatient consultations.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización de las personas en listas de espera",
+          "page": 2,
+          "char_start": 7804,
+          "char_end": 8082,
+          "passage_sha256": "f54281b25a0789355efbc705df6a47e9f0dcf05865f6e266933fdd170ff98fa2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "CRI-access-002",
+        "statement": "In 2024 the average wait for specialist outpatient consultations was 466 days, 13% longer than in 2020.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "table": "Tabla 1: Perfil de los tiempos de espera en Costa Rica (2024 average days; change 2020-2024)",
+          "page": 3,
+          "char_start": 12672,
+          "char_end": 12806,
+          "passage_sha256": "4667b7537f43f5d7c82b639d95d3334a7321394ce6a9877dcd401f115a6e42e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CRI-access-003",
+        "statement": "In 2024 the average wait was 137 days for outpatient medical procedures (50% longer than in 2020) and 424 days for surgical procedures (26% longer).",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "table": "Tabla 1: Perfil de los tiempos de espera en Costa Rica (2024 average days; change 2020-2024)",
+          "page": 3,
+          "char_start": 13324,
+          "char_end": 13659,
+          "passage_sha256": "1038fb1d4ebda4b175820981c2ea3cfde91c48a779f37c075a029cabeeb2b628"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CRI-access-004",
+        "statement": "Waits for specialist outpatient appointments differed widely by province in 2024, from an average of 262 days in Puntarenas to 655 days in Alajuela.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "table": "Tabla 1: Perfil de los tiempos de espera en Costa Rica, specialist outpatient consultation by province (2024 average days; change 2020-2024)",
+          "page": 3,
+          "char_start": 12881,
+          "char_end": 13010,
+          "passage_sha256": "7040efc868fffeaaed4ac897076e646b7970b2eb1d2db82696251c4f34948409"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CRI-access-005",
+        "statement": "To tackle waiting lists, the CCSS runs extra 'production' sessions beyond normal working hours, yet a 2026 study reports that operating theatres are used for only 63% of regular working hours, while the number of patients on waiting lists grew by 7% a year on average.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Capacidad instalada de la CCSS",
+          "page": 2,
+          "char_start": 9711,
+          "char_end": 10161,
+          "passage_sha256": "40da4a7bd841f9644e4e966cecb209edaf3edcadaf45d7b6c6ac80835e288b01"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "CRI-access-006",
+        "statement": "Priority on a waiting list is set by the treating doctor when demand exceeds the network's immediate capacity, provided the condition can wait without risk to life.",
+        "valence": "neutral",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización de las personas en listas de espera",
+          "page": 2,
+          "char_start": 8251,
+          "char_end": 8441,
+          "passage_sha256": "4b2b2e7ba4040ffd038dcac7ebfd68c6940897e53f79181f52fe3c0a0f773fde"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-access-007",
+        "statement": "Seven in ten people (70%) said they were satisfied with the availability of good-quality health care, compared with 64% on average across the OECD.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Access to care",
+          "page": 3,
+          "char_start": 4274,
+          "char_end": 4380,
+          "passage_sha256": "fafc1a9786123ba6cb1664c665cf67155bea68189a4d1d6af32b075f6ec4ac82"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-access-008",
+        "statement": "Costa Rica has 1.1 hospital beds per 1,000 people (OECD average 4.2) and 7 CT scanners, MRI units and PET scanners per million people (OECD average 51).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Hospitals and equipment",
+          "page": 5,
+          "char_start": 6684,
+          "char_end": 6883,
+          "passage_sha256": "4beead23d5e1f56e7be18596d7d0aa71a47707082e249de5c3e8bbdfe5338314"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-access-009",
+        "statement": "Among the countries compared in Figure 8.13 of the 2026 OECD/IDB/World Bank report, medical graduate output ranges from 33.9 graduates per 100,000 people in the Dominican Republic down to 4.3 in Costa Rica; the LAC10 average is 12.8, close to the OECD average of 14.5.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 8: Medical graduates",
+          "figure": "Figure 8.13",
+          "page": 169,
+          "char_start": 564455,
+          "char_end": 564661,
+          "passage_sha256": "cee01b0561ee16f23ebbb8e91514dd3400a18b41dc76369143d9937b0106e44b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CRI-outcomes-001",
+        "statement": "Life expectancy in Costa Rica was 81 years, 0.1 years below the OECD average.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Health status",
+          "page": 2,
+          "char_start": 1667,
+          "char_end": 1745,
+          "passage_sha256": "e032e84bf08746502f7bebca6ac4557b0364a6ea4903fb85da537b4d21354073"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-outcomes-002",
+        "statement": "Preventable mortality was 147 deaths per 100,000 people (OECD average 145) and treatable mortality 94 per 100,000 (OECD average 77).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Health status",
+          "page": 2,
+          "char_start": 1748,
+          "char_end": 1923,
+          "passage_sha256": "46cabfd2c0677a76e9167e9d73f27f82632f1d86f1b0cc61cef047a147e998b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-outcomes-003",
+        "statement": "99% of eligible children were vaccinated against diphtheria, tetanus and pertussis, above the OECD average.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Quality of care",
+          "page": 4,
+          "char_start": 4574,
+          "char_end": 4671,
+          "passage_sha256": "84871419a34617b4537b049e241bc2729555c2e89cb2ee949020bb2a9ad6de5f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-outcomes-004",
+        "statement": "In 2023 total avoidable mortality was around 200 deaths per 100,000 people in Costa Rica, against 297 across Latin America and the Caribbean and 162 across the OECD; Costa Rica's treatable mortality (184 per 100,000 men, 66 per 100,000 women) is among the lowest in the region.",
+        "valence": "strength",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 7: Avoidable mortality",
+          "figure": "Figure 7.1",
+          "page": 147,
+          "char_start": 495929,
+          "char_end": 497115,
+          "passage_sha256": "65ba74c060e552c3c43e0d4991db4297f79a059128c6b63ffaae3fb9fc00b49e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CRI-outcomes-005",
+        "statement": "Age- and sex-standardised 30-day in-hospital mortality after a heart attack was 6.8% in Costa Rica, close to the OECD average of 6.5%.",
+        "valence": "strength",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 7: In-hospital mortality following AMI and stroke",
+          "figure": "Figure 7.9",
+          "page": 153,
+          "char_start": 514715,
+          "char_end": 515107,
+          "passage_sha256": "110a10234aff0ccce222ab3e62c189fa298873cbe5720fa57c064b2885e7a86e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-outcomes-006",
+        "statement": "In the GBD 2019 study, Costa Rica's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 64.7 (95% uncertainty interval 60.4-68.6) in 2019, 11.7 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 51536,
+          "char_end": 51701,
+          "passage_sha256": "08a58c4c794224404cd6055d43282da758d94a638d33894d772acda891648383"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CRI-outcomes-007",
+        "statement": "In 2018 life expectancy in Costa Rica was 80 years, compared with an average of 79.5 for the 'Very High' human development group of countries and 76 for the 'High' group.",
+        "valence": "strength",
+        "source_id": "equity-rpsp-2020",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6909,
+          "char_end": 7067,
+          "passage_sha256": "ee968c3804ae1417cd45de931eed81cd4723697eed468438c96b74c783a78e83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2018
+      }
+    ],
+    "costs": [
+      {
+        "id": "CRI-costs-001",
+        "statement": "Costa Rica spends US$1,935 per person on health (USD PPP), against an OECD average of US$5,967, equal to 6.8% of GDP compared with an OECD average of 9.3%.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Health spending",
+          "page": 5,
+          "char_start": 6191,
+          "char_end": 6357,
+          "passage_sha256": "7f1ddba39f4428261e2015b27c67aa4044ea90f634830963f1422cb9da151376"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-costs-002",
+        "statement": "The OECD says the health sector must shore up the CCSS's financial sustainability, as a recent actuarial assessment highlighted, while delivering adequate services and improving efficiency and cost control.",
+        "valence": "weakness",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems (coverage and financial protection)",
+          "page": 154,
+          "char_start": 509350,
+          "char_end": 509607,
+          "passage_sha256": "b1eb8c4ceacb48857fcd12af902f6940925888c058bacdbe97f07ee8a6c7bc18"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CRI-what_works-001",
+        "statement": "Costa Rica had 161 avoidable hospital admissions per 100,000 people, well below the OECD average of 473.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Quality of care",
+          "page": 4,
+          "char_start": 4835,
+          "char_end": 4943,
+          "passage_sha256": "f8730cead15df8b05506377cbde9e9df25599cabdbc9aaf8e9fb1f02fa01c364"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-what_works-002",
+        "statement": "Costa Rica has long been seen as a model of primary health care among low- and middle-income countries; it reformed primary care in 1994 around basic integrated health care teams.",
+        "valence": "strength",
+        "source_id": "phc-healthaff-2017",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1459,
+          "char_end": 1733,
+          "passage_sha256": "2aa89a72c88a6aa8d1da4b67149afc5454edb3cc3a8a0de71edfdcd5851a6720"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-what_works-003",
+        "statement": "A 2020 study found that Costa Rica carried out its primary care reforms through strong leadership, a compelling vision and deliberate implementation strategies: building on existing knowledge, resources and infrastructure, bringing key stakeholders together and engaging closely with communities.",
+        "valence": "strength",
+        "source_id": "phc-bmjgh-2020",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3261,
+          "char_end": 3540,
+          "passage_sha256": "b7584bab3d8095b97d03e4f0a2eb4b145189e5a79ca602b3c13602a9e40139b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-what_works-004",
+        "statement": "A Healthcare Delivery Performance Index ranks the country's 106 Health Areas on 15 quality indicators; Health Area Directors use it to start quality improvement work, and the ranking motivates providers without financial incentives.",
+        "valence": "strength",
+        "source_id": "quality-hpp-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 4364,
+          "char_end": 4803,
+          "passage_sha256": "19769baefdaf7a42b16ceff55c5faec10b2b071c216c6d7a8186d372eda01f80"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-what_works-005",
+        "statement": "Public health resources seem to be distributed in favour of the poor: the poorest groups make the most use of public services, and the poorest fifth of the population receives 30% of government health spending.",
+        "valence": "strength",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "section": "Effects of the reform on resource allocation",
+          "char_start": 25530,
+          "char_end": 25763,
+          "passage_sha256": "dd7cea5bb27af3e1f548fa1bfb5b2b8d827cd6b1bb529cee168f65d59d9f056b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-what_works-006",
+        "statement": "The 2026 OECD/IDB/World Bank report cites Costa Rica's EDUS as an example of patient-facing digital access.",
+        "valence": "strength",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 1: Policy recommendations on quality",
+          "page": 40,
+          "char_start": 166170,
+          "char_end": 166241,
+          "passage_sha256": "32f826140bbc703aa09405106ed46088bf38e17e075f680c8e4268e8b8962741"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "CRI-problems-001",
+        "statement": "The authors conclude that increases in waiting lists and waiting times tied to the availability of extraordinary budgets, even with the same installed capacity, point to a cyclical pattern that does not tackle waiting lists in a sustained way and reveals weaknesses in planning, governance and operational continuity.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Conclusiones",
+          "page": 5,
+          "char_start": 18909,
+          "char_end": 19276,
+          "passage_sha256": "31c538fdd274822bbbd2a6032f07a0624dfe63fb2305a2b94702c61f010f0c4a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-002",
+        "statement": "The CCSS's way of prioritising waiting lists is only weakly aligned with the models examined by the OECD and the IDB, which weigh clinical need and time waited together and add criteria such as severity, urgency, equity and social factors.",
+        "valence": "weakness",
+        "source_id": "gacsanit-2026",
+        "locator": {
+          "section": "Caracterización de las personas en listas de espera",
+          "page": 2,
+          "char_start": 9255,
+          "char_end": 9675,
+          "passage_sha256": "10f56cef106bf002ba1f4587f7e37502c0d9a38296c678a18786475db6a3a32d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-003",
+        "statement": "In July 2025, 21.3% of poor people had no formal health insurance, compared with 6.0% of people who were not poor by any method.",
+        "valence": "weakness",
+        "source_id": "inec-enaho-2025",
+        "locator": {
+          "section": "Características de los hogares en situación de pobreza",
+          "page": 74,
+          "char_start": 133784,
+          "char_end": 133923,
+          "passage_sha256": "f18b5cfca13b9c4bd87ecb9b6f950a8247b0ac33bd09f5784e9bfed67613c673"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CRI-problems-004",
+        "statement": "Only 22% of women in Costa Rica were screened for breast cancer, compared with an OECD average of 55%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-cri",
+        "locator": {
+          "section": "Quality of care",
+          "page": 4,
+          "char_start": 4674,
+          "char_end": 4768,
+          "passage_sha256": "328997ef1bbff6eeb61faceb704df0f425ecb902b961b2b3c1566a8b856bf779"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-005",
+        "statement": "Costa Rica ranks among the four OECD countries with the lowest doctor productivity, measured as medical visits per doctor.",
+        "valence": "weakness",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems (coverage and financial protection)",
+          "page": 154,
+          "char_start": 509609,
+          "char_end": 509744,
+          "passage_sha256": "8fbcecd1e1c0e9e35de6b9896810c29d7e8139804e60e87151422e2e8e567be2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-006",
+        "statement": "Even after the court's reform, low-priority and experimental medicines together made up nearly two-thirds of successful claims and, by the authors' estimate, more than nine-tenths of the spending on approved claims.",
+        "valence": "weakness",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "section": "Effects of the reform on resource allocation",
+          "char_start": 24004,
+          "char_end": 24202,
+          "passage_sha256": "d7b9e3349b08948daa2b748a9f5b0cda41db8446237ebd453e22a46ca3045016"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "CRI-problems-007",
+        "statement": "Court orders are estimated to account for 9% of the CCSS's total medicine spending.",
+        "valence": "weakness",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6833,
+          "char_end": 6950,
+          "passage_sha256": "d024f727d77c4779fdf75837b3b84dc664e0657d9c722ff4d023ecccbffcc823"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-008",
+        "statement": "Costa Rica reports that patient experience is not measured at all (OECD/IDB/World Bank, 2026).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 1: Patient voice and experience",
+          "page": 35,
+          "char_start": 134276,
+          "char_end": 134361,
+          "passage_sha256": "fabe2785d2807016179662f2ae7031371d2a015360c0f2220c295d6f2dcf1e5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-009",
+        "statement": "Costa Rica reported that its clinical practice guidelines, including those for cancer and cardiovascular disease, are not regularly updated.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 1: Clinical practice guidelines",
+          "page": 31,
+          "char_start": 113628,
+          "char_end": 114128,
+          "passage_sha256": "e74d489c7189b1f4f697be394a5d5472404a5ac3a04ba2edd1a2d1ff717f229c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-010",
+        "statement": "30-day in-hospital mortality after ischaemic stroke was 15.3% in Costa Rica, markedly higher than the OECD average of 8.7%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 7: In-hospital mortality following AMI and stroke",
+          "figure": "Figure 7.10",
+          "page": 153,
+          "char_start": 515108,
+          "char_end": 516015,
+          "passage_sha256": "99ea9db1410e59016ea904db704dfcf2247063fccd53603dadab793e2e01f77a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-problems-011",
+        "statement": "The financing of social protection programmes in Costa Rica relies heavily on high payroll contributions, which the OECD identifies as barriers to formalisation.",
+        "valence": "weakness",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.2 The financing of social protection",
+          "page": 155,
+          "char_start": 511535,
+          "char_end": 511720,
+          "passage_sha256": "91da1509c30e793e351ddf8dc7df1e850192afe3c0355b496d65a71ac9d8c89c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CRI-reforms-001",
+        "statement": "In 2014, with World Bank support, the court started a joint programme with the Cochrane Collaboration: instead of typically accepting the treating doctor's evidence, it can refer cases to forensic clinics, where a doctor examines the patient and checks the prescribed medicine against Cochrane evidence.",
+        "valence": "neutral",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7185,
+          "char_end": 7880,
+          "passage_sha256": "c0be21805f34ed8c14c5585a1a95ae9bec4357db5ed1e97d732b435f73df5c3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-reforms-002",
+        "statement": "The success rate of litigation for the provision of medicines rose from 57.9% of 192 cases in 2008, before the reform, to 76.6% of 128 cases in 2016, after it.",
+        "valence": "neutral",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "table": "Table 3: Success rate of litigation for the provision of medicine, 2008 and 2016",
+          "char_start": 15541,
+          "char_end": 15714,
+          "passage_sha256": "0ff25c32dfbca5aa3a00f428148b32b7698a3649b2ee4568f62772678e61ad32"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2008-2016"
+      },
+      {
+        "id": "CRI-reforms-003",
+        "statement": "In 2022 the CCSS board lowered the minimum contributory income for independent workers, setting it at US$283.",
+        "valence": "neutral",
+        "source_id": "oecd-informality-2025",
+        "locator": {
+          "section": "8.3.1 Overview of existing systems",
+          "page": 150,
+          "char_start": 496332,
+          "char_end": 496452,
+          "passage_sha256": "7568a5ac68d77ae1fa0c31eaf8412e6b77b0a71ebd5c94f2348d1e2de2220c8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CRI-reforms-004",
+        "statement": "As digital inclusion measures, Costa Rica created a Virtual Office within the Ministry of Health, piloted kiosks in health areas, developed a decree to regulate teleconsultation and took initial steps on digital literacy (as reported in 2026).",
+        "valence": "neutral",
+        "source_id": "oecd-hag-lac-2026",
+        "locator": {
+          "section": "Chapter 2: Digital inclusion policies",
+          "page": 56,
+          "char_start": 226211,
+          "char_end": 226456,
+          "passage_sha256": "6e87a0e4f97f2bc0eee184ad5525a41358608916001ac9c1f1866007e1826c90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-reforms-005",
+        "statement": "In the 1990s Costa Rica carried out three key primary care reforms: restructuring governance, assigning the population to teams by geography, and creating multidisciplinary teams.",
+        "valence": "neutral",
+        "source_id": "phc-bmjgh-2020",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2604,
+          "char_end": 2738,
+          "passage_sha256": "692021bff9e4b61a6898122840e050dcb9ffc0394563729602492c841615464a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "historical": true
+      },
+      {
+        "id": "CRI-reforms-006",
+        "statement": "After the reform, claims for medicines made up a smaller share of all amparo (constitutional protection) cases: 128 of 15,782 (0.8%) in 2016, against 192 of 16,345 (1.2%) in 2008.",
+        "valence": "neutral",
+        "source_id": "litigation-hhr-2019",
+        "locator": {
+          "table": "Table 4: Litigation for the provision of medicine, 2008 and 2016",
+          "char_start": 16849,
+          "char_end": 17092,
+          "passage_sha256": "93dfa898912d4eb9404d7eced8e15db471863cdaf9c5e79e2db105f64a3cc704"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2008-2016"
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "CRI-us_lessons-001",
+        "statement": "The authors of a study of how Costa Rica implemented its primary care reforms say its specific strategies offer concrete lessons for other countries working to strengthen primary health care.",
+        "valence": "neutral",
+        "source_id": "phc-bmjgh-2020",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3630,
+          "char_end": 3831,
+          "passage_sha256": "e17105f198ae8e93a4ee7bbf44d2b92f250be8043bb01fe9f6e974039d33217c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-us_lessons-002",
+        "statement": "A Health Affairs case study concludes that, for countries pursuing high-quality universal coverage, Costa Rica's experience shows both what kinds of primary care reform are needed and how such reforms can be put in place.",
+        "valence": "neutral",
+        "source_id": "phc-healthaff-2017",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2048,
+          "char_end": 2363,
+          "passage_sha256": "d57acd90435b41673f7cf666cd18022e9d1bcbd778232d90cec18ac744b6d992"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "CRI-us_lessons-003",
+        "statement": "A study of primary care data use concludes that Costa Rica's experience with collecting, analysing and using data for quality improvement holds lessons for primary care in other public-sector systems.",
+        "valence": "neutral",
+        "source_id": "quality-hpp-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 5104,
+          "char_end": 5254,
+          "passage_sha256": "132b4976577b8ba397519fde1cbdd94c73dc7b50bb1a3a2ec9e46318144e3dcb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/CRI.json",
+  "sources": [
+    {
+      "id": "oecd-hag-2025-cri",
+      "title": "Health at a Glance 2025: Costa Rica (country note)",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025-country-notes_2f94481e/costa-rica_0f083a23/3fb42541-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "oecd-hag-lac-2026",
+      "title": "Health at a Glance: Latin America and the Caribbean 2026",
+      "publisher": "OECD, Inter-American Development Bank and World Bank",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/health-at-a-glance-latin-america-and-the-caribbean-2026_19748f23/445b3259-en.pdf",
+      "accessed": "2026-11-13",
+      "funding_note": "Policy descriptions in its equity and quality chapters come from a survey of national health authorities, i.e. as the Costa Rican authorities reported them."
+    },
+    {
+      "id": "oecd-informality-2025",
+      "title": "Expanding Social Protection and Addressing Informality in Latin America, Chapter 8: Reducing informality in Costa Rica: Challenges and opportunities",
+      "publisher": "OECD",
+      "authors": "Pacheco J-F, et al.",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/expanding-social-protection-and-addressing-informality-in-latin-america_9a502cb3/86c1fd38-en.pdf",
+      "accessed": "2026-11-13",
+      "funding_note": "Chapter written by a national expert for the OECD; contribution rates in its Table 8.4 are sourced to the CCSS."
+    },
+    {
+      "id": "inec-enaho-2025",
+      "title": "Encuesta Nacional de Hogares, julio 2025: Resultados generales",
+      "publisher": "Instituto Nacional de Estadística y Censos (INEC), Costa Rica",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://admin.inec.cr/sites/default/files/2025-10/reenaho2025.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gacsanit-2026",
+      "title": "Listas y tiempos de espera en Costa Rica: propuesta de un marco conceptual",
+      "publisher": "Gaceta Sanitaria",
+      "authors": "Sáenz Madrigal MR, Arce Ramírez CA, López-Vargas W, Sancho Rojas W",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.gaceta.2026.102641",
+      "doi": "10.1016/j.gaceta.2026.102641",
+      "license": "CC BY-NC-ND 4.0",
+      "text_url": "https://gacetasanitaria.org/es-download-pdf-S0213911126000786",
+      "accessed": "2026-11-13",
+      "funding_note": "One author works for the CCSS; waiting-list data were supplied by the CCSS Technical Unit for Waiting Lists. No funding declared."
+    },
+    {
+      "id": "binasss-177",
+      "title": "Financiamiento y cobertura del Seguro de Salud en Costa Rica: desafíos de un modelo exitoso",
+      "publisher": "Gestión en Salud y Seguridad Social (Caja Costarricense de Seguro Social)",
+      "authors": "Arce Ramírez CA",
+      "tier": 3,
+      "type": "government",
+      "year": 2022,
+      "url": "https://doi.org/10.62999/gestion.v1i1.177",
+      "doi": "10.62999/gestion.v1i1.177",
+      "text_url": "https://www.binasss.sa.cr/ojssalud/index.php/gestion/article/download/177/318/1382",
+      "accessed": "2026-11-13",
+      "funding_note": "Written by an adviser in the CCSS financial management division and published in the CCSS's own journal; submitted in 2019, published 2022. Treated as tier 3 (institutional) rather than independent peer review."
+    },
+    {
+      "id": "litigation-hhr-2019",
+      "title": "Have Reforms Reconciled Health Rights Litigation and Priority Setting in Costa Rica?",
+      "publisher": "Health and Human Rights",
+      "authors": "Luciano A, Voorhoeve A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2019,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6927383/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6927383",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "phc-bmjgh-2020",
+      "title": "Implementing sustainable primary healthcare reforms: strategies from Costa Rica",
+      "publisher": "BMJ Global Health",
+      "authors": "Spigel L, Pesec M, Villegas del Carpio O, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1136/bmjgh-2020-002674",
+      "doi": "10.1136/bmjgh-2020-002674",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7449361",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-13",
+      "funding_note": "Ariadne Labs (Boston) with CCSS co-authors; qualitative study of 39 key informants interviewed in 2017."
+    },
+    {
+      "id": "phc-healthaff-2017",
+      "title": "Primary Health Care That Works: The Costa Rican Experience",
+      "publisher": "Health Affairs",
+      "authors": "Pesec M, Ratcliffe HL, Karlage A, Hirschhorn LR, Gawande A, Bitton A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2017,
+      "url": "https://doi.org/10.1377/hlthaff.2016.1319",
+      "doi": "10.1377/hlthaff.2016.1319",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=28264956&rettype=abstract&retmode=text",
+      "accessed": "2026-11-13",
+      "funding_note": "Ariadne Labs case study; only the PubMed abstract is used."
+    },
+    {
+      "id": "quality-hpp-2021",
+      "title": "Strengthening data collection and use for quality improvement in primary care: the case of Costa Rica",
+      "publisher": "Health Policy and Planning",
+      "authors": "Pesec M, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1093/heapol/czab043",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8173660",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13",
+      "funding_note": "Ariadne Labs with CCSS co-authors; qualitative study (40 interviews).",
+      "doi": "10.1093/heapol/czab043"
+    },
+    {
+      "id": "diabetes-cureus-2023",
+      "title": "The Health System in Costa Rica: Focus on the Management of Diabetes Mellitus",
+      "publisher": "Cureus",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.7759/cureus.40084",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10327611",
+      "accessed": "2026-11-13",
+      "funding_note": "Narrative review by private-sector endocrinologists (Clínica Los Yoses); the lead author declares personal fees from several drug makers (Novo Nordisk, Sanofi, AstraZeneca and others). Used only for descriptive statements.",
+      "authors": "Chen Ku CH, Chen-Sandi D",
+      "doi": "10.7759/cureus.40084",
+      "license": "CC BY 3.0"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-13",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation). The paper reports scores but states no rank for Costa Rica."
+    },
+    {
+      "id": "equity-rpsp-2020",
+      "title": "Leadership, social determinants of health and health equity: the case of Costa Rica",
+      "publisher": "Revista Panamericana de Salud Pública",
+      "authors": "Campbell Barr E, Marmot M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.26633/RPSP.2020.139",
+      "doi": "10.26633/RPSP.2020.139",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7778463",
+      "license": "CC BY-NC-ND 3.0 IGO",
+      "accessed": "2026-11-13",
+      "funding_note": "Commentary co-written by Costa Rica's then First Vice-President; reflects the government's view."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created: 76 claims from 13 sources, anchored and support-reviewed in a separate cold pass by independent reviewer agents (two rounds); 29 statements reworded in review (one also re-anchored), one dropped. financial_hardship left empty (no national data on medical debt or health-related insolvency found); no qualifying ranking states Costa Rica's position."
+    }
+  ]
+}

@@ -3,13 +3,15 @@
   "name": "Finland",
   "wave": 3,
   "system_as_of": "2026-11-13",
-  "status": "draft",
+  "status": "verified",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "national_health_service",
+    "label": "Tax-funded regional health service: since 2023, 21 well-being services counties plus Helsinki, financed from the state budget, run health and social care with capped user fees; national health insurance (Kela), funded by state and payroll contributions, reimburses medicines and part of private care; employers provide occupational health care"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "FIN-overview-003"
+    ],
     "meets_definition": true
   },
   "sections": {
@@ -27,13 +29,15 @@
           "passage_sha256": "e38c995d898f6a360dd86149ed3fad30cd68bbc64db7839486517613bd175ee7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-overview-002",
-        "statement": "The counties organise primary and secondary health care together with social and rescue services, and set and collect user fees; each belongs to one of five collaborative areas built around the five university hospitals, which share out highly specialised care.",
+        "statement": "The counties organise primary and secondary health care together with social and rescue services, and set and collect user fees; each belongs to one of five collaborative areas organised around the five university hospitals.",
         "valence": "neutral",
         "source_id": "hss-fin-2024",
         "locator": {
@@ -44,8 +48,10 @@
           "passage_sha256": "a7c2424aac49e6458b9dcf1582c2eaec60f2fe3e97b74af4929f46b36bd46bfe"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -61,8 +67,10 @@
           "passage_sha256": "8e8cdbedf5215ba29340a84f21e28c6f039a6c9cb597a5673bbeb99f3364e4fb"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -78,8 +86,10 @@
           "passage_sha256": "50c3fa95b927cb30557fd1f6c83d84eb6934fbc94b7221a5d6cb0db98c9c2590"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -95,8 +105,10 @@
           "passage_sha256": "55d230120cc7cddeefeab74b67a92b383557c61046b0465ced7e45c4775f4cbe"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -112,8 +124,10 @@
           "passage_sha256": "b9f6a20d8e6b6ca972971994e9dbb3eacb226179c1e4e2c810181cafbac257f8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -129,8 +143,10 @@
           "passage_sha256": "84738362ed188f7915c143cbe1a576cd852a6dc619215c85400b084cca87105d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -138,7 +154,7 @@
     "financing": [
       {
         "id": "FIN-financing-001",
-        "statement": "Until the 2023 reform, municipalities paid for health care mainly from local taxes, topped up by state grants and user fees; now central government allocates funds to each county according to population size, demographic make-up and projected service needs, consolidating public financing into what the profile calls a single-payer model.",
+        "statement": "Before the reform, municipalities paid for health care mainly from local taxes, topped up by state grants and user fees; now central government allocates funds to each county according to population size, demographic make-up and projected service needs, consolidating public financing into what the profile calls a single-payer model.",
         "valence": "neutral",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -149,30 +165,34 @@
           "passage_sha256": "ea96654b9fb5d01c64b1b74ac6bde6b72c123589db79dc4ead33b1e4a80e5c47"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-financing-002",
-        "statement": "About 80% of central funding to the counties is allocated by a coefficient for health and social care needs; the rest is per capita or tied to other factors such as bilingualism, foreign languages and population density, and a small share of county revenue comes from co-payments and sales.",
+        "statement": "The counties are funded by central government through a formula: about 80% of the money is allocated by a coefficient for health and social care needs, the rest per capita or by other factors such as bilingualism, foreign languages and population density, and a small share comes from co-payments and sales.",
         "valence": "neutral",
         "source_id": "hss-fin-2024",
         "locator": {
           "section": "How much is spent on health services?",
-          "page": 5,
-          "char_start": 9333,
+          "page": 4,
+          "char_start": 8853,
           "char_end": 9645,
-          "passage_sha256": "7d855a48f8af8bd009b508ea01ed34277c4bcd598e3001918826349eb39e5f12"
+          "passage_sha256": "823a02d003b9b564405a506f27ef70a03bc82bb0b75cffca871be9369fb9b781"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-financing-003",
-        "statement": "The national health insurance (NHI) scheme run by Kela is financed by the state, employers, employees and the self-employed through payroll contributions, and it reimburses outpatient prescription medicines, part of the cost of private care, and travel to care.",
+        "statement": "The national health insurance (NHI) scheme is financed by the state, employers, employees and the self-employed through payroll contributions, and it reimburses outpatient prescription medicines, part of the cost of private care, and travel to care.",
         "valence": "neutral",
         "source_id": "hss-fin-2024",
         "locator": {
@@ -183,8 +203,10 @@
           "passage_sha256": "e95bd88612de353cb8b50589823561fa6bacab5d15f7092f1f1dfc7762cf2414"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -199,8 +221,10 @@
           "passage_sha256": "e86e02eb976f5318a4ee385563f05459326ced8913b68a75881267051f5e82b4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -215,8 +239,10 @@
           "passage_sha256": "88d644971eb228fe14d8960196eea47cca1e8ee7881dfaba17bc48ff0ebd3b8c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -232,8 +258,10 @@
           "passage_sha256": "68b76658775bc36e0276172e33f7a40a25229736807b8e5ab0edd094d6585296"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -249,30 +277,34 @@
           "passage_sha256": "a6cad895f73ee4358afa0a0a91e9fbb390ac6f23d8870c77e8649986f4be4302"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-financing-008",
-        "statement": "In 2026 employers pay a health insurance contribution of 1.91% of wages (1.87% in 2025); employees pay a health care contribution of 1.10% of wage income (1.06% in 2025) and a daily allowance contribution of 0.88%, which is zero for annual income below EUR 17,255.",
+        "statement": "In 2026 employers pay a health insurance contribution of 1.91% (1.87% in 2025); on wage income, insured people pay a health care contribution of 1.10% (1.06% in 2025) and a daily allowance contribution of 0.88%, which is zero for annual income below EUR 17,255.",
         "valence": "neutral",
         "source_id": "vero-sic",
         "locator": {
           "section": "Health insurance contribution",
-          "char_start": 1751,
+          "char_start": 1711,
           "char_end": 2003,
-          "passage_sha256": "88c8090147ac24d5c94828af5cd5423f2ddec6652c79408fcd798fae5d4309d7"
+          "passage_sha256": "b8ab050feaac02f2de1091eb2f749b5abb976e0963963e040f837b506afd40d7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "FIN-financing-009",
-        "statement": "Employers can claim compensation from Kela for occupational health care and medical care costs, typically about half of the calculated maximum costs, provided the costs are reasonable and necessary; offering GP-level medical care, beyond the mandatory preventive services, is voluntary for employers.",
+        "statement": "Employers can claim compensation from Kela for occupational health care and medical care costs, typically about half of the calculated maximum costs; providing GP-level medical care is voluntary for employers.",
         "valence": "neutral",
         "source_id": "kela-ohc-employers",
         "locator": {
@@ -282,8 +314,10 @@
           "passage_sha256": "eb055847e8a36b9a0aa54233e0f666c8ef49c2930bbe96dc08b28e812ed7634b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -298,8 +332,10 @@
           "passage_sha256": "95f9472cc40a5cf87d21f8e98da2e1121b02a8299d02a965ce9c5ec3b7d18ff5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -315,8 +351,10 @@
           "passage_sha256": "aabef41d1628e02659a8204f6cedc3ae56cdc8d077f58ca635245df68a1684c8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -333,14 +371,16 @@
           "passage_sha256": "b660f4256c8907e4dab4c0a6e32450d3767b66b3f5e8058afbded61a98b4aa98"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FIN-financing-013",
-        "statement": "Measured by financing agent, in 2021 the state accounted for 67% of current health expenditure, the national health insurance scheme for 13% and private sources for 20%.",
+        "statement": "In 2021 the state accounted for 67% of current health expenditure, the national health insurance scheme for 13% and private sources for 20%.",
         "valence": "neutral",
         "source_id": "hss-fin-2024",
         "locator": {
@@ -351,8 +391,10 @@
           "passage_sha256": "c044ab9bc6457dd9274b61ec23f7a9bb155141ffd52c4468b8a763fa6fd99a97"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -369,24 +411,28 @@
           "passage_sha256": "41d1aab3df27d75beccc33a9e28d05fcc244a04c706da98554acf333da1c7969"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-financing-015",
-        "statement": "A 2023 study using one Finnish insurer's register data found that local take-up of voluntary health insurance was explained more by sociodemographics than by the supply of care: it was higher where employment, income and education were higher and where private clinics were closer, and was not associated with fees and co-payments.",
+        "statement": "A 2023 study using one Finnish insurance company's nationwide register data found that local take-up of voluntary health insurance was explained more by sociodemographics than by the supply of care: it was higher where employment, income and education were higher and where private clinics were closer, and was not associated with fees and co-payments.",
         "valence": "neutral",
         "source_id": "phi-fin-2023",
         "locator": {
           "section": "Abstract",
-          "char_start": 817,
+          "char_start": 609,
           "char_end": 1438,
-          "passage_sha256": "8d82e38605e58a59e258ce352611f92caf128e2c1df9fd56b7f89349426e8516"
+          "passage_sha256": "245e63707c77c8670cd988de7867f1a88d9c30eaa3bce9ee4b768181cfc640df"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -404,8 +450,10 @@
           "passage_sha256": "0686b27f34de314b9d8df921fe7dbdebb8788dc6b942e6bde89b5af158c8ccd4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -421,13 +469,15 @@
           "passage_sha256": "4991bb69063bb3bcda5d1ee2bc65c45cbaf483eaa94bcd4eddb5d1a3dc9c134b"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-covered-003",
-        "statement": "Recent debates over the scope of public coverage have concerned fertility treatment for female couples and single women, vasectomies and very expensive treatments for hereditary diseases and cancer; gynaecology, ophthalmology and adult dental care are provided mainly by the private sector.",
+        "statement": "Where public coverage should stop has been debated recently for fertility treatment for single women and female couples, vasectomies, and very costly therapies for cancer and inherited diseases; most gynaecology, eye care and adult dentistry is delivered privately.",
         "valence": "neutral",
         "source_id": "hss-fin-2024",
         "locator": {
@@ -438,8 +488,10 @@
           "passage_sha256": "2c10e7a2d229fb198f048c67a4d445245cc69bea741d72bc794e13d3284c8fb7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -455,8 +507,10 @@
           "passage_sha256": "392cb1dcb8e86db010bd671d14fd245709fe80ca5c96004ac1521a3aabf72540"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -472,8 +526,10 @@
           "passage_sha256": "0f5676e619f1104b18e58b6a18fd75ecfbe48a9244e366367582b54a7d69c29a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -481,7 +537,7 @@
     "cost_sharing": [
       {
         "id": "FIN-cost_sharing-001",
-        "statement": "From January 2025 client fees rose by 22.5% in primary care and 45% in specialist care; the annual caps stayed at EUR 762 for services, EUR 633 for medicines and EUR 300 for travel, EUR 1,695 in total in 2025.",
+        "statement": "Client fees went up in January 2025, by 22.5% for primary care and 45% for specialist care, while the 2025 annual ceilings stayed the same: EUR 762 (services), EUR 633 (medicines) and EUR 300 (travel), EUR 1,695 combined.",
         "valence": "weakness",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -492,8 +548,10 @@
           "passage_sha256": "301ba7ad4e009e1b77017b0f8c968c77eface157851d181c7aaddc4537382dee"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -509,14 +567,16 @@
           "passage_sha256": "3bd1cf5cb57dfe018cdf4437d912b52c71560fc10e5c238e70a7cd715fbec5ac"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "FIN-cost_sharing-003",
-        "statement": "Outpatient prescription medicines are reimbursed at 40%, 65% or 100% depending on the condition and the medicine's assessed therapeutic value, after an annual deductible of EUR 70 (2025); even fully reimbursed medicines carry a fixed co-payment, and once out-of-pocket medicine spending reaches EUR 633.17 a year only a small co-payment remains.",
+        "statement": "Outpatient prescription medicines are reimbursed in three tiers, from 40% to 100% depending on the condition and the medicine's assessed therapeutic value, after an annual deductible of EUR 70 (2025); even fully reimbursed medicines carry a fixed co-payment, and once out-of-pocket medicine spending reaches EUR 633.17 a year only a small co-payment remains.",
         "valence": "neutral",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -527,14 +587,16 @@
           "passage_sha256": "35d2cabf264d993a2ead740a49b98834fb0a18cc4ae1c8207092d3bcc9f7b100"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "FIN-cost_sharing-004",
-        "statement": "Once the annual limit on medicine costs is passed, patients pay EUR 2.50 for each covered prescription medicine.",
+        "statement": "Once the annual limit on medicine costs is passed, patients pay only a EUR 2.50 deductible for covered prescription medicines.",
         "valence": "neutral",
         "source_id": "olpa-medical",
         "locator": {
@@ -544,8 +606,10 @@
           "passage_sha256": "7ed082a11a0eb479be135237aa3815c92d09718303e3664891f0e26aee096b8e"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -562,13 +626,15 @@
           "passage_sha256": "fd1524e3f53871fc210b133a79424d30c40a2dba365b476d1c29d98ccaabee13"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-cost_sharing-006",
-        "statement": "Patients can apply to their county to have public health and social care client fees reduced or waived, and under section 11 of the Act on Client Fees this takes precedence over paying social assistance.",
+        "statement": "Patients can apply to have public health and social care client fees reduced or waived, and under section 11 of the Act on Client Fees this takes precedence over paying social assistance.",
         "valence": "neutral",
         "source_id": "olpa-medical",
         "locator": {
@@ -578,30 +644,34 @@
           "passage_sha256": "631c065f73ee50e23399aba8c2b13955b106c749b2ca618cf78fbed8448804d4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-cost_sharing-007",
-        "statement": "From 1 January 2024 Kela's reimbursement for a visit to a private general practitioner or specialist rose from EUR 8 to EUR 30 (EUR 25 for a remote consultation).",
+        "statement": "From 1 January 2024 Kela's reimbursement for an appointment with a doctor in private practice, general practitioner or specialist, rose from EUR 8 to EUR 30 (EUR 25 for a remote consultation).",
         "valence": "neutral",
         "source_id": "kela-private-2024",
         "locator": {
           "section": "Press release",
-          "char_start": 926,
+          "char_start": 651,
           "char_end": 1143,
-          "passage_sha256": "15a69592a9f9d958c217b765cc33bff5000d64b1e5844080b8645721f219edd4"
+          "passage_sha256": "83cf07308201b9cd6d2c525382e82da2ef25c47bf2a7c9c58723628fdc6cafb9"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "FIN-cost_sharing-008",
-        "statement": "Tests and treatments such as laboratory work or physiotherapy ordered by a private doctor are not reimbursed by Kela, except those ordered by a psychiatrist, an oral and maxillofacial surgeon or a dentist.",
+        "statement": "Kela does not reimburse laboratory tests, physiotherapy or other investigations and treatments that a private doctor orders, unless the orders come from a psychiatrist, a dentist or an oral and maxillofacial surgeon.",
         "valence": "neutral",
         "source_id": "kela-private-2024",
         "locator": {
@@ -611,8 +681,10 @@
           "passage_sha256": "ff941a6758853296bf7ce9f746cc5278d06fba9fe53b87f979b78e91ca6f0b96"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -629,8 +701,10 @@
           "passage_sha256": "53bdff19232202ce89f27747ffda31da8a56d4dbcec3ef1de94176787aa62ec0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -647,8 +721,10 @@
           "passage_sha256": "27e6e3f5e41b229e6f8365ffd94c4d9fed0f97f9e6640fcdd4524a852015a473"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -664,8 +740,10 @@
           "passage_sha256": "3c623b7f25b6d26069c87253464ca27e6423c7f3c3f296596c4635ef1d4f8f42"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -681,14 +759,16 @@
           "passage_sha256": "35ef0780131852b05a2d95864cf6dfb7bf7d417da681ba728c994eb328c199cb"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "FIN-financial_hardship-004",
-        "statement": "In 2018 there were about 430,000 debt recovery proceedings over unpaid municipal social and health care user charges, up from 180,000 in 2012, after maximum co-payments for municipal care were raised substantially in 2015 and 2016.",
+        "statement": "Maximum co-payments for municipal health care were raised substantially in 2015 and 2016; in 2018 there were about 430,000 debt recovery proceedings over unpaid municipal social and health care user charges, up from 180,000 in 2012.",
         "valence": "weakness",
         "source_id": "who-finprot-fin-2021",
         "locator": {
@@ -699,15 +779,17 @@
           "passage_sha256": "970d61e31592502c61a5b4032566e759ec38df8f4b0bd79c254cb2a2d1856d96"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2018",
         "historical": true
       },
       {
         "id": "FIN-financial_hardship-005",
-        "statement": "Strict regulation keeps pharmaceutical spending in check, but high co-payments for medicines contribute significantly to catastrophic health spending.",
+        "statement": "Although cost-containment measures and tight regulation hold spending down, high co-payments for medicines contribute significantly to catastrophic health spending.",
         "valence": "weakness",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -718,8 +800,10 @@
           "passage_sha256": "cf137feabb56069baac87a7ae246e8dc055c61bb1d77c404a85dc7f9f963cb9f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -737,8 +821,10 @@
           "passage_sha256": "d3db61d366c8f95ac2f7da43fb8f42c81d3103361d306c40a4cb508e4ed54d42"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -754,8 +840,10 @@
           "passage_sha256": "bf07ca202b3873dc85e0e61309ee0449151ce2ff9fa61c5455e99b5c028d3b4d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -771,8 +859,10 @@
           "passage_sha256": "e8f6e25d71f3ff1736a129ebaf7ad224557491609e1f7647d968dfeaf6c9a0f3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -783,19 +873,21 @@
         "locator": {
           "section": "5.2 Accessibility",
           "page": 13,
-          "char_start": 78397,
+          "char_start": 78352,
           "char_end": 78584,
-          "passage_sha256": "f106991f0b92d625cc26dc2632d52fcb319676f31ab36e20636162682481c377"
+          "passage_sha256": "8404119b1eb75256066d771ef809b04873984b409b43da6b863c35e278e104b2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "FIN-additional_care-005",
-        "statement": "Kela reimburses telemedicine on the same terms as in-person visits; reimbursed telemedicine users rose from about 3,300 in 2019 to more than 320,000 in 2022, around 12% of all reimbursed medical fees that year, with few users over 75.",
+        "statement": "Reimbursement policy aligns payment and cost-sharing for telemedicine with in-person visits; reimbursed telemedicine users rose from about 3,300 in 2019 to more than 320,000 in 2022, around 12% of all reimbursed medical fees that year, with limited uptake among people over 75.",
         "valence": "neutral",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -806,8 +898,10 @@
           "passage_sha256": "840be6e06e72425ba252dee499098dbbcd711b04150089426ac58769660567f7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2022"
       },
@@ -824,8 +918,10 @@
           "passage_sha256": "8f6ce6dc45f70356c450d0391f43733a46f57f3333f0f8956cc458f3c6e0eabe"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ],
@@ -843,14 +939,16 @@
           "passage_sha256": "27d6ea70db5aa7dd00131cd44b0cad308ad3ef391e78c843956fb767e1794869"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "FIN-access-002",
-        "statement": "In 2023 people in the lowest income quintile reported unmet health needs at double the rate of those in the highest; the summary links the gap to fragmented primary care, in which employed people often get outpatient care through occupational health and those who can pay use private services with little waiting.",
+        "statement": "People in the lowest income quintile report unmet health needs at double the rate of those in the highest; the summary links the gap to fragmented primary care, in which employed people often get outpatient care through occupational health and those who can pay use private services with little waiting.",
         "valence": "weakness",
         "source_id": "hss-fin-2024",
         "locator": {
@@ -861,10 +959,11 @@
           "passage_sha256": "5f0a93a4ef2088c80bf226ea861e2f48136a37fc953e2027b0304bbd8717ce96"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2023
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
       },
       {
         "id": "FIN-access-003",
@@ -874,13 +973,15 @@
         "locator": {
           "section": "5.2 Accessibility",
           "page": 13,
-          "char_start": 78127,
+          "char_start": 77994,
           "char_end": 78337,
-          "passage_sha256": "bd6ae5ae7e9ea7b0c746f100892ce682f27adb1c61517ec7e7783870341f7255"
+          "passage_sha256": "326f03f49ad45afad271ffea698ad51443f59356ccf0b41db2d86fb2c6538ecc"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -897,8 +998,10 @@
           "passage_sha256": "57722fe992f4143330400dcf9610309d15bf469b0b36ba9698760a05ed1dd8d4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -910,13 +1013,15 @@
         "locator": {
           "section": "5.3 Resilience",
           "page": 16,
-          "char_start": 101396,
+          "char_start": 101373,
           "char_end": 101792,
-          "passage_sha256": "4222a64fe93d5d7d3dc5cd4c895b7cad141a8ca4c0124f8075e196123378354d"
+          "passage_sha256": "48bec8f4f30ef7fc398185e7dde4af563c7e752f9c5cb067f9ec27b82540ceb6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2024"
       },
@@ -933,8 +1038,10 @@
           "passage_sha256": "d0d5599dbb3fd587ce1966715151359a78c969da5deee96840d01e8a8eaf0e77"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -950,14 +1057,16 @@
           "passage_sha256": "06f93773e9d6e1777b735c8411f755f835cb420e40374124aba80c872982190c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FIN-access-008",
-        "statement": "In the 2022-2023 Healthy Finland Survey of people aged 20-64, 41% of unemployed respondents reported an unmet need for a doctor or nurse, and unemployed people were more likely than employed people to report one (odds ratio 2.31), a gap the authors found largely explained by health factors, especially poor work ability.",
+        "statement": "In the 2022-2023 Healthy Finland Survey of people aged 20-64, 41% of unemployed respondents reported an unmet need for a doctor or nurse, and unemployed people were more likely than employed people to report one (odds ratio 2.31).",
         "valence": "weakness",
         "source_id": "unmet-unemployed-2025",
         "locator": {
@@ -967,14 +1076,16 @@
           "passage_sha256": "3e228ed6c699c04953992af1e1dbf9a12acda2eb9efd488a1c2c47e020d3ae4c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2022-2023"
       },
       {
         "id": "FIN-access-009",
-        "statement": "A mixed-methods study in rural North Karelia found that GP consultations rose 1.69-fold from 2017 to 2024 while in-person consultations fell to 0.60 times their earlier level, and that a change in definition explained the improvement in official waiting-time statistics after the 2023 guarantee.",
+        "statement": "A mixed-methods study set in rural North Karelia found, from register data, that all GP consultations rose 1.69-fold from 2017 to 2024 while in-person consultations decreased (a 0.60-fold change), and that a change in definition explained the improvement in waiting-time statistics.",
         "valence": "weakness",
         "source_id": "care-guarantee-2026",
         "locator": {
@@ -984,8 +1095,10 @@
           "passage_sha256": "079092a258e30c2acdaf963a762f40ef9de5d1d16807bd81ad5ad87145d6d03a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2024"
       }
@@ -1004,8 +1117,10 @@
           "passage_sha256": "f0d1a5fb4dea2b50b3df0af8f9d9ee1645a967089f64bb520f2ebf59c389da97"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1022,8 +1137,10 @@
           "passage_sha256": "b097f313cec4ddce34eb72def84cdfee279eb546c5c9e67e0ad909dd92a7825a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1040,8 +1157,10 @@
           "passage_sha256": "6506e5fc9d0a92c4d25eaec074b731c0cac7d87ce4a55fc41c05671d3e06fff5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2022"
       },
@@ -1057,8 +1176,10 @@
           "passage_sha256": "bfd80982fa8422a41470f3c63f8d75be3890026055ae651fc8160bbf03a7bbf8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -1075,8 +1196,10 @@
           "passage_sha256": "26a233a1a478e1f2d3709765a2dacc77b1e4298b102bfee8cf16f1767196e1e8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1093,8 +1216,10 @@
           "passage_sha256": "39882770516ec8fd4d5357b94c9dce614bba2598f125f30fe6edb4678ab90d8f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1111,26 +1236,30 @@
           "passage_sha256": "7ef4024d299891a4d47073c2a3398aa6db66b4322d327a5173dd075184287224"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FIN-outcomes-008",
-        "statement": "At age 65 in 2022, fewer than half of remaining years were expected to be lived in good health (43% for women, 49% for men), close to EU averages but well below other Nordic countries.",
+        "statement": "In 2022 women aged 65 could expect to live another 21.3 years and men another 18.0, but fewer than half of those years were expected to be healthy (43% for women, 49% for men), close to EU averages but well below other Nordic countries.",
         "valence": "weakness",
         "source_id": "chp-fin-2025",
         "locator": {
           "section": "2 Health in Finland",
           "page": 4,
-          "char_start": 15632,
+          "char_start": 15467,
           "char_end": 15859,
-          "passage_sha256": "e28bc91c2921c43b78da116691942ac090306d4f5d026e1e84d1a96a066c9e8b"
+          "passage_sha256": "537cf6d437bbe69aba65f681cffe1889bba4060f3dec035378d27d167c1e3e61"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1146,8 +1275,10 @@
           "passage_sha256": "f211c4be98eff70e41366f3610f324a7fbaa054b630005a3ae892db2291d1b39"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2017
       }
@@ -1166,8 +1297,10 @@
           "passage_sha256": "0ab0d6d1b7d66d4b5162c1ccdb75ac61780f10699f0f99c09126f2d4e313d83c"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1184,14 +1317,16 @@
           "passage_sha256": "69bc97b04b018da6a942e33e062bd8b55c85b52f1ba89ba3482f86e7b1032dc0"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FIN-costs-003",
-        "statement": "Long-term care accounted for 21% of health spending in 2023, pharmaceuticals 13% and prevention 5%, while administration took under 1%, among the lowest in the EU.",
+        "statement": "Long-term care accounted for 21% of total health spending, pharmaceuticals 13% and prevention 5%; administrative spending was under 1%, which the profile says places Finland among the most efficient EU countries for health system governance.",
         "valence": "neutral",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1202,10 +1337,11 @@
           "passage_sha256": "93fa486ceb3898b86a1c9e1f2a5e04d42b25da856f63628c8a775eb3d5076698"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2023
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
       },
       {
         "id": "FIN-costs-004",
@@ -1215,13 +1351,15 @@
         "locator": {
           "section": "6 Spotlight on pharmaceuticals",
           "page": 19,
-          "char_start": 119974,
-          "char_end": 120146,
-          "passage_sha256": "43363e58e423f12022bbd71ff7ccad3cd4d4daf85b0364eeadc66b10b673feb5"
+          "char_start": 119951,
+          "char_end": 120193,
+          "passage_sha256": "d5d2c41b915abce7ac7e24300b88a2940cc292e070dcd8b4cb179eec60a45cd6"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1233,19 +1371,21 @@
         "locator": {
           "section": "6 Spotlight on pharmaceuticals",
           "page": 19,
-          "char_start": 120768,
+          "char_start": 120675,
           "char_end": 120914,
-          "passage_sha256": "ed0f548857e3d425ae58d68ea308f2e05f2f2e7cb41760f38c848b08837ebdaf"
+          "passage_sha256": "48f5ed6ded39d36ee249f6b7aa67f80dc03b639ee4ad80cce4549d718690ebf7"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2012-2023"
       },
       {
         "id": "FIN-costs-006",
-        "statement": "In their first year (2023) the counties ran a combined deficit of EUR 1.7 billion; the Ministry of Finance opened evaluation procedures in three counties, and a temporary amendment lets counties that balance their 2025 budgets defer covering earlier deficits until 2028.",
+        "statement": "In their first year the counties ran a combined deficit of EUR 1.7 billion; the Ministry of Finance opened evaluation procedures in three counties, and a temporary amendment lets counties that balance their 2025 budgets defer covering earlier deficits until 2028.",
         "valence": "weakness",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1256,10 +1396,11 @@
           "passage_sha256": "4837edb4592925548032b140f26233344683477b1676a462708a8263c9eae129"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2023
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
       },
       {
         "id": "FIN-costs-007",
@@ -1274,8 +1415,10 @@
           "passage_sha256": "b4ecff23f089b76c24d415033819d8a24c614cd9c75992569cf4f7e702e70bc5"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-2024"
       }
@@ -1283,7 +1426,7 @@
     "what_works": [
       {
         "id": "FIN-what_works-001",
-        "statement": "Antibiotic use fell from 14.7 to 12.9 defined daily doses per 1,000 inhabitants per day between 2019 and 2023, below both the EU average of 19.9 and Finland's national target of 13.4.",
+        "statement": "Antibiotic consumption dropped from 14.7 to 12.9 defined daily doses per 1,000 people per day between 2019 and 2023, under both the EU average (19.9) and the national target (13.4).",
         "valence": "strength",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1294,8 +1437,10 @@
           "passage_sha256": "0bbe559a2111a78bc8df912674701a8cb8ecbfa5cc27b7818290ae21d1693799"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2019-2023"
       },
@@ -1312,8 +1457,10 @@
           "passage_sha256": "da562c6100722a39713094845bf22f5ee913000d5b159fe42a37a89e08417518"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1330,14 +1477,16 @@
           "passage_sha256": "2faa71f06538f92645c7458b6f702beaff25b0a85ddfbeef69c710ead3836a49"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "FIN-what_works-004",
-        "statement": "Nurse density, 12.7 per 1,000 people in 2023, is among the highest in the EU; specialised primary care nurses can prescribe a limited range of medicines, manage chronic conditions after a doctor's diagnosis and often act as the first point of contact.",
+        "statement": "Nurse density, 12.7 per 1,000 people, is among the highest in the EU; specialised primary care nurses can prescribe a limited range of medicines, manage chronic conditions after a doctor's diagnosis and often act as the first point of contact.",
         "valence": "strength",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1348,14 +1497,15 @@
           "passage_sha256": "990c802704d49a619dcd92e647f1f07944e313ddc206371c2259e7acd1b56dc4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
-        },
-        "data_year": 2023
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
       },
       {
         "id": "FIN-what_works-005",
-        "statement": "Finland is the first country with a legally binding goal to end the use of tobacco and nicotine products by 2030.",
+        "statement": "No other country had set a legally binding target before Finland to end tobacco and nicotine product use, with 2030 as the deadline.",
         "valence": "strength",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1366,13 +1516,15 @@
           "passage_sha256": "361a526d930b6193f9130c6212025c0c3a61d7f4d4df56f9f14c299675241289"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-what_works-006",
-        "statement": "Only 11% of adults smoked daily in 2022, one of the lowest rates in the EU and less than half the 23% recorded in 2002.",
+        "statement": "Daily smoking among adults was 11% in 2022, among the EU's lowest and under half its 2002 level of 23%.",
         "valence": "strength",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1383,14 +1535,16 @@
           "passage_sha256": "72b10e76f21e5d636acb5d8be02619dabb8ac4c6cff346e79dc908f83768e4ca"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
       {
         "id": "FIN-what_works-007",
-        "statement": "Long-standing cost containment, including generic substitution, reference pricing and near-universal e-prescribing, has kept overall pharmaceutical spending fairly stable for a decade.",
+        "statement": "Long-standing cost containment, including generic substitution, reference pricing and extensive e-prescribing, has kept overall pharmaceutical spending fairly stable over the past decade.",
         "valence": "strength",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1401,8 +1555,10 @@
           "passage_sha256": "bdfaed4120a05e4e59c09f46fe7f76ec2d6dfd9f6ec0b38c4be6c0c8e2e4bbc3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1418,8 +1574,10 @@
           "passage_sha256": "c9655dda958fa28c8032573797c69955af343b7e304a822a8670eafe89ff70d4"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2023-2025"
       },
@@ -1436,14 +1594,16 @@
           "passage_sha256": "9ad1271b5b9b6260ef1177298b1405584a058c0c4afcc5e8bd60239f3dba1769"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "FIN-what_works-010",
-        "statement": "Finland's hospital bed numbers fell by 30% and inpatient discharges by 21% between 2017 and 2023, far more than the EU average, as care moved to outpatient and community settings.",
+        "statement": "Finland's hospital bed numbers fell by 30% and inpatient discharges by 21% between 2017 and 2023, far more than the average reductions across the EU.",
         "valence": "strength",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1454,8 +1614,10 @@
           "passage_sha256": "6ed69a901f8b02caba889faf18a4e1bf907850ba50c4d9d6847009b60d5aad6a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2023"
       }
@@ -1474,8 +1636,10 @@
           "passage_sha256": "6cb2842978797a948a9588407bf5510ca5fc7292ef45fe1085ed48cf01e2d5bf"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -1492,8 +1656,10 @@
           "passage_sha256": "f27bd4d42c4b04ea7fcc8595aa816516bfdab2d6522eb0ed3d330c45f03a5fe8"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1510,8 +1676,10 @@
           "passage_sha256": "22939276a3a15735b2d4a5303911cbfdbcf15ea6adb049d69a60880ca09821d3"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1522,36 +1690,40 @@
         "locator": {
           "section": "6 Spotlight on pharmaceuticals",
           "page": 19,
-          "char_start": 121961,
+          "char_start": 121945,
           "char_end": 122200,
-          "passage_sha256": "523aa537e7403ffd026c95da7ea16509d158148773d5947be13f67ca3959a11e"
+          "passage_sha256": "dd3854ffd9eee5059312c74ed7b41aa7c5c8796d8cecdad47098b6868bcf1dc2"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "FIN-problems-005",
-        "statement": "Pharmacies act as regional monopolies and earn higher margins on more expensive products, so they have little financial reason to steer patients to cheaper alternatives such as biosimilars.",
+        "statement": "Pharmacies act as regional monopolies and earn higher margins on more expensive products, so they have little financial reason to promote lower-cost alternatives.",
         "valence": "weakness",
         "source_id": "chp-fin-2025",
         "locator": {
           "section": "6 Spotlight on pharmaceuticals",
           "page": 21,
           "char_start": 131749,
-          "char_end": 131902,
-          "passage_sha256": "3ffe04c2794afc377c1bb622f90b17ba11eed1372b15617beae6297a9d268e24"
+          "char_end": 131926,
+          "passage_sha256": "42f7aa0ae7a485bb4c20bfd5139d2eb5e8601e267dbc7cb3dda42b32f2975b36"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-problems-006",
-        "statement": "Reference prices are fixed for three months at a time while manufacturers can change wholesale prices every two weeks, which weakens price competition.",
+        "statement": "Reference prices are fixed for three months at a time while manufacturers can change wholesale prices every two weeks, reducing the pressure for price competition.",
         "valence": "weakness",
         "source_id": "hss-fin-2024",
         "locator": {
@@ -1562,8 +1734,10 @@
           "passage_sha256": "2fd72229bcec9b03a04f932556670c2d40c968ae0b1e7c12aa198140d1c92e97"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1579,8 +1753,10 @@
           "passage_sha256": "207a0aa05e39074696db3324cc84f3fbbe73389b9748598fda197be0d6da2541"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1596,8 +1772,10 @@
           "passage_sha256": "caeb61660a6696a2105ce93f077f7a5b4309d8a7a5c0f2f245f59fa2c29931ae"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1614,14 +1792,16 @@
           "passage_sha256": "e1a7b143632c86b738040fe9bd04be983d47042caa0c13c3b40997aaf6a19c76"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       },
       {
         "id": "FIN-problems-010",
-        "statement": "In the North Karelia study, older patients with chronic needs described growing difficulty navigating an increasingly digital primary care service and getting in-person appointments, and staff reported a stronger need to ration access to GP consultations because of limited resources.",
+        "statement": "In a 2026 study of primary care access, older patients with chronic needs described growing difficulty navigating an increasingly digital primary care service and getting in-person consultations, and staff reported a stronger need to gatekeep access to GP consultations because of limited resources.",
         "valence": "weakness",
         "source_id": "care-guarantee-2026",
         "locator": {
@@ -1631,8 +1811,10 @@
           "passage_sha256": "2e2cc24ad1f50f4087fde0ff2e372a87f40d19aa0943bd51bdbae69dd6a2ff75"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1649,8 +1831,10 @@
           "passage_sha256": "aaecaeb3ca01cc4008c5f8888e73afe64047b829c367762be3130c387226e321"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2017-2024"
       }
@@ -1669,13 +1853,15 @@
           "passage_sha256": "d748e1e2b16c9662d67263b82f8df7f1aa9c3b84f1603a9aa7b6660bfd3d3342"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
         "id": "FIN-reforms-002",
-        "statement": "Each county must cover any accumulated deficit within three years from the start of the year after its accounts are adopted, so 2023 deficits must be cleared by the end of 2026.",
+        "statement": "By law a county has three years, counted from the start of the year after its accounts are approved, to make good an accumulated deficit, which means deficits from 2023 have to be eliminated by the end of 2026.",
         "valence": "neutral",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1686,8 +1872,10 @@
           "passage_sha256": "9427b6ba3872cd1d05459b95e97d74217e083f1c739d32d05c4282e82e3f413f"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1703,14 +1891,16 @@
           "passage_sha256": "da749ab0103bee8ed18a07024ecdfd30fe28ebef9e7eca8f3c659eb0b0e74d3d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "FIN-reforms-004",
-        "statement": "In the budget negotiations for 2024 the government agreed to raise Kela reimbursements for private care by EUR 500 million in total over 2024-2027, about EUR 97.5 million of it in 2024.",
+        "statement": "In budget negotiations the government agreed to increase Kela reimbursements by EUR 500 million in total over 2024-2027; about EUR 97.5 million was reserved for the following year, EUR 65.3 million of it financed by the state.",
         "valence": "neutral",
         "source_id": "kela-private-2024",
         "locator": {
@@ -1720,14 +1910,16 @@
           "passage_sha256": "0f41d431150d5f8bb4f5f6b3b779ef5a18636feb15cabd887d3e0b8953d045ad"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2024-2027"
       },
       {
         "id": "FIN-reforms-005",
-        "statement": "A 2020 reform of occupational health reimbursement aimed to shift services from curative to preventive care; in register data from one large occupational health provider, preventive services turned from decline to growth and curative care declined over 2018-2022, though the authors note other factors may have contributed.",
+        "statement": "In register data (2018-2022) from one major occupational health provider, preventive occupational health services turned from decline to growth after the 2020 reimbursement reform while curative care declined; the authors judge the reform likely contributed, though other factors may also have played a part.",
         "valence": "neutral",
         "source_id": "ohs-reimb-2025",
         "locator": {
@@ -1737,14 +1929,16 @@
           "passage_sha256": "54fa448d56a7def76e09df499ba82f06d86bfdc43c3c89871b89bc5af244e36a"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2018-2022"
       },
       {
         "id": "FIN-reforms-006",
-        "statement": "Pharmacies were long barred from substituting biosimilars; phased substitution began in 2024 with enoxaparin and is set to extend to further biologics through 2026.",
+        "statement": "Until recently pharmacies could not substitute biosimilars; phased substitution began in 2024 with enoxaparin and is set to extend to further biologics through 2026.",
         "valence": "neutral",
         "source_id": "chp-fin-2025",
         "locator": {
@@ -1755,8 +1949,10 @@
           "passage_sha256": "727d485a23bf50bd1ea0a019be2f9d94a506896c24084f44834edebca0625b17"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1772,8 +1968,10 @@
           "passage_sha256": "7bce021b861b8e5bd9ba01d628f8ad6501f57385ae7ad58c061f53c926287eda"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
       {
@@ -1789,8 +1987,10 @@
           "passage_sha256": "e6f36627bf9dfb83006f4fcd5d95e00a0853a36e8e6eaeb9f418806d0369d76d"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1807,8 +2007,10 @@
           "passage_sha256": "f10979bdfd8c8a570e2fbdffc38ce796314b5e2d9241cc4a25fd2904dca17240"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -1826,8 +2028,10 @@
           "passage_sha256": "71f3cda94a5d7f18c1ddc479bdd415c6df548ef4063443c8ab14dd0691b41749"
         },
         "verification": {
-          "passage_found": "pending",
-          "supports": "pending"
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
     ]
@@ -1901,6 +2105,16 @@
       "type": "government",
       "year": 2023,
       "url": "https://www.kela.fi/changes/5715243/increased-reimbursements-from-kela-for-private-medical-care",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "kela-ohc-employers",
+      "title": "Occupational Healthcare for Employers: A Quick Guide",
+      "publisher": "Kela, the Social Insurance Institution of Finland",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.kela.fi/news/occupational-healthcare-for-employers-a-quick-guide",
       "accessed": "2026-11-13"
     },
     {
@@ -1991,14 +2205,16 @@
       "doi": "10.1089/whr.2021.0001",
       "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8006797",
       "license": "CC BY 4.0",
-      "accessed": "2026-11-13"
+      "accessed": "2026-11-13",
+      "authors": "Schmidt A, Bachmann G",
+      "funding_note": "Observational study (shadowing of providers) plus literature review by a medical student and faculty member at Rutgers; not a comparative outcome study."
     }
   ],
   "rankings": [],
   "changelog": [
     {
       "date": "2026-11-13",
-      "note": "Profile created."
+      "note": "Profile created: 103 claims from 14 sources, anchored and support-reviewed in a separate cold pass; 38 statements reworded or re-anchored in review (details from outside the passage, missing years, overstatement, scope), 8 reworded to avoid copying source wording; no claims dropped."
     }
   ]
 }

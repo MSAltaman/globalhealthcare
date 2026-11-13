@@ -87,11 +87,26 @@ jobs:
         with:
           terraform_version: ${{ env.TF_VERSION }}
           terraform_wrapper: false
-      - run: terraform init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+      # Until an environment's first apply, its state file doesn't exist, and
+      # `terraform init` would try to create it. The read-only production
+      # account can't write, so check first and skip the plan until then.
+      - name: Check for existing state
+        id: state
         if: env.CONFIGURED == 'true'
+        run: |
+          if gcloud storage ls "gs://${{ vars.TF_STATE_BUCKET }}/atlas/${{ matrix.env }}/default.tfstate" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ matrix.env }}" = "prod" ]; then
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Production has no state yet. Its first apply (after merge and your approval) creates everything; from then on pull requests show a production plan."
+          else
+            echo "exists=true" >> "$GITHUB_OUTPUT" # staging's account can create its state
+          fi
+      - run: terraform init -backend-config="bucket=${{ vars.TF_STATE_BUCKET }}"
+        if: env.CONFIGURED == 'true' && steps.state.outputs.exists == 'true'
       - name: Plan
         id: plan
-        if: env.CONFIGURED == 'true'
+        if: env.CONFIGURED == 'true' && steps.state.outputs.exists == 'true'
         # -lock=false: a read-only plan must not block a running apply.
         # -detailed-exitcode: 0 = no changes, 2 = changes, 1 = error.
         run: |
@@ -102,7 +117,7 @@ jobs:
           echo "exitcode=$code" >> "$GITHUB_OUTPUT"
           [ "$code" -eq 1 ] && exit 1 || exit 0
       - name: Post plan on the pull request
-        if: env.CONFIGURED == 'true' && github.event_name == 'pull_request'
+        if: env.CONFIGURED == 'true' && github.event_name == 'pull_request' && steps.state.outputs.exists == 'true'
         uses: actions/github-script@v7
         env:
           ENV_NAME: ${{ matrix.env }}
@@ -114,6 +129,15 @@ jobs:
             const summary = (plan.match(/Plan: .*|No changes\..*/) || ['(see log)'])[0];
             if (plan.length > 60000) plan = plan.slice(-60000);
             const body = `#### Terraform plan: ${process.env.ENV_NAME}\n**${summary}**\n<details><summary>Full plan</summary>\n\n\`\`\`\n${plan}\n\`\`\`\n</details>`;
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });
+      - name: Post first-run note on the pull request
+        if: env.CONFIGURED == 'true' && github.event_name == 'pull_request' && steps.state.outputs.exists == 'false'
+        uses: actions/github-script@v7
+        env:
+          ENV_NAME: ${{ matrix.env }}
+        with:
+          script: |
+            const body = `#### Terraform plan: ${process.env.ENV_NAME}\n**No plan yet: this environment has never been applied.** It runs the same module as staging, so the staging plan above shows what its first apply will create. After that apply, pull requests show a ${process.env.ENV_NAME} plan here.`;
             await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });
       - name: Fail on drift
         if: env.CONFIGURED == 'true' && github.event_name == 'schedule' && steps.plan.outputs.exitcode == '2'

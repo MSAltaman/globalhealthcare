@@ -1,0 +1,1732 @@
+{
+  "iso3": "NOR",
+  "name": "Norway",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "draft",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health service: the state owns hospitals through four regional health authorities, municipalities run primary and long-term care, and the National Insurance Scheme (funded by payroll and personal contributions plus state transfers) pays GP fees and outpatient drugs, with nationally set co-payments under an annual ceiling"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "NOR-overview-001",
+        "statement": "Norway's health system is semi-decentralised: the Ministry of Health and Care Services and its agencies plan, regulate and supervise it; four regional health authorities run specialist care and own the public hospitals, organised as health trusts; and the 357 municipalities organise primary care, including general practice, home care and nursing homes.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43446,
+          "char_end": 43895,
+          "passage_sha256": "c57e53b0f3a6f6bb5b6a75b96af8dfb3458b222e23a4cd0fa3f66cd2f41aacc5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-overview-002",
+        "statement": "Primary care is delivered mainly by self-employed GPs under contract with municipalities. Residents can pick a regular GP on a list system, and GPs act as gatekeepers to specialist care.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43896,
+          "char_end": 44206,
+          "passage_sha256": "c37dc734f994d641e8ff53f1cc78b6af0f1ba79c1c954ec10767ea10a2ce1e72"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-overview-003",
+        "statement": "Coverage runs through the National Insurance Scheme (Folketrygden), administered by the Labour and Welfare Administration (NAV); every legal resident is enrolled automatically. Documented migrants get full access after six months of residence; for undocumented migrants, children are covered for basic services such as vaccinations and examinations, while adults are covered only for emergency acute care.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45139,
+          "char_end": 45702,
+          "passage_sha256": "71b74d4e94905474267346060127e88bb8815ff7cd6dd94e8169ca91cdc49459"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-overview-004",
+        "statement": "The right of all residents to essential medical and care services, and the scope of coverage, are set in law: the Municipal Health and Care Act (2011), the Specialist Care Act (1999) and the National Insurance Act (1997).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 87,
+          "char_start": 164069,
+          "char_end": 164341,
+          "passage_sha256": "ff0a8fb48216208a445538ca7104e6e2238ca5f61e979d95ba4c99b711a14932"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-overview-005",
+        "statement": "Compulsory health insurance began in 1909 for employees and their families, covering both care and income during illness; it was compulsory for low-income employees and optional for others. In 1956 it became a universal, mandatory right for all citizens (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-nor",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3492,
+          "char_end": 3880,
+          "passage_sha256": "174e74d648c379ca3ba559c87dbe6aec9116010ed23481ba8edf0c060c4fa49e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "1909-1956",
+        "historical": true
+      }
+    ],
+    "financing": [
+      {
+        "id": "NOR-financing-001",
+        "statement": "Health care is financed mostly from general taxation, with National Insurance contributions as a complement (2025 Country Health Profile).",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45703,
+          "char_end": 45802,
+          "passage_sha256": "9f47fdb1d40bc0a8988c011e6bfb86c8cd810c884c10c2145b38747067b60323"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-financing-002",
+        "statement": "The 2020 health system review put public sources at about 85% of health spending, of which about 74% came as transfers from general government (national, county and municipal tax revenue) and 11% from the National Insurance Scheme.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 86,
+          "char_start": 162489,
+          "char_end": 162725,
+          "passage_sha256": "0829af74e93c40efaf2bbff329d49f330a691d7d90f933b5d340c01e21acda7b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-financing-003",
+        "statement": "National taxes pay for specialist (secondary) care and part of primary care; municipal taxes are the main funding source for primary care (2020 review).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 87,
+          "char_start": 162726,
+          "char_end": 162897,
+          "passage_sha256": "47fb87a4ddf88cc07001801cba2fd59b74f872a912860caa0aedc89c1072e53c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-financing-004",
+        "statement": "According to the 2020 review, the National Insurance Scheme's revenue came 32% from members' insurance contributions, 40% from payroll taxes and 28% from national taxes.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 87,
+          "char_start": 163171,
+          "char_end": 163281,
+          "passage_sha256": "a10243b842a81c98676e286c6ec6f55d8a5b1640b1477929e94bd2e541209d51"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-financing-005",
+        "statement": "The National Insurance Scheme is not only a health fund: it also pays income-related benefits such as retirement, survivor and disability pensions, and cash benefits for sickness, maternity, adoption and unemployment (2020 review).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 88,
+          "char_start": 166270,
+          "char_end": 166727,
+          "passage_sha256": "2560f2e035004ce01bbb2e362bd178e96db5693c5317d6bee2de150f5dcacac2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-financing-006",
+        "statement": "Individual National Insurance contributions (trygdeavgift) in 2026 are 7.6% of wage income for people aged 17-69, 10.8% of self-employment income outside fishing, hunting and childminding (which pay 7.6%), and 5.1% of pension income and of the wage and business income of people under 17 or over 69. No contribution is due on personal income up to NOK 99,650, and the contribution may never exceed 25% of the income above that level (Tax Administration).",
+        "valence": "neutral",
+        "source_id": "skd-trygdeavgift-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 282,
+          "char_end": 773,
+          "passage_sha256": "5bd559556faf6c4f40818e764529450f864f6076739e5e26090a8c6e95f4f24d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-financing-007",
+        "statement": "Employers pay a payroll contribution to the National Insurance Scheme (arbeidsgiveravgift) that varies by region: across seven zones the 2026 rate falls from 14.1% in zone I to 0% in zone V, with lower rates in rural districts (Tax Administration).",
+        "valence": "neutral",
+        "source_id": "skd-aga-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1919,
+          "char_end": 2261,
+          "passage_sha256": "e5ef5fe015129431f167bfc103d45a31d171df4dcf87151a6218b0317f9ac786"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-financing-008",
+        "statement": "In 2018 the National Insurance Scheme made up 35% of the national budget (NOK 470 billion); members and employers paid for 67% of it and the state and other sources for the remaining third. (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-nor",
+        "locator": {
+          "section": "Full text",
+          "char_start": 26358,
+          "char_end": 26569,
+          "passage_sha256": "9846b2b3314ed73779588903869b06917b3eb851af6d67a7a6e5c67287a12e8f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "NOR-financing-009",
+        "statement": "The Ministry of Health and Care Services divides the health budget among municipalities, counties, regional health authorities and the National Insurance Scheme through a distribution formula (the General Purpose Grant Scheme) that adjusts for differences in structural costs and tax revenue.",
+        "valence": "neutral",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 6837,
+          "char_end": 7100,
+          "passage_sha256": "627b90dff2b009969fede905f36bb295726a18d7634642265e79733eb7134d43"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-financing-010",
+        "statement": "Public sources paid nearly 86% of current health spending in 2023, against an EU average of 80%; out-of-pocket payments made up 14%, against 16% in the EU (OECD System of Health Accounts definitions).",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46828,
+          "char_end": 47139,
+          "passage_sha256": "78fd91146bd831107ca4c66dd3af2e5dbfa72c964b9131def6407453a0e33ca2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-financing-011",
+        "statement": "Voluntary health insurance accounted for only 0.2% of total health spending in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 50876,
+          "char_end": 50987,
+          "passage_sha256": "a97aa05a197a5f3bc589a8237b7e7eefc8bc5e4ae90ed87d45df8cad0d7041cf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-financing-012",
+        "statement": "The tax system does not subsidise employer-paid health insurance: under the Tax Administration's 2024 guidance, an employer's payment of an employee's treatment costs, or of treatment (health) insurance, is in principle taxable as wages.",
+        "valence": "neutral",
+        "source_id": "skd-abc-behandlingsforsikring",
+        "locator": {
+          "section": "Full text",
+          "char_start": 274,
+          "char_end": 482,
+          "passage_sha256": "978efe1310d37669084249df903a2c0e40406ebe90688ce32536896222d577dc"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NOR-financing-013",
+        "statement": "The 2020 review describes the main sources of tax revenue as personal income tax and VAT, with direct taxes making up about 70% of total tax revenue.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 90,
+          "char_start": 168925,
+          "char_end": 169093,
+          "passage_sha256": "ab4e0473e6836a6621986a42248efeb4f955c286a430116289e5e02112ddcdd3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "NOR-covered-001",
+        "statement": "There is no positive list of covered services; in practice public coverage includes approved prescription drugs on the 'blue list', prevention (check-ups, screening, childhood immunisation), primary care including GPs, physiotherapists and chiropractors, most specialist and hospital care, emergency care, nursing care, dental care for children and some other groups, and medical eye care, with glasses usually excluded (2020 review).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 88,
+          "char_start": 165152,
+          "char_end": 166160,
+          "passage_sha256": "0f8af1ccfff5c48b1d9d3634f19e1a12d68c4d4208a8edeaa45877d304bd3766"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-covered-002",
+        "statement": "Non-medical eye care, most dental care for adults and complementary medicine are not paid for from public sources (2020 review).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 88,
+          "char_start": 166161,
+          "char_end": 166269,
+          "passage_sha256": "03b5e490e49302602ca1f67a985a8bd5c7eaf74c218966e6a14bc02afde292e7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-covered-003",
+        "statement": "Public coverage of inpatient care was nearly complete in 2022, and public sources covered 86% of outpatient care costs.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79982,
+          "char_end": 80096,
+          "passage_sha256": "16681f017d23326ada42860e68ab2c5e51e2e5e919c5a0064c34f97ace236261"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NOR-covered-004",
+        "statement": "Only 27% of dental care costs and about half of pharmaceutical spending were publicly funded (2022 data).",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 87745,
+          "char_end": 87989,
+          "passage_sha256": "aa50f78015049cefe40ff6e72440eb1e45d93026bed07f0519ab86b0f705f846"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NOR-covered-005",
+        "statement": "Children under 18 get free public dental services while most adults pay the full cost; a 2025 amendment to the Dental Health Services Act extended coverage to people aged 19 to 28, who pay 25% of treatment costs with the public system covering 75%.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 89083,
+          "char_end": 89608,
+          "passage_sha256": "7ac4a61311999f6e26425fe67140dba6795ee169cfc94d0865b4fc6475637851"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-covered-006",
+        "statement": "Who decides coverage: the scope of statutory coverage, the rules for co-payments and the safety net are set by parliament when it approves the annual public budget (2020 review).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 87,
+          "char_start": 163441,
+          "char_end": 163617,
+          "passage_sha256": "4b0f8472d453929e14f5b42d6b717902ef4196068f13e3fc5cc33b9d0e96f8cd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-covered-007",
+        "statement": "New health technologies in specialist care go through the 'New Methods' system, which works at two levels: national decisions taken jointly by the regional health authorities on assessments by the Medicines Agency and the Institute of Public Health, and local hospital decisions on rapid assessments. Medicines are always assessed nationally.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 61,
+          "char_start": 115989,
+          "char_end": 116468,
+          "passage_sha256": "3e1cd0f01f2e34be905c3ec06ca24773f515013f6e842608edf84d8dfca77991"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-covered-008",
+        "statement": "Priority setting rests on three statutory criteria: expected health benefit, the resources an intervention uses (fewer resources, higher priority), and the severity of the condition.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 50,
+          "char_start": 89502,
+          "char_end": 90268,
+          "passage_sha256": "59564276dbc9152167101ca950ac3d005b96d7573f347b588e303bebd93b80dd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "NOR-cost_sharing-001",
+        "statement": "Except for hospital (inpatient) care, most publicly funded services carry nationally set co-payments, including consultations, treatments, follow-up visits and imaging.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 88422,
+          "char_end": 88658,
+          "passage_sha256": "ef5114d04bdca0b2613a09a2efc5a078a0db4fed457c9702f683c3082c5d5fff"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-cost_sharing-002",
+        "statement": "In 2026 the co-payment for an outpatient (polyclinic) visit is NOK 443 and for radiology, specialist ultrasound or nuclear-medicine imaging NOK 387; parliament sets the level in the state budget and the ministry fixes the amounts.",
+        "valence": "neutral",
+        "source_id": "hdir-poliklinisk",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3506,
+          "char_end": 3943,
+          "passage_sha256": "402095df31b6f5c8d3f5f31502abdae86ee6405e840f9ee8b7796842096f5c4c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-cost_sharing-003",
+        "statement": "The 2025 Country Health Profile gives the GP visit co-payment as NOK 155 (about EUR 15).",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 88762,
+          "char_end": 88817,
+          "passage_sha256": "c2a09f3e575188914db21b536ce4f3a757e302fbd2782f7109c136f2e17d24da"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-cost_sharing-004",
+        "statement": "The annual ceiling on approved co-payments is NOK 3,278 in 2026. Once a person has paid that much in a calendar year they receive an exemption card (frikort) and pay no approved co-payments for the rest of the year.",
+        "valence": "strength",
+        "source_id": "hdir-egenandelstak",
+        "locator": {
+          "section": "Full text",
+          "char_start": 274,
+          "char_end": 950,
+          "passage_sha256": "22d8538a02a6e2773a1ee717520fd44aecbe26dd37eefbd93f22d169c3a35471"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-cost_sharing-005",
+        "statement": "Children were exempt from co-payments up to age 16 until 31 July 2026; from 1 August 2026 the exemption covers everyone under 18.",
+        "valence": "neutral",
+        "source_id": "hdir-egenandelstak",
+        "locator": {
+          "section": "Full text",
+          "char_start": 951,
+          "char_end": 1133,
+          "passage_sha256": "18af428fa487360f88ff5522aad8dbc1688589d1d675e58953de2ecaf9259041"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-cost_sharing-006",
+        "statement": "Since 1 January 2021 the two former co-payment ceilings (egenandelstak 1 and 2) have been combined into a single ceiling.",
+        "valence": "neutral",
+        "source_id": "hdir-egenandelstak",
+        "locator": {
+          "section": "Full text",
+          "char_start": 167,
+          "char_end": 273,
+          "passage_sha256": "8bac13d74e1cf07747fea43ae8e8912eb0bddb78b5cf1a006c928cd20ae33926"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "NOR-cost_sharing-007",
+        "statement": "Under the Blue Prescription Scheme, patients pay 50% of the cost, up to NOK 520 per prescription for a three-month supply, until the annual ceiling is reached; medicines outside the scheme, including non-prescription drugs, are paid for in full.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 135130,
+          "char_end": 135376,
+          "passage_sha256": "9692074dfa11b626d7f4e255ecf2d6cfaeefef3005316206fa227bb617815a1d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-cost_sharing-008",
+        "statement": "People on the minimum state pension and patients with approved occupational injuries pay no user fees for blue-prescription medicines (Commonwealth Fund).",
+        "valence": "strength",
+        "source_id": "cwf-nor",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6090,
+          "char_end": 6395,
+          "passage_sha256": "b24adbee26f80912779040f1b0f12832ca8b0386b898704d6aefb3e666dde693"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-cost_sharing-009",
+        "statement": "In 2025 co-payments were removed for outpatient psychiatric care and substance-abuse treatment for young adults up to age 26.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 89890,
+          "char_end": 90050,
+          "passage_sha256": "bccc93c32cbf2b668e89309996714fb4e67e8d6c2ceffb48e9b7b96db64dc937"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-cost_sharing-010",
+        "statement": "For long-term nursing home stays municipalities may charge an income-related fee of about 80% of the resident's after-tax income, capped at the actual cost; home nursing is free, while practical help at home can carry an income-related fee (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-nor",
+        "locator": {
+          "section": "Full text",
+          "char_start": 25303,
+          "char_end": 25655,
+          "passage_sha256": "fea9a1b929f0ac0b1a18efa0b606e883efc904eb8a05e3031e91ca422bd2a4cf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "NOR-financial_hardship-001",
+        "statement": "In a 2025 Consumer Council study based on in-depth interviews with 10 NAV debt advisers, the advisers named loss of income and life crises such as separation, bereavement, serious illness or job loss as common to many people seeking debt help, and said it is often hard to tell whether debt or illness came first. The study gives no counts of causes.",
+        "valence": "neutral",
+        "source_id": "fbr-gjeld-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 837,
+          "char_end": 1205,
+          "passage_sha256": "049e9a0c3502d71c0b895c4ee36949b284b5d3d72047104f2336104af240dad8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-financial_hardship-002",
+        "statement": "In 2022 the Norwegian Healthcare Investigation Board (Ukom) found that unpaid patient bills in specialist care could be pursued through a faceless system in which claims go automatically to debt collection without the treating clinician knowing, and proposed that it should be possible to reverse such collection claims.",
+        "valence": "weakness",
+        "source_id": "ukom-betalingsvansker",
+        "locator": {
+          "page": 5,
+          "char_start": 4225,
+          "char_end": 4589,
+          "passage_sha256": "1f53d5938bbc27a2e60e17b7eb5daed068f5144c8d1b34569a838dfd662461a1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "NOR-additional_care-001",
+        "statement": "Voluntary health insurance mostly gives supplementary cover: faster access to publicly covered non-emergency and outpatient care in semi-private or private facilities. Skipping waiting lists appears to be the main reason for buying it; about 10% of Norwegians (500,000) held a policy in 2016.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 97,
+          "char_start": 184069,
+          "char_end": 184413,
+          "passage_sha256": "fff0982375ef3b92e275a7c2348846e7cb37399a8e335137c5647929426f0d8b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "NOR-additional_care-002",
+        "statement": "Companies are the main buyers: almost 90% of people with voluntary health insurance got it through their employer, and in 2016 group contracts outnumbered individual ones about ten to one (459,000 against 45,000).",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 97,
+          "char_start": 184720,
+          "char_end": 185031,
+          "passage_sha256": "f0980ed45b139ec0d69f4244bb13d07d45c944d3e019fad7be958d6b506850b3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "NOR-additional_care-003",
+        "statement": "All voluntary health insurers are for-profit private companies; the four largest held 70% of the market in 2016.",
+        "valence": "neutral",
+        "source_id": "hit-nor-2020",
+        "locator": {
+          "page": 97,
+          "char_start": 185384,
+          "char_end": 185528,
+          "passage_sha256": "55db3c3391643d441ac688a2ddc31c05bae27678ea5412a359c5286473c7f782"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "NOR-additional_care-004",
+        "statement": "The Norwegian College of General Practice stated in 2024 that about 750,000 Norwegians have treatment insurance, almost 90% of it paid by employers.",
+        "valence": "neutral",
+        "source_id": "legefor-forsikring-2024",
+        "locator": {
+          "page": 1,
+          "char_start": 847,
+          "char_end": 941,
+          "passage_sha256": "1c072fe0b7a2f155cc124c6711ade3603348b5ffa1bf06c5c4f17efe35ddac69"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NOR-additional_care-005",
+        "statement": "Insurer approval works by selection at purchase: treatment insurance requires a self-reported health declaration and then a certificate from the GP, which the College of General Practice says lets insurers screen buyers by their existing health.",
+        "valence": "weakness",
+        "source_id": "legefor-forsikring-2024",
+        "locator": {
+          "page": 1,
+          "char_start": 1098,
+          "char_end": 1370,
+          "passage_sha256": "82efc3f69363acf566a86088bfbae9163a5a36b4688f23e61f8d0696c1761e9c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "NOR-access-001",
+        "statement": "In 2024 fewer than 2% of people who needed medical care reported an unmet need because of cost, distance or waiting time, about half the EU average; waiting times were the main reason given.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78432,
+          "char_end": 78704,
+          "passage_sha256": "a301d8e5064d434fbc9021bbee5ec84d82d5b6a7dbf71fb52c53bf813016a7cb"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NOR-access-002",
+        "statement": "People at risk of poverty were 2.5 times as likely as the general population to report unmet medical needs in 2024, a wider gap than the EU average ratio of 1.7.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79106,
+          "char_end": 79269,
+          "passage_sha256": "e075601bf2598476a9cbecfd519e0c25a2a1a50fb1d6eb94c11953936edb23f2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NOR-access-003",
+        "statement": "Unmet need for dental care was 7.5% in 2023, twice the EU average of 3.4%, and 15.9% in the poorest income quintile against 2.3% in the richest.",
+        "valence": "weakness",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 15,
+          "char_start": 34022,
+          "char_end": 34217,
+          "passage_sha256": "bae0241242de70cf26fa45f8562e9dde55ca89de935d654cc79349cb80b09082"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-access-004",
+        "statement": "The mean wait for cataract surgery rose from 138 days in 2012 to 194 days in 2023 (up 41%), and for hip replacement from 154 to 192 days (up 25%).",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 90595,
+          "char_end": 90859,
+          "passage_sha256": "69be6b88bad06147bc864035e742f92a69e55a8c22651fa02fc792c32832facc"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2023"
+      },
+      {
+        "id": "NOR-access-005",
+        "statement": "After the government's 2024 Waiting Time Promise, which raised hospital budgets substantially and backed digital and innovation measures, average waiting times fell through 2025 and were around 2019 levels by August-September 2025.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 98540,
+          "char_end": 98885,
+          "passage_sha256": "fa517d9de52dca0a6c4d9cff04185e206daae418bffcc107db5eea026bac7ec6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-access-006",
+        "statement": "The median wait to be assigned a GP rose from 55 days in 2019 to 137 days in 2024, and the share waiting more than a year from 7% to 27%.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 99190,
+          "char_end": 99372,
+          "passage_sha256": "895144d4ae31fe651fd93e71b266f6e5a565da0d8dc36ae4d8d10b4e61663a25"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "NOR-access-007",
+        "statement": "At the end of 2023, 7 of 357 municipalities had no GP at all, and in Finnmark, Nordland and Møre og Romsdal counties GP shortages left 2-4% of residents without one.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 60271,
+          "char_end": 60463,
+          "passage_sha256": "3ee28ce546057df4c17f276e71dc85dff8c6c3d57043937b2b5be7313dda5525"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-access-008",
+        "statement": "In 2023 Norway had 5.0 practising doctors per 1,000 people (EU average 4.3) and 15.6 nurses per 1,000 (EU average 8.5).",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59182,
+          "char_end": 59349,
+          "passage_sha256": "423b0c2f45fd4c41c667c6fbdd1d194cdb14fbfebc9cd4f5f17ca27551bf764a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-access-009",
+        "statement": "Norway trains few doctors at home, 11 medical graduates per 100,000 people in 2023 against an EU average of 15, and relies on doctors trained abroad: 44% of physicians in 2023, about half of them Norwegians who studied abroad and came back.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 107767,
+          "char_end": 108296,
+          "passage_sha256": "6bf7abda4fe0afbaca9ae94b77106fed514b377b83b4585f2c7f46556eacd990"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-access-010",
+        "statement": "For medicines approved in 2021-2023, the average time from marketing authorisation to public reimbursement was 524 days in Norway against 578 across the EU, but 37% of EU-approved medicines were listed for reimbursement against an EU average of 46% (EFPIA WAIT indicator).",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 136378,
+          "char_end": 136792,
+          "passage_sha256": "d523ecb9647d2e5361436a5e1475d017a9c7ddfc39a765b9a294e9f36461bd39"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2021-2023"
+      },
+      {
+        "id": "NOR-access-011",
+        "statement": "Average yearly GP consultations per inhabitant rose from 3.1 to 3.6 for women and from 2.2 to 2.4 for men between 2012 and 2023, according to national reimbursement registry data.",
+        "valence": "neutral",
+        "source_id": "gp-use-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2759,
+          "char_end": 2918,
+          "passage_sha256": "b81e7a046eda54b8d81a82009289b86f02aee7fe3b1de6dee630da158f85ab62"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2023"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "NOR-outcomes-001",
+        "statement": "Life expectancy at birth was 83.3 years in 2024, 1.6 years above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 4618,
+          "char_end": 4688,
+          "passage_sha256": "f712de3fb5e9f84869f1e0b82c65c6f6cc850adc13808c680b733a806a529f65"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NOR-outcomes-002",
+        "statement": "In 2022 Norway had the lowest treatable mortality rate in Europe: 56 deaths per 100,000 people, 37% below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 61808,
+          "char_end": 61949,
+          "passage_sha256": "0f248885f91d7e8a4f661aba33a80fa9d29219d7eaf7fd1b07c5d489fc432868"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NOR-outcomes-003",
+        "statement": "Among patients aged 45 and over, 30-day mortality after a heart attack fell from 7.9% in 2013 to 5.9% in 2023, and after a stroke from 10.4% to 7.7%.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77974,
+          "char_end": 78198,
+          "passage_sha256": "9db61ca84834cd06787754fd2d01cc79802552ab1deedd7adf87e4366943e599"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "NOR-outcomes-004",
+        "statement": "In the GBD 2019 study, Norway's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 90.4 (95% uncertainty interval 88.3-92.2) in 2019, 17.8 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 45789,
+          "char_end": 45955,
+          "passage_sha256": "4d1156a5ef91df1a01423194ea6ee7dd8f8f07dc598a2139dd28a6d4a2dd72dc"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "NOR-outcomes-005",
+        "statement": "Breast cancer screening reached 77% of eligible women in 2023, well above the EU average of 58%.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 62730,
+          "char_end": 62842,
+          "passage_sha256": "787f9a5098bfb6673fe3db2cc675c05e9dea24dcdba7b2138092be05031f3109"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "NOR-costs-001",
+        "statement": "In 2023 Norway spent about EUR 5,672 per person on health (adjusted for purchasing power), the highest in Europe and nearly 1.5 times the EU average of EUR 3,832; as a share of GDP its spending (9.4%) was slightly below the EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46105,
+          "char_end": 46465,
+          "passage_sha256": "e0facb3576009273a9b6de8be5605b9be2e177801ae3b8022492f88c77def6dd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-costs-002",
+        "statement": "In 2022 outpatient care (30%), long-term care (29%) and inpatient care (26%) took the largest shares of health spending; long-term care spending per person was more than double the EU average and outpatient spending over 50% higher.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 51061,
+          "char_end": 51368,
+          "passage_sha256": "15723b0c7beb827de8385c4f93eade8306e7595e21ee6f1cc2ef9be5726c988e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NOR-costs-003",
+        "statement": "Retail pharmaceutical spending was EUR 382 per person in 2022, 25% below the EU average, and pharmaceuticals took 7% of total health spending, the second-lowest share in Europe after the Netherlands.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 127290,
+          "char_end": 127531,
+          "passage_sha256": "967b48e4d02008ae1184602bb9b85fb75ad1aaf75f4a0c733395a8606e6d867a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NOR-costs-004",
+        "statement": "Health spending grew by an average of 2.9% a year in the decade before the COVID-19 pandemic (2009-2019).",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46556,
+          "char_end": 46719,
+          "passage_sha256": "e4775455262e102ef740899c49623617abe3ef3670a81c1c6ae42fdc72c8e85f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2009-2019"
+      },
+      {
+        "id": "NOR-costs-005",
+        "statement": "Only 3% of the health budget goes to prevention services (2022 data).",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 51671,
+          "char_end": 51737,
+          "passage_sha256": "b48e036c8c271cbc4d1d34d01f790ad4e69faafa569754bcbc8eec297cbd0fdf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "NOR-costs-006",
+        "statement": "Plotting spending against treatable mortality for 2021, the Health System Summary notes that other countries reach similar outcomes while spending less than Norway; an OECD report commissioned by the ministry in 2016 had concluded that Norway's high spending was in line with its wealth and demographic structure.",
+        "valence": "neutral",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 19,
+          "char_start": 43263,
+          "char_end": 43793,
+          "passage_sha256": "e5d0da57ba3bd48fe15d7f2a273f1e5a79f13a16d887687f87732d958b447029"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      }
+    ],
+    "what_works": [
+      {
+        "id": "NOR-what_works-001",
+        "statement": "In the OECD PaRIS survey (2023-24), 92% of primary care users with chronic conditions reported good quality of care, among the highest shares of participating countries, and 73% trusted the health system, against 62% across the 10 participating EU countries.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 72522,
+          "char_end": 72815,
+          "passage_sha256": "c9fd385a776c0c348fcf393655d66a473d1c604fc23c10953e539eb62a738614"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "NOR-what_works-002",
+        "statement": "Antibiotic use is low: combined hospital and community consumption in 2023 was 15.5 defined daily doses per 1,000 people per day, 22% below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 121950,
+          "char_end": 122097,
+          "passage_sha256": "be8f77ee58f07cb31ce2ab49a89b30dc29fdbb49f32cb02ba2c76333f010e0b3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-what_works-003",
+        "statement": "Remote care expanded quickly: 18% of all medical consultations in 2023 were remote, up from 2% in 2019 and well above the EU average of 9%.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 115290,
+          "char_end": 115453,
+          "passage_sha256": "566dbdfcef1482b61cc22ef729ec80c57771c1508cc6b978fcea43c402a1cf21"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-what_works-004",
+        "statement": "Kjetil Telle of the Norwegian Institute of Public Health told the Commonwealth Fund that explicit prioritisation of medicines and procedures, especially in specialist services, is a key strength of the system that keeps treatments evidence-based and cost-effective (an expert view, not a measured result).",
+        "valence": "strength",
+        "source_id": "cwf-nor",
+        "locator": {
+          "section": "Full text",
+          "char_start": 17918,
+          "char_end": 18233,
+          "passage_sha256": "1243d12a6eb7e088206cbfae74d2749c95dbef091bc4850408eb10c9596db82b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-what_works-005",
+        "statement": "The Health System Summary attributes part of the gains in stroke survival to stroke patient pathways developed in 2017-2019, together with public awareness of early warning signs, which sped up access to care.",
+        "valence": "strength",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 16,
+          "char_start": 35645,
+          "char_end": 35929,
+          "passage_sha256": "fbb14ade9175de2c98e8b98bed75dd6f343b3a4786de486a37cf1a571ff60fb6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-what_works-006",
+        "statement": "The Medicines Agency cut its average processing time for health technology assessments by 25%, from 266 to 202 days, between 2024 and 2025.",
+        "valence": "strength",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 137414,
+          "char_end": 137557,
+          "passage_sha256": "40f190f9324aec2535c34f30aae5b8b6422e61d46bd39d62eb9ef3a4bbc2db66"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2024-2025"
+      }
+    ],
+    "problems": [
+      {
+        "id": "NOR-problems-001",
+        "statement": "Despite exemptions and ceilings, financial protection is weak for adult dental care and for home-based and institutional care for older and disabled people, and large gaps remain between the poorest and richest income groups.",
+        "valence": "weakness",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 15,
+          "char_start": 33447,
+          "char_end": 33696,
+          "passage_sha256": "22b51d48979fa5a190a991dd0ccf96165dc8436b0822595b0ca8eb84e34fb449"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "NOR-problems-002",
+        "statement": "Hospitals and municipalities struggle to fill nursing posts, now in cities as well as remote districts, and the nurses' union reports more temporary contracts, which may worsen shortages and working conditions.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59733,
+          "char_end": 59982,
+          "passage_sha256": "3cc2b141c43a3c1945f0a77c6ac95788bd0c910e3e58566d2ea3fdb8411e05b4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "NOR-problems-003",
+        "statement": "Hospital occupancy reached 80% in 2023, the third highest compared with EU countries, leaving little spare inpatient capacity.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 106684,
+          "char_end": 106850,
+          "passage_sha256": "1677bc9e2bb3d49eda0d41840ee1260f4c5ea3e177c542887d0df30b9f646c81"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-problems-004",
+        "statement": "Hospital admission rates for chronic obstructive pulmonary disease were the fifth highest in the EU in 2023, about 45% above the EU average, although diabetes admissions were nearly half the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 73243,
+          "char_end": 73523,
+          "passage_sha256": "f4bfd81aac3f0f3a9100c20d6ce5d6076627c501a21964fb20167afdb03f3b8c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-problems-005",
+        "statement": "Municipalities must offer psychologist services, but one in five did not in 2023, especially in rural areas.",
+        "valence": "weakness",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 12,
+          "char_start": 26591,
+          "char_end": 26736,
+          "passage_sha256": "1d9fd40654e8fdc4f6bbec2132057a6037a5e535dfe23854ed0a44493877c0d0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-problems-006",
+        "statement": "The Health Personnel Commission concluded in 2023 that staffing trends were unsustainable and that health and care services cannot keep taking a growing share of the workforce.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 116596,
+          "char_end": 116776,
+          "passage_sha256": "3867fdeaab4addbe52a4e83380c325a583392d2776279122476c82ec0563f019"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "NOR-problems-007",
+        "statement": "Public sources paid only 53% of retail pharmaceutical spending in 2022, below the EU average of 62%; households paid the other 47% out of pocket.",
+        "valence": "weakness",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 134772,
+          "char_end": 134951,
+          "passage_sha256": "d3aa78c6ed0626512fa0cca1482fdd2aa4c0d435c84471ace6ad74daf4a77ec2"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      }
+    ],
+    "reforms": [
+      {
+        "id": "NOR-reforms-001",
+        "statement": "In June 2026 the government set a new target that patients should normally have received or started treatment within 60 days of the hospital receiving the referral, unless delay is medically justified or chosen by the patient; the target covers most treatments and is to be reached step by step.",
+        "valence": "neutral",
+        "source_id": "hspm-nor-waiting-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 663,
+          "char_end": 1135,
+          "passage_sha256": "678f83e483fb01ee83a372332ca1f129f5038c069e3c8370bdb0c94383969749"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-reforms-002",
+        "statement": "The same 2026 package introduced a 'Right to an Appointment' (Rett på time): hospitals must offer the first available appointment and give it directly in their first letter, so patients are not booked close to their deadlines. All regional health authorities are introducing it from autumn 2026.",
+        "valence": "neutral",
+        "source_id": "hspm-nor-waiting-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1136,
+          "char_end": 1546,
+          "passage_sha256": "6ebe42ae7ec089638af8943f2c599a8462a3015b5515c8e60f0209bc503c2ba6"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-reforms-003",
+        "statement": "Under GP rules in force from 2026, every GP must offer online booking through helsenorge.no and, from April 2026, suitable video, text or phone consultations; GPs may work to age 80 instead of 75 if they and the municipality agree; and from 1 January 2026 GPs can be paid for consultations delegated to nurses.",
+        "valence": "neutral",
+        "source_id": "hspm-nor-gpreg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 854,
+          "char_end": 1418,
+          "passage_sha256": "5d76eaa9084186ed7cd303d03f5bd80b2391c3253f9af2be4fd5876df3d48cbf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-reforms-004",
+        "statement": "In April 2025 the government presented a white paper on the future of general practice and out-of-hospital emergency care, which parliament considered in 2025.",
+        "valence": "neutral",
+        "source_id": "hspm-nor-gp-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 688,
+          "char_end": 1142,
+          "passage_sha256": "b17e1b01f9a70ff79ffefe8c84a46618a60bcff08b5c91cf152d2c7f44e8fefd"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-reforms-005",
+        "statement": "The GP reform's measures include gradually shifting GP pay towards a larger basic grant, building multidisciplinary practices with task-sharing with nurses, compulsory digital booking and remote consultations, and better GP access to hospital records and test results.",
+        "valence": "neutral",
+        "source_id": "hspm-nor-gp-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1446,
+          "char_end": 1733,
+          "passage_sha256": "8fb698312b9f662ecfc7330f3a3d92efcbf81b1dd952ca9a3df18d4e56f3bfd5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "NOR-reforms-006",
+        "statement": "The 2025-2035 national cancer strategy plans to add national prostate and lung cancer screening and aims to double the number of patients in clinical trials.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 64442,
+          "char_end": 64840,
+          "passage_sha256": "4080bc74f4286d26f39d479d2fa16a445258fdd63abdbeeef71936e500f5cdda"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-reforms-007",
+        "statement": "Under the National Health and Coordination Plan 2024-2027, hospital financing is being reformed towards steadier block funding and a smaller activity-based share, to help hospitals invest and meet demand from an ageing population.",
+        "valence": "neutral",
+        "source_id": "chp-nor-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 107261,
+          "char_end": 107516,
+          "passage_sha256": "f719c5d05d4bc25318c348266ad2a77502dc6e972ccbe90c0591cbd9fb6b225d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "NOR-reforms-008",
+        "statement": "The 2014 Choice Reform extended patients' choice of treatment and provider to all private providers; it was amended in 2023 so that only private providers under contract are included.",
+        "valence": "neutral",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 31725,
+          "char_end": 31912,
+          "passage_sha256": "7e6c8ce9777e00beefa4e45ec5448b362c4a382d7acfbae8040e3ff5c14ee872"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2014-2023",
+        "historical": true
+      },
+      {
+        "id": "NOR-reforms-009",
+        "statement": "The free treatment choice reform of 2015 licensed new private for-profit and non-profit providers through Helfo to deliver set services at set prices to patients referred to specialist care who choose them; specialist substance-abuse treatment and mental health care made up 78% of the reform's costs in 2019.",
+        "valence": "neutral",
+        "source_id": "ftc-reform-2022",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1665,
+          "char_end": 2146,
+          "passage_sha256": "9025564f67e02afe996a7d7e72402eed10283b2781fee1433f5462d6877af60b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019,
+        "historical": true
+      },
+      {
+        "id": "NOR-reforms-010",
+        "statement": "The 2012 Coordination Reform aimed to improve coordination of care between municipalities and hospitals and to strengthen public health; it has been implemented.",
+        "valence": "neutral",
+        "source_id": "hss-nor-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 31582,
+          "char_end": 31723,
+          "passage_sha256": "880cdd02c5d3ac4328c4cc759a512ac25f3df8ff2c0a01fa7c8fbbe1e5f0e385"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2012,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/NOR.json",
+  "sources": [
+    {
+      "id": "chp-nor-2025",
+      "title": "State of Health in the EU: Norway, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-norway-final-web.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hss-nor-2024",
+      "title": "Norway: Health System Summary 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Saunes IS, Durvy B, Litvinova Y",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/norway-health-system-summary-2024",
+      "text_url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/publicationsnew/hit-summaries-no-flags/hit-summary-norway-2024-3p.pdf",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hit-nor-2020",
+      "title": "Norway: Health System Review (Health Systems in Transition, Vol. 22 No. 1)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Saunes IS, Karanikolos M, Sagan A",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2020,
+      "url": "https://www.who.int/publications/i/item/HiT-22-1-2020",
+      "text_url": "https://www.ecoi.net/en/file/local/2029906/HiT-22-1-2020-eng.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hspm-nor-waiting-2026",
+      "title": "Waiting time and patient access reform 2026 (HSPM country update, Norway)",
+      "publisher": "European Observatory on Health Systems and Policies, Health Systems and Policy Monitor",
+      "authors": "Saunes IS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/norway-2020/waiting-time-and-patient-access-reform-2026",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hspm-nor-gp-2026",
+      "title": "Reform of the general practice and out-of-hospital emergency care system (HSPM country update, Norway)",
+      "publisher": "European Observatory on Health Systems and Policies, Health Systems and Policy Monitor",
+      "authors": "Saunes IS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/norway-2020/reform-of-the-general-practice-and-out-of-hospital-emergency-care-system",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hspm-nor-gpreg-2026",
+      "title": "Adoption of the updated regulatory framework for general practitioners (HSPM country update, Norway)",
+      "publisher": "European Observatory on Health Systems and Policies, Health Systems and Policy Monitor",
+      "authors": "Saunes IS",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/norway-2020/adoption-of-the-updated-regulatory-framework-for-general-practitioners",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cwf-nor",
+      "title": "International Health Care System Profiles: Norway",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/norway",
+      "funding_note": "Private US foundation; profile researched and written by FT Longitude on the Fund's behalf (data as of February 2026).",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "skd-trygdeavgift-2026",
+      "title": "Trygdeavgift (National Insurance contribution rates), 2026",
+      "publisher": "Skatteetaten (Norwegian Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.skatteetaten.no/satser/trygdeavgift/?year=2026",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "skd-aga-2026",
+      "title": "Arbeidsgiveravgift til folketrygden for 2026 (employer's National Insurance contribution, 2026)",
+      "publisher": "Skatteetaten (Norwegian Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.skatteetaten.no/rettskilder/type/skattedirektoratets-meldinger/arbeidsgiveravgift-til-folketrygden-for-2026/",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "skd-abc-behandlingsforsikring",
+      "title": "Skatte-ABC 2024, N-1-6.8: Behandlingsutgifter og behandlingsforsikring ved sykdom eller skade",
+      "publisher": "Skatteetaten (Norwegian Tax Administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2024/n-1-naturalytelser-i-arbeidsforhold/N-1.023/N-1.033/",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hdir-egenandelstak",
+      "title": "Rundskriv til folketrygdloven § 5-3: Egenandelstaket og rammene for frikortordningen",
+      "publisher": "Helsedirektoratet (Norwegian Directorate of Health)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.helsedirektoratet.no/rundskriv/folketrygdloven-kap-5/rundskriv-til-folketrygdloven--5-3--egenandelstak/egenandelstaket-og-rammene-for-frikortordningen",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hdir-poliklinisk",
+      "title": "Egenandeler og pasientbetaling ved poliklinisk helsehjelp",
+      "publisher": "Helsedirektoratet (Norwegian Directorate of Health)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.helsedirektoratet.no/tilskudd-og-finansiering/finansiering/egenandeler-og-pasientbetaling-ved-poliklinisk-helsehjelp",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "ftc-reform-2022",
+      "title": "Health services in Nordic welfare states: Introducing a new category of providers through the Norwegian free treatment choice reform",
+      "publisher": "Nordic Studies on Alcohol and Drugs (Nordisk Alkohol- & Narkotikatidskrift)",
+      "authors": "Lindén TS, Ervik R",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1177/14550725221108790",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9549221",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gp-use-2026",
+      "title": "General practitioner utilization by age, sex and disease in Norway from 2012-2023: a national health registry study",
+      "publisher": "Scandinavian Journal of Primary Health Care",
+      "authors": "Reme B-A, Magnus PM, Håberg SE, Kinge JM",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1080/02813432.2026.2666623",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13162542",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "fbr-gjeld-2025",
+      "title": "Hva kan gjøres for å forebygge og stoppe gjeldsspiraler? Dybdeintervjuer med 10 gjeldsrådgivere i NAV",
+      "publisher": "Forbrukerrådet (Norwegian Consumer Council)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://storage02.forbrukerradet.no/media/2026/05/rapport-gjeldsradgivning-2025.pdf",
+      "funding_note": "Government-funded consumer body; qualitative study of 10 debt advisers, no counts of causes.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "ukom-betalingsvansker",
+      "title": "Betalingsvansker - en pasientsikkerhetsrisiko: Helsepersonells oppmerksomhet på pasienter med betalingsvansker",
+      "publisher": "Ukom (Norwegian Healthcare Investigation Board)",
+      "tier": 3,
+      "type": "government",
+      "year": 2022,
+      "url": "https://ukom.no/rapporter/betalingsvansker-en-pasientsikkerhetsrisiko/helsepersonells-oppmerksomhet-pa-pasienter-med-betalingsvansker/_/service/no.seeds.ukom/download-pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "legefor-forsikring-2024",
+      "title": "Policynotat: Forsikringsbransjen skaper problemer for det offentlige helsetilbudet",
+      "publisher": "Norsk forening for allmennmedisin (Norwegian College of General Practice, Norwegian Medical Association)",
+      "tier": 3,
+      "type": "other",
+      "year": 2024,
+      "url": "https://www.legeforeningen.no/contentassets/d53fa00699df44f49c46428eab86661e/2024-policydokument-behandlingsforsikringer.pdf",
+      "funding_note": "Professional association of general practitioners; a policy position opposing private treatment insurance.",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created."
+    }
+  ]
+}

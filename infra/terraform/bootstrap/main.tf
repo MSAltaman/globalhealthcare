@@ -44,6 +44,10 @@ data "google_project" "prod" {
   project_id = var.prod_project_id
 }
 
+data "google_project" "staging" {
+  project_id = var.staging_project_id
+}
+
 # ---------------------------------------------------------------------------
 # Terraform state bucket. Versioning keeps every earlier copy of the state, so
 # a bad apply can always be traced and recovered.
@@ -185,7 +189,12 @@ resource "google_billing_budget" "atlas" {
   display_name    = "Healthcare Atlas"
 
   budget_filter {
-    projects = [for p in local.projects : "projects/${p}"]
+    # The Budgets API stores projects by number, not id. Writing numbers here
+    # matches what it returns, so plans don't show a change that never settles.
+    projects = [
+      "projects/${data.google_project.staging.number}",
+      "projects/${data.google_project.prod.number}",
+    ]
   }
 
   amount {

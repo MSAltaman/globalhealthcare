@@ -1,0 +1,2127 @@
+{
+  "iso3": "SWE",
+  "name": "Sweden",
+  "wave": 2,
+  "system_as_of": "2026-11-12",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded, regionally run national health service: 21 regions finance and provide most care from regional income taxes and state grants, municipalities run long-term and home care, with capped user fees"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "SWE-overview-003",
+      "SWE-overview-004",
+      "SWE-overview-005"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "SWE-overview-001",
+        "statement": "Health care in Sweden is part of social protection, financed mainly through taxes and mostly publicly provided; its stated goal is good health and care on equal terms, and it covers almost everyone who lives or works in the country, about 10.6 million people.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "How is the health system organized?",
+          "char_start": 2375,
+          "char_end": 2640,
+          "passage_sha256": "10bbbed2bb612a64742153bfc2f374db7f0a7aa465488ae1e41a456b4142025a",
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SWE-overview-002",
+        "statement": "The 21 regions carry the main responsibility for financing, organising and providing health care; the 290 municipalities finance and provide care in ordinary and special housing for older people and people with functional impairments, and school health care.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Organization",
+          "char_start": 2641,
+          "char_end": 3081,
+          "passage_sha256": "6e5d1ede20600527fbded283ee9b1e0f16f57d08d16fca52898fc73499be22fb",
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-overview-003",
+        "statement": "Coverage rests on registered residence and there is no predefined benefits package: the Health and Medical Services Act obliges the responsible authorities to provide care to all residents according to need, and all cost-effective treatments are meant to be included.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Coverage",
+          "char_start": 9388,
+          "char_end": 9766,
+          "passage_sha256": "11033acd5d2e769f8dc98d52bc33e52615760a919dbd92d79c677a12e69cecb3",
+          "page": 6
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-overview-004",
+        "statement": "The Commonwealth Fund profile dates the basis of today's system to the 1982 Health and Medical Services Act, which required equal access to all medical care, including prevention, for all legal residents and gave regions and municipalities full responsibility for delivering care.",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Coverage and Access: Background and History",
+          "char_start": 4679,
+          "char_end": 5184,
+          "passage_sha256": "be91d2c5315292b4c323a52b10c6c370beb7fe8eb1e73ff3dd4c26b7452f8fc0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-overview-005",
+        "statement": "All residents are entitled to publicly funded care, as are people from other EU countries who work or are registered job-seekers in Sweden, and their families; asylum seekers and undocumented migrants do not have full access but are entitled to emergency and dental care (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5824,
+          "char_end": 6446,
+          "passage_sha256": "38602ee7e4a91513a13a6fd67d5d0d9d37cf99c5791a5ecd6bcda39d8f711bc7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-overview-006",
+        "statement": "Hospital care is still dominated by public institutions, but private providers now run about 44% of primary care centres, with wide variation between regions; the expansion was accelerated by the 2010 patient choice law, which let people choose any accredited public or private provider.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 47076,
+          "char_end": 47521,
+          "passage_sha256": "26f7a4a60ba297576f97888b08e3591c1ddbf87b5229ae696d2f4dffc6e12721",
+          "page": 8
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-overview-007",
+        "statement": "Each region runs a highly integrated system in which most hospitals are owned and operated by the region, while the mix of public and private outpatient providers differs a great deal between regions.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Providers",
+          "char_start": 3640,
+          "char_end": 3860,
+          "passage_sha256": "e313cd9e0347327574d6c8f5e5473fc0f2c25803d89cae8d573cd798b0a9cbd8",
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "SWE-financing-001",
+        "statement": "Health care is funded mainly by local taxes, topped up by national government grants and user charges. In 2022 national government spending accounted for 23% of health spending, the regions for 44% and the municipalities for 19%.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Funding mechanisms",
+          "char_start": 5335,
+          "char_end": 5561,
+          "passage_sha256": "23cbde590c90d44168e3e749d7ac38bd013e7cd8b40123048f25a89ad509a681",
+          "page": 4
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SWE-financing-002",
+        "statement": "Both regions and municipalities levy proportional income taxes on their residents to fund health care, supplemented by national government grants and user charges; state dental care subsidies are paid through national social insurance, whose revenue comes mainly from employer payroll fees.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 181832,
+          "char_end": 182290,
+          "passage_sha256": "31760385de33d8a85a81790f03b2a677628262501cbaf19c5d2a66e17d81e83b",
+          "page": 94
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-financing-003",
+        "statement": "In 2026 the average regional income tax rate is 11.69% and the average municipal rate 20.69%, giving an average total local income tax rate of 32.38% (Statistics Sweden).",
+        "valence": "neutral",
+        "source_id": "scb-kommunalskatt-2026",
+        "locator": {
+          "section": "Table: Total kommunal skattesats 2023-2026, genomsnitt för riket",
+          "char_start": 2242,
+          "char_end": 2455,
+          "passage_sha256": "d2c99ad882f5ff965bfb37b8412245993ce2f1a4946f206fbc88ec968cc29749"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-financing-004",
+        "statement": "The total local tax rate is the sum of the municipal and regional rates; the national average weights each municipality's rate by its tax base, which is individuals' taxable earned income two years before the reference year (Statistics Sweden).",
+        "valence": "neutral",
+        "source_id": "scb-kommunalskatt-2026",
+        "locator": {
+          "section": "Definitioner och förklaringar",
+          "char_start": 3805,
+          "char_end": 4166,
+          "passage_sha256": "fb266ef0ddee27cbe21713f5f6cfe6b8eccac4aed57b1a8c13b374cb0129d63a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-financing-005",
+        "statement": "Regional income tax fell from 71.4% of regional revenue in 2015 to 64.4% in 2020, while the share from national government grants rose from 19.7% to 28.4%.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 184280,
+          "char_end": 184570,
+          "passage_sha256": "46d901b9cb24635bb2400189fce7d2563ba11776cb111ddfd42ee35ffcec099d",
+          "page": 95
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2015-2020"
+      },
+      {
+        "id": "SWE-financing-006",
+        "statement": "General state grants are paid per inhabitant through a formula meant to equalise differences in tax base and spending needs, so that regions and municipalities can keep similar standards whatever their average income or need.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 183382,
+          "char_end": 183805,
+          "passage_sha256": "0c583c697f9ab970fde47159d178eb4eda8b2366f6c38403e7efb4fb4b1d534d",
+          "page": 94
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-financing-007",
+        "statement": "A major part of the targeted grant, equal to 7.2% of total regional revenue, is reimbursement for pharmaceuticals listed in the Drug Benefit Scheme.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 184059,
+          "char_end": 184216,
+          "passage_sha256": "efb9bb0d4010f3418f49ce98cd1d0df14ea1be8443f88cca39cf7d6727910f93",
+          "page": 94
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "SWE-financing-008",
+        "statement": "Private sources paid 14% of current health spending in 2022, 92% of it out of pocket by households; voluntary health insurance plays mainly a complementary role and accounts for about 1% of total health spending.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Funding mechanisms",
+          "char_start": 5672,
+          "char_end": 5948,
+          "passage_sha256": "408fc9e39138bed77cadec05215debdab2898a7e928765414003fa978ce5ef9e",
+          "page": 4
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SWE-financing-009",
+        "statement": "In 2023 public spending made up 86% of total health spending, against an EU average of 80%, and out-of-pocket payments 13%, against 16% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 51748,
+          "char_end": 52071,
+          "passage_sha256": "e52e9e0a444d71967a9ad204b9f9ff580dc75456916f04c3abe6b5ff187c1e43",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-financing-010",
+        "statement": "Of SEK 692,835 million total health spending in 2023, central, regional and municipal government paid SEK 596,404 million, private insurance SEK 4,317 million and households SEK 89,774 million out of pocket (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Health system at a glance",
+          "char_start": 2302,
+          "char_end": 2611,
+          "passage_sha256": "91b6cfe34796e715012587b92ab98f1df844a5b1ce4fd2900bd8afd14975a8ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-financing-011",
+        "statement": "About 10% of people aged 16-64 have voluntary health insurance, often paid for by their employer; it accounts for less than 1% of health spending, is sold by commercial insurers that decide who is eligible, generally excludes emergency, intensive, highly specialised and chronic care, and covers care by private providers.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "2.7.1 Regulation and governance of third-party payers",
+          "char_start": 126134,
+          "char_end": 126742,
+          "passage_sha256": "1fab4cdf7b20a951dd57a5c341a97d4c512aec2392a06579b4d5fa36328bcae5",
+          "page": 64
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-financing-012",
+        "statement": "In 2023 about 7% of the population had private health insurance, mostly group policies provided through employers and trade unions; it complements public care with non-urgent services such as preventive, planned specialist and rehabilitative care (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "The Role of Private Insurance",
+          "char_start": 8140,
+          "char_end": 8504,
+          "passage_sha256": "1397601b44aad5bb62af4835936b89fa4fb5fee30c5ac58a3be9f6cf301f36de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-financing-013",
+        "statement": "Since July 2018, health insurance paid for by an employer has been a taxable benefit for the employee.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "char_start": 218706,
+          "char_end": 218776,
+          "passage_sha256": "adf6340682bc88710985382f32c3eef4cba458ad380b55f6d8b04d473b46684a",
+          "page": 112
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-financing-014",
+        "statement": "The Swedish Tax Agency values employer-paid health insurance at the employer's cost, normally the premium; when a policy covers both taxable and tax-free services, the taxable benefit may be set at a standard 60% of the premium.",
+        "valence": "neutral",
+        "source_id": "skv-halsoochsjukvard",
+        "locator": {
+          "section": "Sjukvårdsförsäkring",
+          "char_start": 2952,
+          "char_end": 3311,
+          "passage_sha256": "b9c5def59dc16857fc159a1c0d50a72a521400f26b9d2a68c293b46d29466b74"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "SWE-covered-001",
+        "statement": "Public sources cover 99% of inpatient and 93% of outpatient care costs, and public coverage of dental care (42%) is well above the EU average; pharmaceuticals are the main exception, at 54% slightly below the EU average because of graduated co-payments.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 81145,
+          "char_end": 81485,
+          "passage_sha256": "a0dbfbe96c5901fe05aa65c26eeb9b2db85ca48bdbd0da98cbbec92add8c8119",
+          "page": 13
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-covered-002",
+        "statement": "With no explicit national benefits package, the principle is to provide all necessary, cost-effective treatment according to medical need; the National Board of Health and Welfare and the association of regions (SKR) write common guidelines to limit variation among the 21 regions.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 81585,
+          "char_end": 82047,
+          "passage_sha256": "9edda5a322c01db450a73bed9e106bd5a2f44101ffca92386aad49ae8d518533",
+          "page": 13
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-covered-003",
+        "statement": "Priority setting follows an ethical platform with three principles: equal human dignity and rights, priority to those in greatest need (more severe disease before less severe), and a reasonable relation between costs and health effects when choosing between options.",
+        "valence": "neutral",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "2.7.3 Regulation of services and goods",
+          "char_start": 141070,
+          "char_end": 141778,
+          "passage_sha256": "2287711b9059c68d6e3b0785a82a1bd46add87e4bf1524d6eb906a7ba1fc67bd",
+          "page": 70
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-covered-004",
+        "statement": "Publicly covered services include preventive, primary, inpatient, outpatient, mental health, maternity, rehabilitation and long-term care, home visits for older people and palliative care; dental care, pharmaceuticals and assistive devices such as mobility and hearing aids are covered only partly or with subsidies (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Services Covered by Public Health Insurance",
+          "char_start": 6494,
+          "char_end": 6872,
+          "passage_sha256": "8ad6c27a570bce8213d8499bd4046ae79ffd9ac6398c5268afdcfe3add7964a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-covered-005",
+        "statement": "The Dental and Pharmaceutical Benefits Agency (TLV) decides which medicines enter the national benefits scheme and sets their list prices using an ethical platform of human dignity, need and solidarity, and cost-effectiveness; there is no single explicit cost-effectiveness threshold, and willingness to pay varies with disease severity and, increasingly, with the size of the patient population.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 123002,
+          "char_end": 123386,
+          "passage_sha256": "b9a0fe9074ef48a0ac31350c064a375c7e493e6a5e87925bb5662751d28d9411",
+          "page": 19
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-covered-006",
+        "statement": "For new hospital therapies, the regions' Council for New Therapies (NT-rådet) issues national recommendations based on TLV analyses, and the law requires local medicines committees.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 123632,
+          "char_end": 123866,
+          "passage_sha256": "fb2574e5ada5263f1ab99a90c273e14d1cc4174a2d11dbd97e60754c6e3513b8",
+          "page": 19
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "SWE-cost_sharing-001",
+        "statement": "Patient fees are modest and combined with annual caps: a primary care visit typically costs SEK 150-300 (about EUR 14-28) depending on the region, and separate annual ceilings apply to consultation fees and to prescription costs.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 52072,
+          "char_end": 52377,
+          "passage_sha256": "504fa2f229ff399666f5ce85f2844485844b750001d5d993e2ab74d6069f291c",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-cost_sharing-002",
+        "statement": "Fees are charged for almost all services and medical products, with exceptions including child and maternity care and many services for people aged 85 and older; the regions set the fees, so they differ across the country.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Out-of-pocket payments",
+          "char_start": 8850,
+          "char_end": 9133,
+          "passage_sha256": "ffa380e032eff49ded298667d8aa274cf58dfb2f3e91564b5247642ea8650e9a",
+          "page": 6
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-cost_sharing-003",
+        "statement": "Under the outpatient high-cost protection, a patient's fees are capped at SEK 1,450 in a 12-month period, and hospital inpatient fees are capped at SEK 130 per day (Commonwealth Fund).",
+        "valence": "strength",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 7350,
+          "char_end": 7541,
+          "passage_sha256": "53caa1e3b7524eced39d2457cccee39245dbf18c3650ab243a6aacd28b020a00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-cost_sharing-004",
+        "statement": "A July 2025 reform of medicine cost-sharing raised the annual out-of-pocket ceiling from SEK 2,900 to SEK 3,800 and made patients pay a larger share at first, with subsidies rising step by step; once a person's medicine costs reach SEK 7,117 in a year, a free card covers everything further.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 82842,
+          "char_end": 83285,
+          "passage_sha256": "2c4bb8ccd9db10bb3db4e9af326a3b892107c00fdb47ba065c15e8f4a21380a6",
+          "page": 13
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SWE-cost_sharing-005",
+        "statement": "From 2026, people who turn at least 67 in the year a treatment is completed are covered by the strengthened high-cost protection: a special dental allowance pays 90% of each treatment's reference price and the patient pays 10% (or 10% of the clinic's price if that is lower), and clinics may not charge more than the reference price for covered treatments.",
+        "valence": "strength",
+        "source_id": "gov-tandvard-faq",
+        "locator": {
+          "section": "Vad innebär det förstärkta högkostnadsskyddet?",
+          "char_start": 2300,
+          "char_end": 2975,
+          "passage_sha256": "0fc8d7f5768546339dd4186dbe855630e5f492c8368a1e4c06adc58eed3c2005"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-cost_sharing-006",
+        "statement": "From 2026 the general dental care allowance is SEK 600 for patients aged 20-23 and those at or above the pension reference age (currently 67), and SEK 300 for other adults.",
+        "valence": "neutral",
+        "source_id": "gov-tandvard-faq",
+        "locator": {
+          "section": "Varför ingår inte undersökning och andra hälsofrämjande insatser i reformen?",
+          "char_start": 5676,
+          "char_end": 6006,
+          "passage_sha256": "5261aaf5776cd75222ca72534f7bd9d1c960f4ea8bff283114c2d4828b0d1f90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-cost_sharing-007",
+        "statement": "Generic substitution is mandatory, and compliance is so high that extra co-payments by patients who choose a branded drug make up only 0.3% of the benefit scheme's costs.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 122287,
+          "char_end": 122493,
+          "passage_sha256": "428c337292a5d114e8e61841717bc9b2e3d764fc2810e06c6b7b8c29b40de62c",
+          "page": 19
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-cost_sharing-008",
+        "statement": "Out-of-pocket health spending equalled 3.4% of household expenses in 2021, close to the OECD average of 3.3% (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 22619,
+          "char_end": 22748,
+          "passage_sha256": "536e8d8fd71dd556aaf053e78f382c2dbe18b21def83fb1e8e9a7743207b5378"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "SWE-financial_hardship-001",
+        "statement": "Among people applying to the Enforcement Authority for debt relief, the share naming illness as the cause of their payment problems (stated by the applicant together with the case officer) fell from 19% in 2019 to 10% in 2024, while the share naming overconsumption rose from 18% to 35%.",
+        "valence": "neutral",
+        "source_id": "kfm-skulder-2026",
+        "locator": {
+          "section": "5.1 Fler ansöker om skuldsanering",
+          "char_start": 66457,
+          "char_end": 66912,
+          "passage_sha256": "b77f2d0f0c768735bc02c55bc5bb2bc682b49978cf5f43cddabf8781bc3e3f44",
+          "page": 48
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2019-2024"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "SWE-additional_care-001",
+        "statement": "Long-term care is comprehensive and publicly financed, with national policy favouring home care over institutions; municipalities means-test, finance and organise it, and services generally require a needs assessment, except for things such as security alarms and some home care.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Long term care",
+          "char_start": 20396,
+          "char_end": 20845,
+          "passage_sha256": "318c44ef19f3ff730a607d852cfd8ebf31b524ad3f5caec0e39aaae31fafebb3",
+          "page": 11
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-additional_care-002",
+        "statement": "Municipal long-term care services are generally means-tested on income and assets, and fees, which vary by municipality, are capped at SEK 2,350 a month (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 18822,
+          "char_end": 19105,
+          "passage_sha256": "d450066e2d892e8d972246239ac88399bc34bba10e8842cf07f4cbabd466f73f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-additional_care-003",
+        "statement": "In 2021 about 15.7% of people over 65 received long-term care, 77% of them in their own homes (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 18678,
+          "char_end": 18818,
+          "passage_sha256": "3c97579bd31148b50dce93d3bb4ebd6fdc47c489eee62ce211ae02647fae4246"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "SWE-additional_care-004",
+        "statement": "Dental care is a competitive market with public and private operators; about two thirds of adult dental care under the general allowance is delivered at around 3,550 clinics run by 2,000 private providers.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Dental care",
+          "char_start": 21174,
+          "char_end": 21407,
+          "passage_sha256": "afd88d45b02cd9fe535344c7c3a59f9dd2f20d61c8cab2123247898d0e30d359",
+          "page": 11
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "SWE-access-001",
+        "statement": "In 2024, 3.9% of people in Sweden who reported a need for medical care could not get at least some of it, slightly above the EU average of 3.6%.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 83816,
+          "char_end": 83968,
+          "passage_sha256": "1fab80ef7e149bfac5948491952073c621ae88383df18deb6a8d5763e11875ae",
+          "page": 13
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SWE-access-002",
+        "statement": "Since 2021, about 30% of patients have consistently waited longer than the 90-day legal limit for a first specialist consultation.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 88115,
+          "char_end": 88352,
+          "passage_sha256": "c62a0f8cf305f312cab56d2679fe7a4589f19d9a8bee4a300d1e4a5888da1152",
+          "page": 14
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2021-2024"
+      },
+      {
+        "id": "SWE-access-003",
+        "statement": "In 2024, 7.2% of people at risk of poverty who reported medical needs could not get at least some care, against 6.0% for the same group across the EU; the Country Health Profile says waiting delays hit lower-income groups hardest.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 88353,
+          "char_end": 88581,
+          "passage_sha256": "31879d08fca30463af523ea96452d72dfac374553f55aa9666ddaa4801cf7dea",
+          "page": 14
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SWE-access-004",
+        "statement": "The 2025 Country Health Profile reports that 7.0% of the population had some unmet need for primary care and 11.0% for mental health care, both above EU averages and continuing an upward trend.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 88582,
+          "char_end": 88814,
+          "passage_sha256": "0f4bfb2782da19fa79bd74bc6d5d2763e475ce2369b5e61b5836ba754450d93a",
+          "page": 14
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SWE-access-005",
+        "statement": "Under the national care guarantee, patients should be offered a specialist appointment or planned treatment within 90 days of referral; if the region cannot meet this, it must arrange and pay for care elsewhere (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Outpatient/Specialist Care",
+          "char_start": 13512,
+          "char_end": 13766,
+          "passage_sha256": "dbe35a5cab7d1c01090f4e7972f159df7903b76655d4a6cad5f86e79a1c6ca54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-access-006",
+        "statement": "In the three largest regions (Stockholm, Skåne and Västra Götaland) almost no residents live more than 45 minutes from a hospital, but in more sparsely populated regions 15-36% do.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Distribution of health resources",
+          "char_start": 14844,
+          "char_end": 15138,
+          "passage_sha256": "11f28e41ec94dd70c127e9daadb2b0f4ce0f19aaef3237a93660441267e2e227",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "SWE-access-007",
+        "statement": "Relatively few people forgo care because of patient fees, though doing so is clearly more common for dental care, and patient surveys show long waits are a bigger reason for forgoing care than out-of-pocket costs.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Box 2 What are the key gaps in coverage?",
+          "char_start": 10452,
+          "char_end": 10957,
+          "passage_sha256": "a39ac31bd183670980f9ebe35fedd7492916d5b9cd038a9f149043c2237e1af9",
+          "page": 6
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2021-2023"
+      },
+      {
+        "id": "SWE-access-008",
+        "statement": "Primary care leans less on temporary hired doctors (hyrläkare): between 2023 and 2025 the count of regions needing them to keep basic services running fell from eight to four, since most regions now restrict hiring locums into permanent positions.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "char_start": 89711,
+          "char_end": 90006,
+          "passage_sha256": "5a63e97368cf96eb9f07079bb8bdca64ade7fa3b28de56015909e1ee82cdb4ba",
+          "page": 14
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2023-2025"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "SWE-outcomes-001",
+        "statement": "In 2024 life expectancy at birth reached a record 84.1 years, the highest in the EU together with Italy.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "char_start": 4492,
+          "char_end": 4594,
+          "passage_sha256": "cc4ad897febc257f2a9ba86fd72afd7f9e831198eec905993906231b24022b56",
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SWE-outcomes-002",
+        "statement": "In 2022 Sweden had the lowest avoidable mortality rate in the EU, with both treatable and preventable mortality more than a third below the EU averages.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "char_start": 6016,
+          "char_end": 6180,
+          "passage_sha256": "96ee07b0acad2fe73972505c175a239154345173c01b9620a05aa923db12992d",
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SWE-outcomes-003",
+        "statement": "In the GBD 2019 study, Sweden's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 90.4 (95% uncertainty interval 88.4-92.1) in 2019, 14.0 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 46456,
+          "char_end": 46620,
+          "passage_sha256": "7e182c28834278e5c93a0688e80886b27754cf5b2d206e2e719f8b59197cb243"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "SWE-outcomes-004",
+        "statement": "In 2023 breast cancer screening participation was 83%, against an EU average of 57.5%, and cervical screening participation reached 78%, more than a third above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "char_start": 77094,
+          "char_end": 77339,
+          "passage_sha256": "9854afa1399f136aa538131fbdae7069c428cda3c82b055177e04f290f2b59af",
+          "page": 12
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-outcomes-005",
+        "statement": "In 2023 the combined hospital admission rate for diabetes, congestive heart failure, asthma and COPD was 25% below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "char_start": 77869,
+          "char_end": 78127,
+          "passage_sha256": "2e0b32341e1346f51681672dabf5b0a30f3b5f0d448ae51c05abce83b7371bf8",
+          "page": 12
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-outcomes-006",
+        "statement": "HPV vaccination coverage among 15-year-old girls rose from 76% in 2018 to 86% in 2024, second in the EU and about 35% above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "char_start": 75628,
+          "char_end": 75812,
+          "passage_sha256": "6ff5884b107f880624905281a7f17ffd95b104eb1673d59d74579b92bffeaacc",
+          "page": 12
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2018-2024"
+      },
+      {
+        "id": "SWE-outcomes-007",
+        "statement": "Treatable mortality is higher among people with less education, and the gap between the regions with the lowest and highest rates is about 20 deaths per 100,000; differences by education and region have narrowed since 2013.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Health system outcomes",
+          "char_start": 34132,
+          "char_end": 34514,
+          "passage_sha256": "0a7b6299fdc7b6f55ac4ab41d9c07bcceb03c7ab5fd2f6b9bff998ee05f7fcc1",
+          "page": 16
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "SWE-costs-001",
+        "statement": "Health spending was the fourth highest in the EU in 2023 at EUR 4,688 per person, about one fifth above the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "char_start": 5507,
+          "char_end": 5645,
+          "passage_sha256": "a92f73bae8aa89ca56db59f1da2222684b1b5285a496216d6340d72ca59ba866",
+          "page": 3
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-costs-002",
+        "statement": "From 2015 to 2023, real health spending per person grew by 0.9% a year on average, as a 1.2% annual rise in public spending outweighed a 1.0% annual fall in private spending.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 50915,
+          "char_end": 51099,
+          "passage_sha256": "a5202f74ee37ea1336792d8380c3d27513441233d43bfc6ea9f0fadc437156f1",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2015-2023"
+      },
+      {
+        "id": "SWE-costs-003",
+        "statement": "In 2023 outpatient services took 33% of total health spending, one of the highest shares among higher-spending EU countries, while inpatient care took only 22% against an EU average of 28%.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 53162,
+          "char_end": 53419,
+          "passage_sha256": "23a0bd54f429ff336392ccf75b2114ac85bedef0e09befe55fade3657c453548",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-costs-004",
+        "statement": "Long-term care made up 28% of total health spending in 2023, compared with an EU average of 18%.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 53420,
+          "char_end": 53612,
+          "passage_sha256": "e5d2b590a4f904c5f2cf58a83da8db8aaed67a6efcd555635fabc497c4114717",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-costs-005",
+        "statement": "Retail pharmaceutical spending was EUR 454 per person in 2023, 11% below the EU average of EUR 510, even though total health spending per person was 22% above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 121045,
+          "char_end": 121246,
+          "passage_sha256": "ee1ad71f4e3c0028ce4e3ac12b47acc811c6c2b1306f1a3992b6bc9e651b6a90",
+          "page": 19
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-costs-006",
+        "statement": "A 2023 TLV comparison found Sweden had the lowest prices among 20 European countries for medicines facing generic competition.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 131227,
+          "char_end": 131383,
+          "passage_sha256": "34da0aa61410cea1e4e8db088ccf01626eb2aff2b3811d14daba8790f605b040",
+          "page": 20
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-costs-007",
+        "statement": "Confidential rebates from manufacturers are growing: paybacks were estimated at SEK 3.3 billion in 2023 and are projected to reach SEK 4.7 billion in 2026.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 123867,
+          "char_end": 124041,
+          "passage_sha256": "aa8f69f42755df0c7c21b7341a6d566ca9a829aac6844091ff1c737b5c518563",
+          "page": 19
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2023-2026"
+      },
+      {
+        "id": "SWE-costs-008",
+        "statement": "Compared with countries with similar treatable mortality, Sweden spends more on health; it does well on technical efficiency measures such as length of hospital stay, day-case surgery and generic substitution, but less well on staff turnover, sickness absence and staff deployment.",
+        "valence": "neutral",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Health system efficiency",
+          "char_start": 36746,
+          "char_end": 37219,
+          "passage_sha256": "7a196bce86e7b71290f93f227fa2829ea208646cbb31136f1ae154183dc05a38",
+          "page": 18
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "SWE-costs-009",
+        "statement": "In a study linking 2016 health care use to socioeconomic data for adults in the four largest regions, expected lifetime health care spending was 17.9% higher for women and 16.8% higher for men in the lowest income fifth than in the highest.",
+        "valence": "neutral",
+        "source_id": "lifetime-exp-2023",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2523,
+          "char_end": 3251,
+          "passage_sha256": "a0901448c7a3f42a6674bf721dc641f1846a40b54a6450b177acb4bd9fe5feba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "SWE-costs-010",
+        "statement": "In 1980 US health spending was comparable to Sweden's and Germany's, at 8.2% of GDP; since then the US has far outpaced the other nine countries in Mirror, Mirror 2024.",
+        "valence": "neutral",
+        "source_id": "cwf-mm-2024-report",
+        "locator": {
+          "section": "Health care spending",
+          "char_start": 8168,
+          "char_end": 8389,
+          "passage_sha256": "e043aaa85e76f43d462014ef5dec80824e10ce5cf1fcb0f41bb49ee7e35e71ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "1980-2022",
+        "historical": true
+      }
+    ],
+    "what_works": [
+      {
+        "id": "SWE-what_works-001",
+        "statement": "Antibiotic use is the second lowest in the EU: an estimated 10.9 defined daily doses per 1,000 people in 2023, 45% below the EU average and already within Sweden's 2030 reduction target.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 115672,
+          "char_end": 116025,
+          "passage_sha256": "c7da1e25df1cbf566fe2125e57119689053948ce1606596b83edbb8ff10033dd",
+          "page": 18
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-what_works-002",
+        "statement": "Sweden is pioneering a way of buying critical antibiotics, piloted in 2020, that pays manufacturers fixed annual sums instead of paying by sales volume, which secures supply without rewarding overuse.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 116281,
+          "char_end": 116639,
+          "passage_sha256": "a5975817b59817a8c61bcb8b756292878c233f0f6cd4c06948db931bf9fa4b12",
+          "page": 18
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-what_works-003",
+        "statement": "Per the EFPIA Patients W.A.I.T. indicator, 50% of products authorised in the EU reached patients in Sweden over 2020-2023 (EU average 46%); the median wait from EU marketing authorisation until public availability is roughly 361 days in Sweden, compared with 578 days on average across the EU.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 128702,
+          "char_end": 129267,
+          "passage_sha256": "32dd2339ef02b855854023bbcdadbda9a6004bb1fa55ecfa1d98edc894129525",
+          "page": 20
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2020-2023"
+      },
+      {
+        "id": "SWE-what_works-004",
+        "statement": "In 2015 all regions adopted a joint model with authorities and companies to negotiate prices and manage the introduction of certain new drugs on the Council on New Therapies' recommendations; in 2021 these agreements saved an estimated SEK 2.7 billion on prescription drugs.",
+        "valence": "strength",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Box 8 Is there waste in pharmaceutical spending?",
+          "char_start": 38306,
+          "char_end": 38810,
+          "passage_sha256": "4200c04818699516b82668c1eb6c463545b1906829a538634657c1c6ad141c5c",
+          "page": 18
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "SWE-what_works-005",
+        "statement": "After the out-of-pocket fee for mammography screening was removed in 2016, attendance in 14 of 21 regions (2014-2015 vs 2017-2018) rose most among groups at risk of low attendance: from 62.9% to 65.8% among non-Nordic women with the lowest income, and from 59.2% to 62.0% among women with four or more risk factors.",
+        "valence": "strength",
+        "source_id": "mammo-fee-2021",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1816,
+          "char_end": 2954,
+          "passage_sha256": "d1dfee51b5fe54d4eeab6824576a6a435d15cecceed7f01fe4ba676f1ca1f596"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2014-2018"
+      },
+      {
+        "id": "SWE-what_works-006",
+        "statement": "Hospital patients report good experiences in international comparison: in 2021, 92% felt involved in decisions about their care and 94% said doctors often or always treated them professionally.",
+        "valence": "strength",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Box 6 What do patients think of the care they receive?",
+          "char_start": 31859,
+          "char_end": 32074,
+          "passage_sha256": "9e73d3c1c1baf9502551efc3ce2932cd348a475d4394f2a62e56e821bf56dbd3",
+          "page": 15
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "SWE-what_works-007",
+        "statement": "In 2023 Sweden invested EUR 5.9 million per 100,000 inhabitants in health information technology, behind only Austria and Denmark in the EU and over 2.5 times the EU average.",
+        "valence": "strength",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 110193,
+          "char_end": 110385,
+          "passage_sha256": "dc2a0dadb01ce51bfca81af5490c2b93103a6cb6a709e3c90e5af56d5f47723a",
+          "page": 17
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "SWE-problems-001",
+        "statement": "In 2023 Sweden had the fewest hospital beds in the EU, 1.9 per 1,000 people against an EU average of 5.1.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 91502,
+          "char_end": 91625,
+          "passage_sha256": "e05abff5a830861917b6eb54b3f11a3d628f7ed1b5cff346e57af98ffebf51f2",
+          "page": 14
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SWE-problems-002",
+        "statement": "Despite substantial funding, National Board of Health and Welfare data show staffed beds fell by 40 from 2023 to 2024, and the data point to the bed gap being due less to missing physical capacity or money than to a severe lack of nursing staff.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 98045,
+          "char_end": 98385,
+          "passage_sha256": "3ede340d4af5df51f86abc96bc9a009345619acfb3aaec4c796a721e188358fd",
+          "page": 15
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "SWE-problems-003",
+        "statement": "The goal of closing the hospital bed gap by 2026 has been pushed back to 2027, and the National Board of Health and Welfare warns that without stronger action balance may not be reached before 2033.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 98618,
+          "char_end": 98895,
+          "passage_sha256": "d747331103bbf3d87652bb6ee5354f03a574df2a7c51e1f7835549d4a16d468d",
+          "page": 15
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-problems-004",
+        "statement": "Between 2021 and 2024, around 45% of patients waited longer than the 90-day statutory guarantee for elective surgery.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 102997,
+          "char_end": 103191,
+          "passage_sha256": "2459a4bceb304706e4f45581099b30ad4db660ae004cfdaccda84cef8b1ef643",
+          "page": 16
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2021-2024"
+      },
+      {
+        "id": "SWE-problems-005",
+        "statement": "Between August 2023 and August 2024, 41% of cataract patients nationally waited longer than 90 days, ranging from 7% in Stockholm to 70% in Västerbotten.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 102715,
+          "char_end": 102996,
+          "passage_sha256": "cf8d4557af96e561d98964c67ebe119a9875eead460982b3c76e3f3a08a6d17e",
+          "page": 16
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "SWE-problems-006",
+        "statement": "In 2022 there were an estimated 40% fewer full-time-equivalent GPs than primary care centres said they needed.",
+        "valence": "weakness",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Box 3 What are the key strengths and weaknesses of primary care?",
+          "char_start": 18808,
+          "char_end": 18959,
+          "passage_sha256": "5e6ca1a7b66579218ebdeb06801b4f3fb8d19167957c5e952694f361d4324b94",
+          "page": 10
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SWE-problems-007",
+        "statement": "Every one of the 21 regions reports too few GPs and specialists, and the shortfalls are largest in rural and northern parts of the country.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 54721,
+          "char_end": 54861,
+          "passage_sha256": "951173ac39b4f1f3580dd3d456c3f5d72e18344f97954228dc65900cfd5eff54",
+          "page": 9
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-problems-012",
+        "statement": "General practitioners make up only 14% of the physician workforce, against an EU average of 20%.",
+        "valence": "weakness",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 58583,
+          "char_end": 58738,
+          "passage_sha256": "2740204d0dc6aa879b978a8a55827ad5b41c160fd1f66844f7f27eefb0cc2bd4",
+          "page": 10
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-problems-008",
+        "statement": "Fewer Swedish patients experience primary care as person-centred, they are less satisfied with care coordination than other Europeans, and availability of care and outcomes vary without justification between socioeconomic groups and regions.",
+        "valence": "weakness",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Health care quality",
+          "char_start": 31039,
+          "char_end": 31378,
+          "passage_sha256": "f49728b26936b1efab12cf979de02fdc6c8f5d1601a95784c85278c3ba6cfc80",
+          "page": 15
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-problems-009",
+        "statement": "Demand for voluntary insurance may reflect long waits for public care; because people with such insurance get care faster on average but are unlikely to have greater medical needs, this sits uneasily with the legal principle of care on equal terms and according to need.",
+        "valence": "weakness",
+        "source_id": "hit-swe-2023",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "char_start": 218139,
+          "char_end": 218705,
+          "passage_sha256": "a19b11b36ca4a1bf27b168179b30ea08de76f7246bb625c25ee125a6b9b2460a",
+          "page": 112
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-problems-010",
+        "statement": "The 2015 Patient Act's nationwide free choice of primary and outpatient specialist care had unexpected effects: new private digital care providers and higher spending.",
+        "valence": "weakness",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "char_start": 22999,
+          "char_end": 23237,
+          "passage_sha256": "b65f1f588bc81565d30123af1f01e42f796c71464a595d2ee2d40feaa71bf0ed",
+          "page": 12
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-problems-011",
+        "statement": "Hospital technical efficiency is weaker than in other countries, partly because nurse specialists are hard to recruit and keep, and hospital productivity is slightly below Denmark, Norway and Finland.",
+        "valence": "weakness",
+        "source_id": "hss-swe-2024",
+        "locator": {
+          "section": "Health system efficiency",
+          "char_start": 37220,
+          "char_end": 37772,
+          "passage_sha256": "9f364f5a981cf2004d58ada43d36e5f6260c07c72b61f120be665c0ce13f4a11",
+          "page": 18
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "reforms": [
+      {
+        "id": "SWE-reforms-001",
+        "statement": "In 2018 Sweden began a major reform, Good quality, local health care (God och nära vård), backed by substantial state funding, to move care from hospitals to accessible, person-centred local care through closer work between primary care, outpatient specialist services and municipal care.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 47522,
+          "char_end": 47988,
+          "passage_sha256": "5649e2bba1d2dff57dc4947438fddeb99446d8a80ee149936e72b201a20b848f",
+          "page": 8
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-reforms-002",
+        "statement": "The 2025 state budget gave SEK 3.7 billion to primary and local specialist care under God och nära vård, SEK 1 billion to cut surgical waiting lists and another SEK 1 billion shared among the regions according to performance indicators.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "4 The health system",
+          "char_start": 59231,
+          "char_end": 59505,
+          "passage_sha256": "eced78f866754678b27f5e4fcde0a2d1e53dbeec70f532dd7105ae8e0abaa041",
+          "page": 10
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SWE-reforms-003",
+        "statement": "A 2024 government inquiry proposed one-off, performance-based state payments, shorter time limits and earlier referral to other regions to strengthen the care guarantee; on that basis the National Board of Health and Welfare was told to distribute SEK 497 million in 2025, linked to extra hip replacements, pelvic organ prolapse repairs and cataract operations.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 103231,
+          "char_end": 103717,
+          "passage_sha256": "790c8c753cd26fcf162d8e36e18621f0dc314a9cc99288decc6fdfa8e1770cf6",
+          "page": 16
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SWE-reforms-004",
+        "statement": "The government committee on responsibility for health care (Vårdansvarskommittén), asked to prepare a full or partial state takeover of health care, did not propose a takeover but more state steering of workforce supply, medicines, vaccination, screening, forensic psychiatry and air ambulances.",
+        "valence": "neutral",
+        "source_id": "gov-sou-2025-62",
+        "locator": {
+          "section": "Press release, 2 June 2025",
+          "char_start": 1279,
+          "char_end": 2175,
+          "passage_sha256": "3d6c38b2c7a7df28972aa1593169773b3f16489bba323dd6607fb2bda9daf329"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SWE-reforms-005",
+        "statement": "In August 2026 the government appointed an inquiry to propose national principles for which health services must be available throughout Sweden.",
+        "valence": "neutral",
+        "source_id": "gov-principer-2026",
+        "locator": {
+          "section": "Press release, first paragraph",
+          "char_start": 193,
+          "char_end": 388,
+          "passage_sha256": "893ebc7af44fc52139552b309ca8e5328d3241f1d820538de69c818c70140bed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-reforms-006",
+        "statement": "Because the current law stresses the regions' duty to provide care more than the patient's right to receive it, the inquiry must also propose a stronger care guarantee; its final report is due by 15 February 2028.",
+        "valence": "neutral",
+        "source_id": "gov-principer-2026",
+        "locator": {
+          "section": "Press release",
+          "char_start": 2283,
+          "char_end": 3037,
+          "passage_sha256": "9d8d45f57d91ca0855a571c2ddf466cb985f3b01deb650168e4967569afab8c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-reforms-007",
+        "statement": "The first stage of a dental reform, planned to start on 1 January 2026, strengthens high-cost protection for people aged 67 and over; to pay for it the age limit for free child and youth dental care was cut from 23 to 19 and for state dental support from 24 to 20, and the government plans about SEK 3.4 billion a year from 2026.",
+        "valence": "neutral",
+        "source_id": "gov-tandvard-67",
+        "locator": {
+          "section": "Article, 15 May 2025",
+          "char_start": 965,
+          "char_end": 1635,
+          "passage_sha256": "ceddd6139f76ed78414f880d7b5cea8d12b08cec0336ebcf81d791b9bacbc9c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-reforms-008",
+        "statement": "The government's change to the medicine high-cost protection thresholds is expected to cut public spending on retail medicines by about SEK 2 billion a year from 2026.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "Box 3",
+          "char_start": 132790,
+          "char_end": 133001,
+          "passage_sha256": "5eb9ccd735c505cc1ead5671f954bc85bffd43ad17c262974456b49d1d66dfa1",
+          "page": 20
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SWE-reforms-009",
+        "statement": "A 2021 reform of medical education replaced the internship with a six-year programme leading directly to a licence, followed by a year of basic training (Bastjänstgöring) and then residency of at least five years.",
+        "valence": "neutral",
+        "source_id": "chp-swe-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "char_start": 104112,
+          "char_end": 104428,
+          "passage_sha256": "639ec774a668f37f691d54d7e81e31b238046474973257701e40283cfadf915a",
+          "page": 16
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      },
+      {
+        "id": "SWE-reforms-010",
+        "statement": "The 2018 Care Coordination Act set a three-day limit for moving patients ready for discharge out of hospital, requires hospitals to notify primary and social care earlier, and fines municipalities that do not meet the requirements (Commonwealth Fund).",
+        "valence": "neutral",
+        "source_id": "cwf-swe",
+        "locator": {
+          "section": "Integration and Care Coordination",
+          "char_start": 9570,
+          "char_end": 10039,
+          "passage_sha256": "8e37c482a5a8969af58ec9be937bd728622bdc958e436118b644e45b902a9d3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "SWE-us_lessons-001",
+        "statement": "A 2024 narrative review comparing private health insurance in the United States and Sweden concluded that the US might benefit from wider access to public health insurance, particularly when families face unemployment.",
+        "valence": "neutral",
+        "source_id": "pruthi-phi-2024",
+        "locator": {
+          "section": "Abstract: Conclusion",
+          "char_start": 3097,
+          "char_end": 3247,
+          "passage_sha256": "cea3c03343084ca939c24c13e0b100d6b1b4d5304f415e22aa1770f8c609888d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass, two rounds)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/SWE.json",
+  "sources": [
+    {
+      "id": "chp-swe-2025",
+      "title": "State of Health in the EU: Sweden, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-sweden-final-web.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hss-swe-2024",
+      "title": "Sweden: Health System Summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Janlöv N, Merkur S",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/sweden-health-system-summary-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/be479527-85c6-4d6f-aa84-7ac9ef967104/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hit-swe-2023",
+      "title": "Sweden: Health System Review 2023 (Health Systems in Transition 25(3))",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Janlöv N, Blume S, Glenngård AH, Hanspers K, Anell A, Merkur S",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://eurohealthobservatory.who.int/publications/i/sweden-health-system-review-2023",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/d23c3dc0-a357-4c59-9bca-07a7ca0a2e08/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-swe",
+      "title": "International Health Care System Profiles: Sweden (2026 country profile)",
+      "publisher": "Commonwealth Fund",
+      "tier": 3,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/sweden",
+      "funding_note": "Written by FT Longitude for the Commonwealth Fund; reflects data as of February 2026.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-mm-2024-report",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (report)",
+      "publisher": "Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "scb-kommunalskatt-2026",
+      "title": "Kommunalskatterna 2026: Den totala kommunala skattesatsen minskar med 3 öre (statistical news, 15 December 2025)",
+      "publisher": "Statistics Sweden (SCB)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/offentlig-ekonomi/finanser-for-den-kommunala-sektorn/kommunalskatterna/pong/statistiknyhet/kommunalskatterna-2026/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "skv-halsoochsjukvard",
+      "title": "Hälso- och sjukvård för privatpersoner (taxation of employer-paid health care and health insurance)",
+      "publisher": "Swedish Tax Agency (Skatteverket)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://skatteverket.se/privat/skatter/arbeteochinkomst/formaner/halsoochsjukvard.4.7459477810df5bccdd4800014609.html",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gov-tandvard-67",
+      "title": "Största tandvårdsreformen på över 20 år (article, 15 May 2025)",
+      "publisher": "Government Offices of Sweden (Regeringskansliet)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.regeringen.se/regeringens-politik/sjukvard/storsta-tandvardsreformen-pa-over-20-ar/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gov-tandvard-faq",
+      "title": "Frågor och svar om Ett förstärkt högkostnadsskydd för tandvård (4 December 2025)",
+      "publisher": "Government Offices of Sweden (Regeringskansliet)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://regeringen.se/regeringens-politik/sjukvard/fragor-och-svar-om-ett-forstarkt-hogkostnadsskydd-for-tandvard/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gov-sou-2025-62",
+      "title": "Staten föreslås ta större ansvar för vården (press release on SOU 2025:62, 2 June 2025)",
+      "publisher": "Government Offices of Sweden (Regeringskansliet)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.regeringen.se/pressmeddelanden/2025/06/staten-foreslas-ta-storre-ansvar-for-varden/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gov-principer-2026",
+      "title": "Nationella principer för utbud av hälso- och sjukvård i hela landet (press release, 14 August 2026)",
+      "publisher": "Government Offices of Sweden (Regeringskansliet)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/08/nationella-principer-for-utbud-av-halso--och-sjukvard-i-hela-landet/",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "kfm-skulder-2026",
+      "title": "Betalningsproblem och skulder hos Kronofogden 2026",
+      "publisher": "Swedish Enforcement Authority (Kronofogden)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://kronofogden.se/download/18.2078569c19e2a758853170bc/1779953562512/Betalningsproblem%20och%20skulder%20hos%20Kronofogden%202026.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "lifetime-exp-2023",
+      "title": "Lifetime healthcare expenditures across socioeconomic groups in Sweden",
+      "publisher": "European Journal of Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1093/eurpub/ckad136",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10710355",
+      "license": "CC BY",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "mammo-fee-2021",
+      "title": "Change in mammography screening attendance after removing the out-of-pocket fee: a population-based study in Sweden (2014-2018)",
+      "publisher": "Cancer Causes & Control",
+      "authors": "Lagerlund M, Åkesson A, Zackrisson S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1007/s10552-021-01476-4",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8492563",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "pruthi-phi-2024",
+      "title": "Private health insurance in the United States and Sweden: A comparative review",
+      "publisher": "Health Science Reports",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1002/hsr2.1979",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10940498",
+      "license": "CC BY",
+      "funding_note": "Narrative literature review (searches May 2022); not a systematic review.",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 10,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 7,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created: 95 claims from 17 sources, anchored and support-reviewed in two separate cold passes; 21 statements reworded or re-anchored in review (details from outside the passage, missing or unsupported years, overstatement, scope), 1 dropped."
+    }
+  ]
+}

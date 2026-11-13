@@ -3,7 +3,7 @@
   "name": "Israel",
   "wave": 2,
   "system_as_of": "2026-11-13",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "social_health_insurance",
     "label": "National Health Insurance: an earmarked income-related health tax plus general taxes, pooled by the National Insurance Institute and paid by risk-adjusted capitation to four competing non-profit health plans that both insure and deliver care; entitlement rests on residence, not on paying the tax"
@@ -73,7 +73,7 @@
       },
       {
         "id": "ISR-overview-004",
-        "statement": "Specialist care is mostly delivered by self-employed doctors in community clinics, while hospitals mainly provide imaging, inpatient and emergency care, reflecting a long-standing government policy of shifting care out of hospitals (2024 review).",
+        "statement": "Israel has comparatively few hospital beds per head, reflecting a long-standing government strategy of shifting care to community settings; most specialist outpatient care is provided outside hospitals, which serve mainly as providers of imaging, inpatient and emergency care (2024 review).",
         "valence": "neutral",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -168,15 +168,15 @@
       },
       {
         "id": "ISR-financing-004",
-        "statement": "In 2024, by the Central Bureau of Statistics national health expenditure accounts, 41.9% of health spending was funded from the state budget, 23% from the health tax, 33.7% from private sources and 1.4% from foreign donations.",
+        "statement": "In 2024 national health expenditure was funded 41.9% by government, 23% by the health tax, 33.7% from private sources and 1.4% from foreign donations (national health expenditure figures in the Taub Center's 2025 chapter).",
         "valence": "neutral",
         "source_id": "taub-snr-2025-health",
         "locator": {
           "section": "Full text",
           "page": 5,
-          "char_start": 9494,
+          "char_start": 9002,
           "char_end": 9754,
-          "passage_sha256": "e2baf99536414b3739aeb680852032a5c14dfb2506d5a1b45f37edb6b0ccc82f"
+          "passage_sha256": "f556a3cff33fa418a82baf977b2dcea09c4d0031d18ff3ab94ac319bef063980"
         },
         "verification": {
           "passage_found": "pass",
@@ -225,15 +225,15 @@
       },
       {
         "id": "ISR-financing-007",
-        "statement": "Out-of-pocket payments fell from 29.5% of health spending in 2000 to 19.8% in 2021, close to the EU share (18.7%) but above the average for high-income countries in the WHO European Region (17.1%).",
+        "statement": "Out-of-pocket payments fell from 29.5% of health spending in 2000 to 19.8% in 2021, similar to the EU share (18.7%) but still above the share in high-income countries (17.1%).",
         "valence": "neutral",
         "source_id": "hsia-isr-2024",
         "locator": {
           "section": "Full text",
           "page": 9,
-          "char_start": 18379,
+          "char_start": 18238,
           "char_end": 18606,
-          "passage_sha256": "be45aadf08791e48e56a561507e68db99cd7215d0c3593c2ee6576599ae3967b"
+          "passage_sha256": "abfc16448fe358feb6152e75b477efab7c7c9b50af36b250f1fa79c15b29e67b"
         },
         "verification": {
           "passage_found": "pass",
@@ -358,7 +358,7 @@
       },
       {
         "id": "ISR-covered-006",
-        "statement": "The Ministry of Health can cover undocumented migrants' children and other children without a visa, with the same benefits as insured children, if their parents pay ILS 120 a month per child for up to two children; further children are covered free.",
+        "statement": "The Ministry of Health can cover the children of undocumented migrants and children without a visa if their parents pay ILS 120 (about EUR 30) a month per child for the first two children; further children are covered free.",
         "valence": "neutral",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -396,7 +396,7 @@
     "cost_sharing": [
       {
         "id": "ISR-cost_sharing-001",
-        "statement": "Primary care visits (to GPs, paediatricians, gynaecologists and internal medicine specialists) cost nothing at the point of use, nor does hospital inpatient care; specialist visits carry fixed co-payments and medicines carry percentage co-payments of 15% of retail price for patented drugs and 10% for generics.",
+        "statement": "Primary care visits (to GPs, paediatricians, gynaecologists and internal medicine specialists) cost nothing at the point of use, nor does inpatient care; specialist visits carry fixed co-payments, and some medicines carry percentage co-payments of 15% of retail price for patented drugs and 10% for generics.",
         "valence": "neutral",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -490,7 +490,7 @@
       },
       {
         "id": "ISR-cost_sharing-006",
-        "statement": "The WHO review finds co-payment design weak: medicines carry percentage rather than fixed charges, the only income-based exemption is for specialist visit co-payments, and no cap covers all co-payments.",
+        "statement": "The WHO review notes that co-payments for outpatient prescribed medicines take the form of percentages, that the only income-based exemption applies to specialist visit co-payments, and that no cap covers all co-payments.",
         "valence": "weakness",
         "source_id": "who-fp-isr-2024",
         "locator": {
@@ -511,15 +511,15 @@
     "financial_hardship": [
       {
         "id": "ISR-financial_hardship-001",
-        "statement": "In 2022 catastrophic health spending was concentrated among poorer households: it affected 15% of households in the poorest consumption quintile and was above the national average among households headed by ultra-orthodox Jews (10%), older people (9%) and Arabs (7%).",
+        "statement": "The WHO review's 2022 findings show catastrophic health spending concentrated in low-income households: its incidence was above the national average in the poorest consumption quintile (15%) and in households headed by ultra-orthodox Jews (10%), older people (9%) or Arabs (7%).",
         "valence": "weakness",
         "source_id": "who-fp-isr-2024",
         "locator": {
           "section": "Full text",
           "page": 15,
-          "char_start": 19607,
+          "char_start": 19445,
           "char_end": 19914,
-          "passage_sha256": "07d6acbbdf5c2e4fbfa7fb93bff7e0a014530e907f4a042f9c6ceff58010727b"
+          "passage_sha256": "239d692e2c3f879910986dabe542ad604e740cabd20151007d969063ccafc6d1"
         },
         "verification": {
           "passage_found": "pass",
@@ -544,8 +544,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-13"
-        },
-        "data_year": 2022
+        }
       }
     ],
     "additional_care": [
@@ -570,7 +569,7 @@
       },
       {
         "id": "ISR-additional_care-002",
-        "statement": "Voluntary insurance sold by the health plans is regulated by the Ministry of Health and must accept all applicants, cover for life and vary premiums only by age; commercial policies are regulated more loosely by the Ministry of Finance and insurers may refuse applicants, price other policies by risk and end contracts.",
+        "statement": "Voluntary insurance sold by the health plans is regulated by the Ministry of Health and must accept all applicants, cover for life and vary premiums only by age; commercial policies are regulated more loosely by the Ministry of Finance: insurers must offer uniform surgical policies by age and gender but may refuse applicants, price other policies by risk and end contracts.",
         "valence": "neutral",
         "source_id": "who-fp-isr-2024",
         "locator": {
@@ -608,14 +607,14 @@
       },
       {
         "id": "ISR-additional_care-004",
-        "statement": "In national surveys in 2012 and 2022, about 83% of adults owned voluntary health insurance, but Arabs, residents of peripheral areas and people in the lowest income quintile were less likely to own it.",
+        "statement": "In national surveys of adults aged 22 and over in 2012 and 2022, ownership of voluntary health insurance stayed around 83%, but Arabs, residents of peripheral areas and people in the lowest income quintile were less likely to own it.",
         "valence": "weakness",
         "source_id": "ijhpr-waitzberg-vhi-2026",
         "locator": {
           "section": "Full text",
-          "char_start": 3028,
+          "char_start": 2517,
           "char_end": 3258,
-          "passage_sha256": "013ccd03dc615d6a905a0bc9a1810a1f410dfece869144ec57265422f316a17b"
+          "passage_sha256": "f2275a18aa45ca3336216f5c5e181ab5cf962c8af5b13879aa66cfc2e27609fb"
         },
         "verification": {
           "passage_found": "pass",
@@ -626,7 +625,7 @@
       },
       {
         "id": "ISR-additional_care-005",
-        "statement": "Self-reported use of voluntary insurance fell from 76% of owners in 2012 to 66% in 2022; specialist visits were the only service type whose use rose (from 20% to 28%).",
+        "statement": "Self-reported use of voluntary health insurance was 66% in 2022, down from 76% in 2012; specialist visits were the only service type whose use rose (from 20% to 28%).",
         "valence": "neutral",
         "source_id": "ijhpr-waitzberg-vhi-2026",
         "locator": {
@@ -665,15 +664,15 @@
       },
       {
         "id": "ISR-access-002",
-        "statement": "Ministry of Health data show average community waits of about 50 days for endocrinology and neurology appointments, the longest among the specialties tracked, against about 20 days for orthopaedics and gynaecology (data to the first quarter of 2024).",
+        "statement": "Average community waiting times for specialist consultations rose in most specialties up to 2023 and fell slightly between 2023 and 2024; endocrinology and neurology had the longest waits (about 50 days) and orthopaedics and gynaecology the shortest (about 20 days).",
         "valence": "weakness",
         "source_id": "taub-health-2024",
         "locator": {
           "section": "Full text",
           "page": 15,
-          "char_start": 28798,
+          "char_start": 28411,
           "char_end": 29018,
-          "passage_sha256": "e4998123e7ff3bed6e1bfa0afb1992ecba8c0b69d08c7897d41ece45338ac16b"
+          "passage_sha256": "4d4a0e9c7cb2d74f4ba6343f3e91e7241a5462e9dbebaa478029ed1a8d88395f"
         },
         "verification": {
           "passage_found": "pass",
@@ -684,7 +683,7 @@
       },
       {
         "id": "ISR-access-003",
-        "statement": "In 2021 half of adults who went without publicly funded care because of waiting times got the care privately instead, a rate that was especially high among Arabs, higher earners and holders of voluntary insurance.",
+        "statement": "In 2021 half of people who reported forgoing care because of waiting times got it privately instead, a rate that was especially high among Arabs, people with higher incomes and holders of voluntary health insurance.",
         "valence": "weakness",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -760,7 +759,7 @@
       },
       {
         "id": "ISR-access-007",
-        "statement": "General hospital beds rose in number from 15,497 in 2015 to 16,948 in 2023 but fell per head, from 1.85 to 1.76 per 1,000 people, against an OECD average of 3.18 in 2023; psychiatric beds were 0.37 per 1,000 against an OECD average of 0.7.",
+        "statement": "General hospital beds (excluding psychiatric beds) rose in number from 15,497 in 2015 to 16,948 in 2023 but fell per head, from 1.85 to 1.76 per 1,000 people, against an OECD average of 3.18 in 2023.",
         "valence": "weakness",
         "source_id": "taub-snr-2025-health",
         "locator": {
@@ -779,15 +778,15 @@
       },
       {
         "id": "ISR-access-008",
-        "statement": "Over 2021-2023 the national average was 5.4 employed nurses per 1,000 residents, with Tel Aviv (7.7) and Haifa (6.9) above it and the South (4.5), Jerusalem (4.8), Central (4.9) and Northern (5.2) districts below.",
+        "statement": "Over 2021-2023 the Southern, Northern and Jerusalem districts had fewer employed physicians per 1,000 residents than the national average; employed nurses averaged 5.4 per 1,000 nationally, with Tel Aviv (7.7) and Haifa (6.9) above and the South (4.5), Jerusalem (4.8), Central (4.9) and Northern (5.2) districts below.",
         "valence": "weakness",
         "source_id": "taub-snr-2025-health",
         "locator": {
           "section": "Full text",
           "page": 28,
-          "char_start": 51464,
+          "char_start": 51222,
           "char_end": 51726,
-          "passage_sha256": "e8c475d83af9a6d61472061f4d55c7c694d69d33434f3ec6ba8e97cdb2d0689d"
+          "passage_sha256": "db53b9d6cf5de53451817763db9726ca3af50b10b05fdbd04b8a9f20c576ce3d"
         },
         "verification": {
           "passage_found": "pass",
@@ -798,15 +797,15 @@
       },
       {
         "id": "ISR-access-009",
-        "statement": "A Ministry of Health planning analysis found that 39% of cancer patients in the Southern District travel far from home for treatment, against 18% in the Haifa District and 12% in the Northern District.",
+        "statement": "A Ministry of Health analysis carried out within its National Health Infrastructure Planning Program found that 80% of cancer infusion treatments were given in just eight hospitals, and that 39% of patients in the Southern District travel far from home for treatment, against 18% in the Haifa District and 12% in the Northern District.",
         "valence": "weakness",
         "source_id": "taub-snr-2025-health",
         "locator": {
           "section": "Full text",
           "page": 26,
-          "char_start": 47728,
+          "char_start": 47105,
           "char_end": 48005,
-          "passage_sha256": "e86c2da24a2df05fb767db652a53bda0106692215855fb8d3ac6c0a41a18ccb0"
+          "passage_sha256": "62fc10c4222aec67bddb69e6a8b5f31e8c0109206b3bdd0a3bafc327d44c8ca9"
         },
         "verification": {
           "passage_found": "pass",
@@ -814,12 +813,31 @@
           "checked_on": "2026-11-13"
         },
         "data_year": 2025
+      },
+      {
+        "id": "ISR-access-010",
+        "statement": "Psychiatric beds have kept declining per head and stood at 0.37 per 1,000 people in 2023, against an OECD average of 0.7 that year.",
+        "valence": "weakness",
+        "source_id": "taub-snr-2025-health",
+        "locator": {
+          "section": "Full text",
+          "page": 22,
+          "char_start": 40409,
+          "char_end": 40599,
+          "passage_sha256": "5cc70beb2f18affca10c99292476f99e9b8c7d067d342f180ab142736fc0418c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
       }
     ],
     "outcomes": [
       {
         "id": "ISR-outcomes-001",
-        "statement": "OECD data for 2023 put life expectancy at birth in Israel at 83.8 years (85.7 for women, 81.7 for men), fourth among OECD countries after Switzerland, Japan and Spain.",
+        "statement": "In 2023 life expectancy at birth in Israel was 83.8 years (85.7 for women, 81.7 for men), fourth among OECD countries after Switzerland (84.3), Japan (84.1) and Spain (84.0).",
         "valence": "neutral",
         "source_id": "taub-snr-2025-health",
         "locator": {
@@ -857,15 +875,15 @@
       },
       {
         "id": "ISR-outcomes-003",
-        "statement": "Infant mortality was 1.9 per 1,000 live births among Jews and others and 5.2 among Arabs, and twice the Arab rate among Bedouins.",
+        "statement": "In 2023 the death rate was 4.1 per 1,000 among Jews and others and 5.1 among Arabs (excluding war casualties); infant mortality was 1.9 per 1,000 live births among Jews and others, 5.2 among Arabs and twice that among Bedouins.",
         "valence": "weakness",
         "source_id": "taub-snr-2025-health",
         "locator": {
           "section": "Full text",
           "page": 24,
-          "char_start": 43230,
+          "char_start": 43081,
           "char_end": 43384,
-          "passage_sha256": "e5acdd8d11041d1adccfeb208939bfc24159115ba4b998297e324217a8019e01"
+          "passage_sha256": "f609423b909a0392af6d568546bcf36a00ed9cf70c5b751014d9faeb87c03dec"
         },
         "verification": {
           "passage_found": "pass",
@@ -1029,15 +1047,15 @@
       },
       {
         "id": "ISR-costs-004",
-        "statement": "In 2023 the public share of current national health spending (including the health tax) was low by OECD standards: only Mexico, Chile, Greece, Portugal and South Korea had lower shares.",
+        "statement": "In an OECD comparison for 2023, Israel's public share of current national health spending (including the health tax) was low: only Mexico, Chile, Greece, Portugal and South Korea had lower shares.",
         "valence": "weakness",
         "source_id": "taub-health-2024",
         "locator": {
           "section": "Full text",
           "page": 5,
           "char_start": 7288,
-          "char_end": 7527,
-          "passage_sha256": "9765e9f64d5e964ab46804dead4aea6d941b446e20a5129844b7974cec6f5470"
+          "char_end": 7719,
+          "passage_sha256": "04e5a6b69c942a0eb8eff09760ed444281caa8e525f5d4ac3c5ebe1356c6514b"
         },
         "verification": {
           "passage_found": "pass",
@@ -1087,7 +1105,7 @@
     "what_works": [
       {
         "id": "ISR-what_works-001",
-        "statement": "Despite low health spending per person and as a share of GDP, Israel outperforms the OECD average on 81% of the OECD's health status indicators, 78% of its risk factor indicators, 59% of quality of care indicators and 67% of access indicators, per OECD figures cited in the 2024 review.",
+        "statement": "Despite low health spending per person and as a share of GDP, Israel does better than the OECD average on 81% of health status measures, 78% of risk factor measures, 59% of care quality measures and 67% of access measures, according to OECD figures cited in the 2024 review.",
         "valence": "strength",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -1098,10 +1116,9 @@
           "passage_sha256": "76edc39f343a90760a8e4be7ce79478f2869f83f50908b4f340eb5ef517f80e8"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-13",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-13"
         }
       },
       {
@@ -1125,7 +1142,7 @@
       },
       {
         "id": "ISR-what_works-003",
-        "statement": "In 2021, 66% of people aged 22 and over looked at their own health records online, 55% contacted their plan or doctor through its website or app, and 44% consulted their doctor by video or chat.",
+        "statement": "In 2021, 66% of people aged 22 and over accessed their own health records, 55% contacted their health plan or doctor through the plan's website or app, and 44% communicated with their doctor by video call or chat.",
         "valence": "strength",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -1163,7 +1180,7 @@
       },
       {
         "id": "ISR-what_works-005",
-        "statement": "Israel's low COVID-19 mortality is attributed mainly to its rapid rollout of the first three vaccine doses, which reached a large share of the population very fast, partly by building on the health plans' primary care networks.",
+        "statement": "The 2024 review names the rapid rollout of the first three COVID-19 vaccine doses as one of the main reasons for Israel's low pandemic mortality; a high share of the population was vaccinated in record time, partly because the rollout built on the health plans' primary care foundations.",
         "valence": "strength",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -1182,14 +1199,14 @@
       },
       {
         "id": "ISR-what_works-006",
-        "statement": "Among insured residents with mental health contact, community mental health visits rose fourfold and hospital outpatient psychiatric visits 3.3-fold after the 2015 transfer of mental health care to the health plans, with an adjusted 16% rise in service use over 2012-2019; emergency visits without admission also rose 40%.",
+        "statement": "Using all four health plans' records for 2012-2019 on residents with any mental health diagnosis, service contact or psychotropic prescription (31% of the population), a study found that after the reform community mental health visits rose fourfold and hospital outpatient visits 3.3-fold; emergency visits without admission rose 40% while admission rates stayed stable, and adjusted models showed a 16% rise in service use.",
         "valence": "strength",
         "source_id": "apmh-mh-reform-2026",
         "locator": {
           "section": "Full text",
-          "char_start": 2105,
+          "char_start": 1341,
           "char_end": 2612,
-          "passage_sha256": "08a42bce6f8440ddca92b0a2002fbf2ce629f8526ea528a3c8984aed1dfeae7f"
+          "passage_sha256": "3864f2488716282947fd6e34e32a5c14a676acc41ad95649475940e4eb828c11"
         },
         "verification": {
           "passage_found": "pass",
@@ -1200,7 +1217,7 @@
       },
       {
         "id": "ISR-what_works-007",
-        "statement": "In a 2025 comparison of five high-income systems, Israel had the highest life expectancy (82.6 years) and the lowest infant mortality (2.8 per 1,000) of the five, while spending 7.4% of GDP on health in 2022 against an OECD average of 9.2%.",
+        "statement": "In a 2025 comparative analysis, Israel had the highest life expectancy at birth (82.6 years) and the lowest infant mortality (2.8 per 1,000 live births) of the countries analysed, and in 2022 it spent 7.4% of GDP on health against an OECD average of 9.2%.",
         "valence": "strength",
         "source_id": "ijhpr-sigawi-2025",
         "locator": {
@@ -1218,15 +1235,15 @@
       },
       {
         "id": "ISR-what_works-008",
-        "statement": "After the February 2024 patient choice reform, travel distance to hospitals improved for Clalit and Meuhedet members; Clalit members in the periphery went from travelling about 11.3 km more than Maccabi members to 1.6 km more.",
+        "statement": "After the February 2024 reform of patient choice arrangements, travel distance to hospitals improved for Clalit and Meuhedet members; Clalit members in the periphery went from travelling about 11.3 km more than Maccabi members to 1.6 km more.",
         "valence": "strength",
         "source_id": "taub-snr-2025-health",
         "locator": {
           "section": "Full text",
           "page": 30,
-          "char_start": 55532,
+          "char_start": 54604,
           "char_end": 55915,
-          "passage_sha256": "697bb72bc2a223c2aae4d5028ecc45336515abd29dc42a90c93666f900cf1392"
+          "passage_sha256": "b16b7c0a786b7c7c13695634e747c1a0a29694e96e45b65bf7ca19d73a167f2d"
         },
         "verification": {
           "passage_found": "pass",
@@ -1258,7 +1275,7 @@
       },
       {
         "id": "ISR-problems-002",
-        "statement": "Graduates of the foreign medical schools disqualified from 2025 by the Yatziv reform accounted for 51% of doctors working in the Negev and 63% in the Galilee in 2022, so the reform is expected to hit peripheral services hardest (State Ombudsman, 2024).",
+        "statement": "Graduates of universities to be disqualified from 2025 under the Yatziv reform accounted for 51% of the Negev's medical workforce and 63% of the Galilee's in 2022, and the reform is expected to harm health services in the periphery disproportionately (State Ombudsman, 2024).",
         "valence": "weakness",
         "source_id": "taub-health-2024",
         "locator": {
@@ -1328,8 +1345,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-13"
-        },
-        "data_year": "2005-2022"
+        }
       },
       {
         "id": "ISR-problems-006",
@@ -1352,7 +1368,7 @@
       },
       {
         "id": "ISR-problems-007",
-        "statement": "After the 7 October 2023 attacks, demand for outpatient mental health care rose sharply; mental health care is covered, but long waits and high cost-sharing limit access and the understaffed public services struggled with the surge.",
+        "statement": "After the 7 October 2023 attacks, demand for outpatient mental health care rose notably among people directly and indirectly affected; mental health care is covered, but long waits and high cost-sharing are significant barriers, and the understaffed public mental health system struggled to cope with the surge.",
         "valence": "weakness",
         "source_id": "hsia-isr-2024",
         "locator": {
@@ -1390,15 +1406,15 @@
       },
       {
         "id": "ISR-problems-009",
-        "statement": "A 2024 report found that only 66% of children aged 12-13 months had received a first measles vaccine dose (MMR/MMRV) by 13 months at family care centres.",
+        "statement": "Under a national quality indicator introduced in 2015 (one MMR/MMRV measles vaccine dose by 13 months at family care centres), a 2024 report found that only 66% of children aged 12-13 months met the benchmark.",
         "valence": "weakness",
         "source_id": "taub-snr-2025-health",
         "locator": {
           "section": "Full text",
           "page": 35,
-          "char_start": 66230,
+          "char_start": 66062,
           "char_end": 66339,
-          "passage_sha256": "fb4a1d47e7cba6cfd196f6ab8c6efc779dbbe5418d4496d23f6eac28322bee12"
+          "passage_sha256": "17f863922247185719df18013603da62243fd57978ade3ed586f4402bcee93d3"
         },
         "verification": {
           "passage_found": "pass",
@@ -1406,24 +1422,6 @@
           "checked_on": "2026-11-13"
         },
         "data_year": 2024
-      },
-      {
-        "id": "ISR-problems-010",
-        "statement": "In a 2022 national survey, 62% of respondents trusted the system to deliver appropriate care, but only 42% were confident their treatment costs would be covered.",
-        "valence": "weakness",
-        "source_id": "ijhpr-sigawi-2025",
-        "locator": {
-          "section": "Full text",
-          "char_start": 13350,
-          "char_end": 13543,
-          "passage_sha256": "8a0fb6221401b788e67f72c7b0d4ed03d70270c18998d363486da80122ced445"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-13"
-        },
-        "data_year": 2022
       }
     ],
     "reforms": [
@@ -1543,7 +1541,7 @@
       },
       {
         "id": "ISR-reforms-007",
-        "statement": "In 2024 physicians signed their first wage agreement in 13 years, with a 9.5% raise for all physicians and extra pay for national-priority fields such as mental health, rehabilitation and forensic medicine.",
+        "statement": "The Taub Center's 2024 report records a new physicians' wage agreement, the first in 13 years, with a 9.5% raise for all physicians and higher pay for national-priority fields such as mental health, rehabilitation and forensic medicine.",
         "valence": "neutral",
         "source_id": "taub-health-2024",
         "locator": {
@@ -1557,8 +1555,7 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-13"
-        },
-        "data_year": 2024
+        }
       },
       {
         "id": "ISR-reforms-008",
@@ -1638,7 +1635,7 @@
       },
       {
         "id": "ISR-reforms-012",
-        "statement": "Free preventive and restorative dental care for children was extended step by step and reached all children under 18 in January 2019.",
+        "statement": "In January 2019 free preventive and restorative dental care for children under 18 was added to the National Health Insurance benefits package.",
         "valence": "neutral",
         "source_id": "who-fp-isr-2024",
         "locator": {
@@ -1698,7 +1695,7 @@
     "us_lessons": [
       {
         "id": "ISR-us_lessons-001",
-        "statement": "A 2025 five-country comparison concludes that higher spending does not guarantee quality: the US spends far more yet has lower life expectancy and higher avoidable mortality than Israel and the Netherlands, whose experience suggests strong results are possible at lower cost when systems are well organised.",
+        "statement": "A 2025 comparative analysis concludes that spending alone is not enough: the US spends a disproportionately high share of GDP yet has lower life expectancy and higher avoidable mortality than Israel and the Netherlands, which spend significantly less, and their experience suggests strong performance is possible at lower cost when systems are well organised and responsive to population needs.",
         "valence": "neutral",
         "source_id": "ijhpr-sigawi-2025",
         "locator": {

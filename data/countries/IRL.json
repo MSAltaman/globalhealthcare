@@ -1,0 +1,1735 @@
+{
+  "iso3": "IRL",
+  "name": "Ireland",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "draft",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health service run by the Health Service Executive: public hospital care is free to all residents, but free GP care depends on income or age (medical card, GP visit card), and nearly half the population buys community-rated private insurance, mainly for faster hospital access"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "IRL-overview-001",
+      "IRL-overview-004"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "IRL-overview-001",
+        "statement": "Every resident of Ireland is entitled to publicly funded health services, in full or in part; how much is covered depends mainly on the person's income and age (2025 profile).",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 47236,
+          "char_end": 47405,
+          "passage_sha256": "84b86fdc0a72f6cb247a9a15242d7e49a7a2f187d608bd9867699139f8cb904d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-overview-002",
+        "statement": "Ireland's national health service is funded mainly from general taxation, which paid for 77% of total health spending in 2023; the Department of Health sets policy and oversees performance, and the Health Service Executive (HSE) manages and delivers publicly funded health and social care.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 45022,
+          "char_end": 45398,
+          "passage_sha256": "c3751e4296b20150ad82bec24ac30da3fff3b36a73e8d8648c7b69eb22ffa712"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-overview-003",
+        "statement": "The HSE runs its own hospitals and community services but also buys care from others: GPs, dentists, pharmacists, allied health professionals, state-funded voluntary hospitals, grant-aided community organisations, private hospitals and home care agencies.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 45399,
+          "char_end": 45897,
+          "passage_sha256": "d906153e5529bfff909d3dcc484e8c42883c44dc35a1cb1ade02b52d9ed04251"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-overview-004",
+        "statement": "Public hospital care became universal in 2023, when user charges for inpatient stays were abolished; primary care, by contrast, is free only for medical cardholders, and there is no universal entitlement to it.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 50564,
+          "char_end": 50873,
+          "passage_sha256": "ac7b68bc520aadfe34f3fd7eb99d8feef229551953d00d7f6ad2dd3113eeb20a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financing": [
+      {
+        "id": "IRL-financing-001",
+        "statement": "In 2024 government schemes financed 78% of current health spending; voluntary schemes, mostly private health insurance, paid 12%, and households paid the remaining 10% directly out of pocket (CSO System of Health Accounts, OECD/Eurostat/WHO SHA definitions, in which 'government' includes compulsory contributory schemes).",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024-fin",
+        "locator": {
+          "section": "More than three-quarters of healthcare expenditure is financed by government",
+          "char_start": 1821,
+          "char_end": 2118,
+          "passage_sha256": "af3bfa51775fe93d3409f686133379227a7f4e8be1d18cb0901988672c514d1a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-002",
+        "statement": "Almost all government health spending in 2024 was funded from general government revenue (that is, general taxation); social insurance contributions such as PRSI covered about 1% of government health spending.",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024-fin",
+        "locator": {
+          "section": "Where do the Financing Schemes source their revenue?",
+          "char_start": 3969,
+          "char_end": 4221,
+          "passage_sha256": "d40bf2dcea2f162946a4616d42487f4c8cecf216870c561d542573411392326d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-003",
+        "statement": "Social insurance contributions financed €223 million of health spending in 2024: €152 million from employers, €61 million from employees and €11 million from the self-employed.",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024-fin",
+        "locator": {
+          "table": "Table 4.2: Current Health Care Expenditure by Revenues of Financing Schemes, 2024 (EUR million)",
+          "char_start": 4984,
+          "char_end": 5179,
+          "passage_sha256": "f744b9a1f7fd47ec1d9f085a55f0c02a03f880c9288178b3e96ea0e5a0a4c4de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-004",
+        "statement": "Voluntary health insurance financed €3,549 million of current health spending in 2024, 10% of the total and 53% more than in 2020 (SHA scheme HF.2.1).",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024-fin",
+        "locator": {
+          "table": "Table 4.1: Current Health Care Expenditure by Financing Scheme, 2020 to 2024; columns: EUR million 2020-2024, % of total 2024, % change 2020-2024",
+          "char_start": 3378,
+          "char_end": 3447,
+          "passage_sha256": "e6023afbed2023ccbd20c60d0d9a85ff3a290ed18779e0cad6f8ec82ed2dba3a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-005",
+        "statement": "Households paid €3,847 million out of pocket for health care in 2024, 29% more than in 2020 (SHA scheme HF.3).",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024-fin",
+        "locator": {
+          "table": "Table 4.1: Current Health Care Expenditure by Financing Scheme, 2020 to 2024; columns: EUR million 2020-2024, % of total 2024, % change 2020-2024",
+          "char_start": 3562,
+          "char_end": 3635,
+          "passage_sha256": "6f7197792ec49cf981e2f28263bc4f545bda3993da5cd2fd2072b721434d1b5c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-006",
+        "statement": "Voluntary private health insurance paid for 12% of total health spending in 2023, almost three times the EU average share of 5%, and the main reason private financing (23%) exceeded the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 53342,
+          "char_end": 53559,
+          "passage_sha256": "c2686aecfa19ca933fb10e656cdc8d1866f515300c04880a5eeeb4b0cdf9d86f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-financing-007",
+        "statement": "Insurers' total premium income from private health insurance reached €3.6 billion in 2024, according to the Health Insurance Authority.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 13255,
+          "char_end": 13349,
+          "passage_sha256": "2b7239d3885a448fc7b9d6d9e2a092220ecef43c44fbf4d22cf5a0a6fd96ddfe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-008",
+        "statement": "The average premium paid by adult members of private health insurance plans was €1,740 as of 1 January 2025, up from €1,594 a year earlier; members pay the premium themselves unless an employer funds it.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 12376,
+          "char_end": 12488,
+          "passage_sha256": "caec2b6794844e19291b979cf5d572c51efa572fd449f71544aa1cec6f77e70b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-financing-009",
+        "statement": "Community rating in the private insurance market is supported by a stamp duty charged on each health insurance contract sold.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 6,
+          "char_start": 2939,
+          "char_end": 3025,
+          "passage_sha256": "91f0532e7e08104f7d25ec49437ff96baba41faea537fe3d8a55a22d731c397e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-financing-010",
+        "statement": "The state subsidises private health insurance through tax relief at source: premiums are reduced by the standard income tax rate (20%) applied to no more than €1,000 of premium per adult and €500 per child, for policies providing medical cover (Revenue guidance, reviewed May 2026).",
+        "valence": "neutral",
+        "source_id": "revenue-tdm-15-01-14",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 4439,
+          "char_end": 4673,
+          "passage_sha256": "39b2f969d56771be44246d0a293de00129190aab0f32f58a1931b641fac4db21"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "IRL-financing-011",
+        "statement": "The 2025 government budget allocated €24.3 billion to health, 6% more than the year before.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 53904,
+          "char_end": 54018,
+          "passage_sha256": "2b1a73898ce6360b18671936301725ecaf6b2cbe17cdbf9725a6572a98859ccf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-financing-012",
+        "statement": "Health took 23% of total government expenditure in 2023, the largest share of any EU country (EU average about 15%).",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 127173,
+          "char_end": 127324,
+          "passage_sha256": "f30ebc671bdb7376949bb3059d741e3686412cf23dbd28ba2c41b72d37fcd2b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "IRL-covered-001",
+        "statement": "14% of people held a GP visit card for free GP care, available to all children under 8, everyone aged 70 and over, and people aged 8-69 below income limits (2025).",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 50050,
+          "char_end": 50287,
+          "passage_sha256": "e1cb34cdc596bcd0112e34809f77689f064c3cd41fc2cf1dc05cfa8ff1f16aa1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-covered-002",
+        "statement": "GPs act as gatekeepers to secondary care; they are mostly private practitioners paid mainly through public schemes, with some income from patients' fees.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 50288,
+          "char_end": 50453,
+          "passage_sha256": "cb89bd160c3e7e894c222bddd74dcd3332d2a9f5f0ace06501f1f4e33ecfef3e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-covered-003",
+        "statement": "Public funding covered 79% of retail pharmaceutical spending in 2023, against an EU average of 59%, through the Drugs Payment Scheme, the Long-Term Illness Scheme and medical cards, which make medicines free or capped for those eligible.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 102740,
+          "char_end": 103131,
+          "passage_sha256": "b2255d1e6a81934981d8e1f1dbf6ddc33647cfebcb7b68d80311327d915e609e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-covered-004",
+        "statement": "Public funds covered only 78% of spending on hospital care in 2023, well below the EU average of 91%.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 94617,
+          "char_end": 94740,
+          "passage_sha256": "89733b3b158d042c64d3b8d03e266a7b77f1c7e35e9f26caf3654b535c1f8dde"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-covered-005",
+        "statement": "Several services have recently been made free at the point of use, among them contraception for people aged 17-35, fertility treatment, specialist menopause clinics and hormone replacement therapy (2025 profile).",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 103861,
+          "char_end": 104110,
+          "passage_sha256": "66bfb5c26f4e7e13061afc5cfc382c8a3dd131338b5f362ded09105e5fcb9188"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-covered-006",
+        "statement": "The Department of Health has begun a long-term review of eligibility and entitlement rules, focused on primary and community care.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 104111,
+          "char_end": 104305,
+          "passage_sha256": "e30c193e22e50b36fe64262783b98f17a02e9392d628f04b97f52261c812b6de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "IRL-cost_sharing-001",
+        "statement": "57% of the population has neither a medical card nor a GP visit card and pays out of pocket for GP and allied health visits, typically €55-75 per GP consultation, among the highest fees in the EU (2025 profile, citing the Health Insurance Authority).",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 93288,
+          "char_end": 93515,
+          "passage_sha256": "1e7822974d23ed81db0ed19419648347b3d235786ed51f1be349068997624f07"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-cost_sharing-002",
+        "statement": "Medical cardholders get medicines for a small prescription charge, and the Drugs Payment Scheme caps any household's spending on medicines at €80 a month; together with insurance top-ups, households paid only 21% of retail medicine spending in 2023, the third-lowest share in the EU (EU average 36%).",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 23,
+          "char_start": 151424,
+          "char_end": 151954,
+          "passage_sha256": "7744bbdfda307715b80a298c17025bf5621f35ed2c0f424e0092620194f7031e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-cost_sharing-003",
+        "statement": "Out-of-pocket payments were 11% of health spending in 2023, below the EU average of 16%.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 53785,
+          "char_end": 53903,
+          "passage_sha256": "0f6eba624db2b6b667cb71f59fd2c98e8f800041b3542653a806e8502509f523"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-cost_sharing-004",
+        "statement": "Nearly 30% of household out-of-pocket spending goes on long-term care and 20% on medicines (EU average for medicines: 26%).",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 105610,
+          "char_end": 105821,
+          "passage_sha256": "6c24bd11cede113ee9b949d3c7978920adcdf9edd289b066ef034f960774d473"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-cost_sharing-005",
+        "statement": "Among adults aged 50 and over in 2016, median out-of-pocket spending on prescription medicines was €144 a year (interquartile range €0-€312).",
+        "valence": "neutral",
+        "source_id": "oop-rx-tilda-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2923,
+          "char_end": 3008,
+          "passage_sha256": "d1a5b8729cd7a6c90d20459f5df0b8032c15b39916a00d2c49c8821ea2fdf5dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2016
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [
+      {
+        "id": "IRL-additional_care-001",
+        "statement": "46% of the population held voluntary private health insurance in 2024, mainly to get faster access to hospital care and to cover part of their out-of-pocket costs.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 46006,
+          "char_end": 46187,
+          "passage_sha256": "b3bae7d0e427f688005769250f22425fec22e653ad54fe816ce525f3cadbab19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-additional_care-002",
+        "statement": "Private policies mainly duplicate public cover to get around access barriers: they typically give quicker access to hospital specialists and private beds, and partly refund services the public system covers little, such as dental care and routine GP visits.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 104894,
+          "char_end": 105263,
+          "passage_sha256": "97a241e6b59bb7c95b3042cb3dd763ce6627d7cc8aff61ccc9e23cbc4b7d7228"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-additional_care-003",
+        "statement": "Private health insurance is community rated: the price depends on the services covered, not on the buyer's medical history, past claims or age, and open enrolment gives everyone the right to buy any plan on the market.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 6,
+          "char_start": 1647,
+          "char_end": 1865,
+          "passage_sha256": "2b7def3b66b21306f9078e84d39a5844c759b40b7923449aec81a5131d8d7406"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-additional_care-004",
+        "statement": "Four commercial insurers sell inpatient private health insurance to the public (Irish Life Health, Laya Healthcare, Level Health and Vhi Healthcare); restricted membership undertakings insure only their own members.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 6,
+          "char_start": 3034,
+          "char_end": 3442,
+          "passage_sha256": "a729e5a054772f1feb0c7c6a6ac05de8eb5bd96abdccfb50beaf6d2ed9079a9b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-additional_care-005",
+        "statement": "2.52 million people had private health insurance at the end of 2024, 1.3% more than a year earlier; the regulator thinks the slowing growth may be due to cost.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 7,
+          "char_start": 3625,
+          "char_end": 3819,
+          "passage_sha256": "009cbf9b1ba97aabe1cf3e8857b92093a05a70914fa5c239248ac90e76214f7e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-additional_care-006",
+        "statement": "Plans increasingly limit what they pay for some procedures: in 2024, 68% of insured people had a plan with restricted cover for joint replacement (75% of under-65s, 36% of those 65 and over).",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 11858,
+          "char_end": 12088,
+          "passage_sha256": "36450ad6bfe90abc799d708fe40013b4108048dc6d864a1f6e7062549b0ddc33"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-additional_care-007",
+        "statement": "Private insurers' payouts are shifting to private hospitals: in 2024 private hospital treatment made up 49% of claims paid, while public hospitals' share fell to 13% from 15% in 2023.",
+        "valence": "neutral",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 14571,
+          "char_end": 14750,
+          "passage_sha256": "98ac8afef6e9c1d9a3e350f38c26ea6ab5d65b2406716d84917a07d320980f03"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "IRL-access-001",
+        "statement": "In 2024, 5% of adults who needed medical care said their need went unmet because of cost, distance or waiting, above the EU average of 3.6% (EU-SILC).",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 92845,
+          "char_end": 93020,
+          "passage_sha256": "a5551dfb1270a3fbaf7363904756a1e26d5e34b1b896bb1834933a7348dad519"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-access-002",
+        "statement": "In a 2024 Eurofound survey, 5% of adults in Ireland reported unmet need for primary care (EU average 3%) and 6% for mental health care (EU average 7%).",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 93552,
+          "char_end": 93840,
+          "passage_sha256": "3ce113000340122c5225b3efb31b4e5b818e2440536c98771a8077eebd4f81a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-access-003",
+        "statement": "GP supply is unevenly spread: GP density varies twofold between counties, leaving rural and disadvantaged urban areas short of GPs.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 94047,
+          "char_end": 94257,
+          "passage_sha256": "2618f6cb1d0e42a69bc0ce9ef952539d60cb269b3f298d7067a538cd31b9e183"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-access-004",
+        "statement": "The number of people on outpatient waiting lists fell by just over 4% between September 2021 and September 2025, mostly because far fewer people were waiting more than one year or 18 months.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 110295,
+          "char_end": 110596,
+          "passage_sha256": "2c3b6fe2e2dfb608e3ef2ad65995bdb55f92025aa0306f90782f4ff07252da3a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-access-005",
+        "statement": "The Waiting List Action Plan, launched in late 2021, targeted long waits and set a goal that 90% of outpatients would wait under 12 months by the end of 2025.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 110702,
+          "char_end": 110936,
+          "passage_sha256": "941719df41a98155d273dc30b294216111ac3d6f1918a3274b0edfc5edaf500e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-access-006",
+        "statement": "In dermatology, ophthalmology, neurology and endocrinology, at least one in five patients on the outpatient list had waited more than a year (2025).",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 111178,
+          "char_end": 111365,
+          "passage_sha256": "9797bef346174b5d1bd46be56732bf1acf3b98cf25e920907860d7f2ac4fbc90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-access-007",
+        "statement": "Waiting times for cataract, hip and knee surgery have not improved substantially since 2019; in 2024 just over half of patients waited longer than the 12-week Sláintecare benchmark.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 123319,
+          "char_end": 123664,
+          "passage_sha256": "c59d1354f79137a6bf074f53a5fb748599aa6e8a907f0f044944da55f63244d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-access-008",
+        "statement": "Because of these delays, getting timely treatment often depends on being able to pay, through private insurance or out of pocket.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 123678,
+          "char_end": 123984,
+          "passage_sha256": "7242b90c5efcd82f82fc0ad28db8ced158ad79ebb166d7baa54d22f89f282945"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-access-009",
+        "statement": "Ireland had 2.9 hospital beds per 1,000 people in 2023, against an EU average of 5.1, and curative bed occupancy has routinely been above 80% (except in 2020), compared with an EU average of 68% in 2023.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 122005,
+          "char_end": 122496,
+          "passage_sha256": "eac3c3f9fed7043479fa2b71db9394d76a3b21901ebcb8fb1b7d15aac7402cbf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-access-010",
+        "statement": "By the industry-run EFPIA W.A.I.T. indicator, centrally authorised medicines took on average 645 days from EU marketing authorisation to reach patients in Ireland in 2024, and by mid-2024 only 31% of medicines approved by the European Commission in 2020-2023 were available in Ireland.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 162387,
+          "char_end": 162956,
+          "passage_sha256": "5ce3cbd6de0abc1f0df3a4381fc7ef8e7a8db8fda84375a10bb0bcdd8a184da3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "IRL-outcomes-001",
+        "statement": "Life expectancy at birth was 82.9 years in 2023, more than a year above the EU average and the eighth highest in the EU.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 13865,
+          "char_end": 14028,
+          "passage_sha256": "58c26bd896cdd4d45f9dd6e430acc0da2f4546d087748f1b7a9b7e6e69dbf9b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-outcomes-002",
+        "statement": "The age-standardised avoidable mortality rate was 203 per 100,000 people in 2022, 21% below the EU average of 258.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 67521,
+          "char_end": 67674,
+          "passage_sha256": "1ba6cd0bb0ed938a3349c14b01f91e98d74e539ae023cf200ef89f592f23bf16"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "IRL-outcomes-003",
+        "statement": "Treatable mortality from stroke was 4.5 per 100,000 in 2022, about half the EU average of 9.2.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 72047,
+          "char_end": 72175,
+          "passage_sha256": "ca040f480e866aab5225fb39519163d0ce1d43b3e77b63afa26c9691af9ce16d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "IRL-outcomes-004",
+        "statement": "In 2023, 5.6 of every 100 people admitted for a heart attack died within 30 days, 9% fewer than the EU average of 6.1; 30-day mortality after ischaemic stroke fell 32% between 2013 and 2023, the second largest fall in the EU.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 86045,
+          "char_end": 86370,
+          "passage_sha256": "16f1f136d05505f2d5f3ae3c6af516d8e4da927d90c6addb53b07c757e811388"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-outcomes-005",
+        "statement": "Five-year cancer survival for 2019-2022 was 66% for colorectal cancer, 25% for lung cancer, 88% for breast cancer and 65% for cervical cancer, each several points higher than a decade earlier.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 81693,
+          "char_end": 82111,
+          "passage_sha256": "3359da0972fc1c9dfaaa7e47273256edbfdf1ba6e435934304a19a1e29ea07ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2019-2022"
+      },
+      {
+        "id": "IRL-outcomes-006",
+        "statement": "Avoidable hospital admissions for COPD and asthma were nearly double the EU average in 2023, while admissions for congestive heart failure were 39% below it and diabetes admissions in line with it.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 82699,
+          "char_end": 82897,
+          "passage_sha256": "0060c9034bdf4c2f02a98f0a749fb0387b110685a6cf505c8f8824c5f50a7b7d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-outcomes-007",
+        "statement": "Breast and cervical cancer screening participation was 15-20 percentage points above the EU average in 2023; colorectal screening reached 48%, in line with the EU average but below the national target of 50%.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 80312,
+          "char_end": 80662,
+          "passage_sha256": "b392b81f8cbbceb9f0ca628b3750a7acd7691b948ca9f287d7ac3245daa04f5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-outcomes-008",
+        "statement": "Measles vaccination coverage fell from 92.3% in 2018 to 89.7% in 2024.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 79444,
+          "char_end": 79603,
+          "passage_sha256": "7e197a77e3959658b25b2cc65fb9cbd1ba115430a48af0e15736bed9d9a56718"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-outcomes-009",
+        "statement": "In the GBD 2019 study, Ireland's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 90.1 (95% uncertainty interval 88.0-91.5) in 2019, 19.7 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 44619,
+          "char_end": 44786,
+          "passage_sha256": "2624978ca7eb20217a5cef8ef0ce84e08806bfd3fbc9c49a3fed730f1d3bf69f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "IRL-costs-001",
+        "statement": "Current health spending was €36.3 billion in 2024, up 9.1% on 2023; that equals 11.3% of modified gross national income (GNI*), compared with an OECD average of 9.3% of GDP.",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024",
+        "locator": {
+          "section": "Key Findings",
+          "char_start": 1324,
+          "char_end": 1614,
+          "passage_sha256": "252f55d55c4f7bf67b78e8468f07abfdec126917ef584a73465de30befcf0af7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-costs-002",
+        "statement": "Measured against GDP, health spending was 6.5% in 2024, but GDP is inflated by multinational activity; against GNI*, which strips out those globalisation effects, it was 11.3%.",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024",
+        "locator": {
+          "section": "Statistician's Comment",
+          "char_start": 3059,
+          "char_end": 3305,
+          "passage_sha256": "870f6112f1f5e8c42751478eac1da48135abb33a9557d6d5e2f294be0557c250"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-costs-003",
+        "statement": "Preliminary estimates put current health spending at €38.8 billion in 2025, 7% more than in 2024.",
+        "valence": "neutral",
+        "source_id": "cso-sha-2024",
+        "locator": {
+          "section": "Key Findings",
+          "char_start": 2429,
+          "char_end": 2546,
+          "passage_sha256": "40cd277143e39c35f9a1cecee4755a7ab8cba93cb6d0dc9b0a8c53cee63d26fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-costs-004",
+        "statement": "Health spending per person was €4,474 in 2023 (adjusted for purchasing power), nearly 17% above the EU average of €3,832.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 51499,
+          "char_end": 51662,
+          "passage_sha256": "76e23cf2e01c1cc54f5b0ae12ded2203f98eb4fe4d0970447edcdeed76cc1e76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-costs-005",
+        "statement": "Inpatient care took 35% of health spending in 2023 (EU 28%) and long-term care 22% (EU 18%).",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 58217,
+          "char_end": 58382,
+          "passage_sha256": "5180eada9c66fdc452d5069799580855624d7a11ed37427ded6082a4ccd465b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-costs-006",
+        "statement": "Pharmaceuticals and medical devices took 12% of health spending in 2023, well below the EU average of 18%.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 58897,
+          "char_end": 59049,
+          "passage_sha256": "f8987cee836c2a615fc50dab7eb1a854ea410dbba15bac0208bd8467496a56bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-costs-007",
+        "statement": "Under its pricing Framework Agreement with the pharmaceutical industry, Ireland obtained a 9% rebate on exclusive patented medicines; the agreement was due for renegotiation in 2025.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 22,
+          "char_start": 148054,
+          "char_end": 148228,
+          "passage_sha256": "9473f74b5f5aade71018caaa6e2dd9e99aad71df269427e8a94523dedb92cafc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "IRL-what_works-001",
+        "statement": "Stroke care performs close to its targets: in 2023, 11% of stroke patients received thrombolysis (target 12%), 11% received thrombectomy, and the median door-to-needle time of 53 minutes beat the 60-minute goal.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 87003,
+          "char_end": 87179,
+          "passage_sha256": "488b3c46cf67b774693b0bbcf8680b90b263254ea2a943c686888fdc86634f8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-what_works-002",
+        "statement": "The profile credits Ireland's National Cancer Control Programme, including concentrating cancer services in eight designated high-volume centres, with contributing to better cancer outcomes.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 82154,
+          "char_end": 82450,
+          "passage_sha256": "20cc861549bb19095803546d368db29b9c353df408d3f1193dfa6f8085334cf1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-what_works-003",
+        "statement": "Pharmaceutical spending was 7% below the EU average in 2023, and cost-containment measures are estimated to have saved about €1.6 billion since 2013.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 7066,
+          "char_end": 7257,
+          "passage_sha256": "9438e3f24e9aaec1c37554a2d0ce5fc1d9404dfe0b8f4ada018739963e15ce6e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-what_works-004",
+        "statement": "Among adults aged 50 and over in 2016 who paid anything for prescriptions, those with fewer public entitlements spent 4.74 times as much out of pocket (95% CI 4.37-5.15), which the authors read as showing the value of entitlements and of making sure eligible people take them up.",
+        "valence": "strength",
+        "source_id": "oop-rx-tilda-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3050,
+          "char_end": 3823,
+          "passage_sha256": "bbf8ca3d83b6dfd66789fa8ee952f154b0ce919c6417a370b170698878965038"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "IRL-what_works-005",
+        "statement": "By 2024, 95% of GPs had signed up to the Chronic Disease Management Programme (Sláintecare Implementation Progress Report 2024).",
+        "valence": "strength",
+        "source_id": "hspm-irl-slaintecare-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2120,
+          "char_end": 2189,
+          "passage_sha256": "f99e03888cc0e150dea45aff8e2ded56863c77c7845f515734abd855ca2fa418"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-what_works-006",
+        "statement": "The public health workforce doubled, from about 250 full-time equivalents in 2019 to about 500 in 2024.",
+        "valence": "strength",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 120571,
+          "char_end": 120698,
+          "passage_sha256": "4b113c18d761d204da7da44b08f1d9b09ffd2406864b6497d11d589c4bdd2000"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      }
+    ],
+    "problems": [
+      {
+        "id": "IRL-problems-001",
+        "statement": "With so little spare bed capacity, hospitals are exposed to predictable seasonal surges, leading to recurring winter overcrowding and postponed elective care.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 122497,
+          "char_end": 122844,
+          "passage_sha256": "2e3d959d97616c6d566230f2fc2435ea85f2fe83290d85f302a8f08c4b3ad52a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-problems-002",
+        "statement": "Physician density was 3.8 per 1,000 people, below the EU average of 4.3, and over 40% of doctors working in Ireland in 2024 had trained abroad.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 61004,
+          "char_end": 61328,
+          "passage_sha256": "7d2f5171dceb05d1e04df741166d3f1464d3043823fa9f1322295374da7c82bb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-problems-003",
+        "statement": "Only 37% of doctors who finished specialty training in 2023 took up posts in Ireland.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 135275,
+          "char_end": 135366,
+          "passage_sha256": "4fc92934831eeb6d56c2362d40fb05e36cdde14d89f16accbd83a3f50623a16a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-problems-004",
+        "statement": "The HSE's 2022 recruitment freeze made nurse retention problems worse and sped up emigration, according to the 2025 profile.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 139909,
+          "char_end": 140037,
+          "passage_sha256": "4e6dc1c20a6ce61d89f615fffdd39fd0e9a7ebad793f2da20e61c99b16841cb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "IRL-problems-005",
+        "statement": "The large gap between the share of people insured privately (46%) and the share of spending private insurance actually funds (12%) raises value-for-money concerns and reflects long public waiting times that keep demand for insurance high.",
+        "valence": "weakness",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 105822,
+          "char_end": 106109,
+          "passage_sha256": "ab82077e51c87dec90ad242ae075be4d068d6fce69d4101f5d6ebba9476d5c2f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-problems-006",
+        "statement": "A study of the creation of regional health structures in 2018-2023 found weak accountability arrangements, poor transparency, and periods of unclear roles and responsibilities for key decisions in the reform.",
+        "valence": "weakness",
+        "source_id": "health-regions-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3260,
+          "char_end": 3565,
+          "passage_sha256": "ee538387ee1d96d1bd6515b72e7a8eef79a5d2040e52ec03cef8dcff4854fdaa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2018-2023"
+      },
+      {
+        "id": "IRL-problems-007",
+        "statement": "Ending the 2020 agreement that opened private hospitals to all patients was strongly influenced by private hospital consultants, which a policy study says revealed strained relations with, and misunderstanding of, the private sector.",
+        "valence": "weakness",
+        "source_id": "covid-hosp-access-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3013,
+          "char_end": 3178,
+          "passage_sha256": "b4accfc9ac1d018c3b5fa2fc5b4878cc96e2eaab3b74c646b5647c9218254180"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "IRL-problems-008",
+        "statement": "The Health Insurance Authority's 2023 consumer survey found affordability to be the main reason people do not have, or drop, private health insurance.",
+        "valence": "weakness",
+        "source_id": "hia-market-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 7,
+          "char_start": 3820,
+          "char_end": 4006,
+          "passage_sha256": "e9772a0298fd20384e9d6f9848c7e52d9ca6cd1d1201daf1fc660d464f093295"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "IRL-reforms-001",
+        "statement": "Six HSE Health Regions, each with its own budget to plan and deliver services for its population, were set up in 2024; from March 2025, 20 Integrated Healthcare Areas began rolling out in five of the six regions.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 8,
+          "char_start": 46468,
+          "char_end": 46804,
+          "passage_sha256": "2fd90836b30a9be08ab8a5e7fa75bf8d4fae040545f6b00aec43460966434a1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-reforms-002",
+        "statement": "Two 2023 measures widened public cover: inpatient hospital charges were abolished and free GP care was extended to children up to age 8, with a government commitment to extend it to age 12.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 103539,
+          "char_end": 103815,
+          "passage_sha256": "7e04ff6a71bd24f6e5de0966d35f3c2f77d7f56fa6c2e004d78d312efee21595"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-reforms-003",
+        "statement": "A new public-only consultant contract pays hospital specialists more if they work only in the public sector, including evenings and weekends; by May 2025, 64% of hospital consultants had taken it up.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 61837,
+          "char_end": 62076,
+          "passage_sha256": "3c9327cc5fc53d4971d748491253fdc041b88b26f1e021ecf0f8dc2a94388878"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-reforms-004",
+        "statement": "The Sláintecare 2025+ plan, published in 2025, sets out system-wide reform programmes for 2025-2027 and beyond; it is the third government to back Sláintecare, first published in 2017.",
+        "valence": "neutral",
+        "source_id": "hspm-irl-slaintecare-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 799,
+          "char_end": 1108,
+          "passage_sha256": "3db43c75d107de74500b825287000f732d19536f1e1b52c240fb69230b108cda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-reforms-005",
+        "statement": "The plan sets out 23 programmes under three priorities: better access to health and social care, better service quality, and more capacity.",
+        "valence": "neutral",
+        "source_id": "hspm-irl-slaintecare-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1282,
+          "char_end": 1610,
+          "passage_sha256": "442002790a460d70c4322fb4a352374eb34f9bad68d2ae6bd6d22d4ca28a96a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "IRL-reforms-006",
+        "statement": "Between 2020 and 2024 the government commissioned 1,218 additional inpatient hospital beds.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 124096,
+          "char_end": 124180,
+          "passage_sha256": "b27a60604621970c01232ae4091587e6f39d62029289dcc6f7c735e597f4a901"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "IRL-reforms-007",
+        "statement": "To ease doctor shortages, some tasks such as prescribing for common conditions have been opened to advanced nurse practitioners and pharmacists.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 61461,
+          "char_end": 61660,
+          "passage_sha256": "e45f310a760021d6e7b66bec389c21a96f9743bf7c8790b4f6598e0d9122380b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-reforms-008",
+        "statement": "Enhanced Community Care programmes for chronic disease were introduced step by step: type 2 diabetes in 2018, COPD and asthma in 2020, and congestive heart failure in 2021.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 85293,
+          "char_end": 85502,
+          "passage_sha256": "c528a56e1c02438a96122970b1d2d1df7d95d8c80fe1a9e39f3d389ff4b2d6e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "IRL-reforms-009",
+        "statement": "A Health System Performance Assessment framework launched in June 2023 tracks outcomes, access, quality and equity with 268 indicators across five dimensions.",
+        "valence": "neutral",
+        "source_id": "chp-irl-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 124544,
+          "char_end": 125044,
+          "passage_sha256": "9ba407d1c66d022798d5b069811e0ac4b7956d4cc4a0ccbe2e715e4c2620b67a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "IRL-reforms-010",
+        "statement": "In March 2020 the state made a Safety Net Agreement with 19 private hospitals, which the authors describe as the first time Ireland had universal, single-tier access to hospital care.",
+        "valence": "neutral",
+        "source_id": "covid-hosp-access-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1982,
+          "char_end": 2167,
+          "passage_sha256": "3c7cb645107b1208ec6af80fc3dd0ea840beada3fc466b5969d564964eb6cab4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/IRL.json",
+  "sources": [
+    {
+      "id": "chp-irl-2025",
+      "title": "State of Health in the EU: Ireland, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-ireland-final-web.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cso-sha-2024",
+      "title": "System of Health Accounts 2024: Key Findings",
+      "publisher": "Central Statistics Office (Ireland)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cso.ie/en/releasesandpublications/ep/p-sha/systemofhealthaccounts2024/keyfindings/",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cso-sha-2024-fin",
+      "title": "System of Health Accounts 2024: Financing Schemes of Health Care Services",
+      "publisher": "Central Statistics Office (Ireland)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cso.ie/en/releasesandpublications/ep/p-sha/systemofhealthaccounts2024/financingschemesofhealthcareservices/",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hspm-irl-slaintecare-2025",
+      "title": "Minister for Health publishes The Path to Universal Healthcare - Sláintecare & Programme for Government 2025+ and Sláintecare Implementation Progress Report 2024 (Health Systems and Policy Monitor update, 25 August 2025)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/ireland-2009/minister-for-health-publishes-the-path-to-universal-healthcare-sl%C3%A1intecare-programme-for-government-2025-(sl%C3%A1intecare-2025-)-and-sl%C3%A1intecare-implementation-progress-report-2024",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hia-market-2024",
+      "title": "Health Insurance in Ireland: Market Report 2024",
+      "publisher": "Health Insurance Authority (statutory regulator of private health insurance)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.hia.ie/sites/default/files/2025-04/hia-market-report-2024.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "revenue-tdm-15-01-14",
+      "title": "Tax and Duty Manual Part 15-01-14: Income Tax Relief for Health Insurance Covering Medical and/or Dental Benefits (reviewed May 2026)",
+      "publisher": "Revenue Commissioners (Ireland)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.revenue.ie/en/tax-professionals/tdm/income-tax-capital-gains-tax-corporation-tax/part-15/15-01-14.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "oop-rx-tilda-2025",
+      "title": "Out-of-pocket prescription medicine expenditure amongst community-dwelling adults: Findings from the Irish longitudinal study on ageing (TILDA) in 2016",
+      "publisher": "Exploratory Research in Clinical and Social Pharmacy",
+      "authors": "Larkin J, Prendergast C, Murry LT, Flood M, Clyne B, Burke S, Keegan C, Boland F, Fahey T, Persaud N, Kenny RA, Moriarty F",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.rcsop.2025.100565",
+      "doi": "10.1016/j.rcsop.2025.100565",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11833648",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "health-regions-2024",
+      "title": "The role of governance in shaping health system reform: a case study of the design and implementation of new health regions in Ireland, 2018-2023",
+      "publisher": "BMC Health Services Research",
+      "authors": "Schulmann K, Bruen C, Parker S, Siersbaek R, Mac Conghail L, Burke S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12913-024-11048-2",
+      "doi": "10.1186/s12913-024-11048-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11069256",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "covid-hosp-access-2024",
+      "title": "Examining universal access to acute hospital care in Ireland during the first three months of COVID-19: Lessons from the policy process",
+      "publisher": "HRB Open Research",
+      "authors": "Mac Conghail L, Parker S, Burke S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.12688/hrbopenres.13848.1",
+      "doi": "10.12688/hrbopenres.13848.1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11803191",
+      "license": "CC BY 4.0",
+      "funding_note": "Lead author is employed by the HSE (declared). Open peer review: version 1, two reviewers approved.",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created."
+    }
+  ]
+}

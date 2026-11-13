@@ -1,0 +1,1875 @@
+{
+  "iso3": "CHL",
+  "name": "Chile",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "needs_review",
+  "model": {
+    "type": "mixed",
+    "label": "Dual insurance system: workers pay a 7% compulsory contribution to either the public National Health Fund (Fonasa, about four in five people, largely tax-subsidised) or a private insurer (Isapre); the Ministry of Health regulates, public care runs through 29 health districts and municipal primary care, and Explicit Health Guarantees (GES) set enforceable minimum entitlements across both"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CHL-covered-001",
+      "CHL-covered-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CHL-overview-001",
+        "statement": "Chile runs public and private health insurance side by side: about eight in ten residents are covered by the public National Health Fund (Fonasa), people without contributory income and legal dependants are covered by Fonasa with funding largely from general revenues, and the Ministry of Health sets policy and regulates the system (Commonwealth Fund profile, data as of January 2026).",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 1,
+          "char_start": 245,
+          "char_end": 749,
+          "passage_sha256": "5085a5c4efd2d61483c7773132019f2b0c7f91d38907607335ba1a92ca081c5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-overview-002",
+        "statement": "In 2024, 83.4% of Chile's population was covered by Fonasa.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 5011,
+          "char_end": 5075,
+          "passage_sha256": "423481ffdc7acdd404e059c5895d84bebe45a365d794344c541bbac8a4b5d983"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHL-overview-003",
+        "statement": "In 2024 the private insurers (Isapres) covered 16% of the population; they insure higher-income workers in the formal labour market and charge premiums on top of the compulsory contribution for access to differentiated plans.",
+        "valence": "neutral",
+        "source_id": "almeida-2026-aps",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21420,
+          "char_end": 21673,
+          "passage_sha256": "3e6eda3f12da2b50f9707ccb1186137a395d3caa7f173c7db1798507d80d8cd7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHL-overview-004",
+        "statement": "Members of the armed forces and the police are covered by separate health programmes rather than by Fonasa or the Isapres.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 4499,
+          "char_end": 4580,
+          "passage_sha256": "7ce095c38e94f50598627620392d49a11c2cc4bbc52d3ede0523d3258bb5421c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-overview-005",
+        "statement": "By 2023 the Isapre market had consolidated into 10 insurers, and the three largest covered more than 60% of Isapre beneficiaries.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 4,
+          "char_start": 8571,
+          "char_end": 8726,
+          "passage_sha256": "6619fd32ecf9ff23cd5d9bb49b17126d6d1572320d1cdf8c4b2a6d57c3c1da31"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHL-overview-006",
+        "statement": "Chile created Fonasa as its public insurance fund in 1979, and in 1980 legalised private health insurers (Isapres), allowing individuals to leave Fonasa and buy private cover.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 3189,
+          "char_end": 3507,
+          "passage_sha256": "1be94bb0c85613637b9d34b531e43ad6d014d65c6b9879c6340f38b4d96b62c7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 1980,
+        "historical": true
+      },
+      {
+        "id": "CHL-overview-007",
+        "statement": "Public care is decentralised through 29 health districts under the National Health Service System and 345 municipal primary care networks, which run public hospitals, clinics and primary care.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 4,
+          "char_start": 10090,
+          "char_end": 10452,
+          "passage_sha256": "960d1f17613711be5003558da138cb9244d7d7b4961e26d935c99f4f2e10bf3e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "CHL-financing-001",
+        "statement": "Chile's health system is financed from three sources: general government revenues, contributions based on wages, and out-of-pocket payments (Commonwealth Fund profile, 2026).",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 1,
+          "char_start": 1017,
+          "char_end": 1116,
+          "passage_sha256": "f3a1f8f510b6114e4840d113b3320b0c854a60ee789dda831da2aeef59df4f99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-financing-002",
+        "statement": "The compulsory health contribution is 7% of taxable pay or pension; taxable income is capped at UF 90 a month (a ceiling set by the Superintendency of Pensions) for contributions due on pay or pensions from February 2026, so the most anyone pays compulsorily is UF 6.3 a month (UF is Chile's inflation-indexed unit of account).",
+        "valence": "neutral",
+        "source_id": "sis-cotizaciones",
+        "locator": {
+          "section": "¿Cuál es la cotización legal para salud y en qué plazo deben ser declaradas y pagadas?",
+          "char_start": 4776,
+          "char_end": 5225,
+          "passage_sha256": "61da243e62136c0a0919c114f8119b5342c76155b9c4ddbce56c5312cdb666ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHL-financing-003",
+        "statement": "Employed people must put 7% of their income, up to a legal ceiling the 2026 profile gives as CLP 3.4 million (about USD 3,693), into mandatory health insurance, and can choose Fonasa or an Isapre.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 4163,
+          "char_end": 4392,
+          "passage_sha256": "473d40563d8e9070d4b87e0755e69b0e04ce7454220fcd91248e9ddfc666d73b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-financing-004",
+        "statement": "Fonasa enrols formal-sector workers through a contribution paid only by the worker (7% of monthly pay), together with self-employed workers and low-income people outside the formal labour market, who are covered with public funding; Fonasa covered 84% of the population in 2024.",
+        "valence": "neutral",
+        "source_id": "almeida-2026-aps",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21674,
+          "char_end": 22044,
+          "passage_sha256": "53be2dc95cf825f60c2e47d5f0184ca0fb2acce01f55c4ba96f2dd382cc5596a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHL-financing-005",
+        "statement": "Because the 7% contribution falls far short of Fonasa's costs, the state's fiscal contribution made up 77% of Fonasa's financing in 2021 and was budgeted to reach 82% in 2023, according to the 2023 analysis.",
+        "valence": "neutral",
+        "source_id": "gattini-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 25976,
+          "char_end": 26271,
+          "passage_sha256": "62d3951720559c949f0b2ffcd8f1ee12bc17178799e9773c5ffbbab19d862ae8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2021-2023"
+      },
+      {
+        "id": "CHL-financing-006",
+        "statement": "Most people insured with an Isapre pay more than the 7% legal contribution, often 10% of income or more (2023 analysis).",
+        "valence": "neutral",
+        "source_id": "gattini-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 26272,
+          "char_end": 26443,
+          "passage_sha256": "80e93efbc31d847c8d5b967dc5ceba7b802db23bbc0f20e86ed69367388f6f20"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-financing-007",
+        "statement": "Isapres are individual insurance plans paid for directly by their enrollees, and what a plan covers depends on its premium and on the enrollee's risk profile.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 4,
+          "char_start": 8439,
+          "char_end": 8817,
+          "passage_sha256": "c5ce6a9ed7cd3d4c2927d4b3045fe76d43d76592054661601597c00648da8467"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-financing-008",
+        "statement": "In 2022 Chile's total health spending was USD 33.5 billion, of which government contributed USD 16.9 billion and out-of-pocket payments USD 11.9 billion.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 10,
+          "char_start": 25515,
+          "char_end": 25682,
+          "passage_sha256": "23198240fe99f42e978b2a568bc3fb4c4bab885c9be7a44a724b89a40862cd92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHL-financing-009",
+        "statement": "In OECD Health at a Glance 2025, compulsory prepayment (government and compulsory insurance schemes) covered 59% of health spending in Chile, below the OECD average of 75%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Acceso a la atención",
+          "page": 4,
+          "char_start": 5177,
+          "char_end": 5329,
+          "passage_sha256": "454a181a3844eba3574e739f5c4cc4a9e39da5854e6cf0fa6c8c5b60bf772e5f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "CHL-covered-001",
+        "statement": "People on low incomes or without work are eligible for Fonasa, and the state pays their contributions.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 4393,
+          "char_end": 4498,
+          "passage_sha256": "abb5c583eb82e2f7d5a45c9525d2a944b6e9419c3e94b96c0cb4cd1bdb840648"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-002",
+        "statement": "OECD Health at a Glance 2025 reports that 97% of Chile's population is covered for a core set of health services.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Acceso a la atención",
+          "page": 3,
+          "char_start": 3693,
+          "char_end": 3776,
+          "passage_sha256": "039c770ae6114f6db96e7ae5b275a3bf480dcebdcf8ffc30eb032dfdd1e88911"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-003",
+        "statement": "The public insurance benefit covers preventive, inpatient, outpatient, primary and maternity care, dental and eye care, mental health, palliative and rehabilitative care and home visits; its long-term care items are technical aids, hearing loss and oral health.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 3,
+          "char_start": 6338,
+          "char_end": 6723,
+          "passage_sha256": "83bececce0e935fcf88e539345d5c8d521e9349406cc47f822015323f52e58d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-004",
+        "statement": "The AUGE scheme, created in 2005 and later renamed Explicit Health Guarantees (GES), guaranteed access to care for 56 conditions regardless of insurer or income; in 2022 the list was extended to 87 conditions.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 3734,
+          "char_end": 4126,
+          "passage_sha256": "0ec598e9144d1940378d36e6a5c06c046a68796b88e979625fa0171c090859db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHL-covered-005",
+        "statement": "GES Decree No. 29 of December 2025 extended the guarantees to 90 health problems with 325 timeliness guarantees, 2.2% more than the previous decree.",
+        "valence": "strength",
+        "source_id": "minsal-le-2026q2",
+        "locator": {
+          "page": 6,
+          "char_start": 14909,
+          "char_end": 15131,
+          "passage_sha256": "8594a1a75a0dd70cc44563e981f68d7430631377900d4b3e7f095a47dfb01612"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHL-covered-006",
+        "statement": "The Ricarte Soto Law of 2015 created universal financial protection for listed high-cost diagnoses and treatments outside the standard benefits, including some cancer, immunological and rare-disease treatments, whatever a person's income or insurer.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 3,
+          "char_start": 7583,
+          "char_end": 8007,
+          "passage_sha256": "cba937d034adb9d5bdb34d435d18b3292c24047ac6ed69daf3078d73b6c7c846"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-007",
+        "statement": "Unemployed and low-income people, retirees, children under 6 and pregnant women are each entitled to free care through Fonasa.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 3,
+          "char_start": 6736,
+          "char_end": 6925,
+          "passage_sha256": "3cf30a8750a79c3bf82eacba7f77e4648664fac92930f53225b95b8812d45a1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-008",
+        "statement": "A 2025 policy analysis identified seven separate health benefit packages in Chile, including GES, the Ricarte Soto Law, a high-cost cancer drugs fund and the basic packages of the public, private and armed-forces systems; they differed on eight of twelve dimensions studied, most of all in how health technologies are assessed.",
+        "valence": "weakness",
+        "source_id": "contreras-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2181,
+          "char_end": 2555,
+          "passage_sha256": "be1c0130c43a52b049e49c8a6e6f213870c63f9beea9b3081dc438d2e337aa90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-009",
+        "statement": "When the Ricarte Soto Law was introduced, the Ministry of Health set up a health technology assessment department that runs a more transparent and accountable process than earlier priority setting, though the authors say its content and procedures still need significant improvement.",
+        "valence": "neutral",
+        "source_id": "espinoza-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5861,
+          "char_end": 6242,
+          "passage_sha256": "3bf68bafc940046b70e126dbe1e6e3a3a8d779e8f74cee903016ed5d4a7aca74"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-010",
+        "statement": "A 2023 analysis found that over the previous five years Congress had passed several disease-specific laws, mostly pushed by civil society, which tell the health authority what to do for each condition and so in effect set the system's priorities outside its own planning process.",
+        "valence": "neutral",
+        "source_id": "espinoza-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2107,
+          "char_end": 2434,
+          "passage_sha256": "6be58140a60aa7349988f031c79881f4c8ad553f23f71fcfc6ac802e10eb247c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-covered-011",
+        "statement": "Mental health care in Chile is delivered mostly through community mental health centres and is fully covered in the public system.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 8,
+          "char_start": 21416,
+          "char_end": 21598,
+          "passage_sha256": "4c359ec3ab5b84f7dc4671108088d1aabab84f3e374e8fd3f6ecf3ddc5b7314e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CHL-cost_sharing-001",
+        "statement": "Since the Zero Copayment (Copago Cero) policy of 2022, everyone insured by Fonasa, whatever their income, pays nothing for treatment in public hospitals and clinics.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 11,
+          "char_start": 28344,
+          "char_end": 28564,
+          "passage_sha256": "831a9ad38b4f7f791d179e86a03538bc20d0654c6427df5ae710242b75e250ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHL-cost_sharing-002",
+        "statement": "Copayments still apply with private providers; for GES care they are capped at 10% of the reference price for Fonasa group C and 20% for group D and for Isapre members.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 11,
+          "char_start": 28565,
+          "char_end": 28929,
+          "passage_sha256": "538fa96069f8c44c422750aad4a1fb9c564cb96ff3e2d71cf60d744c624856fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-cost_sharing-003",
+        "statement": "GES also caps a patient's copayments at a set number of monthly contributions: for Fonasa group C, 21 for one illness and 31 for two or more; for group D, 29 and 43; for Isapre members, 29 and 41.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 11,
+          "char_start": 28930,
+          "char_end": 29174,
+          "passage_sha256": "1d436b027d8803bf942ef5a5c80ed585aac49411f618f584226113d5d409df35"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-cost_sharing-004",
+        "statement": "Fonasa sorts members into four income groups: groups A and B (low or no income) can use only public providers, while groups C and D can use accredited private providers through the Free Choice Modality, paying copayments or vouchers.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 2,
+          "char_start": 4581,
+          "char_end": 5010,
+          "passage_sha256": "21cad7cdf9c82b15bcd1d046041a3ceba2dc199bb2c1aa717aa7b8e135f5bd87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-cost_sharing-005",
+        "statement": "Primary care is financed by the central government and public primary care services carry no copayments.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 6,
+          "char_start": 13832,
+          "char_end": 13939,
+          "passage_sha256": "2bda461f7210e08b362c02261cfd1a1ba785ae4cd1d6a667686ef90d542c2412"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-cost_sharing-006",
+        "statement": "Isapre patients buy most medicines at community pharmacies; drugs covered under GES are partly reimbursed, typically 15-35% for branded drugs and over 80% for generics.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 10,
+          "char_start": 26592,
+          "char_end": 26850,
+          "passage_sha256": "82e04c23992b121d5394b50655b19c9b593aa56f9a4afde66d1f88a25738ac72"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-cost_sharing-007",
+        "statement": "Shortages of medicines that are not covered, or are older drugs still in use but outside public coverage, mean some Fonasa patients have to buy them at private pharmacies.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 10,
+          "char_start": 26404,
+          "char_end": 26591,
+          "passage_sha256": "3a08c7cc52402d45ad1ed8e8447048bb51ca849f22cdc2efd2dc612553d3400c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [
+      {
+        "id": "CHL-additional_care-001",
+        "statement": "Some people add complementary health insurance to their Isapre or Fonasa cover, usually for high-cost conditions and outpatient care.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 4,
+          "char_start": 9035,
+          "char_end": 9191,
+          "passage_sha256": "db5ce4e008464d45ed382c0cd39c883c1a9f94b41c5e8a5e67d2f0ed9899c703"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-additional_care-002",
+        "statement": "The 2024 Isapres Short Law created the Complementary Coverage Model (MCC), under which Fonasa members can buy voluntary insurance giving wider access to private providers and lower copayments.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 13,
+          "char_start": 35605,
+          "char_end": 36047,
+          "passage_sha256": "828bd900eeef3cd87904040db137de1d059daeedf21012730bb1465e51cacf8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHL-additional_care-003",
+        "statement": "A Fonasa study of administrative data from January 2022 to May 2025 found that holding complementary insurance was associated with about 30% higher Fonasa spending per beneficiary in the Free Choice Modality, after controlling for observable and classification biases, and attributed the gap to both risk selection and moral hazard.",
+        "valence": "weakness",
+        "source_id": "goyenechea-2026",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 1715,
+          "char_end": 2136,
+          "passage_sha256": "18f653362bc74bac439aa2049e30ec3bde3a2a33336a85258a27ea68769b57df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2022-2025"
+      },
+      {
+        "id": "CHL-additional_care-004",
+        "statement": "Chile has no formal long-term care system; such care falls mainly on unpaid family members, an estimated 470,000 informal family caregivers.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 9,
+          "char_start": 23261,
+          "char_end": 23437,
+          "passage_sha256": "edff5840df864d080afb988733981256a822eac878cd3f831ea7a82690e912ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-additional_care-005",
+        "statement": "In 2021 only 4% of older adults who needed care had access to state-supported benefits.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 9,
+          "char_start": 23438,
+          "char_end": 23542,
+          "passage_sha256": "2a74bce5662ba811fe94bf6f10f6288affe3f2e02fd44e040d73c2f1673a45a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHL-additional_care-006",
+        "statement": "In 2022 the Ministry of Social Development and Family created Chile Cuida (Chile Cares), a national support and care system that coordinates public services for dependent people and their caregivers, including home visits, caregiver training, mental health support and respite.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 9,
+          "char_start": 24071,
+          "char_end": 24623,
+          "passage_sha256": "b927c76d803f58e07b72e6570b6315b89dac78470b56a3c4fcaefa7ca30ecf3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHL-additional_care-007",
+        "statement": "Municipal pharmacies, introduced in 2015 and run by local governments on a non-profit basis, sell medicines near cost, often at least 50% below private pharmacy prices; more than 160 were operating in 2020.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 10,
+          "char_start": 26851,
+          "char_end": 27188,
+          "passage_sha256": "b7babc873962ada07758b9a1e8e3e31298859fd263e1dbe95c00bc6c0964587b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      }
+    ],
+    "access": [
+      {
+        "id": "CHL-access-001",
+        "statement": "On 30 June 2026 the public system's non-GES waiting list held 2,989,061 entries: 2,513,508 for new specialist consultations (2,092,315 people) and 475,553 for surgery (412,834 people).",
+        "valence": "weakness",
+        "source_id": "minsal-le-2026q2",
+        "locator": {
+          "section": "I. Resumen ejecutivo",
+          "page": 4,
+          "char_start": 11255,
+          "char_end": 11584,
+          "passage_sha256": "26f563b6af6977793fcd519cacafb93a721931bee63698d3310b301005f89230"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHL-access-002",
+        "statement": "At mid-2026 the median wait for a new specialist consultation on the non-GES list was 237 days (mean 332 days), 27 days shorter than a year earlier (median 264 days).",
+        "valence": "weakness",
+        "source_id": "minsal-le-2026q2",
+        "locator": {
+          "section": "I. Resumen ejecutivo",
+          "page": 4,
+          "char_start": 11587,
+          "char_end": 11932,
+          "passage_sha256": "6711fbf793747d8f72cdc172d9fb67541128b5b15fedb9ff81989e9396b0b14d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHL-access-003",
+        "statement": "At mid-2026 the median wait for non-GES surgery was 277 days (mean 393 days), 20 days shorter than a year earlier (median 297 days).",
+        "valence": "weakness",
+        "source_id": "minsal-le-2026q2",
+        "locator": {
+          "section": "I. Resumen ejecutivo",
+          "page": 4,
+          "char_start": 11935,
+          "char_end": 12273,
+          "passage_sha256": "d902c7b0a2207b03fc558d856cb1c14775054bb236a4c1371f9a6be6cb1d88d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHL-access-004",
+        "statement": "At the end of June 2026 the public network had met 96.71% of 2,433,909 GES timeliness guarantees; 2.83% were overdue, with a median delay of 69 days.",
+        "valence": "strength",
+        "source_id": "minsal-le-2026q2",
+        "locator": {
+          "section": "I. Resumen ejecutivo",
+          "page": 4,
+          "char_start": 10622,
+          "char_end": 11069,
+          "passage_sha256": "10429b7d93466380514fb6ba1d2b4581e1bdd629f53bf68bda951004798166a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CHL-access-005",
+        "statement": "In the public system patients need a referral from a primary care doctor to see a specialist and are then placed on a waiting list, whereas in the private sector they can see specialists directly.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 6,
+          "char_start": 15828,
+          "char_end": 16042,
+          "passage_sha256": "ae28c5125d1d89ddf278d4a60e0472805231baa52dc3a912b8e8fd201daf5029"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-006",
+        "statement": "Fonasa members must register with a municipal primary care network, so primary care formally acts as gatekeeper to higher levels of care.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 6,
+          "char_start": 14468,
+          "char_end": 14624,
+          "passage_sha256": "5038e7c34a8db6b3def026a4e67098c349acbe0f3e764bad914afd02198908d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-007",
+        "statement": "In OECD Health at a Glance 2025, 44% of people in Chile said they were satisfied with the availability of quality health care, against an OECD average of 64%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Acceso a la atención",
+          "page": 4,
+          "char_start": 5037,
+          "char_end": 5174,
+          "passage_sha256": "21a98272d899e418941b36e7920e4ef179b7e29b13fa923c5ddc893d082df0fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-008",
+        "statement": "The 2026 Commonwealth Fund profile reports that 15.8% of migrants in Chile have no health coverage, against 2.2% of people born in Chile, and that 9.2% of migrants report unmet needs after illness or injury against 6% of Chilean-born residents.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 13,
+          "char_start": 34068,
+          "char_end": 34303,
+          "passage_sha256": "864e2419075f21b1e4051868ce549abe209263667ce9aab2575279df1553103e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-009",
+        "statement": "Rural residents have poorer access to timely specialist care than city dwellers: specialists are concentrated in the Santiago Metropolitan Region, and more than 2.1 million people rely on 1,170 rural health posts, which the Rural Digital Hospital initiative supports with telemedicine.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 12,
+          "char_start": 32931,
+          "char_end": 33500,
+          "passage_sha256": "095ba02c78a4a6126ab8beec7c9967cd9407e30a78ddfbdae21ba9bf324c6981"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-010",
+        "statement": "Women in the public system wait substantially longer for treatment than men, and in the private system women pay higher premiums for less coverage.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 12,
+          "char_start": 33564,
+          "char_end": 33748,
+          "passage_sha256": "4cb12c863e1f4c0aec057eb7a7a3b7359793beb35b3dc4736356bfcb35467c3e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-011",
+        "statement": "Orthopaedics and traumatology accounted for 22-24% of pending procedures on the non-GES surgical waiting list in 2022-2024, and knee replacement was the most common pending procedure, with more than 20,000 cases each year.",
+        "valence": "weakness",
+        "source_id": "barahona-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1722,
+          "char_end": 1921,
+          "passage_sha256": "2b00e58e53dfd24b9ddf31560472c622ea954a86baeadba392ca9d5376e834e3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2022-2024"
+      },
+      {
+        "id": "CHL-access-012",
+        "statement": "In 2022 the rate of joint replacements performed on Fonasa patients was a quarter of the rate for Isapre patients.",
+        "valence": "weakness",
+        "source_id": "barahona-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1975,
+          "char_end": 2154,
+          "passage_sha256": "b8d7cf8dbc1e4d9d5fd53b5677a9357ca011fb84380c96196f9ed0952acd12f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CHL-access-013",
+        "statement": "In OECD Health at a Glance 2025, Chile had 3.3 licensed doctors per 1,000 people (OECD average 3.9 practising) and 4.4 practising nurses (OECD average 9.2).",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Personal sanitario",
+          "page": 5,
+          "char_start": 7032,
+          "char_end": 7209,
+          "passage_sha256": "1975411c5779b68c2d02cf4faa76cec4595e77a20f1f48caf4814b817af76c14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-access-014",
+        "statement": "Chile has 1.9 hospital beds per 1,000 people, compared with an OECD average of 4.2 (Health at a Glance 2025).",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Hospitales y equipos",
+          "page": 6,
+          "char_start": 8232,
+          "char_end": 8339,
+          "passage_sha256": "2beb52d506f5d90c604205b01f58cd6685052f20d9c8d797eb87d6fede742b47"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CHL-outcomes-001",
+        "statement": "In OECD Health at a Glance 2025, life expectancy in Chile was 81.6 years, 0.5 years above the OECD average.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Estado de salud",
+          "page": 2,
+          "char_start": 1184,
+          "char_end": 1273,
+          "passage_sha256": "53e497b172048365d3cf15375745a87ee855cacb3c7a933f74bb917f4300c8de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-outcomes-002",
+        "statement": "Chile's preventable mortality was 151 per 100,000 (OECD average 145) and its treatable mortality 78 per 100,000 (OECD average 77) in Health at a Glance 2025.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Estado de salud",
+          "page": 2,
+          "char_start": 1276,
+          "char_end": 1463,
+          "passage_sha256": "650acc72feb95d0d8042dffa2f68bf2fd32ed638a86ffd022fb1b529382bf883"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-outcomes-003",
+        "statement": "In the GBD 2019 study, Chile's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 70.9 (95% uncertainty interval 68.7-72.7) in 2019, 21.9 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 42450,
+          "char_end": 42615,
+          "passage_sha256": "2c9150d45e11aa4ea0076da3aff3575baae2c5ff9fa4ce0f9fb674a6bf34f735"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CHL-outcomes-004",
+        "statement": "Thirty-day mortality after a heart attack was 8.3% in Chile (OECD average 6.5%) and after a stroke 8.7% (OECD average 7.7%), based on unlinked data (Health at a Glance 2025).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Calidad de la atención",
+          "page": 4,
+          "char_start": 5871,
+          "char_end": 6072,
+          "passage_sha256": "8e4c21daf36cfcabae8f46273da391ecd61ff7c0da95e021150e2af47fcabb53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-outcomes-005",
+        "statement": "In Health at a Glance 2025, 40% of women in Chile had breast cancer screening, below the OECD average of 55%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Calidad de la atención",
+          "page": 4,
+          "char_start": 5539,
+          "char_end": 5672,
+          "passage_sha256": "c558101133673f48aef3055133379b1f4ca8c45b0d5b1cdd21c60bc4ded8fc50"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-outcomes-006",
+        "statement": "In Health at a Glance 2025, 95% of eligible children in Chile were vaccinated against diphtheria, tetanus and pertussis, above the OECD average.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Calidad de la atención",
+          "page": 4,
+          "char_start": 5429,
+          "char_end": 5536,
+          "passage_sha256": "b9a5ec35ff3834d735b50d4715c5c980f260b1f08bd81dab7f0ef16267ac08ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-outcomes-007",
+        "statement": "Indigenous Chileans have a life expectancy of 76.2 years, seven years shorter than non-Indigenous people, according to the 2026 Commonwealth Fund profile.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 12,
+          "char_start": 32175,
+          "char_end": 32447,
+          "passage_sha256": "b16c1b1bdba2d12b150640205ecb88221e93556f398a899faed11076615eb09a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-outcomes-008",
+        "statement": "In 2024 maternal mortality was 17 deaths per 100,000 live births and infant mortality 6.2 per 1,000 live births, against Americas averages for 2023 of 59 and 11.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 12,
+          "char_start": 30447,
+          "char_end": 30711,
+          "passage_sha256": "64bc1c8d497a570b483de496b5466645c27fa099eb9a24a2a5d1c5b4cf3d1669"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      }
+    ],
+    "costs": [
+      {
+        "id": "CHL-costs-001",
+        "statement": "In OECD Health at a Glance 2025, Chile spent USD 3,749 per person on health (PPP), below the OECD average of USD 5,967, equal to 10.5% of GDP against an OECD average of 9.3%.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Gasto en salud",
+          "page": 5,
+          "char_start": 6706,
+          "char_end": 6896,
+          "passage_sha256": "d24c5a1556b28a915744b9912f6b5538d879b83766a4e9fff7d793788cf84efc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-costs-002",
+        "statement": "In 2023 pharmaceuticals made up 13.4% of Chile's health spending.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 10,
+          "char_start": 25831,
+          "char_end": 25910,
+          "passage_sha256": "f6663a8d557e4e27ed26f5a42017bd57f53205e5ce037a09dfa69433cb7ef74e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHL-costs-003",
+        "statement": "A 2020 law let private pharmacies buy medicines at government-negotiated prices through the national procurement agency CENABAST, which the 2026 profile says cut prices by up to 70%.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 11,
+          "char_start": 29306,
+          "char_end": 29504,
+          "passage_sha256": "f5e064cd032cb533ef660c56da97897fe4a5a0d69d8aa92f770d8b68f914f6ed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "CHL-costs-004",
+        "statement": "Fonasa pays public providers through centrally set fee schedules and, for primary care, capitation, at rates below the private sector's, while Isapres mostly pay providers fee-for-service at market rates.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 5,
+          "char_start": 12793,
+          "char_end": 13024,
+          "passage_sha256": "5664c92f32a460a853fe4da751400380a721b89d5ad9f45a4d0a3331f0b93d2b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-costs-005",
+        "statement": "Fonasa finances most public hospital care through a mix of per-case prospective payment, fee-for-service and capitation for outpatient and chronic disease management.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 8,
+          "char_start": 20445,
+          "char_end": 20731,
+          "passage_sha256": "45cde5a56a1de830f6e9db4e260feea98bbde07b2d407d08609bb5a53511a9d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CHL-what_works-001",
+        "statement": "A mixed-methods study found that GES and the primary care Pharmacy Fund (FOFAR) contributed substantially to better access to medicines for hypertension, diabetes and dyslipidaemia, with marked increases in medicine use and effective coverage especially between 2010 and 2017.",
+        "valence": "strength",
+        "source_id": "castillo-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2913,
+          "char_end": 3267,
+          "passage_sha256": "845a37b0143a209b6b10608d402d35266dd12f38290f72c9ce084ee08c50af0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2010-2017"
+      },
+      {
+        "id": "CHL-what_works-002",
+        "statement": "Public primary care is well coordinated because all public primary care facilities in a municipality fall under the same local health department.",
+        "valence": "strength",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 4,
+          "char_start": 10487,
+          "char_end": 10648,
+          "passage_sha256": "fe3aefe19d1766e0b07b40718f5effb3dd21fed86044d229bbdb6d3a41fc700c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-what_works-003",
+        "statement": "A 2025 case-study review reports that tele-nephrology and advanced kidney care units have had a significant documented impact on chronic kidney disease in Chile, and cites recent evidence that teleoncology care is effective.",
+        "valence": "strength",
+        "source_id": "espinoza-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1886,
+          "char_end": 2282,
+          "passage_sha256": "cef28eada0ae8f7021d769d5eb29fa6b0319a3dbd8b775168c1771febf0f7b02"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-what_works-004",
+        "statement": "Generic medicines make up 90% of Chile's pharmaceutical market by volume, compared with an OECD average of 56% (Health at a Glance 2025).",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Hospitales y equipos",
+          "page": 6,
+          "char_start": 8532,
+          "char_end": 8678,
+          "passage_sha256": "d052f03b41cb36c879a141a054091ec69b0421b0840a7872fc785dace2d5aafc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-what_works-005",
+        "statement": "Chile had 264 avoidable hospital admissions per 100,000 people, fewer than the OECD average of 473 (Health at a Glance 2025).",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-chl",
+        "locator": {
+          "section": "Calidad de la atención",
+          "page": 4,
+          "char_start": 5756,
+          "char_end": 5868,
+          "passage_sha256": "2b98f3ed5187822a5acacd5a19a68bca309496b943c02580f147f7080160baba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "CHL-problems-001",
+        "statement": "A 2023 PAHO-journal analysis judged that, despite broad national coverage, Chile's health system needs urgent structural reform because of insufficient resources, poor performance, segmentation and inequity.",
+        "valence": "weakness",
+        "source_id": "gattini-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3773,
+          "char_end": 4002,
+          "passage_sha256": "6e2d3e99ddd2b546fbf1e8dd90fe08587f578fa2a214e9d99cfa64a7825e5601"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-problems-002",
+        "statement": "Fee-for-service payment gives providers an incentive to favour privately insured patients and to overuse profitable services.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 5,
+          "char_start": 13263,
+          "char_end": 13412,
+          "passage_sha256": "6d93e051e139d92b1215d62629a0127c94fa34cc28b01d7040b36bbccf35a324"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-problems-003",
+        "statement": "Digital health has developed unevenly in primary care: with no national financing policy for digital technology, several electronic medical record systems coexist without interoperability, even within one referral network.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 14,
+          "char_start": 36535,
+          "char_end": 36831,
+          "passage_sha256": "88dbcd10a01ffbb09736d78d9388b025675e89b1357f2b5a87f473b855540b36"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-problems-004",
+        "statement": "In 2024 Chile averaged 20 specialists per 10,000 inhabitants, with only the Ñuble, Metropolitan and O'Higgins regions above that average; the authors conclude that this centralised distribution hampers the system's response, especially in remote regions.",
+        "valence": "weakness",
+        "source_id": "arancibia-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2034,
+          "char_end": 2447,
+          "passage_sha256": "4e67dcc83e842a267fd61b09ac2322ad008efa57d2ab2929fd8a490be72c9eb3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHL-problems-005",
+        "statement": "In 2020 Chile had an estimated shortage of 1.13 physicians, nurses and midwives per 1,000 people, and primary care faced a 40% shortage of doctors, with only 40% coverage in some areas.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 7,
+          "char_start": 17877,
+          "char_end": 18180,
+          "passage_sha256": "3b5a7a5e770266b0a4096b5b6177347a82b1c9094b8f0b546cad4c339d478423"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "CHL-problems-006",
+        "statement": "Long waits and a lack of capacity have left public perceptions of Chile's mental health care system largely negative.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 9,
+          "char_start": 23077,
+          "char_end": 23226,
+          "passage_sha256": "5f0b9f3b0189e32e78f1a2ec1a1fad68476f3a8fd353f6ec408b6905dee5f531"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-problems-007",
+        "statement": "Budget limits on GES have held back its expansion, leaving many unmet needs among patients both with and without the prioritised conditions.",
+        "valence": "weakness",
+        "source_id": "espinoza-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5295,
+          "char_end": 5458,
+          "passage_sha256": "717ed18e75c00597bcd154b2fbd4e731949a257d4d6ee35e82d3781098b4eab5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-problems-008",
+        "statement": "A 2023 analysis states that applying GES has increased hospitals' underfunding and lengthened waiting lists for patients whose conditions are not covered by GES.",
+        "valence": "weakness",
+        "source_id": "gattini-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 26523,
+          "char_end": 26880,
+          "passage_sha256": "26c35badce74254edd291efe8de0e913dc8f0744423a6a50ae2ad1c5a12bb382"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-problems-009",
+        "statement": "Targeted support for Indigenous people is limited: many programmes do not address language and cultural barriers, geographic isolation, higher poverty or poor integration.",
+        "valence": "weakness",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 12,
+          "char_start": 32607,
+          "char_end": 32930,
+          "passage_sha256": "c2a930560211e7f52c9f1c13e5c103cfc73f6739a8a8f7c873caee2d870adbec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CHL-reforms-001",
+        "statement": "In 2022 the Supreme Court ordered the Isapres to adjust their plan prices and repay enrollees, retroactively from 2020, premiums overcharged by not applying the single table of risk factors; the Isapres Short Law, promulgated in May 2024, gave them longer to make these repayments.",
+        "valence": "neutral",
+        "source_id": "almeida-2026-aps",
+        "locator": {
+          "section": "Full text",
+          "char_start": 39180,
+          "char_end": 39594,
+          "passage_sha256": "54669f2881628e19b81ba3cb6f0ca138a3da4d2de3cb9e61fabb78a0edbf406e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHL-reforms-002",
+        "statement": "Universal primary care became the main health reform strategy of the 2022-2026 government; it began with pilots, by 2026 in 21 \"pioneer communes\", where people can enrol with primary care services whatever their type of insurance.",
+        "valence": "strength",
+        "source_id": "almeida-2026-aps",
+        "locator": {
+          "section": "Resumo",
+          "char_start": 2231,
+          "char_end": 3165,
+          "passage_sha256": "9b4aa8a166e265e5712f9fcac110418a824d704363af60432d7eb62151e48ecf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-reforms-003",
+        "statement": "Under universal primary care, health centre opening hours were extended from 8:00-17:00 to 8:00-20:00 plus Saturday mornings (9:00-13:00), funded by specific financing for 30 extra professional hours.",
+        "valence": "strength",
+        "source_id": "almeida-2026-aps",
+        "locator": {
+          "section": "Full text",
+          "char_start": 39873,
+          "char_end": 40132,
+          "passage_sha256": "e044e9aec11e517d202048d51cb912baf7eff36274df3e762c5b4960b4d3da2c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-reforms-004",
+        "statement": "A 2026 analysis finds that the 2022-2026 reform agenda made significant progress (zero copayments, universal primary care), but that failing to pass the tax reform needed to fund it, and difficulties in creating a Universal Health Fund and turning the Isapres into supplementary insurers, sharply limited its scope.",
+        "valence": "neutral",
+        "source_id": "jaramillo-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1541,
+          "char_end": 1972,
+          "passage_sha256": "c94324d3c31c02258cdbda33cf8bf9ef4a974aea6441e4cafb7e6d50caef7dcb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-reforms-005",
+        "statement": "The Program for Universal Primary Health Care Coverage and Resilience was launched in 2023, backed by a USD 200 million World Bank loan.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 13,
+          "char_start": 35136,
+          "char_end": 35278,
+          "passage_sha256": "7e36e139349af0f1d063b38a6c5c73648fd49bc98bf8c361710468e44222af8b"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-13",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHL-reforms-006",
+        "statement": "As of January 2026 the Drugs II Bill (Ley de Fármacos 2) was still awaiting approval; it aims to cut out-of-pocket spending on medicines through mandatory prescribing, international reference pricing and limits on pharmacy profit margins.",
+        "valence": "neutral",
+        "source_id": "cwf-chl",
+        "locator": {
+          "page": 11,
+          "char_start": 29505,
+          "char_end": 29766,
+          "passage_sha256": "aed10998618c13a842b34d551f97d1cdc4562ea9bdeb17402fd4139796c153f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-reforms-007",
+        "statement": "Between 1952 and 2020 hospital discharges in Chile rose steadily, with strong private-sector expansion in 1982-1987 and 2006-2019, while public hospital provision slowed or fell after the 1979 and 2005 reforms (but not the 1968 one).",
+        "valence": "neutral",
+        "source_id": "matus-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 4114,
+          "char_end": 4404,
+          "passage_sha256": "008eda81dd545ff0a0ce0ac1c175bc9d14d466a6c920cfc9c0cc4fc9ecc54f4c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "1952-2020"
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "CHL-us_lessons-001",
+        "statement": "A 2016 comparative study argued that Chile adopted in the 1980s a mixed public-private insurance model resembling the one later outlined by the US Affordable Care Act, and that implementing it without appropriate regulation of self-selection into private insurance produced inequities and perverse incentives.",
+        "valence": "neutral",
+        "source_id": "vargas-2016",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 420,
+          "char_end": 1131,
+          "passage_sha256": "3e5a6a50111730208811a30ef329f2b3ebad1234236b47d19aa7c482259486d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "CHL-us_lessons-002",
+        "statement": "The authors of a 2025 case-study review conclude that Chile's efficiency policies (patient-centred care, tele-nephrology, teleoncology, EPIVIGILA surveillance and its benefit plans) could be replicated by countries facing similar challenges, using Chile as a benchmark.",
+        "valence": "neutral",
+        "source_id": "espinoza-2025",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 2615,
+          "char_end": 2857,
+          "passage_sha256": "9a6ece7d0e0888c2678f981bbb00c9b6c71a934abfef9169593ee35471725c57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/CHL.json",
+  "sources": [
+    {
+      "id": "cwf-chl",
+      "title": "International Health Care System Profiles: Chile (May 2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2026-05/2026_Country-Profiles_Chile.pdf",
+      "funding_note": "Commonwealth Fund international profile series (US foundation); data as of January 2026. Many statements cite secondary literature or quoted interviews; claims here use only passages checked against the statement, and figures resting on old underlying studies were not used.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "oecd-hag-2025-chl",
+      "title": "Panorama de la Salud 2025: Chile (Health at a Glance 2025 country note, Spanish edition)",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/es/publications/reports/2025/11/health-at-a-glance-2025-country-notes_2f94481e/chile_b440e042/9be8a790-es.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "minsal-le-2026q2",
+      "title": "Informe Glosa 06: Lista de Espera No GES y Garantías de Oportunidad GES Retrasadas, II Trimestre 2026 (Ley de Presupuesto 2026)",
+      "publisher": "Ministerio de Salud de Chile, Subsecretaría de Redes Asistenciales",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.minsal.cl/wp-content/uploads/2026/08/Glosa-06-LE-II-trimestre.pdf",
+      "funding_note": "Statutory quarterly report to Congress by the Ministry of Health; the executive summary frames results as outcomes of the ministry's own waiting-time plan.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "sis-cotizaciones",
+      "title": "Cotizaciones de salud (preguntas frecuentes, materias Isapres)",
+      "publisher": "Superintendencia de Salud, Chile",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.superdesalud.gob.cl/tax-materias-isapres/cotizaciones-de-salud-3465",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "almeida-2026-aps",
+      "title": "Universalização da atenção primária à saúde: \"coração\" da reforma em saúde no Chile (Universalization of primary health care: \"heart\" of health reform in Chile)",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "de Almeida PF, Fausto MCR, Arteaga O, Zamorano J, Navarrete M, Giovanella L",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/0102-311XPT225624",
+      "doi": "10.1590/0102-311XPT225624",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13435629",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gattini-2023",
+      "title": "Pertinencia y factibilidad de reforma para crear un sistema universal de salud en Chile (Relevance and feasibility of reforms to create a universal health system in Chile)",
+      "publisher": "Revista Panamericana de Salud Pública (PAHO)",
+      "authors": "Gattini C, Morales JP",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.26633/RPSP.2023.123",
+      "doi": "10.26633/RPSP.2023.123",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10464642",
+      "license": "CC BY-NC-ND 3.0 IGO",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "matus-2025",
+      "title": "Sistema de salud y utilización hospitalaria en Chile, 1952-2020: tendencias, reformas y puntos de inflexión",
+      "publisher": "Revista Panamericana de Salud Pública (PAHO)",
+      "authors": "Matus-López M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.26633/RPSP.2025.84",
+      "doi": "10.26633/RPSP.2025.84",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12315926",
+      "license": "CC BY-NC-ND 3.0 IGO",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "contreras-2026",
+      "title": "Fragmentation of Health Benefits Plans in Chile: Findings from a comparative policy analysis and implications for advancing Universal Health Coverage",
+      "publisher": "Health Policy",
+      "authors": "Contreras-Montiel P, Armijo N, Vera M, Arteaga O, Góngora-Salazar P, Balmaceda C, Espinoza MA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.healthpol.2025.105507",
+      "doi": "10.1016/j.healthpol.2025.105507",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41371085&rettype=abstract&retmode=text",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "barahona-2025",
+      "title": "Analysis of the surgical waiting list for conditions not covered by the Explicit Health Guarantees in orthopedics and traumatology in Chile",
+      "publisher": "Medwave",
+      "authors": "Barahona M, Barahona M, Domínguez J, Beltran L, Barrientos C, Infante C, Martínez Á",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.5867/medwave.2025.09.3106",
+      "doi": "10.5867/medwave.2025.09.3106",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41032845&rettype=abstract&retmode=text",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "castillo-2026",
+      "title": "Contribution analysis of drug coverage policies on access to medicines for diabetes, dyslipidemia and hypertension in Chile",
+      "publisher": "The Journal of Medicine Access",
+      "authors": "Castillo-Laborde C, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1177/27550834261480357",
+      "doi": "10.1177/27550834261480357",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13494291",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "espinoza-2023",
+      "title": "The legal path for priority setting in Chile: a critical analysis to improve health planning and stewardship",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Espinoza MA, Cabieses B, Goic C, Andrade A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.3389/fpubh.2023.1302640",
+      "doi": "10.3389/fpubh.2023.1302640",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10801194",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "goyenechea-2026",
+      "title": "Complementary insurance and free-choice modality expenditure in Chile's public insurer Fonasa: Moral hazard or selection bias?",
+      "publisher": "Medwave",
+      "authors": "Goyenechea M, Aylwin A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.5867/medwave.2026.09.3242",
+      "doi": "10.5867/medwave.2026.09.3242",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42900648&rettype=abstract&retmode=text",
+      "license": "CC BY 4.0",
+      "funding_note": "Both authors were employed by Fonasa, whose data are analysed, while the study was done.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "espinoza-2025",
+      "title": "Improving Efficiency in Healthcare: Lessons from Successful Health Policies in Chile",
+      "publisher": "Archives of Medical Research",
+      "authors": "Espinoza MA, Zamorano P, Zuñiga-San Martin C, Taramasco C, Martinez F, Becerra S, Letelier MJ, Armijo N",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.arcmed.2024.103105",
+      "doi": "10.1016/j.arcmed.2024.103105",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39418926&rettype=abstract&retmode=text",
+      "funding_note": "Case-study report; several authors work in the Ministry of Health's digital health department, which ran some of the policies described.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "jaramillo-2026",
+      "title": "Chile, el difícil camino hacia un servicio nacional de salud (Chile, the difficult path towards a national health service)",
+      "publisher": "Gaceta Sanitaria",
+      "authors": "Jaramillo-Castell F, Pantoja-de Prada V, Delgado-Díaz A, Minué-Lorenzo S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.gaceta.2026.102604",
+      "doi": "10.1016/j.gaceta.2026.102604",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42391837&rettype=abstract&retmode=text",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "arancibia-2026",
+      "title": "Médicos especialistas en Chile: análisis de la situación 2024 (Specialist Physicians in Chile: Analysis of the 2024 Situation)",
+      "publisher": "Revista Médica de Chile",
+      "authors": "Arancibia-Luna MJ, Riedemann González JP, Castillo Mora JA, Huaiquilaf-Jorquera S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.4067/s0034-98872026000300313",
+      "doi": "10.4067/s0034-98872026000300313",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42257657&rettype=abstract&retmode=text",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "vargas-2016",
+      "title": "Regulating self-selection into private health insurance in Chile and the United States",
+      "publisher": "International Journal of Health Planning and Management",
+      "authors": "Vargas Bustamante A, Méndez CA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2016,
+      "url": "https://doi.org/10.1002/hpm.2321",
+      "doi": "10.1002/hpm.2321",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=27523039&rettype=abstract&retmode=text",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created."
+    }
+  ]
+}

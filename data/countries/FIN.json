@@ -634,10 +634,524 @@
         }
       }
     ],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
+    "financial_hardship": [
+      {
+        "id": "FIN-financial_hardship-001",
+        "statement": "Unpaid client fees for public health care are classed as directly enforceable debts, and the collection cost that can be charged on such a debt is capped at EUR 51 however hard it is to collect.",
+        "valence": "neutral",
+        "source_id": "olpa-medical",
+        "locator": {
+          "section": "Debt collection of public health care client fees",
+          "char_start": 3309,
+          "char_end": 3511,
+          "passage_sha256": "27e6e3f5e41b229e6f8365ffd94c4d9fed0f97f9e6640fcdd4524a852015a473"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FIN-financial_hardship-002",
+        "statement": "People whose income is garnished can apply to have the garnishment restricted because of large medical expenses.",
+        "valence": "neutral",
+        "source_id": "olpa-medical",
+        "locator": {
+          "section": "Enforced recovery",
+          "char_start": 4117,
+          "char_end": 4196,
+          "passage_sha256": "3c623b7f25b6d26069c87253464ca27e6423c7f3c3f296596c4635ef1d4f8f42"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FIN-financial_hardship-003",
+        "statement": "Kela offers low-income people a medicine cost credit to help them pay up to the annual ceiling on out-of-pocket costs for reimbursed prescription medicines.",
+        "valence": "neutral",
+        "source_id": "olpa-medical",
+        "locator": {
+          "section": "Kela, the Social Insurance Institution of Finland",
+          "char_start": 1489,
+          "char_end": 1703,
+          "passage_sha256": "35ef0780131852b05a2d95864cf6dfb7bf7d417da681ba728c994eb328c199cb"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FIN-financial_hardship-004",
+        "statement": "In 2018 there were about 430,000 debt recovery proceedings over unpaid municipal social and health care user charges, up from 180,000 in 2012, after maximum co-payments for municipal care were raised substantially in 2015 and 2016.",
+        "valence": "weakness",
+        "source_id": "who-finprot-fin-2021",
+        "locator": {
+          "section": "Co-payment policy",
+          "page": 31,
+          "char_start": 50863,
+          "char_end": 51103,
+          "passage_sha256": "970d61e31592502c61a5b4032566e759ec38df8f4b0bd79c254cb2a2d1856d96"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2018",
+        "historical": true
+      },
+      {
+        "id": "FIN-financial_hardship-005",
+        "statement": "Strict regulation keeps pharmaceutical spending in check, but high co-payments for medicines contribute significantly to catastrophic health spending.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 7088,
+          "char_end": 7260,
+          "passage_sha256": "cf137feabb56069baac87a7ae246e8dc055c61bb1d77c404a85dc7f9f963cb9f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "FIN-additional_care-001",
+        "statement": "Since 2023 dental care has been organised by the counties and is delivered at primary level mainly in health centres, which employ more than half of all dentists.",
+        "valence": "neutral",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Dental care",
+          "page": 14,
+          "char_start": 32820,
+          "char_end": 32990,
+          "passage_sha256": "d3db61d366c8f95ac2f7da43fb8f42c81d3103361d306c40a4cb508e4ed54d42"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-additional_care-002",
+        "statement": "Patients who use private dentists get roughly 12% of the cost (excluding administrative charges) back from national health insurance; cosmetic procedures and prosthodontics are excluded and orthodontics is reimbursed only in specific cases.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Dental care",
+          "page": 14,
+          "char_start": 33115,
+          "char_end": 33423,
+          "passage_sha256": "bf07ca202b3873dc85e0e61309ee0449151ce2ff9fa61c5455e99b5c028d3b4d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-additional_care-003",
+        "statement": "Long-term care is organised by the counties, mainly publicly funded but subject to user charges; because long-term care beds have not kept pace with need, falling especially fast since 2009, residential care has become less available and more of the burden has shifted to families.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Long-term care",
+          "page": 13,
+          "char_start": 32021,
+          "char_end": 32739,
+          "passage_sha256": "e8f6e25d71f3ff1736a129ebaf7ad224557491609e1f7647d968dfeaf6c9a0f3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-additional_care-004",
+        "statement": "A statutory therapy guarantee in force since May 2025 requires that people under 23 get brief psychotherapy or targeted psychosocial support, free of charge, within one month of an assessed need.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 78397,
+          "char_end": 78584,
+          "passage_sha256": "f106991f0b92d625cc26dc2632d52fcb319676f31ab36e20636162682481c377"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "FIN-additional_care-005",
+        "statement": "Kela reimburses telemedicine on the same terms as in-person visits; reimbursed telemedicine users rose from about 3,300 in 2019 to more than 320,000 in 2022, around 12% of all reimbursed medical fees that year, with few users over 75.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 107759,
+          "char_end": 108284,
+          "passage_sha256": "840be6e06e72425ba252dee499098dbbcd711b04150089426ac58769660567f7"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2022"
+      },
+      {
+        "id": "FIN-additional_care-006",
+        "statement": "By 2023 many counties had set up a digital clinic as the first point of contact for primary care, offering assessments and minor consultations by chat or video; these are now available nationwide and are often run by private vendors.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 111774,
+          "char_end": 112052,
+          "passage_sha256": "8f6ce6dc45f70356c450d0391f43733a46f57f3333f0f8956cc458f3c6e0eabe"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "FIN-access-001",
+        "statement": "In the 2024 EU-SILC survey, 12.4% of people who needed medical care in Finland reported unmet needs because of cost, distance or waiting times, the second highest rate in the EU after Greece; among people at risk of poverty the figure was 20.9%, against an EU average of 6.0% cited in the profile.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 73447,
+          "char_end": 73840,
+          "passage_sha256": "27d6ea70db5aa7dd00131cd44b0cad308ad3ef391e78c843956fb767e1794869"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-access-002",
+        "statement": "In 2023 people in the lowest income quintile reported unmet health needs at double the rate of those in the highest; the summary links the gap to fragmented primary care, in which employed people often get outpatient care through occupational health and those who can pay use private services with little waiting.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Accessibility and financial protection",
+          "page": 16,
+          "char_start": 39862,
+          "char_end": 40323,
+          "passage_sha256": "5f0a93a4ef2088c80bf226ea861e2f48136a37fc953e2027b0304bbd8717ce96"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-access-003",
+        "statement": "In 2024, according to a 2025 Eurofound e-survey, 9% of Finnish adults reported unmet needs for primary care and 12% for mental health care, among the highest rates in the EU and well up on 2021.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 78127,
+          "char_end": 78337,
+          "passage_sha256": "bd6ae5ae7e9ea7b0c746f100892ce682f27adb1c61517ec7e7783870341f7255"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-access-004",
+        "statement": "Dental care is a major gap: in 2024, 14.8% of people needing dental care reported unmet needs, more than twice the EU average of 6.3%, and 25.6% among low-income groups against 13.6% across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 86693,
+          "char_end": 86927,
+          "passage_sha256": "57722fe992f4143330400dcf9610309d15bf469b0b36ba9698760a05ed1dd8d4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-access-005",
+        "statement": "Average waits for elective surgery lengthened between 2021 and 2024: from 98 to 169 days for hip replacement, 123 to 216 days for knee replacement and 112 to 146 days for cataract surgery, while waits fell in several neighbouring countries such as Sweden and Denmark.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 101396,
+          "char_end": 101792,
+          "passage_sha256": "4222a64fe93d5d7d3dc5cd4c895b7cad141a8ca4c0124f8075e196123378354d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2021-2024"
+      },
+      {
+        "id": "FIN-access-006",
+        "statement": "Employed people have better access to outpatient care through the occupational scheme, which is free at the point of use and often has shorter waits because it buys services from the private sector.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 7,
+          "char_start": 14639,
+          "char_end": 14868,
+          "passage_sha256": "d0d5599dbb3fd587ce1966715151359a78c969da5deee96840d01e8a8eaf0e77"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-access-007",
+        "statement": "In national population surveys around one third of patients said that high user charges had made it hard to get health services (THL, 2023).",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Box 2 What are the key gaps in coverage?",
+          "page": 8,
+          "char_start": 18207,
+          "char_end": 18377,
+          "passage_sha256": "06f93773e9d6e1777b735c8411f755f835cb420e40374124aba80c872982190c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-access-008",
+        "statement": "In the 2022-2023 Healthy Finland Survey of people aged 20-64, 41% of unemployed respondents reported an unmet need for a doctor or nurse, and unemployed people were more likely than employed people to report one (odds ratio 2.31), a gap the authors found largely explained by health factors, especially poor work ability.",
+        "valence": "weakness",
+        "source_id": "unmet-unemployed-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2645,
+          "char_end": 3728,
+          "passage_sha256": "3e228ed6c699c04953992af1e1dbf9a12acda2eb9efd488a1c2c47e020d3ae4c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2022-2023"
+      },
+      {
+        "id": "FIN-access-009",
+        "statement": "A mixed-methods study in rural North Karelia found that GP consultations rose 1.69-fold from 2017 to 2024 while in-person consultations fell to 0.60 times their earlier level, and that a change in definition explained the improvement in official waiting-time statistics after the 2023 guarantee.",
+        "valence": "weakness",
+        "source_id": "care-guarantee-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2698,
+          "char_end": 3498,
+          "passage_sha256": "079092a258e30c2acdaf963a762f40ef9de5d1d16807bd81ad5ad87145d6d03a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2024"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "FIN-outcomes-001",
+        "statement": "Life expectancy at birth reached 82.4 years in 2024, above the EU average but below Iceland, Norway and Sweden.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "2 Health in Finland",
+          "page": 4,
+          "char_start": 13828,
+          "char_end": 13956,
+          "passage_sha256": "f0d1a5fb4dea2b50b3df0af8f9d9ee1645a967089f64bb520f2ebf59c389da97"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-outcomes-002",
+        "statement": "In 2022 Finland's preventable mortality (166 per 100,000) and treatable mortality (71 per 100,000) were both below the EU averages of 168 and 90, though slightly above other Nordic countries.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 58985,
+          "char_end": 59287,
+          "passage_sha256": "b097f313cec4ddce34eb72def84cdfee279eb546c5c9e67e0ad909dd92a7825a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FIN-outcomes-003",
+        "statement": "Treatable mortality fell by 16.5% between 2012 and 2022.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 59288,
+          "char_end": 59400,
+          "passage_sha256": "6506e5fc9d0a92c4d25eaec074b731c0cac7d87ce4a55fc41c05671d3e06fff5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2022"
+      },
+      {
+        "id": "FIN-outcomes-004",
+        "statement": "In the GBD 2019 study, Finland's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 87.7 (95% uncertainty interval 85.5-89.5) in 2019, 19.1 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 43790,
+          "char_end": 43957,
+          "passage_sha256": "bfd80982fa8422a41470f3c63f8d75be3890026055ae651fc8160bbf03a7bbf8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "FIN-outcomes-005",
+        "statement": "Colorectal cancer screening went fully national in 2022, when 77% of the target population completed screening, one of the highest participation rates in Europe.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 64792,
+          "char_end": 65064,
+          "passage_sha256": "26a233a1a478e1f2d3709765a2dacc77b1e4298b102bfee8cf16f1767196e1e8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FIN-outcomes-006",
+        "statement": "Breast cancer screening participation held at 82% in 2023, third highest in the EU after Denmark and Sweden, and cervical screening reached 73%, well above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 65195,
+          "char_end": 65382,
+          "passage_sha256": "39882770516ec8fd4d5357b94c9dce614bba2598f125f30fe6edb4678ab90d8f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-outcomes-007",
+        "statement": "In 2023 avoidable hospital admissions were 115 per 100,000 for asthma and COPD (EU average 158) and 85 per 100,000 for diabetes; congestive heart failure admissions, at 211 per 100,000, were below the EU average of 239 but above other Nordic countries.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 72202,
+          "char_end": 72792,
+          "passage_sha256": "7ef4024d299891a4d47073c2a3398aa6db66b4322d327a5173dd075184287224"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-outcomes-008",
+        "statement": "At age 65 in 2022, fewer than half of remaining years were expected to be lived in good health (43% for women, 49% for men), close to EU averages but well below other Nordic countries.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "2 Health in Finland",
+          "page": 4,
+          "char_start": 15632,
+          "char_end": 15859,
+          "passage_sha256": "e28bc91c2921c43b78da116691942ac090306d4f5d026e1e84d1a96a066c9e8b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FIN-outcomes-009",
+        "statement": "The maternal mortality ratio in 2017 was reported as 3 deaths per 100,000 live births in Finland against 19 in the United States.",
+        "valence": "strength",
+        "source_id": "maternal-us-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1772,
+          "char_end": 1908,
+          "passage_sha256": "f211c4be98eff70e41366f3610f324a7fbaa054b630005a3ae892db2291d1b39"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2017
+      }
+    ],
     "costs": [],
     "what_works": [],
     "problems": [],

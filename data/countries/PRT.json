@@ -1,0 +1,2378 @@
+{
+  "iso3": "PRT",
+  "name": "Portugal",
+  "wave": 3,
+  "system_as_of": "2026-11-13",
+  "status": "draft",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded National Health Service (SNS) covering all residents, free at the point of use apart from emergency-department fees and pharmacy co-payments; Local Health Units integrate public hospital and primary care; occupational Health Subsystems (e.g. ADSE) and voluntary private insurance provide parallel cover for about a third of the population"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "PRT-overview-002",
+      "PRT-overview-003"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "PRT-overview-001",
+        "statement": "Portugal's health system is mainly financed from taxes and covers the whole population; the NHS sits alongside the Health Subsystems (special insurance schemes for some professions and sectors, such as civil servants, the military, the police and bank and insurance employees) and voluntary private health insurance.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 2468,
+          "char_end": 2872,
+          "passage_sha256": "8ad3b4d9f73f69b72fc42a7d3010d42c06bd94c744bf1a752dcebaa7082c7497"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-002",
+        "statement": "The NHS is a universal, tax-financed service that gives all residents care free at the point of use, including asylum seekers and migrants waiting for their status to be regularised.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 51265,
+          "char_end": 51467,
+          "passage_sha256": "88efe5dcc41f9192fdf3dafac7229feadc57242515a17ed4a03c0f745805b197"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-003",
+        "statement": "Entitlement to NHS care rests on residence; unemployed people, dependent family members and retirees are covered even if they pay no taxes or social security contributions.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 7,
+          "char_start": 12375,
+          "char_end": 12688,
+          "passage_sha256": "d44e48a98f75bb840c4f72a7c273ab6b1e2f2372dd15b7da36cf8387d6200987"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-004",
+        "statement": "The Azores and Madeira, as autonomous regions, have wide powers over their own health care systems.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 2873,
+          "char_end": 2972,
+          "passage_sha256": "087eea81a82174955d749b7c29d3e60723a7fdb078b6c76a5dcd65e3e969272f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-005",
+        "statement": "Control is highly centralised: the Ministry of Health is in charge of planning, regulating and supervising the system, working through bodies such as the Directorate-General of Health and the NHS Executive Board.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 51468,
+          "char_end": 51654,
+          "passage_sha256": "3792500f90f35c08c39372ed764210a1c5e61aa98c254e0e37388f75165c6c7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-006",
+        "statement": "Care is delivered by a mix of public and private providers, and general practitioners act as gatekeepers to specialist and secondary care.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 6298,
+          "char_end": 6468,
+          "passage_sha256": "b728bb6c16ca6be96f0b667998447ebd657642a7ad5d91d5c74f033980bd4133"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-007",
+        "statement": "Of Portugal's 243 hospitals, 112 are public NHS hospitals, and these account for about two thirds of inpatient capacity.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 17790,
+          "char_end": 17963,
+          "passage_sha256": "1ee49290083d1a1cd724fb681d05fa2903eff79b56d42357540f61016ec9cab7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-overview-008",
+        "statement": "Nearly half of all health spending goes to private providers; the NHS routinely buys haemodialysis, laboratory and radiology tests, endoscopies and rehabilitation from them, and 85-100% of these services are privately supplied.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 59325,
+          "char_end": 59671,
+          "passage_sha256": "48b5e44e938f2557232bca552ebfded1897627af09e84b65085ba6bd9978713f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "PRT-financing-001",
+        "statement": "The NHS is funded mostly from general taxation, through a transfer from the state budget.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 7608,
+          "char_end": 7702,
+          "passage_sha256": "6c023af98abaa32ccb4f704d3ca4ef4db41885be5486bf47f0ab0d80f75483d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financing-002",
+        "statement": "The Health Subsystems give full or partial cover to roughly 35% of the population and are financed mainly by contributions from employees and employers, with the national government contributing as an employer.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 7703,
+          "char_end": 7948,
+          "passage_sha256": "84cda73454d339091c5f34fd55a9a24e95c309f4e123600e4eebddb7bff2aa7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financing-003",
+        "statement": "Voluntary health insurance is paid for by the premiums of the people who hold the policies.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 7949,
+          "char_end": 8036,
+          "passage_sha256": "9c35dbe5d336adc4d4845d626a6923b4df3acc90b8242f21f93b033ddeed3012"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financing-004",
+        "statement": "In 2023 public sources paid for 62% of current health spending, the third-lowest share in the EU after Greece and Latvia; households financed the other 38% through out-of-pocket payments or voluntary health insurance.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 54351,
+          "char_end": 54615,
+          "passage_sha256": "1d2e4ce96056e6af8726db28067c03d56758d6c18e0576191d5b3234d70110f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-financing-005",
+        "statement": "In 2023 out-of-pocket payments made up 29% of total health spending, almost double the EU average, mainly because of high cost-sharing for medicines and limited public coverage of services such as dental care.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 54351,
+          "char_end": 54832,
+          "passage_sha256": "5c2acf7d986fef3ccc9895e17e40dceb4c3ad228092463adfc2127910205b994"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-financing-006",
+        "statement": "Voluntary health insurance covered almost 3.7 million people (about a third of the population) in 2022 and paid for 9% of total health spending in 2023, the third-highest share in the EU after Slovenia and Ireland.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 54833,
+          "char_end": 55008,
+          "passage_sha256": "c89d5e615f4adbb13bb9a39c73acc4cf04d9a2f8c88b9df592a667d2464060f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2022-2023"
+      },
+      {
+        "id": "PRT-financing-007",
+        "statement": "According to the Health Insurance Observatory, 43% of people take out voluntary insurance because NHS services are hard to access and 25% to shorten waits; about half of all policies are taken out by employers as part of staff benefits.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 58893,
+          "char_end": 59154,
+          "passage_sha256": "1ae323d3dd023590252962469b8600c1e1bb881840469158ff5415738d786038"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financing-008",
+        "statement": "About a third of the prevention budget comes from earmarked 'health taxes' on lotteries, sugar-sweetened beverages and tobacco, a revenue base the profile calls volatile.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 60469,
+          "char_end": 60683,
+          "passage_sha256": "23a3829453a30ae971b2cfd9535605f2f833689702a95aef6f09b2a6356a4e92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financing-009",
+        "statement": "In 2023 health took 15.9% of total government spending, up from 12.8% in 2015 and above the EU average of 14.8%.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 144156,
+          "char_end": 144280,
+          "passage_sha256": "535d8b7d4c6ff22def48407b5b1992d649f26c1cccba221ff7792fa286f2b213"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-financing-010",
+        "statement": "A 2025 binding ruling by the Tax and Customs Authority lists, among the health expenses that qualify for the personal income tax deduction under Article 78-C of the IRS Code, premiums for insurance and contributions to mutual associations or non-profit bodies whose purpose is providing health care.",
+        "valence": "neutral",
+        "source_id": "piv-29057",
+        "locator": {
+          "section": "Full text",
+          "page": 1,
+          "char_start": 2044,
+          "char_end": 3485,
+          "passage_sha256": "dd2493eb0df4e5aeb2f7b845faf2043cf944afe8b56ff1c225e648d933a4b323"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financing-011",
+        "statement": "The Public Finance Council identifies persistent gaps in the NHS budget, met by recurring and growing end-of-year capital injections to cover accumulated deficits; a more predictable multi-year budget framework is still missing.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 52740,
+          "char_end": 53055,
+          "passage_sha256": "4bd46e3fee8b4243b9e0aa901db0c0619b4e1400d8995974814d7f37a457573f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "PRT-covered-001",
+        "statement": "The NHS benefits package is broad, covering most primary, diagnostic, secondary and emergency care, but it covers relatively little optical care and adult dental care.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 7,
+          "char_start": 12689,
+          "char_end": 12890,
+          "passage_sha256": "76df7a56f0ad87661fa63e544aa9e7cb2359e59f4d30ea9e4f47c8ee6f9f5060"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-002",
+        "statement": "Dental care is not in the standard NHS benefits package; it is mostly provided by private clinics and paid for out of pocket.",
+        "valence": "weakness",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 28173,
+          "char_end": 28333,
+          "passage_sha256": "df104dfd9c83bd74b78a4002bb651e9fa421a422875d0891a709b2bdd5a98902"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-003",
+        "statement": "Under the National Programme for Oral Health Promotion, expanded in 2021, publicly funded dental vouchers are available to all children aged 4 and those aged 7 to 18, pregnant women, people with HIV/AIDS and other vulnerable groups.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 7,
+          "char_start": 13651,
+          "char_end": 13851,
+          "passage_sha256": "091c484afe62f219b073d98c94a5b45e5066f18af19100192044064dab5c39d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-004",
+        "statement": "A new medicine becomes publicly funded after INFARMED finishes its health technology assessment and negotiates the price, and the Secretary of State for Health then places it on the positive reimbursement list.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 23,
+          "char_start": 156948,
+          "char_end": 157165,
+          "passage_sha256": "373d9d29357fbe11377d5918a445348b12fa5658091d1c8b1ab2e14b1caa83a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-005",
+        "statement": "Medicines dispensed in NHS hospitals are covered in full, while those used in private hospitals are paid out of pocket or through voluntary insurance.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 23,
+          "char_start": 157166,
+          "char_end": 157327,
+          "passage_sha256": "87698e957750c180e99b59c345b32e0e4c75a31ad69b594d0cc6f8c8da8ad74e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-006",
+        "statement": "Vaccines in the national immunisation programme are free for all NHS users and can be given in local primary care units.",
+        "valence": "strength",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 21895,
+          "char_end": 22029,
+          "passage_sha256": "3fe22afa1ad6a9773bdfd467d612e58e0142eba122c617ba9438fb59f9b61ed7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-007",
+        "statement": "Public coverage of therapeutic appliances such as vision products, hearing aids and wheelchairs is well below the EU average (21% compared with 39%).",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 97901,
+          "char_end": 98101,
+          "passage_sha256": "483e07c74d19cc0581bb0053714fb3b11656ef5754c0b146b8737e951c07657e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-covered-008",
+        "statement": "The NHS pays for urgent ambulance transport and for non-urgent trips for people on low incomes or with specific conditions, such as cancer or dialysis patients.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 113125,
+          "char_end": 113307,
+          "passage_sha256": "1022780d41b952ac33d80d875b2d579d329920195e291cf232d7e9ab3380786e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "PRT-cost_sharing-001",
+        "statement": "Portugal removed flat-rate user charges for primary care and NHS-prescribed services in 2020, and in 2022 abolished all remaining NHS flat-rate charges except for emergency department visits made without a referral or that do not lead to a hospital admission.",
+        "valence": "strength",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 5,
+          "char_start": 10039,
+          "char_end": 10389,
+          "passage_sha256": "72ba48a484740d8298c117094e5408dca5391af3a3eed250a6b9dd6b547211cf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-cost_sharing-002",
+        "statement": "As of December 2025, user charges for NHS-funded care apply only in hospital emergency departments, and they are waived when the patient was referred beforehand by the NHS or is admitted to hospital from the emergency department.",
+        "valence": "neutral",
+        "source_id": "ers-taxas-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 2394,
+          "char_end": 2898,
+          "passage_sha256": "b5376227f27e67cda2feed925b2affc32fe0b499fd02ceaba25901ac918cf5bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-cost_sharing-003",
+        "statement": "Prescriptions filled in community pharmacies are subsidised at one of four rates (90%, 69%, 37% or 15%), and patients pay the rest of the retail price; the 15% rate is transitional and currently has no medicines in it.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 23,
+          "char_start": 157328,
+          "char_end": 157607,
+          "passage_sha256": "3b74b1bec30314762907e20b668a98a4adc8899f612ebb87edcb085c02183506"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-cost_sharing-004",
+        "statement": "Designated life-saving medicines, some chronic conditions and low-income pensioners are exempt from pharmacy co-payments.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 161711,
+          "char_end": 161854,
+          "passage_sha256": "82e4ff527b1fadb8aad7e9b808356210e21fcf3dd8d05c45affe1c4cc38e1e48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-cost_sharing-005",
+        "statement": "Public coverage of retail pharmaceutical spending was 55% in 2023, below the EU average of 62% and well below France and Spain.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 161855,
+          "char_end": 162055,
+          "passage_sha256": "ffea200ab7577ad7d9cb14dc8aa0ca7508d36e81b15c0c8d647144a0e5e75368"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-cost_sharing-006",
+        "statement": "In 2022, outpatient medical care accounted for 54% of out-of-pocket spending, pharmaceuticals for 22% and inpatient hospital care for 10%.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 5,
+          "char_start": 9019,
+          "char_end": 9182,
+          "passage_sha256": "b1a7f92f6708a082e347992a76776087f9654f5e9f65fdfef4185487bac073b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PRT-cost_sharing-007",
+        "statement": "In 2023 the NHS spent EUR 1,593.8 million on pharmaceuticals, and patients contributed EUR 859.8 million toward that total.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 48330,
+          "char_end": 48653,
+          "passage_sha256": "59a56f84e407c2da6807ac1287ca3c0ea1ec04af8c8609c160d4b8baab73096f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "PRT-financial_hardship-001",
+        "statement": "A study of Portuguese household budget surveys from 2005 to 2022 found that the incidence of catastrophic health expenditure fell from 9.42% in 2005 to 5.04% in 2022.",
+        "valence": "neutral",
+        "source_id": "catastrophic-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1150,
+          "char_end": 1531,
+          "passage_sha256": "ecced0fc3dfe6a3d2b22e34ef4cad302d4ffb0a6ee0c6f972424f856921381c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2005-2022"
+      },
+      {
+        "id": "PRT-financial_hardship-002",
+        "statement": "The same study found that reduced access to the NHS was associated with more use of private services and out-of-pocket costs, and that older people and those unable to work remain vulnerable, with households including at least one older member particularly exposed to catastrophic spending.",
+        "valence": "weakness",
+        "source_id": "catastrophic-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1532,
+          "char_end": 1878,
+          "passage_sha256": "85b7b03b380f2c1e3fa3d17620ac25b944a2d79a54a03044677175cb50dd847b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-financial_hardship-003",
+        "statement": "78% of all catastrophic health spending falls on households in the lowest income quintile; pharmaceuticals account for 42% of it, and medical products and dental care for 18% each.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 104122,
+          "char_end": 104498,
+          "passage_sha256": "d290d75484115c76ff2fc5acd4ce9283902d369594212b7b42cc359c0a48c870"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "PRT-additional_care-001",
+        "statement": "About a third of people (almost 3.7 million in 2022) hold voluntary health insurance; enrolment rose by more than 600,000 since 2021, which the profile links to persistent shortages of general practitioners and long waiting times.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 54833,
+          "char_end": 55137,
+          "passage_sha256": "30c28922e578b01d25ae968a6afe8315b10a2ad6815d32c787f287bfe770014b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PRT-additional_care-002",
+        "statement": "Some dentists contract with one or more Health Subsystems or voluntary insurers, and each plan sets its own list of eligible treatments and fees.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 28671,
+          "char_end": 28806,
+          "passage_sha256": "7d1f5869a04aa7a8524be16e7268b4d883a16478aa1ab8b69eaf37e79532e6f8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-additional_care-003",
+        "statement": "The share of adults who turn to private providers when sick has doubled since 2013, to 15%.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 70140,
+          "char_end": 70267,
+          "passage_sha256": "4916dc7a1c20421da099c27b585ef2943dc09b5aac856b4265057ca842ef0494"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "PRT-access-001",
+        "statement": "By early 2025, 1.6 million people (15% of the population) had no assigned NHS family doctor, ranging from 31% in Lisbon and Tagus Valley to 3% in the North region.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 69564,
+          "char_end": 69795,
+          "passage_sha256": "c6a337687bff37d9d8d6fa484e20c36d63acf22294bb752df5b2c90d99f0566a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PRT-access-002",
+        "statement": "According to Eurofound's 2025 survey, 6% of people had an unmet need for a GP visit in 2024, double the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 69796,
+          "char_end": 69933,
+          "passage_sha256": "6c61c20f211b5f2f00c447eb321e3c509ae0b9a02d63e5fc4b66bd5cf0b6131c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-access-003",
+        "statement": "85% of people in the highest income quintile have an assigned NHS family doctor, compared with 70% of those in the lowest.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 69934,
+          "char_end": 70139,
+          "passage_sha256": "69b77fee9699d9952c5f015b35d69dcea0bb466573273201f63d5503d0f23593"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-004",
+        "statement": "In 2024, 4% of people aged 16 and over who needed medical care, and more than 15% of those who needed dental care, reported unmet needs because of cost, distance or waiting times; both rates were slightly lower than in 2021 but above the EU average, and people at risk of poverty were about twice as likely to go without.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 114141,
+          "char_end": 114614,
+          "passage_sha256": "7c199b3e0bae48bf3a60a36bd3d18a8d581563a1f9356162a4fb022c2609c7f8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-access-005",
+        "statement": "At the end of 2024, more than 200,000 people were waiting for surgery and 15% had already passed their maximum guaranteed response time (17% for oncology, 59% for cardiovascular procedures); 925,000 were waiting for a first specialist visit, 55% of them beyond the maximum (79% for oncology, 86% for cardiovascular care).",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 128906,
+          "char_end": 129307,
+          "passage_sha256": "ed9fc74f15d29043cccdca807a17ffed30bf6389382eba87d0aecbb8bfc8b9b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-access-006",
+        "statement": "Among patients operated on in 2024, average waits ranged from almost four months for cataract removal to nearly six months for knee replacement; these waits were shorter than in 2019 and similar to or below Spain's.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 128464,
+          "char_end": 128727,
+          "passage_sha256": "49bab18019207ead93536def650ba9d8c54a6251074eaef7476c60fdbea27a1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-access-007",
+        "statement": "Unmet medical needs due to waiting lists tripled between 2014 and 2024, and the poorest income quintile reported unmet care at three times the rate of the richest.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 129308,
+          "char_end": 129490,
+          "passage_sha256": "edc26323e7050544f799d560b0d8370bc093c93e7e03c5d3a3b7ecbf81cce0ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2014-2024"
+      },
+      {
+        "id": "PRT-access-008",
+        "statement": "Almost 10% of the population was on an NHS waiting list for a specialist appointment, leading many to use private providers and pay out of pocket.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 102890,
+          "char_end": 103030,
+          "passage_sha256": "b9e6b1cdc90c4e0c0ac7e19af0958fda5cd9f7850c17615ce953721cfb7ee9a3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-009",
+        "statement": "In 2023 Portugal had the EU's highest rate of emergency department use, at 77 visits per 100 population against an EU average of 31.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 130600,
+          "char_end": 130732,
+          "passage_sha256": "108d9d9ec63404c3a31c6006b235ad21169343a013cc774241e5dda4aef86569"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-access-010",
+        "statement": "Almost two in five emergency department episodes (about 15 million) were triaged as non-urgent, and triage was done on time in only 60% of cases.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 132905,
+          "char_end": 133044,
+          "passage_sha256": "4cb466bcbbab058495707828bba2b2d6b0cb7ddd67a52c4b5a4ac0c820806717"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-011",
+        "statement": "Average driving time to the three nearest hospitals with an emergency department is under 15 minutes mainly around urban coastal centres but can approach an hour in large inland regions.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 112976,
+          "char_end": 113124,
+          "passage_sha256": "3899f502422efd1c4a5bd878435beb4121af8e5cc95a6c3eccd718a028c3e4c3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-012",
+        "statement": "Gastrointestinal endoscopy through NHS-contracted providers is available in only 81 of the 278 mainland municipalities (29%).",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 113630,
+          "char_end": 113917,
+          "passage_sha256": "82453577adac295ee53ce8098287a99560bbed26cd240b6238749697c3645566"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-013",
+        "statement": "The Health Regulatory Authority found that residents of 119 municipalities had no NHS birth centre within a reasonable drive, and better access in Lisbon depends on private facilities.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 133696,
+          "char_end": 133929,
+          "passage_sha256": "4f9a5fa0a4319e2016bce2c57af81664602ed1aae0f55c769d557d009bd38903"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-014",
+        "statement": "Almost all of the population lives within 30 minutes of a primary care facility, but staffing differs between facilities, so living near a unit does not guarantee registration with a GP.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 19570,
+          "char_end": 19946,
+          "passage_sha256": "de0109be2496b67dd395caf14902c97afd7529ea66866df8757ba6da95955b00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-access-015",
+        "statement": "In 2023, 9% of people said they had not bought all their prescribed medicines because they could not afford them, rising to 41% in the lowest income quintile against 1% in the highest.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 162335,
+          "char_end": 162590,
+          "passage_sha256": "f3590d933a6df1042e76d9b4492c96dbb287323bab1d1fd7dc60e7f989323e3a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "PRT-outcomes-001",
+        "statement": "Life expectancy at birth reached 82.7 years in 2024, one year above the EU average but 1.4 years below Italy and 1.3 years below Spain.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 4,
+          "char_start": 14439,
+          "char_end": 14630,
+          "passage_sha256": "8e7614c212c434849fb0d75f7e900790ac2ef32c4d8daca2821f88f3d976fb3b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-outcomes-002",
+        "statement": "Mortality from preventable causes returned to its pre-pandemic level in 2022 and was 17% below the EU average, though higher than in Italy, Spain and most Nordic countries.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 74545,
+          "char_end": 74764,
+          "passage_sha256": "5cdd63a7bb3c610bcab6cba1c83a50a99349589c0ee06c753b1e59d63e72ecac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PRT-outcomes-003",
+        "statement": "Treatable mortality was also 17% below the EU average in 2022 and fell by about 20% between 2012 and 2022, mainly through sharp falls in stroke deaths attributed to better hypertension control, the national stroke fast-track pathway and more stroke units.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 81339,
+          "char_end": 81857,
+          "passage_sha256": "6e081433d4d511a1c12263b6902592fdf530cea8938c452231c8707ba9eb438f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PRT-outcomes-004",
+        "statement": "In 2023 Portugal had 236 hospital admissions per 100,000 people aged 15 and over for asthma and COPD, diabetes and congestive heart failure combined, the second-lowest rate in the EU and under half the EU average.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 82859,
+          "char_end": 83124,
+          "passage_sha256": "15bb7c03110f1a013b1ab418193f46e87896b9e9187cef2e3cdb0f684d24a95b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-outcomes-005",
+        "statement": "In 2024, 99% of infants received a first dose of measles vaccine.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 84501,
+          "char_end": 84555,
+          "passage_sha256": "2089d10cb9bdac5adb09007a31232d72afb9e81e1ef426be3fd675f1244fcaea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-outcomes-006",
+        "statement": "Flu vaccination among people aged 65 and over rose from 61% in 2017-18 to 72% in 2022-23, the third-highest rate in the EU and nearly 25 percentage points above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 85509,
+          "char_end": 85730,
+          "passage_sha256": "29b934f06f53ee935047882fb674631701601a55ae365e7ff0befbb34a0534ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2017-2023"
+      },
+      {
+        "id": "PRT-outcomes-007",
+        "statement": "Caesarean sections were 38% of births in 2023, about a third above the EU average and more than twice the WHO benchmark of 15%; the rate was 32% in public hospitals but almost 65% in private ones.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 90818,
+          "char_end": 91216,
+          "passage_sha256": "b02e6c7c21ac5b8d1adfe93836b709c2e17c1d729796fe51188052a78bded984"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-outcomes-008",
+        "statement": "In 2023 more than half of people aged 65 or over with a hip fracture waited more than 48 hours for surgery, the third-worst result in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 91262,
+          "char_end": 91450,
+          "passage_sha256": "8ca3ace4b8f28e7a19c4015a46757d36a9f6bd8e542c8c857764610bc099b1bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-outcomes-009",
+        "statement": "In the OECD PaRIS survey of patient-reported experience, Portugal scored below the EU average on all five measures; the weakest was care coordination, rated positively by only 49% of respondents.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 92191,
+          "char_end": 92519,
+          "passage_sha256": "f96fde6fae735ab1428ac97e036fa0c213884697f225693e37bbc63d75e9c1ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-outcomes-010",
+        "statement": "The Global Burden of Disease study put Portugal's Healthcare Access and Quality (HAQ) Index at 83.9 (95% uncertainty interval 81.5-86.0) for ages 0-74 in 2019, with 91.0 for ages 0-14, 84.0 for ages 15-64 and 74.9 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 (columns: overall 0-74, young 0-14, working 15-64, post-working 65-74 years)",
+          "char_start": 45956,
+          "char_end": 46044,
+          "passage_sha256": "6ddb732764f11d579d8473cc9e0f643b3af591c1ca224b1787ebe25bdee85944"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PRT-outcomes-011",
+        "statement": "For heart attack patients, the death rate within 30 days of hospital admission is higher than in many other EU countries and has barely improved since 2011.",
+        "valence": "weakness",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 15,
+          "char_start": 38096,
+          "char_end": 38317,
+          "passage_sha256": "1691b80452e3693da67d49d04924d9472a427b5093a1242aa1d5be6e613e4a60"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-outcomes-012",
+        "statement": "In 2023 screening coverage reached 55% for breast and cervical cancer and 17% for colorectal cancer, record highs for Portugal but well below leading countries such as Ireland, Slovenia and Sweden.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 89281,
+          "char_end": 89547,
+          "passage_sha256": "0335f7e248dde876c2d575bca34a470c21af97592291bbfd70805c77e0e9410e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-outcomes-013",
+        "statement": "Recent EU surveillance rounds ranked Portugal third-highest for healthcare-associated infections in hospitals and highest for pressure ulcers among long-term care residents.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 91451,
+          "char_end": 91705,
+          "passage_sha256": "755105e39155e26e3b6647f7688c8fd2bb0cf472984e165ded9a345ede322b87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "PRT-costs-001",
+        "statement": "In 2023 Portugal spent EUR 3,001 per person on health, about a fifth below the EU average; health spending was 10% of GDP, the same as the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 54042,
+          "char_end": 54224,
+          "passage_sha256": "50320eca24c6caa19bad687caa6d4c296d4413dd906114172f4205581acf8ddc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-costs-002",
+        "statement": "In 2023, 45% of current health spending went to outpatient services, the highest share in the EU, against an EU average of 28%.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 59758,
+          "char_end": 59920,
+          "passage_sha256": "e0743122a246160b7c1f304bbf7ce1815868600896f45d007c695e2354b95bfe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-costs-003",
+        "statement": "Prevention received 2.3% of health spending in 2023, roughly half the EU average of 4.0%.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 60351,
+          "char_end": 60468,
+          "passage_sha256": "008f94110a58ae2d1d590dbc479ea86935be54ec5c90db7ab221192314d24cdb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-costs-004",
+        "statement": "Governance and administration also take 2.3% of health spending, compared with 4.2% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 61015,
+          "char_end": 61198,
+          "passage_sha256": "d527341cd1ddf0ca9d603bdcc552d18eefef35c8dfa7351e3596173c9c0e2d78"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-costs-005",
+        "statement": "Public health spending grew almost 30% in real terms between 2015 and 2023, about five percentage points faster than the EU average, with most of the gap opening from 2018.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 143347,
+          "char_end": 143688,
+          "passage_sha256": "907cad778974e6a0ea371d11f614416eb7f7217517dfed480fe96760dc220890"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2015-2023"
+      },
+      {
+        "id": "PRT-costs-006",
+        "statement": "The Public Finance Council reports that NHS spending rose 9.1% in 2024 over 2023, driven mainly by a 12.1% (EUR 704 million) rise in personnel costs.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 143689,
+          "char_end": 143860,
+          "passage_sha256": "6c5a9363a6cb88aa8636018797564450fa2bd85a810bee13a9e229fe23ecf585"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-costs-007",
+        "statement": "Retail medicine spending was EUR 396 per person in 2023 (adjusted for purchasing power), about a fifth below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 23,
+          "char_start": 154290,
+          "char_end": 154452,
+          "passage_sha256": "9701ec004699fa4592b490260525059fc46c582b507522380986cc5f9c9d7a7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-costs-008",
+        "statement": "Between 2014 and 2024 retail medicine spending rose 39% to EUR 2.6 billion, while hospital medicine spending more than doubled, from EUR 960 million to almost EUR 2.3 billion.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 23,
+          "char_start": 155778,
+          "char_end": 156301,
+          "passage_sha256": "eb679fee671d33f95645529c81e9d86f1b9a15037eb3803e37581ec854fa7f6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2014-2024"
+      },
+      {
+        "id": "PRT-costs-009",
+        "statement": "Hospital spending was 42% of total health spending, slightly above the EU average of 40%, while outpatient care was 26%, just below the EU average of 28%.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 43888,
+          "char_end": 44142,
+          "passage_sha256": "140035b0d6299bb3dd7538e0f1ae831293b96878a944a1949582933a7ad37a7f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "PRT-what_works-001",
+        "statement": "Adults with well-controlled hypertension recorded in primary care rose by more than 40%, from about 385,000 in 2015 to 550,000 in 2024, which the profile credits with helping to cut stroke deaths.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 82177,
+          "char_end": 82458,
+          "passage_sha256": "173a62d0b6c340fab0e3b107f155146150635e1795218f368231bb46de779d53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2015-2024"
+      },
+      {
+        "id": "PRT-what_works-002",
+        "statement": "By the end of 2024, 81% of people with diabetes had had their feet examined in the preceding year, a record high.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 82459,
+          "char_end": 82590,
+          "passage_sha256": "e86a3849bd2bf2cc67b4ad5ba839116366556569e8e4dfd28d28f9b42d09e1cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-what_works-003",
+        "statement": "Allowing people aged 65 and over to get flu vaccines in pharmacies without a prescription from 2021-22 raised coverage by 10 percentage points in one season; the policy is now permanent for everyone aged 60 and over, and in 2023-24 pharmacies gave 70% of the 2.5 million flu shots.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 14,
+          "char_start": 88699,
+          "char_end": 89066,
+          "passage_sha256": "462cec21013055619de8a27d0d33d8a192fa686b755ca3fbb400d2dd303261fc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-what_works-004",
+        "statement": "In 2024 about 11,500 patients were treated through NHS home hospitalisation for an average of 9.3 days, the equivalent of 366 beds; the programme reached every public hospital in 2025, and early results showed mortality two percentage points lower than expected for similar in-hospital cases.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 127413,
+          "char_end": 127900,
+          "passage_sha256": "944536ed9b6cf35d5f206004d9c43afd7afc2e5bc98f6ad6cede1614243d93e1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-what_works-005",
+        "statement": "The European Commission's 2024 Digital Decade report gave Portugal an e-health score of 86, well above the EU average of 79.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 22,
+          "char_start": 147643,
+          "char_end": 147774,
+          "passage_sha256": "3d816957c06e41528f4e817035e7a8ecaf07a3fd5c8c5f3dd129b4c1980640fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-what_works-006",
+        "statement": "Teleconsultations per person were more than twice the EU average after rising 56% between 2019 and 2023.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 22,
+          "char_start": 148706,
+          "char_end": 148797,
+          "passage_sha256": "290691d93db19d1d118fb2318bae46c596ee481102672eb529995a326ae132d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2019-2023"
+      },
+      {
+        "id": "PRT-what_works-007",
+        "statement": "Generics made up 53% of packs dispensed in community pharmacies in 2024, up from 33% in 2010, and 25% of retail sales value.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 165288,
+          "char_end": 165447,
+          "passage_sha256": "cc8085ec9d38061b7b8dc68308831b06d5d73f3926aca6bc905057764432685e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-what_works-008",
+        "statement": "Biosimilar competition has made mature biologics such as adalimumab, infliximab and rituximab 45-79% cheaper than in 2018, saving the NHS an estimated EUR 145 million in 2023.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 25,
+          "char_start": 168948,
+          "char_end": 169113,
+          "passage_sha256": "d3c454a28540110c3be7d892547f6913f1c57e257073937c90b2f3eae1aef284"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-what_works-009",
+        "statement": "Given its spending, Portugal's treatable mortality is in line with countries that spend much more per person, such as Austria, Finland and Ireland, which the summary reads as comparatively good outcomes for the money.",
+        "valence": "strength",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 43519,
+          "char_end": 43838,
+          "passage_sha256": "f6c1e1fba63466c20ec1bedd035927787b201af15c193b6860f25873512df59a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-what_works-010",
+        "statement": "Infant immunisation against RSV was introduced in 2024-25; according to official statements, related hospital admissions fell by about 85% in babies up to three months, 40% at three to six months and around 25% in children up to two years.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 84750,
+          "char_end": 85134,
+          "passage_sha256": "9884eed834f0b50dbe1967681728818370d1dfeb930d68fb9bda6dbdbabc5542"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "PRT-problems-001",
+        "statement": "NHS overtime reached 19.8 million hours in 2022, 51% more than in 2018, and agency work for doctors reached 4.7 million hours; PlanAPP estimates that ending reliance on overtime and agency staff would need about 6,100 more full-time doctors and 3,900 more full-time nurses.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 67909,
+          "char_end": 68422,
+          "passage_sha256": "18c23475883c571282d71afec3217e82bf27bf9fc5f4b2d2a91f5fec8e6e24b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PRT-problems-002",
+        "statement": "A third of NHS specialists and a fifth of nurses are 55 or older, and 12% of doctors are already over 65.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 67366,
+          "char_end": 67486,
+          "passage_sha256": "90ff2d724abf92d6b55e9351c4a049e79054f488f8c4de0d814414269f5c0a89"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-problems-003",
+        "statement": "In June 2025 fewer than half of the NHS GP posts offered to doctors finishing their residency were filled.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 74276,
+          "char_end": 74427,
+          "passage_sha256": "8e072ef1140c83a07f71067c011e43abf19f6cf90e80f4fcf6e379562b6e6a6e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PRT-problems-004",
+        "statement": "In the 2024 residency round a third of posts were set aside for family medicine, but a quarter of them went unfilled.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 140025,
+          "char_end": 140241,
+          "passage_sha256": "4befdd4eaf7fc0bae207c9aa77ce2f9e202ff78aa2b20bcd85c5b7c5fc776e2f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-problems-005",
+        "statement": "The share of patients without an assigned GP in 2023 (15.8%) was slightly above its 2009 level and far above 2019, when only 7.3% had none.",
+        "valence": "weakness",
+        "source_id": "gp-coverage-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 9486,
+          "char_end": 9736,
+          "passage_sha256": "52a59318f0ea2b98aff158ca01653b527564af6ffe1cb4d375637747744e28e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-problems-006",
+        "statement": "A study of 2009-2023 data attributes the rise in patients without an assigned GP both to fewer physicians and to smaller patient lists per doctor.",
+        "valence": "weakness",
+        "source_id": "gp-coverage-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3070,
+          "char_end": 3249,
+          "passage_sha256": "15d049f2d81283da5f4092b1c4d5478624eca07d2293a2b4a00ca894cd837365"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-problems-007",
+        "statement": "In March 2025 more than 2,300 patients had stayed in NHS hospital beds for social rather than clinical reasons over the previous year, equal to 12% of NHS bed capacity, reflecting scarce social services and long-term care.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 18,
+          "char_start": 117584,
+          "char_end": 117887,
+          "passage_sha256": "c48fa0f601bad8bdbe1df2faec5d57f6cd8258640b5f8daea7df4794ed8ed84c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PRT-problems-008",
+        "statement": "Persistent shortages of doctors and high bed occupancy have led to repeated overnight or weekend closures of emergency departments, especially in the Lisbon metropolitan area.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 133045,
+          "char_end": 133276,
+          "passage_sha256": "f30f2a32f8b2fa5f95326d1251ffb6f3a1ab57dbae0b5972484a4540176610fc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-problems-009",
+        "statement": "Nearly 1.5 million calls to the NHS triage line, about a quarter of the total, went unanswered in the first nine months of 2025.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 13,
+          "char_start": 84008,
+          "char_end": 84150,
+          "passage_sha256": "53774503b88113f9a924a6859a3702f34baa4ec4e2a988bcb9841f136d105104"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PRT-problems-010",
+        "statement": "For medicines approved by the European Commission between 2020 and 2023, Portugal had one of the longest average times to reimbursement, 840 days against an EU average of 578.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 24,
+          "char_start": 164299,
+          "char_end": 164564,
+          "passage_sha256": "b8ec18d2a89f7dd9d1d81e2d7f8942766ccfec71089a8d281e9716f722b841fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2020-2023"
+      },
+      {
+        "id": "PRT-problems-011",
+        "statement": "In May 2025 the NHS owed EUR 977.6 million to pharmaceutical and diagnostics companies, 59% of it overdue, with average payment times of 211 days, beyond the 60-day limit of the EU Late Payments Directive.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 25,
+          "char_start": 172547,
+          "char_end": 172831,
+          "passage_sha256": "294a88de24f860637afd8b788e329e32384b598eabe2643e4daa1fc6e57d4607"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PRT-problems-012",
+        "statement": "Portugal is one of only three EU countries that cannot report the number of practising physicians; its headline figure of 5.8 licensed doctors per 1,000 people includes retirees and others not practising.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 62271,
+          "char_end": 62595,
+          "passage_sha256": "b24c82f7dea43abbebf75c095a8eeab4804fab0cf9556a6f8ab311569677fe6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-problems-013",
+        "statement": "In 2023 Portugal produced only 28 nursing graduates per 100,000 population, 29% below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 134924,
+          "char_end": 135039,
+          "passage_sha256": "c8c06d2053b4b93dd0d4b2818e8016ae7d06f1bd5a9e77afb577540124547b1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-problems-014",
+        "statement": "More than a third of dental vouchers went unused in 2023, limiting the scheme's impact.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 114934,
+          "char_end": 115016,
+          "passage_sha256": "1d7e0e39e888aa92056290524e1678526987b0a5d55f30cf1d3e6f013ab52b10"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PRT-problems-015",
+        "statement": "In December 2025 the Health Regulatory Authority warned that it was increasingly finding NHS users charged fees that did not appear to comply with the law, including emergency fees charged to patients sent to the emergency department by NHS staff because of scheduling constraints.",
+        "valence": "weakness",
+        "source_id": "ers-taxas-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 2,
+          "char_start": 298,
+          "char_end": 1286,
+          "passage_sha256": "74bb69a3d53e909b052ac7e5865e468c67a9ea46e0534b78302c9bd4dfda543f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-problems-016",
+        "statement": "Hospitals ran up a cumulative deficit of 2.5% of GDP between 2014 and 2022, mainly because of underfunding, and a national assessment found hospital efficiency fell from about 85% in 2012 to 80% in 2022.",
+        "valence": "weakness",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 44307,
+          "char_end": 44661,
+          "passage_sha256": "9b42a44b3ea0f494f0d7d025dc307c87166b87532eeb2b18d1cead2009dbb511"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2012-2022"
+      },
+      {
+        "id": "PRT-problems-017",
+        "statement": "In the 2024 Stada Report survey, 49% of Portuguese respondents were satisfied with the NHS, compared with an EU average of 56%.",
+        "valence": "weakness",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 38956,
+          "char_end": 39119,
+          "passage_sha256": "676ae683386f9c36509c739ff782b13231e41e18fc247964a8279a90ecfb7edb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PRT-problems-018",
+        "statement": "Under the reformed governance structure, responsibilities overlap in some areas: the NHS Executive Board's remit intersects with those of the Central Administration of the Health System, the Directorate-General of Health and the Ministry.",
+        "valence": "weakness",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 51914,
+          "char_end": 52128,
+          "passage_sha256": "54047f3e242b1282ee22119e535ff1f19be953481423d8f82aa19c6b51e8064a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-problems-019",
+        "statement": "A 2015 incentive package for doctors in underserved areas, revised in 2017 and 2021, increased the number of beneficiaries 14-fold and 59% stayed in the same underserved institution, but their retention was barely different from that of doctors without the incentives.",
+        "valence": "neutral",
+        "source_id": "incentives-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3851,
+          "char_end": 4178,
+          "passage_sha256": "3378835901bd3053fd3354e29d6343aa0a8b9e276183425137c5ba0f0b545656"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "PRT-reforms-001",
+        "statement": "A new NHS Statute in 2022 created the NHS Executive Directorate to manage and coordinate the NHS and oversee the National Health Plan 2021-2030, and set up local management structures to coordinate providers.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 2973,
+          "char_end": 3234,
+          "passage_sha256": "8ce7fe42613772533377e0aa7e57ccd112903a8118aac73e06d939cf987e5666"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "historical": true
+      },
+      {
+        "id": "PRT-reforms-002",
+        "statement": "In September 2024 the five Regional Health Administrations were abolished and many of their functions, including regional workforce planning and the management of primary care, moved to the NHS Executive Directorate.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 3,
+          "char_start": 3526,
+          "char_end": 3983,
+          "passage_sha256": "8c373d50bbdbe96a5f4efe4aa09aab759f021331ff52c2725387e379c40471b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-003",
+        "statement": "Local Health Units, which put public hospitals, primary care and long-term care providers in an area under one management, were extended nationwide to 39 operating units in 2024, after only seven had been set up in the 2000s.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 12,
+          "char_start": 27340,
+          "char_end": 28137,
+          "passage_sha256": "44373e68a45a3d67e9411e26e9dafb143c3a6a16c70d5862f38051650ac5cbb2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-004",
+        "statement": "The 2024 reform introduced capitation funding for Local Health Units based on new risk-adjustment tools; early assessments call for refining the method and clarifying financial flows between units, especially for referrals.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 52278,
+          "char_end": 52739,
+          "passage_sha256": "8afca5f88603c8cd76e585f35c0c71cd9b5a0afa6c3bee20e84488fb5cdbbc83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-005",
+        "statement": "Authors from the NHS Executive Board describe the 2024 reform as making the same institutions responsible for public primary and hospital care in each area, and say it will need adequate monitoring and support to integrate care effectively.",
+        "valence": "neutral",
+        "source_id": "lhu-reform-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3582,
+          "char_end": 4097,
+          "passage_sha256": "9ce6b10e59d49315a03d6138cbefe2e1672253dd42afe297de152b0a6d8ae65d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-006",
+        "statement": "After all model-A Family Health Units were converted in 2023-25, nearly all now pay staff partly by performance (model B); privately owned model-C units have had limited uptake, and surveys report widespread GP dissatisfaction with integration into Local Health Units.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 9,
+          "char_start": 53327,
+          "char_end": 53783,
+          "passage_sha256": "f16ec95f079912dee086dcf9cde543e977df567698344e9808b65b7aa6eae7a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-007",
+        "statement": "The 2024 Emergency and Transformation Plan for Health made the NHS telephone triage line the default entry point for self-referred emergency patients (piloted in 2024, nationwide in early 2025), raised night-shift pay and created Clinical Care Centres for less urgent cases.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 133277,
+          "char_end": 133695,
+          "passage_sha256": "1d9a4d3cc3ba6f92e00d1f38c50325a50d6c46f6cf45cd2806c8e5ed047fb43f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-008",
+        "statement": "The 2024 plan proposed replacing the surgical waiting-list system (SIGIC) with a National System for Access to Consultations and Surgeries by late 2025 and cutting maximum waiting-time tiers to two (urgent and normal) with shorter limits.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 19,
+          "char_start": 130150,
+          "char_end": 130446,
+          "passage_sha256": "3c399ab41848fc39e028ab3c3bb6140dea6fbd6810275c0a78678ae556be9344"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-009",
+        "statement": "Full Dedication contracts introduced in late 2023 raise doctors' base pay while limiting dual practice, and phased pay rises through 2027 were agreed with doctors' and nurses' unions in late 2024 and early 2025.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 11,
+          "char_start": 69051,
+          "char_end": 69346,
+          "passage_sha256": "5b49921294d82e7d2ff25e0a98bd937e3a29fbd6289b9a1704f6bb2dcc3f9914"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-010",
+        "statement": "Medical graduates rose 46% between 2010 and 2023 to 17 per 100,000 population, above the EU average, and three new medical schools added 190 places in 2024-25.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 20,
+          "char_start": 134300,
+          "char_end": 134559,
+          "passage_sha256": "4d475c02822844f3f35a670d83335411dd9b0def59a8eb4b9eb92a557eb1d38f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-011",
+        "statement": "Since mid-2023 employees can self-certify short sick leave through SNS24; with related measures this is estimated to free about 1.5 million consultations a year, the workload of roughly 200-325 GPs.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 21,
+          "char_start": 141744,
+          "char_end": 142372,
+          "passage_sha256": "f1470afadec4f7986e6cd270165276a224cc4e7a2c1358de509b5dc6fdfc9678"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-012",
+        "statement": "In 2024 the government extended full reimbursement of prescribed medicines to the 140,000 recipients of the means-tested Solidarity Supplement for the Elderly, at an expected extra cost of EUR 10 million a year.",
+        "valence": "strength",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 16,
+          "char_start": 104539,
+          "char_end": 104788,
+          "passage_sha256": "12f3c24a965aa0684a68eeb6c5996ab5eb6139ac77d864cb7d78c933284bae34"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-013",
+        "statement": "A government programme from June 2025 aims to widen dental voucher coverage, add a voucher for dental prostheses for recipients of the Solidarity Supplement for the Elderly and strengthen oral health teams.",
+        "valence": "neutral",
+        "source_id": "chp-prt-2025",
+        "locator": {
+          "section": "Full text",
+          "page": 17,
+          "char_start": 115017,
+          "char_end": 115293,
+          "passage_sha256": "4b15d7068e170ec43ac0b4e8c8edff260456174df81d1561b863831f8e5e2cb7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "PRT-reforms-014",
+        "statement": "A More Doctors training programme launched in 2024 offers salary and housing benefits to draw young doctors to hospitals in sparsely populated districts.",
+        "valence": "neutral",
+        "source_id": "hss-prt-2024",
+        "locator": {
+          "section": "Full text",
+          "page": 10,
+          "char_start": 20143,
+          "char_end": 20331,
+          "passage_sha256": "da500cdbf303ddd7474c20f9281b4d4eace19942c9d97a2874337f1227cfcb7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/PRT.json",
+  "sources": [
+    {
+      "id": "chp-prt-2025",
+      "title": "State of Health in the EU: Portugal, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-portugal-final-web.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hss-prt-2024",
+      "title": "Portugal: Health System Summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Fronteira I, Augusto GF, Maresso A",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/publications/i/portugal-health-system-summary-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/7f21852d-5d94-4735-8135-8909b8d8d431/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gp-coverage-2024",
+      "title": "Primary health care coverage in Portugal: the promise of a general practitioner for all",
+      "publisher": "Human Resources for Health",
+      "authors": "Costa E, Pestana J, Barros PP",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12960-024-00936-7",
+      "doi": "10.1186/s12960-024-00936-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11316367",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "lhu-reform-2024",
+      "title": "The Portuguese NHS 2024 reform: transformation through vertical integration",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Goiana-da-Silva F, Sá J, Cabral M, Guedes R, Vasconcelos R, Sarmento J, Morais Nunes A, Moreira R, Miraldo M, Ashrafian H, Darzi A, Araújo F",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.3389/fpubh.2024.1389057",
+      "doi": "10.3389/fpubh.2024.1389057",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11153707",
+      "license": "CC BY 4.0",
+      "funding_note": "Perspective article; several authors, including the then executive director, were affiliated with the Portuguese NHS Executive Board that carried out the reform.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "incentives-2025",
+      "title": "Effectiveness of an incentives package to attract and retain physicians to underserved areas: a case study from Portugal",
+      "publisher": "Human Resources for Health",
+      "authors": "Alidina S, Cortes J, Fronteira I",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12960-025-00999-0",
+      "doi": "10.1186/s12960-025-00999-0",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12243323",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "Lead author works in the Central Administration of the Health System (ACSS), the agency that manages the incentive package.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "catastrophic-2026",
+      "title": "Determinants of catastrophic healthcare spending in Portugal (2005-2022)",
+      "publisher": "Health Policy OPEN",
+      "authors": "Tao TK, Barros PP",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.hpopen.2026.100171",
+      "doi": "10.1016/j.hpopen.2026.100171",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13123585",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "ers-taxas-2025",
+      "title": "Alerta de Supervisão 6/2025: Cobrança indevida de taxas moderadoras e outros encargos a utentes do Serviço Nacional de Saúde",
+      "publisher": "Entidade Reguladora da Saúde (Health Regulatory Authority, Portugal)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://ers.pt/media/33enufii/alerta-supervis%C3%A3o-6-2025-taxasmoderadoras.pdf",
+      "funding_note": "Statutory health regulator; supervisory alert to NHS providers (in Portuguese).",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "piv-29057",
+      "title": "Informação vinculativa, processo 29057: Art. 78.º-C CIRS, dedução de despesas de saúde (despacho de 2025-10-10)",
+      "publisher": "Autoridade Tributária e Aduaneira (Portuguese Tax and Customs Authority)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/informacoes_vinculativas/rendimento/cirs/Documents/PIV_29057.pdf",
+      "funding_note": "Binding tax ruling on an individual request; it restates the conditions of Article 78-C of the IRS Code (in Portuguese).",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created."
+    }
+  ]
+}

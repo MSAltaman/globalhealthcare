@@ -5,30 +5,2070 @@
   "system_as_of": "2026-11-13",
   "status": "draft",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "social_health_insurance",
+    "label": "Compulsory social health insurance run by non-profit sickness funds (mutualities) under an NIHDI-managed national budget; financed mainly by income-related social contributions plus VAT-based 'alternative financing' and state subsidies; mostly fee-for-service, no gatekeeping"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "BEL-overview-001",
+      "BEL-overview-002"
+    ],
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "overview": [
+      {
+        "id": "BEL-overview-001",
+        "statement": "Compulsory social health insurance covers 99% of people living in Belgium; each must be affiliated with one of five private non-profit national sickness funds, the sickness fund for railway staff, or the public sickness fund.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45606,
+          "char_end": 45839,
+          "passage_sha256": "da1a2dc10225794f3083077b872a4f4ffac2fcc50441affa5e45d1008f7c59f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-overview-002",
+        "statement": "Membership is compulsory for every resident, who chooses a sickness fund or the public auxiliary fund, and coverage does not involve any selection on health risk.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "How is the health system organized? Organization",
+          "page": 3,
+          "char_start": 1949,
+          "char_end": 2203,
+          "passage_sha256": "899ec39587d00d2770cc9a3231750888c6672ba6efd9b97383310d3e72cff652"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-overview-003",
+        "statement": "The National Institute for Health and Disability Insurance (NIHDI), a public body, runs the insurance scheme: it pools public money and gives each sickness fund a prospective budget from which the fund pays its members' care.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45943,
+          "char_end": 46178,
+          "passage_sha256": "c42e37a9c752a5e89e46771aa808cf8c043f5a4d701bdb2e2af1f608bd6bb41c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-overview-004",
+        "statement": "Governance is split: the federal level runs compulsory health insurance, sets the hospital budget and regulates health products, professionals and patients' rights, while the regions and communities lead on primary care organisation, care for older people, mental health care, rehabilitation, health promotion and prevention.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 46511,
+          "char_end": 47013,
+          "passage_sha256": "1b24f442e8b58f2c39d12db3e0179770d534ee11075cf72d0d6b5ff64edf3665"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-overview-005",
+        "statement": "Care is organised around independent medical practice, with no gatekeeping and free choice of doctor and facility.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 49805,
+          "char_end": 49971,
+          "passage_sha256": "a4c317db2b77312d49b339399296d5ebaa65fcd4fbfcffb337335affd1dc4d61"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-overview-006",
+        "statement": "Private not-for-profit hospitals own two thirds of acute hospital beds and public hospitals own the remainder.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50611,
+          "char_end": 50730,
+          "passage_sha256": "ab0f0403173ccc9c7f40f55ea78f9b9271e48dd9e2fecae0dc3ca739c2449466"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-overview-007",
+        "statement": "The sixth State Reform of 2014 moved more health responsibilities to the regions and communities, transferring over EUR 5 billion from the federal state, close to 15% of public health spending at the time.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "How is the health system organized? Planning",
+          "page": 3,
+          "char_start": 2906,
+          "char_end": 3230,
+          "passage_sha256": "bdfc1934a5936716aa1b4e2d47999082a869b07ec591beae3e075dc07880793f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2014,
+        "historical": true
+      }
+    ],
+    "financing": [
+      {
+        "id": "BEL-financing-001",
+        "statement": "Health insurance is funded mainly by social contributions that are proportional to income.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45840,
+          "char_end": 45942,
+          "passage_sha256": "300466e468578d4727a8b9c4bd68bd64e55d4b9f4c10691d4a83f2f116e81e88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-002",
+        "statement": "In 2023 government schemes and compulsory social health insurance funded 74% of health spending (EU average 80%); private sources paid the other 26%, with out-of-pocket payments alone at 22% against an EU average of 16% (OECD System of Health Accounts).",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52078,
+          "char_end": 52380,
+          "passage_sha256": "66b3343fe4d030414dd7ee71e1e729e415e4dec534e96aa111597ff968bc1e84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-financing-003",
+        "statement": "Voluntary health insurance financed nearly 5% of health spending in 2023 (OECD System of Health Accounts).",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52078,
+          "char_end": 52620,
+          "passage_sha256": "98cdc152bbeb3fc40b55ba1b449cf0f3af1f6d5f586fb5b4485b6e4b7ef2ea00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-financing-004",
+        "statement": "Besides social contributions, public funding comes from government subsidies, paid mostly from progressive revenue such as personal income tax, and from 'alternative financing', mainly a share of VAT (regressive) plus some withholding tax (progressive).",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 39965,
+          "char_end": 40413,
+          "passage_sha256": "2fbb7fd68fb8a883122e9037923dd129e2a4874bed059a150a28f6e16522f426"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-005",
+        "statement": "By KCE estimates, social security contributions supplied 52.6% of public health financing in 2017, a slightly smaller share than in 2007; the other sources were alternative financing (mainly VAT), government subsidies, own allocated receipts and miscellaneous receipts.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 109,
+          "char_start": 197634,
+          "char_end": 198056,
+          "passage_sha256": "f843bc06e136297c6fe1cc7ede4815436d097a3444bb0a55dc8ffbbabb8456f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "BEL-financing-006",
+        "statement": "Public financing of health insurance became more progressive after the sixth State Reform: progressive revenue rose from 7.3% of receipts in 2007 to 14.1% in 2017, but proportional revenue (52.6%) and regressive revenue (26.7%) still outweighed it in 2017.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "Executive summary",
+          "page": 27,
+          "char_start": 40414,
+          "char_end": 40793,
+          "passage_sha256": "35840341a2fe03c18fb236e118dc996d88b2a921ae7ab042e593273234738ee7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "BEL-financing-007",
+        "statement": "Since 1995 most social security revenue has been pooled under 'global financial management' and shared out among the seven social security branches, health insurance among them, according to each branch's financial need.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 108,
+          "char_start": 195312,
+          "char_end": 195654,
+          "passage_sha256": "797f477938af464b22e5a92846e9d4c746642de0f28b1921d87128debbbc6b9e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-008",
+        "statement": "The share of social contributions fell because federal subsidies grew after competences moved to the regions and communities in the sixth State Reform, and because a tax reform to reduce labour costs cut employers' contributions.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 109,
+          "char_start": 198057,
+          "char_end": 198441,
+          "passage_sha256": "1599d31b4c6a5be1855d02c4564f3d8ca4d358cc41a05fab851c9d1742b12ac3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-009",
+        "statement": "In both the general scheme and the scheme for the self-employed, contributions are a proportion of income and do not depend on health risk; in the general scheme employees and employers both pay, to the National Social Security Office.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 110,
+          "char_start": 199022,
+          "char_end": 199324,
+          "passage_sha256": "e2785942ba7be25384c1b11cbd4fc7770ac58776038ea09741547798b959265a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-010",
+        "statement": "Private-sector employees pay social security contributions of 13.07% of gross pay, with low earners paying less through the work bonus; these contributions fund all social security branches, not health alone.",
+        "valence": "neutral",
+        "source_id": "socsec-contrib",
+        "locator": {
+          "section": "Gewone socialezekerheidsbijdragen",
+          "char_start": 575,
+          "char_end": 748,
+          "passage_sha256": "0c4596e0b87df5741c769784a883d32c96cfdc82c93e1bda4b3921d27e2c82ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-011",
+        "statement": "The employer contribution is 25% for private for-profit employers and about 32% for private non-profit employers, who recover part of it through structural reductions.",
+        "valence": "neutral",
+        "source_id": "socsec-contrib",
+        "locator": {
+          "section": "Gewone socialezekerheidsbijdragen",
+          "char_start": 749,
+          "char_end": 1044,
+          "passage_sha256": "8a183cef144ada64a478d3d33543f19fabb7656625aa55da6c2279e1c7d1fc1a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-012",
+        "statement": "In 2025 self-employed people paid social contributions of 20.5% on professional income up to EUR 73,447.52 and 14.16% on the band from there to EUR 108,238.40, with a quarterly minimum of EUR 871.71 and maximum of EUR 4,995.78 under the general rule (before the funds' management fees).",
+        "valence": "neutral",
+        "source_id": "socsec-indep-2025",
+        "locator": {
+          "section": "I. Cotisations obligatoires, A. Catégorie générale",
+          "page": 1,
+          "char_start": 192,
+          "char_end": 1233,
+          "passage_sha256": "84e73a910b52fbe2c61eec81b2e1147006b9594df86c4c569c83dfe195b41e7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-013",
+        "statement": "Since 1995 a real growth cap has limited the global budget objective of compulsory health insurance; since 2022 the budget process also allocates money according to defined health objectives within a multi-year financial plan.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "How much is spent on health services? Funding mechanisms",
+          "page": 4,
+          "char_start": 5664,
+          "char_end": 5983,
+          "passage_sha256": "128d9a3e74f8767ca3f31ed9cce98e2f5e9445bec8a1d2c947211a5e2c8a711e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-014",
+        "statement": "The health insurance budget is negotiated between representatives of government, patients (through the sickness funds), employers, employees and the self-employed.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "How much is spent on health services? Funding mechanisms",
+          "page": 4,
+          "char_start": 6351,
+          "char_end": 6536,
+          "passage_sha256": "6b5a77f95d29e679ae3ee4e25abc4a0f0a372125ab3e5d6fdf06cd268cc870e3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-financing-015",
+        "statement": "Sickness funds' complementary insurance is financed by flat-rate contributions, which are regressive, and the benefits it offers differ between funds.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 15,
+          "char_start": 21447,
+          "char_end": 21784,
+          "passage_sha256": "2ee07ffad3c29c5b671f37a6cf326daa7afb934f4a5cc41c0f11a7231df80ecb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "BEL-covered-001",
+        "statement": "Every sickness fund must offer the compulsory insurance, whose benefits are listed in a national fee schedule (the 'nomenclature') of more than 8,000 services.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 46179,
+          "char_end": 46402,
+          "passage_sha256": "ad219e01beffc4f5b0ef2f5ae4bd4075d77b2da596f98b91b9f9b23522d4b462"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-covered-002",
+        "statement": "The nomenclature is negotiated between representatives of the sickness funds and of health professionals; services outside it are not reimbursed.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 6,
+          "char_start": 9936,
+          "char_end": 10178,
+          "passage_sha256": "f51bbb8b0de6a172250b2006a55d95d4210e3084896e0a569b1b525fcd57cee6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-covered-003",
+        "statement": "In 2023 public sources paid about 88% of inpatient and 63% of outpatient care spending (3 and 14 points below the EU averages), 74% of pharmaceutical spending (EU 59%) and 28% of dental spending (EU 35%).",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 87470,
+          "char_end": 87941,
+          "passage_sha256": "d19dc954d453bbaa716f18280c1dd1ebf2a4b9c276f76340916358674c947bb1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-covered-004",
+        "statement": "Most preventive and restorative dental care is fully reimbursed for children up to 18 (and 19-year-olds since September 2023), but fixed prosthodontics, most periodontal treatment, implants, adult orthodontics and fluoride applications are not reimbursed at all.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Dental care",
+          "page": 12,
+          "char_start": 24357,
+          "char_end": 24820,
+          "passage_sha256": "43147418e4a912e6750935003df28006952739ed42b69b84241d83ff2fd8c2f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-covered-005",
+        "statement": "Psychological care became reimbursable for adults in 2019 and for children and adolescents in 2020, and reimbursement was raised and extended through local mental health networks at the end of 2021.",
+        "valence": "strength",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Mental health care, palliative, long-term and rehabilitation care",
+          "page": 12,
+          "char_start": 24006,
+          "char_end": 24267,
+          "passage_sha256": "972c617b6d7fa29b5cadc1b04da2b8ae461eef9f06b9042dec7bf1da5cd1a0b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-covered-006",
+        "statement": "The roughly 1% without coverage are people who have not met administrative or financial requirements; undocumented migrants, asylum seekers and refugees can still get necessary care through Urgent Medical Aid, reception centres or municipal social welfare centres, depending on status.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 6,
+          "char_start": 9462,
+          "char_end": 9935,
+          "passage_sha256": "2f545e14453c1bccf894e8f590b9fbecf7c94dc445bf697bddc9ce1c67ae83e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-covered-007",
+        "statement": "Medicines are reimbursed only if on the official positive list; the reimbursement category reflects therapeutic importance rather than price and is set by the Minister of Social Affairs on a proposal from the Reimbursement Committee (CTG), while the patient's preferential-reimbursement status also affects the level.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 20,
+          "char_start": 132056,
+          "char_end": 132689,
+          "passage_sha256": "7c0ee5dbf663531e772d88ff26d17e91c688dd3880a435ee347707db247e91c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-covered-008",
+        "statement": "Early access routes include the Medical Need Programme for promising treatments still under evaluation, compassionate use programmes for unauthorised medicines for groups of seriously ill patients, and provisional early reimbursement, often with a managed entry agreement.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 20,
+          "char_start": 134491,
+          "char_end": 135210,
+          "passage_sha256": "b62e3365e5e0b176f4e2b9dfcbfbef26ad7448a00eddec11992f3b6a3f055ef5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "BEL-cost_sharing-001",
+        "statement": "Practitioners who join the national tariff agreements ('conventioned') undertake not to charge supplements; partially conventioned and non-conventioned practitioners may bill fee supplements above the official tariff.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50731,
+          "char_end": 51150,
+          "passage_sha256": "15dd8ff6b0061a0b747ea5ce02663572f5da63ad362c7053b03b5a9fd20249d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-002",
+        "statement": "86.5% of physicians signed up to the 2022-23 national agreement.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Providers",
+          "page": 4,
+          "char_start": 5134,
+          "char_end": 5200,
+          "passage_sha256": "0c3156dac24d2b47d2cf8cce8c75af00a7bfd1e26e72119e990f3cf4da385875"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2022-2023"
+      },
+      {
+        "id": "BEL-cost_sharing-003",
+        "statement": "Official co-payments made up about 20% of patients' out-of-pocket spending in 2021, net of maximum-billing refunds; the share due to extra-billing, especially in ambulatory care, was not known.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Out-of-pocket payments",
+          "page": 6,
+          "char_start": 8331,
+          "char_end": 8647,
+          "passage_sha256": "216f0cec656717a9bf86afcd31c6e7c14851518644102132f645413b83949621"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BEL-cost_sharing-004",
+        "statement": "Under maximum billing (MàF), once a household's remaining co-payments in a year reach a set ceiling, its sickness fund refunds any further co-payments in full; there are four variants, based on income, social status, children under 19 and chronic illness.",
+        "valence": "strength",
+        "source_id": "inami-maf",
+        "locator": {
+          "section": "Le MàF, c'est quoi ?",
+          "char_start": 3229,
+          "char_end": 3918,
+          "passage_sha256": "f86715b8b18cbb55ebabc3d62569867d00b5409b405724f10b13a7f5b7941406"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-005",
+        "statement": "In 2022 the income-based ceiling was cut from EUR 450 to EUR 250 for households whose net income in 2020 was at most EUR 11,120.",
+        "valence": "strength",
+        "source_id": "inami-maf-types",
+        "locator": {
+          "section": "Le MàF revenus",
+          "char_start": 4442,
+          "char_end": 4667,
+          "passage_sha256": "232519adfe6fb210dd39ed446d014330b714782074b9e7b51eea23d5ee9ba657"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-006",
+        "statement": "Households entitled to increased reimbursement get a fixed ceiling of EUR 450 (indexed), and each child under 19 has an individual ceiling of EUR 650 (indexed) regardless of household income.",
+        "valence": "strength",
+        "source_id": "inami-maf-types",
+        "locator": {
+          "section": "Le MàF social; le MàF pour un enfant de moins de 19 ans",
+          "char_start": 5275,
+          "char_end": 6249,
+          "passage_sha256": "f8d9adcb457a9773a768da5c904a0b3adfb9fd031f7ed0347265dfb11ffaaed3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-007",
+        "statement": "Maximum billing does not cover fee supplements, such as those for a single hospital room, which reduces the financial protection it offers.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 88467,
+          "char_end": 88747,
+          "passage_sha256": "c4d634f5532ad1e46119a64f6455a5d1620d6be5bd6982b81b8031100bceb94b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-008",
+        "statement": "From 1 September 2026, people in specified situations (for example invalidity, pension, disability, at least three months' full unemployment or single parenthood) qualify for increased reimbursement if current household income is below EUR 29,236.66 a year for one person plus EUR 5,412.51 per additional member.",
+        "valence": "neutral",
+        "source_id": "inami-bim-plafonds",
+        "locator": {
+          "table": "Plafond annuel pour les revenus actuels",
+          "char_start": 3200,
+          "char_end": 3537,
+          "passage_sha256": "464ce26f2e88f713a1dd5cddaf029452d8e50001e99f0903aa31e78008c8bb17"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-009",
+        "statement": "For other applicants in 2026, the limit for increased reimbursement is previous-year household income of EUR 28,054.93 for one person plus EUR 5,193.74 per additional member.",
+        "valence": "neutral",
+        "source_id": "inami-bim-plafonds",
+        "locator": {
+          "table": "Plafond annuel pour les revenus de l'année précédente",
+          "char_start": 5197,
+          "char_end": 5415,
+          "passage_sha256": "fc73ecac9b8086767616317e35fd91abc30fcabd08657a4e67b6b8d7908bd2b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-cost_sharing-010",
+        "statement": "Most outpatient care is paid up front and reimbursed afterwards, unusual among high-income systems; general practitioners have had to apply direct billing to the insurer (third-party payment) for patients with increased reimbursement since 2015, and since January 2022 all other outpatient providers may do so voluntarily for any patient.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 15,
+          "char_start": 21785,
+          "char_end": 22263,
+          "passage_sha256": "c440511859e6e0944763fcee5934e887ebc86d31d7b1b14d0103198afb27d52d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BEL-cost_sharing-011",
+        "statement": "Patients who register their medical record (GMR) with one GP pay lower co-payments, and a first specialist visit is reimbursed more when the GP refers; 83% of people had a GMR with a GP in 2021.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Primary and ambulatory care",
+          "page": 10,
+          "char_start": 18278,
+          "char_end": 18629,
+          "passage_sha256": "04f05351a694478fdbf88292c12174c65f007c63f6d16a767658944c04fb3507"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "BEL-financial_hardship-001",
+        "statement": "In case files of recognised debt mediation services in Wallonia and Flanders, health care debts were among the three most common debts not linked to credit, alongside energy and telecom debts; no comparable study was carried out for Brussels (federal Combat Poverty Service, 2022-2023 report, citing 2018 regional data).",
+        "valence": "weakness",
+        "source_id": "armoede-schulden-2023",
+        "locator": {
+          "section": "Hoofdstuk IV, 1.5 Soorten schulden",
+          "page": 13,
+          "char_start": 45187,
+          "char_end": 45519,
+          "passage_sha256": "887ba73b416af34e495432bca1fd64eafe6167740c10896f5e7a75c042a20557"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "BEL-financial_hardship-002",
+        "statement": "The National Bank's Central Individual Credit Register reported for 2021 that 37.4% of people entering collective debt settlement had no registered credit arrears, noting that consumers often have other payment problems such as health care, energy, telephone, rent or tax debts.",
+        "valence": "weakness",
+        "source_id": "armoede-schulden-2023",
+        "locator": {
+          "section": "Hoofdstuk IV, 1.5 Soorten schulden",
+          "page": 13,
+          "char_start": 44749,
+          "char_end": 45182,
+          "passage_sha256": "a6bcce0125474d25d900d385eda266a9c901952fbc92dd50a15c7b22e6cbb279"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BEL-financial_hardship-003",
+        "statement": "A 2023 advisory from the NIHDI's Observatory for Chronic Diseases found that medical products and services not reimbursed during a hospital stay (such as some implants, devices and medicines) can produce high bills, and that they are neither reimbursed nor counted towards the annual co-payment cap.",
+        "valence": "weakness",
+        "source_id": "inami-obs-2023",
+        "locator": {
+          "section": "Managementsamenvatting",
+          "page": 2,
+          "char_start": 364,
+          "char_end": 1446,
+          "passage_sha256": "4b0782d92025d2f6340eb43ecde3c1ccfdb4d81f68176ab830e0a1094d6c58d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "BEL-additional_care-001",
+        "statement": "Voluntary health insurance mostly covers extra-billing for a single hospital room and better dental cover; since 2008 the self-employed have been covered for outpatient care, so substitutive cover is no longer needed.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 119,
+          "char_start": 222420,
+          "char_end": 222815,
+          "passage_sha256": "9e24c67083467c76b02e5fdd12dcd4bdbdae3544b8025f94aa8b58225903422c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-additional_care-002",
+        "statement": "Reliable data on how many people hold voluntary insurance are lacking; separately, sickness funds offer complementary benefits that vary by fund (for example for alternative medicine, orthodontics, glasses or sports club fees), compulsory with a community-rated premium since 2012 unless a member joins the public Auxiliary Fund.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 122,
+          "char_start": 227905,
+          "char_end": 228886,
+          "passage_sha256": "81955cd741326ed99670187e058b8d778cbe6ae84341cb7dd2dfc4057932e646"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-additional_care-003",
+        "statement": "Many employees get private health insurance through their employer for care not fully covered by the compulsory scheme, mainly single-room supplements and dental costs.",
+        "valence": "neutral",
+        "source_id": "hit-bel-2020",
+        "locator": {
+          "section": "7.2.2 Benefits package",
+          "page": 218,
+          "char_start": 420739,
+          "char_end": 421005,
+          "passage_sha256": "3d0d3c7226cbfa4bdd585f730bb35b73a40897dba675a87b78d0405c17873a83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-additional_care-004",
+        "statement": "Richer households are more likely than poorer ones to take up voluntary insurance to fill gaps in coverage and user charges.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 15,
+          "char_start": 22552,
+          "char_end": 22747,
+          "passage_sha256": "b9dfe69a9d03522a014672c31c707090674d01ccad286dc6b9fdbf802fde6c8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-additional_care-005",
+        "statement": "Specialists can practise in public or non-profit hospitals, in private for-profit clinics (extramural centres) or in private practice.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Primary and ambulatory care",
+          "page": 10,
+          "char_start": 17980,
+          "char_end": 18168,
+          "passage_sha256": "9e4f7bd6014c0c034cda5ac14a927edac2ccf12cc2e25f24987e57b082000d64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "BEL-access-001",
+        "statement": "Primary care needs no referral, patients choose their providers, can seek a second opinion or see several at once, and can go straight to a specialist.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Primary and ambulatory care",
+          "page": 10,
+          "char_start": 17323,
+          "char_end": 17562,
+          "passage_sha256": "6ab6167cd7d5b1bd82e3e9d667a7fe4edd31721a730522d48f9d40b0e0b1b299"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-access-002",
+        "statement": "In 2018, 48.4% of patients waited two weeks or more for a specialist appointment, up from 38.4% in 2013, and 42.1% waited at least a day to see a GP, up from 30.1%.",
+        "valence": "weakness",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Accessibility and financial protection",
+          "page": 14,
+          "char_start": 30667,
+          "char_end": 30982,
+          "passage_sha256": "d2034a5746255f8a06e20f01162c08bd08960d8c085c24742f9dd619b2798027"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "BEL-access-003",
+        "statement": "Belgium had 3.4 practising doctors per 1,000 people in 2023, well below the EU average of 4.3; GPs are a larger share of doctors than in the EU (34% vs 19%), yet GP shortages persist in many areas.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 57951,
+          "char_end": 58337,
+          "passage_sha256": "1d0b900a1b4db800c656268ae33398356cb0fac0d51c3360763daca94d4e3549"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-access-004",
+        "statement": "There were 11.5 nurses per 1,000 people in 2022, well above the EU average of 8.4, but many hospitals still have trouble recruiting and keeping nurses.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 11,
+          "char_start": 65863,
+          "char_end": 66033,
+          "passage_sha256": "ef07b313b7d83f41d2a788a448a610930e3801cff2a6e1ceb65917bde921baf1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BEL-access-005",
+        "statement": "Bed numbers may overstate capacity because some beds close for staff absence or shortages; in September 2022 this cut total available beds by 8%.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 57365,
+          "char_end": 57602,
+          "passage_sha256": "e431e14ef78f4723e16c7ac2f5e88a345b3e662b4bd0ce996ae11b996669dd8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BEL-access-006",
+        "statement": "More than 40% of doctors were over 55 in 2021, adding to replacement needs.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 107165,
+          "char_end": 107258,
+          "passage_sha256": "790ce0edcf6664d241d80c48f1d9681dfe8db0b1456198900bfed628835001f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BEL-access-007",
+        "statement": "The federal portal Masanté.be, launched in 2018, gives people one secure place to see their medical records, test results, e-prescriptions, vaccinations, organ donor status and insurance details.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 119137,
+          "char_end": 119474,
+          "passage_sha256": "284221649aac7333805601e5e48171cd6e8b578a843fe7b2e14fbfd5aac035d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "BEL-outcomes-001",
+        "statement": "Life expectancy at birth was 82.6 years in 2024, about one year above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "2 Health in Belgium",
+          "page": 4,
+          "char_start": 13573,
+          "char_end": 13682,
+          "passage_sha256": "6eec45ab8a22e3862da0c3d381c99ab0be5fdcd98c0bb45749de4ea7fb89fa86"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BEL-outcomes-002",
+        "statement": "In 2022 mortality from treatable causes was about 30% below the EU average; preventable mortality was 10% below the EU average but higher than in many western European countries.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 67408,
+          "char_end": 67866,
+          "passage_sha256": "31eaa70c8dfaee134560d2f44a9634c78da259d28942c197c38c2e96b961f031"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BEL-outcomes-003",
+        "statement": "In the GBD 2019 study, Belgium's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 86.6 (95% uncertainty interval 84.1-88.7) in 2019, 14.4 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 43289,
+          "char_end": 43396,
+          "passage_sha256": "ef83fb368e9a03f3782da310160ae6fba3e071d7c3723261d011ae3349ccd9f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BEL-outcomes-004",
+        "statement": "In 2023 combined hospital admissions for diabetes, asthma and COPD were 6% above the EU average, driven by asthma and COPD (54% higher) and diabetes (32% higher), while admissions for congestive heart failure were among the lowest.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 81843,
+          "char_end": 82383,
+          "passage_sha256": "3a8f04d0e6381b7ab89ffb9bad7b78e1a5a0202a6ed14fc077b10487573af02d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-outcomes-005",
+        "statement": "In 2024 three quarters of Belgians rated their health good or very good (EU 68%), but among men only 61% in the lowest income group did so against 90% in the highest, an income gap larger than in most EU countries.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "2 Health in Belgium",
+          "page": 4,
+          "char_start": 15043,
+          "char_end": 15788,
+          "passage_sha256": "69cec4e4eb1a81bec98e8442d69c4d839d97cacec44b503b2c29446ed3af176d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BEL-outcomes-006",
+        "statement": "Thirty-day mortality after admission for heart attack fell from 7.9 to 4.3 deaths per 100 patients between 2010 and 2021; after ischaemic stroke it fell less, from 9.5 to 8.2.",
+        "valence": "strength",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Health care quality",
+          "page": 16,
+          "char_start": 35842,
+          "char_end": 36111,
+          "passage_sha256": "f2dfcae2189e0d696f3833d55df7115f9000a7b791f44ee5c146eff2ed58d1b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2010-2021"
+      },
+      {
+        "id": "BEL-outcomes-007",
+        "statement": "In the 2023-24 OECD PaRIS survey, 69% of Belgians with chronic conditions said they had enough support to manage their health (average of participating countries 63%), but only 45% said their primary care practice was well prepared to coordinate care (average 56%).",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 14,
+          "char_start": 86461,
+          "char_end": 86795,
+          "passage_sha256": "ea45a2e3aa43538e7578ab23cfe94bba79b51d2970abc07b5e6eb31267e5f63a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2023-2024"
+      }
+    ],
+    "costs": [
+      {
+        "id": "BEL-costs-001",
+        "statement": "Health spending was EUR 4,570 per person in 2023 (PPP-adjusted), nearly 20% above the EU average of EUR 3,832, and 10.8% of GDP against an EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 51523,
+          "char_end": 51857,
+          "passage_sha256": "245a8c7fc1d8a3605742c78099fd1940dfada280b1522e9c28276dbf843a1247"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-costs-002",
+        "statement": "Inpatient care took 32% of health spending in 2023 (EU 28%), reflecting long reliance on hospitals, and long-term care 23% (EU 18%).",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52688,
+          "char_end": 53086,
+          "passage_sha256": "5d1662e6a885d071e51823f6b911f05bbf60fb0af176d6216d04f3f6a2efcb6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-costs-003",
+        "statement": "Prevention accounted for under 2% of health spending in 2023, against an EU average of 4%, though the figure only covers preventive care funded by the regions and communities.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 53459,
+          "char_end": 53649,
+          "passage_sha256": "f23e6525d2323abe914c12b2c7dba798c0d3471a20b5bfd022205830e32c7a79"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-costs-004",
+        "statement": "The health insurance budget for 2026, approved by the NIHDI General Council of sickness funds, employers, workers and government on 20 October 2025, totals about EUR 46.775 billion, of which EUR 40.986 billion is for reimbursing care, up EUR 1.274 billion (3.2%) on 2025.",
+        "valence": "neutral",
+        "source_id": "inami-budget-2026",
+        "locator": {
+          "section": "Le budget de l'assurance soins de santé s'élèvera en 2026 à 46,775 milliards d'euros",
+          "char_start": 2780,
+          "char_end": 3217,
+          "passage_sha256": "49c64359b6ccf8ebd459c5f7bb159b31ba971d0466c8ec7654a1a88258d8aa25"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-costs-005",
+        "statement": "Because overruns were expected, the 2026 budget includes corrective savings of EUR 470.775 million across sectors, the largest being EUR 227.9 million on medicines and EUR 150 million on doctors.",
+        "valence": "neutral",
+        "source_id": "inami-budget-2026",
+        "locator": {
+          "section": "Améliorer la trajectoire budgétaire 2026",
+          "char_start": 6014,
+          "char_end": 6669,
+          "passage_sha256": "16ce76ec442422188d46a497d0da89ee014b00f6c1c7520dce4eea9c81d9322a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-costs-006",
+        "statement": "Pharmaceutical spending is projected to rise by nearly 50% between 2022 and 2027, or around 37% after rebates under managed entry agreements.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 19,
+          "char_start": 126192,
+          "char_end": 126372,
+          "passage_sha256": "7a8633a0d2ac1fe52e917012a1d02e8cb4c28f33f6802d52d29af7e6b553b325"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-costs-007",
+        "statement": "Confidential rebates under managed entry agreements obscure the true cost of new medicines; after allowing for them, public pharmaceutical spending in 2022 was estimated at more than EUR 1 billion below the recorded figure.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 19,
+          "char_start": 125263,
+          "char_end": 125825,
+          "passage_sha256": "4e394ca9b9cdbec44832377f8692f5ca585760d0c3bff0df3d709969be4aa9e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BEL-costs-008",
+        "statement": "Comparing treatable mortality with spending in 2020, Belgium spent comparatively more per person than Italy and Spain, which had similar treatable mortality, while Denmark and Sweden spent about as much with similar results.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Health system efficiency",
+          "page": 18,
+          "char_start": 40174,
+          "char_end": 40588,
+          "passage_sha256": "d01a7f9c558758e50a983404a0d78a080bae16aac5e06dec8d8fccd1326a45e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      }
+    ],
+    "what_works": [
+      {
+        "id": "BEL-what_works-001",
+        "statement": "In 2024 only 1.5% of Belgians who needed medical care reported going without because of cost, distance or waiting, less than half the EU average of 3.6%.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 94688,
+          "char_end": 94846,
+          "passage_sha256": "7c3c3b4b15bae972130b4e9001293ceefe86023250127c0189979473c4057282"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BEL-what_works-002",
+        "statement": "Direct access to, and free choice of, health professionals is described as an important strength, though there are doubts that GP supply will keep up with ageing and multimorbidity.",
+        "valence": "strength",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Box 3. Key strengths and weaknesses of primary care",
+          "page": 11,
+          "char_start": 21831,
+          "char_end": 22111,
+          "passage_sha256": "3a6ccd033e221367466d8732d8abee2a6a2b4de6883625a33de401025ac5aff3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-what_works-003",
+        "statement": "Social health insurance paid 74% of retail pharmaceutical spending in 2023, above the EU average of 62% though below France.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 20,
+          "char_start": 132690,
+          "char_end": 132854,
+          "passage_sha256": "c2001beb22a8dcca7d453b6b0fd29f23e23b7de2f0d7d9fe4c6026cf7c80e22e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-what_works-004",
+        "statement": "For medicines approved by the EU in 2020-2023, Belgium took on average 549 days to reimburse them (EU average 578), and by January 2025, 51% of them were covered against an EU average of 43% (EFPIA WAIT indicator, as cited).",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 20,
+          "char_start": 134043,
+          "char_end": 134339,
+          "passage_sha256": "56cf748ac8578b95ee37abf2c07cd51830c6a2278f7781c935f6b021049411b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2020-2025"
+      },
+      {
+        "id": "BEL-what_works-005",
+        "statement": "Outpatient prescriptions of low-cost medicines, which doctors have been encouraged to prescribe since 2005 with NIHDI monitoring, rose from 49.1% in 2015 to 72.1% in 2022.",
+        "valence": "strength",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Box 8. Is there waste in pharmaceutical spending?",
+          "page": 19,
+          "char_start": 43124,
+          "char_end": 43449,
+          "passage_sha256": "d90000952c8824fd1e8c1d3930684b0f90560601ca9ca20480e1b446b2ed8ffc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BEL-what_works-006",
+        "statement": "The share of surgical procedures done as one-day stays rose from 34.8% in 2000 to 49.5% in 2021.",
+        "valence": "strength",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Health system efficiency",
+          "page": 18,
+          "char_start": 40867,
+          "char_end": 41025,
+          "passage_sha256": "a1b2949df53d4543eee2b4f0ee21542db42abf57fd8521b75f009d9895f62364"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BEL-what_works-007",
+        "statement": "Belgium has assessed health system performance since 2007 through the Belgian Health Care Knowledge Centre (KCE), an independent federal research institute; its 2024 report focused on resilience to COVID-19.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 105261,
+          "char_end": 105828,
+          "passage_sha256": "69c1dcb6bbac4f8382f82e07c8edb6b161e02e3c4f359c5d5f0b2c5cadd4fe99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-what_works-008",
+        "statement": "Through BeNeLuxA, Belgium negotiates and assesses medicines jointly with the Netherlands, Luxembourg, Austria and Ireland to improve access to affordable innovative medicines, and it leads the EU joint health technology assessment consortium.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 19,
+          "char_start": 127035,
+          "char_end": 127519,
+          "passage_sha256": "fb4f0128d8d9aeb89dbc1a96346bd09652039993da726cbdeaaff2966e7a2788"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-what_works-009",
+        "statement": "In the PaRIS survey, 96.6% of patients rated their last consultation with a health professional as good to excellent in 2021.",
+        "valence": "strength",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Box 6. What do patients think of the care they receive?",
+          "page": 15,
+          "char_start": 33217,
+          "char_end": 33378,
+          "passage_sha256": "8d3ef894add850efcad9bfddc43c29e23eba0a0ee361f88149c4bfc727887fee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      }
+    ],
+    "problems": [
+      {
+        "id": "BEL-problems-001",
+        "statement": "The high out-of-pocket share reflects widespread fee supplements in both outpatient and inpatient care.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52381,
+          "char_end": 52511,
+          "passage_sha256": "394c74f5d7d1ab88a2c5990a84e8344688441ebe002abe36f700dfed8b96e323"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-problems-002",
+        "statement": "87% of GP consultations in 2021 were with conventioned doctors who charge no supplements, but fewer than half of outpatient specialist consultations were, leaving many patients exposed to rising costs.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 89046,
+          "char_end": 89303,
+          "passage_sha256": "95d7a8b2b79eb2c320c5eb583a1c69e1698691b1e7d53b6bef0c0f1ba0b26c05"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BEL-problems-003",
+        "statement": "Conventioned specialists performed 44.0% of specialist activity in 2021 (44.6% in 2012), with wide variation by specialty, such as 11% for dermatology; conventioned GP activity was lower in Brussels (71.2%) than in Flanders (90.1%) and Wallonia (84.4%).",
+        "valence": "weakness",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Accessibility and financial protection",
+          "page": 14,
+          "char_start": 31433,
+          "char_end": 31887,
+          "passage_sha256": "0dd63e75dd936c271e263e15147b76ff7d4771d59330518dc728db76276a286b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BEL-problems-004",
+        "statement": "In 2024, 4% of Belgians needing dental care reported unmet need, rising to nearly 12% of people at risk of poverty.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 95012,
+          "char_end": 95274,
+          "passage_sha256": "52f85ae0d355a6818b5a6bedd21d39454dc28c0a87693e372b9e015bece9e6d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BEL-problems-005",
+        "statement": "Catastrophic out-of-pocket spending in 2020 was heavily concentrated among poor households and among unemployed and inactive people and those with less education.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 14,
+          "char_start": 20109,
+          "char_end": 20265,
+          "passage_sha256": "a100c077b6861af343722f6538dc4e30c60940575c3f46ea6c4c60ff69aeac07"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "BEL-problems-006",
+        "statement": "Catastrophic spending is mainly driven by out-of-pocket payments for medical products, diagnostic tests (including physiotherapy and paramedical services), dental care and inpatient care, and outpatient medicines, tests and outpatient care weigh much more on the poorest households than on the richest.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 14,
+          "char_start": 20268,
+          "char_end": 20751,
+          "passage_sha256": "cec52131aacf3b4817487a02f73da125c8fa5cbbc8dacc3fb4d5a1bcacfdac14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2012-2020"
+      },
+      {
+        "id": "BEL-problems-007",
+        "statement": "At least 1% of the population lacks social health insurance, rising to at least 2% in Brussels, among adults aged 25-40 and among the self-employed, partly reflecting international workers covered under international arrangements.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 14,
+          "char_start": 21099,
+          "char_end": 21430,
+          "passage_sha256": "1b76076c13b60d7586a99a71db8b53c58de66fa00bab0eaa58c7455a38711fa4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-problems-008",
+        "statement": "User charges apply to every health service, are complex, and include no general exemption for low-income households; existing protection mechanisms do not protect people on low incomes sufficiently.",
+        "valence": "weakness",
+        "source_id": "who-finprot-bel-2023",
+        "locator": {
+          "section": "Executive summary",
+          "page": 15,
+          "char_start": 22264,
+          "char_end": 22551,
+          "passage_sha256": "9e9399cdae30025eea66a027d954f341ae6c37bbf164b4d010b21353e4155738"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-problems-009",
+        "statement": "Without real gatekeeping, care can be overused and resources used inefficiently.",
+        "valence": "weakness",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Box 3. Key strengths and weaknesses of primary care",
+          "page": 11,
+          "char_start": 22112,
+          "char_end": 22212,
+          "passage_sha256": "e81a4d5f5d25cee50bf0d4fa5ebc005dca61c43c55b9ad2dcc93ae28117fdffa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-problems-010",
+        "statement": "Despite bigger hospital budgets meant to improve nurse staffing, the nurse shortage has prevented better nurse-to-patient ratios, the policy's main goal.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 11,
+          "char_start": 66034,
+          "char_end": 66380,
+          "passage_sha256": "4fcd87678a6357f0a262b2e6f9f40ab0b541063467c08e94aad64dd4f3db98d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-problems-011",
+        "statement": "Antibiotic use rose again from 2022 and reached 20.6 defined daily doses per 1,000 people in 2023, close to pre-pandemic levels, putting Belgium off track for its 2030 reduction target.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 119878,
+          "char_end": 120817,
+          "passage_sha256": "361c4152e533fdedfb83a4cf5cbb5aff97b62b196519c5b95c6c68eb0a7fcc72"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-problems-012",
+        "statement": "Generics made up 38% of medicine units in 2023, up from 26% in 2012 but well below the EU average of 51%.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 6919,
+          "char_end": 7067,
+          "passage_sha256": "258505faf2cdf3de929d8789cf43bd4195bdfa01d1a378ecfc67f2a64e64058b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BEL-problems-013",
+        "statement": "Colorectal cancer screening coverage in 2024 was much lower in Brussels (30%) and Wallonia (26%) than in Flanders (55%).",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 81110,
+          "char_end": 81268,
+          "passage_sha256": "e2afaf5f7a0ee0e1eaa97e0fc6d194ee9a321c57f364d12f852c30a89157a071"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BEL-problems-014",
+        "statement": "Flu vaccination among people 65 and over fell from 62% in 2020 to 55% in 2023, below the WHO target of 75%, even though pharmacists could vaccinate without a GP prescription from 2022.",
+        "valence": "weakness",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 68713,
+          "char_end": 69084,
+          "passage_sha256": "a1558d32b4216a9e9ca14da3bc43c6604079d6bb75f2e6d8834a30baa318369e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "BEL-reforms-001",
+        "statement": "The 2026-2027 national agreement between doctors and sickness funds commits their joint commission to study existing problems and propose a framework for fee supplements during the agreement.",
+        "valence": "neutral",
+        "source_id": "anmm-2026",
+        "locator": {
+          "section": "7. Les suppléments d'honoraires",
+          "page": 18,
+          "char_start": 82443,
+          "char_end": 82784,
+          "passage_sha256": "bdb5d68edf3746bb3daef53c59b599948599f27dc73446d45ee7e8882ed1267f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-002",
+        "statement": "From 1 January 2026 an 'Early and Fast Equitable Access' scheme is to let patients with severe or life-threatening conditions obtain promising innovative medicines without alternatives in Belgium before European marketing authorisation.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "6 Spotlight section on pharmaceuticals",
+          "page": 20,
+          "char_start": 135211,
+          "char_end": 135626,
+          "passage_sha256": "e55d63d584cb60aa9c610b9ce515ec6172aa5da513bf8dfb9fa35e27e43cb03b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-003",
+        "statement": "In June 2025 a preliminary draft law proposed simplifying and unifying the convention system for providers who accept set tariffs, reserving some premiums for conventioned providers, and capping supplements for non-conventioned ones, which can currently reach four times the agreed tariff (caps under discussion).",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 93649,
+          "char_end": 94363,
+          "passage_sha256": "010478a715a5577d424e31655167048f1de0e7f332037024757add8e3d085b03"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-004",
+        "statement": "Under a Royal Decree published in March 2024, non-conventioned doctors and dentists have since January 2025 been barred from extra-billing ambulatory care for patients automatically entitled to preferential reimbursement through other social benefits, with the ban due to extend to all people with preferential reimbursement from January 2026.",
+        "valence": "strength",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 104095,
+          "char_end": 104730,
+          "passage_sha256": "3dd825902386be3f9eff78626491e193d3f3ea969359f3d4fd0ed25380192548"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-005",
+        "statement": "In April 2024 two royal decrees set the clinical activities advanced practice nurses may perform and the criteria for recognition, and the practice assistant role supporting GPs has been recognised since May 2024.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 11,
+          "char_start": 66711,
+          "char_end": 67260,
+          "passage_sha256": "3020076386445e7cb3649f6c57def614acfeb0af7cf1acadab0cf7fb285355ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-006",
+        "statement": "In 2022 the government announced a gradual rise in the share of postgraduate training places for general practice from 39% in 2022 to 47% by 2028, and in 2024 it restricted specialty training with an entrance exam and a fixed number of places.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 107408,
+          "char_end": 107854,
+          "passage_sha256": "f76349c8631e4b5a689257ae2a8bf6495a05bd02b6e4cd2cbc6b162abf80a5f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-007",
+        "statement": "Recent reforms include a multi-year health care budget trajectory linked to health objectives (from 2022) and, in 2022-23, wider maximum billing, more automatic entitlement to increased reimbursement, removal of the obligation of third-party payment in ambulatory care, and the ongoing inclusion of prisoners and internees in compulsory insurance.",
+        "valence": "neutral",
+        "source_id": "hss-bel-2024",
+        "locator": {
+          "section": "Box 5. Key health system reforms over the last 5 years",
+          "page": 13,
+          "char_start": 28984,
+          "char_end": 29430,
+          "passage_sha256": "6deca502fc6550729cc89401ab951a5dab8b1ddf94a71855bfb21442fb1a4b83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "BEL-reforms-008",
+        "statement": "In 2022 the maximum hospital fee supplement was frozen as a first step to curb further increases, though transparency on supplements and non-covered outpatient services remains lacking.",
+        "valence": "neutral",
+        "source_id": "chp-bel-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 88772,
+          "char_end": 89045,
+          "passage_sha256": "43c6ea1d7c003cbe88d942e5b370245f77c05d91c464b196e9a5d1e2d80ca9d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/BEL.json",
-  "sources": [],
+  "sources": [
+    {
+      "id": "chp-bel-2025",
+      "title": "State of Health in the EU: Belgium, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-belgium-final-web.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hss-bel-2024",
+      "title": "Belgium: Health System Summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Gerkens S, Merkur S",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/belgium-health-system-summary-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/d7c86178-b23e-4bb4-b7c5-d2d8ced89ca6/content",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "hit-bel-2020",
+      "title": "Belgium: Health System Review (Health Systems in Transition, vol. 22 no. 5)",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Gerkens S, Merkur S",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2020,
+      "url": "https://iris.who.int/handle/10665/339168",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/cf1881cd-afff-48fc-9718-a838711e9ef0/content",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "who-finprot-bel-2023",
+      "title": "Can people afford to pay for health care? New evidence on financial protection in Belgium",
+      "publisher": "WHO Regional Office for Europe",
+      "authors": "Bouckaert N, Maertens de Noordhout C, Van de Voorde C",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://www.who.int/europe/publications/i/item/9789289058599",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/8e278824-c799-4e7f-aa09-f5598728f1d1/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "socsec-contrib",
+      "title": "Werkgevers en de RSZ: Welke soorten bijdragen bestaan er? (types of social security contributions)",
+      "publisher": "Belgian social security portal (National Social Security Office, RSZ/ONSS)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.socialsecurity.be/site_nl/employer/infos/employers_nsso/which-contributions.htm",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "socsec-indep-2025",
+      "title": "Cotisations sociales 2025 (social contributions of the self-employed)",
+      "publisher": "INASTI / FPS Social Security, DG Self-employed",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://socialsecurity.belgium.be/sites/default/files/content/docs/fr/elaboration-politique-sociale/independants/note_de_cotisations_2025_tableau_f.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "inami-maf",
+      "title": "Le maximum à facturer (MàF) limite vos dépenses de soins de santé",
+      "publisher": "National Institute for Health and Disability Insurance (INAMI-RIZIV)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.inami.fgov.be/fr/themes/soins-de-sante-cout-et-remboursement/facilites-financieres/maximum-a-facturer-maf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "inami-maf-types",
+      "title": "Types de maximum à facturer (MàF)",
+      "publisher": "National Institute for Health and Disability Insurance (INAMI-RIZIV)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.inami.fgov.be/fr/themes/soins-de-sante-cout-et-remboursement/facilites-financieres/types-de-maximum-a-facturer-maf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "inami-bim-plafonds",
+      "title": "Intervention majorée : plafonds des revenus",
+      "publisher": "National Institute for Health and Disability Insurance (INAMI-RIZIV)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.inami.fgov.be/fr/themes/soins-de-sante-cout-et-remboursement/facilites-financieres/intervention-majoree-plafonds-des-revenus",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "inami-budget-2026",
+      "title": "Le budget de l'assurance soins de santé s'élèvera en 2026 à 46,775 milliards d'euros (news release, 20 October 2025)",
+      "publisher": "National Institute for Health and Disability Insurance (INAMI-RIZIV)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.inami.fgov.be/fr/actualites/le-budget-de-l-assurance-soins-de-sante-s-elevera-en-2026-a-46-775-milliards-d-euros",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "anmm-2026",
+      "title": "Accord national médico-mutualiste 2026-2027",
+      "publisher": "National Institute for Health and Disability Insurance (INAMI-RIZIV), National Commission of Physicians and Sickness Funds",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.inami.fgov.be/SiteCollectionDocuments/NAAZ_ANMM_2026_2027.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "armoede-schulden-2023",
+      "title": "Tweejaarlijks Verslag 2022-2023, Hoofdstuk IV: Overmatige schuldenlast en armoede",
+      "publisher": "Combat Poverty, Insecurity and Social Exclusion Service (interfederal public service)",
+      "tier": 3,
+      "type": "government",
+      "year": 2023,
+      "url": "https://armoedebestrijding.be/wp-content/uploads/2024/01/Hoofdstuk-IV-Overmatige-schuldenlast-Tweejaarlijs-Verslag-22-23.pdf",
+      "funding_note": "Interfederal public body that works through consultation with associations of people in poverty; the chapter mixes cited statistics with participants' testimony.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "inami-obs-2023",
+      "title": "Kostprijs niet-terugbetaalde medische producten en diensten bij ziekenhuisopname (advice 2023-01)",
+      "publisher": "Observatory for Chronic Diseases, National Institute for Health and Disability Insurance (INAMI-RIZIV)",
+      "tier": 3,
+      "type": "government",
+      "year": 2023,
+      "url": "https://www.inami.fgov.be/SiteCollectionDocuments/advies_observatorium_2023_01_niet_terugbetaalde_medische_kosten.pdf",
+      "funding_note": "Advisory body of patient associations and sickness funds within the NIHDI.",
+      "accessed": "2026-11-13"
+    }
+  ],
   "rankings": [],
   "changelog": [
     {

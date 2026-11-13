@@ -1152,11 +1152,685 @@
         "data_year": 2017
       }
     ],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
-    "us_lessons": []
+    "costs": [
+      {
+        "id": "FIN-costs-001",
+        "statement": "In 2023 Finland spent EUR 3,996 per person on health (adjusted for purchasing power), equal to 10.5% of GDP and slightly above the EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 47226,
+          "char_end": 47406,
+          "passage_sha256": "0ab0d6d1b7d66d4b5162c1ccdb75ac61780f10699f0f99c09126f2d4e313d83c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-costs-002",
+        "statement": "In 2023, 42% of health spending went to outpatient care, one of the highest shares in the EU, while inpatient care took 20%, down from 25% in 2015.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 47773,
+          "char_end": 47969,
+          "passage_sha256": "69bc97b04b018da6a942e33e062bd8b55c85b52f1ba89ba3482f86e7b1032dc0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-costs-003",
+        "statement": "Long-term care accounted for 21% of health spending in 2023, pharmaceuticals 13% and prevention 5%, while administration took under 1%, among the lowest in the EU.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 48127,
+          "char_end": 48446,
+          "passage_sha256": "93fa486ceb3898b86a1c9e1f2a5e04d42b25da856f63628c8a775eb3d5076698"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-costs-004",
+        "statement": "Per-person spending on retail pharmaceuticals was EUR 432 in 2023 (purchasing-power adjusted), about 15% below the EU average of EUR 510.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 119974,
+          "char_end": 120146,
+          "passage_sha256": "43363e58e423f12022bbd71ff7ccad3cd4d4daf85b0364eeadc66b10b673feb5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-costs-005",
+        "statement": "Between 2012 and 2023 hospital spending on medicines rose from EUR 75 to EUR 109 per person, while retail spending barely moved, from EUR 368 to EUR 378.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 120768,
+          "char_end": 120914,
+          "passage_sha256": "ed0f548857e3d425ae58d68ea308f2e05f2f2e7cb41760f38c848b08837ebdaf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2012-2023"
+      },
+      {
+        "id": "FIN-costs-006",
+        "statement": "In their first year (2023) the counties ran a combined deficit of EUR 1.7 billion; the Ministry of Finance opened evaluation procedures in three counties, and a temporary amendment lets counties that balance their 2025 budgets defer covering earlier deficits until 2028.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 96343,
+          "char_end": 96707,
+          "passage_sha256": "4837edb4592925548032b140f26233344683477b1676a462708a8263c9eae129"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-costs-007",
+        "statement": "In the first two years of the reform every county ran a deficit, ranging from about EUR 50 million to over EUR 100 million, attributed to rapid cost inflation, renegotiated health workforce pay and possible underreporting of real costs by municipalities.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "How much is spent on health services?",
+          "page": 5,
+          "char_start": 9646,
+          "char_end": 9952,
+          "passage_sha256": "b4ecff23f089b76c24d415033819d8a24c614cd9c75992569cf4f7e702e70bc5"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2023-2024"
+      }
+    ],
+    "what_works": [
+      {
+        "id": "FIN-what_works-001",
+        "statement": "Antibiotic use fell from 14.7 to 12.9 defined daily doses per 1,000 inhabitants per day between 2019 and 2023, below both the EU average of 19.9 and Finland's national target of 13.4.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 113479,
+          "char_end": 113662,
+          "passage_sha256": "0bbe559a2111a78bc8df912674701a8cb8ecbfa5cc27b7818290ae21d1693799"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2019-2023"
+      },
+      {
+        "id": "FIN-what_works-002",
+        "statement": "In 2023, WHO Access-group antibiotics made up 74% of national antibiotic consumption, above the complementary target of at least 65%.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 113733,
+          "char_end": 114004,
+          "passage_sha256": "da562c6100722a39713094845bf22f5ee913000d5b159fe42a37a89e08417518"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-what_works-003",
+        "statement": "Use of online health services is far above the EU average: in 2024, 64% of Finns booked appointments online (EU 40%), 74% accessed their health records (EU 28%) and 79% searched for health information online (EU 58%).",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 112533,
+          "char_end": 112861,
+          "passage_sha256": "2faa71f06538f92645c7458b6f702beaff25b0a85ddfbeef69c710ead3836a49"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-what_works-004",
+        "statement": "Nurse density, 12.7 per 1,000 people in 2023, is among the highest in the EU; specialised primary care nurses can prescribe a limited range of medicines, manage chronic conditions after a doctor's diagnosis and often act as the first point of contact.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 49571,
+          "char_end": 50045,
+          "passage_sha256": "990c802704d49a619dcd92e647f1f07944e313ddc206371c2259e7acd1b56dc4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-what_works-005",
+        "statement": "Finland is the first country with a legally binding goal to end the use of tobacco and nicotine products by 2030.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "Box 2",
+          "page": 12,
+          "char_start": 76565,
+          "char_end": 76680,
+          "passage_sha256": "361a526d930b6193f9130c6212025c0c3a61d7f4d4df56f9f14c299675241289"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-what_works-006",
+        "statement": "Only 11% of adults smoked daily in 2022, one of the lowest rates in the EU and less than half the 23% recorded in 2002.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "3 Risk factors",
+          "page": 6,
+          "char_start": 29622,
+          "char_end": 29772,
+          "passage_sha256": "72b10e76f21e5d636acb5d8be02619dabb8ac4c6cff346e79dc908f83768e4ca"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FIN-what_works-007",
+        "statement": "Long-standing cost containment, including generic substitution, reference pricing and near-universal e-prescribing, has kept overall pharmaceutical spending fairly stable for a decade.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 120448,
+          "char_end": 120674,
+          "passage_sha256": "bdfaed4120a05e4e59c09f46fe7f76ec2d6dfd9f6ec0b38c4be6c0c8e2e4bbc3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-what_works-008",
+        "statement": "Vacant health and social care positions fell from more than 7,300 in early 2023 to around 2,500 by early 2025.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50250,
+          "char_end": 50374,
+          "passage_sha256": "c9655dda958fa28c8032573797c69955af343b7e304a822a8670eafe89ff70d4"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2023-2025"
+      },
+      {
+        "id": "FIN-what_works-009",
+        "statement": "Compared with the other Nordic countries, Finland spent less on health in 2021 yet had a similar, if slightly higher, treatable mortality rate, which has been falling consistently.",
+        "valence": "strength",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Health system efficiency",
+          "page": 20,
+          "char_start": 49272,
+          "char_end": 49511,
+          "passage_sha256": "9ad1271b5b9b6260ef1177298b1405584a058c0c4afcc5e8bd60239f3dba1769"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "FIN-what_works-010",
+        "statement": "Finland's hospital bed numbers fell by 30% and inpatient discharges by 21% between 2017 and 2023, far more than the EU average, as care moved to outpatient and community settings.",
+        "valence": "strength",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 98929,
+          "char_end": 99074,
+          "passage_sha256": "6ed69a901f8b02caba889faf18a4e1bf907850ba50c4d9d6847009b60d5aad6a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2023"
+      }
+    ],
+    "problems": [
+      {
+        "id": "FIN-problems-001",
+        "statement": "Finland had 2.9 practising physicians per 1,000 people in 2023, well below the EU average of 4.3.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 49453,
+          "char_end": 49570,
+          "passage_sha256": "6cb2842978797a948a9588407bf5510ca5fc7292ef45fe1085ed48cf01e2d5bf"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-problems-002",
+        "statement": "Shortages persist in rural and northern regions, where physician density is below 2.0 per 1,000 inhabitants, while unemployment among assistant nurses has risen, a mismatch between workforce supply and demand.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50375,
+          "char_end": 50671,
+          "passage_sha256": "f27bd4d42c4b04ea7fcc8595aa816516bfdab2d6522eb0ed3d330c45f03a5fe8"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "FIN-problems-003",
+        "statement": "By 2030 more than 20% of staff are expected to retire in over half of the counties, and the sector increasingly relies on part-time and agency staff, which raises costs and can disrupt continuity of care.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 97667,
+          "char_end": 97961,
+          "passage_sha256": "22939276a3a15735b2d4a5303911cbfdbcf15ea6adb049d69a60880ca09821d3"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-problems-004",
+        "statement": "In 2023 public schemes paid only 58% of retail pharmaceutical costs, households 39% and voluntary insurance 3%; Finland's out-of-pocket share for medicines is above the EU average but the lowest among the Nordic countries.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 121961,
+          "char_end": 122200,
+          "passage_sha256": "523aa537e7403ffd026c95da7ea16509d158148773d5947be13f67ca3959a11e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FIN-problems-005",
+        "statement": "Pharmacies act as regional monopolies and earn higher margins on more expensive products, so they have little financial reason to steer patients to cheaper alternatives such as biosimilars.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 131749,
+          "char_end": 131902,
+          "passage_sha256": "3ffe04c2794afc377c1bb622f90b17ba11eed1372b15617beae6297a9d268e24"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-problems-006",
+        "statement": "Reference prices are fixed for three months at a time while manufacturers can change wholesale prices every two weeks, which weakens price competition.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Box 8 Is there waste in pharmaceutical spending?",
+          "page": 21,
+          "char_start": 53339,
+          "char_end": 53515,
+          "passage_sha256": "2fd72229bcec9b03a04f932556670c2d40c968ae0b1e7c12aa198140d1c92e97"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-problems-007",
+        "statement": "Parallel funding and delivery systems persist and add to fragmentation and inequity, especially in access to primary care.",
+        "valence": "weakness",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "Summing up",
+          "page": 21,
+          "char_start": 52456,
+          "char_end": 52621,
+          "passage_sha256": "207a0aa05e39074696db3324cc84f3fbbe73389b9748598fda197be0d6da2541"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-problems-008",
+        "statement": "In June 2024 the maximum alcohol content of fermented drinks sold in grocery and convenience stores was raised from 5.5% to 8%, prompting concern about wider access to stronger products while alcohol remains the leading cause of preventable deaths.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 60714,
+          "char_end": 61346,
+          "passage_sha256": "caeb61660a6696a2105ce93f077f7a5b4309d8a7a5c0f2f245f59fa2c29931ae"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-problems-009",
+        "statement": "More than 30% of adults were obese in 2022 on measured height and weight, up from 22% in 2012.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "3 Risk factors",
+          "page": 7,
+          "char_start": 36763,
+          "char_end": 36891,
+          "passage_sha256": "e1a7b143632c86b738040fe9bd04be983d47042caa0c13c3b40997aaf6a19c76"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FIN-problems-010",
+        "statement": "In the North Karelia study, older patients with chronic needs described growing difficulty navigating an increasingly digital primary care service and getting in-person appointments, and staff reported a stronger need to ration access to GP consultations because of limited resources.",
+        "valence": "weakness",
+        "source_id": "care-guarantee-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3045,
+          "char_end": 3309,
+          "passage_sha256": "2e2cc24ad1f50f4087fde0ff2e372a87f40d19aa0943bd51bdbae69dd6a2ff75"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-problems-011",
+        "statement": "The number of clinical trials in Finland fell from 191 in 2017 to 105 in 2024, a drop of more than 40%.",
+        "valence": "weakness",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 133580,
+          "char_end": 133668,
+          "passage_sha256": "aaecaeb3ca01cc4008c5f8888e73afe64047b829c367762be3130c387226e321"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2017-2024"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "FIN-reforms-001",
+        "statement": "The health and social care reform, more than a decade in preparation, was passed by Parliament in summer 2021; counties took full responsibility for services in January 2023 and financing was centralised at national level.",
+        "valence": "neutral",
+        "source_id": "hss-fin-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 14,
+          "char_start": 33640,
+          "char_end": 33917,
+          "passage_sha256": "d748e1e2b16c9662d67263b82f8df7f1aa9c3b84f1603a9aa7b6660bfd3d3342"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-reforms-002",
+        "statement": "Each county must cover any accumulated deficit within three years from the start of the year after its accounts are adopted, so 2023 deficits must be cleared by the end of 2026.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 97024,
+          "char_end": 97262,
+          "passage_sha256": "9427b6ba3872cd1d05459b95e97d74217e083f1c739d32d05c4282e82e3f413f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-reforms-003",
+        "statement": "In September 2023 the maximum wait for non-urgent primary care was cut from 3 months to 14 days, and by March 2024, 71% of outpatient appointments took place within that period, up from 58% a year earlier.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 78894,
+          "char_end": 79129,
+          "passage_sha256": "da749ab0103bee8ed18a07024ecdfd30fe28ebef9e7eca8f3c659eb0b0e74d3d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-reforms-004",
+        "statement": "In the budget negotiations for 2024 the government agreed to raise Kela reimbursements for private care by EUR 500 million in total over 2024-2027, about EUR 97.5 million of it in 2024.",
+        "valence": "neutral",
+        "source_id": "kela-private-2024",
+        "locator": {
+          "section": "Press release",
+          "char_start": 2083,
+          "char_end": 2374,
+          "passage_sha256": "0f41d431150d5f8bb4f5f6b3b779ef5a18636feb15cabd887d3e0b8953d045ad"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2024-2027"
+      },
+      {
+        "id": "FIN-reforms-005",
+        "statement": "A 2020 reform of occupational health reimbursement aimed to shift services from curative to preventive care; in register data from one large occupational health provider, preventive services turned from decline to growth and curative care declined over 2018-2022, though the authors note other factors may have contributed.",
+        "valence": "neutral",
+        "source_id": "ohs-reimb-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2213,
+          "char_end": 3457,
+          "passage_sha256": "54fa448d56a7def76e09df499ba82f06d86bfdc43c3c89871b89bc5af244e36a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": "2018-2022"
+      },
+      {
+        "id": "FIN-reforms-006",
+        "statement": "Pharmacies were long barred from substituting biosimilars; phased substitution began in 2024 with enoxaparin and is set to extend to further biologics through 2026.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 131464,
+          "char_end": 131691,
+          "passage_sha256": "727d485a23bf50bd1ea0a019be2f9d94a506896c24084f44834edebca0625b17"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-reforms-007",
+        "statement": "Since 2023 THL's remit includes annual performance monitoring of the counties, combining guidance, support and evaluation to inform budget negotiations and oversight.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "Box 3",
+          "page": 15,
+          "char_start": 99641,
+          "char_end": 99894,
+          "passage_sha256": "7bce021b861b8e5bd9ba01d628f8ad6501f57385ae7ad58c061f53c926287eda"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      },
+      {
+        "id": "FIN-reforms-008",
+        "statement": "In spring 2024 the government reinstated the 3-month maximum wait for non-urgent primary care as part of a wider austerity package.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 79161,
+          "char_end": 79315,
+          "passage_sha256": "e6f36627bf9dfb83006f4fcd5d95e00a0853a36e8e6eaeb9f418806d0369d76d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FIN-reforms-009",
+        "statement": "A pilot was launched letting people aged 65 and over use national health insurance funds for private care at the same co-payment as at a public health centre.",
+        "valence": "neutral",
+        "source_id": "chp-fin-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 85222,
+          "char_end": 85372,
+          "passage_sha256": "f10979bdfd8c8a570e2fbdffc38ce796314b5e2d9241cc4a25fd2904dca17240"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "FIN-us_lessons-001",
+        "statement": "Based on observing Finnish maternity care (shadowing providers) and a literature review, a 2021 paper describes Finnish perinatal care as a decentralised, community-based primary care network attending to mothers' physical and psychosocial well-being, and suggests it could serve as a template for US efforts to reduce maternal mortality.",
+        "valence": "neutral",
+        "source_id": "maternal-us-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2166,
+          "char_end": 3014,
+          "passage_sha256": "71f3cda94a5d7f18c1ddc479bdd415c6df548ef4063443c8ab14dd0691b41749"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        }
+      }
+    ]
   },
   "indicators_file": "data/indicators/FIN.json",
   "sources": [

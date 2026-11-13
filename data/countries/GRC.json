@@ -13,18 +13,2173 @@
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "overview": [
+      {
+        "id": "GRC-overview-001",
+        "statement": "Greece's health system is run centrally and covers all citizens and legal residents; undocumented migrants can usually get only emergency care.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43654,
+          "char_end": 43828,
+          "passage_sha256": "986224686fcb7c16cfab515fde7033d5284f72058cdc6eb1807859b2bce8ca6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-overview-002",
+        "statement": "The National Health System is paid for from general government revenue and compulsory contributions, which pass through a single purchaser, the National Organisation for the Provision of Health Services (EOPYY).",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43829,
+          "char_end": 44036,
+          "passage_sha256": "6f3973f8ded7b06f452bae1df4f4b1c06ca62120943f2c766cd2224757bad7be"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-overview-003",
+        "statement": "EOPYY buys one unified benefits package (preventive, primary and secondary care) from both public and private providers; public hospitals supply most inpatient care, while private providers have a large role in outpatient and diagnostic services.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44202,
+          "char_end": 44526,
+          "passage_sha256": "2e5d8cafa28808a16035229a847bc9ed42eea6ad2f33f475945c9038c3f12406"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-overview-004",
+        "statement": "The profile describes population coverage as effectively universal, although people can face gaps in getting some services promptly.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78769,
+          "char_end": 78891,
+          "passage_sha256": "cce5bb3949ed51dd04389b133e8c8efe9e10f93bc1dcaa8ad9cfbc31b5e96cdd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-overview-005",
+        "statement": "Legislation in April 2016 widened entitlement: people without insurance among citizens and legal residents, the self-employed, low-income people, refugees and asylum seekers gained the right to all publicly financed care provided in public facilities.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 29,
+          "char_start": 43661,
+          "char_end": 44042,
+          "passage_sha256": "b5b3e0aa67bda9efe37d95559aba1619d660268ebc348be78dfead72833eb79b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2016,
+        "historical": true
+      },
+      {
+        "id": "GRC-overview-006",
+        "statement": "As of 2025, entitlement to publicly financed care remains tied to paying contributions to the social health insurance scheme run by EOPYY.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 31,
+          "char_start": 47381,
+          "char_end": 47526,
+          "passage_sha256": "a86f4d079638754c9bc9e9618b7f5a5cb202a51fc15190b392206f16c548c74a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-overview-007",
+        "statement": "Legal residents who are not covered by EOPYY, such as long-term unemployed people who do not qualify for unemployment-service cover, and refugees, are entitled only to care in public National Health System (ESY) hospitals and health centres, not in EOPYY-contracted private facilities.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 32,
+          "char_start": 50869,
+          "char_end": 51272,
+          "passage_sha256": "f7b8d482468512ef17ac8e21041a25aabcc6d881b13295ae5a8c26162d71b3ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-overview-008",
+        "statement": "To improve revenue collection and pooling, Greece merged its social health insurance funds into a single fund under EOPYY, which now covers most of the population.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 10926,
+          "char_end": 11155,
+          "passage_sha256": "34e61fe50cab2162cab226e59b8120952edd5daf39a3385dd7b8f17056dc9795"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "GRC-financing-001",
+        "statement": "In 2023 public sources paid for 61% of health spending, the second-lowest share in the EU, where the average was 80% (OECD System of Health Accounts data).",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45490,
+          "char_end": 45636,
+          "passage_sha256": "978aeb6bebb00c92dce332e4a4b519189230cd871b076ffdf140da3f90bafcce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-financing-002",
+        "statement": "Out-of-pocket payments made up 34% of health spending in 2023, among the highest shares in the EU; they arise mostly from co-payments on medicines and from paying directly for services outside the benefits package.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45697,
+          "char_end": 45975,
+          "passage_sha256": "f315f2ad17067eeff8beff3890bd59c223fdfd5f04f561d4740b71a75a487d25"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-financing-003",
+        "statement": "Voluntary health insurance financed 5% of health spending in 2023, and many supplementary plans promise faster access to private diagnostics or specialists.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45976,
+          "char_end": 46145,
+          "passage_sha256": "46714245f541f7eae1d13cfe2b062d03f3929bd07f47c95b0dc1d054707e5f1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-financing-004",
+        "statement": "Taxes paid into the government budget made up 34% of EOPYY's revenue in 2022.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 23053,
+          "char_end": 23282,
+          "passage_sha256": "5b5c3d92649a58ccd872e4e2925be45f829d18ab1f528bc16e99c1ebd6d523cd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-financing-005",
+        "statement": "According to e-EFKA Circular 40/2024, Law 5162/2024 cut the employer and employee health-care contributions from 1 January 2025 for employees insured with EOPYY, public-sector employees among them.",
+        "valence": "neutral",
+        "source_id": "efka-circ-40-2024",
+        "locator": {
+          "page": 1,
+          "char_start": 415,
+          "char_end": 664,
+          "passage_sha256": "843f9b0333557054f1d3f5a572b1949a9baaaf37480b12f157f23349c2284e4a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-financing-006",
+        "statement": "From 1 January 2025 the contribution for health care in kind is 3.80% of pay for the employer and 1.65% for the employee (5.45% in total), each half a point lower than before; the separate cash sickness contribution stays at 0.25% for the employer and 0.40% for the employee, giving a combined 6.10% of all earnings.",
+        "valence": "neutral",
+        "source_id": "efka-circ-40-2024",
+        "locator": {
+          "page": 2,
+          "char_start": 1654,
+          "char_end": 2303,
+          "passage_sha256": "7493140c8ab45e8801b8ca940484e52e1a27ea8f6632bce23e39f3e06d0fe884"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-financing-007",
+        "statement": "Public spending on health (government budget plus social insurance contributions) was 9% of total government spending in 2022, the lowest share in the EU and well under the EU average of 15%.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 42,
+          "char_start": 74920,
+          "char_end": 75140,
+          "passage_sha256": "64f144f1c5cb549444c8cca53cec0aa9dedd74c3e980fcccf6ef238d2ee96f92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-financing-008",
+        "statement": "Public spending on health was just under 5% of GDP in 2022, compared with an EU average of 7%.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 43,
+          "char_start": 75915,
+          "char_end": 76028,
+          "passage_sha256": "ba080af114cc12b2081d2bd945473dacae8db297c82d350462b55a3589a2a910"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-financing-009",
+        "statement": "During the economic crisis, policy responses cut the health budget by EUR 7.5 billion between 2010 and 2014, mostly in inpatient care, outpatient medicines and outpatient care.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 41,
+          "char_start": 73914,
+          "char_end": 74147,
+          "passage_sha256": "0dab4100640a5bbfdd01217eaa9051885c94ffebafde0655f9fe251a2d0b583c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2010-2014",
+        "historical": true
+      },
+      {
+        "id": "GRC-financing-010",
+        "statement": "Adjusted for inflation, public health spending per person grew 26% between 2015 and 2023, against 24% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 99658,
+          "char_end": 99838,
+          "passage_sha256": "eef2d9075242531df2c38d819ccb229ea7942efd652d59def4d6968c6b9c4913"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2015-2023"
+      },
+      {
+        "id": "GRC-financing-011",
+        "statement": "Tax incentives to buy voluntary health insurance were abolished in 2013, which reduced take-up.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 37,
+          "char_start": 64846,
+          "char_end": 64966,
+          "passage_sha256": "48525632ced0f7e0036dd21395c4e42b9c5b4d108e6f12c9e6b52637b8f6f496"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2013,
+        "historical": true
+      },
+      {
+        "id": "GRC-financing-012",
+        "statement": "The health sector is receiving EUR 1.5 billion from the EU Recovery and Resilience Facility (4.3% of Greece's allocation), and EU Cohesion Policy 2021-27 allocates a further EUR 571 million (EU co-financed share) to health care.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 104746,
+          "char_end": 105498,
+          "passage_sha256": "878f442149d699506cd68ef9a8e44716191fbe642fb3c108be7b6bad9546a64d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "GRC-covered-001",
+        "statement": "EOPYY's benefits package is fairly comprehensive, but public coverage of dental care is very limited.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79038,
+          "char_end": 79158,
+          "passage_sha256": "6010e1401799b92c3f12a39019ca946d0d8d5dfcba41c5fde3853c489c71473b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-002",
+        "statement": "Since 2011 EOPYY has had no contracts with private dentists, and public facilities have little staff and capacity, so in practice all dental care is paid out of pocket.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79159,
+          "char_end": 79366,
+          "passage_sha256": "19d63981febd16a757434f6c7acd73c01b9cc2f0e20ef64808ec479d170f1689"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-003",
+        "statement": "Public dental cover is limited to ESY health centres: free dental care for children under 18 and emergency dental treatment for people of all ages.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 33,
+          "char_start": 55219,
+          "char_end": 55448,
+          "passage_sha256": "a45f0a4f09e18fbe81253816e35bbfa06d828c3a61a11952ce3f7ab45498271d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-004",
+        "statement": "A Dentist Pass gives children aged 6-12 a EUR 40 e-voucher for a private dental visit (check-up, fluoridation and cleaning); more than 200,000 children had used it.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 33,
+          "char_start": 55613,
+          "char_end": 55948,
+          "passage_sha256": "28e56bd139abe36db37a88ec5919a26786e7949a5352e9819dd624085b6becb8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-005",
+        "statement": "Optical care is covered only with limits, such as one pair of glasses every four years, and palliative care is also less well covered.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 33,
+          "char_start": 55949,
+          "char_end": 56107,
+          "passage_sha256": "13ed92eb063ca5d8dd8b5258fdb29a582aee436ff56c308de947871973b5f61c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-006",
+        "statement": "Undocumented migrants are covered only for emergency care and essential treatment of illnesses and serious mental health conditions in public facilities, although some groups (for example pregnant women and children) may use ESY facilities free of charge with an alien health care card (KYPA).",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 32,
+          "char_start": 52062,
+          "char_end": 52478,
+          "passage_sha256": "059fbe582d1ed8e7308b2fdd61ac56fc552250397b201a600080af437706aea8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-007",
+        "statement": "Covered specialist care needs a referral (people without EOPYY cover can be referred only to public facilities), and covered medicines need an e-prescription.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 33,
+          "char_start": 54436,
+          "char_end": 54653,
+          "passage_sha256": "9b9c450c23ff99e89c61bd355e55c302143b6e5a4f63aae6c5e1f8aeab81d415"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-008",
+        "statement": "Decisions on the benefits package and on resource allocation are highly centralised in the Ministry of Health and are shaped largely by historical precedent and political considerations.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 11830,
+          "char_end": 12042,
+          "passage_sha256": "c4a781c6e2e9d8b9adf54afd8623c982cca35cc398a91be5d0237116a79ce55e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-009",
+        "statement": "Health technology assessment remains limited because there is no comprehensive institutional framework and capacity and staff are short.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 12046,
+          "char_end": 12241,
+          "passage_sha256": "ab6da2dcd2f4ef37dfdb61a4ad20446113fbb146bbcfacbf1f7a501bc056590c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-covered-010",
+        "statement": "Greece is developing a health technology assessment system, with EU and WHO support, to prepare for the EU's HTA regulation.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 128070,
+          "char_end": 128185,
+          "passage_sha256": "d20befde533b223f02e7f25d65bbe69986c988efd61459a9a5ba15fe06795a49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "GRC-cost_sharing-001",
+        "statement": "Many medicines are in the benefits package, with co-payments of 0%, 10% or 25% of the list price set by therapeutic value and disease severity.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 122370,
+          "char_end": 122563,
+          "passage_sha256": "a6576fdbe0191d4bc37074162db88c7ac4699be540f8342838ef89fd5b87cb6f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-cost_sharing-002",
+        "statement": "For outpatient prescription medicines in 2025, patients pay EUR 1 per prescription plus 25% of the cost (10% for people with chronic conditions), and also pay the gap between the reference and retail price, up to EUR 20 per medicine.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 35,
+          "char_start": 60795,
+          "char_end": 61533,
+          "passage_sha256": "11025fb6b5a4d52276b513d9a9196947dde98eebaec192ad177f7f9595f88d0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-cost_sharing-003",
+        "statement": "People with annual incomes below EUR 2,400 (EUR 3,600 per household) are exempt from both the fixed and the percentage co-payments on prescribed medicines; people living with HIV, transplant recipients and paraplegics are also exempt.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 35,
+          "char_start": 60795,
+          "char_end": 61533,
+          "passage_sha256": "11025fb6b5a4d52276b513d9a9196947dde98eebaec192ad177f7f9595f88d0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-cost_sharing-004",
+        "statement": "There is no overall cap on co-payments, and very few exemptions target people with low incomes.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 35,
+          "char_start": 59742,
+          "char_end": 59970,
+          "passage_sha256": "5ea27899018fe53751760a86221f743ba959b934398208493f97bee44726ddf3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-cost_sharing-005",
+        "statement": "Primary care visits carry no charge; private consultations with specialists in public hospitals cost a fixed EUR 16 to EUR 72 per visit, depending on the doctor's location and qualifications.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 35,
+          "char_start": 60178,
+          "char_end": 60434,
+          "passage_sha256": "548dc6d9caa0c802d2c622651d02d24a37b3deb3e7ee42858fc7831f7ece6326"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-cost_sharing-006",
+        "statement": "Diagnostic tests are free in public facilities; in contracted private facilities patients pay 15% plus EUR 1 per test or EUR 3 per imaging test.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 35,
+          "char_start": 61537,
+          "char_end": 61737,
+          "passage_sha256": "a41f96caa32a15c532fc8c1bb7949fb8ec42369297bdcbd08aeaff3f364c9f99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-cost_sharing-007",
+        "statement": "Inpatient care in public hospitals has no routine charge, but people on the Unified Digital List of Surgeries can pay EUR 300-2,000 to have surgery outside normal hours; care in contracted private hospitals carries a 30% co-payment.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 36,
+          "char_start": 63112,
+          "char_end": 63465,
+          "passage_sha256": "b0218c0df31c35774e886eb7611a85cdba50d3df87047605ecf1ae23290d4cae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-cost_sharing-008",
+        "statement": "Charges of EUR 5 per outpatient visit and EUR 25 per hospital admission in public facilities were abolished in April 2015.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 29,
+          "char_start": 43544,
+          "char_end": 43660,
+          "passage_sha256": "d7e180f1c940529791c40e0ecc35cc075a9e463b672e6cab43ff20abc5322980"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "GRC-cost_sharing-009",
+        "statement": "In May 2024, charges of EUR 1 per diagnostic test and EUR 3 per imaging test were introduced in contracted private facilities.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 30,
+          "char_start": 45717,
+          "char_end": 46252,
+          "passage_sha256": "c566cd1e27c269d3d0327170e8e376a16d026506e953e554a7cf6b67e9009a03"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-cost_sharing-010",
+        "statement": "Co-payments apply to diagnostic and laboratory tests, outpatient medicines and visits to EOPYY-contracted private providers, but most out-of-pocket spending is direct payment for services outside the benefits package or bought in the private sector.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85927,
+          "char_end": 86202,
+          "passage_sha256": "e76d3d1cc45eec026200d21a70887f78ed8ff3060922451af3e09235a7521281"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-cost_sharing-011",
+        "statement": "Health insurance schemes paid only 52% of retail pharmaceutical spending in 2023; patients paid the other 48%, well above the EU average of 36%.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 122564,
+          "char_end": 122739,
+          "passage_sha256": "45444a571facbb331c2a9a313110a7986a3ba8f7999d0c91499e7cf8d2245b95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "GRC-financial_hardship-001",
+        "statement": "Out-of-pocket spending on medicines is the main driver of catastrophic health spending, particularly among low-income households, who account for more than half of all catastrophic spending.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 87574,
+          "char_end": 87782,
+          "passage_sha256": "0277fa50ea130463721d9f937e4770f15d507709ef02f41ab77bd2b85fd7a57c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-financial_hardship-002",
+        "statement": "The poorest fifth of households by consumption bore nearly two thirds of all catastrophic health spending in 2023, and the incidence within that group climbed from 23% in 2008 to 32% in 2023, higher than in any other year studied.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 20011,
+          "char_end": 20329,
+          "passage_sha256": "db152c39e564034eabbccf7a5e151e7540bd63dfd327c7b9c9a5eeefc3b6c518"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2008-2023"
+      },
+      {
+        "id": "GRC-financial_hardship-003",
+        "statement": "In 2023, catastrophic spending in the poorest quintile was driven mainly by outpatient medicines and outpatient care, while inpatient and dental care weigh more in richer quintiles.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 20332,
+          "char_end": 20562,
+          "passage_sha256": "ec13ab4bde99938e2d2ab9475153eb1982201fd731f5344f33098bdc8066c638"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-financial_hardship-004",
+        "statement": "Household budget survey data show out-of-pocket payments took 7.7% of total household spending in 2023, one of the highest shares in the EU.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 47,
+          "char_start": 81114,
+          "char_end": 81280,
+          "passage_sha256": "58364d6b2c4813da657406457623b2933867fe725040e94099e6d0940f070b7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "GRC-additional_care-001",
+        "statement": "Voluntary health insurance plays a minor supplementary role, buying faster access, wider choice of provider and treatment in private facilities; it covers around 16% of the population and paid for 4.1% of current health spending in 2022.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 36,
+          "char_start": 63539,
+          "char_end": 63912,
+          "passage_sha256": "de21be630be26c5425a58accf58bfae5cc07ed5fd94ae2eacfa52969ef39dc1c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-additional_care-002",
+        "statement": "Voluntary insurance is usually sold with life insurance or private pensions and is bought mostly by employers for staff, especially middle and senior managers in large private companies and banks.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 36,
+          "char_start": 64004,
+          "char_end": 64331,
+          "passage_sha256": "e4a7a74ae993fd80c62f90514ab9de0e4346816e36705e8131d2452ee6fa9230"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-additional_care-003",
+        "statement": "Since 2024, people may choose a private doctor who is not contracted by EOPYY as their primary care doctor and pay for services out of pocket.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 33,
+          "char_start": 54277,
+          "char_end": 54435,
+          "passage_sha256": "c00f6e49c72c0a89e7c466bb7bbb1227d8cab6d963c7724514aa8fffc267241e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-additional_care-004",
+        "statement": "Under a 2010 law, salaried doctors in public hospital outpatient departments can offer private 'afternoon' consultations paid directly by patients, with the fee split 40% to the hospital and 60% to the doctor; meant to curb informal payments, the scheme has also widened inequalities in access.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 54,
+          "char_start": 89774,
+          "char_end": 90180,
+          "passage_sha256": "1a592263ea49784c06bc9c214537a18c47a4bc802c1cef12e649cd7b2ddb1e94"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "GRC-access-001",
+        "statement": "In 2024, 21.9% of people in Greece who needed medical care reported it went unmet because of cost, distance or waiting times, by far the highest rate in the EU and six times the EU average of 3.6%, ranging from 16% to 29% across regions.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77601,
+          "char_end": 77996,
+          "passage_sha256": "1d04206022a1d2bad804cfd81cac89330416de176842e565f70f4d7e10ecb0db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-access-002",
+        "statement": "Among people at risk of poverty, 32.3% of those who needed medical care in 2024 went without it, compared with 6.0% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77601,
+          "char_end": 78203,
+          "passage_sha256": "c5062f0238e381aa3330a8707efd212e76ff6c029c5c7b70b1f68ceace4c32fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-access-003",
+        "statement": "In 2024, 27.1% of people who needed dental care reported unmet need because of cost, waiting times or distance.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77601,
+          "char_end": 78464,
+          "passage_sha256": "7b4df2abb9e60ed4568afe34a72b7068e6fe8be48d6457f8b7cda5288e49300e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-access-004",
+        "statement": "Since 2011 contracted doctors have had daily, weekly and monthly caps on publicly financed consultations (10, 50 and 200), and these caps have increased informal payments.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 33,
+          "char_start": 56108,
+          "char_end": 56529,
+          "passage_sha256": "7779f66f1b7cd9b1e6d1581e702ef599a29e1e00ce935742c83ce02ad8e03312"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-access-005",
+        "statement": "Monthly caps on the volume of EOPYY-reimbursed consultations, on referrals for diagnostic and laboratory tests, and on prescriptions from specialists and from doctors not registered as personal doctors can be a barrier to access.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79927,
+          "char_end": 80205,
+          "passage_sha256": "03898e9350920c75b9ebc4904c653519c4b987736f92fdd70bd9f18ad9b4ab02"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-access-006",
+        "statement": "Greece has no waiting-time guarantees or targets, and without systematic monitoring it is hard to know how many people wait, for what and for how long.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 34,
+          "char_start": 57165,
+          "char_end": 57332,
+          "passage_sha256": "cb23aad808d0dd90302cb439165fe2278287ebbf1b507bc15c18e1c9bd35a5bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-access-007",
+        "statement": "Hospital beds stood at 4.2 per 1,000 people in 2023 (EU 5.1), unevenly spread with an almost three-fold gap between regions; rural hospitals often run below 50% capacity while urban university and tertiary hospitals regularly exceed 90% occupancy.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 97606,
+          "char_end": 98094,
+          "passage_sha256": "ee88c516e9a1d540a14fa0f27d8207ec3d0364f60105e84a0a11bf3ce90a0d5e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-access-008",
+        "statement": "Greece reported 6.6 physicians per 1,000 people in 2023 against an EU average of 4.3, but the figure counts all licensed doctors, not only those in practice.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 50571,
+          "char_end": 50829,
+          "passage_sha256": "575b0d7d4e71b4cf79b76cac1884393b07ff9024e0be22ee9d0aeaed93b665db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-access-009",
+        "statement": "Primary care visits and diagnostic tests are mostly provided by private specialists and diagnostic centres, and households pay over half of outpatient care spending directly.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 18698,
+          "char_end": 18946,
+          "passage_sha256": "b7f4face7ee2667f959b5b312b0d85e8c1d37053bfe4a6ab7e2812942b9c20b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-access-010",
+        "statement": "For medicines approved in the EU in 2020-2023, Greece took an average of 654 days from authorisation to reimbursement, 13% longer than the EU average of 578 days, and as of January 2025, 43% of these medicines were covered (EU average 46%).",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 127552,
+          "char_end": 127842,
+          "passage_sha256": "2a7d7a428b46194e996c2f9f2f4119f85f45c224772b172522481dbfdca4cc83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-access-011",
+        "statement": "The National Telemedicine Network (EDIT), funded by the Recovery and Resilience Facility, is planned to include 305 doctor-patient telemedicine stations, 35 doctor-specialist stations and more than 3,000 home-care endpoints.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 96302,
+          "char_end": 96547,
+          "passage_sha256": "f45e316ccb37653a55c0493bc5fe4b8a279b3e86f9e0ac37b1b9530dfbacf2ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-access-012",
+        "statement": "A time-series study of Eurostat data for 2008-2022 found that limitations in usual activities, bad or very bad self-reported health, unemployment and low income made unmet need for medical care more likely.",
+        "valence": "neutral",
+        "source_id": "unmet-needs-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2645,
+          "char_end": 2796,
+          "passage_sha256": "401b11fee007324c3c483a0cdbfc72172f16b065df9dc1da3efe4f739932c819"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2008-2022"
+      },
+      {
+        "id": "GRC-access-013",
+        "statement": "The same study found that unmet medical need rose from the start of the economic crisis until 2016, and that in 2019, before the COVID-19 crisis, Greece recorded the second-highest level of unmet need for medical care.",
+        "valence": "neutral",
+        "source_id": "unmet-needs-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2389,
+          "char_end": 2644,
+          "passage_sha256": "3698e98ea86ff88e9ac089f4c7a074edcee1cf7e610bcd1a41221a732257fa9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2008-2019",
+        "historical": true
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "GRC-outcomes-001",
+        "statement": "Life expectancy at birth reached 81.9 years in 2024, a little above the EU average, yet below most countries in southern and western Europe.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 13779,
+          "char_end": 13943,
+          "passage_sha256": "9a12a3d7d7a6634620d56a608c506866d6e6d286191e723d7477b83e185d2110"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-outcomes-002",
+        "statement": "Avoidable mortality (preventable and treatable causes combined) was 252 premature deaths per 100,000 people in 2022, slightly below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59491,
+          "char_end": 59667,
+          "passage_sha256": "321185b8ca4dcc1a538046ae2af3dd8b2674498d67d97dc2d2592cdb04015ec1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-outcomes-003",
+        "statement": "Preventable mortality rose 42% between 2019 and 2021 during the COVID-19 pandemic; it fell to 166 deaths per 100,000 in 2022 but had not returned to pre-pandemic levels.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59668,
+          "char_end": 59973,
+          "passage_sha256": "efb2ebf7d073206487f8352fce526d92b25c7744d759814419bd360a3051fc76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2019-2022"
+      },
+      {
+        "id": "GRC-outcomes-004",
+        "statement": "Treatable mortality has followed a fluctuating downward trend over the past decade, similar to the EU, and stood at 86 deaths per 100,000 in 2022.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 61057,
+          "char_end": 61254,
+          "passage_sha256": "a42473ee1a70b4d5fcbe695a507541d65d808c406cbb74cbc0ebcd6492b38bb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-outcomes-005",
+        "statement": "The Global Burden of Disease study put Greece's Healthcare Access and Quality (HAQ) Index at 83.9 (95% uncertainty interval 81.4-85.9) for ages 0-74 in 2019, with 90.7 for ages 0-14, 84.4 for ages 15-64 and 74.9 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table (unnumbered): HAQ Index estimates, by location, in 2019 and absolute change from 1990 to 2019; 2019 HAQ Index columns in order: overall 0-74, young 0-14, working 15-64, post-working 65-74 years",
+          "char_start": 44293,
+          "char_end": 44379,
+          "passage_sha256": "757efdef3701e3091763423850d5a90fc29c86f0b7999d8c1b8bc7e5f3a000ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "GRC-outcomes-006",
+        "statement": "In the 2019 European Health Interview Survey, 66% of women aged 50-69 had breast screening and 73% of women aged 20-69 cervical screening in the previous two years, both above EU averages, but only 10% of people aged 50-74 had colorectal screening, against an EU average of 33%.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 65059,
+          "char_end": 65537,
+          "passage_sha256": "f521545334e69f5236a49e860f03fd5b6d4cd1125e10533cce11d8a00368a8e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "GRC-outcomes-007",
+        "statement": "A 2025 review notes that Greece ranks 30th of 38 OECD countries for patient safety; in January 2025 it launched a National Strategy for Quality of Care and Patient Safety (2025-2030), whose impact is not yet known.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 24427,
+          "char_end": 24687,
+          "passage_sha256": "fc8aa2259bc53f467e85cf4ac2bddcb9a07ddee7003ad2a62ef26fe4f1b0e50d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-outcomes-008",
+        "statement": "Greece's rates of preventable and treatable deaths are near the EU average, but its avoidable cardiovascular mortality has declined more slowly than in most EU countries over recent decades.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 24690,
+          "char_end": 24898,
+          "passage_sha256": "4ef0480cffe20052a4e759aa58cfd9e6a939ba7759ca5a007c8a09d52f616871"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "GRC-costs-001",
+        "statement": "In 2023 Greece spent 8.4% of GDP on health (EU 10.0%), or EUR 2,191 per person adjusted for purchasing power, against an EU average of EUR 3,832.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44973,
+          "char_end": 45227,
+          "passage_sha256": "325e7a78536f7c961e84b1e48e3b5264d37b43be62f616a78888caca24d47f7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-costs-002",
+        "statement": "Inpatient care took 43% of current health spending in 2023, far above the EU average of 28%, while outpatient care took 21%, well below the EU's 28%.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46224,
+          "char_end": 46627,
+          "passage_sha256": "a6652e2035963e7114556ad1cf2d6b07124bdb2ad02b0e818cfc973c7ed563b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-costs-003",
+        "statement": "Pharmaceuticals and medical devices took 29.2% of current health spending in 2023 (EU 18%), prevention 3% (EU 4%) and long-term care just 2% (EU 18%).",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46628,
+          "char_end": 47296,
+          "passage_sha256": "b331758e20be5d4be2c9c6f6e01a1fc81a3985e4c71fbd40c1050054bdf45382"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-costs-004",
+        "statement": "Retail pharmaceutical spending was EUR 586 per person in 2023 (EU EUR 510) and 27% of total health spending, double the EU average of 13% and second only to Bulgaria.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 119918,
+          "char_end": 120249,
+          "passage_sha256": "54ab81730fc06f1f02f885e29a279e7772668643ce7e3190921d6ca3011502f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-costs-005",
+        "statement": "Hospital pharmaceutical spending per person rose by nearly 65% in five years, from EUR 103 in 2018 to EUR 172 in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 121277,
+          "char_end": 121443,
+          "passage_sha256": "299c61c43812d52997ccd427dba9ff189e64ff3095f7a8c3da00651280a7655c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2018-2023"
+      },
+      {
+        "id": "GRC-costs-006",
+        "statement": "Generics made up 34% of reimbursed medicines by volume in 2023, up from 18% in 2013 but the third-lowest share in the EU, far below the 51% average of the 18 reporting EU countries.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 128381,
+          "char_end": 128698,
+          "passage_sha256": "f6b6e7186b8aa3fdaba8c8519f7f9ed7f56938da0a3e853bf691478cfe33a331"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "GRC-costs-007",
+        "statement": "Generics accounted for 30% of the sales value of reimbursed medicines in 2023, one of the highest shares, which the profile reads as a sign that generic prices in Greece are comparatively high.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 132678,
+          "char_end": 132872,
+          "passage_sha256": "b65b2ae7ee2acdba2a04bef6c250f1f2f20df58dce1524cdb07c4ab2a18f2c8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-costs-008",
+        "statement": "Out-of-pocket payments for hospital care rose from EUR 1.6 billion in 2019 to EUR 2.2 billion in 2023, in current prices.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 10671,
+          "char_end": 10796,
+          "passage_sha256": "0db80ec988d0e5609749b25dfe17ac1fd58fce3a7839d6beb80d61d24734ebc6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2019-2023"
+      },
+      {
+        "id": "GRC-costs-009",
+        "statement": "Measures to contain medicine spending, including attempted reform of the clawback mechanism for high-cost medicines, a health technology assessment framework and an electronic prescription system that monitors prescribing, have had some success.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 121746,
+          "char_end": 122094,
+          "passage_sha256": "721fa7a1e3d79c2b3d0effda924bd6702263a2fcb8f76666f1d5f3c2e3bac449"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "GRC-what_works-001",
+        "statement": "Mortality from treatable causes has fallen over the past decade and is again below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7962,
+          "char_end": 8061,
+          "passage_sha256": "88cbe2e156351fa978771595a4547d48b8f6cc6ece8a0dd75b5496c7ef8b1740"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-what_works-002",
+        "statement": "According to the Ministry of Health, merging public hospitals' separate surgery waiting lists into the Unified Digital List of Surgeries in 2024 removed duplicate entries and already-treated patients and brought a preliminary 40-45% fall in waiting times.",
+        "valence": "strength",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 101139,
+          "char_end": 101610,
+          "passage_sha256": "1bb3586432c62f6021b8a7542f560109ef6d4007c0e8bfe5f3dd5a0f4ffe0fcd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-what_works-003",
+        "statement": "In 2024, 38% of people in Greece accessed their personal health information online, well above the EU average of 28%.",
+        "valence": "strength",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 103528,
+          "char_end": 103675,
+          "passage_sha256": "c627ea0802763b3bdebe982df3753ce0feac8eeccdb1d0b1788b46871d6dded0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-what_works-004",
+        "statement": "In the OECD PaRIS survey, 81% of Greek respondents with three or more chronic conditions had had their medication reviewed in the past year, above the survey average of 75%.",
+        "valence": "strength",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 73697,
+          "char_end": 73864,
+          "passage_sha256": "9858be1df81e35bda166c12e3c7b5b1d2b8fc1aab597bc2dd04b629f5a647d00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-what_works-005",
+        "statement": "GP density doubled from 0.19 per 1,000 people in 2010 to 0.38 per 1,000 in 2023, as publicly funded primary care facilities expanded.",
+        "valence": "strength",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 51212,
+          "char_end": 51344,
+          "passage_sha256": "5c1a33b0bcf5bcdbaecda596a41ca9f6f08c879e1add90aa52a1c6c933fbebbd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": "2010-2023"
+      },
+      {
+        "id": "GRC-what_works-006",
+        "statement": "By November 2024 the free breast cancer screening programme had carried out 480,000 mammograms and 16,500 ultrasounds and identified more than 29,000 cases needing further investigation.",
+        "valence": "strength",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74842,
+          "char_end": 75041,
+          "passage_sha256": "65004b78e75803a1b44f70dc5ad1ee35e0a78e45a80a44d7f77fd6edcf5d4b23"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-what_works-007",
+        "statement": "The surgery list introduced in 2016 to set priority criteria for operations has reduced incentives for informal payments.",
+        "valence": "strength",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 54,
+          "char_start": 90181,
+          "char_end": 90315,
+          "passage_sha256": "218d35cbc338de16a4514e1ff866fc2b2afc4bdeea07de99e91eaafda6e1deee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-what_works-008",
+        "statement": "Creating EOPYY as a single payer helped address the earlier fragmentation and inefficiency of health insurance funds.",
+        "valence": "strength",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 34773,
+          "char_end": 34865,
+          "passage_sha256": "57da75aba8ef01394aa46b5a54761b59dbbd08490c505f083a322ed3f982937d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "GRC-problems-001",
+        "statement": "In a 2024 Eurobarometer survey on corruption, 10% of people in Greece reported making informal payments (14% in 2023), against an EU average of 3%.",
+        "valence": "weakness",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 54,
+          "char_start": 88318,
+          "char_end": 88496,
+          "passage_sha256": "d6cfa27d33eb4ce128a8e2026a7fd480454dc7d914608cf317219d3f64c48620"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "GRC-problems-002",
+        "statement": "Informal payments are widespread, especially for obstetric services in public hospitals; they reflect low pay for health workers, poor transparency and misallocated resources, and are not systematically monitored.",
+        "valence": "weakness",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 55,
+          "char_start": 92596,
+          "char_end": 92916,
+          "passage_sha256": "7f38b79dfe27258764c1c7b66efa22dd83b8b4e1b8c669912465da8b2415e430"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-003",
+        "statement": "No data show how many people lack EOPYY coverage, but WHO assumes the share is significant because 6.2% of the active population was long-term unemployed in 2023 and long-term unemployed people under 55 are not entitled to EOPYY benefits.",
+        "valence": "weakness",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 32,
+          "char_start": 51273,
+          "char_end": 51595,
+          "passage_sha256": "617a124fb24535d046e32d9164034146d447a07ca328b26dc198d7183ac42af4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-problems-004",
+        "statement": "Privately paid afternoon surgery in public hospitals drew objections from doctors' unions over capacity and staff shortages (notably of anaesthesiologists and nurses), and concerns about privatisation and equity, since wealthier patients can get faster care.",
+        "valence": "weakness",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 99100,
+          "char_end": 99580,
+          "passage_sha256": "d1fe0aed8d3b851048953293c50f3e4184b4956ecff69203323cb122c0e1f478"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-005",
+        "statement": "EOPYY does not act as a strategic purchaser: its contracts lack criteria linked to performance, quality or need, it lacks autonomy from the Ministry of Health, and it works mainly as a claims-clearing fund.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 11158,
+          "char_end": 11829,
+          "passage_sha256": "c86ac0a30e7ea0d49a6420f44a00f6fb051944c69fd59776eda18e264aa92536"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-006",
+        "statement": "Attempts since 2011 to introduce diagnosis-related group (DRG) payment for hospitals have not produced a fully working system, and until at least 2024 public hospitals were partly funded by retrospective subsidies covering their deficits.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 12731,
+          "char_end": 13100,
+          "passage_sha256": "ecdb7e2b2df301d42b80ba63ff17babc86f883d53c734f897ae1c1247db3aa5f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-007",
+        "statement": "Changes in 2024 allowed public hospital doctors, including trainees, to also work privately; without clear rules for measuring public-sector activity, patients can be nudged or even pushed toward private care.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 13598,
+          "char_end": 14237,
+          "passage_sha256": "2f4a13410e7d4043890d0351faa26a8fcaccdc6d0867f90495ed6981f22d8dd6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-008",
+        "statement": "A 2025 review reports that about 57% of the eligible population had enrolled with a personal doctor, but there is little data on the scheme's effects, and capitation tied only to list size gives no reward for quality and may encourage risk selection.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 14627,
+          "char_end": 15245,
+          "passage_sha256": "d471f680354f931dfe1586b9947886fff9471d81aee288f6c93cad280dc15091"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-009",
+        "statement": "A 2024 law let doctors without a specialty or postgraduate training act as personal doctors to make up for the shortage of GPs; the authors argue solo personal doctors are unlikely to manage complex multimorbidity and that this runs against the trend toward team-based primary care.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 19130,
+          "char_end": 19718,
+          "passage_sha256": "e8e72163ca52072cb620dc9fd07a05f6b69c88503c664cfd0c4106c661b73dc4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-010",
+        "statement": "Long-term care is costly to users: just 10% of Greek users got formal services for free (EU 37%), and nearly 55% of those who paid found home care very hard to afford (EU 12.1%).",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 21911,
+          "char_end": 22170,
+          "passage_sha256": "d316508a5424597c6b762309a4e96a6e68602ae78f577458681202cb0327f245"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-011",
+        "statement": "Workforce planning is weak: in 2023 Greece had 1,159 practising urologists but only 388 medical oncologists, and nearly as many cardiologists as Germany with a population more than eight times smaller.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 26500,
+          "char_end": 26713,
+          "passage_sha256": "88355458f4f94f6180bafab2fb6b40f713b0847840a2df234873f712b553ffc9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-problems-012",
+        "statement": "The cancer and cardiovascular screening programmes started in the early 2020s are financed by the EU Recovery and Resilience Fund, which is not a stable long-term funding source.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 21282,
+          "char_end": 21494,
+          "passage_sha256": "e285d8c8f1c9a046fda408063a72ee60dce79d1212e46549556fc810cfc5062e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-013",
+        "statement": "GPs made up only about 6% of physicians in 2023, the lowest share in the EU (average 19%).",
+        "valence": "weakness",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 50918,
+          "char_end": 51084,
+          "passage_sha256": "96121c05093c1b08374593812040e43cd7804ef149fa6a0180504b299a266d1b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-problems-014",
+        "statement": "Greece had 3.8 nurses per 1,000 people in 2023, far below the EU average of 8.5, although official figures count only nurses in public hospitals and so leave out those in primary care.",
+        "valence": "weakness",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 51437,
+          "char_end": 51846,
+          "passage_sha256": "cbc78b70be8df7f8b9b4f396d76f0d2300804c1e4621057601019f2009c456e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-problems-015",
+        "statement": "Greece produces fewer medical graduates than the EU average (13.3 vs 16.7 per 100,000 in 2022), and together with many doctors working privately this has caused a significant shortage in the public system.",
+        "valence": "weakness",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 108088,
+          "char_end": 108470,
+          "passage_sha256": "818b2b7c950907f9a475856ccbd3393da93176aa94252cc46fc8c611f71eaa2c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-problems-016",
+        "statement": "Public hospital deficits are largely covered by state subsidies, procurement lacks transparency, and the public hospital network has grown according to local political priorities rather than health needs.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 16876,
+          "char_end": 17234,
+          "passage_sha256": "2a1be62dd60ec59f987ac13ff12b771b0982fc981ca9722ed90b8e2ce9a4a31e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-017",
+        "statement": "Standard tools to control prescribing, such as clinical guidelines, prescribing quotas, audits and feedback, are missing or applied inconsistently, even though electronic prescribing has existed since 2011.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 17549,
+          "char_end": 17810,
+          "passage_sha256": "535b9b9f7d24474ef950381daf94b51ea4217917f347164c1534171eed0e7276"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-018",
+        "statement": "Greece still does not systematically monitor clinical effectiveness and patient outcomes, even though a quality agency was set up in 2020.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 23682,
+          "char_end": 23835,
+          "passage_sha256": "6c801e1834410b6faf2bdb5f9fbf2475f1f563337a31ff2d19073fa6d86ecfad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-019",
+        "statement": "In 2022 only 44% of Greeks were satisfied with the availability of quality health care, 35th of 38 OECD countries.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 25001,
+          "char_end": 25155,
+          "passage_sha256": "615885e651c40dbaabd6f000e7fbecdf86b557790d02fc8a0ee4205c347873d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "GRC-problems-020",
+        "statement": "More than 68% of bacterial isolates in Greece show antimicrobial resistance, the highest rate in the EU together with Romania, and more than 12% of hospital patients acquire an infection there, against an EU average of about 7%.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 8160,
+          "char_end": 8646,
+          "passage_sha256": "45c853e956f5d1e3d55170b2d76161442885d7891b9f435b5238a6cfdf095941"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-problems-021",
+        "statement": "Antibiotic consumption was 24.9 defined daily doses per day in 2023, much higher than in most EU countries.",
+        "valence": "weakness",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 114498,
+          "char_end": 114633,
+          "passage_sha256": "51db6e64268f8fd363e676cbe6e6dbea822c7027eb20b7837042791299369f7d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "GRC-problems-022",
+        "statement": "Patients often self-refer to hospital outpatient clinics or emergency departments because primary care does not work well, which overloads and crowds hospitals.",
+        "valence": "weakness",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 18287,
+          "char_end": 18526,
+          "passage_sha256": "d891afbc12f088bb057417900c0d5e84c4de12fb2e35ed927fb91224ed3504a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "GRC-reforms-001",
+        "statement": "Since 2017, reforms have aimed to strengthen community primary care, mainly by expanding local health units and health centres for prevention, health promotion and early detection of chronic conditions.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44527,
+          "char_end": 44793,
+          "passage_sha256": "094d6bb118a446dc1c0a2b1cddf79f9298457ee46a283021aabd7b0130f3846e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-002",
+        "statement": "Since the personal doctor scheme began in 2022 (and was reinforced in 2024), every adult must register with a doctor who guides them through the system. The 2024 changes opened the role to rural doctors, private GPs and internists, and from 1 June 2025 adults who had not registered were enrolled automatically.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 87978,
+          "char_end": 88572,
+          "passage_sha256": "0864f503f12f8f32bee5e52bf343168e2661cb40ac63d263c2ad43896b5e89fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-reforms-003",
+        "statement": "Young doctors can receive one-off grants of up to EUR 40,000 to train in general/family or internal medicine if they then join the personal-doctor network.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 88655,
+          "char_end": 88898,
+          "passage_sha256": "62d0bcf7b411557d7ffb75dee5493ca379804465223016db92cb9dadd33f3296"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-004",
+        "statement": "A 2024 initiative lets patients who have waited more than four months for elective surgery pay to be operated on in public hospitals in the afternoon, choosing their doctor and skipping the waiting list; the first 37,500 such operations are free, funded by the Recovery and Resilience Facility.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 98340,
+          "char_end": 99099,
+          "passage_sha256": "6d6bd08c93910903fddaa996312b73a6d52bc222a1613aebc7e547b67caba815"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-005",
+        "statement": "A fully operational national electronic health record was launched in May 2025, giving providers central access to patient histories and letting people see their diagnoses, prescriptions, test results and hospital records through a portal or the MyHealth app.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 103953,
+          "char_end": 104311,
+          "passage_sha256": "a233f1013dc7b74c58a5df9443ce6caba7eb0fd602518eb4173cfffd47944937"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-reforms-006",
+        "statement": "In 2024 Greece launched the 'Prolamvano' screening plan for cervical, breast and colon cancer and cardiovascular checks, funded by the EU Recovery and Resilience Facility until December 2025.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 65538,
+          "char_end": 65913,
+          "passage_sha256": "c44c9e70c37c8fb108045450dd15ae58b88be52f326037956e3ced0ddee3ed5a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-007",
+        "statement": "A national network of 19 enhanced care units for stroke has been set up to improve prevention and treatment and to cut deaths and hospital stays.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 61654,
+          "char_end": 61880,
+          "passage_sha256": "9b88a9059d3037f199061f8c7b218d0e043384fc7359dfa7a1d59a3e7cfaa592"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-008",
+        "statement": "Under the National Prevention Programme, 5.5 million people aged 30-70 were offered a free doctor visit and free lipid tests to check for cardiovascular disease.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 61438,
+          "char_end": 61653,
+          "passage_sha256": "daa8da559b3f18be4e8710c1a96b56371a0a40058e4a7831cfe0be7a2f3090ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-009",
+        "statement": "A 2025 law requires age checks for tobacco and alcohol purchases and restricts sales of cigarettes and related products to protect minors.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 60330,
+          "char_end": 60628,
+          "passage_sha256": "5c18d315d03825b7cfaa673a805b3df953a65543ed8904f4238354bd0d1d37cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-reforms-010",
+        "statement": "ESY physicians who work in remote and underserved areas receive monthly bonuses of EUR 200-600, depending on specialty and location.",
+        "valence": "neutral",
+        "source_id": "who-finprot-grc-2025",
+        "locator": {
+          "page": 30,
+          "char_start": 46534,
+          "char_end": 46711,
+          "passage_sha256": "faaaf405ca8b55ee69b3b76eea2137be85e5de24a9c8fd9d2f9db6512d89a6b9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-011",
+        "statement": "A national cancer registry was introduced in early 2025, although its role in clinical practice and policy is still uncertain.",
+        "valence": "neutral",
+        "source_id": "kyriopoulos-2025",
+        "locator": {
+          "page": 6,
+          "char_start": 24016,
+          "char_end": 24159,
+          "passage_sha256": "65da766fedbcbca3fdab36e1af2aa7dc84d0291454fb066650a62aefea07346a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "GRC-reforms-012",
+        "statement": "Using Recovery and Resilience Facility funds, the government lets pharmaceutical companies offset sums they owe the state, such as clawback payments, against their research and development spending.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 133804,
+          "char_end": 134100,
+          "passage_sha256": "f96472e48014df556d8d3fc80076ee9a875a19a4cc6f2041eb2682d4d544de06"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        }
+      },
+      {
+        "id": "GRC-reforms-013",
+        "statement": "A digital tool that texts patients after discharge a link to a 35-question survey on care quality went live in July 2025 in 109 public hospitals and 576 clinics.",
+        "valence": "neutral",
+        "source_id": "chp-grc-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 73865,
+          "char_end": 74596,
+          "passage_sha256": "1da466f8055e4e9914eea728437f29a18b1611f89f748464105b036e3f61affb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-13"
+        },
+        "data_year": 2025
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/GRC.json",

@@ -53,6 +53,10 @@ data "google_project" "staging" {
 # a bad apply can always be traced and recovered.
 # ---------------------------------------------------------------------------
 resource "google_storage_bucket" "tfstate" {
+  # PREVENT: any plan that would delete this fails instead. Terraform reads
+  # this from state, so it takes effect after the next bootstrap apply.
+  deletion_policy = "PREVENT"
+
   project                     = var.prod_project_id
   name                        = "${var.prod_project_id}-tfstate"
   location                    = var.region
@@ -82,6 +86,10 @@ resource "google_storage_bucket" "tfstate" {
 # No service account keys exist anywhere.
 # ---------------------------------------------------------------------------
 resource "google_iam_workload_identity_pool" "github" {
+  # PREVENT: any plan that would delete this fails instead. Terraform reads
+  # this from state, so it takes effect after the next bootstrap apply.
+  deletion_policy = "PREVENT"
+
   project                   = var.prod_project_id
   workload_identity_pool_id = "github"
   display_name              = "GitHub Actions"
@@ -89,6 +97,10 @@ resource "google_iam_workload_identity_pool" "github" {
 }
 
 resource "google_iam_workload_identity_pool_provider" "github" {
+  # PREVENT: any plan that would delete this fails instead. Terraform reads
+  # this from state, so it takes effect after the next bootstrap apply.
+  deletion_policy = "PREVENT"
+
   project                            = var.prod_project_id
   workload_identity_pool_id          = google_iam_workload_identity_pool.github.workload_identity_pool_id
   workload_identity_pool_provider_id = "github-oidc"
@@ -125,6 +137,10 @@ locals {
 #   tf-plan@<prod>        read-only, so pull requests can show a production plan without approval
 # ---------------------------------------------------------------------------
 resource "google_service_account" "terraform" {
+  # PREVENT: any plan that would delete this fails instead. Terraform reads
+  # this from state, so it takes effect after the next bootstrap apply.
+  deletion_policy = "PREVENT"
+
   for_each     = local.projects
   project      = each.value
   account_id   = "terraform"
@@ -156,6 +172,10 @@ resource "google_service_account_iam_member" "terraform_wif" {
 }
 
 resource "google_service_account" "tf_plan" {
+  # PREVENT: any plan that would delete this fails instead. Terraform reads
+  # this from state, so it takes effect after the next bootstrap apply.
+  deletion_policy = "PREVENT"
+
   project      = var.prod_project_id
   account_id   = "tf-plan"
   display_name = "Terraform plan (read-only, production)"

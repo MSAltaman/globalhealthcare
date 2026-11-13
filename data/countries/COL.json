@@ -3,7 +3,7 @@
   "name": "Colombia",
   "wave": 2,
   "system_as_of": "2026-11-13",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "mixed",
     "label": "TODO: plain-language name of the model"
@@ -154,15 +154,15 @@
       },
       {
         "id": "COL-financing-003",
-        "statement": "For employees on an 'integral salary' (pay of at least 13 monthly minimum wages), 2026 guidance from the contributions agency UGPP sets the health contribution at 12.5%, split 8.5% employer and 4% employee.",
+        "statement": "For employees paid an integral salary (at least 13 monthly minimum wages), UGPP's 2026 guidance sets the health contribution at 12.5%, with 8.5% paid by the employer and 4% by the employee, which the employer deducts from pay.",
         "valence": "neutral",
         "source_id": "ugpp-dependientes-2026",
         "locator": {
           "section": "3. ¿Quién paga qué?",
           "page": 2,
-          "char_start": 1993,
+          "char_start": 1804,
           "char_end": 2254,
-          "passage_sha256": "8f0f25e49232145fb0e600da3a4c70a406d281cddd4120a4b47560d760e1d2e3"
+          "passage_sha256": "dc2978d4c6daaab76b15ff50397cf911655d2a20df02bd8a846830502b9bc468"
         },
         "verification": {
           "passage_found": "pass",
@@ -227,7 +227,7 @@
       },
       {
         "id": "COL-financing-007",
-        "statement": "Law 100 raised the health contribution from 7% of income in 1993 to 12% from 1995 and earmarked 25% of transfers to territorial governments for health, alongside national budget funds.",
+        "statement": "The health contribution rose from 7% of income in 1993 to 12% from 1995, and more public funds came from earmarking 25% of transfers to territorial governments for health, alongside national budget allocations.",
         "valence": "neutral",
         "source_id": "court-rsap-2025",
         "locator": {
@@ -316,14 +316,14 @@
       },
       {
         "id": "COL-financing-012",
-        "statement": "Article 387 of the Tax Statute, as quoted by the tax authority DIAN in 2020, lets an employee reduce the base for income-tax withholding by health payments of up to 16 tax value units (UVT) a month; these include payments to prepaid-medicine companies and health insurance policies covering the worker, spouse, children or dependants.",
+        "statement": "Article 387 of the Tax Statute lets an employee reduce the base for income-tax withholding by health payments of up to 16 tax value units (UVT) a month; these include payments to prepaid-medicine companies supervised by the National Health Superintendence and health insurance policies covering the worker, spouse, children or dependants (quoted in a DIAN ruling).",
         "valence": "neutral",
         "source_id": "dian-oficio-359-2020",
         "locator": {
           "section": "1. Disminución de la base de retención en la fuente",
-          "char_start": 2441,
+          "char_start": 2239,
           "char_end": 3529,
-          "passage_sha256": "32a26f35ad8c49380ddd14852557c2f395bfaa0108b6084b80979940cc96cff4"
+          "passage_sha256": "191fa5842af5a3a6f52800c1bd0a6dc6e82fa7fb8d2791d5a770b709e37827ad"
         },
         "verification": {
           "passage_found": "pass",
@@ -333,7 +333,7 @@
       },
       {
         "id": "COL-financing-013",
-        "statement": "DIAN concluded in 2020 that voluntary health plans, including prepaid medicine, were deductible in calculating income tax for tax year 2019, provided the tax rules and their limits were met.",
+        "statement": "Voluntary health plans, including prepaid medicine and prepaid ambulance services, were deductible when calculating income tax for tax year 2019, provided they met health-sector rules and the requirements and limits of the tax rules (DIAN ruling).",
         "valence": "neutral",
         "source_id": "dian-oficio-359-2020",
         "locator": {
@@ -406,7 +406,7 @@
       },
       {
         "id": "COL-covered-004",
-        "statement": "As of May 2025, 98.39% of the population was covered across the contributory, special and subsidized regimes.",
+        "statement": "As of May 2025, health insurance coverage across the system's regimes stood at 98.39%.",
         "valence": "strength",
         "source_id": "fragmentation-bmchsr-2026",
         "locator": {
@@ -424,14 +424,14 @@
       },
       {
         "id": "COL-covered-005",
-        "statement": "The 2021 update of the benefit plan (PBS) moved Colombia towards a comprehensive plan that included 97% of the medical procedures authorised in the country.",
+        "statement": "After the Statutory Health Law the benefit plan (PBS) was updated in 2021, moving Colombia towards a comprehensive health plan that included 97% of the medical procedures authorised in the country.",
         "valence": "strength",
         "source_id": "court-rsap-2025",
         "locator": {
           "section": "El plan de beneficios en salud (PBS)",
-          "char_start": 17987,
+          "char_start": 17749,
           "char_end": 18179,
-          "passage_sha256": "18822f20d0f4e89fc5364856475ebaa5d58e980c2d966f0f2d88f53140f3d856"
+          "passage_sha256": "4b40803187c517263ddddf3eab02ea8618b2c86e7bdbd2b7ec20639414ce148f"
         },
         "verification": {
           "passage_found": "pass",
@@ -442,7 +442,7 @@
       },
       {
         "id": "COL-covered-006",
-        "statement": "Coverage is defined by a list of services paid through the UPC and a list of exclusions; procedures and medicines that appear on neither list leave 'grey zones' of uncertainty for providers and patients.",
+        "statement": "Under the Ministry's exclusion-list mechanism there is an exhaustive list of services paid through the UPC and a separate list of exclusions; some procedures and medicines appear on neither, which creates regulatory ambiguity and uncertainty for providers and patients.",
         "valence": "weakness",
         "source_id": "court-rsap-2025",
         "locator": {
@@ -501,9 +501,9 @@
         "locator": {
           "section": "2.1. Valor de la cuota moderadora 2025",
           "page": 4,
-          "char_start": 7658,
+          "char_start": 7362,
           "char_end": 7831,
-          "passage_sha256": "c6ae83fd65957b8f03ace8fda1343c9d3c16787074fdcd305fe8a4eb455f21ac"
+          "passage_sha256": "5d8ab89e2a06e67a1099ab0f4b87e0dd57ff897c1d9984f3af8c819cf5ed7859"
         },
         "verification": {
           "passage_found": "pass",
@@ -533,7 +533,7 @@
       },
       {
         "id": "COL-cost_sharing-003",
-        "statement": "Contributory-regime copayments are capped per event (such as a surgery or a hospital stay); in 2025 the cap was COP 356,548 for the lowest income band and COP 2,857,356 for the highest.",
+        "statement": "Contributory-regime copayments are capped per event (for example, a surgery); in 2025 the cap was COP 356,548 for the lowest income band (below 2 minimum wages) and COP 2,857,356 for the highest (above 5).",
         "valence": "strength",
         "source_id": "minsalud-copagos-2025",
         "locator": {
@@ -645,7 +645,7 @@
       },
       {
         "id": "COL-additional_care-003",
-        "statement": "Colombian voluntary private insurance mostly duplicates public cover: it is bought for faster access, a larger choice of providers and more comfort, and some providers treat only people who hold it.",
+        "statement": "Colombia has duplicate voluntary private insurance, bought for faster access, a larger choice of providers and more comfort; some providers treat only people who hold it.",
         "valence": "neutral",
         "source_id": "vphi-ijeh-2024",
         "locator": {
@@ -680,7 +680,7 @@
       },
       {
         "id": "COL-additional_care-005",
-        "statement": "The private companies that manage public insurance are the same ones that offer and manage duplicate voluntary private insurance, which the authors describe as unique to Colombia.",
+        "statement": "The private companies that manage public insurance are the same ones that offer and manage duplicate voluntary private insurance, which the authors call a unique situation.",
         "valence": "neutral",
         "source_id": "vphi-ijeh-2024",
         "locator": {
@@ -767,7 +767,7 @@
       },
       {
         "id": "COL-access-004",
-        "statement": "46% of people in Colombia were satisfied with the availability of quality health care, against an OECD average of 64% (OECD Health at a Glance 2025).",
+        "statement": "In OECD Health at a Glance 2025, 46% of Colombians said they were satisfied with how available good-quality health care was, against an OECD average of 64%.",
         "valence": "weakness",
         "source_id": "oecd-hag-2025-col",
         "locator": {
@@ -777,10 +777,9 @@
           "passage_sha256": "00b6aadece30762cc57c3c59b112ea7043fb5be847cf06b43a0ec08bd599b2ce"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-13",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-13"
         }
       },
       {
@@ -909,7 +908,7 @@
       },
       {
         "id": "COL-outcomes-004",
-        "statement": "89% of eligible children had received three doses of the DTP vaccine, lower than the OECD average (OECD Health at a Glance 2025).",
+        "statement": "89% of eligible children in Colombia were vaccinated against DTP, lower than the OECD average (OECD Health at a Glance 2025).",
         "valence": "weakness",
         "source_id": "oecd-hag-2025-col",
         "locator": {
@@ -962,14 +961,14 @@
       },
       {
         "id": "COL-costs-003",
-        "statement": "In the contributory scheme over 2013-2021, average health spending per person rose gradually with age up to 60 for both sexes and then rose sharply.",
+        "statement": "Among more than 19 million contributory-scheme users in 2013-2021, average health spending per person rose gradually with age up to 60 for both sexes and then rose sharply.",
         "valence": "neutral",
         "source_id": "concentration-bmchsr-2024",
         "locator": {
           "section": "Abstract",
-          "char_start": 3306,
+          "char_start": 2800,
           "char_end": 3427,
-          "passage_sha256": "158ff3df8c64fa207a039e4e155783a76767030753bc87839179c4faa6e3554c"
+          "passage_sha256": "19cde1ff497a84b8a0b4723b92c1fef6f13a1126c646f8a7de5b9a02dcafdfd4"
         },
         "verification": {
           "passage_found": "pass",
@@ -980,14 +979,14 @@
       },
       {
         "id": "COL-costs-004",
-        "statement": "The conditions taking the largest share of contributory-scheme spending in 2013-2021 were cancers, blood diseases, circulatory conditions, and pregnancy, childbirth and the perinatal period.",
+        "statement": "Among more than 19 million contributory-scheme users in 2013-2021, the conditions taking the largest share of spending were cancers, blood diseases, circulatory conditions, and pregnancy, childbirth and the perinatal period.",
         "valence": "neutral",
         "source_id": "concentration-bmchsr-2024",
         "locator": {
           "section": "Abstract",
-          "char_start": 3428,
+          "char_start": 2800,
           "char_end": 3601,
-          "passage_sha256": "82961c884093fd59315fe994e2069d2967f5ad19e9c8c3a2638fd9d79797ab2b"
+          "passage_sha256": "0956606f88401e5c522e07000af502dc45df914f61b58b0160ff9c49faf4e219"
         },
         "verification": {
           "passage_found": "pass",
@@ -998,7 +997,7 @@
       },
       {
         "id": "COL-costs-005",
-        "statement": "On 31 December 2024 the Ministry of Health raised the UPC for 2025 by 5.36%, close to the 5.2% inflation rate, a decision that drew protests from patient groups, medical societies and others.",
+        "statement": "On 31 December 2024 the Ministry of Health announced a 5.36% rise in the UPC, close to the 5.2% inflation rate, a decision that drew protests from patient associations, medical societies and others.",
         "valence": "neutral",
         "source_id": "upc2025-her-2025",
         "locator": {
@@ -1069,14 +1068,14 @@
       },
       {
         "id": "COL-what_works-004",
-        "statement": "A cost-utility study estimated that enrolling Venezuelan migrants in subsidized insurance in 2021-2023 gained 10,259 quality-adjusted life years (or averted 11,843 years of life lost), with an internal rate of return of 27.5% when a QALY is valued at 100% of GDP per person.",
+        "statement": "A cost-utility study estimated that Colombia's 2021-2023 policy of enrolling over 1.4 million Venezuelan migrants in subsidized insurance gained 10,259 quality-adjusted life years (or averted 11,843 years of life lost), with an internal rate of return of 27.5% when a QALY is valued at 100% of GDP per person.",
         "valence": "strength",
         "source_id": "migrants-cu-2025",
         "locator": {
           "section": "Abstract",
-          "char_start": 1900,
+          "char_start": 1041,
           "char_end": 2130,
-          "passage_sha256": "1605a3bb5de463fbe99b2dba35a23e2fd0b51425eaf69c7a3f4859189b58b312"
+          "passage_sha256": "3f6d80e71a8535667afe2cf557619733db04dfbf48c56bedb006b8a3a33cc132"
         },
         "verification": {
           "passage_found": "pass",
@@ -1087,7 +1086,7 @@
       },
       {
         "id": "COL-what_works-005",
-        "statement": "After eligibility for subsidized insurance was extended to vulnerable migrant women in 2016, enrolled migrant women used more prenatal care (about 0.34-0.37 more visits in 2017 and 2019), especially mothers with less education.",
+        "statement": "Difference-in-difference-in-differences estimates showed that enrolled migrant women used more prenatal care (0.37 more visits in 2017 and 0.34 in 2019), particularly mothers with less education.",
         "valence": "strength",
         "source_id": "migrants-lrha-2026",
         "locator": {
@@ -1196,7 +1195,7 @@
       },
       {
         "id": "COL-problems-005",
-        "statement": "Among nine insurers that received members from liquidated EPS, average operating margins fell from 3.2% in 2017 to -0.59% in 2024; the forced transfers alone cut operating margins by 1.2 percentage points.",
+        "statement": "Average operating margins of the insurers studied fell from 3.2% in 2017 to -0.59% in 2024; difference-in-differences estimates show that mass transfers of enrollees from liquidated EPS reduced operating margins by 1.2 percentage points.",
         "valence": "weakness",
         "source_id": "liquidation-bmjgh-2026",
         "locator": {
@@ -1249,14 +1248,14 @@
       },
       {
         "id": "COL-problems-008",
-        "statement": "By 2024 there had been no significant progress in carrying out the Constitutional Court's 2008 T-760 orders, with assessments similar to those of 2015 and 2018; obstacles to access and to the flow of funds persisted.",
+        "statement": "By 2024 there had been no significant progress in carrying out the orders of the Constitutional Court's July 2008 ruling T-760, with assessments similar to those of 2015 and 2018; obstacles to access and to the flow of funds persisted.",
         "valence": "weakness",
         "source_id": "court-rsap-2025",
         "locator": {
           "section": "Abstract",
-          "char_start": 3487,
+          "char_start": 2752,
           "char_end": 3774,
-          "passage_sha256": "48a4954756e02a120b3aa66a3cc870845e1c1bbf16d9bc43dfa058f56c66dd2c"
+          "passage_sha256": "a25499496b0a72cd0df8d70f73e7c820531893ddf5d9bec7a4fb2e2050ee6d97"
         },
         "verification": {
           "passage_found": "pass",
@@ -1267,14 +1266,14 @@
       },
       {
         "id": "COL-problems-009",
-        "statement": "The 'maximum budgets' mechanism has not prevented insurers' reimbursement claims from building up, which continues to disrupt the flow of funds in the system.",
+        "statement": "The 'maximum budgets' mechanism, an extra yearly allocation for services outside the UPC, has not been enough to stop insurers' reimbursement claims from building up, which continues to disrupt the flow of funds.",
         "valence": "weakness",
         "source_id": "court-rsap-2025",
         "locator": {
           "section": "El plan de beneficios en salud (PBS)",
-          "char_start": 21640,
+          "char_start": 21233,
           "char_end": 21822,
-          "passage_sha256": "f0fbe4aa62ea43c241ada0992a86820740243acb23424dcac7a8a8798ad979c6"
+          "passage_sha256": "86d13089965e8145719278cef1e1a97defb762c3faa54b938c8fe4af32e5c1ef"
         },
         "verification": {
           "passage_found": "pass",
@@ -1284,14 +1283,14 @@
       },
       {
         "id": "COL-problems-010",
-        "statement": "In 2016-2017, 1.77% of households had catastrophic health expenditure (WHO definition, 20% threshold), with the highest rates in Boyacá (5.04%), Nariño (4.04%), Cauca (3.82%) and Chocó (3.78%).",
+        "statement": "In the 2016-2017 national household budget survey, 1.77% of households had catastrophic health expenditure (WHO definition, 20% threshold), with the highest rates in Boyacá (5.04%), Nariño (4.04%), Cauca (3.82%) and Chocó (3.78%).",
         "valence": "weakness",
         "source_id": "che-plosone-2023",
         "locator": {
           "section": "Abstract",
-          "char_start": 3280,
+          "char_start": 2577,
           "char_end": 3462,
-          "passage_sha256": "eb9005824573ec5980e7ac2cabdba9c4358ccb959d91a5e4f402921e1d25e9bf"
+          "passage_sha256": "158b08cf33780ec157bb66712ad9a6fce60c8739c2d441bf13d675bf0ea0e7f9"
         },
         "verification": {
           "passage_found": "pass",
@@ -1302,14 +1301,14 @@
       },
       {
         "id": "COL-problems-011",
-        "statement": "Cervical cancer mortality among women in the subsidized regime rose significantly from 2013 to 2020 (2.28% a year), after its benefits were unified with the contributory regime, while it had fallen significantly in the contributory regime in 2006-2012.",
+        "statement": "The Constitutional Court required the benefits of both regimes to be unified by 2012. Cervical cancer mortality in the subsidized regime rose significantly in 2013-2020 (2.28% a year) after a non-significant decrease in 2006-2012, while in the contributory regime it fell significantly in 2006-2012 (3.27% a year) and was essentially flat in 2013-2020.",
         "valence": "weakness",
         "source_id": "cervical-bmchsr-2024",
         "locator": {
           "section": "Abstract",
-          "char_start": 3342,
+          "char_start": 2621,
           "char_end": 3959,
-          "passage_sha256": "2639b2ef7d89ab5180fc024594e85798451d846b116ecec759f6254684e752c2"
+          "passage_sha256": "6926e86763175f5739c1da995ae7534205e7eeacfa9577e65082fe4ffd6da1e7"
         },
         "verification": {
           "passage_found": "pass",
@@ -1320,7 +1319,7 @@
       },
       {
         "id": "COL-problems-012",
-        "statement": "Interviewees in a qualitative study said voluntary private insurance worsens timely access in the public system, makes people pay twice for services they are entitled to, and widens inequity in access between people with the same needs.",
+        "statement": "Interviewees in a qualitative study said voluntary private insurance worsens timely access in the public system, makes people pay twice for services they are entitled to, and widens inequity in access between people with similar needs but different ability to pay.",
         "valence": "weakness",
         "source_id": "vphi-ijeh-2024",
         "locator": {
@@ -1337,14 +1336,14 @@
       },
       {
         "id": "COL-problems-013",
-        "statement": "Stakeholders interviewed in 2024-2025 named corruption, underfunding, poor information systems, limited research, insurers' management of resources, vertical integration and the medical-industrial complex as institutional causes of fragmented financing.",
+        "statement": "In a qualitative study of 28 stakeholders and policymakers, interviewees named corruption, underfunding, poor information systems, limited research, insurers' management of resources, vertical integration and the medical-industrial complex as institutional determinants of the fragmented financing of Colombia's health system.",
         "valence": "weakness",
         "source_id": "fragmentation-bmchsr-2026",
         "locator": {
           "section": "Abstract",
-          "char_start": 3743,
+          "char_start": 2789,
           "char_end": 3961,
-          "passage_sha256": "26e1c9e9831f4027bad0ddcab428ed28de247761a78067527abb175d77981940"
+          "passage_sha256": "80f724db7434d3819193cf737cab8547ef29e83ccba49cdb014d8df11c76edbd"
         },
         "verification": {
           "passage_found": "pass",
@@ -1375,7 +1374,7 @@
       },
       {
         "id": "COL-reforms-002",
-        "statement": "Law 2294 of 2023 (the 2022-2026 National Development Plan) created the Basic Value Unit (UVB), used by the Ministry of Health to update moderating fees and copayments each year.",
+        "statement": "Article 313 of Law 2294 of 2023, which issued the 2022-2026 National Development Plan, created the Basic Value Unit (UVB); the Ministry of Health's 2025 table of moderating fees and copayments is issued under it.",
         "valence": "neutral",
         "source_id": "minsalud-copagos-2025",
         "locator": {
@@ -1467,14 +1466,14 @@
       },
       {
         "id": "COL-reforms-007",
-        "statement": "Law 100 of 1993 aimed to raise health insurance coverage from about 25% of the population in 1992 to 100% by the end of 2000; in 2000 coverage reached only 58.5%.",
+        "statement": "Law 100 aimed to raise health insurance coverage from about 25% of the population in 1992 to 100% by the end of 2000; in 2000 coverage reached only 58.5%.",
         "valence": "neutral",
         "source_id": "court-rsap-2025",
         "locator": {
           "section": "Introducción",
-          "char_start": 5568,
+          "char_start": 5323,
           "char_end": 6399,
-          "passage_sha256": "72bbedb58c43ed5e47f69040714b5d2a0ac51412904ec8b3758971575e039e33"
+          "passage_sha256": "8ac24fc8cb55275037bfca7d0b37a236ccf3079c7679b27a9f2c85b2190d4f76"
         },
         "verification": {
           "passage_found": "pass",
@@ -1488,7 +1487,7 @@
     "us_lessons": [
       {
         "id": "COL-us_lessons-001",
-        "statement": "Comparing Colombia with Germany and Japan, the authors conclude that insurer systems need ex ante and ex post risk adjustment, inter-insurer compensation funds and automatic UPC adjustments when members are moved between insurers, and present their study as a precedent for other countries facing forced enrollee transfers.",
+        "statement": "The authors say their findings show an urgent need for ex ante and ex post risk adjustment when enrollees are transferred between insurers, can inform reforms introducing inter-insurer compensation funds and automatic UPC adjustments, and set a methodological precedent for other countries facing forced enrollee transfers.",
         "valence": "neutral",
         "source_id": "liquidation-bmjgh-2026",
         "locator": {
@@ -1505,14 +1504,14 @@
       },
       {
         "id": "COL-us_lessons-002",
-        "statement": "The authors of a cost-utility study present Colombia's enrolment of migrants in subsidized insurance as a model for other countries dealing with large-scale migration.",
+        "statement": "The authors say Colombia's 2021-2023 enrolment of Venezuelan migrants in subsidized insurance yielded high social returns and offers a model for other countries dealing with large-scale migration.",
         "valence": "neutral",
         "source_id": "migrants-cu-2025",
         "locator": {
           "section": "Abstract",
-          "char_start": 2242,
+          "char_start": 1041,
           "char_end": 2397,
-          "passage_sha256": "d9cb4c1d8dfe40e126e1d0f5a140c81fafab9e5f21344c8bc82a66d38edc12b7"
+          "passage_sha256": "6a03dff1609dc38737de3c337abb2fcabf1f9d4b7b98808852a372aede1289fa"
         },
         "verification": {
           "passage_found": "pass",

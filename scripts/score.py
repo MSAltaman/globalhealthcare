@@ -170,6 +170,43 @@ def compute(data: dict[str, dict], countries: list[str], today: dt.date | None =
     return {"rows": rows, "ranked": len(base)}
 
 
+def indicator_info(reference: dict) -> dict[str, list[dict]]:
+    """Each domain's indicators as scored: weight, direction, scale, and for
+    "world" measures the values that map to 0 and 100, in the indicator's own
+    units, so the site can explain a score without recomputing it."""
+    labels = {}
+    ind_path = ROOT / "config" / "indicators.json"
+    if ind_path.exists():
+        def walk(x):
+            if isinstance(x, dict):
+                if "id" in x and "label" in x:
+                    labels[x["id"]] = {"label": x["label"], "unit": x.get("unit")}
+                for v in x.values():
+                    walk(v)
+            elif isinstance(x, list):
+                for v in x:
+                    walk(v)
+        walk(json.loads(ind_path.read_text(encoding="utf-8")))
+    out = {}
+    for dom in CFG["domains"]:
+        items = []
+        for ind in dom["indicators"]:
+            log = ind.get("log", False)
+            info = {"id": ind["id"], **labels.get(ind["id"], {}), "weight": ind.get("weight", 1),
+                    "better": ind["better"], "scale": ind.get("scale", "relative"), "log": log}
+            if info["scale"] == "world":
+                ref = (reference or {}).get(ind["id"], {})
+                pool = [x["value"] for x in ref.get("values", {}).values()]
+                if len(pool) >= 10:
+                    worst, best = goalposts(pool, ind["better"], log)
+                    back = math.exp if log else (lambda v: v)
+                    info.update({"zero_at": round(back(worst), 3), "hundred_at": round(back(best), 3),
+                                 "benchmark_countries": len(pool), "benchmark_source": ref.get("source")})
+            items.append(info)
+        out[dom["id"]] = items
+    return out
+
+
 def main() -> None:
     data = load_indicators()
     n = names()
@@ -178,13 +215,15 @@ def main() -> None:
     ref_path = ROOT / "data" / "reference.json"
     reference = json.loads(ref_path.read_text(encoding="utf-8"))["indicators"] if ref_path.exists() else {}
     result = compute(data, countries, reference=reference)
+    info = indicator_info(reference)
     for r in result["rows"]:
         r["name"] = n.get(r["iso3"], r["iso3"])
     out = {
         "method_version": CFG["version"],
         "computed": dt.date.today().isoformat(),
         "countries_compared": len(countries),
-        "domains": [{k: d[k] for k in ("id", "label", "weight", "question")} for d in CFG["domains"]],
+        "domains": [{**{k: d[k] for k in ("id", "label", "weight", "question")}, "indicators": info[d["id"]]}
+                    for d in CFG["domains"]],
         "scaling": CFG.get("scaling", {}),
         "not_yet_scored": CFG["not_yet_scored"],
         "excluded_countries": excluded,

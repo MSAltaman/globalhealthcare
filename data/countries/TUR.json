@@ -1,0 +1,198 @@
+{
+  "iso3": "TUR",
+  "name": "Turkey",
+  "wave": 3,
+  "system_as_of": "2026-11-19",
+  "status": "draft",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Compulsory social health insurance (General Health Insurance) with a single public payer, the Social Security Institution, funded by payroll contributions and general taxes; most care delivered by Ministry of Health facilities, with private hospitals under contract"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [],
+    "financing": [],
+    "covered": [],
+    "cost_sharing": [],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/TUR.json",
+  "sources": [
+    {
+      "id": "hsia-tur-2022",
+      "title": "Health Systems in Action: Türkiye, 2022 edition",
+      "publisher": "WHO Regional Office for Europe and European Observatory on Health Systems and Policies",
+      "authors": "Polin K, Yıldırım HH, Waitzberg R",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2022,
+      "url": "https://eurohealthobservatory.who.int/publications/i/health-systems-in-action-t%C3%BCrkiye-2022",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/a9d8c6c1-746e-4e75-9ff4-75bad8ea4149/content",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "moh-siy-2024",
+      "title": "Health Statistics Yearbook 2024",
+      "publisher": "Ministry of Health of Türkiye, General Directorate of Health Information Systems",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://sbsgm.saglik.gov.tr/TR-114955/health-statistics-yearbook-2024.html",
+      "text_url": "https://dosyamerkez.saglik.gov.tr/Eklenti/52862/0/siy2024en31122025pdf.pdf",
+      "funding_note": "Official statistics of the Ministry of Health; expenditure tables are TURKSTAT health accounts compiled under the OECD System of Health Accounts.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "law-5510",
+      "title": "Law No. 5510 on Social Insurance and General Health Insurance (consolidated text, in Turkish)",
+      "publisher": "Presidency of the Republic of Türkiye, Legislation Information System (mevzuat.gov.tr)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5510.pdf",
+      "funding_note": "Primary legislation; consolidated text including amendments up to Law No. 7538 of 9 January 2025.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "law-193-gvk",
+      "title": "Income Tax Law No. 193 (consolidated text, in Turkish)",
+      "publisher": "Presidency of the Republic of Türkiye, Legislation Information System (mevzuat.gov.tr)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.4.193.pdf",
+      "funding_note": "Primary legislation (consolidated text).",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "oop-finprot-2026",
+      "title": "Out-of-pocket health expenditures and financial protection in Türkiye: pre-pandemic (2019) and COVID-19 era (2022) microdata",
+      "publisher": "BMC Health Services Research",
+      "authors": "Sulku SN, Kaya Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14530-1",
+      "doi": "10.1186/s12913-026-14530-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13244899",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "kaya-oop-2026",
+      "title": "The political economy of health reforms and out-of-pocket spending in Türkiye: evidence from household microdata, 2014-2023",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Cece S, Pınar A, Öztürk L, Şenay D",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12939-026-02929-5",
+      "doi": "10.1186/s12939-026-02929-5",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13536769",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "ppp-hosp-2025",
+      "title": "Comparative performance analysis of public-private partnership hospitals in Türkiye",
+      "publisher": "BMC Health Services Research",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41388406/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12817399",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "htp-ethics-2026",
+      "title": "Structural tensions between health policy and medical ethics: a qualitative study of physicians' experiences under Türkiye's health transformation",
+      "publisher": "BMC Medical Ethics",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177525/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13386936",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "braindrain-its-2026",
+      "title": "Understanding the intention-action gap in physician migration during crises: Interrupted time-series evidence from Turkey",
+      "publisher": "Health Policy",
+      "authors": "Aydın JC, Atilgan E, Zekioğlu A, Usta Kara I",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.healthpol.2025.105504",
+      "doi": "10.1016/j.healthpol.2025.105504",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41349509&rettype=abstract&retmode=text",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "braindrain-hca-2026",
+      "title": "Physician Brain Drain from Turkey: Push-Pull Dynamics, Return Intentions, and the Normative Challenge for Health Policy",
+      "publisher": "Health Care Analysis",
+      "authors": "Tengilimoğlu D, Eşiyok Barut E, Güzel A, Kavasoğlu B, Karaca O, Guven F",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1007/s10728-026-00587-w",
+      "doi": "10.1007/s10728-026-00587-w",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42467353&rettype=abstract&retmode=text",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "syrians-access-2026",
+      "title": "Evaluating the healthcare access of Syrians in Turkey: a mixed-method analysis",
+      "publisher": "International Journal for Equity in Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42163293/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13214083",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "mhrs-equity-2026",
+      "title": "Equity in access through a digital hospital appointment system: a reflexive thematic analysis of frontline registration staff perspectives",
+      "publisher": "Frontiers in Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920754/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13690947",
+      "funding_note": "Funded by Yozgat Bozok University research centre (project 2420).",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-19",
+      "note": "Profile created."
+    }
+  ]
+}

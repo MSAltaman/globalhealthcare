@@ -1,0 +1,206 @@
+{
+  "iso3": "CZE",
+  "name": "Czechia",
+  "wave": 4,
+  "system_as_of": "2026-11-19",
+  "status": "draft",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Compulsory social health insurance through seven quasi-public health insurance funds, financed by a 13.5% wage-based contribution plus state payments for the economically inactive; mainly private outpatient and mainly public hospital providers; very little cost-sharing"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [],
+    "financing": [],
+    "covered": [],
+    "cost_sharing": [],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/CZE.json",
+  "sources": [
+    {
+      "id": "chp-cze-2025",
+      "title": "State of Health in the EU: Czechia, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-czechia-web.pdf",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "hss-cze-2024",
+      "title": "Czechia: health system summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Shuftan N, Šlegerová L",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/czechia-health-system-summary-2024",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/f9b8c806-611c-4c4a-9bc1-849811e560eb/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "funding_note": "Summary of the 2023 Czechia Health Systems in Transition review; key data as available in September 2024 (much of it 2021-2023).",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "fp-cze-2025",
+      "title": "Can people afford to pay for health care? New evidence on financial protection in Czechia",
+      "publisher": "WHO Regional Office for Europe (WHO Barcelona Office for Health Systems Financing)",
+      "authors": "Kandilaki D",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://iris.who.int/handle/10665/381966",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/819da9aa-8d0a-4f0c-a7bc-fd6a127fc23c/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "funding_note": "WHO country review co-funded by the EU4Health programme and the Government of Catalonia; household budget survey data 2017-2023, coverage policy as of May 2025.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "csu-ha-2024",
+      "title": "Zdravotní péče v roce 2024 stála 64 tisíc korun na osobu (Health care in 2024 cost CZK 64 thousand per person), preliminary health accounts results (in Czech)",
+      "publisher": "Český statistický úřad (Czech Statistical Office)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://csu.gov.cz/produkty/zdravotni-pece-v-roce-2024-stala-64-tisic-korun-na-osobu",
+      "funding_note": "National statistical office news release of 11 June 2026; preliminary 2024 data under the OECD System of Health Accounts.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "vzp-2026",
+      "title": "Platby zdravotního pojištění v roce 2026 (Health insurance payments in 2026) (in Czech)",
+      "publisher": "Všeobecná zdravotní pojišťovna ČR (General Health Insurance Fund, VZP)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.vzp.cz/o-nas/tiskove-centrum/otazky-tydne/platby-zdravotniho-pojisteni-v-roce-2026",
+      "funding_note": "Statutory public health insurer; notice dated 15 December 2025.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "vzp-calc",
+      "title": "Výpočet pojistného (Calculating the contribution), guidance for employers (in Czech)",
+      "publisher": "Všeobecná zdravotní pojišťovna ČR (General Health Insurance Fund, VZP)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.vzp.cz/platci/informace/zamestnavatel/vymerovaci-zaklad-a-vypocet-pojistneho/vypocet-pojistneho",
+      "funding_note": "Statutory public health insurer; undated web page, accessed November 2026.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "vzp-base",
+      "title": "Vyměřovací základ a výpočet pojistného (Assessment base and calculation of the contribution), guidance for employers (in Czech)",
+      "publisher": "Všeobecná zdravotní pojišťovna ČR (General Health Insurance Fund, VZP)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.vzp.cz/platci/informace/zamestnavatel/vymerovaci-zaklad-a-vypocet-pojistneho",
+      "funding_note": "Statutory public health insurer; web page showing 2026 minimum wage figures, accessed November 2026.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "vzp-osvc",
+      "title": "2.5. Osoba samostatně výdělečně činná (OSVČ) (Self-employed persons), payer methodology (in Czech)",
+      "publisher": "Všeobecná zdravotní pojišťovna ČR (General Health Insurance Fund, VZP)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.vzp.cz/platci/informace/povinnosti-platcu-metodika/2-5-osoba-samostatne-vydelecne-cinna-osvc",
+      "funding_note": "Statutory public health insurer; undated methodology page, accessed November 2026.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "costshare-2026",
+      "title": "Socioeconomic barriers to healthcare cost-sharing in the Czech Republic: limited awareness and resistance",
+      "publisher": "Health Economics Review",
+      "authors": "Hodač J, Holmannová D, Čermáková E, Spoustová MT, Prymula R, Hodačová L",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s13561-026-00773-5",
+      "doi": "10.1186/s13561-026-00773-5",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13154452",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "Face-to-face quota survey of 1,809 people aged 15+, November-December 2024.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "informal-2025",
+      "title": "Informal payments in Czech healthcare: The blurry line between greed, need, and gratitude",
+      "publisher": "Social Science & Medicine",
+      "authors": "Basna K, Pospisilova J, Bures R",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.socscimed.2025.118519",
+      "doi": "10.1016/j.socscimed.2025.118519",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40889437&rettype=abstract&retmode=text",
+      "funding_note": "Mixed-methods study (interviews, survey, expert workshops) by the Institute of Sociology of the Czech Academy of Sciences; claims use the PubMed abstract only.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gp-burnout-2024",
+      "title": "Burnout syndrome among general practitioners in the Czech Republic: a repeated survey study",
+      "publisher": "BMC Primary Care",
+      "authors": "Štěpánek L, Horáková D, Král N, Štěpánek L, Býma S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12875-024-02675-z",
+      "doi": "10.1186/s12875-024-02675-z",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11657110",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "Nationwide online survey of 765 GPs in 2024, run with the Society of General Practice.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gp-young-2026",
+      "title": "From training to practice: a longitudinal study on the retention and career entry of young general practitioners in Czechia",
+      "publisher": "BMC Primary Care",
+      "authors": "Šídlo L, Bělobrádek J, Philipp T",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12875-026-03374-7",
+      "doi": "10.1186/s12875-026-03374-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13471188",
+      "license": "CC BY 4.0",
+      "funding_note": "Uses contract data of the General Health Insurance Company (VZP); one author sits on its board of directors.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-19",
+      "note": "Profile created."
+    }
+  ]
+}

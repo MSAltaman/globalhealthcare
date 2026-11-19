@@ -3,7 +3,7 @@
   "name": "Turkey",
   "wave": 3,
   "system_as_of": "2026-11-19",
-  "status": "draft",
+  "status": "needs_review",
   "model": {
     "type": "social_health_insurance",
     "label": "Compulsory social health insurance (General Health Insurance) with a single public payer, the Social Security Institution, funded by payroll contributions and general taxes; most care delivered by Ministry of Health facilities, with private hospitals under contract"
@@ -34,7 +34,7 @@
       },
       {
         "id": "TUR-overview-002",
-        "statement": "Under that programme, the General Health Insurance Scheme set up in 2006 combined five existing insurance schemes into compulsory social health insurance with a single payer, the Social Security Institution (SSI).",
+        "statement": "The General Health Insurance Scheme introduced compulsory social health insurance with a single payer, the Social Security Institution (SSI), merging five existing insurance schemes.",
         "valence": "neutral",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -45,9 +45,10 @@
           "passage_sha256": "9385432c2e871679a918b197b1e86a16ad466ea433360f0c2dad44c130ca8ec4"
         },
         "verification": {
-          "passage_found": "pass",
+          "passage_found": "fail",
           "supports": "pending",
-          "checked_on": "2026-11-19"
+          "checked_on": "2026-11-19",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
         }
       },
       {
@@ -88,7 +89,7 @@
       },
       {
         "id": "TUR-overview-005",
-        "statement": "Since a family practitioner scheme began in 2011, family physicians and family health centres have been the main providers of preventive and curative primary care, each serving a population list set by Ministry of Health population and distance criteria; patients may change family practitioner once every three months.",
+        "statement": "Under the family practitioner scheme introduced in 2011, family physicians and family health centres are the main providers of a range of preventive and curative services at primary and secondary care level; centres serve population panels set by Ministry of Health population and distance criteria, and patients may change family practitioner once every three months.",
         "valence": "neutral",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -99,9 +100,10 @@
           "passage_sha256": "fd35368f00b74c68271a577a14a62a0ce60c2a4c1bfe55e12690bb29c8e2c84a"
         },
         "verification": {
-          "passage_found": "pass",
+          "passage_found": "fail",
           "supports": "pending",
-          "checked_on": "2026-11-19"
+          "checked_on": "2026-11-19",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
         }
       },
       {
@@ -145,7 +147,7 @@
       },
       {
         "id": "TUR-financing-002",
-        "statement": "People insured only for health (and some other listed groups) pay 12% of their contribution base, while those enrolled under the residual category of Article 60(1)(g) pay 3%, a rate the President may raise to as much as 12%.",
+        "statement": "The General Health Insurance premium is 12% of the contribution base for people insured only for health and for some other listed groups; for people under Article 60(1)(g) it is 3%, and the President may raise that rate to as much as 12%.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -163,7 +165,7 @@
       },
       {
         "id": "TUR-financing-003",
-        "statement": "Contributions are charged on earnings between a floor and a ceiling: the daily floor is one-thirtieth of the age-appropriate minimum wage and the ceiling is 9 times the daily floor for insured people over 16.",
+        "statement": "Contributions are calculated on daily earnings between a floor of one-thirtieth of the minimum wage for the insured person's age and a ceiling of 9 times the daily floor that applies to insured people over 16.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -404,7 +406,7 @@
       },
       {
         "id": "TUR-covered-008",
-        "statement": "Members in the categories of Article 60(1)(a)(2) and 60(1)(g) must, in addition, have no contribution or related debt older than 60 days when they seek care, unless the debt is being paid under a deferral and instalment arrangement.",
+        "statement": "For members under Article 60(1)(a)(2) and 60(1)(g), and their dependants, care also requires that on the day they seek it they owe no more than 60 days' worth of contributions or related debts; debts being paid under a deferral and instalment arrangement are excepted.",
         "valence": "weakness",
         "source_id": "law-5510",
         "locator": {
@@ -442,15 +444,15 @@
       },
       {
         "id": "TUR-cost_sharing-002",
-        "statement": "The law sets the outpatient doctor or dentist visit co-payment at a base of 20 lira and the co-payment for outpatient medicines and external prostheses at 10% to 20%, with the SSI choosing the rate according to criteria such as avoiding unnecessary use, how vital the service is and the person's income.",
+        "statement": "Article 68 sets the co-payment for outpatient physician and dentist examinations at 20 lira, and the co-payment for external prostheses and orthoses and for outpatient medicines at 10% to 20%, chosen by the SSI using criteria such as reducing unnecessary use, whether the service is vital, and the person's earnings, income and pensions.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
           "section": "Article 68(2)",
-          "page": 80,
-          "char_start": 234236,
+          "page": 79,
+          "char_start": 233317,
           "char_end": 234666,
-          "passage_sha256": "9472f273cba41dc43f990241539dde3bd1020b1f6d62cbf4af22ca8d091742bf"
+          "passage_sha256": "71a0c1ae12955104681bac621b13d7720d2bdd7db5649f9d5982950803afb9c5"
         },
         "verification": {
           "passage_found": "pass",
@@ -460,7 +462,7 @@
       },
       {
         "id": "TUR-cost_sharing-003",
-        "statement": "The SSI may waive or lower the visit co-payment at primary care, raise it up to tenfold at secondary and tertiary providers depending on the level of care, whether the provider is public or private and whether the patient was referred, and halve it for patients referred from primary care.",
+        "statement": "The SSI may waive or lower the examination co-payment at primary care, raise it up to tenfold at secondary and tertiary providers depending on the level of care, whether the provider is public or private and whether the patient was referred, and reduce it by up to half for patients referred from primary care.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -496,7 +498,7 @@
       },
       {
         "id": "TUR-cost_sharing-005",
-        "statement": "Since a January 2025 amendment, the 1, 20 and 3 lira amounts rise every year by the revaluation rate set under the Tax Procedure Law.",
+        "statement": "Under wording amended on 9 January 2025, the 1, 20 and 3 lira amounts in this paragraph rise each year by the revaluation rate set under Tax Procedure Law No. 213.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -515,7 +517,7 @@
       },
       {
         "id": "TUR-cost_sharing-006",
-        "statement": "Caps apply: the co-payment for external prostheses and orthoses may not exceed 75% of the minimum wage, and the inpatient co-payment may not exceed a quarter of the minimum wage per stay or one minimum wage in a calendar year.",
+        "statement": "Caps apply: the co-payment for the items in Article 68(1)(b) may not exceed 75% of the minimum wage on the date of service, and the inpatient co-payment may not exceed a quarter of the minimum wage per inpatient treatment or one minimum wage in a calendar year.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -533,7 +535,7 @@
       },
       {
         "id": "TUR-cost_sharing-007",
-        "statement": "Contracted providers other than public ones (including foundation universities) may charge patients an additional fee on top of the SSI tariff; the President sets a ceiling of up to twice the tariff and the SSI sets the rates within it.",
+        "statement": "Contracted providers other than public ones (including foundation universities) may charge General Health Insurance members and their dependants an extra fee on top of the price set by the Health Services Pricing Commission; the President sets the ceiling, up to twice that price, and the SSI sets the rates within it.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -571,7 +573,7 @@
     "financial_hardship": [
       {
         "id": "TUR-financial_hardship-001",
-        "statement": "Using TURKSTAT Household Budget Survey data and defining catastrophic spending as out-of-pocket health costs above 10% of household spending, Sulku and Kaya found the share facing it rose slightly from 4.28% in 2019 to 4.37% in 2022, while those above the threshold spent 21.88% of their budget on health in 2022, up from 19.53%.",
+        "statement": "Sulku and Kaya found the share of people facing catastrophic health expenditure rose slightly from 4.28% in 2019 to 4.37% in 2022; among households whose out-of-pocket spending exceeded the 10% threshold, that spending ratio rose from 19.53% to 21.88%.",
         "valence": "weakness",
         "source_id": "oop-finprot-2026",
         "locator": {
@@ -607,7 +609,7 @@
       },
       {
         "id": "TUR-financial_hardship-003",
-        "statement": "A study of Household Budget Survey data for 2014-2023 found that although richer groups spent more in absolute terms, the burden relative to income fell disproportionately on lower-income households, and high out-of-pocket-to-income burdens became more concentrated after 2018.",
+        "statement": "A study of household microdata for 2014-2023 found that although higher-income groups spent more in absolute terms, the relative burden fell disproportionately on lower-income households, and high out-of-pocket-to-income burdens became more concentrated after 2018, particularly among disadvantaged groups.",
         "valence": "weakness",
         "source_id": "kaya-oop-2026",
         "locator": {
@@ -633,9 +635,9 @@
         "locator": {
           "section": "1 Organizing the health system",
           "page": 8,
-          "char_start": 11278,
+          "char_start": 11163,
           "char_end": 11519,
-          "passage_sha256": "92f9957461356c3acfa37adf91c08ed8b3483de7288e0988e51202cfa79bb89e"
+          "passage_sha256": "4dd19063006f1e0f51ce25183f4efc49a14ecfb2c85187050aeec7ca174c1616"
         },
         "verification": {
           "passage_found": "pass",
@@ -670,9 +672,9 @@
         "locator": {
           "table": "Table 7.5, indicators for health care facilities actively providing services on 31.12.2024, by sector",
           "page": 175,
-          "char_start": 288629,
+          "char_start": 287642,
           "char_end": 288704,
-          "passage_sha256": "e33f196b09e4b49b9f619db645afdbe07d6f78ab6c188e01ba669615d7f3a854"
+          "passage_sha256": "a034b564016126b12b2151f1e296373bdf4a58d7fcd6856979ebce21600b5703"
         },
         "verification": {
           "passage_found": "pass",
@@ -703,7 +705,7 @@
       },
       {
         "id": "TUR-access-002",
-        "statement": "Self-reported unmet need for medical examination because of cost, distance or waiting fell from 16.4% of the population in 2010 (EU 3.5%) to 1.9% in 2020, similar to the EU average.",
+        "statement": "Unmet medical need was 16.4% of the population in 2010 (EU average 3.5%) and has fallen sharply since; in 2020, 1.9% reported going without a medical examination because of cost, distance or waiting time, similar to the EU average.",
         "valence": "strength",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -741,7 +743,7 @@
       },
       {
         "id": "TUR-access-004",
-        "statement": "Despite bonus pay and compulsory service in deprived areas, health workers remain unevenly spread, leaving access unequal across regions, especially in the east and in rural areas.",
+        "statement": "Despite bonus payments and higher salaries for physicians who work in underserved areas, health personnel remain unevenly distributed, so access to care differs across regions, especially in the east and in rural areas.",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -797,7 +799,7 @@
       },
       {
         "id": "TUR-access-007",
-        "statement": "Despite growth since 2000, Türkiye's numbers of physicians and nurses per person were still among the lowest in Europe in 2019.",
+        "statement": "The 2022 review found Türkiye's numbers of physicians and nurses per population still among the lowest in Europe.",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -811,12 +813,11 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-19"
-        },
-        "data_year": 2019
+        }
       },
       {
         "id": "TUR-access-008",
-        "statement": "Hospital use is high and rising: hospital visits per person rose from 1.9 in 2002 to 6.8 in 2024, 5.4 of them to Ministry of Health hospitals.",
+        "statement": "Hospital visits per person rose from 1.9 in 2002 to 6.8 in 2024, 5.4 of them to Ministry of Health hospitals.",
         "valence": "neutral",
         "source_id": "moh-siy-2024",
         "locator": {
@@ -873,7 +874,7 @@
       },
       {
         "id": "TUR-access-011",
-        "statement": "Hospital appointments are booked through the Central Physician Appointment System (MHRS) by phone, internet or mobile app; studies credit it with shorter hospital queues and high user satisfaction.",
+        "statement": "The Central Physician Appointment System (MHRS), introduced under the Health Transformation Program, lets patients book hospital appointments by phone, internet or mobile app; the authors say it has helped reduce hospital queues and the time and cost of reaching care, and earlier studies generally reported high user satisfaction.",
         "valence": "strength",
         "source_id": "mhrs-equity-2026",
         "locator": {
@@ -890,7 +891,7 @@
       },
       {
         "id": "TUR-access-012",
-        "statement": "In a 2022 survey across 20 provinces, Syrian and Turkish respondents had similar predicted probabilities of a doctor visit in the past year (79.8% and 80.8%), though Syrians were less likely to use emergency departments (25.4% vs 31.75%).",
+        "statement": "Syrian and Turkish survey respondents showed no significant difference in the predicted probability of a doctor visit (79.8% vs 80.8%), but Syrians were significantly less likely to use emergency departments (25.4% vs 31.75%).",
         "valence": "neutral",
         "source_id": "syrians-access-2026",
         "locator": {
@@ -985,7 +986,7 @@
       },
       {
         "id": "TUR-outcomes-005",
-        "statement": "Adult smoking barely fell, from 32.9% in 2000 to 30.7% in 2020, and 42.1% of men smoked in 2020, well above the male rates in the WHO European Region (32%) and EU (27.5%).",
+        "statement": "Adult smoking fell only moderately, from 32.9% in 2000 to 30.7% in 2020; 42.1% of men smoked in 2020, much higher than male rates in the WHO European Region (32%) and the EU (27.5%).",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -1023,7 +1024,7 @@
       },
       {
         "id": "TUR-outcomes-007",
-        "statement": "New HIV diagnoses rose from 0.7 per 100,000 people in 2009 to 3.9 in 2019, although incidence stayed below the regional average.",
+        "statement": "New HIV cases rose from 0.7 per 100,000 population in 2009 to 3.9 in 2019, although Türkiye's HIV incidence is lower than the regional average.",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -1044,15 +1045,15 @@
     "costs": [
       {
         "id": "TUR-costs-001",
-        "statement": "Current health expenditure was 4.9% of GDP in 2024, up from 3.6% in 2022 and 4.2% in 2023 (TURKSTAT health accounts).",
+        "statement": "Current health expenditure was 4.9% of GDP in 2024 (public 3.7%, private 1.2%), up from 3.6% in 2022 and 4.2% in 2023.",
         "valence": "neutral",
         "source_id": "moh-siy-2024",
         "locator": {
-          "table": "Table 11.1, current, investment and total health expenditure by years: 2022-2024 rows",
-          "page": 297,
-          "char_start": 459637,
-          "char_end": 459987,
-          "passage_sha256": "54bf8dc08d143358d3235124fd26a0477e609d677f29b516c9863180c6301bbf"
+          "figure": "Figure 11.2, public and private current health expenditure as a share of GDP by years (series: public, private, total; 2002, 2011-2024)",
+          "page": 299,
+          "char_start": 463023,
+          "char_end": 463697,
+          "passage_sha256": "83e25bd38decb0f844879c6a0d15721a9e0e6ff44448c91e4e8dc070afb9a612"
         },
         "verification": {
           "passage_found": "pass",
@@ -1101,7 +1102,7 @@
       },
       {
         "id": "TUR-costs-004",
-        "statement": "Public health spending as a share of GDP fell faster from 2009 to 2019 than in other countries; because GDP per person grew over the period, this meant a relative decline in public funds allocated to health.",
+        "statement": "From 2009 to 2019 public health spending as a share of GDP fell sharply in Türkiye while remaining largely stable elsewhere; since GDP per person rose over the last two decades, this means a relative decline in public funds allocated to health.",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -1120,7 +1121,7 @@
       },
       {
         "id": "TUR-costs-005",
-        "statement": "Fourteen hospitals built and run under public-private partnerships scored higher on efficiency (data envelopment analysis, 2015-2023) after the switch than before, but the authors say long-term cost-benefit studies are needed before firm conclusions on the model.",
+        "statement": "Hospitals that moved to public-private partnership (PPP) management generally scored higher on efficiency than under traditional management (pre-PPP 2015-2020, post-PPP 2017-2023), though COVID-19 hurt performance; the authors say long-term cost-benefit studies are needed before firm conclusions on the model.",
         "valence": "neutral",
         "source_id": "ppp-hosp-2025",
         "locator": {
@@ -1193,7 +1194,7 @@
       },
       {
         "id": "TUR-what_works-002",
-        "statement": "Childhood vaccination is nearly universal: in 2019, 99% coverage for DTP3 and 97% for the first measles dose, above EU and WHO European Region averages.",
+        "statement": "Coverage for DTP3 (99% in 2019) and the first measles dose (97%) is nearly universal, above the EU and WHO European Region averages.",
         "valence": "strength",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -1249,7 +1250,7 @@
       },
       {
         "id": "TUR-what_works-005",
-        "statement": "Creating the SSI in 2006 brought fragmented social security schemes under one institution, pooling funds and giving people more equal access to services.",
+        "statement": "Creating the SSI in 2006 brought fragmented social security schemes under one institution, pooling funds and creating a relatively more equitable opportunity to access health services.",
         "valence": "strength",
         "source_id": "kaya-oop-2026",
         "locator": {
@@ -1286,15 +1287,15 @@
     "problems": [
       {
         "id": "TUR-problems-001",
-        "statement": "Half of the households with catastrophic health spending in 2018 were already poor and at risk of becoming poorer still.",
+        "statement": "In 2018, by WHO calculations, 4.3% of the population experienced catastrophic health spending, and half of the households with catastrophic spending were already poor and at risk of further impoverishment.",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
           "section": "2 Financing and ensuring financial protection",
           "page": 11,
-          "char_start": 25179,
+          "char_start": 24894,
           "char_end": 25320,
-          "passage_sha256": "a8283ab5973815ad52baac5a05edb37f7b9c9e3ac4ded350d6fd6ca653540d6a"
+          "passage_sha256": "edb7cae645f6d9684083097c058d75fd7fe024df1cf8ecc5db2b22119ee517d6"
         },
         "verification": {
           "passage_found": "pass",
@@ -1305,7 +1306,7 @@
       },
       {
         "id": "TUR-problems-002",
-        "statement": "Türkiye has one of the highest rates of antibiotic use in the WHO European Region, and antimicrobial resistance is higher than in western and northern Europe.",
+        "statement": "Though falling, antimicrobial consumption in Türkiye is among the highest in the WHO European Region, and antimicrobial resistance is higher than in western and northern Europe.",
         "valence": "weakness",
         "source_id": "hsia-tur-2022",
         "locator": {
@@ -1323,14 +1324,14 @@
       },
       {
         "id": "TUR-problems-003",
-        "statement": "Applications by physicians for the good-standing certificates needed to work abroad rose from 59 in 2012 to 2,685 in 2022, while recorded inflows of Turkish physicians to OECD countries rose from 77 to 645.",
+        "statement": "Physicians' applications to the Turkish Medical Association for Good Standing Certificates (used as a measure of intention to emigrate) rose from 59 to 2,685 between 2012 and 2022, while recorded inflows to OECD countries rose from 77 to 645.",
         "valence": "weakness",
         "source_id": "braindrain-its-2026",
         "locator": {
           "section": "Abstract",
-          "char_start": 1724,
+          "char_start": 930,
           "char_end": 1810,
-          "passage_sha256": "4aa7f5745ad87dc96dd91275f36f988bb493890a2e2f9e855cd8d5c2a581f3b4"
+          "passage_sha256": "40354d86d1182ceb61199aaa7a7aec7972391878ee1cbceaacb529d928538b17"
         },
         "verification": {
           "passage_found": "pass",
@@ -1341,7 +1342,7 @@
       },
       {
         "id": "TUR-problems-004",
-        "statement": "In a survey of 1,331 physicians, violence against health workers (81.6%), low pay (74.3%) and hard working conditions (59.8%) were the main reasons given for emigrating, and only 2 of 32 emigrated physicians interviewed were considering returning.",
+        "statement": "In a survey of 1,331 physicians and interns in 19 provinces, violence against health workers (81.6%), low pay (74.3%) and hard working conditions (59.8%) were the main push factors toward emigration; only 2 of 32 emigrated physicians interviewed were considering returning.",
         "valence": "weakness",
         "source_id": "braindrain-hca-2026",
         "locator": {
@@ -1358,7 +1359,7 @@
       },
       {
         "id": "TUR-problems-005",
-        "statement": "Specialists interviewed in one province (12 physicians) said the pay-for-performance scheme encourages patient-poaching and defensive decisions, appointment quotas make proper informed consent hard, and the rule that cuts off people with premium debt puts physicians in an unjust position.",
+        "statement": "Physicians interviewed for a qualitative study said the performance-based payment scheme (PBRF) encouraged patient-poaching and defensive decisions, appointment-system (CAPS) quotas made genuine informed consent hard to achieve, and the General Health Insurance premium-debt exclusion shifted institutional injustice onto individual physicians.",
         "valence": "weakness",
         "source_id": "htp-ethics-2026",
         "locator": {
@@ -1375,7 +1376,7 @@
       },
       {
         "id": "TUR-problems-006",
-        "statement": "Researchers point to out-of-pocket payments, high costs at contracted private hospitals and growing take-up of complementary insurance as signs that financial protection remains incomplete despite near-universal insurance.",
+        "statement": "Researchers point to out-of-pocket payments, high costs at contracted private hospitals and rising take-up of complementary insurance as signs that financial protection is incomplete, although universal health insurance was meant to cover the whole population.",
         "valence": "weakness",
         "source_id": "oop-finprot-2026",
         "locator": {
@@ -1392,7 +1393,7 @@
       },
       {
         "id": "TUR-problems-007",
-        "statement": "Hospital registration staff interviewed in two public hospitals said equal formal access to the appointment system does not mean equal chances of getting care, because digital skills, social support, transport and time differ between patients.",
+        "statement": "A study of frontline hospital registration staff found that formally equal access to the appointment system does not translate into equal opportunities to obtain care, as differences in digital skills, social support, transport and time flexibility shape patients' ability to navigate it.",
         "valence": "weakness",
         "source_id": "mhrs-equity-2026",
         "locator": {
@@ -1402,9 +1403,10 @@
           "passage_sha256": "cdcc4aadbd68be9c65a3646c54ffa96f7d2640a629e1d4d33871af717998ded2"
         },
         "verification": {
-          "passage_found": "pass",
+          "passage_found": "fail",
           "supports": "pending",
-          "checked_on": "2026-11-19"
+          "checked_on": "2026-11-19",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
         }
       },
       {
@@ -1424,32 +1426,12 @@
           "checked_on": "2026-11-19"
         },
         "data_year": "2022-2024"
-      },
-      {
-        "id": "TUR-problems-009",
-        "statement": "Air pollution is a major health risk; Türkiye had among the highest rates of premature death from air pollution in Europe in 2015.",
-        "valence": "weakness",
-        "source_id": "hsia-tur-2022",
-        "locator": {
-          "section": "4 Improving the health of the population",
-          "page": 18,
-          "char_start": 48194,
-          "char_end": 48334,
-          "passage_sha256": "67a0a102d64549793621913c74ca15cfb95a7ff302f9bd7c05d02469fe1d6dcf"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-19"
-        },
-        "data_year": 2015,
-        "historical": true
       }
     ],
     "reforms": [
       {
         "id": "TUR-reforms-001",
-        "statement": "January 2025: Law No. 7538 raised the statutory base of the outpatient visit co-payment from 2 to 20 lira and allowed the SSI to halve the co-payment for patients referred from primary care.",
+        "statement": "Law No. 7538 of 9 January 2025 changed the co-payment amount in the first sentence of Article 68(2) from 2 to 20 lira and allowed the SSI to reduce co-payments by up to half for patients referred by primary care providers.",
         "valence": "neutral",
         "source_id": "law-5510",
         "locator": {
@@ -1505,7 +1487,7 @@
       },
       {
         "id": "TUR-reforms-004",
-        "statement": "Concern about the relatively high cost of PPP hospital projects has led the government to rely more on the general budget: six city hospitals were built that way in the past five years, 11 more are under construction with public funds and nine are in tendering or project development.",
+        "statement": "A 2025 study reports that the relatively high cost of PPP hospital projects prompted a reassessment of the model and greater use of general budget funds: six city hospitals had been built that way in the preceding five years, 11 more were being built with public funds and nine were in tendering or project development.",
         "valence": "neutral",
         "source_id": "ppp-hosp-2025",
         "locator": {
@@ -1518,7 +1500,8 @@
           "passage_found": "pass",
           "supports": "pending",
           "checked_on": "2026-11-19"
-        }
+        },
+        "data_year": 2025
       },
       {
         "id": "TUR-reforms-005",

@@ -9,22 +9,1711 @@
     "label": "Compulsory social health insurance through seven quasi-public health insurance funds, financed by a 13.5% wage-based contribution plus state payments for the economically inactive; mainly private outpatient and mainly public hospital providers; very little cost-sharing"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "CZE-overview-004",
+      "CZE-overview-005"
+    ],
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "overview": [
+      {
+        "id": "CZE-overview-001",
+        "statement": "Czechia has a compulsory social health insurance system, supervised by the Ministry of Health, that covers almost the whole population with a broad benefit package. Seven semi-public insurance funds purchase care from both public and private providers, and the largest of them insures more than half of the population.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46596,
+          "char_end": 46944,
+          "passage_sha256": "90a7db4a06ff66238b5eefa940f5bd0fe33ce77ae800caa6a94ec483c2c87310"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-overview-002",
+        "statement": "Czech GPs do not act as gatekeepers, so patients can go straight to a specialist; insurance funds must contract enough providers to meet legal guarantees on travel time and distance to care.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 47753,
+          "char_end": 48008,
+          "passage_sha256": "c39be60c334f4d08663a3260e146891424bdaac5f02d2d4035ce0cf9cc6844ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-overview-003",
+        "statement": "Life expectancy at birth in Czechia was 80.3 years in 2024, which is 1.4 years short of the EU average of 81.7 years.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 14184,
+          "char_end": 14306,
+          "passage_sha256": "2d46436c9c7c69b0fc82975b0ec27ad49cf68cef53d18e2dd07dabf8a3dce93e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-overview-004",
+        "statement": "Membership in Czech social health insurance (SHI) is compulsory for citizens living in the country, the self-employed included, and for permanent residents, which produces near-universal coverage.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 11260,
+          "char_end": 11428,
+          "passage_sha256": "e48b6d66791ab21316c2e38951f4f078ece03b23a858d8caa6f7998aa570f5e1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-overview-005",
+        "statement": "According to the 2024 Observatory summary, SHI covers the whole population apart from family members of non-EU nationals who work for Czech companies; asylum seekers are included, and since 2021 babies born in Czechia whose mother alone holds Czech permanent residence are covered too.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 12495,
+          "char_end": 12886,
+          "passage_sha256": "117337499b519055b61e5e5bca118a86e7bc87122e80511a97adf16970a43991"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-overview-006",
+        "statement": "Insurance funds must take every applicant who is legally entitled to cover and are not allowed to select by risk, so population coverage is virtually 100%.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 16,
+          "char_start": 37363,
+          "char_end": 37517,
+          "passage_sha256": "4b54f73b8c2d138c425ab058c9b1c8748c74ad6ae5cec7a97a173489baf70daf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-overview-007",
+        "statement": "The Ministry of Health is the main steward of the system and, with its subordinate agencies, regulates and supervises it; health insurance funds are quasi-public, self-governing bodies that purchase and pay for care on behalf of their members.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 3078,
+          "char_end": 3379,
+          "passage_sha256": "4825353a7f7bd59a83ba32a40ace4914a4a8e7d5d7f35d115afcc65fc1f0f7e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "CZE-financing-001",
+        "statement": "Under the insurance scheme, the state pays contributions for people who are economically inactive (a broad category), employers pay for their employees, and the remaining members pay monthly premiums themselves.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 47101,
+          "char_end": 47287,
+          "passage_sha256": "68cb03d2b5f5a0513dad59459ecde6d0ee4cb461f3581edd86d43a3643ac7577"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-002",
+        "statement": "In 2023 Czechia spent EUR 2,910 per person on health (adjusted for purchasing power), 24% less than the EU average; total health spending equalled 8.4% of GDP against 10% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 48142,
+          "char_end": 48363,
+          "passage_sha256": "98886fed67fe9acddbcd4d20e4cf4df61b3495f6e8b91f472ed666401f436365"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-financing-003",
+        "statement": "Public sources paid for 85% of Czech health spending in 2023, among the highest public shares in the EU and above the EU average of 80%.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 48754,
+          "char_end": 48893,
+          "passage_sha256": "2bf2004e6f2b6408b773a391cc29547c5ee8996568009de0967c82c61b1fea4e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-financing-004",
+        "statement": "Voluntary health insurance is marginal in Czechia, making up under 1% of total health spending, which the report puts down to how much the statutory package already covers.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 49139,
+          "char_end": 49300,
+          "passage_sha256": "6af01c84349fa48402f9b9fd9c2f5a50ba945d0250eb647e9c1415d7d9f35c3e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-005",
+        "statement": "SHI is funded mainly by contributions: wage-based payments by employees and employers, income-related payments by the self-employed, and payments the state makes for people who are economically inactive.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 6982,
+          "char_end": 7250,
+          "passage_sha256": "97b84d73b9d74dd3460e9e9adc09c2c32466749c88f930d3e1ab230e4c3bfd0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-006",
+        "statement": "State payments for economically inactive people rose substantially in 2020 and made up 30.4% of all SHI revenue in 2023, close to one third.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 7251,
+          "char_end": 7403,
+          "passage_sha256": "a6a6e99337a4ef46c267973ae026d33abb02d032c5223687ae9d27dcf9777725"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-financing-007",
+        "statement": "Beyond SHI, general taxes fund further public health spending, for example state or regional investment grants to providers.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 7418,
+          "char_end": 7579,
+          "passage_sha256": "c95231cf81e04050636542559010295cfd1c9baf783525a6fe8c95fb83c0f7a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-008",
+        "statement": "All SHI revenue is redistributed across the insurance funds using a risk-adjustment formula; the Ministry of Health calculates the transfers, which pass monthly through a central account of the General Health Insurance Fund (VZP) acting as a clearing house.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 7696,
+          "char_end": 8031,
+          "passage_sha256": "f909ee2e24e27808b7fefa41f914deb8dd2f0db828794c4ab33782647ab8619e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-009",
+        "statement": "Employees' health insurance contribution is 13.5% of their assessment base, calculated by the employer and rounded up to whole crowns; one-third is deducted from the employee's pay and the employer covers the remaining two-thirds.",
+        "valence": "neutral",
+        "source_id": "vzp-calc",
+        "locator": {
+          "section": "Full text",
+          "char_start": 47,
+          "char_end": 579,
+          "passage_sha256": "06709447a556d4a24fef7ab04637b6c8daa878743c49f8ddaa2f9f42502cf110"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-010",
+        "statement": "The minimum assessment base for employees is the statutory minimum wage: from 1 January 2026 that is CZK 22,400 a month, giving a minimum contribution of CZK 3,024.",
+        "valence": "neutral",
+        "source_id": "vzp-base",
+        "locator": {
+          "section": "Full text",
+          "char_start": 607,
+          "char_end": 755,
+          "passage_sha256": "a6eab551ea380c78388759150925cd7d9711d103efdd9af3260c29289709d13c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-011",
+        "statement": "There is no ceiling on the assessment base for contributions: the former maximum base has been abolished.",
+        "valence": "neutral",
+        "source_id": "vzp-base",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1337,
+          "char_end": 1392,
+          "passage_sha256": "35350150d408495647ccc594d27e6e2d0b1b531bd06a204e891a9560d96932e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-012",
+        "statement": "From 1 January 2026 the state pays a contribution of CZK 2,188 for each person it insures (state-insured persons); a government regulation sets this amount every year.",
+        "valence": "neutral",
+        "source_id": "vzp-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2979,
+          "char_end": 3127,
+          "passage_sha256": "8931c31ec79bc33d73b156f741cd467f3892fe0b13c6c2bac09b82824f15240c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-013",
+        "statement": "The state pays the contributions for certain groups, for example pensioners and students; self-employed people in these groups are not required to contribute on the minimum assessment base.",
+        "valence": "neutral",
+        "source_id": "vzp-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2044,
+          "char_end": 2241,
+          "passage_sha256": "9871085ae414293cc2f38f92840992836f929bc37f2e2554845d8f218c20ab89"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-014",
+        "statement": "Self-employed people pay 13.5% of an assessment base equal to half of their tax base from self-employment income; the law sets their minimum annual base at twelve times 50% of the average wage.",
+        "valence": "neutral",
+        "source_id": "vzp-osvc",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4402,
+          "char_end": 4916,
+          "passage_sha256": "63333b5a0da822fdbc097d390f5bf17484dff111a8fff602546bd4fa1f418493"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-015",
+        "statement": "People without taxable income (OBZP) and the children of long-term foreign residents pay a monthly contribution of CZK 3,024 in 2026, which equals 13.5% of the minimum wage; the same amount is the minimum monthly contribution for employees bound by the minimum base.",
+        "valence": "neutral",
+        "source_id": "vzp-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3439,
+          "char_end": 3687,
+          "passage_sha256": "45ec8e45845b373e30a473b004f4dcde007d7843b420f84166930d35fc78a62c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-016",
+        "statement": "In Czechia's health accounts (OECD System of Health Accounts), the contributions the state pays for state-insured persons are not counted as state-budget spending; they appear as spending by the health insurance funds.",
+        "valence": "neutral",
+        "source_id": "csu-ha-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3964,
+          "char_end": 4147,
+          "passage_sha256": "a37c670f009a1a699204d8eaa25327d131961b4374fb6ea2b4d0f494b6625e1c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-financing-017",
+        "statement": "In 2024 the health insurance funds paid CZK 514.2 billion, or 73.8% of all health spending, and other public sources a further CZK 81.9 billion (11.8%), of which CZK 71.2 billion came from the state budget and CZK 10.7 billion from local budgets (preliminary figures).",
+        "valence": "neutral",
+        "source_id": "csu-ha-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1417,
+          "char_end": 1763,
+          "passage_sha256": "5a2e2ad57ca6687bb1c28b678be64a3ad9c67d501f13a69cae7acfaed3a190ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-financing-018",
+        "statement": "Households paid CZK 94.5 billion for health care from their own resources in 2024, 13.6% of total health spending, while other private sources contributed only CZK 6.1 billion (preliminary figures).",
+        "valence": "neutral",
+        "source_id": "csu-ha-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1764,
+          "char_end": 1957,
+          "passage_sha256": "eb9449a3f4f8ce3b2e9180e115002ca2b576de32944783192394e39bc67df71d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      }
+    ],
+    "covered": [
+      {
+        "id": "CZE-covered-001",
+        "statement": "The SHI benefit package is very broad: hospital and outpatient care, prescription medicines, some dental treatment, long-term care delivered in hospitals, and, if a doctor prescribes them, rehabilitation, spa treatment and over-the-counter medicines.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 11627,
+          "char_end": 11935,
+          "passage_sha256": "8d6e15c01de9a1c7f670b2cfdc8799d322f32df3c4b57b45200af0117acc1c7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-covered-002",
+        "statement": "Key actors negotiate jointly on reimbursement and on defined segments of care, under government supervision.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 2957,
+          "char_end": 3077,
+          "passage_sha256": "d46fb54046edaeb943f3a9d89add153511800d7bd0548ba578a4e6784d539728"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-covered-003",
+        "statement": "Very expensive medicines, such as biologics and highly innovative drugs with temporary reimbursement, are given only in highly specialised centres and paid for under contracts with the insurance funds.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 26936,
+          "char_end": 27184,
+          "passage_sha256": "d8036244cb05e171ea15d6c9341b8ebf19c9906cde0f11ddaa22ab149b21426b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-covered-004",
+        "statement": "SHI covers prescription medicines and medical devices, but in 2021 17.9% of spending on medicines and devices went on items that were neither prescribed nor covered.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 25944,
+          "char_end": 26157,
+          "passage_sha256": "528ab3141e98d00668a79447df0a6e5c38de350700bfe91173f7ef5ad09f8ac3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CZE-covered-005",
+        "statement": "The State Institute for Drug Control sets medicine coverage rules and prices and keeps the positive list of reimbursed drugs, drawing on health technology assessment with a cost-effectiveness threshold of CZK 1.2 million per quality-adjusted life year.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 28,
+          "char_start": 51387,
+          "char_end": 51675,
+          "passage_sha256": "517d443f44de0de0f63194749f0981afbcd1a7336102616a2879c4ac23d6be76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-covered-006",
+        "statement": "Each year the Ministry of Health fixes reimbursement rates by decree after negotiating with insurers and providers, keeping the final word, and issues a second decree listing most of the services the insurance scheme pays for.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 28,
+          "char_start": 52456,
+          "char_end": 52851,
+          "passage_sha256": "2b16053f386857e1ad3073dd665e7d063a423425f0ecb4a8dcfeda6be97816f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-covered-007",
+        "statement": "Public coverage of glasses and lenses is restricted to under-18s and people with severe eye disorders; longer rehabilitation programmes can involve charges, and psychotherapy is usually only partly covered, leaving private therapy or frequent sessions to be paid by the patient.",
+        "valence": "weakness",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 29,
+          "char_start": 55282,
+          "char_end": 55602,
+          "passage_sha256": "f82a88ad5e5775eb33ecd306315c5d1fe042e89570789372baa45503fa3b824b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CZE-cost_sharing-001",
+        "statement": "Private spending was 15% of Czech health expenditure in 2023 (EU average 20%). Out-of-pocket payments made up 94% of that private spending and equalled 14% of total health expenditure, compared with 16% on average in the EU.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 86161,
+          "char_end": 86516,
+          "passage_sha256": "37161d4e71f9e537f0a9b3399ecd00353283b41a925443dc380e3df0a1c3443e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-cost_sharing-002",
+        "statement": "Czechia caps patients' annual co-payments according to age and disability: CZK 5,000 for adults in general, CZK 1,000 for children and people aged 65-69, and CZK 500 for people aged 70 or older and some people with disabilities.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 121243,
+          "char_end": 121557,
+          "passage_sha256": "98ae357fbfbefc97453ff47668445a2fc6c6f02d9a4cef8a944ce5c32e358a56"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-003",
+        "statement": "Outpatient and hospital services are free at the point of use; the exceptions are some prescription medicines, medical devices and aids, and a user fee for out-of-hours outpatient services.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 5,
+          "char_start": 9226,
+          "char_end": 9451,
+          "passage_sha256": "b5230af7d084041aa3359807cff54c755bc0db6d21d84cf5e0b8f830a15a485b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-004",
+        "statement": "Patient charges in the public scheme apply to emergency care, outpatient prescription medicines and medical products; care is delivered in kind, so patients are not asked to pay up front and claim the money back.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 29,
+          "char_start": 56215,
+          "char_end": 56403,
+          "passage_sha256": "d0ddab385f81921b9fdf2d2ccc9c88d387c1ae3d33d0ba8eb1f288e8b16ca19f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-005",
+        "statement": "For outpatient prescriptions, patients pay the gap between a medicine's retail price and its reference price; each reference group is meant to include at least one product with no charge, so a patient given that product pays nothing.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 30,
+          "char_start": 57297,
+          "char_end": 57704,
+          "passage_sha256": "c6078fa7255fa805804fec6b3afc188a3a194192dab1d53aa9e69265968b4225"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-006",
+        "statement": "Since January 2025, medicine co-payments are logged in the e-prescription system so the annual cap takes effect automatically, ending the earlier practice of refunding amounts over the cap after the fact.",
+        "valence": "strength",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "table": "Table 2, 2025 January row",
+          "page": 28,
+          "char_start": 53531,
+          "char_end": 53780,
+          "passage_sha256": "3a5bf98f5ae48bd108541427e44bacb0339a5866e1b7bdb9562d2aa0c2210122"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-007",
+        "statement": "An out-of-hours emergency outpatient visit (weekends, holidays, or weekdays from 17:00 to 07:00) carries a flat CZK 90 charge, dropped if the patient is then admitted; people on low incomes with recent proof from the social assistance authority are exempt.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "table": "Table 3 (user charges, 2025), outpatient emergency visits row",
+          "page": 31,
+          "char_start": 60886,
+          "char_end": 61315,
+          "passage_sha256": "524e1d81b63f376418375c498f63cbc58c100be305ee3d21476282963ac2a756"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-008",
+        "statement": "Covered dental care can be given only by dentists contracted with the insurers; most offer a mix of free basic care (check-ups, simple fillings, necessary extractions), charged upgrades such as composite instead of amalgam fillings, and uncovered work such as implants.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 29,
+          "char_start": 54136,
+          "char_end": 54556,
+          "passage_sha256": "d3b2f0764056baf5b71abc876e0f54ee775d614ad0d0868c8dd780c4f56c44a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-cost_sharing-009",
+        "statement": "In a quota-based face-to-face survey of 1,809 people aged 15 and over (November-December 2024), 24.3% said they would pay for care beyond compulsory insurance, while almost half thought public insurance should cover all care.",
+        "valence": "neutral",
+        "source_id": "costshare-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2418,
+          "char_end": 3433,
+          "passage_sha256": "c7b329bc776ce9c8c23fb28fc7efbc6c57ca1f87e9f205c24d558171c9c1d084"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-cost_sharing-010",
+        "statement": "In the survey's adjusted model, respondents with household income above CZK 100,000 had five times the odds of being willing to pay beyond compulsory insurance compared with the lowest-income group; education's effect was small and not significant.",
+        "valence": "neutral",
+        "source_id": "costshare-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 37086,
+          "char_end": 37506,
+          "passage_sha256": "444c265aa134d9b2187123fa856adf1c8fc1af942c0755ef2d4d7d7d1305755c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "CZE-financial_hardship-001",
+        "statement": "Catastrophic health spending is heavily concentrated among the poorest fifth of households, where it has grown: in 2023, 21% of households in the poorest fifth had catastrophic health spending, against 14% in 2018; older people also face a high risk.",
+        "valence": "weakness",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 20299,
+          "char_end": 20611,
+          "passage_sha256": "b770094fd0e6536fbd25f20ae5d7f22ba61c9690d920d01be0f607e0db5bd881"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-financial_hardship-002",
+        "statement": "Overall, catastrophic spending stems from payments for dental care, outpatient medicines, outpatient care and medical products; in the poorest fifth outpatient medicines are consistently the main cause, while dental care leads in the other fifths.",
+        "valence": "weakness",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 20595,
+          "char_end": 20916,
+          "passage_sha256": "be0716b0b7d39cdc6351e3eb56004cea0d0ff06b3e23387d523600da340f8450"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-financial_hardship-003",
+        "statement": "Unmet need for health care, dental care and prescribed medicines is below the EU average but has risen recently; waiting time is the main reason people go without health care and cost the main reason for dental care, where the gap between income groups is notable.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 20919,
+          "char_end": 21219,
+          "passage_sha256": "c16df5a74ee7606e31288995f6ca53b9b1baf3e8fb31f48ace23c52bd27d12ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-financial_hardship-004",
+        "statement": "People who fall behind on compulsory insurance contributions owe that debt to their insurance fund, with a daily penalty of 0.0322% of the arrears and possible fines of up to CZK 10 000, yet they keep the same access to covered care as those who have paid.",
+        "valence": "neutral",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 25,
+          "char_start": 41651,
+          "char_end": 42073,
+          "passage_sha256": "0b192ec5054014e74665d97553acde9ef99006ae9129c8f7363713db5960ab53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "CZE-additional_care-001",
+        "statement": "Most dental care is delivered by private providers, and for a long time dentists have increasingly accepted only patients who pay privately.",
+        "valence": "weakness",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 30434,
+          "char_end": 30591,
+          "passage_sha256": "13602947aa240fb60ae36bcafd8ec154cd0cacca2e3d26157b17465b56933d44"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-additional_care-002",
+        "statement": "In 2023 a quarter of dentists were 60 or older, and close to 95% practised general dentistry, leaving shortages of specialists.",
+        "valence": "weakness",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 30592,
+          "char_end": 30751,
+          "passage_sha256": "75d9598e9a0902b2fb997dd5d7a679555aeb2aeb295606463feb51aaa7686caa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-additional_care-003",
+        "statement": "Mental health reform, aimed at moving care from psychiatric hospitals to community and outpatient settings, was fully implemented from 2017; the first mental health centres opened in July 2018, with a target of 100 centres by 2030.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 29712,
+          "char_end": 30136,
+          "passage_sha256": "9946d90ed2ec8498d2ca71e0ebc7491dd60f924af537d6cdacb2c64254b64630"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "CZE-access-001",
+        "statement": "Just 0.6% of Czech adults reported unmet medical care needs because of cost, distance or waiting in 2024, against an EU average of 3.6%; among people at risk of poverty the figure was 0.9%, compared with 6% EU-wide.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 80710,
+          "char_end": 81009,
+          "passage_sha256": "d6a062f0da29ee19860679d248930a7593512b08687018c26aea1e045955413e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-access-002",
+        "statement": "In 2023 nearly all Czechs could reach a GP within 35 minutes' travel, but GP shortages remain, particularly in rural and border areas and in Central Bohemia.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 95732,
+          "char_end": 95931,
+          "passage_sha256": "ece12baaf9f0d9fd0a4c3aefec0353da61a117a5bcc23777663d70fa894fb310"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-access-003",
+        "statement": "Czechia had 4.2 doctors per 1,000 people in 2023, close to the EU average of 4.3, and 9.0 nurses per 1,000, a little above the EU average of 8.5.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 58941,
+          "char_end": 59125,
+          "passage_sha256": "0debca9407b5fab46e6e37201b248c48b5aadb3776efa160598e9be96e59dc65"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-access-004",
+        "statement": "Although 68% of Czech adults looked for health information online (EU: 58%), only 20% booked a medical appointment online in 2024, half the EU average of 40%.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 114880,
+          "char_end": 115145,
+          "passage_sha256": "79f214321421fe013d77dcdaeaf63983a62ec0f491c12bf6ac76302993282d4b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-access-005",
+        "statement": "Czech adults with dental care needs reported very little unmet need in 2024: 1.8%, compared with 6.3% across the EU.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84097,
+          "char_end": 84265,
+          "passage_sha256": "0ffef99ce9458be172ec2542c606ce6dd3ca1f6b67601713cb9a304c11a2dd4f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-access-006",
+        "statement": "A 2012 government regulation sets maximum travel times to certain specialties and maximum waits for selected procedures, but since waiting times are not monitored systematically, these figures are unreliable.",
+        "valence": "weakness",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 16,
+          "char_start": 37679,
+          "char_end": 38015,
+          "passage_sha256": "1a10dcc18904382aa87cd4caedc9272165a50419f6b18445d52b9dc4b2cbb310"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-access-007",
+        "statement": "Studies cited in a 2026 workforce analysis show that the average age of Czech GPs has been rising and that the turnover of doctors is insufficient and uneven across regions, lowest in rural areas.",
+        "valence": "weakness",
+        "source_id": "gp-young-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5319,
+          "char_end": 5530,
+          "passage_sha256": "7e06024071871d7d94491fb73b272081a3e3c56e8f7a005b5953ade2af95ef81"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-access-008",
+        "statement": "Of 661 GP trainees who finished training between 2009 and 2022, only 55% had established a contract within the first year (44% in general practice), rising to 83% after seven years (79% in general practice).",
+        "valence": "weakness",
+        "source_id": "gp-young-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2877,
+          "char_end": 3340,
+          "passage_sha256": "d9e323ab2dec3e5b52370fff728157039aeba3e6672d9a7b531fc58c539d3e80"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CZE-outcomes-001",
+        "statement": "In 2022 Czechia's death rate from preventable causes was 16% above the EU average, and its death rate from treatable causes was 26% above it.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 63594,
+          "char_end": 63778,
+          "passage_sha256": "9c61746fb9defd8391d640dbb0cfc18a0406390151be8eea81ccd5b09ee33074"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CZE-outcomes-002",
+        "statement": "Cardiovascular disease was the leading cause of death in Czechia in 2023 at nearly 39% of deaths (ischaemic heart disease alone 16%, stroke about 6%), and cancer was second at over 24%.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 15377,
+          "char_end": 15750,
+          "passage_sha256": "bf9ef53440d335ed047c552f17b5e3eac70ac0ff3f235c0a1b00ce13dc2bbd53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-outcomes-003",
+        "statement": "Czech adults drank an average of 11.2 litres of pure alcohol per person in 2023, the fifth-highest level among EU countries.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44561,
+          "char_end": 44702,
+          "passage_sha256": "9783d1316817edfa5b19650684274cd80f924feff5e87be4dea7ac2fd5bf1aff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-outcomes-004",
+        "statement": "More than 17% of Czech adults were obese in 2022, compared with an EU average of 14.6%.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 7,
+          "char_start": 37732,
+          "char_end": 37865,
+          "passage_sha256": "3596e47dd243688e12012bab7c610c166ca8fb68852aa90373c6254800a843dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CZE-outcomes-005",
+        "statement": "Daily smoking among Czech adults was 16% in 2024, under the 2023 EU average of 18.5%.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 7,
+          "char_start": 39527,
+          "char_end": 39613,
+          "passage_sha256": "635177cfebcbac1c104c93bf8401a2621f4e7c651f10d0f976d542853344d356"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-outcomes-006",
+        "statement": "In the GBD 2019 study, Czechia's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 81.5 (95% uncertainty interval 78.4-84.1) in 2019, 21.8 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 37060,
+          "char_end": 37227,
+          "passage_sha256": "95e544664bc34236cf25ed13e7690495ad267ec75785403d2d55b3ace11fd745"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CZE-outcomes-007",
+        "statement": "By age group in the GBD 2019 study, Czechia's 2019 HAQ Index score was 92.3 for ages 0-14, 80.2 for ages 15-64 and 70.5 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 37060,
+          "char_end": 37227,
+          "passage_sha256": "95e544664bc34236cf25ed13e7690495ad267ec75785403d2d55b3ace11fd745"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "CZE-costs-001",
+        "statement": "Outpatient care took 34% of Czech health spending in 2023, above the EU average of 28%, and inpatient care took 29%, also above the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 49678,
+          "char_end": 49948,
+          "passage_sha256": "25823e9d07c65f56a986dde4aff4dfdff50712883a3415005dc184bba4d0175d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-costs-002",
+        "statement": "Retail medicines took 15% of Czech current health spending in 2023 (EU average 13%), but at EUR 449 per person (PPP-adjusted) spending on them was almost 12% below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 120295,
+          "char_end": 120655,
+          "passage_sha256": "1453dcb7d7b608bacb8c4ea10f3df30115719435c6663958b8f69fd2667861ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-costs-003",
+        "statement": "Medicines bought by hospitals made up CZK 33.6 billion, or 33%, of Czechia's CZK 103.3 billion pharmaceutical market in 2023, up from roughly 25% in 2017.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 127997,
+          "char_end": 128263,
+          "passage_sha256": "c616536364d48ec9ae0e5145dba8642f664b9cc6d821af05b9b87f39df2269c3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-costs-004",
+        "statement": "Preliminary health accounts data put Czechia's total health spending in 2024 at just under CZK 697 billion, 8.5% higher than a year earlier; per inhabitant it rose by almost CZK 5,000 to CZK 64,000.",
+        "valence": "neutral",
+        "source_id": "csu-ha-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 641,
+          "char_end": 903,
+          "passage_sha256": "e790ec7f6c7c480f93c3e34ca4ad57f6b802eb67765fc32733145f53ae09bc18"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-costs-005",
+        "statement": "Total health spending equalled 8.6% of GDP in 2024, 0.2 percentage points more than in the previous year.",
+        "valence": "neutral",
+        "source_id": "csu-ha-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 904,
+          "char_end": 1045,
+          "passage_sha256": "7faa4a937c8ddae63b204cb45cdbd5f7a608eb34a759b2423ee3a4aed3e4f63c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CZE-what_works-001",
+        "statement": "In the 2023-24 OECD PaRIS survey, 96% of Czech primary care users aged 45 or older with chronic conditions said their care was good, compared with an average of 86% across the 10 countries compared.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79592,
+          "char_end": 79890,
+          "passage_sha256": "69e433733687276c3f6fb41a372db297b64d96a6f2ad275f3c92632c582d5a0d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-what_works-002",
+        "statement": "Generic medicines have held about 63% of the Czech pharmaceutical market over the past five years, slightly more than the EU average.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 130462,
+          "char_end": 130626,
+          "passage_sha256": "33692901db68ffef973fd3781d8e3cfede8cb9839dc7b76fc2787941b0f22113"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-what_works-003",
+        "statement": "Czech women take part in breast and cervical cancer screening at above-average rates: in 2023, 60% of women aged 50-69 had a breast screen within two years (EU 58%), and 75% of women aged 20-69 had cervical screening (EU 58%).",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74341,
+          "char_end": 74621,
+          "passage_sha256": "2c1834f7f3d209497a72dda63790785811b51adea0ed15a1c906b68272f19ff6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-what_works-004",
+        "statement": "Regular full and abbreviated reviews of drug reimbursement by the State Institute for Drug Control (SUKL), which assess therapeutic value and cost-effectiveness, were estimated to have saved the statutory insurance system more than EUR 200 million in 2023.",
+        "valence": "strength",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 123282,
+          "char_end": 123588,
+          "passage_sha256": "041d52ff778a38f561906ef00f5b9dbb5c14b96dcc11497d0a93506db64ddbe4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-what_works-005",
+        "statement": "The Observatory finds that near-absent cost-sharing and a comprehensive benefit package keep care affordable, yielding high financial protection and little unmet need.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 13164,
+          "char_end": 13470,
+          "passage_sha256": "a686bf2f10181580d8d1e46a3b92baf18dd426c4f55649886e14ac087ccfa3cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-what_works-006",
+        "statement": "Diabetes care is integrated across outpatient settings: GPs find and treat uncomplicated cases, receiving payment on top of capitation, and work closely with diabetologists, to whom they refer patients who develop complications.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 28422,
+          "char_end": 28922,
+          "passage_sha256": "80760a78ae471fa0ba83e9e3dee4cef86f336c177a7f7ab844ff6f45477ab0b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-what_works-007",
+        "statement": "The WHO review cites as good practice that insurance entitlement rests on permanent residence rather than on paying contributions, so people in arrears keep their benefits and the scheme is likely to reach everyone eligible.",
+        "valence": "strength",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 68,
+          "char_start": 102134,
+          "char_end": 102530,
+          "passage_sha256": "cce3c4279a04d7fb43f4d5af1b58614169f5fa2b0502ad272d0cb858409725f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "CZE-problems-001",
+        "statement": "As of 2025 Czechia had no comprehensive national system for monitoring waiting times; ad hoc monitoring in 2022 found an average 76-day wait between a positive stool blood test and diagnostic colonoscopy, ranging from 40 to 135 days across districts.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 94470,
+          "char_end": 94869,
+          "passage_sha256": "328af5f37e7f0eb69fe26e375e444340645eff388b84299f5b97e01a8dec3a7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-002",
+        "statement": "Doctor and nurse numbers per head have grown since 2010, but rising needs have outstripped them, and some hospitals have reportedly closed wards for lack of nurses and other health staff.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59126,
+          "char_end": 59358,
+          "passage_sha256": "7336704f34df5455494bfd5f64d1eca3756e6ff6b3793d45089866a260e8d79a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-003",
+        "statement": "Without further action, Czechia's primary care workforce is projected to be much smaller in 2035 than in 2022: around 40% fewer GPs and 55% fewer paediatricians.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 96529,
+          "char_end": 96701,
+          "passage_sha256": "0be2c6a8271b353a6465033d3779cdfa513b28b227b4d67a5b80c9b83f46f6a3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-004",
+        "statement": "Colorectal cancer screening uptake within two years was 30% of the target population in 2023, well below the EU average of 48%.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74797,
+          "char_end": 74971,
+          "passage_sha256": "bb0d16d0ec636b9775bfb253d1a08df4aabf8d217bc0d32d45e5dd173d1d3d3f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-problems-005",
+        "statement": "Hospital admissions for a set of chronic conditions (asthma, COPD, congestive heart failure and diabetes) were 18% above the EU average in 2023, mainly because heart failure admissions were almost 50% higher than the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78257,
+          "char_end": 78593,
+          "passage_sha256": "29fe9b01023c56a0d451970e59664212cfb94e292d04e171c1bedd6a541d3587"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-problems-006",
+        "statement": "Insurers fund centre-based medicines through dedicated hospital budgets kept apart from DRG payments; these budgets have a rigid ceiling, and doctors increasingly report that they do not match the number of eligible patients, straining access and adding to insurers' financial pressure.",
+        "valence": "weakness",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 129399,
+          "char_end": 129904,
+          "passage_sha256": "6f61a18ed97ff44f3cd89965cd94d6eeb47a248a7ced422c02df94bc73bd3d31"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-007",
+        "statement": "The Observatory lists weak primary care: GPs with limited competencies, incomplete gatekeeping, many solo practices, and a falling number of GPs in remote areas; in 2022 GPs averaged 55.0 years of age and paediatricians 57.4.",
+        "valence": "weakness",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 12,
+          "char_start": 24251,
+          "char_end": 24807,
+          "passage_sha256": "e865d3df2a9fe179513769f52c3ac54a0df7eed73ac64fb30f36ff091cde120c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CZE-problems-008",
+        "statement": "Inefficient resource use and overuse of services remain major challenges: hospital stays are still longer than elsewhere in the EU, and discharge and outpatient consultation rates are among the highest.",
+        "valence": "weakness",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 20,
+          "char_start": 46194,
+          "char_end": 47135,
+          "passage_sha256": "77946b1628587629ca6a6e522b1e33a3227da1bbd452343802110b149c6a3251"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-009",
+        "statement": "The review judges the general medicine cap of CZK 5000 a year, equal to 27% of the 2024 monthly minimum wage, too high to help enough low-income people: only 10% of the population benefited in 2023, and working-age adults with low incomes or chronic conditions fall under that general cap.",
+        "valence": "weakness",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 23286,
+          "char_end": 23918,
+          "passage_sha256": "4ce83e6304f82caca6ca1c1bc4e814158efa5a39ec958a3ba32c1858de9d72ed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CZE-problems-010",
+        "statement": "People with very low incomes are exempt only from the emergency-visit charge; no exemption shields them from medicine or other co-payments.",
+        "valence": "weakness",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 70,
+          "char_start": 109519,
+          "char_end": 109625,
+          "passage_sha256": "43f819f177f12c9ff37aafd7198e5cec77563747e3b554ada25c197708ffed13"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-011",
+        "statement": "No one tracks informal payments, but international data point to them being more common than in most EU countries, usually in maternity care to cut waits or secure a particular doctor.",
+        "valence": "weakness",
+        "source_id": "fp-cze-2025",
+        "locator": {
+          "page": 30,
+          "char_start": 56923,
+          "char_end": 57157,
+          "passage_sha256": "93e78a050d4ca83bf04730e5f175b7b50e1c09174df7a6e44356af240d8227f9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-012",
+        "statement": "A 2025 mixed-methods study (interviews, a survey and expert workshops) found that some informal payments in Czech health care arise from need, as patients believe extra money is required to obtain adequate care, while others are offered by patients seeking preferential treatment such as quicker access or a well-known physician.",
+        "valence": "weakness",
+        "source_id": "informal-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1178,
+          "char_end": 1929,
+          "passage_sha256": "5f2cdd29aa805c948ba022986a7ba510985228ca1d89b935f04ffa76115ffd8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-013",
+        "statement": "In an April 2024 survey to which 765 of 2,500 randomly selected GPs responded, 19.7% showed burnout on all three Maslach dimensions and 28.8% on none.",
+        "valence": "weakness",
+        "source_id": "gp-burnout-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3106,
+          "char_end": 3598,
+          "passage_sha256": "aca200bfa2c6715da035cc99671a9c85e374bdcd4ef687d6e4f6566159effa04"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-problems-014",
+        "statement": "In the same GP burnout survey, burnout increased with the number of patients registered with a GP, and practice owners were more prone to emotional exhaustion.",
+        "valence": "weakness",
+        "source_id": "gp-burnout-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3781,
+          "char_end": 3970,
+          "passage_sha256": "5e66dc50ad5c98ffa71bcba402138d8fb7a8470eeb0d72ee6dbe721ab9983412"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CZE-reforms-001",
+        "statement": "Legislation in 2025 cleared the way for e-Zadanka, an electronic referral system due to start operating in 2026, under which providers will send referrals for lab tests, imaging and specialist visits electronically instead of on paper.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 94905,
+          "char_end": 95227,
+          "passage_sha256": "4d890ddd9bf3bdccf721934bcbc0662915dde9e408dca780f26461b8619b1476"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-reforms-002",
+        "statement": "A CZK 6.8 billion programme covering 2019-29 has paid for more medical school places, increasing first-year enrolment by 20% from the 2019/2020 intake; the first larger class graduated in 2025, expected to add about 300 doctors a year.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 109564,
+          "char_end": 109838,
+          "passage_sha256": "1446a46566fafcc74f414927b0bc777b7bc588be3fff878421d109fd81f1f3b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-reforms-003",
+        "statement": "In 2024 physician salary scales were raised by about 25%, with larger rises for younger doctors; the change did not cover self-employed outpatient doctors such as GPs.",
+        "valence": "neutral",
+        "source_id": "chp-cze-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 111077,
+          "char_end": 111387,
+          "passage_sha256": "c013ce575266b509e179c4815146ad0cbacd14bf80285273f86cdca282fc2f0e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CZE-reforms-004",
+        "statement": "A 2018 change to risk adjustment among the insurance funds added adjustments for chronically ill patients, identified through their medicine use.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 31728,
+          "char_end": 31964,
+          "passage_sha256": "d50be46bf0758b653dc416a73d0e6c82ba7eb21c1af7f04bcd707b0970cb826a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-reforms-005",
+        "statement": "From 2022 the state's SHI payments for economically inactive people have been tied to overall economic performance.",
+        "valence": "neutral",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 31965,
+          "char_end": 32165,
+          "passage_sha256": "75435b8ca7846fd669d29395c1e90bc5a16ac42b6be8607dde308f6fbf460fa7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "CZE-reforms-006",
+        "statement": "Since July 2024 GPs may prescribe about 1000 additional medicines that only specialists could prescribe before, a change expected to widen access to medicines.",
+        "valence": "strength",
+        "source_id": "hss-cze-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 27499,
+          "char_end": 27732,
+          "passage_sha256": "dfabcf4cb419c3a4a06ca8f0f373ca39ecea47a4b342f2cf61e2819dd5706ca6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/CZE.json",

@@ -1,0 +1,196 @@
+{
+  "iso3": "LUX",
+  "name": "Luxembourg",
+  "wave": 3,
+  "system_as_of": "2026-11-19",
+  "status": "draft",
+  "model": {
+    "type": "mixed",
+    "label": "TODO: plain-language name of the model"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [],
+    "financing": [],
+    "covered": [],
+    "cost_sharing": [],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/LUX.json",
+  "sources": [
+    {
+      "id": "chp-lux-2025",
+      "title": "State of Health in the EU: Luxembourg, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-luxembourg-final-web.pdf",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "hit-lux-2024",
+      "title": "Luxembourg: Health System Review (Health Systems in Transition 26(4))",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Rausch K, Goetzinger C, Lorcy AC, Durvy B, Winkelmann J, Falkenbach M",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://iris.who.int/handle/10665/381404",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/c540d39d-3b6c-4c5e-b152-6eee73303777/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-19",
+      "funding_note": "Most data refer to 2021-2023; written before the 2023-2025 rollout of the PID direct-payment scheme was complete."
+    },
+    {
+      "id": "hss-lux-2024",
+      "title": "Luxembourg: Health System Summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Rausch K, Goetzinger C, Lorcy AC, Durvy B, Winkelmann J, Falkenbach M, Maresso A",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://iris.who.int/handle/10665/379921",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/45cd47d2-c724-449c-b930-8feb4238938b/content",
+      "license": "CC BY-NC-SA 3.0 IGO",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-19",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation). The paper reports scores but states no rank for Luxembourg."
+    },
+    {
+      "id": "igss-param-2026-06",
+      "title": "Paramètres sociaux valables au 1er juin 2026",
+      "publisher": "Inspection générale de la sécurité sociale (IGSS), Luxembourg",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://igss.gouvernement.lu/dam-assets/publications/param%C3%A8tres-sociaux/2026/par-soc-202606.pdf",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "igss-quadri-2026",
+      "title": "Rapport sur la situation financière de l'assurance maladie-maternité en vue de la réunion du comité quadripartite du 21 octobre 2026",
+      "publisher": "Inspection générale de la sécurité sociale (IGSS), Luxembourg",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://gouvernement.lu/dam-assets/images-documents/actualites/2026/10-octobre/21-comite-quadripartite/rapport-sur-la-situation-financire-de-lassurance-maladie-maternit.pdf",
+      "accessed": "2026-11-19",
+      "funding_note": "2026 and 2027 figures are CNS/IGSS estimates of September 2026."
+    },
+    {
+      "id": "gouv-quadri-2026",
+      "title": "Résumé des travaux du comité de quadripartite (press release, 21 October 2026)",
+      "publisher": "Ministry of Health and Social Security, Luxembourg",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2026/10-octobre/21-comite-quadripartite.html",
+      "accessed": "2026-11-19",
+      "funding_note": "Government announcement; 2026-2027 figures are forecasts."
+    },
+    {
+      "id": "gouv-ambulatoire-2026",
+      "title": "Une nouvelle étape pour le développement des soins ambulatoires au Luxembourg (press release, 10 June 2026)",
+      "publisher": "Ministry of Health and Social Security, Luxembourg",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2026/06-juin/10-deprez-soins-ambulatoires.html",
+      "accessed": "2026-11-19",
+      "funding_note": "Ministry presenting its own bill; describes intentions, not results."
+    },
+    {
+      "id": "chd-8744-2026",
+      "title": "Proposition de loi n° 8744 portant création d'un droit à la couverture universelle de soins de santé et modifiant le Code de la sécurité sociale (document de dépôt, 29 April 2026)",
+      "publisher": "Chambre des Députés, Luxembourg",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://wdocs-pub.chd.lu/docs/Dossiers_parlementaires/8744/20260429_Depot_2.pdf",
+      "accessed": "2026-11-19",
+      "funding_note": "Private member's bill tabled by two deputies (Claude Haagen and Claire Delcourt); its explanatory memorandum argues for the bill. Not adopted as of the access date."
+    },
+    {
+      "id": "gouv-surendettement-2025",
+      "title": "Semaine nationale de la prévention du surendettement: sensibiliser, prévenir, accompagner (press release, 23 April 2025)",
+      "publisher": "Ministry of Family Affairs, Solidarity, Living Together and Reception of Refugees, Luxembourg",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2025/04-avril/23-hahn-surendettement.html",
+      "accessed": "2026-11-19",
+      "funding_note": "Counts cover only applications to the formal over-indebtedness procedure; causes are not quantified."
+    },
+    {
+      "id": "acd-insurance-deduction",
+      "title": "Cotisations et primes d'assurance (A to Z guidance)",
+      "publisher": "Administration des contributions directes (Luxembourg tax administration)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://impotsdirects.public.lu/fr/az/c/cotis_prim.html",
+      "accessed": "2026-11-19",
+      "funding_note": "Undated guidance page describing the rules in force, accessed 2026-11-19."
+    },
+    {
+      "id": "hspa-lux-2026",
+      "title": "Stakeholder-based development of a Health System Performance Assessment Framework for Luxembourg",
+      "publisher": "European Journal of Public Health (conference abstract, 19th European Public Health Conference)",
+      "authors": "Seuring T, Lorcy AC, Grech K, Berthet F",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/eurpub/ckag169.1052",
+      "doi": "10.1093/eurpub/ckag169.1052",
+      "license": "CC BY-NC 4.0",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13698995",
+      "accessed": "2026-11-19",
+      "funding_note": "Conference abstract by staff of the National Health Observatory describing its own project."
+    },
+    {
+      "id": "giordana-2023",
+      "title": "Old age takes its toll: Long-run projections of health-related public expenditure in Luxembourg",
+      "publisher": "Economics and Human Biology",
+      "authors": "Giordana GA, Pi Alperin MN",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.ehb.2023.101262",
+      "doi": "10.1016/j.ehb.2023.101262",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37311273&rettype=abstract&retmode=text",
+      "accessed": "2026-11-19",
+      "funding_note": "Authors at the Central Bank of Luxembourg and LISER; simulation study, abstract only."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-19",
+      "note": "Profile created."
+    }
+  ]
+}

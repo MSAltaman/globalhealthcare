@@ -90,6 +90,10 @@ countries in its prompt (default 3).
 3. **Create the profile.** `python scripts/new_profile.py <ISO3> "<Name>" --wave <n>`.
    Use `data/countries/DEU.json` as the reference for depth and style:
    about 45-60 claims, 6-9 sources, every section filled where evidence exists.
+   **Hard limits: at most 60 claims and 9 sources.** Spend them on the most
+   important facts in each section; depth beyond that comes later, from
+   topic research across all countries. Usage is the constraint: a profile
+   of 100+ claims costs about twice as much and is not wanted.
 4. **Find sources.** Start with the tier-1 system review (European Observatory
    Country Health Profile 2025 or Health System Summary for EU countries;
    WHO / Asia Pacific Observatory reviews for others; OECD Health at a
@@ -118,11 +122,15 @@ countries in its prompt (default 3).
    `python scripts/anchor.py <ISO3> <claim_id> --start "<first words>" --end "<last words>"`.
    Check the printed passage. Keep passages tight (one to three sentences).
    Claim ids are `<ISO3>-<section>-<nnn>`, numbered from 001 per section.
-8. **Support review: a separate, cold pass.** After all claims are anchored,
-   go back through every claim reading only the printed passage
-   (`anchor.py ... --show`) and the statement. Mark `verification.supports`
-   `pass` only if the passage supports the statement exactly. In the Germany
-   pilot these were the common failures, so check each one:
+8. **Support review: one cold pass, done by Opus.** The run itself (a
+   cheaper model) finds sources, drafts and anchors claims. The review that
+   decides what is true is done by a separate **Opus** subagent: use the Agent
+   tool with `model: "opus"`, and give it only, for each claim, the claim id,
+   the statement and the passage printed by `anchor.py <ISO3> <id> --show`.
+   Never give it your drafting notes or reasoning. Send claims in batches of
+   about 20 so each batch stays small. Ask it to return, per claim, `pass` or
+   `fail` with a one-line reason, checking each of these (the common failures
+   in the Germany pilot):
    - **Scope:** a figure about a subgroup (people who needed care, adults,
      medicines approved 2020-2023) stated as if about everyone.
    - **Date:** a missing or wrong year, or "as of" dropped.
@@ -130,9 +138,14 @@ countries in its prompt (default 3).
    - **Order and causation:** "after" vs "starting with", "because" where the
      source gives no reason.
    - **Details from elsewhere:** a number or name that is not in this passage,
-     even if it is elsewhere in the document. Split the claim or drop the detail.
-   Rewrite and re-anchor, or delete the claim. Set `checked_on` and
-   `checked_by` (model name plus "support review").
+     even if it is elsewhere in the document.
+   Record the verdicts: `verification.supports`, `checked_on`, and
+   `checked_by` = the reviewer's model plus "support review". For each
+   `fail`, rewrite and re-anchor the claim or delete it; send only rewritten
+   claims back to the Opus reviewer, once. A claim that fails twice is
+   deleted. Do not run further full review rounds. If the Agent tool or the
+   Opus model is unavailable, do not review the claims yourself: push the
+   branch with `supports` left `pending`, and say so in the pull request.
 9. **Verify and validate.**
    `python scripts/verify_claims.py <ISO3...>`, then `python scripts/validate.py`
    and `python -m pytest -q tests`. Fix anything that fails. Never open a pull

@@ -5,30 +5,1920 @@
   "system_as_of": "2026-11-19",
   "status": "draft",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "social_health_insurance",
+    "label": "Social health insurance with a single public payer, the National Health Fund (NFZ), funded mainly by a 9% earmarked health contribution plus state-budget subsidies; publicly and privately owned providers under NFZ contracts; high out-of-pocket spending on outpatient medicines"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "POL-overview-005",
+      "POL-overview-006"
+    ],
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "overview": [
+      {
+        "id": "POL-overview-001",
+        "statement": "Poland's health system is built on social health insurance that covers roughly 97% of the population; most people without cover are registered as residents but live outside the country.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44154,
+          "char_end": 44353,
+          "passage_sha256": "3b82a0952bbd82d0f017dc2af82451bf8a61bdb922934d278ae48de874e361ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-overview-002",
+        "statement": "Governance, financing and purchasing sit mainly with the Ministry of Health and the National Health Fund (NFZ); the 16 regions own the larger regional hospitals and the 314 counties own the smaller county hospitals.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44580,
+          "char_end": 44919,
+          "passage_sha256": "ed82e4592590d33f38a22d0f5749ef085743a88c892728d94daeb581c96fa279"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-overview-003",
+        "statement": "Most primary care practices and most specialist outpatient providers are privately owned, and any private provider may treat patients either free of charge under an NFZ contract or for a private fee.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45101,
+          "char_end": 45453,
+          "passage_sha256": "ba02650768b8311b70ca72b88ba9d69cd20d39c56263692c7d2bde38e84443cd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-overview-004",
+        "statement": "Regional NFZ branches buy care in their territories under contracts open to public and private providers, but the package of guaranteed services is fixed centrally, so purchasing can be adapted to local needs only a little.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 3455,
+          "char_end": 3739,
+          "passage_sha256": "27d626cd5a5a17b08b50bf8689ee0ab0ab7e5092b1ad812d00cd095e6b97c35b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-overview-005",
+        "statement": "Under the Act on health care services financed from public funds (consolidated text of October 2025), people covered by universal compulsory or voluntary health insurance have a legal right to publicly financed care, as do some uninsured residents, including Polish citizens living in Poland who meet the social-assistance income criterion.",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 14571,
+          "char_end": 15281,
+          "passage_sha256": "fa3319af701eb712287becd666681d649cfe9d2b385a6ec1924ad7a4d77026f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-overview-006",
+        "statement": "In 2023, 96.9% of Poland's population was formally enrolled in social health insurance, and pregnant women and children under 18 are entitled to publicly funded care regardless of whether they are insured.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79980,
+          "char_end": 80235,
+          "passage_sha256": "928a520ecb25c8ab700e91aabd8401d8c1a08222475bd381b294e39e28ede768"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-overview-007",
+        "statement": "Uninsured people outside the protected groups can still use outpatient emergency care and primary care without paying at the time, but they may be billed afterwards.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44354,
+          "char_end": 44579,
+          "passage_sha256": "70744741c5c1f643acab3691aa73ea5353f5beff73537c147b9901050e4de52b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "POL-financing-001",
+        "statement": "Public sources paid for 77.8% of health spending in 2023 (OECD System of Health Accounts definition), a share that has risen steadily; social health insurance contributions, collected mainly as earmarked payroll taxes, are the core of public funding.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45928,
+          "char_end": 46174,
+          "passage_sha256": "2173c5a2a0048da9c5c9abf7204e9acf65ef329400ee3364d6886da8b2cd594f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-financing-002",
+        "statement": "Health insurance contributions, mostly an earmarked payroll tax, supply about 90% of publicly financed current health spending; money from general taxation in the state budget pays for public health programmes, among other things.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 9086,
+          "char_end": 9669,
+          "passage_sha256": "97e85ca760e92a51b20f9ecb0f64edc999d2eae720e33e6414a9ad1875186c77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-003",
+        "statement": "The health insurance contribution is set by law at 9% of the contribution base, subject to exceptions in other articles of the Act (consolidated text of October 2025).",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 108,
+          "char_start": 442120,
+          "char_end": 442258,
+          "passage_sha256": "49f72fa81b0a91baa961fa4b8f95582a1722b36a6bd1d46a2727222024c53f0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-004",
+        "statement": "For employees, the law makes the employer the payer that calculates the health contribution, takes it out of the insured worker's income and remits it, so the contribution is withheld from pay.",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 119,
+          "char_start": 495238,
+          "char_end": 495429,
+          "passage_sha256": "cb97600a8e9c2a99d1a78b3b3b64d66b335f4c303563432cc0dad2454cfa2a29"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-005",
+        "statement": "For employees and several other insured groups, the health contribution base is determined under the same rules as the base for pension and disability insurance contributions, with stated exceptions.",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 109,
+          "char_start": 445732,
+          "char_end": 446020,
+          "passage_sha256": "cd61469d1f748fbe7c123a0e7151ebe8516a435f62f7a720486fa610d1c7292b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-006",
+        "statement": "Self-employed people taxed under the flat-rate rules of article 30c of the personal income tax act pay a health contribution of 4.9% of their contribution base, with a minimum equal to 9% of the minimum wage in force at the start of the contribution year.",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 108,
+          "char_start": 442353,
+          "char_end": 442942,
+          "passage_sha256": "825dd31198bcb761bbd31f38fd7f24d6f20fc0c5c181ad5b981f446c509b5460"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-007",
+        "statement": "A tax reform raised the health contributions paid by higher-income self-employed people, which increased the NFZ's revenue.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 28724,
+          "char_end": 28863,
+          "passage_sha256": "c0a54850950d1084b78b9da1c68d7ed01900206e3ac64d647b94ff7e6afb1d8e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-008",
+        "statement": "The law sets a floor for public health funding of 7% of GDP a year, with lower interim minimums through 2026, including 6.5% of GDP in 2025 and 6.8% in 2026; the total counts health spending in the state budget, NFZ costs and several other public funds.",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 172,
+          "char_start": 696206,
+          "char_end": 696918,
+          "passage_sha256": "300a43bd942322f5a2e6946d8be4428fc3a9cbdc31a3c85b63c0493f5fd837e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-009",
+        "statement": "When the government pledged in 2018 to raise public health spending as a share of GDP, it redefined how that share is calculated, so national figures differ markedly from those of international sources.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 6762,
+          "char_end": 7089,
+          "passage_sha256": "dac529441cfd03d260b468f48140933d1fe91beb616bd1b0673e9fa9dd27eeb2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-010",
+        "statement": "As of 23 October 2026, the state budget subsidy to the NFZ for 2026 stood at almost PLN 37 billion, and the NFZ's funds for patient care in 2026 totalled PLN 227.37 billion, over PLN 13 billion more than in its original financial plan.",
+        "valence": "neutral",
+        "source_id": "nfz-2026-10-23",
+        "locator": {
+          "section": "News release, 23 October 2026",
+          "char_start": 1084,
+          "char_end": 1276,
+          "passage_sha256": "0b825d16f0def650be160129bd3a70e2c9d846806c647e9ec7399f73bffcdb95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-011",
+        "statement": "Since 2022 the NFZ has also paid for some services for population groups exempt from paying contributions, and since 2023 it has carried the full cost of emergency care.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 9389,
+          "char_end": 9557,
+          "passage_sha256": "7272c1b1c4cf5c66abd0afb55a81210554ac4353da269fdbe7573aa915b23b8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-financing-012",
+        "statement": "Out-of-pocket payments by households were the second-largest funding source, at 15.7% of current health spending in 2023, slightly above the EU average of 15.5%.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46175,
+          "char_end": 46390,
+          "passage_sha256": "5cb656f781f2adc809415cf21fef7d468e714ccb2908cc1e75618abeb461c7de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-financing-013",
+        "statement": "Voluntary health insurance, which supplements and complements the statutory system, accounted for 6.5% of health spending in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46391,
+          "char_end": 46512,
+          "passage_sha256": "cdea9b2477862809e3200eb2f0cfdad5cf474d37b33dec0b35bfda4436f06515"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "POL-covered-001",
+        "statement": "The law lists the guaranteed benefit areas, including primary care, specialist outpatient care, care in county health centres, hospital treatment, psychiatric and addiction care, medical rehabilitation, long-term nursing and care, dental treatment, spa treatment, prescribed medical devices and emergency medical services.",
+        "valence": "neutral",
+        "source_id": "law-swiadczenia-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 69207,
+          "char_end": 69821,
+          "passage_sha256": "ee3066f9f427237f8d6fae9cd0d17d6da9940a73bb405ad256e5549c0931f301"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-002",
+        "statement": "Hospital care is covered broadly: public financing paid 95% of inpatient care costs in 2023, against an EU average of 91%, leaving virtually no cost-sharing for inpatient care.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84189,
+          "char_end": 84403,
+          "passage_sha256": "4b10e7c408b58ea4c5a772f3b46a6e43a14b054cb9f7da568aa35609736b21cf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-covered-003",
+        "statement": "Public coverage is narrow for dental care, outpatient medicines, therapeutic appliances and rehabilitation; covered dental care is limited to essential services with volume and frequency limits, such as dentures only once every five years.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84404,
+          "char_end": 84728,
+          "passage_sha256": "d5b8f1e4beb26a69ccea01a31c773bbdbb4461d87172a7514b7b71830d8342e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-004",
+        "statement": "Covered rehabilitation is limited to outpatient settings and to at most 40 days a year for a given problem.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84729,
+          "char_end": 84832,
+          "passage_sha256": "f44379d5521a02310bf5e6f3af0d5a811a5bbf857d2e539404779e969b329da0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-005",
+        "statement": "Cancer drugs are paid for through a positive list, high-cost medicines through drug programmes for defined patient groups with strict criteria, and a separate Medical Fund pays for high-cost innovative therapies; all medicines prescribed and given in hospital are free to patients.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 121149,
+          "char_end": 121671,
+          "passage_sha256": "d3e627a376a0ef1bb5909d8fe3e653634cf370b9ee3831e0d619a41d60f3855e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-006",
+        "statement": "Primary care is free at the point of use, but public funds covered only 36% of the cost of pharmaceuticals and medical non-durables.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84031,
+          "char_end": 84188,
+          "passage_sha256": "7da752cc4dd8a5105fad20060d3482774dbb55908d9b00d119100d9092c940bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-covered-007",
+        "statement": "Public provision of long-term care is limited and the sector relies heavily on informal carers.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 12503,
+          "char_end": 12602,
+          "passage_sha256": "7d944a6dbe5b1564e4fb26b27850305a3d96d614f104fb234367384c0caae25c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-008",
+        "statement": "Which new therapies are funded is decided through a process that uses health technology assessment, especially cost-effectiveness analysis, to inform both coverage and the price negotiations run by the Ministry of Health's Economic Commission.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 126292,
+          "char_end": 126664,
+          "passage_sha256": "e645aef06f17fbf49c06697b455ccf5fdf389b1d76875af75b83ef427bcd477e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-009",
+        "statement": "A cost-effectiveness threshold has applied to new medicines since 2012, but it is only one of 13 criteria in pricing and reimbursement decisions and is not binding.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 18,
+          "char_start": 40026,
+          "char_end": 40208,
+          "passage_sha256": "9bbb36b356c30a7607dd869cfcd0c10b44fb717cd9397ec8348f240cc8ad07f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-covered-010",
+        "statement": "Of the medicines given EU marketing authorisation from 2020 to 2023, 40% are available in Poland to various patient groups, with health technology assessment used to restrict coverage to the patients most likely to benefit.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 136130,
+          "char_end": 136438,
+          "passage_sha256": "7f0f69cd840639785d9d044a9ec5fb87df7665374cf920d6b6a2ce3c538f40cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "POL-cost_sharing-001",
+        "statement": "Within the public system, primary care, specialist outpatient care and hospital care, including medicines used in hospital, are free of charge.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46513,
+          "char_end": 46699,
+          "passage_sha256": "0e63f9989f1d81601f6f42dba435fadc4608f2d747c8a0a46fd59742923c92f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-cost_sharing-002",
+        "statement": "From 1 September 2023, free prescription medicines were extended from pregnant women and people aged 75 and over to children under 18 and people aged 65 and over; military veterans and blood or organ donors also qualify.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 119631,
+          "char_end": 119880,
+          "passage_sha256": "5371b23cf27b8cbc4f2e27b45857c97740a3701809f1d215aae7b1e71a677390"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-cost_sharing-003",
+        "statement": "There is no exemption from medicine co-payments for people on low incomes and no overall ceiling on co-payments.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 119881,
+          "char_end": 119993,
+          "passage_sha256": "da877c235fa137651b1d80334e6448d012c429bd7fc97fdc43d4a35dcdbc103a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-cost_sharing-004",
+        "statement": "For medicines taken for up to 30 days, patients pay 30% or 50% of the price, and in addition whatever the retail price exceeds the reference price by; for longer courses or costlier drugs they pay a flat EUR 0.71 for each pack (up to 30 defined daily doses) plus the same excess.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 119994,
+          "char_end": 120354,
+          "passage_sha256": "914a4106aa50c238fa227745d8f28aa780b9459599e371a6c6507266da1d1e1a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-cost_sharing-005",
+        "statement": "In 2023 statutory funds paid for only about a third of retail pharmaceutical spending, and patients paid almost two thirds directly.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 120355,
+          "char_end": 120522,
+          "passage_sha256": "4f7c37d1bd2db0d3e19a5123dce0037e57b307c7bba7f34620d5548eed57ef98"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-cost_sharing-006",
+        "statement": "No cost-sharing applies to covered dental care, but many dental services are outside the benefits package and are bought privately.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 10078,
+          "char_end": 10218,
+          "passage_sha256": "678ff5f94c4fa2942001e8816d8313b0479eb95ab7aec4af41b37e9cf57898b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "POL-financial_hardship-001",
+        "statement": "A study of Polish household budget surveys for 2013-2021 found that outpatient medicines were the largest contributor to catastrophic health spending (out-of-pocket payments above 40% of capacity to pay), although their share fell from 57% in 2013 to 44% in 2021.",
+        "valence": "weakness",
+        "source_id": "oop-cat-2025",
+        "locator": {
+          "section": "3 Results",
+          "char_start": 21211,
+          "char_end": 21375,
+          "passage_sha256": "6a6422822cac571b7babf25ff0eaa6636b394075e0d7b46ec0cd891876fa52f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": "2013-2021"
+      },
+      {
+        "id": "POL-financial_hardship-002",
+        "statement": "In the same study, households in the poorest consumption quintile were the most likely to face catastrophic payments; the odds were about 80% lower in the second quintile and about 90% lower in the higher quintiles.",
+        "valence": "weakness",
+        "source_id": "oop-cat-2025",
+        "locator": {
+          "section": "3 Results",
+          "char_start": 24744,
+          "char_end": 24984,
+          "passage_sha256": "c1190b5e935b93a0d94dd85a721c6431dd6ed69440f2e0d530fc6fa15b37b776"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": "2013-2021"
+      },
+      {
+        "id": "POL-financial_hardship-003",
+        "statement": "Households of retirees, pensioners and farmers had higher odds of catastrophic health spending than households of employees, as did households with three or more children compared with childless households.",
+        "valence": "weakness",
+        "source_id": "oop-cat-2025",
+        "locator": {
+          "section": "3 Results",
+          "char_start": 24460,
+          "char_end": 24646,
+          "passage_sha256": "33e815075c01fbf5553411e8fb8352e90fa285a92f4f09f438f9a3b212d087a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": "2013-2021"
+      },
+      {
+        "id": "POL-financial_hardship-004",
+        "statement": "Pensioners, disabled people and rural households continue to spend especially heavily on outpatient medicines, even after co-payment exemptions were introduced for older people (2016) and pregnant women (2020).",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 32302,
+          "char_end": 32536,
+          "passage_sha256": "d74e914e5ca6e9ae832885c4f08800285a857715f3b11cff30ef042643a06f7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "POL-additional_care-001",
+        "statement": "Voluntary health insurance has a growing role as supplementary and complementary cover.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 9670,
+          "char_end": 9828,
+          "passage_sha256": "5d4c2f1a45e4f24e7dcfebf8f435088277e9b74934016c2d3e3a3cbcf44839c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-additional_care-002",
+        "statement": "Public hospitals may provide private care only if they operate as commercial-code companies, which account for about 15% of all hospital beds.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 5960,
+          "char_end": 6114,
+          "passage_sha256": "2709225b35314f6211e5d89b948f9ba1001a3006c3aa9b81d7995b17e5381927"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-additional_care-003",
+        "statement": "Difficulty getting outpatient services may push people who can afford it toward private providers.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 32052,
+          "char_end": 32273,
+          "passage_sha256": "c5f0b69b653a18abec33846d9641b78abfe5ab062345897bf0913f74200609a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-additional_care-004",
+        "statement": "In an August 2025 online survey of 1,162 Polish adults, 82.9% said the private sector does better on waiting times, 60.1% on staff courtesy and 58.5% on booking and cancelling appointments.",
+        "valence": "weakness",
+        "source_id": "pubpriv-survey-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2741,
+          "char_end": 2999,
+          "passage_sha256": "5ddf2453b68feb802d34af6bc768424c08363abf4bf44ef7704db2ea43abdbe4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "POL-additional_care-005",
+        "statement": "Half of the respondents (50.5%) rated the competence of medical staff as equally good in public and private services, and none of the eight aspects asked about was rated better in public services.",
+        "valence": "neutral",
+        "source_id": "pubpriv-survey-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 19723,
+          "char_end": 19971,
+          "passage_sha256": "73a3675d2278deb6923a9a7ae2cbe374c29ac08a8c60ce8415733114cd8f5d46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2025
+      }
+    ],
+    "access": [
+      {
+        "id": "POL-access-001",
+        "statement": "In 2024, 5.2% of people in Poland who needed medical care reported that they could not get it because of cost, waiting times or travel distance, above the EU average of 3.6% for 2023.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78809,
+          "char_end": 79027,
+          "passage_sha256": "b06f4b30758c01cbf6ef702f9284e599ad79c3ce59ce15716ac9ece37c8c5f64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "POL-access-002",
+        "statement": "Waiting times are the main access problem for specialist outpatient services, some specialist elective inpatient care and rehabilitation, and have been especially long for some highly specialised fields such as endocrinology.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 91987,
+          "char_end": 92273,
+          "passage_sha256": "e89e152f3693063e5c1fe95893f6244145e28f0e8dcaf91eda70be996047e6f6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-access-003",
+        "statement": "Average waits in 2024 were 156 days for a hip replacement, down from 298 days in 2019, and 231 days for a knee replacement, down from 403 days.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 102411,
+          "char_end": 102587,
+          "passage_sha256": "42e13e353e9b415cf6875135fa6ce167db8a7c7625c8423ab8d802a63fbf1dad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "POL-access-004",
+        "statement": "The NFZ began lifting annual volume caps for outpatient providers in 2015 and removed all of them in 2021, but without the funds to pay for all services delivered, so many providers ran budget deficits.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 92352,
+          "char_end": 92596,
+          "passage_sha256": "54a97d4829d704d16ca38517f27e910081a15aea1f29769b8e9848c61be7e713"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-access-005",
+        "statement": "In 2023 Poland had 3.9 practising physicians per 1,000 people against an EU average of 4.3, and 5.9 nurses per 1,000 against 8.5.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 50223,
+          "char_end": 50446,
+          "passage_sha256": "8f2a724d7fed47454ea4d217968c1c75fe6bffe5a140f664f4fe2aea11e0f896"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-access-006",
+        "statement": "General practitioners made up 6.7% of physicians in 2023, one of the lowest shares in the EU (average 19.9%); internists and paediatricians still provide much primary care.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 58210,
+          "char_end": 58611,
+          "passage_sha256": "5ccd9867003c282682b45114a76d2728bb300bab8fb760bfefe8eccbccc85310"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-access-007",
+        "statement": "Primary care is easy to reach: patients can usually be seen the same day in smaller private GP practices (though large public facilities may have long waits), practices are open about 50 hours a week, and care is available out of hours, at weekends and on public holidays.",
+        "valence": "strength",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 11,
+          "char_start": 23448,
+          "char_end": 23828,
+          "passage_sha256": "a739a301cf2e8711aef9ecc9ad28c7d470bdadbdca035ddd56ea350fc1d13445"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-access-008",
+        "statement": "People in rural areas have worse access to specialist care than people in cities.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 9,
+          "char_start": 16241,
+          "char_end": 16402,
+          "passage_sha256": "00e2b213e005b16f6aff1ae82f0b5ceffd96feba59c80bdf265ed892ea1a794a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-access-009",
+        "statement": "Waits stem from severe health workforce shortages and NFZ budget limits on the volume of contracted services, and Poland has no waiting-time guarantees.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 31872,
+          "char_end": 32051,
+          "passage_sha256": "6d741b694bcdb78b81d8264b3b49603ab6923d57a116830357059d8677e3fdb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-access-010",
+        "statement": "Primary care doctors usually act as gatekeepers to specialists, but no referral is required for gynaecologists, obstetricians, oncologists, psychiatrists or dentists.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 10,
+          "char_start": 19212,
+          "char_end": 19507,
+          "passage_sha256": "4d262fad63fe0282a5319d790cd2aaedd011c1cd239be268672d1897a6a1a892"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "POL-outcomes-001",
+        "statement": "Life expectancy at birth dropped by 2.6 years between 2019 and 2021, then reached a record 78.7 years in 2024.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 4490,
+          "char_end": 4627,
+          "passage_sha256": "818e7ac830c6247d223ab08220d195475386f84ebd42ae196a1084b93bf971d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "POL-outcomes-002",
+        "statement": "Preventable mortality was 244 deaths per 100,000 people in 2022, compared with 168 across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 5828,
+          "char_end": 5913,
+          "passage_sha256": "e39b77d82c7e063e631603117d05312bbd72abc02a45e9389eb13b4237e882c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "POL-outcomes-003",
+        "statement": "Mortality from treatable causes was 140 per 100,000 in 2022, against an EU average of 90.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 64392,
+          "char_end": 64555,
+          "passage_sha256": "fabf8c1c043209a38dde1a16b9bd98b4b53df9bf7a9e7ffccb9c56bb6be17282"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "POL-outcomes-004",
+        "statement": "Avoidable hospital admissions for asthma and COPD were relatively low in 2023, but avoidable admissions for congestive heart failure were high.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78013,
+          "char_end": 78334,
+          "passage_sha256": "f76985944d93e76602dc93588f78a17d83abc53f16e23640cdaa04cf14e88958"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-outcomes-005",
+        "statement": "The Global Burden of Disease study put Poland's Healthcare Access and Quality (HAQ) Index at 73.2 (95% uncertainty interval 68.7-77.7) for ages 0-74 in 2019, with 87.2 for ages 0-14, 70.6 for ages 15-64 and 63.3 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table (unnumbered): HAQ Index estimates, by location, in 2019 and absolute change from 1990 to 2019; 2019 HAQ Index columns in order: overall 0-74, young 0-14, working 15-64, post-working 65-74 years",
+          "char_start": 37735,
+          "char_end": 37821,
+          "passage_sha256": "2d558d86824b8275a44000208e95e4439cdcf65540bf7353fd3167e3d9e68180"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "POL-outcomes-006",
+        "statement": "At age 65, women in Poland could expect 8.6 healthy years and men 7.8, below the EU averages of 9.2 and 8.9 years.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 140729,
+          "char_end": 140901,
+          "passage_sha256": "e806764edbbb8ce6f5d5f0203eacc81a0f98462b38a30e9c5fdaa90a1c396bd6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-outcomes-007",
+        "statement": "Deaths from ischaemic heart disease appear to be systematically under-recorded in favour of heart failure, which makes treatable mortality a less reliable measure of system performance in Poland.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 17,
+          "char_start": 37572,
+          "char_end": 37819,
+          "passage_sha256": "eaefb7764548ebc5c39e3aec7f0889d4006e20de96775c4c837547cc0c76f8f4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-outcomes-008",
+        "statement": "In-hospital death rates after admission for heart attack are relatively low, though they could fall further.",
+        "valence": "strength",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 15,
+          "char_start": 33965,
+          "char_end": 34154,
+          "passage_sha256": "741bfdfaa8b835fbba9662a17aae383031aa57cc8472f94587278cb59f2de8cf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "POL-costs-001",
+        "statement": "Health spending in 2023 was EUR 2,266 per person (adjusted for purchasing power), 40% below the EU average of EUR 3,832.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 5305,
+          "char_end": 5427,
+          "passage_sha256": "25474cfef769972a3325708a5249468ed35c507dc3b0a92d057206d3f2f59691"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-costs-002",
+        "statement": "Health spending equalled 7.2% of GDP, well below the EU average of 10%.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45837,
+          "char_end": 45927,
+          "passage_sha256": "e086aecc05ea3521e3defeac0607426b477d31cf5e8c56597f7fec04f9634dd4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-costs-003",
+        "statement": "Inpatient services took 37.2% of current health spending in 2023 (EU average 27.7%) and outpatient services 30.5% (EU average 27.6%).",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 49417,
+          "char_end": 49632,
+          "passage_sha256": "ab8271bf7bd939392c0729ef1263e48c9fcc87528124bc62435476cc339e163d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-costs-004",
+        "statement": "Only 7.8% of current health spending went to long-term care, under half the EU average of 18.1%, and 1.7% to prevention, against 4% in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 49804,
+          "char_end": 50127,
+          "passage_sha256": "f6b8bee02c583170d6413596827fe3fe592ce121f12def7ff6d8da42ff7ac21c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-costs-005",
+        "statement": "Health took 12.2% of total government spending in 2023, below the EU average of 14.8%, but that share has been rising faster in Poland than in the EU.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 103391,
+          "char_end": 103636,
+          "passage_sha256": "e21bf05fe7c76d8153e751e530713ae3f98a485c8aafd39ce828a9d460419fb8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-costs-006",
+        "statement": "Per person, Poland spent EUR 352 on retail pharmaceuticals in 2023, about a third less than the EU average of EUR 510 (purchasing-power adjusted).",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 118900,
+          "char_end": 119073,
+          "passage_sha256": "ce37be2f805caca44020ed283a24431c0271f37308b9a0d5186c0f32a3eed941"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-costs-007",
+        "statement": "EU funds support the health sector: about EUR 3 billion from the Recovery and Resilience Plan and EUR 2.1 billion from 2021-27 Cohesion Policy funds, mostly for infrastructure and equipment.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 112166,
+          "char_end": 112864,
+          "passage_sha256": "dae9433b6d31f96961cd93ed439d74677cbbaed9910d82dc9609019d9c3b8620"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-costs-008",
+        "statement": "Hospital bed numbers remain relatively high and occupancy low by EU standards, which points to excess hospital capacity.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 18,
+          "char_start": 39167,
+          "char_end": 39339,
+          "passage_sha256": "727027522c34672fffe47b5a2461d9b9bd344f7935dde5be488ed4b573b6d49c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "POL-what_works-001",
+        "statement": "Waiting times fell because the system was funded to pay for the larger volume of care that was needed.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 102711,
+          "char_end": 102850,
+          "passage_sha256": "773a925f5d5fb943a8a5fe257f80cd263b469494cbee271cf71e65cc4b19200f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-what_works-002",
+        "statement": "Only 3.1% of people who needed dental care in 2024 reported being unable to get it, compared with an EU average of 6.3%, even though statutory dental coverage is limited.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79459,
+          "char_end": 79608,
+          "passage_sha256": "863195f090960cb4faecb05443374a91df966326b41e00215af8508ad2a4735d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "POL-what_works-003",
+        "statement": "Electronic prescribing is mandatory, and 97.4% of prescriptions were issued electronically in 2024.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 108455,
+          "char_end": 108544,
+          "passage_sha256": "a67634469da83be8991cb2ab3c94060226511ceefc7710e3221a43973a9c52f9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "POL-what_works-004",
+        "statement": "The generics market is well developed, with generic market shares among the highest in Europe.",
+        "valence": "strength",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 18,
+          "char_start": 39498,
+          "char_end": 39599,
+          "passage_sha256": "891f163ec186a042718855669b1b35b3e4029bfd399a919427a7d38465bf6f7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-what_works-005",
+        "statement": "By the end of 2025, 2,947 primary care facilities (49% of the total) had adopted the coordinated-care model, which the authors call substantial progress.",
+        "valence": "strength",
+        "source_id": "coordcare-2026",
+        "locator": {
+          "section": "4.2 CC implementation",
+          "char_start": 49378,
+          "char_end": 49533,
+          "passage_sha256": "a7e6ec29fe56f078d79026e52f9f96127bcdf5d98f795f8b60166cfe11bdeef5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "POL-what_works-006",
+        "statement": "Community mental health centres, piloted in every region under the 2017-2022 national mental health programme, doubled from 40 in 2018 to about 80 in 2023.",
+        "valence": "strength",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 12,
+          "char_start": 24885,
+          "char_end": 25125,
+          "passage_sha256": "2ab12ced8c6f12b3d34c81f4a9ff30bdf57e7f91637a12092253fd61ae60aa66"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-what_works-007",
+        "statement": "Poland has launched a data-driven planning process for its health workforce across the country, and medical student numbers almost doubled from 2012 to 2023.",
+        "valence": "strength",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 6580,
+          "char_end": 6752,
+          "passage_sha256": "33a96c9651e939f7e175ae2c4d3e932ef12f97f688b82c86dcb3c51605177470"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "POL-problems-001",
+        "statement": "Shortages of funding and health workers have produced long waiting times, which are the main barrier to getting care.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 91458,
+          "char_end": 91578,
+          "passage_sha256": "fb44dc24b26a82788e95aeb1ee920b9db89ce0f74f72f0edbd0847b85af4d19f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-002",
+        "statement": "High cost-sharing for medicines is a major barrier to access.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 11,
+          "char_start": 23295,
+          "char_end": 23382,
+          "passage_sha256": "d9f7dc2bead8c01824d69f5f14b498ef4aeb0cb81bdf30b7de0c237e22ff0623"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-003",
+        "statement": "The health workforce is ageing: in 2023 the average age was 50.8 for doctors and 49.9 for nurses, and 25% of medical staff and 22% of nursing staff were of retirement age.",
+        "valence": "weakness",
+        "source_id": "workforce-2025",
+        "locator": {
+          "section": "Background",
+          "char_start": 6806,
+          "char_end": 7076,
+          "passage_sha256": "ab74a4bd9dc695d4ae72cc0d1e9beab95e6b97546babbeb8dd09fbe446f37997"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-problems-004",
+        "statement": "Most hospitals are public 'independent public healthcare units', and their greater financial autonomy has led to debts building up in the hospital sector.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 11,
+          "char_start": 21373,
+          "char_end": 21544,
+          "passage_sha256": "c96d70fb833a978ed422d3b7ebc8d7bf6074f3a8461c6c57957169da072afcc9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-005",
+        "statement": "Only 9.6% of people aged 65 and over were vaccinated against influenza in 2022/23, against an EU average of 47.1%.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 72398,
+          "char_end": 72527,
+          "passage_sha256": "a8143d1df1b219904fce444f3b65eb10452a2967d7ba0af33a146c04be02740f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": "2022/23"
+      },
+      {
+        "id": "POL-problems-006",
+        "statement": "In the CBOS public opinion survey, satisfaction with the public health system rose from 23% in 2016 to 27% in 2023, but most people remained dissatisfied (34% definitely and 36% rather), mainly because of long waits for diagnostic tests and specialist visits.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 15,
+          "char_start": 34976,
+          "char_end": 35338,
+          "passage_sha256": "b7503235933e74570dfebe8f88e3f78cccce487291fe24c8869fcfb5fb3770d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "POL-problems-007",
+        "statement": "For medicines approved in the EU in 2020-2023, the average time from approval to public reimbursement in Poland was 723 days, above the EU average of 578 days.",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 127335,
+          "char_end": 127489,
+          "passage_sha256": "a9bf0caa13f430f6a80b141d596d89821d5c5106fa1f33f33ec0986c6dd077de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-008",
+        "statement": "The main source of that delay is currently the time companies take between EU authorisation and filing a reimbursement application in Poland.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 127675,
+          "char_end": 127866,
+          "passage_sha256": "59c3266144ec85060dc7833a73a0bfbff947cb27ab7116c775fd91133a49092e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-009",
+        "statement": "Regions, counties and municipalities coordinate little with one another, which hampers coordination of care.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 3326,
+          "char_end": 3454,
+          "passage_sha256": "09684116730e96143dc041f499b24857eef5af23f05d6b10f3a86d3c00f1ae43"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-010",
+        "statement": "Quality accreditation is rewarded financially but voluntary, and only a quarter of hospitals and fewer primary care practices hold it.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 33122,
+          "char_end": 33268,
+          "passage_sha256": "964d012b59092686b4bea911d33c374a3eb0bfdf5d3a8a89d20b7e28eda168d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-problems-011",
+        "statement": "Spending on health information technology per person more than doubled between 2018 and 2023 but remained far below the EU average (EUR 0.4 million versus EUR 2.3 million per 100,000 population in 2023, at 2015 prices).",
+        "valence": "weakness",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 107735,
+          "char_end": 108052,
+          "passage_sha256": "d1c7190dc431853a660bf63cef0b36ad798566c840f64c13dc5282b88d868fe6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "POL-reforms-001",
+        "statement": "A law of 26 September 2025 created central electronic registration for selected health services, run through the national e-health information system for all providers of those services.",
+        "valence": "neutral",
+        "source_id": "law-cer-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7781,
+          "char_end": 8153,
+          "passage_sha256": "05addd0b955516d215cc02b4a4bbca143be0288691d189939ed9437afca9da0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-002",
+        "statement": "A law of 5 August 2025 added care provided in county health centres to the list of guaranteed publicly financed services.",
+        "valence": "neutral",
+        "source_id": "law-pcz-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 103,
+          "char_end": 584,
+          "passage_sha256": "87a00da6392ba5f2bebaf41fe0acf3f5676364ac0e40bdc206bc413a83486bb0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-003",
+        "statement": "The National Cardiology Network, piloted in 2021-24, was rolled out nationwide in July 2025 to improve cooperation between primary, outpatient and hospital cardiology care.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78335,
+          "char_end": 78516,
+          "passage_sha256": "146b4de4e785a9b85e973f8d7c199306957169a55ddbee0bdf11f9318637c46b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-004",
+        "statement": "Since 25 August 2025, a wide range of vaccinations given in community pharmacies have been partly or fully reimbursed.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 72651,
+          "char_end": 72764,
+          "passage_sha256": "ddfdc5de942b85eb6d397b91d0421c19048538c294b610967c6b7ea26101f2c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-005",
+        "statement": "In 2024 the NFZ was made responsible for financing a wide range of services previously paid for from the state budget and guaranteed to everyone regardless of insurance status, without being guaranteed extra resources.",
+        "valence": "weakness",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 30199,
+          "char_end": 30562,
+          "passage_sha256": "ad10143479b5d846c46867472f19798d8d6ebbe2d49b49ee7cbfd844fcb04412"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-006",
+        "statement": "Since July 2024, every hospital with an NFZ contract must run an internal quality management system that investigates all adverse events, including medical errors.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 14,
+          "char_start": 33269,
+          "char_end": 33469,
+          "passage_sha256": "41978d880577b3a42e09f4f3ef02a4332e834fb7404b421c292fb66d43710e61"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-007",
+        "statement": "In November 2023 the age ranges of the breast and cervical cancer screening programmes were widened, to 45-74 for mammography and 25-64 for cytology.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77296,
+          "char_end": 77466,
+          "passage_sha256": "896d57468aff299c2b5d32e509c4011e07085059ffb9cc7da750937abb46e88d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-008",
+        "statement": "Following a pilot, Poland introduced a coordinated-care model in primary care nationwide in 2022, with bigger roles for GPs, nurses and care coordinators, comprehensive consultations, individual care plans and wider access to diagnostics.",
+        "valence": "neutral",
+        "source_id": "coordcare-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2365,
+          "char_end": 2649,
+          "passage_sha256": "0fa8ebe991bb8cf7ec0c8849afa858a9cd6565b1b8f613684096c477d6c5004a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-009",
+        "statement": "After the Primary Healthcare PLUS pilot ended, all primary care practices were required to employ care coordinators (2021), and primary care doctors were allowed to order a wider range of diagnostic tests (2022).",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 13,
+          "char_start": 29309,
+          "char_end": 29512,
+          "passage_sha256": "fea66e53df79be1356a25fa1cff98bff69cf2c53bf2be80aacba68c905d3b7ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-010",
+        "statement": "Since 2020 Poland has raised taxes on alcohol and tobacco, with yearly excise increases scheduled through 2027 that also cover heated tobacco and e-cigarettes.",
+        "valence": "neutral",
+        "source_id": "chp-pol-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74771,
+          "char_end": 75121,
+          "passage_sha256": "cf5cc096a2a89f1cf1b95eaffb9008d8571797841563ef3b4953fcd1d25b93c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "POL-reforms-011",
+        "statement": "Since 2017, most public hospitals have belonged to a hospital network and receive lump-sum payments based on diagnosis-related groups, intended to cover both inpatient and outpatient services.",
+        "valence": "neutral",
+        "source_id": "hss-pol-2024",
+        "locator": {
+          "page": 7,
+          "char_start": 11402,
+          "char_end": 11599,
+          "passage_sha256": "57150b1562aa41da31db47868b92d7cb6de8b729c7aab0ce43da6b99347b89dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/POL.json",
-  "sources": [],
+  "sources": [
+    {
+      "id": "chp-pol-2025",
+      "title": "State of Health in the EU: Poland, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-poland-final-web.pdf",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "hss-pol-2024",
+      "title": "Poland: health system summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Sowada C, Richardson E, Kowalska-Bobko I",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://iris.who.int/handle/10665/381445",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/de5d3b5e-7bdb-4a24-9af0-7de7f00100ee/content",
+      "funding_note": "Summary of the Poland Health Systems in Transition review; data mostly 2022-2023, policy status as of October 2024.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "law-swiadczenia-2025",
+      "title": "Act of 27 August 2004 on health care services financed from public funds (Ustawa o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych), consolidated text, Dziennik Ustaw 2025 item 1461 (in Polish)",
+      "publisher": "Marshal of the Sejm of the Republic of Poland (Dziennik Ustaw, via the Sejm ELI API)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1461/text.pdf",
+      "funding_note": "Primary legislation; consolidated text announced in October 2025. Later amendments (e.g. Dz.U. 2025 items 1537 and 1739; 2026 items 26, 203, 791, 972, 986, 1007) were checked only for changes to the contribution articles cited (arts. 79, 79a, 81, 85).",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "law-cer-2025",
+      "title": "Act of 26 September 2025 amending the Act on health care services financed from public funds and certain other acts (central electronic registration), Dziennik Ustaw 2025 item 1537 (in Polish)",
+      "publisher": "Dziennik Ustaw of the Republic of Poland (via the Sejm ELI API)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1537/text.pdf",
+      "funding_note": "Primary legislation.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "law-pcz-2025",
+      "title": "Act of 5 August 2025 amending the Act on health care services financed from public funds and the Act on medical activity, Dziennik Ustaw 2025 item 1211 (in Polish)",
+      "publisher": "Dziennik Ustaw of the Republic of Poland (via the Sejm ELI API)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1211/text.pdf",
+      "funding_note": "Primary legislation (hospital-sector reform act).",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "nfz-2026-10-23",
+      "title": "NFZ uruchomił 3,3 mld zł na nadwykonania po zwiększeniu dotacji z budżetu państwa (NFZ releases PLN 3.3 billion for over-contract services after the state budget subsidy was increased)",
+      "publisher": "Narodowy Fundusz Zdrowia (National Health Fund), head office",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/nfz-uruchomil-3-3-mld-zl-na-nadwykonania-po-zwiekszeniu-dotacji-z-budzetu-panstwa,9039.html",
+      "funding_note": "Press release of the statutory payer (published 23 October 2026, updated 29 October 2026).",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "oop-cat-2025",
+      "title": "Catastrophic and impoverishing out-of-pocket payments for health care in Poland in 2013-2021",
+      "publisher": "Health Policy Open",
+      "authors": "Tambor M, García-Ramírez JA, Pavlova M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.hpopen.2025.100143",
+      "doi": "10.1016/j.hpopen.2025.100143",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12221598",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "Part of a WHO Regional Office for Europe financial protection study; one author is from the WHO Barcelona Office for Health Systems Financing. Household budget survey data 2013-2021.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "coordcare-2026",
+      "title": "Coordinated Care: the new model in primary health care in Poland - implementation and early trends",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Biesiada AM, Zawodnik D, Kłoda K, Babicki M, Mastalerz-Migas A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.3389/fpubh.2026.1737980",
+      "doi": "10.3389/fpubh.2026.1737980",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13124697",
+      "license": "CC BY 4.0",
+      "funding_note": "Narrative review by authors from the Polish Society of Family Medicine and a family medicine department; funded by Boehringer Ingelheim.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "workforce-2025",
+      "title": "Addressing the health workforce crisis in Poland from the key stakeholders' perspectives - a qualitative study",
+      "publisher": "BMC Health Services Research",
+      "authors": "Michalska K, Domagała A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12913-025-13150-5",
+      "doi": "10.1186/s12913-025-13150-5",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12372184",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "pubpriv-survey-2026",
+      "title": "Perceptions of public and private health services in Poland: findings from a 2025 nationwide survey",
+      "publisher": "BMC Health Services Research",
+      "authors": "Olearczyk A, Sękowski K, Jankowski M, Kamińska A, Winciunas P, Grudziąż-Sękowska J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14287-7",
+      "doi": "10.1186/s12913-026-14287-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13067456",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "Cross-sectional online (CAWI) survey of 1,162 adults, August 2025.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-19"
+    }
+  ],
   "rankings": [],
   "changelog": [
     {

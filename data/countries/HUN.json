@@ -13,18 +13,1994 @@
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
-    "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "overview": [
+      {
+        "id": "HUN-overview-001",
+        "statement": "Hungary has a social health insurance system built on one fund, the National Health Insurance Fund (NHIF), run by the National Institute of Health Insurance Fund Management. It covers roughly 96% of the population; about 4%, such as people working abroad or without a permanent address, have no clear insurance status.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44005,
+          "char_end": 44429,
+          "passage_sha256": "6ef6695cf1fde012515d1cec37eb4f4c89a8d327ebd77da31da3048539d82b5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-overview-002",
+        "statement": "Secondary and tertiary care in Hungary is predominantly delivered by public providers, with responsibility divided between municipalities and the central government.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44529,
+          "char_end": 44672,
+          "passage_sha256": "ae0d03c70ce14fbe5982eb8aedb9343a2e79f4fa098cd5fe1dee529e8f593aaf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-overview-003",
+        "statement": "Primary care is overseen by local governments, and GPs mostly work in individual private practices. A reform begun in December 2022 shifted some tasks, such as drawing practice boundaries, to the National Directorate-General for Hospitals and offered GPs financial incentives to join group practices.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44761,
+          "char_end": 45190,
+          "passage_sha256": "86deef4ccde7ea3ec19f122d51ad8fe2c12eaca840b93ebfb47b26dcbd5bc87e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-overview-004",
+        "statement": "Life expectancy at birth in Hungary was 77.0 years in 2024, which is 4.7 years lower than the EU average of 81.7 years.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 13663,
+          "char_end": 13771,
+          "passage_sha256": "1237ff41030b9fd47d3bd13671f6d9b4bb4abbbc725911452ec496ce1a33c69a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-overview-005",
+        "statement": "Act XIII of 2026, which lists Hungary's ministries, set up a separate Ministry of Health by splitting it off from the Ministry of the Interior.",
+        "valence": "neutral",
+        "source_id": "law-2026-ministries",
+        "locator": {
+          "section": "Full text",
+          "char_start": 275,
+          "char_end": 1284,
+          "passage_sha256": "0f60e46b450f0d54bc8aa7a9d8f4496f98a4b0c7f8eabfe04adeee1a44127897"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026,
+        "historical": true
+      },
+      {
+        "id": "HUN-overview-006",
+        "statement": "Hungarian municipalities supply the infrastructure that GP practices operate in, while the National Health Insurance Fund pays for GP services through a per capita fee, to which performance and prevention incentives have been added in recent years.",
+        "valence": "neutral",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6006,
+          "char_end": 6331,
+          "passage_sha256": "f5a9476c99065afb53a98d9c1c771c84ed1aba76e6d2818117e85c8b56bbc4ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-overview-007",
+        "statement": "Hungarian hospitals are funded by a single payer, the national health insurance fund, which pays them directly; patients can use acute care free of charge, and hospital doctors are employees who are typically paid fixed wages.",
+        "valence": "neutral",
+        "source_id": "pci-budget-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 16762,
+          "char_end": 17022,
+          "passage_sha256": "8601796d7ff709af56db3f25324f8199297c6c98817c5f408e6de8506c0e7558"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "HUN-financing-001",
+        "statement": "Hungary spent 6.4% of its GDP on health in 2023, against an EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45547,
+          "char_end": 45628,
+          "passage_sha256": "65023e0d6b73f6583671c2c69e098a84d1a2b6433b34d0023252df47203c5fa7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-financing-002",
+        "statement": "Public sources paid for 74% of Hungary's current health spending in 2023, up gradually in recent years but below the EU average of 80%. Private spending therefore made up 26%, while voluntary health insurance accounted for only 3% of health spending.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 48465,
+          "char_end": 49044,
+          "passage_sha256": "80e1efb200b94ff34253c4352d666c6d59064aa335d182e966fd8ae8d709bffb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-financing-003",
+        "statement": "Out-of-pocket payments made up 23% of total health spending in Hungary in 2023, well above the EU average of 16%.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85399,
+          "char_end": 85506,
+          "passage_sha256": "12e3db1217ec95fe453920ae417150cbe99e0a0fc4a6ad968563bde36ca39eb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-financing-004",
+        "statement": "The Activity Prescription Programme, launched in May 2024 and piloted in 30 municipalities, is paid for from an earmarked share of Hungary's public health product tax.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 65299,
+          "char_end": 65595,
+          "passage_sha256": "f92984b2a1190bfa13c1017eea25383dd20e66225096c81995aa8ff5dda7d236"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-financing-005",
+        "statement": "Hungary's social insurance money flows through two separate funds, a Pension Insurance Fund and a Health Insurance Fund, both of which belong to the central subsystem of public finances.",
+        "valence": "neutral",
+        "source_id": "law-1992-84",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1398,
+          "char_end": 1697,
+          "passage_sha256": "532dc378996b6e60938571d0e9b5686ce3a6c394d31dafe6b1a756fc70e05c58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-006",
+        "statement": "By law, the Health Insurance Fund pays for health insurance cash benefits such as sick pay, and for in-kind benefits including curative and preventive care, spa and other therapeutic care, subsidies for medicines and medical aids, travel cost reimbursement and care abroad under international agreements.",
+        "valence": "neutral",
+        "source_id": "law-1992-84",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6639,
+          "char_end": 7571,
+          "passage_sha256": "d2aa8f7485db9de1015abcdc4bf1c627dd7a54150ff0c28068439a0a3eba2916"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-007",
+        "statement": "The law lists the Health Insurance Fund's revenues as the share of social contribution tax that the central budget act assigns to it, its share of the social security contribution paid by insured people, and other contributions, among them the health service contribution, contributions paid under health insurance agreements and the employer's sick-pay contribution.",
+        "valence": "neutral",
+        "source_id": "law-1992-84",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8166,
+          "char_end": 8718,
+          "passage_sha256": "2837f20dbd1b6deb2cb40e1d60ca89b731f35a5a3de26fd3521ce7b1b67eb6cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-008",
+        "statement": "Besides contributions, the Health Insurance Fund is also financed by the health contribution, by a monthly share of late-payment surcharges and fines collected by the tax authority, and by central government support, including a budget contribution for health care tasks.",
+        "valence": "neutral",
+        "source_id": "law-1992-84",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8918,
+          "char_end": 9343,
+          "passage_sha256": "4f51386fc867616fafcba192400b3d71efe837078df3f0320263b8ccad800323"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-009",
+        "statement": "Employees pay a single social security contribution of 18.5%, in place since 1 July 2020 under Act CXXII of 2019; it bundles a 10% pension contribution, a 4% health insurance contribution for benefits in kind, a 3% health insurance contribution for cash benefits and a 1.5% labour-market contribution.",
+        "valence": "neutral",
+        "source_id": "kh-2026",
+        "locator": {
+          "page": 4,
+          "char_start": 14441,
+          "char_end": 14809,
+          "passage_sha256": "75bc9a803a3dabcbcf729145f14a77889a06f255dd50b2be184a6983b2ab8ba8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-010",
+        "statement": "Employers pay a social contribution tax (szocho) under Act LII of 2018 at a rate of 13% of the tax base.",
+        "valence": "neutral",
+        "source_id": "kh-2026",
+        "locator": {
+          "page": 4,
+          "char_start": 12070,
+          "char_end": 12319,
+          "passage_sha256": "ea0d37a507c2a96634655025be132f617182f0334c1687fa5a5ad0a9811d4401"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-011",
+        "statement": "For people in employment, the 2026 minimum base for the social security contribution and the social contribution tax is 30% of the minimum wage, or HUF 96,840 a month, so both are owed on at least that amount.",
+        "valence": "neutral",
+        "source_id": "kh-2026",
+        "locator": {
+          "page": 4,
+          "char_start": 13377,
+          "char_end": 13634,
+          "passage_sha256": "1b28c6b05eae1f93a61204ee775e3810da617a708763f8f936d04e6a65afc66c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-012",
+        "statement": "The health service contribution is a fixed amount of HUF 12,300 a month (HUF 410 a day).",
+        "valence": "neutral",
+        "source_id": "kh-2026",
+        "locator": {
+          "page": 4,
+          "char_start": 14906,
+          "char_end": 15005,
+          "passage_sha256": "d8bc80425a7bc60331796d774069978a31b386331e0e51bd89a956b2061608e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-013",
+        "statement": "Employers also pay a sick-pay contribution equal to one third of the sick pay an insured employee receives while unable to work because of illness or while in hospital care.",
+        "valence": "neutral",
+        "source_id": "kh-2026",
+        "locator": {
+          "page": 4,
+          "char_start": 15009,
+          "char_end": 15209,
+          "passage_sha256": "1e1804cc79423903a7c990cf783934ea3bf30080eb709183716ef9799904742b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "HUN-financing-014",
+        "statement": "As of 2023, people who paid into a voluntary health fund could claim a tax refund of 20% of their payments, capped at HUF 150,000 (about EUR 395) a year.",
+        "valence": "neutral",
+        "source_id": "hspm-vhf",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1357,
+          "char_end": 1498,
+          "passage_sha256": "5505050c5cbcbdceaf9be6fe0ef632cf8081dca8a4e2a3faa2d55911076f8cfe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "HUN-covered-001",
+        "statement": "The right to publicly financed care in Hungary depends on residence (a permanent registered address for at least 12 months) and on paying the mandatory contributions to the NHIF.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 83019,
+          "char_end": 83227,
+          "passage_sha256": "21f6f741dc91d41bc9b290c036695929bcbb608ea2c38b91ee8fda9cec0e8bd2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-covered-002",
+        "statement": "People without a permanent address, mainly low-income foreign residents and members of ethnic minority groups, may be unable to enrol in the NHIF.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 83228,
+          "char_end": 83436,
+          "passage_sha256": "d0f174e00c777cbaf6cb41de891ef26acfc76215a68899be3f9c0ca061fbaa2b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-covered-003",
+        "statement": "Eligible residents are insured under one of four routes: their own mandatory contributions if economically active; contributions paid by the state, for example for children under 18; international agreements; or a flat monthly contribution paid to the NHIF.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 83437,
+          "char_end": 83777,
+          "passage_sha256": "4dfc7d4f7381e3803224c955dbd5d90e03f0bfaf16758f5f18953b8baca783e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-covered-004",
+        "statement": "Refugees, people under subsidiary or humanitarian protection and those with temporary protection get a limited free package of care, including selected primary, outpatient, inpatient and specialised services, for six months after their status is recognised, and then the same NHIF benefits as residents.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 83778,
+          "char_end": 84362,
+          "passage_sha256": "d344574573ab4d952712c061f1d6a4b348852857be7bb80b97d83c8b70222866"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-covered-005",
+        "statement": "Everyone in Hungary, whatever their legal or residence status and whether or not they pay contributions, is entitled to a limited set of publicly financed services, including preventive care for communicable diseases, emergency transport, and emergency care for 31 diseases and conditions.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84496,
+          "char_end": 84774,
+          "passage_sha256": "5175d27cc823e38003f43a0f61e7410a6794f28b8b11abf3dd587a28e4c59b38"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-covered-006",
+        "statement": "People entitled to the statutory benefit package can use a wide range of services and medicines, but dental care and pharmaceuticals are only partly covered.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84815,
+          "char_end": 84990,
+          "passage_sha256": "260bc038f49827c00551365c928af37094e6c1571ce1d4228a4dc10e180fe139"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-covered-007",
+        "statement": "In 2023, public schemes covered 47% of pharmaceutical costs in Hungary (EU average 59%) and 69% of outpatient medical care costs (EU average 77%); public coverage of hospital and dental care was above the EU averages.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 84991,
+          "char_end": 85322,
+          "passage_sha256": "6fedbf81433b47eb7a82ee38719d5c4482182f19feb303e880d96a5edac93b87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "HUN-cost_sharing-001",
+        "statement": "Patients in Hungary pay copayments for outpatient prescription medicines, medical products, some dental treatments and certain inpatient services such as long-term care.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 90137,
+          "char_end": 90301,
+          "passage_sha256": "bf72d1e8aa42d485db2478a7691ae2bc6b0e15b88932641a72d9e7b0ab4daf14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-cost_sharing-002",
+        "statement": "In 2023, outpatient pharmaceuticals took the biggest share of out-of-pocket spending in Hungary (51%), a result of high copayment rates.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85399,
+          "char_end": 85630,
+          "passage_sha256": "7d1c2ad7db9325927a7eb11fb7cf25995f9a9052863a932f42b87cb5f17889aa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-cost_sharing-003",
+        "statement": "For outpatient prescriptions, patients generally pay the gap between the gross retail price and the reimbursed price, and even fully reimbursed medicines carry a flat user charge of HUF 300 (about EUR 1).",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 125425,
+          "char_end": 125657,
+          "passage_sha256": "712a0b6cf81e0a9a9e624a3b4b23727711745a9d7388ed4fb07e8e5c50bd77b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-cost_sharing-004",
+        "statement": "Medicine reimbursement rates differ: medicines without prescribing restrictions are reimbursed at 0-80% (25% for antibiotics; 55% or 80% for blood-pressure drugs), while those with prescribing or indication limits get 50-100% (for example 50% for anti-dementia products and 100% for cancer drugs).",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 125658,
+          "char_end": 126003,
+          "passage_sha256": "0bb419ffbc71b68dbd7b8b858be9e082493e1b5d4905d5c0e77fe0439629bb19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-cost_sharing-005",
+        "statement": "Medicines given in hospital carry no copayment, and the National Institute of Health Insurance Fund Management fully reimburses all expensive hospital medicines.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 126319,
+          "char_end": 126519,
+          "passage_sha256": "5288e7b1e2194865316662d05c251e33a813bf615698148ac22f5a383a1f1489"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-cost_sharing-006",
+        "statement": "People who are socially disadvantaged or have serious chronic conditions can be exempted from copayments through a special scheme that pays their health costs up to a monthly budget of HUF 12 000 (EUR 30).",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 90302,
+          "char_end": 90519,
+          "passage_sha256": "0bccde5f57bcdf746134f560dcfb6f24b271be718c5c0ebd57fcf4926928b0cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-cost_sharing-007",
+        "statement": "In 2023, households paid 51% of retail pharmaceutical spending in Hungary out of pocket, while government and compulsory insurance schemes covered 47%.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 125043,
+          "char_end": 125215,
+          "passage_sha256": "10a7213d0ab28c28f35af9bddb7efd65bb7a9bdd88a454b3412958f29ddaee0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "HUN-financial_hardship-001",
+        "statement": "Out-of-pocket spending on medicines makes up about three quarters of all catastrophic household spending on health care in Hungary, according to WHO Europe (2025) as cited in the profile.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85631,
+          "char_end": 85796,
+          "passage_sha256": "808ccf356bf06885d6c2500cb3f2fe3d9907aa2eea502ac44f41331aa7a601c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-financial_hardship-002",
+        "statement": "Reported unmet need for medical or dental examinations is low in Hungary compared with EU averages, but the profile finds that high out-of-pocket payments can be a financial barrier to care, especially for medicines, outpatient services and dental care.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 139919,
+          "char_end": 140196,
+          "passage_sha256": "4a950b1bb8afd489281c52ce33c191a69781cfc63956364255a6c99f256e5731"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-financial_hardship-003",
+        "statement": "Hungary's per capita spending on medicines is below the EU average, yet household payments for them are high because of copayments and limited reimbursement.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 141548,
+          "char_end": 141702,
+          "passage_sha256": "12b68a5ee3deb436e4cf2f9eac2d3138ca9673d8325f39f167e7f5afcdba8671"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "HUN-additional_care-001",
+        "statement": "Private providers have a minor role in Hungarian health care, though their number has grown in recent years.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44673,
+          "char_end": 44760,
+          "passage_sha256": "a13b7eeacce3291edfe38970610de9cb27c9520a4ddf1dc4e28b12b9220b6867"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-additional_care-002",
+        "statement": "Outpatient medical care made up 22% and dental care 11% of out-of-pocket spending in Hungary, reflecting direct payments for privately provided services.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85799,
+          "char_end": 85958,
+          "passage_sha256": "f46b493b47d91477508a9ea9fdd460e533477af7962c6ec1d78d3d2a8593ca19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-additional_care-003",
+        "statement": "As of 2023, Hungary's voluntary health funds worked as pure medical savings accounts: a 1993 act had set them up as a framework for complementary insurance, but the government removed their risk-pooling element in 2003.",
+        "valence": "neutral",
+        "source_id": "hspm-vhf",
+        "locator": {
+          "section": "Full text",
+          "char_start": 692,
+          "char_end": 973,
+          "passage_sha256": "37851d00252c57223dcea7e91acd7ced66088b7e654cd8b17d4f6976a849b980"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-additional_care-004",
+        "statement": "At the end of the second quarter of 2023 there were 16 voluntary health funds in Hungary with almost 1.1 million members, 33,000 more than at the end of 2022.",
+        "valence": "neutral",
+        "source_id": "hspm-vhf",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1019,
+          "char_end": 1202,
+          "passage_sha256": "65a3661076c743275a9d5f9a1e3e6e28984ef864829d58561ee08b88e4e6e5cf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-additional_care-005",
+        "statement": "Citing National Bank of Hungary data, the Observatory reported that voluntary health fund spending on services grew 26% in the first half of 2023 compared with a year earlier, to HUF 38.86 billion, and that spending which supplements or replaces social security health services made up 40% of fund spending, against 19% ten years before.",
+        "valence": "neutral",
+        "source_id": "hspm-vhf",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1499,
+          "char_end": 1954,
+          "passage_sha256": "a727cb92533378a8820d7f138f17e39d194ba196733b7486c6b06001762810b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "access": [
+      {
+        "id": "HUN-access-001",
+        "statement": "In the 2024 EU-SILC survey, 1.4% of Hungarians who needed medical care said they went without a medical examination because of cost, distance or waiting, lower than the EU average of 3.6%.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77874,
+          "char_end": 78115,
+          "passage_sha256": "e8a3d801cddbe15745c5d160f4c68e9f4ebd57b0b11275e8e1fc4b2257e5a244"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-access-002",
+        "statement": "Among Hungarians with dental care needs, 1.5% reported an unmet need for a dental examination in 2024, against an EU average of 6.4%.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78304,
+          "char_end": 78453,
+          "passage_sha256": "891a8eff2e022a54b58f9313c497949a8cd5c9e9430143a885178f5a8fa06f91"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-access-003",
+        "statement": "In Eurofound's Living and Working in the EU survey, the share of Hungarian adults reporting unmet needs for mental health care more than doubled, from 3.8% in 2021 to 8.4% in 2024.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78987,
+          "char_end": 79252,
+          "passage_sha256": "7e7d7a7a8fc30ba475d9210b5ea9c7b5fc8cfe1a189febaed45bc8ab7718a0b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-access-004",
+        "statement": "In 2024, 29% of Hungarian patients waited over three months for cataract surgery (7% in 2019), 74% for a hip replacement (58% in 2019) and 78% for a knee replacement (65% in 2019).",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 101910,
+          "char_end": 102105,
+          "passage_sha256": "77565d17614a6d238091a850f2091bfc7ff134ea98fb9d7aec96a38bc9f3bf0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-access-005",
+        "statement": "Hungary had 5.5 nurses and 3.6 doctors per 1,000 people in 2023, both below the EU averages of 8.5 and 4.3 per 1,000.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 57656,
+          "char_end": 57886,
+          "passage_sha256": "0c7ecec3ad859973f0421b25e188b167b958f7d41bafe8d9f78e14939952399a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-access-006",
+        "statement": "General practitioners made up about 12.4% of Hungary's physicians in 2023, compared with 19.9% on average in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 57887,
+          "char_end": 58113,
+          "passage_sha256": "ffdafbc838efaf8b04c5d5c6bfe9e9dd717e1a2c3309dfb78ee14e8538ad57a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-access-007",
+        "statement": "Doctors are unevenly spread across Hungary, which restricts access to care in rural areas, the profile notes, citing the European Commission (2025).",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 58114,
+          "char_end": 58257,
+          "passage_sha256": "c0d89b559aeb255c3902aec04ce97b8d02c7e52cacba7a5f9dae63f173ea524c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-access-008",
+        "statement": "Rules published in March 2025 require outpatient providers that use the national eHealth (EESZT) booking system to offer all their available non-urgent appointments through it, with some exceptions, although not every outpatient provider used the system at that time.",
+        "valence": "neutral",
+        "source_id": "hspm-ehealth",
+        "locator": {
+          "section": "Full text",
+          "char_start": 725,
+          "char_end": 1241,
+          "passage_sha256": "c237312a67f3d898dd123bccd11a7e801aab1ca87301f8691496a8fed350146d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2025,
+        "historical": true
+      },
+      {
+        "id": "HUN-access-009",
+        "statement": "Hungarian primary care is at an early stage of shifting from single-doctor practices to primary care teams, and the number of older GPs is growing quickly.",
+        "valence": "neutral",
+        "source_id": "phc-covid-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2353,
+          "char_end": 2515,
+          "passage_sha256": "e9694783cddbc4b728c87fd9e9659f6d8a84c1f93aa80509798f0b1025846e00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-access-010",
+        "statement": "GP vacancy rates differ widely by region: in 2024 they were 8% in Budapest and 7% in Csongrád-Csanád County (up from 2% and 4% in 2019), but 26% in Tolna and 29% in Nógrád counties (up from 15% and 17%).",
+        "valence": "weakness",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 21204,
+          "char_end": 21565,
+          "passage_sha256": "048f5faf590073597bcb3202618e70a20b3ad51694ec9cc47f751d0df7462f73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-access-011",
+        "statement": "Hungarian hospitals are paid through diagnosis-related groups, but the total each hospital can be reimbursed in a year is capped; percutaneous coronary intervention (PCI) for heart attacks (acute myocardial infarction) has been exempt from this cap and fully funded by the health insurance fund since July 2012.",
+        "valence": "neutral",
+        "source_id": "pci-budget-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4796,
+          "char_end": 5113,
+          "passage_sha256": "a5ad826562398981adce75c867654da3997ae318207f341ac22d536fd654f801"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-access-012",
+        "statement": "After Hungary exempted PCI treatment of heart attacks from the hospital budget cap in July 2012, national patient data for 2009-2015 showed more direct admissions to PCI-capable hospitals, especially in central Hungary, but no increase in the share treated with PCI within those hospitals; the authors concluded that patient pathways changed while doctors' treatment decisions did not.",
+        "valence": "neutral",
+        "source_id": "pci-budget-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2109,
+          "char_end": 2970,
+          "passage_sha256": "106ad352dbb46e4a5581a889eacb441228b0002edf648bd9266093dbf41cd11c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "HUN-access-013",
+        "statement": "In survey data on Hungarian adults, the share who had seen a GP within a year fell from 79.2% before the COVID-19 pandemic to 56% during it, specialist visits from 64.4% to 38.0%, and hospital admissions from 13.5% to 6.8%.",
+        "valence": "neutral",
+        "source_id": "covid-ineq-2022",
+        "locator": {
+          "section": "Full text",
+          "char_start": 17042,
+          "char_end": 17715,
+          "passage_sha256": "1a18bf7de71273b66f204c82f955d5cc01f6f40de13bf0910dfe4d2ae466e2e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HUN-access-014",
+        "statement": "In a 2019 online survey of a representative sample of 1,000 Hungarian adults, 90% of respondents were seen within a week by a family doctor, compared with 41% by a public specialist and 64% by a private specialist; one-third of respondents waited more than a month for a public specialist appointment.",
+        "valence": "neutral",
+        "source_id": "waiting-2021",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2235,
+          "char_end": 2879,
+          "passage_sha256": "ed4fba4961c16d67fd377b8092ae1c72c898f5ca47dcffa4b00881d9dcd5e92e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "HUN-access-015",
+        "statement": "Public secondary and tertiary care in Hungary is reached through referral; patients without a valid family-doctor referral may have to pay out of pocket, and referral is required for some specialties such as cardiology but not for others such as gynaecology.",
+        "valence": "neutral",
+        "source_id": "waiting-2021",
+        "locator": {
+          "section": "Full text",
+          "char_start": 5776,
+          "char_end": 6152,
+          "passage_sha256": "a5ae2ddd9ea415f2c25e7d6e192c0bcb092a6896cb243fb2c04788f3478f76b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "HUN-outcomes-001",
+        "statement": "Hungary's preventable premature death rate fell to 315 per 100,000 in 2019, jumped to 452 in 2021 (partly because COVID-19 deaths were counted as preventable from 2020), and came back down to 333 per 100,000 in 2022.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 59803,
+          "char_end": 60255,
+          "passage_sha256": "943a6484aa4bf7cd2f23d633a8667d88f01d1083e97037f6af6506af876e0bed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "HUN-outcomes-002",
+        "statement": "Hungary's preventable mortality rate is among the highest in the EU; in 2022 its three leading causes were lung cancer, ischaemic heart disease and alcohol-related diseases.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 5646,
+          "char_end": 5815,
+          "passage_sha256": "431015258bf8cec78212aa869e21d9c3c716eb148922da9f05d7e8ab588c4281"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "HUN-outcomes-003",
+        "statement": "Hungary still has the EU's highest level of preventable deaths from lung cancer, which the profile ties closely to the country's high smoking rates.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 63372,
+          "char_end": 63547,
+          "passage_sha256": "a0026e4b73b898b0383d4762373aad4509d71312ec372f33944c0c6b00c8a57e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-outcomes-004",
+        "statement": "Deaths from treatable causes in Hungary fell from 193 per 100,000 in 2012 to 178 per 100,000 in 2022, still almost twice the EU average of 90.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 63820,
+          "char_end": 64070,
+          "passage_sha256": "222ac86de6be9bb5e7eb9662e399571bca30dded7a73abced16eedbb4237ec8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "HUN-outcomes-005",
+        "statement": "Ischaemic heart disease (29%), colorectal cancer (17%) and stroke (11%) were the top three causes of treatable premature deaths in Hungary in 2022.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 63548,
+          "char_end": 63706,
+          "passage_sha256": "62d06132f5cec95b5a259fc28a8ca8f680ea4df06a78f5b4d844166be1a89e70"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "HUN-outcomes-006",
+        "statement": "Hungary's age-standardised cancer incidence is nearly 10% above the EU average while cancer prevalence is about 25% below it, a pattern the profile attributes to lower survival and higher cancer mortality.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 5,
+          "char_start": 21789,
+          "char_end": 22035,
+          "passage_sha256": "ef27eb8a45c0edc16368d21564b0cdedbf9ecc2f4f5f855c204ffdedc43f7d76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-outcomes-007",
+        "statement": "Hungary scored 74.4 (95% uncertainty interval 70.8-77.4) on the GBD Healthcare Access and Quality Index for ages 0-74 in 2019, with age-group scores of 87.7 for ages 0-14, 71.3 for ages 15-64 and 64.8 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 37228,
+          "char_end": 37395,
+          "passage_sha256": "eb80cceff2411fd9d9dbde438b8b5cc28a4067635b1659bba9409aea296df866"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "HUN-outcomes-008",
+        "statement": "Hungary's overall HAQ Index score rose by 19.4 points (95% uncertainty interval 15.6-22.7) between 1990 and 2019.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 37228,
+          "char_end": 37395,
+          "passage_sha256": "eb80cceff2411fd9d9dbde438b8b5cc28a4067635b1659bba9409aea296df866"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "HUN-costs-001",
+        "statement": "Hungary spent EUR 1 925 per person on health in 2023 (adjusted for purchasing power), roughly half the EU average of EUR 3 832.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45839,
+          "char_end": 46009,
+          "passage_sha256": "854a36219251098ff256bafc64bbb134679a6c7733312adf1a5305891c8a16f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-costs-002",
+        "statement": "After a surge during the COVID-19 years, Hungary's health expenditure declined by an average of 4.3% in real terms between 2021 and 2023.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45629,
+          "char_end": 45838,
+          "passage_sha256": "dd7c7e1c66698fb003b58e1b16c76502a1bf0dd98fa9c17b87bf76c7d80614e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-costs-003",
+        "statement": "In 2023, inpatient care took 35% of Hungary's health spending (EU 28%) and outpatient care 30% (EU 28%); pharmaceuticals and medical devices took 26% (EU 18%), while prevention got 3% (EU 4%).",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 49648,
+          "char_end": 50115,
+          "passage_sha256": "1d5835afe9b451797fdda2623c0c334bf38bd0a5bcecc20ac4bc35a667f6f7d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-costs-004",
+        "statement": "Hungary spent EUR 445 per person on retail pharmaceuticals in 2023, less than the EU average of EUR 510 (adjusted for purchasing power), but this spending made up 23% of health expenditure compared with 13% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 19,
+          "char_start": 117920,
+          "char_end": 118236,
+          "passage_sha256": "deab475f02abfcca5103ea1b8fe42495d59ce7ceca7b9f53b244c587d5bbdb95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "HUN-what_works-001",
+        "statement": "Measles immunisation in Hungary stays above the EU average; since 2022 close to 100% of the target population have had the first dose.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 71476,
+          "char_end": 71677,
+          "passage_sha256": "da5d5d9216fecca4ee060fa6ef04b6153eafd9d7c1fe215ff533cb18c3ce4963"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-what_works-002",
+        "statement": "Parents can ask for free HPV vaccination for children aged 12-13 (girls since 2014, boys since 2020); national figures show 81% of girls and 76% of boys in that age group were vaccinated in 2024.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 71678,
+          "char_end": 72002,
+          "passage_sha256": "bef6aadf5ff1a2510aece8a8240f886f62404af1cf7ae8c33a12d8798e88d033"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-what_works-003",
+        "statement": "As of early 2023, nearly all publicly funded healthcare institutions in Hungary, including inpatient and outpatient facilities, private providers, pharmacies and GPs, were using the national eHealth platform EESZT.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 107736,
+          "char_end": 107979,
+          "passage_sha256": "6ee49f4097ce7a6615901ae2916c670e32b1cae48d07c06c1cb5c40c61fd78ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-what_works-004",
+        "statement": "The share of Hungarians using digital tools to view their health records rose sharply, from 17% in 2020 to 42% in 2024.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 103675,
+          "char_end": 103813,
+          "passage_sha256": "ae29b2fbf0d62289001a0d11b8ede9ecc0c0d87a6f4dc60d80468b1a67a696cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-what_works-005",
+        "statement": "The share of women aged 50-69 in Hungary screened for breast cancer in the previous two years fell from 49% in 2006 to 39% in 2019 and 30% in 2021, then has risen since 2022, reaching 49% in 2024.",
+        "valence": "strength",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 73594,
+          "char_end": 73887,
+          "passage_sha256": "b716ce762ad6d7226f137d20c20e5db6db643ec4d2b8942254e576e664a6520f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-what_works-006",
+        "statement": "Informal payments in Hungary fell significantly during the COVID-19 pandemic, when Hungary's legislative reform was also enacted; the author suggests the drop may reflect both the criminalisation and fewer occasions to hand over cash or gifts as doctor-patient contacts declined.",
+        "valence": "strength",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 19759,
+          "char_end": 20126,
+          "passage_sha256": "c888237dca58cbadc0c4e8d6eb7d504bb2dc862e3d712def282c76a168f489d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-what_works-007",
+        "statement": "Cloud-based medical services introduced in Hungary in 2020 made it easier for patients and their relatives to obtain prescribed medicines and let doctors get consultation and test results immediately.",
+        "valence": "strength",
+        "source_id": "phc-covid-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 28918,
+          "char_end": 29184,
+          "passage_sha256": "d32ea4d05fcda3b901208fb9bc51b70a275fe6d6c2ffe6e2f444b0678c13b771"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-what_works-008",
+        "statement": "In 2024 Hungary's GP clusters reported offering 78 kinds of professional activity and delivered 1,964,436 preventive services over the year.",
+        "valence": "strength",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 27025,
+          "char_end": 27181,
+          "passage_sha256": "b72d20013a4a2a72851486b21031377540e344836ba221b445b5c706e5353a5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      }
+    ],
+    "problems": [
+      {
+        "id": "HUN-problems-001",
+        "statement": "The 2025 profile concludes that Hungary's mechanisms for shielding patients from out-of-pocket payments could be improved, although a special reimbursement scheme reduces costs for vulnerable groups.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 141703,
+          "char_end": 141885,
+          "passage_sha256": "7ddb662bf0eee245ccf5b6ee5cc492469ec9948bfba781a43a7b06257f15b759"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-problems-002",
+        "statement": "Hungary struggles to keep health workers, who may leave for better pay and conditions abroad or for the growing private sector, and many hold several jobs within and across sectors.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 58441,
+          "char_end": 58753,
+          "passage_sha256": "1c836cecc347cb25c82809e7f3e83745c5ef977f18794d5abd2bf22fa22541c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-problems-003",
+        "statement": "Only 9% of people aged 50-74 took part in Hungary's colorectal cancer screening programme in 2023, the lowest participation among reporting countries.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74046,
+          "char_end": 74237,
+          "passage_sha256": "16de5a9764a11f135ff59e577021f32210ca295e194dff5126933989b1494c4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-problems-004",
+        "statement": "Flu vaccination among Hungarians over 65 fell from 27% in the 2017/18 season to 22% in 2022/23, far below the EU average of 47%.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 72255,
+          "char_end": 72433,
+          "passage_sha256": "28dddfb35b249e70240c74cb23ecc1834f723b3ab3dacb7411d7ee54d052b463"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-problems-005",
+        "statement": "Hungary had 6.5 hospital beds per 1,000 people in 2023, down from 8.2 in 2000 but still well above the EU average of 5.1; only Austria, Bulgaria, Germany and Romania had more.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 91802,
+          "char_end": 92098,
+          "passage_sha256": "accf24c8289091ccc42cbb61c935c72d9e4b8731ff7642e8193c38489457232b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-problems-006",
+        "statement": "The profile judges Hungary's mainly hospital-centred system poorly suited to caring for people with multiple chronic conditions, who need integrated, coordinated care.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 92595,
+          "char_end": 92788,
+          "passage_sha256": "c0b43f529cb8aa27c7e4110da9aaf4d7f731f86cb533781b1ae2c9c96ff61be0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-problems-007",
+        "statement": "Hungary's investment in digital health has lagged: ICT health spending was EUR 0.6 million per 100,000 people in 2023, against an EU average of EUR 2.3 million.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 103221,
+          "char_end": 103487,
+          "passage_sha256": "bf840f428631d666cbc096428a548a96a71b8d6dde7e900c5b914d876900227b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-problems-008",
+        "statement": "For medicines the EU approved in 2020-2023, Hungary took an average of 636 days to reimburse them, 10% longer than the EU average of 578 days, and as of January 2025 covered 27% of them versus 46% across the EU (EFPIA WAIT data).",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 132727,
+          "char_end": 133050,
+          "passage_sha256": "936f2dcee22863e9c3fac328f438a80d8c375b913ae9f8f606d12b6571ced4c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-problems-009",
+        "statement": "Unmet need for primary care among Hungarian adults went from 5.5% in 2021 to 7.0% in 2022 and eased to 6.1% in 2024, still higher than the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79341,
+          "char_end": 79532,
+          "passage_sha256": "e0a4db52a6ca6c821f7cae5db4cf29b340f86b0ff60b569889e6db3cce207d98"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-problems-010",
+        "statement": "The European Observatory reported in 2023 that more and more Hungarians pay out of pocket for private care because public care is hard to access, for example due to long waiting lists.",
+        "valence": "weakness",
+        "source_id": "hspm-vhf",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1203,
+          "char_end": 1356,
+          "passage_sha256": "18bac143d66ea0d6df7270dd32207b533ea29e69f30936018d95928df1f0fec0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-problems-011",
+        "statement": "Hungarian doctors' salaries have been raised substantially, but nurses have not received pay increases on a similar scale, according to a 2024 analysis.",
+        "valence": "weakness",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 1,
+          "char_start": 760,
+          "char_end": 879,
+          "passage_sha256": "25c0d21f516d6247fbcf13efdd6e222bb841656b8ba4cfc187af314459cd920f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-problems-012",
+        "statement": "Among eight central and eastern European EU countries in the 2017 Special Eurobarometer on corruption, informal payments in health care were most common in Hungary, where 17% of people who had used health care in the previous 12 months reported making one, compared with 3% in Slovenia and Estonia.",
+        "valence": "weakness",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 3,
+          "char_start": 5985,
+          "char_end": 6400,
+          "passage_sha256": "f79ddc3c7877674f225f6f31c286211a72fc448bbb8c22f582366263350a32e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "HUN-problems-013",
+        "statement": "In a survey of Hungarian primary care workers during the COVID-19 pandemic, 96.7% reported a large rise in workload, 37.8% said they needed more training, 55.2% of respondents were worried about the extra work and 69% reported some degree of distress.",
+        "valence": "weakness",
+        "source_id": "phc-covid-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3478,
+          "char_end": 3888,
+          "passage_sha256": "c7fa19434c8eafc1d7542b66b7272eefe434ed3f7e46de5a528bc2efccc2dfb3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HUN-problems-014",
+        "statement": "The share of Hungary's GP practices that were vacant more than doubled, from 7.31% in 2019 to 14.78% at the end of 2024.",
+        "valence": "weakness",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 19572,
+          "char_end": 19673,
+          "passage_sha256": "80fe4163a031b44a96940e9e2c8f2e63da632e7ce2dd55eff4bb1822bdfa5897"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-problems-015",
+        "statement": "A 2026 study found marked regional differences in GP cluster membership in Hungary, higher participation in better-resourced districts, and limited uptake of digital health technology and point-of-care tests within clusters.",
+        "valence": "weakness",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4401,
+          "char_end": 4669,
+          "passage_sha256": "a9a4c38aee01988f35bccb6330d01a11139072f7c8b3bcbee1ed5904024e5f7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HUN-problems-016",
+        "statement": "Roma patients in Hungary had fewer outpatient specialist visits and a higher hospital admission rate (a borderline significant difference) than non-Roma, which the authors interpret as serious limits on Roma access to secondary care and worse health.",
+        "valence": "weakness",
+        "source_id": "covid-ineq-2022",
+        "locator": {
+          "section": "Full text",
+          "char_start": 24610,
+          "char_end": 24937,
+          "passage_sha256": "7b1bce7cbd770e132cb4890bf29a2d0aee095d5de793eb908e14ea09158a17a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HUN-problems-017",
+        "statement": "A 2023 Hungarian study concluded that the hospital-level budget cap did not seem to affect medical decisions on potentially life-saving treatment but could limit hospital admissions, and that lifting the cap for expensive emergency care would likely improve access for people living far from specialised centres.",
+        "valence": "weakness",
+        "source_id": "pci-budget-2023",
+        "locator": {
+          "section": "Full text",
+          "char_start": 6724,
+          "char_end": 7098,
+          "passage_sha256": "aed5c6f67d81089b9f051e9b422d6f3c2dfb9909ec5650c8ca908aecfac40d39"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2015,
+        "historical": true
+      }
+    ],
+    "reforms": [
+      {
+        "id": "HUN-reforms-001",
+        "statement": "Starting in 2021, the government more than doubled doctors' pay over three years and made offering or taking informal payments a crime, apart from small gifts.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 49108,
+          "char_end": 49300,
+          "passage_sha256": "c020e423d548410e2ddd65711e40e7b87a773453b0415eb920bc137f5074eda5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "historical": true
+      },
+      {
+        "id": "HUN-reforms-002",
+        "statement": "To retain staff, Hungary has phased in pay rises for doctors, dentists, pharmacists and nurses since 2021, added performance bonuses of up to 40% from 2022, and raised health professionals' base pay by 20% on average from 1 March 2024.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 58754,
+          "char_end": 59041,
+          "passage_sha256": "39c9b87fee86cb143de0a4707801c135717ed51889c30764789ee60bfd00866a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-003",
+        "statement": "Concern about high numbers of avoidable hospital admissions has led to efforts to strengthen primary care and shorten hospital stays for COPD patients; with EU Technical Support Instrument backing, Hungary is developing a new financing and clinical governance model that includes pilot bundled payments, extended to 2026.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74910,
+          "char_end": 75378,
+          "passage_sha256": "41b631fa2757cebed95fab7a29e14b24d228af74da616403099eee9f003a4733"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-004",
+        "statement": "A colorectal cancer screening pilot for people aged 50-70, started in 2018, became part of the organised population screening programme and has been rolled out gradually nationwide since January 2025.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 74238,
+          "char_end": 74680,
+          "passage_sha256": "c75f9cece309c953a052db6570fa93677dc6dd115a80f6daa12a49179b2d9ad9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-005",
+        "statement": "Hungary has had a digital appointment booking system within its national eHealth infrastructure (EESZT) since 2017; rules introduced in March 2025 pay financial incentives to outpatient providers of specified imaging procedures to raise its use, and let patients and doctors book outpatient appointments outside their assigned area.",
+        "valence": "neutral",
+        "source_id": "chp-hun-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 90590,
+          "char_end": 91249,
+          "passage_sha256": "39cd9593d5c6b88253b15b63a0e262606e2acb6f42a16c7d342f79d764f78fd2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-006",
+        "statement": "Act XXIX of 2024, adopted on 11 June 2024, provided for the National Ambulance Service to run out-of-hours GP and paediatrician services in Budapest from 1 October 2024, the final step of an out-of-hours primary care reform begun in early 2023.",
+        "valence": "neutral",
+        "source_id": "hspm-omnibus",
+        "locator": {
+          "section": "Full text",
+          "char_start": 671,
+          "char_end": 1281,
+          "passage_sha256": "76c05d8a26ddea02b9dd5a95dedeb9524a0ea986166e3f9bb0942d293373d46b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024,
+        "historical": true
+      },
+      {
+        "id": "HUN-reforms-007",
+        "statement": "From January 2025 the health minister was given power to order mandatory screenings by decree for any age group, where previously only screenings for people under 18 could be mandated this way; as of August 2024 the government had not yet decided which screenings or age groups this would cover.",
+        "valence": "neutral",
+        "source_id": "hspm-omnibus",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1370,
+          "char_end": 1778,
+          "passage_sha256": "171ee4518a26d686c2290cdaa2fb0319f3a4b33f6831028d12e8f81e233f8a8f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024,
+        "historical": true
+      },
+      {
+        "id": "HUN-reforms-008",
+        "statement": "A 2024 amendment let employers in state-run health care institutions install a unified access control system to track staff entry, exit and presence, which according to the explanatory memorandum would use cameras and facial recognition.",
+        "valence": "neutral",
+        "source_id": "hspm-omnibus",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1779,
+          "char_end": 2285,
+          "passage_sha256": "42e13e3dc919a282261daa461c3ab833fe967fa5df55a7d53aad9224a026a62e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024,
+        "historical": true
+      },
+      {
+        "id": "HUN-reforms-009",
+        "statement": "Compulsory membership of the Hungarian Medical Chamber was abolished in February 2023; it had also been abolished in 2006 and was restored after a change of government in 2011.",
+        "valence": "neutral",
+        "source_id": "hspm-chamber",
+        "locator": {
+          "section": "Full text",
+          "char_start": 702,
+          "char_end": 1156,
+          "passage_sha256": "f338899762662be8cf720ee6206c1106290769aee35d94459b8e362eab8762ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023,
+        "historical": true
+      },
+      {
+        "id": "HUN-reforms-010",
+        "statement": "Since 1 January 2021, Hungary's Criminal Code has treated informal payments to health workers as corruption even when they are given after treatment, and both the patient who pays and the worker who accepts can be punished.",
+        "valence": "neutral",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 6,
+          "char_start": 19176,
+          "char_end": 19396,
+          "passage_sha256": "2aff1fccb3340bd0833ca40552370339693da6fd3f4972e15915a4cf2f7308d6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HUN-reforms-011",
+        "statement": "Hungarian law still allows a small gift after care, worth no more than 5% of the monthly minimum wage, without it counting as the crime of corruption; for long-term inpatients such a gift may be given once every two months.",
+        "valence": "neutral",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 8,
+          "char_start": 27804,
+          "char_end": 28091,
+          "passage_sha256": "c8b2bb4ed54dfa202a782ffce5d52bc3f33c473d5c40162d30e758ce63fda90e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-012",
+        "statement": "According to a 2024 legal analysis, the ban on informal payments falls mainly on doctors, whose lost income was offset by a large pay increase, while cash is no longer allowed for nurses, who had typically received small sums or gifts such as coffee or chocolate before 2021.",
+        "valence": "neutral",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 9,
+          "char_start": 31615,
+          "char_end": 31947,
+          "passage_sha256": "1ff7637c572f5879fd62df4931d7a2df943d16907c59ae4eb57703768286eba6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-013",
+        "statement": "Hungary's National Protective Service sets up integrity tests for doctors and nurses in public (not private) health care; by 6 November 2023 it had completed 414 preparatory procedures, collected information covertly in 255 cases and run 103 integrity tests, and dozens of cases had led to charges.",
+        "valence": "neutral",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 10,
+          "char_start": 36122,
+          "char_end": 36644,
+          "passage_sha256": "02099034a25748b8447b764560402f4b6a7fb5e640c53d9136aec5a5df19963d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HUN-reforms-014",
+        "statement": "Act C of 2020 generally prohibits Hungarian public-sector health workers from also practising privately, but the National Directorate General for Hospitals can permit exceptions, and a 2024 analysis notes that many specialists hold such permission.",
+        "valence": "neutral",
+        "source_id": "informal-2024",
+        "locator": {
+          "page": 5,
+          "char_start": 16165,
+          "char_end": 16510,
+          "passage_sha256": "c2a2d141bbfc0bb18f8f2078ccc655eaa35243d98639a84d9dda35529d36c803"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        }
+      },
+      {
+        "id": "HUN-reforms-015",
+        "statement": "In June 2021 Hungary created a nationwide system of GP clusters, drawing on earlier pilots and foreign experience, in which practices in the same district, as a rule at least five, group together to provide higher-level services.",
+        "valence": "neutral",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 7915,
+          "char_end": 8329,
+          "passage_sha256": "517f1773dfbcf5545639a1eeaca4a6edb6f6f6f35bd3b0fcc4c372daab2601c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HUN-reforms-016",
+        "statement": "The share of Hungarian GP practices belonging to a cluster rose from 38% in 2021 to 47% in 2024, when there were 422 clusters.",
+        "valence": "neutral",
+        "source_id": "gp-cluster-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 25622,
+          "char_end": 25756,
+          "passage_sha256": "3b09fe851522f33d9da40d6608a342249aca960f1af21022f4c523c0228dcce1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-19"
+        },
+        "data_year": 2024
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/HUN.json",

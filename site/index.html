@@ -58,6 +58,12 @@ nav.countries a {
 }
 nav.countries a[aria-current="page"] { border-color: var(--accent); color: var(--accent); }
 nav.countries a .n { font-family: var(--body); font-weight: 600; margin-left: .35rem; }
+nav.countries { align-items: center; }
+nav.countries .picker { display: inline-flex; align-items: center; gap: .4rem; margin-left: auto; }
+nav.countries .picker label { font-size: .85rem; color: var(--muted); }
+nav.countries select { font: inherit; font-size: .92rem; padding: .35rem .5rem; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); color: var(--ink); max-width: 16rem; }
+nav.countries select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 640px) { nav.countries .picker { margin-left: 0; width: 100%; } nav.countries select { flex: 1; max-width: none; } }
 
 /* country header */
 .country-head { display: grid; gap: .75rem; }
@@ -588,10 +594,29 @@ async function start() {
     const index = await getJSON("data/index.json");
     const nav = document.getElementById("country-nav");
     const ordered = [...index.filter(r => r.is_baseline), ...index.filter(r => !r.is_baseline)];
-    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a><a href="#about" data-iso3="ABOUT" class="rank-link">About and sources</a>` + ordered.map(r =>
-      `<a href="#${r.iso3.toLowerCase()}" data-iso3="${r.iso3}">${r.iso3}<span class="n">${esc(r.name)}${r.is_baseline ? " (baseline)" : ""}</span></a>`).join("");
+    // Pages and the US baseline stay as links; every other country is in one grouped picker.
+    const REGIONS = [
+      ["Americas", ["ARG","BRA","CAN","CHL","COL","CRI","CUB","DOM","ECU","MEX","PAN","PER","URY"]],
+      ["Europe", ["AUT","BEL","BGR","CHE","CYP","CZE","DEU","DNK","ESP","EST","FIN","FRA","GBR","GRC","HRV","HUN","IRL","ISL","ITA","LTU","LUX","LVA","MLT","NLD","NOR","POL","PRT","ROU","SVK","SVN","SWE","TUR"]],
+      ["Asia-Pacific and Middle East", ["AUS","CHN","ISR","JPN","KOR","NZL","THA","TWN"]],
+    ];
+    const baseline = index.find(r => r.is_baseline);
+    const others = index.filter(r => !r.is_baseline);
+    const placed = new Set(REGIONS.flatMap(([, codes]) => codes));
+    const groups = REGIONS.map(([label, codes]) => [label, others.filter(r => codes.includes(r.iso3))])
+      .concat([["Other", others.filter(r => !placed.has(r.iso3))]])
+      .filter(([, rows]) => rows.length);
+    const option = r => `<option value="${r.iso3}">${esc(r.name)}${r.sources < MIN_SOURCES ? " (limited evidence)" : ""}</option>`;
+    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a><a href="#about" data-iso3="ABOUT" class="rank-link">About and sources</a>`
+      + (baseline ? `<a href="#${baseline.iso3.toLowerCase()}" data-iso3="${baseline.iso3}">${baseline.iso3}<span class="n">${esc(baseline.name)} (baseline)</span></a>` : "")
+      + `<span class="picker"><label for="country-pick">Country</label><select id="country-pick"><option value="">Choose one of ${others.length}…</option>`
+      + groups.map(([label, rows]) => `<optgroup label="${esc(label)}">${rows.sort((a, b) => a.name.localeCompare(b.name)).map(option).join("")}</optgroup>`).join("")
+      + `</select></span>`;
+    const pick = document.getElementById("country-pick");
+    pick.addEventListener("change", () => { if (pick.value) location.hash = pick.value.toLowerCase(); });
     const route = () => {
       const h = location.hash.replace("#", "").toUpperCase();
+      pick.value = others.some(r => r.iso3 === h) ? h : "";
       if (h === "ABOUT") { renderAbout(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load sources: ${esc(err.message)}</p>`; }); return; }
       if (h === "FINANCING") { renderFinancing(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load financing data: ${esc(err.message)}</p>`; }); return; }
       if (!index.some(r => r.iso3 === h)) {

@@ -3,7 +3,7 @@
   "name": "Slovakia",
   "wave": 4,
   "system_as_of": "2026-11-20",
-  "status": "needs_review",
+  "status": "verified",
   "model": {
     "type": "social_health_insurance",
     "label": "Compulsory social health insurance through three competing insurers (one state-owned, two private), with state-paid contributions for about 2.9 million economically inactive people"
@@ -31,8 +31,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -49,8 +50,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -67,14 +69,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "SVK-overview-004",
-        "statement": "Insurance coverage stood at 96% in 2023; the remaining 4% were mostly residents working abroad who are insured elsewhere rather than in Slovakia.",
+        "statement": "Insurance coverage stood at 96% in 2023; the remaining 4% were mostly residents working abroad, who are therefore not insured in Slovakia.",
         "valence": "neutral",
         "source_id": "chp-svk-2025",
         "locator": {
@@ -86,8 +89,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2023
       },
@@ -105,8 +109,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -114,7 +119,7 @@
     "financing": [
       {
         "id": "SVK-financing-001",
-        "statement": "By national data, public sources paid for 83% of health spending in 2024. The other 17.2% was private, and 95% of that private share was out-of-pocket payment.",
+        "statement": "Public sources paid for 83% of health spending in 2024. The other 17.2% was private, and 95% of that private share was out-of-pocket payment.",
         "valence": "neutral",
         "source_id": "hspm-svk-sources",
         "locator": {
@@ -125,8 +130,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2024
       },
@@ -143,14 +149,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "SVK-financing-003",
-        "statement": "Self-employed people pay 15% of income (7.5% if disabled) with a minimum assessment base of EUR 715 a month in 2025, which implies a minimum monthly premium of at least EUR 107.25 for those without disability; no maximum is set.",
+        "statement": "The self-employed pay 15% of income, with a minimum assessment base of EUR 715 a month in 2025, which implies a minimum monthly premium of at least EUR 107.25 for those without disability; no maximum is set.",
         "valence": "neutral",
         "source_id": "hspm-svk-stat",
         "locator": {
@@ -161,14 +168,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
       {
         "id": "SVK-financing-004",
-        "statement": "For about 2.9 million economically inactive residents, including children, students up to 26, the unemployed, pensioners, carers of children under three and disabled people, the state pays the contribution from general tax revenue.",
+        "statement": "Contributions are paid on behalf of about 2.9 million economically inactive residents, including children, students up to 26, the unemployed, pensioners, carers of children under three and disabled people.",
         "valence": "neutral",
         "source_id": "hspm-svk-stat",
         "locator": {
@@ -179,14 +187,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
       {
         "id": "SVK-financing-005",
-        "statement": "After a variable, residual-based formula proved open to political influence and left insurers short, a December 2022 amendment returned to a fixed contribution for state-insured people, set at 4.5% in 2024 and 5% from 2026 onward.",
+        "statement": "An earlier mechanism for setting the state's contribution for state-insured people proved prone to political influence, and the Ministry of Finance's refusal to supply the required amounts caused losses for insurers; a December 2022 amendment returned to a fixed contribution, defined as 4.5% in 2024 and 5% from 2026 onward.",
         "valence": "neutral",
         "source_id": "hspm-svk-stat",
         "locator": {
@@ -197,14 +206,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "SVK-financing-006",
-        "statement": "Insurers pass 96% of contributions through a risk-adjusted redistribution scheme run by the Health Care Surveillance Authority, and the state-owned VšZP is the main net recipient, gaining roughly EUR 450 million from it in 2023.",
+        "statement": "Insurers pass 96% of contributions through a risk-adjusted redistribution scheme, and the state-owned VšZP is the ultimate beneficiary, gaining roughly EUR 450 million from it in 2023.",
         "valence": "neutral",
         "source_id": "hspm-svk-stat",
         "locator": {
@@ -215,8 +225,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2023
       }
@@ -230,34 +241,16 @@
         "locator": {
           "section": "3.3.1 Coverage",
           "char_start": 13197,
-          "char_end": 13532,
-          "passage_sha256": "e4e0a1fbf0fc40e013828ce677cec640a985c3a1c490382a500b8c2f481bf849"
+          "char_end": 13667,
+          "passage_sha256": "e0cc5d501dbaf076f591b9bab057116f4054da22616d1bb1352fdda3266f0ab4"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
-      },
-      {
-        "id": "SVK-covered-002",
-        "statement": "Public financing paid 97% of outpatient medical care and 86% of hospital care in 2023; hospital coverage was below the EU average of 91%.",
-        "valence": "neutral",
-        "source_id": "chp-svk-2025",
-        "locator": {
-          "section": "5.2 Accessibility",
-          "page": 12,
-          "char_start": 76577,
-          "char_end": 76735,
-          "passage_sha256": "a2111e468141001887e99e1589fe43c30f9348525c95ff8a4bde0b93472531e1"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
-        },
-        "data_year": 2023
       },
       {
         "id": "SVK-covered-003",
@@ -273,8 +266,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -291,8 +285,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       }
@@ -300,7 +295,7 @@
     "cost_sharing": [
       {
         "id": "SVK-cost_sharing-001",
-        "statement": "Out-of-pocket payments are made up of co-payments for prescribed medicines and medical goods, user fees for some services, dental care and spa treatment, direct payments for over-the-counter products and vision products, above-standard care, and a few fixed fees such as EUR 2 for 24/7 first-aid services.",
+        "statement": "Out-of-pocket payments mainly consist of co-payments for prescribed medicines and medical goods, user fees for some services, dental care and spa treatment, direct payments for over-the-counter products and vision products, above-standard care, and a few fixed fees such as EUR 2 for 24/7 first-aid services.",
         "valence": "neutral",
         "source_id": "hspm-svk-fin-2025",
         "locator": {
@@ -311,28 +306,29 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
       {
         "id": "SVK-cost_sharing-002",
-        "statement": "Per-quarter ceilings on medicine co-payments apply: EUR 30 for certain pensioners and EUR 12 for people with severe disabilities. Children below age six pay no co-payments.",
+        "statement": "Medicines generally carry co-payments, but these are limited each quarter: certain pensioners pay at most EUR 30 and people with severe disabilities at most EUR 12, while children under six are exempt altogether.",
         "valence": "neutral",
         "source_id": "chp-svk-2025",
         "locator": {
           "section": "6 Spotlight on pharmaceuticals",
           "page": 19,
-          "char_start": 126160,
+          "char_start": 126039,
           "char_end": 126318,
-          "passage_sha256": "a1787b132906a865896066949cd355fc037d937eec95a225ce292518a590ff03"
+          "passage_sha256": "3670d2711e55637dc846687976d2e1a4dda92410bed73d83138eccacbc66000b"
         },
         "verification": {
-          "passage_found": "fail",
-          "supports": "pending",
+          "passage_found": "pass",
+          "supports": "pass",
           "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
@@ -349,45 +345,48 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "SVK-cost_sharing-004",
-        "statement": "Pharmaceuticals made up the largest share of out-of-pocket spending in 2023 at 34%, followed by inpatient care at 21% and dental care at 14%.",
+        "statement": "In 2023 out-of-pocket spending was 20% of total health expenditure, and pharmaceuticals took the largest share of it at 34%, followed by inpatient care at 21% and dental care at 14%.",
         "valence": "neutral",
         "source_id": "chp-svk-2025",
         "locator": {
           "section": "5.2 Accessibility",
           "page": 13,
-          "char_start": 82125,
+          "char_start": 81963,
           "char_end": 82237,
-          "passage_sha256": "f0b7a999c799e4923f6759a15ef74a1819faa5319729f4b905f977f216892d11"
+          "passage_sha256": "d8684073cb4cd8e89c4ce719db89b82b09aa6b68176e58005efe9772adc11df9"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2023
       },
       {
         "id": "SVK-cost_sharing-005",
-        "statement": "National estimates put total out-of-pocket spending at EUR 1.7 billion in 2023, just over 18% of current health expenditure; this is lower than the OECD-based 20% share because of differing definitions and data.",
+        "statement": "Total out-of-pocket spending reached EUR 1.7 billion in 2023, just over 18% of current health expenditure.",
         "valence": "neutral",
         "source_id": "hspm-svk-fin-2025",
         "locator": {
           "section": "3.4 Out of pocket payments",
           "char_start": 5285,
-          "char_end": 5398,
-          "passage_sha256": "f5afba3d4c49e2c769585e9820981d79d5affd76696a95dd91f820ed2f7e6967"
+          "char_end": 5418,
+          "passage_sha256": "bbb8a5bb5286462246269d2ee323977db801d5116c00397dd83aa380933751bb"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2023
       },
@@ -404,8 +403,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -413,19 +413,20 @@
     "financial_hardship": [
       {
         "id": "SVK-financial_hardship-001",
-        "statement": "According to WHO Europe's 2025 review, nearly all catastrophic health spending in Slovakia falls on the poorest consumption quintile and on households headed by older, employed or retired people; in low-income households it stems chiefly from outpatient medicines.",
+        "statement": "Slovakia's catastrophic health spending is below that of many EU countries, especially central European ones, yet it has grown lately; nearly all of it falls on the poorest consumption quintile and on households led by older people, workers or pensioners, and among poorer households outpatient medicines are the main cause.",
         "valence": "neutral",
         "source_id": "who-fp-svk-2025",
         "locator": {
           "section": "Overview",
-          "char_start": 629,
+          "char_start": 465,
           "char_end": 845,
-          "passage_sha256": "76e98b64e9851963b05e7763df3dc26bd70dee185a9abd230f1d3f3de1111918"
+          "passage_sha256": "8b532cb853e1f2af83687dff55adcf076529e925e99c19847b14c2d0f3623e29"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
@@ -442,8 +443,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -460,8 +462,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -473,14 +476,15 @@
         "locator": {
           "section": "6 Spotlight on pharmaceuticals",
           "page": 20,
-          "char_start": 130705,
+          "char_start": 130696,
           "char_end": 130933,
-          "passage_sha256": "c5cee2424497ee19e2d830f65c0c1d0e8bdad09004ebb0dfa953bad48dc6bddc"
+          "passage_sha256": "2c06ef5743405e74724d6d6bdf751c3471c7858e4341742e63e4002e0a9fe46c"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2023
       }
@@ -499,8 +503,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -520,8 +525,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -539,8 +545,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -558,8 +565,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -577,8 +585,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -596,8 +605,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -617,8 +627,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -636,8 +647,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -655,8 +667,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -674,8 +687,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -693,8 +707,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -714,14 +729,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "SVK-costs-002",
-        "statement": "On OECD-based comparable data, government and compulsory schemes financed 79% of current health expenditure in 2023 (EU average 80%) and out-of-pocket payments 20% (EU average 16%), mainly co-payments for outpatient medicines.",
+        "statement": "On the profile's comparable cross-country data, government and compulsory schemes financed 79% of current health expenditure in 2023 (EU average 80%) and out-of-pocket payments 20% (EU average 16%), mainly co-payments for outpatient medicines.",
         "valence": "neutral",
         "source_id": "chp-svk-2025",
         "locator": {
@@ -733,8 +749,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -752,8 +769,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -771,8 +789,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -790,8 +809,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -811,8 +831,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -830,8 +851,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -849,14 +871,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "SVK-what_works-004",
-        "statement": "WHO Europe reports that catastrophic health spending is lower in Slovakia than in many EU countries, particularly in central Europe, though it has risen in recent years.",
+        "statement": "Catastrophic health spending is lower in Slovakia than in many EU countries, particularly in central Europe, though it has risen in recent years.",
         "valence": "strength",
         "source_id": "who-fp-svk-2025",
         "locator": {
@@ -867,8 +890,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
@@ -886,14 +910,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "SVK-what_works-006",
-        "statement": "The number of medical graduates has almost doubled since 2010 to 19 per 100,000 population in 2023, well above the EU average, although about 95% of students in English-taught programmes are foreign and excluding them the figure is roughly half.",
+        "statement": "The number of medical graduates has almost doubled since 2010 to 19 per 100,000 population in 2023, well above the EU average; excluding English-taught programmes, where about 95% of students are foreign, the figure falls to roughly half.",
         "valence": "strength",
         "source_id": "chp-svk-2025",
         "locator": {
@@ -905,8 +930,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2023
       }
@@ -914,7 +940,7 @@
     "problems": [
       {
         "id": "SVK-problems-001",
-        "statement": "A 2025 policy analysis in the Observatory's monitor found that, although legal limits on direct payments date from 2006, provider fees have become a chaotic patchwork exploiting legal loopholes, with fees varying between providers and regions and patients often poorly informed and not given receipts.",
+        "statement": "Despite legal limits on direct payments since 2006, provider fees have become a chaotic patchwork exploiting legal loopholes: patient information varies, costs are hard to predict, fees differ between providers even within one specialty, and the highest charges are in Bratislava.",
         "valence": "weakness",
         "source_id": "hspm-svk-fin-2025",
         "locator": {
@@ -925,8 +951,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       },
@@ -944,8 +971,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -963,8 +991,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -982,14 +1011,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "SVK-problems-005",
-        "statement": "An ethnographic study in three private paediatric clinics in Bratislava Region (2023-2025) found nine types of discriminatory practice towards Roma caregivers, which staff framed as caring and pragmatic; the findings are qualitative and from a small number of clinics.",
+        "statement": "A 2023-2025 ethnographic study in three private paediatric clinics in Bratislava Region, based on observation and interviews with staff, identified nine types of discriminatory practice towards Roma caregivers, including mockery, underestimation, biased clinical decisions and informal gatekeeping; it covers only three clinics.",
         "valence": "weakness",
         "source_id": "roma-2026",
         "locator": {
@@ -1000,8 +1030,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1019,8 +1050,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -1040,8 +1072,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1059,14 +1092,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "SVK-reforms-003",
-        "statement": "A pharmaceutical reimbursement reform approved by the government in May 2026 would make reimbursement of exception medicines a legal entitlement once clinical criteria are met, remove the 3.9% spending cap and make criteria uniform across the three insurers; as of the source's July 2026 update it had passed first reading with a final vote expected in September 2026.",
+        "statement": "A pharmaceutical reimbursement reform prepared by the Ministry of Health was approved by the government on 6 May 2026 and sent to parliament the next day; it amends the law on reimbursement of medicines, medical devices and dietetic foods with 133 changes, passed first reading on 10 June 2026, with the final vote expected in September 2026.",
         "valence": "neutral",
         "source_id": "hspm-svk-stat",
         "locator": {
@@ -1077,8 +1111,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2026
       },
@@ -1096,14 +1131,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "SVK-reforms-005",
-        "statement": "The General Outpatient Care Strategy to 2030, approved in January 2023, funded one-off grants of up to EUR 80,000 for new GP practices in underserved areas, and by 2025 the budget was fully allocated across more than 150 successful applications.",
+        "statement": "Recovery and Resilience Plan money in 2023 (over EUR 10 million) funded one-off grants of up to EUR 80,000 for new GP practices in underserved areas; by 2025 the programme budget was fully allocated, funding more than 150 successful applications.",
         "valence": "neutral",
         "source_id": "chp-svk-2025",
         "locator": {
@@ -1115,8 +1151,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": 2025
       }
@@ -1124,7 +1161,7 @@
     "us_lessons": [
       {
         "id": "SVK-us_lessons-001",
-        "statement": "A cross-country study of the US and ten other high-income countries (Slovakia is not among them) found US spending roughly twice as high with broadly similar utilisation; higher prices for labour and goods, including medicines, and administrative costs appeared to drive the gap.",
+        "statement": "A cross-country study comparing the US with other high-income countries found US spending roughly twice as high with broadly similar utilisation; higher prices for labour and goods, including medicines, and administrative costs appeared to drive the gap.",
         "valence": "neutral",
         "source_id": "papanicolas-2018",
         "locator": {
@@ -1135,8 +1172,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
         },
         "data_year": "2013-2016"
       }
@@ -1236,6 +1274,10 @@
     {
       "date": "2026-11-20",
       "note": "Profile created."
+    },
+    {
+      "date": "2026-11-20",
+      "note": "Support review by Opus: 18 of 59 claims failed first round and were rewritten or dropped; rewritten claims passed re-review."
     }
   ]
 }

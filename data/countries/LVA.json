@@ -3,7 +3,7 @@
   "name": "Latvia",
   "wave": 4,
   "system_as_of": "2026-11-20",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "national_health_service",
     "label": "Tax-funded national health service with a single purchaser (the National Health Service) contracting public and private providers; patient co-payments and high out-of-pocket spending"
@@ -31,8 +31,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -49,14 +50,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "LVA-overview-003",
-        "statement": "Entitlement follows residence, and the state pays for every service except those placed on an exclusion list (a negative list); care is delivered by state, municipal and private providers.",
+        "statement": "Entitlement rests on the residence principle, and the state pays for all services except those placed on an exclusion (negative) list.",
         "valence": "neutral",
         "source_id": "vm-system",
         "locator": {
@@ -67,14 +69,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2020
       },
       {
         "id": "LVA-overview-004",
-        "statement": "The National Health Service acts as the single purchaser and contracts both public and private providers; most primary care is private, secondary care is split about evenly between public and private clinics, and tertiary care is mostly public.",
+        "statement": "Most primary care is run by private providers contracted by the National Health Service. Secondary care is a roughly even mix of public and private clinics, and tertiary care is mostly public.",
         "valence": "neutral",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -85,8 +88,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -105,26 +109,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "LVA-financing-002",
-        "statement": "Households' out-of-pocket payments were 35% of health spending in 2023, among the highest shares in the EU, where the average was 16%.",
+        "statement": "Out-of-pocket payments were 35% of health spending in 2023, more than twice the EU average of 16%.",
         "valence": "weakness",
         "source_id": "chp-lva-2025",
         "locator": {
-          "page": 8,
-          "char_start": 49344,
-          "char_end": 49479,
-          "passage_sha256": "5280785f52c96d9c40e5639d98793afec87ad9f919d5a49ebffed270b0aaccb0"
+          "page": 15,
+          "char_start": 97649,
+          "char_end": 97779,
+          "passage_sha256": "5ba14d47496e1b998d84aba4f8312ae01423225eb529d03074a16a3ea6386884"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -141,14 +147,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2026
       },
       {
         "id": "LVA-financing-004",
-        "statement": "Parliament approves the health budget each year and sets its allocation by Ministry of Health priorities; about 85% goes to purchasing services through the National Health Service, and the rest funds emergency care, sector management and public health activities run by the Ministry.",
+        "statement": "Parliament sets the allocation of the government health budget by Ministry of Health priorities; around 85% goes to purchasing services through the National Health Service, and the rest funds emergency care, sector management and public health activities.",
         "valence": "neutral",
         "source_id": "hss-lva-2024",
         "locator": {
@@ -159,8 +166,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -179,8 +187,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -197,8 +206,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -215,8 +225,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -233,14 +244,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "LVA-covered-005",
-        "statement": "Decisions on reimbursing medicines draw on economic evaluation and budget impact analysis, and the National Health Service decides reimbursement and prices.",
+        "statement": "Reimbursement decisions for medicines rest on economic evaluation and budget impact analysis.",
         "valence": "neutral",
         "source_id": "hss-lva-2024",
         "locator": {
@@ -251,8 +263,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -271,8 +284,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -289,14 +303,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "LVA-cost_sharing-003",
-        "statement": "Patient fees do not apply to children under 18, to pregnancy and post-natal care, to people in the first disability group, or to emergency ambulance care, and the list also covers recognised poor persons and preventive screening and vaccination.",
+        "statement": "Patient fees do not apply to children up to 18, nor to pregnant women, and women up to 42 days after birth, for services related to pregnancy and post-natal examination.",
         "valence": "neutral",
         "source_id": "vmnvd-copay",
         "locator": {
@@ -307,8 +322,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -325,14 +341,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "LVA-cost_sharing-005",
-        "statement": "Patients pay co-payments even for essential services such as GP and specialist visits, hospital stays and prescribed medicines; annual caps and per-stay limits exist, but cost-sharing still blocks access for lower-income households despite exemptions for some groups.",
+        "statement": "Patients pay co-payments even for essential services such as GP and specialist visits, hospital stays and prescribed medicines. Annual caps and per-stay limits exist, but cost-sharing still creates financial barriers, particularly for lower-income households, despite exemptions for some groups.",
         "valence": "weakness",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -343,17 +360,38 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       }
     ],
-    "financial_hardship": [],
+    "financial_hardship": [
+      {
+        "id": "LVA-financial_hardship-002",
+        "statement": "26.8% of respondents to a national survey were somewhat or very confident they could afford good-quality care if they were very sick.",
+        "valence": "weakness",
+        "source_id": "pv-13699942",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2429,
+          "char_end": 2582,
+          "passage_sha256": "49fd98b26d71c6f3e60c704c9c2d5034bc260af2f00d3920fe92f9850f0bdfe2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      }
+    ],
     "additional_care": [
       {
         "id": "LVA-additional_care-001",
-        "statement": "Because publicly financed benefits are limited, patients either pay privately or rely on supplementary voluntary health insurance.",
+        "statement": "Narrow public benefits help drive high private spending: many patients cover costs themselves or buy supplementary voluntary insurance.",
         "valence": "neutral",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -364,14 +402,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "LVA-additional_care-002",
-        "statement": "Voluntary health insurance paid for 5% of health spending in 2023; higher earners and employers buy it mainly to get quicker access to private services.",
+        "statement": "Voluntary health insurance paid for 5% of health spending in 2023; higher earners and employers buy it for quicker access to private services.",
         "valence": "neutral",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -382,8 +421,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -402,26 +442,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "LVA-access-002",
-        "statement": "Among people at risk of poverty with care needs, 18.2% reported unmet medical needs (EU average 6.0%) and 36.3% unmet dental needs (EU average 13.6%) in 2024.",
+        "statement": "In 2024, among people at risk of poverty with care needs, 18.2% reported unmet medical needs (EU average 6.0%) and 36.3% unmet dental needs (EU average 13.6%).",
         "valence": "weakness",
         "source_id": "chp-lva-2025",
         "locator": {
           "page": 13,
-          "char_start": 79874,
-          "char_end": 80168,
-          "passage_sha256": "806a9f9f5d3dafbc4e2f5b67d6662b4387c83b46f0505c8eed01a1b5ecb6c3af"
+          "char_start": 79360,
+          "char_end": 80167,
+          "passage_sha256": "c5719cc4b6ba9b24e0378f925005bfe86c067e873d346f38c4d3686647651da5"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -438,8 +480,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -456,14 +499,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "LVA-access-005",
-        "statement": "Services concentrate in cities: about 52% of GP practices are in the Greater Riga area, and access to primary and specialist care falls with distance from Riga.",
+        "statement": "About 52% of GP practices are in the Greater Riga area, and primary care access falls with distance from Riga.",
         "valence": "weakness",
         "source_id": "hss-lva-2024",
         "locator": {
@@ -474,8 +518,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -492,28 +537,11 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
-      },
-      {
-        "id": "LVA-access-007",
-        "statement": "Latvia had 4.2 nurses per 1,000 people in 2023, half the EU average of 8.5.",
-        "valence": "weakness",
-        "source_id": "chp-lva-2025",
-        "locator": {
-          "page": 10,
-          "char_start": 58624,
-          "char_end": 58732,
-          "passage_sha256": "158cfc13b71a9610eeec55b9e2c2e2c263f9845ce0631738745ece3b4fc2cc88"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
-        },
-        "data_year": 2023
       }
     ],
     "outcomes": [
@@ -530,8 +558,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -548,8 +577,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -566,14 +596,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2022
       },
       {
         "id": "LVA-outcomes-004",
-        "statement": "Treatable mortality, deaths that timely care could mostly avert, was 201 per 100,000 in 2022, more than twice the EU average of 90.",
+        "statement": "Treatable mortality was 201 per 100,000 in 2022, more than twice the EU average of 90.",
         "valence": "weakness",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -584,28 +615,11 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2022
-      },
-      {
-        "id": "LVA-outcomes-005",
-        "statement": "In the GBD 2019 study, Latvia's Healthcare Access and Quality Index score for ages 0-74 was 69.5 (uncertainty interval 67.1-71.6) in 2019, 12.9 points above its 1990 level.",
-        "valence": "neutral",
-        "source_id": "gbd-haq-2019",
-        "locator": {
-          "section": "Full text",
-          "char_start": 39079,
-          "char_end": 39184,
-          "passage_sha256": "82020ddba51d32974c9e3d157b1aca6ab8324658a028ee24d9873300b34e4a38"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
-        },
-        "data_year": 2019
       },
       {
         "id": "LVA-outcomes-006",
@@ -620,28 +634,11 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2022
-      },
-      {
-        "id": "LVA-outcomes-007",
-        "statement": "A study using Emilia-Romagna (Italy) as benchmark estimated that 41.5 per 100,000 Latvians died in 2016 of cardiovascular causes amenable to care; about half had no acute-care contact and the other half reached hospital but received suboptimal care.",
-        "valence": "weakness",
-        "source_id": "cvd-lva-2022",
-        "locator": {
-          "section": "Full text",
-          "char_start": 3093,
-          "char_end": 3395,
-          "passage_sha256": "0a332b454089af61e9e53e4cd63adf8298c2f2c6923ba1ea85d1eef7c04368ba"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
-        },
-        "data_year": 2016
       }
     ],
     "costs": [
@@ -658,8 +655,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -676,8 +674,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -694,8 +693,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -712,8 +712,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -732,8 +733,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -750,8 +752,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -768,8 +771,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -786,14 +790,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "LVA-what_works-005",
-        "statement": "Since 2018 contracted providers can identify eligible women and invite them to breast and cervical screening without a letter, and GPs earn extra payments for screening coverage in their practice lists.",
+        "statement": "Since 2018 contracted providers can identify eligible women so they can attend screening without an invitation letter; GPs also earn extra payments for screening based on coverage of their eligible patients.",
         "valence": "strength",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -804,8 +809,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2018
       },
@@ -822,14 +828,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "LVA-what_works-007",
-        "statement": "Deaths from preventable causes fell by around 20% between 2012 and 2019, before COVID-19 deaths interrupted the trend.",
+        "statement": "Deaths from preventable causes fell by around 20% between 2012 and 2019.",
         "valence": "strength",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -840,8 +847,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2019
       }
@@ -860,8 +868,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -878,8 +887,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -896,28 +906,11 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
-      },
-      {
-        "id": "LVA-problems-004",
-        "statement": "In 2021 Latvia recorded the highest 30-day in-hospital mortality after heart attack and stroke among the Baltic states, Poland and Slovenia, and mortality varies widely between regions.",
-        "valence": "weakness",
-        "source_id": "hss-lva-2024",
-        "locator": {
-          "page": 14,
-          "char_start": 32882,
-          "char_end": 33172,
-          "passage_sha256": "b67f2d248be862551236d48c179c3c195e3994cefbf347dd03d2e43634956c5d"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
-        },
-        "data_year": 2021
       },
       {
         "id": "LVA-problems-005",
@@ -932,8 +925,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -950,8 +944,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -970,8 +965,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": "2017-2021",
         "historical": true
@@ -989,34 +985,16 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": "2018-2021",
         "historical": true
       },
       {
-        "id": "LVA-reforms-003",
-        "statement": "In 2018 the government added EUR 200 million to health funding, which raised health expenditure by 29% compared with 2017.",
-        "valence": "neutral",
-        "source_id": "hss-lva-2024",
-        "locator": {
-          "page": 4,
-          "char_start": 6057,
-          "char_end": 6215,
-          "passage_sha256": "b0c124da4a357423b4c4fab0e56bfa64d395e9193a98188130a4c1a978c2d16f"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
-        },
-        "data_year": "2018",
-        "historical": true
-      },
-      {
         "id": "LVA-reforms-004",
-        "statement": "To ease nursing shortages Latvia created a new 'general care nurse' role with dedicated funding of EUR 2.8 million.",
+        "statement": "To address staffing gaps Latvia created a new 'general care nurse' role with dedicated funding of EUR 2.8 million.",
         "valence": "neutral",
         "source_id": "chp-lva-2025",
         "locator": {
@@ -1027,8 +1005,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1045,8 +1024,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-20"
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -1075,34 +1055,6 @@
       "year": 2024,
       "url": "https://iris.who.int/server/api/core/bitstreams/a9db5adf-fbdb-4cac-a813-58fe56b48674/content",
       "accessed": "2026-11-20"
-    },
-    {
-      "id": "gbd-haq-2019",
-      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
-      "publisher": "The Lancet Global Health",
-      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
-      "tier": 2,
-      "type": "peer_reviewed",
-      "year": 2022,
-      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
-      "doi": "10.1016/S2214-109X(22)00429-6",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
-      "accessed": "2026-11-20",
-      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation). The paper reports scores for Latvia but states no rank."
-    },
-    {
-      "id": "cvd-lva-2022",
-      "title": "Excess Cardiovascular Mortality in Latvia: A Novel Approach Based on Patient-Level Data to Estimate the Separate Contributions of Primary Prevention, Accessibility and Quality of Hospital Care",
-      "publisher": "International Journal of Health Policy and Management",
-      "authors": "Lenzi J, Reno C, Skrule J, Lepiksone J, Brigis G, Dudele A, Fantini MP",
-      "tier": 2,
-      "type": "peer_reviewed",
-      "year": 2022,
-      "url": "https://doi.org/10.34172/ijhpm.2020.229",
-      "doi": "10.34172/ijhpm.2020.229",
-      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9309914",
-      "accessed": "2026-11-20",
-      "funding_note": "Uses 2016 hospital administrative data; a study of one year, benchmarked against Emilia-Romagna (Italy)."
     },
     {
       "id": "vmnvd-copay",
@@ -1136,6 +1088,21 @@
       "url": "https://vsaa.gov.lv/en/contributions-0",
       "accessed": "2026-11-20",
       "funding_note": "Official agency page; English text is machine-translated."
+    },
+    {
+      "id": "pv-13699942",
+      "title": "Perceived quality and confidence in the healthcare system: People's Voice survey results in Latvia",
+      "publisher": "European Journal of Public Health (19th European Public Health Conference abstract)",
+      "authors": "Kukoja K, Villerusa A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/eurpub/ckag169.1564",
+      "doi": "10.1093/eurpub/ckag169.1564",
+      "license": "CC BY-NC",
+      "accessed": "2026-11-20",
+      "funding_note": "Conference abstract; same survey as pv-13697582.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13699942"
     }
   ],
   "rankings": [],
@@ -1143,6 +1110,10 @@
     {
       "date": "2026-11-20",
       "note": "Profile created."
+    },
+    {
+      "date": "2026-11-20",
+      "note": "Run 2 on this branch: added 2 survey sources and a financial-hardship claim; Opus support review: 24 of 59 claims failed, 4 deleted and 20 rewritten; 3 failed again and were deleted, 2 narrowed."
     }
   ]
 }

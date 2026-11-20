@@ -6,6 +6,8 @@ the original source organization (e.g. WHO Global Health Expenditure Database).
 
   python scripts/fetch_indicators.py              # every country in config/countries.json
   python scripts/fetch_indicators.py DEU JPN MEX  # selected countries
+  python scripts/fetch_indicators.py --oecd-only  # refresh only the OECD entries of existing files
+                                                  # (OECD_CACHE=<dir> reuses downloaded <dataflow id>.csv files)
 
 Writes data/indicators/<ISO3>.json.
 """
@@ -76,6 +78,11 @@ def oecd_rows(dataflow: str, start: int, session) -> list[dict]:
     if dataflow not in _oecd_cache:
         import csv
         import io
+        import os
+        cached = Path(os.environ.get("OECD_CACHE", "/nonexistent")) / (dataflow.split(",")[1] + ".csv")
+        if cached.exists():
+            _oecd_cache[dataflow] = list(csv.DictReader(io.StringIO(cached.read_text(encoding="utf-8-sig"))))
+            return _oecd_cache[dataflow]
         url = f"{OECD}/{dataflow}/all?startPeriod={start}&dimensionAtObservation=AllDimensions&format=csvfilewithlabels"
         resp = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=180)
         resp.raise_for_status()
@@ -177,6 +184,39 @@ def get_json(url: str, session, attempts: int = 4, timeout: int = 90):
     raise last
 
 
+def oecd_records(iso3: str, start: int, session) -> list[dict]:
+    recs = []
+    for ind in CONFIG.get("oecd", []):
+        latest = oecd_latest(oecd_rows(ind["dataflow"], start, session), iso3, ind["filters"])
+        if latest and latest["year"] < dt.date.today().year - MAX_DATA_AGE_YEARS:
+            latest = None
+        recs.append({
+            "id": ind["id"],
+            "label": ind["label"],
+            "unit": ind["unit"],
+            "group": ind["group"],
+            "value": latest["value"] if latest else None,
+            "year": latest["year"] if latest else None,
+            "original_source": "OECD Health Statistics",
+            "api_url": f"{OECD}/{ind['dataflow']}/all",
+        })
+    return recs
+
+
+def refresh_oecd(path: Path, session) -> None:
+    """Replace a saved country file's OECD entries with the current config, keeping everything else."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    oecd_ids = {i["id"] for i in CONFIG.get("oecd", [])}
+    start = dt.date.today().year - CONFIG["lookback_years"]
+    kept = [i for i in data["indicators"] if i["id"] not in oecd_ids]
+    new = oecd_records(data["iso3"], start, session)
+    derived_ids = {d["id"] for d in CONFIG.get("derived", [])}
+    head = [i for i in kept if i["id"] not in derived_ids]
+    tail = [i for i in kept if i["id"] in derived_ids]
+    data["indicators"] = head + new + tail
+    path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+
+
 def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
     end = dt.date.today().year
     start = end - CONFIG["lookback_years"]
@@ -229,19 +269,7 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
             "original_source": "World Health Organization, Global Health Observatory",
             "api_url": url,
         })
-    for ind in CONFIG.get("oecd", []):
-        rows = oecd_rows(ind["dataflow"], start, session)
-        latest = oecd_latest(rows, iso3, ind["filters"])
-        out["indicators"].append({
-            "id": ind["id"],
-            "label": ind["label"],
-            "unit": ind["unit"],
-            "group": ind["group"],
-            "value": latest["value"] if latest else None,
-            "year": latest["year"] if latest else None,
-            "original_source": "OECD Health Statistics",
-            "api_url": f"{OECD}/{ind['dataflow']}/all",
-        })
+    out["indicators"] += oecd_records(iso3, start, session)
     byid = {i["id"]: i for i in out["indicators"]}
     for d in CONFIG.get("derived", []):
         rec = derived.evaluate(d["formula"], byid)
@@ -264,9 +292,14 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
 def main(argv: list[str]) -> int:
     import requests
 
+    session = requests.Session()
+    if argv[:1] == ["--oecd-only"]:
+        for path in sorted(OUT.glob("*.json")):
+            refresh_oecd(path, session)
+            print(f"{path.stem}: OECD entries refreshed")
+        return 0
     codes = [c.upper() for c in argv] or all_countries()
     OUT.mkdir(parents=True, exist_ok=True)
-    session = requests.Session()
     meta_cache: dict = {}
     for iso3 in codes:
         if iso3 in UNSUPPORTED:

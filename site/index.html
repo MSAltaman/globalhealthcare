@@ -196,7 +196,7 @@ const SECTIONS = [
   ["what_works", "What works"], ["problems", "What doesn't"], ["reforms", "Recent reforms"],
   ["us_lessons", "Evidence for the US"]
 ];
-const GROUPS = { context: "Context", costs: "Spending", coverage: "Coverage", hardship: "Financial hardship from health costs", outcomes: "Outcomes", access: "Capacity" };
+const GROUPS = { context: "Context", costs: "Spending", coverage: "Coverage", hardship: "Financial hardship from health costs", outcomes: "Outcomes", access: "Capacity", primary: "Primary care", workforce: "Doctors and nurses" };
 const BASELINE = "USA";
 const cache = {};
 
@@ -228,7 +228,9 @@ function ledger(country, base, iso3) {
   if (!country) return '<p class="empty">Statistics not yet pulled for this country.</p>';
   const baseById = Object.fromEntries((base?.indicators || []).map(i => [i.id, i]));
   let rows = "", group = "";
-  for (const i of country.indicators) {
+  const order = Object.keys(GROUPS);
+  const sorted = [...country.indicators].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group));
+  for (const i of sorted) {
     if (i.group !== group) { group = i.group; rows += `<tr class="group"><td colspan="3">${esc(GROUPS[group] || group)}</td></tr>`; }
     const b = baseById[i.id];
     const u = unitLabel(i.unit);

@@ -163,11 +163,21 @@ def compute(data: dict[str, dict], countries: list[str], today: dt.date | None =
             "rank_range": [pct(samples[c], 0.05), pct(samples[c], 0.95)] if c in samples else None,
             "domains": {d: round(s, 1) for d, s in domain_scores[c].items()},
             "missing_domains": [d["id"] for d in CFG["domains"] if d["id"] not in domain_scores[c]],
+            # Measures the method uses that had no current value for this country.
+            "missing_indicators": [i["id"] for d in CFG["domains"] for i in d["indicators"]
+                                   if i["id"] not in detail[c].get(d["id"], {})],
             "indicators": detail[c],
         }
         rows.append(row)
     rows.sort(key=lambda r: (r["rank"] is None, r["rank"] or 0))
     return {"rows": rows, "ranked": len(base)}
+
+
+def indicator_labels() -> dict[str, str]:
+    """Plain labels for every indicator the scoring method uses, from config/indicators.json."""
+    cfg = json.loads((ROOT / "config" / "indicators.json").read_text(encoding="utf-8"))
+    labels = {i["id"]: i["label"] for group in ("world_bank", "who_gho", "oecd") for i in cfg.get(group, [])}
+    return {i["id"]: labels.get(i["id"], i["id"]) for d in CFG["domains"] for i in d["indicators"]}
 
 
 def main() -> None:
@@ -185,6 +195,7 @@ def main() -> None:
         "computed": dt.date.today().isoformat(),
         "countries_compared": len(countries),
         "domains": [{k: d[k] for k in ("id", "label", "weight", "question")} for d in CFG["domains"]],
+        "indicator_labels": indicator_labels(),
         "scaling": CFG.get("scaling", {}),
         "not_yet_scored": CFG["not_yet_scored"],
         "excluded_countries": excluded,

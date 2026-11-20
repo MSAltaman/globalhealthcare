@@ -1,0 +1,703 @@
+{
+  "iso3": "SVN",
+  "name": "Slovenia",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "draft",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Statutory social health insurance run by a single national fund, with a flat compulsory contribution replacing complementary insurance since 2024"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "SVN-overview-001",
+        "statement": "Slovenia runs a statutory, employment-based social health insurance system that offers universal coverage, with the Health Insurance Institute acting as the single purchaser of care.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44970,
+          "char_end": 45677,
+          "passage_sha256": "b71b1a9af76236b70307951f95df0b125a037bd66edffe157fae75c7d8a8d161"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-overview-002",
+        "statement": "Mandatory social health insurance was set up in 1992 and runs through one national fund, the Health Insurance Institute of Slovenia, which is funded mainly by payroll-based contributions and covers over 99% of the population.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "1. Introduction",
+          "page": 18,
+          "char_start": 26783,
+          "char_end": 27083,
+          "passage_sha256": "497e8dd2f70f226840e1a68a32f5a512c766628233e3b92cacb23435c733d874"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-overview-003",
+        "statement": "Primary care is delivered through municipal community health centres with multidisciplinary teams, and GPs act as gatekeepers to specialist and hospital care; some private providers work inside the public system under contracts with the Health Insurance Institute.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45678,
+          "char_end": 46124,
+          "passage_sha256": "3c93427722cb001a06f91c747cefab8ac1057d532a63e064ea33124d576a9c88"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-overview-004",
+        "statement": "Entitlement to the full range of publicly financed care depends on legal residence and on paying the mandatory contributions to the Health Insurance Institute, and people must register in one of 25 entitlement categories.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 26,
+          "char_start": 40300,
+          "char_end": 40631,
+          "passage_sha256": "db5500f6b5bd00221d3725022ced7817aba87900da5151b25e087c6a08c6b2ef"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "SVN-financing-001",
+        "statement": "In 2023 public sources paid 74% of current health spending in Slovenia, against an EU average of 80%; voluntary health insurance (historically complementary cover for co-payments) accounted for 14% and household out-of-pocket payments for 12%, using the OECD health accounts' categories.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 46915,
+          "char_end": 47172,
+          "passage_sha256": "bd0d77cd917c3061dfd9bad8b80284b658a2614dda23cb804d45da0116ca8d6c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-financing-002",
+        "statement": "WHO's figures for 2023 put voluntary health insurance at 12% of current health spending, the highest share in Europe, and out-of-pocket payments at 13%; WHO's source is its own global health expenditure database.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 / Introduction",
+          "page": 18,
+          "char_start": 28274,
+          "char_end": 28517,
+          "passage_sha256": "a869ecc0cf35d1a667d46e8474ece01575d3fe63975b3cb3cd4615fa7350a661"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-financing-003",
+        "statement": "Public spending on health was 7.1% of GDP in 2023, similar to the EU average but below countries with comparable income per person such as Czechia or Spain.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "1. Introduction",
+          "page": 18,
+          "char_start": 28702,
+          "char_end": 28980,
+          "passage_sha256": "912fef0c738d44e1e046ff27d632e07e4df867dd427ef15cbddf62714c7c2a9c"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-financing-004",
+        "statement": "Social health insurance contributions are the largest source of health revenue; they are set in the 1992 Health Care and Health Insurance Act, are levied on gross income and have stayed unchanged since 2002.",
+        "valence": "neutral",
+        "source_id": "hit-svn-2021",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 83,
+          "char_start": 157991,
+          "char_end": 158212,
+          "passage_sha256": "166cd58d43ec11e3bd5779b7089b9d4d40257b25b1493bc3c1fc86fdde429f0a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "SVN-financing-005",
+        "statement": "In 2019 government budgets provided 3.4% of current health expenditure and social health insurance 69.4%, according to Eurostat figures cited by the Observatory.",
+        "valence": "neutral",
+        "source_id": "hspm-svn-2022",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 3320,
+          "char_end": 3404,
+          "passage_sha256": "4ec14d2ed54fedffa393dd79b3a8a3ebb809b99dd14b255d4165a1d3072739f0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "SVN-financing-006",
+        "statement": "General national and municipal taxation pays for capital investment and national public health programmes such as cancer screening, and finances cover for socially vulnerable groups.",
+        "valence": "neutral",
+        "source_id": "hspm-svn-2022",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 3679,
+          "char_end": 3905,
+          "passage_sha256": "5ba35e72b4e66af352b3e81c14b1e407b8dcd4968d54b601af1619018b8b8eb1"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "SVN-financing-007",
+        "statement": "In 2023 roughly 45% of the population was covered through contributions paid on their own earnings, about 30% through state-paid contributions (for example pensioners, registered unemployed people and social benefit recipients), about 25% as dependants, and under 3% through an annual flat-rate payment.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 26,
+          "char_start": 40632,
+          "char_end": 41387,
+          "passage_sha256": "bbf44b3f3357bc023d1fe95bf2db31605033a24a5f7231cca6408a9996a6a75a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-financing-008",
+        "statement": "Since 2024 a fixed compulsory health contribution, set at EUR 37.17 per month in 2025, replaces complementary voluntary insurance premiums; it is charged on all incomes in addition to regular social health insurance contributions, with children and students up to age 26 exempt.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 90078,
+          "char_end": 90550,
+          "passage_sha256": "5b392a08f6ef6f2d2ff0cb1091731313384cc0fb9a246adc84259cd0579af36a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-financing-009",
+        "statement": "The compulsory health contribution is adjusted yearly in line with the previous year's average salary growth, and the state budget pays the contributions for socially vulnerable and other designated groups.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 90552,
+          "char_end": 90806,
+          "passage_sha256": "407eb970e7fce18eb9d72531bd74f7d151127369e8f5fda467988741684c5f9a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-financing-010",
+        "statement": "The flat-rate contribution was about EUR 37 per person per month in 2025, up from EUR 35 in 2024, and as of early June 2025 no decision had been taken on linking it to income.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 27,
+          "char_start": 44643,
+          "char_end": 44877,
+          "passage_sha256": "15c196c8e4602a2196dafb95df5d69211d66409c24ee64c42995a86de8e1aa99"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-financing-011",
+        "statement": "Parliament adopted amendments to the Health Care and Health Insurance Act on 6 July 2023 that abolished complementary health insurance and replaced it from 1 January 2024 with a fixed compulsory contribution (then EUR 35 a month) collected on all incomes; the Finance Ministry committed to cover potential losses on the scheme up to EUR 240 million.",
+        "valence": "neutral",
+        "source_id": "hspm-svn-cohi",
+        "locator": {
+          "section": "Complementary health insurance abolished",
+          "char_start": 661,
+          "char_end": 1739,
+          "passage_sha256": "dd5479174f16f6fe1375a4b5b999df9ae42bd2f18dc4c4c547e309a8e918f36d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-financing-012",
+        "statement": "Before the 2024 abolition, about 73% of residents held complementary voluntary insurance in 2018, and its premiums came to EUR 525.8 million, or 14% of total health spending.",
+        "valence": "neutral",
+        "source_id": "hspm-svn-2022",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 4383,
+          "char_end": 4684,
+          "passage_sha256": "0cae303a029041a40a0f0beb5528256dddf8726df4f9ac741cebd2d0739f2f2e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "SVN-financing-013",
+        "statement": "The 2023 Long-term Care Act sets up compulsory long-term care insurance paid for by employers and employees, who each contribute 1% of salary, with an additional EUR 190 million a year coming from the national budget.",
+        "valence": "neutral",
+        "source_id": "hspm-svn-2022",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 7960,
+          "char_end": 8379,
+          "passage_sha256": "fa600a0867998e945c33d5f72aad0485730f90f74de9f86e08a4e3bdfd57d734"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-financing-014",
+        "statement": "Employees paid 6.36% of their gross income towards social health insurance, as reported in the 2021 review.",
+        "valence": "neutral",
+        "source_id": "hit-svn-2021",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 83,
+          "char_start": 158359,
+          "char_end": 158421,
+          "passage_sha256": "bda982342067b25181261e6782730f586820d94b8901428af13e6d32bc20e449"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "SVN-financing-015",
+        "statement": "As reported in the 2021 review, the contribution for illness and injury out of work is 6.56% and a further 0.53% covers work injuries and occupational disease; together with the employee rate, 13.45% of gross income is collected per insured person.",
+        "valence": "neutral",
+        "source_id": "hit-svn-2021",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 84,
+          "char_start": 160281,
+          "char_end": 160447,
+          "passage_sha256": "45289c74aeaa9fca88b42dc180c6e66e40134b3d7c5ae20f1b6e0dc45fa2b64b"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "SVN-financing-016",
+        "statement": "A fixed monthly compulsory health contribution, EUR 37.17 in 2025, took the place of complementary voluntary insurance premiums from 2024. It is raised on every income, sits alongside the regular rate-based social health insurance contributions, and does not apply to children and students up to age 26.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 90078,
+          "char_end": 90550,
+          "passage_sha256": "5b392a08f6ef6f2d2ff0cb1091731313384cc0fb9a246adc84259cd0579af36a"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-financing-017",
+        "statement": "Amendments to the Health Care and Health Insurance Act, adopted on 6 July 2023, ended complementary health insurance. From 1 January 2024 a fixed compulsory payment (initially EUR 35 monthly) is raised on all incomes, and the Ministry of Finance agreed to absorb possible shortfalls of up to EUR 240 million.",
+        "valence": "neutral",
+        "source_id": "hspm-svn-cohi",
+        "locator": {
+          "section": "Complementary health insurance abolished",
+          "char_start": 661,
+          "char_end": 1739,
+          "passage_sha256": "dd5479174f16f6fe1375a4b5b999df9ae42bd2f18dc4c4c547e309a8e918f36d"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "SVN-covered-001",
+        "statement": "The publicly financed benefits package is set out broadly in the 1992 Act, is the same across the country, and includes dental care, orthodontics for children, physiotherapy and long-term care.",
+        "valence": "strength",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.2 Service coverage",
+          "page": 28,
+          "char_start": 46686,
+          "char_end": 47087,
+          "passage_sha256": "563b87e208fbe0708bbff9ad51df3efbaeaaa95c9e87f17cca4e5f01060a5f17"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-covered-002",
+        "statement": "Which medicines are covered is decided by the Minister of Health through positive and negative lists, and over-the-counter products are generally not covered.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.2 Service coverage",
+          "page": 28,
+          "char_start": 47088,
+          "char_end": 47398,
+          "passage_sha256": "70b493bab2b65bb9e5b88507b3c4f2c46d729416e00d55f1dbb3100c432a2d78"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-covered-003",
+        "statement": "Hearing aids, mobility aids and corrective lenses are included in public coverage, but limited public awareness, unclear procedures and misleading provider advertising can hinder access.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.2 Service coverage",
+          "page": 28,
+          "char_start": 47399,
+          "char_end": 47710,
+          "passage_sha256": "74b77f8b600113e81479a55c968c3125767287f175f7ed5fa8c4c3663aacfa41"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-covered-004",
+        "statement": "At the end of 2023 about 0.8% of people eligible for coverage (17,876) were not fully covered because they had not paid mandatory contributions, and 0.3% (5,666) had been in that position for over a year.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 27,
+          "char_start": 43022,
+          "char_end": 43270,
+          "passage_sha256": "a8530806ced8e2f463919094fd496887c09e353df7aff3c69a2eba007b403b5e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-covered-005",
+        "statement": "By the end of 2024 the number of people not fully covered because of unpaid contributions had fallen to 10,381 (about 0.5% of those eligible), down from 17,876 a year earlier.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 28,
+          "char_start": 46152,
+          "char_end": 46526,
+          "passage_sha256": "f9ee4ffd0fb68cc7e87eaf0e77c33d3bc18de636c019f0384280441a45ed9566"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVN-covered-006",
+        "statement": "Undocumented migrants are not eligible for coverage by the Health Insurance Institute, and adult asylum seekers can obtain most publicly financed care only after approval from the Asylum Centre Commission.",
+        "valence": "weakness",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 27,
+          "char_start": 42098,
+          "char_end": 42468,
+          "passage_sha256": "d98e520015d467428f9f8e5df979813c62d127bb923da0fdde173460e0a6f501"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-covered-007",
+        "statement": "The 2024 reform means that people who owe contributions lose full entitlement only once their debt exceeds EUR 177 (8% of the previous year's average gross monthly salary), and debts of adult dependants were forgiven when the new flat-rate contribution began.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.1 Population coverage",
+          "page": 28,
+          "char_start": 45604,
+          "char_end": 46151,
+          "passage_sha256": "628eaa672e5d67c204ac9f1579d0965c83ffec0aae98572f33c2e9d6c7b17fc0"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-covered-008",
+        "statement": "A new Slovenian Quality Health Care Agency was created to curb spending surges and promote value-based innovation through active use of health technology assessments.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 3,
+          "char_start": 7517,
+          "char_end": 7687,
+          "passage_sha256": "e102f882ac38954b0a52c31bd6cf830a7214b70692d0f702f94b44e918648a23"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "SVN-cost_sharing-001",
+        "statement": "Between 1993 and 2023 complementary voluntary insurance covered user charges for about 70% of the total population and about 95% of those liable to pay them.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "1. Introduction",
+          "page": 18,
+          "char_start": 27085,
+          "char_end": 27360,
+          "passage_sha256": "29941f7e76e02855e761014a9700bb42f22d06b3f3fbe3ce23c6a77f53be8b88"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-cost_sharing-002",
+        "statement": "In 2023 pharmaceuticals made up 38% of out-of-pocket payments, outpatient care 26% and dental care 11%.",
+        "valence": "neutral",
+        "source_id": "chp-svn-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 95625,
+          "char_end": 96139,
+          "passage_sha256": "265f31d5304795d5da430f25389a80ff0a6b330555d0788f359deb85c25a9a0f"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVN-cost_sharing-003",
+        "statement": "Most co-payments were abolished in January 2024. The ones that remain are the gap between retail and reference prices for outpatient medicines and medical products, and surcharges for non-standard materials in some dental treatment.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "1. Introduction",
+          "page": 18,
+          "char_start": 27646,
+          "char_end": 27907,
+          "passage_sha256": "88b9fb6ee03e906fc036c6b16352a1eef65087479a0ea2b102bd4084bee4068e"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVN-cost_sharing-004",
+        "statement": "In 2023 the reference-price charge on outpatient prescriptions was typically small: under EUR 3 in 59% of cases and under EUR 10 in 97%, and 13% of dispensed prescribed medicines carried such a charge.",
+        "valence": "neutral",
+        "source_id": "who-afford-svn-2025",
+        "locator": {
+          "section": "3.3 User charges",
+          "page": 31,
+          "char_start": 54343,
+          "char_end": 54449,
+          "passage_sha256": "8e3d46313afc397925b45852a5fd972d647b06c14f79e8b9482330e36aacae26"
+        },
+        "verification": {
+          "passage_found": "pending",
+          "supports": "pending"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [],
+    "outcomes": [],
+    "costs": [],
+    "what_works": [],
+    "problems": [],
+    "reforms": [],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/SVN.json",
+  "sources": [
+    {
+      "id": "chp-svn-2025",
+      "title": "State of Health in the EU: Slovenia, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-slovenia-final-web.pdf",
+      "accessed": "2026-11-20",
+      "content_sha256": "8be847a46fa5a8dacca79d8924c67f2e05863b3045c0cbb33784e891581b512f"
+    },
+    {
+      "id": "who-afford-svn-2025",
+      "title": "Can people afford to pay for health care? New evidence on financial protection in Slovenia",
+      "publisher": "WHO Regional Office for Europe (WHO Barcelona Office for Health Systems Financing)",
+      "authors": "Šarec E, Jošar D",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://www.umar.gov.si/fileadmin/user_upload/sporocila_za_javnost/2026/Sporocila_za_javnost/UMAR-WHO/Can_people_afford_to_pay.pdf",
+      "funding_note": "Funded by the Government of Catalonia and co-funded by the EU4Health programme; peer reviewed and shared with Slovenia's Ministry of Health for information.",
+      "accessed": "2026-11-20",
+      "content_sha256": "246d6435139a65027c9bed52a8de4d309d850861a575238763af64a51dbfdd43"
+    },
+    {
+      "id": "hit-svn-2021",
+      "title": "Slovenia: Health system review (Health Systems in Transition, vol. 23 no. 1)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Albreht T, Polin K, Pribaković Brinovec R, et al.",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2021,
+      "url": "https://www.ecoi.net/en/file/local/2063770/HiT-23-1-2021-eng.pdf",
+      "accessed": "2026-11-20",
+      "content_sha256": "36fd500d56429659a71bc8954a206514488b51162b0577fed22b445bb887f4df"
+    },
+    {
+      "id": "oecd-hag-2025",
+      "title": "Health at a Glance 2025: OECD Indicators",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-20",
+      "content_sha256": "486bdadb471533fadf9aef0dc93eddbbd1a6203a23b99d1ed28dbf228fc58930"
+    },
+    {
+      "id": "hspm-svn-2022",
+      "title": "Slovenia HiT profile, Health Systems and Policy Monitor: 3.2 Sources of revenue and financial flows (with 2023 updates)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/slovenia-2022/financing/sources-of-revenue-and-financial-flows",
+      "accessed": "2026-11-20",
+      "content_sha256": "e53410fbb128d9230c242c87d40eb2532eba111662e3139006eda7065d726761"
+    },
+    {
+      "id": "hspm-svn-cohi",
+      "title": "Slovenia: Complementary health insurance abolished (HSPM policy analysis, 15 September 2023)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Albreht T, Poldrugovac M",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/slovenia-2022/complementary-health-insurance-abolished",
+      "accessed": "2026-11-20",
+      "content_sha256": "bf0d1174ceaf99ce6755a030f753aca1ad2b93243fac1475096fc8fea9323e4c"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created."
+    }
+  ]
+}

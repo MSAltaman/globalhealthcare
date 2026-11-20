@@ -128,7 +128,6 @@ ol.sources li { padding-left: .25rem; }
 .rank-table th button.sort:focus-visible { outline: 2px solid var(--accent, currentColor); outline-offset: 2px; }
 .rank-table th .arrow { display: inline-block; width: .7em; }
 .rank-table td.sorted { font-weight: 600; }
-.rank-table abbr.partial { text-decoration: none; cursor: help; color: var(--accent); font-weight: 600; margin-left: .15rem; }
 .rank-table td .pos { display: inline-block; min-width: 2.2em; margin-left: .35rem; font-size: .72rem; font-weight: 400; color: var(--muted); text-align: left; }
 .bar { display: flex; align-items: center; gap: .5rem; justify-content: flex-end; }
 .bar i { display: block; height: .5rem; border-radius: 2px; background: var(--accent); }
@@ -348,9 +347,6 @@ async function renderRanking(index) {
     const arrow = on ? (aria === "ascending" ? "↑" : "↓") : "";
     return `<th class="${cls}" aria-sort="${aria}"><button type="button" class="sort${on ? " on" : ""}" data-key="${esc(key)}">${esc(label)}<span class="arrow" aria-hidden="true">${arrow}</span></button></th>`;
   };
-  const labels = scores.indicator_labels || {};
-  const partialNote = r => `Scored without ${r.missing_indicators.length} of ${Object.keys(labels).length} measures: ${r.missing_indicators.map(id => labels[id] || id).join("; ")}`;
-  const partialCount = scores.rows.filter(r => r.overall != null && r.missing_indicators?.length).length;
   const tableHTML = () => {
     const rows = sorted().map(r => {
       const prof = index.find(x => x.iso3 === r.iso3);
@@ -360,7 +356,7 @@ async function renderRanking(index) {
       return `<tr class="${r.iso3 === BASELINE ? "is-us" : ""}">
         <td class="mono">${r.rank ?? "—"}</td>
         <td>${name}${r.iso3 === BASELINE ? '<span class="tag">baseline</span>' : ""}</td>
-        <td><div class="bar"><span class="mono">${r.overall != null ? r.overall.toFixed(1) : "—"}${r.overall != null && r.missing_indicators?.length ? `<abbr class="partial" title="${esc(partialNote(r))}">*</abbr>` : ""}</span><span class="track"><i style="width:${pct}%"></i></span></div></td>
+        <td><div class="bar"><span class="mono">${r.overall != null ? r.overall.toFixed(1) : "—"}</span><span class="track"><i style="width:${pct}%"></i></span></div></td>
         <td class="mono">${rankRange(r)}</td>
         ${scores.domains.map(d => r.domains[d.id] != null
           ? `<td class="mono${rankSort.key === d.id ? " sorted" : ""}">${r.domains[d.id].toFixed(1)}<span class="pos">#${domainPos[d.id][r.iso3]}</span></td>`
@@ -379,7 +375,7 @@ async function renderRanking(index) {
     </div>
     <div style="display:grid;gap:.5rem">
       <p class="caption" style="margin:0">Select a column heading to sort by it. The # column always shows the overall rank; the small number beside each area score is the country's position in that area.</p>
-      ${partialCount ? `<p class="caption" style="margin:0"><b>*</b> Scored on fewer measures: no current value for one or more of the ${Object.keys(labels).length} measures (${partialCount} ${partialCount === 1 ? "country" : "countries"}). Hover or tap the asterisk to see which. Each area is still scored only when enough of its measures are present. <span class="tag" style="margin-left:0">limited evidence</span> The country's written profile rests on fewer than ${MIN_SOURCES} sources; its score uses the same official statistics as every other country.</p>` : ""}
+      <p class="caption" style="margin:0"><span class="tag" style="margin-left:0">limited evidence</span> The country's written profile rests on fewer than ${MIN_SOURCES} sources; its score uses the same official statistics as every other country.</p>
       <div class="rank-table" id="rank-table">${tableHTML()}</div>
     </div>
     <section style="display:grid;gap:.6rem">

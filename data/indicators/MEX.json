@@ -174,6 +174,86 @@
       "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_STAT@DF_AM,1.1/all"
     },
     {
+      "id": "OECD_SKIP_CONSULT_COST",
+      "label": "Adults who skipped a doctor's consultation because of cost (OECD survey)",
+      "unit": "% of adults",
+      "group": "hardship",
+      "value": null,
+      "year": null,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HCQO@DF_PE,2.1/all"
+    },
+    {
+      "id": "OECD_SKIP_MEDS_COST",
+      "label": "Adults who skipped prescribed medicines because of cost (OECD survey)",
+      "unit": "% of adults",
+      "group": "hardship",
+      "value": null,
+      "year": null,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HCQO@DF_PE,2.1/all"
+    },
+    {
+      "id": "OECD_DIABETES_ADM",
+      "label": "Avoidable hospital admissions for diabetes (good primary care prevents them), age 15+, age- and sex-standardised",
+      "unit": "per 100,000",
+      "group": "primary",
+      "value": 192.0,
+      "year": 2023,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HCQO@DF_PC,2.1/all"
+    },
+    {
+      "id": "OECD_PAY_SPECIALIST",
+      "label": "Salaried specialist doctors' pay, as a multiple of the average wage",
+      "unit": "x average wage",
+      "group": "workforce",
+      "value": 3.21,
+      "year": 2024,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_REMUN,1.1/all"
+    },
+    {
+      "id": "OECD_PAY_GP",
+      "label": "Salaried general practitioners' pay, as a multiple of the average wage",
+      "unit": "x average wage",
+      "group": "workforce",
+      "value": 2.44,
+      "year": 2024,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_REMUN,1.1/all"
+    },
+    {
+      "id": "OECD_PAY_NURSE",
+      "label": "Hospital nurses' pay, as a multiple of the average wage",
+      "unit": "x average wage",
+      "group": "workforce",
+      "value": 1.76,
+      "year": 2024,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_REMUN,1.1/all"
+    },
+    {
+      "id": "OECD_FOREIGN_DOCTORS",
+      "label": "Doctors trained abroad",
+      "unit": "% of doctors",
+      "group": "workforce",
+      "value": null,
+      "year": null,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_WFMI@DF_HEALTH_WFMI,1.0/all"
+    },
+    {
+      "id": "OECD_FOREIGN_NURSES",
+      "label": "Nurses trained abroad",
+      "unit": "% of nurses",
+      "group": "workforce",
+      "value": null,
+      "year": null,
+      "original_source": "OECD Health Statistics",
+      "api_url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_WFMI@DF_HEALTH_WFMI,1.0/all"
+    },
+    {
       "id": "GOV_HEALTH_PC",
       "label": "Government health spending per person (PPP)",
       "unit": "current international $",

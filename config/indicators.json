@@ -119,6 +119,112 @@
         "Sex": "Total",
         "Calculation methodology": "Standardised rate"
       }
+    },
+    {
+      "id": "OECD_SKIP_CONSULT_COST",
+      "label": "Adults who skipped a doctor's consultation because of cost (OECD survey)",
+      "unit": "% of adults",
+      "group": "hardship",
+      "dataflow": "OECD.ELS.HD,DSD_HCQO@DF_PE,2.1",
+      "filters": {
+        "Measure": "Consultation skipped due to costs",
+        "Statistical operation": "Weighted value",
+        "Sex": "Total",
+        "Income group": "Total"
+      }
+    },
+    {
+      "id": "OECD_SKIP_MEDS_COST",
+      "label": "Adults who skipped prescribed medicines because of cost (OECD survey)",
+      "unit": "% of adults",
+      "group": "hardship",
+      "dataflow": "OECD.ELS.HD,DSD_HCQO@DF_PE,2.1",
+      "filters": {
+        "Measure": "Prescribed medicines skipped due to costs",
+        "Statistical operation": "Weighted value",
+        "Sex": "Total",
+        "Income group": "Total"
+      }
+    },
+    {
+      "id": "OECD_DIABETES_ADM",
+      "label": "Avoidable hospital admissions for diabetes (good primary care prevents them), age 15+, age- and sex-standardised",
+      "unit": "per 100,000",
+      "group": "primary",
+      "dataflow": "OECD.ELS.HD,DSD_HCQO@DF_PC,2.1",
+      "filters": {
+        "Measure": "Diabetes hospital admission",
+        "Statistical operation": "Observed",
+        "Sex": "Total",
+        "Calculation methodology": "Age and sex standardised rate"
+      }
+    },
+    {
+      "id": "OECD_PAY_SPECIALIST",
+      "label": "Salaried specialist doctors' pay, as a multiple of the average wage",
+      "unit": "x average wage",
+      "group": "workforce",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_REMUN,1.1",
+      "filters": {
+        "Measure": "Annual income",
+        "Health profession": "Specialist medical practitioners",
+        "Worker status": "Employees",
+        "Unit of measure": "Factor of average annual wage"
+      }
+    },
+    {
+      "id": "OECD_PAY_GP",
+      "label": "Salaried general practitioners' pay, as a multiple of the average wage",
+      "unit": "x average wage",
+      "group": "workforce",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_REMUN,1.1",
+      "filters": {
+        "Measure": "Annual income",
+        "Health profession": "General practitioners",
+        "Worker status": "Employees",
+        "Unit of measure": "Factor of average annual wage"
+      }
+    },
+    {
+      "id": "OECD_PAY_NURSE",
+      "label": "Hospital nurses' pay, as a multiple of the average wage",
+      "unit": "x average wage",
+      "group": "workforce",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_REMUN,1.1",
+      "filters": {
+        "Measure": "Annual income",
+        "Health profession": "Hospital nurses",
+        "Worker status": "Employees",
+        "Unit of measure": "Factor of average annual wage"
+      }
+    },
+    {
+      "id": "OECD_FOREIGN_DOCTORS",
+      "label": "Doctors trained abroad",
+      "unit": "% of doctors",
+      "group": "workforce",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_WFMI@DF_HEALTH_WFMI,1.0",
+      "filters": {
+        "Measure": "Health workforce stock",
+        "Origin": "World",
+        "Place of training": "Foreign",
+        "Health profession": "Physicians",
+        "Unit of measure": "Percentage of workers in the same health profession"
+      }
+    },
+    {
+      "id": "OECD_FOREIGN_NURSES",
+      "label": "Nurses trained abroad",
+      "unit": "% of nurses",
+      "group": "workforce",
+      "dataflow": "OECD.ELS.HD,DSD_HEALTH_WFMI@DF_HEALTH_WFMI,1.0",
+      "filters": {
+        "Measure": "Health workforce stock",
+        "Origin": "World",
+        "Place of training": "Foreign",
+        "Health profession": "Nurses",
+        "Unit of measure": "Percentage of workers in the same health profession"
+      }
     }
   ],
   "oecd_financing": {

@@ -1,0 +1,1232 @@
+{
+  "iso3": "LVA",
+  "name": "Latvia",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "draft",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health service buying from public and private providers, with a state-paid minimum, a broader insurance-based package and heavy out-of-pocket spending"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "LVA-overview-003",
+      "LVA-overview-005"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "LVA-overview-001",
+        "statement": "Latvia pays for health care mainly from general taxation plus social security contributions. A single purchaser, the National Health Service, contracts with both public and private providers.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 47040,
+          "char_end": 47251,
+          "passage_sha256": "13b163dbdb89891c89bf5f93f38d0f07d3de31256f361f5232ccb925b6cc49c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-overview-002",
+        "statement": "Most primary care is delivered by private providers under contract to the National Health Service. Secondary care is split roughly evenly between public and private clinics, while the most specialised hospital care is mostly public.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 47449,
+          "char_end": 47852,
+          "passage_sha256": "813ef08e547cdf87b3f31382585c510a049f3e6d0ea5f7032350f2307e84ebe2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-overview-003",
+        "statement": "The 2025 country profile reports that the statutory system formally includes 100% of the population.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 47938,
+          "char_end": 48053,
+          "passage_sha256": "b333bd48123b5f00f88b51f8d7cc6a10395d7e43ffbaf72ed8b81b94921c6d5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-overview-004",
+        "statement": "In 2024 Latvia had about 1.87 million residents, 21% of them over 65 (EU: 22%). GDP per capita was EUR 28,031 in purchasing-power terms, against EUR 39,675 for the EU.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "Demographic and socioeconomic context",
+          "page": 2,
+          "char_start": 1105,
+          "char_end": 1281,
+          "passage_sha256": "ba7e29826e617eba94c5941476235c8021fb0330410b7b2f07ad46e5ffcc563c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LVA-overview-005",
+        "statement": "Latvia's Constitution commits the state to guarantee a basic level of medical assistance to everyone, and the Medical Treatment Law gives everyone a right to emergency medical care.",
+        "valence": "neutral",
+        "source_id": "hit-lva-2019",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "page": 79,
+          "char_start": 144904,
+          "char_end": 145279,
+          "passage_sha256": "98fbeaafcccb28dabc7988e495f0e1826af3aeb1f8831db3981d7490fc6a052d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      }
+    ],
+    "financing": [
+      {
+        "id": "LVA-financing-001",
+        "statement": "For an employee insured against all social risks, the mandatory state social insurance contribution rate is 34.09%: employers pay 23.59% and employees 10.50%. One percentage point of the total is allocated to funding health services.",
+        "valence": "neutral",
+        "source_id": "vsaa-contrib",
+        "locator": {
+          "section": "On contributions",
+          "char_start": 417,
+          "char_end": 670,
+          "passage_sha256": "851d98cf4790626d981af2a833e1332ec2c1b26bc42a637df95c8ffd3ad6d947"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LVA-financing-002",
+        "statement": "In 2026 the social insurance contribution base is capped at EUR 105,300 a year. Income above the cap is still charged contributions, but these go to the solidarity tax, which the State Revenue Service administers.",
+        "valence": "neutral",
+        "source_id": "vsaa-contrib",
+        "locator": {
+          "section": "On contributions: object of mandatory contributions",
+          "char_start": 3105,
+          "char_end": 3457,
+          "passage_sha256": "4a2977b37449056102151c546c8ab12c309563799330613501ce775b2c77c274"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LVA-financing-003",
+        "statement": "The law text sets the annual health insurance contribution for people who are not otherwise socially insured at five percent of twelve times the national minimum monthly wage, payable into the state budget.",
+        "valence": "neutral",
+        "source_id": "hcfl-lva",
+        "locator": {
+          "section": "Section 12",
+          "char_start": 20533,
+          "char_end": 20686,
+          "passage_sha256": "2bd97eda43254f79ec8edaa37ce8fcffe422c4c8e0861e5f7fc8a30dc6edb21b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-financing-004",
+        "statement": "Public funding paid for 59% of health spending in 2023, well below the EU average of 80%.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 49131,
+          "char_end": 49241,
+          "passage_sha256": "9d7eebd8fb9f0f76b1dd2a4f2c45d4d63d1d2a78dcf77e97f65d81d70e1fc019"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-financing-005",
+        "statement": "Voluntary health insurance, bought by higher earners and by employers offering fuller cover for quicker access to private services, paid for 5% of health spending in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 9,
+          "char_start": 49868,
+          "char_end": 50112,
+          "passage_sha256": "3ea0529cc8ddd35e76b585cc311e5f860f4f05f28ce447960d510a84a7b0bc38"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-financing-006",
+        "statement": "The Health Care Financing Law (English consolidated text current to December 2022; later amendments are not reflected) lists these revenue sources: state budget general revenue, a state budget share drawn from one percentage point of social insurance contributions, state-budgeted health insurance contributions, patient co-payments, EU funds, municipal budgets and the own revenue of public medical institutions.",
+        "valence": "neutral",
+        "source_id": "hcfl-lva",
+        "locator": {
+          "section": "Section 4",
+          "char_start": 3647,
+          "char_end": 4949,
+          "passage_sha256": "2d3b6790666d449e3be87c87dac394aac48945a4a2f17e0d5c95cf0be0915848"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-financing-007",
+        "statement": "A 2019 review reported that about 60% of health system revenue came from general, non-earmarked central taxation, collected by the national revenue service.",
+        "valence": "neutral",
+        "source_id": "hit-lva-2019",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "page": 77,
+          "char_start": 141482,
+          "char_end": 141617,
+          "passage_sha256": "7b4b79a12fb49e8bfff48aba1e7d92c02b51ff2f9e70b755f10fd2fe3a271837"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "LVA-financing-008",
+        "statement": "As of the 2019 review, all health care services were exempt from VAT, and residents could reclaim part of their income tax by declaring private medical payments, up to EUR 600 per household member and no more than half of taxable income. The review does not state what these subsidies cost.",
+        "valence": "neutral",
+        "source_id": "hit-lva-2019",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "page": 77,
+          "char_start": 142384,
+          "char_end": 142773,
+          "passage_sha256": "d489a0d0d681ff41d37f3ac542241295d93ac565f50b2f2f45aaa733566adc6e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "LVA-financing-009",
+        "statement": "As of the 2019 review, voluntary health insurance premiums that employers paid for staff were treated as production costs and exempt from corporate, personal income and social contribution taxes, subject to a ceiling per employee of 10% of annual salary and EUR 426.86.",
+        "valence": "neutral",
+        "source_id": "hit-lva-2019",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 91,
+          "char_start": 172926,
+          "char_end": 173221,
+          "passage_sha256": "2d4b30d330d914d1120b36426317b8f0904da8dab704012c4e671dda4d62b10a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      }
+    ],
+    "covered": [
+      {
+        "id": "LVA-covered-001",
+        "statement": "In the English text of the Health Care Financing Law current to 2022, the state-paid medical assistance minimum covers emergency care, childbirth, general practitioner care and services for diseases that matter most for public health, such as mental illness and tuberculosis.",
+        "valence": "neutral",
+        "source_id": "hcfl-lva",
+        "locator": {
+          "section": "Section 8",
+          "char_start": 11116,
+          "char_end": 12143,
+          "passage_sha256": "14766f0bc26d7d18ffd35717a1b929a2b681d110dd9ed0fd7de5d033a1df033b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-covered-002",
+        "statement": "Under the same law text, people who are socially insured, or who are not but pay the health insurance contribution (for residents in the listed status groups), are entitled to the broader mandatory health insurance package.",
+        "valence": "neutral",
+        "source_id": "hcfl-lva",
+        "locator": {
+          "section": "Section 11",
+          "char_start": 14847,
+          "char_end": 15358,
+          "passage_sha256": "fdd015f58b9ec8466eafadf0e3b68bd55f35ab16bd5d62ca4269c7bef67b3dd1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-covered-003",
+        "statement": "The scope of publicly funded services is limited, notably for adult dental care, physiotherapy and some outpatient medicines.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 48054,
+          "char_end": 48196,
+          "passage_sha256": "f687c4bbc3becbe736abf7ad015198f9fd70894f6c474128b964f789a2f38d36"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-covered-004",
+        "statement": "Under the Health Care Financing Law text current to 2022, the Cabinet of Ministers decides which services belong to the mandatory insurance package, how they are organised and paid, the fee amounts and how queues for care are formed.",
+        "valence": "neutral",
+        "source_id": "hcfl-lva",
+        "locator": {
+          "section": "Section 10",
+          "char_start": 14335,
+          "char_end": 14731,
+          "passage_sha256": "aede4dd1aeb9209dfaf074259d835551d22cb27e35b6045958dd9ef99cf7cb54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-covered-005",
+        "statement": "A 2025 legal survey describes the National Health Service as financed from fixed state budget funds: hospitals get a set sum from the overall budget and plan state-paid services around it.",
+        "valence": "neutral",
+        "source_id": "ibanet-lva",
+        "locator": {
+          "section": "Question 5",
+          "page": 2,
+          "char_start": 4204,
+          "char_end": 4609,
+          "passage_sha256": "e2fb77b44a3c80c3ab050f52ae3382fd328ac55e4360a8219b0eb4a1db5b84ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "LVA-cost_sharing-001",
+        "statement": "Patients pay co-payments even for essential care such as GP and specialist visits, hospital stays and prescribed medicines. Annual caps and per-admission limits exist and some groups are exempt, but cost-sharing remains a barrier for lower-income households.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 85162,
+          "char_end": 85614,
+          "passage_sha256": "1fabf430b4296c7fdfde943cfe7802f300ba31e5227d8d6ace612cd42323979c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-cost_sharing-002",
+        "statement": "The poorest households have been exempt from all user charges for medical services since 2009. Children under 18, pregnant women and people with severe disabilities are also exempt.",
+        "valence": "strength",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 98574,
+          "char_end": 98781,
+          "passage_sha256": "27d986c9a5939d0a43652d0f079b828f9e2072f92a7d1159c4bccb7bf7fa26db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-cost_sharing-003",
+        "statement": "Outpatient prescriptions carry a fixed charge of EUR 0.75 plus a co-payment of 0% or 25% of the reference price. The cap on co-payments for medical care does not cover outpatient prescribed medicines and is not linked to income.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 132523,
+          "char_end": 132933,
+          "passage_sha256": "ad92262193f8bace19180dfbace3f67de7de964891d97a9a52ac7226e1076b41"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LVA-cost_sharing-004",
+        "statement": "A 2025 legal survey lists the state-paid co-payment for a general practitioner visit as EUR 2 for people under 65 and EUR 1 for those over 65, and EUR 4 for a specialist consultation.",
+        "valence": "neutral",
+        "source_id": "ibanet-lva",
+        "locator": {
+          "section": "Question 8",
+          "page": 3,
+          "char_start": 7037,
+          "char_end": 7226,
+          "passage_sha256": "6b459e93111711ae59d3ce736558da035d291927b012fc1c1eb3808a92aa3b47"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "LVA-financial_hardship-001",
+        "statement": "In a national survey run from October 2025 to January 2026 (2,460 respondents aged 15 and over), 14.3% said they had borrowed money to pay for health care.",
+        "valence": "weakness",
+        "source_id": "pv-13697582",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3493,
+          "char_end": 3575,
+          "passage_sha256": "34db0a01d09356b188837d4cdd6969085ce116d393217cf0686acca7c39b4cf0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LVA-financial_hardship-002",
+        "statement": "In the same People's Voice survey, 26.8% of respondents felt somewhat or very confident they could afford care if they became very sick.",
+        "valence": "weakness",
+        "source_id": "pv-13699942",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2429,
+          "char_end": 2582,
+          "passage_sha256": "49fd98b26d71c6f3e60c704c9c2d5034bc260af2f00d3920fe92f9850f0bdfe2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LVA-financial_hardship-003",
+        "statement": "Among respondents at risk of poverty who needed care, 18.2% reported unmet medical needs in 2024, against an EU average of 6.0%.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 79874,
+          "char_end": 80052,
+          "passage_sha256": "ea5409001bc3d7d22d7801c2cad2afaea5da8faae49cfb359cd74540fba50df6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "LVA-additional_care-001",
+        "statement": "Unmet need for dental care among people who needed it reached 16.5% in 2024, against an EU average of 6.3%. The profile links this to limited public coverage of oral health and heavy reliance on out-of-pocket spending.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 79608,
+          "char_end": 79873,
+          "passage_sha256": "e0c2515fd9da7224edf291e2e6725b309180f4c248ce349e3f86629f041d6447"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LVA-additional_care-002",
+        "statement": "In 2023 long-term care took 7% of current health spending, and prevention and administration took 3% each.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 9,
+          "char_start": 50728,
+          "char_end": 50871,
+          "passage_sha256": "0d2f77cb34a719105b625e0be03f90d7de43d19457bad65f14f55145c790a741"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "access": [
+      {
+        "id": "LVA-access-001",
+        "statement": "In 2024, 10.7% of Latvians who reported needing care had unmet medical needs because of cost, distance or waiting time, about three times the EU average of 3.6%.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 79360,
+          "char_end": 79594,
+          "passage_sha256": "6de7400c9359033040785fd95288378656676c2a51bef0df72d3ae8dfe8001d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LVA-access-002",
+        "statement": "Providers work to annual public funding caps. Once a facility reaches its cap, patients wait for the next calendar year or pay themselves, which the profile says contributes to long waits, especially in paediatric care.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 96258,
+          "char_end": 96742,
+          "passage_sha256": "e65d2cd4b8e70328bf56c28e3da42aeb1a43fa743fae3b9dbffa16536414251e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-access-003",
+        "statement": "In the survey fielded October 2025 to January 2026, 12.8% of respondents said they did not get needed care in the past year. Long waiting times were the most common reason (43%), followed by additional out-of-pocket payments (18.7%).",
+        "valence": "weakness",
+        "source_id": "pv-13697582",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3042,
+          "char_end": 3318,
+          "passage_sha256": "ec581c3a43f06a688260af55ef51612accb5b439834a0f47771af83576f8c71d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LVA-access-004",
+        "statement": "In 2023 Latvia had 3.4 physicians per 1,000 population, well below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 9,
+          "char_start": 51096,
+          "char_end": 51171,
+          "passage_sha256": "8d8244b46650b4079a68b8f632731ba31e7b0831b6064fb6d147dca78c34ace6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-access-005",
+        "statement": "Access to primary and specialist care declines with distance from the Greater Riga area.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 106571,
+          "char_end": 106671,
+          "passage_sha256": "2f3bf047c3a9ff14b5018ce9c3ca1a84f755987eac51c04fbee57ff763788d8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "LVA-outcomes-001",
+        "statement": "Life expectancy at birth in Latvia was 76.7 years in 2024, five years below the EU average, after a pandemic drop in 2021 followed by a rebound above pre-pandemic levels.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "2 Health in Latvia",
+          "page": 4,
+          "char_start": 14132,
+          "char_end": 14355,
+          "passage_sha256": "21456c6e5054d633624bd95899237ade6fdf947ca12462a77091549b2c78e0e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LVA-outcomes-002",
+        "statement": "Latvia had the EU's highest avoidable mortality in 2022, at over 540 deaths per 100,000, more than twice the EU average of 258.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 64992,
+          "char_end": 65163,
+          "passage_sha256": "466ca44a2f1ea2f551887213d42bbadd69108f61ac47e8277bb5a1e0abd35721"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-outcomes-003",
+        "statement": "Treatable mortality, deaths avoidable through health care, was 201 per 100,000 in 2022, more than twice the EU average of 90.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 71984,
+          "char_end": 72156,
+          "passage_sha256": "3fe459a1f2a3e3ce233dfa2804912f9c871e7dc12ff34ecdedbf4e4f9ae7c3bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LVA-outcomes-004",
+        "statement": "In 2023 Latvia had the highest 30-day mortality after hospital admission for heart attack and ischaemic stroke among the compared EU countries. The rates fell markedly from 2013 to 2023 but remained the highest in Europe.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 78935,
+          "char_end": 79263,
+          "passage_sha256": "4d9d9ecd5a0ad1a336a9e054a621c58ed825cd216d79a94d04ec2c12f3f5e4af"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-outcomes-005",
+        "statement": "Among EU countries plus Iceland and Norway, Latvia had the third highest cancer death rate in 2021, even though its estimated rate of new cancer cases in 2022 was about 3% below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "3 Determinants / cancer",
+          "page": 5,
+          "char_start": 22417,
+          "char_end": 22697,
+          "passage_sha256": "96f063870a0ded42a1a8b5a289995346614c560789debd6461fc22e7632eeb7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2021
+      }
+    ],
+    "costs": [
+      {
+        "id": "LVA-costs-001",
+        "statement": "Current health spending per person was EUR 1,966 in 2023 (adjusted for purchasing power), far below the EU average of EUR 3,832.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 48499,
+          "char_end": 48656,
+          "passage_sha256": "4ff2e0cf0abdc7c9803f143e4ad6a6a964469d7cd2d430af6f6a131a48ee9b8e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-costs-002",
+        "statement": "Health spending was 7.2% of GDP in 2023, against an EU average of 10%.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 48657,
+          "char_end": 48811,
+          "passage_sha256": "f22805d2e69825b0452016a553fc8c173c88ec2a0e8b00a2b50154020dcf6eb0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-costs-003",
+        "statement": "Out-of-pocket payments were 35% of health spending in 2023, among the highest in the EU and more than twice the EU average of 16%.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 8,
+          "char_start": 49344,
+          "char_end": 49478,
+          "passage_sha256": "7392ae50abaf4266ef27c07c3c92ad3f448c50bc990992441d6c0aef474b2868"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-costs-004",
+        "statement": "Health took 12.1% of total government spending in 2023, slightly above the pre-pandemic average and below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 114253,
+          "char_end": 114390,
+          "passage_sha256": "ab45e729fe4c60d5753c3622d92a44f8c995cc3b68a4db84c72f247b260b0665"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "LVA-what_works-001",
+        "statement": "Since 2018 providers contracted with the National Health Service can identify eligible women for breast and cervical screening without an invitation letter, and GPs are paid extra for screening according to how much of their eligible list they cover.",
+        "valence": "strength",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 73672,
+          "char_end": 74039,
+          "passage_sha256": "929e997d7aacecc0337e3489dfb094bd0d0be374d08349aaa364ffcacd5b0753"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "LVA-what_works-002",
+        "statement": "In 2024 nearly 98% of children had a first measles dose, above the EU average of 87%.",
+        "valence": "strength",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 73130,
+          "char_end": 73230,
+          "passage_sha256": "646fa3b434396ad9b2abc8a3991f8e2a5221ee06b5e3b7fc87255f2940066619"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LVA-what_works-003",
+        "statement": "Mortality from preventable causes fell by about 20% between 2012 and 2019, before the pandemic interrupted the trend.",
+        "valence": "strength",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 65693,
+          "char_end": 65769,
+          "passage_sha256": "669ce7c288c88f8ec7e83a0dfbce3315f67c1caf92cb4c6afaf0d0b74dbe43fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "historical": true
+      },
+      {
+        "id": "LVA-what_works-004",
+        "statement": "In the 2025-26 People's Voice survey, 80.7% of respondents said they had one regular service provider, most often a family doctor.",
+        "valence": "strength",
+        "source_id": "pv-13697582",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2668,
+          "char_end": 2780,
+          "passage_sha256": "aec8dfa2b51ae27cf2f302c21a2790f3821cc4f769a1d47ede7e0883f8975957"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LVA-what_works-005",
+        "statement": "Latvia trained 27 medical graduates per 100,000 people in 2023, against an EU average of 15.",
+        "valence": "strength",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 114733,
+          "char_end": 114869,
+          "passage_sha256": "c3c0ce08f0d74ed0dbb1f15a7f06afcdff49b1eda4c93fc10e9db59f273491ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "LVA-problems-001",
+        "statement": "The Observatory's 2024 summary describes out-of-pocket spending, especially on medicines, as one of the highest in Europe (27% in 2021) and says unmet care needs persist, particularly for low-income groups.",
+        "valence": "weakness",
+        "source_id": "hss-lva-2024",
+        "locator": {
+          "section": "Overview",
+          "char_start": 675,
+          "char_end": 1229,
+          "passage_sha256": "5af9db709910a8297b3c51a55d61aab94e28bc7a1ad8d9f238523497bdd73149"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "LVA-problems-002",
+        "statement": "Annual quotas combined with tariffs below delivery costs give providers reasons to move to better-paid private work, which the profile says worsens staff shortages in the public sector.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 97357,
+          "char_end": 97566,
+          "passage_sha256": "9c5f04f6a9688b05e7c5593bfc07b82720079517764206a030fe44df8ccd1a81"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-problems-003",
+        "statement": "In the 2025-26 survey, 24.3% of respondents rated public health care quality good or very good, against 58.4% for private care.",
+        "valence": "weakness",
+        "source_id": "pv-13699942",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2583,
+          "char_end": 2745,
+          "passage_sha256": "d7b2e17d5440b64c5db71bb9f8099b5429245d647af58565410910792dbbf39d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LVA-problems-004",
+        "statement": "Many health workers leave the public system for private practice or work abroad, drawn by higher pay and better conditions, despite public-sector pay rises between 2018 and 2023.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "4 Health system",
+          "page": 10,
+          "char_start": 58884,
+          "char_end": 59134,
+          "passage_sha256": "71fadacd2f2cbe3d37d8788fa1f68cf4510280e18442426a58e6a058cb57c67f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        }
+      },
+      {
+        "id": "LVA-problems-005",
+        "statement": "For medicines approved by the EU in 2020-2023, the average time to public reimbursement in Latvia was 642 days (EU average 578), and 35% of the new medicines that reach the Latvian market are available to all patients. These indicators come from an industry (EFPIA) survey cited in the profile.",
+        "valence": "weakness",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 141215,
+          "char_end": 141483,
+          "passage_sha256": "41ba30b69a6dfdea8fcbd50ef02f75f89e77db768066e17ebbd96cf1dcdb6d57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "reforms": [
+      {
+        "id": "LVA-reforms-001",
+        "statement": "Reforms in place since 2025 aim to improve financial protection for medicines, including a fund for emergency medicines and devices launched in July 2025 to encourage pharmacies to sell cheaper products.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 139747,
+          "char_end": 139982,
+          "passage_sha256": "c083e14214032007497a406398b4480ad91d848fa0e0010c41a807ab4ae44240"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LVA-reforms-002",
+        "statement": "Under the same reforms, wholesale and pharmacy mark-ups on prescription medicines were cut, manufacturer prices will be capped by reference to Lithuania or Estonia, and co-payments will apply only when treatment starts, with repeat prescriptions exempt.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 139983,
+          "char_end": 140414,
+          "passage_sha256": "cbae6daa23e8f7142953208227fe5fc5274dd28fd84d09e165416d33d9231cfb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LVA-reforms-003",
+        "statement": "Latvia adopted a Healthcare Workforce Development Strategy for 2025-29 that prioritises working conditions, modernised medical training and new professional roles.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 115257,
+          "char_end": 115443,
+          "passage_sha256": "ce50867a46449cdafb60d50eb728c3b65453d808659ecc316e527eb7a56003c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LVA-reforms-004",
+        "statement": "In November 2024 reforms were proposed that include a single appointment queue, more publicly funded training places for doctors and a larger role for general nurses.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 107890,
+          "char_end": 108127,
+          "passage_sha256": "1af47e3dec0ea3e8917545398ca0d13f41eede8c582c3e940500ffb91adc288d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LVA-reforms-005",
+        "statement": "In 2023 an extra EUR 30 million was allocated to cancer care, covering diagnostics, treatment and medicines.",
+        "valence": "neutral",
+        "source_id": "chp-lva-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 96845,
+          "char_end": 96981,
+          "passage_sha256": "2a1b4247e0c714dff206253d2d6f8d1a94883d9adeafa4275f7262e4c42e9634"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LVA-reforms-006",
+        "statement": "Latvia's Health Care Financing Law of December 2017 planned to split the benefit basket by whether a social health insurance contribution had been paid; that proposal was postponed and the government instead raised the payroll social contribution by one percentage point, split between employers and employees and earmarked for health.",
+        "valence": "neutral",
+        "source_id": "hit-lva-2019",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "page": 77,
+          "char_start": 141822,
+          "char_end": 142383,
+          "passage_sha256": "ec61c55bdcc14c5c30dd634af949a793b56ae977b696d62aa0250fbae6ebc824"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2017,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/LVA.json",
+  "sources": [
+    {
+      "id": "chp-lva-2025",
+      "title": "State of Health in the EU: Latvia, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-latvia-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hss-lva-2024",
+      "title": "Latvia: health system summary 2024 (overview page)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/publications/i/latvia-health-system-summary-2024",
+      "accessed": "2026-11-20",
+      "funding_note": "Only the publisher's overview abstract was machine-readable; the 21-page summary PDF could not be downloaded."
+    },
+    {
+      "id": "hit-lva-2019",
+      "title": "Latvia: Health system review (Health Systems in Transition, Vol. 21 No. 4)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Behmane D, Dudele A, Villerusa A, et al.",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2019,
+      "url": "https://www.ecoi.net/en/file/local/2044563/HiT-21-4-2019-eng.pdf",
+      "accessed": "2026-11-20",
+      "funding_note": "Describes the system as of 2018-2019; used only for items the 2025 profile does not cover, each dated in the statement."
+    },
+    {
+      "id": "vsaa-contrib",
+      "title": "On contributions (State Social Insurance Agency, updated 22 December 2025)",
+      "publisher": "Valsts sociālās apdrošināšanas aģentūra (State Social Insurance Agency, Latvia)",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.vsaa.gov.lv/en/contributions-0",
+      "accessed": "2026-11-20",
+      "funding_note": "Official page; English version is a machine translation."
+    },
+    {
+      "id": "hcfl-lva",
+      "title": "Health Care Financing Law (English translation, consolidated text)",
+      "publisher": "Saeima of the Republic of Latvia, via Likumi.lv",
+      "tier": 1,
+      "type": "government",
+      "year": 2022,
+      "url": "https://likumi.lv/ta/en/en/id/296188-health-care-financing-law",
+      "accessed": "2026-11-20",
+      "funding_note": "The English translation is flagged outdated (valid 22.12.2022-19.03.2024); amendments of 2024-2026 are not reflected, so claims are dated to the 2022 text."
+    },
+    {
+      "id": "pv-13697582",
+      "title": "Population perspectives on health system performance: preliminary findings from Latvia",
+      "publisher": "European Journal of Public Health (19th European Public Health Conference abstract)",
+      "authors": "Villerusa A, Kukoja K, Stars I, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/eurpub/ckag169.213",
+      "doi": "10.1093/eurpub/ckag169.213",
+      "license": "CC BY-NC",
+      "accessed": "2026-11-20",
+      "funding_note": "Conference abstract of preliminary findings; online panel survey (CAWI/CATI) of 2,460 residents aged 15+.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13697582"
+    },
+    {
+      "id": "pv-13699942",
+      "title": "Perceived quality and confidence in the healthcare system: People's Voice survey results in Latvia",
+      "publisher": "European Journal of Public Health (19th European Public Health Conference abstract)",
+      "authors": "Kukoja K, Villerusa A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/eurpub/ckag169.1564",
+      "doi": "10.1093/eurpub/ckag169.1564",
+      "license": "CC BY-NC",
+      "accessed": "2026-11-20",
+      "funding_note": "Conference abstract; same survey as pv-13697582.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13699942"
+    },
+    {
+      "id": "ibanet-lva",
+      "title": "Healthcare Financing and Reimbursement Survey: Latvia",
+      "publisher": "IBA Healthcare and Life Sciences Law Committee (authors at TGS Baltic)",
+      "authors": "Rubene A, Sklamina Z",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2025,
+      "url": "https://www.ibanet.org/document?id=Healthcare-Survey-2025-Latvia",
+      "accessed": "2026-11-20",
+      "funding_note": "Law-firm survey for an international bar association committee; not an official source, so used for descriptions of mechanisms and fee amounts only."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created."
+    }
+  ]
+}

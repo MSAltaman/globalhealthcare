@@ -1,0 +1,1157 @@
+{
+  "iso3": "LTU",
+  "name": "Lithuania",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "draft",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Single national compulsory health insurance fund (NHIF) financed by payroll contributions plus a state-budget contribution for people insured by the state; high out-of-pocket spending"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "LTU-overview-001",
+      "LTU-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "LTU-overview-001",
+        "statement": "Lithuania funds health care mainly through a mandatory health insurance scheme run by the National Health Insurance Fund (NHIF), with payroll contributions from workers and government budget transfers for people outside work; about 99% of residents were covered in 2022.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44171,
+          "char_end": 44537,
+          "passage_sha256": "d3a3832811e6203a8ea13176dddd052ef088bfa9fed4de33785c7ae21e20d658"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LTU-overview-002",
+        "statement": "About 99% of residents are in the mandatory scheme; in 2024 roughly 53% of those covered paid contributions themselves, while the state paid for the rest, mostly pensioners and children but also registered unemployed people and a few other groups.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 82103,
+          "char_end": 82452,
+          "passage_sha256": "a59ce38acba06ad2d904edd5ea1cb6aba260712ed194b170c4be9c63c9f09bab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-overview-003",
+        "statement": "The Ministry of Health sets policy and regulation and governs the NHIF; it co-owns some providers, including all tertiary hospitals, while municipalities own publicly financed primary care centres and most district and nursing hospitals.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44538,
+          "char_end": 45052,
+          "passage_sha256": "a412052c2c372f9112f5c376e03f443e9ce1f59eb04f81290ea39d52ef9daa6f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-overview-004",
+        "statement": "Private provision is limited in inpatient care but common in outpatient specialist services, notably dental care; many family doctors work privately, and the NHIF routinely contracts private providers for primary and some specialised outpatient care.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45053,
+          "char_end": 45395,
+          "passage_sha256": "6b0a2c86fa0d9c05354526ccac2ff31471fcab777bf0b7f851e1bdb6b27042f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "LTU-financing-001",
+        "statement": "For people insured by the state, the state budget pays a per-person contribution into the compulsory health insurance fund; since 2021 it has been set at 6.98% of the annual minimum wage from two years earlier, and it rose from EUR 465 per person in 2021 to EUR 774 in 2026, with EUR 1,003 set for 2027.",
+        "valence": "neutral",
+        "source_id": "hspm-ltu-shi",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1362,
+          "char_end": 1667,
+          "passage_sha256": "8e4801ad6c2b9e719cc9b211938d6715f9548a5e5cb09ac8818e427c71c771b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LTU-financing-002",
+        "statement": "Amendments passed in December 2025 set the 2027 state contribution at 50% of the average annual contribution of a working person from two years earlier, rising each year by five percentage points up to 75%.",
+        "valence": "neutral",
+        "source_id": "hspm-ltu-shi",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2983,
+          "char_end": 3295,
+          "passage_sha256": "b57be057fdb263bd98c73aab0564ccbe56ba4798936ea5770382b284e9eae5d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LTU-financing-003",
+        "statement": "Public sources paid 68% of health spending in 2023, in line with pre-pandemic levels; out-of-pocket payments were 31.0% and voluntary health insurance only 1.6%.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46150,
+          "char_end": 46418,
+          "passage_sha256": "cda59badeecb3710692412c596e1c2bbe61979630b51b0e8749719c88c1a235c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-financing-004",
+        "statement": "Public health spending was 14.1% of total government spending in 2023, just under the EU average of 14.8%.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46580,
+          "char_end": 46762,
+          "passage_sha256": "97261b8cdcb537c82f30a5788f50d11a36453b96e4f895d8e44e2e5e66a1d700"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-financing-005",
+        "statement": "Public health spending is forecast to stay at around 5% of GDP or slightly under until at least 2027.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 111068,
+          "char_end": 111168,
+          "passage_sha256": "1f95ba4e0ffc4ac0866848f7b35892a97de956b0a3b46fab5a77d051e46892e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2027
+      }
+    ],
+    "covered": [
+      {
+        "id": "LTU-covered-001",
+        "statement": "The benefits package, delivered by public and private providers contracted by the NHIF, includes free preventive care, primary, secondary and tertiary services, medical rehabilitation and nursing care; copayments apply to medicines, medical products and primary-care dental treatment unless a person belongs to an exempt group.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 90473,
+          "char_end": 90838,
+          "passage_sha256": "45327065069e00e7796624c075dc9d1507851064ecf8d8ec2ee7ee55fb5b573e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-covered-002",
+        "statement": "Registered Ukrainian refugees are entitled to health coverage at the same level as residents.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 82453,
+          "char_end": 82567,
+          "passage_sha256": "8d53ad0ee8f200c24313bbc0bf02fb1c8c9f6a5d0371deab1539da800c253404"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-covered-003",
+        "statement": "Only about half (51%) of spending on medicines was publicly financed in 2023, against 59% across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 91038,
+          "char_end": 91148,
+          "passage_sha256": "7c78d7043be51e014a94238fd10dc9c678e1a2672bac3bb37a4ed3872b08329c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "LTU-cost_sharing-001",
+        "statement": "Since July 2020 people aged 75 and over, low-income people with disabilities and low-income pensioners under 75 are exempt from copayments on prescribed reimbursed outpatient medicines.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 92788,
+          "char_end": 93059,
+          "passage_sha256": "54b6f13f83acb050120971ab9ac545d7bdb055143a03fccbf03f903e44ba1779"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "LTU-cost_sharing-002",
+        "statement": "An automatic annual cap on medicine copayments was introduced in 2023 (EUR 59.04 in 2025, beyond which the state budget pays if the cheapest reimbursed option is chosen); average copayments per person on prescribed reimbursed medicines rose from EUR 7.28 in 2023 to EUR 9.08 in 2024, about half the 2016 level.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 100594,
+          "char_end": 101051,
+          "passage_sha256": "4cb2d9766b17b47fe127414e26abaaae49da6e4294d6111fa96604decdc06833"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-cost_sharing-003",
+        "statement": "The positive list of reimbursed medicines was gradually consolidated, which removed all percentage copayments.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 93082,
+          "char_end": 93204,
+          "passage_sha256": "9baa845446209556730041641179d0037bce61fdafe677c1afcad914d54e6e14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "LTU-cost_sharing-004",
+        "statement": "Current rules let providers charge patients extra for publicly financed services when the patient picks costlier materials or procedures than the NHIF covers, especially in private provision; in 2025 the Ministry of Health proposed banning such surcharges for insured services.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 92030,
+          "char_end": 92648,
+          "passage_sha256": "bf9e0b1312e02e5da98a6076873dfe534769f27f082f0f2063f0543feb9dbddf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-cost_sharing-005",
+        "statement": "Medicines accounted for a third of out-of-pocket payments in 2023, closely followed by dental care, whereas in 2016 medicines were nearly 60% of out-of-pocket spending.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 91836,
+          "char_end": 92012,
+          "passage_sha256": "ac50f045c50042cc82295a5356464331d9df6cd1b4859ccf71d096ea42bbd16c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "LTU-financial_hardship-001",
+        "statement": "Catastrophic spending attributable to medicines fell substantially between 2016 and 2021 among the poorest households and among older people.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 101200,
+          "char_end": 101339,
+          "passage_sha256": "783e61c271d35205d0c48d0c751f5e5009eacab19bc3aff151f651d070d0b3da"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "LTU-financial_hardship-002",
+        "statement": "The Observatory profile says heavy reliance on out-of-pocket payments leads to comparatively high financial hardship, and that 2025 efforts aim to curb extra charges by private providers for publicly funded services.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 154933,
+          "char_end": 155267,
+          "passage_sha256": "ef2b65511dc9b5c5da25408d5977e7506271b51eb45fc5d602afb146aec30239"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "LTU-additional_care-001",
+        "statement": "About half of outpatient medicine spending came from public sources in 2023, and out-of-pocket spending on medicines was EUR 237 per person, the fourth highest in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7673,
+          "char_end": 7855,
+          "passage_sha256": "ee60b05662e88351d8aa6c9a0925b4cf2bba29301fdb52895d374f8e9545c1df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-additional_care-002",
+        "statement": "Publicly financed specialist outpatient and inpatient care needs a referral, but these services can be reached directly by paying a fee.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 90879,
+          "char_end": 91037,
+          "passage_sha256": "0811bcef2d3f6c8b76a3c279056c61788400e9b0ea21b1339ebedbc5dc088b4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "access": [
+      {
+        "id": "LTU-access-001",
+        "statement": "In 2024, 5.6% of Lithuanians with a health need reported unmet needs for a medical examination (EU average 3.6%); unmet dental needs were 4.8% overall (EU 6.3%) and 12.1% among people at risk of poverty (EU 13.6%).",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 81393,
+          "char_end": 82047,
+          "passage_sha256": "b5b7f04761d000ce157272ab947f1419677d4ed913f465210351780c27fac688"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-access-002",
+        "statement": "Waiting times for cataract surgery are among the shortest of 12 comparable EU countries, but waits for hip and knee replacement peaked at 195 and 390 days in 2023 and fell to 110 and 330 days in 2024, still well above pre-pandemic levels.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 101533,
+          "char_end": 101861,
+          "passage_sha256": "561e20e6e272d22f06e3f00002dab4f6e3b52d48cbdf486c0b5b44a6433c89d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-access-003",
+        "statement": "At the end of 2024, more than half of patients waiting for haematology, orthodontics, plastic surgery and some other specialist outpatient services waited over 30 days, as did 20-40% of those awaiting adult or paediatric oncology appointments.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 101875,
+          "char_end": 102221,
+          "passage_sha256": "bc0aceaf4eac308117ae329471605014a9425d6deb230ec6cdc8fc188006eac5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-access-004",
+        "statement": "In primary care, 90% of people could see their family doctor within a week, but 20-30% of children and adults seeking primary mental health consultations waited more than 15 days.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 102237,
+          "char_end": 102462,
+          "passage_sha256": "beebdbae74c2d91af9e25b997175e5e28f1ebaba4e7e7313217e01f6dbf20a10"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-access-005",
+        "statement": "In 2023 Lithuania had 4.6 physicians per 1,000 people, above the EU average of 4.3, but 7.5 practising nurses per 1,000, the lowest since 2010 and below the EU average of 8.5.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 51724,
+          "char_end": 52170,
+          "passage_sha256": "bfbbc9081d9df1308a37fe99bcc4887781896ed02d74d03d46682d226221a6a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-access-006",
+        "statement": "Nurse density in municipal-level institutions differed ten-fold across municipalities in 2023.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 52657,
+          "char_end": 52797,
+          "passage_sha256": "5249ba4984a3ee6fb8e6f51a9650b01d414a61dba292efb5a42f44bcde598e93"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-access-007",
+        "statement": "Hospital beds fell to 5.5 per 1,000 people in 2023 (EU average 5.1) and hospitalisations stayed above the EU average, yet elective orthopaedic waits rose sharply in 2021-23, suggesting staff rather than bed capacity is the main constraint.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 109377,
+          "char_end": 109989,
+          "passage_sha256": "2f4c5d06bf5a3104519547b3917e45d5206a4994f513aeaa9c10ae8c6f61028a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "LTU-outcomes-001",
+        "statement": "Life expectancy at birth was 77.6 years in 2024, 4.1 years below the EU average, but Lithuania gained 4.3 years between 2010 and 2024, the largest increase in the EU.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 4499,
+          "char_end": 4725,
+          "passage_sha256": "97d842d69162486b18c95251757d7cd855fbb60abdeaa5c7139d4bfa0d7fb810"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-outcomes-002",
+        "statement": "In 2024 Lithuanian women's life expectancy was 81.9 years, 8.8 years longer than men's (73.1).",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 14029,
+          "char_end": 14140,
+          "passage_sha256": "0380f2241df4d04bdc049f03292d167c416f1f0423bfebcaa5136de7e16261a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-outcomes-003",
+        "statement": "Lithuania had the EU's fourth highest avoidable mortality rate in 2022, driven mainly by premature deaths from ischaemic heart disease.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 6422,
+          "char_end": 6573,
+          "passage_sha256": "44359de3080bb122b0bb34c8749850a507de9bce613975bcd2517498beb7a574"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "LTU-outcomes-004",
+        "statement": "Cardiovascular disease caused 53% of all deaths (EU average 33% in 2022) and cancer 21% (EU 22%).",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 14473,
+          "char_end": 14629,
+          "passage_sha256": "f641a2ee772ef3b73fc7ac8bf876acd671fdfa21a019a3de69c45eb6b20f3369"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-outcomes-005",
+        "statement": "In the GBD 2019 study, Lithuania's Healthcare Access and Quality Index score for ages 0-74 was 67.9 (uncertainty interval 65.5-70.6) in 2019, 10.3 points above its 1990 level.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "section": "Full text",
+          "char_start": 39242,
+          "char_end": 39350,
+          "passage_sha256": "8b38a0451bc855a25be2b807cc9a1140794a7316cb5f21f5a95a93eee7ab3d14",
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "LTU-outcomes-006",
+        "statement": "Only 49% of Lithuanian adults reported good health in 2024, the lowest share in the EU along with Latvia, and only 30% in the lowest income quintile versus 75% in the highest.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 14848,
+          "char_end": 15266,
+          "passage_sha256": "07b5851cf0aee339021c56d14852182d210fe50cdf5fdbdebdb554584904d30d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-outcomes-007",
+        "statement": "Excluding COVID-19, alcohol-related deaths rose by almost a fifth between 2019 and 2022.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 60255,
+          "char_end": 60408,
+          "passage_sha256": "55431ac1f2153e00dbdca7f9723c2eb67ce47dba09035cf9af07bffcd160ce3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      }
+    ],
+    "costs": [
+      {
+        "id": "LTU-costs-001",
+        "statement": "Health spending was 7.3% of GDP in 2023 (EU average 10.0%), or EUR 2,397 per person adjusted for price differences against an EU average of EUR 3,832.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 5257,
+          "char_end": 5460,
+          "passage_sha256": "8e4b5c33e6786b902c20de8c2647649cf6d578dd0e43f95a8318db78e763d93f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-costs-002",
+        "statement": "In 2023 outpatient care took 35% of current health spending, inpatient care 27%, medical goods 27% and long-term care 8% (EU 18%); prevention fell to 3% after a pandemic peak, and administration was about 1%.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46835,
+          "char_end": 47406,
+          "passage_sha256": "559eb3dabc6291517246c6e7a9ff10ccbe66efb7a801203bf0e320a97f9de43f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-costs-003",
+        "statement": "Retail medicines took 21% of health spending in 2023, above the EU average of 13% but below Lithuania's 2012 peak of 29%.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 7491,
+          "char_end": 7672,
+          "passage_sha256": "c047c6d1f10ce303f1ebee3df61dcac58a6ae15ad2e5541bd3dda981d62ce46c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-costs-004",
+        "statement": "Public health investment has grown faster than the EU average, funding higher NHIF reimbursement rates to providers, higher pay for health workers and rebuilt NHIF reserves.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 110463,
+          "char_end": 110920,
+          "passage_sha256": "369ca18813d1851c5075e13729f656625a021b7c54880caa6410f23e07c82a37"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "LTU-what_works-001",
+        "statement": "Breast and cervical cancer screening coverage reached 60% in 2023, the highest since the programmes began and above the EU average of 58%, and colorectal screening reached 57%.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 67816,
+          "char_end": 68356,
+          "passage_sha256": "15da90e56bd7c2d6152806ba870b68cd1617f42a09fa850179e295515ff08595"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-what_works-002",
+        "statement": "HPV vaccination coverage among girls was 74% in 2024, above the EU average of 63%.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 67255,
+          "char_end": 67383,
+          "passage_sha256": "623c1ba3ceb86c5a64c21e41a459e0b6c6bb9d0f31b91904fdae0325891863b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-what_works-003",
+        "statement": "In a representative telephone survey of 1,033 people who had used primary care in the previous three years, 89% rated its quality as acceptable or good.",
+        "valence": "strength",
+        "source_id": "pmc-primary-ltu",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2706,
+          "char_end": 3406,
+          "passage_sha256": "037028fb209fed21acd8ce3c67c0b84f76352ff99766eea07b1166ceac9d3c7c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "LTU-what_works-004",
+        "statement": "Alcohol consumption fell by 24% between 2013 and 2023 after stricter control measures, although controls were relaxed recently.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 4977,
+          "char_end": 5166,
+          "passage_sha256": "a1dede306311e104f7be7b318ef35cf63215dcb84e47a2da4a12646e0a2875bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-what_works-005",
+        "statement": "Outpatient medicine coverage has improved substantially since 2020 through copayment exemptions for vulnerable groups, annual caps, a wider positive list and removal of percentage copayments.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 22,
+          "char_start": 156928,
+          "char_end": 157196,
+          "passage_sha256": "d29f236e17b209a65f794fbb24b656f9784c4b9efbf1b78ff540fc17d389880c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-what_works-006",
+        "statement": "The Observatory judges that over about 30 years the changes to state contributions have made financing more predictable and automatic, strengthened solidarity and reduced exposure to economic shocks and population ageing.",
+        "valence": "strength",
+        "source_id": "hspm-ltu-shi",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3296,
+          "char_end": 3873,
+          "passage_sha256": "2b4b5091a1f25771f0b11ff001f83ae428675c2508a2c32833fa2e6a50b12474"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LTU-what_works-007",
+        "statement": "Outpatient visits, including to family doctors, have recovered since the pandemic and reached their highest ever levels in 2021-23.",
+        "valence": "strength",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 110213,
+          "char_end": 110355,
+          "passage_sha256": "196023a59e44832a51b3322ac5710cd06f1b4e9b13ea8152be23dc0dc8fcb512"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "LTU-problems-001",
+        "statement": "Out-of-pocket payments were 31% of health spending in 2023, among the highest levels in the EU and almost twice the EU average of 16%.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 91665,
+          "char_end": 91835,
+          "passage_sha256": "c3d196a521bdb6528f4db1eaf127944f839d293768c8c76b6c27cddad34661ed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-problems-002",
+        "statement": "A 2023 state audit found one in three public providers reporting a nurse shortage, and a national analysis projects that by 2032 Lithuania may lack over 8,000 nurses and nursing assistants and over 700 doctors.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 115563,
+          "char_end": 115970,
+          "passage_sha256": "e8430a887ff72e713fdeed108b40f9c479f93af82caa588a7e0e0e1489b28f5e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-problems-003",
+        "statement": "Only 22% of people aged 65 and over were vaccinated against influenza in 2023/24, far below the EU average of 47% (2022/23).",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 67004,
+          "char_end": 67254,
+          "passage_sha256": "601e5eedf3922f2aee9abc7b7fe19735772014a41e7a90cdfff59770825ac7a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-problems-004",
+        "statement": "First-dose measles vaccination was 86% in 2024, well below the 95% needed for herd immunity, and 30 measles cases were diagnosed that year against five in all of 2020-2023.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 67438,
+          "char_end": 67743,
+          "passage_sha256": "c95d4c98ecba056164ed20ca3f492671fd596ad46e500fce22b46a8755286a4f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-problems-005",
+        "statement": "ECDC prevalence surveys found 42% of isolates resistant to key antimicrobials in 2022/2023, against 31% across the EU, and the share has worsened over time.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 123562,
+          "char_end": 123814,
+          "passage_sha256": "91829c2bde4753cff1ba3c3f5b28f60c1bb602103024c385f536e5ee06fbd32d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-problems-006",
+        "statement": "The Observatory notes that the state's contribution for people it insures has historically been low despite the large share of the population it covers, with repeated attempts over the years to raise it.",
+        "valence": "weakness",
+        "source_id": "hspm-ltu-shi",
+        "locator": {
+          "section": "Full text",
+          "char_start": 853,
+          "char_end": 1011,
+          "passage_sha256": "e25976d8a69f701ae405d100609e045bf21901606c69cf0cb739568aa9f6dc00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "LTU-problems-007",
+        "statement": "The National Health Strategy target of two nurses per doctor, first set for 2020 and then deferred to 2025, is unlikely to be met because the ratio keeps falling.",
+        "valence": "weakness",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 52268,
+          "char_end": 52531,
+          "passage_sha256": "20e0b9a5819dd1d1cb65d70f63b26f0c4175864ee473eae03d1829556752f348"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "reforms": [
+      {
+        "id": "LTU-reforms-001",
+        "statement": "A major restructuring began in 2023, centralising ambulance services (completed 2024), setting up municipal health centres, creating a more integrated long-term care framework and clustering some hospital services.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45396,
+          "char_end": 45751,
+          "passage_sha256": "3c5a80ec3e8b95a87ac3944654ed8c1b64b183cf2b1bd496924b3168b5db0539"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-reforms-002",
+        "statement": "Amended laws on health care institutions and the health system took effect on 1 July 2023, creating a centralised emergency care model that integrates ambulance dispatch centres into a single Emergency Response Centre.",
+        "valence": "neutral",
+        "source_id": "ec-rrf-ltu",
+        "locator": {
+          "section": "Full text",
+          "char_start": 363,
+          "char_end": 724,
+          "passage_sha256": "458940e9ae5156f76d721aea37bcff1fd09c3544813a8f57b2841a0b70530988"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "LTU-reforms-003",
+        "statement": "Breast cancer screening eligibility widened in January 2025 from women aged 50-69 to women aged 45-74.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 68102,
+          "char_end": 68225,
+          "passage_sha256": "9497647d49446c5cfb7810b002e537351a608df6593d6bcb14a7b7bba5201599"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "LTU-reforms-004",
+        "statement": "The 2024-29 Health Workforce Recruitment and Retention Plan, co-funded by EU Cohesion Policy funds, aims to cut predicted workforce shortages by 10% by 2029 and allocates EUR 30.7 million.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 116960,
+          "char_end": 117124,
+          "passage_sha256": "5beb3f7e8e41b4a7e9f0c58d2c5cde27ed461c5c6675cb0d7a290d61d2c0d69a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "LTU-reforms-005",
+        "statement": "Personal invitations for cancer screening, piloted since 2023, are expected to be fully implemented from 2026, alongside nearly doubled screening funding.",
+        "valence": "neutral",
+        "source_id": "chp-ltu-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 68687,
+          "char_end": 68911,
+          "passage_sha256": "d7734f67369c62e1c73006251707d5fc4028253d8d07d1737df05fc641753998"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/LTU.json",
+  "sources": [
+    {
+      "id": "chp-ltu-2025",
+      "title": "State of Health in the EU: Lithuania, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-lithuania-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hspm-ltu-shi",
+      "title": "Overview of reforms in SHI contributions for population groups insured by the state (Health Systems and Policy Monitor policy analysis, 13 February 2026)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Karanikolos M, Murauskiene L",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/lithuania-2013/overview-of-reforms-in-shi-contributions-for-population-groups-insured-by-the-state",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-20",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation). The paper reports scores for Lithuania but states no rank."
+    },
+    {
+      "id": "pmc-primary-ltu",
+      "title": "Determinants of Patient-Perceived Primary Healthcare Quality in Lithuania",
+      "publisher": "International Journal of Environmental Research and Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10048695/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10048695",
+      "accessed": "2026-11-20",
+      "funding_note": "Cross-sectional telephone survey of 1,033 respondents, March-April 2021; funded by the European Regional Development Fund and the Research Council of Lithuania. Measures perceived quality, not clinical quality."
+    },
+    {
+      "id": "ec-rrf-ltu",
+      "title": "Entry into force of the amended Law on Health Care Institutions and the Law on the Health System of the Republic of Lithuania and the related legislation (project page)",
+      "publisher": "European Commission, Reforms and Investments (Recovery and Resilience Facility)",
+      "tier": 1,
+      "type": "government",
+      "year": 2023,
+      "url": "https://reforms-investments.ec.europa.eu/projects/entry-force-amended-law-health-care-institutions-and-law-health-system-republic-lithuania-and_en",
+      "accessed": "2026-11-20"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created."
+    }
+  ]
+}

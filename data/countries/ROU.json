@@ -5,30 +5,1169 @@
   "system_as_of": "2026-11-20",
   "status": "draft",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "social_health_insurance",
+    "label": "Single national health insurance fund financed by a 10% income contribution and state subsidies, with a minimum package for the uninsured"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "ROU-overview-001"
+    ],
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
+    "overview": [
+      {
+        "id": "ROU-overview-001",
+        "statement": "Statutory health financing rests on Law 95/2006 on Health Care Reform. Social health insurance is mandatory and intended to cover all Romanian citizens and foreigners with permanent residence in Romania.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3.1",
+          "page": 82,
+          "char_start": 149393,
+          "char_end": 149658,
+          "passage_sha256": "8d4b4f06943a1d10b8530ed2d4f78a7cc95c662c620a6f07a8920eb97c037926"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-overview-002",
+        "statement": "An estimated 89% of the population was covered by social health insurance in 2024, the lowest share of any EU country.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 45220,
+          "char_end": 45325,
+          "passage_sha256": "ed2929cc8b24592367f73420869bcda23b0286609555e08c79788bc3521e0711"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-overview-003",
+        "statement": "A single National Health Insurance Fund pools every contribution centrally, while district funds buy services from providers, and patients may pick any provider at any level without geographic restriction.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 20,
+          "char_start": 26966,
+          "char_end": 27341,
+          "passage_sha256": "4b0cbf55faefc7b38e846fc812b206fd90adf89e41dd51d4c92bec83741a14e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-overview-004",
+        "statement": "Most health services are decentralised to 41 districts and the capital, while the National Health Insurance House, under the Ministry of Health, oversees the compulsory insurance system.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 44222,
+          "char_end": 44523,
+          "passage_sha256": "20bf04468a2582a6614260f8a2eb96ff389d69a5a03423ae6c0c022f6aaf24de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "ROU-financing-001",
+        "statement": "In 2023 the national insurance fund supplied 61.9% of current health expenditure, state and local budgets 14.4%, out-of-pocket payments 23.0% and voluntary insurance 0.6%.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3, sources of revenue",
+          "page": 80,
+          "char_start": 143080,
+          "char_end": 143251,
+          "passage_sha256": "d90304784c7984b6297d6c1a4c7f61ac2ed76ae24b07192a32e7592101620d2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-financing-002",
+        "statement": "The insurance fund draws on individual contributions set at 10% of income and collected through the finance ministry, an employer-paid labour insurance contribution of 2.25% of gross salaries meant for illness compensation, state budget subsidies to cover deficits, and earmarked transfers from the health ministry.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3, sources of revenue",
+          "page": 80,
+          "char_start": 143327,
+          "char_end": 143660,
+          "passage_sha256": "2ad99c32d4ada22b528b62552e7cbdfa3895a922df0ab41aca45d86e77382342"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-financing-003",
+        "statement": "In the insurance house's 2023 budget, individual contributions made up 71.8% of revenue and state subsidies 18.3%.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3, sources of revenue",
+          "page": 80,
+          "char_start": 143990,
+          "char_end": 144105,
+          "passage_sha256": "4032ac0ebb868a809587b3f4fb419e0208139b248c7bb9e1f9ee4094be6def6a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-financing-004",
+        "statement": "The contribution rate is 10% of gross monthly salary under the Fiscal Code. Since 2018, when salaries were raised by the amount of the employer's former share, employees bear the full contribution, which the employer still pays over to the fund.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3.2, collection",
+          "page": 89,
+          "char_start": 165581,
+          "char_end": 166052,
+          "passage_sha256": "4d3dfa1ce504d522e71ef3fdc1952b77141819d85186a98bb5a25506e5146348"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-financing-005",
+        "statement": "For non-salary income the contribution is 10% of net income, bounded below by 10% of six gross monthly minimum wages (24,300 RON) and above by 10% of 60 minimum wages (243,000 RON) per year; the 2025 monthly minimum wage was 4,050 RON.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3.2, collection",
+          "page": 90,
+          "char_start": 166353,
+          "char_end": 166623,
+          "passage_sha256": "bccae64819aa017d1d345391e61e626e13bafd6bf2fc9300f4ebaac189b951e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ROU-financing-006",
+        "statement": "Until 2025, 19 population groups were exempt from contributions; austerity reforms in September 2025 cut the exemptions to mainly children, low-income pensioners, people with disabilities and a few special groups, which is expected to widen the contributor base by about a third.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 44524,
+          "char_end": 45219,
+          "passage_sha256": "7e69a03cf46096f3a4e8282b1a6ba48f4885b211dddcd8507a4b4544dd695abd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ROU-financing-007",
+        "statement": "In 2023 the government budget supplied 14.4% of health financing. Its revenues include excise duties on alcohol and tobacco, which are not earmarked for health.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3.2, general government budget",
+          "page": 91,
+          "char_start": 168928,
+          "char_end": 169411,
+          "passage_sha256": "fdbb5d3f92ca7f1c125d3f1668affdf7aed6af967e22836707744185f27091bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-financing-008",
+        "statement": "Voluntary health insurance spending grew from 40 million RON in 2011 to 474 million RON in 2022, rising from 0.1% to 0.6% of current health expenditure.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3, sources of revenue",
+          "page": 81,
+          "char_start": 146584,
+          "char_end": 146904,
+          "passage_sha256": "7cce27e992a158486d5fee27f0ccf16b2c9d365b7d0bff2b3381fb6cb94047d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ROU-financing-009",
+        "statement": "In the profile's 2023 figures, government and compulsory schemes financed 77% of health spending (EU 80%), and out-of-pocket payments made up almost all of the remaining 23% (EU 16%).",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 46067,
+          "char_end": 46286,
+          "passage_sha256": "e2f8a62092419b5878240018d21410445ed591fe2431c275380adb6fd58f1afa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "ROU-covered-001",
+        "statement": "Uninsured people have a minimum benefits package that the review describes as among the most extensive in the EU, especially for primary care and for hospital inpatient care.",
+        "valence": "strength",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 20,
+          "char_start": 27500,
+          "char_end": 27833,
+          "passage_sha256": "97b11ce4dc0e3b631dbd341156c51623e556c2cf8e8f97017541eadee0e4121a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-covered-002",
+        "statement": "Uninsured people get a state-funded package covering emergency care, infectious diseases, maternal care, family planning and community services; in 2023 it was widened to primary care and some tests and specialist visits for chronic conditions such as hepatitis B and C and cancer, but they still pay for outpatient medicines, other lab tests and imaging.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 14,
+          "char_start": 88702,
+          "char_end": 89292,
+          "passage_sha256": "d3c83b78cbf92a95fe9e6f01980cca5e7494c0f2eec9798ed0b26b5e5588479a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-covered-003",
+        "statement": "Insured people, including those who fled the war in Ukraine, have a broad package spanning inpatient, outpatient, specialist and preventive care, medicines and medical devices.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 96087,
+          "char_end": 96296,
+          "passage_sha256": "66d161e02c22bf2871dc362f58f7a6317d4cbfa95aa16e74e87629ec47c0d3cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-covered-004",
+        "statement": "In 2023 public financing paid for almost all inpatient care, which is above the EU average of 91%, and for 77% of outpatient care, in line with the EU; only half of pharmaceutical spending was publicly financed and public dental coverage was five times below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 96297,
+          "char_end": 96628,
+          "passage_sha256": "81d84790fbbe005bd14b58e353f29457064687a8d350fe967510f2c6ec71c296"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-covered-005",
+        "statement": "Purchasers may not pick providers selectively and must contract all providers meeting the standards; fees are fixed while service volumes are negotiated within budget limits.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 30182,
+          "char_end": 30436,
+          "passage_sha256": "dc5f9d1d08e23759535738cfd421f9751a2e9dc6062302d8cb3742730d96eecc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "ROU-cost_sharing-001",
+        "statement": "Out-of-pocket payments rose from 19% of health spending in 2019 to 23% in 2023 (EU 16%); nearly 60% of that went to pharmaceuticals, 18% to dental care and 9% to outpatient care.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 97107,
+          "char_end": 97398,
+          "passage_sha256": "a4fdb370e3158378644aaf68417e3a50f220a9d828fe3b50c5a89af48e5ed77c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-cost_sharing-002",
+        "statement": "About 70% of positive-list outpatient medicines had no co-payment in 2020, but many carry one. In 2023 the pensioner income threshold for reduced co-payments rose to EUR 321 a month from EUR 200; the insurer then pays 50% of the reference price and the health ministry a further 40%.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 97399,
+          "char_end": 97970,
+          "passage_sha256": "2cacec92c8121bd2d7c90117f3543afcd50f04c047573fcd94c2ad807ef6760f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-cost_sharing-003",
+        "statement": "Public hospitals under contract with the insurer may charge extra for superior accommodation; a 300 RON daily cap set in 2013 was lifted in 2018 and reintroduced in 2023, and standard accommodation must stay available to all who need admission.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3.1",
+          "page": 89,
+          "char_start": 164408,
+          "char_end": 164963,
+          "passage_sha256": "436395ed75eb3492ae6b88aeb7196f197108d58d052145054023f63e8a84aafb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-cost_sharing-004",
+        "statement": "The review calls out-of-pocket payments regressive because they are unrelated to income; only some groups are exempt, and many low- or no-income people are not.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Box 3.2",
+          "page": 90,
+          "char_start": 167869,
+          "char_end": 168266,
+          "passage_sha256": "8d00f6784f36d5aa54867d54dd074b9fbe383445feb0f6ba6ecb5f25bb652b2b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      }
+    ],
     "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "additional_care": [
+      {
+        "id": "ROU-additional_care-001",
+        "statement": "In 2024, 16% of adults with dental needs reported unmet need, the third highest rate in the EU; people at risk of poverty were over three times as likely as others to report it (44% against 13%).",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 95722,
+          "char_end": 95983,
+          "passage_sha256": "ff923490f34ba28b67568d40f9d4e7d0bc648c90739226cc733be191ef903ee9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "ROU-access-001",
+        "statement": "In 2024, 6% of Romanians with medical needs reported unmet need because of cost, distance or waiting, the fifth highest share in the EU. Cost was the main reason, and the figure was about 15% among people at risk of poverty against about 4% for others.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 95161,
+          "char_end": 95610,
+          "passage_sha256": "a45676fb2d99686202eb29f7c7b2567ca17f2ce46815b384de20ef343e06ed2d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-access-002",
+        "statement": "An estimated 11% of residents were uninsured in 2024, including citizens living abroad, informal workers, unemployed people not registered for welfare and people without identity cards, a barrier more common in marginalised rural areas such as Roma communities.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 14,
+          "char_start": 88298,
+          "char_end": 88701,
+          "passage_sha256": "7ea4cff2f9d36aa315b53d84effb149bd1b5e1e004038ec7dc3c7bfb5ab45778"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-access-003",
+        "statement": "The review links the 11% lacking insurance in 2023 possibly to Romanians who live or work abroad but remain resident, noting that 18.6% of working-age Romanians lived or worked in another EU country in 2020.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Section 3.3.1",
+          "page": 84,
+          "char_start": 151396,
+          "char_end": 151860,
+          "passage_sha256": "7dda8951089ed7f3c26966e4c881cc56b1fb71b9cece1d592dd437edcaef7975"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-access-004",
+        "statement": "The number of GPs contracted by the insurer has been falling; in 2023 GP density was highest in the Vest region at 4.7 per 10,000 and lowest in Nord-Est and Sud-Est at 2.2, less than half as high.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 99107,
+          "char_end": 99402,
+          "passage_sha256": "cc9a8a3873dc54d60a3f8f252aac02101d6a5d87ac5609a0693c6066ef1815f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-access-005",
+        "statement": "Primary care received only 10% of health spending in 2022, the third lowest share in the EU, and 6% of adults reported unmet primary care need in 2024, twice the EU average, in a different survey.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 98803,
+          "char_end": 99104,
+          "passage_sha256": "9ea3f7288f1518afb0a9e6f2dcc795e9d05015e33ab3181852b898277d39e6e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-access-006",
+        "statement": "The review says information on access and quality, including hospital waiting times, is largely missing, whereas basic information on statutory benefits is easy to find.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 20,
+          "char_start": 28692,
+          "char_end": 28932,
+          "passage_sha256": "10bef015fdd60b09c47d865e402e3ad054a00439abdeff2fef073aacd20b5274"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-access-007",
+        "statement": "Romania had 3.7 physicians and 8.2 nurses per 1,000 people in 2023, compared with EU averages of 4.3 and 8.5.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 3",
+          "page": 9,
+          "char_start": 51201,
+          "char_end": 51342,
+          "passage_sha256": "1a9245d227bf6302866824a4ff11e3ff5e40d70f4c83383636ec4551d96f61c7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "ROU-outcomes-001",
+        "statement": "Life expectancy reached 76.6 years in 2024, a record for Romania, yet it stayed 5.1 years below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Highlights",
+          "page": 3,
+          "char_start": 6855,
+          "char_end": 6964,
+          "passage_sha256": "03c5120c92eb2f248a4c468462e7389036a8d6502f4a6c70c0770c7d69a128cf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-outcomes-002",
+        "statement": "Preventable mortality was 304 per 100,000 in 2022, nearly twice the EU average of 168, and treatable mortality was 215 per 100,000, the highest in the EU and more than double the average of 90.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 25,
+          "char_start": 38354,
+          "char_end": 38782,
+          "passage_sha256": "6a670be29cf7190b7dad055bb8504b9e0f1be1fa203643de0578a29db7efadce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ROU-outcomes-003",
+        "statement": "The leading causes of treatable deaths were ischaemic heart disease, pneumonia and stroke, and mortality from treatable hypertension and pneumonia was nearly six times the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 10,
+          "char_start": 61832,
+          "char_end": 62013,
+          "passage_sha256": "c012ce5604bd507315adbc023cb57c4065aca2994c166ca7984debd591917b24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ROU-outcomes-004",
+        "statement": "In 2023, 30-day mortality after heart attack and after stroke was well above the EU average among countries with data.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 13,
+          "char_start": 78384,
+          "char_end": 78526,
+          "passage_sha256": "4c8aaebf26964dad0d3680e6ad4e8fd1fd442c2c1582d52512e8b374bff8b0ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-outcomes-005",
+        "statement": "Only 66% of children under one had received a first measles dose in 2024, the lowest rate in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 11,
+          "char_start": 64559,
+          "char_end": 64668,
+          "passage_sha256": "68932464fb4dfbc0ade58069da77a956d5ee2a7ceb7f1cdd7a83ea81138db1da"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-outcomes-006",
+        "statement": "In 2019 survey data, under 10% of eligible people reported having had breast or colorectal screening in the previous two years, compared with EU programme averages of 56% and 44%. For cervical screening the figure was 39% against an EU programme average of 55%.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 12,
+          "char_start": 73615,
+          "char_end": 74058,
+          "passage_sha256": "c9c3d01b2cd936d3cc54102fd787c3de546cf01656a6c547c475e487dbbbd821"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ROU-outcomes-007",
+        "statement": "Avoidable hospital admissions for chronic conditions such as asthma, COPD, heart failure and diabetes have long been among the EU's highest, and Romania ranked highest for diabetes.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 12,
+          "char_start": 74459,
+          "char_end": 74929,
+          "passage_sha256": "45c7c59e8091778baca683f0f7cf16a0d0bb0173cd0c40e844681b50989048ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "ROU-costs-001",
+        "statement": "Health spending was EUR 1,800 per person in 2023 (purchasing-power adjusted), the lowest in the EU and under half the EU average of EUR 3,832, equal to 5.8% of GDP against 10.0% across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 45461,
+          "char_end": 45690,
+          "passage_sha256": "8ae67f8a5e586fc14184c3011e5588a01280a6c5c2638ab154629ddb0cef7190"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-costs-002",
+        "statement": "Health's share of government spending fell from 13.8% in 2019 to 11.7% in 2023, although public health spending rose strongly.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 16,
+          "char_start": 107696,
+          "char_end": 107863,
+          "passage_sha256": "816f85ef778ac2989d93e84f84957b1099014ce134665214e05f90cc262f3455"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-costs-003",
+        "statement": "Inpatient care took 41% of health spending in 2023, the second highest share in the EU, while outpatient care took 20%, the second lowest.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 46740,
+          "char_end": 46991,
+          "passage_sha256": "dea0488898f1b7eaf7d3ac22489b8424b638de84b6b980e08e96772352341867"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "ROU-what_works-001",
+        "statement": "In 2023-24 PaRIS survey results, 70% of people with chronic conditions who contacted primary care felt they had enough support to manage their health, more than the average of 10 participating EU countries.",
+        "valence": "strength",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 13,
+          "char_start": 79664,
+          "char_end": 79957,
+          "passage_sha256": "39092021ff146f04b7d06480d45fcad4c799cc8ab5b9d7a41bbb476c184f02e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-what_works-002",
+        "statement": "Day cases rose to 64.5% of insurer-reimbursed hospital admissions in 2022 from 41.6% in 2014.",
+        "valence": "strength",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 34111,
+          "char_end": 34266,
+          "passage_sha256": "4d015d12c50209d73fc283379526c8e018d54f89e2037a0ee1a44c4e99e83446"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ROU-what_works-003",
+        "statement": "The review notes that insurance contributions are proportional to income, and exemptions for economically deprived people tie payment to ability to pay and lighten the load on poorer households.",
+        "valence": "strength",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Box 3.2",
+          "page": 90,
+          "char_start": 167167,
+          "char_end": 167505,
+          "passage_sha256": "bfd9be6b0c9fdebc47db85343b0f8d6a8bf39dd41b71cee7e1a620c66497eded"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-what_works-004",
+        "statement": "In 2023 public financing covered almost all inpatient care, above the EU average of 91%.",
+        "valence": "strength",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 96297,
+          "char_end": 96403,
+          "passage_sha256": "083bbc09152780ed86833159c6da7882fb52a46def78ecfe15bbc348354f4c51"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "ROU-problems-001",
+        "statement": "The review says funding allocations follow political decisions more than evidence or cost-effectiveness, which contributes to regional inequalities and inefficiency.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 25,
+          "char_start": 38783,
+          "char_end": 38993,
+          "passage_sha256": "63c15eb6a3ff9d02b9f6817c48b84ee2db03fdd752895b7fd7390bdea0d1fbf9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-problems-002",
+        "statement": "The system remains highly hospital-centric, with 7.3 hospital beds per 1,000 people in 2023, the third highest in the EU; much of the hospital infrastructure is outdated.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 16,
+          "char_start": 106706,
+          "char_end": 107073,
+          "passage_sha256": "e32b2e6039aeb99da5e09c7e0917805743986376b5605dd3d2cbf59100f40156"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-problems-003",
+        "statement": "The review says reforms have often been ineffective, partly because of high political instability.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 17,
+          "char_start": 23990,
+          "char_end": 24118,
+          "passage_sha256": "3517b5ff42e653baf737e2a848e19da6f0a4b25eada0c2bf53d82372f3da5bc3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-problems-004",
+        "statement": "GPs were 18% of physicians in 2023 against an EU average of 20%, with two in five GPs over 60; the profile cites low interest among new doctors and many retirements.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 3",
+          "page": 10,
+          "char_start": 59483,
+          "char_end": 60049,
+          "passage_sha256": "70d120ba0b47851536829bbaa1501e1c067edceafb38df3baabc3193aa3984fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-problems-005",
+        "statement": "The review says informal payments to doctors and nurses still appear highly prevalent, though they seem to have fallen since a significant salary increase.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 29530,
+          "char_end": 29708,
+          "passage_sha256": "b1c5635f10622c5adae4e1eb0e52e38ea26d11e8878f644e2916d0a0b77c0e9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-problems-006",
+        "statement": "Insurance covers dental care to a very low extent, which drives catastrophic spending among the richest consumption quintile and raises unmet need for dental examinations due to cost, especially among the poorest, reaching 6.6% in 2024.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 34819,
+          "char_end": 35121,
+          "passage_sha256": "7461c17250bcf048ba1e2a24cf8296f8cb511d2e68d86b39ca0642341bf220a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-problems-007",
+        "statement": "The review says quality-of-care data were not collected regularly until 2022, when the country began the OECD accession process.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 24,
+          "char_start": 38036,
+          "char_end": 38237,
+          "passage_sha256": "349697478a58be7c5469ffda31678f5661a604c18e56de7258fa2c1da58848a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "ROU-problems-008",
+        "statement": "The review reports shortages of health professionals, mainly in rural and remote areas, alongside high staff density in big university cities; emigration of doctors and nurses has eased recently.",
+        "valence": "weakness",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 17,
+          "char_start": 23711,
+          "char_end": 23989,
+          "passage_sha256": "f0c33204d6a6fd92e1b574595b5865ac394703f2575417fa324d7a96ed9a3ea5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2026
+      }
+    ],
+    "reforms": [
+      {
+        "id": "ROU-reforms-001",
+        "statement": "To end employers' failure to pay insurance contributions, employees were made solely responsible for the full 10% of income.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 35667,
+          "char_end": 35870,
+          "passage_sha256": "76da87d19171e853783e191f99f97567a198766acb7d3a7d7b4b263aace4d932"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2018,
+        "historical": true
+      },
+      {
+        "id": "ROU-reforms-002",
+        "statement": "In 2017 health professionals' salaries were raised more than threefold to curb emigration of the workforce.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 35871,
+          "char_end": 36023,
+          "passage_sha256": "f2fad702ce04c0fe1bfa76ef26fad5f1eadd087c059a5e60464688af431727f4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2017,
+        "historical": true
+      },
+      {
+        "id": "ROU-reforms-003",
+        "statement": "In 2023 the family physician payment mix changed from 50:50 to 35:65 fee-for-service ratio, with a lump sum added for specific health risk assessments to promote prevention.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 24,
+          "char_start": 36024,
+          "char_end": 36305,
+          "passage_sha256": "f8a4e657c9dffbe8c2b5ff4bb3605b588298a489cbe1a1dbea11e0da821fe863"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ROU-reforms-004",
+        "statement": "Since 2023 uninsured people may use primary care, and since 2024 specialised services for early detection and treatment of cancers, hepatitis B and C, and HIV/AIDS in pregnant women.",
+        "valence": "neutral",
+        "source_id": "hit-rou-2026",
+        "locator": {
+          "section": "Executive summary",
+          "page": 24,
+          "char_start": 37413,
+          "char_end": 37717,
+          "passage_sha256": "2700cd40055602dc65c4d24008404e41fbe69ddbabcda6945000697f6887a499"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ROU-reforms-005",
+        "statement": "Romania earmarked about EUR 2 billion of its EU Recovery and Resilience Facility funds for health over 2021-2026, around 7% of its total allocation.",
+        "valence": "neutral",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 17,
+          "char_start": 110015,
+          "char_end": 110229,
+          "passage_sha256": "da28c5c76cc5bcace0d4a3d59bb1d1de88f81a16c4718d1e0dac926111258d77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ROU-reforms-006",
+        "statement": "As of September 2025, implementation delays had led to cuts in Recovery and Resilience Facility funding for hospital infrastructure projects.",
+        "valence": "weakness",
+        "source_id": "chp-rou-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 17,
+          "char_start": 111014,
+          "char_end": 111141,
+          "passage_sha256": "55950361463d662df5016e9febac4c4a41437d1714553f8ecdd529b0103c4159"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/ROU.json",
-  "sources": [],
+  "sources": [
+    {
+      "id": "chp-rou-2025",
+      "title": "State of Health in the EU: Romania, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-romania-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hit-rou-2026",
+      "title": "Romania: Health system review, Health Systems in Transition Vol. 28 No. 1",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Vlădescu C, Scîntee SG, Hernández-Quevedo C, Tille F, Eriksen A",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://iris.who.int/server/api/core/bitstreams/ed3ce2ad-563f-4bb1-bd05-3a94b791ec67/content",
+      "accessed": "2026-11-20"
+    }
+  ],
   "rankings": [],
   "changelog": [
     {

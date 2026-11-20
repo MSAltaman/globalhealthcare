@@ -3,7 +3,7 @@
   "name": "Bulgaria",
   "wave": 4,
   "system_as_of": "2026-11-20",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "social_health_insurance",
     "label": "Compulsory national social health insurance through a single fund (the NHIF), with a large out-of-pocket share and a sizeable uninsured minority"
@@ -57,7 +57,7 @@
       },
       {
         "id": "BGR-overview-003",
-        "statement": "All Bulgarian citizens, permanent residents and people with humanitarian status are compulsorily insured, and the state pays contributions for pensioners, children, students and entitled unemployed people; even so, between 11% and 12% of the population remains uninsured, depending on the national data source.",
+        "statement": "By law, Bulgarian citizens, permanent residents and people with humanitarian status must be insured under the social health insurance scheme, and the state pays for pensioners, children, students and unemployed people who qualify for benefits; nonetheless 11-12% of the population is uninsured, the figure depending on the national data source.",
         "valence": "neutral",
         "source_id": "hss-bgr-2024",
         "locator": {
@@ -68,10 +68,9 @@
           "passage_sha256": "28fb8992543b2c35e55d94e707e414aa8473878fdcf87c87f930f79014718b22"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2022
       },
@@ -96,7 +95,7 @@
       },
       {
         "id": "BGR-overview-005",
-        "statement": "Care is delivered by public and private hospitals, clinics and medical centres in the NHIF-contracted network, with free choice of provider; general practitioners act as gatekeepers to diagnostics, specialist outpatient care and hospital admission, with referral volumes managed through quarterly quotas.",
+        "statement": "The NHIF-contracted network mixes public and private hospitals, clinics and medical centres and lets patients choose their provider; GPs control entry to diagnostics, specialist outpatient care and hospital admission, and the number of referrals is limited by quarterly quotas.",
         "valence": "neutral",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -107,10 +106,9 @@
           "passage_sha256": "b0957914a7e13f3386a3faab43b8040aad7410825d4374399a18a0b3cef80f38"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2025
       },
@@ -196,7 +194,7 @@
     "covered": [
       {
         "id": "BGR-covered-001",
-        "statement": "Some services, including occupational health care, elective cosmetic surgery, elective termination of pregnancy and contraception, are not covered at all, while others, including emergency care, inpatient mental health care, in vitro fertilisation, transplantation and public health services, are fully financed from the state budget.",
+        "statement": "Occupational health care, elective cosmetic surgery, elective abortion and contraception are outside the benefits package, whereas emergency care, inpatient mental health care, IVF, transplantation and public health services are paid in full from the state budget.",
         "valence": "neutral",
         "source_id": "hss-bgr-2024",
         "locator": {
@@ -207,10 +205,9 @@
           "passage_sha256": "79fdb30e6fd0e50d0e5806524caaf80f7d8b6c5a9ddd3d37bab27550c8dbacad"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2024
       },
@@ -275,7 +272,7 @@
     "cost_sharing": [
       {
         "id": "BGR-cost_sharing-001",
-        "statement": "User fees and cost-sharing apply to most services and goods in the basic benefits package, including dental care, outpatient visits, laboratory tests and hospital stays.",
+        "statement": "Patients pay user fees or a share of the cost for most services and goods in the basic package, among them dental care, outpatient consultations, lab tests and hospital stays.",
         "valence": "weakness",
         "source_id": "hss-bgr-2024",
         "locator": {
@@ -286,16 +283,15 @@
           "passage_sha256": "ff12f6529b3a4ddac4425ee8f531a28682fdb7754e1b30467a3fb586f0735ff6"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2024
       },
       {
         "id": "BGR-cost_sharing-002",
-        "statement": "Medicines account for over two thirds of out-of-pocket spending, which the profile attributes to a restrictive positive drug list, low public financing and a comparatively high VAT rate of 20% on prescribed medicines.",
+        "statement": "Medicines make up more than two thirds of what patients pay out of pocket; the profile points to the restrictive positive list, the low public share of spending and a 20% VAT on prescription medicines as the causes.",
         "valence": "weakness",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -306,10 +302,9 @@
           "passage_sha256": "1d00aa840221e7faae932532ee9a7a06dd00efc7fa4942a7434fd65825b003ce"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2023
       },
@@ -394,7 +389,7 @@
       },
       {
         "id": "BGR-additional_care-002",
-        "statement": "The NHIF fully covers dental services for special categories such as children and adults with mental health conditions and residents of medico-social institutions, and children are entitled to more fully covered dental services and lower copayments than adults.",
+        "statement": "The NHIF pays in full for dental services for certain categories, such as children, adults with mental health conditions and residents of medico-social institutions; children also get broader dental cover and pay lower copayments than adults.",
         "valence": "neutral",
         "source_id": "hss-bgr-2024",
         "locator": {
@@ -405,10 +400,9 @@
           "passage_sha256": "7ce4bb7629ebffd5e341dbcbb1e8d7b9a71eb673b37f68d11a56b35d9487984d"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2024
       },
@@ -453,7 +447,7 @@
       },
       {
         "id": "BGR-access-002",
-        "statement": "Regional evidence suggests that over one fifth of residents had interrupted insurance rights in 2020-2022, rising to about one third among working-age adults.",
+        "statement": "Regional evidence suggests that more than one in five residents had a break in their insurance rights during 2020-2022, and about one in three working-age adults did.",
         "valence": "weakness",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -464,10 +458,9 @@
           "passage_sha256": "efb3c40d3423d501ac9b48520a75220557c6be0b233842de75acc002661c9fdd"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2022
       },
@@ -569,7 +562,7 @@
       },
       {
         "id": "BGR-outcomes-002",
-        "statement": "Bulgaria has one of the highest avoidable-mortality rates in the EU: preventable mortality rose in 2019-22 because of COVID-19, while treatable mortality has scarcely improved in a decade and remains more than twice the EU average.",
+        "statement": "Avoidable mortality in Bulgaria is among the highest in the EU: preventable deaths increased in 2019-22 because of COVID-19, and deaths from treatable causes have barely fallen in ten years, staying above twice the EU average.",
         "valence": "weakness",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -580,16 +573,15 @@
           "passage_sha256": "57702e4b4361370e25c9780d7f5047a10816bca35641dfd05a099bb6b3f514ef"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2022
       },
       {
         "id": "BGR-outcomes-003",
-        "statement": "Beyond COVID-19, stroke and ischaemic heart disease were the leading contributors to both preventable and treatable mortality in 2022.",
+        "statement": "After COVID-19, stroke and ischaemic heart disease contributed most to both preventable and treatable deaths in 2022.",
         "valence": "neutral",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -600,10 +592,9 @@
           "passage_sha256": "39183640833f8e552fda355bfec802aa979782692294c55c6141c6896407031e"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2022
       },
@@ -746,7 +737,7 @@
     "what_works": [
       {
         "id": "BGR-what_works-001",
-        "statement": "Recent NHIF data indicate that the 2023 GP payment incentives expanded service coverage, and targeted funding for remote and hard-to-reach areas rose more than fourfold, from BGN 2.2 million in 2023 to BGN 9.0 million in 2024.",
+        "statement": "NHIF data for 2024 suggest that the 2023 higher GP payments and preventive-service incentives widened the services delivered; money earmarked for remote areas grew over fourfold, to BGN 9.0 million in 2024 from BGN 2.2 million the year before.",
         "valence": "strength",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -757,10 +748,9 @@
           "passage_sha256": "f9c64ca52c048a8cd0c6f06bbbb27903d804894f8aca6397b2047d919d8f5c0d"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2024
       },
@@ -785,7 +775,7 @@
       },
       {
         "id": "BGR-what_works-003",
-        "statement": "The state funds general practice trainees at over two and a half times the national minimum wage, a policy that has contributed to the number of GP postgraduates nearly doubling between 2022 and 2024.",
+        "statement": "Funding for general practice trainees is above 2.5 times the minimum wage, and the number of GP postgraduates almost doubled between 2022 and 2024.",
         "valence": "strength",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -796,10 +786,9 @@
           "passage_sha256": "46083de9df96f06b7c259ae19637a656073918636fb40db538a1143d86609fee"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2024
       },
@@ -979,7 +968,7 @@
       },
       {
         "id": "BGR-reforms-002",
-        "statement": "In July 2025 Parliament amended the Health Insurance Act to tie NHIF payments to contractually agreed limits and earmarked budgets, effectively seeking to reintroduce caps; as of September 2025 the legal and operational status remained uncertain.",
+        "statement": "A July 2025 amendment to the Health Insurance Act linked NHIF payments to agreed limits and earmarked budgets, which in effect tries to bring caps back; by September 2025 its legal and operational status was still unclear and could face another constitutional challenge.",
         "valence": "neutral",
         "source_id": "chp-bgr-2025",
         "locator": {
@@ -990,10 +979,9 @@
           "passage_sha256": "9baa688ed2a788f12cefad4d9ffde068e3c69de4526473e80ddb24948e621ecc"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-20",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-20"
         },
         "data_year": 2025
       },

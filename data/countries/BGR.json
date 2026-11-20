@@ -3,32 +3,1146 @@
   "name": "Bulgaria",
   "wave": 4,
   "system_as_of": "2026-11-20",
-  "status": "draft",
+  "status": "needs_review",
   "model": {
-    "type": "mixed",
-    "label": "TODO: plain-language name of the model"
+    "type": "social_health_insurance",
+    "label": "Compulsory national social health insurance through a single fund (the NHIF), with a large out-of-pocket share and a sizeable uninsured minority"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [],
+    "legal_basis_claim_ids": [
+      "BGR-overview-003",
+      "BGR-overview-001"
+    ],
     "meets_definition": true
   },
   "sections": {
-    "overview": [],
-    "financing": [],
-    "covered": [],
-    "cost_sharing": [],
+    "overview": [
+      {
+        "id": "BGR-overview-001",
+        "statement": "Social health insurance is compulsory for all residents and managed centrally by the National Health Insurance Fund (NHIF), the single purchaser of services, which buys care through 28 Regional Health Insurance Funds.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 47863,
+          "char_end": 48047,
+          "passage_sha256": "de845453b47541f532a35364ecf8528d3701097e974740a527eeaec70fcb4927"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-overview-002",
+        "statement": "The Observatory describes a highly centralised system under compulsory social health insurance in which the NHIF, with its 28 regional branches, is the sole purchaser, and for-profit voluntary health insurance plays a minimal role.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "How is the health system organized?",
+          "page": 3,
+          "char_start": 2456,
+          "char_end": 2793,
+          "passage_sha256": "0cbf83aaf4d0b19fa3a3393e93ef3d6aa684af868a61e2d4efab29c5bd4c7219"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-overview-003",
+        "statement": "All Bulgarian citizens, permanent residents and people with humanitarian status are compulsorily insured, and the state pays contributions for pensioners, children, students and entitled unemployed people; even so, between 11% and 12% of the population remains uninsured, depending on the national data source.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 7,
+          "char_start": 10620,
+          "char_end": 11106,
+          "passage_sha256": "28fb8992543b2c35e55d94e707e414aa8473878fdcf87c87f930f79014718b22"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BGR-overview-004",
+        "statement": "The Ministry of Health oversees organisation and performance of the system, defines the publicly funded benefits package, and directly runs the national emergency care network, 28 hygiene-epidemiological inspectorates and several national research and reference centres.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 47410,
+          "char_end": 47687,
+          "passage_sha256": "cbab1496f3e9edb9db7db6d6d6b8105f25fa53cf54bf32ec186b0d3fac969fe4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-overview-005",
+        "statement": "Care is delivered by public and private hospitals, clinics and medical centres in the NHIF-contracted network, with free choice of provider; general practitioners act as gatekeepers to diagnostics, specialist outpatient care and hospital admission, with referral volumes managed through quarterly quotas.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 48434,
+          "char_end": 48746,
+          "passage_sha256": "b0957914a7e13f3386a3faab43b8040aad7410825d4374399a18a0b3cef80f38"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-overview-006",
+        "statement": "The private sector delivers most ambulatory care in Bulgaria, including primary medical and dental care and specialised outpatient care, as well as some hospital services and pharmaceuticals.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Providers",
+          "page": 4,
+          "char_start": 5518,
+          "char_end": 5694,
+          "passage_sha256": "fb2d22d5150da0b7b8973be45daf5c3d2ae7d8bc17e15914daa26428957eac90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financing": [
+      {
+        "id": "BGR-financing-001",
+        "statement": "The NHIF is financed mainly by social health insurance contributions and earmarked funds from the Ministry of Health, and passes the money to the 28 regional funds on the basis of population information, historical allocations and estimates of health needs.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Funding mechanisms",
+          "page": 4,
+          "char_start": 6714,
+          "char_end": 6977,
+          "passage_sha256": "0452e5c57faa099f4a61aff8a5496882decc2ab9d6cd700fc58cea00e67583a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-financing-002",
+        "statement": "Public funding comes from social health insurance contributions and taxes, while private funding comes from out-of-pocket payments, voluntary health insurance premiums, corporate payments and donations.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Funding mechanisms",
+          "page": 4,
+          "char_start": 6417,
+          "char_end": 6640,
+          "passage_sha256": "86aba91c1c2c44a1b8d5f1797bd3f2635b5c194c35cde910b89684e8bcee96a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-financing-003",
+        "statement": "Public sources financed 63.0% of current health spending in 2023, one of the lowest shares in the EU, while out-of-pocket payments were 36.0%, the highest share in the EU and more than double the EU average of 16.0%; voluntary health insurance played only a marginal role.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 51703,
+          "char_end": 52103,
+          "passage_sha256": "320e3aceca5af6730e0f4c78ff38a1d97f6ae6a3ca5a45d299958b6b7423cf58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "BGR-covered-001",
+        "statement": "Some services, including occupational health care, elective cosmetic surgery, elective termination of pregnancy and contraception, are not covered at all, while others, including emergency care, inpatient mental health care, in vitro fertilisation, transplantation and public health services, are fully financed from the state budget.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Box 2 What are the key gaps in coverage?",
+          "page": 7,
+          "char_start": 13058,
+          "char_end": 13412,
+          "passage_sha256": "79fdb30e6fd0e50d0e5806524caaf80f7d8b6c5a9ddd3d37bab27550c8dbacad"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-covered-002",
+        "statement": "Public financing covered 92% of inpatient costs in 2023, in line with the EU average, but only 58% of outpatient spending (EU average 77%), 44% of dental spending (EU average 35%) and 23% of pharmaceutical spending (EU average 59%).",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 83066,
+          "char_end": 83719,
+          "passage_sha256": "7d8c3cece8951edaad29dc2613f438c945a8ddd72147de1b8a38280303eb319f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-covered-003",
+        "statement": "Public coverage of medicines is limited to a comparatively restrictive positive list, so many essential or newer products carry high copayments or are excluded entirely.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 83720,
+          "char_end": 83892,
+          "passage_sha256": "bd7ed0d9fe1a57ccd2a6a2562f94e05fbb2f000e71c445a5564995b8d7f0a6db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-covered-004",
+        "statement": "Since 1 June 2023, recipients of monthly social assistance are automatically covered by state-funded health insurance, and a new Monthly Social Assistance Base set at 30% of the official poverty line replaced the Guaranteed Minimum Income, which had been frozen well below the poverty line, raising the income threshold for support.",
+        "valence": "strength",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 80744,
+          "char_end": 81371,
+          "passage_sha256": "06b8e3f8ba97c4ac32848c7c9fad928d916400095e930e242620f7d40734d49f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "BGR-cost_sharing-001",
+        "statement": "User fees and cost-sharing apply to most services and goods in the basic benefits package, including dental care, outpatient visits, laboratory tests and hospital stays.",
+        "valence": "weakness",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Box 2 What are the key gaps in coverage?",
+          "page": 7,
+          "char_start": 12729,
+          "char_end": 12899,
+          "passage_sha256": "ff12f6529b3a4ddac4425ee8f531a28682fdb7754e1b30467a3fb586f0735ff6"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-cost_sharing-002",
+        "statement": "Medicines account for over two thirds of out-of-pocket spending, which the profile attributes to a restrictive positive drug list, low public financing and a comparatively high VAT rate of 20% on prescribed medicines.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 91168,
+          "char_end": 91481,
+          "passage_sha256": "1d00aa840221e7faae932532ee9a7a06dd00efc7fa4942a7434fd65825b003ce"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-cost_sharing-003",
+        "statement": "Direct payments arise for services and goods outside the basic package at prices set by providers, for covered services obtained outside the standard public pathway, and for uninsured people.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Out-of-pocket payments",
+          "page": 6,
+          "char_start": 9992,
+          "char_end": 10248,
+          "passage_sha256": "b90768047cba8a11f8a9fe9f9db1073812f41522ec7a605bc4295ef35126b579"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BGR-cost_sharing-004",
+        "statement": "In 2024 reimbursement was expanded to cover 100% of many cardiovascular medicines that were previously only partly subsidised.",
+        "valence": "strength",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 91509,
+          "char_end": 91656,
+          "passage_sha256": "f7bd58c9e59c892f185b0b00f862c85f055a4cfd36734b187ffbb04a4d270f05"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-cost_sharing-005",
+        "statement": "Out-of-pocket spending exceeded 40% of current health spending in every year from 2006 to 2017, peaking in 2017, and fell to about 35% in 2023, still the highest burden in the EU.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 84679,
+          "char_end": 84820,
+          "passage_sha256": "50a1cf6cfdd281f4d39b759d61a3b04b600fa1b163f3971f722cb13323533488"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
     "financial_hardship": [],
-    "additional_care": [],
-    "access": [],
-    "outcomes": [],
-    "costs": [],
-    "what_works": [],
-    "problems": [],
-    "reforms": [],
+    "additional_care": [
+      {
+        "id": "BGR-additional_care-001",
+        "statement": "Mental health care remains highly institutionalised and does not provide adequate community-oriented psychosocial support, while services concentrated in district centres and insufficient continuity and coordination of care further undermine provision.",
+        "valence": "weakness",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Mental health care",
+          "page": 13,
+          "char_start": 27370,
+          "char_end": 27704,
+          "passage_sha256": "85f1c798c6a13f9891750123bf0b1bbf71b57884adb7da905f5565522e2b8dbb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-additional_care-002",
+        "statement": "The NHIF fully covers dental services for special categories such as children and adults with mental health conditions and residents of medico-social institutions, and children are entitled to more fully covered dental services and lower copayments than adults.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Dental care",
+          "page": 13,
+          "char_start": 28374,
+          "char_end": 28693,
+          "passage_sha256": "7ce4bb7629ebffd5e341dbcbb1e8d7b9a71eb673b37f68d11a56b35d9487984d"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-additional_care-003",
+        "statement": "A 2023 review of psychiatric care found that the mental health care system has not changed much in recent years and has a long way to go.",
+        "valence": "weakness",
+        "source_id": "pmc-bgr-mh-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1341,
+          "char_end": 1471,
+          "passage_sha256": "1026ddf2c254972533c3aff30390c53c3158a830ffc1ee8dc1cf0e5946814048"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "access": [
+      {
+        "id": "BGR-access-001",
+        "statement": "About 94% of the population was insured in 2024, implying about 6% uninsured, though national sources put the uninsured share at 11-12%; the differences reflect how residents abroad, lapsed contributions and registration status are counted.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 78118,
+          "char_end": 78391,
+          "passage_sha256": "aa99d8dd1f926f83ad2c009d20b9e25221e0b0113e7318237430073bc1816aaa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-access-002",
+        "statement": "Regional evidence suggests that over one fifth of residents had interrupted insurance rights in 2020-2022, rising to about one third among working-age adults.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 78532,
+          "char_end": 78824,
+          "passage_sha256": "efb3c40d3423d501ac9b48520a75220557c6be0b233842de75acc002661c9fdd"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BGR-access-003",
+        "statement": "Self-reported unmet need for a medical examination because of cost, distance or waiting time fell from 10.3% in 2009, the highest in the EU, to 1.4% in 2020, rose during the pandemic, and was 1.1% in 2023, below the EU average.",
+        "valence": "strength",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Access to care",
+          "page": 15,
+          "char_start": 36319,
+          "char_end": 36674,
+          "passage_sha256": "c9b07d8263d5ba4cb821fb4b8f2ffa696615f1d00ef054ac1d44b8cb5e8ac00f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-access-004",
+        "statement": "European Health Interview Survey data show that unaffordability was the most cited barrier to care; 14% reported unmet dental care needs and 8% unmet needs because medicines were unaffordable, while distance or transport problems were the least cited reason (3%).",
+        "valence": "weakness",
+        "source_id": "pmc-bgr-unmet-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2515,
+          "char_end": 2785,
+          "passage_sha256": "ac4231ba0fe0f60907eaddf8deb9a720e4153180bec20e1406f4442134a14797"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BGR-access-005",
+        "statement": "General practitioner density varies more than twofold across regions, from 0.31 per 1,000 population in Kardzhali to 0.84 in Pleven, which makes primary care access uneven.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 92098,
+          "char_end": 92375,
+          "passage_sha256": "6472d2f1b3b3a97ab12bd64bc78cb8cdea4b520da2d9884be8f6d780064e19d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-access-006",
+        "statement": "Bulgaria had 4.6 doctors per 1,000 population in 2023, above the EU average of 4.3, but general practitioners were only 13% of doctors (EU average 20%) and nurses numbered 4.4 per 1,000, roughly half the EU average of 8.5.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 53789,
+          "char_end": 54291,
+          "passage_sha256": "151ab1f8e0d11b71be6080e2da9a0d9bb8a12d8ca3c104e9f73567b88cdf8115"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "BGR-outcomes-001",
+        "statement": "Life expectancy in Bulgaria was 75.9 years in 2024, the lowest in the EU and almost six years below the EU average, although it has surpassed its pre-pandemic level.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "Highlights",
+          "page": 3,
+          "char_start": 4501,
+          "char_end": 4754,
+          "passage_sha256": "4e2d1de5ad58b37bc751fecdb9f37a679a3559b8cb8b66433a4d7b2fa737eff3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-outcomes-002",
+        "statement": "Bulgaria has one of the highest avoidable-mortality rates in the EU: preventable mortality rose in 2019-22 because of COVID-19, while treatable mortality has scarcely improved in a decade and remains more than twice the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "Highlights",
+          "page": 3,
+          "char_start": 5746,
+          "char_end": 5976,
+          "passage_sha256": "57702e4b4361370e25c9780d7f5047a10816bca35641dfd05a099bb6b3f514ef"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BGR-outcomes-003",
+        "statement": "Beyond COVID-19, stroke and ischaemic heart disease were the leading contributors to both preventable and treatable mortality in 2022.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 66750,
+          "char_end": 66969,
+          "passage_sha256": "39183640833f8e552fda355bfec802aa979782692294c55c6141c6896407031e"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "BGR-outcomes-004",
+        "statement": "Breast cancer screening among women aged 50-69 reached 36% in 2019 against 66% across the EU, cervical screening 57% against 71%, and colorectal screening participation only 4%.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 76536,
+          "char_end": 76765,
+          "passage_sha256": "c4a79b600f2d7c630dca9be4328a5637ba749cac69dc36f2ec9b65a1c2fe0fbe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BGR-outcomes-005",
+        "statement": "Influenza vaccination among people aged 65 and over was 15% in 2022/23 against an EU average of 47%, and only 3% of 15-year-old girls had received the HPV vaccine in 2024, the lowest rate in the EU against an average of 63%.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 74838,
+          "char_end": 75536,
+          "passage_sha256": "6160d607a6f5f0e358ae95d038094fc206cf13d9afe6568f5af0f8a8e4d226cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-outcomes-006",
+        "statement": "The share of adults who smoke daily is the highest in the EU, with no reduction over the past decade, and only 11% of adults do physical activity at least three times a week, the smallest share in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "Highlights",
+          "page": 3,
+          "char_start": 4903,
+          "char_end": 5275,
+          "passage_sha256": "2112c9266b3ed240936d56c40acc1e51067aa268c8a886093e3e2f587581eba2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      }
+    ],
+    "costs": [
+      {
+        "id": "BGR-costs-001",
+        "statement": "Health spending was EUR 2,085 per person in 2023 (adjusted for purchasing power), just over half the EU average of EUR 3,832, and 7.9% of GDP against an EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 51391,
+          "char_end": 51630,
+          "passage_sha256": "fe284767d938ed89eb9aecbbff58ea42dd34228b016e552aeaad2141c661097a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-costs-002",
+        "statement": "Inpatient hospital care took 38% of health spending in 2023 (EU average 28%), pharmaceuticals and medical devices 33%, the largest share in the EU, outpatient care 19% (EU average 28%) and prevention only 3%.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 52724,
+          "char_end": 53593,
+          "passage_sha256": "9af6ac4e7834b52c42ba0cb2952ac19fd5653bcc2a92c2f5fbecba1fb0edba4b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-costs-003",
+        "statement": "Public health spending rose by over 6% a year in real terms in the five years before the pandemic, against 2.9% in the EU, and by roughly 80% in real terms between 2015 and 2023.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 105510,
+          "char_end": 105883,
+          "passage_sha256": "a4bcdb981bbc83b5fa49e840ad939d65a92944e903d06e5b97ffdd1123b3ab88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-costs-004",
+        "statement": "Bulgaria had 8.6 hospital beds per 1,000 population in 2023, over 50% above the EU average and still rising, while bed occupancy was 57% against an EU average of 68%.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 98419,
+          "char_end": 98829,
+          "passage_sha256": "dca8de094b5597ab3369a1b4944ab4be779e29b4b8ae3944bf3a63ba58180411"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "BGR-what_works-001",
+        "statement": "Recent NHIF data indicate that the 2023 GP payment incentives expanded service coverage, and targeted funding for remote and hard-to-reach areas rose more than fourfold, from BGN 2.2 million in 2023 to BGN 9.0 million in 2024.",
+        "valence": "strength",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "Box 1",
+          "page": 15,
+          "char_start": 99873,
+          "char_end": 100411,
+          "passage_sha256": "f9c64ca52c048a8cd0c6f06bbbb27903d804894f8aca6397b2047d919d8f5c0d"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-what_works-002",
+        "statement": "In January 2025 Bulgaria launched its first population-based cervical cancer screening programme, with EUR 4.5 million of initial funding, eligibility regardless of insurance status, and mobile units for remote areas.",
+        "valence": "strength",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 77230,
+          "char_end": 77499,
+          "passage_sha256": "b6e0dc6c1c9c0b7d489a7ca84b93b587a01e48dde34c8a13f3f106cfe89fa66a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-what_works-003",
+        "statement": "The state funds general practice trainees at over two and a half times the national minimum wage, a policy that has contributed to the number of GP postgraduates nearly doubling between 2022 and 2024.",
+        "valence": "strength",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 107769,
+          "char_end": 107969,
+          "passage_sha256": "46083de9df96f06b7c259ae19637a656073918636fb40db538a1143d86609fee"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-what_works-004",
+        "statement": "The Observatory notes that, despite a political climate that makes systemic reforms difficult, Bulgaria has introduced several changes to make the system more efficient, including health technology assessment.",
+        "valence": "strength",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Summing up",
+          "page": 20,
+          "char_start": 48429,
+          "char_end": 48621,
+          "passage_sha256": "9e2f7a49ed438af28c201522ca4b4fe3d83ba60e44f73790b7630be077908f1b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      }
+    ],
+    "problems": [
+      {
+        "id": "BGR-problems-001",
+        "statement": "After 2024 court rulings annulled hospital payment ceilings, hospital care costs ran 6% above budget by October 2024, the NHIF posted a EUR 75 million deficit for 2024, and a shortfall of around EUR 110 million was projected for the first nine months of 2025.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 103807,
+          "char_end": 104218,
+          "passage_sha256": "57a6c0c77d9a0b298050f2cc6003b543a7e63872de6ae9a8b447f6e497fe889e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-problems-002",
+        "statement": "Estimates indicate a functional shortfall of between 16,900 and 29,000 nurses for the health system to operate effectively.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 54293,
+          "char_end": 54426,
+          "passage_sha256": "c5154c96d5a4536ea6c8bbcf98c580854e95487a5f8bbc4cf269760501213549"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-problems-003",
+        "statement": "The average Bulgarian nurse is 53 years old, 20% of the nursing workforce has reached retirement age, and about one third of nursing graduates leave the country shortly after qualifying.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 54811,
+          "char_end": 55172,
+          "passage_sha256": "bb218eac5602ee7bf943217ef6d6e320eca4757c9990d4acc47c5db1508e882d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-problems-004",
+        "statement": "A 2021 move to allow independent practices for nurses, midwives and rehabilitation therapists has had limited effect because the NHIF does not reimburse their services.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "Highlights",
+          "page": 3,
+          "char_start": 6300,
+          "char_end": 6444,
+          "passage_sha256": "4b9b75ccc549bbcba8d2153808344c7a008d04ab75b18c7ee24a57ff58cb9c25"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-problems-005",
+        "statement": "Quarterly referral quotas weaken primary care gatekeeping and push patients to wait, pay out of pocket, or go directly to hospitals.",
+        "valence": "weakness",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 99112,
+          "char_end": 99287,
+          "passage_sha256": "bec6e0781bf9693da6ff7c28c0a886d45012dcc074be5eab21fbfeae52b04eae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-problems-006",
+        "statement": "Bulgaria does not run routine national surveys of public perception or patient satisfaction, and has no medical error reporting or risk management system.",
+        "valence": "weakness",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Box 6 What do patients think of the care they receive?",
+          "page": 16,
+          "char_start": 37830,
+          "char_end": 38018,
+          "passage_sha256": "cb1260b9e1b4e4869632ecfeae6d4118469d8e04a59f15939342230ec87036db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-problems-007",
+        "statement": "People with poor physical or mental health, a disability, lower disposable income, less social support or lower education were more likely to report unmet healthcare needs.",
+        "valence": "weakness",
+        "source_id": "pmc-bgr-unmet-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2786,
+          "char_end": 3055,
+          "passage_sha256": "c11029dc0fa324260abd2d49fcc7aecbdef290b1288033841906c5522b228d23"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2019
+      }
+    ],
+    "reforms": [
+      {
+        "id": "BGR-reforms-001",
+        "statement": "In 2024 Bulgaria's Constitutional Court and Supreme Administrative Court struck down provisions that barred the NHIF from reimbursing hospital care beyond pre-set monthly quotas, ruling that such limits infringed the right to affordable and timely medical care.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.1 Accessibility",
+          "page": 13,
+          "char_start": 81619,
+          "char_end": 81916,
+          "passage_sha256": "488705eff91738f1a221f381c27f44c0a81c3d8bcc1578b2e5fc48cc7bf9a917"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-reforms-002",
+        "statement": "In July 2025 Parliament amended the Health Insurance Act to tie NHIF payments to contractually agreed limits and earmarked budgets, effectively seeking to reintroduce caps; as of September 2025 the legal and operational status remained uncertain.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 104984,
+          "char_end": 105316,
+          "passage_sha256": "9baa688ed2a788f12cefad4d9ffde068e3c69de4526473e80ddb24948e621ecc"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-20",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-reforms-003",
+        "statement": "The pricing and reimbursement council eliminated copayments for 400 cardiovascular medicines in 51 international nonproprietary name groups as of April 2024.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 14,
+          "char_start": 29599,
+          "char_end": 29801,
+          "passage_sha256": "85992bfe767287ba087ac5fc2f78eba79963ae155c54f8aeb66766b55b286cad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BGR-reforms-004",
+        "statement": "A centralised governance system for COVID-19 was set up in 2020, and e-referrals and e-prescriptions were introduced in 2021.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 13,
+          "char_start": 29149,
+          "char_end": 29282,
+          "passage_sha256": "606ec316e4ce27fda4c204d98bf8001eb074237b2e19aa3c8ae8191ca540c457"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BGR-reforms-005",
+        "statement": "In June 2025 the government made 15% of state-funded medical programme admission slots conditional on students signing binding employment contracts with selected facilities, to curb emigration after graduation.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 107344,
+          "char_end": 107735,
+          "passage_sha256": "9fad7aad8dc6fe0fc25e37de022800c25ec08093ed44f3dc5e10d01e7b6aa1bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BGR-reforms-006",
+        "statement": "In 2022 the Council of Ministers adopted a National Map of Long-Term Health Needs identifying regional service needs, and in 2023 the Health Insurance Act was amended with a new methodology for financing healthcare establishments to address workforce shortages.",
+        "valence": "neutral",
+        "source_id": "hss-bgr-2024",
+        "locator": {
+          "section": "Box 5",
+          "page": 14,
+          "char_start": 32848,
+          "char_end": 33409,
+          "passage_sha256": "43cc8f18828cc642f94b4aeeb76ea0b044491dd9e820980127450b5adda30aa4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "BGR-reforms-007",
+        "statement": "Reforms have classified nursing and midwifery as priority specialties and made their university programmes tuition-free.",
+        "valence": "neutral",
+        "source_id": "chp-bgr-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 110124,
+          "char_end": 110268,
+          "passage_sha256": "17d9599df50c9ed3f93601677c8aa4c8aa8a7b1dbd3704b6697939f303da5353"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-20"
+        },
+        "data_year": 2025
+      }
+    ],
     "us_lessons": []
   },
   "indicators_file": "data/indicators/BGR.json",
-  "sources": [],
+  "sources": [
+    {
+      "id": "chp-bgr-2025",
+      "title": "State of Health in the EU: Bulgaria, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-bulgaria-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hss-bgr-2024",
+      "title": "Bulgaria: Health system summary 2024",
+      "publisher": "European Observatory on Health Systems and Policies (WHO)",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/publicationsnew/hit-summaries-no-flags/hit-summary-bulgaria-2024-2p.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "pmc-bgr-unmet-2024",
+      "title": "The prevalence and determinants of unmet healthcare needs in Bulgaria",
+      "publisher": "PLOS ONE",
+      "authors": "Maslyankov I, Hernández M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11521248/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11521248",
+      "accessed": "2026-11-20",
+      "funding_note": "Uses European Health Interview Survey data (wave 3, 2019); authors report no specific funding."
+    },
+    {
+      "id": "pmc-bgr-mh-2023",
+      "title": "The mental health system in Bulgaria: socialist heritage and prospects",
+      "publisher": "Consortium Psychiatricum",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10795958/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10795958",
+      "accessed": "2026-11-20",
+      "funding_note": "Narrative review based on national statistical data."
+    }
+  ],
   "rankings": [],
   "changelog": [
     {

@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Global Healthcare Atlas</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Country-by-country comparison of universal health systems, every statement sourced and checked.">
@@ -162,6 +163,7 @@ ol.sources li { padding-left: .25rem; }
 .atlas-pos .big { font: 500 2rem var(--mono); }
 .atlas-pos .big small { font-size: .9rem; color: var(--muted); }
 nav.countries a.rank-link { border-color: var(--accent); }
+.topic-bar { display: inline-block; height: .55rem; background: var(--accent); opacity: .35; border-radius: 2px; margin-right: .45rem; vertical-align: middle; max-width: 5rem; }
 footer { border-top: 1px solid var(--rule); padding-top: 1rem; color: var(--muted); font-size: .85rem; display: grid; gap: .4rem; }
 .legend { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
 .legend span b { font-family: var(--mono); }
@@ -214,6 +216,7 @@ function fmt(v, unit) {
   if (v === null || v === undefined) return "—";
   if (unit === "people") return v >= 1e6 ? (v / 1e6).toFixed(1) + "M" : v.toLocaleString("en-US");
   if (unit.includes("international $")) return "$" + Math.round(v).toLocaleString("en-US");
+  if (unit.startsWith("x ")) return v.toFixed(1) + "×";
   if (unit.startsWith("%") || unit === "%") return v.toFixed(1) + "%";
   return (Math.abs(v) >= 100 ? Math.round(v) : v.toFixed(1)).toLocaleString("en-US");
 }
@@ -480,6 +483,76 @@ async function renderAbout(index) {
   document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "ABOUT" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
 }
 
+const TOPICS = {
+  WORKFORCE: {
+    label: "Doctors and nurses", kicker: "Workforce · official statistics", title: "Who provides the care, and on what terms",
+    intro: "These figures are not scored. Pay and recruitment are trade-offs between patients, health workers and taxpayers, not measures where more is simply better; the atlas uses them to design a system that is fair to the people who work in it.",
+    sections: [
+      { title: "Pay relative to the national average wage", text: "Gross annual pay of salaried staff divided by the average wage of all workers in the same country, so it compares standing at home rather than dollars.",
+        cols: [["OECD_PAY_SPECIALIST", "Specialists"], ["OECD_PAY_GP", "General practitioners"], ["OECD_PAY_NURSE", "Hospital nurses"]],
+        caption: "Salaried (employed) staff only; self-employed doctors, common in some countries, can earn more. The OECD has no figure for salaried US doctors. Source: OECD Health Statistics, remuneration of health professionals." },
+      { title: "How many, and how many trained abroad", text: "A high share trained abroad means a country relies on other countries' training systems, often poorer ones, to staff its own.",
+        cols: [["SH.MED.PHYS.ZS", "Doctors per 1,000 people"], ["OECD_FOREIGN_DOCTORS", "Doctors trained abroad"], ["OECD_FOREIGN_NURSES", "Nurses trained abroad"]],
+        caption: "Doctors per 1,000 people from WHO via the World Bank; foreign-trained shares from OECD Health Statistics, health workforce migration." },
+    ],
+  },
+  ACCESS: {
+    label: "Access", kicker: "Access · official statistics", title: "Can people get care when they need it?",
+    intro: "Spending figures miss people who go without care: someone who skips a visit because of cost spends nothing. These measures are shown, not scored, because too few countries report them in comparable form.",
+    sections: [
+      { title: "Went without care because of cost", text: "Share of adults who, in the past year, skipped a doctor's consultation or did not fill a prescription because of the cost.",
+        cols: [["OECD_SKIP_CONSULT_COST", "Skipped a consultation"], ["OECD_SKIP_MEDS_COST", "Skipped prescribed medicines"]],
+        caption: "Survey years differ between countries (2016 to 2024) and several are from 2020, the first year of the Covid-19 pandemic; surveys also differ in wording. Source: OECD Health Statistics, patient experiences." },
+      { title: "Hospital admissions that primary care should prevent", text: "Admissions for diabetes complications among people aged 15 and over. Good, accessible primary care keeps diabetes under control, so lower is better.",
+        cols: [["OECD_DIABETES_ADM", "Diabetes admissions per 100,000"]],
+        caption: "Age- and sex-standardised so countries with older populations are not penalised. Source: OECD Health Statistics, health care quality indicators (primary care)." },
+    ],
+  },
+};
+
+async function renderTopic(key, index) {
+  const spec = TOPICS[key];
+  const view = document.getElementById("view");
+  const scores = await getJSON("data/scores.json");
+  const profiles = new Set(index.map(r => r.iso3));
+  const countries = [];
+  for (const r of scores.rows) {
+    const ind = await getJSON(`data/indicators/${r.iso3}.json`).catch(() => null);
+    if (ind) countries.push({ iso3: r.iso3, name: r.name, by: Object.fromEntries(ind.indicators.map(i => [i.id, i])) });
+  }
+  const link = c => profiles.has(c.iso3) ? `<a href="#${c.iso3.toLowerCase()}">${esc(c.name)}</a>` : esc(c.name);
+  const val = (c, id) => c.by[id]?.value ?? null;
+  const sections = spec.sections.map(s => {
+    const lead = s.cols[0][0];
+    const have = countries.filter(c => s.cols.some(([id]) => val(c, id) !== null))
+      .sort((a, b) => (val(b, lead) ?? -Infinity) - (val(a, lead) ?? -Infinity));
+    const missing = countries.filter(c => !have.includes(c));
+    const max = Math.max(...have.map(c => val(c, lead) ?? 0)) || 1;
+    const cell = (c, id, bar) => {
+      const i = c.by[id];
+      if (!i || i.value === null) return `<td class="mono">—</td>`;
+      const b = bar ? `<span class="topic-bar" style="width:${(5 * i.value / max).toFixed(2)}rem"></span>` : "";
+      return `<td class="mono">${b}${fmt(i.value, i.unit)}<span class="yr">${i.year ?? ""}</span></td>`;
+    };
+    const rows = have.map(c => `<tr class="${c.iso3 === BASELINE ? "is-us" : ""}"><td>${link(c)}</td>${s.cols.map(([id], n) => cell(c, id, n === 0)).join("")}</tr>`).join("");
+    return `<section style="display:grid;gap:.6rem">
+      <h3 style="font-size:1.45rem">${esc(s.title)}</h3>
+      <p style="margin:0;max-width:46rem">${esc(s.text)}</p>
+      <div class="rank-table"><table>
+        <thead><tr><th>Country</th>${s.cols.map(([, h]) => `<th>${esc(h)}</th>`).join("")}</tr></thead>
+        <tbody>${rows}</tbody></table></div>
+      <p class="caption">${esc(s.caption)} Sorted by the first column. ${missing.length ? `No figure for: ${missing.map(c => esc(c.name)).join(", ")}.` : ""}</p>
+    </section>`;
+  }).join("");
+  view.innerHTML = `<article style="display:grid;gap:2rem">
+    <div class="country-head">
+      <span class="label">${esc(spec.kicker)}</span>
+      <h2>${esc(spec.title)}</h2>
+      <div class="model">${esc(spec.intro)}</div>
+    </div>${sections}</article>`;
+  document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === key ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+}
+
 async function renderFinancing(index) {
   const view = document.getElementById("view");
   const scores = await getJSON("data/scores.json");
@@ -611,7 +684,7 @@ async function start() {
       .concat([["Other", others.filter(r => !placed.has(r.iso3))]])
       .filter(([, rows]) => rows.length);
     const option = r => `<option value="${r.iso3}">${esc(r.name)}${r.sources < MIN_SOURCES ? " (limited evidence)" : ""}</option>`;
-    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a><a href="#about" data-iso3="ABOUT" class="rank-link">About and sources</a>`
+    nav.innerHTML = `<a href="#ranking" data-iso3="RANKING" class="rank-link">Ranking</a><a href="#financing" data-iso3="FINANCING" class="rank-link">Who pays</a><a href="#access" data-iso3="ACCESS" class="rank-link">Access</a><a href="#workforce" data-iso3="WORKFORCE" class="rank-link">Doctors and nurses</a><a href="#about" data-iso3="ABOUT" class="rank-link">About and sources</a>`
       + (baseline ? `<a href="#${baseline.iso3.toLowerCase()}" data-iso3="${baseline.iso3}">${baseline.iso3}<span class="n">${esc(baseline.name)} (baseline)</span></a>` : "")
       + `<span class="picker"><label for="country-pick">Country</label><select id="country-pick"><option value="">Choose one of ${others.length}…</option>`
       + groups.map(([label, rows]) => `<optgroup label="${esc(label)}">${rows.sort((a, b) => a.name.localeCompare(b.name)).map(option).join("")}</optgroup>`).join("")
@@ -623,6 +696,7 @@ async function start() {
       pick.value = others.some(r => r.iso3 === h) ? h : "";
       if (h === "ABOUT") { renderAbout(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load sources: ${esc(err.message)}</p>`; }); return; }
       if (h === "FINANCING") { renderFinancing(index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load financing data: ${esc(err.message)}</p>`; }); return; }
+      if (TOPICS[h]) { renderTopic(h, index).catch(err => { document.getElementById("view").innerHTML = `<p class="empty">Could not load data: ${esc(err.message)}</p>`; }); return; }
       if (!index.some(r => r.iso3 === h)) {
         renderRanking(index).catch(() => {
           const first = index.find(r => !r.is_baseline)?.iso3;

@@ -343,7 +343,9 @@ async function renderRanking(index) {
   };
   const tableHTML = () => {
     const rows = sorted().map(r => {
-      const name = profiles.has(r.iso3) ? `<a href="#${r.iso3.toLowerCase()}">${esc(r.name)}</a>` : `${esc(r.name)}<span class="tag">profile in progress</span>`;
+      const prof = index.find(x => x.iso3 === r.iso3);
+      const thin = prof && prof.sources < MIN_SOURCES ? `<span class="tag" title="${esc(limitedNote(prof.sources))}">limited evidence</span>` : "";
+      const name = profiles.has(r.iso3) ? `<a href="#${r.iso3.toLowerCase()}">${esc(r.name)}</a>${thin}` : `${esc(r.name)}<span class="tag">profile in progress</span>`;
       const pct = r.overall ?? 0;
       return `<tr class="${r.iso3 === BASELINE ? "is-us" : ""}">
         <td class="mono">${r.rank ?? "—"}</td>
@@ -520,6 +522,10 @@ async function renderFinancing(index) {
   document.querySelectorAll("#country-nav a").forEach(a => a.dataset.iso3 === "FINANCING" ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
 }
 
+// Fewer sources than this and a profile is listed, but marked as too thin to analyse properly.
+const MIN_SOURCES = 5;
+const limitedNote = n => `Limited evidence: this profile rests on ${n} source${n === 1 ? "" : "s"}, fewer than the ${MIN_SOURCES} the atlas needs to analyse a system properly. Its statements are verified, but treat the picture as incomplete until more sources are added.`;
+
 async function renderCountry(iso3, index) {
   const view = document.getElementById("view");
   const row = index.find(r => r.iso3 === iso3);
@@ -544,6 +550,7 @@ async function renderCountry(iso3, index) {
         <span>System described as of <span class="mono">${esc(p.system_as_of)}</span></span>
         <span><span class="mono">${total}</span> claims from <span class="mono">${p.sources.length}</span> sources</span>
       </div>
+      ${p.sources.length < MIN_SOURCES ? `<div class="notice">${esc(limitedNote(p.sources.length))}</div>` : ""}
       ${p.status !== "verified" ? `<div class="notice">This profile is a draft. Its claims are written from the cited sources but have not yet passed the automated passage check and the independent support review. Treat it as a preview.</div>` : ""}
     </div>
     <section style="display:grid;gap:.75rem"><h3 style="font-size:1.45rem">Key figures</h3>${ledger(ind, base, p.iso3)}</section>

@@ -90,6 +90,13 @@ countries in its prompt (default 3).
 3. **Create the profile.** `python scripts/new_profile.py <ISO3> "<Name>" --wave <n>`.
    Use `data/countries/DEU.json` as the reference for depth and style:
    about 45-60 claims, 6-9 sources, every section filled where evidence exists.
+   **Sources: at least 5 and at most 9**, including at least one
+   peer-reviewed study (tier 2) and at least one national government or WHO
+   source, not only the one or two big system reviews. Search until you have
+   5 usable sources. If fewer than 5 can be found and downloaded, keep the
+   profile and its verified claims, and say so in the pull request: the site
+   lists such countries but marks them "limited evidence: not enough data to
+   analyse properly".
    **Hard limits: at most 60 claims and 9 sources.** Spend them on the most
    important facts in each section; depth beyond that comes later, from
    topic research across all countries. Usage is the constraint: a profile

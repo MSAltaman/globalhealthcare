@@ -367,7 +367,27 @@
         "data_year": 2025
       }
     ],
-    "financial_hardship": [],
+    "financial_hardship": [
+      {
+        "id": "LVA-financial_hardship-001",
+        "statement": "26.8% of respondents to a national survey were somewhat or very confident they could afford good-quality care if they were very sick.",
+        "valence": "weakness",
+        "source_id": "pv-13699942",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2429,
+          "char_end": 2582,
+          "passage_sha256": "49fd98b26d71c6f3e60c704c9c2d5034bc260af2f00d3920fe92f9850f0bdfe2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Agent model \"opus\") support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      }
+    ],
     "additional_care": [
       {
         "id": "LVA-additional_care-001",
@@ -1140,6 +1160,21 @@
       "url": "https://vsaa.gov.lv/en/contributions-0",
       "accessed": "2026-11-20",
       "funding_note": "Official agency page; English text is machine-translated."
+    },
+    {
+      "id": "pv-13699942",
+      "title": "Perceived quality and confidence in the healthcare system: People's Voice survey results in Latvia",
+      "publisher": "European Journal of Public Health (19th European Public Health Conference abstract)",
+      "authors": "Kukoja K, Villerusa A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1093/eurpub/ckag169.1564",
+      "doi": "10.1093/eurpub/ckag169.1564",
+      "license": "CC BY-NC",
+      "accessed": "2026-11-20",
+      "funding_note": "Conference abstract; same survey as pv-13697582.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13699942"
     }
   ],
   "rankings": [],
@@ -1151,6 +1186,10 @@
     {
       "date": "2026-11-20",
       "note": "Support review by Opus: 1 round on 56 claims (16 failed: rewritten, re-anchored or dropped), 1 re-review of 15 rewritten claims; 1 claim deleted after failing twice, 1 dropped for a source anchor too long. 54 claims verified."
+    },
+    {
+      "date": "2026-11-20",
+      "note": "Added one financial-hardship claim from a 2026 peer-reviewed survey abstract (Opus support review: pass)."
     }
   ]
 }

@@ -223,6 +223,14 @@
       "unit": "% of GDP",
       "group": "costs",
       "formula": "SH.XPD.CHEX.GD.ZS * SH.XPD.GHED.CH.ZS / 100"
+    },
+    {
+      "id": "OOP_PCT_INCOME",
+      "label": "Out-of-pocket health spending as a share of income per person (PPP)",
+      "unit": "% of GDP per person",
+      "group": "financial_protection",
+      "formula": "SH.XPD.CHEX.PP.CD * SH.XPD.OOPC.CH.ZS / NY.GDP.PCAP.PP.CD",
+      "note": "Out-of-pocket spending per person (current health spending per person x out-of-pocket share) divided by GDP per person, both in purchasing-power dollars."
     }
   ]
 }

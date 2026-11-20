@@ -1,5 +1,5 @@
 {
-  "version": "0.2-draft",
+  "version": "0.3-draft",
   "description": "The atlas's own composite ranking. Computed by scripts/score.py from data/indicators and data/reference.json only; no model writes or adjusts a score. Every choice below is a published, adjustable assumption.",
   "max_data_age_years": 10,
   "min_indicator_share_per_domain": 0.4,
@@ -41,25 +41,13 @@
           "scale": "world"
         },
         {
-          "id": "FINPROTECTION_CATA_TOT_10_POP",
-          "better": "lower",
-          "log": true,
-          "scale": "world"
-        },
-        {
-          "id": "FINPROTECTION_CATA_TOT_25_POP",
-          "better": "lower",
-          "log": true,
-          "scale": "world"
-        },
-        {
-          "id": "FINPROTECTION_IMP_NPRELPL_POP",
+          "id": "OOP_PCT_INCOME",
           "better": "lower",
           "log": true,
           "scale": "world"
         }
       ],
-      "note": "Out-of-pocket share counts double because it is current for every country; the WHO household-survey measures are often years old or missing."
+      "note": "Two measures, current and comparable for every country: how much of health spending people pay at the point of care (weight 2), and how large that payment is relative to income (weight 1). Neither captures insurance premiums, deductibles or medical debt; those are reported in the profiles. Household-survey measures of catastrophic spending and skipped care are shown as context because they are not current or comparable for every country."
     },
     {
       "id": "outcomes",
@@ -96,6 +84,10 @@
   ],
   "not_yet_scored": [
     {
+      "domain": "Household financial hardship",
+      "reason": "WHO's household-survey measures are missing or older than 10 years for many countries, and Europe and the rest of the world use different definitions. Shown on country pages, not scored."
+    },
+    {
       "domain": "Equity",
       "reason": "Needs comparable data on gaps between income groups for every country."
     },
@@ -114,5 +106,12 @@
   "scaling": {
     "natural": "The value is already a 0-100 measure where 100 is best (share of population covered, WHO service coverage index); it is used as is.",
     "world": "0 and 100 are set at the 5th and 95th percentile of every country's latest value worldwide (data/reference.json), worst to best, on a log scale for skewed rates. Scores are clamped to 0-100. Adding countries to the atlas does not move anyone's score."
-  }
+  },
+  "changelog": [
+    {
+      "version": "0.3-draft",
+      "date": "2026-11-20",
+      "change": "Financial protection now scores the out-of-pocket share of health spending (weight 2) and out-of-pocket spending as a share of income (weight 1). WHO's three household-survey measures (catastrophic spending at 10% and 25% of the budget, impoverishment) were dropped from the score because they were missing or older than 10 years for 19 to 21 of 45 countries; they are shown on country pages as context. The 0.2 method is archived in archive/method-0.2."
+    }
+  ]
 }

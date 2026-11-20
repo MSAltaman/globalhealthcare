@@ -1,0 +1,3192 @@
+{
+  "method_version": "0.2-draft",
+  "computed": "2026-11-20",
+  "countries_compared": 45,
+  "domains": [
+    {
+      "id": "coverage",
+      "label": "Coverage",
+      "weight": 1,
+      "question": "Is everyone covered, and do they get essential services?"
+    },
+    {
+      "id": "financial_protection",
+      "label": "Financial protection",
+      "weight": 1,
+      "question": "Are people protected from ruinous health costs?"
+    },
+    {
+      "id": "outcomes",
+      "label": "Health outcomes",
+      "weight": 1,
+      "question": "Does the system keep people alive and healthy?"
+    }
+  ],
+  "indicator_labels": {
+    "OECD_COVERAGE": "Population covered for core services (public or primary private insurance)",
+    "UHC_INDEX_REPORTED": "UHC service coverage index",
+    "SH.XPD.OOPC.CH.ZS": "Out-of-pocket share of health spending",
+    "FINPROTECTION_CATA_TOT_10_POP": "Households spending over 10% of budget on health",
+    "FINPROTECTION_CATA_TOT_25_POP": "Households spending over 25% of budget on health",
+    "FINPROTECTION_IMP_NPRELPL_POP": "People pushed into poverty by health costs (relative poverty line)",
+    "OECD_TREATABLE_MORT": "Treatable mortality (deaths healthcare should prevent), age-standardised",
+    "SP.DYN.IMRT.IN": "Infant mortality",
+    "SH.STA.MMRT": "Maternal mortality",
+    "SP.DYN.LE00.IN": "Life expectancy at birth"
+  },
+  "scaling": {
+    "natural": "The value is already a 0-100 measure where 100 is best (share of population covered, WHO service coverage index); it is used as is.",
+    "world": "0 and 100 are set at the 5th and 95th percentile of every country's latest value worldwide (data/reference.json), worst to best, on a log scale for skewed rates. Scores are clamped to 0-100. Adding countries to the atlas does not move anyone's score."
+  },
+  "not_yet_scored": [
+    {
+      "domain": "Equity",
+      "reason": "Needs comparable data on gaps between income groups for every country."
+    },
+    {
+      "domain": "Access and timeliness",
+      "reason": "Needs comparable waiting-time and unmet-need data beyond the EU and the Commonwealth Fund's 10 countries."
+    },
+    {
+      "domain": "Efficiency",
+      "reason": "Shown separately as the score against spending per person, not folded into the score, so cost and performance can be read apart."
+    }
+  ],
+  "excluded_countries": {
+    "TWN": "Not covered by World Bank, WHO or OECD statistics; needs official Taiwanese data on the same definitions."
+  },
+  "rows": [
+    {
+      "iso3": "SWE",
+      "overall": 93.1,
+      "rank": 1,
+      "rank_range": [
+        1,
+        8
+      ],
+      "domains": {
+        "coverage": 92.5,
+        "financial_protection": 88.3,
+        "outcomes": 98.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 85.0,
+            "year": 2023,
+            "score": 85.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 13.3813858,
+            "year": 2024,
+            "score": 88.3
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 45.0,
+            "year": 2024,
+            "score": 98.7
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 84.0634146341463,
+            "year": 2024,
+            "score": 100.0
+          }
+        }
+      },
+      "name": "Sweden"
+    },
+    {
+      "iso3": "FRA",
+      "overall": 92.7,
+      "rank": 2,
+      "rank_range": [
+        1,
+        13
+      ],
+      "domains": {
+        "coverage": 91.0,
+        "financial_protection": 95.4,
+        "outcomes": 91.6
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.9,
+            "year": 2025,
+            "score": 99.9
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 82.0,
+            "year": 2023,
+            "score": 82.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 9.22742558,
+            "year": 2024,
+            "score": 95.4
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 46.0,
+            "year": 2023,
+            "score": 97.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.4,
+            "year": 2024,
+            "score": 85.0
+          },
+          "SH.STA.MMRT": {
+            "value": 7,
+            "year": 2023,
+            "score": 83.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.9804878048781,
+            "year": 2024,
+            "score": 95.8
+          }
+        }
+      },
+      "name": "France"
+    },
+    {
+      "iso3": "ISL",
+      "overall": 92.5,
+      "rank": 3,
+      "rank_range": [
+        1,
+        10
+      ],
+      "domains": {
+        "coverage": 94.8,
+        "financial_protection": 85.8,
+        "outcomes": 97.1
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.5,
+            "year": 2025,
+            "score": 99.5
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 90.0,
+            "year": 2023,
+            "score": 90.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 14.87985802,
+            "year": 2024,
+            "score": 85.8
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 47.0,
+            "year": 2024,
+            "score": 95.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.1,
+            "year": 2024,
+            "score": 99.6
+          },
+          "SH.STA.MMRT": {
+            "value": 3,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.809756097561,
+            "year": 2024,
+            "score": 95.1
+          }
+        }
+      },
+      "name": "Iceland"
+    },
+    {
+      "iso3": "NOR",
+      "overall": 92.4,
+      "rank": 4,
+      "rank_range": [
+        2,
+        7
+      ],
+      "domains": {
+        "coverage": 94.5,
+        "financial_protection": 87.8,
+        "outcomes": 95.0
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 89.0,
+            "year": 2023,
+            "score": 89.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 13.68724823,
+            "year": 2023,
+            "score": 87.8
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 51.0,
+            "year": 2016,
+            "score": 89.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 1,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.1609756097561,
+            "year": 2024,
+            "score": 96.6
+          }
+        }
+      },
+      "name": "Norway"
+    },
+    {
+      "iso3": "NLD",
+      "overall": 91.9,
+      "rank": 5,
+      "rank_range": [
+        3,
+        11
+      ],
+      "domains": {
+        "coverage": 92.4,
+        "financial_protection": 91.0,
+        "outcomes": 92.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.8,
+            "year": 2024,
+            "score": 99.8
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 85.0,
+            "year": 2023,
+            "score": 85.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 11.78772259,
+            "year": 2024,
+            "score": 91.0
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 47.0,
+            "year": 2024,
+            "score": 95.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.4,
+            "year": 2024,
+            "score": 85.0
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 81.9658536585366,
+            "year": 2024,
+            "score": 91.2
+          }
+        }
+      },
+      "name": "Netherlands"
+    },
+    {
+      "iso3": "AUS",
+      "overall": 91.2,
+      "rank": 6,
+      "rank_range": [
+        3,
+        11
+      ],
+      "domains": {
+        "coverage": 94.5,
+        "financial_protection": 84.1,
+        "outcomes": 94.9
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 89.0,
+            "year": 2023,
+            "score": 89.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 15.84897614,
+            "year": 2023,
+            "score": 84.1
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 47.0,
+            "year": 2024,
+            "score": 95.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.1,
+            "year": 2024,
+            "score": 87.8
+          },
+          "SH.STA.MMRT": {
+            "value": 2,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.0512195121951,
+            "year": 2024,
+            "score": 96.1
+          }
+        }
+      },
+      "name": "Australia"
+    },
+    {
+      "iso3": "IRL",
+      "overall": 90.4,
+      "rank": 7,
+      "rank_range": [
+        2,
+        19
+      ],
+      "domains": {
+        "coverage": 91.0,
+        "financial_protection": 93.1,
+        "outcomes": 87.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 82.0,
+            "year": 2023,
+            "score": 82.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 10.60706902,
+            "year": 2024,
+            "score": 93.1
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 57.0,
+            "year": 2022,
+            "score": 80.5
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.4,
+            "year": 2024,
+            "score": 85.0
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.009756097561,
+            "year": 2024,
+            "score": 96.0
+          }
+        }
+      },
+      "name": "Ireland"
+    },
+    {
+      "iso3": "DEU",
+      "overall": 89.7,
+      "rank": 8,
+      "rank_range": [
+        2,
+        20
+      ],
+      "domains": {
+        "coverage": 93.5,
+        "financial_protection": 92.9,
+        "outcomes": 82.7
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.9,
+            "year": 2024,
+            "score": 99.9
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 87.0,
+            "year": 2023,
+            "score": 87.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 10.7067318,
+            "year": 2024,
+            "score": 92.9
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 63.0,
+            "year": 2022,
+            "score": 72.8
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.1,
+            "year": 2024,
+            "score": 87.8
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 80.7926829268293,
+            "year": 2024,
+            "score": 85.9
+          }
+        }
+      },
+      "name": "Germany"
+    },
+    {
+      "iso3": "SVN",
+      "overall": 89.6,
+      "rank": 9,
+      "rank_range": [
+        6,
+        13
+      ],
+      "domains": {
+        "coverage": 91.8,
+        "financial_protection": 82.9,
+        "outcomes": 94.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.6,
+            "year": 2024,
+            "score": 99.6
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 84.0,
+            "year": 2023,
+            "score": 84.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 11.7449913,
+            "year": 2024,
+            "score": 91.1
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 3.69,
+            "year": 2018,
+            "score": 65.0
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.31,
+            "year": 2018,
+            "score": 76.7
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 0.75,
+            "year": 2018,
+            "score": 90.4
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 51.0,
+            "year": 2024,
+            "score": 89.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 1.8,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 3,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.2853658536585,
+            "year": 2024,
+            "score": 92.7
+          }
+        }
+      },
+      "name": "Slovenia"
+    },
+    {
+      "iso3": "DNK",
+      "overall": 89.2,
+      "rank": 10,
+      "rank_range": [
+        9,
+        18
+      ],
+      "domains": {
+        "coverage": 92.5,
+        "financial_protection": 87.5,
+        "outcomes": 87.5
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 85.0,
+            "year": 2023,
+            "score": 85.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 13.86858845,
+            "year": 2024,
+            "score": 87.5
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 55.0,
+            "year": 2022,
+            "score": 83.3
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.5,
+            "year": 2024,
+            "score": 84.2
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.2536585365854,
+            "year": 2024,
+            "score": 92.5
+          }
+        }
+      },
+      "name": "Denmark"
+    },
+    {
+      "iso3": "NZL",
+      "overall": 88.2,
+      "rank": 11,
+      "rank_range": [
+        4,
+        21
+      ],
+      "domains": {
+        "coverage": 94.5,
+        "financial_protection": 89.5,
+        "outcomes": 80.6
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 89.0,
+            "year": 2023,
+            "score": 89.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 12.68764019,
+            "year": 2024,
+            "score": 89.5
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 62.0,
+            "year": 2020,
+            "score": 74.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 4,
+            "year": 2024,
+            "score": 80.1
+          },
+          "SH.STA.MMRT": {
+            "value": 7,
+            "year": 2023,
+            "score": 83.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.009756097561,
+            "year": 2024,
+            "score": 91.4
+          }
+        }
+      },
+      "name": "New Zealand"
+    },
+    {
+      "iso3": "AUT",
+      "overall": 87.7,
+      "rank": 12,
+      "rank_range": [
+        12,
+        17
+      ],
+      "domains": {
+        "coverage": 92.0,
+        "financial_protection": 83.1,
+        "outcomes": 88.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.9,
+            "year": 2024,
+            "score": 99.9
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 84.0,
+            "year": 2023,
+            "score": 84.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 16.46478271,
+            "year": 2024,
+            "score": 83.1
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 53.0,
+            "year": 2024,
+            "score": 86.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.8,
+            "year": 2024,
+            "score": 90.9
+          },
+          "SH.STA.MMRT": {
+            "value": 6,
+            "year": 2023,
+            "score": 86.4
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 81.9951219512195,
+            "year": 2024,
+            "score": 91.4
+          }
+        }
+      },
+      "name": "Austria"
+    },
+    {
+      "iso3": "LUX",
+      "overall": 87.7,
+      "rank": 13,
+      "rank_range": [
+        8,
+        17
+      ],
+      "domains": {
+        "coverage": 91.5,
+        "financial_protection": 77.3,
+        "outcomes": 94.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 83.0,
+            "year": 2023,
+            "score": 83.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 8.50457287,
+            "year": 2024,
+            "score": 96.6
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 4.34,
+            "year": 2021,
+            "score": 59.3
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.22,
+            "year": 2021,
+            "score": 85.2
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.77,
+            "year": 2021,
+            "score": 48.6
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 41.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 1.9,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 11,
+            "year": 2023,
+            "score": 74.4
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.1951219512195,
+            "year": 2024,
+            "score": 96.8
+          }
+        }
+      },
+      "name": "Luxembourg"
+    },
+    {
+      "iso3": "BEL",
+      "overall": 86.0,
+      "rank": 14,
+      "rank_range": [
+        12,
+        19
+      ],
+      "domains": {
+        "coverage": 92.5,
+        "financial_protection": 74.5,
+        "outcomes": 91.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 98.9,
+            "year": 2024,
+            "score": 98.9
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 86.0,
+            "year": 2023,
+            "score": 86.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 21.50983047,
+            "year": 2023,
+            "score": 74.5
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 50.0,
+            "year": 2022,
+            "score": 90.6
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.1,
+            "year": 2024,
+            "score": 87.8
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.3,
+            "year": 2024,
+            "score": 92.7
+          }
+        }
+      },
+      "name": "Belgium"
+    },
+    {
+      "iso3": "ITA",
+      "overall": 85.5,
+      "rank": 15,
+      "rank_range": [
+        12,
+        22
+      ],
+      "domains": {
+        "coverage": 91.0,
+        "financial_protection": 73.1,
+        "outcomes": 92.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 82.0,
+            "year": 2023,
+            "score": 82.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 22.30979538,
+            "year": 2024,
+            "score": 73.1
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 51.0,
+            "year": 2023,
+            "score": 89.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.3,
+            "year": 2024,
+            "score": 96.9
+          },
+          "SH.STA.MMRT": {
+            "value": 6,
+            "year": 2023,
+            "score": 86.4
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.9512195121951,
+            "year": 2024,
+            "score": 100.0
+          }
+        }
+      },
+      "name": "Italy"
+    },
+    {
+      "iso3": "GBR",
+      "overall": 83.8,
+      "rank": 16,
+      "rank_range": [
+        11,
+        25
+      ],
+      "domains": {
+        "coverage": 94.0,
+        "financial_protection": 83.0,
+        "outcomes": 74.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 88.0,
+            "year": 2023,
+            "score": 88.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 14.55540943,
+            "year": 2024,
+            "score": 86.3
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 2.36,
+            "year": 2020,
+            "score": 80.5
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.56,
+            "year": 2020,
+            "score": 62.1
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 0.35,
+            "year": 2020,
+            "score": 100.0
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 73.0,
+            "year": 2024,
+            "score": 61.5
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 4.1,
+            "year": 2024,
+            "score": 79.4
+          },
+          "SH.STA.MMRT": {
+            "value": 8,
+            "year": 2023,
+            "score": 80.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 81.3868536585366,
+            "year": 2024,
+            "score": 88.6
+          }
+        }
+      },
+      "name": "United Kingdom"
+    },
+    {
+      "iso3": "CAN",
+      "overall": 83.5,
+      "rank": 17,
+      "rank_range": [
+        8,
+        22
+      ],
+      "domains": {
+        "coverage": 96.0,
+        "financial_protection": 74.4,
+        "outcomes": 80.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 92.0,
+            "year": 2023,
+            "score": 92.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 15.27733707,
+            "year": 2024,
+            "score": 85.1
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 3.5,
+            "year": 2019,
+            "score": 66.8
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.8,
+            "year": 2019,
+            "score": 53.3
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 0.9,
+            "year": 2019,
+            "score": 81.5
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 57.0,
+            "year": 2024,
+            "score": 80.5
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 4.7,
+            "year": 2024,
+            "score": 75.2
+          },
+          "SH.STA.MMRT": {
+            "value": 12,
+            "year": 2023,
+            "score": 72.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.1080487804878,
+            "year": 2024,
+            "score": 91.9
+          }
+        }
+      },
+      "name": "Canada"
+    },
+    {
+      "iso3": "CHE",
+      "overall": 83.2,
+      "rank": 18,
+      "rank_range": [
+        5,
+        28
+      ],
+      "domains": {
+        "coverage": 93.5,
+        "financial_protection": 59.7,
+        "outcomes": 96.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "SH.STA.MMRT"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 87.0,
+            "year": 2023,
+            "score": 87.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 22.02737427,
+            "year": 2023,
+            "score": 73.6
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 7.9,
+            "year": 2017,
+            "score": 38.6
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.32,
+            "year": 2017,
+            "score": 76.0
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.25,
+            "year": 2017,
+            "score": 36.9
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 35.0,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.4,
+            "year": 2024,
+            "score": 85.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 84.4073170731707,
+            "year": 2024,
+            "score": 100.0
+          }
+        }
+      },
+      "name": "Switzerland"
+    },
+    {
+      "iso3": "FIN",
+      "overall": 82.9,
+      "rank": 19,
+      "rank_range": [
+        16,
+        25
+      ],
+      "domains": {
+        "coverage": 93.0,
+        "financial_protection": 66.6,
+        "outcomes": 89.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 86.0,
+            "year": 2023,
+            "score": 86.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 14.09493542,
+            "year": 2023,
+            "score": 87.1
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 6.72,
+            "year": 2016,
+            "score": 44.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.66,
+            "year": 2016,
+            "score": 58.1
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.5,
+            "year": 2016,
+            "score": 56.6
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 53.0,
+            "year": 2024,
+            "score": 86.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 1.9,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 8,
+            "year": 2023,
+            "score": 80.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.3365853658537,
+            "year": 2024,
+            "score": 92.9
+          }
+        }
+      },
+      "name": "Finland"
+    },
+    {
+      "iso3": "JPN",
+      "overall": 82.7,
+      "rank": 20,
+      "rank_range": [
+        7,
+        29
+      ],
+      "domains": {
+        "coverage": 93.0,
+        "financial_protection": 59.5,
+        "outcomes": 95.6
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2023,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 86.0,
+            "year": 2023,
+            "score": 86.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 12.23568153,
+            "year": 2023,
+            "score": 90.3
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 11.1,
+            "year": 2021,
+            "score": 26.8
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 2.0,
+            "year": 2021,
+            "score": 30.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 51.0,
+            "year": 2023,
+            "score": 89.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 1.8,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 3,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 84.0363414634146,
+            "year": 2024,
+            "score": 100.0
+          }
+        }
+      },
+      "name": "Japan"
+    },
+    {
+      "iso3": "ESP",
+      "overall": 82.1,
+      "rank": 21,
+      "rank_range": [
+        8,
+        30
+      ],
+      "domains": {
+        "coverage": 92.0,
+        "financial_protection": 58.0,
+        "outcomes": 96.1
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 84.0,
+            "year": 2023,
+            "score": 84.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 20.85539818,
+            "year": 2023,
+            "score": 75.6
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 7.87,
+            "year": 2019,
+            "score": 38.7
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 1.12,
+            "year": 2019,
+            "score": 45.0
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.54,
+            "year": 2019,
+            "score": 55.3
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 48.0,
+            "year": 2024,
+            "score": 93.7
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.6,
+            "year": 2024,
+            "score": 93.2
+          },
+          "SH.STA.MMRT": {
+            "value": 3,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.8878048780488,
+            "year": 2024,
+            "score": 99.9
+          }
+        }
+      },
+      "name": "Spain"
+    },
+    {
+      "iso3": "HRV",
+      "overall": 78.8,
+      "rank": 22,
+      "rank_range": [
+        6,
+        40
+      ],
+      "domains": {
+        "coverage": 76.0,
+        "financial_protection": 95.2,
+        "outcomes": 65.4
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "OECD_COVERAGE",
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "UHC_INDEX_REPORTED": {
+            "value": 76.0,
+            "year": 2023,
+            "score": 76.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 9.37740326,
+            "year": 2023,
+            "score": 95.2
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 103.0,
+            "year": 2023,
+            "score": 35.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 4.1,
+            "year": 2024,
+            "score": 79.4
+          },
+          "SH.STA.MMRT": {
+            "value": 3,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 78.9292682926829,
+            "year": 2024,
+            "score": 77.4
+          }
+        }
+      },
+      "name": "Croatia"
+    },
+    {
+      "iso3": "CYP",
+      "overall": 78.8,
+      "rank": 23,
+      "rank_range": [
+        16,
+        39
+      ],
+      "domains": {
+        "coverage": 76.0,
+        "financial_protection": 80.6,
+        "outcomes": 79.9
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "OECD_COVERAGE",
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP",
+        "OECD_TREATABLE_MORT"
+      ],
+      "indicators": {
+        "coverage": {
+          "UHC_INDEX_REPORTED": {
+            "value": 76.0,
+            "year": 2023,
+            "score": 76.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 17.9429245,
+            "year": 2023,
+            "score": 80.6
+          }
+        },
+        "outcomes": {
+          "SP.DYN.IMRT.IN": {
+            "value": 4.1,
+            "year": 2024,
+            "score": 79.4
+          },
+          "SH.STA.MMRT": {
+            "value": 14,
+            "year": 2023,
+            "score": 69.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 81.821,
+            "year": 2024,
+            "score": 90.6
+          }
+        }
+      },
+      "name": "Cyprus"
+    },
+    {
+      "iso3": "CZE",
+      "overall": 78.4,
+      "rank": 24,
+      "rank_range": [
+        22,
+        27
+      ],
+      "domains": {
+        "coverage": 91.5,
+        "financial_protection": 67.5,
+        "outcomes": 76.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 83.0,
+            "year": 2023,
+            "score": 83.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 14.06390572,
+            "year": 2024,
+            "score": 87.2
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 4.64,
+            "year": 2019,
+            "score": 57.0
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.83,
+            "year": 2019,
+            "score": 52.4
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.59,
+            "year": 2019,
+            "score": 53.8
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 85.0,
+            "year": 2024,
+            "score": 49.8
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.1,
+            "year": 2024,
+            "score": 99.6
+          },
+          "SH.STA.MMRT": {
+            "value": 3,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 79.9780487804878,
+            "year": 2024,
+            "score": 82.2
+          }
+        }
+      },
+      "name": "Czechia"
+    },
+    {
+      "iso3": "PRT",
+      "overall": 78.1,
+      "rank": 25,
+      "rank_range": [
+        23,
+        29
+      ],
+      "domains": {
+        "coverage": 91.5,
+        "financial_protection": 63.1,
+        "outcomes": 79.8
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 83.0,
+            "year": 2023,
+            "score": 83.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 28.19350624,
+            "year": 2024,
+            "score": 63.1
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 63.0,
+            "year": 2022,
+            "score": 72.8
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.7,
+            "year": 2024,
+            "score": 92.0
+          },
+          "SH.STA.MMRT": {
+            "value": 15,
+            "year": 2023,
+            "score": 68.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 82.3829268292683,
+            "year": 2024,
+            "score": 93.1
+          }
+        }
+      },
+      "name": "Portugal"
+    },
+    {
+      "iso3": "EST",
+      "overall": 77.7,
+      "rank": 26,
+      "rank_range": [
+        22,
+        29
+      ],
+      "domains": {
+        "coverage": 86.3,
+        "financial_protection": 74.7,
+        "outcomes": 72.0
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 93.6,
+            "year": 2025,
+            "score": 93.6
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 79.0,
+            "year": 2023,
+            "score": 79.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 21.38176537,
+            "year": 2024,
+            "score": 74.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 90.0,
+            "year": 2024,
+            "score": 45.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 1.5,
+            "year": 2024,
+            "score": 100.0
+          },
+          "SH.STA.MMRT": {
+            "value": 5,
+            "year": 2023,
+            "score": 89.9
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 79.2951219512195,
+            "year": 2024,
+            "score": 79.1
+          }
+        }
+      },
+      "name": "Estonia"
+    },
+    {
+      "iso3": "ISR",
+      "overall": 77.6,
+      "rank": 27,
+      "rank_range": [
+        15,
+        34
+      ],
+      "domains": {
+        "coverage": 92.5,
+        "financial_protection": 48.6,
+        "outcomes": 91.6
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 85.0,
+            "year": 2023,
+            "score": 85.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 20.48583984,
+            "year": 2023,
+            "score": 76.2
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 12.81,
+            "year": 2018,
+            "score": 21.8
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 2.61,
+            "year": 2018,
+            "score": 24.1
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.91,
+            "year": 2018,
+            "score": 44.9
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 54.0,
+            "year": 2023,
+            "score": 84.7
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.7,
+            "year": 2024,
+            "score": 92.0
+          },
+          "SH.STA.MMRT": {
+            "value": 2,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.1975609756098,
+            "year": 2024,
+            "score": 96.8
+          }
+        }
+      },
+      "name": "Israel"
+    },
+    {
+      "iso3": "KOR",
+      "overall": 76.8,
+      "rank": 28,
+      "rank_range": [
+        3,
+        39
+      ],
+      "domains": {
+        "coverage": 94.0,
+        "financial_protection": 38.3,
+        "outcomes": 98.0
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2024,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 88.0,
+            "year": 2023,
+            "score": 88.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 33.73815536,
+            "year": 2024,
+            "score": 53.6
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 11.96,
+            "year": 2018,
+            "score": 24.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 2.87,
+            "year": 2018,
+            "score": 21.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 44.0,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.3,
+            "year": 2024,
+            "score": 96.9
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 83.6292682926829,
+            "year": 2024,
+            "score": 98.8
+          }
+        }
+      },
+      "name": "South Korea"
+    },
+    {
+      "iso3": "USA",
+      "overall": 76.2,
+      "rank": 29,
+      "rank_range": [
+        18,
+        33
+      ],
+      "domains": {
+        "coverage": 89.9,
+        "financial_protection": 78.5,
+        "outcomes": 60.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 91.8,
+            "year": 2024,
+            "score": 91.8
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 88.0,
+            "year": 2023,
+            "score": 88.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 10.92723846,
+            "year": 2023,
+            "score": 92.5
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 4.61,
+            "year": 2021,
+            "score": 57.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.89,
+            "year": 2021,
+            "score": 50.7
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 0.62,
+            "year": 2021,
+            "score": 99.6
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 92.0,
+            "year": 2023,
+            "score": 43.7
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 5.5,
+            "year": 2024,
+            "score": 70.5
+          },
+          "SH.STA.MMRT": {
+            "value": 17,
+            "year": 2023,
+            "score": 65.9
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 78.890243902439,
+            "year": 2024,
+            "score": 77.3
+          }
+        }
+      },
+      "name": "United States"
+    },
+    {
+      "iso3": "SVK",
+      "overall": 73.2,
+      "rank": 30,
+      "rank_range": [
+        21,
+        34
+      ],
+      "domains": {
+        "coverage": 86.8,
+        "financial_protection": 76.8,
+        "outcomes": 56.0
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 95.5,
+            "year": 2024,
+            "score": 95.5
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 78.0,
+            "year": 2023,
+            "score": 78.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 20.15309143,
+            "year": 2023,
+            "score": 76.8
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 126.0,
+            "year": 2024,
+            "score": 19.5
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 5.3,
+            "year": 2024,
+            "score": 71.6
+          },
+          "SH.STA.MMRT": {
+            "value": 4,
+            "year": 2023,
+            "score": 94.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 78.3707317073171,
+            "year": 2024,
+            "score": 74.9
+          }
+        }
+      },
+      "name": "Slovakia"
+    },
+    {
+      "iso3": "THA",
+      "overall": 71.2,
+      "rank": 31,
+      "rank_range": [
+        15,
+        42
+      ],
+      "domains": {
+        "coverage": 82.0,
+        "financial_protection": 88.5,
+        "outcomes": 42.9
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "OECD_COVERAGE"
+      ],
+      "indicators": {
+        "coverage": {
+          "UHC_INDEX_REPORTED": {
+            "value": 82.0,
+            "year": 2023,
+            "score": 82.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 9.93404865,
+            "year": 2023,
+            "score": 94.2
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 2.05,
+            "year": 2021,
+            "score": 85.3
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.33,
+            "year": 2021,
+            "score": 75.2
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 0.7,
+            "year": 2021,
+            "score": 93.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 129.0,
+            "year": 2023,
+            "score": 17.7
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 7.7,
+            "year": 2024,
+            "score": 60.3
+          },
+          "SH.STA.MMRT": {
+            "value": 34,
+            "year": 2023,
+            "score": 52.2
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 76.564,
+            "year": 2024,
+            "score": 66.7
+          }
+        }
+      },
+      "name": "Thailand"
+    },
+    {
+      "iso3": "TUR",
+      "overall": 70.3,
+      "rank": 32,
+      "rank_range": [
+        24,
+        38
+      ],
+      "domains": {
+        "coverage": 88.0,
+        "financial_protection": 73.7,
+        "outcomes": 49.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 99.1,
+            "year": 2024,
+            "score": 99.1
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 77.0,
+            "year": 2023,
+            "score": 77.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 19.04723167,
+            "year": 2023,
+            "score": 78.7
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 4.22,
+            "year": 2019,
+            "score": 60.3
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.67,
+            "year": 2019,
+            "score": 57.7
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 0.71,
+            "year": 2016,
+            "score": 93.0
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 119.0,
+            "year": 2023,
+            "score": 23.9
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 8,
+            "year": 2024,
+            "score": 59.1
+          },
+          "SH.STA.MMRT": {
+            "value": 15,
+            "year": 2023,
+            "score": 68.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 77.421,
+            "year": 2024,
+            "score": 70.6
+          }
+        }
+      },
+      "name": "Turkey"
+    },
+    {
+      "iso3": "GRC",
+      "overall": 68.0,
+      "rank": 33,
+      "rank_range": [
+        26,
+        41
+      ],
+      "domains": {
+        "coverage": 88.5,
+        "financial_protection": 37.1,
+        "outcomes": 78.5
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 77.0,
+            "year": 2023,
+            "score": 77.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 34.30307007,
+            "year": 2023,
+            "score": 52.6
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 16.89,
+            "year": 2016,
+            "score": 12.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 1.62,
+            "year": 2016,
+            "score": 35.9
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.49,
+            "year": 2016,
+            "score": 32.0
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 72.0,
+            "year": 2022,
+            "score": 62.6
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.2,
+            "year": 2024,
+            "score": 86.9
+          },
+          "SH.STA.MMRT": {
+            "value": 5,
+            "year": 2023,
+            "score": 89.9
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 81.8390243902439,
+            "year": 2024,
+            "score": 90.6
+          }
+        }
+      },
+      "name": "Greece"
+    },
+    {
+      "iso3": "CRI",
+      "overall": 67.4,
+      "rank": 34,
+      "rank_range": [
+        31,
+        36
+      ],
+      "domains": {
+        "coverage": 89.0,
+        "financial_protection": 58.5,
+        "outcomes": 54.8
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 93.9,
+            "year": 2025,
+            "score": 93.9
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 84.0,
+            "year": 2023,
+            "score": 84.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 24.12618256,
+            "year": 2023,
+            "score": 70.0
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 7.41,
+            "year": 2018,
+            "score": 40.8
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 1.13,
+            "year": 2018,
+            "score": 44.8
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.22,
+            "year": 2018,
+            "score": 66.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 101.0,
+            "year": 2023,
+            "score": 36.5
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 9.1,
+            "year": 2024,
+            "score": 55.2
+          },
+          "SH.STA.MMRT": {
+            "value": 24,
+            "year": 2023,
+            "score": 59.1
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 80.996,
+            "year": 2024,
+            "score": 86.8
+          }
+        }
+      },
+      "name": "Costa Rica"
+    },
+    {
+      "iso3": "COL",
+      "overall": 67.0,
+      "rank": 35,
+      "rank_range": [
+        29,
+        39
+      ],
+      "domains": {
+        "coverage": 90.2,
+        "financial_protection": 60.6,
+        "outcomes": 50.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 98.4,
+            "year": 2025,
+            "score": 98.4
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 82.0,
+            "year": 2023,
+            "score": 82.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 14.73741817,
+            "year": 2024,
+            "score": 86.0
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 8.19,
+            "year": 2016,
+            "score": 37.3
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 2.23,
+            "year": 2016,
+            "score": 28.0
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.24,
+            "year": 2016,
+            "score": 65.9
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 93.0,
+            "year": 2023,
+            "score": 42.9
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 10.5,
+            "year": 2024,
+            "score": 50.9
+          },
+          "SH.STA.MMRT": {
+            "value": 59,
+            "year": 2023,
+            "score": 41.4
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 77.913,
+            "year": 2024,
+            "score": 72.8
+          }
+        }
+      },
+      "name": "Colombia"
+    },
+    {
+      "iso3": "POL",
+      "overall": 67.0,
+      "rank": 36,
+      "rank_range": [
+        31,
+        37
+      ],
+      "domains": {
+        "coverage": 87.0,
+        "financial_protection": 49.0,
+        "outcomes": 64.8
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 92.1,
+            "year": 2025,
+            "score": 92.1
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 82.0,
+            "year": 2023,
+            "score": 82.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 16.20527458,
+            "year": 2024,
+            "score": 83.5
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 16.09,
+            "year": 2021,
+            "score": 13.9
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 1.96,
+            "year": 2021,
+            "score": 31.2
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.44,
+            "year": 2021,
+            "score": 32.9
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 106.0,
+            "year": 2024,
+            "score": 32.8
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.6,
+            "year": 2024,
+            "score": 83.3
+          },
+          "SH.STA.MMRT": {
+            "value": 2,
+            "year": 2023,
+            "score": 100.0
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 78.409756097561,
+            "year": 2024,
+            "score": 75.1
+          }
+        }
+      },
+      "name": "Poland"
+    },
+    {
+      "iso3": "LTU",
+      "overall": 66.7,
+      "rank": 37,
+      "rank_range": [
+        33,
+        37
+      ],
+      "domains": {
+        "coverage": 88.5,
+        "financial_protection": 57.6,
+        "outcomes": 54.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "FINPROTECTION_CATA_TOT_10_POP",
+        "FINPROTECTION_CATA_TOT_25_POP",
+        "FINPROTECTION_IMP_NPRELPL_POP"
+      ],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 98.9,
+            "year": 2025,
+            "score": 98.9
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 78.0,
+            "year": 2023,
+            "score": 78.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 31.42526817,
+            "year": 2024,
+            "score": 57.6
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 134.0,
+            "year": 2024,
+            "score": 14.8
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.8,
+            "year": 2024,
+            "score": 90.9
+          },
+          "SH.STA.MMRT": {
+            "value": 8,
+            "year": 2023,
+            "score": 80.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 77.1951219512195,
+            "year": 2024,
+            "score": 69.6
+          }
+        }
+      },
+      "name": "Lithuania"
+    },
+    {
+      "iso3": "CHL",
+      "overall": 65.3,
+      "rank": 38,
+      "rank_range": [
+        27,
+        42
+      ],
+      "domains": {
+        "coverage": 91.0,
+        "financial_protection": 35.5,
+        "outcomes": 69.3
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 98.1,
+            "year": 2025,
+            "score": 98.1
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 84.0,
+            "year": 2023,
+            "score": 84.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 39.14786911,
+            "year": 2024,
+            "score": 44.4
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 14.6,
+            "year": 2016,
+            "score": 17.3
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 2.08,
+            "year": 2016,
+            "score": 29.7
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.03,
+            "year": 2016,
+            "score": 41.9
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 78.0,
+            "year": 2023,
+            "score": 56.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 5.8,
+            "year": 2024,
+            "score": 68.9
+          },
+          "SH.STA.MMRT": {
+            "value": 10,
+            "year": 2023,
+            "score": 76.3
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 81.359,
+            "year": 2024,
+            "score": 88.5
+          }
+        }
+      },
+      "name": "Chile"
+    },
+    {
+      "iso3": "HUN",
+      "overall": 62.7,
+      "rank": 39,
+      "rank_range": [
+        35,
+        40
+      ],
+      "domains": {
+        "coverage": 87.9,
+        "financial_protection": 49.9,
+        "outcomes": 50.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 95.8,
+            "year": 2024,
+            "score": 95.8
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 80.0,
+            "year": 2023,
+            "score": 80.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 23.05996895,
+            "year": 2023,
+            "score": 71.8
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 12.31,
+            "year": 2018,
+            "score": 23.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 0.91,
+            "year": 2018,
+            "score": 50.1
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.45,
+            "year": 2018,
+            "score": 32.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 140.0,
+            "year": 2024,
+            "score": 11.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 3.1,
+            "year": 2024,
+            "score": 87.8
+          },
+          "SH.STA.MMRT": {
+            "value": 12,
+            "year": 2023,
+            "score": 72.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 76.7243902439025,
+            "year": 2024,
+            "score": 67.4
+          }
+        }
+      },
+      "name": "Hungary"
+    },
+    {
+      "iso3": "CHN",
+      "overall": 60.3,
+      "rank": 40,
+      "rank_range": [
+        29,
+        45
+      ],
+      "domains": {
+        "coverage": 85.0,
+        "financial_protection": 22.8,
+        "outcomes": 73.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "OECD_COVERAGE",
+        "OECD_TREATABLE_MORT"
+      ],
+      "indicators": {
+        "coverage": {
+          "UHC_INDEX_REPORTED": {
+            "value": 85.0,
+            "year": 2023,
+            "score": 85.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 32.17354584,
+            "year": 2023,
+            "score": 56.3
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 24.33,
+            "year": 2018,
+            "score": 0.0
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 6.94,
+            "year": 2018,
+            "score": 0.0
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 4.68,
+            "year": 2018,
+            "score": 1.2
+          }
+        },
+        "outcomes": {
+          "SP.DYN.IMRT.IN": {
+            "value": 4.1,
+            "year": 2024,
+            "score": 79.4
+          },
+          "SH.STA.MMRT": {
+            "value": 16,
+            "year": 2023,
+            "score": 67.1
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 78.017,
+            "year": 2024,
+            "score": 73.3
+          }
+        }
+      },
+      "name": "China"
+    },
+    {
+      "iso3": "ROU",
+      "overall": 56.2,
+      "rank": 41,
+      "rank_range": [
+        39,
+        44
+      ],
+      "domains": {
+        "coverage": 80.8,
+        "financial_protection": 46.4,
+        "outcomes": 41.4
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 84.6,
+            "year": 2025,
+            "score": 84.6
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 77.0,
+            "year": 2023,
+            "score": 77.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 22.96146011,
+            "year": 2023,
+            "score": 72.0
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 13.42,
+            "year": 2016,
+            "score": 20.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 2.19,
+            "year": 2016,
+            "score": 28.4
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.14,
+            "year": 2016,
+            "score": 39.3
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 166.0,
+            "year": 2023,
+            "score": 0.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 6,
+            "year": 2024,
+            "score": 67.8
+          },
+          "SH.STA.MMRT": {
+            "value": 12,
+            "year": 2023,
+            "score": 72.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 76.4585365853659,
+            "year": 2024,
+            "score": 66.2
+          }
+        }
+      },
+      "name": "Romania"
+    },
+    {
+      "iso3": "BRA",
+      "overall": 55.1,
+      "rank": 42,
+      "rank_range": [
+        39,
+        44
+      ],
+      "domains": {
+        "coverage": 84.0,
+        "financial_protection": 46.3,
+        "outcomes": 35.1
+      },
+      "missing_domains": [],
+      "missing_indicators": [
+        "OECD_COVERAGE"
+      ],
+      "indicators": {
+        "coverage": {
+          "UHC_INDEX_REPORTED": {
+            "value": 84.0,
+            "year": 2023,
+            "score": 84.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 26.23070717,
+            "year": 2023,
+            "score": 66.4
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 11.81,
+            "year": 2017,
+            "score": 24.6
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 1.88,
+            "year": 2017,
+            "score": 32.2
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 2.04,
+            "year": 2017,
+            "score": 41.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 137.0,
+            "year": 2023,
+            "score": 13.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 12.3,
+            "year": 2024,
+            "score": 46.1
+          },
+          "SH.STA.MMRT": {
+            "value": 67,
+            "year": 2023,
+            "score": 38.9
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 76.023,
+            "year": 2024,
+            "score": 64.3
+          }
+        }
+      },
+      "name": "Brazil"
+    },
+    {
+      "iso3": "LVA",
+      "overall": 54.3,
+      "rank": 43,
+      "rank_range": [
+        38,
+        45
+      ],
+      "domains": {
+        "coverage": 88.5,
+        "financial_protection": 24.1,
+        "outcomes": 50.2
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 100.0,
+            "year": 2025,
+            "score": 100.0
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 77.0,
+            "year": 2023,
+            "score": 77.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 35.05759811,
+            "year": 2023,
+            "score": 51.4
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 21.41,
+            "year": 2016,
+            "score": 4.0
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 5.7,
+            "year": 2016,
+            "score": 4.8
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 3.98,
+            "year": 2016,
+            "score": 9.1
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 140.0,
+            "year": 2024,
+            "score": 11.4
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 2.2,
+            "year": 2024,
+            "score": 98.2
+          },
+          "SH.STA.MMRT": {
+            "value": 19,
+            "year": 2023,
+            "score": 63.7
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 76.4292682926829,
+            "year": 2024,
+            "score": 66.1
+          }
+        }
+      },
+      "name": "Latvia"
+    },
+    {
+      "iso3": "MEX",
+      "overall": 54.0,
+      "rank": 44,
+      "rank_range": [
+        37,
+        45
+      ],
+      "domains": {
+        "coverage": 79.6,
+        "financial_protection": 51.3,
+        "outcomes": 31.1
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 80.2,
+            "year": 2024,
+            "score": 80.2
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 79.0,
+            "year": 2023,
+            "score": 79.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 41.23572922,
+            "year": 2023,
+            "score": 40.8
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 4.44,
+            "year": 2020,
+            "score": 58.5
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 1.22,
+            "year": 2020,
+            "score": 42.9
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 1.06,
+            "year": 2020,
+            "score": 73.5
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 170.0,
+            "year": 2023,
+            "score": 0.0
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 12.1,
+            "year": 2024,
+            "score": 46.6
+          },
+          "SH.STA.MMRT": {
+            "value": 42,
+            "year": 2023,
+            "score": 48.1
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 75.264,
+            "year": 2024,
+            "score": 60.8
+          }
+        }
+      },
+      "name": "Mexico"
+    },
+    {
+      "iso3": "BGR",
+      "overall": 52.3,
+      "rank": 45,
+      "rank_range": [
+        41,
+        45
+      ],
+      "domains": {
+        "coverage": 83.9,
+        "financial_protection": 26.0,
+        "outcomes": 47.1
+      },
+      "missing_domains": [],
+      "missing_indicators": [],
+      "indicators": {
+        "coverage": {
+          "OECD_COVERAGE": {
+            "value": 94.8,
+            "year": 2025,
+            "score": 94.8
+          },
+          "UHC_INDEX_REPORTED": {
+            "value": 73.0,
+            "year": 2023,
+            "score": 73.0
+          }
+        },
+        "financial_protection": {
+          "SH.XPD.OOPC.CH.ZS": {
+            "value": 35.50430679,
+            "year": 2023,
+            "score": 50.6
+          },
+          "FINPROTECTION_CATA_TOT_10_POP": {
+            "value": 21.28,
+            "year": 2018,
+            "score": 4.2
+          },
+          "FINPROTECTION_CATA_TOT_25_POP": {
+            "value": 3.07,
+            "year": 2018,
+            "score": 20.1
+          },
+          "FINPROTECTION_IMP_NPRELPL_POP": {
+            "value": 4.36,
+            "year": 2018,
+            "score": 4.7
+          }
+        },
+        "outcomes": {
+          "OECD_TREATABLE_MORT": {
+            "value": 152.0,
+            "year": 2023,
+            "score": 5.1
+          },
+          "SP.DYN.IMRT.IN": {
+            "value": 4.6,
+            "year": 2024,
+            "score": 75.9
+          },
+          "SH.STA.MMRT": {
+            "value": 6,
+            "year": 2023,
+            "score": 86.4
+          },
+          "SP.DYN.LE00.IN": {
+            "value": 75.7609756097561,
+            "year": 2024,
+            "score": 63.1
+          }
+        }
+      },
+      "name": "Bulgaria"
+    }
+  ]
+}

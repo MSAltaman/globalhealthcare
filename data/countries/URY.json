@@ -1,0 +1,1041 @@
+{
+  "iso3": "URY",
+  "name": "Uruguay",
+  "wave": 5,
+  "system_as_of": "2026-11-22",
+  "status": "needs_review",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Single national health insurance fund (FONASA) paying public and private not-for-profit providers by risk-adjusted capitation, with a state provider (ASSE) for people outside it"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "URY-overview-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "URY-overview-001",
+        "statement": "The National Integrated Health System (SNIS) was created by Law 18,211 of December 2007; it integrates public and private providers and is financed through the National Health Fund (FONASA), a single mandatory public fund.",
+        "valence": "neutral",
+        "source_id": "paho-func-ury",
+        "locator": {
+          "section": "see page",
+          "page": 2,
+          "char_start": 431,
+          "char_end": 640,
+          "passage_sha256": "510895d5f07adff4d725b0f6a3dc58535822cce42a247aad0bba5a6429cbe48e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "URY-overview-002",
+        "statement": "At the end of 2024 the National Health Insurance covered 2,681,295 people, roughly three quarters of the national population.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 15,
+          "char_start": 19711,
+          "char_end": 19879,
+          "passage_sha256": "22d7f424f901803c8e47e996f81602aefa73557f884bf5d2fd41ca87800d7f36"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-overview-003",
+        "statement": "In December 2024 the mutual non-profit providers (IAMCs) held 74.6% of the insured population in the National Health Insurance register, the state provider ASSE 21.9% and private integral insurers 3.4%.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 11,
+          "char_start": 22142,
+          "char_end": 22727,
+          "passage_sha256": "7831abd584de3ab039e02523f6ec6c0175cf318c4001dc67f41bd0a83e580aff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-overview-004",
+        "statement": "The SNIS ensures universal coverage through 42 eligible comprehensive health providers, which deliver the Comprehensive Health Care Plan (PIAS), a broad benefits plan that is the same for all.",
+        "valence": "neutral",
+        "source_id": "paho-func-ury",
+        "locator": {
+          "section": "see page",
+          "page": 2,
+          "char_start": 768,
+          "char_end": 994,
+          "passage_sha256": "0852f25c0896bebe8dbf7979559f1d1e3e5d596dc5b9a8a26be3a48b4da3c2a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financing": [
+      {
+        "id": "URY-financing-001",
+        "statement": "FONASA obligations consist of personal contributions that vary with pay and family situation, an employer contribution at a 5% rate, and, where applicable, a supplementary mutual-fee payment (CCM) by the employer.",
+        "valence": "neutral",
+        "source_id": "bps-tasas-fonasa",
+        "locator": {
+          "section": "see page",
+          "char_start": 151,
+          "char_end": 396,
+          "passage_sha256": "c5c6a4a517107f7f2f1028f5ea5586f8378b5368191e40bd5201c108c97def48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "URY-financing-002",
+        "statement": "Employees pay a basic 3% personal rate plus an additional rate set by pay band and family situation. For pay up to 2.5 BPC the total is 3% or 5% (5% with a spouse or partner who lacks their own SNIS cover); above 2.5 BPC it ranges from 4.5% to 8% depending on spouse and children.",
+        "valence": "neutral",
+        "source_id": "bps-tasas-fonasa",
+        "locator": {
+          "section": "see page",
+          "char_start": 538,
+          "char_end": 1239,
+          "passage_sha256": "730899d4669c6810024eb33e029fc31b3cb1bfa34d9be62e24f2c6fab65ddade"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "URY-financing-003",
+        "statement": "In 2024 FONASA's own income (contributions and other receipts) was 78.1% of its total revenue of about 147.7 billion pesos; a transfer from general revenue supplied the other 21.9%.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 21,
+          "char_start": 40831,
+          "char_end": 40992,
+          "passage_sha256": "873e880f4c819a9b9ddc04209bd6f5c9e069e853449a45c434e9507320051b97"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-financing-004",
+        "statement": "Of FONASA's own income in 2024, about 43.4% came from personal contributions of private- and public-sector employees (excluding banking, notarial and self-employed contributors), a little over 36% from employer contributions and mutual-fee complements, and 12.6% from contributions by retirees and pensioners.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 21,
+          "char_start": 40993,
+          "char_end": 41874,
+          "passage_sha256": "4fb61a988391040039414400980356bf6b6bfbcd8d36b72df07c189154d89c25"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-financing-005",
+        "statement": "Government schemes and compulsory contributory insurance together financed 72.6% of total health spending in 2023 and 73.7% in 2024.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 13,
+          "char_start": 16162,
+          "char_end": 16278,
+          "passage_sha256": "6f5131429b07d829be16f65beafabce99f38a92f2311ba8cbcacc018b56c3798"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-financing-006",
+        "statement": "In 2024 capitation payments made up 75.4% of FONASA outlays and the goals-linked payment (Meta) 4.9%.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 22,
+          "char_start": 42443,
+          "char_end": 42496,
+          "passage_sha256": "7d93d20df571f63bbc8f70f5bd1f5c354343f6e373fdd99ac31a1575664190f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-financing-007",
+        "statement": "Social insurance schemes channelled through FONASA and the National Resources Fund (FNR), which finance the PIAS and higher-complexity, higher-cost benefits, explained over 52% of total health spending in 2024, a pattern seen since 2016.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 13,
+          "char_start": 16715,
+          "char_end": 16962,
+          "passage_sha256": "e98d423aef578f80c8d32858136b2d5243923832b40a178c9131e6640465ceed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-financing-008",
+        "statement": "A 2020 study reported that FONASA allocates resources to providers by a calculation of health risk, rather than by the contribution amounts negotiated by occupational groups with the mutual providers as before the reform.",
+        "valence": "neutral",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 30912,
+          "char_end": 31118,
+          "passage_sha256": "88601235fe6e25abc6907d9c155bc78e3bb6d0cf6aa755661f1169a858e63ed8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      }
+    ],
+    "covered": [
+      {
+        "id": "URY-covered-001",
+        "statement": "A 2020 comparative study found that all SNIS providers must guarantee the Comprehensive Benefit Plan, which sets the same comprehensive benefits for the entire population.",
+        "valence": "neutral",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 34826,
+          "char_end": 35080,
+          "passage_sha256": "2d54255ba514f768e6ab691a94d5bd68c267957263c55f42ec68aa870be9113b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-covered-002",
+        "statement": "The mental health benefit plan's psychotherapy cover was extended in 2024 to people up to 30 years old inclusive.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 3,
+          "char_start": 3803,
+          "char_end": 3876,
+          "passage_sha256": "81a9cbfe45a3e518aa74dc9599bedaa598faeb9f0e74da71fedc766c2c3fd4de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "URY-cost_sharing-001",
+        "statement": "The ministry's out-of-pocket measure includes moderating fees and copayments such as tickets and orders, as well as direct household payments in commercial pharmacies, private clinics, glasses and psychology consultations, among others.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 6,
+          "char_start": 6056,
+          "char_end": 6300,
+          "passage_sha256": "613188e62c841cc62a1aa4b7657c32857220f110ad4290a0b9477778428d0828"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-cost_sharing-002",
+        "statement": "Out-of-pocket spending was 16.46% of total health spending in 2023 and fell by more than one percentage point to 15.65% in 2024.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 6,
+          "char_start": 6583,
+          "char_end": 6677,
+          "passage_sha256": "4d529654b9fffd2bd6044f3fe43286f5d7f7d7fac63bae6f8f7dee0a6d5a1e19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-cost_sharing-003",
+        "statement": "In 2024 pharmacies were the largest destination of households' direct health spending (30% of the total), ahead of the mutual providers (26%).",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 18,
+          "char_start": 25227,
+          "char_end": 25459,
+          "passage_sha256": "158de7b9c08557c8ac40f7433241b35c1e802637094fb6648c447cf2a85e07ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-cost_sharing-004",
+        "statement": "A 2020 study found that the reform regulated moderation fees for all services in the PIAS, but premiums and copayments remained scarcely regulated at for-profit private insurers and at the mutual providers for non-PIAS services and voluntary amenities, so those remain unequally accessible.",
+        "valence": "weakness",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 35500,
+          "char_end": 35792,
+          "passage_sha256": "2b8bf9a29c0b1200cca7485e41415c178ab85147aee3156fb0721835b31acfa1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-cost_sharing-005",
+        "statement": "In 2024 the moderating fees on the antidepressants fluoxetine and sertraline were eliminated, though the professional stamp fee is still charged.",
+        "valence": "strength",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 3,
+          "char_start": 4434,
+          "char_end": 4578,
+          "passage_sha256": "15a4025dd9ff5b5422e89058d036183eaa11190224006669871bcea7ca61b4cf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [
+      {
+        "id": "URY-additional_care-001",
+        "statement": "Voluntary insurance schemes spent about 31,574 million constant-2024 pesos in 2024, against total health spending of 303,141 million pesos.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 13,
+          "char_start": 17215,
+          "char_end": 17770,
+          "passage_sha256": "6908c7962bba222c1ee629867c9d2d1d5dc0cacf5ed2965fbabcd6f87ff3f444"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-additional_care-002",
+        "statement": "At the end of 2024, 91,222 FONASA beneficiaries were registered with private integral insurers, plus 36,564 people outside FONASA.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 15,
+          "char_start": 20078,
+          "char_end": 20108,
+          "passage_sha256": "c56119a42d148071b3edda8b8f9a118f3b9554b665fa0437eacb7327a341dec3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "URY-access-001",
+        "statement": "Regulated mobility lets National Health Insurance beneficiaries change provider once they have at least two years with their current integral provider, or in the calendar year after being assigned to ASSE by default.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 12,
+          "char_start": 24944,
+          "char_end": 25279,
+          "passage_sha256": "94f2dc80b8145567393af38f43c55b764db1089896afaff0e123f9c48710a393"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-access-002",
+        "statement": "A 2023 decree added an exception to the two-year rule: users can request a change of provider when they asked for the first available specialist appointment, or when the legal deadline for coordinating surgery was exceeded.",
+        "valence": "strength",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 13,
+          "char_start": 26772,
+          "char_end": 27348,
+          "passage_sha256": "76b2400de70402f4e1d3191958b86fde8d0bbe70b3feee86efbdb578fb9d8a0a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-access-003",
+        "statement": "A 2020 study noted that mutual providers (IAMCs), the main service providers, are open only to FONASA contributors or holders of voluntary insurance, which may hamper accessibility and timely attention for everyone else, who use a more restricted network.",
+        "valence": "weakness",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 35191,
+          "char_end": 35499,
+          "passage_sha256": "eafaff31f61ff4c1d6e18e3efbd08d90a0cc6c50661d01f4c072d8402cfbf02c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-access-004",
+        "statement": "From January 2024 the care goal on timely cervical cancer treatment required treatment to start within 65 days of the Pap or HPV test; providers averaged 88% compliance in the latest four-month period reported.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 42,
+          "char_start": 82473,
+          "char_end": 82835,
+          "passage_sha256": "b7ecde9449b03630b23e8331a77c8566370b0e747c724d9d11f62f27de4a01d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "URY-outcomes-001",
+        "statement": "Life expectancy at birth in Uruguay was 78.3 years in 2024, 3.6 years higher than in 2000 (74.7) and above the average for the Region of the Americas.",
+        "valence": "neutral",
+        "source_id": "hia-ury",
+        "locator": {
+          "section": "see page",
+          "char_start": 1509,
+          "char_end": 1654,
+          "passage_sha256": "088d74581ac7c2cc32f0fa69027c57b16506e919fa03741170c4ea43f4e7cc57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-outcomes-002",
+        "statement": "Infant mortality fell from 14.1 to 6.2 deaths per 1,000 live births between 2000 and 2021, a decrease of 56%.",
+        "valence": "strength",
+        "source_id": "hia-ury",
+        "locator": {
+          "section": "see page",
+          "char_start": 3172,
+          "char_end": 3296,
+          "passage_sha256": "16c7d4f98b59360dd9231320f59d68b28e7dfa7a886f0a6963cf75bf05b7ae63"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "URY-outcomes-003",
+        "statement": "The maternal mortality ratio was estimated at 18.6 deaths per 100,000 live births in 2020, a 29.9% reduction from the estimate for 2000.",
+        "valence": "neutral",
+        "source_id": "hia-ury",
+        "locator": {
+          "section": "see page",
+          "char_start": 3698,
+          "char_end": 3859,
+          "passage_sha256": "63962df2e405553ac7dc029117e4a522916c60b2e22398e081169eaa1a850b1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "URY-outcomes-004",
+        "statement": "In 2019 the rate of potentially preventable premature mortality was 218 deaths per 100,000 population, 3.8% below the regional average; the treatable-cause rate was 84.7 against a regional average of 89.6.",
+        "valence": "neutral",
+        "source_id": "hia-ury",
+        "locator": {
+          "section": "see page",
+          "char_start": 5516,
+          "char_end": 6114,
+          "passage_sha256": "5c914f5108cc872cfaf6ea23bbfb5b7ecc37dc328ac75a3bdd871773eb856fd5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-outcomes-005",
+        "statement": "Measles vaccination coverage was 96.0% in 2022, 7 percentage points higher than in 2000.",
+        "valence": "neutral",
+        "source_id": "hia-ury",
+        "locator": {
+          "section": "see page",
+          "char_start": 3413,
+          "char_end": 3543,
+          "passage_sha256": "2ce7f7e20d344a3bd4de15d761451d284ec4447d33c1240c5a2518ee642bd7a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2022
+      }
+    ],
+    "costs": [
+      {
+        "id": "URY-costs-001",
+        "statement": "Total health spending was 9.31% of GDP in 2024, and public health spending was 6.72% of GDP.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 4,
+          "char_start": 3802,
+          "char_end": 4121,
+          "passage_sha256": "1811b118c42f6808806cf5b06d7d8827a82ace25266df024daff62cd1a9e6022"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-costs-002",
+        "statement": "Total health spending reached 303,141 million pesos at constant 2024 prices in 2024, a real increase of 4.12% on 2023, close to the 4.09% average annual rise over 2005-2024.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 3,
+          "char_start": 1871,
+          "char_end": 2221,
+          "passage_sha256": "67f8c4f9dc60d22d9e4447c00fb5df1b922c426a1c464d67b089be2868e7ab72"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-costs-003",
+        "statement": "In 2023 current health spending was 9.02% of GDP in Uruguay, against a Latin American average of 6.57%.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 9,
+          "char_start": 9640,
+          "char_end": 9831,
+          "passage_sha256": "0c5951fb19932c8db3d08870b8f1d7cc18ffcdd2116576ba81f389bdc55c1ab2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "URY-costs-004",
+        "statement": "The public share of total health financing was 47.1% in 2005 and 73.7% in 2024, and public financing has been the main source since 2016.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 4,
+          "char_start": 4661,
+          "char_end": 4876,
+          "passage_sha256": "b8f83346ce7b3e890b6c26f59efebc575aab97192b7497fd5378f5ff121a8b34"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-costs-005",
+        "statement": "Primary health care, measured with the WHO functional classification, accounted for 41% of current health spending in 2024.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 11,
+          "char_start": 12421,
+          "char_end": 12524,
+          "passage_sha256": "ff90eb371f960b1a5f9da258c6f804179927e98d493a0c7e9c6552a8119d83e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      }
+    ],
+    "what_works": [
+      {
+        "id": "URY-what_works-001",
+        "statement": "The health ministry reports that out-of-pocket spending has been below 20% of health spending since 2008 and public health spending above 6% of GDP since 2015, meeting both PAHO-recommended thresholds.",
+        "valence": "strength",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 6,
+          "char_start": 7175,
+          "char_end": 7372,
+          "passage_sha256": "cc37c09d630a309ed7ab4d2bc2f59f0296a7e91fdd19b6febb48f3d36bec1926"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-what_works-002",
+        "statement": "A 2020 study reported that, by pooling payroll contributions and allocating by health risk, the reform narrowed the gap in resources per member between ASSE and the mutual providers from 3.5 times in 2005 to 1.3 in 2012.",
+        "valence": "strength",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 31132,
+          "char_end": 31233,
+          "passage_sha256": "9c49b479ce5a1b6d68c96b96ff90b28b7a3b954db585c2bef388a4073782609b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2012,
+        "historical": true
+      },
+      {
+        "id": "URY-what_works-003",
+        "statement": "A 2020 study concluded that Uruguay's reform reinforced the public system and promoted financial solidarity by pooling and progressively allocating resources.",
+        "valence": "strength",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 3891,
+          "char_end": 4028,
+          "passage_sha256": "ef2071d873d6a6ff3546144924b318274e30ce652c477e38672cf241b0c6319c"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-22",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-what_works-004",
+        "statement": "PAHO's review reports that since the start of the reform out-of-pocket spending fell from 23% to 15% of health spending (2019 ministry data), placing Uruguay among the few countries in the region within PAHO's thresholds of 6% of GDP for public health spending and 20% for out-of-pocket spending.",
+        "valence": "strength",
+        "source_id": "paho-func-ury",
+        "locator": {
+          "section": "see page",
+          "page": 5,
+          "char_start": 11019,
+          "char_end": 11723,
+          "passage_sha256": "1ae787381a73016fedc35805a82ca67a741887dcdb52132488560617a5084897"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      }
+    ],
+    "problems": [
+      {
+        "id": "URY-problems-001",
+        "statement": "A 2020 study found the population remained segmented by ability to contribute to social security, because people without FONASA coverage can be covered only at ASSE through subsidy.",
+        "valence": "weakness",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 32901,
+          "char_end": 33082,
+          "passage_sha256": "42a3588ac3e21ccab24454bec826c41971bbeb931e0367c63182dcfb5400206a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-problems-002",
+        "statement": "The same study found the new institutional conditions widened the options of better-off people to take out private insurance (segmentation by income), although to a lesser degree than in Chile.",
+        "valence": "weakness",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 33083,
+          "char_end": 33281,
+          "passage_sha256": "0f141b34b6a13b675bbff35ccbb57bf7a103deed80c8155401135e56e445ac8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "URY-problems-003",
+        "statement": "The health ministry's accounts tie the rise in spending executed by the ministry to growing court injunctions (recursos de amparo) for benefits outside the coverage, which the ministry had to pay, and report that this spending was four times its 2005 level in 2024.",
+        "valence": "weakness",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 17,
+          "char_start": 23109,
+          "char_end": 23572,
+          "passage_sha256": "f6b0dedb26858cb001ef96ab162970adfcfbaa1a9fa31635f65602531e71f659"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-problems-004",
+        "statement": "The ministry's accounts describe out-of-pocket spending as the most regressive financing mechanism, because the amount is fixed regardless of household income and is paid at the point of use.",
+        "valence": "weakness",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 6,
+          "char_start": 5424,
+          "char_end": 5696,
+          "passage_sha256": "7eb169b3547c975591022d46e475900d179f911974793f87dc215822b37ced77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-problems-005",
+        "statement": "By resolution of 29 July 2024 the Executive ordered an intervention, without displacing management, of the integral provider CASMU IAMPP, after earlier monitoring under a trust the institution had requested in 2021.",
+        "valence": "weakness",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 3,
+          "char_start": 5481,
+          "char_end": 5878,
+          "passage_sha256": "200a19a5bcb92073b666c163ad8b5098f7c4a572da0bbd64c5346034b7dceb77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "URY-reforms-001",
+        "statement": "Until 2007 most care was organised in two detached systems: the state provider ASSE, funded from general revenue for the poor and informal workers, and non-profit mutual providers (IAMCs) with fragmented occupation-based schemes for formal workers and the middle classes.",
+        "valence": "neutral",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 23857,
+          "char_end": 24275,
+          "passage_sha256": "de4d3ba6e4ca60ee28f578d5fddc4873dfdb82a3eaf17b547d257a443ba2d969"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2007,
+        "historical": true
+      },
+      {
+        "id": "URY-reforms-002",
+        "statement": "The incorporation of all groups into FONASA was completed in 2016.",
+        "valence": "neutral",
+        "source_id": "msp-cns-2024",
+        "locator": {
+          "section": "see page",
+          "page": 13,
+          "char_start": 16894,
+          "char_end": 16962,
+          "passage_sha256": "0e7132512b82fae1e54d00d51ce05ce8d7df050b747158dc224304f60db7e03a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2016,
+        "historical": true
+      },
+      {
+        "id": "URY-reforms-003",
+        "statement": "In 2016 the health ministry defined National Health Objectives for the first time, with a horizon to 2020, and was adjusting them to set new goals for 2030.",
+        "valence": "neutral",
+        "source_id": "paho-func-ury",
+        "locator": {
+          "section": "see page",
+          "page": 2,
+          "char_start": 1262,
+          "char_end": 1667,
+          "passage_sha256": "3bd0f1960c88c2eae558e8619efd637f4ece0000aa5703043ef807185ede7ffc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2021,
+        "historical": true
+      },
+      {
+        "id": "URY-reforms-004",
+        "statement": "In 2024 the PIAS and the drug formulary were extended with, among other items, continuous glucose monitoring for insulin-dependent patients aged 21 or under and an HPV test for cervical cancer prevention.",
+        "valence": "neutral",
+        "source_id": "junasa-2024",
+        "locator": {
+          "section": "see page",
+          "page": 3,
+          "char_start": 3257,
+          "char_end": 3398,
+          "passage_sha256": "dc7c6b8fcf82edde463c41fbe74f56e86016f2023d02e8653a40c6a6ae64faa9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "URY-reforms-005",
+        "statement": "The reform set a maximum contribution threshold above which FONASA returns the surplus, and allowed payroll contributions to be directed to for-profit private insurance, which the study says limits proportionality at the highest incomes.",
+        "valence": "neutral",
+        "source_id": "equity-seg-2020",
+        "locator": {
+          "section": "see page",
+          "char_start": 31520,
+          "char_end": 31733,
+          "passage_sha256": "939d554ada8bd44034cb39767d03a9457378a2e3b515b3f4ecb84d602a987c5e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-22"
+        },
+        "data_year": 2019,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/URY.json",
+  "sources": [
+    {
+      "id": "paho-func-ury",
+      "title": "Functioning of the health system in Uruguay: principles, financing, management, and care model",
+      "publisher": "Pan American Health Organization (PAHO/WHO)",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2021,
+      "url": "https://paho.org/sites/default/files/2021-12/Functioning%20of%20the%20health%20system%20in%20Uruguay.pdf",
+      "accessed": "2026-11-22",
+      "funding_note": "Intergovernmental agency review; data mostly 2019-2021, so figures in it are dated by claim."
+    },
+    {
+      "id": "hia-ury",
+      "title": "Uruguay - Country Profile, Health in the Americas+",
+      "publisher": "Pan American Health Organization (PAHO/WHO)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://hia.paho.org/en/node/121",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": "msp-cns-2024",
+      "title": "Boletín de Cuentas Nacionales de Salud de Uruguay 2024",
+      "publisher": "Ministerio de Salud Pública de Uruguay, Área Economía de la Salud",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gub.uy/ministerio-salud-publica/sites/ministerio-salud-publica/files/documentos/publicaciones/Boletin_CNS_2024.pdf",
+      "accessed": "2026-11-22",
+      "funding_note": "National health accounts prepared by the health ministry under the SHA 2011 methodology; the ministry also runs the system it reports on."
+    },
+    {
+      "id": "junasa-2024",
+      "title": "Junta Nacional de Salud: Rendición de Cuentas, Ejercicio 2024",
+      "publisher": "Junta Nacional de Salud (JUNASA), Uruguay",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.gub.uy/ministerio-salud-publica/sites/ministerio-salud-publica/files/documentos/publicaciones/Rendici%C3%B3n%20de%20Cuentas%20JUNASA_2024.pdf",
+      "accessed": "2026-11-22",
+      "funding_note": "Annual accountability report by the national health board that administers the National Health Insurance."
+    },
+    {
+      "id": "bps-tasas-fonasa",
+      "title": "Tasas Fonasa",
+      "publisher": "Banco de Previsión Social (BPS), Uruguay",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bps.gub.uy/10314/tasas-fonasa.html",
+      "accessed": "2026-11-22",
+      "funding_note": "Official social security agency page; last updated 23 October 2026 per the page."
+    },
+    {
+      "id": "equity-seg-2020",
+      "title": "Tackling segmentation to advance universal health coverage: analysis of policy architectures of health care in Chile and Uruguay",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Bernales-Baksai P",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1186/s12939-020-01176-6",
+      "doi": "10.1186/s12939-020-01176-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7362498",
+      "accessed": "2026-11-22",
+      "funding_note": "Comparative case study based on a literature review (Chile and Uruguay); describes the system as of about 2019."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-22",
+      "note": "Profile created."
+    }
+  ]
+}

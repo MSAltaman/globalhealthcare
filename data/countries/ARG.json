@@ -3,7 +3,7 @@
   "name": "Argentina",
   "wave": 5,
   "system_as_of": "2026-11-22",
-  "status": "needs_review",
+  "status": "verified",
   "model": {
     "type": "mixed",
     "label": "Three parallel subsectors: union-run and provincial social insurance funds (obras sociales) financed by payroll contributions, voluntary private prepaid plans, and a tax-funded public network (federal, provincial, municipal) open free to everyone; a mandatory minimum benefits basket (PMO) binds the first two"
@@ -31,13 +31,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-overview-002",
-        "statement": "The same review puts the share of people with social or private insurance at 43%, and says the other 57% of Argentines, of whom it states 27.5% are now poor, depend on public provision; it argues that only the insured could actually exercise market-style choice.",
+        "statement": "The same review says only 43% of people have social or private insurance and that they alone would have any possibility of choice; it adds that, of the other 57% of Argentines, 27.5% are now poor.",
         "valence": "neutral",
         "source_id": "gaceta-torres-2026",
         "locator": {
@@ -49,8 +50,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -66,8 +68,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -83,8 +86,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -100,8 +104,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       }
     ],
@@ -119,8 +124,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -136,13 +142,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-financing-003",
-        "statement": "A Harvard-led 2020 report describes obras sociales as funded by compulsory payroll contributions of 3% of pay from employees and 6% from employers, with a Solidarity Redistribution Fund meant to offset differences between funds. It reports the employer rate as 6% while the plain-language legal guide gives no employer rate, so the rate should be checked against the law.",
+        "statement": "A report from the Harvard-led ICCI-LA study says obras sociales are funded by compulsory payroll taxes, with employees contributing 3% and employers 6% of total pay, and that a Solidarity Redistribution Fund addresses inequities between beneficiaries.",
         "valence": "neutral",
         "source_id": "icci-argentina",
         "locator": {
@@ -154,8 +161,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -172,31 +180,33 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-financing-005",
-        "statement": "The 2026 Gaceta Sanitaria review says total health spending is about 10% of GDP.",
+        "statement": "The 2026 Gaceta Sanitaria review says Argentina's health system investment level is about 10% of GDP (its figure for total spending is not further defined).",
         "valence": "neutral",
         "source_id": "gaceta-torres-2026",
         "locator": {
           "section": "Full text",
-          "page": 1,
-          "char_start": 5176,
+          "page": 2,
+          "char_start": 5491,
           "char_end": 5608,
-          "passage_sha256": "2662be79fe854644ccff940a141351ff1854c87cac9389c76d9cf1e2c1a67be5"
+          "passage_sha256": "d4a96e3aad6a48488b708629978842b0daed5468035585069eb1ec087d30a341"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-financing-006",
-        "statement": "The review says Argentina is among the five Latin American countries spending the largest share of GDP on health, and also among the five where public money funds the smallest share.",
+        "statement": "The review says Argentina is among the five countries in the region that devote the largest share of GDP to health, yet also one of the five where the public treasury invests least in it.",
         "valence": "neutral",
         "source_id": "gaceta-torres-2026",
         "locator": {
@@ -208,8 +218,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -225,8 +236,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         },
         "data_year": 2025
       }
@@ -245,13 +257,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-covered-002",
-        "statement": "PMO maternal and child cover runs through the whole pregnancy and until one month after birth, then covers newborn care up to one year of age; hospital stays are covered in full.",
+        "statement": "PMO maternal and child cover spans the whole pregnancy up to one month after birth, and newborn care from birth until one year of age, both inpatient and outpatient.",
         "valence": "neutral",
         "source_id": "dj-pmo",
         "locator": {
@@ -262,8 +275,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -279,8 +293,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -296,13 +311,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-covered-005",
-        "statement": "PMO palliative care and outpatient dialysis are covered at 100%; palliative care applies when life expectancy is no more than six months.",
+        "statement": "PMO palliative care is covered at 100%; it means active, total care by a multidisciplinary team for patients whose life expectancy does not exceed six months.",
         "valence": "neutral",
         "source_id": "dj-pmo",
         "locator": {
@@ -313,13 +329,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-covered-006",
-        "statement": "A 2026 review says the PMO is currently enforceable only against social insurers and prepaid plans, not against the public sector, and that legislated coverage duties are placed on these insurers without a matching funding source; it says this widens inequity because the poorest people, covered only by the state, are not reached by them.",
+        "statement": "A 2026 review says that when the legislature mandates a coverage duty it places it on funders without providing funding, and that these obligations reach only social and private insurers, not the poorest citizens, who have only provincial, municipal or national state cover; it says this worsens inequity.",
         "valence": "weakness",
         "source_id": "gaceta-torres-2026",
         "locator": {
@@ -331,8 +348,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -349,13 +367,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-covered-008",
-        "statement": "The same report says Argentina has no health technology assessment agency: the state mainly checks safety when new medicines and technologies are proposed for the benefit catalogue, and their clinical, social, ethical and economic implications are not evaluated.",
+        "statement": "The same report says Argentina has no health technology assessment agency: when applications to include new medicines and technologies are decided, the state mainly considers safety, and the clinical, social, ethical and economic implications are not evaluated.",
         "valence": "weakness",
         "source_id": "icci-argentina",
         "locator": {
@@ -367,8 +386,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       }
     ],
@@ -386,8 +406,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -403,8 +424,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -420,27 +442,29 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       }
     ],
     "financial_hardship": [
       {
         "id": "ARG-financial_hardship-001",
-        "statement": "In a cross-sectional study of frequent users of public health services in one interior Argentine city between March and October 2018, the odds of not obtaining medicines were 2.8 times higher when getting them required out-of-pocket spending; 80.51% of users who had to pay spent between USD 1 and 34.72. The sample is local and not nationally representative.",
+        "statement": "A cross-sectional study of frequent users of public health services in one interior Argentine city, run from March to October 2018, found the odds of not obtaining medicines were 2.8 times higher when obtaining them required out-of-pocket spending; for 80.51% of users the out-of-pocket amount needed was between USD 1 and 34.72. The sample is local, not national.",
         "valence": "weakness",
         "source_id": "nievas-2021",
         "locator": {
           "section": "Full text",
-          "char_start": 2251,
+          "char_start": 1666,
           "char_end": 2690,
-          "passage_sha256": "5586bd87df35cb1fdbf890ec2a39d403f37415bfec73004bfe22497f9f89c8b2"
+          "passage_sha256": "c381d73018f2b8c4f98fac063ad012c7e860eb7f6d1bb9296b9dccd8f2000528"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         },
         "data_year": "2018"
       }
@@ -459,13 +483,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-additional_care-002",
-        "statement": "Formally employed workers may choose their obra social freely; during the switch procedure the previous obra social remains responsible for care for up to 3 months.",
+        "statement": "A worker may freely choose their obra social by transferring their contributions; while the switch is processed, the original obra social is responsible for all medical benefits, for a period of 3 months.",
         "valence": "neutral",
         "source_id": "dj-obras-sociales",
         "locator": {
@@ -476,8 +501,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       }
     ],
@@ -496,8 +522,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -514,8 +541,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -532,8 +560,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -550,8 +579,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -568,8 +598,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -586,8 +617,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       }
     ],
@@ -601,12 +633,14 @@
           "section": "Full text",
           "char_start": 42282,
           "char_end": 42430,
-          "passage_sha256": "e96d35a5de02faaea12b3c427ef54a98920d7a5d8b6fd98c602c17de958b9ae5"
+          "passage_sha256": "e96d35a5de02faaea12b3c427ef54a98920d7a5d8b6fd98c602c17de958b9ae5",
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         },
         "data_year": 2019
       },
@@ -624,8 +658,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         },
         "data_year": "1980-2024"
       },
@@ -643,8 +678,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -661,8 +697,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -679,8 +716,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       }
     ],
@@ -699,8 +737,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -717,8 +756,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       }
     ],
@@ -737,8 +777,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
@@ -754,13 +795,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-what_works-003",
-        "statement": "A 2024 commentary by authors including WHO economists says Programa Sumar, which started small and over 20 years grew by conditional transfers tied to results in a highly decentralised system, shows that strengthening one scheme need not mean fragmentation.",
+        "statement": "A 2024 commentary says Programa Sumar began with a relatively small share of the health budget and over 20 years expanded gradually in a highly decentralised system, using conditional transfers linked to results, and concludes that strengthening one scheme need not mean a fragmented approach.",
         "valence": "strength",
         "source_id": "sumar-2024",
         "locator": {
@@ -771,13 +813,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
         "id": "ARG-what_works-004",
-        "statement": "The Harvard-led report notes that reforming the Solidarity Redistribution Fund and introducing a single basic package for the insured was an important step toward equity and transparency.",
+        "statement": "The Harvard-led report calls the overhaul of the Solidarity Redistribution Fund, together with one basic benefit package for all insured people, a meaningful move toward fairness and openness, while adding that the degree of risk pooling across funds remains very limited.",
         "valence": "strength",
         "source_id": "icci-argentina",
         "locator": {
@@ -788,48 +831,31 @@
           "passage_sha256": "0f0d97e61fb2df32b83c4fb12fc8633b5a72bd2fec02d423ac11c5934168ecf4"
         },
         "verification": {
-          "passage_found": "fail",
-          "supports": "pending",
+          "passage_found": "pass",
+          "supports": "pass",
           "checked_on": "2026-11-22",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       }
     ],
     "problems": [
       {
-        "id": "ARG-problems-001",
-        "statement": "The review concludes that the system has no policy defining the financing and care model, and that in more than 40 years of democracy Argentina has not decided what role the state plays in health.",
-        "valence": "weakness",
-        "source_id": "gaceta-torres-2026",
-        "locator": {
-          "section": "Full text",
-          "page": 2,
-          "char_start": 6644,
-          "char_end": 6854,
-          "passage_sha256": "1e1214c8ff84668214f7fa881da0b8de620f406678663c24242c1eb1c9759740"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
-        }
-      },
-      {
         "id": "ARG-problems-002",
-        "statement": "The Harvard-led report says historical decentralisation without a plan to unify the sector left no coordination mechanisms across systems and subnational bodies, causing inefficient use of resources and highly unequal access to quality services.",
+        "statement": "The Harvard-led report says health sector reforms emphasised decentralisation and provincial management of the tax-funded sector with no comprehensive plan to unify the sector; the resulting fragmentation leaves no coordination mechanisms across systems and subnational bodies, causing inefficient use of resources and highly unequal access to quality services.",
         "valence": "weakness",
         "source_id": "icci-argentina",
         "locator": {
           "section": "Full text",
           "page": 98,
-          "char_start": 227379,
+          "char_start": 227133,
           "char_end": 227573,
-          "passage_sha256": "ea89ca1e9b5de3d2b996b5a1a47cb97a690e722b6e5a3c718dd12958f3c3569f"
+          "passage_sha256": "4600d25b8c94ec9acc7b25803b429b8ecc1fda3004ee4dfe99c67e9935e274f9"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -846,13 +872,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-problems-004",
-        "statement": "The report cites an estimate that 30 to 50% of the population has double or triple affiliation, for example both an obra social and private cover or PAMI, which makes dependence on each subsector hard to measure.",
+        "statement": "The report cites an estimate that 30 to 50% of the population has double or even triple affiliation, for example both an obra social and private cover, or an obra social and PAMI.",
         "valence": "weakness",
         "source_id": "icci-argentina",
         "locator": {
@@ -864,26 +891,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
         "id": "ARG-problems-005",
-        "statement": "The review states that the 1990s free choice of obra social led to 'creaming' of higher-income members towards prepaid companies, which it says were probably the only winners, and that public finances did not improve with hospital self-management.",
+        "statement": "The review says that 1990s decrees allowed hospitals to recover costs from social security and allowed free choice of obra social; it states that public finance did not improve with hospital self-management and that the choice option drained higher-income members from social security toward prepaid companies, probably the only winners.",
         "valence": "weakness",
         "source_id": "gaceta-torres-2026",
         "locator": {
           "section": "Full text",
           "page": 3,
-          "char_start": 17257,
+          "char_start": 16874,
           "char_end": 17596,
-          "passage_sha256": "dd737266960fd1d85e27e5f6c488ff221cc45c79390f127e5131ead5a0d85950"
+          "passage_sha256": "53ba193f5d16eef29453f2ea4cb0f93196f59a3f00a6b9e955940aa1b09032ac"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         },
         "data_year": "1990s",
         "historical": true
@@ -898,32 +927,34 @@
         "locator": {
           "section": "Full text",
           "char_start": 112,
-          "char_end": 484,
-          "passage_sha256": "7c89bcb1cfc8116f37efb744dcaa3cc83dcca6626129392f17b1fd4f7faa53bd"
+          "char_end": 550,
+          "passage_sha256": "27140f34630bbfd2ef5da7c72378281fbaf0791ff7ede9bf4ffeb564833f44f4"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         },
         "data_year": 2025
       },
       {
         "id": "ARG-reforms-002",
-        "statement": "The 2026 review says the Milei government substantially cut the federal health budget and transfers to provinces, arguing health is a provincial responsibility, and that its health measures aim almost entirely at market deregulation and citizen choice.",
+        "statement": "The 2026 review says that after Javier Milei's election the federal health budget and transfers to provinces were cut substantially, on the argument that health is a provincial responsibility, and that the new government's health measures aim almost exclusively at market deregulation and citizen choice.",
         "valence": "neutral",
         "source_id": "gaceta-torres-2026",
         "locator": {
           "section": "Full text",
           "page": 2,
-          "char_start": 8641,
+          "char_start": 8107,
           "char_end": 9010,
-          "passage_sha256": "de055691f046b48d9d9a085b2bd33c6956a54285f11f252402783293ceff0a0c"
+          "passage_sha256": "0734935fcc5d12515bae08c0be025015b83f374bd0b44b1b909af1feb05d6551"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         }
       },
       {
@@ -940,13 +971,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass)"
         }
       },
       {
         "id": "ARG-reforms-004",
-        "statement": "The review lists earlier failed integration attempts: Ramón Carrillo's 1940s plan to merge obra social resources into one public system, the Sistema Nacional Integrado de Salud, and the Seguro Nacional de Salud under Alfonsín, each undone by conflict with union-run obras sociales.",
+        "statement": "The review lists earlier attempts at integration that did not succeed: Ramón Carrillo's 1940s plan to merge obra social beneficiaries and resources into one public system; the Sistema Nacional Integrado de Salud, which failed to integrate the union obras sociales and their resources; and the Seguro Nacional de Salud under Alfonsín, which strong union opposition defeated.",
         "valence": "neutral",
         "source_id": "gaceta-torres-2026",
         "locator": {
@@ -958,8 +990,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-22"
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement, cold pass; rewritten claim re-reviewed once)"
         },
         "data_year": "1940s-1980s",
         "historical": true
@@ -1089,6 +1122,10 @@
     {
       "date": "2026-11-22",
       "note": "Profile created."
+    },
+    {
+      "date": "2026-11-22",
+      "note": "52 claims drafted; Opus support review failed 16, 15 rewritten and passed re-review, 1 deleted."
     }
   ]
 }

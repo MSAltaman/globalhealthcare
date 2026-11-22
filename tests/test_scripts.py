@@ -168,3 +168,12 @@ def test_reference_fallback(monkeypatch):
     rec = fetch_indicators.reference_value("X", "NOR")
     assert rec["value"] == 13.7 and rec["year"] == 2023 and "country/all/indicator/X" in rec["api_url"]
     assert fetch_indicators.reference_value("X", "SWE") is None
+
+
+def test_derived_formula_and_missing_inputs():
+    import derived
+    recs = {"A": {"value": 2000, "year": 2023}, "B": {"value": 10, "year": 2024}, "C": {"value": 50000, "year": 2024}}
+    out = derived.evaluate("A * B / C", recs)
+    assert round(out["value"], 3) == 0.4 and out["year"] == 2023
+    assert derived.evaluate("A * D / C", recs) is None
+    assert derived.inputs("SH.XPD.CHEX.PP.CD * SH.XPD.OOPC.CH.ZS / 100") == ["SH.XPD.CHEX.PP.CD", "SH.XPD.OOPC.CH.ZS"]

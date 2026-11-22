@@ -27,6 +27,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = json.loads((ROOT / "schema" / "country.schema.json").read_text(encoding="utf-8"))
 VALIDATOR = Draft202012Validator(SCHEMA, format_checker=FormatChecker())
 MAX_DATA_AGE = 10
+MIN_SOURCES = 5  # below this the site shows "limited evidence"
 
 
 def latest_data_year(claim: dict, source: dict) -> int:
@@ -86,6 +87,9 @@ def check_profile(path: Path) -> tuple[list[str], list[str]]:
         if sid not in used:
             warnings.append(f"source {sid} is not cited by any claim")
 
+    if len(profile.get("sources", [])) < MIN_SOURCES:
+        warnings.append(f"only {len(profile.get('sources', []))} sources; the site marks profiles under "
+                        f"{MIN_SOURCES} as limited evidence")
     return errors, warnings
 
 

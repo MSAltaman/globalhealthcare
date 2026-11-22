@@ -24,17 +24,27 @@ import datetime as dt
 import json
 import math
 import random
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
 CFG = json.loads((ROOT / "config" / "scoring.json").read_text(encoding="utf-8"))
 
 
 def load_indicators() -> dict[str, dict]:
+    """Each country's indicators, with derived indicators recalculated from their inputs."""
+    import derived
+    formulas = json.loads((ROOT / "config" / "indicators.json").read_text(encoding="utf-8")).get("derived", [])
     out = {}
     for f in sorted((ROOT / "data" / "indicators").glob("*.json")):
         d = json.loads(f.read_text(encoding="utf-8"))
-        out[d["iso3"]] = {i["id"]: i for i in d["indicators"]}
+        recs = {i["id"]: i for i in d["indicators"]}
+        for spec in formulas:
+            rec = derived.evaluate(spec["formula"], recs)
+            if rec:
+                recs[spec["id"]] = {"id": spec["id"], **rec}
+        out[d["iso3"]] = recs
     return out
 
 
@@ -163,11 +173,21 @@ def compute(data: dict[str, dict], countries: list[str], today: dt.date | None =
             "rank_range": [pct(samples[c], 0.05), pct(samples[c], 0.95)] if c in samples else None,
             "domains": {d: round(s, 1) for d, s in domain_scores[c].items()},
             "missing_domains": [d["id"] for d in CFG["domains"] if d["id"] not in domain_scores[c]],
+            # Measures the method uses that had no current value for this country.
+            "missing_indicators": [i["id"] for d in CFG["domains"] for i in d["indicators"]
+                                   if i["id"] not in detail[c].get(d["id"], {})],
             "indicators": detail[c],
         }
         rows.append(row)
     rows.sort(key=lambda r: (r["rank"] is None, r["rank"] or 0))
     return {"rows": rows, "ranked": len(base)}
+
+
+def indicator_labels() -> dict[str, str]:
+    """Plain labels for every indicator the scoring method uses, from config/indicators.json."""
+    cfg = json.loads((ROOT / "config" / "indicators.json").read_text(encoding="utf-8"))
+    labels = {i["id"]: i["label"] for group in ("world_bank", "who_gho", "oecd", "derived") for i in cfg.get(group, [])}
+    return {i["id"]: labels.get(i["id"], i["id"]) for d in CFG["domains"] for i in d["indicators"]}
 
 
 def main() -> None:
@@ -177,6 +197,14 @@ def main() -> None:
     countries = [c for c in n if c not in excluded and c in data]
     ref_path = ROOT / "data" / "reference.json"
     reference = json.loads(ref_path.read_text(encoding="utf-8"))["indicators"] if ref_path.exists() else {}
+    # A country's own file can lack a value the worldwide pull has (an API error on the day,
+    # or a derived measure whose inputs failed); use the worldwide value, same source and rules.
+    for c in countries:
+        for dom in CFG["domains"]:
+            for ind in dom["indicators"]:
+                rec = data[c].get(ind["id"])
+                if (not rec or rec.get("value") is None) and c in reference.get(ind["id"], {}).get("values", {}):
+                    data[c][ind["id"]] = {**reference[ind["id"]]["values"][c], "from": "data/reference.json"}
     result = compute(data, countries, reference=reference)
     for r in result["rows"]:
         r["name"] = n.get(r["iso3"], r["iso3"])
@@ -185,6 +213,7 @@ def main() -> None:
         "computed": dt.date.today().isoformat(),
         "countries_compared": len(countries),
         "domains": [{k: d[k] for k in ("id", "label", "weight", "question")} for d in CFG["domains"]],
+        "indicator_labels": indicator_labels(),
         "scaling": CFG.get("scaling", {}),
         "not_yet_scored": CFG["not_yet_scored"],
         "excluded_countries": excluded,

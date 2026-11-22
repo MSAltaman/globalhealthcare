@@ -17,6 +17,9 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import derived  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = json.loads((ROOT / "config" / "indicators.json").read_text(encoding="utf-8"))
 OUT = ROOT / "data" / "indicators"
@@ -241,17 +244,11 @@ def fetch_country(iso3: str, session, meta_cache: dict) -> dict:
         })
     byid = {i["id"]: i for i in out["indicators"]}
     for d in CONFIG.get("derived", []):
-        names = [t for t in d["formula"].replace("*", " ").replace("/", " ").split() if t in byid]
-        recs = [byid[n] for n in names]
-        ok = recs and all(r["value"] is not None for r in recs)
-        value = None
-        if ok:  # every derived formula is "A * B / 100"
-            a, b = recs[0]["value"], recs[1]["value"]
-            value = a * b / 100
+        rec = derived.evaluate(d["formula"], byid)
         out["indicators"].append({
             "id": d["id"], "label": d["label"], "unit": d["unit"], "group": d["group"],
-            "value": round(value, 2) if value is not None else None,
-            "year": min(r["year"] for r in recs) if ok else None,
+            "value": round(rec["value"], 2) if rec else None,
+            "year": rec["year"] if rec else None,
             "original_source": "Computed by the atlas: " + d["formula"],
             "api_url": None,
         })

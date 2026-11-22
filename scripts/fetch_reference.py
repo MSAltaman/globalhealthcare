@@ -18,6 +18,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import derived  # noqa: E402
 import fetch_indicators as fi  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -100,6 +101,19 @@ def main() -> int:
                     continue
                 rows.append((r["REF_AREA"], int(r["TIME_PERIOD"][:4]), float(r["OBS_VALUE"])))
             source = "OECD Health Statistics"
+        elif ind_id in {d["id"] for d in IND_CFG.get("derived", [])}:
+            spec = next(d for d in IND_CFG["derived"] if d["id"] == ind_id)
+            per_input = {}
+            for inp in derived.inputs(spec["formula"]):
+                r_in = [(r["countryiso3code"], int(r["date"]), r["value"])
+                        for r in wb_all(inp, min_year, dt.date.today().year, session)
+                        if r.get("countryiso3code") in countries and r.get("value") is not None and int(r["date"]) >= min_year]
+                per_input[inp] = latest_by_country(r_in)
+            for iso3 in countries:
+                rec = derived.evaluate(spec["formula"], {k: v.get(iso3) for k, v in per_input.items()})
+                if rec:
+                    rows.append((iso3, rec["year"], rec["value"]))
+            source = "Computed by the atlas from World Bank WDI: " + spec["formula"]
         else:
             print(f"{ind_id}: not in config/indicators.json, skipped")
             continue

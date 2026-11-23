@@ -3,38 +3,17 @@
   "name": "Peru",
   "wave": 5,
   "system_as_of": "2026-11-23",
-  "status": "draft",
+  "status": "verified",
   "model": {
     "type": "mixed",
     "label": "Segmented system: tax-financed SIS, EsSalud social insurance, armed forces and police, and private insurers"
   },
   "universal_coverage": {
-    "legal_basis_claim_ids": [
-      "PER-overview-001"
-    ],
+    "legal_basis_claim_ids": [],
     "meets_definition": true
   },
   "sections": {
     "overview": [
-      {
-        "id": "PER-overview-001",
-        "statement": "Peru's universal health insurance framework (Law 29344, Article 3 as amended in 2024) defines universal insurance as a process aimed at giving everyone resident in the country, and Peruvians living abroad who are in Peru without other cover, a health insurance that provides access to preventive, promotional, curative and rehabilitative services under the Essential Health Insurance Plan (PEAS) and complementary plans.",
-        "valence": "neutral",
-        "source_id": "ley32016",
-        "locator": {
-          "section": "Article 3 as amended",
-          "page": 1,
-          "char_start": 675,
-          "char_end": 1351,
-          "passage_sha256": "0094a4175d2978c470530f46cf62351769f077f1abd09b37d52ef93103eda05c"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
-        },
-        "data_year": 2024
-      },
       {
         "id": "PER-overview-002",
         "statement": "Peru has four main subsystems for financing and providing care: the tax-financed public sector (SIS), the contributory social insurer EsSalud, a smaller subsystem for the armed forces and police, and the private sector; each covers a different part of the population, with its own benefit package and providers.",
@@ -48,8 +27,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -66,8 +46,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -84,14 +65,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
       {
         "id": "PER-overview-005",
-        "statement": "In the January-March 2025 national household survey, 91.1% of people reported having some kind of health insurance, public or private.",
+        "statement": "In January-March 2025, 91.1% of the population declared having some kind of health insurance, public or private.",
         "valence": "strength",
         "source_id": "inei-hs",
         "locator": {
@@ -102,8 +84,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -120,8 +103,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -140,8 +124,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -152,14 +137,15 @@
         "source_id": "gobpe-essalud",
         "locator": {
           "section": "Page text",
-          "char_start": 908,
-          "char_end": 1015,
-          "passage_sha256": "c60399042453ac3d0d4e35bffd920746993b1542a8ae181166b875e5273be528"
+          "char_start": 785,
+          "char_end": 1016,
+          "passage_sha256": "aab950f81d2f8c2e5da91c7932ef4e0cae2b6374a0217db096b807a39ecb7265"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       },
@@ -170,20 +156,21 @@
         "source_id": "pmc-11349220",
         "locator": {
           "section": "Introduction",
-          "char_start": 10430,
+          "char_start": 10243,
           "char_end": 10521,
-          "passage_sha256": "a1fbec6d067d1e1b0f29f9e309ac45161b4fa8fa56f10a9b6449aa398ae70134"
+          "passage_sha256": "523870d14c5806efeb2a840b28f831334d73b8151fd95bd3267e48476d0fbf52"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
       {
         "id": "PER-financing-004",
-        "statement": "The study's literature review describes the SIS as underfunded, because its allocations follow historical levels rather than being set per person as the insured population grew.",
+        "statement": "The study states that the SIS is underfunded, because its allocations follow historical levels rather than being set per person as the insured population grew.",
         "valence": "weakness",
         "source_id": "pmc-11057799",
         "locator": {
@@ -194,26 +181,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "PER-financing-005",
-        "statement": "A Ministry of Economy and Finance official interviewed for the study said Peru's total fiscal income is 20% of GDP, of which tax revenue is only 14%, and that this limits the capacity to finance health.",
+        "statement": "A Ministry of Economy and Finance official interviewed for the study said Peru's total fiscal income is 20% of GDP, of which tax revenue is only 14%, and that this sets the capacity to finance health.",
         "valence": "weakness",
         "source_id": "pmc-11057799",
         "locator": {
           "section": "Results, fiscal cycle",
           "char_start": 22603,
-          "char_end": 22772,
-          "passage_sha256": "1d1a36758c1ba6155f735fc652c89e559e58250507850f587580308e1f6ffdc5"
+          "char_end": 23018,
+          "passage_sha256": "220fa0a4656112ebf1772fb4f8384c7be35eb75336aa06c82ab4a2b2495f2bda"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       }
@@ -232,8 +221,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -250,8 +240,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -262,35 +253,17 @@
         "source_id": "gobpe-essalud",
         "locator": {
           "section": "Page text",
-          "char_start": 1279,
+          "char_start": 223,
           "char_end": 1399,
-          "passage_sha256": "b73d3418999899b69a6531659dfeaa9df6dd560518954af68df654b1b06477ba"
+          "passage_sha256": "9ee52e454ca20654351c2959567f4819a92d1c3f9dbfd330460c3560e92f96dc"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
-      },
-      {
-        "id": "PER-covered-004",
-        "statement": "Since the 2024 amendment, the law states explicitly that universal insurance includes the right to preventive, promotional, curative and rehabilitative services related to mental health.",
-        "valence": "strength",
-        "source_id": "ley32016",
-        "locator": {
-          "section": "Article 3 as amended",
-          "page": 1,
-          "char_start": 1352,
-          "char_end": 1557,
-          "passage_sha256": "a3c8773ce19c9124a2bbb8bbcd8596b0e7494c44802b47cc7e7e7ca991f1ad99"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
-        },
-        "data_year": 2024
       },
       {
         "id": "PER-covered-005",
@@ -299,14 +272,15 @@
         "source_id": "gobpe-essalud",
         "locator": {
           "section": "Page text",
-          "char_start": 560,
+          "char_start": 223,
           "char_end": 784,
-          "passage_sha256": "d67c6577133e66efe2fe3dcd0a425ee2136efc93f46fa449adadd2cf930f2ad6"
+          "passage_sha256": "7af0dfcf33c166aef0ae4c398edf226d181bbe961ee895baa1eae8c3a192e340"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2026
       }
@@ -325,14 +299,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
       {
         "id": "PER-cost_sharing-002",
-        "statement": "In 2021 out-of-pocket spending made up 27.22% of total health expenditure in Peru, according to PAHO's Health in the Americas+ profile.",
+        "statement": "In 2021 out-of-pocket spending made up 27.22% of total health expenditure in Peru.",
         "valence": "weakness",
         "source_id": "paho-hia-per",
         "locator": {
@@ -343,8 +318,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -361,8 +337,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       }
@@ -370,7 +347,7 @@
     "financial_hardship": [
       {
         "id": "PER-financial_hardship-001",
-        "statement": "Using household survey data, a 2026 study estimated that 2.0% of non-poor Peruvian households fell into poverty because of direct health spending in 2010, rising to 3.6% in 2021; the share peaked at 4.6% during the COVID-19 pandemic.",
+        "statement": "Among non-poor households, 2.0% fell into poverty because of direct health expenses in 2010, rising to 3.6% by 2021, with the highest level, 4.6%, reached during the COVID-19 pandemic.",
         "valence": "weakness",
         "source_id": "frontiers-2026",
         "locator": {
@@ -381,26 +358,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": "2010-2021"
       },
       {
         "id": "PER-financial_hardship-002",
-        "statement": "The same study found impoverishment from out-of-pocket health spending was most severe among rural households, male-headed households, and households in the rural highlands and rural jungle.",
+        "statement": "The study found the impact of out-of-pocket health spending on impoverishment was particularly severe among rural households, male-headed households, and households in the rural highlands and rural jungle.",
         "valence": "weakness",
         "source_id": "frontiers-2026",
         "locator": {
           "section": "Results 3.1",
-          "char_start": 30914,
+          "char_start": 30369,
           "char_end": 31056,
-          "passage_sha256": "0c8357b0ddbb4004160b32e5891b20785df9885b088f95b0b9224d4cc8558164"
+          "passage_sha256": "96f2a6723d640148c6bdc58baaec4ef55b50748e2f9d51d9f7c0142912fcd615"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": "2010-2021"
       },
@@ -417,14 +396,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": "2010-2021"
       },
       {
         "id": "PER-financial_hardship-004",
-        "statement": "The authors conclude that health insurance coverage, while essential, is insufficient to protect households from impoverishment unless the social determinants of health also improve.",
+        "statement": "The authors conclude that health insurance coverage, while essential, remains insufficient without accompanying improvements in the social determinants of health.",
         "valence": "neutral",
         "source_id": "frontiers-2026",
         "locator": {
@@ -435,8 +415,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": "2010-2021"
       }
@@ -455,14 +436,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "PER-additional_care-002",
-        "statement": "Private cover in Peru includes EPS plans, which are complementary private insurance for workers, and other private health insurance; a 2023 study grouped these with EsSalud and armed forces and police insurance as \"standard insurance\".",
+        "statement": "The study's \"standard insurance\" category groups EsSalud and armed forces/police insurance with EPS (complementary private health insurance) and other private insurance.",
         "valence": "neutral",
         "source_id": "pmc-10647135",
         "locator": {
@@ -473,8 +455,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -487,38 +470,40 @@
         "source_id": "inei-hs",
         "locator": {
           "section": "Press release",
-          "char_start": 668,
+          "char_start": 462,
           "char_end": 1056,
-          "passage_sha256": "7c0d2bf94cc87509026380e9798a8ead31e186c17097fef9bbe3d1fe42849e0b"
+          "passage_sha256": "3d356a209fcc2734344ddc36e65c031838fd1b2edecc4257d312bebebc7335d6"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "PER-access-002",
-        "statement": "In rural areas 21.2% of people with a health problem went to a Ministry of Health facility and 11.8% to a pharmacy, while in urban areas the pharmacy (15.3%) was more common than the Ministry's facilities (11.4%).",
+        "statement": "In the same January-March 2025 release, in rural areas 21.2% of people with a health problem went to a Ministry of Health facility and 11.8% to a pharmacy, while in urban areas the pharmacy (15.3%) was more common than the Ministry's facilities (11.4%).",
         "valence": "neutral",
         "source_id": "inei-hs",
         "locator": {
           "section": "Press release",
-          "char_start": 1057,
+          "char_start": 462,
           "char_end": 1343,
-          "passage_sha256": "752eb59ce6047332c92ef44488786a49efbf78b61e5b12c354880990cf8d259b"
+          "passage_sha256": "2b70536b319942527c3bc9ff84c4110b6ad39af91b63159af9863b8c41cbdd67"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "PER-access-003",
-        "statement": "In the 2023 national household survey, just 15.94% of adults said they had used formal health services during the year before the survey.",
+        "statement": "Only 15.94% of adults reported having used formal health services over the past year.",
         "valence": "weakness",
         "source_id": "pmc-13465225",
         "locator": {
@@ -529,14 +514,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "PER-access-004",
-        "statement": "Compared with uninsured adults, the adjusted prevalence ratio of using formal health services was 2.59 for adults covered by SIS and 2.90 for those covered by EsSalud (2023 household survey).",
+        "statement": "Compared with uninsured adults, the adjusted prevalence ratio of using formal health services was 2.59 for adults covered by SIS and 2.90 for those covered by EsSalud.",
         "valence": "strength",
         "source_id": "pmc-13465225",
         "locator": {
@@ -547,14 +533,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
       {
         "id": "PER-access-005",
-        "statement": "The adjusted prevalence ratio of using formal health services was 0.68 for adults in extreme poverty and 0.72 for those in non-extreme poverty, which the study associates with lower utilization (2023 household survey).",
+        "statement": "The adjusted prevalence ratio of using formal health services was 0.68 for adults in extreme poverty and 0.72 for those in non-extreme poverty, which the study associates with lower utilization.",
         "valence": "weakness",
         "source_id": "pmc-13465225",
         "locator": {
@@ -565,8 +552,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -583,8 +571,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       },
@@ -601,8 +590,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -619,8 +609,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       }
@@ -628,7 +619,7 @@
     "outcomes": [
       {
         "id": "PER-outcomes-001",
-        "statement": "Life expectancy at birth was 77.9 years in 2024, 8.1 years more than in 2000, according to PAHO.",
+        "statement": "Life expectancy at birth was 77.9 years in 2024, 8.1 years more than in 2000.",
         "valence": "strength",
         "source_id": "paho-hia-per",
         "locator": {
@@ -639,14 +630,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "PER-outcomes-002",
-        "statement": "PAHO estimated the maternal mortality ratio at 68.5 deaths per 100,000 live births in 2020, 39.5% lower than in 2000.",
+        "statement": "The maternal mortality ratio was estimated at 68.5 deaths per 100,000 live births in 2020, 39.5% lower than in 2000.",
         "valence": "strength",
         "source_id": "paho-hia-per",
         "locator": {
@@ -657,8 +649,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -675,8 +668,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -693,14 +687,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
       {
         "id": "PER-outcomes-005",
-        "statement": "PAHO ranked Peru first in the Americas for number of COVID-19 deaths in 2020, and again in 2021.",
+        "statement": "Peru ranked first in the Americas in number of COVID-19 deaths in 2020 and kept that rank in 2021.",
         "valence": "weakness",
         "source_id": "paho-hia-per",
         "locator": {
@@ -711,8 +706,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -729,14 +725,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "PER-outcomes-007",
-        "statement": "In 2021 survey data, only 46.5% across all insurance types reported effective antenatal prevention care.",
+        "statement": "Only 46.5% of women across all insurance types reported having accessed effective antenatal prevention care.",
         "valence": "weakness",
         "source_id": "pmc-10647135",
         "locator": {
@@ -747,8 +744,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -767,8 +765,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -785,8 +784,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2018
       },
@@ -803,8 +803,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -821,8 +822,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -839,8 +841,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       }
@@ -859,8 +862,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": "1990-2020",
         "historical": true
@@ -878,14 +882,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "PER-what_works-003",
-        "statement": "In 2021 survey data, insured women were more likely than uninsured women to have received antenatal care services.",
+        "statement": "Insured women were more likely than uninsured women to have accessed antenatal care services.",
         "valence": "strength",
         "source_id": "pmc-10647135",
         "locator": {
@@ -896,8 +901,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -914,8 +920,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       }
@@ -934,26 +941,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "PER-problems-002",
-        "statement": "One study estimated that dual insurance (SIS and EsSalud) reduced COVID-19 mortality risk by 0.23% against a sample mean risk of 0.54%, implying 56,418 fewer deaths (95% CI 34,894 to 78,069) among the 133,128 COVID-19 deaths in its sample if all individuals had dual insurance.",
+        "statement": "One study estimated that dual insurance (access to both of the two largest insurance subsystems) reduced COVID-19 mortality risk by 0.23% against a sample mean risk of 0.54%, implying 56,418 fewer deaths (95% CI 34,894 to 78,069) among the 133,128 COVID-19 deaths in its sample if all individuals had dual insurance.",
         "valence": "weakness",
         "source_id": "pmc-11349220",
         "locator": {
           "section": "Abstract",
-          "char_start": 3045,
+          "char_start": 2537,
           "char_end": 3336,
-          "passage_sha256": "bd0e8db4d62e69216eccd2b63f906a07f67ec0ccfd26a0b7f2619fea1e040ad4"
+          "passage_sha256": "74f5deab228bb782294d707406728b7b960413e134194f1882b81b1653b02c6a"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": "2020-2021"
       },
@@ -970,14 +979,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
       {
         "id": "PER-problems-004",
-        "statement": "A study of 2021 survey data found continuing inequities in maternal care: uninsured women used less care, and received lower-quality care, than women with SIS or standard insurance.",
+        "statement": "A study found continuing inequities in maternal care: uninsured women used less care, and received lower-quality care, than women with SIS or standard insurance.",
         "valence": "weakness",
         "source_id": "pmc-10647135",
         "locator": {
@@ -988,8 +998,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -1006,8 +1017,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       },
@@ -1018,14 +1030,15 @@
         "source_id": "pmc-11057799",
         "locator": {
           "section": "Results, execution cycle",
-          "char_start": 34944,
+          "char_start": 34750,
           "char_end": 35035,
-          "passage_sha256": "7513ca9f4a8590a35f2e067e9ded6e042107b884d5b75f96e3365ec4ce62200d"
+          "passage_sha256": "ddf062dd4f8a2267adc99478989b1797a36da6a1ebe55eb8544d3c4e49c2d51c"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2022
       }
@@ -1039,14 +1052,15 @@
         "locator": {
           "section": "Title and Article 3",
           "page": 1,
-          "char_start": 230,
+          "char_start": 26,
           "char_end": 398,
-          "passage_sha256": "fa0996cf41308cdea1ebf46f0607b9e697e736812d4f05d29574344c0061ebfa"
+          "passage_sha256": "b194b95213c93041b764bdb938b3854852592dae047db4be84f387fcd64c33db"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -1063,8 +1077,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -1081,8 +1096,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -1099,8 +1115,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -1117,8 +1134,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-23"
+          "supports": "pass",
+          "checked_on": "2026-11-23",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2013,
         "historical": true
@@ -1249,6 +1267,10 @@
     {
       "date": "2026-11-23",
       "note": "Profile created."
+    },
+    {
+      "date": "2026-11-23",
+      "note": "Claims anchored and reviewed by Opus support review (58 claims kept; 2 deleted after failing twice)."
     }
   ]
 }

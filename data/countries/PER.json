@@ -3,7 +3,7 @@
   "name": "Peru",
   "wave": 5,
   "system_as_of": "2026-11-23",
-  "status": "needs_review",
+  "status": "draft",
   "model": {
     "type": "mixed",
     "label": "Segmented system: tax-financed SIS, EsSalud social insurance, armed forces and police, and private insurers"
@@ -518,7 +518,7 @@
       },
       {
         "id": "PER-access-003",
-        "statement": "Using 2023 household survey data, only 15.94% of adults reported using formal health services in the previous year.",
+        "statement": "In the 2023 national household survey, just 15.94% of adults said they had used formal health services during the year before the survey.",
         "valence": "weakness",
         "source_id": "pmc-13465225",
         "locator": {
@@ -528,10 +528,9 @@
           "passage_sha256": "e94109640d1770ef38438f44afda0cf1a2a5abae2c2580f50c069a7ada9ec56d"
         },
         "verification": {
-          "passage_found": "fail",
+          "passage_found": "pass",
           "supports": "pending",
-          "checked_on": "2026-11-23",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_on": "2026-11-23"
         },
         "data_year": 2023
       },

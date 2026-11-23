@@ -3,7 +3,7 @@
   "name": "Peru",
   "wave": 5,
   "system_as_of": "2026-11-23",
-  "status": "draft",
+  "status": "needs_review",
   "model": {
     "type": "mixed",
     "label": "Segmented system: tax-financed SIS, EsSalud social insurance, armed forces and police, and private insurers"
@@ -115,8 +115,8 @@
         "locator": {
           "section": "Press release, SIS section",
           "char_start": 2336,
-          "char_end": 2442,
-          "passage_sha256": "5e3a953523b073254f0942415e0022f7db5f158b5243dbe77425193ba13836a1"
+          "char_end": 2565,
+          "passage_sha256": "91414de9943747310ab0202e37305ffb648be05ca7a17a0fd5097606d1d814de"
         },
         "verification": {
           "passage_found": "pass",
@@ -332,7 +332,7 @@
       },
       {
         "id": "PER-cost_sharing-002",
-        "statement": "In 2021 out-of-pocket spending made up 27.22% of total health expenditure in Peru, according to PAHO's Health in the Americas+ profile (other agencies classify spending differently; see the indicator panel).",
+        "statement": "In 2021 out-of-pocket spending made up 27.22% of total health expenditure in Peru, according to PAHO's Health in the Americas+ profile.",
         "valence": "weakness",
         "source_id": "paho-hia-per",
         "locator": {
@@ -518,7 +518,7 @@
       },
       {
         "id": "PER-access-003",
-        "statement": "Using 2023 household survey data on 77,793 adults, only 15.94% reported using formal health services in the previous year.",
+        "statement": "Using 2023 household survey data, only 15.94% of adults reported using formal health services in the previous year.",
         "valence": "weakness",
         "source_id": "pmc-13465225",
         "locator": {
@@ -528,15 +528,16 @@
           "passage_sha256": "e94109640d1770ef38438f44afda0cf1a2a5abae2c2580f50c069a7ada9ec56d"
         },
         "verification": {
-          "passage_found": "pass",
+          "passage_found": "fail",
           "supports": "pending",
-          "checked_on": "2026-11-23"
+          "checked_on": "2026-11-23",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
         },
         "data_year": 2023
       },
       {
         "id": "PER-access-004",
-        "statement": "After adjustment, adults covered by SIS used formal health services at 2.59 times the rate of uninsured adults, and those covered by EsSalud at 2.90 times.",
+        "statement": "Compared with uninsured adults, the adjusted prevalence ratio of using formal health services was 2.59 for adults covered by SIS and 2.90 for those covered by EsSalud (2023 household survey).",
         "valence": "strength",
         "source_id": "pmc-13465225",
         "locator": {
@@ -554,7 +555,7 @@
       },
       {
         "id": "PER-access-005",
-        "statement": "After adjustment, adults in extreme poverty used formal health services at 0.68 times the rate of non-poor adults and those in non-extreme poverty at 0.72 times.",
+        "statement": "The adjusted prevalence ratio of using formal health services was 0.68 for adults in extreme poverty and 0.72 for those in non-extreme poverty, which the study associates with lower utilization (2023 household survey).",
         "valence": "weakness",
         "source_id": "pmc-13465225",
         "locator": {
@@ -736,7 +737,7 @@
       },
       {
         "id": "PER-outcomes-007",
-        "statement": "In 2021 survey data on 19,181 women, only 46.5% across all insurance types reported effective antenatal prevention care.",
+        "statement": "In 2021 survey data, only 46.5% across all insurance types reported effective antenatal prevention care.",
         "valence": "weakness",
         "source_id": "pmc-10647135",
         "locator": {
@@ -848,14 +849,14 @@
     "what_works": [
       {
         "id": "PER-what_works-001",
-        "statement": "Between 2000 and 2020 economic growth was accompanied by falls in poverty (from 58% to 23%) and stunting (halved to 14% by 2015); maternal mortality fell from 265 per 100,000 live births in 1990 to 68 in 2015 and infant mortality from 56 per 1,000 in 1990 to 10 in 2020.",
+        "statement": "Between 2000 and 2020 Peru had the second-biggest economic growth in Latin America and the Caribbean, and poverty fell (from 58% to 23%) and stunting (halved to 14% by 2015); maternal mortality fell from 265 per 100,000 live births in 1990 to 68 in 2015 and infant mortality from 56 per 1,000 in 1990 to 10 in 2020.",
         "valence": "strength",
         "source_id": "pmc-11057799",
         "locator": {
           "section": "Introduction",
-          "char_start": 5921,
+          "char_start": 5655,
           "char_end": 6268,
-          "passage_sha256": "08ae083ee2e18a22f306405500ef6607916f793ee70f06b3447f08451ba0ae53"
+          "passage_sha256": "88972f45c37c53a61fb656bd73d4c68113a149ce33ac9a7e3bcb93e61dd88dd4"
         },
         "verification": {
           "passage_found": "pass",
@@ -873,8 +874,8 @@
         "locator": {
           "section": "Press release",
           "char_start": 1733,
-          "char_end": 1980,
-          "passage_sha256": "4593e194da7418e2d374ab74ed8dd74c928227ef594fa055549e822b15bea233"
+          "char_end": 2090,
+          "passage_sha256": "9e88b713ef0675811716fef5d0e26cf35e73871f30a39b1f980311679842c243"
         },
         "verification": {
           "passage_found": "pass",
@@ -941,14 +942,14 @@
       },
       {
         "id": "PER-problems-002",
-        "statement": "Among 24.7 million people in the SIS and/or EsSalud, an instrumental-variable analysis estimated that dual insurance reduced COVID-19 mortality risk by 0.23% against a sample mean risk of 0.54%, implying about 56,418 fewer deaths among the 133,128 recorded if everyone had dual cover.",
+        "statement": "One study estimated that dual insurance (SIS and EsSalud) reduced COVID-19 mortality risk by 0.23% against a sample mean risk of 0.54%, implying 56,418 fewer deaths (95% CI 34,894 to 78,069) among the 133,128 COVID-19 deaths in its sample if all individuals had dual insurance.",
         "valence": "weakness",
         "source_id": "pmc-11349220",
         "locator": {
           "section": "Abstract",
           "char_start": 3045,
-          "char_end": 3283,
-          "passage_sha256": "c115a14c612f85c691b31f6b40b5bd7bb1bcbd2e0bfb9705bba4030e289ba422"
+          "char_end": 3336,
+          "passage_sha256": "bd0e8db4d62e69216eccd2b63f906a07f67ec0ccfd26a0b7f2619fea1e040ad4"
         },
         "verification": {
           "passage_found": "pass",

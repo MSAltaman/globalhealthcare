@@ -1,0 +1,1239 @@
+{
+  "iso3": "ECU",
+  "name": "Ecuador",
+  "wave": 5,
+  "system_as_of": "2026-11-23",
+  "status": "needs_review",
+  "model": {
+    "type": "mixed",
+    "label": "Segmented system: tax-financed Ministry of Public Health network, IESS social insurance, military and police insurers, and a private sector"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "ECU-overview-001",
+      "ECU-cost_sharing-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "ECU-overview-001",
+        "statement": "Article 32 of the constitution declares health a right guaranteed by the State and says health services are to be governed by principles that include equity, universality, solidarity, interculturalism, quality, efficiency, effectiveness and prevention.",
+        "valence": "neutral",
+        "source_id": "const-ecu",
+        "locator": {
+          "section": "Article 32",
+          "char_start": 22499,
+          "char_end": 23257,
+          "passage_sha256": "f48f872bce9ca9573466e73216b9699c8824ba5a090a1b5496a3aa92bf06f93d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-overview-002",
+        "statement": "The constitution says health care is a public service delivered through state, private, autonomous and community institutions, including those practising alternative and ancestral medicine.",
+        "valence": "neutral",
+        "source_id": "const-ecu",
+        "locator": {
+          "section": "Article 362",
+          "char_start": 289327,
+          "char_end": 289520,
+          "passage_sha256": "c1b8cb9d5d89852350b66d489e998603f24a6575c7f848436236aeeb046a0e27"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-overview-003",
+        "statement": "Everyone in Ecuador has public health coverage either from a public insurer or from the Ministry of Public Health: the IESS covers affiliated workers and dependants, retirees and, through the Seguro Social Campesino, rural people and artisanal fishers; military and police regimes cover their members; and the Ministry covers people with no affiliation or social security entitlement.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 6399,
+          "char_end": 7263,
+          "passage_sha256": "c93c718c17ad0fca16debb635d6a1b3430b3e58467d74ef073a93f5e5603fa5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-overview-004",
+        "statement": "The Public Comprehensive Health Network was formed through a framework agreement among the Ministry of Public Health, the social security institutes of IESS, the armed forces and the police, and the defence and interior ministries.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 1,
+          "char_start": 3517,
+          "char_end": 3932,
+          "passage_sha256": "9e1ef4f0e188ba6cd0ff89d581e98da80094fbfa83eea8a9fde80d0aa2aaec8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-overview-005",
+        "statement": "Public network institutions are the largest providers, with 80% of health establishments public; most are non-inpatient facilities belonging to the Ministry of Public Health.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 5873,
+          "char_end": 6219,
+          "passage_sha256": "3808f2a6ab493f0542d14db58d8dca45fd39298c8c07cf21861fc85d376d9ff7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "ECU-overview-006",
+        "statement": "In 2023 only 23.3% of Ecuador's population had social insurance and 10% had private insurance, so roughly two thirds, about 11.3 million people, relied on the Ministry of Public Health as their main provider.",
+        "valence": "neutral",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6102,
+          "char_end": 6327,
+          "passage_sha256": "811aea6fb80aa014334d027e29e5bb7f879c7628a243727cff53755c9fd5394f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financing": [
+      {
+        "id": "ECU-financing-001",
+        "statement": "The health system is financed from the state budget, social security contributions of workers and employers (including the military and police regimes), households' direct spending, and external cooperation funds.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Fuentes de ingresos",
+          "page": 3,
+          "char_start": 15041,
+          "char_end": 15368,
+          "passage_sha256": "47ac1b08827f81fb97ab539e1051db28eae08149873ca9dd8c904da8db12f362"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-financing-002",
+        "statement": "Tax-funded state budget resources go mainly to the Ministry of Public Health to pay for care of people without social security affiliation or coverage.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Fuentes de ingresos",
+          "page": 3,
+          "char_start": 9133,
+          "char_end": 9331,
+          "passage_sha256": "e6c83287718a8192eb72145980da74cb3feeb525d1c17d122ee3d0c752fa8c4c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-financing-003",
+        "statement": "For private-sector workers, bank employees and employees of decentralised governments, the employer contribution to the IESS health insurance is 5.16% of pay.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Fuentes de ingresos",
+          "page": 3,
+          "char_start": 10972,
+          "char_end": 11147,
+          "passage_sha256": "4a720fcba039008dc3d420d4ad3e6eea5923f5f0418ccec3b3ae09a5e7b68e82"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-financing-004",
+        "statement": "Armed forces sickness and maternity insurance is funded by 3.35% from active personnel and 5.85% from the employer; for the National Police the rates are 2.5% from the member and 3% from the employer.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Fuentes de ingresos",
+          "page": 3,
+          "char_start": 11597,
+          "char_end": 11915,
+          "passage_sha256": "1cce32ed39cdf63f322877bf172c9eb881963f342ca9f2a73e8f50d5a67a75e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-financing-005",
+        "statement": "Under the social security law the State pays for the health benefits of IESS retirees, people with disabilities, female heads of household and treatment of catastrophic illness through a mandatory financial contribution.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Fuentes de ingresos",
+          "page": 3,
+          "char_start": 10083,
+          "char_end": 10397,
+          "passage_sha256": "6b37b82973da299d993f9eaa254f02cdd0b649b31f1a46b773cbc271a658324f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-financing-006",
+        "statement": "The Ministry of Public Health allocates resources to its network providers on a historical budget, and its budget allocation criteria are not explicit.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Gestión de recursos",
+          "page": 4,
+          "char_start": 16809,
+          "char_end": 17142,
+          "passage_sha256": "f7df7388f8a7e894c883603f262ae4f20cb98604ceeccec470e63c834b276456"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-financing-007",
+        "statement": "Payments between public institutions, and to the private complementary network, when one treats beneficiaries of another are made as a fee for each service.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Gestión de recursos",
+          "page": 5,
+          "char_start": 20459,
+          "char_end": 20571,
+          "passage_sha256": "50e397ba724743cf7360ca7c5c8a5b5b4e20653bd78e33260672d5b3b9a6e923"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      }
+    ],
+    "covered": [
+      {
+        "id": "ECU-covered-001",
+        "statement": "Care is organized in three levels: first-level primary care as the entry point, second-level specialist outpatient and inpatient care, and third-level highly complex specialist care.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 4786,
+          "char_end": 5184,
+          "passage_sha256": "e8c43a7d15a3c1e059287f64af181927885439f91a7112d50e33e7b893c65447"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-covered-002",
+        "statement": "The IESS covers affiliates, whether employees or self-employed, their dependants under 18 and spouse, unpaid household workers, voluntary affiliates and retirees.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 6530,
+          "char_end": 6825,
+          "passage_sha256": "c364f62d7cb7213026c26817441784234c9402f2d855ed44531d281dd42825d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-covered-003",
+        "statement": "The Ministry of Public Health covers people who have no affiliation or entitlement under the social security regimes.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 7114,
+          "char_end": 7263,
+          "passage_sha256": "6f36521733745760a07507c173a535cc84928cc58322b2c87fef200816412608"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-covered-004",
+        "statement": "The authors conclude that the 2007-2017 health reform expanded universal coverage by removing fees, strengthening primary care and promoting intercultural health.",
+        "valence": "strength",
+        "source_id": "jcsh-1146",
+        "locator": {
+          "section": "Abstract, conclusion",
+          "char_start": 2790,
+          "char_end": 2933,
+          "passage_sha256": "7d386ba5b562a3b6c2093bc2b1894c59a41e21c2385f5cafc0da1aa06aa76f2c"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-23",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": "2007-2017"
+      },
+      {
+        "id": "ECU-covered-005",
+        "statement": "The ILO note says the national health system is guided by a comprehensive care model that brings family, community and intercultural approaches into the system and includes a renewed primary care strategy.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 5402,
+          "char_end": 5736,
+          "passage_sha256": "a6e070074de25df6cd2dad08a199abf5a39289491d20ef0e03ec2a2d66e1055e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "ECU-cost_sharing-001",
+        "statement": "The constitution requires public state health services to be universal and free of charge at all levels of care, including diagnosis, treatment, medicines and rehabilitation.",
+        "valence": "strength",
+        "source_id": "const-ecu",
+        "locator": {
+          "section": "Article 362",
+          "char_start": 289704,
+          "char_end": 289886,
+          "passage_sha256": "2776bb049b5ea6f2ae03e48ec10d0ed638967bf5fb1a73afb77e934444def912"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-cost_sharing-002",
+        "statement": "Official health accounts put household out-of-pocket health spending at 33.4% in 2024, 0.3 percentage points more than in 2023.",
+        "valence": "weakness",
+        "source_id": "inec-css-2024",
+        "locator": {
+          "section": "Resumen de resultados",
+          "page": 3,
+          "char_start": 2935,
+          "char_end": 3062,
+          "passage_sha256": "482627d354292ef7d4b8c0a314aaadd2a98853e6609546609d2718d80d8af798"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ECU-cost_sharing-003",
+        "statement": "A 2026 paper notes that Ecuador's out-of-pocket spending indicator does not separate medicines and rests on 2012 and 2014 surveys, so its 2016-2023 values (30.6-33%) are pre-COVID-19 estimates rather than direct measurements.",
+        "valence": "neutral",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4618,
+          "char_end": 5172,
+          "passage_sha256": "e69a1aaeabc163dc5684d20154dddef502d45d35ae40cd255270dd0fb2f6bec2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2016-2023"
+      },
+      {
+        "id": "ECU-cost_sharing-004",
+        "statement": "Out-of-pocket spending was 39.8% of total health spending in 2018, after falling by more than 12 percentage points over the previous ten years.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Situación actual del financiamiento",
+          "page": 6,
+          "char_start": 26863,
+          "char_end": 27145,
+          "passage_sha256": "e108a665e876eac20d091b5cd06efc7c3eefcfd806d3b1d74152d9c1f7214a7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "ECU-financial_hardship-001",
+        "statement": "Between the 2006 and 2014 national living-standards surveys, the share of households with any out-of-pocket health spending fell by 14 percentage points.",
+        "valence": "strength",
+        "source_id": "pmc-12314978",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3129,
+          "char_end": 3250,
+          "passage_sha256": "52d6becf3ce93318ff5474ffe6526f9e806ff62332c6488d1851be9bc38026d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2006-2014",
+        "historical": true
+      },
+      {
+        "id": "ECU-financial_hardship-002",
+        "statement": "Catastrophic health expenditure among households fell from 17% in 2006 to 10% in 2014, with falls in every socioeconomic group studied.",
+        "valence": "strength",
+        "source_id": "pmc-12314978",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3251,
+          "char_end": 3345,
+          "passage_sha256": "cfac20a2f8812e228ce0bc7939ac018fd9d3040e058cc0406a2f6ec67a706041"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2006-2014",
+        "historical": true
+      },
+      {
+        "id": "ECU-financial_hardship-003",
+        "statement": "The same study found the relative inequality in catastrophic spending rose within regions and for uninsured households between 2006 and 2014, though for uninsured households the confidence interval (0.95 to 2.04) included no change.",
+        "valence": "weakness",
+        "source_id": "pmc-12314978",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3615,
+          "char_end": 3746,
+          "passage_sha256": "b6cd1a3833e24629fce5294dcd86ad5ceb6383e413da5b7e6d6b5807a0ae696f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2006-2014",
+        "historical": true
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "ECU-additional_care-001",
+        "statement": "Private providers concentrate on hospitals of varying complexity, with for-profit institutions more prominent than non-profit ones.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 2,
+          "char_start": 6220,
+          "char_end": 6385,
+          "passage_sha256": "a24b6b600e09f61734564a955210067d5ccabd6b54a42a6fb99fbb56465429d6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "ECU-additional_care-002",
+        "statement": "Private institutions are funded directly by households able to pay, by private insurers, and by public institutions that contract them to treat their beneficiaries.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Financiamiento privado",
+          "page": 6,
+          "char_start": 24711,
+          "char_end": 24980,
+          "passage_sha256": "9948f847a584610f314a3b1a319db626b6282e755f2e257de339e7c3b18d0201"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-additional_care-003",
+        "statement": "The public payment mechanism also covers the complementary private network when it treats beneficiaries of the public subsystems.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Gestión de recursos",
+          "page": 5,
+          "char_start": 20060,
+          "char_end": 20244,
+          "passage_sha256": "d676b18b75ef8eb0609548546a7c995204c314a03c47459ec8586c46733ea193"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      }
+    ],
+    "access": [
+      {
+        "id": "ECU-access-001",
+        "statement": "A 2022 health emergency decree recognised medicine shortages since 2020 and put availability in the public system at 69% against a target above 90%.",
+        "valence": "weakness",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7705,
+          "char_end": 7811,
+          "passage_sha256": "816598c22b3c015ee46ce46d41ac3cd8d9a7e75942dbb05ce9bc7e78708b5207"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ECU-access-002",
+        "statement": "A September 2025 decree reported continued difficulties since 2023; the ministry gave no national availability percentage but reported hospital-level availability of 18% to 77%.",
+        "valence": "weakness",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7812,
+          "char_end": 8090,
+          "passage_sha256": "865315e1c78d7dade833906139f546543b583a9d7563b92665fc943662e30860"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ECU-access-003",
+        "statement": "Since 2018 patients and health professionals have repeatedly protested against medicine shortages in public facilities.",
+        "valence": "weakness",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6430,
+          "char_end": 6551,
+          "passage_sha256": "8d79221e01a03f0c8762be0bd875e40410884005f7559c1735a6a22c90aa465b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "ECU-access-004",
+        "statement": "Under the network's referral rules, providers send patients to an external provider when they lack the capacity to treat them or geographic access is limited.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Ilustración 2",
+          "page": 6,
+          "char_start": 27561,
+          "char_end": 27729,
+          "passage_sha256": "6471fd656c5bb22d10d9b6686d1a87c1ea7243df0f590fb1a30c4848466855ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-access-005",
+        "statement": "Stakeholders in a qualitative study said the Comprehensive Public Health Network improved referral pathways but did not fully integrate services across the public and private subsystems.",
+        "valence": "neutral",
+        "source_id": "jcsh-1146",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2219,
+          "char_end": 2439,
+          "passage_sha256": "81ddbad31f7eadd1855e374bee3f0dcca6f5d9a68c6472f97b0cd11ccf443e54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2007-2017"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "ECU-outcomes-001",
+        "statement": "Life expectancy at birth was 77.6 years in 2024, 5.5 years more than in 2000.",
+        "valence": "strength",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Environmental and social determinants",
+          "char_start": 1516,
+          "char_end": 1661,
+          "passage_sha256": "e408cc0df7c01ed9b0dd9222b2d19778ffb96cc42a7eb4a73fa47d19cd40dfe1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ECU-outcomes-002",
+        "statement": "The maternal mortality ratio was estimated at 65.7 deaths per 100,000 live births in 2020, 45.3% lower than in 2000.",
+        "valence": "strength",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Maternal and child health",
+          "char_start": 3876,
+          "char_end": 4037,
+          "passage_sha256": "c7d609542af6982dd77f2c7049c162a29334e4aeebebb322f4d01b8c5b091153"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "ECU-outcomes-003",
+        "statement": "Infant mortality fell from 15.5 to 7.8 deaths per 1,000 live births between 2000 and 2020, a decrease of 49.7%.",
+        "valence": "strength",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Maternal and child health",
+          "char_start": 3294,
+          "char_end": 3420,
+          "passage_sha256": "58d4097f1722889c6a4ea0c31f342028ca8f464b0ff685ddf7a3e7dd3d8cc7c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "ECU-outcomes-004",
+        "statement": "The rate of potentially avoidable premature deaths was 194.2 per 100,000 in 2019, down 33% from 290 in 2000 and 14.3% below the average for the Region of the Americas.",
+        "valence": "strength",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Mortality",
+          "char_start": 5793,
+          "char_end": 6111,
+          "passage_sha256": "415e1904ed45116163967f23f8ccab8abe4b74f7e7636e9c6d9e29f7f7d26cf3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ECU-outcomes-005",
+        "statement": "Measles vaccination coverage was 74% in 2022, 10 percentage points lower than in 2000.",
+        "valence": "weakness",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Maternal and child health",
+          "char_start": 3725,
+          "char_end": 3815,
+          "passage_sha256": "6b23125d0b0c0c1a0220e5b5d27b11c7398f436bea8d16f863982b9f6b6fde12"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ECU-outcomes-006",
+        "statement": "WHO estimated 46,403 excess deaths in Ecuador in 2020 (263.8 per 100,000) and 34,466 in 2021 (193.6 per 100,000).",
+        "valence": "weakness",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "COVID-19 perspective",
+          "char_start": 9083,
+          "char_end": 9324,
+          "passage_sha256": "2c397f93b0d8a08ee49d77d83b84567fb8f163360d58751aba6b7be2fe3daad0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-outcomes-007",
+        "statement": "The ILO note says child malnutrition places Ecuador among the worst performers in Latin America, with one of the highest shares of children under five who are stunted.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 3,
+          "char_start": 13417,
+          "char_end": 13647,
+          "passage_sha256": "eca329442bf96d4b684fdddd628eace9f629ca28a3cf7f73b70a42a2d96afa99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      }
+    ],
+    "costs": [
+      {
+        "id": "ECU-costs-001",
+        "statement": "Total health spending was 8.14% of GDP (USD 8,820 million) in 2018, up 2.3 percentage points over ten years and above the 7.1% average for the Americas.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Situación actual del financiamiento",
+          "page": 6,
+          "char_start": 26181,
+          "char_end": 26480,
+          "passage_sha256": "53aa7c7119ea1a74f3cd92a00c01c06fdfada10896b64abe3f0c4608f4212fe7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "ECU-costs-002",
+        "statement": "Public health spending was 4.3% of GDP in 2018, below the 6% of GDP that PAHO recommends as a condition for advancing toward universal coverage.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Situación actual del financiamiento",
+          "page": 6,
+          "char_start": 26481,
+          "char_end": 26695,
+          "passage_sha256": "62edd3477214ea7506a1ada3657702f9d55297a55ee71b694d58eb88916784a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "ECU-costs-003",
+        "statement": "In 2021 public health expenditure was 5.28% of GDP and 14.76% of total public expenditure, according to PAHO.",
+        "valence": "neutral",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Social determinants",
+          "char_start": 2736,
+          "char_end": 2875,
+          "passage_sha256": "e7682e21ab129f95e71d7d406885d8cd170a2bec2744d71468ac33217aea6069"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-costs-004",
+        "statement": "Spending on medicines repeatedly differed from the initial budget; the gap was largest in 2015, 2018-2020 and 2023 for current spending and in 2015, 2017 and 2023 for investment spending.",
+        "valence": "weakness",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Results, finance",
+          "char_start": 14572,
+          "char_end": 14828,
+          "passage_sha256": "591f013c64cd97eb97ef0a480e1f10c9a07f4f072b567a66f84829c71ca60b50"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2015-2024"
+      }
+    ],
+    "what_works": [
+      {
+        "id": "ECU-what_works-001",
+        "statement": "Stakeholders interviewed about the 2007-2017 reform said strong political commitment helped expand free services and infrastructure, though political interference and financing challenges undermined it.",
+        "valence": "strength",
+        "source_id": "jcsh-1146",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1831,
+          "char_end": 1993,
+          "passage_sha256": "200ae4225760ca12a14e024292047a9474717ba51faa0ba602c5104c12a683a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2007-2017"
+      },
+      {
+        "id": "ECU-what_works-002",
+        "statement": "The authors conclude that the 2007-2017 reform reduced out-of-pocket spending, catastrophic health spending and some socioeconomic inequalities, based on 2006 and 2014 survey data.",
+        "valence": "strength",
+        "source_id": "pmc-12314978",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3760,
+          "char_end": 3894,
+          "passage_sha256": "80a40e128db7edf6ba3c0cf764950f0503a66c0d7dffff83f0f74f48e8974bcf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2006-2014",
+        "historical": true
+      },
+      {
+        "id": "ECU-what_works-003",
+        "statement": "After COVID-19, Quito created multidisciplinary Community Health Teams in each of its 65 parishes, focused on health promotion, disease prevention and intersectoral coordination; the study reports improved territorial access and community trust in this one city.",
+        "valence": "strength",
+        "source_id": "pmc-12512419",
+        "locator": {
+          "section": "Abstract, results",
+          "char_start": 3085,
+          "char_end": 3338,
+          "passage_sha256": "e05d68b8b4f4f58c35dcbb25a184e91a30367dfb43b3f2fb881d3449bd3422ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ECU-what_works-004",
+        "statement": "Compared with Latin America, the ILO note says Ecuador's general, infant and neonatal mortality indicators are better than the regional average but worse than in Argentina, Chile or Uruguay.",
+        "valence": "strength",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 3,
+          "char_start": 13063,
+          "char_end": 13415,
+          "passage_sha256": "05fe0265fc9537ed55035d1a3f59b40d21d2e46d8c14cc117c9748953086eca3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      }
+    ],
+    "problems": [
+      {
+        "id": "ECU-problems-001",
+        "statement": "The ILO note describes Ecuador's financing model, with many revenue sources, funders and providers for defined populations, as a segmented system, and says reforms have not changed that financing model or its historical segmentation.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Situación actual del financiamiento",
+          "page": 6,
+          "char_start": 24981,
+          "char_end": 25472,
+          "passage_sha256": "0864fccd7ab427ff074e270113cfce7bac5d517abef777f3a4e0c8cfbb42e604"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-problems-002",
+        "statement": "The ILO note says segmented financing creates significant transaction costs, limits coordination and causes inefficiencies from the lack of system integration.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Desafíos",
+          "page": 8,
+          "char_start": 34085,
+          "char_end": 34291,
+          "passage_sha256": "31f691793b27b1f98957313af2000ea14a4d919ed2be9758e0ea14186e27d8e1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-problems-003",
+        "statement": "The ILO note names high household out-of-pocket spending as a persisting challenge that is a barrier to access, is inequitable and hits the most vulnerable.",
+        "valence": "weakness",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Desafíos",
+          "page": 7,
+          "char_start": 32526,
+          "char_end": 32812,
+          "passage_sha256": "83cb71a382b82bccd5d21801a6044e550bdc8f487646fc13d39c906de0132fbc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-problems-004",
+        "statement": "A 2026 policy analysis of 2015-2024 records says budget contraction, volatile execution and weak needs assessment keep allocations from becoming sustained medicine availability.",
+        "valence": "weakness",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Summary",
+          "char_start": 1136,
+          "char_end": 1423,
+          "passage_sha256": "a544925e258ff0d1d4874bac31e640fe52a0949ae47b4c9d57acd03db92d14a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2015-2024"
+      },
+      {
+        "id": "ECU-problems-005",
+        "statement": "During 2020-2021 more than 30 investigations were opened into irregularities and overpricing in the purchase of supplies and medicines, implicating senior officials, legislators and a former president.",
+        "valence": "weakness",
+        "source_id": "pmc-12925043",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7013,
+          "char_end": 7285,
+          "passage_sha256": "f736b768b81b7e79663e169e0f7b9f59ab709dc3e7b72ed54c0899c794ecd3eb"
+        },
+        "verification": {
+          "passage_found": "fail",
+          "supports": "pending",
+          "checked_on": "2026-11-23",
+          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+        },
+        "data_year": "2020-2021"
+      },
+      {
+        "id": "ECU-problems-006",
+        "statement": "Stakeholders said Ministry of Public Health leadership reforms were hindered by centralised decision-making, high leadership turnover and weak intersectoral coordination.",
+        "valence": "weakness",
+        "source_id": "jcsh-1146",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2449,
+          "char_end": 2650,
+          "passage_sha256": "1a6d4ca900c043c93ba0ae2ce185d2b1f4ab371c486beb3b0771679954c3d6e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2007-2017"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "ECU-reforms-001",
+        "statement": "In 2021 the Ministry of Public Health led a participatory process to produce the Ten-Year Health Plan 2022-2031.",
+        "valence": "neutral",
+        "source_id": "paho-hia-ecu",
+        "locator": {
+          "section": "Prospects",
+          "char_start": 9798,
+          "char_end": 9956,
+          "passage_sha256": "ec7d1b1b649717c2f006c4b81367c11dec9b699531462a11e3a0d69ff51e57f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ECU-reforms-002",
+        "statement": "In 2012 an agreement among the public institutions that fund and provide care made the Public Comprehensive Health Network operational.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 5,
+          "char_start": 22505,
+          "char_end": 22696,
+          "passage_sha256": "636052ed44f6b99937994198132e091c4b921b6cc9792599dc2e7933ff412334"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2012,
+        "historical": true
+      },
+      {
+        "id": "ECU-reforms-003",
+        "statement": "The 2008 constitutional changes made public state health services free and universal at all levels of care, created the Public Comprehensive Health Network and defined a national health authority as steward of the system.",
+        "valence": "neutral",
+        "source_id": "ilo-ecu-2024",
+        "locator": {
+          "section": "Estructura del Sistema de Salud",
+          "page": 1,
+          "char_start": 2552,
+          "char_end": 3347,
+          "passage_sha256": "05296ed919a730245777842b8dd8a7268d534c86aaf8772b767e0127c7889ca1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2008,
+        "historical": true
+      },
+      {
+        "id": "ECU-reforms-004",
+        "statement": "In 2007 the government began broad social and political reforms; the health system was restructured to expand coverage and remove financial barriers.",
+        "valence": "neutral",
+        "source_id": "jcsh-1146",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1059,
+          "char_end": 1322,
+          "passage_sha256": "1a3fc2c788187e26f5d2c5df6a80c416d14a930f58fc45d9ccef5d3003b04192"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2007,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/ECU.json",
+  "sources": [
+    {
+      "id": "paho-hia-ecu",
+      "title": "Ecuador Country Profile, Health in the Americas+",
+      "publisher": "Pan American Health Organization",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://hia.paho.org/en/node/180",
+      "accessed": "2026-11-23"
+    },
+    {
+      "id": "ilo-ecu-2024",
+      "title": "Financiamiento del Sistema Nacional de Salud ecuatoriano para la cobertura universal (Nota informativa)",
+      "publisher": "International Labour Organization, Andean Countries Office",
+      "authors": "Mena AC, Casalí P",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2021,
+      "url": "https://www.ilo.org/sites/default/files/2024-08/wcms_817788.pdf",
+      "accessed": "2026-11-23",
+      "funding_note": "Undated briefing note, in Spanish; its latest references are from 2021 and its spending figures are for 2018, so claims carry data years. The text gives the public-sector employer rate as 5.16% in one paragraph and 3.16% (plus 2% from the worker) in its table, so claims avoid the public-sector rate."
+    },
+    {
+      "id": "inec-css-2024",
+      "title": "Cuentas Satélite de Salud (CSS), serie 2007-2024",
+      "publisher": "Instituto Nacional de Estadística y Censos (INEC), Ecuador",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.ecuadorencifras.gob.ec/documentos/web-inec/Estadisticas_Economicas/Cuentas_Satelite/Salud/2024/2_Presentac_Resultados_CSS2024.pdf",
+      "accessed": "2026-11-23",
+      "funding_note": "Official health accounts, in Spanish. A 2026 paper in this profile notes the household out-of-pocket indicator still rests on 2012-2014 surveys."
+    },
+    {
+      "id": "const-ecu",
+      "title": "Ecuador 2008 (rev. 2021) Constitution, English translation",
+      "publisher": "Constitute Project (text of Ecuador's Constitution)",
+      "tier": 3,
+      "type": "government",
+      "year": 2021,
+      "url": "https://www.constituteproject.org/constitution/Ecuador_2021",
+      "accessed": "2026-11-23",
+      "funding_note": "Primary legal text in English translation, hosted by Constitute Project."
+    },
+    {
+      "id": "pmc-12925043",
+      "title": "Medicines availability in Ecuador's public system (2015-2024): a policy design analysis of financing, public procurement, and governance",
+      "publisher": "The Lancet Regional Health - Americas",
+      "authors": "Hernández-Luis A, Fontaine G, Morales JL",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.lana.2026.101399",
+      "doi": "10.1016/j.lana.2026.101399",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12925043",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "Health policy paper using administrative records and policy documents, 2015-2024; descriptive, no impact evaluation."
+    },
+    {
+      "id": "jcsh-1146",
+      "title": "Insights from Ecuador's journey towards universal health coverage: Lessons from recent health system reform",
+      "publisher": "Journal of Community Systems for Health",
+      "authors": "Quizhpe E, Martens C, Terán E, Pulkki-Brännström A-M, San Sebastián M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://journals.ub.umu.se/index.php/jcsh/article/view/1146",
+      "doi": "",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "Qualitative study of 11 stakeholders in the 2007-2017 reform; only the abstract was available to the checker, so claims rest on it."
+    },
+    {
+      "id": "pmc-12512419",
+      "title": "Strengthening primary health care resilience through community innovation: a qualitative case study from Quito's response to COVID-19",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Tello B, Dueñas-Espín I, Di Giorgio L",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12939-025-02620-1",
+      "doi": "10.1186/s12939-025-02620-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12512419",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "Qualitative case study of one city (Quito); not representative of Ecuador as a whole."
+    },
+    {
+      "id": "pmc-12314978",
+      "title": "Did health reform improve financial protection for disadvantaged groups in Ecuador? A socio-economic inequality assessment of catastrophic health expenditures 2006-2014",
+      "publisher": "BMJ Open",
+      "authors": "Quizhpe Ordóñez E, San Sebastian M, Teran E, Pulkki-Brännström A-M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1136/bmjopen-2024-097225",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12314978",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "Uses household surveys from 2006 and 2014 only, so every claim from it is marked historical."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-23",
+      "note": "Profile created."
+    }
+  ]
+}

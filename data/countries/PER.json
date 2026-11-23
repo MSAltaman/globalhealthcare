@@ -1,0 +1,1254 @@
+{
+  "iso3": "PER",
+  "name": "Peru",
+  "wave": 5,
+  "system_as_of": "2026-11-23",
+  "status": "draft",
+  "model": {
+    "type": "mixed",
+    "label": "Segmented system: tax-financed SIS, EsSalud social insurance, armed forces and police, and private insurers"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "PER-overview-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "PER-overview-001",
+        "statement": "Peru's universal health insurance framework (Law 29344, Article 3 as amended in 2024) defines universal insurance as a process aimed at giving everyone resident in the country, and Peruvians living abroad who are in Peru without other cover, a health insurance that provides access to preventive, promotional, curative and rehabilitative services under the Essential Health Insurance Plan (PEAS) and complementary plans.",
+        "valence": "neutral",
+        "source_id": "ley32016",
+        "locator": {
+          "section": "Article 3 as amended",
+          "page": 1,
+          "char_start": 675,
+          "char_end": 1351,
+          "passage_sha256": "0094a4175d2978c470530f46cf62351769f077f1abd09b37d52ef93103eda05c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-overview-002",
+        "statement": "Peru has four main subsystems for financing and providing care: the tax-financed public sector (SIS), the contributory social insurer EsSalud, a smaller subsystem for the armed forces and police, and the private sector; each covers a different part of the population, with its own benefit package and providers.",
+        "valence": "neutral",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Introduction, characterization of the system",
+          "char_start": 7869,
+          "char_end": 8287,
+          "passage_sha256": "6d6e12620dd069089f95f5f83a4cfc36fb1c03fa3286e8973600effe60cd4bbd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-overview-003",
+        "statement": "The Seguro Integral de Salud (SIS) mainly covers people with low incomes and is financed from general taxation; on 5 March 2020 it covered 53% of Peru's roughly 33 million people, and its members are treated without charge in publicly owned, tax-financed providers.",
+        "valence": "neutral",
+        "source_id": "pmc-11349220",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10243,
+          "char_end": 10605,
+          "passage_sha256": "23371ea5a91a3c04a184cf0a6227f6114064b214bf96013252822a033f091a27"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-overview-004",
+        "statement": "EsSalud, the second largest insurance subsystem, covered 30% of the population on 5 March 2020; it covers workers in formal employment and their legal dependants, is financed by compulsory contributions of 9% of salary, and provides care free at the point of use.",
+        "valence": "neutral",
+        "source_id": "pmc-11349220",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10606,
+          "char_end": 10938,
+          "passage_sha256": "de50d350eaaef735e3d4e5f9540c16a9c80cdf19407b7412465db3bf92feaed1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-overview-005",
+        "statement": "In the January-March 2025 national household survey, 91.1% of people reported having some kind of health insurance, public or private.",
+        "valence": "strength",
+        "source_id": "inei-hs",
+        "locator": {
+          "section": "Press release, health insurance section",
+          "char_start": 1733,
+          "char_end": 1875,
+          "passage_sha256": "3bc2f493fefbcded6088dd72ef0f29bcbd0563d7b12e92f1189e0ccafe9772a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PER-overview-006",
+        "statement": "Among people with any health insurance in January-March 2025, 63.1% were covered by the SIS, up 4.0 percentage points from the same quarter of 2024.",
+        "valence": "neutral",
+        "source_id": "inei-hs",
+        "locator": {
+          "section": "Press release, SIS section",
+          "char_start": 2336,
+          "char_end": 2442,
+          "passage_sha256": "5e3a953523b073254f0942415e0022f7db5f158b5243dbe77425193ba13836a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "PER-financing-001",
+        "statement": "Employers pay EsSalud contributions for their workers, which the tax authority SUNAT collects each month; the contribution is 9% of the worker's monthly income, calculated on a declared pay that cannot be lower than the statutory minimum wage.",
+        "valence": "neutral",
+        "source_id": "gobpe-essalud",
+        "locator": {
+          "section": "Page text, first paragraph",
+          "char_start": 223,
+          "char_end": 559,
+          "passage_sha256": "6ee4bbdd50591e6e1b73227e2998b8b4e335cb0e928081bb4c9111cf0d7103f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "PER-financing-002",
+        "statement": "Pensioners receiving retirement, disability or survivor pensions are also covered by EsSalud, with 4% of the pension withheld.",
+        "valence": "neutral",
+        "source_id": "gobpe-essalud",
+        "locator": {
+          "section": "Page text",
+          "char_start": 908,
+          "char_end": 1015,
+          "passage_sha256": "c60399042453ac3d0d4e35bffd920746993b1542a8ae181166b875e5273be528"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "PER-financing-003",
+        "statement": "The SIS is financed from general taxation.",
+        "valence": "neutral",
+        "source_id": "pmc-11349220",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10430,
+          "char_end": 10521,
+          "passage_sha256": "a1fbec6d067d1e1b0f29f9e309ac45161b4fa8fa56f10a9b6449aa398ae70134"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-financing-004",
+        "statement": "The study's literature review describes the SIS as underfunded, because its allocations follow historical levels rather than being set per person as the insured population grew.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Characterization of the system",
+          "char_start": 10544,
+          "char_end": 10701,
+          "passage_sha256": "dcb12cf2034d5edc909f8967ff2d363c6475b714176e2f36b260bf980f8eec32"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-financing-005",
+        "statement": "A Ministry of Economy and Finance official interviewed for the study said Peru's total fiscal income is 20% of GDP, of which tax revenue is only 14%, and that this limits the capacity to finance health.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Results, fiscal cycle",
+          "char_start": 22603,
+          "char_end": 22772,
+          "passage_sha256": "1d1a36758c1ba6155f735fc652c89e559e58250507850f587580308e1f6ffdc5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      }
+    ],
+    "covered": [
+      {
+        "id": "PER-covered-001",
+        "statement": "The SIS was introduced in the early 2000s to extend coverage, first for pregnant women and children under five, and was later extended to the poorest and to all uninsured segments of the population, beyond maternal care.",
+        "valence": "neutral",
+        "source_id": "pmc-10647135",
+        "locator": {
+          "section": "Background",
+          "char_start": 7645,
+          "char_end": 8120,
+          "passage_sha256": "4b403ce8aa94044f7779d0821cc40d63374c0ded1254f06f188cc2fec1f3e66e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-covered-002",
+        "statement": "The Essential Health Insurance Plan (PEAS) lists recommended maternal services, including pregnancy, delivery and postpartum care, which the Universal Health Insurance Act of 2009 (Law 29344) says should be equally accessible to all insured women.",
+        "valence": "neutral",
+        "source_id": "pmc-10647135",
+        "locator": {
+          "section": "Methods, variables",
+          "char_start": 11895,
+          "char_end": 12250,
+          "passage_sha256": "c1adae6aa75cc2b1f2e8be5eaba512a4958178878b7b961499dd46883129e6d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-covered-003",
+        "statement": "EsSalud coverage includes cash and social benefits as well as preventive, health promotion, curative and rehabilitation services.",
+        "valence": "neutral",
+        "source_id": "gobpe-essalud",
+        "locator": {
+          "section": "Page text",
+          "char_start": 1279,
+          "char_end": 1399,
+          "passage_sha256": "b73d3418999899b69a6531659dfeaa9df6dd560518954af68df654b1b06477ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "PER-covered-004",
+        "statement": "Since the 2024 amendment, the law states explicitly that universal insurance includes the right to preventive, promotional, curative and rehabilitative services related to mental health.",
+        "valence": "strength",
+        "source_id": "ley32016",
+        "locator": {
+          "section": "Article 3 as amended",
+          "page": 1,
+          "char_start": 1352,
+          "char_end": 1557,
+          "passage_sha256": "a3c8773ce19c9124a2bbb8bbcd8596b0e7494c44802b47cc7e7e7ca991f1ad99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-covered-005",
+        "statement": "EsSalud's regular insurance covers employees of formal firms and their dependants: a spouse or partner, minor children, an adult child with total disability, and expectant mothers.",
+        "valence": "neutral",
+        "source_id": "gobpe-essalud",
+        "locator": {
+          "section": "Page text",
+          "char_start": 560,
+          "char_end": 784,
+          "passage_sha256": "d67c6577133e66efe2fe3dcd0a425ee2136efc93f46fa449adadd2cf930f2ad6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2026
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "PER-cost_sharing-001",
+        "statement": "SIS members are treated without charge in publicly owned providers.",
+        "valence": "neutral",
+        "source_id": "pmc-11349220",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10522,
+          "char_end": 10605,
+          "passage_sha256": "acf5c85f6a37f02977f3df5d2ef3955033625803ee657a77b74f280f548d6b19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-cost_sharing-002",
+        "statement": "In 2021 out-of-pocket spending made up 27.22% of total health expenditure in Peru, according to PAHO's Health in the Americas+ profile (other agencies classify spending differently; see the indicator panel).",
+        "valence": "weakness",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Social determinants",
+          "char_start": 2722,
+          "char_end": 2951,
+          "passage_sha256": "f63a0c7c4bdfa48cea4d5330f93a17cd38a1ab5ac8382dd9ebff5a5ef8c19c45"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PER-cost_sharing-003",
+        "statement": "In the 2020 national household survey, people with no health insurance who had COVID-19 symptoms reported spending 45% more than people with some form of insurance.",
+        "valence": "weakness",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Challenges related to population health",
+          "char_start": 10678,
+          "char_end": 10911,
+          "passage_sha256": "596f3703793b276f9d9b19b5f015785489dc7530a30c3e263d95f795be6d0170"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "PER-financial_hardship-001",
+        "statement": "Using household survey data, a 2026 study estimated that 2.0% of non-poor Peruvian households fell into poverty because of direct health spending in 2010, rising to 3.6% in 2021; the share peaked at 4.6% during the COVID-19 pandemic.",
+        "valence": "weakness",
+        "source_id": "frontiers-2026",
+        "locator": {
+          "section": "Results 3.1",
+          "char_start": 30573,
+          "char_end": 30913,
+          "passage_sha256": "eb1ba7f865cbad76c648bbfa5be9badadf251e184be69f93e46480ae4d6a7c89"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2010-2021"
+      },
+      {
+        "id": "PER-financial_hardship-002",
+        "statement": "The same study found impoverishment from out-of-pocket health spending was most severe among rural households, male-headed households, and households in the rural highlands and rural jungle.",
+        "valence": "weakness",
+        "source_id": "frontiers-2026",
+        "locator": {
+          "section": "Results 3.1",
+          "char_start": 30914,
+          "char_end": 31056,
+          "passage_sha256": "0c8357b0ddbb4004160b32e5891b20785df9885b088f95b0b9224d4cc8558164"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2010-2021"
+      },
+      {
+        "id": "PER-financial_hardship-003",
+        "statement": "Households affiliated with the SIS had higher impoverishment from out-of-pocket health spending than EsSalud households, which the authors read as lower financial protection under the SIS.",
+        "valence": "weakness",
+        "source_id": "frontiers-2026",
+        "locator": {
+          "section": "Results 3.1",
+          "char_start": 31117,
+          "char_end": 31416,
+          "passage_sha256": "0bcca8468a3dc5ee428f7e14c85b004710bffe3111284e39cac4acecd714c803"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2010-2021"
+      },
+      {
+        "id": "PER-financial_hardship-004",
+        "statement": "The authors conclude that health insurance coverage, while essential, is insufficient to protect households from impoverishment unless the social determinants of health also improve.",
+        "valence": "neutral",
+        "source_id": "frontiers-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3217,
+          "char_end": 3372,
+          "passage_sha256": "3a19d7c38b88da3c9440d6ce140c83c18ab82714abcdd79ae81d5e212147b3fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2010-2021"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "PER-additional_care-001",
+        "statement": "Private insurance and out-of-pocket payment exist alongside the public arrangements, especially among higher-income groups.",
+        "valence": "neutral",
+        "source_id": "pmc-13465225",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5171,
+          "char_end": 5292,
+          "passage_sha256": "88ff6a0222839377406230170d4e8383631191baad65fcf1a3f0034e6d13fa7e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-additional_care-002",
+        "statement": "Private cover in Peru includes EPS plans, which are complementary private insurance for workers, and other private health insurance; a 2023 study grouped these with EsSalud and armed forces and police insurance as \"standard insurance\".",
+        "valence": "neutral",
+        "source_id": "pmc-10647135",
+        "locator": {
+          "section": "Methods, variables",
+          "char_start": 14233,
+          "char_end": 14453,
+          "passage_sha256": "2cc4b60f4886e669085e8f6d8bab8c0cf8c24ef90a926265a6e30033b1c904d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      }
+    ],
+    "access": [
+      {
+        "id": "PER-access-001",
+        "statement": "In January-March 2025 INEI reported that 38.1% of people with a health problem sought care at an establishment; it listed a pharmacy as the place for 14.7%, a Ministry of Health facility for 13.3%, an EsSalud facility for 5.3% and a private doctor's office for 4.2%.",
+        "valence": "neutral",
+        "source_id": "inei-hs",
+        "locator": {
+          "section": "Press release",
+          "char_start": 668,
+          "char_end": 1056,
+          "passage_sha256": "7c0d2bf94cc87509026380e9798a8ead31e186c17097fef9bbe3d1fe42849e0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PER-access-002",
+        "statement": "In rural areas 21.2% of people with a health problem went to a Ministry of Health facility and 11.8% to a pharmacy, while in urban areas the pharmacy (15.3%) was more common than the Ministry's facilities (11.4%).",
+        "valence": "neutral",
+        "source_id": "inei-hs",
+        "locator": {
+          "section": "Press release",
+          "char_start": 1057,
+          "char_end": 1343,
+          "passage_sha256": "752eb59ce6047332c92ef44488786a49efbf78b61e5b12c354880990cf8d259b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PER-access-003",
+        "statement": "Using 2023 household survey data on 77,793 adults, only 15.94% reported using formal health services in the previous year.",
+        "valence": "weakness",
+        "source_id": "pmc-13465225",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1978,
+          "char_end": 2063,
+          "passage_sha256": "e94109640d1770ef38438f44afda0cf1a2a5abae2c2580f50c069a7ada9ec56d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-access-004",
+        "statement": "After adjustment, adults covered by SIS used formal health services at 2.59 times the rate of uninsured adults, and those covered by EsSalud at 2.90 times.",
+        "valence": "strength",
+        "source_id": "pmc-13465225",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2219,
+          "char_end": 2496,
+          "passage_sha256": "e6feff9802587d2c1d63c2e23d1b9b0fda15bb9c9250c8876da154f9ba8e0614"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-access-005",
+        "statement": "After adjustment, adults in extreme poverty used formal health services at 0.68 times the rate of non-poor adults and those in non-extreme poverty at 0.72 times.",
+        "valence": "weakness",
+        "source_id": "pmc-13465225",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2497,
+          "char_end": 2638,
+          "passage_sha256": "9c762f2cf5d46b02b7fe2c255facb9974ce602744b2714b186b757280a528747"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-access-006",
+        "statement": "The authors describe infrastructure, health personnel, medicines and specialized services as unevenly distributed, particularly between urban areas and rural highland or jungle regions.",
+        "valence": "weakness",
+        "source_id": "pmc-13465225",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5432,
+          "char_end": 5635,
+          "passage_sha256": "7c889fbf3c541f0ed077985ab1512399ad4ea78793f1b29f77c9e8518825f67f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "PER-access-007",
+        "statement": "Health ministry, regional and finance ministry interviewees agreed that low investment left access to care only theoretical, and that weak first-level capacity pushes people to seek care in overloaded tertiary hospitals.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Results, execution cycle",
+          "char_start": 34750,
+          "char_end": 35193,
+          "passage_sha256": "fec80f38c7dd7376b960752e50c736628c6616fa7e928a5e177b02f94dc09593"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PER-access-008",
+        "statement": "Interviewed health leaders commonly named a shortage of health professionals and technology in the public sector.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Results, execution cycle",
+          "char_start": 33990,
+          "char_end": 34128,
+          "passage_sha256": "0eb336f09c9303fd974b24497f6cd86645d6ed81ea014d42bdf6fb1da2b6a3a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "PER-outcomes-001",
+        "statement": "Life expectancy at birth was 77.9 years in 2024, 8.1 years more than in 2000, according to PAHO.",
+        "valence": "strength",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Environmental and social determinants",
+          "char_start": 1508,
+          "char_end": 1653,
+          "passage_sha256": "03dc9cce5232c59a3275577e3f79d6cf6df24b406c09105ff50fd643332fb137"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-outcomes-002",
+        "statement": "PAHO estimated the maternal mortality ratio at 68.5 deaths per 100,000 live births in 2020, 39.5% lower than in 2000.",
+        "valence": "strength",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Maternal and child health",
+          "char_start": 3843,
+          "char_end": 4004,
+          "passage_sha256": "f6d2aacb80b526c0f430d9763bf5d5c814580abc86f689c99dec803abc1a1df2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-outcomes-003",
+        "statement": "The rate of potentially preventable premature deaths was 153.7 per 100,000 in 2019, down 40.2% from 2000 and 32.2% below the average for the Region of the Americas.",
+        "valence": "strength",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Mortality",
+          "char_start": 5678,
+          "char_end": 5999,
+          "passage_sha256": "acb0fe11c9ea091abc71378dde79e49e4360a7f3faaca8eb8a123036707a4c37"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PER-outcomes-004",
+        "statement": "Measles vaccination coverage was 74% in 2022, 23 percentage points lower than in 2000.",
+        "valence": "weakness",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Maternal and child health",
+          "char_start": 3692,
+          "char_end": 3782,
+          "passage_sha256": "03de2d8119fd4f6bde926c9d5ed57733c257b0a80d8a33be5860591e6dffaa62"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PER-outcomes-005",
+        "statement": "PAHO ranked Peru first in the Americas for number of COVID-19 deaths in 2020, and again in 2021.",
+        "valence": "weakness",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "COVID-19 perspective",
+          "char_start": 8041,
+          "char_end": 8177,
+          "passage_sha256": "6202ed7e31165126b9f392a4f23aefe02c3beedd5c2c54667b37a39e9df86f2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PER-outcomes-006",
+        "statement": "WHO estimated 133,815 excess deaths in Peru in 2020 (406 per 100,000 population) and 155,852 in 2021 (467 per 100,000).",
+        "valence": "weakness",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "COVID-19 perspective",
+          "char_start": 8300,
+          "char_end": 8538,
+          "passage_sha256": "268b8cabda8ccaab69c3793c1aa80bb9603bf33a823962fe360d16e32ee1d9c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PER-outcomes-007",
+        "statement": "In 2021 survey data on 19,181 women, only 46.5% across all insurance types reported effective antenatal prevention care.",
+        "valence": "weakness",
+        "source_id": "pmc-10647135",
+        "locator": {
+          "section": "Abstract, results",
+          "char_start": 3520,
+          "char_end": 3619,
+          "passage_sha256": "24996f202defe2a8d7e92a9fbcffb4d4e68c0268180509d4921a7678bbffbff1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      }
+    ],
+    "costs": [
+      {
+        "id": "PER-costs-001",
+        "statement": "In 2021 public health expenditure was 3.99% of GDP and 16.94% of total public expenditure, according to PAHO.",
+        "valence": "neutral",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Social determinants",
+          "char_start": 2722,
+          "char_end": 2861,
+          "passage_sha256": "683f0056c0ee9d92beabcbe9b6334dfe6355a0d2e174e1a1e6449baa6317e4b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PER-costs-002",
+        "statement": "PAHO lists raising public health spending, then 3.3% of GDP in 2018, toward the regional target of 6% by 2030 as a national policy challenge.",
+        "valence": "neutral",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Challenges related to population health",
+          "char_start": 10912,
+          "char_end": 11188,
+          "passage_sha256": "6c5780ab003c3027609860912cf59841b15cf1e7e75855dcbefa08351fda8559"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "PER-costs-003",
+        "statement": "The national health budget was 88% executed in 2020 (86% central, 91% regional, 66% municipal), leaving 3.4 billion soles, about US$1 billion, unspent.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Characterization of the system",
+          "char_start": 12158,
+          "char_end": 12447,
+          "passage_sha256": "144d9de4b60f16d2be6976da63e1eec8832d3777e327ecd532b1b4fcc315e7fd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-costs-004",
+        "statement": "The study reports that budgets tend to be set from historical levels rather than current needs, and that payment based on production gives no incentive to improve outcomes or efficiency.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Characterization of the system",
+          "char_start": 10099,
+          "char_end": 10329,
+          "passage_sha256": "ed6bcdb5ca9e7f073cb86ed8131ead12cd4e6655f20a482530e092f0f3f3ed26"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-costs-005",
+        "statement": "The study notes that non-communicable diseases account for 66% of mortality but only 3.2% of the public health budget.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Characterization of the system",
+          "char_start": 10347,
+          "char_end": 10540,
+          "passage_sha256": "46338545fbdf60f4312dcb07adb1d68aafc052b23dde5046c2426fed34e95092"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      }
+    ],
+    "what_works": [
+      {
+        "id": "PER-what_works-001",
+        "statement": "Between 2000 and 2020 economic growth was accompanied by falls in poverty (from 58% to 23%) and stunting (halved to 14% by 2015); maternal mortality fell from 265 per 100,000 live births in 1990 to 68 in 2015 and infant mortality from 56 per 1,000 in 1990 to 10 in 2020.",
+        "valence": "strength",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5921,
+          "char_end": 6268,
+          "passage_sha256": "08ae083ee2e18a22f306405500ef6607916f793ee70f06b3447f08451ba0ae53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "1990-2020",
+        "historical": true
+      },
+      {
+        "id": "PER-what_works-002",
+        "statement": "Self-reported insurance coverage rose 2.2 percentage points in a year, from 88.9% in January-March 2024 to 91.1% in January-March 2025, and was higher in rural (93.6%) than in urban (90.5%) areas.",
+        "valence": "strength",
+        "source_id": "inei-hs",
+        "locator": {
+          "section": "Press release",
+          "char_start": 1733,
+          "char_end": 1980,
+          "passage_sha256": "4593e194da7418e2d374ab74ed8dd74c928227ef594fa055549e822b15bea233"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PER-what_works-003",
+        "statement": "In 2021 survey data, insured women were more likely than uninsured women to have received antenatal care services.",
+        "valence": "strength",
+        "source_id": "pmc-10647135",
+        "locator": {
+          "section": "Abstract, results",
+          "char_start": 3620,
+          "char_end": 3773,
+          "passage_sha256": "0182453c847da8862976ac5d3c4686c2bcd0d2aaaabc84f18f4be1625ab17e8e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PER-what_works-004",
+        "statement": "PAHO lists gains from the COVID-19 response: more doctors and nurses, over 2,500 added ICU beds, more oxygen supply, stronger first-level care, community health workers and telemedicine.",
+        "valence": "strength",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "COVID-19 pandemic response",
+          "char_start": 12119,
+          "char_end": 13052,
+          "passage_sha256": "4abde7461c0eb4c9ed64f27159f27cbd7a9b8eaa454447820616417777ff576b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      }
+    ],
+    "problems": [
+      {
+        "id": "PER-problems-001",
+        "statement": "The study says separating the SIS from EsSalud duplicates effort and resources: less than 1.3% of the SIS budget is used to buy services from the better-equipped EsSalud.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Characterization of the system",
+          "char_start": 8409,
+          "char_end": 8632,
+          "passage_sha256": "dbcd714e651e5d30daeca17aeef8ac7c8ca6c146c13a9d9cb67c64a342c36cee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-problems-002",
+        "statement": "Among 24.7 million people in the SIS and/or EsSalud, an instrumental-variable analysis estimated that dual insurance reduced COVID-19 mortality risk by 0.23% against a sample mean risk of 0.54%, implying about 56,418 fewer deaths among the 133,128 recorded if everyone had dual cover.",
+        "valence": "weakness",
+        "source_id": "pmc-11349220",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3045,
+          "char_end": 3283,
+          "passage_sha256": "c115a14c612f85c691b31f6b40b5bd7bb1bcbd2e0bfb9705bba4030e289ba422"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": "2020-2021"
+      },
+      {
+        "id": "PER-problems-003",
+        "statement": "Interviewees said political instability hurt the system, citing 14 health ministers and 35 vice ministers in the previous ten years.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Results, political instability",
+          "char_start": 21300,
+          "char_end": 21531,
+          "passage_sha256": "37cb1778509fc00fa86cd60131000eb80ae52653f133ae6627db55ff3f19e286"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PER-problems-004",
+        "statement": "A study of 2021 survey data found continuing inequities in maternal care: uninsured women used less care, and received lower-quality care, than women with SIS or standard insurance.",
+        "valence": "weakness",
+        "source_id": "pmc-10647135",
+        "locator": {
+          "section": "Abstract, conclusions",
+          "char_start": 4506,
+          "char_end": 4826,
+          "passage_sha256": "1151f503f525a8699d3e36cdd3a9c3a46d9bf85431b838b4521980fde4c1264d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PER-problems-005",
+        "statement": "PAHO names segmentation and fragmentation of services as a main challenge; integrated health networks set up in response had 91 structured and 75 operational.",
+        "valence": "weakness",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Challenges related to population health",
+          "char_start": 10261,
+          "char_end": 10570,
+          "passage_sha256": "922155785eafb36a3e369b417f39b152ebec85c944562897c1b9a4fd8c5d362a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "PER-problems-006",
+        "statement": "Interviewees said long waiting lists and poor access to medicines and tests led to high out-of-pocket spending.",
+        "valence": "weakness",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Results, execution cycle",
+          "char_start": 34944,
+          "char_end": 35035,
+          "passage_sha256": "7513ca9f4a8590a35f2e067e9ded6e042107b884d5b75f96e3365ec4ce62200d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2022
+      }
+    ],
+    "reforms": [
+      {
+        "id": "PER-reforms-001",
+        "statement": "Law 32016, published 9 May 2024, amended the universal health insurance framework law (Law 29344) to bring Peruvians living abroad into the SIS.",
+        "valence": "neutral",
+        "source_id": "ley32016",
+        "locator": {
+          "section": "Title and Article 3",
+          "page": 1,
+          "char_start": 230,
+          "char_end": 398,
+          "passage_sha256": "fa0996cf41308cdea1ebf46f0607b9e697e736812d4f05d29574344c0061ebfa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PER-reforms-002",
+        "statement": "Law 30885 (2018) created integrated health networks, regulated in 2020 with mechanisms to monitor, supervise and evaluate them.",
+        "valence": "neutral",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Prospects, measures to achieve UHC",
+          "char_start": 9016,
+          "char_end": 9253,
+          "passage_sha256": "d9e0088a004960eb8e0428af842cdc715968c8ed79894a2ca95bbb50d6e3794a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-reforms-003",
+        "statement": "In 2020 Peru approved a life-course model of comprehensive care and a National Multisectoral Health Policy for 2030 (\"Peru, Healthy Country\"), involving 13 sectors and overseen by the Ministry of Health.",
+        "valence": "neutral",
+        "source_id": "paho-hia-per",
+        "locator": {
+          "section": "Prospects, measures to achieve UHC",
+          "char_start": 9254,
+          "char_end": 9819,
+          "passage_sha256": "fbf21a17a0f3b3cfb7d630e65a25f0e0467ec4304b4b0e79c9a585b7dfb4197c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-reforms-004",
+        "statement": "Policymakers aiming for universal coverage view holding both SIS and EsSalud as cross-subsidising EsSalud, which has prompted processes to disaffiliate people with dual cover.",
+        "valence": "neutral",
+        "source_id": "pmc-11349220",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 11741,
+          "char_end": 11933,
+          "passage_sha256": "96798eb95cfb28899508c27d8541359f5edc9b1b8da6408f636e64052abdf85b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PER-reforms-005",
+        "statement": "The study describes universal coverage as a goal since the 2009 and 2013 health reforms, which strengthened governance and oversight and expanded insurance coverage.",
+        "valence": "neutral",
+        "source_id": "pmc-11057799",
+        "locator": {
+          "section": "Characterization of the system",
+          "char_start": 7266,
+          "char_end": 7419,
+          "passage_sha256": "e901014d0037944cace11cc97f8c666555d58c2a8cd0e7acba431bc5c96b88c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-23"
+        },
+        "data_year": 2013,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/PER.json",
+  "sources": [
+    {
+      "id": "paho-hia-per",
+      "title": "Peru Country Profile, Health in the Americas+",
+      "publisher": "Pan American Health Organization",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://hia.paho.org/en/node/127",
+      "accessed": "2026-11-23"
+    },
+    {
+      "id": "pmc-11057799",
+      "title": "Budget Process and Execution: A Case Study on the Underperformance of the Peruvian Health System, 2000-2021",
+      "publisher": "Global Health: Science and Practice",
+      "authors": "Hönger RE, Montag D",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.9745/GHSP-D-23-00250",
+      "doi": "10.9745/GHSP-D-23-00250",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11057799",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "Qualitative case study: 17 interviews with former health ministers, vice ministers, regional health directors and finance ministry officials, 2021-2022."
+    },
+    {
+      "id": "pmc-11349220",
+      "title": "Health insurance system fragmentation and COVID-19 mortality: Evidence from Peru",
+      "publisher": "PLOS ONE",
+      "authors": "Anaya-Montes M, Gravelle H",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1371/journal.pone.0309531",
+      "doi": "10.1371/journal.pone.0309531",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11349220",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "One author works at Peru's Ministry of Economics and Finance, which funded the work; the paper states the funder had no role in the study."
+    },
+    {
+      "id": "pmc-10647135",
+      "title": "Comprehensive Health Insurance and access to maternal healthcare services among Peruvian women: a cross-sectional study using the 2021 national demographic survey",
+      "publisher": "BMC Pregnancy and Childbirth",
+      "authors": "Ramos Rosas E, Winkler V, Huicho L, Blas MM, Brenner S, De Allegri M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1186/s12884-023-06086-3",
+      "doi": "10.1186/s12884-023-06086-3",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10647135",
+      "accessed": "2026-11-23",
+      "license": "CC BY"
+    },
+    {
+      "id": "pmc-13465225",
+      "title": "Socioeconomic Inequalities in Health Service Utilization in the Peruvian Population: A National Population-Based Study",
+      "publisher": "Healthcare (Basel)",
+      "authors": "Arce-Huamani MA, Castañeda-Aguilar DH",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.3390/healthcare14152238",
+      "doi": "10.3390/healthcare14152238",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13465225",
+      "accessed": "2026-11-23",
+      "license": "CC BY"
+    },
+    {
+      "id": "frontiers-2026",
+      "title": "Impoverishment due to out-of-pocket health care expenses in Peruvian households",
+      "publisher": "Frontiers in Behavioral Economics",
+      "authors": "Sucari H, Paredes R, Tudela W, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/behavioral-economics/articles/10.3389/frbhe.2026.1747754/full",
+      "doi": "10.3389/frbhe.2026.1747754",
+      "accessed": "2026-11-23",
+      "license": "CC BY",
+      "funding_note": "Households survey (ENAHO) 2010-2021. The text gives slightly different peak figures in the abstract (4.5%) and body (4.6%); claims use the body."
+    },
+    {
+      "id": "inei-hs",
+      "title": "38,1% de la población con algún problema de salud acudió a un establecimiento en busca de atención (Condiciones de Vida en el Perú, press release)",
+      "publisher": "Instituto Nacional de Estadística e Informática (INEI), Peru",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion",
+      "accessed": "2026-11-23",
+      "funding_note": "National household survey (ENAHO), January-March 2025. Text is in Spanish."
+    },
+    {
+      "id": "ley32016",
+      "title": "Ley 32016: Ley que modifica la Ley 29344, Ley Marco de Aseguramiento Universal en Salud, para incorporar al SIS a los peruanos residentes en el exterior",
+      "publisher": "Congreso de la República del Perú (El Peruano, 9 May 2024)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://juventud.gob.pe/normativa-joven-pdf/4/73.pdf",
+      "accessed": "2026-11-23",
+      "funding_note": "Primary legal text, in Spanish."
+    },
+    {
+      "id": "gobpe-essalud",
+      "title": "Aportes a EsSalud recaudados por Sunat",
+      "publisher": "SUNAT (Peru tax authority), via gob.pe",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gob.pe/7942-aportes-a-essalud-recaudados-por-sunat",
+      "accessed": "2026-11-23",
+      "funding_note": "Government guidance page, in Spanish; the page does not state a revision date and quotes a minimum wage figure that other SUNAT pages show as since updated, so claims avoid that figure."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-23",
+      "note": "Profile created."
+    }
+  ]
+}

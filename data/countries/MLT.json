@@ -1,0 +1,920 @@
+{
+  "iso3": "MLT",
+  "name": "Malta",
+  "wave": 5,
+  "system_as_of": "2026-11-24",
+  "status": "draft",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-financed national health service with a large private sector (public hospitals, private primary and outpatient care)"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "MLT-covered-004",
+      "MLT-overview-004"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "MLT-overview-001",
+        "statement": "Malta's health system is mainly a tax-financed national health service, with governance, regulation and public service provision under the Ministry for Health and Active Ageing.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "overview",
+          "page": 8,
+          "char_start": 45703,
+          "char_end": 45908,
+          "passage_sha256": "a282f41199b9d5195284094dbe83ffe46de008430afcdd072732c8f57545b770"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-overview-002",
+        "statement": "The profile describes near-universal coverage: every resident is entitled to a broad benefits package, mostly free when care is delivered.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "overview",
+          "page": 8,
+          "char_start": 45909,
+          "char_end": 46048,
+          "passage_sha256": "f736824bf0f5eb9a0f01e82e1ed2ca7d9b4b64d3fe74c17dea232c83d3eb96cd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-overview-003",
+        "statement": "Private providers complement public services mainly in primary and ambulatory care, where patients typically pay relatively modest fees; public primary care clinics mostly take walk-ins, and many people have traditionally relied on private primary care.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "overview",
+          "page": 8,
+          "char_start": 46049,
+          "char_end": 46524,
+          "passage_sha256": "d743b55e0bdd9ee8a0685912e6f78ab2476b598e72245c6df39f058e61abbbab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-overview-004",
+        "statement": "Malta's national health system serves roughly half a million people and is tax-based, giving universal access to citizens and residents covered by the social security legislation.",
+        "valence": "neutral",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "overview",
+          "page": 3,
+          "char_start": 3754,
+          "char_end": 3984,
+          "passage_sha256": "08ac3d9414b5a4840efea5728e7c06fd19e020785fb8317c966fd8c0d9e162fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financing": [
+      {
+        "id": "MLT-financing-001",
+        "statement": "Public funding made up 66% of health expenditure in Malta in 2023 and out-of-pocket payments 31%, against an EU average of 16% for out-of-pocket; voluntary health insurance supplied 3%.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "financing",
+          "page": 9,
+          "char_start": 50051,
+          "char_end": 50272,
+          "passage_sha256": "debe2eeb2927236fc1485afdc6a201b304699e33facdfd55a2d41c93adfd72b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "MLT-financing-002",
+        "statement": "Public health funding is mainly tax-based: the annual government budget, financed by national taxes and other general revenue, funds the health ministry, hospitals are paid through global budgets, and income tax rates are set by Parliament and rise with income.",
+        "valence": "neutral",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "financing",
+          "page": 4,
+          "char_start": 6036,
+          "char_end": 6872,
+          "passage_sha256": "773e702037aff318333a05fa58c33ba56f451f823205c103f708097058d30118"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-financing-003",
+        "statement": "Private providers are paid by fee-for-service, either directly by patients or through voluntary insurance, and the state has increasingly paid private providers to carry out surgical or investigative procedures with long public waiting lists.",
+        "valence": "neutral",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "financing",
+          "page": 7,
+          "char_start": 11386,
+          "char_end": 11875,
+          "passage_sha256": "4d70c753b924cfd4314182734f7ec7bf6ee70645ac49e445bf5b6e1d9fe0e4c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "covered": [
+      {
+        "id": "MLT-covered-001",
+        "statement": "The public benefits package is comprehensive and includes fully covered public care, but not all prescription medicines are covered, and dental care is covered only for emergencies and for children.",
+        "valence": "neutral",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "covered",
+          "page": 6,
+          "char_start": 10630,
+          "char_end": 10890,
+          "passage_sha256": "52428572bdd73de6045548692af7b85105d82d36d3de782b72d11af788813238"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-covered-002",
+        "statement": "Vaccinations in the national schedule are provided free through primary care.",
+        "valence": "strength",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "covered",
+          "page": 12,
+          "char_start": 77361,
+          "char_end": 77478,
+          "passage_sha256": "3ae6a3b3e3808ffdede5d2fc340da1a24e44fbb269a160f527ddacb241c1868e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-covered-003",
+        "statement": "Malta runs four national screening programmes, three of them for cancer (breast, cervical and colorectal).",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "covered",
+          "page": 12,
+          "char_start": 77586,
+          "char_end": 77707,
+          "passage_sha256": "69af7b246f76e6b7d9e0aeaf901d324f38a170b2324e7ce0fc085c6b4e38e370"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-covered-004",
+        "statement": "Under the Health Act only an insured person can qualify for free healthcare benefits from the public system, and the Minister determines by regulation who counts as insured.",
+        "valence": "neutral",
+        "source_id": "health-act-mlt",
+        "locator": {
+          "section": "covered",
+          "page": 6,
+          "char_start": 12410,
+          "char_end": 12705,
+          "passage_sha256": "9ccd03130fc7ed2c586ca83956e19288551bd36959c432ed56c8778462f5ff66"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "MLT-covered-005",
+        "statement": "The Act requires a public register of every benefit, service and treatment in the public system with its cost or fee, and people who are not insured must pay the full fees listed in it.",
+        "valence": "neutral",
+        "source_id": "health-act-mlt",
+        "locator": {
+          "section": "covered",
+          "page": 7,
+          "char_start": 13670,
+          "char_end": 13907,
+          "passage_sha256": "94fa103e7a7710a4ffc5d7c05695626d10ea569d9ca64d84ef3e81e599b8a07e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "MLT-covered-006",
+        "statement": "The Minister sets the healthcare benefits provided by the public system after considering the advice of an Advisory Committee on Healthcare Benefits.",
+        "valence": "neutral",
+        "source_id": "health-act-mlt",
+        "locator": {
+          "section": "covered",
+          "page": 5,
+          "char_start": 10027,
+          "char_end": 10264,
+          "passage_sha256": "ba0e95d94f64421ab72d20169512c0cd22473b7044aa1b5e11260bd85b602899"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "MLT-covered-007",
+        "statement": "In drawing up the benefits list the Committee must primarily consider international evidence, health technology assessments, stakeholder consultation, public system capacity, social and epidemiological factors, and affordability and sustainability.",
+        "valence": "neutral",
+        "source_id": "health-act-mlt",
+        "locator": {
+          "section": "covered",
+          "page": 6,
+          "char_start": 11888,
+          "char_end": 12301,
+          "passage_sha256": "481b2a46b281e18b2b192c370b9130930b08d3c3ceca8f10d70a66022a699501"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "MLT-cost_sharing-001",
+        "statement": "Malta charges no user fees in the public system, but elective dental care, optical services and some pharmaceuticals are subject to financial means testing, and low-income people can get a set list of essential medicines free of charge.",
+        "valence": "neutral",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "cost_sharing",
+          "page": 7,
+          "char_start": 12172,
+          "char_end": 12482,
+          "passage_sha256": "f53f18ed966ac6fdf9c438620561a6a49b092bce3c3a1569ace8b81f0ce265d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-cost_sharing-002",
+        "statement": "The profile attributes Malta's high out-of-pocket spending mainly to private primary and specialist care, dental care and pharmaceuticals, and says longer waiting times for public specialist and elective services contribute.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "cost_sharing",
+          "page": 15,
+          "char_start": 94170,
+          "char_end": 94407,
+          "passage_sha256": "033c36efdbd6d98f019e9858d87128733a83b8c927b02ff084ee03c40c2cdcc0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "MLT-cost_sharing-003",
+        "statement": "Acute emergency dental care is free in hospital outpatient departments; other dental care carries out-of-pocket fees, which voluntary health insurance can cover.",
+        "valence": "neutral",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "cost_sharing",
+          "page": 12,
+          "char_start": 26801,
+          "char_end": 27002,
+          "passage_sha256": "dbf9db4d73bc1e6e19ce4b2b557513d61c134ef5750fc981b30aa933ef2f544f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-cost_sharing-004",
+        "statement": "Retail pharmaceuticals took 18% of Malta's health spending in 2023, against an EU average of 13%; just over half was publicly funded, and the profile reports out-of-pocket spending on pharmaceuticals at 41%.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "cost_sharing",
+          "page": 3,
+          "char_start": 6800,
+          "char_end": 7043,
+          "passage_sha256": "f26cc456e037b81b98f39e2d16d39a712b9aff696c4398569da05688032256c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [
+      {
+        "id": "MLT-access-001",
+        "statement": "Survey data from Eurofound show 3% of adults reported unmet needs for primary care and 8% for mental healthcare in 2024; both rates have grown since 2021 and are similar to EU averages.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "access",
+          "page": 14,
+          "char_start": 87402,
+          "char_end": 87599,
+          "passage_sha256": "11cfb7e331016748751bde525a426e7c21430bf65b359660a3952429e7aa5269"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-access-002",
+        "statement": "Waiting times for specialist care vary by specialty but have generally increased since the COVID-19 pandemic.",
+        "valence": "weakness",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "access",
+          "page": 11,
+          "char_start": 22801,
+          "char_end": 22890,
+          "passage_sha256": "c10a6903ef836f41c217bf081bacc8a818df8b08ed84bccd3065db29dbb1af9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-access-003",
+        "statement": "Overcrowding and long waits at the emergency department of Mater Dei Hospital, Malta's main public acute hospital, led in early 2025 to a partnership with three private hospitals to take non-complicated emergency cases.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "access",
+          "page": 10,
+          "char_start": 57396,
+          "char_end": 57728,
+          "passage_sha256": "bbd066b5639b48b08135b5dfc6c8bd3c791e989539522eb14945df60ff9d8110"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-access-004",
+        "statement": "Malta had 4.6 physicians per 1,000 people in 2023 against an EU average of 4.3, but only 7.9 nurses per 1,000 against 8.5, and general practitioners were 18% of doctors in 2022, a share that has fallen gradually over a decade.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "access",
+          "page": 9,
+          "char_start": 51937,
+          "char_end": 52344,
+          "passage_sha256": "4b1c425fca2c4a4a8e45d7aa4081d187f0c049f4650699128184a14ce2da0d1e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "MLT-access-005",
+        "statement": "Malta had 4.1 hospital beds per 1,000 people in 2023, below the EU average of 5.1.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "access",
+          "page": 9,
+          "char_start": 53262,
+          "char_end": 53377,
+          "passage_sha256": "759c5b1aac98165e307c78d211a8795a83e9f1e29d47b738c14698692a4eadee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "MLT-outcomes-001",
+        "statement": "Life expectancy at birth in Malta peaked at 83.4 years in 2023 and was 83.3 in 2024, among the highest in the EU, after falling by over half a year during the pandemic.",
+        "valence": "strength",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "outcomes",
+          "page": 3,
+          "char_start": 4485,
+          "char_end": 4735,
+          "passage_sha256": "7af34612fae39241a35d717b8fa0e9e4517d28a5979c0158203eebfc0f735b90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-outcomes-002",
+        "statement": "Preventable mortality fell from 130 to 102 per 100,000 between 2012 and 2019, rose to 133 in 2021 and was 119 in 2022, still far below the EU average of 168.",
+        "valence": "strength",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "outcomes",
+          "page": 11,
+          "char_start": 65136,
+          "char_end": 65816,
+          "passage_sha256": "4a2164e8912a3dcdbc0a4d978f883b6bfd4cb729281111a384b5c9c82263f9ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "MLT-outcomes-003",
+        "statement": "Treatable mortality fell from 109 per 100,000 in 2012 to an all-time low of 82 in 2021 and was 86 in 2022, just under the EU average of 90.",
+        "valence": "strength",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "outcomes",
+          "page": 12,
+          "char_start": 71935,
+          "char_end": 72223,
+          "passage_sha256": "bc1f4b8ff44ec4d03411631f11dbefbda025170a6a44d3e8fadd4dc5de54f016"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "MLT-outcomes-004",
+        "statement": "Programme data for 2022 show participation of 44% in breast cancer screening (women 51-69), 16% in cervical screening (women 25-45) and 25% in colorectal screening (adults 50-74), lower than survey figures, which the profile says probably reflects screening outside public programmes.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "outcomes",
+          "page": 13,
+          "char_start": 78194,
+          "char_end": 78649,
+          "passage_sha256": "40c2b722a298aa13d3fe5a399bf92acad17cd45768101c48083e0bb82b77c919"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "MLT-outcomes-005",
+        "statement": "Childhood measles immunisation fell to 88% in Malta in 2024, below the EU average of 92%, while HPV vaccination of 15-year-old girls reached 80%, against an EU average of 63%.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "outcomes",
+          "page": 12,
+          "char_start": 76675,
+          "char_end": 77193,
+          "passage_sha256": "e1994e69b758bfe02357863aac717f850fd125a42de57882f852e4e53e86601f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-outcomes-006",
+        "statement": "Malta recorded 283 neonatal deaths among 63,890 live births between 2006 and 2020 (4.4 per 1,000), 39.6% of them attributed to congenital anomalies.",
+        "valence": "weakness",
+        "source_id": "neonatal-mlt-2024",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 2693,
+          "char_end": 2860,
+          "passage_sha256": "c0b83bfef17305ee32b10d614a4719a5456e4dff05735d47a267efc6d81db280"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": "2006-2020"
+      },
+      {
+        "id": "MLT-outcomes-007",
+        "statement": "The authors report that Malta's neonatal mortality rate was high compared with other EU countries, especially for deaths attributed to congenital anomalies.",
+        "valence": "weakness",
+        "source_id": "neonatal-mlt-2024",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 3061,
+          "char_end": 3154,
+          "passage_sha256": "8f89d5e77c6fdf6ff38caf114e23a3adb692bd841f73fc8e5a124ddbb1745e10"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": "2011-2020"
+      }
+    ],
+    "costs": [
+      {
+        "id": "MLT-costs-001",
+        "statement": "Current health spending per person was EUR 3,563 in 2023 (EU average EUR 3,832) and 8.8% of GDP (EU average 10.0%).",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "costs",
+          "page": 9,
+          "char_start": 49785,
+          "char_end": 50050,
+          "passage_sha256": "d966b8307c9039547bb903650f4193e50b024a705501228e0926e72196698f6e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "MLT-costs-002",
+        "statement": "In 2023 outpatient care took 30% of Maltese health spending, pharmaceuticals and medical devices 22% and inpatient care 22%, while preventive care took only 1%, against an EU average of 4%.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "costs",
+          "page": 9,
+          "char_start": 50901,
+          "char_end": 51211,
+          "passage_sha256": "7d6b4030b70807457224da289426f903c985ee0d667c7e7fa1039d23d6bd6d4b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "MLT-what_works-001",
+        "statement": "Only 0.5% of people who needed medical care in Malta in 2024 reported being unable to get it because of cost, distance or waiting times, the second-lowest rate in the EU (average 3.6%); among people at risk of poverty the rate was 1%.",
+        "valence": "strength",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "what_works",
+          "page": 14,
+          "char_start": 85751,
+          "char_end": 86288,
+          "passage_sha256": "89344a0cecfca0e30631aebd94297607bdb54943a04d32d63c6b5efd8af4302e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-what_works-002",
+        "statement": "The Health System Summary says Malta's broad range of services yields one of the lowest rates of unmet need for medical care in the EU.",
+        "valence": "strength",
+        "source_id": "hss-mlt-2024",
+        "locator": {
+          "section": "what_works",
+          "page": 7,
+          "char_start": 12041,
+          "char_end": 12171,
+          "passage_sha256": "0acedb913f459440a7a3ffe4252d7b219beb85ada694933aa99d0c324b70a4a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-what_works-003",
+        "statement": "In 2022 Malta was among the EU countries with the lowest rates of death from preventable causes, well under the EU average of 168 per 100,000.",
+        "valence": "strength",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "what_works",
+          "page": 11,
+          "char_start": 65668,
+          "char_end": 65816,
+          "passage_sha256": "290750cfee1151d4d4c2eebe26fb23fe86bfc0d7d6476ec8c1451ed870b9ddc2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2022
+      }
+    ],
+    "problems": [
+      {
+        "id": "MLT-problems-001",
+        "statement": "The profile reports obesity rates in Malta are the highest in the EU for both adults and adolescents.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "problems",
+          "page": 3,
+          "char_start": 5048,
+          "char_end": 5120,
+          "passage_sha256": "1de81a641a99529d311d989017c55de457963059322618a8d043c438dd3c6acc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-problems-002",
+        "statement": "In 2022 avoidable hospital admissions in Malta exceeded the EU average for diabetes (141 vs 116 per 100,000), asthma and COPD (239 vs 158) and congestive heart failure (382 vs 239).",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "problems",
+          "page": 13,
+          "char_start": 78976,
+          "char_end": 79300,
+          "passage_sha256": "aa7fb110df90bc6afe6fa6b871899fc910950c309a96a0bd0a6feda974a680a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "MLT-problems-003",
+        "statement": "The profile says continuity of care in primary and outpatient settings is a persistent issue because care is split between public and private providers and there is no patient registration system.",
+        "valence": "weakness",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "problems",
+          "page": 14,
+          "char_start": 84804,
+          "char_end": 85034,
+          "passage_sha256": "8000da4190840f1057455acf322c3a0a88911206e1808c8fef05bb526cf64e21"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-problems-004",
+        "statement": "The authors link Malta's high neonatal mortality mainly to early neonatal deaths, with a high share due to congenital anomalies, and note that termination of pregnancy is illegal in Malta.",
+        "valence": "weakness",
+        "source_id": "neonatal-mlt-2024",
+        "locator": {
+          "section": "problems",
+          "char_start": 3404,
+          "char_end": 3596,
+          "passage_sha256": "3b238b16d4428c8dd93ceeb1b40556138dce452cdb0a769746a2833c77dd0a64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "MLT-reforms-001",
+        "statement": "Three big public hospitals were run by private contractors under public-private partnership deals; the arrangements were later unwound because of governance worries and gaps in the contracts, and the Ministry took control back in 2024.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "reforms",
+          "page": 8,
+          "char_start": 46525,
+          "char_end": 46904,
+          "passage_sha256": "0cbcb1774aeac6f508abc35b6822d3298c4365309434d67735518cdb285d13dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "MLT-reforms-002",
+        "statement": "Malta published a Non-Communicable Disease Prevention Framework for 2025-35 in September 2025, covering eight priority areas, including reducing risk factors such as tobacco, alcohol, poor diet and inactivity.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "reforms",
+          "page": 12,
+          "char_start": 75921,
+          "char_end": 76386,
+          "passage_sha256": "feb66249acf630fde5b5f620e1022a3a8b0f57c48b9c27185c08435c0e83f143"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "MLT-reforms-003",
+        "statement": "A national Health Workforce Strategy launched in 2022 aims to improve training pathways, career prospects in family medicine and multidisciplinary teamwork in primary care.",
+        "valence": "neutral",
+        "source_id": "chp-mlt-2025",
+        "locator": {
+          "section": "reforms",
+          "page": 9,
+          "char_start": 52346,
+          "char_end": 52588,
+          "passage_sha256": "294651d89f77db222ea6b0ac1e4d5119dfdef03995b13fb0f08f2955eb485a99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "MLT-reforms-004",
+        "statement": "Building health technology assessment capacity in Malta took longer than the planned two years, according to authors describing the project.",
+        "valence": "neutral",
+        "source_id": "hta-mlt-2024",
+        "locator": {
+          "section": "reforms",
+          "char_start": 2546,
+          "char_end": 2668,
+          "passage_sha256": "f977c4b6fb8b2aa2206ea14fd45b024b7fdf68ea500c894a1d5ae49430498707"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/MLT.json",
+  "sources": [
+    {
+      "id": "chp-mlt-2025",
+      "title": "State of Health in the EU: Malta, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-malta-final-web.pdf",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "hss-mlt-2024",
+      "title": "Malta: Health system summary 2024",
+      "publisher": "WHO Regional Office for Europe on behalf of the European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://www.um.edu.mt/library/oar/bitstream/123456789/138129/1/Malta_health_system_summary_2024.pdf",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "health-act-mlt",
+      "title": "Health Act (Chapter 528 of the Laws of Malta), consolidated text as amended to 2018",
+      "publisher": "Government of Malta (copy hosted by WHO Mental Health and Substance Use legislation database)",
+      "tier": 3,
+      "type": "government",
+      "year": 2018,
+      "url": "https://platform.who.int/docs/default-source/mca-documents/policy-documents/law/MLT-AD-28-01-LAW-2018-eng-Health-Act.pdf",
+      "accessed": "2026-11-24",
+      "funding_note": "Statute text as amended up to Legal Notice 102 of 2018; later amendments (to 2024) are not reflected."
+    },
+    {
+      "id": "neonatal-mlt-2024",
+      "title": "Evaluating neonatal mortality in Malta compared with other EU countries: exploring the influence of congenital anomalies and maternal factors",
+      "publisher": "Paediatric and Perinatal Epidemiology",
+      "authors": "Wilhelm M, Gatt M, Hrzic R, Calleja N, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1111/ppe.13138",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11603760",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "hta-mlt-2024",
+      "title": "A blueprint for health technology assessment capacity building: lessons learned from Malta",
+      "publisher": "International Journal of Technology Assessment in Health Care",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11570024/",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11570024",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-24",
+      "note": "Profile created."
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Panama",
   "wave": 5,
   "system_as_of": "2026-11-24",
-  "status": "needs_review",
+  "status": "verified",
   "model": {
     "type": "mixed",
     "label": "Two parallel public subsystems: the Ministry of Health (tax-funded, covers everyone in practice) and the Social Security Fund CSS (payroll-funded, for formal workers and dependants), with a small voluntary private sector"
@@ -27,8 +27,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       },
       {
@@ -44,8 +45,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       },
       {
@@ -61,8 +63,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       },
       {
@@ -78,8 +81,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       },
       {
@@ -95,31 +99,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       }
     ],
     "financing": [
-      {
-        "id": "PAN-financing-001",
-        "statement": "In the MINSA analysis (data to 2021), the CSS sickness and maternity programme is funded largely by employers, who pay 8% of the wages they pay. Employees pay 0.5% towards the programme's cash benefits such as the maternity subsidy. The analysis predates the 2025 reform of the CSS.",
-        "valence": "neutral",
-        "source_id": "pan-paho-fin",
-        "locator": {
-          "page": 28,
-          "char_start": 52757,
-          "char_end": 53048,
-          "passage_sha256": "73456670f516cd4cd44ac5df4f7a8afd04d5cb3b1a5171d21c8b0a5feb69595d"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
-        },
-        "data_year": 2021
-      },
       {
         "id": "PAN-financing-002",
         "statement": "The same programme also takes contributions from pensioners of the CSS and the state, 10% of the state's net revenue from fibre-optic concessions, and contributions from the voluntary regime (which includes self-employed workers) plus bequests and donations earmarked for it.",
@@ -133,8 +120,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -151,8 +139,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -169,8 +158,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -187,8 +177,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -205,8 +196,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -223,14 +215,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "PAN-financing-008",
-        "statement": "Private spending is about a third of total health spending. Voluntary private insurance rose from 4.6% to 6.3% of total health spending between 2000 and 2019, but remains far below out-of-pocket payments.",
+        "statement": "Private spending is about a third of total health spending. Voluntary private insurance rose from 4.6% to 6.3% of total health spending between 2000 and 2019.",
         "valence": "neutral",
         "source_id": "pan-paho-fin",
         "locator": {
@@ -241,8 +234,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -259,14 +253,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "PAN-financing-010",
-        "statement": "According to the World Bank, public health spending comes from general fiscal revenue, including corporate income tax, and from parafiscal employer and employee contributions to the CSS. Households also pay private insurance premiums and out-of-pocket costs such as copayments and direct payments to providers and pharmacies.",
+        "statement": "According to the World Bank, public health spending comes from general fiscal revenue, including corporate income tax, and from parafiscal employer and employee contributions to the CSS. Some households also pay private insurance premiums, and households bear out-of-pocket costs such as copayments and direct payments to providers and pharmacies.",
         "valence": "neutral",
         "source_id": "pan-wb-p175211",
         "locator": {
@@ -277,8 +272,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       }
     ],
@@ -296,14 +292,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "PAN-covered-002",
-        "statement": "Since a 1990 agreement MINSA and the CSS have let insured people use MINSA facilities and uninsured people use CSS facilities. Each institution bills the other, so that each covers the costs of its own responsibility population (uninsured for MINSA, insured for the CSS).",
+        "statement": "To widen coverage in the country's interior regions, MINSA and the CSS signed an agreement in 1990 under which insured people can use MINSA facilities and uninsured people can use CSS facilities. Each institution bills the other so that each covers the costs of its own responsibility population (uninsured for MINSA, insured for the CSS).",
         "valence": "neutral",
         "source_id": "pan-paho-fin",
         "locator": {
@@ -314,8 +311,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -332,8 +330,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -352,14 +351,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "PAN-cost_sharing-002",
-        "statement": "MINSA's own assessment is that the public system carries out socioeconomic evaluations, so patients who cannot pay a copayment are not blocked from the care they need. The same analysis acknowledges that copayments partly obstruct access for low-income people.",
+        "statement": "MINSA's analysis says the public system carries out socioeconomic evaluations, so that patients who cannot pay a copayment do not face an economic barrier to the care they need.",
         "valence": "neutral",
         "source_id": "pan-paho-fin",
         "locator": {
@@ -370,8 +370,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -388,8 +389,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -406,13 +408,14 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       },
       {
         "id": "PAN-cost_sharing-005",
-        "statement": "PAHO's Health in the Americas profile reports for 2021 domestic general government health spending of 5.38% of GDP and out-of-pocket spending of 37.33% of total health expenditure. This out-of-pocket share is higher than the World Bank review's 27.6%, and neither source states the definition behind its figure.",
+        "statement": "PAHO's Health in the Americas profile reports, for 2021, public expenditure on health of 5.38% of GDP and out-of-pocket spending of 37.33% of total health expenditure.",
         "valence": "neutral",
         "source_id": "pan-paho-hia",
         "locator": {
@@ -423,8 +426,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -443,8 +447,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       }
     ],
@@ -462,27 +467,29 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       }
     ],
     "access": [
       {
         "id": "PAN-access-001",
-        "statement": "A CSS health planner told a 2021 national dialogue that surgical waiting lists are kept by the surgeons themselves in their own practices. In February 2021 the CSS reported 17,087 pending surgical procedures, mainly in ophthalmology (48%) and general surgery (28%).",
+        "statement": "A CSS health planner told a national dialogue that surgical waiting lists are managed by surgeons in their own practices. The MINSA analysis reports that in February 2021 there were 17,087 surgical procedures in the institution's facilities, with ophthalmology (48%) and general surgery (28%) the main pending operations.",
         "valence": "weakness",
         "source_id": "pan-paho-fin",
         "locator": {
           "page": 47,
-          "char_start": 88296,
+          "char_start": 87978,
           "char_end": 89163,
-          "passage_sha256": "5b0f877c97d4caf98d4072cf3ea6776bfa46a1e62ab849dccac30f5907bcf78b"
+          "passage_sha256": "afa16e35aa73fffdd837a38c2cf2e9d2a14e8468295556406bbb1d9bce52cce9"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -499,8 +506,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -517,14 +525,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "PAN-access-004",
-        "statement": "In 2020 indigenous women in the comarcas received on average half the recommended prenatal checks, and only 6 in 10 were attended by a professional at birth.",
+        "statement": "In 2020 indigenous women in the regions received on average half the recommended prenatal checks, and only 6 in 10 indigenous women were attended by a professional at delivery.",
         "valence": "weakness",
         "source_id": "pan-wb-idu",
         "locator": {
@@ -535,28 +544,11 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
-      },
-      {
-        "id": "PAN-access-005",
-        "statement": "In 2022, 15 of Panama's 39 maternal deaths occurred in the Ngäbe-Buglé comarca.",
-        "valence": "weakness",
-        "source_id": "pan-wb-idu",
-        "locator": {
-          "section": "Note 9: Modernización de los servicios de salud",
-          "char_start": 101535,
-          "char_end": 101608,
-          "passage_sha256": "db7244585ffdc69d733eaf9daa5380cf8e45f174aee8e4651285d3de3f092b32"
-        },
-        "verification": {
-          "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
-        },
-        "data_year": 2022
       }
     ],
     "outcomes": [
@@ -573,8 +565,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -591,8 +584,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
@@ -609,8 +603,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2020
       },
@@ -627,8 +622,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -645,8 +641,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -663,8 +660,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -672,7 +670,7 @@
     "costs": [
       {
         "id": "PAN-costs-001",
-        "statement": "The World Bank reports that Panama has one of the highest health spending levels per head in its region: US$2,491 in 2019 (PPP-adjusted), against US$1,636 in Costa Rica, the next highest.",
+        "statement": "The World Bank reports that Panama has one of the highest health spending levels per head in its region: US$2,491 in 2019, against US$1,636 in Costa Rica, the next highest.",
         "valence": "neutral",
         "source_id": "pan-wb-p175211",
         "locator": {
@@ -683,14 +681,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "PAN-costs-002",
-        "statement": "Total health spending stayed around 7% of GDP over two decades, reaching 7.6% in 2019, its highest level in the series. Per-capita spending reached US$1,193 in 2019 in the MINSA analysis (current US$, not the PPP basis used by the World Bank).",
+        "statement": "Total health spending stayed around 7% of GDP over two decades, reaching 7.6% in 2019, the highest level in the series. Per-capita health spending reached US$1,193 in 2019.",
         "valence": "neutral",
         "source_id": "pan-paho-fin",
         "locator": {
@@ -701,26 +700,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2019
       },
       {
         "id": "PAN-costs-003",
-        "statement": "The World Bank says the increase in Panama's per-capita health spending is not yet reflected in better health outcomes, so it calls for spending efficiency and more effective interventions.",
+        "statement": "The World Bank says Panama's per-capita health spending is significantly higher than in other countries of the region, and that the increase is not yet reflected in better health outcomes, which implies a need to promote spending efficiency and effective interventions.",
         "valence": "weakness",
         "source_id": "pan-wb-p175211",
         "locator": {
           "page": 28,
-          "char_start": 38912,
+          "char_start": 38757,
           "char_end": 39096,
-          "passage_sha256": "f5d22b17d3a180db30131148186b20e9528c3e28102ccab1d7511d93ad30a366"
+          "passage_sha256": "e7ef21a73a8af52d7e4dede6feae891325b248e4050386c38755aaee5e14830f"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         }
       },
       {
@@ -736,8 +737,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       }
@@ -756,14 +758,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "PAN-what_works-002",
-        "statement": "A 2025 peer-reviewed analysis reports that Panama introduced HPV vaccination into its national immunisation programme in 2008 and describes itself as the first country to do so.",
+        "statement": "A 2025 peer-reviewed analysis reports that Panama introduced the HPV vaccine into the Ministry of Health's national immunisation programme in 2008, and says it thereby became the first country to implement the HPV vaccine.",
         "valence": "strength",
         "source_id": "pan-hpv",
         "locator": {
@@ -774,8 +777,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -792,26 +796,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "PAN-what_works-004",
-        "statement": "A World Bank COVID-19 emergency project equipped 14 laboratories and 9 intensive and intermediate care units, and contributed to vaccinating 84% of the population against COVID-19 through vaccine procurement.",
+        "statement": "The World Bank reports that its Panama COVID-19 Emergency Response Project increased laboratory and critical care capacity (14 laboratories equipped and 9 intensive and intermediate care units fully equipped) and contributed to vaccinating 84% of the population through vaccine procurement.",
         "valence": "strength",
         "source_id": "pan-wb-2025",
         "locator": {
           "section": "Results Achieved",
-          "char_start": 5852,
+          "char_start": 5702,
           "char_end": 6162,
-          "passage_sha256": "38c91e91c0633688ce47f0950404955a4179d2c0a7506c346b7b302421d66364"
+          "passage_sha256": "3788e1fe66bc31e2a6f434b8da487af0a9b3200fb887399aa536f0b298a135e9"
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -828,8 +834,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -846,8 +853,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2023
       }
@@ -866,8 +874,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -884,14 +893,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "PAN-problems-003",
-        "statement": "The MINSA analysis says both MINSA and the CSS cover populations in the same territory, which duplicates administrative costs and rules out strategic purchasing to change provider behaviour. It adds that the compensation agreements between them are weak and the cost data opaque.",
+        "statement": "The MINSA analysis says both MINSA and the CSS cover populations in the same territory, which duplicates administrative costs and rules out strategic purchasing to change provider behaviour.",
         "valence": "weakness",
         "source_id": "pan-paho-fin",
         "locator": {
@@ -902,8 +912,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -920,8 +931,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2021
       },
@@ -938,8 +950,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
@@ -956,8 +969,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       }
@@ -976,27 +990,28 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "PAN-reforms-002",
-        "statement": "Following the World Bank's analytical work, Panama was the first country formally admitted to the Alliance for Primary Health Care in the Americas, a joint initiative of the World Bank, PAHO and the IDB, under which the agencies and MINSA are preparing joint plans for further assistance.",
+        "statement": "Panama became the first country formally admitted to the Alliance for Primary Health Care in the Americas, which the World Bank, PAHO and the Inter-American Development Bank run jointly.",
         "valence": "neutral",
         "source_id": "pan-wb-2025",
         "locator": {
           "section": "Results Achieved",
           "char_start": 5337,
-          "char_end": 5440,
-          "passage_sha256": "9c399d0e82534d3d7d8c6e27fe05b878d7222a12de32e4f9b1207c773390091a"
+          "char_end": 5569,
+          "passage_sha256": "6235e01c42ed65884cb12129fe8d55ecebca266a1a446279b3b6696f09b077df"
         },
         "verification": {
-          "passage_found": "fail",
-          "supports": "pending",
+          "passage_found": "pass",
+          "supports": "pass",
           "checked_on": "2026-11-24",
-          "note": "Statement copies 12+ consecutive words from the source; rewrite in own words."
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1013,8 +1028,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
@@ -1031,14 +1047,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2025
       },
       {
         "id": "PAN-reforms-005",
-        "statement": "An IDB technical cooperation project authorised in October 2024 aims to help MINSA and the CSS functionally integrate services, with digital tools for patient follow-up and joint public purchasing of services and medical supplies.",
+        "statement": "A technical cooperation project aims to support MINSA and the CSS in the functional integration of health services, with digital tools for patient management and joint public purchasing of services and medical supplies.",
         "valence": "neutral",
         "source_id": "pan-idb-t1360",
         "locator": {
@@ -1049,14 +1066,15 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2024
       },
       {
         "id": "PAN-reforms-006",
-        "statement": "A 2018 executive decree (No. 420) adopted a care model built on primary care, reorganising the service network into integrated health service networks.",
+        "statement": "The MINSA analysis describes a primary-care strategy that reorders the service network and forms integrated health service networks (RISS), based on the individual, family, community and environmental care model set by Executive Decree 420 of December 2018.",
         "valence": "neutral",
         "source_id": "pan-paho-fin",
         "locator": {
@@ -1067,8 +1085,9 @@
         },
         "verification": {
           "passage_found": "pass",
-          "supports": "pending",
-          "checked_on": "2026-11-24"
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
         },
         "data_year": 2018
       }
@@ -1186,6 +1205,10 @@
     {
       "date": "2026-11-24",
       "note": "Profile created."
+    },
+    {
+      "date": "2026-11-24",
+      "note": "Initial research profile: 56 claims, 9 sources. Two claims deleted after failing the support review twice."
     }
   ]
 }

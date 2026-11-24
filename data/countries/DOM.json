@@ -1,0 +1,993 @@
+{
+  "iso3": "DOM",
+  "name": "Dominican Republic",
+  "wave": 5,
+  "system_as_of": "2026-11-24",
+  "status": "draft",
+  "model": {
+    "type": "mixed",
+    "label": "Social health insurance with a subsidised regime for the poor funded from general taxes and a contributory regime for formal workers, delivered through a public provider network (SNS) and private providers"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "DOM-overview-003"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "DOM-overview-001",
+        "statement": "The National Health Service (SNS) was created by Law 123-15 of 16 July 2015 as part of the country's health system reform.",
+        "valence": "neutral",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 10,
+          "char_start": 16595,
+          "char_end": 16782,
+          "passage_sha256": "31f90a5a54823fb20e7732e001d646d830f695fa6f5140727f29f33273332755"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        }
+      },
+      {
+        "id": "DOM-overview-002",
+        "statement": "According to the SNS, its creation separated the functions of financing, regulation and service provision, in line with the General Health Law (Law 42-01) and the Dominican Social Security System law (Law 87-01).",
+        "valence": "neutral",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 10,
+          "char_start": 17539,
+          "char_end": 17811,
+          "passage_sha256": "80299ee6d71495f62f40636859526f3941be716182da14e742fcda77d63f16df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        }
+      },
+      {
+        "id": "DOM-overview-003",
+        "statement": "The 2018 World Bank study describes Law 87-01 of 2001 as establishing Family Health Insurance (SFS) with the goal of universality: protection for the entire population under one Basic Health Plan, with no exclusions.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 15,
+          "char_start": 21929,
+          "char_end": 22226,
+          "passage_sha256": "33ebc0a6bb9155e0ed66634b1052687d2557d43c53b068001f12f07c56eb28c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2001,
+        "historical": true
+      },
+      {
+        "id": "DOM-overview-004",
+        "statement": "The SNS's 2025-2028 strategic plan says coverage under the Dominican Social Security System has grown steadily since 2001 and now reaches more than 98% of the population.",
+        "valence": "strength",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 54,
+          "char_start": 95479,
+          "char_end": 95646,
+          "passage_sha256": "2664406a5411b954aebb49ccfc93729a7564bec83f4126084862bd76f4a9c26d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-overview-005",
+        "statement": "In December 2024 the subsidised regime had 5,715,856 affiliates, according to the SNS plan's table of Social Security Treasury data.",
+        "valence": "neutral",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 54,
+          "char_start": 96078,
+          "char_end": 96596,
+          "passage_sha256": "1aaf5a0535b8ea40c384b2ff0726fcbab0d0c9a41a07453870ab5ee8be859c9e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-overview-006",
+        "statement": "In December 2024 the contributory regime had 4,789,676 affiliates, according to the same table.",
+        "valence": "neutral",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 55,
+          "char_start": 96780,
+          "char_end": 97300,
+          "passage_sha256": "f2cf0b7c174b611f4b2e1e6a24505aec3161a5f6a931bc45d2846fcf2cb8fba3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financing": [
+      {
+        "id": "DOM-financing-001",
+        "statement": "As designed in Law 87-01, formal-sector employees (the contributory regime) are financed by salary-based contributions from employee and employer. The unemployed, disabled and people with income below the minimum wage are financed by the government from general taxes.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 15,
+          "char_start": 22227,
+          "char_end": 22527,
+          "passage_sha256": "aed92ddc01be1f4af92468c2bf20cb83512ae07196a70f093ac89ebe57365d10"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-financing-002",
+        "statement": "The 2018 World Bank study says the National Health Insurance (SENASA) was created as a public risk administrator to manage the subsidised regime and contract public providers.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 16,
+          "char_start": 23640,
+          "char_end": 23831,
+          "passage_sha256": "7f60882ab17c41e4fa50dfcfe4b4ddfa613dba2acabd832f1bcb9d985b7859a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-financing-003",
+        "statement": "Spending financed by mandatory schemes (general taxes and social security contributions) rose from 1.8% of GDP in 2008 to 2.9% in 2015. Central government financing made up 62% of public health funds in 2008 and 55% in 2015.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 19,
+          "char_start": 29830,
+          "char_end": 30169,
+          "passage_sha256": "3f84d299ee31ce712ae473203b2a0b9949774eb3c742a82135d9c1d6a3245f68"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "DOM-financing-004",
+        "statement": "For the subsidised regime, supply-side funding (budget transfers to the Ministry of Health's provider network) was 86% of financing in 2008 and 73% in 2015, while demand-side funding assigned through SENASA rose from 14% to 27%.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 20,
+          "char_start": 30391,
+          "char_end": 30680,
+          "passage_sha256": "27a4256e78ea59b00f327e0bb498774ea8a8ea1be6c1c76e84b1e6bd0d041c56"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "DOM-financing-005",
+        "statement": "First-level care centres are paid by capitation to the Regional Health Services. About 20% of SENASA's transfers to them are meant for primary care, with a variable part tied to first-level care indicators.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 28,
+          "char_start": 55388,
+          "char_end": 56109,
+          "passage_sha256": "5786363afbad82538e8399c8628e20e4f5e9f053a1214581a43795bcd4100a3f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-financing-006",
+        "statement": "The SNS says health financing has historically concentrated on specialised levels of care, limiting the first level's ability to fulfil its role as a preventive, problem-solving gateway to the system.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 45,
+          "char_start": 83471,
+          "char_end": 83891,
+          "passage_sha256": "c88fda63643851656b47098e416b920d0d32c15e83db234a7147a6c1782def06"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "covered": [
+      {
+        "id": "DOM-covered-001",
+        "statement": "Law 87-01 provides for a Basic Health Plan covering health promotion and prevention, primary care including emergencies, specialised care and surgery, diagnostics, paediatric and preventive dental care, rehabilitation and complementary services. Outpatient medicines are covered at 100% for the subsidised population and 70% for the contributory and contributory-subsidised regimes.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 29,
+          "char_start": 58895,
+          "char_end": 59562,
+          "passage_sha256": "e25dcc4be6aa13bb1c29d729bf3864a39a9006aa7149684a3314a162c194b9c2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-covered-002",
+        "statement": "The Health Services Plan's content and cost were set in 2006-2007 negotiations among key actors, rather than on scientific evidence, according to the 2018 World Bank study.",
+        "valence": "weakness",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 29,
+          "char_start": 59836,
+          "char_end": 60005,
+          "passage_sha256": "b1a92f7fa39795e4f35049f5323826c1f32d729cee02685b287a7d915200b9ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2007,
+        "historical": true
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "DOM-cost_sharing-001",
+        "statement": "A 2007 presidential decree that started the contributory regime cut Basic Health Plan benefits and introduced important copayments and financial coverage ceilings; the plan was then renamed the Health Services Plan (PDSS).",
+        "valence": "weakness",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 16,
+          "char_start": 24999,
+          "char_end": 25229,
+          "passage_sha256": "9f1ad918ee0de4641e67757cad15909baf447858758ddb86fec73e26b393249b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2007,
+        "historical": true
+      },
+      {
+        "id": "DOM-cost_sharing-002",
+        "statement": "The 2018 World Bank study found that the rise in public financing since the contributory regime began in 2008 was not enough to significantly reduce out-of-pocket payments as of 2015.",
+        "valence": "weakness",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 19,
+          "char_start": 29398,
+          "char_end": 29712,
+          "passage_sha256": "08c3b88df482c814a81a3826f156455bc5d7df3c97e406e0ec050ed290f3f478"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "DOM-cost_sharing-003",
+        "statement": "PAHO's Health in the Americas profile reports for 2021 public expenditure on health of 3.29% of GDP and 17.74% of total public expenditure, with out-of-pocket spending at 23.59% of total health expenditure.",
+        "valence": "neutral",
+        "source_id": "dom-hia",
+        "locator": {
+          "section": "Environmental and social determinants of health",
+          "char_start": 2775,
+          "char_end": 3004,
+          "passage_sha256": "8599c2e2499c5555f802fab1c295a356d399f498006d64cf8d49315c8c5fb4f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [
+      {
+        "id": "DOM-access-001",
+        "statement": "The SNS plan reports about 1.5 hospital beds per 1,000 inhabitants nationally (public and private), and about 0.8 per 1,000 in the public service network.",
+        "valence": "neutral",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 38,
+          "char_start": 72784,
+          "char_end": 73065,
+          "passage_sha256": "b7255ee24d81101942112cd41f6db12523629d53828a1af6dbc273e774c82627"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-access-002",
+        "statement": "The SNS plan says marked inequalities in access persist, particularly in rural and border areas and vulnerable communities, where geographic dispersion and scarce health infrastructure in remote areas deepen barriers to timely care.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 39,
+          "char_start": 75449,
+          "char_end": 75860,
+          "passage_sha256": "4d22af2fc57626c39d82c984b4dac79c92984133fa26e8581c76467eeb6fcf85"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-access-003",
+        "statement": "Public hospitals and primary care centres often become saturated as demand grows, and the SNS says many facilities operate in obsolete or inadequate physical conditions that harm quality and efficiency.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 37,
+          "char_start": 72017,
+          "char_end": 72428,
+          "passage_sha256": "527e7ebc5c5f2110c1535740861771d48b0c0aad681bb9ff8cc7cd9354aeca35"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-access-004",
+        "statement": "The SNS reports a critical shortage of medical, nursing and technical staff, especially in specialised areas and in rural and remote regions.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 41,
+          "char_start": 78561,
+          "char_end": 78725,
+          "passage_sha256": "e7f2abde413b8f8844503ae5e581d5b56b542382b11dc01a8a0fc3295568f62d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-access-005",
+        "statement": "In 2024 the SNS employed 85,546 people. It had 22.09 health professionals per 10,000 inhabitants, below the international recommendation of at least 25 per 10,000.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 42,
+          "char_start": 79138,
+          "char_end": 79699,
+          "passage_sha256": "ee03951a22a5e362a883715f814a2f1033bc7ab58af56b00af9e14225d9bba7d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-access-006",
+        "statement": "Specialised health staff remain concentrated in the main urban areas, despite efforts to meet demand for specialists in rural and border regions.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 43,
+          "char_start": 80943,
+          "char_end": 81182,
+          "passage_sha256": "998224e9f5f7241731a8fee9f29675dfecca0acf30b611826ce6bb0e517ddc0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "DOM-outcomes-001",
+        "statement": "PAHO reports that in 2019 potentially avoidable premature mortality was 380 per 100,000, 67.6% above the regional average. Preventable-cause mortality was 219.8 per 100,000 (60.3% above the regional average) and treatable-cause mortality was 160.2, against a regional average of 89.6.",
+        "valence": "weakness",
+        "source_id": "dom-hia",
+        "locator": {
+          "section": "Mortality",
+          "char_start": 5921,
+          "char_end": 6528,
+          "passage_sha256": "2d32f1aad60ecfc95011133cfc9afc415748b27eab523479ccc5257931a0bb9d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "DOM-outcomes-002",
+        "statement": "The estimated maternal mortality ratio was 107.3 per 100,000 live births in 2020, 35.8% higher than the estimate for 2000.",
+        "valence": "weakness",
+        "source_id": "dom-hia",
+        "locator": {
+          "section": "Health situation: Maternal and child health",
+          "char_start": 3976,
+          "char_end": 4137,
+          "passage_sha256": "e44ebce4e04350c4245460fa57a467aa5b53779d1385cb8bfba3c95cab90cbe7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "DOM-outcomes-003",
+        "statement": "Infant mortality fell from 39.1 to 22.7 deaths per 1,000 live births between 2000 and 2018, a 41.9% decrease.",
+        "valence": "strength",
+        "source_id": "dom-hia",
+        "locator": {
+          "section": "Health situation: Maternal and child health",
+          "char_start": 3333,
+          "char_end": 3471,
+          "passage_sha256": "c84ae0818870584e0f3963cd5b7d544d0712c52afba874a162334340900db8ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-outcomes-004",
+        "statement": "The SNS plan says 2024 saw the most significant fall in infant and neonatal mortality rates, citing the national surveillance system, with the neonatal rate down to 13.08 per 1,000 live births.",
+        "valence": "strength",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 56,
+          "char_start": 99232,
+          "char_end": 99474,
+          "passage_sha256": "9705989c3245dfd48fd1a1e4b9bae465656d098169918a61be9a3d5840694e27"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-outcomes-005",
+        "statement": "Using the 2013 Demographic and Health Survey, the analysis found that the poorest fifth of households had close to double the odds of under-five death compared with the richest fifth (adjusted OR 1.98).",
+        "valence": "weakness",
+        "source_id": "dom-u5",
+        "locator": {
+          "section": "Abstract (Results)",
+          "char_start": 3606,
+          "char_end": 3795,
+          "passage_sha256": "cf72141b7a97ea5e7a1a5790c98ded485609af68fd86033fa4125c91e2636b9f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2013,
+        "historical": true
+      },
+      {
+        "id": "DOM-outcomes-006",
+        "statement": "The same 2013-survey analysis found that rural residence, higher regional poverty and lower healthcare access were each associated with higher under-five mortality.",
+        "valence": "weakness",
+        "source_id": "dom-u5",
+        "locator": {
+          "section": "Abstract (Results)",
+          "char_start": 4300,
+          "char_end": 4492,
+          "passage_sha256": "03ff053a733acc72bf3188684091ed1ad1c91c11bc4d2f9535962c432ec3d33a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2013,
+        "historical": true
+      }
+    ],
+    "costs": [
+      {
+        "id": "DOM-costs-001",
+        "statement": "The SNS says the budget for the SNS and for the health sector as a whole remains limited relative to growing demand, which hampers maintenance, expansion, timely purchase of medicines and supplies, and key programmes.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 44,
+          "char_start": 82333,
+          "char_end": 82790,
+          "passage_sha256": "733fcff925040c4a6b93fcf13131ec6eca27c7b47db2ea164e57eb903978dfc6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-costs-002",
+        "statement": "The SNS plan notes that the fall in inequality (the Gini index dropped 23.1 points between 2000 and 2023) has not yet translated into sufficient and sustainable health financing.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 43,
+          "char_start": 81935,
+          "char_end": 82237,
+          "passage_sha256": "51a2e3f249d670a4f99cec395195b51995135f9d86db50b02c15cde4faf6bb28"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-costs-003",
+        "statement": "Total health spending per head rose from US$506 in 2008 to US$814 in 2014 (PPP), and the World Bank described public per-capita spending as still low relative to other Latin American countries.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 20,
+          "char_start": 31212,
+          "char_end": 31562,
+          "passage_sha256": "d594b9d7ceb1899ebddf9f8e882ad163517149d93c75771dff130959d32498cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2014,
+        "historical": true
+      }
+    ],
+    "what_works": [
+      {
+        "id": "DOM-what_works-001",
+        "statement": "The 2018 World Bank study judged the reform successful in affiliating the population, separating functions, institutionalising mechanisms to collect and distribute funds, defining a comprehensive benefits package and protecting formal-sector workers financially.",
+        "valence": "strength",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 15,
+          "char_start": 20251,
+          "char_end": 20646,
+          "passage_sha256": "279baa7aa28f47302934d4ecd98ec267f708f423c2d360ac5d6ceb80b8a52606"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-what_works-002",
+        "statement": "Total affiliation to Family Health Insurance rose from 65,000 people in 2004 to 6.9 million in 2016, of whom 3.3 million were in the subsidised regime.",
+        "valence": "strength",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 17,
+          "char_start": 25870,
+          "char_end": 26014,
+          "passage_sha256": "1b86a508bd0f8a6b0a450520cb7fd32ea098f5e756d4298e8923ce6e312f1816"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2016,
+        "historical": true
+      },
+      {
+        "id": "DOM-what_works-003",
+        "statement": "The World Bank study says the subsidised regime had practically covered everyone enrolled in the SIUBEN register of poor households.",
+        "valence": "strength",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 21,
+          "char_start": 32733,
+          "char_end": 32935,
+          "passage_sha256": "7eb87d8c0f619348fde34b3fbd59a351862fbe7b2f626c69dd6d811a5066a2e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-what_works-004",
+        "statement": "A 2026 PAHO article reports that the country was among the first to join the Alliance for Primary Health Care in the Americas, an initiative launched in December 2023 by PAHO, the IDB and the World Bank.",
+        "valence": "strength",
+        "source_id": "dom-paho-story",
+        "locator": {
+          "section": "Main text",
+          "char_start": 2016,
+          "char_end": 2174,
+          "passage_sha256": "ee771c7066118c4951cdea9a41dcf120835680ebb8df486df8a02f934c6796ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2026
+      }
+    ],
+    "problems": [
+      {
+        "id": "DOM-problems-001",
+        "statement": "The SNS says service delivery remains highly fragmented, with weak links between levels of care and between public and private providers, which limits continuity of care and causes duplicated procedures and delays.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 46,
+          "char_start": 85400,
+          "char_end": 85833,
+          "passage_sha256": "c7fe9a72a5694c200d7d0e636701d743bb32ebdd1b4f157615c11d8e252a0ed2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-problems-002",
+        "statement": "According to the SNS, coverage growth has not been matched by a proportional strengthening of the public network's capacity, leaving gaps in financing, case management and sustainability.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 54,
+          "char_start": 95647,
+          "char_end": 96005,
+          "passage_sha256": "428cf3e8eb381d676f6648dc10679d282dbca79370bdeb94334c8e720601ebf8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-problems-003",
+        "statement": "The SNS says the public network faces high demand with limited resources and without equitable compensation for services given to affiliated people.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 54,
+          "char_start": 95242,
+          "char_end": 95478,
+          "passage_sha256": "c3b0210d3a2644b1288c5e665f372052f32f443625569216d06d1a5534f3b41c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DOM-problems-004",
+        "statement": "PAHO quotes the SNS planning director as saying care in the Dominican Republic remains more hospital-based than preventive, with limited communication between levels and greater public trust in hospital services.",
+        "valence": "weakness",
+        "source_id": "dom-paho-story",
+        "locator": {
+          "section": "Main text",
+          "char_start": 1549,
+          "char_end": 1983,
+          "passage_sha256": "b29cd122ac0d6a7f8fc5aed4b436bf830fa4b4720e3fa8d26d6ed4f12045bae3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DOM-problems-005",
+        "statement": "The 2018 World Bank study says the two regimes' accounts are kept separate even though revenue collection is centralised, so they are not pooled, which reduces solidarity and the spread of risk across the whole population.",
+        "valence": "weakness",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 21,
+          "char_start": 33812,
+          "char_end": 34024,
+          "passage_sha256": "067f518149b6a3b6477aaae9563eeddb21b8f9a3482e8f82c73b8bbef9436301"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-problems-006",
+        "statement": "The contributory-subsidised regime, designed in the 2001 law to cover informal-sector workers, was never implemented because of the difficulty of affiliating the informal sector.",
+        "valence": "weakness",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 18,
+          "char_start": 28343,
+          "char_end": 28473,
+          "passage_sha256": "274f9a844c190d4d4459ec38a10e2867c0445e8040cc3db9b574f90267d3e81c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "DOM-problems-007",
+        "statement": "The SNS says the lack of a comprehensive, interoperable health information system prevents effective follow-up of patients across levels of care.",
+        "valence": "weakness",
+        "source_id": "dom-sns",
+        "locator": {
+          "page": 52,
+          "char_start": 92044,
+          "char_end": 92215,
+          "passage_sha256": "949df53e129a3dec64b2cce096a29f5421d4042c51113356ee394f80bec53ee1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "DOM-reforms-001",
+        "statement": "In 2016 the government began steps to deepen the reform, aiming to affiliate 90% of the population by 2020. The function separation mandated by the 2001 law was implemented by unifying the public providers' network under a new entity separate from the Ministry of Health.",
+        "valence": "neutral",
+        "source_id": "dom-undp",
+        "locator": {
+          "page": 12,
+          "char_start": 11503,
+          "char_end": 11851,
+          "passage_sha256": "3cfca005de266fceefd6f74c22d56d2a8ee18c7b6b33bbc39903148a21a8b440"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2016,
+        "historical": true
+      },
+      {
+        "id": "DOM-reforms-002",
+        "statement": "In December 2023 the World Bank approved a US$190 million project to strengthen the capacity to deliver quality health services, particularly for poor and vulnerable people who depend most on the public system, with a focus on maternal and neonatal care.",
+        "valence": "neutral",
+        "source_id": "dom-wb-pr",
+        "locator": {
+          "section": "Press release",
+          "char_start": 2046,
+          "char_end": 2331,
+          "passage_sha256": "ad3796bd6753dcaf9e29dd3bcbd55e3deaa12ce178463179ffc7623d23163acc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DOM-reforms-003",
+        "statement": "The project expects at least 250 health facilities to obtain accreditation, and hospitals applying the CUNA maternal and neonatal care strategy are expected to raise their quality scores by 20%.",
+        "valence": "neutral",
+        "source_id": "dom-wb-pr",
+        "locator": {
+          "section": "Press release",
+          "char_start": 3478,
+          "char_end": 3863,
+          "passage_sha256": "49630449f822d064681fe290001285334a92164ff9466f7148530539b91fd8b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DOM-reforms-004",
+        "statement": "As part of joining the primary care alliance in 2024, the country set up a consultative table and assessed how services connect in four of its ten macro-regions. The assessments showed progress in organising and planning services but important gaps in coordination between health centres and hospitals, information exchange and patient follow-up.",
+        "valence": "neutral",
+        "source_id": "dom-paho-story",
+        "locator": {
+          "section": "Main text",
+          "char_start": 3546,
+          "char_end": 4438,
+          "passage_sha256": "e8e1ccb5518c731633dd4292e673706aa2a2232963191b00bd9782e782f0433b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DOM-reforms-005",
+        "statement": "PAHO reports actions under way to strengthen primary care, including integrated teams of doctors and nurses, assigning people and families to responsible teams, and greater community participation.",
+        "valence": "neutral",
+        "source_id": "dom-paho-story",
+        "locator": {
+          "section": "Main text",
+          "char_start": 5422,
+          "char_end": 5699,
+          "passage_sha256": "6899a57a737fcf728ebebebaa44b7db0a73d2e843db5994bb8652dae0a744889"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pending",
+          "checked_on": "2026-11-24"
+        },
+        "data_year": 2026
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/DOM.json",
+  "sources": [
+    {
+      "id": "dom-undp",
+      "title": "Dominican Republic: Implementing a health protection system that leaves no one behind (UHC Study Series No. 30)",
+      "publisher": "World Bank",
+      "authors": "Rathe M",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2018,
+      "url": "https://mapa.do.undp.org/files/publications/Dominican%20Republic.%20Implementing%20a%20Health%20Protection%20System%20that%20Leaves%20No%20One%20Behind.pdf",
+      "accessed": "2026-11-24",
+      "funding_note": "Data mostly 2007-2016; describes the system before the 2015 creation of the SNS took effect. Used for design and for past levels only."
+    },
+    {
+      "id": "dom-sns",
+      "title": "Plan Estratégico Institucional (PEI) 2025-2028",
+      "publisher": "Servicio Nacional de Salud (Dominican Republic)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://sns.gob.do/descargas/80/planificacion-estrategica-institucional/51393/plan-estrategico-institucional-sns-2025-2028.pdf",
+      "accessed": "2026-11-24",
+      "funding_note": "Self-assessment by the public provider network; its coverage and challenge statements are the institution's own."
+    },
+    {
+      "id": "dom-hia",
+      "title": "Health in the Americas+: Dominican Republic country profile",
+      "publisher": "Pan American Health Organization",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2024,
+      "url": "https://hia.paho.org/en/countries-22/dominican-republic-country-profile",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "dom-paho-story",
+      "title": "Reordenar la atención: República Dominicana apuesta por un sistema de salud más integrado",
+      "publisher": "Pan American Health Organization",
+      "tier": 3,
+      "type": "other",
+      "year": 2026,
+      "url": "https://paho.org/es/historias/reordenar-atencion-republica-dominicana-apuesta-por-sistema-salud-mas-integrado",
+      "accessed": "2026-11-24",
+      "funding_note": "PAHO feature describing a programme it supports."
+    },
+    {
+      "id": "dom-wb-pr",
+      "title": "Apoyo del Banco Mundial para un mejor sistema de salud en República Dominicana",
+      "publisher": "World Bank (press release)",
+      "tier": 3,
+      "type": "other",
+      "year": 2023,
+      "url": "https://www.bancomundial.org/es/news/press-release/2023/12/05/apoyo-banco-mundial-para-mejor-sistema-de-salud-publica-republica-dominicana",
+      "accessed": "2026-11-24",
+      "funding_note": "The lender announcing its own project; used only for the project's stated aims."
+    },
+    {
+      "id": "dom-u5",
+      "title": "Socioeconomic and community determinants of under-five mortality in the Dominican Republic: a multilevel analysis",
+      "publisher": "Journal of Global Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.7189/jogh.16.04361",
+      "doi": "10.7189/jogh.16.04361",
+      "accessed": "2026-11-24",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13706182",
+      "funding_note": "Cross-sectional multilevel analysis of the 2013 Demographic and Health Survey, so the data predate the SNS reforms."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-24",
+      "note": "Profile created."
+    }
+  ]
+}

@@ -116,9 +116,12 @@ countries in its prompt (default 3).
      `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=<PMCID digits>`
      or the PubMed abstract
      `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=<PMID>&rettype=abstract&retmode=text`.
-   - If a source cannot be downloaded (blocked domain, robots, 403), do not
-     use it. Find another source for those facts, and list the blocked domain
-     in the pull request so the human can allow it.
+   - If a source cannot be downloaded (robots, 403, a bot-protection page),
+     do not use it, and do not use copies, mirrors or reposts of it. Find
+     another source for those facts. Network access is already Full, so the
+     site itself is refusing automated access and allowlisting will not help:
+     in the pull request, list the source's title and URL so John can
+     download it in a browser and attach it to the Healthcare Project.
 6. **Save progress as you go.** Work on branch `claude/research-<iso3>`.
    Commit and push after the sources are downloaded and again after every
    section's claims are anchored (`git push -u origin claude/research-<iso3>`).
@@ -160,7 +163,8 @@ countries in its prompt (default 3).
 10. **Pull request.** Only touch your country's files under `data/` (plus
    `config/` if a source tier note needs it). Open a PR from `claude/research-<iso3>` titled `research: <Names> (<date>)`. In the PR body:
    claims and sources per country, statements dropped or corrected in review,
-   blocked domains, and open questions for the reviewer.
+   sources the site refused to serve (title and URL, to download and attach),
+   and open questions for the reviewer.
 
 ## Financing section: where the money comes from
 
@@ -267,4 +271,8 @@ the default package registries: `api.worldbank.org`, `ghoapi.azureedge.net`,
 `www.ebi.ac.uk`, `api.crossref.org`, plus the source sites themselves
 (`eurohealthobservatory.who.int`, `iris.who.int`, `www.who.int`,
 `www.oecd.org`, `www.commonwealthfund.org`, and national ministry domains),
-or **Full** network access.
+or **Full** network access. The environment is set to Full. A 403 or a
+bot-protection page (for example from `www.cato.org` or
+`www.commonwealthfund.org`) means the site refuses automated requests, not
+that the network blocks it; ask for the file instead of asking for the
+domain to be allowed.

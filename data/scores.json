@@ -1,25 +1,127 @@
 {
   "method_version": "0.3-draft",
-  "computed": "2026-11-20",
+  "computed": "2026-11-27",
   "countries_compared": 15,
   "domains": [
     {
       "id": "coverage",
       "label": "Coverage",
       "weight": 1,
-      "question": "Is everyone covered, and do they get essential services?"
+      "question": "Is everyone covered, and do they get essential services?",
+      "indicators": [
+        {
+          "id": "OECD_COVERAGE",
+          "label": "Population covered for core services (public or primary private insurance)",
+          "unit": "% of population",
+          "weight": 1,
+          "better": "higher",
+          "scale": "natural",
+          "log": false
+        },
+        {
+          "id": "UHC_INDEX_REPORTED",
+          "label": "UHC service coverage index",
+          "unit": "index 0-100",
+          "weight": 1,
+          "better": "higher",
+          "scale": "natural",
+          "log": false
+        }
+      ]
     },
     {
       "id": "financial_protection",
       "label": "Financial protection",
       "weight": 1,
-      "question": "Are people protected from ruinous health costs?"
+      "question": "Are people protected from ruinous health costs?",
+      "indicators": [
+        {
+          "id": "SH.XPD.OOPC.CH.ZS",
+          "label": "Out-of-pocket share of health spending",
+          "unit": "% of current health expenditure",
+          "weight": 2,
+          "better": "lower",
+          "scale": "world",
+          "log": false,
+          "zero_at": 65.173,
+          "hundred_at": 6.54,
+          "benchmark_countries": 193,
+          "benchmark_source": "World Bank WDI"
+        },
+        {
+          "id": "OOP_PCT_INCOME",
+          "label": "Out-of-pocket health spending as a share of income per person (PPP)",
+          "unit": "% of GDP per person",
+          "weight": 1,
+          "better": "lower",
+          "scale": "world",
+          "log": true,
+          "zero_at": 3.679,
+          "hundred_at": 0.228,
+          "benchmark_countries": 186,
+          "benchmark_source": "Computed by the atlas from World Bank WDI: SH.XPD.CHEX.PP.CD * SH.XPD.OOPC.CH.ZS / NY.GDP.PCAP.PP.CD"
+        }
+      ]
     },
     {
       "id": "outcomes",
       "label": "Health outcomes",
       "weight": 1,
-      "question": "Does the system keep people alive and healthy?"
+      "question": "Does the system keep people alive and healthy?",
+      "indicators": [
+        {
+          "id": "OECD_TREATABLE_MORT",
+          "label": "Treatable mortality (deaths healthcare should prevent), age-standardised",
+          "unit": "deaths per 100,000",
+          "weight": 2,
+          "better": "lower",
+          "scale": "world",
+          "log": true,
+          "zero_at": 162.384,
+          "hundred_at": 44.248,
+          "benchmark_countries": 46,
+          "benchmark_source": "OECD Health Statistics"
+        },
+        {
+          "id": "SP.DYN.IMRT.IN",
+          "label": "Infant mortality",
+          "unit": "per 1,000 live births",
+          "weight": 1,
+          "better": "lower",
+          "scale": "world",
+          "log": true,
+          "zero_at": 56.3,
+          "hundred_at": 2.075,
+          "benchmark_countries": 196,
+          "benchmark_source": "World Bank WDI"
+        },
+        {
+          "id": "SH.STA.MMRT",
+          "label": "Maternal mortality",
+          "unit": "per 100,000 live births",
+          "weight": 1,
+          "better": "lower",
+          "scale": "world",
+          "log": true,
+          "zero_at": 483.54,
+          "hundred_at": 3.0,
+          "benchmark_countries": 194,
+          "benchmark_source": "World Bank WDI"
+        },
+        {
+          "id": "SP.DYN.LE00.IN",
+          "label": "Life expectancy at birth",
+          "unit": "years",
+          "weight": 1,
+          "better": "higher",
+          "scale": "world",
+          "log": false,
+          "zero_at": 61.858,
+          "hundred_at": 83.9,
+          "benchmark_countries": 217,
+          "benchmark_source": "World Bank WDI"
+        }
+      ]
     }
   ],
   "indicator_labels": {

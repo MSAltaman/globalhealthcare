@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "staging": "healthcare-atlas-staging",
+    "production": "healthcare-atlas-prod"
+  },
+  "targets": {
+    "healthcare-atlas-staging": {
+      "hosting": { "atlas": ["healthcare-atlas-staging"] }
+    },
+    "healthcare-atlas-prod": {
+      "hosting": { "atlas": ["healthcare-atlas"] }
+    }
+  }
+}

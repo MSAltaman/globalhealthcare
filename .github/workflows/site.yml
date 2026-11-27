@@ -1,3 +1,16 @@
+# Check the data, then publish it to Google Cloud.
+#
+#   Pull request -> checks, browser smoke test, a load into BigQuery atlas_ci
+#                   (tables suffixed _pr<number>, deleted after a day), and a
+#                   private Firebase preview link posted on the PR.
+#   Merge to main -> reload BigQuery atlas_staging and deploy the staging site.
+#   Then          -> waits in the GitHub "production" environment for John's
+#                   approval, reloads BigQuery atlas and deploys the live site
+#                   from the same commit, and tags the release.
+#
+# Sign-in is keyless (Workload Identity Federation) as the deployer@ account of
+# each project, which Terraform created. Production's deployer can only be used
+# from jobs in the production environment.
 name: Check data and deploy site
 
 on:
@@ -6,56 +19,223 @@ on:
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
-  pull-requests: write
+
+env:
+  FIREBASE_TOOLS: firebase-tools@15.37.0
+  # Cloud steps run only once the bootstrap's repository variables exist.
+  CONFIGURED: ${{ vars.GCP_WIF_PROVIDER != '' && vars.GCP_PROJECT_STAGING != '' }}
 
 jobs:
   check:
-    if: github.event_name == 'push' || github.event.action != 'closed'
+    if: github.event_name != 'pull_request' || github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4 pypdf jsonschema pytest
+      - run: pip install requests beautifulsoup4 pypdf jsonschema pytest sqlglot duckdb
       - name: Unit tests
-        run: python -m pytest -q tests
+        run: python -m pytest -q tests --ignore=tests/browser
       - name: Schema and integrity
         run: python scripts/validate.py
       - name: Verification status (no failed claims allowed)
         run: python scripts/verify_claims.py --check
+      - name: BigQuery tables (dry run)
+        run: python scripts/load_bigquery.py --dry-run --out build/bigquery
+      - name: Build the site
+        run: python scripts/build_site_data.py
+      - name: Browser smoke test
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+          python -m pytest -q tests/browser
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site/
+          retention-days: 7
 
-  deploy:
+  preview:
+    # Same-repository pull requests only: forks get no Google sign-in.
     needs: check
-    if: github.event_name == 'push' || github.event.action != 'closed'
+    if: >-
+      github.event_name == 'pull_request' && github.event.action != 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      pull-requests: write
+    concurrency:
+      group: preview-${{ github.event.number }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
+        if: env.CONFIGURED == 'true'
+      - uses: actions/download-artifact@v4
+        if: env.CONFIGURED == 'true'
+        with:
+          name: site
+          path: site/
+      - uses: google-github-actions/auth@v2
+        if: env.CONFIGURED == 'true'
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: deployer@${{ vars.GCP_PROJECT_STAGING }}.iam.gserviceaccount.com
       - uses: actions/setup-python@v5
+        if: env.CONFIGURED == 'true'
         with:
           python-version: "3.12"
-      - name: Bundle data into the site
-        run: python scripts/build_site_data.py
-      - uses: Azure/static-web-apps-deploy@v1
+      - name: Load this PR's data into BigQuery atlas_ci
+        if: env.CONFIGURED == 'true'
+        run: |
+          pip install google-cloud-bigquery
+          python scripts/load_bigquery.py --dataset ${{ vars.GCP_PROJECT_STAGING }}.atlas_ci --table-suffix _pr${{ github.event.number }}
+      - name: Deploy a preview channel on the staging site
+        id: channel
+        if: env.CONFIGURED == 'true'
+        run: |
+          npx -y $FIREBASE_TOOLS hosting:channel:deploy pr-${{ github.event.number }} \
+            --project staging --only atlas --expires 7d --json > channel.json
+          cat channel.json
+          url=$(python -c "import json; r=json.load(open('channel.json'))['result']; print(next(iter(r.values()))['url'])")
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+      - name: Post the preview link on the pull request
+        if: env.CONFIGURED == 'true'
+        uses: actions/github-script@v7
+        env:
+          URL: ${{ steps.channel.outputs.url }}
+          DATASET: ${{ vars.GCP_PROJECT_STAGING }}.atlas_ci
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: upload
-          app_location: site
-          skip_app_build: true
-          # Until the Azure Static Web App exists and its token is a repo secret,
-          # skip deployment instead of failing. Data checks still run.
-          skip_deploy_on_missing_secrets: true
+          script: |
+            const marker = "<!-- atlas-preview -->";
+            const n = context.issue.number;
+            const body = `${marker}\n#### Preview\n- **Site:** ${process.env.URL} (expires in 7 days)\n` +
+              `- **BigQuery:** tables and views suffixed \`_pr${n}\` in \`${process.env.DATASET}\` (deleted after a day)\n` +
+              `- Commit ${context.sha.slice(0, 7)}`;
+            const { data: comments } = await github.rest.issues.listComments({ ...context.repo, issue_number: n, per_page: 100 });
+            const old = comments.find(c => c.body.startsWith(marker));
+            if (old) await github.rest.issues.updateComment({ ...context.repo, comment_id: old.id, body });
+            else await github.rest.issues.createComment({ ...context.repo, issue_number: n, body });
+
+  staging:
+    needs: check
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: staging
+    permissions:
+      contents: read
+      id-token: write
+    concurrency:
+      group: deploy-staging
+      cancel-in-progress: false
+    outputs:
+      sha: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        if: env.CONFIGURED == 'true'
+      - uses: actions/download-artifact@v4
+        if: env.CONFIGURED == 'true'
+        with:
+          name: site
+          path: site/
+      - uses: google-github-actions/auth@v2
+        if: env.CONFIGURED == 'true'
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: deployer@${{ vars.GCP_PROJECT_STAGING }}.iam.gserviceaccount.com
+      - uses: actions/setup-python@v5
+        if: env.CONFIGURED == 'true'
+        with:
+          python-version: "3.12"
+      - name: Reload BigQuery atlas_staging
+        if: env.CONFIGURED == 'true'
+        run: |
+          pip install google-cloud-bigquery
+          python scripts/load_bigquery.py --dataset ${{ vars.GCP_PROJECT_STAGING }}.atlas_staging
+      - name: Deploy the staging site
+        if: env.CONFIGURED == 'true'
+        run: npx -y $FIREBASE_TOOLS deploy --project staging --only hosting:atlas --message "${{ github.sha }}"
+      - name: Post-deploy check
+        if: env.CONFIGURED == 'true'
+        run: |
+          for path in "" "data/bundle.js"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "https://healthcare-atlas-staging.web.app/$path")
+            echo "/$path -> $code"; [ "$code" = 200 ] || exit 1
+          done
+
+  production:
+    needs: staging
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production  # waits here for John's approval
+    permissions:
+      contents: write  # to tag the release
+      id-token: write
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        if: env.CONFIGURED == 'true'
+      - uses: actions/download-artifact@v4
+        if: env.CONFIGURED == 'true'
+        with:
+          name: site
+          path: site/
+      - uses: google-github-actions/auth@v2
+        if: env.CONFIGURED == 'true'
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: deployer@${{ vars.GCP_PROJECT_PROD }}.iam.gserviceaccount.com
+      - uses: actions/setup-python@v5
+        if: env.CONFIGURED == 'true'
+        with:
+          python-version: "3.12"
+      - name: Reload BigQuery atlas
+        if: env.CONFIGURED == 'true'
+        run: |
+          pip install google-cloud-bigquery
+          python scripts/load_bigquery.py --dataset ${{ vars.GCP_PROJECT_PROD }}.atlas
+      - name: Deploy the live site
+        if: env.CONFIGURED == 'true'
+        run: npx -y $FIREBASE_TOOLS deploy --project production --only hosting:atlas --message "${{ github.sha }}"
+      - name: Post-deploy check
+        if: env.CONFIGURED == 'true'
+        run: |
+          for path in "" "data/bundle.js"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "https://healthcare-atlas.web.app/$path")
+            echo "/$path -> $code"; [ "$code" = 200 ] || exit 1
+          done
+      - name: Tag the release
+        if: env.CONFIGURED == 'true'
+        run: |
+          tag="release-$(date -u +%Y%m%d-%H%M)-${GITHUB_SHA::7}"
+          git tag "$tag" "$GITHUB_SHA"
+          git push origin "$tag"
+          echo "Released $tag" >> "$GITHUB_STEP_SUMMARY"
 
   close_preview:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    if: >-
+      github.event_name == 'pull_request' && github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
-      - uses: Azure/static-web-apps-deploy@v1
+      - uses: actions/checkout@v4
+        if: env.CONFIGURED == 'true'
+      - uses: google-github-actions/auth@v2
+        if: env.CONFIGURED == 'true'
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          action: close
-          skip_deploy_on_missing_secrets: true
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: deployer@${{ vars.GCP_PROJECT_STAGING }}.iam.gserviceaccount.com
+      - name: Delete the preview channel
+        if: env.CONFIGURED == 'true'
+        run: npx -y $FIREBASE_TOOLS hosting:channel:delete pr-${{ github.event.number }} --project staging --site healthcare-atlas-staging --force || true

@@ -177,3 +177,22 @@ def test_derived_formula_and_missing_inputs():
     assert round(out["value"], 3) == 0.4 and out["year"] == 2023
     assert derived.evaluate("A * D / C", recs) is None
     assert derived.inputs("SH.XPD.CHEX.PP.CD * SH.XPD.OOPC.CH.ZS / 100") == ["SH.XPD.CHEX.PP.CD", "SH.XPD.OOPC.CH.ZS"]
+
+
+def test_indicator_info_benchmarks_reproduce_scores():
+    """The 0 and 100 points written for the site give back the scores compute() makes."""
+    ref = {"X": {"source": "test", "values": {f"C{i}": {"value": float(i)} for i in range(1, 101)}}}
+    cfg = {**score.CFG, "domains": [{"id": "d", "label": "D", "weight": 1, "question": "?",
+           "indicators": [{"id": "X", "better": "lower", "scale": "world", "log": True}]}]}
+    old = score.CFG
+    score.CFG = cfg
+    try:
+        info = score.indicator_info(ref)["d"][0]
+    finally:
+        score.CFG = old
+    assert info["benchmark_countries"] == 100
+    zero, hundred = info["zero_at"], info["hundred_at"]
+    assert zero > hundred  # lower is better: 0 sits at the high value
+    posts = score.goalposts([float(i) for i in range(1, 101)], "lower", True)
+    assert abs(score.score_value(zero, "world", "lower", True, posts) - 0) < 0.01
+    assert abs(score.score_value(hundred, "world", "lower", True, posts) - 100) < 0.01

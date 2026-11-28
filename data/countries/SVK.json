@@ -1,0 +1,1283 @@
+{
+  "iso3": "SVK",
+  "name": "Slovakia",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Compulsory social health insurance through three competing insurers (one state-owned, two private), with state-paid contributions for about 2.9 million economically inactive people"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "SVK-overview-002",
+      "SVK-overview-003"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "SVK-overview-001",
+        "statement": "Compulsory social health insurance is delivered by three competing insurers, one state-owned and two private, which negotiate quality, prices and volumes with providers. At the end of 2024 the state-owned insurer VšZP covered 54% of the population.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44656,
+          "char_end": 44950,
+          "passage_sha256": "ce23f6b8237be928a6ec693808421e1001d939394154d03699aecc34baeae78b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-overview-002",
+        "statement": "All Slovak residents are entitled to social health insurance unless they already hold valid insurance in another country; asylum seekers and foreigners who work, study or run a business in Slovakia are also covered.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "char_start": 11419,
+          "char_end": 11724,
+          "passage_sha256": "0c2e606f57adbb0b447166f6914b38da76b4c50d9b492d7a6f9b9d2d4d17904e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SVK-overview-003",
+        "statement": "The Slovak Constitution guarantees every citizen health care through the social health insurance system, on the conditions set by law.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "char_start": 13049,
+          "char_end": 13196,
+          "passage_sha256": "24fa878334681e371e5fa11bc9cb6c76db2c69af32defa8e0b054d013050d212"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SVK-overview-004",
+        "statement": "Insurance coverage stood at 96% in 2023; the remaining 4% were mostly residents working abroad, who are therefore not insured in Slovakia.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45289,
+          "char_end": 45422,
+          "passage_sha256": "1128724eb11fbc141ebebf4752897823ded0a996f531a6a662cda23c2ae5ea38"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-overview-005",
+        "statement": "The Ministry of Health sets the benefits package and minimum quality criteria and owns and runs a range of facilities including university hospitals, while the Health Care Surveillance Authority oversees providers, insurers and purchasing.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45423,
+          "char_end": 45702,
+          "passage_sha256": "c80ac1d2f23c8ac079a91d1a4adf5355ff23ac02ba0dbb8a0c9eeb03d53573c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "SVK-financing-001",
+        "statement": "Public sources paid for 83% of health spending in 2024. The other 17.2% was private, and 95% of that private share was out-of-pocket payment.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-sources",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 2686,
+          "char_end": 3129,
+          "passage_sha256": "4c1ef59600772d69cd3a612dec320ec2c6a076a47a9ae21a95deefd77c4bd42a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-financing-002",
+        "statement": "Employees pay a mandatory health insurance contribution of 15% of gross monthly income, split 4% employee and 11% employer; for employees with a disability the rates are halved. A 1 percentage point rise, charged to employers, took effect in early 2024 under a public-finance consolidation package.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "char_start": 22238,
+          "char_end": 22830,
+          "passage_sha256": "022f5a6b2da4d19a22bbf514a9f4c34b66ece8db3cfeecbb53b72cc709e57665"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-financing-003",
+        "statement": "The self-employed pay 15% of income, with a minimum assessment base of EUR 715 a month in 2025, which implies a minimum monthly premium of at least EUR 107.25 for those without disability; no maximum is set.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "char_start": 22834,
+          "char_end": 23257,
+          "passage_sha256": "4b0be6789984e8db5a9fc94356b007fa5b7a44a7a7a44244142c1f8343603e32"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-financing-004",
+        "statement": "Contributions are paid on behalf of about 2.9 million economically inactive residents, including children, students up to 26, the unemployed, pensioners, carers of children under three and disabled people.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "char_start": 23878,
+          "char_end": 24191,
+          "passage_sha256": "a879ecb3f98c9c29f6a5f10f95b1a1263704d8721f928f3eb4e4d7ea25ac6f7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-financing-005",
+        "statement": "An earlier mechanism for setting the state's contribution for state-insured people proved prone to political influence, and the Ministry of Finance's refusal to supply the required amounts caused losses for insurers; a December 2022 amendment returned to a fixed contribution, defined as 4.5% in 2024 and 5% from 2026 onward.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "char_start": 25394,
+          "char_end": 26188,
+          "passage_sha256": "63cae6557d439684814c8d0cc6489257f07af6e20171145c49ea02c39021512a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SVK-financing-006",
+        "statement": "Insurers pass 96% of contributions through a risk-adjusted redistribution scheme, and the state-owned VšZP is the ultimate beneficiary, gaining roughly EUR 450 million from it in 2023.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.3 Pooling of funds",
+          "char_start": 26577,
+          "char_end": 26806,
+          "passage_sha256": "a8b4ce1a22c4a6eaadbcde7e1cc0a93ad7cd5f0ee299e82acb6527d9a84920a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "SVK-covered-001",
+        "statement": "The law defines the benefit package through lists: free preventive examinations, essential medicines without co-payment, diagnoses eligible for free spa treatment, and priority diagnoses (about two thirds of ICD-10 diagnoses) for which all procedures are free. Other conditions may carry co-payments, though in practice nearly all treatment is free.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "char_start": 13197,
+          "char_end": 13667,
+          "passage_sha256": "e0cc5d501dbaf076f591b9bab057116f4054da22616d1bb1352fdda3266f0ab4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SVK-covered-003",
+        "statement": "Medicines are reimbursed through a categorisation process that includes a cost-effectiveness assessment by the National Institute for Value and Technologies in Healthcare; the Ministry of Health can still approve a higher price than the institute proposed through managed entry agreements.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 131496,
+          "char_end": 132024,
+          "passage_sha256": "27a5dc331baf6577d65dd4d0c641c1c7757e8f8b0061b0232a4e34021b8878ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-covered-004",
+        "statement": "In practice coverage is also bounded by the available budget and a Ministry of Health programme decree that sets minimum spending levels for each category of care for each insurer, as well as an overall maximum.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "char_start": 14696,
+          "char_end": 14968,
+          "passage_sha256": "d9171dbbb0741adbdfc22b02e937a9b97b489575bc21934d9ebf6aa94ec08f68"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "SVK-cost_sharing-001",
+        "statement": "Out-of-pocket payments mainly consist of co-payments for prescribed medicines and medical goods, user fees for some services, dental care and spa treatment, direct payments for over-the-counter products and vision products, above-standard care, and a few fixed fees such as EUR 2 for 24/7 first-aid services.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-fin-2025",
+        "locator": {
+          "section": "3.4 Out of pocket payments",
+          "char_start": 2715,
+          "char_end": 3300,
+          "passage_sha256": "36586cd5192784ac076fb0aa0c31670a354dc51f88b211265eea8b57d6958725"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-cost_sharing-002",
+        "statement": "Medicines generally carry co-payments, but these are limited each quarter: certain pensioners pay at most EUR 30 and people with severe disabilities at most EUR 12, while children under six are exempt altogether.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 126039,
+          "char_end": 126318,
+          "passage_sha256": "3670d2711e55637dc846687976d2e1a4dda92410bed73d83138eccacbc66000b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-cost_sharing-003",
+        "statement": "The cap on medicine co-payments was extended in 2021 to low-income pensioners and now has three tiers of EUR 0, 12 or 30 per quarter. Covering these co-payments cost EUR 73.8 million for 1.4 million insured people in 2023, up from EUR 24.5 million for 1 million in 2020.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-fin-2025",
+        "locator": {
+          "section": "3.4 Out of pocket payments",
+          "char_start": 3557,
+          "char_end": 4160,
+          "passage_sha256": "ce1ef4b80edda3f44eba4fb8b7f45f7f9b1e8d69d45cc0b71e9ae523c32d59dd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-cost_sharing-004",
+        "statement": "In 2023 out-of-pocket spending was 20% of total health expenditure, and pharmaceuticals took the largest share of it at 34%, followed by inpatient care at 21% and dental care at 14%.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 81963,
+          "char_end": 82237,
+          "passage_sha256": "d8684073cb4cd8e89c4ce719db89b82b09aa6b68176e58005efe9772adc11df9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-cost_sharing-005",
+        "statement": "Total out-of-pocket spending reached EUR 1.7 billion in 2023, just over 18% of current health expenditure.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-fin-2025",
+        "locator": {
+          "section": "3.4 Out of pocket payments",
+          "char_start": 5285,
+          "char_end": 5418,
+          "passage_sha256": "bbb8a5bb5286462246269d2ee323977db801d5116c00397dd83aa380933751bb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-cost_sharing-006",
+        "statement": "The national out-of-pocket figures are estimates and may err in both directions: they may be inflated by pharmacy items only marginally related to health, and they may miss payments for non-standard services because reporting rules are weak.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-fin-2025",
+        "locator": {
+          "section": "3.4 Out of pocket payments",
+          "char_start": 4358,
+          "char_end": 5140,
+          "passage_sha256": "243f6d263dbb0989a4951598b1dfb3ef61198d2b405d047f2e8d3d31a315d740"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "SVK-financial_hardship-001",
+        "statement": "Slovakia's catastrophic health spending is below that of many EU countries, especially central European ones, yet it has grown lately; nearly all of it falls on the poorest consumption quintile and on households led by older people, workers or pensioners, and among poorer households outpatient medicines are the main cause.",
+        "valence": "neutral",
+        "source_id": "who-fp-svk-2025",
+        "locator": {
+          "section": "Overview",
+          "char_start": 465,
+          "char_end": 845,
+          "passage_sha256": "8b532cb853e1f2af83687dff55adcf076529e925e99c19847b14c2d0f3623e29"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-financial_hardship-002",
+        "statement": "The review adds that the co-payment exemptions and ceilings for outpatient prescribed medicines and medical products leave out most low-income people of working age.",
+        "valence": "weakness",
+        "source_id": "who-fp-svk-2025",
+        "locator": {
+          "section": "Overview",
+          "char_start": 1111,
+          "char_end": 1265,
+          "passage_sha256": "c130dda837ec6f4da9f2e15b579a9c23947cf46e8e5229428fef660969fb6a2c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-financial_hardship-003",
+        "statement": "Those who do not pay their compulsory contributions, unemployed asylum seekers, homeless people and undocumented migrants can obtain only very limited publicly funded care.",
+        "valence": "weakness",
+        "source_id": "who-fp-svk-2025",
+        "locator": {
+          "section": "Overview",
+          "char_start": 1368,
+          "char_end": 1578,
+          "passage_sha256": "6e556e93d18ec95230d0c1142b243d0f673cb059af7dd82dae93583ee3503eb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-financial_hardship-004",
+        "statement": "In 2023 medicines accounted for over a third of out-of-pocket spending and were the main driver of catastrophic health spending, with outpatient medicines behind 56% of such cases according to a WHO Europe analysis.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 130696,
+          "char_end": 130933,
+          "passage_sha256": "2c06ef5743405e74724d6d6bdf751c3471c7858e4341742e63e4002e0a9fe46c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2023
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "SVK-additional_care-001",
+        "statement": "Voluntary health insurance plays only a marginal role in Slovakia, because the statutory benefit package is defined so broadly.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-sources",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "char_start": 3263,
+          "char_end": 3390,
+          "passage_sha256": "e30ff0dd319a1557b02538ccaefe84bc8b6e5e56aee45f6b9105b083733eb03c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "SVK-access-001",
+        "statement": "Waiting times were the leading reason for unmet medical needs in 2024, and their share of such reports halved between 2022 and 2024.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 75615,
+          "char_end": 75722,
+          "passage_sha256": "c47e0123f9d73e8317ce2927032d6304226c9c5047af86677ab3e971a30c5be3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-access-002",
+        "statement": "Unmet dental care needs show a steep income gradient: in 2024, 2% of people above the poverty threshold with dental needs reported unmet needs, versus 8% of those at risk of poverty.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 76070,
+          "char_end": 76384,
+          "passage_sha256": "3dd5ab0185f1d8365d903689ed033d30d02404911cf0d104775bbf5b0273ede6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-access-003",
+        "statement": "Roma people, around 9% of the population, are formally covered by insurance but face obstacles including limited health literacy, cultural and language barriers and affordability.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 81292,
+          "char_end": 81473,
+          "passage_sha256": "e94753d1839b1eee6da4c72487a8c22e57eebf6a7bfb93e23eb2aadf7f166866"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-access-004",
+        "statement": "Slovakia had 3.8 doctors per 1,000 population in 2023, below the EU average of 4.3.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 51820,
+          "char_end": 51903,
+          "passage_sha256": "877a32a1fe932f439721ce476b1c3b3e87d0810842803018ccb86743d82d6caf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-access-005",
+        "statement": "Nurse supply was 5.7 per 1,000 population in 2023, considerably below the EU average of 8.5, and low pay and heavy workloads weigh on recruitment and retention.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 59303,
+          "char_end": 59565,
+          "passage_sha256": "a3f3c7c63c6318c747f3df8c57c936f4810cc6cf9c3a9f450f34ac1b3789cea4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "SVK-outcomes-001",
+        "statement": "Life expectancy fell sharply during the pandemic and rebounded to 78.6 years in 2024, above its pre-pandemic level but 3.1 years below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 4460,
+          "char_end": 4640,
+          "passage_sha256": "da13af8ebf31a9ef8acbce645adf12d7cc8f5e3b5e3f95665d7ac63bb3b5b440"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-outcomes-002",
+        "statement": "In 2022 preventable mortality in Slovakia was nearly double the EU average and treatable mortality was 50% higher.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 59881,
+          "char_end": 59999,
+          "passage_sha256": "f4f47106daceadfafc543d5717b90b206e71bf0b019fafda9cd49f420b8f1acb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SVK-outcomes-003",
+        "statement": "The age-standardised cancer mortality rate was 268 deaths per 100,000 people in 2022, about 15% above the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 63288,
+          "char_end": 63414,
+          "passage_sha256": "66117e7425f589647625c5c991c5648cd36b6d986b32241c6aae8ddc943d8f5a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SVK-outcomes-004",
+        "statement": "In 2023, 43% of eligible women had been screened for breast cancer in the past two years, among the lowest rates in the EU, while cervical screening reached 67% (EU average 58%) and colorectal screening 49% (EU average 48%).",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 62736,
+          "char_end": 63156,
+          "passage_sha256": "6ca24a03217ed4c714ef08f0bf087176e1121e5ab4d553fb065000486a14b673"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-outcomes-005",
+        "statement": "Slovakia had the fifth highest rate of avoidable hospitalisations in the EU in 2023 (asthma and COPD, heart failure and diabetes combined), which the profile largely attributes to constrained access to primary care.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 74769,
+          "char_end": 75238,
+          "passage_sha256": "ec08f19ed7282f5fb3af6bec97caf3f73573550a969a0a5404a414fd5c172712"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "SVK-costs-001",
+        "statement": "Health spending per person was EUR 2,088 in 2023 (adjusted for purchasing power), little over half the EU average of EUR 3,832, and 7.4% of GDP against an EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45912,
+          "char_end": 46141,
+          "passage_sha256": "d26cc99cb43ebdbd462f8dd3d1ac152b7f952f4d715a04e952bb528eaeecb2a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-costs-002",
+        "statement": "On the profile's comparable cross-country data, government and compulsory schemes financed 79% of current health expenditure in 2023 (EU average 80%) and out-of-pocket payments 20% (EU average 16%), mainly co-payments for outpatient medicines.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 46370,
+          "char_end": 46617,
+          "passage_sha256": "7d25abf9483b37b77c657cab34f08a3328bb121e70fd2aad24be34538da01498"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-costs-003",
+        "statement": "Spending per person grew by almost 40% between 2019 and 2023, driven chiefly by higher pharmaceutical costs and large pay rises, especially for hospital staff.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 46142,
+          "char_end": 46307,
+          "passage_sha256": "f66ef516cbca12850b6fc4c9a99df55b3473f5268e78bb2ae09ac9fddcef1b94"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-costs-004",
+        "statement": "Prevention took only 3% of health spending in 2023 (EU average 4%), about a third of the EU average per person.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 50946,
+          "char_end": 51118,
+          "passage_sha256": "21fc541105db899eb28dd620050b45e79b9ec26b9bce47f3fff283b59f13167b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-costs-005",
+        "statement": "Slovakia had 5.7 hospital beds per 1,000 people in 2023, above the EU average, yet only 61% of curative care beds were occupied, among the lowest occupancy rates in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 98688,
+          "char_end": 98948,
+          "passage_sha256": "d571fae75506d6673c737707e5111ac04b2f22088f51b3ae4a77333bbdf08e43"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "SVK-what_works-001",
+        "statement": "In 2024, 2.6% of Slovak adults with health needs said cost, distance or waiting prevented care, against 3.5% across the EU; people at risk of poverty reported almost the same rate as everyone else.",
+        "valence": "strength",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 75340,
+          "char_end": 75614,
+          "passage_sha256": "f2cc35d2cd82a6b22c6a386ceb0bc9c14e223f43681d97ff38ac01ed65866c53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-what_works-002",
+        "statement": "Generic medicines made up 65% of the market by volume in 2023, compared with an EU average of 51%.",
+        "valence": "strength",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 137324,
+          "char_end": 137461,
+          "passage_sha256": "7c794f7d8bbe8411869b0a4e074f7ce3163c779704776bf85fa1ea94ef7024bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "SVK-what_works-003",
+        "statement": "A 2024 pilot set maximum waiting times for certain hospital services, and around 60% of patients on waiting lists stayed within the limit.",
+        "valence": "strength",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 12,
+          "char_start": 75723,
+          "char_end": 75892,
+          "passage_sha256": "052bee5deccfd634a9176912824f00ee544ee34a138105876de38ab8b904f660"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-what_works-004",
+        "statement": "Catastrophic health spending is lower in Slovakia than in many EU countries, particularly in central Europe, though it has risen in recent years.",
+        "valence": "strength",
+        "source_id": "who-fp-svk-2025",
+        "locator": {
+          "section": "Overview",
+          "char_start": 465,
+          "char_end": 628,
+          "passage_sha256": "ccc15e45876970ca766743fe112f2a167070b4bb7bc21e91aa47f72ddfdaa5ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-what_works-005",
+        "statement": "Since 2017 the Ministry of Health has funded a National Healthy Communities Project that uses health mediators from Roma communities; in 2024, 289 mediators and 30 coordinators worked across more than 250 municipalities, with EUR 58 million committed for 2024-29.",
+        "valence": "strength",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 81498,
+          "char_end": 81860,
+          "passage_sha256": "e6beab110f2982f9df2e888d811178410be0026e6f7159f0e38ebaf34cd9e894"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-what_works-006",
+        "statement": "The number of medical graduates has almost doubled since 2010 to 19 per 100,000 population in 2023, well above the EU average; excluding English-taught programmes, where about 95% of students are foreign, the figure falls to roughly half.",
+        "valence": "strength",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 111648,
+          "char_end": 111915,
+          "passage_sha256": "207dfc2bf14f2ee384da2b4e34799532c3ec31e05659e60a00a3168082f27eca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "SVK-problems-001",
+        "statement": "Despite legal limits on direct payments since 2006, provider fees have become a chaotic patchwork exploiting legal loopholes: patient information varies, costs are hard to predict, fees differ between providers even within one specialty, and the highest charges are in Bratislava.",
+        "valence": "weakness",
+        "source_id": "hspm-svk-fin-2025",
+        "locator": {
+          "section": "3.4 Out of pocket payments",
+          "char_start": 7137,
+          "char_end": 7701,
+          "passage_sha256": "596f15a0e520a52618468614c9f8c761f1f221d15606f10ce6086e519087197b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-problems-002",
+        "statement": "In 2024 the estimated shortfall was 533 general practitioners and 236 paediatricians, about 21% of the public primary-care workforce; the GP gap was 33% larger than in 2022, and 39% of GPs and 47% of paediatricians were already past standard retirement age.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 83052,
+          "char_end": 83509,
+          "passage_sha256": "c71dc54730e962538ddf21e05b15178e43885793904c019bf06c890492712f64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-problems-003",
+        "statement": "Among medicines authorised centrally in the EU in 2020-2023, the average time to reimbursement was 797 days, against an EU average of 578, and 27% were on the reimbursement list in early 2025 compared with 46% across the EU; the profile cautions that these measures omit clinical uptake and real access, and reflect manufacturer launch choices.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 132789,
+          "char_end": 133814,
+          "passage_sha256": "74d5d3cc0ddc825bcfb469e70764d363ef52627eb6fafcbac4bb17a957760559"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-problems-004",
+        "statement": "Overdue hospital debt rose by 30% between 2019 and 2024 to over EUR 700 million despite repeated capital injections, and the European Commission referred Slovakia to the EU Court of Justice in 2023 over chronic late payment to suppliers.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 97220,
+          "char_end": 97517,
+          "passage_sha256": "ac012c7eb7f9cd4ea286fda9b2cbc21d640875d357f46d456f5937c273f7c2f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-problems-005",
+        "statement": "A 2023-2025 ethnographic study in three private paediatric clinics in Bratislava Region, based on observation and interviews with staff, identified nine types of discriminatory practice towards Roma caregivers, including mockery, underestimation, biased clinical decisions and informal gatekeeping; it covers only three clinics.",
+        "valence": "weakness",
+        "source_id": "roma-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2420,
+          "char_end": 3211,
+          "passage_sha256": "49f54c09a2afc884acaeee3c13d5b21cf705ea62ccfd74711347de506866377b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-problems-006",
+        "statement": "Prevention is a stated priority, but only around a third of eligible adults had a preventive appointment with their GP in 2024, roughly the same as in 2023.",
+        "valence": "weakness",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 60727,
+          "char_end": 61242,
+          "passage_sha256": "b4e3edfd7045f71528704ff39399c1c0d19f199d97bc4916ebec7f4809ac2574"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "SVK-reforms-001",
+        "statement": "In 2022 Slovakia moved managed entry agreements from insurers to the Ministry of Health and raised the cost-effectiveness threshold to speed up market entry of innovative medicines.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 134134,
+          "char_end": 134353,
+          "passage_sha256": "13aab94fd9b804ea29cb8c5d70972959960574d3bd4732b18a93f3b30a3ba89c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "SVK-reforms-002",
+        "statement": "After the state-owned insurer posted deficits above EUR 100 million in both 2022 and 2023, the government raised contribution rates in 2024, and all insurers reported profits in 2024 for the first time in several years.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 97690,
+          "char_end": 98117,
+          "passage_sha256": "18c1cc84bbb65335d8cdb58929d5653a8d6914dbc936aefa0836f806d12b11f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "SVK-reforms-003",
+        "statement": "A pharmaceutical reimbursement reform prepared by the Ministry of Health was approved by the government on 6 May 2026 and sent to parliament the next day; it amends the law on reimbursement of medicines, medical devices and dietetic foods with 133 changes, passed first reading on 10 June 2026, with the final vote expected in September 2026.",
+        "valence": "neutral",
+        "source_id": "hspm-svk-stat",
+        "locator": {
+          "section": "3.3.1 Coverage (28 July 2026 policy analysis)",
+          "char_start": 15102,
+          "char_end": 15634,
+          "passage_sha256": "b201b3b4ea30821198653ac5aa420931c8c992dedd766f968e234dc1b016ec3a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "SVK-reforms-004",
+        "statement": "In 2025 the VAT rate on medicines and medical devices fell from 10% to 5%, a step aimed mainly at the insurers' costs but also expected to reduce patients' out-of-pocket spending.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 130934,
+          "char_end": 131189,
+          "passage_sha256": "7d5832d0aeaee59f6027cb5186922704fd115c733ed2400dc983fbdc1e9eae58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "SVK-reforms-005",
+        "statement": "Recovery and Resilience Plan money in 2023 (over EUR 10 million) funded one-off grants of up to EUR 80,000 for new GP practices in underserved areas; by 2025 the programme budget was fully allocated, funding more than 150 successful applications.",
+        "valence": "neutral",
+        "source_id": "chp-svk-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 95417,
+          "char_end": 95863,
+          "passage_sha256": "8fb8be136cfc01a891c7703cb336198e58b4db3f75c6b2b54f1021ab1092d43e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": 2025
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "SVK-us_lessons-001",
+        "statement": "A cross-country study comparing the US with other high-income countries found US spending roughly twice as high with broadly similar utilisation; higher prices for labour and goods, including medicines, and administrative costs appeared to drive the gap.",
+        "valence": "neutral",
+        "source_id": "papanicolas-2018",
+        "locator": {
+          "section": "Abstract: Conclusions and relevance",
+          "char_start": 4361,
+          "char_end": 4756,
+          "passage_sha256": "5683bf36ba50bfbb20c5d140451fff8d1d8e28be583699bb50305f7cb4dd40eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement), rewritten claim re-review"
+        },
+        "data_year": "2013-2016"
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/SVK.json",
+  "sources": [
+    {
+      "id": "chp-svk-2025",
+      "title": "State of Health in the EU: Slovakia, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-slovakia-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hspm-svk-sources",
+      "title": "Slovakia: Health system review (HiT, online edition), section 3.2 Sources of revenue and financial flows",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Smatana M, Löffler L, Pažitný P, Kandilaki D, Shuftan N",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/slovakia-2025/financing/sources-of-revenue-and-financial-flows",
+      "accessed": "2026-11-20",
+      "funding_note": "Online edition updated 2026; figures are national data."
+    },
+    {
+      "id": "hspm-svk-stat",
+      "title": "Slovakia: Health system review (HiT, online edition), section 3.3 Overview of the statutory financing system",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Smatana M, Pažitný P, Kandilaki D, Shuftan N",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2026,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/slovakia-2025/financing/overview-of-the-statutory-financing-system",
+      "accessed": "2026-11-20",
+      "funding_note": "Online edition updated 25 September 2026; includes dated policy-analysis boxes."
+    },
+    {
+      "id": "hspm-svk-fin-2025",
+      "title": "Slovakia: Health system review (HiT, online edition), section 3.4 Out of pocket payments",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Pažitný P, Kandilaki D",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/slovakia-2025/financing/out-of-pocket-payments",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "who-fp-svk-2025",
+      "title": "Can people afford to pay for health care? New evidence on financial protection in Slovakia",
+      "publisher": "WHO Regional Office for Europe, Barcelona Office for Health Systems Financing",
+      "authors": "Pourová M, Gallardo Martínez M (eds)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.who.int/europe/publications/i/item/9789289062329",
+      "accessed": "2026-11-20",
+      "funding_note": "Source text is the publication's overview page."
+    },
+    {
+      "id": "roma-2026",
+      "title": "Caring, pragmatic and discriminatory: how private paediatric outpatient providers normalise unequal care for Roma - ethnographic findings from affluent Slovakia",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Cichová K, Belak A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12939-026-02774-6",
+      "doi": "10.1186/s12939-026-02774-6",
+      "license": "CC BY-NC-ND",
+      "accessed": "2026-11-20",
+      "funding_note": "Qualitative study in three private clinics in one region; not representative of all providers.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12922349"
+    },
+    {
+      "id": "papanicolas-2018",
+      "title": "Health Care Spending in the United States and Other High-Income Countries",
+      "publisher": "JAMA",
+      "authors": "Papanicolas I, Woskie LR, Jha AK",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1001/jama.2018.1150",
+      "doi": "10.1001/jama.2018.1150",
+      "accessed": "2026-11-20",
+      "funding_note": "Does not include Slovakia among its comparator countries.",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29536101&rettype=abstract&retmode=text"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created."
+    },
+    {
+      "date": "2026-11-20",
+      "note": "Support review by Opus: 18 of 59 claims failed first round and were rewritten or dropped; rewritten claims passed re-review."
+    }
+  ]
+}

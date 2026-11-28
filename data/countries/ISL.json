@@ -1,0 +1,2095 @@
+{
+  "iso3": "ISL",
+  "name": "Iceland",
+  "wave": 3,
+  "system_as_of": "2026-11-19",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded, residence-based national health service: the state owns most hospitals and primary care centres and Icelandic Health Insurance (Sjúkratryggingar Íslands) is the single national purchaser, with monthly caps on user charges and a stepped co-payment scheme for medicines"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "ISL-overview-001",
+        "statement": "Iceland's health system rests on universal, tax-funded coverage under highly centralised governance: entitlement depends on residence, and Icelandic Health Insurance (Sjúkratryggingar Íslands, SÍ) covers almost everyone and is the only national purchaser of services.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 41883,
+          "char_end": 42200,
+          "passage_sha256": "16315fe88fe239aba4a55d26ba183d2b824e9ab74b483f59d8654d3dd50b98a8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-overview-002",
+        "statement": "Care is delivered through seven health districts in a predominantly public system built on state-owned primary care centres and hospitals, with the state acting as both principal owner and payer.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 42201,
+          "char_end": 42442,
+          "passage_sha256": "706c67cf1186d25e72346792af161368ca08995c58d104ff4ccee2c3e6136cb5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-overview-003",
+        "statement": "In recent years SÍ has increasingly contracted private outpatient specialist clinics; temporary regulations, extended through May 2026, allow it to reimburse self-employed specialists so that care continues and backlogs shrink.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 42443,
+          "char_end": 42730,
+          "passage_sha256": "d233c2f9b80cf45643c95b6d69a39d0bfda1caacd414a4ac27fb0f06b308c994"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-overview-004",
+        "statement": "Most primary care was provided by public health centres and all hospitals were public; several proposals for private hospitals made over the previous decade had not been implemented.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 31474,
+          "char_end": 31693,
+          "passage_sha256": "2dae29b8e3b75c8d2c53a96244ab01a7d9fd18babac51f7af7f4831f346b4dd7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-overview-005",
+        "statement": "Public health insurance covers people once they have been legally resident in Iceland for six months in a row.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 50195,
+          "char_end": 50307,
+          "passage_sha256": "4358c05a0d78ea45a794511bc59b088db6b2cfee36f5d2904cb84d87655dd540"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-overview-006",
+        "statement": "Care is highly centralised around Reykjavík: the most complex inpatient care is concentrated at Landspítali, which also anchors most private specialist capacity in the capital region.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 48521,
+          "char_end": 48724,
+          "passage_sha256": "ec72fb5c9b8c91978be442a8e95497839cbed342013c10b3cca605f6feb9352f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-overview-007",
+        "statement": "First- and second-generation immigrants made up 18% of Iceland's population in 2022, up from about 8% in 2012; overcoming language barriers and providing culturally sensitive services remains a central topic of discussion.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 49985,
+          "char_end": 50570,
+          "passage_sha256": "a6709e17c2d6d4d081e7864565d60682bfd7d44ce740e1647258f28244684eda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "financing": [
+      {
+        "id": "ISL-financing-001",
+        "statement": "Health care is funded mainly from government revenue and covers all legal residents; the government is both payer and owner of most providers, and policy, administration and financing are centralised at national level.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 31135,
+          "char_end": 31473,
+          "passage_sha256": "04fc3000e8ff26bce2373866da2d90715ab130fc9e9416ca80b8f995b69a259d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-financing-002",
+        "statement": "Primary care, both public and private, is financed from public taxation, and public primary care has dominated the sector.",
+        "valence": "neutral",
+        "source_id": "pc-reimb-2022",
+        "locator": {
+          "section": "Abstract: Setting",
+          "char_start": 2000,
+          "char_end": 2131,
+          "passage_sha256": "bd96c48756cb5ab98463f8587624ebc8086f6a4424fca25146c6c7c7729d9995"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-financing-003",
+        "statement": "Public sources funded 83.6% of current health spending (EU average 80.0%), and out-of-pocket payments made up 14.7% of total spending, almost one percentage point under the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44060,
+          "char_end": 44293,
+          "passage_sha256": "e9d2f20ebd88615b8c39c0eb5ae9d66903d8b2e2420cd2a2eaa1233ef90d55d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-financing-004",
+        "statement": "Out-of-pocket spending consists mostly of co-payments for primary care, outpatient specialist care and medicines, with reduced charges or exemptions for vulnerable groups.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44294,
+          "char_end": 44450,
+          "passage_sha256": "cadb2b56301018f5c9375e50d0a8feadf3776337268b36f9a1cc1c53ed5b60c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-financing-005",
+        "statement": "Private sources paid for 16.4% of health spending in 2023 (EU average 20%): 14.7% came straight from households as out-of-pocket payments and only 1.7% from voluntary insurance.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 84035,
+          "char_end": 84260,
+          "passage_sha256": "9cba9be731604901680a3dcc89ecec533e45d08a94cacb2e5d21959e2388ffbe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-financing-006",
+        "statement": "Voluntary health insurance funds less than 2% of health spending and is bought mainly by newly arrived residents who are not yet eligible for public cover.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44451,
+          "char_end": 44617,
+          "passage_sha256": "f565fa05c77ff1cc45fdda5a23f79d5fb4a1a26fa9770067599d9bd103060838"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-financing-007",
+        "statement": "Real health spending per person rose 7% from 2019, almost all of it publicly funded; out-of-pocket spending per person grew only 1.8% between 2019 and 2023.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44618,
+          "char_end": 44836,
+          "passage_sha256": "cc1f59f7e1bcfdd02321a33fbd6f151594ee525e2a88226c4d00bacdacda3279"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2023"
+      },
+      {
+        "id": "ISL-financing-008",
+        "statement": "Outpatient care from private specialists is a significant part of the system, and the government reimburses about 75% of the cost of private-sector health care.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 31902,
+          "char_end": 32082,
+          "passage_sha256": "9775da757b702acd1f964253f00d84242a5e50b733f39eee4b8e9ccb44fb897a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "ISL-covered-001",
+        "statement": "Iceland covers practically the whole population with a broad benefit package; financial protection comes from monthly caps on user charges for covered services and a stepped co-payment scale for outpatient medicines with an annual cap, set lower for children, pensioners and people with disabilities.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 79171,
+          "char_end": 79614,
+          "passage_sha256": "5aa38d11c8755c70688a8876709ce433cf057c6236fbaa3cb1201c2df769f9a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-002",
+        "statement": "Public sources pay for 99% of hospital costs and 84% of outpatient care spending, a higher outpatient share than the EU average.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 79716,
+          "char_end": 79841,
+          "passage_sha256": "afba46168570f6c80d0574997e24fc5f07d777c050f4a05081c0ea18fd30781d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-covered-003",
+        "statement": "Only 34% of dental spending is publicly financed, roughly the EU average; children under 18 get basic dental services fully covered for an annual fee of ISK 3,500 (EUR 24.2), and in 2023 pensioners and people with chronic conditions had about 69% of general dental costs covered.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 82925,
+          "char_end": 83317,
+          "passage_sha256": "a331e6f14e0ada32def36e35701cab661480592922f8307c4c7e6a72a3dd890e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-covered-004",
+        "statement": "A five-year agreement signed between Iceland Health and the Icelandic Dental Association guarantees public payment toward dental care for children, older people and people with disabilities.",
+        "valence": "strength",
+        "source_id": "islandis-dental-2024",
+        "locator": {
+          "section": "News, 13 June 2024",
+          "char_start": 1166,
+          "char_end": 1669,
+          "passage_sha256": "398d1d2a74534abf7d62fa4430ede2b4815f01010a61bc8474cee592b8b48894"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-005",
+        "statement": "In the previous year 62,883 children received dental care with Iceland Health contributing; apart from the entry fee, Iceland Health covers the full cost of all necessary dental treatment for children.",
+        "valence": "strength",
+        "source_id": "islandis-dental-2024",
+        "locator": {
+          "section": "News, 13 June 2024: More services purchased from dentists",
+          "char_start": 2958,
+          "char_end": 3193,
+          "passage_sha256": "ed0026509b7744f6e8576aedfaaab63acb097ae94e29f0ba685e64b31920b05f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-covered-006",
+        "statement": "Charges that count toward the payment participation system include health care admission fees, hospital fees for day wards and outpatient wards, self-employed specialist doctors, research, radiography, imaging and bone density measurements, solarium treatment for skin disease at the Dermatology Centre and Spóex, children's psychological services under the framework agreement with the Icelandic Psychological Association, physiotherapy, occupational therapy and speech therapy.",
+        "valence": "neutral",
+        "source_id": "islandis-copay-system",
+        "locator": {
+          "section": "What services are subsidized?",
+          "char_start": 4745,
+          "char_end": 5277,
+          "passage_sha256": "b780ae9e2972677fa056c5a4fbab0cdc0f35b7e769913ebedaf01c1966e0d919"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-007",
+        "statement": "Since autumn 2023 free HPV vaccination has also been offered to boys under a gender-neutral policy.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 70758,
+          "char_end": 70865,
+          "passage_sha256": "2b69beaadff8846ba4496bdbeaedf56672eb156d715384474fe51efbaba7837a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-008",
+        "statement": "A population-based colorectal cancer screening programme started in 2025, inviting people aged 60 to 74 for a faecal immunochemical test every two years, with results sent through the Heilsuvera health portal.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 76170,
+          "char_end": 76493,
+          "passage_sha256": "7888783870100b0996631d276cd1cd55bd53b79a3c139158cda86725f3c40598"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-009",
+        "statement": "Decisions on which medicines are reimbursed are made by the Icelandic Medicines Agency on the basis of an expert review by the Landspítali Medicine Committee, which weighs each product's clinical benefit, cost-effectiveness and likely budget impact.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 119469,
+          "char_end": 119733,
+          "passage_sha256": "304c09b990bc4de9d4247cba8a2c30b5a0167b16492af8db0b792328215e70f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-010",
+        "statement": "Iceland has no health technology assessment of its own: the IMA relies on appraisals made in other Nordic countries, and since 2024 this has been backed by Iceland joining the Joint Nordic HTA project (formerly FINOSE), whose goal is common assessment methods and pooled knowledge about new medicines.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 119734,
+          "char_end": 120070,
+          "passage_sha256": "141e938587e28c644a45949ddf53f657ec4688df346a3f1a0faf4b84854a131a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-covered-011",
+        "statement": "Iceland Health must approve in advance before it pays toward cataract surgery, light therapy for skin conditions and specified plastic surgery.",
+        "valence": "neutral",
+        "source_id": "islandis-copay-system",
+        "locator": {
+          "section": "What services are subsidized?",
+          "char_start": 5845,
+          "char_end": 5995,
+          "passage_sha256": "46318a9dde1dc0a687499de2e798150f16e24429e25a37f3f2f6751592ad50fd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "ISL-cost_sharing-001",
+        "statement": "The maximum payment for covered health services is ISK 37,794 at the general rate and ISK 25,198 for older people, disabled people, people on a rehabilitation pension from Tryggingastofnun and children aged 2-18; children under 2 pay no fee.",
+        "valence": "neutral",
+        "source_id": "islandis-copay-system",
+        "locator": {
+          "section": "How much do I have to pay for healthcare?",
+          "char_start": 747,
+          "char_end": 962,
+          "passage_sha256": "9314dc57cae86c7dbba29f976b19cefac9229900d2c752dedecee269f156cb5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-cost_sharing-002",
+        "statement": "All children in one family count as a single child under the payment cap.",
+        "valence": "strength",
+        "source_id": "islandis-copay-system",
+        "locator": {
+          "section": "How much do I have to pay for healthcare?",
+          "char_start": 963,
+          "char_end": 1056,
+          "passage_sha256": "977c3a6fac41c628c0709a3ad2044a5a77b5b8154489907f145766291be35ffb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-cost_sharing-003",
+        "statement": "The maximum payment starts from a base of ISK 6,299 and rises by ISK 6,299 for each month a person does not use health services, up to ISK 37,794.",
+        "valence": "neutral",
+        "source_id": "islandis-copay-system",
+        "locator": {
+          "section": "Example calculation",
+          "char_start": 2989,
+          "char_end": 3167,
+          "passage_sha256": "883844be0ebac2a0f2aed9e897be05a84269c44a15b16b8fc41eabb2b5b05d91"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-cost_sharing-004",
+        "statement": "For outpatient medicines, patients pay the full price until their costs over a rolling 12 months reach ISK 22,800 (about EUR 160), then 15% up to ISK 32,430, then 7.5% up to ISK 62,000 (about EUR 433); above that, public insurance pays everything.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 120657,
+          "char_end": 121100,
+          "passage_sha256": "d3f84ec1d01252436b72e9b0364b70ceb5b4fc717cc6ea4b1f8d9f2727b080e1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-cost_sharing-005",
+        "statement": "Public insurance paid only 41% of retail pharmaceutical spending in 2023 (EU average 62%), so medicines made up 45% of all out-of-pocket spending, almost twice the EU average of 25%.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 123491,
+          "char_end": 123733,
+          "passage_sha256": "5aa0f38522c78481e29449bed1762660d8c7dc430f8b298032a8262a11fe55d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-cost_sharing-006",
+        "statement": "Patient charges for medicines are tied to a reference price: a patient who picks a more expensive alternative pays the whole price difference, and that extra does not count toward the annual co-payment cap.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 132893,
+          "char_end": 133188,
+          "passage_sha256": "8d97b56dbdb2c0d7e886d5926607d402aaf928a586026bf2f2d945ee7a60cc5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-cost_sharing-007",
+        "statement": "Under a 2019 plan to lower financial barriers, the fee for a daytime GP visit was cut by nearly a third in 2021 to ISK 500 (about EUR 3.50), while the specialist visit fee stayed at ISK 3,400 (about EUR 23) despite inflation.",
+        "valence": "strength",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 51565,
+          "char_end": 51833,
+          "passage_sha256": "ee138529a49bb6f2473fd158cc6d1f488a3c058b3f8dbb87361a203abcba3712"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ISL-cost_sharing-008",
+        "statement": "Since 2024 'soft gatekeeping' guidance expects specialist care normally to begin with a family doctor's referral for the visit to be reimbursed, and patients pay lower co-payments for referred specialist visits.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 42993,
+          "char_end": 43384,
+          "passage_sha256": "8d633fe44bed7367ee438d9118d432c342302bd62c6360ec1e438e160283d3cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-cost_sharing-009",
+        "statement": "Under a decision by the Minister of Health, from 1 July children seeing specialist doctors without a referral no longer pay 30% of the bill, though requests must still be submitted to physiotherapists and speech therapists.",
+        "valence": "strength",
+        "source_id": "islandis-children-2025",
+        "locator": {
+          "section": "News, 5 June 2025",
+          "char_start": 289,
+          "char_end": 774,
+          "passage_sha256": "dfec036a2034c258b04c4adf97a01844b7c8b546461101184a972f163fbf953e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ISL-cost_sharing-010",
+        "statement": "Since late 2023 public insurance has shared the cost of semaglutide for weight management, but only under strict criteria.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "3 Risk factors",
+          "page": 7,
+          "char_start": 35974,
+          "char_end": 36074,
+          "passage_sha256": "ab6256e3f25eecede8e30e84b8bf37ecddcbe0f6759a8e2565706ee2421988a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "ISL-financial_hardship-001",
+        "statement": "Households bear a relatively high burden under the stepped co-payment scheme for medicines: public insurance pays only 41% of retail pharmaceutical spending, against an EU average of 62%.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "7 Key findings",
+          "page": 22,
+          "char_start": 143844,
+          "char_end": 144048,
+          "passage_sha256": "e9d0e1c960ab53d20b7bfec0cd0cdb5678448db314b5c9597c5c445cf6d29fae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "ISL-additional_care-001",
+        "statement": "Voluntary health insurance is virtually non-existent, at 1.7% of health expenditure; it is the main source of coverage for people who have lived in Iceland for under six months and are not yet eligible for public coverage.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 33205,
+          "char_end": 33472,
+          "passage_sha256": "2d67841830990be2003f02dc55e10c994558455f1e69c3bba44402cdef360c55"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ISL-additional_care-002",
+        "statement": "In recent years the number and scope of private (non-profit and for-profit) clinicians grew faster than the overall number of doctors, whose growth was roughly in line with EU trends.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 31694,
+          "char_end": 31901,
+          "passage_sha256": "b9a3c91a9d280b80ec6e2bef279f59a54186bbbb6a77034cb5bf4d77c282c4be"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-additional_care-003",
+        "statement": "Most private specialist clinics are located in the capital area, where about two thirds of the population lives.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "4 The health system",
+          "page": 11,
+          "char_start": 36429,
+          "char_end": 36579,
+          "passage_sha256": "f9a34555a1c3470ff9a93ecd1a8c04a5299661d90718050f77989c792daf8e25"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-additional_care-004",
+        "statement": "A 2017 reform of the primary care system, aimed at better availability and quality, introduced a new reimbursement model, and two new private centres opened following a tender.",
+        "valence": "neutral",
+        "source_id": "pc-reimb-2022",
+        "locator": {
+          "section": "Key points",
+          "char_start": 2873,
+          "char_end": 3067,
+          "passage_sha256": "a6c997053d9a0498a01c7dd9a1d0eb7580acc683ac2f8a030735a1cd6149d5e3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "ISL-access-001",
+        "statement": "Only 13% of Icelandic doctors work as GPs (EU average 19%), or 0.6 GPs per 1,000 people versus 0.8 in the EU, and an estimated half of residents had no fixed family doctor in late 2023.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 59421,
+          "char_end": 59766,
+          "passage_sha256": "b406c70e30dcf17d4af633da01aae4cdb08ddf101e14c07b055cf8787a297946"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-access-002",
+        "statement": "Iceland had 15.2 nurses per 1,000 people in 2023, counting registered and licensed practical nurses, the second-highest density in Europe, and its doctor-to-population ratio is also above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 57237,
+          "char_end": 57450,
+          "passage_sha256": "ce7d611f84679e7b9903302ee4f4adac6d01ead33ca4991bbcace480e1339f35"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-access-003",
+        "statement": "A 2016 plan set a benchmark of 80% of patients treated within 90 days, but backlogs persisted and were worsened by COVID-19: in 2022 more than 80% of joint-replacement patients and 69% of cataract patients waited longer than 90 days.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 98282,
+          "char_end": 98542,
+          "passage_sha256": "fa2ef612a5d8d1f005d70a1b5b2f6831f4818598a1ba404b138008480faca574"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ISL-access-004",
+        "statement": "Hip and knee replacement improved sharply on the back of targeted funding, per-case payments and 700 extra operations bought from private providers: a record 2,138 were performed in 2023, and the median wait at Landspítali dropped from 9.5 to 4.6 months.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 98608,
+          "char_end": 98918,
+          "passage_sha256": "60d627f3e4e913668eeadbde884ae88e6b82becf3687bce4d0610368a49e2bed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-access-005",
+        "statement": "Cataract surgery waits have grown: Landspítali's waiting list reached 3,000 people by August 2023, 1,000 of them waiting more than a year, and in 2024 78% of patients waited longer than 90 days, the highest share on record.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 98950,
+          "char_end": 99195,
+          "passage_sha256": "f7b85c8caa63fc2d22c573b66b7a018af50b165c55adb95ef31d0f218bc0ce9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-access-006",
+        "statement": "In 2020 over 91% of residents could reach a hospital with round-the-clock surgery and overnight care within 30 minutes by car, and 99.5% lived within a 30-minute drive of some health service, counting 47 primary care centres and 22 part-time sites.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 85216,
+          "char_end": 85544,
+          "passage_sha256": "f14621b707036249f9116a55c7306432bf65d67aca309b52f50b4070dfdc982b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "ISL-access-007",
+        "statement": "Iceland has one official helicopter emergency medical services base, at Akureyri, which can meet up to 66% of demand within 60 minutes.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 91586,
+          "char_end": 91730,
+          "passage_sha256": "6b1534320f2f95b88e6990618e7ece39eb2d1b86e00ae20a0bccfe9f5e75dc2d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-access-008",
+        "statement": "Heilsuvera, the national health portal integrated with the electronic health record, lets residents book appointments, view test results, request prescription renewals and hold video consultations; by 2024 more than half of adults actively used it, with strong uptake in all regions.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "Box 1. Heilsuvera",
+          "page": 15,
+          "char_start": 92021,
+          "char_end": 92749,
+          "passage_sha256": "00d29538026bd246da1b6cdeb74f0b6e7995b1b5dca75a29c1c14bc1976515f9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-access-009",
+        "statement": "Iceland had 2.6 hospital beds per 1,000 people in 2023, about half the EU average, and hospital discharge rates were 32% below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 104615,
+          "char_end": 104763,
+          "passage_sha256": "f65bd7c2488e23e19300441fe1b0fef20e9d907e61737c3998d53c97759c46d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-access-010",
+        "statement": "A 2025 National Audit Office review found that Landspítali, the main hospital, could not fill its 2024 staffing plan: 50 registered nurse and 379 licensed practical nurse posts were vacant, which limited surgery and added pressure on high-dependency wards and emergency rooms.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 57758,
+          "char_end": 58130,
+          "passage_sha256": "f4c373b424b9d019ecf621e90c9882c87ba9e1fad8a5758e7f060e2d26330a01"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-access-011",
+        "statement": "Iceland had about 2,800 nursing-home beds at the end of 2023 and 677 people on the waiting list in June 2025, delaying hospital discharges; about 100 more places a year are needed to 2040, and 1,041 new beds are planned for 2025-2029.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 106125,
+          "char_end": 106499,
+          "passage_sha256": "a99c9e05538adcdd02c5a5be4bfad68c67bea1e8b349e31ee293a73800754266"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ISL-access-012",
+        "statement": "Average waits for mental health care in 2021 exceeded four months for children and approached six months for adults, with large differences between types of service.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "6 Spotlight on mental health",
+          "page": 21,
+          "char_start": 72772,
+          "char_end": 73002,
+          "passage_sha256": "e2a29ca226bd5b9fc8593a5c16e2d891d7aabd8e6014e8d97a0630332eb84990"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ISL-access-013",
+        "statement": "New medicines reached the Icelandic market a median of 513 days after EU authorisation in 2020-2023, close to the EU median of 518 days.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 133725,
+          "char_end": 133892,
+          "passage_sha256": "3e3eeee9eaa9d1f9dad2d460165e95feda42fe001bb4c1727f49ae014d1057b2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2023"
+      },
+      {
+        "id": "ISL-access-014",
+        "statement": "People with a history of psychiatric disorders (prevalence ratio 1.59) or chronic somatic conditions (1.40) were more likely to report disruption of their health care.",
+        "valence": "weakness",
+        "source_id": "covid-disruption-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 5558,
+          "char_end": 5824,
+          "passage_sha256": "ed1f435918fcf84ba48230990936e2e77723247ba393fad943f7d20132eb072c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2021"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "ISL-outcomes-001",
+        "statement": "Life expectancy was 82.8 years in 2024, more than a year above the EU average, but still 0.4 years below its 2019 level after a 1.1-year fall in 2022 when COVID-19 deaths rose.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "2 Health in Iceland",
+          "page": 4,
+          "char_start": 13965,
+          "char_end": 14342,
+          "passage_sha256": "eeeaf2ced407e859a3d3859a8f19ea847ad6616064c0e756f98dfd4beb99dd24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-outcomes-002",
+        "statement": "In 2024 a 30-year-old man without secondary education could expect to live 5.1 years less than a university-educated man of the same age; for women the gap was 4.2 years.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "2 Health in Iceland",
+          "page": 4,
+          "char_start": 14986,
+          "char_end": 15184,
+          "passage_sha256": "30587c0aa15b63f0cd4e31551856d28049480cf17903379255768e2aedf6015a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-outcomes-003",
+        "statement": "Preventable mortality was 125 deaths per 100,000 people in 2022, 26% below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 63105,
+          "char_end": 63231,
+          "passage_sha256": "0eac7d5489738022b0e2449aef7a6cb371708c479611ad9348ede8c8f225cae6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ISL-outcomes-004",
+        "statement": "Over the past decade treatable mortality has stayed at about 60 deaths per 100,000, roughly a third below the EU average.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 63574,
+          "char_end": 63696,
+          "passage_sha256": "6aef5e417ce90d63fcaeaf372bf2cfdfc2d497180e1eabc1b272b9c002e0c2f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ISL-outcomes-005",
+        "statement": "Iceland's HAQ Index score for ages 0-74 was 93.1 (91.3-94.4) in 2019, 15.2 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 44452,
+          "char_end": 44618,
+          "passage_sha256": "686e1097327a231e27f9b31dda683bc8505537cfa1a085872c65ee582b5e13e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ISL-outcomes-006",
+        "statement": "Combined hospital admissions for chronic conditions were a third below the EU average in 2023, and diabetes admissions were 71% lower.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 76656,
+          "char_end": 76961,
+          "passage_sha256": "05ce96bb9df1ca0efba78afe5c59b59f7bb9213e7e5dbd55acfe5d49ca0c6969"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-outcomes-007",
+        "statement": "In the 2023-24 OECD PaRIS survey, only about a third of patients felt confident managing their health or reported good care coordination, far below the 60% EU average.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 78096,
+          "char_end": 78279,
+          "passage_sha256": "b99501e0e79c88690b8925049254dff3828bd715aecb81f9a3a81f0c13f7cdcb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "ISL-outcomes-008",
+        "statement": "Fewer than half of patients with three or more conditions had a medication review in the past year, well below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 78736,
+          "char_end": 78874,
+          "passage_sha256": "9e8f2116706c97ba833037a7d5c8aacfd229e43c515120af31338918692742a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "ISL-outcomes-009",
+        "statement": "In 2024, 97% of young children had a first measles vaccine dose (EU 92%), and 93% of 15-year-old girls were vaccinated against HPV, the second-highest rate in Europe and about 30 percentage points above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 70367,
+          "char_end": 70757,
+          "passage_sha256": "9459876f0a7e2b019e3657ef1b1eb50684b5ca4c5cdac2bc0477cb4812a0b955"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-outcomes-010",
+        "statement": "Uptake in 2023 was 62% for cervical cancer screening and 56% for breast cancer screening, against EU averages of 58%.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 72206,
+          "char_end": 72317,
+          "passage_sha256": "248105282bf1e8551a69cf9017ba54a8f3aa5edd5b309402436b3a470c4e9ac7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-outcomes-011",
+        "statement": "A study of patients with type 2 diabetes at two rural nurse-led clinics in primary care in Northern Iceland (88 patients with two HbA1c measurements at least six months apart) found that at the second measurement about 70% met the clinical goal for HbA1c, 56% for systolic and 49% for diastolic blood pressure, and 33% for body mass index.",
+        "valence": "strength",
+        "source_id": "diabetes-nurse-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1870,
+          "char_end": 2620,
+          "passage_sha256": "2ef042c5a22cc553f2f17bd50ecd9805bfe72922529cc4b678cd8e52734f70f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2020"
+      },
+      {
+        "id": "ISL-outcomes-012",
+        "statement": "The share of adults who smoke daily fell from 22% in 2003 to under 6% in 2023, the lowest rate in Europe.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "3 Risk factors",
+          "page": 6,
+          "char_start": 31016,
+          "char_end": 31124,
+          "passage_sha256": "6dde6c95ecd3b5f3e35b2045c1c041d6c1d9f265b73dafbed086c14977a4df1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "ISL-costs-001",
+        "statement": "Health spending was EUR 3,905 per person in 2023, 1.9% above the EU average, but only 8.7% of GDP against 10.0% across the EU.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 43897,
+          "char_end": 44047,
+          "passage_sha256": "61191c805903506a6ab0ebf192fd8b28012685ba9d14b41bddf053e586187d18"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-costs-002",
+        "statement": "Inpatient and outpatient care each took about 31% of health spending in 2023, together more than 60%, and each about 3 percentage points above the EU share.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45227,
+          "char_end": 45473,
+          "passage_sha256": "682235ba89096f7487add5ccb96a5415bc8720eea7465278261635e99ae7e2dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-costs-003",
+        "statement": "Long-term care took 19% of health spending (EU 18%), medicines and medical devices under 15% (EU 18%), and prevention just 2%, half the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 47730,
+          "char_end": 48205,
+          "passage_sha256": "80a9e4539e9b151eab9924f6eec6b22c07e77d09ed414bc3311974486cb863d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-costs-004",
+        "statement": "Preliminary 2024 data show total health spending per person rising by nearly 5% on the previous year.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44999,
+          "char_end": 45166,
+          "passage_sha256": "978f2c95d32fee709a4db7d4f456c01bc48898108f0ff853092cbf1d5f5c4427"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ISL-costs-005",
+        "statement": "Retail spending on medicines was EUR 480 per person in 2023, 6% below the EU average but the highest among the Nordic countries, about 16% above their average.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 118298,
+          "char_end": 118571,
+          "passage_sha256": "1b4f09279e2aeff86afb6f56f593c81a254c199afe157750f94db7be3cc0111e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-costs-006",
+        "statement": "Medicine prices are capped by reference to Denmark, Finland, Norway and Sweden: most prescription medicines may not exceed the average Nordic wholesale price, and high-cost specialty medicines are capped at the lowest price in the region.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 124435,
+          "char_end": 124802,
+          "passage_sha256": "809377ef18f77e15df8082353ecf55c999f864a623b8aabdd14b426a2d21b93f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-costs-007",
+        "statement": "In its first year, the new primary care reimbursement model in the Reykjavík capital area showed no significant differences between public and private centres in total reimbursements, reimbursements per GP, registered patients or cost per visit.",
+        "valence": "neutral",
+        "source_id": "pc-reimb-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1527,
+          "char_end": 2544,
+          "passage_sha256": "06dfb410ea4838e2d7848720d3d0078801eb7e4cc6d34ef7a66a72718805983a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2017
+      }
+    ],
+    "what_works": [
+      {
+        "id": "ISL-what_works-001",
+        "statement": "Iceland has some of the lowest avoidable mortality rates in Europe, which the source takes as evidence that its public health and health care are effective.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 62957,
+          "char_end": 63104,
+          "passage_sha256": "b4a5a113971f39c8630c17204db997bedb664c6dce648ff3b2958e37f211d8fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-what_works-002",
+        "statement": "Orthopaedics benefited from targeted purchasing, performance-linked funding and focused management attention after a national waiting-times dashboard was introduced.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 99569,
+          "char_end": 99746,
+          "passage_sha256": "27dc3933d4501c6a2908031cd047c4bb053298e9dbec73f1b88617335700aa5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-what_works-003",
+        "statement": "Diabetes hospitalisation is 71% below the EU average, which the source attributes mainly to a strong nurse-led primary care model, while noting that the disease is also less common in Iceland.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 76839,
+          "char_end": 77112,
+          "passage_sha256": "9bce2998999c54d4dfb95620a94d7860aec4ab66683eb9629f80891d5cee923f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-what_works-004",
+        "statement": "More than 80% of antibiotics prescribed in Iceland are from the WHO 'Access' group, well above the 65% target.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 19,
+          "char_start": 117463,
+          "char_end": 117565,
+          "passage_sha256": "5760c658cffcf0e29db7df2d55e9d0495d66f87da47059f13931c77a9f9c249e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-what_works-005",
+        "statement": "By automating appointment booking and prescription requests, the Heilsuvera portal has reduced clinical staff workload, and secure messaging and online consultations increasingly replace in-person visits for non-urgent problems.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "Box 1. Heilsuvera",
+          "page": 15,
+          "char_start": 93073,
+          "char_end": 93339,
+          "passage_sha256": "b5ce78f48e6b827390c5601148ab205de211a0f432c75f656b72db8519a1b9e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-what_works-006",
+        "statement": "According to the IMA, generics made up 49% of the total pharmaceutical market by volume in Iceland in 2021, similar to the EU average, above Sweden (37%) and below Denmark (69%).",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 133242,
+          "char_end": 133453,
+          "passage_sha256": "a83f944e4a94953121c122284ad6a567bd5797885e116f920575504939a589be"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ISL-what_works-007",
+        "statement": "Iceland trains twice as many nurses each year as the EU average, counting both registered and licensed practical nurse programmes.",
+        "valence": "strength",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 107691,
+          "char_end": 107865,
+          "passage_sha256": "c7c2214d1720e09036d01294d7d71bdd71c1742076065a2c8ea1a8ae4770fc77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-what_works-008",
+        "statement": "People infected with COVID-19 did not report more disruption to their health care, which the authors take as a sign that the Icelandic system kept services accessible to them.",
+        "valence": "strength",
+        "source_id": "covid-disruption-2024",
+        "locator": {
+          "section": "Conclusions",
+          "char_start": 35115,
+          "char_end": 35334,
+          "passage_sha256": "88ccbbfae84336466f35f58ef13e198a7e65bf70e26a39518b093d312bf06ae9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2021"
+      }
+    ],
+    "problems": [
+      {
+        "id": "ISL-problems-001",
+        "statement": "GP density fell by 0.3% a year over the past decade, while it rose by more than 1% a year on average in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 59242,
+          "char_end": 59420,
+          "passage_sha256": "2935bfcd7839edeae73104db823b7a67c28b689afabb6b8647841734b1a57305"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-problems-002",
+        "statement": "Hospital bed occupancy routinely exceeds the 85% safety threshold, and staff shortages, which the National Audit Office identified as the main bottleneck, are causing emergency department crowding, postponed elective operations and fewer usable beds.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 105175,
+          "char_end": 105506,
+          "passage_sha256": "10dffabda9b1f3d7114de7880abd69e5a45eb229fc25aff6177fc015ae5d1ff5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-problems-003",
+        "statement": "Ministry of Health projections say the hospital system will need about 50% more beds by 2040 than are planned for 2026.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 105578,
+          "char_end": 105726,
+          "passage_sha256": "48fcc046716887caec5623a8e13e4e639b60b9583cc2604c4709add84afd9714"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-problems-004",
+        "statement": "In January 2025, 31% of approved medicines were accessible to Icelandic patients versus an EU average of 46%; for cancer medicines, 34% of authorised products were listed versus 50% in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 133956,
+          "char_end": 134229,
+          "passage_sha256": "00fd3a85f6319ce097c4cc3e9921497082023bd5eca51a5fb3bb013d80da60bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ISL-problems-005",
+        "statement": "No nursing home meets the safe-staffing benchmark of at least 60% registered nurses, partly because funding limits hiring and training.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 58131,
+          "char_end": 58305,
+          "passage_sha256": "396b0b0f242ee82fb8217b5f8a95996ef24c5f23481d5609a60b19fcc154bbd4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-problems-006",
+        "statement": "Minister of Health Alma D. Möller said the children's referral system had not worked as intended and had led, in many cases, to children of poorer parents who needed referrals for financial reasons waiting longer than children whose parents could pay to see a specialist without one.",
+        "valence": "weakness",
+        "source_id": "islandis-children-2025",
+        "locator": {
+          "section": "News, 5 June 2025",
+          "char_start": 289,
+          "char_end": 1201,
+          "passage_sha256": "28eabd5af911b436a91b148f8ad54bec4d92add435b93f9bcf216802383fb328"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-problems-007",
+        "statement": "Obesity affected 22% of adults in Iceland in 2019, against 15% across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "3 Risk factors",
+          "page": 6,
+          "char_start": 32674,
+          "char_end": 32752,
+          "passage_sha256": "3e4ce17f49ca0e8dc2165b59655de6c6b0519183bf248530880696edb2c1cf36"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ISL-problems-008",
+        "statement": "Iceland has long underinvested in health ICT: investment quadrupled in 2023 but, at EUR 0.8 million per 100,000 people, was still 65% below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 110783,
+          "char_end": 111052,
+          "passage_sha256": "5477539a92ca98300ca1c97953b2a303b7a293ed64bc55e918e2a16fb4621b71"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ISL-problems-009",
+        "statement": "In 2019 about 20% of men and women in the lowest income fifth reported depression, against 6.7% of men and 9.4% of women in the highest fifth.",
+        "valence": "weakness",
+        "source_id": "chp-isl-2023",
+        "locator": {
+          "section": "6 Spotlight on mental health",
+          "page": 20,
+          "char_start": 68508,
+          "char_end": 68691,
+          "passage_sha256": "a462cad4ea52565d42369c35a2af79f26c6b4279ea85b681dd73949cad3baeed"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "reforms": [
+      {
+        "id": "ISL-reforms-001",
+        "statement": "In August 2025 the government announced a multi-year plan to buy about 1,000 extra elective operations a year through long-term contracts.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 16,
+          "char_start": 99865,
+          "char_end": 100051,
+          "passage_sha256": "4c3719a1d96273dde601fe742ccc8a9debfe016275abde628e415427d57ac46a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-002",
+        "statement": "Minister of Health Alma D. Möller decided to abolish the referral requirement for children, applying only to specialist doctors and services attached to them (the source's example is research), effective 1 July.",
+        "valence": "neutral",
+        "source_id": "islandis-children-2025",
+        "locator": {
+          "section": "News, 5 June 2025",
+          "char_start": 289,
+          "char_end": 600,
+          "passage_sha256": "5d21ec34c4352444e38908f522e2a6a8cd1de114838a4a061b7b3108a8121599"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ISL-reforms-003",
+        "statement": "The National Action Plan on AMR 2025-2029 aims to cut antibiotic consumption by a further 20% from 2022 levels by 2029.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 112638,
+          "char_end": 112789,
+          "passage_sha256": "717da9693deaed8389c7ec88f92c491ae58db493e7f1c0f144a33568fb855cad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-004",
+        "statement": "In 2024 doctors and pharmacists moved to a 36-hour working week on condition that productivity was maintained, at a time of growing workforce pressure.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 57598,
+          "char_end": 57757,
+          "passage_sha256": "c5f1aa4ec6e7798cc5e9a050f6be87c2ce688447604cd184548225992ba43df1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-005",
+        "statement": "Medical training is being expanded: intake rose from 48 in 2019 to 75 in 2024, and since 2023 all new doctors must complete a mandatory one-year foundation internship before specialising.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 106882,
+          "char_end": 107558,
+          "passage_sha256": "8c63782f19f27c7870e595d2062a7afb318581c1e06058c84bd7cc6653c63bec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-006",
+        "statement": "To ease the shortage of family doctors, the government has widened family medicine training and let doctors working outside hospitals keep working until 75, up from a maximum of 70.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 59595,
+          "char_end": 59941,
+          "passage_sha256": "3f204b4f06c11b50390605b5de96a4a04fb8068edc8cec04760ec7e890ee0f31"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-007",
+        "statement": "Groundwork for an expansion of Akureyri Hospital in the north is expected in summer 2026.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 56813,
+          "char_end": 56932,
+          "passage_sha256": "2ceaf25d8dce1a050dcbcf44707db6f417766a1301ceb8d5dda7a131b299887e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-008",
+        "statement": "The government proposed a long-term obesity strategy in 2024, and since January 2025 primary-school lunches have been free nationwide.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "3 Risk factors",
+          "page": 7,
+          "char_start": 35689,
+          "char_end": 35857,
+          "passage_sha256": "7ea338d2b6f49bdbaba014910c220a51c95245c46b76d18fd55e9f4c7d41f9fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "ISL-reforms-009",
+        "statement": "In 2021 screening oversight moved from the Icelandic Cancer Society to the public sector, with a new national screening centre coordinating programmes and public providers delivering them.",
+        "valence": "neutral",
+        "source_id": "chp-isl-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 71603,
+          "char_end": 71895,
+          "passage_sha256": "1dff6b1eb086ba149416125c3443fe3a2ebb47c2c4bbb6282ace5fa66b797d61"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-19",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/ISL.json",
+  "sources": [
+    {
+      "id": "chp-isl-2025",
+      "title": "State of Health in the EU: Iceland, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-iceland-final-web.pdf",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "chp-isl-2023",
+      "title": "State of Health in the EU: Iceland, Country Health Profile 2023",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://eurohealthobservatory.who.int/publications/m/iceland-country-health-profile-2023",
+      "text_url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2023pdf/chp-iceland2023.pdf",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "islandis-copay-system",
+      "title": "What do you have to pay for health care? - Co-payment system",
+      "publisher": "Iceland Health (Sjúkratryggingar Íslands), on Ísland.is",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://island.is/en/co-payment-system-for-health-service",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "islandis-children-2025",
+      "title": "Specialist services free of charge for children (news, 5 June 2025)",
+      "publisher": "Iceland Health (Sjúkratryggingar Íslands), on Ísland.is",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://island.is/en/o/iceland-health/news/2025-06-05-specialist-services-free-of-charge-for-children",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "islandis-dental-2024",
+      "title": "Children, elderly and disabled persons guaranteed payment participation for dental services in contract (news, 13 June 2024)",
+      "publisher": "Iceland Health (Sjúkratryggingar Íslands), on Ísland.is",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://island.is/en/o/iceland-health/news/2024-06-13children-elderly-and-disabled-persons-guaranteed-payment-participation-for",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "pc-reimb-2022",
+      "title": "New reimbursement model in Icelandic primary care in 2017: first-year comparison of public and private primary care",
+      "publisher": "Scandinavian Journal of Primary Health Care",
+      "authors": "Sigurdsson H, Gudmundsson KG, Gestsdottir S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1080/02813432.2022.2097713",
+      "doi": "10.1080/02813432.2022.2097713",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9397416",
+      "license": "CC BY 4.0",
+      "funding_note": "Descriptive comparison of official payment data; first author works at a public primary care centre. Authors report no conflict of interest.",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "diabetes-nurse-2025",
+      "title": "Outcomes of treatment for people with type 2 diabetes within two nurse-led clinics in primary care in Iceland",
+      "publisher": "International Journal of Circumpolar Health",
+      "authors": "Birgisdóttir M, Skúladóttir H, Sigurðardóttir ÁK",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1080/22423982.2025.2517932",
+      "doi": "10.1080/22423982.2025.2517932",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12160325",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "covid-disruption-2024",
+      "title": "Trends of perceived disruption in healthcare services during the pandemic: findings from the COVID-19 National Resilience Cohort in Iceland",
+      "publisher": "European Journal of Public Health",
+      "authors": "Wang Y, Unnarsdóttir AB, Magnúsdóttir I, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1093/eurpub/ckad220",
+      "doi": "10.1093/eurpub/ckad220",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10990518",
+      "accessed": "2026-11-19"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-19",
+      "note": "Profile created: 100 claims from 9 sources, anchored and support-reviewed in two separate cold passes; 53 statements reworded or re-anchored in review (details from outside the passage, years not in the passage, overstatement, scope, 8 to avoid copying source wording); no claims dropped. us_lessons and rankings left empty: no qualifying source found."
+    }
+  ]
+}

@@ -163,10 +163,17 @@ jobs:
         run: npx -y $FIREBASE_TOOLS deploy --project staging --only hosting:atlas --message "${{ github.sha }}"
       - name: Post-deploy check
         if: env.CONFIGURED == 'true'
+        # Firebase's edge cache can serve a page from before the release for a
+        # short while, so retry for up to two minutes and bypass the cache.
         run: |
           for path in "" "data/bundle.js"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" "https://healthcare-atlas-staging.web.app/$path")
-            echo "/$path -> $code"; [ "$code" = 200 ] || exit 1
+            for try in $(seq 1 12); do
+              code=$(curl -s -o /dev/null -w "%{http_code}" -H "Cache-Control: no-cache" "https://healthcare-atlas-staging.web.app/$path?v=$GITHUB_SHA-$try")
+              echo "/$path (try $try) -> $code"
+              [ "$code" = 200 ] && break
+              [ "$try" = 12 ] && exit 1
+              sleep 10
+            done
           done
 
   production:
@@ -207,10 +214,17 @@ jobs:
         run: npx -y $FIREBASE_TOOLS deploy --project production --only hosting:atlas --message "${{ github.sha }}"
       - name: Post-deploy check
         if: env.CONFIGURED == 'true'
+        # Firebase's edge cache can serve a page from before the release for a
+        # short while, so retry for up to two minutes and bypass the cache.
         run: |
           for path in "" "data/bundle.js"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" "https://healthcare-atlas.web.app/$path")
-            echo "/$path -> $code"; [ "$code" = 200 ] || exit 1
+            for try in $(seq 1 12); do
+              code=$(curl -s -o /dev/null -w "%{http_code}" -H "Cache-Control: no-cache" "https://healthcare-atlas.web.app/$path?v=$GITHUB_SHA-$try")
+              echo "/$path (try $try) -> $code"
+              [ "$code" = 200 ] && break
+              [ "$try" = 12 ] && exit 1
+              sleep 10
+            done
           done
       - name: Tag the release
         if: env.CONFIGURED == 'true'

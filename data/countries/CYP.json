@@ -1,0 +1,1127 @@
+{
+  "iso3": "CYP",
+  "name": "Cyprus",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "verified",
+  "model": {
+    "type": "single_payer_insurance",
+    "label": "Single-purchaser national health insurance funded by income contributions and state revenue, with public and private providers contracted by one insurer"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CYP-overview-001",
+      "CYP-overview-003"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CYP-overview-001",
+        "statement": "Cyprus introduced its General Healthcare System (GeSY) in 2019. It gives near-universal coverage through a mix of public and private providers and is financed from state revenue plus contributions on wages, incomes and pensions.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 8,
+          "char_start": 45015,
+          "char_end": 45390,
+          "passage_sha256": "e9b60563fbbef3a20aa425bad746529d8a22c7d42597ccc93dca150c1ebedf47"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CYP-overview-002",
+        "statement": "Before GeSY, only about three quarters of the population had statutory coverage, and many people relied on out-of-pocket payments or private insurance.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 8,
+          "char_start": 45392,
+          "char_end": 45607,
+          "passage_sha256": "4fbc7ec4b1c13133660671b2e304eb5e5dea14d92e5daab0c311e12e3f377dff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2018,
+        "historical": true
+      },
+      {
+        "id": "CYP-overview-003",
+        "statement": "Coverage under GeSY is based on legal residence, not on citizenship, income or payment of contributions.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 4571,
+          "char_end": 4711,
+          "passage_sha256": "74d5d6db0554f79598115e5d45c31ecf0cf384a81ba5199750690ff70a245fff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-overview-004",
+        "statement": "The Health Insurance Fund is run exclusively by the Health Insurance Organisation (HIO), which is also the only body that contracts and pays for GeSY services.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 12320,
+          "char_end": 12446,
+          "passage_sha256": "a9d9432523890a776946eb0f795518057b5d8ede7a66ef0b601f541ed909937e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-overview-005",
+        "statement": "Public providers are overseen by the State Healthcare Services Organisation, while the Ministry of Health has a strategic oversight role; private clinics, laboratories, pharmacies and hospitals also provide care in a competitive provider market.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 8,
+          "char_start": 45687,
+          "char_end": 46233,
+          "passage_sha256": "071403f5f52822b1ed05b09bd4d205d8ff457573b111dfce136a1619bbd37608"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financing": [
+      {
+        "id": "CYP-financing-001",
+        "statement": "Since 1 July 2020 GeSY has been funded by full income-based contributions from salaried employees, the self-employed, income-earners and pensioners, plus employers and the state budget, under Law 74(I)/2017.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-sources",
+        "locator": {
+          "section": "see source",
+          "char_start": 3213,
+          "char_end": 3487,
+          "passage_sha256": "046e62ab1943049dc2e97bf70c45c416dbd7434a119ee47881c601a27a4dd023"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-financing-002",
+        "statement": "Contribution rates on gross income are 2.65% for employees, pensioners, government officials and income-earners, 2.90% for employers, and 4.00% for the self-employed; the state adds 4.7% for each employee, self-employed person, government official and pensioner.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 11305,
+          "char_end": 11605,
+          "passage_sha256": "a84c089562a28bbaf905fa0bb680f3f4afd7f8984f95ceee7ba438c020365340"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-financing-003",
+        "statement": "Contributions are charged only on gross income up to a ceiling of EUR 180,000 a year.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 11607,
+          "char_end": 11692,
+          "passage_sha256": "3f3ba5f3069f345cd4222ca3127ca13897d673bb73a58664aedbd315984d442b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-financing-004",
+        "statement": "Unemployed people and recipients of Guaranteed Minimum Income or public assistance are covered without paying formal contributions, once their status is certified by the relevant welfare services.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 4925,
+          "char_end": 5239,
+          "passage_sha256": "828153ef939bd9239a0043b152a717a57245fd0c9a7093d4b0ca227f2d06b975"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-financing-005",
+        "statement": "The Health Insurance Fund's 2024 surplus was EUR 113 million, with accumulated reserves of EUR 707 million, about 4.6 months of payments.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 3001,
+          "char_end": 3199,
+          "passage_sha256": "3e428e0c509d0cd7068f326712ee9fc478ad0ab4125ff47e3a30c1dd8fc718a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-financing-006",
+        "statement": "In 2023 public sources paid 77% of health expenditure and out-of-pocket payments 18%, compared with 42% public and 44% out-of-pocket in 2018.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 9,
+          "char_start": 49302,
+          "char_end": 49865,
+          "passage_sha256": "63563c35130d46259fce9a9766d7984790c42b46e400319aa61996ddb7361799"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-financing-007",
+        "statement": "There are no tax incentives or disincentives to take up voluntary health insurance in Cyprus, according to the 2024 health system review.",
+        "valence": "neutral",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 81,
+          "char_start": 158315,
+          "char_end": 158384,
+          "passage_sha256": "d1147ee3898501368210a6194ee7295624cc69893c88c83ca9de3b89495086a0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-financing-008",
+        "statement": "An actuarial study by the International Labour Organization projected that the system stays financially viable until 2031, with reserves of about EUR 590 million as of 2023.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-5yr",
+        "locator": {
+          "section": "see source",
+          "char_start": 1004,
+          "char_end": 1199,
+          "passage_sha256": "17ea2444fb5d7968f03aae02c304b7e76eff502c44d9d8fad6cb3ca05eb506fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [
+      {
+        "id": "CYP-covered-001",
+        "statement": "The benefit package is comprehensive and the same for all beneficiaries; it is set out in Law 74(I)/2017 and in HIO regulations and guidelines.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 7249,
+          "char_end": 7537,
+          "passage_sha256": "d6836e13d806c466f22288fdd3b9345ab8a44e235f7b17b61af220f252f19122"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-covered-002",
+        "statement": "Covered services include personal and specialist doctors, laboratory tests and diagnostics, and medicines, devices and supplies prescribed from the positive lists.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 7731,
+          "char_end": 8110,
+          "passage_sha256": "6daf7eb38ba316b88455c2142e1c78e573cf55275ebafd47557295f86bd507fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-covered-003",
+        "statement": "The package also includes nursing and midwifery care, palliative care, inpatient care, limited preventive dental care, medical rehabilitation, home care and emergency care including ambulance services.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 8315,
+          "char_end": 8721,
+          "passage_sha256": "2967c513b46598627a376390cb8b325dcccf26632bd4dc03681f1523bbe21a10"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-covered-004",
+        "statement": "GeSY does not cover chronic psychiatric institutional or compulsory care, substance-abuse rehabilitation, or mental health rehabilitation services such as day care centres.",
+        "valence": "weakness",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 8723,
+          "char_end": 9011,
+          "passage_sha256": "ad840a3f7edb46ba8bd786f2d563e06dbffa78bad3c43c787da9c6290d3f2e60"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-covered-005",
+        "statement": "Asylum seekers are not covered by GeSY; they are instead entitled to free care from public hospitals and health centres run by the State Healthcare Services Organisation.",
+        "valence": "weakness",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 5608,
+          "char_end": 5765,
+          "passage_sha256": "74709d1600633947cfc859d08a616f27aaa17425a7d58255b2c475670337aa73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CYP-cost_sharing-001",
+        "statement": "GeSY has two kinds of user charge, co-payments and personal contributions, with annual caps that are lower for low-income groups and full exemption for some vulnerable groups.",
+        "valence": "neutral",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 78,
+          "char_start": 151612,
+          "char_end": 152063,
+          "passage_sha256": "3f3b49ff02176afc4aa37a2d17efb964dc659c650dc77a9dd1f19072376fb93b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-cost_sharing-003",
+        "statement": "Primary care carries a EUR 15 co-payment if the maximum number of annual visits for the patient's age group is exceeded.",
+        "valence": "neutral",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 79,
+          "char_start": 153114,
+          "char_end": 153208,
+          "passage_sha256": "40ababd687dbb469ed2567b4dc941df3aaf18317c5d5f496edb1b2a7401109d1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-cost_sharing-004",
+        "statement": "Public funding covered 15% of all dental care spending in Cyprus, against 35% across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 14,
+          "char_start": 83898,
+          "char_end": 84019,
+          "passage_sha256": "1c9394ef45d4524050068bc7631b8ee91441839ea3007c52091ace299f6a6f8d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "CYP-financial_hardship-001",
+        "statement": "Data on catastrophic health spending in Cyprus have not been updated since 2015.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 14,
+          "char_start": 84789,
+          "char_end": 84855,
+          "passage_sha256": "69fa602a594a796ee446d7dac693fdaae6744114feabd262d412e1c9510cb809"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CYP-financial_hardship-002",
+        "statement": "WHO Barcelona Office data showed 5.0% of households had catastrophic out-of-pocket health payments in 2015, including 17% of households in the poorest quintile against under 2% in the richest.",
+        "valence": "weakness",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 147,
+          "char_start": 294588,
+          "char_end": 295110,
+          "passage_sha256": "f2dacdde268bcb1ad29aafe09afb509483c10610e4ec4c5d82f87982a27abbb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "CYP-financial_hardship-003",
+        "statement": "Most patient complaints relate to five key areas, including medication shortages and costs (32%), barriers to accessing services (19%), poor behaviour or service from health professionals (17%) and unexpected healthcare expenditure (14%).",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 15,
+          "char_start": 91216,
+          "char_end": 91440,
+          "passage_sha256": "abd3116a566621d45841f281c4d1daa74131bcfff3a5b66786cd831c55b8385d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "CYP-additional_care-001",
+        "statement": "Voluntary health insurance paid for 5% of health spending in 2023, down from a peak of 14% in 2018, which the Observatory links to GeSY's broad benefits package reducing the need for supplementary plans.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 9,
+          "char_start": 49867,
+          "char_end": 50134,
+          "passage_sha256": "d2381358c624b24aad8dae072c2c4082996226bfe12e568b1d5cfb9adba8e118"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-additional_care-002",
+        "statement": "Group health insurance, mainly bought by medium to large private and semi-public organisations, was either discontinued once GeSY contributions began or reshaped as a supplement for services the public sector did not provide or covered only to a limited extent.",
+        "valence": "neutral",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 81,
+          "char_start": 157834,
+          "char_end": 158155,
+          "passage_sha256": "4e48b069800d89565644c0a4b233a107f35050e2b3df7f59737020b207c8086f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-additional_care-003",
+        "statement": "A limited number of doctors and a few hospitals and clinics stay outside GeSY, serving mainly non-GeSY beneficiaries as well as GeSY beneficiaries who choose to pay privately or by private insurance, to avoid waiting lists or because they perceive better quality.",
+        "valence": "neutral",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 81,
+          "char_start": 159498,
+          "char_end": 159976,
+          "passage_sha256": "640122e7dbd53b8c9cb04eabfc7e4b56424844e58167e70e4d70115e51d04a46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "CYP-access-001",
+        "statement": "Only 0.1% of respondents who reported needing medical care said they could not access it because of cost, distance or waiting times; among those at risk of poverty the figure was 0.5%, the lowest level in the EU.",
+        "valence": "strength",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 13,
+          "char_start": 80941,
+          "char_end": 81258,
+          "passage_sha256": "b21334fc933bb0d8f9eb0dbc287a68e90ba4a79754f5e67c13f33134085fe355"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-access-002",
+        "statement": "Unmet need for dental care among those who reported needing it was 2.4% of all respondents and 7.9% among those at risk of poverty, both well below the EU averages of 6.3% and 13.6%.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 13,
+          "char_start": 81260,
+          "char_end": 81494,
+          "passage_sha256": "46ce7fb78b59c1b6d13cc693439b3ad772ff60e7451bfc7fb886357fe128ba18"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-access-003",
+        "statement": "Gaps in provider availability still keep people from some entitlements, especially long-term care, rehabilitation, physiotherapy, speech therapy and home care for patients with chronic conditions.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 14,
+          "char_start": 85249,
+          "char_end": 85748,
+          "passage_sha256": "7e515720d670d25842c4fe39949d7f7aae03e26f8807178fe965faf2946ff044"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CYP-outcomes-001",
+        "statement": "Life expectancy at birth in Cyprus was 83.2 years in 2024, 1.6 years above the EU average.",
+        "valence": "strength",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 4,
+          "char_start": 13764,
+          "char_end": 13866,
+          "passage_sha256": "4a6ca5875543f896f3e26317e92be6e8af9069a70393e9cd9806f0c5bddb0604"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-outcomes-002",
+        "statement": "The preventable mortality rate for people under 75 was 123 per 100,000 in 2022, well below the EU average of 168.",
+        "valence": "strength",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 11,
+          "char_start": 63948,
+          "char_end": 64097,
+          "passage_sha256": "48d640844d9c5eb6e703f7802c36f44a7ab1a173c13b5a4e12d1f1c2d6df03e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CYP-outcomes-003",
+        "statement": "Treatable mortality was 71 deaths per 100,000 in 2022 against an EU average of 90, and had fallen from 84 per 100,000 in 2012.",
+        "valence": "strength",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 12,
+          "char_start": 70924,
+          "char_end": 71356,
+          "passage_sha256": "74f62c96687a4144245dec58be2606b35a132c37a1a9c33e0d553ae3fba2d2bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CYP-outcomes-004",
+        "statement": "The Observatory cautions that because of data limitations the low treatable mortality cannot be attributed to the performance of specific parts of the health system.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 3,
+          "char_start": 5913,
+          "char_end": 6055,
+          "passage_sha256": "387681b6f1404be8d016ddc0f5400ba53ca6d5d8be8cf078ea159edfbdb991bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CYP-outcomes-005",
+        "statement": "Treatable mortality from diabetes in Cyprus is the second highest in the EU; it was falling until 2019 but has risen since.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 13,
+          "char_start": 80028,
+          "char_end": 80184,
+          "passage_sha256": "8b010b26d43fcbb45df723744c44cb3bbe7d910524f33ede48a7b8fc36bccc4b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "costs": [
+      {
+        "id": "CYP-costs-001",
+        "statement": "Current health spending was EUR 2,795 per person (PPP-adjusted) in 2023, about a quarter below the EU average of EUR 3,832, and 8.1% of GDP against an EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 8,
+          "char_start": 46317,
+          "char_end": 46603,
+          "passage_sha256": "7685131a13c4a0f3bd5fd5396bdff8764257b4787eb52c4a54942880ebf2c94e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-costs-003",
+        "statement": "In 2023 inpatient care took 41% of health expenditure and outpatient care 32%, while long-term care took only 5%, far below the EU average of 18%.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 9,
+          "char_start": 50722,
+          "char_end": 51033,
+          "passage_sha256": "ee64a371e6db7909f6824a602a7016e935f5480c43b3c74e0cb7a5263a15b491"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-costs-004",
+        "statement": "Government health spending rose from 6.5% of public spending in 2017 to 14.5% in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 17,
+          "char_start": 107202,
+          "char_end": 107339,
+          "passage_sha256": "3f0e8718f88cecd5161059e3abe1668a11a3c2f346d3e1d5eb81dc5efef7b8a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CYP-what_works-001",
+        "statement": "Research in April 2024 reported that 92% of participants saw better service quality since GeSY began; the benefits they named most were lower access costs (62%), more choice of provider (32%), better quality (21%) and shorter waits (19%).",
+        "valence": "strength",
+        "source_id": "hspm-cyp-5yr",
+        "locator": {
+          "section": "see source",
+          "char_start": 3407,
+          "char_end": 3781,
+          "passage_sha256": "a427fbe9e6ad41a0a4e18a5082daee2dbcad18cdcef957dc177dd8468c63daeb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-what_works-002",
+        "statement": "The number of general practitioners per 1,000 people rose from 1.0 in 2019 to 1.4 in 2023, and their share among all doctors rose from 22.3% to 26.5%.",
+        "valence": "strength",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 15,
+          "char_start": 90427,
+          "char_end": 90594,
+          "passage_sha256": "50889d97e653481df422ba0efbf88935040135c0186f51d1fcb02b1ce4401453"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-what_works-005",
+        "statement": "Combining pooling and purchasing under the HIO reduces fragmentation and helps keep administrative costs lower, according to the Observatory.",
+        "valence": "strength",
+        "source_id": "hspm-cyp-stat",
+        "locator": {
+          "section": "see source",
+          "char_start": 13319,
+          "char_end": 13589,
+          "passage_sha256": "c0b525cb7b37603cf4dbdc44c140ff47e4918b0ddee48054cc213438aaedf095"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CYP-what_works-006",
+        "statement": "The Observatory's review concludes that GeSY extended coverage to the whole population and addressed fragmentation, long waiting times in public hospitals and heavy reliance on out-of-pocket payments.",
+        "valence": "strength",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 129,
+          "char_start": 259504,
+          "char_end": 259718,
+          "passage_sha256": "655ad5c500a385dae2f96a255ff97e57e47eefbc58ef1412b7e0962015e0082e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "problems": [
+      {
+        "id": "CYP-problems-001",
+        "statement": "Cyprus had 5.2 practising doctors but only 5.3 nurses per 1,000 people in 2023, against an EU nurse average of 8.5, giving a nurse-to-doctor ratio near 1:1.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 9,
+          "char_start": 52003,
+          "char_end": 52219,
+          "passage_sha256": "02daa27b5249aa4146b757b1ed2d1fafdfc437cd510ba9079a1f0266bd960a1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-problems-002",
+        "statement": "By 2023 Cyprus had just 9.2 nursing graduates per 100,000 population against an EU average of 38.6, the second lowest in the EU.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 17,
+          "char_start": 109257,
+          "char_end": 109408,
+          "passage_sha256": "d39f274cd2b9c9be0f0298997ec12f908266b4c904e7bd80ecc978552821ed53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CYP-problems-003",
+        "statement": "According to the review, 32% of beneficiaries said that waiting times for doctor visits or surgery were the system's greatest weakness.",
+        "valence": "weakness",
+        "source_id": "hspm-cyp-5yr",
+        "locator": {
+          "section": "see source",
+          "char_start": 3941,
+          "char_end": 4075,
+          "passage_sha256": "a9cac2647cfb4568c33faac2619f3ac8ca730ddf9fb3a8f89cdc27e908ae798b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-problems-004",
+        "statement": "GPs report patient pressure for specialist referrals while facing strict monthly referral limits, leaving patients feeling denied specialist care and providers worried about their clinical autonomy.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 16,
+          "char_start": 100375,
+          "char_end": 100779,
+          "passage_sha256": "a5a388512ebb86ef222cacd032c73954801bd4fa629e13e59ffca289f9514811"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CYP-problems-005",
+        "statement": "Access to novel medicines is hard because the small market limits Cyprus's appeal to manufacturers and its bargaining power, leading to inelastic pricing.",
+        "valence": "weakness",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 3,
+          "char_start": 7146,
+          "char_end": 7378,
+          "passage_sha256": "af6dd99ccfb093a97b645492539a484f9d00e5b613673a6a90acfd4cec706f19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CYP-problems-006",
+        "statement": "Spending on prevention was only 2.2% of health spending in 2021 against 3.4% across the EU.",
+        "valence": "weakness",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 154,
+          "char_start": 308751,
+          "char_end": 308863,
+          "passage_sha256": "bb214583864afd79dc3825eb6de865842c62a365473af10af7b4a685edb80484"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CYP-reforms-001",
+        "statement": "GeSY roll-out began in June 2019, with contributions starting three months earlier in March 2019.",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-sources",
+        "locator": {
+          "section": "see source",
+          "char_start": 2695,
+          "char_end": 2806,
+          "passage_sha256": "90a3b80512a266a90c84cfb8a21a30d59575c1b5de6f99f8b6db68a43be53c57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2019,
+        "historical": true
+      },
+      {
+        "id": "CYP-reforms-002",
+        "statement": "Initially GeSY covered only community pharmacies; since September 2020 it has also covered inpatient medicines and those dispensed by hospital pharmacies.",
+        "valence": "neutral",
+        "source_id": "chp-cyp-2025",
+        "locator": {
+          "section": "see source",
+          "page": 19,
+          "char_start": 120835,
+          "char_end": 121010,
+          "passage_sha256": "32396459fc541a9f4fe738c1d20cd225c4188225a5c9e9bb71a29dfcf81fcf88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2020,
+        "historical": true
+      },
+      {
+        "id": "CYP-reforms-003",
+        "statement": "The Observatory calls the 2019-2020 introduction of GeSY the most significant health reform, and the most important social policy reform, in Cyprus since independence in 1960.",
+        "valence": "neutral",
+        "source_id": "hit-cyp-2024",
+        "locator": {
+          "section": "see source",
+          "page": 130,
+          "char_start": 260434,
+          "char_end": 260622,
+          "passage_sha256": "4355193b29ec58f2ceda9bb6cd76a98aa78bbd721b546467c48e234e33d95883"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CYP-reforms-004",
+        "statement": "The law requires the Ministry of Health to cover any financial deficit of the State Healthcare Services Organisation (SHSO) arising within the first five years of full GeSY operation (2020-2025).",
+        "valence": "neutral",
+        "source_id": "hspm-cyp-sources",
+        "locator": {
+          "section": "see source",
+          "char_start": 5252,
+          "char_end": 5403,
+          "passage_sha256": "e3f9a41a745f58643672088c6a52d8cee9535ad44c93bc71c56412b3e2023a39"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-22",
+          "checked_by": "claude-opus support review (passage vs. statement)"
+        },
+        "data_year": 2020,
+        "historical": true
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/CYP.json",
+  "sources": [
+    {
+      "id": "chp-cyp-2025",
+      "title": "State of Health in the EU: Cyprus, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-cyprus-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hit-cyp-2024",
+      "title": "Cyprus: Health system review (Health Systems in Transition)",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/publicationsnew/hit---cyprus---3rd-proof-3-12-24.pdf",
+      "accessed": "2026-11-20",
+      "funding_note": "Describes the system as of 2022-2024; some figures predate full GeSY data."
+    },
+    {
+      "id": "hspm-cyp-sources",
+      "title": "Cyprus: Health system review (HiT, online edition), section 3.2 Sources of revenue and financial flows",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/cyprus2025/financing/sources-of-revenue-and-financial-flows",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hspm-cyp-stat",
+      "title": "Cyprus: Health system review (HiT, online edition), section 3.3 Overview of the statutory financing system",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/cyprus2025/financing/overview-of-the-statutory-financing-system",
+      "accessed": "2026-11-20",
+      "funding_note": "Online edition; includes a dated country update of 11 May 2025."
+    },
+    {
+      "id": "hspm-cyp-5yr",
+      "title": "The General Health System of Cyprus - a five-year review",
+      "publisher": "European Observatory on Health Systems and Policies (Health Systems and Policy Monitor)",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/cyprus2025/the-general-health-system-of-cyprus-a-five-year-review",
+      "accessed": "2026-11-20",
+      "funding_note": "Policy analysis dated 13 January 2025; draws on Health Insurance Organisation and government press material."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created."
+    },
+    {
+      "date": "2026-11-22",
+      "note": "Support review by Opus: 21 of 58 claims failed round 1; 18 were rewritten and re-reviewed once, 3 re-failed and were deleted, 3 dropped outright. 52 claims remain, all passing both checks."
+    }
+  ]
+}

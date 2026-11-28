@@ -1,0 +1,2419 @@
+{
+  "iso3": "ESP",
+  "name": "Spain",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded national health system (SNS) run by 17 regional health services, alongside mutual funds for civil servants that can contract private insurers"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "ESP-overview-001",
+      "ESP-overview-004"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "ESP-overview-001",
+        "statement": "Spain's national health system (Sistema Nacional de Salud, SNS) is decentralised and covers the whole population; it is funded mainly from general taxes and covers all residents, including undocumented as well as documented migrants.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 42583,
+          "char_end": 42936,
+          "passage_sha256": "9da5a21b3962986be17b812953ffc962cb7151e4382417155046c58916ad4d48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-overview-002",
+        "statement": "Alongside the SNS, two other statutory schemes exist: mutual funds for particular groups (MUFACE for civil servants, MUGEJU for the judiciary and ISFAS for the armed forces), and mutual societies that collaborate with Social Security to cover work accidents and occupational diseases.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 42937,
+          "char_end": 43247,
+          "passage_sha256": "002c2128aeabc07d804e72f1990c3ebb70a679085d09e6372bc6b71bce72609f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-overview-003",
+        "statement": "The national Ministry of Health handles strategic planning and national regulation, while the health authorities of the 17 regions (autonomous communities) each run their own operational planning, purchasing and resource allocation; the Interterritorial Council of the SNS, made up of the national and regional health ministers, coordinates them.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 43248,
+          "char_end": 43769,
+          "passage_sha256": "2ed1435149f5c94eb890e191e7a3cbd7756a1605ead344773d2fe88ed060a184"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-overview-004",
+        "statement": "From 2012 to 2017 entitlement to SNS care depended on a person's legal and employment status; a 2018 law (Royal Decree-Law 7/2018) made residence the basis of entitlement again, restoring full coverage to undocumented migrants. Public coverage is compulsory and people cannot opt out.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "page": 75,
+          "char_start": 146741,
+          "char_end": 147239,
+          "passage_sha256": "6d97cc938ff681e084b7efc97410fc6ef4f38bc3bf7ad2cfaa50b27ba05fd44b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-overview-005",
+        "statement": "A 1986 general health law started Spain's move from a payroll-funded social security system to a tax-funded national health service; the Commonwealth Fund dates the completion of that transition to 1999.",
+        "valence": "neutral",
+        "source_id": "cwf-esp",
+        "locator": {
+          "section": "Background and History",
+          "char_start": 4693,
+          "char_end": 4970,
+          "passage_sha256": "7615c09602525f41edde7878b2261822875e94e42a5595da21c98aaa04f60f8e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "historical": true
+      },
+      {
+        "id": "ESP-overview-006",
+        "statement": "Most primary care providers work in public health centres, and family doctors act as gatekeepers to outpatient specialist and hospital care; private providers play a part, especially in specialist outpatient and hospital services, but public provision remains central to meeting most health needs.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 44968,
+          "char_end": 45332,
+          "passage_sha256": "9fce45145d50f1a1f4bfb628c771cfab03250d94aae61b5dfbb98d517d2308a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "ESP-financing-001",
+        "statement": "Public money raised through general taxation is the main source of health funding in Spain: 73.5% of total health expenditure in 2020 and 71.7% in 2021.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "page": 73,
+          "char_start": 143273,
+          "char_end": 143414,
+          "passage_sha256": "e1445463afdd3970600581a1686a378f269ceb0faaf2dd708fdc17a0ba38952a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ESP-financing-002",
+        "statement": "In 2023 Spain spent 9.2% of GDP on health, and out-of-pocket spending made up 21% of total health spending, well above the EU average of 16%.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "7 Key findings",
+          "page": 22,
+          "char_start": 140839,
+          "char_end": 141163,
+          "passage_sha256": "509692246a0192017249c981da04b03c66b57b38980ad77811b6f285342b1e63"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-financing-003",
+        "statement": "Most regions are financed under a scheme approved in 2009 and in force since 2011, which combines their own taxes, a share of national taxes and transfers; the national tax agency (AEAT) and regional tax authorities share tax collection.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 78,
+          "char_start": 153810,
+          "char_end": 154286,
+          "passage_sha256": "a9fd67cd6c46cadc1c18dad9244d1a2a6696809f9cfc905fb66a1d7db8927249"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-004",
+        "statement": "Social security contributions in Spain are earmarked for pensions and other cash benefits; the remaining tax revenue comes from indirect taxes such as VAT and from direct taxes on income and wealth. Regions collect the taxes assigned to the regional level (such as inheritance and wealth-transfer taxes) and share the revenue of VAT, personal income tax and excise duties.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 78,
+          "char_start": 154287,
+          "char_end": 154783,
+          "passage_sha256": "bdd36021b13dc4211b1752e816c11fc3085374b1df66846e7b3b90aa2e5c8248"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-005",
+        "statement": "Law 22/2009 raised the share of tax revenue ceded to the regions from 33% to 50% for personal income tax, from 35% to 50% for VAT, and from 40% to 58% for the excise duties on beer, wine and fermented drinks, intermediate products, spirits, hydrocarbons and tobacco.",
+        "valence": "neutral",
+        "source_id": "boe-ley22-2009",
+        "locator": {
+          "section": "Preámbulo",
+          "page": 8,
+          "char_start": 22006,
+          "char_end": 22378,
+          "passage_sha256": "9c0646656586e052355ebe7b0f5911353dfaf8078c6515d4478d90a95437721b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-006",
+        "statement": "The Basque Country and Navarre have a special fiscal regime: they collect all taxes raised in their territory and pay the central government for the services it provides there, such as defence.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.2 Collection, footnote 10",
+          "page": 78,
+          "char_start": 155196,
+          "char_end": 155684,
+          "passage_sha256": "be83a10e3d9bf8d31ca7513e53201d819e0f11ad77604d556aac3cdf664c0596"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-007",
+        "statement": "The Guarantee Fund for Basic Public Services is shared among regions by a needs formula: population 30%, age-weighted population covered by the SNS 38%, people aged 16 and under 20.5%, people aged 65 and over 8.5%, plus land area, population density and insularity. It is financed with 75% of the regions' tax revenue plus a central government contribution.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.3 Pooling and allocation of funds",
+          "page": 80,
+          "char_start": 158958,
+          "char_end": 159533,
+          "passage_sha256": "80596c3b19c1b5f5a124dec42a8ed42b02860c84de58146ec206f4999bb3c1d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-008",
+        "statement": "The civil servants' mutual funds (MUFACE, ISFAS and MUGEJU) are paid for by a mix of payroll contributions and public transfers, and the mutual societies covering work accidents and occupational diseases are paid for by employers' contributions.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.2 Sources of revenue and financial flows",
+          "page": 73,
+          "char_start": 143444,
+          "char_end": 143824,
+          "passage_sha256": "99d19c3e57519ee61807d25cb9ed8dd5ee2266be1f70ffd44cca0bf256d165c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-009",
+        "statement": "Mutual-fund members pay a monthly contribution of EUR 20 to 50 depending on their civil-service grade, regardless of how many dependants are covered; members' contributions cover up to 15% of the funds' spending and the other 85% comes from the national budget, funded mainly from income tax.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 79,
+          "char_start": 156036,
+          "char_end": 156487,
+          "passage_sha256": "7719ed30da2d5c02a35344b6d6ae584ae5563f04c82ca8d8f3073e21e41d4a74"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-010",
+        "statement": "The new healthcare contract for mutual-fund members has a total budget of EUR 4,808.5 million, EUR 1,276.5 million more than the previous one, introduces premiums that rise by age band, and raises the weighted average premium by a cumulative 41.2% over its three years.",
+        "valence": "neutral",
+        "source_id": "mtdfp-muface-2025",
+        "locator": {
+          "page": 2,
+          "char_start": 2612,
+          "char_end": 3147,
+          "passage_sha256": "c7e8e5ad908a20ea10aead646faa02f2df6df13020fd7d0cb4386e572c4ea37e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-011",
+        "statement": "Voluntary health insurance paid for 6% of health spending in 2023 (EU average 4.5%); it is used both to get faster specialist and hospital care and to cover services outside the SNS package, such as some dental care.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 49114,
+          "char_end": 49439,
+          "passage_sha256": "f4085e34ecec08378c606bd337b731bf063d19cd7d3649aefe2cf93610519422"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-financing-012",
+        "statement": "About one in five people in Spain hold voluntary health insurance on top of public coverage; the covered share rose from 15.8% of the population in 2015 to 20.8% in 2021, and at the end of 2022 policies bought by employers made up 29.8% of premiums and 34.1% of people insured.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 88,
+          "char_start": 177281,
+          "char_end": 177910,
+          "passage_sha256": "88af9a506dc352da727fa0032ae63caee967ccf10236bbd0d246ffe9ec061073"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ESP-financing-013",
+        "statement": "Private health insurance gets tax advantages, which vary by region: the self-employed can deduct premiums from taxable income, employees can deduct premiums their employer pays up to EUR 500 per covered person a year (EUR 1,500 for a person with a disability), and health insurance premiums are exempt from VAT and from the insurance premium tax.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 89,
+          "char_start": 178750,
+          "char_end": 179233,
+          "passage_sha256": "5674630480f360cfd45c9e5602f6c2c5d79e331829dc427597fb391fab0ec758"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-financing-014",
+        "statement": "WHO notes that, unlike most EU governments, Spain's government subsidises some buyers of private health insurance through the tax system, and that when the 2021 budget raised the insurance premium tax from 6% to 8%, health insurance was left out of the increase.",
+        "valence": "neutral",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Coverage policy",
+          "page": 32,
+          "char_start": 55331,
+          "char_end": 55653,
+          "passage_sha256": "f1a04141a3f3d31e6c0c2975808495d0144e04cdc610d6ab5efa886188f7b37f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ESP-financing-015",
+        "statement": "Out-of-pocket payments were 20.6% of total health spending in 2021; household spending on health, as measured by the national household budget survey, grew from EUR 17,859 million in 2015 to EUR 23,379 million in 2022, equal to 3.9% of household budgets.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.4 Out-of-pocket payments",
+          "page": 84,
+          "char_start": 169545,
+          "char_end": 169880,
+          "passage_sha256": "607ef657bfe358c9585048348b5ad4aa72ad7c234f145a4d26cf95132f3dbaff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ESP-financing-016",
+        "statement": "According to the Ministry of Health's public health spending statistics (EGSP), public spending on health reached EUR 101,739 million in 2024, 4.2% more than in 2023 and equal to 6.4% of GDP.",
+        "valence": "neutral",
+        "source_id": "msan-egsp-2024",
+        "locator": {
+          "section": "Press release text",
+          "char_start": 730,
+          "char_end": 1054,
+          "passage_sha256": "5d45c357f65e38aa71d9486a962303c77ed19d19b3c79fc18774b8e376f1d8ba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-financing-017",
+        "statement": "Public health spending totalled EUR 101,739 million in 2024, and the autonomous communities managed 93.6% of the country's health spending.",
+        "valence": "neutral",
+        "source_id": "msan-egsp-2024",
+        "locator": {
+          "section": "Headline and summary",
+          "char_start": 61,
+          "char_end": 700,
+          "passage_sha256": "4b08b155dcaf9135f7ad5d1858c6f679318a04b27dc08d48a9dd3c1271b29504"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-financing-018",
+        "statement": "EU money also funds health in Spain: Spain assigned EUR 2.4 billion (1.5% of its Recovery and Resilience Plan) to health, and EU Cohesion Policy funds for 2021-27 allocate a further EUR 1.1 billion.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 100273,
+          "char_end": 100685,
+          "passage_sha256": "a11f348214e7670787034631d54fd265b039a0350d38a6bd9e57fa5222325449"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "ESP-covered-001",
+        "statement": "The SNS basic package covers all prevention, diagnosis, treatment and rehabilitation services plus emergency medical transport, including primary care, mental health, palliative care, basic dental services, specialist outpatient and inpatient care, home care and organ transplants.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "page": 75,
+          "char_start": 147741,
+          "char_end": 148533,
+          "passage_sha256": "f9ae8f0d93abac2cc6a4a3a9cd1a646ae7177fb9bd8229c2a19fb665dcd13713"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-002",
+        "statement": "The main gaps in the public package are dental care, which is limited and varies between regions, and optical care, which is not publicly covered.",
+        "valence": "weakness",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "Box 3.1 What are the key gaps in coverage?",
+          "page": 77,
+          "char_start": 150710,
+          "char_end": 150968,
+          "passage_sha256": "3c2b373e05653c5f15928acd5e3cd46b74472d83223e39c9734a88432643d794"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-003",
+        "statement": "Regions may add services to their own package beyond the common SNS package, but only if they can show they can pay for them within budget-stability rules and inform the Interterritorial Council.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "page": 76,
+          "char_start": 149188,
+          "char_end": 149561,
+          "passage_sha256": "8ff65b069a5eeb0d592139c1e50a7c500a879d4ae2267cbb7bf6f75796eccc8e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-004",
+        "statement": "A third, 'accessory' benefits package created in a period of austerity was never put into effect, and as of June 2024 no regulations for it had been issued; a draft universality law then before Parliament aimed to return to a single benefits package.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.3.1 Coverage",
+          "page": 76,
+          "char_start": 148979,
+          "char_end": 149787,
+          "passage_sha256": "16bf71e6bc758c9edb7b3ac13409885c9da7579d2cab453fabe8fb98ad4c359d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-covered-005",
+        "statement": "Who decides coverage: new benefits are added by the Interterritorial Council of the SNS, on proposals from its Commission on Benefits, Insurance and Financing, after compulsory technical advice from the Spanish network of health technology assessment agencies.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "2.7.3 Regulation of services and goods",
+          "page": 54,
+          "char_start": 105139,
+          "char_end": 105433,
+          "passage_sha256": "b9a66ad1855d7e05433d4161fec22e4b72d1d0a4bf1cfb9fca1ed3558f453226"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-006",
+        "statement": "For medicines, after marketing approval a company may seek public reimbursement; the Interministerial Commission on Medicine Prices, an advisory body of the Ministry of Health, decides using criteria including disease severity, the needs of particular groups, therapeutic and social value and cost-effectiveness, budget impact, cheaper alternatives and degree of innovation.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "2.7.4 Regulation and governance of pharmaceuticals",
+          "page": 55,
+          "char_start": 107591,
+          "char_end": 108265,
+          "passage_sha256": "3fd8e9bc8f21ab2a0cc2c87ffced1d69470b15c188c0fcd2afa095b1f2cd83ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-007",
+        "statement": "A national medicines evaluation network created in 2020 added economic evaluation to the therapeutic positioning reports that inform drug pricing and reimbursement, but a national court struck that economic evaluation down in July 2023 after a lawsuit by the Spanish pharmaceutical industry association.",
+        "valence": "weakness",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "2.7.3 Regulation of services and goods",
+          "page": 54,
+          "char_start": 106774,
+          "char_end": 107209,
+          "passage_sha256": "ef4c4ba343ab760d9822db1ff7e4e6ae162c89737c5263ad1de860595abe125d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-covered-008",
+        "statement": "Dental and optical coverage is being widened: in June 2024 EUR 68 million was set aside for oral health aimed at children under 14, pregnant women, people with disabilities and people with cervical or facial cancer, and the SNS was due to be able to fund glasses and contact lenses for children from low-income families from the last quarter of 2025.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 86907,
+          "char_end": 87281,
+          "passage_sha256": "ac82a6e8fbfeace6cea4b9aa5d1e5b013602dbd25868a1a1bad6b6273d16d799"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-009",
+        "statement": "Public employees in the mutual funds are the only people with a real choice between public and private coverage, and about 79% of them choose private coverage.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "table": "Table 2.3 Patient choice",
+          "page": 59,
+          "char_start": 118374,
+          "char_end": 118505,
+          "passage_sha256": "7e98bda7584964fe6a183cd3a0f56a49248a429f473f4cba8d97c236e22bf4f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-010",
+        "statement": "Under the new contract, 734,000 mutual-fund members and 280,000 dependants (1,014,692 people in all) were to be covered by the contracted insurers; the rest of the roughly 1.5 million mutual-fund members had opted for the public system.",
+        "valence": "neutral",
+        "source_id": "mtdfp-muface-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 2046,
+          "char_end": 2704,
+          "passage_sha256": "cf1b5a45ee88b4cb22336ea9f23e2593eb0f0885761e5e2aaedb5927a8de13fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-covered-011",
+        "statement": "The new healthcare contract for mutual-fund members added a second yearly window, in June as well as January, in which members can switch between the public system and the private insurers or between insurers.",
+        "valence": "neutral",
+        "source_id": "mtdfp-muface-2025",
+        "locator": {
+          "page": 2,
+          "char_start": 3172,
+          "char_end": 3497,
+          "passage_sha256": "9e21ffc612cc1cb9f1fdb155888afea2690c53c7b151e500be4f345fa1b9971e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "ESP-cost_sharing-001",
+        "statement": "As of 2023 there were no user charges for primary care, outpatient visits, diagnostic tests, inpatient care, inpatient medicines or emergency care.",
+        "valence": "strength",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "table": "Table 3.3 User charges for publicly financed health services, 2023",
+          "page": 86,
+          "char_start": 172859,
+          "char_end": 173277,
+          "passage_sha256": "d64b9f64f828d207dd82aef4a992f201b55a5f6c24d1f57a3a09680caf9e1cce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-cost_sharing-002",
+        "statement": "In 2023, outpatient prescription medicines other than most chronic-condition medicines carried a co-payment set as a share of the price by income and status: pensioners paid 10% with income under EUR 100,000 and 60% above it; mutual-fund members 30%; others 40% with income under EUR 18,000 and 50% with income of EUR 18,000-100,000.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "table": "Table 3.3 User charges for publicly financed health services, 2023",
+          "page": 86,
+          "char_start": 172859,
+          "char_end": 173780,
+          "passage_sha256": "a5c268ce7fe66c3a9006823916b86b9561dd47f8d0436246457e2ebb6f071a65"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-cost_sharing-003",
+        "statement": "In 2023, most medicines for chronic conditions carried a 10% co-payment capped at EUR 4.24 per item, a cap updated each year for inflation.",
+        "valence": "strength",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "table": "Table 3.3 User charges for publicly financed health services, 2023",
+          "page": 86,
+          "char_start": 172859,
+          "char_end": 173509,
+          "passage_sha256": "8b573abfb433602a63b3b17cb4014104ea4cae0cc1cfe1a2642161c4c4ed67df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-cost_sharing-004",
+        "statement": "The 2012 reform (RDL 16/2012) also added protections, including a monthly ceiling on co-payments for most pensioners (those outside the mutual funds), set by income and applied automatically at pharmacies through e-prescribing.",
+        "valence": "strength",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Coverage policy",
+          "page": 30,
+          "char_start": 49092,
+          "char_end": 49331,
+          "passage_sha256": "5709d415289b0884bc41e04b280043f508b60feb5e663125ec0976ee3594f790"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-cost_sharing-005",
+        "statement": "Medicines given in hospital outpatient departments for a set of serious conditions that need hospital diagnosis or close follow-up, such as cystic fibrosis, multiple sclerosis, hepatitis C, HIV, oral chemotherapy and rheumatoid arthritis, carry no co-payment.",
+        "valence": "strength",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "table": "Table 3.3 User charges for publicly financed health services, 2023",
+          "page": 87,
+          "char_start": 174644,
+          "char_end": 174913,
+          "passage_sha256": "c2e1c8000360069efe4960437fb8776e057c8d30c805e15641f828782179782d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-cost_sharing-006",
+        "statement": "Orthoprosthetic devices have no overall spending cap; instead each item has its own cap, from EUR 0 to EUR 36, that does not depend on income.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "table": "Table 3.3 User charges for publicly financed health services, 2023",
+          "page": 87,
+          "char_start": 175191,
+          "char_end": 175689,
+          "passage_sha256": "563bd89e5fddbfb2b8fd3b758757f36713cd02ba05893696fb04847a277ba3e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-cost_sharing-007",
+        "statement": "Exemptions have widened since 2020: people receiving the guaranteed minimum income were exempted from co-payments in 2020, and in 2021 full exemption was extended to low-income pensioners, children with moderate or severe disabilities and households receiving child benefits.",
+        "valence": "strength",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.4.1 Cost-sharing (user charges)",
+          "page": 85,
+          "char_start": 172225,
+          "char_end": 172637,
+          "passage_sha256": "738339cf55c608ab4b831bb046e7ac4188bed88a0006541895b5f0aef56f7c2d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-cost_sharing-008",
+        "statement": "The new co-payment exemptions benefited 7.3 million people in 2024.",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 126115,
+          "char_end": 126740,
+          "passage_sha256": "9c7561ca53900f61c3f7172eaafda50e1479ba9584ff5b382880898b1cd917a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-cost_sharing-009",
+        "statement": "Households paid for one third of retail pharmaceutical spending in 2023; public funds covered the other two thirds (67%).",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 125968,
+          "char_end": 126114,
+          "passage_sha256": "100f71071a93b3d79b5a466963b3241e2189434b805803624eb8111dcb62b004"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-cost_sharing-010",
+        "statement": "Households pay out of pocket mainly for dental care (32% of out-of-pocket spending), outpatient medicines (24%) and optical care.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 87685,
+          "char_end": 87789,
+          "passage_sha256": "2918ce8b5fa97c678785af2c81252a3b1deef8a82eb5f23db743641f5b54049c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "ESP-financial_hardship-001",
+        "statement": "In WHO's analysis of household budget surveys for 2006-2019, catastrophic health spending was concentrated among the poorest fifth of households, and almost all of its increase over the period came from a large rise in that poorest fifth.",
+        "valence": "weakness",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Executive summary",
+          "page": 14,
+          "char_start": 20209,
+          "char_end": 21214,
+          "passage_sha256": "b0c0aee2a53683839f106d10f8e555af2f37541199cce6e0052fe46edb89488d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-financial_hardship-002",
+        "statement": "Over 2006-2019 the households facing catastrophic health spending shifted from those headed by older and retired people towards those headed by working-age people (aged 35-50), employed and unemployed people, and couples with children.",
+        "valence": "neutral",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Executive summary",
+          "page": 14,
+          "char_start": 20209,
+          "char_end": 21512,
+          "passage_sha256": "bb5a7c872b4c34dcdfd4da9b6ca46180574ae6da63a4ff6c2f3f3af7cca49ca4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-financial_hardship-003",
+        "statement": "Dental care and medical products drive catastrophic spending in every income group, mainly because the SNS largely excludes dental and optical care, especially for adults; among the poorest fifth, co-payments for outpatient medicines also contribute.",
+        "valence": "weakness",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Executive summary",
+          "page": 14,
+          "char_start": 21515,
+          "char_end": 21881,
+          "passage_sha256": "ae404a5b5c0768f5853387a2f64e6844a9de21973f96a83aadd9f0deb0c81931"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-financial_hardship-004",
+        "statement": "WHO found catastrophic spending in Spain much lower than its heavy reliance on out-of-pocket payments would suggest, which it attributes to the design of SNS coverage and the strongly redistributive effect of public health spending.",
+        "valence": "strength",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Executive summary",
+          "page": 15,
+          "char_start": 22448,
+          "char_end": 22794,
+          "passage_sha256": "a295ef26c86d59b85ac5935a14998e3a6b48b6ddaf7c111a2e29c0682fdce83c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-financial_hardship-005",
+        "statement": "WHO's review warned that waiting times for medical examinations and specialist care can cause financial hardship and unmet need and widen socioeconomic inequalities in access.",
+        "valence": "weakness",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Executive summary",
+          "page": 16,
+          "char_start": 24372,
+          "char_end": 24561,
+          "passage_sha256": "229c3e4eb0df6e89f8b30fafe5b5f1a00cfb76cc7d52eb5aa8d83304b62455c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "ESP-additional_care-001",
+        "statement": "In 2023, long-term care took 10% of current health expenditure, well below the EU average of about 18%, and preventive care took 3% (EU average 4%).",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 49678,
+          "char_end": 50254,
+          "passage_sha256": "a4e5ed0bb6a584996a449cec8b027e4d68e4e3c0c6d7b702e76026faddf06bda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-additional_care-002",
+        "statement": "Long-term care is run by the regions; the autonomous communities fund 64% of it, cost sharing 21% and the national government 15%.",
+        "valence": "neutral",
+        "source_id": "cwf-esp",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 26132,
+          "char_end": 26306,
+          "passage_sha256": "31a85dd2d072370787830aa1ccafd880162b0aa38d7a90fb88533a89c1012aef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-additional_care-003",
+        "statement": "The 2006 Dependency Act set up the System for the Assistance of Dependent People (SAAD), which offers personal care, home support and financial help for caregivers, with eligibility and co-payments based on the level of dependency and income.",
+        "valence": "neutral",
+        "source_id": "cwf-esp",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 26490,
+          "char_end": 26742,
+          "passage_sha256": "c5bec88928d707341d10f54971612c81eb31d7a87b5b8ff4b1501da9ee77047b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-additional_care-004",
+        "statement": "Residential elderly care is mostly private: only 25% of care home places are publicly owned, and some of those are privately managed.",
+        "valence": "neutral",
+        "source_id": "cwf-esp",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 27222,
+          "char_end": 27376,
+          "passage_sha256": "0ecccb4e97ad248587e74f8beab016abc0a9ca370e2a5563c058825666c8e14f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-additional_care-005",
+        "statement": "Private long-term care insurance is underdeveloped: only 10 companies sold it in 2022 and 163,752 people held it, about 0.4% of adults.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 89,
+          "char_start": 179536,
+          "char_end": 179952,
+          "passage_sha256": "fd1d8e9bfc69175884971b02556aa297734fb582b110edf58b47af01059cfe9f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ESP-additional_care-006",
+        "statement": "In April 2025 the Interterritorial Council approved a Mental Health Action Plan for 2025-27 with EUR 101 million, aimed at more rational use of psychotropic drugs, the shortage of mental health professionals, and human rights and dignity.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 86230,
+          "char_end": 86639,
+          "passage_sha256": "78f5743b1d5d3c9ea4386eae3de7b97fa22c1db34e328fdde8a5de9f88e52379"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "ESP-access-001",
+        "statement": "Among people who needed medical care in 2024, 2.6% reported unmet needs because of cost, waiting lists or travel distance (EU average 3.6%); among those at risk of poverty the rate was 2.3% (EU average 6.0%).",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 77535,
+          "char_end": 77924,
+          "passage_sha256": "66565a3f3810d36d997574dfbaabfb27791f917f813e4f86d90b0fa021297c07"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-access-002",
+        "statement": "Unmet needs are much higher for dental care: in 2024, 9.3% of people needing dental care reported unmet needs (EU average 6.3%), rising to 22.1% among those at risk of poverty (EU average 13.6%).",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 13,
+          "char_start": 77535,
+          "char_end": 78229,
+          "passage_sha256": "57a73a4faa9db47b29e9ba6202c25405d71b1f84a1c9ed6c2acfea33832d81dd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-access-003",
+        "statement": "Unmet needs for mental health care more than doubled after 2021: in 2024, 7.9% of survey respondents in Spain said they had forgone mental health care, close to the EU average of 7.2%.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 84211,
+          "char_end": 84413,
+          "passage_sha256": "e3d51b383ec048bf5fa4ccb679288ceaaf9c3be0308282c47f6716496b729f56"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-access-004",
+        "statement": "In the Ministry of Health's corrected figures for December 2025, 853,740 patients were on the SNS surgical waiting list, with an average wait of 122 days, four days less than a year earlier.",
+        "valence": "weakness",
+        "source_id": "sisle-dic2025-rect",
+        "locator": {
+          "page": 1,
+          "char_start": 129,
+          "char_end": 1115,
+          "passage_sha256": "cbc848bce9058cc38e90d14c3dc0052f8ec72db49177f2c8e5225e5cf61b2fa6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ESP-access-005",
+        "statement": "On 31 December 2025, 21.6% of patients on the SNS surgical waiting list had been on it for more than six months, 1.3 points fewer than a year earlier.",
+        "valence": "weakness",
+        "source_id": "sisle-dic2025",
+        "locator": {
+          "page": 1,
+          "char_start": 967,
+          "char_end": 1423,
+          "passage_sha256": "360ecfe946db696792cdf09d186fdfd05c5804acce65f818a1c19bc2684183ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ESP-access-006",
+        "statement": "Five procedures (heart valve surgery, coronary bypass, cataract, hip and knee replacement) have a guaranteed maximum wait of 180 days in the SNS; hip replacement averaged 98 days and knee replacement 105 days, and 13.7% and 15.9% of those patients respectively had waited longer than the maximum.",
+        "valence": "weakness",
+        "source_id": "sisle-dic2025",
+        "locator": {
+          "page": 2,
+          "char_start": 2180,
+          "char_end": 2882,
+          "passage_sha256": "0cbeb9e8065feaa993d26b6459f25b06301074c273ccd5bf38283e60a1d1c44d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ESP-access-007",
+        "statement": "On 31 December 2025, 84.42 people per 1,000 were waiting for a first hospital specialist appointment; their average wait was 102 days, and 61.5% had been given an appointment more than 60 days away.",
+        "valence": "weakness",
+        "source_id": "sisle-dic2025",
+        "locator": {
+          "page": 2,
+          "char_start": 3558,
+          "char_end": 3997,
+          "passage_sha256": "3ae2fb7b39187460f66bc1200b5390e8951e7272e76bec3dea1ea4d3ec01035e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "ESP-access-008",
+        "statement": "In the 2023 Health Barometer survey, 38.2% of respondents had waited more than three months from a family doctor's referral to a specialist appointment, and 69.8% said getting a family doctor appointment took more than 24 hours, with an average wait of nine days.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 90444,
+          "char_end": 90926,
+          "passage_sha256": "df6348b66a5e663cbfd3db23cd4d5f150f3207b3757bedb9d440cf6c3e20aabe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-access-009",
+        "statement": "The share of hip replacement patients waiting more than three months rose from 38% in 2019 to 68% in 2020 and fell to 44% in 2024, still above the pre-pandemic level.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 93665,
+          "char_end": 93885,
+          "passage_sha256": "83bfd25af5cc14c1bfd46bfa810852f6eaa8de5fab21f99cc40cc1df90bacc23"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-access-010",
+        "statement": "Primary care staffing varies between regions: in 2022 primary care doctors ranged from 0.6 to 1.1 per 1,000 people and primary care nurses from 0.5 to 0.9 per 1,000.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 84570,
+          "char_end": 84867,
+          "passage_sha256": "52452f5661d6f40912cbf5dc85cb8eb5f348981d8407f480a84661e06f9e145d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ESP-access-011",
+        "statement": "Patients can choose a family doctor, but in practice only within the same primary care team and subject to limits on how many patients each doctor may register.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "2.8.2 Patient choice",
+          "page": 58,
+          "char_start": 117003,
+          "char_end": 117283,
+          "passage_sha256": "8d9e569238cc109cdf796862eaa1e0b9f67147c13ff883a8b46ef85eb8c9241d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-access-012",
+        "statement": "In an industry survey (EFPIA's Patients W.A.I.T. indicator) cited by the profile, medicines approved by the EU in 2020-2023 took on average 616 days to be publicly reimbursed in Spain, 7% longer than the EU average of 578 days, but 71% of them were covered as of January 2025, against an EU average of 46%.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 127249,
+          "char_end": 127837,
+          "passage_sha256": "a245a11f390cd77514708172073bbb01b563ecaec5473fc5f081ce9a97ca9009"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "ESP-outcomes-001",
+        "statement": "Life expectancy at birth in Spain was 84 years in 2024, 2.3 years above the EU average and the third highest in the EU after Italy and Sweden.",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "2 Health in Spain",
+          "page": 4,
+          "char_start": 13553,
+          "char_end": 13725,
+          "passage_sha256": "5e9843be32f3cd11a10a4d12af6c82b0aa4533d14d7d61cb04470fca4e69341d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-outcomes-002",
+        "statement": "In 2022 Spain had among the lowest avoidable mortality rates in the EU: 124 deaths per 100,000 people from preventable causes and 62 per 100,000 from treatable causes.",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 10,
+          "char_start": 58888,
+          "char_end": 59086,
+          "passage_sha256": "d134c8595221d623f5c16e7aba3c8a54549161f0ed1ec34b4f5077143cda7ee4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ESP-outcomes-003",
+        "statement": "In 2023, 30-day mortality after hospital admission was 8.0 per 100 patients for heart attack (EU average 8.4) and 12.6 per 100 for ischaemic stroke (EU average 13.1).",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 13,
+          "char_start": 76401,
+          "char_end": 76653,
+          "passage_sha256": "c0bb45866a7d35bf18dececfb6c46ca4d1fbe3f3f6c1e0e34e94467ad1243576"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-outcomes-004",
+        "statement": "Cancer screening uptake in 2023 was 69% for breast cancer (women 50-69) and 68% for cervical cancer (women 20-69), above EU averages, but only 43% for colorectal cancer.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 64667,
+          "char_end": 65066,
+          "passage_sha256": "d90d97b0a62b5ba402625eff0f54dafb9871b63303439bf035b7831a2c45ad04"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-outcomes-005",
+        "statement": "In the GBD 2019 study, Spain's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 89.7 (95% uncertainty interval 87.2-91.4) in 2019, 18.6 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 46290,
+          "char_end": 46455,
+          "passage_sha256": "118df3d12e2a69ec428025f8da8c56e99d94eb5c4b1246bc8a6c95d86c5b160e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-outcomes-006",
+        "statement": "By age group in the GBD 2019 study, Spain's 2019 HAQ Index score was 92.9 for ages 0-14, 91.2 for ages 15-64 and 80.0 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 46290,
+          "char_end": 46375,
+          "passage_sha256": "60b6596dfd9e02cabcee03b74148a5293cace25ac1bb863726f441a98c29d272"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-outcomes-007",
+        "statement": "In the OECD PaRIS survey of people aged 45 and over with chronic conditions, 85% of Spanish respondents rated the quality of their care as good and 85% found the system person-centred, similar to the average of the 10 EU countries reporting.",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 72215,
+          "char_end": 72795,
+          "passage_sha256": "10b9f2a4ce6f966fc56a981d4fbf96ad3ccec376990cf8ebe25b4e6dd61238c9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "costs": [
+      {
+        "id": "ESP-costs-001",
+        "statement": "Spain spent 9.2% of GDP on health in 2023, slightly below the EU average of 10.0%.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 8,
+          "char_start": 45644,
+          "char_end": 45743,
+          "passage_sha256": "f6b24ef0f8083ef62fe02f58f1d63843625c94f3f06aaeae78488b4633fa0382"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-costs-002",
+        "statement": "Health spending per person in Spain was EUR 3,137 in 2023, about one fifth below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 5279,
+          "char_end": 5383,
+          "passage_sha256": "e439cf304d9e34574660e63293eac1cd57b885409884cf477735236e039e01e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-costs-003",
+        "statement": "By function, 36% of health spending went on outpatient care and 27% on inpatient care in 2023, while outpatient medicines and medical devices took 21%.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 9,
+          "char_start": 49678,
+          "char_end": 50059,
+          "passage_sha256": "cf84fd6240ec6702b9fa7b22e1c39990e821aea488bfa078163d3585ac0bbcf9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-costs-004",
+        "statement": "Retail pharmaceutical spending per person was EUR 472 in 2023, 7% below the EU average of EUR 510 after adjusting for purchasing power.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 19,
+          "char_start": 117541,
+          "char_end": 117848,
+          "passage_sha256": "294f404a440782282fd130c7ee95a79b867d211ac8f1e176655fdf796aa6280a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-costs-005",
+        "statement": "Pharmaceutical spending in the inpatient sector was EUR 9.6 billion in 2023, up 8% on the year after 4.8% growth the year before.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 124324,
+          "char_end": 124494,
+          "passage_sha256": "372138019eb14da23e05af4d0438e180e34395971b93d1ee04e06a1c65594a23"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-costs-006",
+        "statement": "Medicine prices in Spain are set by a specific methodology rather than by the market; in 2024 the Ministry of Health revised the prices of more than 17,000 medicines to save EUR 139 million.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 124896,
+          "char_end": 125438,
+          "passage_sha256": "3dd2fd2c47a7d0aac85de8770af1f0184abea0044aec28891f74623bf84f4b43"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-costs-007",
+        "statement": "Generics made up 47% of medicines dispensed by community pharmacies (by units) in 2024, about the same as the 48% of 2014; the profile notes that reference pricing keeps the price gap between generics and brands small.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 21,
+          "char_start": 131156,
+          "char_end": 131599,
+          "passage_sha256": "4941d803f99d2144615af4c230cd2bd4e3a727cb7ba17243af20650c2a541f7f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "ESP-costs-008",
+        "statement": "Health took 14.5% of total government spending in 2023, almost unchanged from 14.4% in 2019.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 16,
+          "char_start": 99372,
+          "char_end": 99523,
+          "passage_sha256": "4dcd1fcd069396949b9874514a906a748b2e0fb1831fef3fb0f9e9949b43b9ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "ESP-what_works-001",
+        "statement": "Spain's rates of avoidable hospital admissions, especially for congestive heart failure and diabetes, are among the lowest in the EU, which the profile attributes partly to strong primary care that provides continuity and limits fragmentation of specialist care.",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 71268,
+          "char_end": 71544,
+          "passage_sha256": "b9960002704ecb1fc6b5b1d77e3651dc262c34996903619dd17c2ea7c1419f15"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-what_works-002",
+        "statement": "Deaths from treatable conditions fell over the past decade, including during the COVID-19 pandemic; the profile credits prioritisation right after the lockdowns, when urgent cardiovascular and cancer cases were fast-tracked.",
+        "valence": "strength",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 11,
+          "char_start": 63442,
+          "char_end": 63795,
+          "passage_sha256": "e56d10fd4dff0929c066134f46cf2d5bcc8885d3ca783e65b0b46a19e3343dfb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-what_works-003",
+        "statement": "WHO notes that SNS entitlement rests on residence, with undocumented migrants entitled to the same coverage as residents; that the benefits package is broad and varies very little between regions; and that health centres are evenly spread across the country.",
+        "valence": "strength",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Executive summary",
+          "page": 15,
+          "char_start": 22812,
+          "char_end": 23128,
+          "passage_sha256": "0540a8d6529036253eff2594d0b1d82718377e938feb2b843b815cbe10101007"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ESP-what_works-004",
+        "statement": "Spain had the world's highest rate of deceased organ donation; in 2021 it transplanted 4,781 organs, the second-highest rate per million people in the world after the United States.",
+        "valence": "strength",
+        "source_id": "ont-lessons-ti-2023",
+        "locator": {
+          "section": "Results",
+          "char_start": 12174,
+          "char_end": 12548,
+          "passage_sha256": "dc7d4a2be5782b5e4b624ae4eb87e65c8b3310ac0f0370803ebb499265bd0551"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "ESP-what_works-005",
+        "statement": "Core features of Spain's donation and transplant programme include a three-tier governance structure, close working relations with the media, dedicated professional roles, comprehensive reimbursement of donation activity and intensive tailored training for all staff.",
+        "valence": "strength",
+        "source_id": "ont-lessons-ti-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2449,
+          "char_end": 2715,
+          "passage_sha256": "01e44b2e25b426511c9da97a6c8806ed819628cf571430227619240e80297c87"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-what_works-006",
+        "statement": "Informal payments do not appear to be a problem in Spain; Eurobarometer surveys consistently place it among the EU countries with the lowest self-reported informal payments.",
+        "valence": "strength",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.4.3 Informal payments",
+          "page": 88,
+          "char_start": 177009,
+          "char_end": 177249,
+          "passage_sha256": "e1abff57c8c0cbf4031fa421beda72416c87fcafc454f4a91e6fece414cf4b76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "ESP-problems-001",
+        "statement": "Although the benefits package has been widened, especially for dental care, waiting lists remain the main barrier to getting health care in Spain.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "1 Highlights",
+          "page": 3,
+          "char_start": 6415,
+          "char_end": 6553,
+          "passage_sha256": "b49f827131ec25732a66b41e4b043e4abec13195a445dc82466cd06f01dc2dc3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-problems-002",
+        "statement": "Despite large gains in effective coverage, access gaps remain, including administrative barriers to obtaining residency status, on which entitlement depends.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 88520,
+          "char_end": 88725,
+          "passage_sha256": "d302db54347b30b36763e902434bf5d2ac260de77e321240e58f091f10fd4279"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-problems-003",
+        "statement": "Active workers have no cap on prescription co-payments, which may stop those on lower incomes from getting outpatient prescriptions.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 126760,
+          "char_end": 126911,
+          "passage_sha256": "67b9135c74176ee7c4684d5c89ccdb831223d9a4f37121d483af928e26943627"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-problems-004",
+        "statement": "In publicly funded surgery in Catalonia (2015-2019), middle-income patients waited 2-6 fewer days than low-income patients for hip replacement, cataract surgery and hysterectomy, and less than a day fewer for breast cancer surgery; the gaps arose within hospitals and were not explained by patient or hospital characteristics.",
+        "valence": "weakness",
+        "source_id": "wait-ineq-he-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 997,
+          "char_end": 1772,
+          "passage_sha256": "6372f4742c0d67266ff472435187f93e5ace629212db6fe61a7133d362180d00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-problems-005",
+        "statement": "Private insurance is concentrated among the better-off: holders tend to be aged 31-60, employees of large companies and members of richer households, and in 2019 about 40% of households in the richest fifth had it against 10% in the poorest fifth.",
+        "valence": "weakness",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 89,
+          "char_start": 178449,
+          "char_end": 178749,
+          "passage_sha256": "2bc2cdeb767d45bd74af7711cb345ca1a3eb635e362a76ace65cbbae2dcc5054"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "ESP-problems-006",
+        "statement": "WHO recommended reviewing the efficiency and equity of tax subsidies for private health insurance, which mainly benefit richer households, and of letting mutual-fund members opt for private provision, saying both policies widen inequalities in access.",
+        "valence": "weakness",
+        "source_id": "who-fp-esp-2021",
+        "locator": {
+          "section": "Implications for policy",
+          "page": 87,
+          "char_start": 135828,
+          "char_end": 136091,
+          "passage_sha256": "2a99a910f315d626de98f313bdd2a5d9ded478328fc9492cbfaea3545838cf62"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-problems-007",
+        "statement": "The medical workforce is ageing: 43% of doctors were 55 or older in 2022, which the profile says points to retirement waves that will add to existing pressures.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 106866,
+          "char_end": 107131,
+          "passage_sha256": "c6c2d3c9ef6571b6ddcb1272e32887bcf21ba6224197188edd7f656618cddb8e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "ESP-problems-008",
+        "statement": "Spain had 5.9 nurses per 1,000 people in 2023, below the EU average of 8.5, though the figure leaves out nurse assistants and other support roles and so understates the nursing workforce.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "4 The health system",
+          "page": 10,
+          "char_start": 58395,
+          "char_end": 58731,
+          "passage_sha256": "7441ffa3817310a807edc67362df112d538b58f669988dfe69609cd73dce604a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "ESP-problems-009",
+        "statement": "Decisions on drug approval and pricing are made by the Ministry of Health while the regions pay for all pharmaceutical care, a split that causes tension between them.",
+        "valence": "weakness",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "2.7.4 Regulation and governance of pharmaceuticals",
+          "page": 55,
+          "char_start": 108266,
+          "char_end": 108542,
+          "passage_sha256": "b1f545a18907c5e596ca02d98d1ce76c53f4788a8bdd3857409302e8affccf13"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-problems-010",
+        "statement": "Growing waiting times, notably in primary care, have increased the public's sense that access to the health system has weakened, which may widen inequalities between the better-off and the worse-off.",
+        "valence": "weakness",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "8 Conclusions",
+          "page": 182,
+          "char_start": 373183,
+          "char_end": 373429,
+          "passage_sha256": "f01eb8a6f71952b058f245482f5ca5411e24fc20075f6daf6a5f37fe8b6d9252"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-problems-011",
+        "statement": "Antibiotic use has risen again since 2021, reaching 24.1 defined daily doses per 1,000 people in 2023 against an EU average of 19.9, which may put the 2030 reduction target at risk.",
+        "valence": "weakness",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 18,
+          "char_start": 113119,
+          "char_end": 113404,
+          "passage_sha256": "e25274a34e1c0d3561bf65609a4ec40b6a33d270abcd1f3d8e4398ac1ebfd66d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "reforms": [
+      {
+        "id": "ESP-reforms-001",
+        "statement": "In 2024 the Interterritorial Council approved the Primary and Community Care Action Plan 2025-27 to build primary care workforce capacity, improve working conditions, have regions plan to retain staff and promote continuity of care.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.1 Effectiveness",
+          "page": 12,
+          "char_start": 71849,
+          "char_end": 72132,
+          "passage_sha256": "ecd7e493a036179a75a8324a64bfb177d3a2ac8437efc62c849b96ff373e04b9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-002",
+        "statement": "In June 2024 Spain launched a public health surveillance network covering five domains, and in July 2025 it created a State Public Health Agency as a central authority for anticipating and managing public health challenges.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 15,
+          "char_start": 92293,
+          "char_end": 92743,
+          "passage_sha256": "2d50fc365a275a5dd7f0d148f0d8163ce050982330dfb3894ba8cb907eddc172"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-003",
+        "statement": "A broad draft Law on Medicines and Health Products, opened to public consultation in April 2025 and still awaiting Parliament, seeks to update Spain's medicines legislation; its goals span fairer access, sensible use of medicines, environmental impact, public scrutiny, digitalisation and consistency with EU law.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 125439,
+          "char_end": 125798,
+          "passage_sha256": "751ad5b3ce8cfddcd6575d21a2a49823810f0f3b1ddf6b296224719aaf035eb4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-004",
+        "statement": "The draft medicines law sets procedures for conditional, early and temporary public funding of medicines with special added value for particular groups while a final funding decision is pending, which the profile expects to speed access to innovative therapies.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "6 Spotlight on pharmaceuticals",
+          "page": 20,
+          "char_start": 127954,
+          "char_end": 128255,
+          "passage_sha256": "7932225c7aa0dbc9560d961a7ff8b1bae3eaab42f14969c3576527e961cb154b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-005",
+        "statement": "On 12 May 2026 the Council of Ministers approved, in a second reading, the bill on Public Management and Integrity of the SNS.",
+        "valence": "neutral",
+        "source_id": "msan-leygp-2026",
+        "locator": {
+          "section": "Press release text",
+          "char_start": 1002,
+          "char_end": 1174,
+          "passage_sha256": "a46506773fe0316e3c2e4c33efb1d70366eefb803949cfa0bf64bb21bfea5682"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-006",
+        "statement": "The bill, whose passage through Parliament was starting, would make direct public management the preferred way of providing SNS care and would repeal Law 15/1997, which had opened the way to new forms of private management of the public system.",
+        "valence": "neutral",
+        "source_id": "msan-leygp-2026",
+        "locator": {
+          "section": "Press release summary",
+          "char_start": 151,
+          "char_end": 390,
+          "passage_sha256": "1fb11c7d52026f865e80cfcf44bcecd8c445a00f19e5582984145baf339d4cab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-007",
+        "statement": "The bill would ban contracts in which a private company both builds health facilities and manages the care provided in them.",
+        "valence": "neutral",
+        "source_id": "msan-leygp-2026",
+        "locator": {
+          "section": "Press release summary",
+          "char_start": 853,
+          "char_end": 1001,
+          "passage_sha256": "33663e01aba982cdc1ba07c90098b5b5c8d411a78718d8978a67dd8f2aa26e3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-008",
+        "statement": "Valencia has reversed public-private partnerships for running health areas in four of the five places it used them: Alzira (2018), Torrevieja (2021), Denia (January 2024) and Manises (May 2024); it planned to keep the Elx-Vinalopó contract on yearly extensions after it ended in 2025.",
+        "valence": "neutral",
+        "source_id": "hit-esp-2024",
+        "locator": {
+          "section": "2.7.2 Regulation and governance of provision",
+          "page": 52,
+          "char_start": 102592,
+          "char_end": 102972,
+          "passage_sha256": "7a31ba4f45fd67979c57b8ff4a540d66cf366efe3ea59902f901e6f106205697"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-009",
+        "statement": "To train more doctors, public universities offered 677 new medical student places in 2023/24, raising first-year places by 12%, with EUR 52 million from the national government.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.3 Resilience",
+          "page": 17,
+          "char_start": 107134,
+          "char_end": 107530,
+          "passage_sha256": "8007874392287c88b65ae48d30b171e9751445d914c6f510ebbf4058ba2e9a54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-010",
+        "statement": "A 2023 technical document set 13 criteria for hard-to-fill posts; a primary care post meeting at least five qualifies for incentives such as extra pay, housing support, career development and better work-life balance.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 14,
+          "char_start": 85158,
+          "char_end": 85451,
+          "passage_sha256": "096e33c79289117c4f097c27036f299f9f6f5cc838e078fc3e66d5e0122ee4d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-reforms-011",
+        "statement": "In April 2024 the SNS set up a Working Group on Waiting Lists to end differences between regions in how waiting lists are managed and recorded.",
+        "valence": "neutral",
+        "source_id": "chp-esp-2025",
+        "locator": {
+          "section": "5.2 Accessibility",
+          "page": 15,
+          "char_start": 90946,
+          "char_end": 91201,
+          "passage_sha256": "7c87cc4f6705e06d5b117de3a055ee82c86c9cc1bbe57239617a7cb0fa097189"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "ESP-us_lessons-001",
+        "statement": "Although Spanish law lets any citizen who has not stated an objection be considered a donor, in practice donation goes ahead only after the family is consulted and agrees; the review concludes that legislation must be backed by working protocols that the public and professionals accept.",
+        "valence": "neutral",
+        "source_id": "ont-lessons-ti-2023",
+        "locator": {
+          "section": "Results: legislation",
+          "char_start": 18799,
+          "char_end": 19395,
+          "passage_sha256": "995f9604166b17160aa55a46d1c17f562abca25450b228284cfe99fe5176a8cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-us_lessons-002",
+        "statement": "Spanish hospitals receive budget funding for donation costs based on their past donation rates, and the review advises countries reforming their transplant systems to examine their own reimbursement rules for financial barriers to donation.",
+        "valence": "neutral",
+        "source_id": "ont-lessons-ti-2023",
+        "locator": {
+          "section": "Results: funding and reimbursement",
+          "char_start": 25497,
+          "char_end": 25906,
+          "passage_sha256": "f621c1c96603d1e46cc70280d549fc61b8034b4a05b8d93ef1b7ad2cacb690fc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-us_lessons-003",
+        "statement": "Spain's three-tier governance structure for donation is seen as a major reason for its success and has been used as a model by other European programmes, including those of the United Kingdom, Portugal and Italy.",
+        "valence": "neutral",
+        "source_id": "ont-lessons-ti-2023",
+        "locator": {
+          "section": "Results: governance",
+          "char_start": 23730,
+          "char_end": 24050,
+          "passage_sha256": "cce3ecdb22c8d39e7794d95aa4cbe1024da3df4a3cec81fd2b152c923495d6c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "ESP-us_lessons-004",
+        "statement": "The review suggests countries reforming their transplant systems could adopt the core features of the Spanish model and should also support living donation, which it identifies as an area where Spain itself could improve.",
+        "valence": "neutral",
+        "source_id": "ont-lessons-ti-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3085,
+          "char_end": 3442,
+          "passage_sha256": "60102cd9dd740f9fd041a3917ba6f87337eac4bd5a121a4d05922d6b46d140b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/ESP.json",
+  "sources": [
+    {
+      "id": "chp-esp-2025",
+      "title": "Spain: Country Health Profile 2025 (State of Health in the EU)",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-spain-final-web.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hit-esp-2024",
+      "title": "Spain: Health System Review 2024 (Health Systems in Transition, 26(3))",
+      "publisher": "European Observatory on Health Systems and Policies, WHO Regional Office for Europe",
+      "authors": "Bernal-Delgado E et al.",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://iris.who.int/server/api/core/bitstreams/484a7fc9-b55a-4994-aaa2-b9aa2cc77910/content",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "who-fp-esp-2021",
+      "title": "Can people afford to pay for health care? New evidence on financial protection in Spain",
+      "publisher": "WHO Regional Office for Europe",
+      "authors": "Urbanos-Garrido R, Peña-Longobardo LM, Comendeiro-Maaløe M, Oliva J, Ridao-López M, Bernal-Delgado E",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2021,
+      "url": "https://iris.who.int/server/api/core/bitstreams/1249b54c-b8bc-457e-9929-d34e9073da8a/content",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "msan-egsp-2024",
+      "title": "El gasto sanitario público alcanzó los 101.739 millones de euros en 2024, un 6,4% del PIB (press release on the Public Health Expenditure Statistics, EGSP 2024; 13 May 2026)",
+      "publisher": "Ministry of Health of Spain (Ministerio de Sanidad)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6908",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "sisle-dic2025",
+      "title": "Sistema de Información de Listas de Espera del SNS: situación a diciembre 2025 (nota resumen)",
+      "publisher": "Ministry of Health of Spain, Subdirección General de Información Sanitaria",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Resumen_SISLE__dic25.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "sisle-dic2025-rect",
+      "title": "Sistema de Información de Listas de Espera del SNS: situación a diciembre 2025, nota informativa de rectificación",
+      "publisher": "Ministry of Health of Spain, Subdirección General de Información Sanitaria",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.sanidad.gob.es/eu/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Aclaratoria_Rectificacion_Dic_2025.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "boe-ley22-2009",
+      "title": "Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común (consolidated text, last amended 29 July 2022)",
+      "publisher": "Boletín Oficial del Estado (BOE)",
+      "tier": 1,
+      "type": "government",
+      "year": 2022,
+      "url": "https://www.boe.es/buscar/pdf/2009/BOE-A-2009-20375-consolidado.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "mtdfp-muface-2025",
+      "title": "MUFACE firma con Adeslas y Asisa el concierto que garantiza la asistencia sanitaria a un millón de mutualistas (press release, 30 April 2025)",
+      "publisher": "Ministry for Digital Transformation and the Civil Service of Spain",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://digital.gob.es/content/dam/portal-mtdfp/comunicacion/comunicacion_sefp/2025/04/2025-04-30-2/NPConciertoMUFACE.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "msan-leygp-2026",
+      "title": "Aprobado el Proyecto de Ley de Gestión Pública e Integridad del Sistema Nacional de Salud (press release, 12 May 2026)",
+      "publisher": "Ministry of Health of Spain (Ministerio de Sanidad)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6906",
+      "funding_note": "Government press release describing its own bill; the bill was awaiting parliamentary approval when published.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "cwf-esp",
+      "title": "International Health Care System Profiles: Spain (2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/spain",
+      "funding_note": "Commonwealth Fund, a US private foundation. Some of its figures conflict with the Observatory reviews (e.g. on impoverishing spending and household spending), so it was used only for long-term care facts not covered by the tier-1 sources.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ont-lessons-ti-2023",
+      "title": "Ten Lessons From the Spanish Model of Organ Donation and Transplantation",
+      "publisher": "Transplant International",
+      "authors": "Streit S, Johnston-Webber C, Mah J, Prionas A, Wharton G, Casanova D, Mossialos E, Papalois V",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.3389/ti.2023.11009",
+      "doi": "10.3389/ti.2023.11009",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10249502",
+      "funding_note": "Narrative literature review supplemented by expert feedback; authors declare no commercial conflicts.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "wait-ineq-he-2023",
+      "title": "Socioeconomic inequalities in waiting times for planned and cancer surgery: Evidence from Spain",
+      "publisher": "Health Economics",
+      "authors": "Bosque-Mercader L, Carrilero N, García-Altés A, López-Casasnovas G, Siciliani L",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1002/hec.4661",
+      "doi": "10.1002/hec.4661",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=36772982&rettype=abstract&retmode=text",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created: 115 claims from 13 sources, anchored and support-reviewed in two separate cold passes; 44 statements reworded or re-anchored in review (details from outside the passage, missing years, scope, overstatement), 2 dropped and 3 replaced or split, and 1 rewritten after the 12-word overlap check."
+    }
+  ]
+}

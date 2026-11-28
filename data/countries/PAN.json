@@ -1,0 +1,1214 @@
+{
+  "iso3": "PAN",
+  "name": "Panama",
+  "wave": 5,
+  "system_as_of": "2026-11-24",
+  "status": "verified",
+  "model": {
+    "type": "mixed",
+    "label": "Two parallel public subsystems: the Ministry of Health (tax-funded, covers everyone in practice) and the Social Security Fund CSS (payroll-funded, for formal workers and dependants), with a small voluntary private sector"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "PAN-overview-001",
+        "statement": "The World Bank's 2024 primary care review describes a centralised system in which health decisions, stewardship and resource management sit mainly at national level. It is split between two public institutions, the Ministry of Health (MINSA) and the Social Security Fund (CSS), with a private sector alongside.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 33,
+          "char_start": 49248,
+          "char_end": 49585,
+          "passage_sha256": "d1993b32e8bd6804a1a60cc94a0da10f6bba1c3e14f3c1d306222b7cbc8c83bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "PAN-overview-002",
+        "statement": "MINSA was set up in 1969 as the national health authority, issuing policy and also providing services. The CSS was set up in 1941 and provides health services alongside salary-based social insurance benefits such as pensions.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 34,
+          "char_start": 49794,
+          "char_end": 50365,
+          "passage_sha256": "36ed7f97f35bd376f7f827bccb703c9dccf51897528d110f08281723a8bc06ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "PAN-overview-003",
+        "statement": "The report gives population coverage of 84% for the CSS (salaried workers and dependants), 47% for MINSA and 6% for private insurance. The figures overlap because all residents can use the MINSA network and many people use both MINSA and CSS facilities.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 34,
+          "char_start": 50583,
+          "char_end": 51224,
+          "passage_sha256": "9c4f8cffcee5c64b9facb258628f2f39c56c41ed860d3c4bf12f3801660e8217"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "PAN-overview-004",
+        "statement": "Services are delivered through 902 MINSA and CSS facilities. The CSS runs 77 of them (15 hospitals among them) and MINSA runs 825 (22 hospitals among them); MINSA's services are organised in 16 regional health directorates.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 35,
+          "char_start": 52275,
+          "char_end": 53075,
+          "passage_sha256": "f009e1a1761832db00f0ae8de85ff3c25f1d8ef6bb4dcc59f46352590883206f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "PAN-overview-005",
+        "statement": "The MINSA financing analysis cites Law 51 of 2005 as providing that only people covered by social security may use the services the CSS offers.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 42,
+          "char_start": 77577,
+          "char_end": 77730,
+          "passage_sha256": "d8c6b6e0a2c5ea202739134418633d02160f54b6c3f84a7a8dd02cb8034f2fd1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financing": [
+      {
+        "id": "PAN-financing-002",
+        "statement": "The same programme also takes contributions from pensioners of the CSS and the state, 10% of the state's net revenue from fibre-optic concessions, and contributions from the voluntary regime (which includes self-employed workers) plus bequests and donations earmarked for it.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 28,
+          "char_start": 53049,
+          "char_end": 53714,
+          "passage_sha256": "a3612ad53f5d9da45bf453bc4a501221f3bd242cfa735bb2ff5e07b44f5a55a7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-financing-003",
+        "statement": "MINSA is financed from national tax and contribution revenue passed to it by the Ministry of Economy and Finance. The CSS collects employer and employee contributions directly from firms and also receives transfers from the Ministry of Economy and Finance and from MINSA.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 35,
+          "char_start": 62699,
+          "char_end": 63537,
+          "passage_sha256": "d19d98e52acaec5194e4111625eb94f0d23ac966108eae090de9a88e43054ec6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-financing-004",
+        "statement": "A 2019 law (Law 114) created an excise tax on sugary drinks: 7% on carbonated drinks, 5% on other sugary drinks and 10% on syrups and concentrates. It raised about B/10.6 million in 2019, 0.3% of total tax revenue.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 31,
+          "char_start": 58570,
+          "char_end": 59627,
+          "passage_sha256": "165ca97c4ae53d72b7d781068b7234157392bfecde54bb948f3f85439a69c9ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-financing-005",
+        "statement": "A 2009 change to the tax code raised the excise tax on tobacco to 100% of the declared retail price, with a minimum of B/1.5 per pack of cigarettes. Law 69 of 2009 earmarks half of the proceeds for specified uses.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 28,
+          "char_start": 54661,
+          "char_end": 55130,
+          "passage_sha256": "485200fdf814a5c0b1b4a9f2b85382f1abfb4df3f6d1d727e323e527b66816e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-financing-006",
+        "statement": "Public spending on health was 5.0% of GDP in 2019, above the regional average of 4.6%. The public share of total health spending fell from an average of 66.4% in 2000-2009 to 64.2% in 2010-2019.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 35,
+          "char_start": 62070,
+          "char_end": 62684,
+          "passage_sha256": "fa2b8c66eafb201c80f49f4046ee7e3e13af012c2ea82bc652722aeb37b2df9e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-financing-007",
+        "statement": "The MINSA analysis finds that health financing is not pooled. Separate funds serve formal-sector contributors and their dependants (through the CSS) and the rest of the population (through MINSA). It says this prevents cross-subsidy between the two and limits financial protection.",
+        "valence": "weakness",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 37,
+          "char_start": 65227,
+          "char_end": 66285,
+          "passage_sha256": "07104c3857a807c7533978d2bfdf541cebf1c381ab434a1d9dc1186d76312de3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-financing-008",
+        "statement": "Private spending is about a third of total health spending. Voluntary private insurance rose from 4.6% to 6.3% of total health spending between 2000 and 2019.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 37,
+          "char_start": 67078,
+          "char_end": 67469,
+          "passage_sha256": "fdbc87e0a144ada43b38861fea59f1d1d522d6b9aca658f10b2eb1843912538d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-financing-009",
+        "statement": "Citing the Inter-American Development Bank, the MINSA analysis puts Panama's tax revenue including social contributions at 15.6% of GDP, well below the Latin American average of 21%.",
+        "valence": "weakness",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 26,
+          "char_start": 49725,
+          "char_end": 50057,
+          "passage_sha256": "f6c8e5143adb59bc5922e864a68dfe9dfb6beb4fb7ff1719840efa5165cdeb67"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-financing-010",
+        "statement": "According to the World Bank, public health spending comes from general fiscal revenue, including corporate income tax, and from parafiscal employer and employee contributions to the CSS. Some households also pay private insurance premiums, and households bear out-of-pocket costs such as copayments and direct payments to providers and pharmacies.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 28,
+          "char_start": 38262,
+          "char_end": 38756,
+          "passage_sha256": "e6980325d7c45b2e5c3a471fc5429028b195b00551cf0dbd190cc97c8f2d5104"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "PAN-covered-001",
+        "statement": "Each health facility has a defined portfolio of services according to its level of care and complexity, and a referral and counter-referral system (SURCO) links the levels.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 41,
+          "char_start": 72865,
+          "char_end": 73055,
+          "passage_sha256": "55077ead3c13fd0c5c0891e1222cb40fb28fa4b31e3d5e31c18c89cd128b0727"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-covered-002",
+        "statement": "To widen coverage in the country's interior regions, MINSA and the CSS signed an agreement in 1990 under which insured people can use MINSA facilities and uninsured people can use CSS facilities. Each institution bills the other so that each covers the costs of its own responsibility population (uninsured for MINSA, insured for the CSS).",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 42,
+          "char_start": 77731,
+          "char_end": 78464,
+          "passage_sha256": "170ce3bf2caea988dfb7753e7a938314cd7e7e26f60eeae0fc7590244b21d286"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-covered-003",
+        "statement": "According to a 2025 peer-reviewed analysis, routine vaccines under Panama's immunisation programme are given at no out-of-pocket cost in schools and MoH community clinics, and for a fee in private clinics.",
+        "valence": "neutral",
+        "source_id": "pan-hpv",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 8917,
+          "char_end": 9054,
+          "passage_sha256": "8bb1d9a99c3c4130d88a715ae9ac68160dade8bd10540d3236f9c8eb5179e270"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "PAN-cost_sharing-001",
+        "statement": "Tertiary hospitals and national specialised institutes are run as 'patronatos' that supplement their public budget with copayments.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 37,
+          "char_start": 68216,
+          "char_end": 68460,
+          "passage_sha256": "3f52625a52ec9342a069503264d3e2eefd412827c403f22e837c0397e6bacded"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-cost_sharing-002",
+        "statement": "MINSA's analysis says the public system carries out socioeconomic evaluations, so that patients who cannot pay a copayment do not face an economic barrier to the care they need.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 37,
+          "char_start": 68777,
+          "char_end": 69075,
+          "passage_sha256": "c121a9b2b8de5c4263b1d2844c180915883d8e921973323a46c6a0a903b39a8a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-cost_sharing-003",
+        "statement": "The MINSA analysis says each health region sets its own differentiated tariffs for public services, and in all cases they are minimal relative to cost.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 42,
+          "char_start": 77384,
+          "char_end": 77576,
+          "passage_sha256": "7ebdef7eb4fdf050dec73072c768666c3408619353bcd09f12adc42a26b8e2ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-cost_sharing-004",
+        "statement": "The World Bank reports out-of-pocket spending at 27.6% of health expenditure, similar to the Latin America and Caribbean average of 28.4%, despite the large share of resources the government invests in health.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 29,
+          "char_start": 40749,
+          "char_end": 41005,
+          "passage_sha256": "a7d43a215c527e8f2a5284e21358e9fe51f2e412477dd53c3cbb647e19f412b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "PAN-cost_sharing-005",
+        "statement": "PAHO's Health in the Americas profile reports, for 2021, public expenditure on health of 5.38% of GDP and out-of-pocket spending of 37.33% of total health expenditure.",
+        "valence": "neutral",
+        "source_id": "pan-paho-hia",
+        "locator": {
+          "section": "Environmental and social determinants of health",
+          "char_start": 2726,
+          "char_end": 2955,
+          "passage_sha256": "519f44905f18bf9ae7e466b996923329f14a280a4af7fa639cc1c8e53c0c365f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "PAN-financial_hardship-001",
+        "statement": "The World Bank review says persistent inequality shapes health outcomes such as under-five mortality and worsens gaps in coverage and quality. It also links the rise in out-of-pocket spending to medicine prices in particular.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 21,
+          "char_start": 29255,
+          "char_end": 29581,
+          "passage_sha256": "36ec065db1f239d4a933faf9cd8acba01d15f41b2e60723ffbca302cf5699e57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "PAN-additional_care-001",
+        "statement": "Private health insurance gives supplementary cover through plans for medical and hospital services delivered by a network of private institutions.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 34,
+          "char_start": 50366,
+          "char_end": 50582,
+          "passage_sha256": "df2b3ad7bed714d2033a313047dba0c0a5142d45b56b265b0bd06f0693cbb91a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "PAN-access-001",
+        "statement": "A CSS health planner told a national dialogue that surgical waiting lists are managed by surgeons in their own practices. The MINSA analysis reports that in February 2021 there were 17,087 surgical procedures in the institution's facilities, with ophthalmology (48%) and general surgery (28%) the main pending operations.",
+        "valence": "weakness",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 47,
+          "char_start": 87978,
+          "char_end": 89163,
+          "passage_sha256": "afa16e35aa73fffdd837a38c2cf2e9d2a14e8468295556406bbb1d9bce52cce9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-access-002",
+        "statement": "The MINSA analysis notes that MINSA's records units, like those of the CSS, keep no registry from which the surgical backlog can be known, because surgeons manage their own demand.",
+        "valence": "weakness",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 47,
+          "char_start": 89264,
+          "char_end": 89503,
+          "passage_sha256": "c44bf4d17e0cdc89fd8937caff24eb36ea16da0880109465f1766a4c64d141bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-access-003",
+        "statement": "Panama had 32.8 health professionals per 10,000 population in 2019, in the lower-middle part of the regional range according to the World Bank, with most concentrated in urban centres.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 58,
+          "char_start": 97265,
+          "char_end": 97470,
+          "passage_sha256": "4f520051fa024bf69218e347bae121b8fa225acb0ec708f8994bca8f9320ef35"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-access-004",
+        "statement": "In 2020 indigenous women in the regions received on average half the recommended prenatal checks, and only 6 in 10 indigenous women were attended by a professional at delivery.",
+        "valence": "weakness",
+        "source_id": "pan-wb-idu",
+        "locator": {
+          "section": "Note 9: Modernización de los servicios de salud",
+          "char_start": 101107,
+          "char_end": 101317,
+          "passage_sha256": "19ba474b10dbcd59917fbf239f485dd10f0b497b04e0fd7b5212a99684988830"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "PAN-outcomes-001",
+        "statement": "PAHO reports that in 2019 potentially avoidable premature mortality was 195.7 per 100,000, 13.7% below the regional average. Preventable-cause mortality was 108.4 per 100,000 and treatable-cause mortality 87.3, against a regional average of 89.6.",
+        "valence": "neutral",
+        "source_id": "pan-paho-hia",
+        "locator": {
+          "section": "Mortality",
+          "char_start": 5564,
+          "char_end": 6161,
+          "passage_sha256": "aa4a9fd41b0045e5ce3d34ddfb0131328034fb480ec60802540f729728389818"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-outcomes-002",
+        "statement": "Noncommunicable diseases accounted for 77.9% of deaths in 2019, up from 69.2% in 2000, while communicable diseases fell from 18.8% to 13.4% and external causes from 12.0% to 8.8%.",
+        "valence": "neutral",
+        "source_id": "pan-paho-hia",
+        "locator": {
+          "section": "Mortality",
+          "char_start": 6986,
+          "char_end": 7203,
+          "passage_sha256": "6faad51e47db8e00e7fc7861cb56e9facfaf2d5b2262501f0427ba193c4a9709"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-outcomes-003",
+        "statement": "Estimated maternal mortality was 49.5 per 100,000 live births in 2020, 24.4% lower than in 2000.",
+        "valence": "neutral",
+        "source_id": "pan-paho-hia",
+        "locator": {
+          "section": "Health situation: Maternal and child health",
+          "char_start": 3722,
+          "char_end": 3883,
+          "passage_sha256": "031f6810ac0b425320e15d8ef94fa3dd4fe805ce811b65ca541eb69e5ba5be9d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "PAN-outcomes-004",
+        "statement": "Infant mortality fell from 16.7 to 12.16 deaths per 1,000 live births between 2000 and 2021, a 27.2% decrease.",
+        "valence": "strength",
+        "source_id": "pan-paho-hia",
+        "locator": {
+          "section": "Health situation: Maternal and child health",
+          "char_start": 3284,
+          "char_end": 3411,
+          "passage_sha256": "5d534a30579602e8dfd077caded4604a37bcf1a03dff8ae1c6d49dbe0dc6adab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-outcomes-005",
+        "statement": "A 2025 ecological analysis of national data found that cervical cancer incidence in Panama has fallen since the 1990s while mortality has risen significantly, with most cases diagnosed as invasive and among women aged 30-69.",
+        "valence": "weakness",
+        "source_id": "pan-hpv",
+        "locator": {
+          "section": "Abstract (Results)",
+          "char_start": 3192,
+          "char_end": 3422,
+          "passage_sha256": "4bee87827bcf953e891addd7f92d6d51e88e30ffa6a22ae9a6ee60cf9c4ea212"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-outcomes-006",
+        "statement": "A 2023 paper by Panamanian health authorities and PAHO reports about 170 new childhood cancer cases a year in Panama and a survival rate of around 60%.",
+        "valence": "weakness",
+        "source_id": "pan-cancer",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2224,
+          "char_end": 2329,
+          "passage_sha256": "15a25f0e1d3fa08f835ac9794115426a0808b1dba450c147d1e419c233a32bfc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "PAN-costs-001",
+        "statement": "The World Bank reports that Panama has one of the highest health spending levels per head in its region: US$2,491 in 2019, against US$1,636 in Costa Rica, the next highest.",
+        "valence": "neutral",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 28,
+          "char_start": 39343,
+          "char_end": 39990,
+          "passage_sha256": "21c4d68e3375e8fed63cdaa547f86622d5bdcdbc434eea22a78d0cb3d3287eb0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-costs-002",
+        "statement": "Total health spending stayed around 7% of GDP over two decades, reaching 7.6% in 2019, the highest level in the series. Per-capita health spending reached US$1,193 in 2019.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 33,
+          "char_start": 59658,
+          "char_end": 60266,
+          "passage_sha256": "e87351f1a24327c81f137b990fea651689be48357349cbc5726d96d995b4b821"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "PAN-costs-003",
+        "statement": "The World Bank says Panama's per-capita health spending is significantly higher than in other countries of the region, and that the increase is not yet reflected in better health outcomes, which implies a need to promote spending efficiency and effective interventions.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 28,
+          "char_start": 38757,
+          "char_end": 39096,
+          "passage_sha256": "e7ef21a73a8af52d7e4dede6feae891325b248e4050386c38755aaee5e14830f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "PAN-costs-004",
+        "statement": "An Inter-American Development Bank technical cooperation document says spending inefficiency is a persistent problem in Panama, where health spending per head is among the highest in the region at about US$2,600 (PPP-adjusted).",
+        "valence": "weakness",
+        "source_id": "pan-idb-t1360",
+        "locator": {
+          "page": 2,
+          "char_start": 3190,
+          "char_end": 3443,
+          "passage_sha256": "1f34cdb346cccc1d814508d9a100aabd02ad7b9071b598dd94b824362743634d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "what_works": [
+      {
+        "id": "PAN-what_works-001",
+        "statement": "The IDB document records that Panama's WHO UHC service coverage index was 78 out of 100 in 2021, against a Latin America and Caribbean average of 76.",
+        "valence": "strength",
+        "source_id": "pan-idb-t1360",
+        "locator": {
+          "page": 1,
+          "char_start": 2544,
+          "char_end": 2843,
+          "passage_sha256": "63f1a7495183bb5bf948912aab77047f58fdb1dfe4bcbf34ad3528608e8d5d8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-what_works-002",
+        "statement": "A 2025 peer-reviewed analysis reports that Panama introduced the HPV vaccine into the Ministry of Health's national immunisation programme in 2008, and says it thereby became the first country to implement the HPV vaccine.",
+        "valence": "strength",
+        "source_id": "pan-hpv",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 8552,
+          "char_end": 8727,
+          "passage_sha256": "eb382a9815f179f694fed58cabe767ecd09b63abf9b700d8611c79a0cbb58726"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-what_works-003",
+        "statement": "The same analysis found HPV vaccine uptake of 85% or more in most years, but Pap test coverage of only about 10%.",
+        "valence": "strength",
+        "source_id": "pan-hpv",
+        "locator": {
+          "section": "Abstract (Results)",
+          "char_start": 3097,
+          "char_end": 3191,
+          "passage_sha256": "bcaa0d022d499926b152628d4df3d5719b1d68fea94eaf95133e7a04518d5ea9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-what_works-004",
+        "statement": "The World Bank reports that its Panama COVID-19 Emergency Response Project increased laboratory and critical care capacity (14 laboratories equipped and 9 intensive and intermediate care units fully equipped) and contributed to vaccinating 84% of the population through vaccine procurement.",
+        "valence": "strength",
+        "source_id": "pan-wb-2025",
+        "locator": {
+          "section": "Results Achieved",
+          "char_start": 5702,
+          "char_end": 6162,
+          "passage_sha256": "3788e1fe66bc31e2a6f434b8da487af0a9b3200fb887399aa536f0b298a135e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-what_works-005",
+        "statement": "The World Bank review says the COVID-19 pandemic also showed strengths to learn from in Panama, including a push for telemedicine and joint purchasing of medicines.",
+        "valence": "strength",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 20,
+          "char_start": 25859,
+          "char_end": 26050,
+          "passage_sha256": "505bbee9b68f98127f0064e409b2d9a61c7b1a407b7ac95e15224be987980aa2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PAN-what_works-006",
+        "statement": "A 2021 guide to diagnosing cancer in children and adolescents was launched, and more than 1,000 health professionals have been trained in diagnosing childhood and adolescent cancer.",
+        "valence": "strength",
+        "source_id": "pan-cancer",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3179,
+          "char_end": 3550,
+          "passage_sha256": "2be1522ce5b06bf8d5595a69c0803aeaccee492b16a95dc2ca7ce80526d6f69f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "PAN-problems-001",
+        "statement": "The World Bank says the pandemic exposed existing limits of the system: difficult access, low quality of care and little integration between MINSA and the CSS.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 20,
+          "char_start": 25582,
+          "char_end": 25858,
+          "passage_sha256": "ed83c637ff8c93056662f9c8de6154d5d65d4911d3d8622438d6838d39845a6d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PAN-problems-002",
+        "statement": "According to the World Bank, people with chronic conditions get the services expected, but their care is often fragmented between MINSA and the CSS, and within MINSA between levels of care.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 22,
+          "char_start": 30457,
+          "char_end": 30808,
+          "passage_sha256": "ae56e90d049913364365f2d8d604878e0b536e9f3cfe7d572b2186516a294453"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PAN-problems-003",
+        "statement": "The MINSA analysis says both MINSA and the CSS cover populations in the same territory, which duplicates administrative costs and rules out strategic purchasing to change provider behaviour.",
+        "valence": "weakness",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 37,
+          "char_start": 66286,
+          "char_end": 66703,
+          "passage_sha256": "52aa4c91ba50727f01bba23726decf23541c59933491a473a1143961524b2ca2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-problems-004",
+        "statement": "Informal workers usually do not contribute to social security, which leaves people outside the mandatory scheme and lowers contribution revenue for the CSS sickness and maternity programme.",
+        "valence": "weakness",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 37,
+          "char_start": 66023,
+          "char_end": 66285,
+          "passage_sha256": "68facae165b45bcbf266e9c781197bfe9adf15bcab3a4be1e09b7e49d76dec3c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "PAN-problems-005",
+        "statement": "The World Bank finds the health workforce's competencies well defined, but the system has limited capacity to ensure quality standards are met in actual practice.",
+        "valence": "weakness",
+        "source_id": "pan-wb-p175211",
+        "locator": {
+          "page": 58,
+          "char_start": 97471,
+          "char_end": 97656,
+          "passage_sha256": "b5d1c39359e1a05171910fb0f4a7aac5749c5cc78e684ab07614960b957d3a34"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PAN-problems-006",
+        "statement": "The 2025 HPV analysis concludes that persistent low screening and high mortality, particularly from invasive disease in younger women, show critical gaps in cervical cancer prevention.",
+        "valence": "weakness",
+        "source_id": "pan-hpv",
+        "locator": {
+          "section": "Abstract (Conclusions)",
+          "char_start": 3615,
+          "char_end": 3840,
+          "passage_sha256": "f9725e1ece1f9f1b8a2a4c7c49880a38035607dc62453d9979fec1e0bc22fe05"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "reforms": [
+      {
+        "id": "PAN-reforms-001",
+        "statement": "In 2024-2025 PAHO supported Panama in drafting and validating a national health policy and strategic guidelines for 2026-2035, based on an evaluation of the previous policy.",
+        "valence": "neutral",
+        "source_id": "pan-paho-eob",
+        "locator": {
+          "section": "Highlighted achievements",
+          "char_start": 220,
+          "char_end": 671,
+          "passage_sha256": "7578115b50a5c0574007b955e35911bc922cdba33f1ddab6decaca3333b1fa3f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-reforms-002",
+        "statement": "Panama became the first country formally admitted to the Alliance for Primary Health Care in the Americas, which the World Bank, PAHO and the Inter-American Development Bank run jointly.",
+        "valence": "neutral",
+        "source_id": "pan-wb-2025",
+        "locator": {
+          "section": "Results Achieved",
+          "char_start": 5337,
+          "char_end": 5569,
+          "passage_sha256": "6235e01c42ed65884cb12129fe8d55ecebca266a1a446279b3b6696f09b077df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-reforms-003",
+        "statement": "World Bank recommendations to MINSA included joint planning between MINSA and the CSS, a strategic framework for regulating medicine prices, and piloting performance-based budgeting.",
+        "valence": "neutral",
+        "source_id": "pan-wb-2025",
+        "locator": {
+          "section": "Results Achieved",
+          "char_start": 4696,
+          "char_end": 5086,
+          "passage_sha256": "51afb19c2f96d1e1e598e5f2b600b28afcc9b954abd26b27e16f6f311c8f2c16"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-reforms-004",
+        "statement": "The World Bank supported a telemedicine pilot. The project equipped 25 primary health centres and 6 hospitals for teleconsultations, and the first phase was expected to reach up to 623,000 people.",
+        "valence": "neutral",
+        "source_id": "pan-wb-2025",
+        "locator": {
+          "section": "Results Achieved",
+          "char_start": 6163,
+          "char_end": 6545,
+          "passage_sha256": "a09ea9ade279b99a2944fec63088e0655fe844c5f5a33784007d993d765f8fbb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "PAN-reforms-005",
+        "statement": "A technical cooperation project aims to support MINSA and the CSS in the functional integration of health services, with digital tools for patient management and joint public purchasing of services and medical supplies.",
+        "valence": "neutral",
+        "source_id": "pan-idb-t1360",
+        "locator": {
+          "page": 1,
+          "char_start": 1805,
+          "char_end": 2425,
+          "passage_sha256": "42124789d3a897358f464e15512ad1a76abf1da73944b9decaff2b7fe4fab5f6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "PAN-reforms-006",
+        "statement": "The MINSA analysis describes a primary-care strategy that reorders the service network and forms integrated health service networks (RISS), based on the individual, family, community and environmental care model set by Executive Decree 420 of December 2018.",
+        "valence": "neutral",
+        "source_id": "pan-paho-fin",
+        "locator": {
+          "page": 41,
+          "char_start": 72549,
+          "char_end": 72864,
+          "passage_sha256": "d4d8a0901d7a49f4f45c4daf5cd37ea734fb10f51e99e873771b5e6aeeebf8c9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/PAN.json",
+  "sources": [
+    {
+      "id": "pan-paho-fin",
+      "title": "Análisis de la Situación del Financiamiento de Salud en Panamá 2021",
+      "publisher": "Ministerio de Salud de Panamá, Dirección de Planificación de Salud, with PAHO/WHO and Gorgas Memorial Institute",
+      "tier": 3,
+      "type": "government",
+      "year": 2022,
+      "url": "https://paho.org/sites/default/files/2022-01/Analisis_Situacion_Financiamiento_Salud_Panama.pdf",
+      "accessed": "2026-11-24",
+      "funding_note": "Ministry self-assessment (data to 2021); it predates the March 2025 CSS reform (Law 462)."
+    },
+    {
+      "id": "pan-wb-p175211",
+      "title": "Atención Primaria de Salud en Panamá: oportunidades para mejorar la calidad, equidad e integración de los servicios",
+      "publisher": "World Bank",
+      "authors": "Secci F, Urquijo L, Hernández W, Cafagna G",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://documents1.worldbank.org/curated/en/099032724101523116/pdf/P1752111164eb00ae19aa917d1fd9155a41.pdf",
+      "accessed": "2026-11-24",
+      "funding_note": "Prepared with MINSA; financed by Japan's PHRD fund. Data mostly 2019-2023."
+    },
+    {
+      "id": "pan-wb-idu",
+      "title": "Panamá: Notas de Política (Policy Notes), September 2024",
+      "publisher": "World Bank",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://documents1.worldbank.org/curated/en/099508209022436698/text/IDU-299a0a09-74ce-4019-a225-9795ddf275e1.txt",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "pan-wb-2025",
+      "title": "Strengthening Panama's Health System Post Covid-19",
+      "publisher": "World Bank (feature story)",
+      "tier": 3,
+      "type": "other",
+      "year": 2025,
+      "url": "https://www.worldbank.org/en/news/feature/2025/06/13/strengthening-panama-s-health-system-post-covid-19",
+      "accessed": "2026-11-24",
+      "funding_note": "The World Bank describing its own project results; used only for what the project did."
+    },
+    {
+      "id": "pan-paho-hia",
+      "title": "Health in the Americas+: Panama country profile",
+      "publisher": "Pan American Health Organization",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2024,
+      "url": "https://hia.paho.org/en/node/141",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "pan-paho-eob",
+      "title": "Programme Budget Results 2024-2025: Panama",
+      "publisher": "Pan American Health Organization",
+      "tier": 1,
+      "type": "other",
+      "year": 2025,
+      "url": "https://pbdigital.paho.org/en/eob-2024-2025/country/panama",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "pan-idb-t1360",
+      "title": "Technical Cooperation Document PN-T1360: Support for the integration and improvement of health services in Panama",
+      "publisher": "Inter-American Development Bank",
+      "tier": 3,
+      "type": "other",
+      "year": 2024,
+      "url": "https://ewsdata.rightsindevelopment.org/files/documents/60/IADB-PN-T1360.pdf",
+      "accessed": "2026-11-24",
+      "funding_note": "A project-justification document written by the lender, so it argues for the project."
+    },
+    {
+      "id": "pan-hpv",
+      "title": "HPV Vaccine Uptake and Cervical Cancer Trends in Panama: A Reference Point for Future Impact Studies",
+      "publisher": "Vaccines (Basel)",
+      "authors": "Calvo A et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.3390/vaccines13111173",
+      "doi": "10.3390/vaccines13111173",
+      "accessed": "2026-11-24",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12656947",
+      "funding_note": "Ecological descriptive study merging four national aggregate data sets."
+    },
+    {
+      "id": "pan-cancer",
+      "title": "Global Initiative for Childhood Cancer: progress and challenges in Panama",
+      "publisher": "Revista Panamericana de Salud Pública",
+      "authors": "Quintero K et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.26633/rpsp.2023.154",
+      "doi": "10.26633/rpsp.2023.154",
+      "accessed": "2026-11-24",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10580196",
+      "funding_note": "Authors include Panama Ministry of Health and PAHO staff."
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-24",
+      "note": "Profile created."
+    },
+    {
+      "date": "2026-11-24",
+      "note": "Initial research profile: 56 claims, 9 sources. Two claims deleted after failing the support review twice."
+    }
+  ]
+}

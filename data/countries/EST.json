@@ -1,0 +1,1150 @@
+{
+  "iso3": "EST",
+  "name": "Estonia",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Single national social health insurance fund financed by an earmarked 13% payroll tax plus state transfers; entitlement is tied to employment or contributions, with automatic cover for children and pensioners"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "EST-covered-001",
+      "EST-covered-002"
+    ],
+    "meets_definition": false
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "EST-overview-001",
+        "statement": "Estonia's system is mandatory social health insurance, funded mainly by a payroll tax of 13% of gross wages that is earmarked for health, with state transfers added for people outside work.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43275,
+          "char_end": 43532,
+          "passage_sha256": "55f493aca7d9b5bc1bb8350797043cdd3be0d3fdf049ec89a3196b3f58d4c62a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        }
+      },
+      {
+        "id": "EST-overview-002",
+        "statement": "One national insurer, the Estonian Health Insurance Fund (EHIF), pools and manages public health money; the Ministry of Social Affairs oversees the system and municipalities own public hospitals.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43533,
+          "char_end": 43954,
+          "passage_sha256": "ce3689da8c284b9cc0a3971a8b76c410c1ddd357288b2c7643b45c8f3078bf78"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        }
+      },
+      {
+        "id": "EST-overview-003",
+        "statement": "Hospital care and most outpatient specialist care come from publicly owned hospitals, while family doctors and dentists mostly work as private entrepreneurs.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 43955,
+          "char_end": 44220,
+          "passage_sha256": "0dfcb2bc6bd8c7b6cd0e400d5d95fbdf7cd4a2d39f41e19e6627c116805b44cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        }
+      },
+      {
+        "id": "EST-overview-004",
+        "statement": "The insurance fund states that, in its unified national scheme, contributions and access to necessary care do not depend on age, income or health risk.",
+        "valence": "neutral",
+        "source_id": "tk-system-est",
+        "locator": {
+          "section": "Estonian health care system",
+          "char_start": 335,
+          "char_end": 665,
+          "passage_sha256": "b6c3574211308c34db9e9d0be99c58e4b2d7976261993f8fe330a0c5377abee4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financing": [
+      {
+        "id": "EST-financing-001",
+        "statement": "The Health Insurance Fund receives its money from the health-insurance portion of the social tax, which is 13%.",
+        "valence": "neutral",
+        "source_id": "tk-system-est",
+        "locator": {
+          "section": "Estonian health care system",
+          "char_start": 2674,
+          "char_end": 2777,
+          "passage_sha256": "73a1e9d7e50f01a6444737c4f6ac7a6b15dd5c48434d925d11cedf07623e3085"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-financing-002",
+        "statement": "The social tax rate is 33% in total; self-employed people pay it on their business income after allowed deductions, within a minimum and a maximum set by the Social Tax Act.",
+        "valence": "neutral",
+        "source_id": "emta-selfemployed",
+        "locator": {
+          "section": "Social tax, principles",
+          "char_start": 1359,
+          "char_end": 1803,
+          "passage_sha256": "d75c107a640dc5df79425b4643ceca0e82bd9c17dff98485d8675481fab63f64"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "EST-financing-004",
+        "statement": "In 2023 public funds paid for 76% of current health spending, with the insurance fund covering 67% and central government 5% (down from 7% in 2022); out-of-pocket payments made up 22%.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44890,
+          "char_end": 45283,
+          "passage_sha256": "fe394aa09028ccb1348e4b7547e29cdb27893f74781c5e7a4bf9d8bb58284aa8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-financing-005",
+        "statement": "As of the 2022 summary, about two thirds of funding came from the earmarked 13% payroll tax, and direct state transfers to the insurance fund, including for non-working pensioners and extra pandemic transfers, were a growing share.",
+        "valence": "neutral",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 4,
+          "char_start": 5265,
+          "char_end": 5959,
+          "passage_sha256": "2edd1dbf10c504276fb851fc343644cff2e1cac990bfc0d0e06a2d9b9d12af91"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "EST-covered-001",
+        "statement": "An estimated 94% of the population had social health insurance in 2024. Children and pensioners are enrolled automatically, but working-age adults qualify mainly through employment, and only 88% of those aged 20-59 were covered.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85717,
+          "char_end": 86148,
+          "passage_sha256": "2bdd6654bda50b604b42257ac71e578c23131414585a9fc5949aee59a36de6eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-covered-002",
+        "statement": "People with insurance receive a broad package of benefits. Those without it are limited to emergency care, cancer screening, drug-cessation and substitution services, and treatment of certain communicable diseases.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 86149,
+          "char_end": 86364,
+          "passage_sha256": "650e5397089a2ac320e1342fae9afbbdd74a9a95a186df9b3153a803f49fe443"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        }
+      },
+      {
+        "id": "EST-covered-003",
+        "statement": "Employees on an employment contract of over a month, or an open-ended one, whose employer pays social tax become insured after a 14-day waiting period from the start date registered in the employment register.",
+        "valence": "neutral",
+        "source_id": "tk-employee",
+        "locator": {
+          "section": "Employees working under an employment contract",
+          "char_start": 945,
+          "char_end": 1307,
+          "passage_sha256": "c7930a09be2e9ab63405ae6c93a9d2ef1ef3a90bcdd0ae43418d6c83077e7e86"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "EST-covered-004",
+        "statement": "The insurance fund updates the benefits package and prices at least yearly, covering over 2,800 health services and DRGs, about 2,200 pharmaceuticals and 2,100 medical products; the government approves the benefits.",
+        "valence": "neutral",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 3,
+          "char_start": 2896,
+          "char_end": 3168,
+          "passage_sha256": "1fa4bd4f80fe3efd8c652da0567aa5682008531a306e7401b69744c21c949643"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "EST-covered-005",
+        "statement": "The fund says the list of reimbursable healthcare services is updated annually in line with needs and financial capacity, taking into account evidence and cost-effectiveness.",
+        "valence": "neutral",
+        "source_id": "tk-system-est",
+        "locator": {
+          "section": "What is the list of healthcare services",
+          "char_start": 6506,
+          "char_end": 6795,
+          "passage_sha256": "5bfff8ce58aeb0c9029512a84154d5f4cec0f4342d32f01158de064b33d5cdac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-covered-006",
+        "statement": "The scope of reimbursed telemedicine has expanded steadily since 2020; teleconsultations in primary and specialist outpatient care, which began as a COVID-19 response, are now a permanent part of the benefits package.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 101170,
+          "char_end": 101458,
+          "passage_sha256": "d87d08ef2a40033d94028e656a555c59b0d9ee7abe7f6a8357600ad003bdb129"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "EST-cost_sharing-002",
+        "statement": "The fixed fee per prescription medicine increased from 2.50 to 3.50 euros in 2025.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 135298,
+          "char_end": 135388,
+          "passage_sha256": "0db5b6be914d6ec97ad697cee82b5023046eebd858c26eb62e599f1e36b130fd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "EST-cost_sharing-003",
+        "statement": "Out-of-pocket payments were 22% of current health spending in 2023; dental care was the largest part of that (33%, the highest share in the EU), followed by pharmaceuticals (28%) and long-term care (18%).",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 92853,
+          "char_end": 93206,
+          "passage_sha256": "42d6a5937467c717f82f266080b49b3975ccc0f758c57bbafe2ebd131289bc9b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-cost_sharing-004",
+        "statement": "In 2023, public funds covered 99% of hospital spending (EU average 91%) and 84% of outpatient medical spending (EU average 77%).",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 86463,
+          "char_end": 86778,
+          "passage_sha256": "f631d7df61d7a5a42e81aac36e60624e9f87fc4371c2abadbb85595257ebe187"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-cost_sharing-005",
+        "statement": "The adult dental benefit covers the most basic dental services for all adults, with a 50% copayment and a 40-euro annual cap on reimbursement.",
+        "valence": "neutral",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 11,
+          "char_start": 23190,
+          "char_end": 23314,
+          "passage_sha256": "cdce1d8c1358b7e929df60a327e8fececbe5aff08da96112a694aefe6f30c9f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "EST-financial_hardship-002",
+        "statement": "Outpatient medicines made up nearly 59% of all out-of-pocket health payments in 2020, and catastrophic spending on them was split almost evenly between over-the-counter medicines (30%) and prescribed medicines (29%).",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 128161,
+          "char_end": 128461,
+          "passage_sha256": "1288a73dc69f09f139b3d2b9d04b9e779bbc071e31534e6990cf9211714f0c0d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2020
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "EST-additional_care-001",
+        "statement": "Voluntary health insurance plays a small role, at 2% of health spending in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45284,
+          "char_end": 45394,
+          "passage_sha256": "7b9fb8b6c30698db026a0714923e60e81cf5240b319f0cfd84d4d5f71d10793a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      }
+    ],
+    "access": [
+      {
+        "id": "EST-access-001",
+        "statement": "In 2024, 11.2% of Estonians who needed care reported unmet needs from waiting times, cost or distance, against 3.6% in the EU; among people at risk of poverty the figures were 14.2% in Estonia and 6% in the EU (EU-SILC).",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 78221,
+          "char_end": 78687,
+          "passage_sha256": "c1a862e794d1164d9892cb53292dab05ed18265a1bcb8f8884ee3bb45a12027e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-access-002",
+        "statement": "In 2024, 7% of Estonian adults reported unmet needs for primary care versus 3% in the EU (Eurofound), and satisfaction with access to family doctors, as measured by the insurance fund's survey, fell in 2023 to 76%, its lowest in six years.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79406,
+          "char_end": 79910,
+          "passage_sha256": "c6a7fb2ef56377ab15f838d403832a65c7bfd71a806f0d30bff76df10173abf2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-access-003",
+        "statement": "Unmet needs for mental healthcare in Estonia rose from 5% of adults in 2021 to 11% in 2024, while the EU average rose from 3% to 7%.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 14,
+          "char_start": 85044,
+          "char_end": 85240,
+          "passage_sha256": "662b36583c2cfe940dcedb08a3ff8def289c6c49c1d96d440fbad51aefb70901"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-access-004",
+        "statement": "In 2023 Estonia had 3.5 physicians per 1,000 people against an EU average of 4.3, and 6.6 nurses per 1,000 against 8.5.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 9,
+          "char_start": 48640,
+          "char_end": 48862,
+          "passage_sha256": "d90f70e373a4b243f913a6c1513165c1b5706df48a761664e2af18e022f62373"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-access-005",
+        "statement": "A 2023 primary care reform package included wider teleconsultation, more support for GPs in remote areas and nurse prescribing of medicines.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 79911,
+          "char_end": 80439,
+          "passage_sha256": "85e5523def5cf1a19f6098679a2a2e976e937e04783f02699a84d88d7edd4cbe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "EST-access-006",
+        "statement": "A healthcare facility that signs an agreement commits to keeping agreed waiting times and meeting international quality standards.",
+        "valence": "neutral",
+        "source_id": "tk-system-est",
+        "locator": {
+          "section": "Estonian health care system",
+          "char_start": 1261,
+          "char_end": 1450,
+          "passage_sha256": "04860a2104e893acce1413b651f6ddc8dab066f78f2d68fea8ca016ee820d616"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "EST-outcomes-001",
+        "statement": "Life expectancy at birth reached 79.6 years in 2024, which was 2.1 years below the EU average.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 13512,
+          "char_end": 13649,
+          "passage_sha256": "138572c17b44c23211c76a292de215b1e78a76da6ecb43a89aee34b5bab3065c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-outcomes-002",
+        "statement": "In 2023, 30-year-old men with lower education had a life expectancy 10 years shorter than men with higher education, and the gap for women was 8.5 years.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 4,
+          "char_start": 14097,
+          "char_end": 14407,
+          "passage_sha256": "86eab02346075cbf36236246475336728ee83435cdcb4defe28039fb4701cf1a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-outcomes-003",
+        "statement": "Preventable mortality fell 12%, from 304 deaths per 100,000 in 2012 to 267 in 2022, and alcohol caused a record 24% of preventable deaths.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 10,
+          "char_start": 57151,
+          "char_end": 57486,
+          "passage_sha256": "a3b3cdc0fae72bfaf85e8c1ef49c5df9a2875d795d978e90c05115659390428b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "EST-outcomes-004",
+        "statement": "Mortality from preventable causes and from treatable causes are both above the EU average in Estonia.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 3,
+          "char_start": 5682,
+          "char_end": 5777,
+          "passage_sha256": "da378b7d8cefde3bcd0f4ca0475248092ee581185106c36cb90c1d9808028a4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "EST-outcomes-005",
+        "statement": "Thirty-day mortality after acute myocardial infarction fell from 13.6 per 100 patients aged 45 and over in 2013 to 12.7 per 100 in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 72681,
+          "char_end": 72835,
+          "passage_sha256": "6de4e83743337b7261705258634eabe511690602b42f29e5eb757dc8365ead9d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-outcomes-006",
+        "statement": "Since 2018, participation in cancer screening has risen by more than 10 percentage points, reaching 65% for breast, 64% for cervical and 60% for colorectal cancer in 2023.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 62805,
+          "char_end": 63129,
+          "passage_sha256": "58125175fbc9d4158114a562ce2e8384a4e949091d38e2cfaa66ff3c1cdc2f29"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-outcomes-007",
+        "statement": "In the GBD 2019 study, Estonia's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 76.4 (95% uncertainty interval 73.8-79.1) in 2019, 19.2 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "section": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 38911,
+          "char_end": 39078,
+          "passage_sha256": "a425f08763ea3a317a5128c6393fa69c0b59314017b4eae1da97f5fc7d093e7f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "EST-costs-001",
+        "statement": "In 2023, outpatient care took 43% of current health spending, inpatient care 23%, pharmaceuticals and medical devices 17%, long-term care 11% and preventive care 4%.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 45494,
+          "char_end": 45864,
+          "passage_sha256": "174e981457e69f27d83649d191706c769e02e4d6f27f3762f3ffeda64a503f7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-costs-002",
+        "statement": "Recent spending growth was driven by pay rises for health workers: doctors' wages rose by about 25% and nurses' by 21% in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 44718,
+          "char_end": 44889,
+          "passage_sha256": "803ee9d13db7e9357c978dd9a1a8785ab6e885d745775089a271b61178390144"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "EST-what_works-001",
+        "statement": "Estonia had one of the lowest hospitalisation rates for asthma and COPD in the EU in 2023 (82 per 100,000), and its rates for heart failure and diabetes were below EU averages (208 vs 239 and 93 vs 116 per 100,000).",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 12,
+          "char_start": 71819,
+          "char_end": 72227,
+          "passage_sha256": "2a51df3879b11bc2b46dbb7015c36898d55eb9dd35d7b13145b8cb0b7e56527d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-what_works-002",
+        "statement": "Estonia ranked third in the EU in the 2024 Digital Decade eHealth Indicator Study.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 116462,
+          "char_end": 116648,
+          "passage_sha256": "f43c12b8a5d27468f971eadb20cb813026aafd736e662a131565de94d8c8c249"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-what_works-003",
+        "statement": "As of the 2022 summary, Estonia had electronic health records, digital images, e-prescriptions and e-consultations, and over 96% of people held an ID card enabling digital authentication.",
+        "valence": "strength",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 12,
+          "char_start": 25632,
+          "char_end": 25935,
+          "passage_sha256": "29de4721bf2d6d5f6ab3a232344f01d1a825d26bb97c2cb162d1bedb94abbbf5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "EST-what_works-004",
+        "statement": "Public use of online resources to access health records and book appointments rose markedly between 2020 and 2024; the profile gives 69% for people with higher education and 44% for those with lower education accessing records online, against EU averages of 40% and 17%.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 18,
+          "char_start": 115507,
+          "char_end": 115962,
+          "passage_sha256": "6c9d813832f8b816cadc43d947446561d31cca8cd00af1fb1f60f01ffc2e04d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-what_works-005",
+        "statement": "Cervical screening moved to HPV-based testing in 2021 with home-sampling kits from 2023, online booking for breast screening was fully available by 2024, and three mobile mammography units serve rural areas.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 63284,
+          "char_end": 63770,
+          "passage_sha256": "43268e8e45c4c85cbb363581f01683b61928c710f2c84d5a7b6bed3a4f986b53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-what_works-006",
+        "statement": "The profile describes Estonia's use of task-shifting to nurses since the 2000s as exemplary.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 109838,
+          "char_end": 109969,
+          "passage_sha256": "44010df18812d1331e150ac379fafa2f78e738ceeaf775fccb294652951703f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-what_works-007",
+        "statement": "Reduced copayment claims at the pharmacy counter went from 0.4% of people in 2017 to 15.6% in 2018 and 16.9% in 2020.",
+        "valence": "strength",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 21,
+          "char_start": 135117,
+          "char_end": 135265,
+          "passage_sha256": "1b65980412fa12f3f5b07054a8e7c061d8463f9382b39ccfe7f159ce559b8387"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2020
+      }
+    ],
+    "problems": [
+      {
+        "id": "EST-problems-001",
+        "statement": "In 2019, 5% of Estonians were uninsured. Those with part-time, unstable or informal jobs were at higher risk, since cover mostly depends on employment status and is hard for them to keep up.",
+        "valence": "weakness",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 6,
+          "char_start": 10541,
+          "char_end": 10879,
+          "passage_sha256": "ac31d187d75728b7a74ce97c9b8d0d7d388ebfbf5ca884a55489ed8d14b05258"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "EST-problems-002",
+        "statement": "A 2023 WHO/Europe report found that linking entitlement to social health insurance contributions left 10% of working-age people without coverage, and recommended basing entitlement on residence.",
+        "valence": "weakness",
+        "source_id": "who-news-est-2023",
+        "locator": {
+          "section": "News release, 12 December 2023",
+          "char_start": 1572,
+          "char_end": 2937,
+          "passage_sha256": "928699e3a5f9acd8e02f2f3080f2d089b16f6bb4682d410545efd67ad69c01c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "EST-problems-003",
+        "statement": "The profile says the recent copayment increases for specialist visits and inpatient days far exceed inflation and could affect catastrophic health spending, which had fallen only slightly between 2015 and 2020.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 15,
+          "char_start": 93580,
+          "char_end": 94010,
+          "passage_sha256": "2105a9916658eba38d1622577c50a4f294abed0e44590cc9e4f02902a8e6bb9f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "EST-problems-004",
+        "statement": "Estonia has shortages of health workers in family medicine, psychiatry and nursing, especially in rural areas, and 43% of doctors were aged 55 or over in 2022.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 17,
+          "char_start": 107953,
+          "char_end": 108213,
+          "passage_sha256": "b6af3b98b58a5e821de504dd8f9bfc7e87ed6adba947ad6ee1f616e65894cba9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "EST-problems-005",
+        "statement": "Colorectal cancer screening targets only ages 60-68, against 50-74 as the most common range in Europe, and limited diagnostic testing capacity holds back progress.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 63771,
+          "char_end": 64017,
+          "passage_sha256": "74b5b47ee5d4eaa365990a1740bd25a1eb7da9c9a22c0ab1b88f75ca71434ea9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-problems-006",
+        "statement": "Childhood vaccination fell after the pandemic: measles first-dose coverage among children under 1 was 83.3% in 2024, and overall uptake is below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 11,
+          "char_start": 64117,
+          "char_end": 64497,
+          "passage_sha256": "097a8c6a06fffb36c0370bc45e80db7f9846b2c2b5a99346565b6063eab0524e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-problems-007",
+        "statement": "The profile says the Hospital Network Development Plan needs an estimated 1.8 billion euros by 2040 and was unfunded at the time of writing.",
+        "valence": "weakness",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 104119,
+          "char_end": 104258,
+          "passage_sha256": "c51b4918a535629db92f54202607196d3ee061dd8b5397095cb166dd3421f94d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      }
+    ],
+    "reforms": [
+      {
+        "id": "EST-reforms-001",
+        "statement": "After cutting adult dental coverage following the financial crisis, the government introduced a new dental benefits package in 2017 and extended it in 2019.",
+        "valence": "neutral",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 11,
+          "char_start": 22973,
+          "char_end": 23189,
+          "passage_sha256": "93d5709e559551299f17a7863cf990c2cc3e465fd47fcfeb33b48fd7f1281aaf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "EST-reforms-002",
+        "statement": "In 2022 the larger dental benefit was extended to people receiving the subsistence allowance or registered as unemployed, the first benefit tied, even indirectly, to household income.",
+        "valence": "neutral",
+        "source_id": "hit-est-2022",
+        "locator": {
+          "page": 12,
+          "char_start": 24647,
+          "char_end": 24953,
+          "passage_sha256": "83ada48af260608308021b7e530e5b1b523605bdadd95f51db559d30231a7748"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "EST-reforms-003",
+        "statement": "The 2018 pharmaceutical reforms lowered the annual ceiling on out-of-pocket spending on prescription medicines and made the benefits apply automatically at the point of purchase; before that, many people did not know about them or faced administrative barriers.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 20,
+          "char_start": 128494,
+          "char_end": 128816,
+          "passage_sha256": "a4a7b4215d9e172f48055f3ee439932efda3decda05d78b7b347c66fb39d1377"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "EST-reforms-004",
+        "statement": "The Hospital Network Development Plan, adopted in December 2024, aims to consolidate hospitals from 20 to 17 facilities by 2040, centralise high-tech services and decentralise mental healthcare and palliative care.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 16,
+          "char_start": 103813,
+          "char_end": 104118,
+          "passage_sha256": "a59601c70c69c8a6309d6cfa4a410d4a307c106f5c7d4d7c2e798af747ba894a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "EST-reforms-005",
+        "statement": "Estonia implemented a nationwide ischaemic stroke care pathway in January 2025, and stroke care has been centralised in six designated hospitals.",
+        "valence": "neutral",
+        "source_id": "chp-est-2025",
+        "locator": {
+          "page": 13,
+          "char_start": 77636,
+          "char_end": 77892,
+          "passage_sha256": "a7c149951a51b6ecbb8c2a27dd5ec992c7c8941fb40e0db471eca80dc564d776"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "claude-opus (Opus subagent) support review"
+        },
+        "data_year": 2025
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/EST.json",
+  "sources": [
+    {
+      "id": "chp-est-2025",
+      "title": "State of Health in the EU: Estonia, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-estonia-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hit-est-2022",
+      "title": "Estonia: Health system summary, 2022",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2022,
+      "url": "https://p4h.world/app/uploads/2023/09/Estonia-Health-System-Review-2022.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "who-news-est-2023",
+      "title": "New WHO report on Estonia identifies policies to make health care more affordable for people with low incomes (news release on the report 'Can people afford to pay for health care? New evidence on financial protection in Estonia 2023')",
+      "publisher": "WHO Regional Office for Europe",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://www.who.int/europe/news/item/12-12-2023-new-who-report-on-estonia-identifies-policies-to-make-health-care-more-affordable-for-people-with-low-incomes",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-20",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation). The paper reports scores but states no rank for Estonia."
+    },
+    {
+      "id": "tk-system-est",
+      "title": "Estonian health care system (web page, last updated 20 September 2024)",
+      "publisher": "Estonian Health Insurance Fund (Tervisekassa)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://tervisekassa.ee/en/estonian-health-care-system",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "tk-employee",
+      "title": "Health insurance for employee (web page, last updated 20 October 2026)",
+      "publisher": "Estonian Health Insurance Fund (Tervisekassa)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://tervisekassa.ee/en/employers/health-insurance-employee",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "emta-selfemployed",
+      "title": "For self-employed persons: social tax",
+      "publisher": "Estonian Tax and Customs Board",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://emta.ee/en/business-client/registration-business/businesses/self-employed-persons/social-tax",
+      "accessed": "2026-11-20"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created: 7 sources, 54 claims; all passed the Opus support review (one re-review round)."
+    }
+  ]
+}

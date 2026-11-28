@@ -1,0 +1,2413 @@
+{
+  "iso3": "CAN",
+  "name": "Canada",
+  "wave": 1,
+  "system_as_of": "2026-11-10",
+  "status": "verified",
+  "model": {
+    "type": "single_payer_insurance",
+    "label": "Tax-funded public insurance (Medicare) run by 13 provincial and territorial plans under federal standards"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CAN-overview-001",
+      "CAN-overview-003"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CAN-overview-001",
+        "statement": "Canada's public health insurance, known as Medicare, covers all citizens and permanent residents through 13 provincial and territorial insurance plans, each of which must meet the federal standards in the Canada Health Act.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Overview",
+          "char_start": 763,
+          "char_end": 1046,
+          "passage_sha256": "f4816f2cd5a1710b2720c78e01ade26f4252b963fd6d5cf81c4db9e0b19cba78"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-overview-002",
+        "statement": "The Canada Health Act does not define which services are medically necessary; each provincial or territorial plan decides this in consultation with physician bodies, and services judged medically necessary must then be fully covered with no charge to the patient.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5598,
+          "char_end": 5945,
+          "passage_sha256": "de0b6838add969072236589ee8f86d0b064b9b5d60b6ff8c0057959eb2335a59"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-overview-003",
+        "statement": "To receive their full cash entitlement under the Canada Health Transfer, provinces and territories must meet nine requirements in the Canada Health Act: five program criteria, two conditions, and two provisions on extra-billing and user charges.",
+        "valence": "neutral",
+        "source_id": "hc-cha-2024",
+        "locator": {
+          "section": "Requirements of the Canada Health Act",
+          "char_start": 21117,
+          "char_end": 21560,
+          "passage_sha256": "9f4abc9ef5689613ec9be58845625e18e4371250dd7f4ca371d34332b715aa00"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-overview-004",
+        "statement": "Under the Act's public administration criterion, each provincial and territorial health insurance plan must be run on a non-profit basis by a public authority that answers to its government and whose accounts are publicly audited.",
+        "valence": "neutral",
+        "source_id": "hc-cha-2024",
+        "locator": {
+          "section": "The criteria: 1.0 Public administration (Section 8)",
+          "char_start": 21612,
+          "char_end": 21983,
+          "passage_sha256": "487deda61d8f9fa698e718ebf81756f9ef204e4474e3801d7322a7ef2b3d7250"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-overview-005",
+        "statement": "The federal government sets national standards through the Canada Health Act, funds provincial and territorial care through the Canada Health Transfer, directly serves groups such as First Nations people on reserves, Inuit and serving armed forces members, and regulates drugs and medical devices.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "The Role of Government",
+          "char_start": 9463,
+          "char_end": 10149,
+          "passage_sha256": "3cb894a40557136db2bc2b2e8fa89883082b76af75d5d4b08fb78067ab6fb601"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-overview-006",
+        "statement": "Saskatchewan introduced a universal hospital care plan for all its residents in 1947, and British Columbia and Alberta had created similar plans by the early 1950s.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Background and History",
+          "char_start": 3468,
+          "char_end": 3677,
+          "passage_sha256": "5e7ebaf729c74dbc57e609e30bac15b388304006bdd3cf75944c5586d1c1e014"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 1947,
+        "historical": true
+      }
+    ],
+    "financing": [
+      {
+        "id": "CAN-financing-001",
+        "statement": "CIHI estimates that the public sector (federal, provincial, territorial and municipal governments, workers' compensation boards and other social security schemes) will fund 71% of total health spending in 2026; private funding comes mostly from households and private insurers.",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Total health expenditures in Canada are projected to reach $433 billion in 2026",
+          "char_start": 4280,
+          "char_end": 4744,
+          "passage_sha256": "13eb4db8bfccdb326e2df00cb4a6e846c06a8d12b537303ed8fb74b7560a591f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-002",
+        "statement": "Health Canada describes Medicare as a public insurance system financed through progressive taxation, which pools risk and spreads costs across the population.",
+        "valence": "neutral",
+        "source_id": "hc-cha-2024",
+        "locator": {
+          "section": "The evolution of Medicare in Canada",
+          "char_start": 13177,
+          "char_end": 13344,
+          "passage_sha256": "3c6b88096a7c4ecbc7741a657c24d836487ad8e8eda9032257aa0647040b970f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-financing-003",
+        "statement": "A condition of the Canada Health Transfer is that patients are not charged for insured services; where patients are charged as a condition of receiving care, the province's transfer is reduced.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Background and History",
+          "char_start": 4667,
+          "char_end": 4879,
+          "passage_sha256": "994b99738e6f3551fe35aa7256f5742507b58bd27bf2ce2eb7ae982ab87c6bdb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-financing-004",
+        "statement": "Most hospitals are paid through global budgets from health ministries or provincial or regional health authorities; for hospitals contracting with health authorities, such as those in Ontario, funding usually follows the previous year's allocation adjusted for inflation and budget growth. Some jurisdictions are exploring activity-based funding.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 16717,
+          "char_end": 17223,
+          "passage_sha256": "c7bda010c5dcf7aa0fc7df680a109ef024bc386e82eb2ee457572e9bad3c655a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-financing-005",
+        "statement": "Physicians are mostly paid fee-for-service, although payment of family doctors is gradually moving to other models such as pay-for-performance, group-based profit sharing and capitation.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Overview of the Delivery System",
+          "char_start": 13011,
+          "char_end": 13231,
+          "passage_sha256": "bb339da2c6caeacdf9396fbd64d3113efc5fbc7b454c1383cad393f014e5e93a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-financing-006",
+        "statement": "The Commonwealth Fund profile reports that in 2022 government spending made up 71% of Canada's total health expenditure and prepaid private health spending about 14%.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Health Spending",
+          "char_start": 20675,
+          "char_end": 20846,
+          "passage_sha256": "155ec07183e6acba6c2d5866748079197b98ae46a7db8e8dd8de468098d43ae1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CAN-financing-007",
+        "statement": "OECD Health at a Glance 2025 lists Canada, with Slovenia, Ireland and Israel, among the countries where voluntary health insurance financed more than a tenth of total health spending, whereas across the OECD it covered only 5% of healthcare costs.",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 7, Financing of health care",
+          "page": 162,
+          "char_start": 501290,
+          "char_end": 501942,
+          "passage_sha256": "584b361b475bddf56faade9a9e073ccea484dc7d47f833c41c3be58249415ce7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-financing-008",
+        "statement": "For 2026-27 the federal government will provide CAD 108.4 billion in major transfers to provinces and territories; within that, the Canada Health Transfer rises 5% to CAD 57.4 billion, including a CAD 1.4 billion top-up under the 5% minimum annual growth guarantee legislated in 2023 for five years.",
+        "valence": "neutral",
+        "source_id": "fin-transfers-2025",
+        "locator": {
+          "section": "News release",
+          "char_start": 2796,
+          "char_end": 3496,
+          "passage_sha256": "e2c1cd46f4f7674a7785024c7803c6530515323eee83137e793da1862cb1eeb3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-009",
+        "statement": "Ontario's 2026 Budget reports 2024-25 taxation revenue of CAD 151.5 billion, including personal income tax (CAD 55.7 billion), sales tax (CAD 39.4 billion), corporate tax (CAD 27.8 billion) and the Ontario Health Premium (CAD 5.2 billion), plus CAD 36.6 billion in Government of Canada transfers.",
+        "valence": "neutral",
+        "source_id": "on-budget-2026",
+        "locator": {
+          "section": "Table 3.6 Summary of Medium-Term Revenue Outlook",
+          "table": "Table 3.6, Actual 2024-25 column",
+          "char_start": 13479,
+          "char_end": 13996,
+          "passage_sha256": "bd7f19afb709686885384ed54726c22c36bd67eafa02d15ab2cc1c94ae2e804d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CAN-financing-010",
+        "statement": "Ontario's health sector expense was CAD 91.3 billion in 2024-25 and is projected to reach CAD 106.7 billion in 2028-29.",
+        "valence": "neutral",
+        "source_id": "on-budget-2026",
+        "locator": {
+          "section": "Medium-Term Expense Outlook",
+          "char_start": 20483,
+          "char_end": 20589,
+          "passage_sha256": "9c3fed3818126dbae0b65afd727ca3969e3ea055b88b2fadc48ddfa9e8d1e907"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CAN-financing-011",
+        "statement": "Ontario residents pay a health premium through the personal income tax system, from nothing at taxable income of CAD 20,000 or less up to CAD 900 above CAD 200,600; the money helps fund Ontario's health services, but the premium is not linked to OHIP and does not affect eligibility for care.",
+        "valence": "neutral",
+        "source_id": "on-ohp",
+        "locator": {
+          "section": "Overview",
+          "char_start": 419,
+          "char_end": 826,
+          "passage_sha256": "cf379f7a3e29fd6679dc60ef8bef8e59b45711c05a48e0f0c12431f9e1566614"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-012",
+        "statement": "Ontario's Employer Health Tax is a payroll tax that employers pay on what they pay current and former employees (salaries, wages, bonuses, taxable benefits and similar), intended to help the province raise revenue for health care.",
+        "valence": "neutral",
+        "source_id": "on-eht",
+        "locator": {
+          "section": "Overview",
+          "char_start": 1200,
+          "char_end": 1520,
+          "passage_sha256": "7bc6fcbd65789fe688fdf332a0f25e69f6027d90cbf8a11b610a500f0adccce2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-013",
+        "statement": "British Columbia's employer health tax (from the 2024 return) exempts employers with B.C. remuneration of CAD 1 million or less, charges 5.85% on the amount above CAD 1 million for remuneration up to CAD 1.5 million, and 1.95% of total remuneration above CAD 1.5 million.",
+        "valence": "neutral",
+        "source_id": "bc-eht",
+        "locator": {
+          "section": "Employers",
+          "char_start": 1004,
+          "char_end": 1990,
+          "passage_sha256": "d58a8bc9333ca8cf2d0e26385b86e54230809223fc34fdad2d33e8b53045e55c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-014",
+        "statement": "Manitoba's Health and Post-Secondary Education Tax Levy is paid by employers on remuneration to employees: employers with yearly remuneration of CAD 2.5 million or less are exempt, 4.3% applies to the amount over CAD 2.5 million for payrolls up to CAD 5 million, and 2.15% of the total payroll above CAD 5 million.",
+        "valence": "neutral",
+        "source_id": "mb-hel",
+        "locator": {
+          "section": "The Health and Post Secondary Education Tax Levy",
+          "char_start": 321,
+          "char_end": 1023,
+          "passage_sha256": "79c4b3db5ca71a91f1411262d14485ab0cd3fe427b69eca9c533a2662c6b6e73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-015",
+        "statement": "Under federal income tax, employer-paid private health and dental benefits are a deductible business expense but not a taxable benefit for the employee, an exemption dating from 1948; self-employed people may, subject to restrictions, deduct private health services plan payments.",
+        "valence": "neutral",
+        "source_id": "fin-te-2026-desc",
+        "locator": {
+          "section": "Non-taxation of benefits from private health and dental plans",
+          "char_start": 58448,
+          "char_end": 59254,
+          "passage_sha256": "3cad8c50b909c89094d1fe7b832fe29c3d3599644e314528d106c5ca74eca561"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-016",
+        "statement": "Finance Canada estimates that about 15 million people received employer-paid health or dental benefits in 2023, and that leaving these benefits untaxed cost CAD 4.56 billion in federal personal income tax that year, projected to rise to CAD 5.14 billion in 2025 and CAD 5.74 billion in 2027.",
+        "valence": "neutral",
+        "source_id": "fin-te-2026-desc",
+        "locator": {
+          "section": "Non-taxation of benefits from private health and dental plans: number of beneficiaries and cost",
+          "table": "Cost Information, 2023, 2025 (P) and 2027 (P) columns",
+          "char_start": 61205,
+          "char_end": 61475,
+          "passage_sha256": "c9beb117dd00739ab92c08aeca142be067419ce471c53e1a796977cebe11322f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-financing-017",
+        "statement": "The federal Medical Expense Tax Credit gives relief at the lowest income tax rate on qualifying medical expenses above the lesser of 3% of net income or CAD 2,834 (2025 threshold).",
+        "valence": "neutral",
+        "source_id": "fin-te-2026-desc",
+        "locator": {
+          "section": "Medical Expense Tax Credit",
+          "char_start": 33385,
+          "char_end": 33581,
+          "passage_sha256": "1359a4f2adf22606b4ff62880efe78c6121f96fbd3e9437a9782058dce4c6180"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CAN-financing-018",
+        "statement": "About 5.8 million people claimed the Medical Expense Tax Credit in 2023, at an estimated federal cost of CAD 2.2 billion that year.",
+        "valence": "neutral",
+        "source_id": "fin-te-2026-desc",
+        "locator": {
+          "section": "Medical Expense Tax Credit: number of beneficiaries and cost",
+          "table": "Cost Information, 2023 column",
+          "char_start": 37429,
+          "char_end": 37649,
+          "passage_sha256": "bbbd29f0373ddc7bc339f97b6d13f2a876060c6f6f47e50cf7fc67ee3ef8d7eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-financing-019",
+        "statement": "The insurers' trade association reports that health benefits cover 27 million Canadians and that life and health insurers covered CAD 53.3 billion in health claims in 2024, up from CAD 48.2 billion the year before.",
+        "valence": "neutral",
+        "source_id": "clhia-2025",
+        "locator": {
+          "section": "News release",
+          "char_start": 1426,
+          "char_end": 1578,
+          "passage_sha256": "d2d5dd0f0d702e9d5eea3734be139eb007fa6ecf289dfb34fdcdc9346b8a23b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-financing-020",
+        "statement": "Ontario's Employer Health Tax rate depends on total Ontario remuneration: 0.98% up to CAD 200,000, rising in steps to 1.95% for payrolls over CAD 400,000.",
+        "valence": "neutral",
+        "source_id": "on-eht",
+        "locator": {
+          "section": "Tax rates and how to calculate EHT",
+          "char_start": 5025,
+          "char_end": 5347,
+          "passage_sha256": "8c653026974ef5ff13ae79f15696273945254cd6969faad5cfc810e3bee7b463"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-financing-021",
+        "statement": "Eligible Ontario employers can claim an Employer Health Tax exemption, currently CAD 1 million of payroll, if their Ontario payroll (with associated employers) is under CAD 5 million or they are a registered charity.",
+        "valence": "neutral",
+        "source_id": "on-eht",
+        "locator": {
+          "section": "EHT exemption",
+          "char_start": 2273,
+          "char_end": 2943,
+          "passage_sha256": "7b9c49b39a2396ff6dbac0a148840ccd124fca8507f53dda56921496e32de7bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; backfill round 3, 6 statements corrected)"
+        },
+        "data_year": 2026
+      }
+    ],
+    "covered": [
+      {
+        "id": "CAN-covered-001",
+        "statement": "Every province and territory covers preventive, inpatient, outpatient, maternity and primary care; coverage of eye care, pharmaceuticals, palliative and rehabilitative care, home visits, assistive devices and physician-provided mental health care depends on the province or territory.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Services Covered by Public Health Insurance",
+          "char_start": 6758,
+          "char_end": 7151,
+          "passage_sha256": "afffbb593f67500b686dba102485c157aee1e12079c3a3e29f0390a828420c90"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-002",
+        "statement": "Long-term residential care sits outside the public insurance required by the Canada Health Act; it is administered mainly by provinces, territories and municipalities, with federal support through health and social transfers.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 19242,
+          "char_end": 19534,
+          "passage_sha256": "405072ac491345c64b7c94510f2bb0d1e37f437768e0148d8ec2f0dbeec1aa84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-003",
+        "statement": "The federal government directly provides prescription drug coverage to about 1 million people in eligible groups, including First Nations and Inuit people, eligible armed forces members, qualified veterans, RCMP members and federal prisoners.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 7602,
+          "char_end": 7964,
+          "passage_sha256": "c0e40cbc4ecfc6801d0d53c5a1598ae30c1a36de9edd0b4d318ee47e2a8b4019"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-004",
+        "statement": "The Non-Insured Health Benefits Program covers eligible First Nations and Inuit people for vision and dental care, counselling, medical supplies, prescriptions and medically necessary transport.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 28065,
+          "char_end": 28368,
+          "passage_sha256": "6174a5a2861e58cf5bb5b90574fd9ab3797d954b48b4069eb5eaf33d574d4c5c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-005",
+        "statement": "Public insurance covers psychiatric services deemed medically necessary, but not all mental health care; for services outside public plans and other programs, people rely on private (often employer) insurance or pay themselves.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 18249,
+          "char_end": 19207,
+          "passage_sha256": "3b52b43a3af59096cdfe9948f466b413d662c03d110532d1ba1447c7fd852672"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-006",
+        "statement": "The Canadian Dental Care Plan covers dental exams (complete, routine, specific and emergency), X-rays, cleaning (scaling), fluoride applications and sealants.",
+        "valence": "neutral",
+        "source_id": "cdcp-coverage",
+        "locator": {
+          "section": "Services covered",
+          "char_start": 724,
+          "char_end": 865,
+          "passage_sha256": "4955a01e9d586bad4065e1dad9d25ac84ad385af5e835ec654f1db4982c4ad48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-007",
+        "statement": "Orthodontic treatment is currently not offered under the Canadian Dental Care Plan.",
+        "valence": "neutral",
+        "source_id": "cdcp-coverage",
+        "locator": {
+          "section": "Services covered",
+          "char_start": 2951,
+          "char_end": 3021,
+          "passage_sha256": "1732c6f47dae24486be68427623cbb990438b3fea0823ab3bc68902e303aaf73"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-covered-008",
+        "statement": "Under the Canadian Dental Care Plan some services, including those beyond set frequency limits, need preauthorization: the plan decides whether to cover a recommended service before it is provided.",
+        "valence": "neutral",
+        "source_id": "cdcp-coverage",
+        "locator": {
+          "section": "Services covered",
+          "char_start": 3137,
+          "char_end": 3432,
+          "passage_sha256": "cf39c60e0718f5aa5b175b05c2d52340acbb950357be95de15fb19d76ca5f9f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CAN-cost_sharing-001",
+        "statement": "The Canada Health Act and matching provincial and territorial laws have mostly removed charges to patients for doctor and hospital care, but direct charges remain for many other services.",
+        "valence": "strength",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 22714,
+          "char_end": 22961,
+          "passage_sha256": "c1d8884d000909a64bdcf617df641be1252bc4518bd4f208f73cbb1533cbf3e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-cost_sharing-002",
+        "statement": "Out-of-pocket payments made up 15.2% of total health spending in 2023, below the 19.3% average for high-income countries.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 22962,
+          "char_end": 23113,
+          "passage_sha256": "fbb10ea13d263a614573c39d4eb3d7a423b7e6502f36c949da8ea802132dd223"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-cost_sharing-003",
+        "statement": "Most out-of-pocket spending goes on dental care, prescription drugs and long-term care.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 23117,
+          "char_end": 23230,
+          "passage_sha256": "fc0f286b8a74ad4337d063dbfbef33d424861c064d1760fbdc40eb7402484bdd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-cost_sharing-004",
+        "statement": "Provincial prescription drug plans charge deductibles and copayments, and copayments for non-insured services vary; several provinces, including British Columbia, Ontario and Quebec, use income-tested deductibles.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 23480,
+          "char_end": 23730,
+          "passage_sha256": "b02e7ca2ec005260c75332622817dd23cdcd1d4427bbbdb4ef97b3d11b3f43ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-cost_sharing-005",
+        "statement": "Canadian Dental Care Plan members with adjusted family net income under CAD 70,000 pay no co-payment on the plan's set fees; those with CAD 70,000-79,999 pay 40% and those with CAD 80,000-89,999 pay 60%.",
+        "valence": "neutral",
+        "source_id": "cdcp-coverage",
+        "locator": {
+          "section": "Co-payments based on adjusted family net income",
+          "char_start": 4845,
+          "char_end": 5481,
+          "passage_sha256": "4905c5807e052bdf751fdf8502b1df8cce31b3c87ee64c278f9ec10ddf8a0e49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-cost_sharing-006",
+        "statement": "Canadian Dental Care Plan members may also pay providers directly when the provider's charge exceeds what the plan reimburses or when they agree to services the plan does not cover.",
+        "valence": "neutral",
+        "source_id": "cdcp-coverage",
+        "locator": {
+          "section": "How much will be covered",
+          "char_start": 3852,
+          "char_end": 4183,
+          "passage_sha256": "8cba18f22b9d69da44bffa7fdb35694c02cc90a7769db65d5402aa2a91ce906a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-cost_sharing-007",
+        "statement": "In March 2024 the federal government deducted CAD 79.4 million from Canada Health Transfer payments for patient charges, mostly (CAD 72.4 million, seven provinces) for medically necessary diagnostic services, and reimbursed more than CAD 90 million to provinces that acted to end such charges.",
+        "valence": "weakness",
+        "source_id": "hc-cha-2024",
+        "locator": {
+          "section": "Canada Health Act 2023-2024 year in review",
+          "char_start": 3297,
+          "char_end": 3864,
+          "passage_sha256": "bffda3c660e579439ef7637b3e60acb892ceac10e7b8f0c9d0b0bfa018c20e37"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-cost_sharing-008",
+        "statement": "The share of pharmaceutical spending covered was below two-fifths in Canada, as in Poland and Chile, compared with 79-83% in France, Germany and Ireland; in 2023 voluntary health insurance financed over one-third of Canada's pharmaceutical spending.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5: Extent of healthcare coverage",
+          "page": 108,
+          "char_start": 324202,
+          "char_end": 324596,
+          "passage_sha256": "4d3824e8f25ab47931c499b4046da8792fb37c5d95eabd25cc40d36692c7bdef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "CAN-financial_hardship-001",
+        "statement": "One study estimated that the share experiencing catastrophic health expenditure in Canada fell from 5% in 2010 to 3.4% in 2019, and that it was more common among lower-income groups, people without private insurance and Quebec residents.",
+        "valence": "neutral",
+        "source_id": "oral-cat-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2739,
+          "char_end": 2904,
+          "passage_sha256": "39218b649d55c0df9f5106110c4ef8ef6270487c1b51cf499e55b8493a297497"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2010-2019"
+      },
+      {
+        "id": "CAN-financial_hardship-002",
+        "statement": "In the same study, oral health care was the second-largest contributor to catastrophic health expenditure after medicines, especially among the lowest-income groups.",
+        "valence": "weakness",
+        "source_id": "oral-cat-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2905,
+          "char_end": 3024,
+          "passage_sha256": "8ab1572aa02404c897287a1f11b5934f241de0d5a4a39c65d37d24a080873f28"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2010-2019"
+      },
+      {
+        "id": "CAN-financial_hardship-003",
+        "statement": "An estimated 33-40% of cancer patients in Canada report financial distress after diagnosis, such as worry about mortgage payments, using up savings or going back to work before they are physically ready.",
+        "valence": "weakness",
+        "source_id": "fintox-2024",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 2464,
+          "char_end": 2684,
+          "passage_sha256": "d7a1cf8091c4c29667897607e91eac9b52a45d696996395fc9708a1b992effae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-financial_hardship-004",
+        "statement": "Take-home cancer drugs that provincial plans do not fund cost about CAD 6,000 a month on average, according to the same commentary.",
+        "valence": "weakness",
+        "source_id": "fintox-2024",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 4449,
+          "char_end": 4551,
+          "passage_sha256": "842c500e746900f8921f9f1f55ee3d322c774c1012919c9d182f24ee5077a490"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-financial_hardship-005",
+        "statement": "The commentary reports that, in the first year after a cancer diagnosis, earnings fall on average by 43% for self-employed patients and 24% for employed patients.",
+        "valence": "weakness",
+        "source_id": "fintox-2024",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 5783,
+          "char_end": 5940,
+          "passage_sha256": "b986c37585ed5b26029e1a12358cd3fe135d6172e1b8bb70e0564797ac8cea12"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "CAN-additional_care-001",
+        "statement": "Nearly 70% of Canadians hold private health insurance in addition to Medicare.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 8621,
+          "char_end": 8724,
+          "passage_sha256": "0a4795e53436bee56ea75870e3ef8af05d19b1b338546b8c53b8b1bf334cc384"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-additional_care-002",
+        "statement": "In 2022, 90% of private health insurance plans were group policies bought by employers and 10% were individual policies.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 8728,
+          "char_end": 8892,
+          "passage_sha256": "8ef5c2e7693bab295e2b2514d8b59a518b5485b2c764aad5535d5b0da82c5b0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CAN-additional_care-003",
+        "statement": "Private insurance fills gaps in public coverage such as prescription drugs, eye care, dental care, mental health care, physiotherapy and chiropractic services.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 8896,
+          "char_end": 9092,
+          "passage_sha256": "da7040c3a5d0b46f25dc200280a1f4704d59af2b4348086df4109d5feabc4725"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-additional_care-004",
+        "statement": "Residential long-term care can cost up to CAD 8,000 a month in some provinces and government subsidies are limited, so some people buy long-term care insurance.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 19830,
+          "char_end": 20021,
+          "passage_sha256": "aab99828ae38bc1a2926e5813dc80dd094b53c1ed5565a0ff92aead897f32dd2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-additional_care-005",
+        "statement": "Private for-profit surgical centres in Canada have traditionally billed public insurance for the surgeon's fee while charging patients for extra services priced to cover operating-room overhead and generate profit.",
+        "valence": "neutral",
+        "source_id": "cataract-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5646,
+          "char_end": 5901,
+          "passage_sha256": "ee71f2ad1fa5d32779eba4e2b96c5d7d41af7c43b1bbf6ea662c1b465b4b9f6f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-additional_care-006",
+        "statement": "During the study's funding-change period, cataract surgery rates in private for-profit centres rose 22.0% for patients in the highest socioeconomic quintile and fell 8.5% for those in the lowest, while in public hospitals rates fell similarly across all quintiles.",
+        "valence": "weakness",
+        "source_id": "cataract-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3657,
+          "char_end": 4056,
+          "passage_sha256": "babc9dc4735b374ad74994a8f35553fe104b7bb1e700f0f34218db960ebb0317"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2017-2022"
+      }
+    ],
+    "access": [
+      {
+        "id": "CAN-access-001",
+        "statement": "In 2023, 17% of Canadian adults reported having no regular health care provider, and 74% reported they could not get a same-day or next-day appointment with a doctor or nurse.",
+        "valence": "weakness",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Hospital, physician and drug spending continue to grow",
+          "char_start": 9369,
+          "char_end": 9601,
+          "passage_sha256": "d45e13d5544091211dec0942a84642d37c5e55e0e73325abf7b132249904b848"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-access-002",
+        "statement": "Family physicians' well-being has got better since 2022, but many still describe heavy job stress, emotional distress and burnout, and 22% intend to give up regular patient care within three years.",
+        "valence": "weakness",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Hospital, physician and drug spending continue to grow",
+          "char_start": 9807,
+          "char_end": 10029,
+          "passage_sha256": "85cfb01e5e316d36f8ab50a026f4fab636d3be91a54c3902b62b05617b51b0af"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-access-003",
+        "statement": "In 2024, 68% of hip and 61% of knee replacement patients were treated within the recommended 6 months and 69% of cataract patients within 112 days; this was better than in previous years, but hip and knee shares remained below 2019 levels.",
+        "valence": "neutral",
+        "source_id": "cihi-wait-2025",
+        "locator": {
+          "section": "Key findings",
+          "char_start": 1566,
+          "char_end": 1881,
+          "passage_sha256": "b78dc5f9c2df4d94aa285b15ae80b27164c681c3f6beccec4ebb900a315464e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-access-004",
+        "statement": "Median waits for diagnostic imaging rose between 2019 and 2024, by 15 days for MRI scans and 3 days for CT scans.",
+        "valence": "weakness",
+        "source_id": "cihi-wait-2025",
+        "locator": {
+          "section": "Key findings",
+          "char_start": 2256,
+          "char_end": 2418,
+          "passage_sha256": "1da4fb5cbf03b45924553e298f213fbaa961d0276a13661c581bbb00b44b0e71"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-access-005",
+        "statement": "9.1% of people in Canada reported unmet medical care needs due to cost, distance or waiting times, one of five OECD countries above 8%, against an average of 3.4% across 28 OECD countries with comparable data in 2024.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5: Unmet needs for health care",
+          "page": 106,
+          "char_start": 313887,
+          "char_end": 314225,
+          "passage_sha256": "37f31c14e1ccf25e2f478341bd178b00ce3bca36b49305843da3b160cc57eefd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-access-006",
+        "statement": "In a ten-country survey reported by the OECD, waits to see a GP or nurse were longest in Canada, New Zealand and France, and in Canada and the United Kingdom more than 10% of respondents reported waiting over a year for a specialist appointment.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5: Waiting times",
+          "page": 112,
+          "char_start": 338645,
+          "char_end": 339153,
+          "passage_sha256": "6ba431c9a621422bab9a2d37880721603ae357ae4043cdf6ab09dea7a1177641"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-access-007",
+        "statement": "Canada had 282 doctors per 100,000 people in 2023, below the average of 360 across other high-income countries.",
+        "valence": "weakness",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Primary Care",
+          "char_start": 13994,
+          "char_end": 14125,
+          "passage_sha256": "59ad1dc54947c6f49207089756dc133c2987c04cf562992ff1cc19c9114d1cc1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-access-008",
+        "statement": "In 2022 only 7% of physicians practised in rural communities, with 93% in urban areas.",
+        "valence": "weakness",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 15978,
+          "char_end": 16102,
+          "passage_sha256": "c589790747aa76fcfa751e4096bdc288a1882eb1d2386b7850347ffb3910e9d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CAN-access-009",
+        "statement": "In 2023 Canada was one of only two of 29 OECD countries with comparable data (with Ireland) where hospital bed occupancy exceeded 85%, against an average of 72%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5: Hospital beds and occupancy",
+          "page": 118,
+          "char_start": 359265,
+          "char_end": 359435,
+          "passage_sha256": "b2409a83c94119ce75f23f89275469540b570386aae640c91616342e450eaa01"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-access-010",
+        "statement": "Among adults in the 2015, 2016 and 2019 Canadian Community Health Survey cycles, about 57.4% waited less than a week for primary care and 11.0% waited a month or longer.",
+        "valence": "neutral",
+        "source_id": "pc-wait-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1263,
+          "char_end": 1976,
+          "passage_sha256": "b0f84f8d54834be03d5659c44f692bf8ade0c71df65e3f50723d35ff9753beb5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2019"
+      },
+      {
+        "id": "CAN-access-011",
+        "statement": "Participants with only a high school diploma, those identifying as Asian or Black, those without a regular primary care provider and those with multimorbidity had higher odds of waiting at least a month for a consultation (adjusted odds ratio 1.47 for no regular provider).",
+        "valence": "weakness",
+        "source_id": "pc-wait-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1977,
+          "char_end": 2686,
+          "passage_sha256": "79c3c12aac7e3c0f261844881341858fcbeffdb790ad7af39a128e5f968f958f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2019"
+      },
+      {
+        "id": "CAN-access-012",
+        "statement": "Pooled Canadian Community Health Survey data from 2015 to 2020 showed that 4.9% of respondents aged 12 and over had not taken medicines as prescribed because of cost in the preceding 12 months.",
+        "valence": "weakness",
+        "source_id": "crn-2024",
+        "locator": {
+          "section": "Abstract: Methods and Results",
+          "char_start": 2169,
+          "char_end": 2717,
+          "passage_sha256": "aa184f10986e60eb8261e8e3f0f733e5f8fcaee474c14c925d6cdb038fd964b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2020"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CAN-outcomes-001",
+        "statement": "In the GBD 2019 study, Canada's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 90.7 (95% uncertainty interval 88.6-92.2) in 2019, 11.5 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 overall (0-74 years)",
+          "char_start": 41612,
+          "char_end": 41717,
+          "passage_sha256": "d7cfc20e28176b0a2c685c3ab6140b4bc0f90cf04d8231cd45bb6a08e32d984b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CAN-outcomes-002",
+        "statement": "Opioid use has caused more working-age adults to die from accidental drug poisoning in some countries, particularly the United States and Canada.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 3: Life expectancy",
+          "page": 60,
+          "char_start": 173191,
+          "char_end": 173345,
+          "passage_sha256": "cd1b7e016c6e2f94bc5ebbcb429177c067b219a75ce41f3415e00ad8576b9b6f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-outcomes-003",
+        "statement": "Indigenous people have lower life expectancy than non-Indigenous people, with gaps of about 11 years for Inuit, 10 years for First Nations and 5 years for Métis people.",
+        "valence": "weakness",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 26072,
+          "char_end": 26272,
+          "passage_sha256": "1bc0e7f24d2006797a08e15779246251e7d27ef7c4bde7882737de9166c0c935"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-outcomes-004",
+        "statement": "In one Canada-US comparison of four operations, adjusted odds of death were higher in Canada after colectomy (OR 1.22) and pancreatectomy (OR 2.11) and similar after hip fracture repair and spine surgery; odds of a composite of complications were higher in Canada for all four, largely due to cardiac events and post-operative infections.",
+        "valence": "weakness",
+        "source_id": "nsqip-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3237,
+          "char_end": 3649,
+          "passage_sha256": "5704ea5912d56d8d482a4daf0692fc0cf37db8394581f1e3d641691e63a47465"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2019"
+      },
+      {
+        "id": "CAN-outcomes-005",
+        "statement": "Life expectancy is relatively high, but adults with low incomes are more likely to face cost barriers to care and longer waits for needed appointments.",
+        "valence": "weakness",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 25786,
+          "char_end": 26071,
+          "passage_sha256": "e0f34b49b876bf26c16055e6d394256f5393a12bd7c7313c676effd43efe3ec8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "CAN-costs-001",
+        "statement": "CIHI forecasts that total health spending in Canada will grow by 4.8% in 2026 to reach CAD 433 billion.",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Total health expenditures in Canada are projected to reach $433 billion in 2026",
+          "char_start": 1508,
+          "char_end": 1612,
+          "passage_sha256": "e182d6ef6418f4affce49ea93bb389997d23d9b58942d489d2e6d1e5a701db7f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-costs-002",
+        "statement": "In 2024 Canada spent 11.5% of GDP on health, above the 9.3% average of 38 OECD countries and in a group of higher spenders with France, Sweden and the United Kingdom, but well below the United States (17.2%).",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Canada remains among the highest health care spenders in the OECD",
+          "char_start": 17239,
+          "char_end": 17777,
+          "passage_sha256": "8d6ddca92c765be94a91b7038f1e0466703d69e7da876a61807ee4c3e5b25d59"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-costs-003",
+        "statement": "From 2019 to 2024 health spending grew by about 7.0% a year on average, faster than nominal GDP (6.1%).",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Canada remains among the highest health care spenders in the OECD",
+          "char_start": 17905,
+          "char_end": 18042,
+          "passage_sha256": "947ae2f614388da63966da76f7264183d73881376964efddd27dfea8a98f025d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "CAN-costs-004",
+        "statement": "Public-sector health spending grew by 7.2% in 2023 and 8.2% in 2024, but much of that increase was absorbed by higher prices and rapid population growth.",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Public-sector health care spending growth remains strong as inflation and population growth ease",
+          "char_start": 5946,
+          "char_end": 6115,
+          "passage_sha256": "97022e5283be9752b133c15a8f67a04800994b564356fc59611e18dd44f884f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "CAN-costs-005",
+        "statement": "Hospitals are expected to remain the largest category of health spending in 2026, at 25.6% of the total.",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Hospital, physician and drug spending continue to grow",
+          "char_start": 7761,
+          "char_end": 7911,
+          "passage_sha256": "e6b94de92d52849bd448c5282dabd885331e2b1a98a7816918dddd7c9ca608da"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-costs-006",
+        "statement": "Ozempic was the largest single-drug driver of public drug costs in 2024, accounting for CAD 807 million and 8.5 percentage points of the 9.2% growth in public drug program spending.",
+        "valence": "neutral",
+        "source_id": "cihi-nhex-2026-snap",
+        "locator": {
+          "section": "Hospital, physician and drug spending continue to grow",
+          "char_start": 11381,
+          "char_end": 11633,
+          "passage_sha256": "4f25ac55bb04af801ece65756f20045b4a2967f14e2c9e465785f47305c7a98d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-costs-007",
+        "statement": "Drug prices in Canada are about 25% above the OECD median, which the Commonwealth Fund profile says affects the system's sustainability.",
+        "valence": "weakness",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Pharmaceutical Spending",
+          "char_start": 22182,
+          "char_end": 22297,
+          "passage_sha256": "a88b7119b87ab8bf7953c50b998e17df110b68c14a8e861fcdd0f05ad8b4366a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-costs-008",
+        "statement": "The federal Patented Medicine Prices Review Board regulates manufacturers' launch prices for new patented drugs but has no power over wholesale or pharmacy prices or pharmacists' fees.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 23884,
+          "char_end": 24220,
+          "passage_sha256": "b96cd6890e9d904143ffbd6ca105c29ce8e9d11f8f8ff49ae7b46cb3ebd48434"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CAN-what_works-001",
+        "statement": "As of April 2025, collective price negotiations through the pan-Canadian Pharmaceutical Alliance (pCPA) had produced annual savings of CAD 3.9 billion on brand-name drugs and CAD 935 million on generics.",
+        "valence": "strength",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 24375,
+          "char_end": 24573,
+          "passage_sha256": "d7155fed1e45a94af52ab87d3643b8614485e903031e84bd7ff60880a622423c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CAN-what_works-002",
+        "statement": "Compared with 2019, Canada completed 26% more hip replacements in 2024, along with 21% more knee replacements, 11% more cataract operations, 7% more cancer operations and 16% more MRI and CT scans.",
+        "valence": "strength",
+        "source_id": "cihi-wait-2025",
+        "locator": {
+          "section": "Key findings",
+          "char_start": 1282,
+          "char_end": 1478,
+          "passage_sha256": "e35d2620a583b46ff164bb0f5b44b7dd5ca755094e32350999d06161a6167456"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-what_works-003",
+        "statement": "In the OECD's acute myocardial infarction (heart attack) indicators for 2023, mortality within 24 hours of hospital admission was below 1.5 per 100 patients in Canada, as in Iceland and Australia, compared with over 3.5 in Lithuania and Latvia.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 6: Mortality following acute myocardial infarction",
+          "page": 144,
+          "char_start": 445674,
+          "char_end": 446490,
+          "passage_sha256": "5806b912b583ac71df50939c7fb7d84b50db0e8553e988c2f60f8025fc9b2274"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CAN-what_works-004",
+        "statement": "Use of electronic health records by family doctors rose from 73% in 2015 to 93% in 2022.",
+        "valence": "strength",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Electronic Health Records",
+          "char_start": 29936,
+          "char_end": 30046,
+          "passage_sha256": "56c8c2179c20382ebdb3f84ce2cb4cf86a194fe9d43d01edc8a353503437d1ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2022"
+      },
+      {
+        "id": "CAN-what_works-005",
+        "statement": "Since the Canadian Dental Care Plan launched, 4,953,375 enrolled members have used its coverage for care, including 1,362,283 in the 2026-2027 benefit period so far.",
+        "valence": "strength",
+        "source_id": "cdcp-stats",
+        "locator": {
+          "section": "Enrolled members who received care",
+          "char_start": 3051,
+          "char_end": 3612,
+          "passage_sha256": "00d1852b603957261450d2c144b589f6c0901bf0c311c3e53b8f98f2ae20c897"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2026
+      }
+    ],
+    "problems": [
+      {
+        "id": "CAN-problems-001",
+        "statement": "Canada's health spending was 22% above the OECD average, yet only 50% of its population was satisfied with the availability of quality health care, compared with 64% on average in the OECD.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 1: Health spending and access",
+          "page": 29,
+          "char_start": 72933,
+          "char_end": 73139,
+          "passage_sha256": "795ccfe7e45568058cb59a45996402ad57f6ed89389e3c833a2aad7504a00512"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-problems-002",
+        "statement": "Over the past decade, satisfaction with the availability of quality health care fell by more than 20 percentage points in Canada, as in France and New Zealand.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025",
+        "locator": {
+          "section": "Chapter 5: Population coverage for healthcare",
+          "page": 104,
+          "char_start": 308227,
+          "char_end": 308522,
+          "passage_sha256": "6adb5e016d86fab82f31e0fbccf3b56462ac72b365e01a7919f8c86c3e69fa6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-problems-003",
+        "statement": "During the funding-change period, 92,809 fewer cataract operations were done than expected; after public funding for private for-profit centres was increased, patients' socioeconomic status was linked to access to surgery in those centres but not in public hospitals.",
+        "valence": "weakness",
+        "source_id": "cataract-2024",
+        "locator": {
+          "section": "Abstract: Results and Interpretation",
+          "char_start": 4057,
+          "char_end": 4592,
+          "passage_sha256": "cfc8dd46f2a0bb1d9020bd309238f1a3ae7f6ba04fa7b72252f7163a40f0e8fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2017-2022"
+      },
+      {
+        "id": "CAN-problems-004",
+        "statement": "One modelling study projects a national shortfall of 25,288 full-time-equivalent family physicians by 2034 in its base case, ranging from 23,310 to 30,904 across scenarios.",
+        "valence": "weakness",
+        "source_id": "fp-shortage-2026",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 1771,
+          "char_end": 2056,
+          "passage_sha256": "3afec786f79547c35f0081964d8b155ae6330db781be5b81cda23a738c1fc591"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-problems-005",
+        "statement": "Canada produced 7.3 medical graduates per 100,000 people in 2022 (down from 7.5 in 2021), one of the lowest rates in the OECD.",
+        "valence": "weakness",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 14864,
+          "char_end": 15060,
+          "passage_sha256": "55a57da1baed032845085e111519f17a4923cbe0119b0fea56d515cfef1b3bdd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "CAN-problems-006",
+        "statement": "In 2024, 94% of patients started radiation therapy within 28 days and 83% had hip fracture repair within 48 hours, both 3 percentage points lower than in 2019; median waits for most cancer surgeries rose by 1 to 5 days, and by 9 days for prostate cancer surgery.",
+        "valence": "weakness",
+        "source_id": "cihi-wait-2025",
+        "locator": {
+          "section": "Key findings",
+          "char_start": 1882,
+          "char_end": 2255,
+          "passage_sha256": "106a4c16cfd3ff6b35638228516c6cc0f12fe9a5bced3c72b420a399c5b9a9cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CAN-problems-007",
+        "statement": "Younger age, higher disease burden, poorer health, prescription coverage not provided by an employer, and living outside Quebec were associated with skipping medicines because of cost.",
+        "valence": "weakness",
+        "source_id": "crn-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2896,
+          "char_end": 3076,
+          "passage_sha256": "d762540c21c0accce1c9f5f367e2fb67f29e536b3d13e675c8fea7a8f8b062de"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2020"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CAN-reforms-001",
+        "statement": "Under a federal Canada Health Act Services Policy in force from 1 April 2026, anyone holding a valid health card is not to be charged for a medically necessary service their provincial or territorial plan would insure when a physician delivers it; the aim is that hospital and physician services insured in 1984 stay insured as care evolves.",
+        "valence": "neutral",
+        "source_id": "hc-cha-2024",
+        "locator": {
+          "section": "Holland Letter - Canada Health Act Services Policy",
+          "char_start": 39502,
+          "char_end": 40151,
+          "passage_sha256": "cee4a77c916b7374ade49367694807931447492f677584e2cc08cb1237f59638"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CAN-reforms-002",
+        "statement": "The federal Pharmacare Act received royal assent on 10 October 2024.",
+        "valence": "neutral",
+        "source_id": "pharmacare-act",
+        "locator": {
+          "section": "Title",
+          "char_start": 0,
+          "char_end": 66,
+          "passage_sha256": "ab2d1f587dfd8b657a99ca79e3db68958a74c6710760114c44bc204efe4597ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024,
+        "historical": true
+      },
+      {
+        "id": "CAN-reforms-003",
+        "statement": "The Pharmacare Act's stated purpose is to improve access to and affordability of prescription drugs, working with provinces, territories and Indigenous peoples toward national universal pharmacare, and to support a national formulary of essential drugs and a national bulk purchasing strategy.",
+        "valence": "neutral",
+        "source_id": "pharmacare-act",
+        "locator": {
+          "section": "Section 3: Purpose",
+          "char_start": 3570,
+          "char_end": 4159,
+          "passage_sha256": "35b3850acba9cefe80c025402fc9f54538150b82390c8f117e46b539406e9127"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-reforms-004",
+        "statement": "Under the Act, the federal health minister must pay provinces and territories that sign agreements to provide universal, single-payer, first-dollar coverage of specified contraceptives and diabetes drugs.",
+        "valence": "neutral",
+        "source_id": "pharmacare-act",
+        "locator": {
+          "section": "Section 6(1): Payments",
+          "char_start": 5497,
+          "char_end": 5880,
+          "passage_sha256": "022aabb1122ab5612cd112e578e3bd9932fbeb4d53e08c6140a71cdb6244bbf5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-reforms-005",
+        "statement": "To qualify for the Canadian Dental Care Plan, a person must have no access to private dental coverage, have filed a tax return in Canada, have adjusted family net income below CAD 90,000 and be a Canadian resident for tax purposes.",
+        "valence": "neutral",
+        "source_id": "cdcp-qualify",
+        "locator": {
+          "section": "Eligibility requirements",
+          "char_start": 196,
+          "char_end": 597,
+          "passage_sha256": "845b59fc448ef355e1108d7fdc975dcab9266938f966af888cfbecbd9b157ffa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-reforms-006",
+        "statement": "As of 30 September 2026, 5,015,189 people were enrolled in the Canadian Dental Care Plan for the 2026-2027 benefit period, and the total since its launch was 7,653,151.",
+        "valence": "neutral",
+        "source_id": "cdcp-stats",
+        "locator": {
+          "section": "Summary data for benefit period 2026 to 2027",
+          "char_start": 278,
+          "char_end": 1416,
+          "passage_sha256": "a570d89374f14e107a3cf9297971a7f9c70f8d54b79917983f1654907fd3e39a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CAN-reforms-007",
+        "statement": "The federal government has committed nearly CAD 200 billion over 10 years to improve access to primary care, cut waiting times and strengthen mental health services, including CAD 25 billion for programs tailored to each province and territory.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Health Care Innovation",
+          "char_start": 28520,
+          "char_end": 28883,
+          "passage_sha256": "d1deae11f30635c4fd2e9e7d9a099c0d411f671b36f20e5d5e81d3871a30b88e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        }
+      },
+      {
+        "id": "CAN-reforms-008",
+        "statement": "In June 2024 the government introduced the Connected Care for Canadians Act, a bill requiring digital health service providers to adopt common standards and enable secure exchange of information across platforms.",
+        "valence": "neutral",
+        "source_id": "cwf-can",
+        "locator": {
+          "section": "Integration and Care Coordination",
+          "char_start": 11236,
+          "char_end": 11545,
+          "passage_sha256": "edd3a9dc2e69748c999cdfee48eeefda434f17ba191e4c6f4660ce87d63abab6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2024,
+        "historical": true
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "CAN-us_lessons-001",
+        "statement": "In 2017, administration by insurers and providers cost USD 2,497 per person in the United States (34.2% of national health spending) versus USD 551 per person in Canada (17.0%).",
+        "valence": "neutral",
+        "source_id": "himmelstein-2020",
+        "locator": {
+          "section": "Abstract: Objective and Results",
+          "char_start": 856,
+          "char_end": 1468,
+          "passage_sha256": "5860e0e2bda9fca7230cf42a1ddc99378714a2f716ef2e55e0c99d44071a8833"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CAN-us_lessons-002",
+        "statement": "The study's authors conclude that the large and widening US-Canada gap in administrative spending appears to reflect inefficiencies of the US multipayer, private insurance-based system.",
+        "valence": "neutral",
+        "source_id": "himmelstein-2020",
+        "locator": {
+          "section": "Abstract: Conclusion",
+          "char_start": 2193,
+          "char_end": 2408,
+          "passage_sha256": "e15fbd4b1c6bab1a7e527a4653cdc1f488316d1e00eb1376b086cfba77fc3f04"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CAN-us_lessons-003",
+        "statement": "Comparing Pennsylvania with Ontario, knee replacement use was higher in Pennsylvania in every income quintile, and the relative difference between the highest- and lowest-income quintiles was larger in Ontario (28%) than in Pennsylvania (23%).",
+        "valence": "neutral",
+        "source_id": "tka-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3845,
+          "char_end": 4283,
+          "passage_sha256": "3ba27facff07c097ad0b36f182a7cff58d36333d58ad12cb0ee635efac34ef4c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2012-2018"
+      },
+      {
+        "id": "CAN-us_lessons-004",
+        "statement": "The authors conclude that single-payer universal insurance may not reduce the income-based differences in access to knee replacement that exist in the United States.",
+        "valence": "neutral",
+        "source_id": "tka-2022",
+        "locator": {
+          "section": "Abstract: Conclusion",
+          "char_start": 4662,
+          "char_end": 4853,
+          "passage_sha256": "f1dc933593ca82443eed6340ee904a2f5d8c164d2ef3e5c82213ab85529e4231"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2012-2018"
+      },
+      {
+        "id": "CAN-us_lessons-005",
+        "statement": "Knee replacement patients in Pennsylvania were more likely than those in Ontario to be readmitted within 90 days and to need revision within a year, with no difference in mortality at one year.",
+        "valence": "neutral",
+        "source_id": "tka-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4284,
+          "char_end": 4512,
+          "passage_sha256": "a9784c40ad4437f5e2ccedd2cc72616b10e8a062bddd6c95599f2431cc739456"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2012-2018"
+      },
+      {
+        "id": "CAN-us_lessons-006",
+        "statement": "One Canada-US comparison found evidence of higher mortality and complication rates within 30 days of surgery for patients in Canada than in the United States.",
+        "valence": "weakness",
+        "source_id": "nsqip-2022",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 3650,
+          "char_end": 3807,
+          "passage_sha256": "d6d14766eef6466b956934dedbd298ca4e6af5eaf69c1bb6c6386d6134917b9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass; 28 statements corrected)"
+        },
+        "data_year": "2015-2019"
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/CAN.json",
+  "sources": [
+    {
+      "id": "cwf-can",
+      "title": "International Health Care System Profiles: Canada (2026 country profile)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/canada",
+      "accessed": "2026-11-10",
+      "funding_note": "US private foundation; profile written by FT Longitude on the Fund's behalf from data collected February-December 2025, reflecting data as of January 2026. Draws on the 2020 Health Systems in Transition review, Health Canada, CIHI and WHO/OECD data."
+    },
+    {
+      "id": "oecd-hag-2025",
+      "title": "Health at a Glance 2025: OECD Indicators",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "accessed": "2026-11-10",
+      "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries."
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-10",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "hc-cha-2024",
+      "title": "Canada Health Act Annual Report 2023-2024",
+      "publisher": "Health Canada",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.canada.ca/en/health-canada/services/publications/health-system-services/canada-health-act-annual-report-2023-2024.html",
+      "accessed": "2026-11-10",
+      "funding_note": "Federal government's statutory report to Parliament on administration of the Canada Health Act; published June 2025."
+    },
+    {
+      "id": "cihi-nhex-2026-snap",
+      "title": "National Health Expenditure Trends, 2026: Snapshot",
+      "publisher": "Canadian Institute for Health Information",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.cihi.ca/en/national-health-expenditure-trends/nhex-trends-reports/nhex-trends-2026-snapshot",
+      "accessed": "2026-11-10",
+      "funding_note": "Published 10 November 2026: 2024 actual data, 2025 and 2026 figures are forecasts."
+    },
+    {
+      "id": "cihi-wait-2025",
+      "title": "Wait Times for Priority Procedures in Canada, 2025",
+      "publisher": "Canadian Institute for Health Information",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.cihi.ca/en/wait-times-for-priority-procedures-in-canada-2025",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "pharmacare-act",
+      "title": "Pharmacare Act (S.C. 2024, c. 24), consolidated text",
+      "publisher": "Government of Canada, Justice Laws Website",
+      "tier": 1,
+      "type": "government",
+      "year": 2024,
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/P-13.2/FullText.html",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "cdcp-qualify",
+      "title": "Canadian Dental Care Plan: Do you qualify",
+      "publisher": "Government of Canada",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan/qualify.html",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "cdcp-coverage",
+      "title": "Canadian Dental Care Plan: What services are covered",
+      "publisher": "Government of Canada",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan/coverage.html",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "cdcp-stats",
+      "title": "Canadian Dental Care Plan statistics (data as of 30 September 2026)",
+      "publisher": "Government of Canada",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan/statistics.html",
+      "accessed": "2026-11-10",
+      "funding_note": "Programme administrative data, updated monthly."
+    },
+    {
+      "id": "crn-2024",
+      "title": "Predictors of cost-related medication nonadherence in Canada: a repeated cross-sectional analysis of the Canadian Community Health Survey",
+      "publisher": "CMAJ",
+      "authors": "Rebić N, Cheng L, Law MR, Cragg JJ, Brotto LA, De Vera MA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1503/cmaj.241024",
+      "doi": "10.1503/cmaj.241024",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11588403",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-10",
+      "funding_note": "Survey data 2015-2020, before the 2024 Pharmacare Act."
+    },
+    {
+      "id": "cataract-2024",
+      "title": "Public funding for private for-profit centres and access to cataract surgery by patient socioeconomic status: an Ontario population-based study",
+      "publisher": "CMAJ",
+      "authors": "Campbell RJ, El-Defrawy SR, Bell CM, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1503/cmaj.240414",
+      "doi": "10.1503/cmaj.240414",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11349346",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-10",
+      "funding_note": "Ontario only; data January 2017 to March 2022."
+    },
+    {
+      "id": "tka-2022",
+      "title": "Are Income-based Differences in TKA Use and Outcomes Reduced in a Single-payer System? A Large-database Comparison of the United States and Canada",
+      "publisher": "Clinical Orthopaedics and Related Research",
+      "authors": "Mehta B, Ho K, Ling V, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1097/CORR.0000000000002207",
+      "doi": "10.1097/CORR.0000000000002207",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9384923",
+      "accessed": "2026-11-10",
+      "funding_note": "Compares Ontario with Pennsylvania only; data 2012-2018."
+    },
+    {
+      "id": "himmelstein-2020",
+      "title": "Health Care Administrative Costs in the United States and Canada, 2017",
+      "publisher": "Annals of Internal Medicine",
+      "authors": "Himmelstein DU, Campbell T, Woolhandler S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.7326/M19-2818",
+      "doi": "10.7326/M19-2818",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&retmode=text&id=31905376",
+      "accessed": "2026-11-10",
+      "funding_note": "Authors are long-standing advocates of single-payer reform in the US; the paper reports no funding source."
+    },
+    {
+      "id": "oral-cat-2026",
+      "title": "Oral health care's contribution to catastrophic spending in Canada: a descriptive study",
+      "publisher": "Health Policy OPEN",
+      "authors": "Proaño D, Allin S, Essue BM, Singhal S, Quiñonez C",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.hpopen.2025.100155",
+      "doi": "10.1016/j.hpopen.2025.100155",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12682045",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-10",
+      "funding_note": "Data 2010-2019, before the Canadian Dental Care Plan."
+    },
+    {
+      "id": "fintox-2024",
+      "title": "Tackling financial toxicity related to cancer care in Canada",
+      "publisher": "CMAJ",
+      "authors": "Wood TF, Murphy RA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1503/cmaj.230677",
+      "doi": "10.1503/cmaj.230677",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10927292",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-10",
+      "funding_note": "Commentary summarising other studies; written before the Pharmacare Act passed in October 2024."
+    },
+    {
+      "id": "fp-shortage-2026",
+      "title": "Projected family physician workforce shortages in Canada through 2034: A scenario-based supply-demand modelling study",
+      "publisher": "Health Policy",
+      "authors": "Levina O, Benda MC, Danthurebandara V, Dinh T, Couris C",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.healthpol.2026.105712",
+      "doi": "10.1016/j.healthpol.2026.105712",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&retmode=text&id=42520387",
+      "accessed": "2026-11-10",
+      "funding_note": "Authors work for Health Canada and CIHI; projections are model estimates."
+    },
+    {
+      "id": "pc-wait-2025",
+      "title": "Social and health determinants of wait times for primary care in Canada",
+      "publisher": "Canadian Family Physician",
+      "authors": "Le B, Stranges S, Ali S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.46747/cfp.7110646",
+      "doi": "10.46747/cfp.7110646",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12519969",
+      "accessed": "2026-11-10",
+      "funding_note": "Survey data 2015, 2016 and 2019."
+    },
+    {
+      "id": "nsqip-2022",
+      "title": "Surgical Outcomes in Canada and the United States: An Analysis of the ACS-NSQIP Clinical Registry",
+      "publisher": "World Journal of Surgery",
+      "authors": "Cram P, Cohen ME, Ko C, Landon BE, Hall B, Jackson TD",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00268-022-06444-w",
+      "doi": "10.1007/s00268-022-06444-w",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9929717",
+      "accessed": "2026-11-10",
+      "funding_note": "Hospitals that volunteer for the ACS-NSQIP registry; data 2015-2019."
+    },
+    {
+      "id": "fin-transfers-2025",
+      "title": "Minister Champagne meets with provincial and territorial Finance Ministers, deepens partnerships for a stronger economic future for Canada (news release, 11 December 2025)",
+      "publisher": "Department of Finance Canada",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.canada.ca/en/department-finance/news/2025/12/minister-champagne-meets-with-provincial-and-territorial-finance-ministers-deepens-partnerships-for-a-stronger-economic-future-for-canada.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Federal government news release announcing 2026-27 major transfer amounts."
+    },
+    {
+      "id": "fin-te-2026-desc",
+      "title": "Report on Federal Tax Expenditures - Concepts, Estimates and Evaluations 2026: Part 3 descriptions (personal income tax, part 6)",
+      "publisher": "Department of Finance Canada",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures/2026/part-6.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Official federal estimates of revenue forgone; values from 2024 on are marked (P) as projections. Federal personal income tax only; provincial tax forgone is not included."
+    },
+    {
+      "id": "on-budget-2026",
+      "title": "2026 Ontario Budget, Chapter 3: Ontario's Economic Outlook and Fiscal Plan",
+      "publisher": "Ontario Ministry of Finance",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://budget.ontario.ca/2026/chapter-3.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Provincial budget; 2024-25 figures are actuals, later years interim or outlook."
+    },
+    {
+      "id": "on-ohp",
+      "title": "Health premium",
+      "publisher": "Government of Ontario",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.ontario.ca/page/health-premium",
+      "accessed": "2026-11-11",
+      "funding_note": "Provincial government information page, updated 22 January 2026."
+    },
+    {
+      "id": "on-eht",
+      "title": "Employer Health Tax (EHT)",
+      "publisher": "Ontario Ministry of Finance",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.ontario.ca/document/employer-health-tax-eht",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "bc-eht",
+      "title": "Employer health tax overview",
+      "publisher": "Government of British Columbia, Ministry of Finance",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www2.gov.bc.ca/gov/content/taxes/employer-health-tax/employer-health-tax-overview",
+      "accessed": "2026-11-11",
+      "funding_note": "Provincial government page, last updated 17 June 2026."
+    },
+    {
+      "id": "mb-hel",
+      "title": "Health and Post-Secondary Education Tax Levy",
+      "publisher": "Manitoba Finance",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gov.mb.ca/finance/taxation/taxes/payroll.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Provincial tax page; undated, rates as shown when accessed."
+    },
+    {
+      "id": "clhia-2025",
+      "title": "Claims in Canada rising: $143.3 billion paid to help keep Canadians healthy and financially secure (news release, 23 September 2025)",
+      "publisher": "Canadian Life and Health Insurance Association",
+      "tier": 3,
+      "type": "other",
+      "year": 2025,
+      "url": "https://www.clhia.ca/media-and-publications/news-releases/2025/Claims-in-Canada-rising-143-billion-paid-to-help-keep-Canadians-healthy-and-financially-secure",
+      "accessed": "2026-11-11",
+      "funding_note": "Industry trade association of life and health insurers; figures are self-reported industry totals for 2024 from its annual Canadian Life & Health Insurance Facts."
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 7,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 7,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 5,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 7,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-10",
+      "note": "New profile: 89 claims from 20 sources, anchored to fingerprinted passages and support-reviewed in a separate cold pass; 28 statements corrected to match their passages."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill round 3 (financing standard): 8 sources added (Finance Canada 2026-27 transfers and 2026 tax expenditure report, Ontario 2026 Budget, Ontario health premium and Employer Health Tax, B.C. employer health tax, Manitoba HE levy, CLHIA 2025); 16 financing claims added on federal transfers, provincial taxes and payroll levies, private insurance and the tax subsidy for employer health benefits; all support-reviewed."
+    }
+  ]
+}

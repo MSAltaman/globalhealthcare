@@ -1,0 +1,1856 @@
+{
+  "iso3": "COL",
+  "name": "Colombia",
+  "wave": 2,
+  "system_as_of": "2026-11-13",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Regulated managed competition within a single social health insurance system (SGSSS): competing insurers (EPS) enrol everyone under one benefit plan and are paid a per-capita UPC by the central fund ADRES; a payroll-funded contributory regime for workers and a tax-funded subsidized regime for people who cannot pay"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "COL-covered-001",
+      "COL-covered-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "COL-overview-001",
+        "statement": "Colombia has moved deeply into managed competition since a major reform in 1993: an insurer market was created, people may choose their insurer, and a national equalisation fund pays insurers a per-capita amount (Castano et al., 2024).",
+        "valence": "neutral",
+        "source_id": "managedcomp-hepl-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 466,
+          "char_end": 736,
+          "passage_sha256": "8ef3c41f775efc67a59bb427a764c5b0706868ec9dbf7bc23a61c17c85df0711"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-overview-002",
+        "statement": "Law 100 of 1993 created the General System of Social Security in Health (SGSSS), a regulated competitive insurance model built on universal enrolment, a split between financing and provision, and a standard benefit package paid for through capitation.",
+        "valence": "neutral",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction: Brief overview of health financing and insurance in Colombia",
+          "char_start": 7333,
+          "char_end": 7786,
+          "passage_sha256": "4250307ff8b04af9842a1ed0d5325986e41c0354c89c4f38d00565064adf5457"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-overview-003",
+        "statement": "Insurers called EPS (health promoting entities) enrol the population, pool health risks, buy services from public and private providers and manage the health of their members.",
+        "valence": "neutral",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction: Brief overview of health financing and insurance in Colombia",
+          "char_start": 7787,
+          "char_end": 8015,
+          "passage_sha256": "e02a24369dbab73e466b7bd195ccd5cab72b8ffae4ce7820e80994032d4dde30"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-overview-004",
+        "statement": "People are covered through three regimes: the contributory regime (employees, public servants, pensioners and the self-employed, funded by compulsory payroll or individual contributions); special regimes, a form of contributory cover for the armed forces, the education sector and state-owned companies; and the subsidized regime, paid from public funds for people who cannot pay.",
+        "valence": "neutral",
+        "source_id": "fragmentation-bmchsr-2026",
+        "locator": {
+          "section": "Background",
+          "char_start": 7846,
+          "char_end": 8317,
+          "passage_sha256": "19cc914bbac872cf5c2974f8a24a6714f3b41ad622f0ec9595dbe64bd1f69ed1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-overview-005",
+        "statement": "A central public body, ADRES, manages the financing sources, calculates and pays the per-capita UPC, and transfers payments to insurers and providers.",
+        "valence": "neutral",
+        "source_id": "fragmentation-bmchsr-2026",
+        "locator": {
+          "section": "Background",
+          "char_start": 7506,
+          "char_end": 7834,
+          "passage_sha256": "a039fe11b9e74599972d05c005debdb6e9f5e1330189fa26ef88dade70d1005a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-overview-006",
+        "statement": "The National Health Superintendence regulates and supervises the system and may intervene in, sanction or administratively liquidate EPS that fail financial, technical or quality standards.",
+        "valence": "neutral",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction: Brief overview of health financing and insurance in Colombia",
+          "char_start": 8944,
+          "char_end": 9168,
+          "passage_sha256": "6a6ad3357bbfe0b008d961c62e9ade024477eac7e1d337dfcb07a61fdff61f1c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "COL-financing-001",
+        "statement": "Health insurance financing is mainly public. Funds reach insurers as a per-capita payment, the UPC, which differs between the contributory and subsidized regimes and is adjusted for basic factors such as age and sex.",
+        "valence": "neutral",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction: Brief overview of health financing and insurance in Colombia",
+          "char_start": 8016,
+          "char_end": 8377,
+          "passage_sha256": "ab0f6b95356aa05ff59edf4a0a75b61faaf5b641d13d2ad7b0bf54ec91ccbf49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-002",
+        "statement": "Risk pooling is centralised: ADRES, a national fund administrator, collects and pays out the UPC money, and EPS compete on how well they manage and organise care rather than on the premiums they charge.",
+        "valence": "neutral",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction: Brief overview of health financing and insurance in Colombia",
+          "char_start": 8378,
+          "char_end": 8615,
+          "passage_sha256": "c9cf7c67b286e55a8b3e77682857587ed9288e953f1d9b1ce1164f358e931e26"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-003",
+        "statement": "UGPP's 2026 guidance sets the health contribution at 12.5% of the contribution base, with 8.5% paid by the employer and 4% by the employee; the employer pays both and deducts the employee's share from pay.",
+        "valence": "neutral",
+        "source_id": "ugpp-dependientes-2026",
+        "locator": {
+          "section": "3. ¿Quién paga qué?",
+          "page": 2,
+          "char_start": 1804,
+          "char_end": 2254,
+          "passage_sha256": "dc2978d4c6daaab76b15ff50397cf911655d2a20df02bd8a846830502b9bc468"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-004",
+        "statement": "For these integral-salary employees, contributions are charged on 70% of the agreed pay, and the contribution base may not exceed 25 monthly minimum wages (COP 43,772,625 in 2026).",
+        "valence": "neutral",
+        "source_id": "ugpp-dependientes-2026",
+        "locator": {
+          "section": "2. Requisitos para su validez",
+          "page": 2,
+          "char_start": 1346,
+          "char_end": 1992,
+          "passage_sha256": "394fc347e83107dc61256b6a5f76d0c1a45f89602c4954a57d86edb6b5f5feb9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "COL-financing-005",
+        "statement": "UGPP guidance describes a benefit that exempts an employer from its part of the health contribution, and from the SENA and ICBF levies, for employees earning less than 10 monthly minimum wages.",
+        "valence": "neutral",
+        "source_id": "ugpp-abece-empleadores",
+        "locator": {
+          "section": "¿Existen beneficios que me permitan realizar cotizaciones al SPS por tarifas inferiores?",
+          "page": 5,
+          "char_start": 5704,
+          "char_end": 5967,
+          "passage_sha256": "9a94457a4f090dbdc6777b19573fbc98f125a4e11757079cc6499590f9a95879"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-006",
+        "statement": "This exemption from the health contribution, set in article 114-1 of the Tax Statute, does not apply to employees earning 10 or more monthly minimum wages (UGPP, 2026).",
+        "valence": "neutral",
+        "source_id": "ugpp-dependientes-2026",
+        "locator": {
+          "section": "3. ¿Quién paga qué? (nota)",
+          "page": 6,
+          "char_start": 5161,
+          "char_end": 5391,
+          "passage_sha256": "b0e74f33db8400e78b9aa24cc5179fc5b1ddbfd61cf148eeb97eab43bb3dd33b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-007",
+        "statement": "The health contribution rose from 7% of income in 1993 to 12% from 1995, and more public funds came from earmarking 25% of transfers to territorial governments for health, alongside national budget allocations.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Introducción",
+          "char_start": 5884,
+          "char_end": 6166,
+          "passage_sha256": "4f5e96f1ff02c14793353b0ecfa3f5a0a55b5c99d092c97b3eb83d7999ab46b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "1993-1995",
+        "historical": true
+      },
+      {
+        "id": "COL-financing-008",
+        "statement": "The Ministry of Health, as regulator, sets the UPC each year using an actuarial approach.",
+        "valence": "neutral",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Letter",
+          "char_start": 6326,
+          "char_end": 6467,
+          "passage_sha256": "5811a38e6d94bb25251074f93823da5f5da147396dbb67c5b2d53991d37d4792"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-009",
+        "statement": "The UPC accounts for more than 90% of the money the government transfers to EPS to pay for their members' care, close to USD 20 billion by 2024.",
+        "valence": "neutral",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Letter",
+          "char_start": 6933,
+          "char_end": 7137,
+          "passage_sha256": "0912383d94309ff2a8d1d20ea1f9ec7a823d1988e40bb4f7d1248244f3218182"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "COL-financing-010",
+        "statement": "The required change in the UPC is set by comparing insurers' loss ratio with the allowable loss ratio fixed by Law 1438 of 2011: 0.9 for the contributory regime and 0.92 for the subsidized regime.",
+        "valence": "neutral",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Actuarial sufficiency (financial sustainability)",
+          "char_start": 9603,
+          "char_end": 9798,
+          "passage_sha256": "bbf0ce22118aa4eaafb127fe85660ee859731839f5bcac12bb8fde48dbedcc74"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-011",
+        "statement": "Private insurance accounted for 8% of total health expenditure in 2021.",
+        "valence": "neutral",
+        "source_id": "vphi-ijeh-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 9547,
+          "char_end": 9638,
+          "passage_sha256": "ed730e9fe89cad0de74adbcacd73caf2ea85c7a59172ea33d081ae8b4e34f2ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "COL-financing-012",
+        "statement": "Article 387 of the Tax Statute lets an employee reduce the base for income-tax withholding by health payments of up to 16 tax value units (UVT) a month; these include payments to prepaid-medicine companies supervised by the National Health Superintendence and health insurance policies covering the worker, spouse, children or dependants (quoted in a DIAN ruling).",
+        "valence": "neutral",
+        "source_id": "dian-oficio-359-2020",
+        "locator": {
+          "section": "1. Disminución de la base de retención en la fuente",
+          "char_start": 2239,
+          "char_end": 3529,
+          "passage_sha256": "191fa5842af5a3a6f52800c1bd0a6dc6e82fa7fb8d2791d5a770b709e37827ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-financing-013",
+        "statement": "Voluntary health plans, including prepaid medicine and prepaid ambulance services, were deductible when calculating income tax for tax year 2019, provided they met health-sector rules and the requirements and limits of the tax rules (DIAN ruling).",
+        "valence": "neutral",
+        "source_id": "dian-oficio-359-2020",
+        "locator": {
+          "section": "Conclusión",
+          "char_start": 12137,
+          "char_end": 12586,
+          "passage_sha256": "196220401930173700a0b7fd81856cd9e94bcc286fb57845d7cf0193b1505e24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "covered": [
+      {
+        "id": "COL-covered-001",
+        "statement": "Colombia's Constitution makes health care a public service under the responsibility of the State (Article 49) and makes social security compulsory under State direction, guided by efficiency, universality and solidarity (Article 48).",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Introducción",
+          "char_start": 4608,
+          "char_end": 4892,
+          "passage_sha256": "11ade6d2e98529f281776f61d1b835bc056f41d99867aaa3bd72aa67b6f12e40"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-covered-002",
+        "statement": "In July 2008, Constitutional Court ruling T-760 recognised health as an autonomous fundamental right, identified structural failures that stopped people from effectively enjoying it, and created a special chamber to follow up its orders.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2752,
+          "char_end": 3299,
+          "passage_sha256": "6beb2cc5c2bc598ad7f4f20fc72172de542de2f4b09a62695cb9f9274b75b9f4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2008,
+        "historical": true
+      },
+      {
+        "id": "COL-covered-003",
+        "statement": "OECD Health at a Glance 2025 reports that 99% of Colombia's population is covered for a core set of services.",
+        "valence": "strength",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 3,
+          "char_start": 4197,
+          "char_end": 4270,
+          "passage_sha256": "5cff93b2bcc4f3280ba4eed06a100e13bd5ae9c054270f7092720cce9ec9d03c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-covered-004",
+        "statement": "As of May 2025, health insurance coverage across the system's regimes stood at 98.39%.",
+        "valence": "strength",
+        "source_id": "fragmentation-bmchsr-2026",
+        "locator": {
+          "section": "Background",
+          "char_start": 8330,
+          "char_end": 8404,
+          "passage_sha256": "18f63c55e5b9e67520af46aeaf3dee5536da55a84aa58f27a48fe6a0cb5bbf48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-covered-005",
+        "statement": "After the Statutory Health Law the benefit plan (PBS) was updated in 2021, moving Colombia towards a comprehensive health plan that included 97% of the medical procedures authorised in the country.",
+        "valence": "strength",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 17749,
+          "char_end": 18179,
+          "passage_sha256": "4b40803187c517263ddddf3eab02ea8618b2c86e7bdbd2b7ec20639414ce148f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "COL-covered-006",
+        "statement": "Under the Ministry's exclusion-list mechanism there is an exhaustive list of services paid through the UPC and a separate list of exclusions; some procedures and medicines appear on neither, which creates regulatory ambiguity and uncertainty for providers and patients.",
+        "valence": "weakness",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 19550,
+          "char_end": 19939,
+          "passage_sha256": "3823132c02391e5273812d382099a75bde9140909a48f61d3fe4728f580aac1a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-covered-007",
+        "statement": "Services not included in the benefit plan are prescribed through the MIPRES platform, which has given more control over spending on technologies not paid from the UPC.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 20104,
+          "char_end": 20488,
+          "passage_sha256": "45efc32d702558fe26c6ab249ea51993ef336d520fa545eba5fb0c1b41477a58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-covered-008",
+        "statement": "'Maximum budgets' are an extra yearly allocation that pays for services and technologies outside the UPC: those with uncertain conditions or highly variable prices, and complementary social services ordered by courts.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 21233,
+          "char_end": 21634,
+          "passage_sha256": "7ab034003839d271f24f5742b7eef02c81d887de94e07b4ccf384de36eee1504"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "COL-cost_sharing-001",
+        "statement": "In the contributory regime, the 2025 flat 'moderating fee' depended on the member's income: COP 4,700 below 2 monthly minimum wages, COP 19,200 between 2 and 5, and COP 50,300 above 5.",
+        "valence": "neutral",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "section": "2.1. Valor de la cuota moderadora 2025",
+          "page": 4,
+          "char_start": 7362,
+          "char_end": 7831,
+          "passage_sha256": "5d8ab89e2a06e67a1099ab0f4b87e0dd57ff897c1d9984f3af8c819cf5ed7859"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-cost_sharing-002",
+        "statement": "Contributory-regime copayments in 2025 were 11.5%, 17.3% or 23% of the cost of the service, rising with the member's income band (below 2, 2 to 5, and above 5 monthly minimum wages).",
+        "valence": "neutral",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "section": "2.2. Valor de los copagos 2025",
+          "page": 4,
+          "char_start": 8150,
+          "char_end": 8311,
+          "passage_sha256": "0f30ac23990b105bf904acf974d8d783065f4836b91fa4421ad91488e9ee7c96"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-cost_sharing-003",
+        "statement": "Contributory-regime copayments are capped per event (for example, a surgery); in 2025 the cap was COP 356,548 for the lowest income band (below 2 minimum wages) and COP 2,857,356 for the highest (above 5).",
+        "valence": "strength",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "section": "2.2.1. Tope máximo de los copagos por evento",
+          "page": 4,
+          "char_start": 8356,
+          "char_end": 8846,
+          "passage_sha256": "51b57ca2c2df2b56a5b126bea3672f87bb6caf9e410c339cbd21af3feea3f6c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-cost_sharing-004",
+        "statement": "Contributory-regime copayments are also capped per calendar year; in 2025 the annual cap was COP 643,717 for the lowest income band and COP 5,149,736 for the highest.",
+        "valence": "strength",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "section": "2.2.2. Tope máximo de los copagos por año calendario",
+          "page": 5,
+          "char_start": 9173,
+          "char_end": 9571,
+          "passage_sha256": "cd1c4158657e8ca22348255085c8d4f6b964516f859907adcdd8a7557b1f05ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-cost_sharing-005",
+        "statement": "No moderating fees are charged in the subsidized regime.",
+        "valence": "strength",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "section": "3.1. Cuota moderadora 2025",
+          "page": 5,
+          "char_start": 9729,
+          "char_end": 9862,
+          "passage_sha256": "995631c96869527292101b8ebd6a7a466a01f4f4e0694d493d64fcdd87902946"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-cost_sharing-006",
+        "statement": "Subsidized-regime copayments are at most 10% of the cost of the service, capped in 2025 at COP 621,164 per event and COP 1,242,329 per year.",
+        "valence": "strength",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "section": "3.2. Valor de los copagos 2025",
+          "page": 5,
+          "char_start": 9863,
+          "char_end": 10324,
+          "passage_sha256": "051a84b96480eea5b28ffbbf85505a03ef421f1f10e5edea6cce5f7f3c990ca4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [
+      {
+        "id": "COL-additional_care-001",
+        "statement": "People can buy voluntary private health insurance, known in Colombia as prepaid medicine, while they keep contributing to the public system.",
+        "valence": "neutral",
+        "source_id": "vphi-ijeh-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 8434,
+          "char_end": 8601,
+          "passage_sha256": "0a3e6234c3cbd3d618f2beebcd99494fd05bcafacb0d3e7221e4368b631649ff"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-additional_care-002",
+        "statement": "Voluntary health plans can only be bought and kept by people who are already affiliated to, and keep paying contributions into, the contributory regime; they include EPS complementary plans, prepaid-medicine plans and insurance policies.",
+        "valence": "neutral",
+        "source_id": "dian-oficio-359-2020",
+        "locator": {
+          "section": "Planes voluntarios de salud (Decreto 806 de 1998, art. 169, citado)",
+          "char_start": 7567,
+          "char_end": 8178,
+          "passage_sha256": "f432022590b58807bc6d626a136c39351e76ca80b9804d14b1ca693f0d0e0e9b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-additional_care-003",
+        "statement": "Colombia has duplicate voluntary private insurance, bought for faster access, a larger choice of providers and more comfort; some providers treat only people who hold it.",
+        "valence": "neutral",
+        "source_id": "vphi-ijeh-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 9218,
+          "char_end": 9454,
+          "passage_sha256": "dd5ef3a8fc41fd4cf0815dc3fbeeff288cdda15d61de9cdf07a94c98d8b77702"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-additional_care-004",
+        "statement": "The share of people with voluntary private health insurance rose from 4.8% in 2008 to 8.2% in 2017.",
+        "valence": "neutral",
+        "source_id": "vphi-ijeh-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 9455,
+          "char_end": 9546,
+          "passage_sha256": "965c7db56617fd62150e6172c803d2226638efb6ef28e0fc97d372c352a474d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "COL-additional_care-005",
+        "statement": "The private companies that manage public insurance are the same ones that offer and manage duplicate voluntary private insurance, which the authors call a unique situation.",
+        "valence": "neutral",
+        "source_id": "vphi-ijeh-2024",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 9793,
+          "char_end": 9986,
+          "passage_sha256": "5320e5f508b6746138787cfe1fc1e18fd68e36a345f4311857b541b7f00a95fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-additional_care-006",
+        "statement": "Complementary plans and prepaid-medicine schemes give extra benefits to people with more purchasing power, one of the features the authors cite as fragmenting health financing.",
+        "valence": "neutral",
+        "source_id": "fragmentation-bmchsr-2026",
+        "locator": {
+          "section": "Background",
+          "char_start": 8413,
+          "char_end": 8816,
+          "passage_sha256": "c2d8d009bbbdbef134ef56f88d46121d8bf6cc862b23ac6073a5ea94fbb2a6cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "COL-access-001",
+        "statement": "Colombia had 2.5 practising doctors per 1,000 people (OECD average 3.9) and 1.6 practising nurses (OECD average 9.2), per OECD Health at a Glance 2025.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 5,
+          "char_start": 6392,
+          "char_end": 6523,
+          "passage_sha256": "6ba329111d7d3d31b86847ce57f1e55e495c89c1ecd0ad2bb06bdbf2e4a9175f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-access-002",
+        "statement": "Colombia had 1.9 hospital beds per 1,000 people, against an OECD average of 4.2, per OECD Health at a Glance 2025.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 5,
+          "char_start": 6711,
+          "char_end": 6798,
+          "passage_sha256": "7a4a51b27ad197e8dbc65432f1e3d153d7f711501b52434bb171e5488d235e50"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-access-003",
+        "statement": "Colombia had 6 CT scanners, MRI units and PET scanners per million people, against an OECD average of 51, per OECD Health at a Glance 2025.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 5,
+          "char_start": 6801,
+          "char_end": 6906,
+          "passage_sha256": "cdeba0e0e36279560c2093df39d15b641fd754d2bb9fb888a2ae130f4c01e0c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-access-004",
+        "statement": "In OECD Health at a Glance 2025, 46% of Colombians said they were satisfied with how available good-quality health care was, against an OECD average of 64%.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 3,
+          "char_start": 4273,
+          "char_end": 4377,
+          "passage_sha256": "00b6aadece30762cc57c3c59b112ea7043fb5be847cf06b43a0ec08bd599b2ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-access-005",
+        "statement": "The Ministry of Health reports that the average wait for internal medicine fell from 13.79 days in 2022 to 10.88 days in 2025, within the national standard of under 15 days; the national average for general surgery was 10.60 days, with 24 of 33 departments within the standard.",
+        "valence": "strength",
+        "source_id": "minsalud-tutelas-2025",
+        "locator": {
+          "page": 278,
+          "char_start": 513970,
+          "char_end": 514251,
+          "passage_sha256": "ab0789d8bc30dc2333c14f1229a687b954fb5250d0bb36f48a1fef6935c24c13"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-access-006",
+        "statement": "Overall user satisfaction with health services was 68.1% in 2025, a break from the improving trend of 2021-2024, with the Pacific and Orinoquía-Amazonía regions below the national average.",
+        "valence": "weakness",
+        "source_id": "minsalud-tutelas-2025",
+        "locator": {
+          "page": 278,
+          "char_start": 514761,
+          "char_end": 515016,
+          "passage_sha256": "274056b04c147875664c609f166aa05cfb9b4188f07c9f078316deb4ca7fcb48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-access-007",
+        "statement": "Maps of doctor and nurse density show that the distribution of health workers remains a major structural problem; Vichada, Guainía and Vaupés have the lowest densities in the country.",
+        "valence": "weakness",
+        "source_id": "minsalud-tutelas-2025",
+        "locator": {
+          "page": 279,
+          "char_start": 515499,
+          "char_end": 515896,
+          "passage_sha256": "d70734b102f775c916eb5bb8ec7616dd56c4f11d41314c8e2d79954b8b448abf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-access-008",
+        "statement": "Near-universal insurance does not by itself guarantee effective and equitable access; the dispersed rural population in particular faces greater barriers.",
+        "valence": "weakness",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Cobertura y acceso",
+          "char_start": 22199,
+          "char_end": 22482,
+          "passage_sha256": "8ef93a9c6290bf0dac59938ea0799f50965a5552496d500a52d8d8c6f59d6c43"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "COL-outcomes-001",
+        "statement": "Life expectancy in Colombia was 77.5 years, 3.6 years below the OECD average (OECD Health at a Glance 2025).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 2,
+          "char_start": 1658,
+          "char_end": 1736,
+          "passage_sha256": "42aa5d58976ac00335687f5673e7b72a1ed5a03b092a401b322126746baaa435"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-outcomes-002",
+        "statement": "Preventable mortality was 304 per 100,000 people (OECD average 145) and treatable mortality 115 per 100,000 (OECD average 77), per OECD Health at a Glance 2025.",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 2,
+          "char_start": 1739,
+          "char_end": 1913,
+          "passage_sha256": "6fa71b81ef4ed87fca006506823700612ec1ff6244071c8ecb9a458eb417d853"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-outcomes-003",
+        "statement": "In the GBD 2019 study, Colombia's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 61.1 (95% uncertainty interval 56.6-65.0) in 2019, 22.2 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 51367,
+          "char_end": 51475,
+          "passage_sha256": "36fd56e7004bc534eeb50ab9b33cc4d159d80a69fad0c265472c3fb3d44fb968"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "COL-outcomes-004",
+        "statement": "89% of eligible children in Colombia were vaccinated against DTP, lower than the OECD average (OECD Health at a Glance 2025).",
+        "valence": "weakness",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 4,
+          "char_start": 4571,
+          "char_end": 4665,
+          "passage_sha256": "b48bfa89d1e8ba57a430ec80a1e4b08cc54307e84c6d3dbe37b30533ad7874a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "COL-costs-001",
+        "statement": "Colombia spent USD 1,877 per person on health (PPP), against an OECD average of USD 5,967 (OECD Health at a Glance 2025).",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 4,
+          "char_start": 6055,
+          "char_end": 6147,
+          "passage_sha256": "9462a99934e58fee9ef8cf03260aeea4840687e95ef035b39907544d9ef6e374"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-costs-002",
+        "statement": "Health spending equalled 8.1% of GDP, against an OECD average of 9.3% (OECD Health at a Glance 2025).",
+        "valence": "neutral",
+        "source_id": "oecd-hag-2025-col",
+        "locator": {
+          "page": 5,
+          "char_start": 6201,
+          "char_end": 6271,
+          "passage_sha256": "310f8eb0f49ce9bd3556016856590d1d72150bf70b39903eff7f90a18ced2db0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-costs-003",
+        "statement": "Among more than 19 million contributory-scheme users in 2013-2021, average health spending per person rose gradually with age up to 60 for both sexes and then rose sharply.",
+        "valence": "neutral",
+        "source_id": "concentration-bmchsr-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2800,
+          "char_end": 3427,
+          "passage_sha256": "19cde1ff497a84b8a0b4723b92c1fef6f13a1126c646f8a7de5b9a02dcafdfd4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2013-2021"
+      },
+      {
+        "id": "COL-costs-004",
+        "statement": "Among more than 19 million contributory-scheme users in 2013-2021, the conditions taking the largest share of spending were cancers, blood diseases, circulatory conditions, and pregnancy, childbirth and the perinatal period.",
+        "valence": "neutral",
+        "source_id": "concentration-bmchsr-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2800,
+          "char_end": 3601,
+          "passage_sha256": "0956606f88401e5c522e07000af502dc45df914f61b58b0160ff9c49faf4e219"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2013-2021"
+      },
+      {
+        "id": "COL-costs-005",
+        "statement": "On 31 December 2024 the Ministry of Health announced a 5.36% rise in the UPC, close to the 5.2% inflation rate, a decision that drew protests from patient associations, medical societies and others.",
+        "valence": "neutral",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Letter",
+          "char_start": 4223,
+          "char_end": 4801,
+          "passage_sha256": "50f2be5163924d14989e74a87b6a3b0ee6400ecb9c2551eda28c59e551f79c88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "what_works": [
+      {
+        "id": "COL-what_works-001",
+        "statement": "Fully subsidised insurance for poor and informal workers and one standard benefit package for both schemes (together covering 98% of the population) have brought low out-of-pocket spending, high financial protection and smaller gaps in equity of access (Castano et al., 2024).",
+        "valence": "strength",
+        "source_id": "managedcomp-hepl-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 737,
+          "char_end": 1062,
+          "passage_sha256": "425610104fc062066d53b90d46fd3e3dd7ecf0c4bb82674282f4754f2fda44b9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-what_works-002",
+        "statement": "A 2025 letter by health economists says the Colombian system stands out for financial protection (low out-of-pocket spending) and high enrolment.",
+        "valence": "strength",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Letter",
+          "char_start": 6203,
+          "char_end": 6317,
+          "passage_sha256": "ffc6784bae507b80fdc4928d1d704335ac6ecf063fb11fd1da11ad15de22d20b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-what_works-003",
+        "statement": "A 2024 study states that Colombia has among the strongest financial protection against personal health spending in the world, with the lowest out-of-pocket spending across OECD countries.",
+        "valence": "strength",
+        "source_id": "concentration-bmchsr-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2613,
+          "char_end": 2799,
+          "passage_sha256": "25376ad7d6b03a6d84cdd68c56cc118e70332156720ef556df72fc05f208d900"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-what_works-004",
+        "statement": "A cost-utility study estimated that Colombia's 2021-2023 policy of enrolling over 1.4 million Venezuelan migrants in subsidized insurance gained 10,259 quality-adjusted life years (or averted 11,843 years of life lost), with an internal rate of return of 27.5% when a QALY is valued at 100% of GDP per person.",
+        "valence": "strength",
+        "source_id": "migrants-cu-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1041,
+          "char_end": 2130,
+          "passage_sha256": "3f6d80e71a8535667afe2cf557619733db04dfbf48c56bedb006b8a3a33cc132"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2021-2023"
+      },
+      {
+        "id": "COL-what_works-005",
+        "statement": "Difference-in-difference-in-differences estimates showed that enrolled migrant women used more prenatal care (0.37 more visits in 2017 and 0.34 in 2019), particularly mothers with less education.",
+        "valence": "strength",
+        "source_id": "migrants-lrha-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3455,
+          "char_end": 3703,
+          "passage_sha256": "5cb180f602d0f825688fcb9e64512333f1efe75998fbc7d31186e84868995ab9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2013-2020"
+      },
+      {
+        "id": "COL-what_works-006",
+        "statement": "Tutelas seeking services outside the benefit plan fell from 13.59% of health tutelas in 2024 to 9.77% in 2025, which the Ministry reads as a sign that expanding the benefit plan has had some effect.",
+        "valence": "strength",
+        "source_id": "minsalud-tutelas-2025",
+        "locator": {
+          "page": 276,
+          "char_start": 510419,
+          "char_end": 510717,
+          "passage_sha256": "a0b63b84083c2b47b34a57a5491f1759110138d254847f446efa19057afac707"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "problems": [
+      {
+        "id": "COL-problems-001",
+        "statement": "Health tutelas (constitutional lawsuits to obtain care) totalled 274,510 in 2025 by the Ministry of Health's count.",
+        "valence": "weakness",
+        "source_id": "minsalud-tutelas-2025",
+        "locator": {
+          "page": 276,
+          "char_start": 509342,
+          "char_end": 509429,
+          "passage_sha256": "dcfe1096a919d5eee77e6922f5b071826993630b0704c30a3afd49fdbdcc9063"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-problems-002",
+        "statement": "In 2025, 64.85% of health tutelas concerned delays and administrative barriers to services already paid for in the benefit plan, up from 40.85% in 2024.",
+        "valence": "weakness",
+        "source_id": "minsalud-tutelas-2025",
+        "locator": {
+          "page": 276,
+          "char_start": 509882,
+          "char_end": 510113,
+          "passage_sha256": "656d0eee68d96977c2bc4be7325b7954c15d5679f20ba8f3e65529a68440906f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-problems-003",
+        "statement": "At the time of a 2025 study, 10 of the 29 EPS operating in Colombia were under government intervention or special surveillance; they held about 29.8 million members, 57.09% of all members.",
+        "valence": "weakness",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Sostenibilidad financiera",
+          "char_start": 32401,
+          "char_end": 32691,
+          "passage_sha256": "40d41c09fc2a5937f6eb9ba22022a416917444169d940445a244b62c474dbc74"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-problems-004",
+        "statement": "More than 20 EPS were liquidated between 2010 and 2024, affecting millions of members.",
+        "valence": "weakness",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6893,
+          "char_end": 6977,
+          "passage_sha256": "a5b478593708effdef517c9a5fde24415e13bd333b55222ceb4a91c965e67121"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2010-2024"
+      },
+      {
+        "id": "COL-problems-005",
+        "statement": "In a study of nine continuously operating EPS that received members from liquidated insurers, average operating margins fell from 3.2% in 2017 to -0.59% in 2024; difference-in-differences estimates show that mass enrollee transfers reduced operating margins by 1.2 percentage points.",
+        "valence": "weakness",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3169,
+          "char_end": 4092,
+          "passage_sha256": "d66075bfaa9e991da3ce0afc80bcde6e21b31d066594c12e5da3611bf1322464"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2017-2024"
+      },
+      {
+        "id": "COL-problems-006",
+        "statement": "Risk adjustment of the UPC remains limited, and the UPC has been persistently insufficient compared with observed medical costs.",
+        "valence": "weakness",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "Introduction: Brief overview of health financing and insurance in Colombia",
+          "char_start": 8697,
+          "char_end": 8943,
+          "passage_sha256": "3738443f0fb9f835788e7dda91a06bce7d1ef9bdf646dd8a09cbe56b07e89f28"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-problems-007",
+        "statement": "On 23 January 2025 the Constitutional Court declared general non-compliance with its orders on the financial sufficiency of the UPC in both regimes and ordered the Ministry to set criteria for ex post adjustments.",
+        "valence": "weakness",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Final considerations",
+          "char_start": 17341,
+          "char_end": 17682,
+          "passage_sha256": "bdbad4a92ce45870d71929bed7aa18da2b64dac95ef1f02fd054dd74146487fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "COL-problems-008",
+        "statement": "By 2024 there had been no significant progress in carrying out the orders of the Constitutional Court's July 2008 ruling T-760, with assessments similar to those of 2015 and 2018; obstacles to access and to the flow of funds persisted.",
+        "valence": "weakness",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2752,
+          "char_end": 3774,
+          "passage_sha256": "a25499496b0a72cd0df8d70f73e7c820531893ddf5d9bec7a4fb2e2050ee6d97"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "COL-problems-009",
+        "statement": "The 'maximum budgets' mechanism, an extra yearly allocation for services outside the UPC, has not been enough to stop insurers' reimbursement claims from building up, which continues to disrupt the flow of funds.",
+        "valence": "weakness",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 21233,
+          "char_end": 21822,
+          "passage_sha256": "86d13089965e8145719278cef1e1a97defb762c3faa54b938c8fe4af32e5c1ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-problems-010",
+        "statement": "In the 2016-2017 national household budget survey, 1.77% of households had catastrophic health expenditure (WHO definition, 20% threshold), with the highest rates in Boyacá (5.04%), Nariño (4.04%), Cauca (3.82%) and Chocó (3.78%).",
+        "valence": "weakness",
+        "source_id": "che-plosone-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2577,
+          "char_end": 3462,
+          "passage_sha256": "158b08cf33780ec157bb66712ad9a6fce60c8739c2d441bf13d675bf0ea0e7f9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2016-2017"
+      },
+      {
+        "id": "COL-problems-011",
+        "statement": "The Constitutional Court required the benefits of both regimes to be unified by 2012. Cervical cancer mortality in the subsidized regime rose significantly in 2013-2020 (2.28% a year) after a non-significant decrease in 2006-2012, while in the contributory regime it fell significantly in 2006-2012 (3.27% a year) and was essentially flat in 2013-2020.",
+        "valence": "weakness",
+        "source_id": "cervical-bmchsr-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2621,
+          "char_end": 3959,
+          "passage_sha256": "6926e86763175f5739c1da995ae7534205e7eeacfa9577e65082fe4ffd6da1e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2006-2020"
+      },
+      {
+        "id": "COL-problems-012",
+        "statement": "Interviewees in a qualitative study said voluntary private insurance worsens timely access in the public system, makes people pay twice for services they are entitled to, and widens inequity in access between people with similar needs but different ability to pay.",
+        "valence": "weakness",
+        "source_id": "vphi-ijeh-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3602,
+          "char_end": 4000,
+          "passage_sha256": "44d699dbcf792a0890751fc6ebc1e985c3d543bfaef260a06253080cc01084ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-problems-013",
+        "statement": "In a qualitative study of 28 stakeholders and policymakers, interviewees named corruption, underfunding, poor information systems, limited research, insurers' management of resources, vertical integration and the medical-industrial complex as institutional determinants of the fragmented financing of Colombia's health system.",
+        "valence": "weakness",
+        "source_id": "fragmentation-bmchsr-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2789,
+          "char_end": 3961,
+          "passage_sha256": "80f724db7434d3819193cf737cab8547ef29e83ccba49cdb014d8df11c76edbd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2024-2025"
+      }
+    ],
+    "reforms": [
+      {
+        "id": "COL-reforms-001",
+        "statement": "A 2023 government bill to restructure the system, including the role of the EPS, failed in Congress; the government presented a similar proposal in 2024, which was before Congress when this letter was written (published April 2025).",
+        "valence": "neutral",
+        "source_id": "upc2025-her-2025",
+        "locator": {
+          "section": "Premeditated decision to exert political pressure?",
+          "char_start": 13507,
+          "char_end": 13937,
+          "passage_sha256": "fb7e4f8b5ba9ae355199b525062c4cca3fed13f2fa5a2bf8d0dacc5f857d415e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2023-2025"
+      },
+      {
+        "id": "COL-reforms-002",
+        "statement": "Article 313 of Law 2294 of 2023, which issued the 2022-2026 National Development Plan, created the Basic Value Unit (UVB); the 2025 table of moderating fees and copayments cites it as a legal basis, alongside Agreement 260 of 2004 and Decree 1652 of 2022.",
+        "valence": "neutral",
+        "source_id": "minsalud-copagos-2025",
+        "locator": {
+          "page": 1,
+          "char_start": 278,
+          "char_end": 649,
+          "passage_sha256": "2ba8c90177bce4ca54be0934a10a9275ac2c83107efcbf9d887461e24b02f464"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "COL-reforms-003",
+        "statement": "From 2021 to 2023 Colombia carried out a national policy to enrol more than 1.4 million Venezuelan migrants in its subsidized health insurance.",
+        "valence": "strength",
+        "source_id": "migrants-cu-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1041,
+          "char_end": 1301,
+          "passage_sha256": "82044b25c50b272ed5d84b56d497a9ae9d127215b2baa78a3fe416e63b204522"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2021-2023"
+      },
+      {
+        "id": "COL-reforms-004",
+        "statement": "In 2016, eligibility for subsidized insurance was extended to vulnerable migrant women, who before then had limited access to routine prenatal care.",
+        "valence": "neutral",
+        "source_id": "migrants-lrha-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1991,
+          "char_end": 2215,
+          "passage_sha256": "820f3d548db26aa43f7236fe23a5a4a34d646904c8653c55e3a156cec5e23943"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "COL-reforms-005",
+        "statement": "With the Statutory Health Law (Law 1751 of 2015) the term PBS replaced POS, marking a move from an explicit benefit plan to an implicit one.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 17749,
+          "char_end": 17986,
+          "passage_sha256": "9dbcd086de28e952e7b2a0a0252f939584fb89c6c17efaf133df6a6224951188"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "COL-reforms-006",
+        "statement": "Between October 2009 and July 2012 the benefit plans of the contributory and subsidized regimes were unified, starting with children and extended step by step to other age groups.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "El plan de beneficios en salud (PBS)",
+          "char_start": 17216,
+          "char_end": 17561,
+          "passage_sha256": "27ccfd246def06cb685a6ba290879491c62c03cbc10065e13052c835075a5858"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "2009-2012",
+        "historical": true
+      },
+      {
+        "id": "COL-reforms-007",
+        "statement": "Law 100 aimed to raise health insurance coverage from about 25% of the population in 1992 to 100% by the end of 2000; in 2000 coverage reached only 58.5%.",
+        "valence": "neutral",
+        "source_id": "court-rsap-2025",
+        "locator": {
+          "section": "Introducción",
+          "char_start": 5323,
+          "char_end": 6399,
+          "passage_sha256": "8ac24fc8cb55275037bfca7d0b37a236ccf3079c7679b27a9f2c85b2190d4f76"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        },
+        "data_year": "1992-2000",
+        "historical": true
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "COL-us_lessons-001",
+        "statement": "The authors say their findings show an urgent need for ex ante and ex post risk adjustment when enrollees are transferred between insurers, can inform reforms introducing inter-insurer compensation funds and automatic UPC adjustments, and set a methodological precedent for other countries facing forced enrollee transfers.",
+        "valence": "neutral",
+        "source_id": "liquidation-bmjgh-2026",
+        "locator": {
+          "section": "How this study might affect research, practice or policy",
+          "char_start": 6033,
+          "char_end": 6501,
+          "passage_sha256": "963dbb7e8878b04f57e6487bb4fc1ff7a71151e5fa7ffbfaa4db51009d278fac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      },
+      {
+        "id": "COL-us_lessons-002",
+        "statement": "The authors say Colombia's 2021-2023 enrolment of Venezuelan migrants in subsidized insurance yielded high social returns and offers a model for other countries dealing with large-scale migration.",
+        "valence": "neutral",
+        "source_id": "migrants-cu-2025",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1041,
+          "char_end": 2397,
+          "passage_sha256": "6a03dff1609dc38737de3c337abb2fcabf1f9d4b7b98808852a372aede1289fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-13",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass by independent reviewer agents, two rounds)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/COL.json",
+  "sources": [
+    {
+      "id": "oecd-hag-2025-col",
+      "title": "Health at a Glance 2025: Colombia (country note)",
+      "publisher": "OECD",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025-country-notes_2f94481e/colombia_10cda4ee/971e6076-en.pdf",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "minsalud-tutelas-2025",
+      "title": "Informe de tutelas por vulneración del derecho a la salud (cumplimiento de la orden trigésima, Sentencia T-760 de 2008), abril de 2026",
+      "publisher": "Ministerio de Salud y Protección Social, Oficina de Calidad",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/informe-tutelas-vulneracion-derecho-salud-2025.pdf",
+      "funding_note": "Report by the Ministry of Health to the Constitutional Court, published April 2026 under the previous (Petro) government; its conclusions credit the ministry's own policies, so claims here use only its figures and findings, not its evaluative framing. Its 2025 tutela count (274,510) differs from the Ombudsman's (about 312,500) because the two use different data sources.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "minsalud-copagos-2025",
+      "title": "Cuotas moderadoras y copagos 2025 (Acuerdo 260 de 2004 CNSSS, Decreto 1652 de 2022, Ley 2294 de 2023 art. 313)",
+      "publisher": "Ministerio de Salud y Protección Social",
+      "tier": 1,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VP/RBC/actualizacion-montos-vigencia-2025-cuota-moredarores--copagos-uvb.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "ugpp-dependientes-2026",
+      "title": "ABC: Trabajadores dependientes que devengan salario integral (2026)",
+      "publisher": "Unidad de Gestión Pensional y Contribuciones Parafiscales (UGPP)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.ugpp.gov.co/wp-content/uploads/2026/02/ABC-Trabajadores-dependientes-que-devengan-salario-integral.pdf",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "ugpp-abece-empleadores",
+      "title": "ABECE: Pago correcto empleadores",
+      "publisher": "Unidad de Gestión Pensional y Contribuciones Parafiscales (UGPP)",
+      "tier": 1,
+      "type": "government",
+      "year": 2017,
+      "url": "https://www.ugpp.gov.co/sites/default/files/Parafiscales/ABECE-Pago-Correcto-Empleadores-V1.pdf",
+      "funding_note": "Undated guidance; the latest legal reference it cites is from 2017, so 2017 is recorded as its year.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "dian-oficio-359-2020",
+      "title": "Oficio 0359 de 2020: deducción de pagos a planes voluntarios de salud (ambulancia prepagada, medicina prepagada)",
+      "publisher": "Dirección de Impuestos y Aduanas Nacionales (DIAN)",
+      "tier": 1,
+      "type": "government",
+      "year": 2020,
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_0359_2020.htm",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "liquidation-bmjgh-2026",
+      "title": "Effect of mass transfers of enrollees from liquidated health insurance companies on the financial sustainability of health insurance: an ecological study in the Colombian health system",
+      "publisher": "BMJ Global Health",
+      "authors": "Pinzon Florez CE, Gómez Ardila C, Ruiz-Rodriguez M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1136/bmjgh-2025-021359",
+      "doi": "10.1136/bmjgh-2025-021359",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13157757",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "fragmentation-bmchsr-2026",
+      "title": "Political and institutional determinants of the Colombian health system financing fragmentation: an exploratory qualitative study",
+      "publisher": "BMC Health Services Research",
+      "authors": "Losada-Trujillo N, Guarnizo-Herreño CC, Eslava-Schmalbach J, Sánchez-Alfaro LA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14755-0",
+      "doi": "10.1186/s12913-026-14755-0",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13366813",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "Funded by the UK National Institute for Health and Care Research (NIHR150067). Qualitative interviews with 28 stakeholders (Nov 2024-Jan 2025); findings are participants' perceptions.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "upc2025-her-2025",
+      "title": "Health insurance premium in Colombia for 2025: a strictly political-ideological decision without technical-scientific arguments?",
+      "publisher": "Health Economics Review",
+      "authors": "Espinosa O, Rodríguez-Lesmes P, Prada S, Bolívar M, Mejía-Becerra JD, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s13561-025-00620-z",
+      "doi": "10.1186/s13561-025-00620-z",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11980290",
+      "license": "CC BY-NC-ND 4.0",
+      "funding_note": "A letter by health-economics and actuarial researchers opposing the 2025 UPC decision; it argues a position. Claims here use only its factual statements (UPC figures, legal rules, dated events), not its judgments.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "court-rsap-2025",
+      "title": "Derecho a la salud en Colombia: cumplimiento de las órdenes de la Corte Constitucional al año 2024",
+      "publisher": "Revista de Salud Pública (Bogotá)",
+      "authors": "Restrepo JH, Palacios L, et al. (Grupo de Economía de la Salud, Universidad de Antioquia)",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.15446/rsap.v27n4.121060",
+      "doi": "10.15446/rsap.v27n4.121060",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12755215",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "managedcomp-hepl-2024",
+      "title": "Managed competition in Colombia: convergence of public and private insurance and delivery",
+      "publisher": "Health Economics, Policy and Law",
+      "authors": "Castano R, Prada SI, Maldonado N, Soto V",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1017/S1744133123000348",
+      "doi": "10.1017/S1744133123000348",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38251683&rettype=abstract&retmode=text",
+      "funding_note": "Abstract only (full text paywalled). Written before the 2023-2025 reform attempts; the authors note the system was likely to be reformed.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "vphi-ijeh-2024",
+      "title": "Whoever wants better healthcare simply pays more: citizens' perception about voluntary private health insurance in Colombia",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Patiño-Lugo DF, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12939-023-02086-z",
+      "doi": "10.1186/s12939-023-02086-z",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10785507",
+      "license": "CC BY 4.0",
+      "funding_note": "Funded by Minciencias and the University of Antioquia. Qualitative study (46 interviews); consequences listed are interviewees' perceptions.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "concentration-bmchsr-2024",
+      "title": "Study on the concentration, distribution, and persistence of health spending for the contributory scheme in Colombia",
+      "publisher": "BMC Health Services Research",
+      "authors": "Espinosa O, Friebel R, Bejarano V, Arias ML, Husereau D, Smith A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12913-024-11636-2",
+      "doi": "10.1186/s12913-024-11636-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11470544",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "che-plosone-2023",
+      "title": "What are the factors associated with catastrophic health expenditure in Colombia? A multi-level analysis",
+      "publisher": "PLOS ONE",
+      "authors": "Ramirez-Agudelo JL, Pinilla-Roncancio M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1371/journal.pone.0288973",
+      "doi": "10.1371/journal.pone.0288973",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10374149",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "cervical-bmchsr-2024",
+      "title": "Impact of the universal health insurance benefits on cervical cancer mortality in Colombia",
+      "publisher": "BMC Health Services Research",
+      "authors": "Lewis AGC, Hernandez DM, Garcés-Palacio IC, Soliman AS",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12913-024-10979-0",
+      "doi": "10.1186/s12913-024-10979-0",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11143589",
+      "license": "CC BY 4.0",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "migrants-lrha-2026",
+      "title": "Health insurance expansion for migrants and maternal, perinatal, and infant health outcomes in Colombia: a national cohort study",
+      "publisher": "The Lancet Regional Health - Americas",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "authors": "Espinosa O, Rodríguez-Lesmes P, Hone T, Millett C, Bejarano V, et al.",
+      "url": "https://doi.org/10.1016/j.lana.2026.101612",
+      "doi": "10.1016/j.lana.2026.101612",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13545283",
+      "funding_note": "Funded by the UK NIHR.",
+      "accessed": "2026-11-13"
+    },
+    {
+      "id": "migrants-cu-2025",
+      "title": "Health for all? A cost-utility evaluation of Colombia's policy to enroll Venezuelan migrants (2021-2023)",
+      "publisher": "Journal of Migration and Health",
+      "authors": "Espinosa O, Rodríguez P, Bejarano V, León S, Ortiz JL",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.jmh.2025.100374",
+      "doi": "10.1016/j.jmh.2025.100374",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12661300",
+      "license": "CC BY 4.0",
+      "funding_note": "Two authors are with the Inter-American Development Bank, which supported migrant-integration programmes in Colombia.",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-13",
+      "note": "Profile created: 84 claims from 18 sources, anchored and support-reviewed in a separate cold pass by independent reviewer agents (two rounds); 33 statements reworded or re-anchored in review, none dropped. financial_hardship left empty (no national data on medical debt or health-related insolvency found); no qualifying ranking states Colombia's position."
+    }
+  ]
+}

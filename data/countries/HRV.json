@@ -1,0 +1,1193 @@
+{
+  "iso3": "HRV",
+  "name": "Croatia",
+  "wave": 4,
+  "system_as_of": "2026-11-20",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Single national health insurance fund financed mainly by payroll contributions and state-budget transfers, with voluntary insurance for co-payments"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "HRV-overview-002",
+      "HRV-overview-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "HRV-overview-001",
+        "statement": "Roughly 99% of Croatian residents are insured through the mandatory scheme, and a single statutory insurer, the Croatian Health Insurance Fund, is the chief purchaser of health services.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 4, first paragraph",
+          "page": 8,
+          "char_start": 45647,
+          "char_end": 45889,
+          "passage_sha256": "58f6baa903c46d122cdd6edb6df3bb1ed4534c9de499b1f84546e73b2bdccfca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HRV-overview-002",
+        "statement": "Health insurance is mandatory for all residents, including foreign nationals who live in the country for more than three months, and residents cannot opt out.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 7,
+          "char_start": 11070,
+          "char_end": 11290,
+          "passage_sha256": "559b5c1fae331661aa6c3112efbc62ed4273b3f1e4ca6cf951cf8583a82dfcce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-overview-003",
+        "statement": "The Ministry of Health leads health system governance and tertiary care, while counties organise regional services and primary care; ownership of general hospitals moved from the counties to central government in January 2024.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Organization",
+          "page": 3,
+          "char_start": 2616,
+          "char_end": 3399,
+          "passage_sha256": "a8598ecaad0bf0c31100ef50143445c4495e1e3fc69f6f7aeee15d62221d8343"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-overview-004",
+        "statement": "Secondary and tertiary providers are mostly publicly owned. Most primary care practices are now privately owned, but most are contracted by the insurance fund, and publicly paid services are their main source of income.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Providers",
+          "page": 4,
+          "char_start": 5296,
+          "char_end": 5677,
+          "passage_sha256": "c1a0a80481194bd68dcc019bc8e9b03b9f4da1dba276575b5bd33cbda4f3b8d7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-overview-005",
+        "statement": "Every insured adult must register with a freely chosen family physician, who acts as gatekeeper to specialist and hospital care.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Primary and ambulatory care",
+          "page": 11,
+          "char_start": 21672,
+          "char_end": 21986,
+          "passage_sha256": "7f59f2a648ffca92e0c95bc93d364f6b1820564a059602c13797577fb88de9af"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financing": [
+      {
+        "id": "HRV-financing-001",
+        "statement": "In 2023 mandatory insurance contributions made up 78.0% of the insurance fund's revenue and the state budget supplied 13.9%.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Funding mechanisms",
+          "page": 4,
+          "char_start": 6250,
+          "char_end": 6413,
+          "passage_sha256": "dff1aa3cfeb415b97ab16f60039d53ab669db6cce2c88ab93e2e4b9d9c5c15f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-financing-002",
+        "statement": "The summary gives the current contribution rate as 16.5% of gross salary for employees, transferred by the employer. Farmers and religious officials pay 7.5% of a proportion of the average salary, and pensioners pay 3% of pension income above the average net wage.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Funding mechanisms",
+          "page": 4,
+          "char_start": 6704,
+          "char_end": 6981,
+          "passage_sha256": "e18d293de0f5fe7e8e0d694f2e192c2d8d51b07b625dd810bf1ce95e387351e0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-financing-003",
+        "statement": "Contributions for economically inactive groups such as pensioners and unemployed people are covered by transfers from the state budget, and dependents are covered through contributions paid by working family members.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 46257,
+          "char_end": 46627,
+          "passage_sha256": "339f2358da35425ca34a374270a18d013efbad74cb274e3374df38069fc38d61"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HRV-financing-004",
+        "statement": "In 2023 public sources funded 84.9% of current health spending (EU average 80.3%), out-of-pocket payments 9.4% (EU 15.5%) and voluntary health insurance 5.7% (EU 4.5%).",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 4, health expenditure",
+          "page": 9,
+          "char_start": 50116,
+          "char_end": 50418,
+          "passage_sha256": "abae4c708f73c7066c303ed244a41703ba0d64b5b9f23d13bebe847fa63b6fba"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-financing-005",
+        "statement": "Croatia has two kinds of voluntary health insurance: complementary (called supplementary in Croatia), which covers user charges in the mandatory scheme, and a second kind (called additional insurance) that covers a higher standard of care.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Health expenditure, footnote 1",
+          "page": 6,
+          "char_start": 8795,
+          "char_end": 9118,
+          "passage_sha256": "5ae20562a731204d2d2c2b4546fe7ced46946b9b5e296968bb45fe08012687a3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "covered": [
+      {
+        "id": "HRV-covered-001",
+        "statement": "Services for children and pregnant women, preventive services for people over 65 and people with disabilities, treatment of chronic psychiatric disease and cancer, immunisations, home nursing and palliative care are exempt from co-payments and fully covered by the insurance fund.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 7,
+          "char_start": 11981,
+          "char_end": 12349,
+          "passage_sha256": "d192cf64a4fe2eea1c29d9db0abb1ecf65e8daeb2fc65a4e7684e6d53391682e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-covered-002",
+        "statement": "Croatia uses a negative list to exclude services such as cosmetic surgery and a positive list of medicines; medicines not on the positive list must be paid for in full by patients.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 14,
+          "char_start": 86599,
+          "char_end": 86804,
+          "passage_sha256": "68aba96949a9ab3ae3c271caaf15d0351c4cf7589b4af44f9b9cd5f5e6843aec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-covered-003",
+        "statement": "Almost all basic dental procedures, and emergency dental care, are covered by mandatory insurance, including orthodontics up to age 18 for specified cases.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Dental care",
+          "page": 13,
+          "char_start": 27190,
+          "char_end": 27448,
+          "passage_sha256": "9bf279681503d2d016765a84ffe2dd9089556cf7bdbd98006603a919a6e95372"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-covered-004",
+        "statement": "Since 2010 a list of especially expensive medicines, such as cancer and rare-disease treatments, has been in place; they are given in hospital after approval by that hospital's medicines commission, and the insurance fund checks the use against its guidelines.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 6",
+          "page": 21,
+          "char_start": 138832,
+          "char_end": 139268,
+          "passage_sha256": "828f3db32ea36ffeac395d4ed9fe75917a9ad21caaa01aefd2122aab707ebf83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "HRV-covered-005",
+        "statement": "In 2023 social health insurance paid for 74% of retail pharmaceutical spending, voluntary insurance 2% and patients 24%.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 6",
+          "page": 20,
+          "char_start": 127828,
+          "char_end": 127984,
+          "passage_sha256": "a21fd2785ea974d709afae8e3cde34c9ba847367a8fd99227e1ba87ff9f00ac6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-covered-006",
+        "statement": "The insurance fund, working with medical associations, sets the price list for all covered services, with the approval of the Ministry of Health.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Coverage",
+          "page": 7,
+          "char_start": 11697,
+          "char_end": 11980,
+          "passage_sha256": "b71fa47b86b01d609d57374e3a497010944c39b3e1a4fd736dacc09649967a38"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "HRV-cost_sharing-001",
+        "statement": "Patients pay user charges for hospital stays and primary care visits, with a ceiling of EUR 531 per illness episode in secondary and tertiary care. Medicines given in hospital carry no charge, and a primary care visit cost EUR 1.32 in 2024.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 14,
+          "char_start": 86805,
+          "char_end": 87033,
+          "passage_sha256": "76767121a32c83983cc9ece51920038c1330e7604565b9948e01dc4697e5f490"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-cost_sharing-002",
+        "statement": "About 20% of the population, including children, students, low-income groups and people with certain conditions, is exempt from user charges.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 14,
+          "char_start": 87034,
+          "char_end": 87179,
+          "passage_sha256": "7946362b7e4d7b5b127b42ab49d73872b55984325a25160de889cb3f79956706"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-cost_sharing-003",
+        "statement": "Complementary voluntary insurance plans cover all patient co-payments in the mandatory scheme.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Health expenditure",
+          "page": 6,
+          "char_start": 10557,
+          "char_end": 10674,
+          "passage_sha256": "b03c61e80085177f8e0452051835464e6696eed91b4348a6a0baf7f532ec3621"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-cost_sharing-004",
+        "statement": "Retail pharmaceuticals made up 49% of out-of-pocket spending (EU 26%) and dental care 20% (EU 12%).",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 14,
+          "char_start": 87491,
+          "char_end": 87682,
+          "passage_sha256": "0cb66b07becf902a5b36346aa58a4ead213a8041342d360be8e3ffcc6f8d45e6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [
+      {
+        "id": "HRV-additional_care-001",
+        "statement": "Formal long-term care is underdeveloped and few older people receive residential long-term care, so the burden falls on family members.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Long-term and palliative care",
+          "page": 12,
+          "char_start": 26310,
+          "char_end": 26767,
+          "passage_sha256": "080cf12bfea66df3020e5cd4e00888c5d48912ea9be5f4bc47bfc048b0be821f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-additional_care-002",
+        "statement": "Long-term care received 3% of health expenditure in 2023, against an EU average of 18%.",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 9,
+          "char_start": 51221,
+          "char_end": 51380,
+          "passage_sha256": "6dbd72b59c343f31c48f9ebc05aee1f0612e2629f7ae3db51cef427f38742e28"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "access": [
+      {
+        "id": "HRV-access-001",
+        "statement": "In 2024, 2.0% of people with medical needs reported unmet need for a medical examination because of cost, waiting time or distance (EU average 3.6%); among people at risk of poverty the figure was 4.8% (EU 6.0%).",
+        "valence": "strength",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 13,
+          "char_start": 79354,
+          "char_end": 79704,
+          "passage_sha256": "15b9842a45f46038c246f59244451214b8afa7b2acde9187f9b8315f582d9334"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-access-002",
+        "statement": "Unmet medical need due to cost fell from 2.2% in 2011 to 0.2% in 2023.",
+        "valence": "strength",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Accessibility and financial protection",
+          "page": 14,
+          "char_start": 31073,
+          "char_end": 31217,
+          "passage_sha256": "873c2d4d6fe75e4f784e898ed322e8b22ddff1a6d5e39917afb5fddb87c50e1d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-access-003",
+        "statement": "Rural travel distances to health facilities average 21.8 km against 14.4 km in the EU, and in 2024 a larger share of Croatians (0.7%) than in any other EU country reported unmet need because of distance.",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 15,
+          "char_start": 94190,
+          "char_end": 94482,
+          "passage_sha256": "339d971e21239985583d6d248f3206f6fd06c254ed20c1b9be8231934e73afa7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-access-004",
+        "statement": "Waiting times for some diagnostic and treatment procedures are long in some hospitals, more than 10 months, and differ greatly between hospitals.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Hospital care",
+          "page": 12,
+          "char_start": 25504,
+          "char_end": 25657,
+          "passage_sha256": "c98eecdd9fc7320bd4e556238a8d7b7af3c25c3e4baf73bb9daada3d4cd8f595"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-access-005",
+        "statement": "No internationally comparable waiting-time data exist for Croatia, and it is hard to tell how waits changed after the pandemic.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 16,
+          "char_start": 103925,
+          "char_end": 104143,
+          "passage_sha256": "b5b81850292f2b0365fdc15863caa0488bd5f1cedda433681269d4b9a2c44f54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "HRV-access-006",
+        "statement": "For medicines approved by the EU in 2020-2023, the average time to reimbursement in Croatia was 549 days (EU average 578), and as of January 2025 27% of those medicines had coverage, against 46% across the EU.",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 6",
+          "page": 21,
+          "char_start": 138366,
+          "char_end": 138658,
+          "passage_sha256": "168f9225d4c4ae3546d9cf981fc79e5a0a3e6bf90e5bad45d4819d67bd9ee636"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "HRV-access-007",
+        "statement": "Croatia had 4.0 physicians and 7.7 nurses per 1,000 people in 2023, below EU averages of 4.3 and 8.5.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 3",
+          "page": 10,
+          "char_start": 59723,
+          "char_end": 59967,
+          "passage_sha256": "b29d5dae9dbba2affeb081e8883674c7d0392b396684506f578a5441e11e68f4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "HRV-outcomes-001",
+        "statement": "Croatian life expectancy reached 79.1 years in 2023, 2.6 years below the EU average.",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 7, Key findings",
+          "page": 22,
+          "char_start": 143995,
+          "char_end": 144125,
+          "passage_sha256": "29a0f2dc6370e7cb928c19c6e852c7dbde2dd7641b999d22d0f728b9f23ca1ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-outcomes-002",
+        "statement": "Deaths from treatable causes reached 133 per 100,000 in 2022, almost 50% above the EU average of 90.",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 11,
+          "char_start": 66435,
+          "char_end": 66713,
+          "passage_sha256": "c212556c146bf5bdffab1e9d9be6cb5b27f1d963662f01f19e0f34b5314af482"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "HRV-outcomes-003",
+        "statement": "Preventable mortality was 312 per 100,000 in 2021, up from 233 in 2019, against an EU average of 201 in 2021.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Health system outcomes",
+          "page": 17,
+          "char_start": 37224,
+          "char_end": 37472,
+          "passage_sha256": "8961867428e3908ca29f8e36dd4f9450a34db01f9f1ca2f74cbcafa5b1832d3d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HRV-outcomes-004",
+        "statement": "In 2022 the leading causes of preventable deaths were lung cancer (18%), alcohol-related diseases (11%), ischaemic heart disease (10%) and COVID-19 (10%).",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 11,
+          "char_start": 65117,
+          "char_end": 65360,
+          "passage_sha256": "8b04d404dc4a6aca5dc8d0142674ceb543b0b5cf00f660b9fe66472cb9e96346"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "HRV-outcomes-005",
+        "statement": "Breast cancer screening reached 62% in 2023 (EU 58%), while colorectal cancer screening was 26% (EU 48%).",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 11,
+          "char_start": 68224,
+          "char_end": 68451,
+          "passage_sha256": "92153e44f2796bb1db015b0d78ff618bba9eafbc4a54b5487993e987792b7185"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-outcomes-006",
+        "statement": "Avoidable hospital admissions for asthma and COPD and for heart failure are very low, but because treatable mortality from diabetes and ischaemic heart disease is very high, the profile says this may signal barriers to hospital care.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 12,
+          "char_start": 71575,
+          "char_end": 71951,
+          "passage_sha256": "e6aa1948a4613f580a3443f9a8851d478fdf9c53ffd7757c716b1468dd35afb1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "costs": [
+      {
+        "id": "HRV-costs-001",
+        "statement": "Health spending was 7.1% of GDP in 2023, down from 8.1% in 2021 and above 6.8% in 2019; per person it was EUR 2,032, about half the EU average of EUR 3,832.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 8,
+          "char_start": 47477,
+          "char_end": 48067,
+          "passage_sha256": "a9efc9ae13970776ae961f25b61af1f9a8fac9e5471b4475e449bdd83f8cf974"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-costs-002",
+        "statement": "Real public health spending per person rose 68% from 2015 to 2023 (EU 24%), and health's share of government spending went from 14.4% in 2015 to 17.4% in 2021 and 16.8% in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 16,
+          "char_start": 105190,
+          "char_end": 105606,
+          "passage_sha256": "3ce8d01e13a99aa2f4170b8da80e2c21f32a5a1fc4ec2a8ee25b3fc6a5d02b4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-costs-003",
+        "statement": "Retail pharmaceutical spending was EUR 391 per person in 2023, more than 20% below the EU average of EUR 510.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Highlights",
+          "page": 3,
+          "char_start": 6649,
+          "char_end": 6809,
+          "passage_sha256": "27bf2e75f7962d8057376b4a86cbeb47a0e146fa5e5e63195411b8f2d6df6294"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-costs-004",
+        "statement": "In 2023 outpatient care took 35% of current health spending and inpatient care 32%.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 4",
+          "page": 9,
+          "char_start": 50582,
+          "char_end": 50861,
+          "passage_sha256": "604230a05e46bc5329cc308ae15ea1698b1105888c68988d3a9eab039019c90e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "what_works": [
+      {
+        "id": "HRV-what_works-001",
+        "statement": "Self-reported unmet dental care need was 1.1% in 2024, the third lowest in the EU (average 6.3%); the profile credits the depth of dental benefits.",
+        "valence": "strength",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.2",
+          "page": 13,
+          "char_start": 79849,
+          "char_end": 80189,
+          "passage_sha256": "5c7205c8f34b29f8ae23ad59b4f5ad75b07a38bd801b734feccca8e54b4a02b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-what_works-002",
+        "statement": "The summary describes high public spending, a broad package for nearly everyone and a high level of financial protection.",
+        "valence": "strength",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Summing up",
+          "page": 19,
+          "char_start": 42741,
+          "char_end": 42924,
+          "passage_sha256": "435b888b3272fffcf30d59f1cba56bc8280d9e049a60da2a147540dcb8e59638"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-what_works-003",
+        "statement": "The summary names as strengths of primary care that the whole population is insured, care continues across the life span, it is available across the country and it takes a holistic approach.",
+        "valence": "strength",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Box 3",
+          "page": 11,
+          "char_start": 22325,
+          "char_end": 22652,
+          "passage_sha256": "e9ca547ee038cdc37680460c181eb3d0f77b5a05ccf71f0e302c97a036f63857"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-what_works-004",
+        "statement": "Electronic health records were introduced in all hospitals in March 2023, and a medicines management system covering all medications was introduced in 2024.",
+        "valence": "strength",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 17,
+          "char_start": 110603,
+          "char_end": 110978,
+          "passage_sha256": "f78dd5c22662b47a537fde629b6696a122bc12950ba6fc41915152de02c0309f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-what_works-005",
+        "statement": "Croatia had 72 nursing graduates per 100,000 population in 2023, almost twice the EU average of 39.",
+        "valence": "strength",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.3",
+          "page": 17,
+          "char_start": 109210,
+          "char_end": 109450,
+          "passage_sha256": "f9f6ede41db44552ef0148387a3baf987302e60c97c8090b6acc0c2e591df8ef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "problems": [
+      {
+        "id": "HRV-problems-001",
+        "statement": "The summary says resources are broadly sufficient, but geographical challenges and long waiting times impede access to health services.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Summing up",
+          "page": 19,
+          "char_start": 42925,
+          "char_end": 43101,
+          "passage_sha256": "2cad9655a60918412fce1f32543bd1251427aa1be94173f1e41d22ab2b3860bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-problems-002",
+        "statement": "A study of aggregated public hospital data comparing waiting times for 2018 found 268 days for MRI versus 77.61 days for CT.",
+        "valence": "weakness",
+        "source_id": "biloglav-2020",
+        "locator": {
+          "section": "Abstract: Methods and Results",
+          "char_start": 622,
+          "char_end": 1034,
+          "passage_sha256": "94c77be4a62889dbb0dd90f0be16c20e66987ef99a18d9f2a4580aa6fafc6396"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "HRV-problems-003",
+        "statement": "Urban regions have a consistently higher density of health workers, whereas rural areas and the islands lack primary care practitioners.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Distribution of health resources",
+          "page": 10,
+          "char_start": 19149,
+          "char_end": 19352,
+          "passage_sha256": "5f7f0cab5e917f706beb938df71220a21556e039288d87615d9f1d6bc041a835"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "HRV-problems-004",
+        "statement": "The summary says hospitals remain prone to arrears because spending limits are not aligned with the types and amounts of services provided.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Health system efficiency",
+          "page": 19,
+          "char_start": 42153,
+          "char_end": 42358,
+          "passage_sha256": "b2abb5430b1cc1588cfbc233a29d1c921543c98d494bf3d77cb8249b646b445a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "HRV-problems-005",
+        "statement": "Data on hospital care quality, such as 30-day mortality after heart attack or stroke, are not routinely collected in Croatia.",
+        "valence": "weakness",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Section 5.1",
+          "page": 12,
+          "char_start": 72024,
+          "char_end": 72277,
+          "passage_sha256": "346939bb57bf1c83568bd43889e10ea4ced39af2ef36474f27a706816288c407"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "HRV-problems-006",
+        "statement": "The summary says weaknesses of primary care include limited availability in rural areas and low patient trust, leading to more specialist referrals than clinically needed.",
+        "valence": "weakness",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Box 3",
+          "page": 11,
+          "char_start": 22772,
+          "char_end": 23210,
+          "passage_sha256": "ab1f95cf57f642ea80e228074ba9f44d5e4d0afda1dacc493c5ebac88abd848b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "HRV-reforms-001",
+        "statement": "In 2015 the insurance fund was separated from the State Treasury, becoming an autonomous purchaser, and a new hospital financing model was introduced that has been only partly implemented.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Box 5",
+          "page": 14,
+          "char_start": 31365,
+          "char_end": 31580,
+          "passage_sha256": "d1d25242cc84a5f12f252e1c93ec196ee36d7b4fde8ca45f9baef4973a87e757"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2015,
+        "historical": true
+      },
+      {
+        "id": "HRV-reforms-002",
+        "statement": "In 2017 hospital priority waiting lists were introduced.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Box 5",
+          "page": 14,
+          "char_start": 31654,
+          "char_end": 31819,
+          "passage_sha256": "2d5773d5f93e59aef6c10a61d39a481e0532ceaeed57c3eae14a44fb211330b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2017,
+        "historical": true
+      },
+      {
+        "id": "HRV-reforms-003",
+        "statement": "In 2019 the mandatory insurance contribution rate was raised to increase the insurance fund's revenue.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "Box 5",
+          "page": 14,
+          "char_start": 31822,
+          "char_end": 31910,
+          "passage_sha256": "d6be92d59a0e6be3d263bc4048110198ac78882e48f47e4a1e4ba648338ee7ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2019,
+        "historical": true
+      },
+      {
+        "id": "HRV-reforms-004",
+        "statement": "A new Health Care Act, adopted in March 2023, aims to strengthen primary care and the hospital system and to improve integration of services.",
+        "valence": "neutral",
+        "source_id": "hss-hrv-2024",
+        "locator": {
+          "section": "What reforms are being pursued?",
+          "page": 13,
+          "char_start": 29313,
+          "char_end": 29464,
+          "passage_sha256": "d4cb491f59a802b7f3a7c3c4e29fcded297bd9e3f19f1594834f050ad5c3de17"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "HRV-reforms-005",
+        "statement": "Croatia's EU-funded Recovery and Resilience Plan includes EUR 354 million for the health system, equivalent to 3.5% of the plan's total funding for Croatia.",
+        "valence": "neutral",
+        "source_id": "chp-hrv-2025",
+        "locator": {
+          "section": "Box 2",
+          "page": 17,
+          "char_start": 111088,
+          "char_end": 111310,
+          "passage_sha256": "05b4065974cf2a31d0be4ccfd334ed0a164da338e4136f362c50cae319ef5859"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-20",
+          "checked_by": "Opus subagent support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/HRV.json",
+  "sources": [
+    {
+      "id": "chp-hrv-2025",
+      "title": "State of Health in the EU: Croatia, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-croatia-final-web.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "hss-hrv-2024",
+      "title": "Croatia: Health System Summary, 2024",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "authors": "Džakula A, Vočanec D, Banadinović M, Vajagić M, Lončarek K, Lukačević Lovrenčić I, Radin D, Rechel B",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://iris.who.int/server/api/core/bitstreams/d8655d03-f02f-4f81-8835-fb19bb3156ac/content",
+      "accessed": "2026-11-20"
+    },
+    {
+      "id": "biloglav-2020",
+      "title": "The analysis of waiting time and utilization of computed tomography and magnetic resonance imaging in Croatia: a nationwide survey",
+      "publisher": "Croatian Medical Journal",
+      "authors": "Biloglav Z, Medaković P, Buljević J, Žuvela F, Padjen I, Vrkić D, Ćurić J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.3325/cmj.2020.61.538",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33410301&rettype=abstract&retmode=text",
+      "accessed": "2026-11-20"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-20",
+      "note": "Profile created."
+    },
+    {
+      "date": "2026-11-20",
+      "note": "55 claims from 3 sources drafted, anchored and support-reviewed (17 rewritten after first review, all passed re-review)."
+    }
+  ]
+}

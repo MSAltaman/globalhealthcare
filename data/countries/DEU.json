@@ -2,7 +2,7 @@
   "iso3": "DEU",
   "name": "Germany",
   "wave": 0,
-  "system_as_of": "2026-11-08",
+  "system_as_of": "2026-11-11",
   "status": "verified",
   "model": {
     "type": "social_health_insurance",
@@ -32,7 +32,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -52,7 +52,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -70,7 +70,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -88,7 +88,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -106,7 +106,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -126,7 +126,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -145,7 +145,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2027
@@ -165,7 +165,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -183,7 +183,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -201,9 +201,474 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
+      },
+      {
+        "id": "DEU-financing-006",
+        "statement": "Statutory health insurance is funded by contributions, an annual federal subsidy and other revenue. Contributions are in principle income-related and paid by members together with employers, pension insurers or other bodies; they flow into the Health Fund, which also receives the federal subsidy, paid from tax revenue.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 117,
+          "char_end": 544,
+          "passage_sha256": "4c314d6500b3b83fb5d7d683fc0740e70b2f385cfcc5f622ef0d4f1b242769ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-007",
+        "statement": "The general statutory contribution rate is 14.6% of contributory income, and the average supplementary rate actually charged by the sickness funds was 3.13% as of 1 April 2026; employers and employees each pay half of both.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1687,
+          "char_end": 2228,
+          "passage_sha256": "a68d4328afef4f30ae31b663b4b45e8cba78d0b8c720ee31568feb643289af24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-financing-008",
+        "statement": "For compulsorily insured members, contributions are charged on employment earnings, statutory pensions, pension-type benefits such as occupational pensions, and self-employment income received alongside a statutory pension or such benefits; voluntary members also pay on other income, for example from investments or renting out property.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2229,
+          "char_end": 2730,
+          "passage_sha256": "af1be7a445a03d1ddf6e1472ed4e62442455bc34327bfc536abba83a543244e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-009",
+        "statement": "In 2026 income counts towards health and long-term care insurance contributions only up to an earnings ceiling of EUR 69,750 a year (EUR 5,812.50 a month), up from EUR 66,150 in 2025; earnings above the ceiling pay no contributions.",
+        "valence": "neutral",
+        "source_id": "breg-rechengroessen-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3357,
+          "char_end": 4043,
+          "passage_sha256": "b07cc5fcce10f5780644ac41c25ca1ec431f302de148160d87f89db07a6fca2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-financing-010",
+        "statement": "Employees must be in statutory insurance up to an income threshold of EUR 77,400 a year in 2026 (EUR 73,800 in 2025); those earning more may take out private insurance instead.",
+        "valence": "neutral",
+        "source_id": "breg-rechengroessen-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3591,
+          "char_end": 4262,
+          "passage_sha256": "8ebb1bff2c50121c8caa18dabdd46df0fa60197ee2562dc39428ffac48c40f77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "DEU-financing-011",
+        "statement": "The annual federal subsidy, paid from tax revenue, is a lump sum for so-called non-insurance benefits, such as free family cover for children and spouses or maternity and pregnancy benefits; it has been EUR 14.5 billion since 2017.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2953,
+          "char_end": 3261,
+          "passage_sha256": "ccc561442fba4cf8f21516a28ab20e2b5d0d432129c8af87fe5130f778a1f977"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-012",
+        "statement": "In 2020, 2021 and 2022 the federal government paid statutory insurance extra subsidies of EUR 3.5 billion, EUR 5 billion and EUR 14 billion.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3262,
+          "char_end": 3434,
+          "passage_sha256": "2d243acdea3daea7cfc4f71e2489e3ff3986aa179bbcd998e7cda98b98ee079a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-013",
+        "statement": "For 2025 and 2026 together, the federal budget provides EUR 4 billion in extra subsidies to refinance surcharges that sickness funds pay on hospital bills for hospitals' immediate transformation costs, plus two loans of EUR 2.3 billion each (2025 and 2026) to be repaid in steps from 2029.",
+        "valence": "neutral",
+        "source_id": "bmg-finanzierung-gkv",
+        "locator": {
+          "section": "Full text",
+          "char_start": 4179,
+          "char_end": 4678,
+          "passage_sha256": "47722f47a5b291ed3430e89d959ed1d7906449aef05b92574b4cfd358387cdd3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-014",
+        "statement": "The planned cut in the federal subsidy was scaled back from EUR 2 billion to EUR 1.35 billion for 2027 (EUR 1.55 billion from 2028), and the federal payment for the health care of people on basic income support rises permanently, by EUR 1 billion in 2027 and up to EUR 2.75 billion from 2031.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2814,
+          "char_end": 3202,
+          "passage_sha256": "e4702a94d24e8d2cc885fb23bc5c66ec6f0b8506507c9daf8ae9f4949e8759b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-015",
+        "statement": "From 2028 spouses or registered partners covered free through a member face a 2.5% contribution surcharge; parents of children under 12 are exempt, as are partners with care grade 3, 4 or 5, partners entitled to a pension for full reduction in earning capacity, and partners unable to work who receive basic income support.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 7542,
+          "char_end": 8043,
+          "passage_sha256": "61b19effd1ec67b1933881f7af55307556c2eff8f0e07058d25d6fc8d2816faf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-016",
+        "statement": "In 2024 private households financed EUR 286.8 billion, or 54.3%, of Germany's EUR 528.5 billion in current health spending.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 540,
+          "char_end": 712,
+          "passage_sha256": "4bf7c072071542a877b1c210a474367157060df60112cdb1558460ce2757a705"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-017",
+        "statement": "In 2024 businesses financed 31.1% of current health spending, the state 14.0% (down from 15.0% in 2023), and non-profit organisations 0.6%.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2149,
+          "char_end": 2547,
+          "passage_sha256": "783b4de5a582c44bf299e44508b21f4a2b8a90f989780386efa6317bd0d7b85b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-018",
+        "statement": "Of the EUR 286.8 billion financed by households, EUR 136.5 billion was employees' social insurance contributions and EUR 59.5 billion other domestic revenue, such as household spending on home and residential long-term care or on non-prescription pharmacy products.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2646,
+          "char_end": 3097,
+          "passage_sha256": "fac11d72d174429c637c3f5b6e98ce7482b18d866b56deea327210125f68d803"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-019",
+        "statement": "Employers' social insurance contributions made up 85.0% of businesses' EUR 164.5 billion financing of current health spending, or EUR 139.9 billion, up EUR 12.1 billion (9.5%) on the previous year.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3333,
+          "char_end": 3644,
+          "passage_sha256": "f19979be194d55774d6e5be8900a4843fbf35ad49199cac406b605214e23a561"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-020",
+        "statement": "The state spent 90.1% of its EUR 73.9 billion financing contribution on transfers and subsidies, which include the annual federal subsidy to the Health Fund and, for example, the health care allowances (Beihilfe) paid by public employers.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 3645,
+          "char_end": 3878,
+          "passage_sha256": "bd17568603956fe5663b34c9a83b12a73bbb0a8cef2cee73b4497a59852fb711"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-021",
+        "statement": "Counted by the body that pays for care, statutory health insurance was the largest payer in 2024, spending EUR 300.8 billion or 55.9% of health spending, 7.8% more than in 2023; social long-term care insurance accounted for 12.0%.",
+        "valence": "neutral",
+        "source_id": "destatis-he-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1802,
+          "char_end": 2160,
+          "passage_sha256": "497003a491a3ce952a93d83a562633f61ae86cd08a29496fcfe592f1504760a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-022",
+        "statement": "In 2024 private households and non-profit organisations paid 12.1% of health spending (EUR 65 billion) and private health insurance 8.3% (EUR 44.8 billion).",
+        "valence": "neutral",
+        "source_id": "destatis-he-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 2161,
+          "char_end": 2601,
+          "passage_sha256": "c3df5ed9923bcc330310c506ebf641ce9e2dd256621f6233e8bd221b390f39b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "DEU-financing-023",
+        "statement": "In the Observatory's 2025 profile, public funding made up 86% of current health expenditure in 2023, and its public sources include statutory insurance contributions, substitutive private insurance, tax subsidies and other public channels.",
+        "valence": "neutral",
+        "source_id": "chp-deu-2025",
+        "locator": {
+          "page": 8,
+          "char_start": 46942,
+          "char_end": 47180,
+          "passage_sha256": "dfe66caa4dfe1bc7f9c37fbc2bca34ae09fa48b5a8564d7f8877082417be42d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-financing-024",
+        "statement": "General tax revenue also funds various health purposes through budgets set at federal and state level, and capital investment in hospitals is paid from state budgets.",
+        "valence": "neutral",
+        "source_id": "hss-deu-2024",
+        "locator": {
+          "page": 4,
+          "char_start": 6871,
+          "char_end": 7077,
+          "passage_sha256": "54ab6fdf382273d4c8120397cb6f273006f0192bd5857e24d1b23d37538b2586"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-025",
+        "statement": "Civil servants are partly covered by Beihilfe, a scheme reimbursing their medical costs, which international health accounts classify under employers; because they need only partial cover, most choose private insurance.",
+        "valence": "neutral",
+        "source_id": "hit-deu-2020",
+        "locator": {
+          "page": 111,
+          "char_start": 227791,
+          "char_end": 228253,
+          "passage_sha256": "ef7d39dd2058dea024f5d2760568f03230866280649ce5c1098765c848c337ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-026",
+        "statement": "Since 1 January 2025 the social long-term care insurance contribution is 3.6% of contributory income, in principle split 1.8% each between employer and employee; childless members pay a further 0.6%, which employees bear alone, for 4.2% in total.",
+        "valence": "neutral",
+        "source_id": "bmg-pflege-finanzierung",
+        "locator": {
+          "section": "Full text",
+          "char_start": 261,
+          "char_end": 732,
+          "passage_sha256": "52da3f6cd6899bfc030b4a9a3708ce6d4bb011d1ee72237d760f6d0bf29e6a96"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financing-027",
+        "statement": "Employees who are free of compulsory insurance solely because their pay exceeds the annual earnings threshold, or for one other statutory reason, or who have been exempted from it, receive an employer subsidy if their private cover gives them and their dependants benefits of the same kind as statutory ones; it equals half the contribution rate under § 241 plus half the average supplementary rate, applied to the income that would count if they were compulsorily insured, but never more than half of what they pay for health insurance.",
+        "valence": "neutral",
+        "source_id": "sgbv-257",
+        "locator": {
+          "section": "Full text",
+          "char_start": 1449,
+          "char_end": 2400,
+          "passage_sha256": "3482232301ee59665fadca1b11cd01229d5561acfd75492001278f2d3fb1317e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-financing-030",
+        "statement": "Private health insurers' premium income across all types of insurance was EUR 48.7 billion in 2023, and comprehensive cover, held by 8.7 million people, provided 65% of it.",
+        "valence": "neutral",
+        "source_id": "pkv-zahlenbericht-2023",
+        "locator": {
+          "page": 3,
+          "char_start": 448,
+          "char_end": 879,
+          "passage_sha256": "eaa1541a03613a53fe4c9ebb319c33c3d504ebcd5a8a2a9eed0c068679b53622"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-financing-031",
+        "statement": "Private insurers put about a third of premiums into capital-funded ageing reserves for the higher costs of old age; these reserves stood at EUR 328 billion at the end of 2023.",
+        "valence": "neutral",
+        "source_id": "pkv-zahlenbericht-2023",
+        "locator": {
+          "page": 3,
+          "char_start": 3059,
+          "char_end": 3357,
+          "passage_sha256": "11438fc5083a31dda249991f109ee036a5312e2f7fd30337061d72023286d6b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "DEU-financing-032",
+        "statement": "Destatis counts employees' social insurance contributions as part of the households' financing share; that share was back near its pre-pandemic level in 2024 (54.7% in 2019) after falling to 49.5% by 2022.",
+        "valence": "neutral",
+        "source_id": "destatis-financing-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 909,
+          "char_end": 1178,
+          "passage_sha256": "182f976b11beddd64b1354099ecbc46db11eb93c42a9e5ab1672f7cdf9ba0484"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
       }
     ],
     "covered": [
@@ -221,7 +686,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -239,7 +704,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -257,7 +722,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -276,7 +741,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2020-2023"
@@ -295,10 +760,138 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
+      },
+      {
+        "id": "DEU-covered-006",
+        "statement": "Since the AMNOG law took effect on 1 January 2011, a manufacturer must submit a dossier on a new medicine's benefit at launch, and the G-BA assesses within six months of authorisation whether it adds benefit over an appropriate comparator.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "The responsibilities of the GBA following AMNOG",
+          "char_start": 1165,
+          "char_end": 1606,
+          "passage_sha256": "89f416f58323af573a4ee7f8b1e17f22598b706dd7632bc94c406ada63c50e7f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-covered-007",
+        "statement": "The G-BA may delegate the assessment of a medicine's benefit to IQWiG, the Institute for Quality and Efficiency in Health Care, or to other third parties.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Benefit assessment",
+          "char_start": 2355,
+          "char_end": 2483,
+          "passage_sha256": "c140a586fc8496506b8b6daa40b8d0730ca3168c3503fc3915b881f7ad34f048"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-covered-008",
+        "statement": "The G-BA's resolution on a new medicine sets out the extent of added benefit, which patient groups qualify, quality requirements for its use and the cost of treatment.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Consultation and decision-making in the GBA",
+          "char_start": 3184,
+          "char_end": 3399,
+          "passage_sha256": "1e1145b3a3618fec49e6e21fbebe0e9cb700a66e1be5f4facce9f8f073a634b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-covered-009",
+        "statement": "The national association of sickness funds and the manufacturer then have six months to agree the price statutory insurance pays, as a rebate on the launch price; if they fail, an arbitration board sets it with European prices as the yardstick.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Price negotiation",
+          "char_start": 3541,
+          "char_end": 3941,
+          "passage_sha256": "06356ff99ff34ed3e455c733ef93ff7e0029d85c6ff222005a3d42ba860b8d3f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-covered-010",
+        "statement": "A new medicine found to add no benefit over its comparator joins the reference price system within six months of launch; if no reference group fits, a price is agreed, and its annual treatment cost may not exceed the comparator's.",
+        "valence": "neutral",
+        "source_id": "gba-benefit-assessment",
+        "locator": {
+          "section": "Price negotiation",
+          "char_start": 3942,
+          "char_end": 4484,
+          "passage_sha256": "e7e6005273270c71b49fcb59528d81a9d6af2e13d252a5c0e73c2e0a3b44cfdf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-covered-011",
+        "statement": "A statutory insurance finance law passed in November 2022 (GKV-FinStG) aimed to cut statutory insurers' drug spending and changed the AMNOG price negotiations in several ways.",
+        "valence": "neutral",
+        "source_id": "jcer-2023",
+        "locator": {
+          "section": "Germany",
+          "char_start": 9896,
+          "char_end": 10165,
+          "passage_sha256": "5c43ba45142d79d29df18db64374524c18653c40854da7cf57311b3581f84f72"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "DEU-covered-012",
+        "statement": "Under the GKV-FinStG, the period of free pricing after launch was cut from 12 to six months; afterwards, drugs with minor or non-quantifiable added benefit are priced no higher than their comparator, and those with no added benefit 10% below it.",
+        "valence": "neutral",
+        "source_id": "jcer-2023",
+        "locator": {
+          "section": "Germany",
+          "char_start": 10399,
+          "char_end": 10876,
+          "passage_sha256": "9aef4c4a83c23fbfc920e95ba1ed5982cb72ffdb89f7836bfcfa69e5accc7a5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
       }
     ],
     "cost_sharing": [
@@ -317,7 +910,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -337,7 +930,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -356,7 +949,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -374,7 +967,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -392,13 +985,146 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
       }
     ],
-    "financial_hardship": [],
+    "financial_hardship": [
+      {
+        "id": "DEU-financial_hardship-001",
+        "statement": "Among people who sought help from a debt counselling service in 2025, illness, addiction or accident was the most often named main trigger of over-indebtedness (18%), ahead of unemployment (about 17%).",
+        "valence": "weakness",
+        "source_id": "destatis-overindebtedness-2026",
+        "locator": {
+          "section": "Lead paragraph",
+          "char_start": 393,
+          "char_end": 786,
+          "passage_sha256": "27a439bdfbb7a5c425c6f5a4ce620651b268c999e3b9c83890e9966ae40fa8ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financial_hardship-002",
+        "statement": "Just over half of the people counselled in 2025 lived alone, and for about 24% of them health problems were the main trigger of their over-indebtedness.",
+        "valence": "weakness",
+        "source_id": "destatis-overindebtedness-2026",
+        "locator": {
+          "section": "Mehrheit der beratenen Personen lebt allein",
+          "char_start": 1646,
+          "char_end": 1980,
+          "passage_sha256": "031ef1861199b20a1703871ec246c7a6f2745f60af4d74f59cfd9cd9f2a8d5c4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financial_hardship-003",
+        "statement": "The 2025 over-indebtedness statistics draw on 738 of roughly 1,360 debt and insolvency counselling services, covering about 187,000 people; participation is voluntary, and the statistical office warns the figures say nothing about the total number of over-indebted people.",
+        "valence": "neutral",
+        "source_id": "destatis-overindebtedness-2026",
+        "locator": {
+          "section": "Methodische Hinweise",
+          "char_start": 3183,
+          "char_end": 3880,
+          "passage_sha256": "89b88418189e9b6aaee171bcf4ea99d11f347f6ebec0802242a7710ee176ee8f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "DEU-financial_hardship-004",
+        "statement": "In a multicentre cohort of 1,103 sarcoma patients treated at 39 centres and clinics, 44.7% reported financial toxicity, and their odds of reporting financial difficulties were 2.5 times those of an age- and sex-matched norm population.",
+        "valence": "weakness",
+        "source_id": "buettner-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3933,
+          "char_end": 4180,
+          "passage_sha256": "017c6c83b42b3556831b3db3c85636d6e99652ecd68983ab549bd41951499dab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2019"
+      },
+      {
+        "id": "DEU-financial_hardship-005",
+        "statement": "In the same sarcoma cohort, patients on a disability pension, on sick leave or holding a disability pass had significantly higher odds of financial toxicity.",
+        "valence": "weakness",
+        "source_id": "buettner-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 4392,
+          "char_end": 4577,
+          "passage_sha256": "3a2eb73b6a841eceff84f32524f7ca267d259e2433a41a22f86aaecce1ce207c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2019"
+      },
+      {
+        "id": "DEU-financial_hardship-006",
+        "statement": "In a cross-sectional survey of patients finishing radiotherapy at two institutions, 68% of the 100 participants reported direct costs, 25% lost income and 31% reported subjective financial distress.",
+        "valence": "weakness",
+        "source_id": "fabian-2022",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2684,
+          "char_end": 3332,
+          "passage_sha256": "eb342f6aa50488b8e2f05cf5c62726e0affdc2d5ca59f86bcf2dbf752649ff52"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "DEU-financial_hardship-007",
+        "statement": "Just under 1% of people with private health insurance were in the emergency tariff (Notlagentarif), which the insurers' association describes as a social tariff that makes premium arrears easier to pay off.",
+        "valence": "neutral",
+        "source_id": "pkv-zahlenbericht-2023",
+        "locator": {
+          "page": 7,
+          "char_start": 7955,
+          "char_end": 8106,
+          "passage_sha256": "2cad13a9973c248ebd065a5aea3c7fa355e1c25ff6d3c0a7c93b93d510c5448d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
     "additional_care": [
       {
         "id": "DEU-additional_care-001",
@@ -414,7 +1140,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -432,7 +1158,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       }
@@ -453,7 +1179,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -473,7 +1199,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -492,7 +1218,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2021-2024"
@@ -512,7 +1238,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -532,7 +1258,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -552,7 +1278,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -570,7 +1296,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -592,7 +1318,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -612,7 +1338,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2010-2019"
@@ -632,7 +1358,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2022
@@ -651,29 +1377,88 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2021
       },
       {
         "id": "DEU-outcomes-005",
-        "statement": "Insurance claims data from one large German insurer show the life-expectancy gap between low- and high-income groups widening among older men, while narrowing slightly among women.",
+        "statement": "In claims data from one large German insurer comparing 2005-2008, 2009-2012 and 2013-2016, the life-expectancy gap between low- and high-income groups widened among older men, while inequality narrowed slightly among women.",
         "valence": "weakness",
         "source_id": "tetzlaff-2020",
         "locator": {
-          "section": "Abstract: Results",
-          "char_start": 1465,
+          "section": "Abstract: Methods and Results",
+          "char_start": 902,
           "char_end": 1731,
-          "passage_sha256": "f7bd0ea5a9386364749efc20f333cd4610bd818007b32aad31d59e9d73328fa4"
+          "passage_sha256": "d147f9974036aae655cc374e9691fefbdae1af6bfffefeb1c75d4da0181ade60"
         },
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
-        "data_year": "2005-2016"
+        "data_year": "2005-2016",
+        "historical": true
+      },
+      {
+        "id": "DEU-outcomes-006",
+        "statement": "In the GBD 2019 study, Germany's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 87.0 (95% uncertainty interval 84.3-89.2) in 2019, 19.0 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 44125,
+          "char_end": 44292,
+          "passage_sha256": "fa662484ca19823ea66b9f73ad12d970bd2a3e34fa8589903a3a077bbee2b9c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "DEU-outcomes-007",
+        "statement": "By age group in the GBD 2019 study, Germany's 2019 HAQ Index score was 94.7 for ages 0-14, 87.3 for ages 15-64 and 75.4 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 44125,
+          "char_end": 44292,
+          "passage_sha256": "fa662484ca19823ea66b9f73ad12d970bd2a3e34fa8589903a3a077bbee2b9c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "DEU-outcomes-008",
+        "statement": "In the GBD 2016 study, Germany's HAQ Index score rose from 78.9 in 1990 to 86.1 in 2000 and 92.0 in 2016.",
+        "valence": "strength",
+        "source_id": "haq-2018",
+        "locator": {
+          "table": "Table 2: HAQ Index (95% UI), columns 1990, 2000 and 2016",
+          "char_start": 71766,
+          "char_end": 71833,
+          "passage_sha256": "64030bc856702c9f407b37dff68c2d0f4b55dbba3c67760ffc455db0462f72e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1990-2016",
+        "historical": true
       }
     ],
     "costs": [
@@ -692,7 +1477,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -712,7 +1497,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -732,7 +1517,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -751,7 +1536,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2026-2027"
@@ -772,7 +1557,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -791,7 +1576,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -811,7 +1596,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -832,7 +1617,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -851,7 +1636,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -870,7 +1655,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2023
@@ -889,7 +1674,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         }
       },
@@ -907,7 +1692,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -928,7 +1713,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2027
@@ -948,7 +1733,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -968,7 +1753,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
@@ -987,7 +1772,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2024
@@ -1006,7 +1791,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2026-2035"
@@ -1026,10 +1811,47 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2025
+      },
+      {
+        "id": "DEU-reforms-007",
+        "statement": "Statutory co-payment amounts and limits are to be adjusted to price and wage developments and raised by 50%, with no indexation planned after that.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 8044,
+          "char_end": 8269,
+          "passage_sha256": "9b520ed310fb50bff683f69d4fad19b1db7dc292601a8bb73455c953e7ed17d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "DEU-reforms-008",
+        "statement": "The Bundestag passed the statutory health insurance contribution-stabilisation law on 10 July 2026; the ministry says that by curbing spending growth in all parts of the health system it spares insured people rising supplementary contributions and secures high-quality care for the coming years.",
+        "valence": "neutral",
+        "source_id": "bmg-bstabg-2026",
+        "locator": {
+          "section": "Full text",
+          "char_start": 213,
+          "char_end": 709,
+          "passage_sha256": "c757644c3dcf075f5eb4d440d5afc362f933720233c761677d708a560aceb6d2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
       }
     ],
     "us_lessons": [
@@ -1047,7 +1869,7 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": "2013-2016"
@@ -1066,10 +1888,29 @@
         "verification": {
           "passage_found": "pass",
           "supports": "pass",
-          "checked_on": "2026-11-08",
+          "checked_on": "2026-11-11",
           "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
         },
         "data_year": 2016
+      },
+      {
+        "id": "DEU-us_lessons-003",
+        "statement": "In a Commonwealth Fund comparison, US health spending per person in 2021 was nearly twice that of Germany, the closest country.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Health care spending",
+          "char_start": 5261,
+          "char_end": 5543,
+          "passage_sha256": "4d06374e5b9337c9f2f2544f8856834c7c919437a9f1fae326ff10dc89cbfe78"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
       }
     ]
   },
@@ -1161,6 +2002,206 @@
       "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
       "accessed": "2026-11-08",
       "funding_note": "US private foundation focused on health system improvement; rankings rely heavily on its own patient and physician surveys and cover 10 countries."
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-10",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation). The paper reports scores but states no rank for Germany."
+    },
+    {
+      "id": "haq-2018",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "license": "CC BY",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "accessed": "2026-11-10",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation. Data year 2016; the paper reports scores but states no rank for Germany. Its index method differs from the GBD 2019 update, so scores from the two studies are not directly comparable."
+    },
+    {
+      "id": "destatis-overindebtedness-2026",
+      "title": "Überschuldung am häufigsten durch Erkrankung, Sucht oder Unfall ausgelöst (press release no. 249, 15 July 2026; over-indebtedness statistics 2025)",
+      "publisher": "Federal Statistical Office of Germany (Destatis)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_249_63511.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Covers only people advised by participating debt counselling services; not representative of all over-indebted people."
+    },
+    {
+      "id": "buettner-2022",
+      "title": "Financial toxicity in sarcoma patients and survivors in Germany: results from the multicenter PROSa study",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Büttner M, Singer S, Hentschel L, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00520-021-06406-3",
+      "doi": "10.1007/s00520-021-06406-3",
+      "license": "CC BY",
+      "accessed": "2026-11-11",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8636412"
+    },
+    {
+      "id": "fabian-2022",
+      "title": "Financial toxicity in cancer patients treated with radiotherapy in Germany - a cross-sectional study",
+      "publisher": "Strahlentherapie und Onkologie",
+      "authors": "Fabian A, Domschikowski J, Greiner W, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1007/s00066-022-01936-z",
+      "doi": "10.1007/s00066-022-01936-z",
+      "accessed": "2026-11-11",
+      "funding_note": "Small sample (100 patients, two centres in Schleswig-Holstein).",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9700565"
+    },
+    {
+      "id": "pkv-zahlenbericht-2023",
+      "title": "PKV in Zahlen 2023 (Zahlenbericht)",
+      "publisher": "Verband der Privaten Krankenversicherung (PKV association)",
+      "tier": 3,
+      "type": "other",
+      "year": 2023,
+      "url": "https://pkv.de/fileadmin/user_upload/PKV/3_PDFs/Publikationen/Zahlenbericht_2023.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Trade association of the private health insurers."
+    },
+    {
+      "id": "gba-benefit-assessment",
+      "title": "The benefit assessment of medicinal products in accordance with the German Social Code, Book Five (SGB V), section 35a",
+      "publisher": "Federal Joint Committee (Gemeinsamer Bundesausschuss, G-BA)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.g-ba.de/english/benefitassessment/",
+      "accessed": "2026-11-11",
+      "funding_note": "The decision-making body describing its own procedure; undated web page, accessed 2026-11-11 (it refers to the EU HTA Regulation 2021/2282, applied from 2025)."
+    },
+    {
+      "id": "jcer-2023",
+      "title": "Access in all areas? A round up of developments in market access and health technology assessment: part 2",
+      "publisher": "Journal of Comparative Effectiveness Research",
+      "authors": "Beattie A, Treharne C, Mardiguian S, Ramagopalan SV",
+      "tier": 3,
+      "type": "other",
+      "year": 2023,
+      "url": "https://doi.org/10.57264/cer-2023-0162",
+      "doi": "10.57264/cer-2023-0162",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-11",
+      "funding_note": "'Industry Update' column, not original research; authors work for a consultancy (Lane Clark & Peacock) and a drug maker (BeiGene).",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10734314"
+    },
+    {
+      "id": "cwf-global-2023",
+      "title": "U.S. Health Care from a Global Perspective, 2022: Accelerating Spending, Worsening Outcomes",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Gunja MZ, Gumas ED, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022",
+      "accessed": "2026-11-11",
+      "funding_note": "US private foundation focused on health system improvement; data from OECD Health Statistics."
+    },
+    {
+      "id": "bmg-finanzierung-gkv",
+      "title": "Finanzierungsgrundlagen der gesetzlichen Krankenversicherung (web page, as of 26 May 2026)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/finanzierung-gkv.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "breg-rechengroessen-2026",
+      "title": "Rechengrößen in der Sozialversicherung (Beitragsbemessungsgrenzen 2026)",
+      "publisher": "Press and Information Office of the Federal Government",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsbemessungsgrenzen-2386514",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "bmg-bstabg-2026",
+      "title": "Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz (10 July 2026, updated after the Bundesrat vote)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026",
+      "accessed": "2026-11-11",
+      "funding_note": "Ministry announcement of its own reform."
+    },
+    {
+      "id": "destatis-financing-2024",
+      "title": "Private Haushalte finanzieren mehr als die Hälfte der laufenden Gesundheitsausgaben im Jahr 2024 (press release no. 210, 18 June 2026)",
+      "publisher": "Federal Statistical Office (Destatis)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_210_23611.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "destatis-he-2024",
+      "title": "Gesundheitsausgaben im Jahr 2024 auf 538 Milliarden Euro gestiegen (press release no. 115, 2 April 2026)",
+      "publisher": "Federal Statistical Office (Destatis)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_115_23611.html",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "bmg-pflege-finanzierung",
+      "title": "Finanzierung der sozialen Pflegeversicherung (web page)",
+      "publisher": "German Federal Ministry of Health",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/die-pflegeversicherung/finanzierung",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "sgbv-257",
+      "title": "Sozialgesetzbuch V, § 257 Beitragszuschüsse für Beschäftigte",
+      "publisher": "Federal Ministry of Justice (gesetze-im-internet.de)",
+      "tier": 3,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.gesetze-im-internet.de/sgb_5/__257.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Statute text as currently in force."
+    },
+    {
+      "id": "hit-deu-2020",
+      "title": "Germany: Health System Review (Health Systems in Transition 22(6))",
+      "publisher": "European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2020,
+      "url": "https://eurohealthobservatory.who.int/publications/i/germany-health-system-review-2020",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/6d80af7c-950d-4f25-8908-722042e43824/content",
+      "accessed": "2026-11-11"
     }
   ],
   "rankings": [
@@ -1217,6 +2258,18 @@
     {
       "date": "2026-11-08",
       "note": "Pilot profile: claims anchored to fingerprinted passages and support-reviewed; 11 statements corrected to match their sources, 3 combined claims split."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill: GBD 2019 and GBD 2016 HAQ Index scores added as outcome claims (DEU-outcomes-006 to 008), anchored to table rows. Neither paper states Germany's rank, so no HAQ entry was added to rankings. One statement corrected in support review (method-difference note moved out of the statement because the anchored passage does not state it)."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill DEU-r2: financial_hardship filled (Destatis 2025 over-indebtedness statistics, two cancer financial-toxicity studies, private insurers' emergency tariff); who-decides-coverage evidence added on the G-BA/AMNOG benefit assessment and the 2022 GKV-FinStG price rules; US spending comparison updated with 2021 data; claims on 2005-2016 income inequality and the 1990-2016 HAQ trend marked historical and reworded. In support review 5 statements were corrected (scope, year and setting details not in the anchored passage) and one data_year removed."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill DEU-r3: financing section brought up to the 'where the money comes from' standard: contribution rates, base, earnings ceiling and compulsory-insurance threshold for 2026; federal tax subsidy and its 2020-2026 top-ups and 2027 cut; Destatis 2024 financing by households, businesses and the state (SHA definitions stated); spending by payer; long-term care contribution; employer subsidy for privately insured employees; private insurers' premium income and ageing reserves; Beihilfe classification. Co-payment increase and passage of the 2026 contribution-stabilisation law added to reforms. Two support-review passes: 19 statements corrected, two tax-deduction claims dropped."
     }
   ]
 }

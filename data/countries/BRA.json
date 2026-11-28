@@ -1,0 +1,2371 @@
+{
+  "iso3": "BRA",
+  "name": "Brazil",
+  "wave": 1,
+  "system_as_of": "2026-11-10",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Tax-funded unified national health system (SUS), free at the point of use and run jointly by federal, state and municipal governments, alongside voluntary private health plans"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "BRA-overview-001",
+      "BRA-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "BRA-overview-001",
+        "statement": "Brazil's 1988 Constitution made health a universal right and a duty of the state; the unified health system (Sistema Único de Saúde, SUS), created in 1990, is the vehicle for progress towards universal coverage.",
+        "valence": "neutral",
+        "source_id": "castro-2019",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1921,
+          "char_end": 2172,
+          "passage_sha256": "0bee4765a2c2bc84f60c536e60e5b08a3380e49a41f927d8cb0854561dc2ff82"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-overview-002",
+        "statement": "Two 1990 laws, 8.080 and 8.142, put the constitutional principle of health as a right into practice and defined how the system is organised.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 1699,
+          "char_end": 1866,
+          "passage_sha256": "6a84f1b2f53d021600d2dcd9568505effe2252e4cd07bd2782f61f437dee4c57"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-overview-003",
+        "statement": "From its start the SUS was meant to be universal, comprehensive and decentralised, and free of charge where services are delivered, resting on principles of equity, solidarity and social participation.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Expansion of the Unified Health System in Brazil",
+          "char_start": 8379,
+          "char_end": 8604,
+          "passage_sha256": "df423450b0c89c56094a2ac0e46529e1767617004661046f644627e9a19129dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-overview-004",
+        "statement": "Management of the system moved from a centralised social-security bureaucracy to shared (tripartite) governance by municipalities, states and the federal government.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 3307,
+          "char_end": 3465,
+          "passage_sha256": "d4b26dc8c4dea9f0343bfcc9504a6c300341d2fcd32d8c9bd3db8c786d37ced1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-overview-005",
+        "statement": "Most basic health units (85%) are owned by municipalities, but the 2024 census of these units found 20% run under private management arrangements, with social health organisations, public-interest civil society organisations and charities taking a growing role, especially in large cities.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Current status of PHC",
+          "char_start": 44152,
+          "char_end": 44587,
+          "passage_sha256": "b88e039d0488116771f4f39569b39b8424ce44810fd4276cbf4b5700f333e6c0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "BRA-financing-001",
+        "statement": "Minimum levels of health spending for each level of government (federal, state and municipal) were introduced in 2000 and written into law in 2012.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Expansion of the Unified Health System in Brazil",
+          "char_start": 9882,
+          "char_end": 9997,
+          "passage_sha256": "003db84a8f2eb903071e0a9caac474e0fa535f40e598c276c349bcf58906e51d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-financing-002",
+        "statement": "Between 2003 and 2016 the federal government's share of public health spending fell from 50.0% to 40.8%.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14727,
+          "char_end": 14874,
+          "passage_sha256": "888a58649753d1a6a2fb1433b51acb4658500d5c00008383d91f2c3155b7745c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2003-2016"
+      },
+      {
+        "id": "BRA-financing-003",
+        "statement": "States' share of public health spending rose from 22.3% in 2003 to 27.0% in 2016, and municipalities' share from 25.5% to 32.2%.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14233,
+          "char_end": 14382,
+          "passage_sha256": "5da59a4293a5e688237233da64b895b1e59e40402092565bfc93c767d4cc75e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2003-2016"
+      },
+      {
+        "id": "BRA-financing-004",
+        "statement": "A 2018 analysis put public spending at 46.0% of Brazil's health spending, one of the lowest shares in Latin America and the Caribbean (average 51.28%), among upper-middle-income countries (55.2%) and among OECD countries (62.2%).",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 13676,
+          "char_end": 13926,
+          "passage_sha256": "863288b1bf74ea516e9ef7ac9e9057498a59b4abe9dbc89b8eac9a778b23902a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-financing-005",
+        "statement": "The Constitution makes the private sector complementary to the public one, but in practice the government partly subsidises it through tax breaks for people with private insurance, who also obtain high-complexity procedures in the SUS because their plans cover them poorly or reimburse little.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 20101,
+          "char_end": 20480,
+          "passage_sha256": "035fa6b38419c0814f9e78f78f02425fa39424cff212b3febb31d3fc341fe462"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-financing-006",
+        "statement": "The SUS is financed from taxes collected by all three levels of government: the federal government, the states and the municipalities.",
+        "valence": "neutral",
+        "source_id": "correa-2024",
+        "locator": {
+          "section": "Background",
+          "char_start": 4727,
+          "char_end": 4848,
+          "passage_sha256": "3cc045c9b6074bfacb859b11b50ea79d1decaad1ca6413991bad7e8d7d23b3fa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-007",
+        "statement": "Since Constitutional Amendment 86 of 2015, the Constitution itself (art. 198, §2, I) sets the federal government's minimum health spending: at least 15% of its net current revenue (RCL) for the year.",
+        "valence": "neutral",
+        "source_id": "camara-nt20-2023",
+        "locator": {
+          "section": "IV. Emenda Constitucional nº 86, de 2015",
+          "page": 4,
+          "char_start": 7023,
+          "char_end": 7305,
+          "passage_sha256": "c401eaebdfef27608aeb67d4627bd0058688b5148b70f7cddde6d2cf19d1a990"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-008",
+        "statement": "Constitutional Amendment 95 of 2016 brought forward to 2017 the floor of 15% of net current revenue and, for the years after, set it at that base corrected by accumulated consumer price inflation (IPCA).",
+        "valence": "neutral",
+        "source_id": "camara-nt20-2023",
+        "locator": {
+          "section": "V. Emenda Constitucional nº 95, de 2016",
+          "page": 5,
+          "char_start": 10728,
+          "char_end": 11023,
+          "passage_sha256": "e8ff9c6a89bb07bdb02ac6a853baa2866fe64292a6fcd321d4c4d3b1de4f151f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": "2016-2017",
+        "historical": true
+      },
+      {
+        "id": "BRA-financing-009",
+        "statement": "Constitutional Amendment 126 of 2022 provided for the repeal of the transitional rule for calculating the health and education floors (ADCT art. 110) once a new fiscal-framework complementary law was signed; with Complementary Law 200 of 30 August 2023, that rule was revoked.",
+        "valence": "neutral",
+        "source_id": "camara-nt20-2023",
+        "locator": {
+          "section": "VI. Emenda Constitucional nº 126, de 2022",
+          "page": 6,
+          "char_start": 11486,
+          "char_end": 11946,
+          "passage_sha256": "3095bdb6d80e481bc2880eda6aa34bbf3d8adbad27fb30e6cab8b13a77093287"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-010",
+        "statement": "CONASS notes that the minimum percentages are currently set by Complementary Law 141 of 2012: each year municipalities must spend at least 15% of their tax revenue on public health actions and services, and the states and the Federal District 12%, after deducting the shares passed on to their municipalities.",
+        "valence": "neutral",
+        "source_id": "conass-2023",
+        "locator": {
+          "section": "Financiamento do SUS",
+          "page": 5,
+          "char_start": 4928,
+          "char_end": 5444,
+          "passage_sha256": "5aba0addc23329505c1b76e7b91771d79eaabffe7b1116f42513a742bc198834"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-011",
+        "statement": "CONASS, citing SIOPS data, reports that in 2021 the states and the Federal District spent R$ 11.4 billion of their own revenue on public health actions and services above the constitutional minimum, and the municipalities R$ 40.0 billion.",
+        "valence": "neutral",
+        "source_id": "conass-2023",
+        "locator": {
+          "section": "Financiamento do SUS",
+          "page": 7,
+          "char_start": 8840,
+          "char_end": 9066,
+          "passage_sha256": "eb07f331d5393f8a3beada2f71f5b6082386d1f5bb0c99de05c4e57d0315085b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BRA-financing-012",
+        "statement": "Under the 1988 Constitution as first written, social contributions financed health, pensions and social assistance in the social security budget without distinction; the 1998 pension reform reserved contributions levied on payroll exclusively for paying general-regime (RGPS) pension benefits.",
+        "valence": "neutral",
+        "source_id": "anfip-2023",
+        "locator": {
+          "section": "Análise da Seguridade Social em 2022",
+          "page": 57,
+          "char_start": 138778,
+          "char_end": 139389,
+          "passage_sha256": "382f3fd80859615f36ab4673ff72190e9f0a5fb4e55840ba32325cb5220336b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": "1988-1998",
+        "historical": true
+      },
+      {
+        "id": "BRA-financing-013",
+        "statement": "In IBGE's health satellite account, final consumption spending on health goods and services was 9.7% of GDP in 2021: 4.0% of GDP by government and 5.7% by households and non-profit institutions serving households.",
+        "valence": "neutral",
+        "source_id": "ibge-css-2024",
+        "locator": {
+          "section": "Despesas com consumo final de bens e serviços de saúde como percentual do PIB, por setor institucional",
+          "page": 3,
+          "char_start": 10345,
+          "char_end": 10569,
+          "passage_sha256": "28011d1d67c7eaca087ed261bb17936c2174f4a3cedff260eaf930200c6d110f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "BRA-financing-014",
+        "statement": "In the satellite account, private health services were households' largest health expense, at 67.5% of their final consumption spending on health in 2019, 64.9% in 2020 and 63.7% in 2021; this item counts all payments to health plans, including payments made by employers.",
+        "valence": "neutral",
+        "source_id": "ibge-css-2024",
+        "locator": {
+          "section": "Consumo final das famílias",
+          "page": 4,
+          "char_start": 14872,
+          "char_end": 15210,
+          "passage_sha256": "17ffbc4ee698a621f5925bdeca964ab6b88baf393f1af28f4c2ae21bf3564072"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "BRA-financing-015",
+        "statement": "Medicines took a growing share of households' health spending: 32.5% in 2020 (R$ 143.1 billion) and 33.7% in 2021 (R$ 168.3 billion).",
+        "valence": "neutral",
+        "source_id": "ibge-css-2024",
+        "locator": {
+          "section": "Consumo final das famílias",
+          "page": 4,
+          "char_start": 15211,
+          "char_end": 15513,
+          "passage_sha256": "b4a2620d316d18920908dcd6d8d949780e86e98cf69646f9055cd72efcf66125"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": "2020-2021"
+      },
+      {
+        "id": "BRA-financing-016",
+        "statement": "In April 2025 private medical-care plans had 52,331,258 beneficiary enrolments, 1.94% more than in April 2024.",
+        "valence": "neutral",
+        "source_id": "ans-panorama-2025",
+        "locator": {
+          "section": "2 Beneficiários de planos de saúde",
+          "page": 5,
+          "char_start": 7385,
+          "char_end": 7534,
+          "passage_sha256": "014bb9bb62433e5809aa1be663644124c8e3ebafe6064eef1659c15b29745950"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BRA-financing-017",
+        "statement": "According to the ANS, private health plans received R$ 312.1 billion in premium payments (contraprestações) and paid R$ 256.8 billion in health care expenses in 2024.",
+        "valence": "neutral",
+        "source_id": "ans-panorama-2025",
+        "locator": {
+          "section": "Figura 1: Grandes Números do Setor de Saúde Suplementar",
+          "page": 5,
+          "char_start": 6878,
+          "char_end": 6997,
+          "passage_sha256": "ef04cc20e5a777ad50f29399a6acd702fde7020e47056472145c5b1c626e7653"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "BRA-financing-018",
+        "statement": "Between 2023 and 2024 individual private medical plans lost 1.38% of their beneficiaries and group plans joined through professional, trade or sector bodies lost 4.87%; employer group plans cover people linked to an organisation by employment or statutory relationship.",
+        "valence": "neutral",
+        "source_id": "ans-panorama-2025",
+        "locator": {
+          "section": "2 Beneficiários de planos de saúde",
+          "page": 6,
+          "char_start": 8799,
+          "char_end": 9301,
+          "passage_sha256": "37246ac7135a0ffd03d1549a1538e10be518cb0e7a81b42700b419cfff5f13d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": "2023-2025"
+      },
+      {
+        "id": "BRA-financing-019",
+        "statement": "The Federal Revenue Service estimated federal tax expenditures (gastos tributários) for 2026 at R$ 612.84 billion, equal to 4.43% of GDP and 20.20% of the revenue it administers.",
+        "valence": "neutral",
+        "source_id": "dgt-ploa-2026",
+        "locator": {
+          "section": "Análise dos valores estimados",
+          "page": 9,
+          "char_start": 14015,
+          "char_end": 14383,
+          "passage_sha256": "4dc94ec4e9f9fd4eb4f395a7d747a74e6cfa1a490b9cfc81a2629e2182f77a86"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "BRA-financing-020",
+        "statement": "By budget function, health accounts for 17.41% of the estimated 2026 federal tax expenditures, second only to commerce and services (22.54%).",
+        "valence": "neutral",
+        "source_id": "dgt-ploa-2026",
+        "locator": {
+          "section": "Análise dos valores estimados",
+          "page": 10,
+          "char_start": 15131,
+          "char_end": 15452,
+          "passage_sha256": "4a0deea2a6f120e7b85dbcf9a40354eb45b03564525cd9d22ec2ce2a17fa1c09"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "BRA-financing-021",
+        "statement": "The Federal Revenue Service lists the personal income tax deduction for medical expenses (Law 9.250/1995, art. 8, II, a) as a tax expenditure with no end date.",
+        "valence": "neutral",
+        "source_id": "dgt-ploa-2026",
+        "locator": {
+          "section": "Anexo: gastos tributários por tributo (IRPF)",
+          "page": 22,
+          "char_start": 44407,
+          "char_end": 44475,
+          "passage_sha256": "ad2e5845d7ec26e96d1f26a2d7986b39cb0fb3dec9f9a9de65a79505de0eece8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-022",
+        "statement": "It also lists as an open-ended corporate income tax (IRPJ) expenditure the medical, dental and pharmaceutical assistance that companies provide to their employees (Law 9.249/1995, art. 13, V).",
+        "valence": "neutral",
+        "source_id": "dgt-ploa-2026",
+        "locator": {
+          "section": "Anexo: gastos tributários por tributo (IRPJ)",
+          "page": 22,
+          "char_start": 45498,
+          "char_end": 45606,
+          "passage_sha256": "55f86a60733c0c8682d67b352af15ec5b0b63685bcd03548ebfe07dff840cdac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-023",
+        "statement": "Unlike families' education expenses, personal income tax deductions for health expenses have no ceiling, although the amount deducted cannot exceed the taxpayer's taxable income, because Brazilian law makes no provision for negative income tax.",
+        "valence": "neutral",
+        "source_id": "ocke-reis-2021",
+        "locator": {
+          "section": "2 Gasto tributário em saúde",
+          "page": 9,
+          "char_start": 15707,
+          "char_end": 16057,
+          "passage_sha256": "5d8c105b2ede4da67eae827f6d5a31c338aa267dba97fedbfaf8d2ccd208ea58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-024",
+        "statement": "Employers that pay part of their employees' health plans can deduct this as an operating expense from taxable profit; the Ipea study put the health-related corporate income tax (IRPJ) revenue forgone at R$ 8.3 billion in 2018.",
+        "valence": "neutral",
+        "source_id": "ocke-reis-2021",
+        "locator": {
+          "section": "5 Proposições",
+          "page": 19,
+          "char_start": 37773,
+          "char_end": 38205,
+          "passage_sha256": "e123b6504bbc120c213e894eb30b0132c3859210db83272ac7c2cd7aa3571c54"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "BRA-financing-025",
+        "statement": "The Ipea author argues that health tax subsidies burden the public budget and are regressive at a time of underfunding of the SUS.",
+        "valence": "weakness",
+        "source_id": "ocke-reis-2021",
+        "locator": {
+          "section": "3 Impacto do subsídio",
+          "page": 13,
+          "char_start": 24061,
+          "char_end": 24211,
+          "passage_sha256": "07de3864f4164ae5857e9b01280205a9e9dd879995219f9750f970ae36d707d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      },
+      {
+        "id": "BRA-financing-026",
+        "statement": "The Federal Court of Accounts (TCU) reports that the deductions of health and education expenses from personal income tax cost R$ 34.76 billion in 2025, the fifth-largest federal tax expenditure; the figure combines health and education.",
+        "valence": "neutral",
+        "source_id": "tcu-gt-2025",
+        "locator": {
+          "section": "Deduções do Rendimento Tributável - IRPF",
+          "page": 23,
+          "char_start": 27744,
+          "char_end": 27927,
+          "passage_sha256": "fca67ed97689a5ddb58b8f625d9e193939ef6fa618ed29db3955950983ac2f2a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "BRA-financing-027",
+        "statement": "The TCU classes the personal income tax deductions as high risk, finding them strongly regressive (88% of the benefit goes to the richest 20%) and inconsistent with the universal health (SUS) and education policies.",
+        "valence": "weakness",
+        "source_id": "tcu-gt-2025",
+        "locator": {
+          "section": "Deduções do Rendimento Tributável - IRPF",
+          "page": 23,
+          "char_start": 25805,
+          "char_end": 27023,
+          "passage_sha256": "bab6b6c1813fb5f0e74a21f6a805e7290c70b627bb23da0527a8629d3b32ba9d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement, separate cold pass)"
+        }
+      }
+    ],
+    "covered": [
+      {
+        "id": "BRA-covered-001",
+        "statement": "Brazil now has a nationwide network of primary, emergency and mental health services, plus specialised centres for transplantation, HIV/AIDS and cancer, supported by a comprehensive pharmaceutical policy.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 2486,
+          "char_end": 2784,
+          "passage_sha256": "de0adc98ca1bf56ddabd72acfeb94df703039e7d31fca3d2e434516973221849"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-covered-002",
+        "statement": "Expansion of the SUS widened public health programmes such as immunisation, tuberculosis and HIV, and complex services such as organ transplants, cancer care and kidney dialysis.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 17594,
+          "char_end": 17790,
+          "passage_sha256": "6f88a850f7e789e2801a359ff9a76bc1b7fa39c80c85acd1cfdea2e57f1f0b1b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-covered-003",
+        "statement": "The national essential medicines list grew from 327 medicines in 2002 to 869 in 2017, alongside policies to improve access to medicines and promote generics.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16366,
+          "char_end": 16557,
+          "passage_sha256": "9ed06451fa91e5d983c2150d476c7607b891d4c7144c3b836274e4d0181b4bdd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2002-2017"
+      },
+      {
+        "id": "BRA-covered-004",
+        "statement": "A national technology-incorporation commission (Comissão Nacional de Incorporação de Tecnologias) was created in 2011 to back evidence-based decisions on adopting new medicines and technologies in the SUS.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16710,
+          "char_end": 16908,
+          "passage_sha256": "1bb5faf8f61f394351b276506cc15222b8ce8f6549aa47c464ad3a9e94b7e4a6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-covered-005",
+        "statement": "A 2026 study of Brazil's health technology assessment system found broad recognition of CONITEC's central role in coordinating evidence generation and appraisal, but identified possible conflicts of interest and sole reliance on government funding as challenges.",
+        "valence": "neutral",
+        "source_id": "alkhaldi-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 5761,
+          "char_end": 6112,
+          "passage_sha256": "2cb661677342cfb50d40d1c62569d7d0feac5e84bab508dbfcf6fb801bd9e632"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-covered-006",
+        "statement": "Of 199 drugs incorporated into the SUS that the study analysed, 64 were projected to be cost-saving, with projected savings of Int$6.67 billion.",
+        "valence": "neutral",
+        "source_id": "curado-2026",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2220,
+          "char_end": 2334,
+          "passage_sha256": "840e740472031aa6ef8073cd07e1f7354af5aa3139904476cc3a5a3d0e9c42bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2024"
+      },
+      {
+        "id": "BRA-covered-007",
+        "statement": "Family health teams were originally made up of a general practitioner, a nurse, a nursing technician or assistant and four to six community health workers chosen from the local community, who make routine home visits to around 150 families in small areas.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "The transformation of the Family Health Program into a strategy",
+          "char_start": 11061,
+          "char_end": 11356,
+          "passage_sha256": "97aaaf1a9bd64a1506c2c69b7d6c97731b3302f2e7c7fa750dbc3565c777fe14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "BRA-cost_sharing-001",
+        "statement": "Since 2004 the Popular Pharmacy Programme (Farmácia Popular) has widened access to medicines at subsidised prices with low copayments.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16561,
+          "char_end": 16709,
+          "passage_sha256": "72745821f9e9197eea7fc38dff76303ac02a1799f19d6461d0400551bd25df79"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-cost_sharing-002",
+        "statement": "Out-of-pocket payments, though reduced, made up nearly half of private health spending in this 2018 analysis and remained a considerable burden for households.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 13927,
+          "char_end": 14232,
+          "passage_sha256": "18dde581c79ea4c677ae04af4184f9f7eb4e67c52c71870d76905deadf572979"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-cost_sharing-003",
+        "statement": "Medicines were the main component of out-of-pocket health spending, making up 85% of such payments in the lowest consumption deciles.",
+        "valence": "neutral",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1116,
+          "char_end": 1256,
+          "passage_sha256": "c088b8be029318eb74498e48c66040fd577ad90bba329f2b3a54550983e9f9ac"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2018"
+      },
+      {
+        "id": "BRA-cost_sharing-004",
+        "statement": "Catastrophic health spending has declined since 2004, but medicines remain an important item in the budgets of the poorest families.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 17056,
+          "char_end": 17209,
+          "passage_sha256": "5a547c355447d05ba964b172d398ed4e31bae03bf90216438df21045fe40c793"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "BRA-financial_hardship-001",
+        "statement": "More than 10 million Brazilians a year are pushed into poverty by out-of-pocket health payments: 4.87% of people, against 2.5% globally and 1.8% in Latin America and the Caribbean.",
+        "valence": "neutral",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1414,
+          "char_end": 1655,
+          "passage_sha256": "0129b5609ad7851906a7456c347ed562cab1e28a4953a9b7fed9d5ade8b6ed8f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2018"
+      },
+      {
+        "id": "BRA-financial_hardship-002",
+        "statement": "One household in three devotes over 10% of its budget to health; financial hardship is significantly more frequent among poor Brazilians, reaching 37% in the bottom consumption deciles.",
+        "valence": "neutral",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 882,
+          "char_end": 1115,
+          "passage_sha256": "09a6574d18ef3615495ea5069181052ce4234a731196026bc0816c40f7b41f3f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2018"
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "BRA-additional_care-001",
+        "statement": "In 2019, 59.7 million people (28.5% of residents) had a private medical or dental health plan, not significantly different from 27.9% in 2013.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 31,
+          "char_start": 58750,
+          "char_end": 58981,
+          "passage_sha256": "568e279dc858a13f8c1da7cdcd1fdbdcd6c0143e212cd0901a3c38b40bfee367"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-002",
+        "statement": "In 2019 plan coverage was highest in the Southeast (37.5%), South (32.8%) and Centre-West (28.9%) and lowest in the North (14.7%) and Northeast (16.6%).",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 31,
+          "char_start": 58750,
+          "char_end": 59172,
+          "passage_sha256": "da343f47d1bf6afb95e39e0dc92b5df5a494d1000cd1dbf88c209f1cc0c6cc4d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-003",
+        "statement": "Only 2.2% of people with no income or up to a quarter of the minimum wage had a medical plan, against 86.8% of those receiving more than five minimum wages a month.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 33,
+          "char_start": 63020,
+          "char_end": 63259,
+          "passage_sha256": "22fb22e9e72b945001ae603cebedc3ff0ce5f944036b16bea0295e8d45f4b96f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-004",
+        "statement": "Dental plan coverage was much less common than medical plan coverage (12.9% against 26.0%).",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Cobertura de plano de saúde, médico ou odontológico",
+          "page": 33,
+          "char_start": 64142,
+          "char_end": 64253,
+          "passage_sha256": "beb788a156e72d3013367c9c2218ad2b6ef7a16b1e7260552d33dd4510e40534"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-additional_care-005",
+        "statement": "Private medical insurance grew from 30.5 million people (17.6%) in 2000 to 50.3 million (24.8%) in 2014, then fell to 47.3 million (22.8%) in 2017 as incomes and employment declined.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 19827,
+          "char_end": 20100,
+          "passage_sha256": "29aa054e17a828315495dda6ca1a71c05fbe201e4e96da6d06706c0b6c51c694"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2017"
+      },
+      {
+        "id": "BRA-additional_care-006",
+        "statement": "Under a 1998 law, private health plans must reimburse the SUS whenever one of their members is treated in it; Agora Tem Especialistas lets plan companies join the programme and offset these reimbursement debts.",
+        "valence": "neutral",
+        "source_id": "costa-2026",
+        "locator": {
+          "section": "Planos de saúde e ressarcimento ao SUS",
+          "char_start": 15394,
+          "char_end": 15722,
+          "passage_sha256": "ed62febce7bd746a52f24a3dbbe4aeeefa01c0e491bfe7b8a5bef796390cea12"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "BRA-access-001",
+        "statement": "The basic health unit (Unidade Básica de Saúde) was the facility the largest share of people (46.8%) said they usually went to for care, followed by private practices or clinics (22.9%) and public emergency units or public hospital emergency departments (14.1%).",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Acesso e utilização dos serviços de saúde",
+          "page": 41,
+          "char_start": 78442,
+          "char_end": 78826,
+          "passage_sha256": "a85ecd945fea51defa9bbf46da3b353fe7b8bb0e8b25609dc50de14f874f1cc0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-002",
+        "statement": "In 2019, 76.2% of people (159.6 million) had seen a doctor in the previous 12 months, up from 71.2% in 2013.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Acesso e utilização dos serviços de saúde",
+          "page": 41,
+          "char_start": 79021,
+          "char_end": 79229,
+          "passage_sha256": "50ba10cc390282ecd87b3598dbc7c4464fb817da00eee2be35766a6034b40b2a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-003",
+        "statement": "In 2019, 60.0% of households (44.0 million) were registered with a family health unit, up from 53.3% in 2013.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Estratégia de Saúde da Família",
+          "page": 29,
+          "char_start": 53666,
+          "char_end": 53888,
+          "passage_sha256": "1a2ec8054619b2d9cbe8d6255219bfdea89add022fb9b8139b59b04000edba44"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-004",
+        "statement": "Of people hospitalised for 24 hours or more, 64.6% (8.9 million) were admitted through the SUS in 2019.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Internação em hospitais do SUS",
+          "page": 52,
+          "char_start": 99348,
+          "char_end": 99492,
+          "passage_sha256": "99103a368e812dcce94c079d2f535579ffdd0fda71b1eb42ae3199b81b6bf897"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-005",
+        "statement": "Reliance on the SUS for hospital care falls steeply with income: in 2019 the last hospital stay was through the SUS for 95.0% of hospitalised people with household income per person of up to a quarter of the minimum wage, but for only 6.8% of those with more than five minimum wages.",
+        "valence": "neutral",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Internação em hospitais do SUS",
+          "page": 52,
+          "char_start": 100077,
+          "char_end": 100793,
+          "passage_sha256": "7f4a06dd085cc27096188f7986be7953acd171f8b405068f0a920f5382a67853"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-access-006",
+        "statement": "Brazil has almost doubled its medical workforce since 2003, to 2.77 doctors per 1,000 people, with the largest increase after the 2013 legislation; poorer, remote states gained, but most new doctors and students are still in richer regions.",
+        "valence": "neutral",
+        "source_id": "scheffer-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3375,
+          "char_end": 3704,
+          "passage_sha256": "32c89ae1bb0b0b05432310d83911c6175cb64a37ccb9305182da9b370dc8af7b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-access-007",
+        "statement": "Doctor shortages persist in rural areas and in primary care, and specialists are concentrated in the private sector and unevenly spread across the country.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 15648,
+          "char_end": 15837,
+          "passage_sha256": "707f4d30cbf23582f33e03fb095c673926914b878bb70ea2c6b6e4daee55f687"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "BRA-outcomes-001",
+        "statement": "Infant mortality fell from 53.4 to 12.7 deaths per 1,000 live births between 1990 and 2023, life expectancy rose from 65 years in 1985 to 76.8 years in 2025, and polio (1989) and measles (2000) were eliminated.",
+        "valence": "neutral",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 2927,
+          "char_end": 3225,
+          "passage_sha256": "03e208dc30821d1faaea13ad497a0c5e32ada0f20b2ea3148dce3dbc2e5c04f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1985-2025"
+      },
+      {
+        "id": "BRA-outcomes-002",
+        "statement": "In the GBD 2019 study, Brazil's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 53.0 (95% uncertainty interval 51.5-54.3) in 2019, 17.5 points higher than in 1990.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 overall (0-74 years) and absolute change 1990-2019 overall",
+          "char_start": 53053,
+          "char_end": 53219,
+          "passage_sha256": "74185eedea0b01107aa8189df3ce472eef83a2113197b1068e581a7b534ce3d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-outcomes-003",
+        "statement": "By age group in the GBD 2019 study, Brazil's 2019 HAQ Index score was 62.4 for ages 0-14, 53.4 for ages 15-64 and 48.6 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019, young (0-14), working (15-64) and post-working (65-74) age groups",
+          "char_start": 53053,
+          "char_end": 53219,
+          "passage_sha256": "74185eedea0b01107aa8189df3ce472eef83a2113197b1068e581a7b534ce3d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-outcomes-004",
+        "statement": "In the GBD 2016 HAQ Index, Brazil was in the sixth of ten deciles nationally; the Federal District reached the eighth decile (score 75.4), while most states, especially northern ones, were in the fifth.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: subnational HAQ Index",
+          "char_start": 44958,
+          "char_end": 45228,
+          "passage_sha256": "f3dab152af4002acf5e7d896222bf23e9c3b92c83e65876631a268e849364741"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "BRA-outcomes-005",
+        "statement": "Disparities in HAQ Index scores between Brazil's states widened slightly after 2000, with the absolute gap going from 17.2 points in 1990 to 20.4 in 2016; Brazil's overall progress was more consistent over time than Mexico's.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: HAQ Index trends",
+          "char_start": 50292,
+          "char_end": 50520,
+          "passage_sha256": "d0facb849b6e8d47c1ca6219791ca33a7bece2c18c014ba29edd6b10ba28f100"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1990-2016"
+      },
+      {
+        "id": "BRA-outcomes-006",
+        "statement": "A study of all Brazilian microregions in 2008-2017 found no significant effect of the extra primary care doctors supplied by the Mais Médicos programme on hospitalisation or mortality rates.",
+        "valence": "neutral",
+        "source_id": "thomas-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2515,
+          "char_end": 2875,
+          "passage_sha256": "70d8d088640691adb30c0343d1ff1c2355d95d92e19a92a0d3e6fd30e2965c62"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2008-2017"
+      },
+      {
+        "id": "BRA-outcomes-007",
+        "statement": "After Cuban doctors left the More Doctors programme, affected municipalities saw lasting falls in chronic-disease care, while use of urgent services such as maternal care and infection treatment soon recovered; the fall in use did not translate into changes in health outcomes.",
+        "valence": "neutral",
+        "source_id": "sliwa-ruiz-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1910,
+          "char_end": 2517,
+          "passage_sha256": "8aa7239d5f3a04e0d132061f14ad6adc2889e95a445582b52620b68105f24bdf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "costs": [
+      {
+        "id": "BRA-costs-001",
+        "statement": "A 2026 review of the Family Health Strategy called chronic underfunding of the SUS a central obstacle to expanding primary care, noting public health spending below 4% of GDP against roughly 7% in countries with universal systems.",
+        "valence": "weakness",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Desafios: Financiamento (Portuguese-language version of the article)",
+          "char_start": 105932,
+          "char_end": 106196,
+          "passage_sha256": "2cbcbc59a34e1bfe8bd1185c1ddc13d6aa60e5495bd741fe079fea2942e9325a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-costs-002",
+        "statement": "Municipal health spending per person grew 226% in real terms between 2003 and 2014 (from R$315.7 to R$716.5), then fell 6.3% to R$617.1 in 2016.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14383,
+          "char_end": 14651,
+          "passage_sha256": "aca44808263ec3dd9d561bdff124ede04a1eb94d04208d1603321ad68590834f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2003-2016"
+      },
+      {
+        "id": "BRA-costs-003",
+        "statement": "Most of the federal budget goes to debt service, which limits fiscal space for other areas; debt service rose from 50.3% of the federal budget in 2013 to 57.0% in 2016.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Changes in health system financing",
+          "char_start": 14875,
+          "char_end": 15098,
+          "passage_sha256": "a88602e53a572515b22badf495a2046543fb003857b9e35f7498e72ea7d905e9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2016"
+      },
+      {
+        "id": "BRA-costs-004",
+        "statement": "Among drugs paid for solely by the Ministry of Health, the cumulative projected incremental budget impact equalled 29% of the CEAF (specialised pharmaceutical care) budget in 2024, after exceeding 45% from 2019 to 2022.",
+        "valence": "neutral",
+        "source_id": "curado-2026",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2863,
+          "char_end": 3030,
+          "passage_sha256": "f576d67996f457f9cdc3316c5e29aa05cb3a7c437da6ab978b525f02a10ce618"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2024"
+      },
+      {
+        "id": "BRA-costs-005",
+        "statement": "In 2019, lawsuits consumed 25.2% of the resources of the Specialised Component of Pharmaceutical Care, with 21% going to 10 medicines.",
+        "valence": "neutral",
+        "source_id": "vieira-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1613,
+          "char_end": 1737,
+          "passage_sha256": "855115e12451d6f1ff6b39c3c38618f9ce4979dcdb3b9f26061c41cf706d94bd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "what_works": [
+      {
+        "id": "BRA-what_works-001",
+        "statement": "A 2019 review concluded that Brazil, despite successes and setbacks, has achieved nearly universal access to health-care services for its population.",
+        "valence": "strength",
+        "source_id": "castro-2019",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2173,
+          "char_end": 2374,
+          "passage_sha256": "c6c57cdfe5bc9403e146f7a4e2fdb9e6bfb417d3fa54d42459bd605e3803a1c6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-what_works-002",
+        "statement": "The Family Health Strategy's population coverage rose from 13.2 million people (7.8%) in 2000 to 120.2 million (58.5%) in 2016.",
+        "valence": "strength",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 17884,
+          "char_end": 17989,
+          "passage_sha256": "0b27f56cf14a4df0787778c7ca8fd68d2972bcce1462a8a36ee754bad08918c9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2016"
+      },
+      {
+        "id": "BRA-what_works-004",
+        "statement": "Family health coverage is distributed equitably: in the 2019 national health survey it reached 74% of the poorest income fifth against 38% of the richest, and registered people more often had a regular source of care (79% vs 73%).",
+        "valence": "strength",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Impact of the expansion of FHS coverage on access and population health",
+          "char_start": 31700,
+          "char_end": 32197,
+          "passage_sha256": "c43508e5f60c92a123501f6379ecc003d358966ab4c64b890c318c1b642fab02"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-what_works-005",
+        "statement": "Studies link the Family Health Strategy to lower infant and under-5 mortality and fewer ambulatory-care-sensitive admissions among adults and older people, especially where coverage was consistently high; effects were larger in vulnerable groups.",
+        "valence": "strength",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Impact of the expansion of FHS coverage on access and population health",
+          "char_start": 32262,
+          "char_end": 32656,
+          "passage_sha256": "23254e466d7324a39662f4e63a33eb6de643a8255c8d5624be7f0b26e8a6bfde"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-what_works-006",
+        "statement": "Medical students became more diverse after the 2013 More Doctors legislation: women rose from 55.5% of students in 2013 to 61.4% in 2023 and mixed-race students from 19.4% to 25.5%, though most students remain white and from fee-paying secondary schools.",
+        "valence": "strength",
+        "source_id": "scheffer-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 3705,
+          "char_end": 4037,
+          "passage_sha256": "9769c8d7dd0ef58252fee7a465f942f2ccbc739d077e38fb226bd85be301a1b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "BRA-what_works-007",
+        "statement": "A review found CONITEC's decisions consistent with affordability principles in health technology assessment, judged on the evidence available at each decision rather than on real-world data after incorporation into the SUS.",
+        "valence": "strength",
+        "source_id": "curado-2026",
+        "locator": {
+          "section": "Summary: Interpretation",
+          "char_start": 3046,
+          "char_end": 3318,
+          "passage_sha256": "c5dff0903a3f3fdfd644a336c0647d6b062ba08515d2853e1fb727ba9f622825"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-what_works-008",
+        "statement": "After Cuban doctors left the More Doctors Program, supply-side responses and patients diverting to other sources of care helped mitigate major harm to population health at the market level.",
+        "valence": "strength",
+        "source_id": "sliwa-ruiz-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1910,
+          "char_end": 2646,
+          "passage_sha256": "8a4c0f4dca5cbe45945d9d246dfa12566e31417b9e4e1475710bfab5f089d164"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "BRA-problems-001",
+        "statement": "A 2018 analysis found persistent structural problems in the SUS, including weak organisation and governance, low public funding and poor resource allocation, leaving large regional gaps in access and outcomes that hit poorer regions and groups hardest.",
+        "valence": "weakness",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2392,
+          "char_end": 2810,
+          "passage_sha256": "f1b6596cdd1bb50419c7253d0bc1ef29bd03697fb8092ddd3f05e9d47a69b797"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-002",
+        "statement": "Chronic underfunding, made worse by the 2016 spending cap, limits the system, and specialised services, intensive care beds and diagnostic equipment are concentrated in wealthier regions and in the private sector.",
+        "valence": "weakness",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 4155,
+          "char_end": 4468,
+          "passage_sha256": "71c1cdfaecfe709334dee2ae5a1af13726ae017dc258fd4bd53a99b21f720b1f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-003",
+        "statement": "Waiting lists for surgery, biopsies and radiotherapy are long and still growing, and the cancer care network has not kept pace with the rising cancer burden.",
+        "valence": "weakness",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 4471,
+          "char_end": 4659,
+          "passage_sha256": "d0b034574e6a740e5a0c1f62410016a23ebb2974bcf269a4b315fc5828316e5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-004",
+        "statement": "Maternal mortality remains high for Brazil's level of development, and the health workforce is unevenly distributed because strategies to attract, retain and train staff across regions fall short.",
+        "valence": "weakness",
+        "source_id": "padilha-2025",
+        "locator": {
+          "section": "Commentary",
+          "char_start": 4666,
+          "char_end": 4904,
+          "passage_sha256": "700f13ea6cb6f022cddd93a56dfa352d9b115b39f743c9fe384ab8a494a56eda"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-005",
+        "statement": "Shortages of some specialist services and weak administrative capacity have produced poor-quality hospital services with long waits.",
+        "valence": "weakness",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Healthcare coverage",
+          "char_start": 19425,
+          "char_end": 19572,
+          "passage_sha256": "d03053f18e1ea6c73ac8c4a63e2b7e0a68256c485ed33deb3026183e870f930c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-006",
+        "statement": "Courts help secure access when the state fails to supply medicines already in the SUS, but orders to buy medicines not incorporated into the system compromise access to medicines for the wider population.",
+        "valence": "weakness",
+        "source_id": "vieira-2023",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1738,
+          "char_end": 2022,
+          "passage_sha256": "16c277dd31cc62f4802aee3ce9c322b8ea9ca8ee75cf4963b20f0dc674ef5209"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-007",
+        "statement": "Among households registered with a family health unit for a year or more, 38.4% (15.4 million) received a monthly visit from a community health worker or family health team member in 2019, down from 47.2% in 2013.",
+        "valence": "weakness",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Estratégia de Saúde da Família",
+          "page": 29,
+          "char_start": 54575,
+          "char_end": 54935,
+          "passage_sha256": "4624b38a854a585f549c147ca1785a060d508629040f8658e59fd2da140611f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-problems-008",
+        "statement": "Among households registered with a family health unit for a year or more, about 23.8% (9.5 million) had never been visited by a community health worker or team member in 2019, a sharp rise from 17.7% (5.3 million) in 2013.",
+        "valence": "weakness",
+        "source_id": "ibge-pns-2019",
+        "locator": {
+          "section": "Estratégia de Saúde da Família",
+          "page": 30,
+          "char_start": 56192,
+          "char_end": 56536,
+          "passage_sha256": "cb6a77bc8c33066f5d0250434ca0cddd300051c144ba6600abc830aa35f56716"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "BRA-problems-009",
+        "statement": "Under Previne Brasil, the primary care financing model, only one of seven performance indicators (syphilis and HIV testing in pregnancy: 62.5% against a 60% target) met its target on average across the four-month periods from early 2022 to early 2023.",
+        "valence": "weakness",
+        "source_id": "souza-2024",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2157,
+          "char_end": 3140,
+          "passage_sha256": "852acfe9af26996c69c07b019a45835d269a8b9d5fc131d844b13afe12f8f6f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2022-2023"
+      },
+      {
+        "id": "BRA-problems-010",
+        "statement": "Student achievement scores and resources point to significantly lower teaching quality in private medical schools.",
+        "valence": "weakness",
+        "source_id": "scheffer-2025",
+        "locator": {
+          "section": "Abstract: Findings",
+          "char_start": 4038,
+          "char_end": 4184,
+          "passage_sha256": "5a289d800952d5a6549c9532565278ea8138b463fdc69c69ad2c132a0269fd2b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-problems-011",
+        "statement": "The authors conclude that, despite progress in implementing universal coverage, financial protection is not yet guaranteed, especially for the poor, and that wider access to affordable essential medicines is key to improving it.",
+        "valence": "weakness",
+        "source_id": "araujo-2021",
+        "locator": {
+          "section": "Abstract: Conclusions",
+          "char_start": 1669,
+          "char_end": 1977,
+          "passage_sha256": "294f82f168f549ebce0f2c9a1dedb45d4329fbaec0bee6647ac56b9aed8e679c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "reforms": [
+      {
+        "id": "BRA-reforms-001",
+        "statement": "Agora Tem Especialistas was launched in May 2025 through Provisional Measure 1,301, merging the National Programme for Reducing Queues with the More Access to Specialists programme (PMAE).",
+        "valence": "neutral",
+        "source_id": "costa-2026",
+        "locator": {
+          "section": "Introdução",
+          "char_start": 11067,
+          "char_end": 11417,
+          "passage_sha256": "24fc9ee0e7589be6df24d0feab7c902adb9aa425e4841d05850e152dc8bd6a00"
+        },
+        "data_year": 2025,
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-002",
+        "statement": "Article 1 of the law creates the Agora Tem Especialistas programme, joined by private hospitals (for-profit or not), to expand beds and services and cut waiting times for specialist consultations, procedures and tests.",
+        "valence": "neutral",
+        "source_id": "lei-15233-2025",
+        "locator": {
+          "section": "Lei nº 15.233/2025, Art. 1",
+          "char_start": 674,
+          "char_end": 1209,
+          "passage_sha256": "538a80ad4c396187355136c01dcf23330567d6225880e644039fb62bc91fef84"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-004",
+        "statement": "The law caps the financial credits granted under the programme at R$2 billion a year.",
+        "valence": "neutral",
+        "source_id": "lei-15233-2025",
+        "locator": {
+          "section": "Art. 4, § 2",
+          "char_start": 4693,
+          "char_end": 4827,
+          "passage_sha256": "9ea10acf1d371377b0aafb9e213f280d9d74c76fb96d5717c1f970aea3540e5b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-005",
+        "statement": "A 2026 analysis argued that Agora Tem Especialistas should not be seen as privatising the universal system, since it does not raise private health spending, expand private plans or hand public responsibilities to the private sector, but said its effect on regional and public-private inequalities must be monitored.",
+        "valence": "neutral",
+        "source_id": "costa-2026",
+        "locator": {
+          "section": "Resumo",
+          "char_start": 2652,
+          "char_end": 3449,
+          "passage_sha256": "9c33df7d83f2bb8cfa19d8e8cfed9bee99a70e98813668514cd25aa1f148a227"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-006",
+        "statement": "PMAQ-AB was progressively dismantled from 2017 amid political and institutional change and ended in 2019; its successor, Previne Brasil, narrowed assessment to a small number of process indicators and was itself discontinued in 2024.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Advances: evaluation and quality improvement",
+          "char_start": 26241,
+          "char_end": 26527,
+          "passage_sha256": "67ee26714e15b120e6b78b17106bbab105c924295847bc3c2e206991ebc14334"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-007",
+        "statement": "A 2018-2024 trend study using Pernambuco as a case found the federal government's share of primary care financing was greater after Previne was discontinued.",
+        "valence": "neutral",
+        "source_id": "silva-junior-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 949,
+          "char_end": 1432,
+          "passage_sha256": "19ac8d03c3e78c12458f804cfe0c5169d91e02771b78fed283f51d32161ce8d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2024"
+      },
+      {
+        "id": "BRA-reforms-008",
+        "statement": "From 2019 to 2023, Previne Brasil replaced funding based on the whole catchment population with funding by individually registered patients, which the authors say limited collective action, restricted access to registered patients and undermined universality, comprehensiveness and equity.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Setbacks",
+          "char_start": 34516,
+          "char_end": 34869,
+          "passage_sha256": "9654f7454eaa4ddf1780098e8e16d095e4afd4e454c73b8923f1cc55633643e3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-009",
+        "statement": "In 2023, with the rebuilding of the SUS and renewed priority for family health, the NASF programme was reformulated into federally co-financed multidisciplinary primary care teams with a broader scope, including telehealth.",
+        "valence": "neutral",
+        "source_id": "giovanella-2026",
+        "locator": {
+          "section": "Advances: multidisciplinary teams",
+          "char_start": 23361,
+          "char_end": 23863,
+          "passage_sha256": "5597faed47921c9d383b9162b43d992c91a9854c179297def63afe54dabd0458"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-010",
+        "statement": "The PMMB was relaunched in 2023, emphasising rebuilding teams, training and retaining doctors in priority areas, after the 2019 Doctors for Brazil Program (PMpB) proved slow and limited in reach, and amid political change.",
+        "valence": "neutral",
+        "source_id": "pedreira-2026",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10235,
+          "char_end": 10701,
+          "passage_sha256": "bca427d6ac94b97e2b57142e34f770bd1b0298faa6534b88b839526b41be5bf5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-011",
+        "statement": "Under MP n. 1,165/2023, More Doctors offered 15,000 new vacancies.",
+        "valence": "neutral",
+        "source_id": "vazquez-2023",
+        "locator": {
+          "section": "Editorial",
+          "char_start": 9526,
+          "char_end": 9640,
+          "passage_sha256": "d96eb120735d8cec8436f97ee2c8fa7c9280552194c2d0d1e70471576f782930"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-012",
+        "statement": "Constitutional Amendment 126/2022 opened R$145 billion of budget space for 2023 and abolished the Temer government's expenditure ceiling, which had in practice frozen real federal primary spending for 20 years.",
+        "valence": "neutral",
+        "source_id": "vazquez-2023",
+        "locator": {
+          "section": "Editorial",
+          "char_start": 10174,
+          "char_end": 10957,
+          "passage_sha256": "3cd2ce0ddddb158bcfd5151bc733e0cb2cd5591ba7c74b10b4e9efcd8e8a5d37"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-013",
+        "statement": "The third Lula government's new fiscal framework (the New Sustainable Fiscal Regime, PLP 93/2023, still before the Senate when this editorial was written) would limit real growth in federal spending to 70% of real growth in primary revenue, with a maximum of 2.5% real growth.",
+        "valence": "neutral",
+        "source_id": "vazquez-2023",
+        "locator": {
+          "section": "Editorial",
+          "char_start": 11479,
+          "char_end": 12195,
+          "passage_sha256": "36248af6ed90c7aea17924961ce22c259411a52b831e6fedf4adc33cb0162aa3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-014",
+        "statement": "At the end of 2018, after the elections, Cuba suspended its PAHO-mediated agreement with Brazil and withdrew most Cuban doctors; under health minister Mandetta, the Bolsonaro government launched Médicos pelo Brasil, which required national validation of diplomas obtained abroad.",
+        "valence": "neutral",
+        "source_id": "machado-2026",
+        "locator": {
+          "section": "Results: PHC policy",
+          "char_start": 32438,
+          "char_end": 32840,
+          "passage_sha256": "0a9ad7d3e45bcd8b283487048306e31e72034a27a96f802771e96515e7675dd5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-015",
+        "statement": "Constitutional Amendment 95, passed in December 2016, limited federal primary spending on health for 20 years: 15% of net current revenue in 2017 and then 2017 levels adjusted for inflation, with a projected decline of R$415 billion in the health budget by 2036 as described in 2018 (the ceiling has since been abolished; see the Amendment 126/2022 entry).",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Political crisis",
+          "char_start": 12495,
+          "char_end": 12854,
+          "passage_sha256": "4efee0b6d0a61ad9d0086bf58b9e629074b2a15277e5a4ee416499ce73b23f67"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "BRA-reforms-016",
+        "statement": "In 2013 the Rousseff government launched the More Doctors (Mais Médicos) programme, sending more than 18,000 doctors, mostly from Cuba, to underserved areas to expand primary care.",
+        "valence": "neutral",
+        "source_id": "massuda-2018",
+        "locator": {
+          "section": "Resource allocation",
+          "char_start": 16068,
+          "char_end": 16278,
+          "passage_sha256": "139cd479492ac05e5747a8a576bb98312c5a54bf864dce5b6c5aa854efce1571"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/BRA.json",
+  "sources": [
+    {
+      "id": "ibge-pns-2019",
+      "title": "Pesquisa Nacional de Saúde 2019: informações sobre domicílios, acesso e utilização dos serviços de saúde (Brasil, Grandes Regiões e Unidades da Federação)",
+      "publisher": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2020,
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101748.pdf",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "castro-2019",
+      "title": "Brazil's unified health system: the first 30 years and prospects for the future",
+      "publisher": "The Lancet",
+      "authors": "Castro MC, Massuda A, Almeida G, Menezes-Filho NA, Andrade MV, de Souza Noronha KVM, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2019,
+      "url": "https://doi.org/10.1016/S0140-6736(19)31243-7",
+      "doi": "10.1016/S0140-6736(19)31243-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31303318&rettype=abstract&retmode=text",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "massuda-2018",
+      "title": "The Brazilian health system at crossroads: progress, crisis and resilience",
+      "publisher": "BMJ Global Health",
+      "authors": "Massuda A, Hone T, Leles FAG, de Castro MC, Atun R",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1136/bmjgh-2018-000829",
+      "doi": "10.1136/bmjgh-2018-000829",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6035510",
+      "license": "CC BY-NC 4.0",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "padilha-2025",
+      "title": "Thirty-five years of Brazil's Unified Health System (SUS): from Alma-ata to the climate challenge",
+      "publisher": "The Lancet Regional Health - Americas",
+      "authors": "Padilha A, Massuda A, Leônidas F, Davidian A",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.lana.2025.101295",
+      "doi": "10.1016/j.lana.2025.101295",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12664654",
+      "funding_note": "Commentary. The authors declare that two of them are Brazil's serving Minister of Health and Executive Secretary of the Ministry of Health, so it states the current government's view.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "giovanella-2026",
+      "title": "Thirty years of the Family Health Strategy in the Brazilian Unified National Health System: milestones, advances, setbacks and challenges",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "Giovanella L, Mendonça MHM, Campos EMS, Vilasbôas ALQ, Aquino R, Facchini LA",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/0102-311XEN206025",
+      "doi": "10.1590/0102-311XEN206025",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13286402",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "araujo-2021",
+      "title": "Measuring Financial Protection in Health in Brazil: Catastrophic and Poverty Impacts of Health Care Payments Using the Latest National Household Consumption Survey",
+      "publisher": "Health Systems & Reform",
+      "authors": "Araujo EC, Coelho BDP",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2021,
+      "url": "https://doi.org/10.1080/23288604.2021.1957537",
+      "doi": "10.1080/23288604.2021.1957537",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34547982&rettype=abstract&retmode=text",
+      "funding_note": "Authors are World Bank staff.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "vieira-2023",
+      "title": "Judicialization and right to health in Brazil: a trajectory of matches and mismatches",
+      "publisher": "Revista de Saúde Pública",
+      "authors": "Vieira FS",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.11606/s1518-8787.2023057004579",
+      "doi": "10.11606/s1518-8787.2023057004579",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9933639",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "alkhaldi-2026",
+      "title": "A deep dive into Brazilian health technology assessment: Structure, policies, and processes",
+      "publisher": "PLOS Global Public Health",
+      "authors": "Alkhaldi M, Matos M, Sweid A, Al Basuoni A, Kachach R, Hassan M, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1371/journal.pgph.0005914",
+      "doi": "10.1371/journal.pgph.0005914",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12893538",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "curado-2026",
+      "title": "Affordability of new drugs in the Brazilian public health system: a 13-year monitoring analysis of reimbursement decisions based on health technology assessments (2012-2024)",
+      "publisher": "The Lancet Regional Health - Americas",
+      "authors": "da Silva Pereira Curado D, Santos M, Palacios A, Zimmermann IR, Nunes da Silva E",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.lana.2026.101621",
+      "doi": "10.1016/j.lana.2026.101621",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13562393",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "scheffer-2025",
+      "title": "Brazil's experiment to expand its medical workforce through private and public schools: Impacts and consequences of the balance of regulatory and market forces in resource-scarce settings",
+      "publisher": "Globalization and Health",
+      "authors": "Scheffer M, Mosquera P, Cassenote A, McPake B, Russo G",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12992-025-01105-8",
+      "doi": "10.1186/s12992-025-01105-8",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11951509",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "thomas-2024",
+      "title": "More doctors, better health? A generalised synthetic control approach to estimating impacts of increasing doctors under Brazil's Mais Medicos programme",
+      "publisher": "Social Science & Medicine",
+      "authors": "Thomas RL, Millett C, Sousa Soares R, Hone T",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1016/j.socscimed.2024.117222",
+      "doi": "10.1016/j.socscimed.2024.117222",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7618175",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "sliwa-ruiz-2026",
+      "title": "What happens to population health when the doctors leave? Evidence from the exit of Cuban doctors in Brazil",
+      "publisher": "Journal of Health Economics",
+      "authors": "Sliwa Ruiz S, Becker M, Hone T, Rocha R",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.jhealeco.2025.103099",
+      "doi": "10.1016/j.jhealeco.2025.103099",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7619565",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "souza-2024",
+      "title": "Primary care performance measurement in Brazil (Previne Brasil Program), 2022-2023",
+      "publisher": "BMC Health Services Research",
+      "authors": "de Souza CDF, do Nascimento ALO, de Souza CAJ, Machado MF, Araújo MDP, de Albuquerque Wanderley R, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12913-024-11409-x",
+      "doi": "10.1186/s12913-024-11409-x",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11334600",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "silva-junior-2026",
+      "title": "Analysis of Primary Health Care indicators and expenditures after changes in Federal Co-financing in the municipalities of Pernambuco, Brazil",
+      "publisher": "Ciência & Saúde Coletiva",
+      "authors": "Silva Júnior VBD, Gurgel Júnior GD",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/1413-81232026319.14772025",
+      "doi": "10.1590/1413-81232026319.14772025",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42848629&rettype=abstract&retmode=text",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "pedreira-2026",
+      "title": "Profile and context of the work of physicians in the More Doctors for Brazil Project: a cross-sectional study, Brazil, 2024",
+      "publisher": "Epidemiologia e Serviços de Saúde",
+      "authors": "Pedreira RBS, Pinto EP, Pamponet ML, Vilasbôas ALQ, Vieira SL, de Lima EC, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/S2237-96222026v35e20251297.en",
+      "doi": "10.1590/S2237-96222026v35e20251297.en",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13686426",
+      "funding_note": "Funded under a PAHO letter of intent supporting technical cooperation with the Ministry of Health.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "machado-2026",
+      "title": "Health policies in Brazil (2016-2022): neoliberalism, pandemic, and threats to the Brazilian Unified National Health System",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "Machado CV, Lima LD",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/0102-311XEN228525",
+      "doi": "10.1590/0102-311XEN228525",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13435632",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "vazquez-2023",
+      "title": "From the Brazilian Income Transfer Program to the Fiscal Framework: perspectives on the social agenda of Lula's third Government",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "Vazquez DA, Schlegel R",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1590/0102-311XPT108623",
+      "doi": "10.1590/0102-311XPT108623",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10494675",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "costa-2026",
+      "title": "Universalismo Privatizante no sistema de saúde brasileiro e o Programa Agora Tem Especialistas",
+      "publisher": "Cadernos de Saúde Pública",
+      "authors": "Costa DCAR, Bahia L, Costa JFR, Costa JLR",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1590/0102-311XPT244725",
+      "doi": "10.1590/0102-311XPT244725",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13640034",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "lei-15233-2025",
+      "title": "Lei nº 15.233, de 7 de outubro de 2025 (Programa Agora Tem Especialistas)",
+      "publisher": "Senado Federal (Legislação Federal)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://legis.senado.leg.br/norma/41540060/publicacao/41543382",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "haq-2018",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "doi": "10.1016/S0140-6736(18)30994-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "funding_note": "GBD study, funded by the Bill & Melinda Gates Foundation.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "funding_note": "GBD study, funded by the Bill & Melinda Gates Foundation.",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "correa-2024",
+      "title": "Assessment of the COVID-19 impact on the Brazilian Unified Health System (SUS) financing: an analysis of the financing dynamics of 2020 and 2021",
+      "publisher": "BMC Health Services Research",
+      "authors": "Corrêa ACC, Rigotti MLO, Souza Lacerda HD, Ferreira BP",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12913-024-11600-0",
+      "doi": "10.1186/s12913-024-11600-0",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11447955",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "camara-nt20-2023",
+      "title": "Nota Técnica nº 20/2023: pisos da saúde e da educação com a EC nº 126 de 2022 e a LC 200 de 2023",
+      "publisher": "Câmara dos Deputados, Consultoria de Orçamento e Fiscalização Financeira",
+      "authors": "Souza MLG",
+      "tier": 3,
+      "type": "government",
+      "year": 2023,
+      "url": "https://www2.camara.leg.br/orcamento-da-uniao/estudos/2023/nt-n-20-de-2023-pisos-da-saude-e-da-educacao-coma-ec-n126-de-2022-e-a-lc-200-de-2023-1",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "conass-2023",
+      "title": "Financiamento do SUS (chapter 3, CONASS guide for state health managers)",
+      "publisher": "Conselho Nacional de Secretários de Saúde (CONASS)",
+      "tier": 3,
+      "type": "government",
+      "year": 2023,
+      "url": "https://www.conass.org.br/biblioteca/wp-content/uploads/2023/03/03-Financiamento-do-SUS.pdf",
+      "funding_note": "CONASS represents the state health secretaries; the chapter ends with its own funding proposals (repeal of EC 95, more federal money).",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "anfip-2023",
+      "title": "Análise da Seguridade Social em 2022",
+      "publisher": "ANFIP (Associação Nacional dos Auditores Fiscais da Receita Federal do Brasil) and Fundação ANFIP",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.anfip.org.br/wp-content/uploads/2023/10/Analise-Seguridade-2022.pdf",
+      "funding_note": "Published by the association of federal tax auditors, which argues that the social security budget is adequately funded; used here only for a description of the legal framework.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ibge-css-2024",
+      "title": "Conta-Satélite de Saúde: Brasil 2010-2021 (Contas Nacionais n. 97, informativo)",
+      "publisher": "IBGE",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2024,
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ans-panorama-2025",
+      "title": "Panorama Saúde Suplementar, v.7 n.9 (June 2025, 1st quarter 2025)",
+      "publisher": "Agência Nacional de Saúde Suplementar (ANS)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/PanoramaSaudeSuplementar_Ed09_jun_2025.pdf/@@download/file",
+      "license": "CC BY-NC-SA 4.0",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "dgt-ploa-2026",
+      "title": "Demonstrativo dos Gastos Tributários PLOA 2026: base conceitual",
+      "publisher": "Receita Federal do Brasil (Centro de Estudos Tributários e Aduaneiros)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf/@@download/file",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ocke-reis-2021",
+      "title": "Avaliação do gasto tributário em saúde: o caso das despesas médicas do imposto de renda da pessoa física (IRPF) (Texto para Discussão 2712)",
+      "publisher": "Ipea",
+      "authors": "Ocké-Reis CO",
+      "tier": 3,
+      "type": "government",
+      "year": 2021,
+      "url": "https://repositorio.ipea.gov.br/bitstream/11058/10929/1/td_2712.pdf",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "tcu-gt-2025",
+      "title": "Gastos Tributários e o Desafio Fiscal do Brasil: relatório sintético (Grupo de Trabalho Gastos Tributários)",
+      "publisher": "Tribunal de Contas da União (TCU)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://sites.tcu.gov.br/recursos/observatorio-beneficios-tributarios/Relatorio%20Sint%C3%A9tico%20-%20Gastos%20Tributarios%20Brasil.pdf",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-10",
+      "note": "Profile created: 84 claims from 22 sources anchored to fingerprinted passages and support-reviewed in a separate cold pass; 43 statements rewritten and 7 re-anchored to wider passages in review."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill (data older than 10 years): BRA-costs-001 (2000-2014 spending) replaced with a 2026 source on public spending below 4% of GDP; BRA-what_works-003 (2002-2013) dropped as its current equivalent is already BRA-outcomes-001. camara.leg.br could not be re-downloaded, so its 5 claims were re-sourced to the law text and Costa et al. 2026 (3) or dropped (BRA-reforms-003, BRA-access-008). Now 81 claims from 21 sources, all passing both checks."
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Backfill round 3 (financing): 22 claims added from 9 new sources (constitutional and legal spending floors, satellite-account split of spending, private plan enrolment and premiums, federal tax expenditures on health). Cold support review rewrote 6 statements; 3 drafted claims were dropped or merged. Now 103 claims from 30 sources."
+    }
+  ]
+}

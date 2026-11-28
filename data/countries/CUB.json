@@ -1,0 +1,662 @@
+{
+  "iso3": "CUB",
+  "name": "Cuba",
+  "wave": 5,
+  "system_as_of": "2026-11-24",
+  "status": "verified",
+  "model": {
+    "type": "national_health_service",
+    "label": "Single public system, state-financed and state-run, free to users (Sistema Nacional de Salud)"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CUB-overview-002",
+      "CUB-overview-003"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CUB-overview-002",
+        "statement": "To give effect to that right the constitution requires the State to set up a health system at every level that is accessible to the population, together with prevention and education programmes to which society and families contribute.",
+        "valence": "neutral",
+        "source_id": "cuba-const-2019",
+        "locator": {
+          "section": "overview",
+          "page": 18,
+          "char_start": 55119,
+          "char_end": 55340,
+          "passage_sha256": "0d5044d1231ebad4708b320ffe636b7e1d835deac43c829f716d46a18b2de4b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CUB-overview-003",
+        "statement": "PAHO's country profile says Cuba has reached universal health coverage, including in remote and hard-to-reach areas, since the family medicine programme was introduced.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "overview",
+          "char_start": 9047,
+          "char_end": 9207,
+          "passage_sha256": "31ef59af5ec767474a268712b8324c0e8cfdac726fedd62cd58e02f011435780"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CUB-overview-004",
+        "statement": "PAHO reports that public policy centres on strengthening first-level care through the Family Doctor and Nurse Program, which is intended to meet more than 70% of the population's health needs.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "overview",
+          "char_start": 9493,
+          "char_end": 9671,
+          "passage_sha256": "fd305a9dd53f8a9b2d30758df2bb98fb6775def76f257c97327f02f3a7f7a7a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CUB-overview-005",
+        "statement": "The authors describe a tiered system: neighbourhood family doctors' offices serving 600-700 people each, community polyclinics with specialists such as paediatricians and gynaecologists serving 30,000-60,000 people, and hospitals and specialty centres.",
+        "valence": "neutral",
+        "source_id": "bronnum-hansen-2023",
+        "locator": {
+          "section": "overview",
+          "char_start": 13520,
+          "char_end": 13875,
+          "passage_sha256": "343c8d8bf61c8db93e007d22fa3823deff25945b5947b4a6b466a393c4f3c717"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CUB-overview-006",
+        "statement": "Cuba's population fell 1.2% between 2000 and 2024, to about 10.98 million, and 16.6% of people were aged 65 or older in 2024.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "overview",
+          "char_start": 459,
+          "char_end": 789,
+          "passage_sha256": "ab6b526c145700f9c3b1ad2f024de8ba5a616f7461419ffd92cd2e03df2ae9eb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financing": [
+      {
+        "id": "CUB-financing-001",
+        "statement": "In 2021, health took 21.48% of total public expenditure in Cuba, according to PAHO's country profile.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "financing",
+          "char_start": 2420,
+          "char_end": 2561,
+          "passage_sha256": "1316ddc70b975900bf799cf5a05e090c753c0908eb26ed17c10316715b04e8e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CUB-financing-002",
+        "statement": "The authors characterise the Cuban health system as providing universal services that are entirely financed and administered by the state.",
+        "valence": "neutral",
+        "source_id": "bronnum-hansen-2023",
+        "locator": {
+          "section": "financing",
+          "char_start": 13227,
+          "char_end": 13332,
+          "passage_sha256": "cc4272ae2d1c9141df4a4d2367bf23876a2f909250822604dc19ac7cbdfe40e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "covered": [],
+    "cost_sharing": [
+      {
+        "id": "CUB-cost_sharing-001",
+        "statement": "Out-of-pocket payments made up 8.39% of total health expenditure in Cuba in 2021, according to PAHO's country profile.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "cost_sharing",
+          "char_start": 2420,
+          "char_end": 2649,
+          "passage_sha256": "8729642c4b2060582fcce1d3e3c7b0bea4d0317e833033d7d769e1841161de83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financial_hardship": [],
+    "additional_care": [],
+    "access": [
+      {
+        "id": "CUB-access-001",
+        "statement": "Skilled personnel attended 99.9% of births in Cuba in 2021.",
+        "valence": "strength",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "access",
+          "char_start": 4014,
+          "char_end": 4080,
+          "passage_sha256": "5fddb1f3fb21bbd82340f72098828f23354f3b8a8cf5cddb89982e7b1b5d7988"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CUB-access-002",
+        "statement": "The share of pregnant people with four or more antenatal consultations fell from 97.8% in 2014 to 79.3% in 2019.",
+        "valence": "weakness",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "access",
+          "char_start": 4081,
+          "char_end": 4221,
+          "passage_sha256": "fbbc60e1c1d4a0640595e140c1e9dcb031c097ec48a865ab22cdd4f9f07750ab"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CUB-access-003",
+        "statement": "PAHO reports that restrictions on energy-intensive diagnostics such as CT scans and certain laboratory technologies have increased reliance on basic-level care.",
+        "valence": "weakness",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "access",
+          "page": 2,
+          "char_start": 3570,
+          "char_end": 3814,
+          "passage_sha256": "66f48cd82635e850b3ed6a3d94122460bf9b0fcfed6522077cc972804895f99c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CUB-access-004",
+        "statement": "More than 32,000 pregnant women face higher risk because of reduced access to obstetric ultrasound and limited transport for obstetric emergencies, and delays to routine childhood vaccination have been reported, according to PAHO.",
+        "valence": "weakness",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "access",
+          "page": 1,
+          "char_start": 2640,
+          "char_end": 2949,
+          "passage_sha256": "56e74105cd676cff48805eba05cf14674b04942b0b6a2c6f6c8de28527d68282"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CUB-outcomes-001",
+        "statement": "PAHO's table, drawing on PAHO and ministry data, gives life expectancy at birth of 77.7 years in 2020, 73.2 in 2021 and 78.3 in 2024.",
+        "valence": "neutral",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "outcomes",
+          "page": 2,
+          "char_start": 5630,
+          "char_end": 5758,
+          "passage_sha256": "4001c6ad1891ec35c1c56337db39562ec7ad53726d02ab4178b1ad70ba76e04d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CUB-outcomes-002",
+        "statement": "Life expectancy at birth was 78.3 years in 2024, above the regional average for the Americas and 2.4 years higher than in 2000.",
+        "valence": "strength",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 1511,
+          "char_end": 1656,
+          "passage_sha256": "8b9dc28151b391be9a55cf7a81567661107e777e805fe98850108caa444bad9a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CUB-outcomes-003",
+        "statement": "A peer-reviewed comparison found that Cuban and Danish life expectancy converged until 2000, after which the rise in Cuban life expectancy slowed.",
+        "valence": "weakness",
+        "source_id": "bronnum-hansen-2023",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 2526,
+          "char_end": 2642,
+          "passage_sha256": "2d202da124200082cdb8f364812c61cf4499cfb73258d360ddb3436859704d12"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "CUB-outcomes-004",
+        "statement": "Since 1955 infant mortality has fallen in both Cuba and Denmark, mostly in Cuba.",
+        "valence": "strength",
+        "source_id": "bronnum-hansen-2023",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 2643,
+          "char_end": 2720,
+          "passage_sha256": "476198f41bafc34ff470fccbcfd5dc4cf9183aed4800556b80db315c0737dab1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": "1955-2020",
+        "historical": true
+      },
+      {
+        "id": "CUB-outcomes-005",
+        "statement": "Ministry figures reported by PAHO show infant mortality at 4.9 per 1,000 births in 2020, 7.1 in 2023 and 2024, and 9.9 in 2025.",
+        "valence": "weakness",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "outcomes",
+          "page": 2,
+          "char_start": 5630,
+          "char_end": 5913,
+          "passage_sha256": "947d6b9e8a4289803df86c8976cdbc18c0fd08ebd9d8b692238585854bccaabe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CUB-outcomes-006",
+        "statement": "WHO estimates put excess deaths in Cuba in 2021 at 18,395, or 163 per 100,000, while fewer deaths than expected were recorded in 2020.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 8472,
+          "char_end": 8683,
+          "passage_sha256": "f2a3e8be57453eef1057f32019e868c14e849fea85546cff0be8df0996cc7019"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CUB-outcomes-007",
+        "statement": "Cuba's rate of potentially preventable premature mortality was 210.9 per 100,000 in 2019, 16.3% lower than in 2000 and 7% below the regional average.",
+        "valence": "strength",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "outcomes",
+          "char_start": 5399,
+          "char_end": 5713,
+          "passage_sha256": "6dd8b55953b1aa59c2ed03222445263b543f73597ce22425fdfd1bd4940433a3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CUB-outcomes-008",
+        "statement": "The ministry-reported maternal mortality ratio was 176.6 per 100,000 live births in 2021 and 40.9 in 2022.",
+        "valence": "neutral",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "outcomes",
+          "page": 2,
+          "char_start": 5630,
+          "char_end": 6060,
+          "passage_sha256": "03a5bc296d19d3cdfe40e3de136b50d5e1a9fd853b3716190c1eb10a3c6b7164"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "costs": [],
+    "what_works": [
+      {
+        "id": "CUB-what_works-002",
+        "statement": "PAHO notes that 60.6% of Cubans with hypertension (aged 30-79) are treated, among the highest treatment coverage in the Americas, even though 39.9% of adults in that age group have hypertension.",
+        "valence": "strength",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "what_works",
+          "page": 6,
+          "char_start": 13390,
+          "char_end": 13527,
+          "passage_sha256": "e61916eb6a0a9181ca8613f5521bc4d8962b52cac45d34a7739a59a5080204a2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CUB-what_works-003",
+        "statement": "In 2024, 97.3% of people living with HIV in Cuba, 28,446 individuals, were on antiretroviral therapy.",
+        "valence": "strength",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "what_works",
+          "page": 6,
+          "char_start": 14450,
+          "char_end": 14593,
+          "passage_sha256": "4eeb8c7cd0926ac674f0e3b929697f326c9199042724d8a18621e9b5244dad2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CUB-what_works-004",
+        "statement": "By 31 December 2021 94% of the population had received at least one COVID-19 vaccine dose, and 88% had completed the schedule by 20 April 2022.",
+        "valence": "strength",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "what_works",
+          "char_start": 8684,
+          "char_end": 8903,
+          "passage_sha256": "995f12f25269ae8a9698811d46883ec4ed7771ba8d1e9920668eaa300fe7c27d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "problems": [
+      {
+        "id": "CUB-problems-001",
+        "statement": "The authors note that Cuban health and welfare face a rapidly ageing population on top of a deteriorating economy in recent decades.",
+        "valence": "weakness",
+        "source_id": "bronnum-hansen-2023",
+        "locator": {
+          "section": "problems",
+          "char_start": 3009,
+          "char_end": 3163,
+          "passage_sha256": "f5d4b159f0a46b55ec8acee50487dc5e41e3d91ef5916c1791411743668985bf"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CUB-problems-002",
+        "statement": "PAHO reports that intermittent power, restrictions on energy-intensive diagnostics, fuel shortages and medical-supply constraints have disrupted chronic disease management nationwide.",
+        "valence": "weakness",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "problems",
+          "page": 6,
+          "char_start": 13724,
+          "char_end": 13904,
+          "passage_sha256": "4ef236797d4462f3c284b9926464ba234809b2333cdcd7fba5a068012d529766"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CUB-problems-004",
+        "statement": "PAHO estimated tuberculosis incidence in Cuba at 11.4 per 100,000 in 2024, with 98 TB deaths, which it describes as an increase on earlier years.",
+        "valence": "weakness",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "problems",
+          "page": 6,
+          "char_start": 14179,
+          "char_end": 14449,
+          "passage_sha256": "693210d27e0a314a839f14c75de474a6b4a99b02d6310812bb10e6de4768fa15"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CUB-problems-005",
+        "statement": "PAHO reports that Cuba imports over 80% of its food and that food inflation exceeded 200%, constraining diet diversity and raising the risk of worse maternal and child malnutrition.",
+        "valence": "weakness",
+        "source_id": "paho-phsa-2026",
+        "locator": {
+          "section": "problems",
+          "page": 7,
+          "char_start": 17441,
+          "char_end": 18095,
+          "passage_sha256": "a370f6dbb129e7fab6eb5d0f25a883c6dfb718cda3682c728b62432125eedd8c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "CUB-problems-006",
+        "statement": "In 2022, 55.6% of Cubans aged 15 and older were overweight or obese, according to PAHO.",
+        "valence": "weakness",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "problems",
+          "char_start": 4858,
+          "char_end": 5029,
+          "passage_sha256": "9c7f491f9ab6b4544a9695a747ac638f42bb3fb7910d5d0329322fd06d6e9145"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CUB-reforms-001",
+        "statement": "PAHO's country profile says efforts are directed at better information systems, updated training for health personnel, stronger infrastructure, reorganised services and health innovation.",
+        "valence": "neutral",
+        "source_id": "paho-hia-cub",
+        "locator": {
+          "section": "reforms",
+          "char_start": 9672,
+          "char_end": 9961,
+          "passage_sha256": "89e869a384923ffde3dad27a39e3ea99c641b0c9cb6c5150b724fe7e2a29c681"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-24",
+          "checked_by": "claude-opus (Opus subagent) support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      }
+    ],
+    "us_lessons": []
+  },
+  "indicators_file": "data/indicators/CUB.json",
+  "sources": [
+    {
+      "id": "paho-phsa-2026",
+      "title": "Public Health Situation Analysis No. 2: Aftermath of Hurricane Melissa amid energy constraints in Cuba",
+      "publisher": "Pan American Health Organization / WHO",
+      "tier": 1,
+      "type": "other",
+      "year": 2026,
+      "url": "https://www.paho.org/sites/default/files/2026/04/phsa-cuba-revised-033126.pdf",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "paho-hia-cub",
+      "title": "Health in the Americas+: Cuba country profile",
+      "publisher": "Pan American Health Organization / WHO",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://hia.paho.org/en/node/124",
+      "accessed": "2026-11-24",
+      "funding_note": "Indicators are interagency values and can differ from the latest national data, as the profile itself says."
+    },
+    {
+      "id": "cuba-const-2019",
+      "title": "Constitution of the Republic of Cuba (2019), English translation",
+      "publisher": "Constitute Project (text of the Cuban constitution)",
+      "tier": 3,
+      "type": "government",
+      "year": 2019,
+      "url": "https://www.constituteproject.org/constitution/Cuba_2019.pdf",
+      "accessed": "2026-11-24"
+    },
+    {
+      "id": "bronnum-hansen-2023",
+      "title": "Trends in mortality patterns in two countries with different welfare models: comparisons between Cuba and Denmark 1955-2020",
+      "publisher": "Journal of Population Research",
+      "authors": "Brønnum-Hansen H, Albizu-Campos Espiñeira JC, Perera C, Andersen I",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/s12546-023-09296-w",
+      "doi": "10.1007/s12546-023-09296-w",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10023218",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-24",
+      "note": "Profile created."
+    },
+    {
+      "date": "2026-11-24",
+      "note": "New profile. 32 claims drafted, 11 failed the first Opus support review and were reworded; 3 of those failed again and were deleted. Limited evidence: 4 usable sources."
+    }
+  ]
+}

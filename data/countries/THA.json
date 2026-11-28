@@ -1,0 +1,1935 @@
+{
+  "iso3": "THA",
+  "name": "Thailand",
+  "wave": 1,
+  "system_as_of": "2026-11-12",
+  "status": "verified",
+  "model": {
+    "type": "mixed",
+    "label": "Three public schemes: the tax-funded Universal Coverage Scheme for most citizens, the tax-funded Civil Servant Medical Benefit Scheme, and contribution-funded Social Health Insurance for private-sector employees"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "THA-overview-001",
+      "THA-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "THA-overview-001",
+        "statement": "By 2002 everyone in Thailand was covered by one of three public schemes: the Civil Servant Medical Benefit Scheme (CSMBS) for civil servants and their dependants, Social Health Insurance (SHI) for private-sector employees, and the Universal Coverage Scheme (UCS) for the rest of the population.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 22,
+          "char_start": 44776,
+          "char_end": 45090,
+          "passage_sha256": "56c34e9197dab3f874adc0bbc86f2431f5bfbea5285ac26726ceafa10ba19e4b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-overview-002",
+        "statement": "The UCS rests on the National Health Security Act 2002 and is run by an autonomous public agency; SHI rests on the Social Security Act 1990 and is run by a department of the Ministry of Labour; the CSMBS rests on a 1980 Royal Decree, amended in 2010, and is run by a bureau of the Ministry of Finance's Comptroller-General's Department.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 2.1",
+          "page": 65,
+          "char_start": 141808,
+          "char_end": 142092,
+          "passage_sha256": "98b82be1e99db1df8dc13477673639fe53c57765e6f511ba597bac95d78afe03"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-overview-003",
+        "statement": "The 2024 review puts population coverage at 7% for the CSMBS, 18% for SHI and 71% for the UCS; private health insurance is an extra layer for people able to pay premiums.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 3.4",
+          "page": 89,
+          "char_start": 199556,
+          "char_end": 199856,
+          "passage_sha256": "8a51fef285b5a63fabe9c0ace4b15f6cabde126af102dfaff2b3ba4c10def945"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-overview-004",
+        "statement": "Creating the National Health Security Office (NHSO) changed the Ministry of Public Health from both buyer and provider of care into mainly a provider, with the NHSO as purchaser.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 42071,
+          "char_end": 42335,
+          "passage_sha256": "9ee5d8b54fd1177d49cf4540316ac224482decc41f442659fe5ae5289f8a4e95"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-overview-005",
+        "statement": "In 2021 Ministry of Public Health facilities held 67.2% of all hospital beds and private hospitals 19.5%.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 46255,
+          "char_end": 46360,
+          "passage_sha256": "27dab22d44fc8d7df4bfd5d4d7d115e41ae3fe40d84dc18f59deb118639af810"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "financing": [
+      {
+        "id": "THA-financing-001",
+        "statement": "The UCS and the CSMBS are paid for from general taxation; SHI is paid for by contributions shared equally by employers, employees and the government; private health insurance is paid for by premiums from individuals or households.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 3.4",
+          "page": 89,
+          "char_start": 199857,
+          "char_end": 200040,
+          "passage_sha256": "74157f51010c2bef44828af7d9279d88055dda82be7b640b2072084988d59618"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-002",
+        "statement": "SHI is a compulsory scheme whose contributions, split equally between employers, employees and the government, pay not only for care of non-work-related illness and injury but also for maternity, disability allowances, old-age pensions and death compensation.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.3 Population coverage and basis for entitlement",
+          "page": 89,
+          "char_start": 198477,
+          "char_end": 198730,
+          "passage_sha256": "55b7cb07f05edf1f26a3b23460a797982fc51f817a30de3e73e622945eb2b09a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-003",
+        "statement": "According to the 2024 review, the SHI contribution was 5% of salary, assessed on pay up to THB 15,000 a month; that ceiling had not been raised since SHI began in 1991, while the minimum wage was adjusted every year.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.1 Collection of funds",
+          "page": 98,
+          "char_start": 220266,
+          "char_end": 220595,
+          "passage_sha256": "38e43cefdd31406ce6df361227323e9c421bff56e4d98cb07859237308d50e0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "historical": true
+      },
+      {
+        "id": "THA-financing-004",
+        "statement": "Because of the contribution ceiling, the 2024 review found almost no difference between what minimum-wage workers and white-collar employees earning THB 80,000-100,000 a month paid into SHI, and it warned that the ceiling could make contributions regressive.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.1 Collection of funds",
+          "page": 98,
+          "char_start": 220065,
+          "char_end": 220777,
+          "passage_sha256": "8d1e4344599a09a1dc8603e0a6173f7669b154933094979163cd00032a10a6c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "historical": true
+      },
+      {
+        "id": "THA-financing-005",
+        "statement": "The largest part of Thailand's tax revenue comes from indirect taxes, with a high share from value added tax, followed by direct taxes such as personal and corporate income tax; this mix was unchanged between 1995 and 2019.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.1 Collection of funds",
+          "page": 97,
+          "char_start": 219327,
+          "char_end": 219593,
+          "passage_sha256": "426eecb43d706a9c9aa6905b286a4b50cbb2f386ba42667c32aa6dc93fdcc874"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1995-2019"
+      },
+      {
+        "id": "THA-financing-006",
+        "statement": "Personal income tax, the largest direct tax, is progressive: rates run from 0% on annual income under THB 150,000 to 35% on income over THB 5 million.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.1 Collection of funds",
+          "page": 97,
+          "char_start": 219791,
+          "char_end": 220025,
+          "passage_sha256": "d7bcf15489884551e44ed2b92ff8b5ce18b99b525de68c558065674ebaf409da"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-007",
+        "statement": "People fund the public schemes through personal income tax, corporate tax paid by employers, indirect taxes such as the 7% value added tax, and, for private-sector employees and their employers, SHI contributions.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "figure": "Fig. 3.2",
+          "page": 86,
+          "char_start": 193602,
+          "char_end": 193948,
+          "passage_sha256": "7ca77ee79733f62683333db74cd34b6b30ecae6959c90b70a07b23d54ea4d09c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-008",
+        "statement": "A 2% surcharge on top of tobacco and alcohol excise tax is earmarked by law for the Thai Health Promotion Foundation (ThaiHealth), an autonomous public agency that runs campaigns on major health risks.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 22,
+          "char_start": 44527,
+          "char_end": 44775,
+          "passage_sha256": "679bdeb603487560511cb3371e574b09287243810024803ff867f258870ee829"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-009",
+        "statement": "In 2019, general government funding paid for 63.2% of current health spending, Social Health Insurance 9.0%, voluntary private insurance 13.6%, compulsory road-traffic insurance 3.0%, out-of-pocket payments 8.5% and employer benefits 1.9%.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 3.3 (health-care spending by source of fund, % of current health expenditure), column 2019",
+          "page": 86,
+          "char_start": 192738,
+          "char_end": 193055,
+          "passage_sha256": "af1cb94676551fc20c1a726a540fee4807dbec21694587cc53670e65afa2c96e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "THA-financing-010",
+        "statement": "Measured as domestic general government health expenditure (GGHE-D), public funding rose from 43.1% of current health expenditure in 1995 to 72.2% in 2019, while domestic private health expenditure fell from 56.9% to 27.7%.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7 Assessment of health systems, chapter summary",
+          "page": 228,
+          "char_start": 509593,
+          "char_end": 509858,
+          "passage_sha256": "19c2a07a78204dfdc89a12cc149ff8934ef5d09cce47126930cd4b767e09d9b8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1995-2019"
+      },
+      {
+        "id": "THA-financing-011",
+        "statement": "UCS and SHI money is pooled centrally under closed-ended budgets, whereas the CSMBS has an open-ended budget and so is not pooled for risk-sharing.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.2 Pooling of funds",
+          "page": 100,
+          "char_start": 224776,
+          "char_end": 224968,
+          "passage_sha256": "a88801248629ced025b134f7e87504e80300e5cea4ee5f0a82102958b286892d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-012",
+        "statement": "Personal income tax relief applies to premiums for voluntary health insurance (and life insurance), which can be deducted as an annual expense as an incentive to buy cover.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 104,
+          "char_start": 236147,
+          "char_end": 236348,
+          "passage_sha256": "89afd5e9546ff5dca7c7fd213c7416da0f3839c4d8c6f419b703c87625cc5926"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financing-013",
+        "statement": "For tax year 2020, a taxpayer could deduct own health insurance premiums paid to an insurer operating in Thailand up to THB 25,000, within a combined THB 100,000 limit together with life insurance premiums and certain bank deposits.",
+        "valence": "neutral",
+        "source_id": "rd-guide-2021",
+        "locator": {
+          "section": "Item 7, Line 2",
+          "page": 11,
+          "char_start": 19615,
+          "char_end": 20092,
+          "passage_sha256": "5a39271bedb1d0d6d4f1125d2b4f8f1e70a9c57bc6dab103d7b12eaea33096dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "THA-financing-014",
+        "statement": "For tax year 2020, premiums paid for the health insurance of the taxpayer's or spouse's parents could be deducted up to THB 15,000 in total, provided each parent's own assessable income did not exceed THB 30,000.",
+        "valence": "neutral",
+        "source_id": "rd-guide-2021",
+        "locator": {
+          "section": "Item 6",
+          "page": 8,
+          "char_start": 13407,
+          "char_end": 13951,
+          "passage_sha256": "e76fd240d849039b40f56c6777d3e777bc88b7c3eeeacb8513799e86e76ca648"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "THA-financing-015",
+        "statement": "By 2022, prevention and health promotion managed by the NHSO had risen to 12% of the UCS capitation budget formula.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.2 Health expenditure",
+          "page": 85,
+          "char_start": 190465,
+          "char_end": 190601,
+          "passage_sha256": "00ec83dd78aaa2e620024a2727112cd3ec8fe7f0d7f7c69a94e054e42b9b68d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "covered": [
+      {
+        "id": "THA-covered-001",
+        "statement": "The CSMBS is a tax-financed scheme with no contributions that covers government employees, pensioners and their dependants (parents, spouse and up to three children under 20).",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.3 Population coverage and basis for entitlement",
+          "page": 88,
+          "char_start": 197849,
+          "char_end": 198021,
+          "passage_sha256": "3f827d8546f0d717dec8e11cdd030e2454ff02d6b209b8e0670a7455bcc83c2f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-covered-002",
+        "statement": "SHI covers the worker only, not family members, except that its maternity benefit extends to the spouse of a male member.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.3 Population coverage and basis for entitlement",
+          "page": 89,
+          "char_start": 198344,
+          "char_end": 198476,
+          "passage_sha256": "98a3bcc718a72397695b8c18b3603eb1ac651d10addeeb7e1f0163552ba743d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-covered-003",
+        "statement": "The UCS assesses new interventions for its package against a cost-effectiveness threshold of THB 160,000 per quality-adjusted life year, long-term affordability and the system's capacity to deliver; when the National Health Security Board adopts one, it also approves the budget for it, to avoid unfunded mandates.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "6.1.2 Extension of the UCS benefit package",
+          "page": 219,
+          "char_start": 487112,
+          "char_end": 487617,
+          "passage_sha256": "de808421780e002f6958eb540223e6fc6d4bc5ba17a80dffffaa9a3bbf287604"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-covered-004",
+        "statement": "The National List of Essential Medicines is the drug benefit list for all three public schemes, and the CSMBS and SHI apply new UCS benefits to their own schemes as appropriate.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "6.1.2 Extension of the UCS benefit package",
+          "page": 219,
+          "char_start": 487896,
+          "char_end": 488157,
+          "passage_sha256": "359ecf85ba4ad806dc28aea6e166b245e34a2114fbc63233982ca4926b056b0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-covered-005",
+        "statement": "In 2021 the UCS added liver transplantation for intermediate and late-stage cirrhosis and ECMO for acute heart or lung failure to its benefit package.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 6.1",
+          "page": 220,
+          "char_start": 489463,
+          "char_end": 489627,
+          "passage_sha256": "6a54472139728f2f80f901ad5ee0c4eea4a2d01edb182a4b54366bf0b69bb042"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "THA-covered-006",
+        "statement": "Benefits added to the UCS package in 2022-2023 include dental implants for members without teeth, thalassaemia screening for pregnant women and their partners, hepatitis B and C screening for people born before 1992, newborn screening for congenital heart disease by pulse oximetry, and HIV self-testing.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 6.1",
+          "page": 220,
+          "char_start": 490915,
+          "char_end": 491393,
+          "passage_sha256": "fc2d485c9aed7bd56b6ef12584fd805a2a6e02dd600cfbf7f3d39e80d299111c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2022-2023"
+      },
+      {
+        "id": "THA-covered-007",
+        "statement": "Because HPV vaccination counts as prevention and health promotion, the school-based programme for girls aged 11-12 added in 2017 covers all Thai girls, not only UCS members.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 6.1",
+          "page": 220,
+          "char_start": 488725,
+          "char_end": 488979,
+          "passage_sha256": "996af6f149d2622ca6f3469245c382e3a368298643307c8078c31ff1dc3b7952"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "THA-covered-008",
+        "statement": "Mammography screening had not been added to the UCS benefit package at the time of the 2024 review.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.4.1 Population health",
+          "page": 249,
+          "char_start": 544900,
+          "char_end": 544963,
+          "passage_sha256": "aaca26f31fea5016394b15793c1d944782a0319683375de6e7fd701c0504ff58"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-covered-009",
+        "statement": "High-cost medicines that do not offer good value for money are excluded from public reimbursement in Thailand; the authors propose a framework for reimbursing some high-cost medicines that are not cost-effective at the current willingness-to-pay threshold.",
+        "valence": "neutral",
+        "source_id": "jppp-highcost-2023",
+        "locator": {
+          "section": "Abstract, Results",
+          "char_start": 3600,
+          "char_end": 3863,
+          "passage_sha256": "338ba0b796dc538b6d43d9940b7d051ed9bd3876638dc367a68bedafc640bffc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "THA-cost_sharing-001",
+        "statement": "Care from contracted providers is free for UCS members, with no deductibles, no coverage ceiling and no extra billing by providers.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.3 Purchasing and purchaser-provider relations",
+          "page": 102,
+          "char_start": 230913,
+          "char_end": 231114,
+          "passage_sha256": "2f8a9f9dd85d2067848c162ba6daae135a1a42829c26d8e93182e77bef6addfa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-cost_sharing-002",
+        "statement": "UCS members paid a flat THB 30 per visit or admission from 2002 until the charge was abolished in November 2008; it was brought back in 2012 with 21 exempt groups, including people who do not wish to pay it.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.4 Out-of-pocket payments",
+          "page": 103,
+          "char_start": 232540,
+          "char_end": 233095,
+          "passage_sha256": "1ca17938006ce2ce34ccf2b3430bca4e2cf5095e654a155046cbdeb30fd958a3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-cost_sharing-003",
+        "statement": "Point-of-service charges differ by scheme: the CSMBS allows balance billing for anything above its maximum reimbursement rate, SHI allows capped extra billing for some items such as private rooms and dental care, and the UCS charges THB 30 per visit or admission.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 3.4",
+          "page": 90,
+          "char_start": 200549,
+          "char_end": 200783,
+          "passage_sha256": "2b853021a7734488621c6cef0645f7da747d22a2e80a19a8125bb033f8245f09"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-cost_sharing-004",
+        "statement": "SHI members mostly pay nothing out of pocket, but some services carry reimbursement ceilings: dental care is reimbursed up to THB 900 a year, and in 2021 maternity care was a THB 1,500 antenatal allowance plus a THB 15,000 lump sum per pregnancy, with members paying anything above these amounts.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.4.4 Out-of-pocket payments",
+          "page": 102,
+          "char_start": 231115,
+          "char_end": 231604,
+          "passage_sha256": "044bc0cd1221e9cc4de5a93ff339457b8428eeaa57a8c0793c4b53d10a14de82"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "THA-cost_sharing-005",
+        "statement": "Out-of-pocket payments fell from 44.9% of current health spending in 1995 to 8.5% in 2019.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 22,
+          "char_start": 44184,
+          "char_end": 44262,
+          "passage_sha256": "65f7f7ed504c26e53e0ff3675e0cbbb1acc174e522c7273806dbf7d299b56449"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1995-2019"
+      },
+      {
+        "id": "THA-cost_sharing-006",
+        "statement": "A national survey study found that the type of health insurance a person had was linked to out-of-pocket medical and transport spending only to a small degree, before and during the pandemic, but people with high needs, such as chronic conditions, bore heavier out-of-pocket medical and transport costs.",
+        "valence": "neutral",
+        "source_id": "plos-oop-2025",
+        "locator": {
+          "section": "Abstract, Results",
+          "char_start": 3578,
+          "char_end": 3962,
+          "passage_sha256": "856e074b7f1e162a0122fdc15a64b20cb372f8bf3152f947b8c60063c1e7982e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2021"
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "THA-financial_hardship-001",
+        "statement": "Among UCS patients with chronic kidney disease, a multicentre study found catastrophic health expenditure in 50.0% of those on haemodialysis and 19.5% of those on peritoneal dialysis; in the poorest UCS quintile, all haemodialysis patients and two-thirds of peritoneal dialysis patients were medically impoverished, and travel costs were the main driver of catastrophic spending for haemodialysis.",
+        "valence": "weakness",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Abstract, Results",
+          "char_start": 4585,
+          "char_end": 5133,
+          "passage_sha256": "8096ac4c9e000e69938a6c0fe593607c34c7f1d49d4aa2a7de652e99a3dfd47d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "THA-financial_hardship-002",
+        "statement": "The kidney disease study defined catastrophic health expenditure as health spending of at least 40% of the household's capacity to pay, the measure used by WHO.",
+        "valence": "neutral",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Methods, Outcomes of interest",
+          "char_start": 11579,
+          "char_end": 11717,
+          "passage_sha256": "49718938d2f8fb14e204b9a4f1a7bedea601630a0a326e24ddde5d810a85ac8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financial_hardship-003",
+        "statement": "The kidney disease study surveyed patients in 11 tertiary or regional hospitals covering all five regions of Thailand between June 2019 and January 2021.",
+        "valence": "neutral",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Methods, Data source and target population",
+          "char_start": 9666,
+          "char_end": 9799,
+          "passage_sha256": "66f27d0ab5f5e5d9743884fd60517296e019bf43bf324ca77bcd20c722ef0ece"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "THA-financial_hardship-004",
+        "statement": "The study measured the financial burden left for patients with kidney disease under the UCS's 'PD First' policy, as it applied at the time.",
+        "valence": "neutral",
+        "source_id": "ckd-pd-2022",
+        "locator": {
+          "section": "Abstract, Objective",
+          "char_start": 3959,
+          "char_end": 4134,
+          "passage_sha256": "6c5c79c2cd251bbfaec2b673e500b791186dee33385f958fac187db32abc9040"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2021"
+      },
+      {
+        "id": "THA-financial_hardship-005",
+        "statement": "A 2023 commentary argues that, although Thailand's UHC system is widely seen as one of the most robust, its hidden costs still drive a significant share of patients into catastrophic health expenditure.",
+        "valence": "weakness",
+        "source_id": "bmjgh-cat-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5183,
+          "char_end": 5762,
+          "passage_sha256": "e974f442b36c24bf5e3795beab149bd58acbbc948e358c17a1cfc2a2c27f3b19"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-financial_hardship-006",
+        "statement": "The commentary names these unreimbursed costs as travel, caregivers' accommodation and food, and says they hit hardest rural patients who must travel long distances for care.",
+        "valence": "weakness",
+        "source_id": "bmjgh-cat-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6026,
+          "char_end": 6346,
+          "passage_sha256": "aa679fe7e0f86ae89c61bca26a90f36069a2e2a18764465c1136f5bdde79576e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "THA-additional_care-001",
+        "statement": "Private health insurance is voluntary; insurers commonly screen applicants and exclude existing conditions, usually refuse people over 60, and renew or end policies each year with premiums reset according to the previous year's use and claims.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 104,
+          "char_start": 235663,
+          "char_end": 236032,
+          "passage_sha256": "52f87f4630d46110dd614c8287978bbbf82d5933fa21e3fdd6bf269be7852561"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-additional_care-002",
+        "statement": "There is no complementary private insurance, because the public benefit packages are comprehensive; private policies offer benefits similar to the public schemes but with a wider choice of private hospitals.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.5 Voluntary health insurance",
+          "page": 104,
+          "char_start": 236349,
+          "char_end": 236789,
+          "passage_sha256": "82535370cbc62edfbf9c1f051626cbc39e1f10a519e59a40cc559acb9ecfc9dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-additional_care-003",
+        "statement": "Voluntary private health insurance grew from 2.5% of current health spending in 1995 to 13.6% in 2019.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 3.3 (% of current health expenditure), columns 1995 and 2019",
+          "page": 86,
+          "char_start": 192843,
+          "char_end": 192907,
+          "passage_sha256": "c4c0b86b32fd1071697c99d089fde912c4b0f336ae5d64acc8aaa50693a97e7a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1995-2019"
+      },
+      {
+        "id": "THA-additional_care-004",
+        "statement": "Large private hospitals in Bangkok, including chains listed on the stock market, mostly serve international patients.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 46361,
+          "char_end": 46517,
+          "passage_sha256": "80b5954822401131d19f205ca015f7e439a9d9488715c0f326ce3122f9d62857"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "access": [
+      {
+        "id": "THA-access-001",
+        "statement": "Thailand had 4.10 doctors, nurses and midwives per 1,000 people in 2020, below the WHO indicative benchmark of 4.45 per 1,000 set in 2016.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 23,
+          "char_start": 46823,
+          "char_end": 47008,
+          "passage_sha256": "09180c998bc6d1a7404c88dabf34bc27b21256c02b9a973057f0fe76dfc4e4ec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "THA-access-002",
+        "statement": "In the 2021 public health resources survey, Bangkok had 19.2 doctors per 10,000 people against 3.6 in the North-east and 5.9 nationwide; the survey counts only professionals who responded.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 4.3 (health workforce density per 10 000 population), Doctors 2021 column",
+          "page": 132,
+          "char_start": 288038,
+          "char_end": 288773,
+          "passage_sha256": "b33f3a151534d5e64b29fd6ff35a2ec6069bd31fe9408fc6289da792a08565d8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "THA-access-003",
+        "statement": "In 2019, unmet need was 1.4% for outpatient care, 1.1% for dental care and about 0.1% for inpatient care; it remained a significant problem for groups such as older people and those with less income and education, and the main reasons were financial constraints, difficulty reaching services and long waits.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.3.3 Equity of access to health care",
+          "page": 242,
+          "char_start": 534958,
+          "char_end": 535397,
+          "passage_sha256": "603a00630cfa5e1a6f0a685e8a00d49e00d82e6aa68df1022019e305b171174b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "THA-access-004",
+        "statement": "No published data exist on average waiting times in Ministry of Public Health hospitals; one study found that over a quarter of colorectal cancer patients waited more than a month to start treatment, against a ministry goal of operating within four weeks of staging.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "5.4 Patient pathways and quality",
+          "page": 162,
+          "char_start": 356822,
+          "char_end": 357177,
+          "passage_sha256": "59acedac5926cc7ca59de3296c2515698bb82049f961bcfc4f96fefc5fd700ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-access-005",
+        "statement": "Outpatient visits per UCS member rose from 2.45 a year in 2003 to 3.45 in 2020, and admissions from 0.09 to 0.12 per member per year, with both trends levelling off in recent years.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.3.1 Increased access to health services",
+          "page": 238,
+          "char_start": 528027,
+          "char_end": 528457,
+          "passage_sha256": "d26ae9d77d96babae951e53a0edf579486d11cab4dabc0172003d50fb28f5fcc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2003-2020"
+      },
+      {
+        "id": "THA-access-006",
+        "statement": "Between 2015 and 2024 the number of general practitioners and specialists grew, and the geographic inequality of GPs improved the most (Gini coefficient 0.42 in 2015, 0.22 in 2024), which the authors attribute to mandatory service and rural recruitment.",
+        "valence": "strength",
+        "source_id": "bmjopen-specialists-2026",
+        "locator": {
+          "section": "Abstract, Results",
+          "char_start": 3503,
+          "char_end": 3828,
+          "passage_sha256": "122eab64bc616765f26ba1b34cfed26c6cb74ad1d113737575eddda2ecc4756d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2024"
+      },
+      {
+        "id": "THA-access-007",
+        "statement": "In established, scarce specialties such as gynaecology, anaesthesiology and neurosurgery, inequality between regions increased despite improvement at the provincial level, with specialists clustering in central provinces and around Bangkok.",
+        "valence": "weakness",
+        "source_id": "bmjopen-specialists-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 22528,
+          "char_end": 22886,
+          "passage_sha256": "ef562921deeb9f97218d2c27221b3c890b52ad4e9608425f6f81960d98b0513d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2024"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "THA-outcomes-001",
+        "statement": "The GBD study put Thailand's Healthcare Access and Quality (HAQ) Index at 62.5 (95% uncertainty interval 58.2-66.5) for ages 0-74 in 2019.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location, 2019 HAQ Index, Overall (0-74 years) column",
+          "char_start": 63904,
+          "char_end": 63952,
+          "passage_sha256": "85386c2d0e182f0c107b2d691a134467e87ca20915f517aeae56d04260d4ce49"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "THA-outcomes-002",
+        "statement": "Maternal mortality fell from 48 per 100,000 live births in 2000 to 29 in 2020.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7 Assessment of health systems, chapter summary",
+          "page": 229,
+          "char_start": 510804,
+          "char_end": 510923,
+          "passage_sha256": "bf08b938bd5dec4c255d08d6e5392a5f32117ccddc9bcb636f45c4525a082fcc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2000-2020"
+      },
+      {
+        "id": "THA-outcomes-003",
+        "statement": "Effective coverage of diabetes rose from 8.1% in 2016 to 11.7% in 2019 and of hypertension from 11.3% to 15.7%, which the review calls still relatively low.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "5.4 Patient pathways and quality",
+          "page": 162,
+          "char_start": 356085,
+          "char_end": 356421,
+          "passage_sha256": "64a88f3f129d718015620fe0c005aea3baecba0e2a47056e9d85648497aeb13b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2016-2019"
+      },
+      {
+        "id": "THA-outcomes-004",
+        "statement": "An analysis of national databases found that only 5-8% of women in the target ages of 30-59 were screened for cervical cancer in 2020-2022.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.4.1 Population health",
+          "page": 249,
+          "char_start": 544166,
+          "char_end": 544338,
+          "passage_sha256": "5af876e2d0053e3de1a1585b708ad38fe0aa77977cd834dbd3dbc6ef66a834b7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2022"
+      },
+      {
+        "id": "THA-outcomes-005",
+        "statement": "Using 2016-2020 UCS inpatient claims, a 2023 study estimated that about 7% of hospitalised UCS patients suffered medical harm, costing about THB 9.6 billion a year, around 5.5% of the 2021 UCS budget.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "5.4 Patient pathways and quality",
+          "page": 163,
+          "char_start": 357281,
+          "char_end": 357675,
+          "passage_sha256": "826e56d81873b6e3c8b8ba46b8efddf78093d2bd2f19fb3c2c51930541984c94"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2016-2020"
+      },
+      {
+        "id": "THA-outcomes-006",
+        "statement": "Among provincial hospitals under the Ministry of Public Health, hospital networks whose provincial hospital was accredited had lower standardised mortality ratios for acute stroke and sepsis, in a 5-year analysis of UCS claims.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.4.2 Health service outcomes and quality of care",
+          "page": 251,
+          "char_start": 549725,
+          "char_end": 550284,
+          "passage_sha256": "74e5e43fae92730ab25fc79d1f8e210c54136aac023ebae0f9392daddd105986"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-outcomes-007",
+        "statement": "Noncommunicable diseases accounted for 8 of the 10 leading causes of death and 7 of the 10 leading causes of lost disability-adjusted life years in 2019.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "8.2 Remaining challenges",
+          "page": 262,
+          "char_start": 569259,
+          "char_end": 569398,
+          "passage_sha256": "7436885491a58b64ada6c51e4815893c1867a4f058d2a6dcb0349c6dfd70325e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "THA-outcomes-008",
+        "statement": "Adult smoking fell from 23% in 2004 to 17.4% in 2021, helped by measures including higher tobacco tax, but the decline is projected to fall short of a 30% reduction by 2025.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "8.2 Remaining challenges",
+          "page": 26,
+          "char_start": 53726,
+          "char_end": 54008,
+          "passage_sha256": "bcc61e9349fa1b423169a94c45f92e69403970fe28f750db47ba89a3abb0c8fe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2004-2021"
+      }
+    ],
+    "costs": [
+      {
+        "id": "THA-costs-001",
+        "statement": "The approved UCS budget per member rose from US$29 in 2003 to US$115 in 2020, with annual growth slowing from 8.1% in 2005 to 4.9% in 2020.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 3.6",
+          "page": 106,
+          "char_start": 240008,
+          "char_end": 240198,
+          "passage_sha256": "a410cc9d6477c5268408305c2e9230dbbdd6c5660f4a9684dc629d6a76f26590"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2003-2020"
+      },
+      {
+        "id": "THA-costs-002",
+        "statement": "Health spending per CSMBS member was about six times that per UCS member, and CSMBS costs rose rapidly in 2008 once direct disbursement was fully applied, after pilots in 2004 and 2006.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "figure": "Fig. 3.8, Fig. 3.9",
+          "page": 107,
+          "char_start": 243085,
+          "char_end": 243488,
+          "passage_sha256": "d03776d14f37107046c1ce6f3be33eaabc02224e6d130180fa692e906cc3a83a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "THA-costs-003",
+        "statement": "Thailand borrowed THB 1 trillion for its COVID-19 response; 70.9% went to impact mitigation, 22.7% to economic and social recovery and 6.4% to the health sector response.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 6.4",
+          "page": 222,
+          "char_start": 494699,
+          "char_end": 494954,
+          "passage_sha256": "f2ff25e17a31ee498df19485d712d47100826e2a090b5a44df833e00e86ff08f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "THA-costs-004",
+        "statement": "A review of the medicines system under UHC found steadily rising drug spending, driven by very expensive technologies, and growing reliance on imported finished medicines.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.5.2 Technical efficiency",
+          "page": 257,
+          "char_start": 559916,
+          "char_end": 561292,
+          "passage_sha256": "7a63f837ff04fda3199a68fbc6fd3dcdbf5b2ef1d7a4253af0fd5d74ad54d635"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "THA-what_works-001",
+        "statement": "The UCS subsidy is pro-poor: in 2021 the poorest wealth quintile made up 23.5% of UCS members but received 28.4% of the public subsidy for outpatient care and 21.6% for inpatient care, while the richest quintile (14.4% of members) received 11.2% and 14.7%.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.3.3 Equity of access to health care",
+          "page": 241,
+          "char_start": 532562,
+          "char_end": 532895,
+          "passage_sha256": "82b1c869e73a920635223630b25e5c315cab017623d4fdb54c370b2c2245e225"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "THA-what_works-002",
+        "statement": "The share of households whose health spending exceeded 10% of household consumption fell from 6.0% in 1996 to 1.9% in 2020, and the share pushed below the poverty line by health payments from 2.2% to 0.2%.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.3.2 Financial risk protection",
+          "page": 96,
+          "char_start": 217723,
+          "char_end": 218276,
+          "passage_sha256": "e5d8f0d28d04a51c420dc16357f6e6c377c07cf97648d1269bfb36e46df4dc3b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1996-2020"
+      },
+      {
+        "id": "THA-what_works-003",
+        "statement": "Closed-ended provider payment, used by SHI since 1991 and the UCS since 2002, contributed significantly to efficiency gains by encouraging cheaper generic medicines and rational prescribing.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.5.2 Technical efficiency",
+          "page": 256,
+          "char_start": 557511,
+          "char_end": 557782,
+          "passage_sha256": "b61e83a373a373cefa7b208af64d9dad89db9dddbc95209ca59baebf5117666f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-what_works-004",
+        "statement": "To staff rural services, Thailand combined recruiting students from rural backgrounds, rural-focused curricula, compulsory rural service for all new doctors, nurses, pharmacists and dentists since 1972, incentives, and task-shifting to nurse practitioners and other cadres.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "4 Physical and human resources, chapter summary",
+          "page": 120,
+          "char_start": 264435,
+          "char_end": 265005,
+          "passage_sha256": "50584d475d88d6c3c839ceeaf39cc366856341422cdeb3104b627daecfa7bb32"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-what_works-005",
+        "statement": "Compared with other upper-middle-income countries, Thailand had lower child mortality and longer life expectancy for its health spending per person, which the review suggests may reflect its closed-ended provider payment.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "8.1 Key findings",
+          "page": 259,
+          "char_start": 563408,
+          "char_end": 563805,
+          "passage_sha256": "e99e784db84e2b80f557699da3352be5996e5f3c4d1465f6fdbb272a8dca7fe7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "THA-what_works-006",
+        "statement": "During the COVID-19 pandemic a full package of tests, treatment, isolation and vaccination was free to everyone in Thailand, Thai or not, and public and private providers were paid the same rates for it.",
+        "valence": "strength",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "6.1.3 COVID-19 pandemic: health system adaptations",
+          "page": 221,
+          "char_start": 493311,
+          "char_end": 493980,
+          "passage_sha256": "834a70e61ac2ad8cc9ade8f092db4fd82916a948b2b2cd694ebf75496584ef69"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2022"
+      },
+      {
+        "id": "THA-what_works-007",
+        "statement": "The Health Intervention and Technology Assessment Program (HITAP) built health technology assessment capacity in Thailand and linked research to policy and practice.",
+        "valence": "strength",
+        "source_id": "hsr-hitap-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1139,
+          "char_end": 1223,
+          "passage_sha256": "6dc94b5a5f8ba7e1bd165d10b12b692c949e4b212f612f327e669243f1bcf65f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "THA-problems-001",
+        "statement": "Because the three schemes were created at different times with different provider payment methods, the system remains fragmented which could lead to differences in the services provided.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "3.8 Summary",
+          "page": 118,
+          "char_start": 260704,
+          "char_end": 260916,
+          "passage_sha256": "8c43eddda3aa1d057c9b7483df8c48b5e6f4552450f8b761e2bf2a74f4dbdeb0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-problems-002",
+        "statement": "Access to higher-cost drugs is unequal across the three schemes: medicines covered by schemes paying providers on a closed-ended basis tend to be more cost-effective but offer a narrower choice than under the fee-for-service scheme.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "7.5.2 Technical efficiency",
+          "page": 257,
+          "char_start": 560340,
+          "char_end": 560600,
+          "passage_sha256": "d17a403b9296467ea4ae6772ae5b560aede4be0830e8f0b9f2b45864674c71e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-problems-003",
+        "statement": "Many health workers are leaving: nurses and newly qualified doctors resign at high rates because of heavy workloads and low pay, and the government's push to make Thailand a medical hub has increased internal brain drain.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "4 Physical and human resources, chapter summary",
+          "page": 120,
+          "char_start": 265582,
+          "char_end": 266045,
+          "passage_sha256": "589cf5df44a8a73bcdd866684199e00257a5ac58fa5b3655ac6630b8eb302df6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-problems-004",
+        "statement": "The number of general practitioners in the public sector began to decline after 2019 despite overall growth, while private-sector specialist numbers grew faster than GPs.",
+        "valence": "weakness",
+        "source_id": "bmjopen-specialists-2026",
+        "locator": {
+          "section": "Results",
+          "char_start": 16614,
+          "char_end": 16924,
+          "passage_sha256": "aa6594ba3b55a2ec2f715c51bc1776a2640012d414b38b09689b36b1462acf6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2024"
+      },
+      {
+        "id": "THA-problems-005",
+        "statement": "Low-skilled migrant workers in the informal sector are eligible for the Ministry of Public Health's Health Insurance Card Scheme, which is semi-voluntary, with no legal mechanism making migrants enrol.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "5.13 Health services for specific populations",
+          "page": 205,
+          "char_start": 449910,
+          "char_end": 450369,
+          "passage_sha256": "54507b641397c7e25ccb8c7812d996ff2eff96d1fef59ce752a683807642d289"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-problems-006",
+        "statement": "A scoping review reports that only about a third of migrants in Thailand had enrolled in migrant health insurance, and that migrants face barriers such as lacking legal documents and money, language and lack of information.",
+        "valence": "weakness",
+        "source_id": "migrant-scoping-2022",
+        "locator": {
+          "section": "1. Introduction",
+          "char_start": 7084,
+          "char_end": 7422,
+          "passage_sha256": "89c806050e2f48b3f4644dcfb2e5ca74d17eb70115629c994b87904336205568"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-problems-007",
+        "statement": "Devolving health centres to local government has been slow: in 2021 only 84 of 9,759 Ministry of Public Health health centres (0.8%) had been devolved, as subdistrict administrations lacked readiness, capacity and funding.",
+        "valence": "weakness",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "Executive summary",
+          "page": 21,
+          "char_start": 43253,
+          "char_end": 43477,
+          "passage_sha256": "3f8925fb596da7019bacd62ca6ad51f42bb32e7cfe5740a6d45b4258254cd331"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      }
+    ],
+    "reforms": [
+      {
+        "id": "THA-reforms-001",
+        "statement": "As of October 2025 the Public Health Minister was driving a '30-Baht Treatment Anywhere, Free Dialysis Everywhere' initiative, with plans for kidney transplant services in all 12 health regions; the NHSO was updating its reimbursement guidelines to support these measures, and patients were to be able to choose, with medical guidance, the dialysis treatment that suits them.",
+        "valence": "neutral",
+        "source_id": "prd-ucs-reform-2025",
+        "locator": {
+          "section": "Full text",
+          "char_start": 344,
+          "char_end": 767,
+          "passage_sha256": "293956332c7b72046a8ab9209d9564f95739fb8ccf66a4dba1a7022be100c10a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "THA-reforms-002",
+        "statement": "The '30-baht Treatment Anywhere' programme, piloted in four provinces from 7 January 2024, was extended to all provinces from 1 January 2025; it lets UCS members be treated outside their assigned hospital, within the same province, by showing their ID card.",
+        "valence": "neutral",
+        "source_id": "prd-anywhere-2024",
+        "locator": {
+          "section": "Full text",
+          "char_start": 276,
+          "char_end": 1287,
+          "passage_sha256": "5d0ca9d4b42fd8daafbbd2e961f1c1de7b1738152cb4599e4b05ddaa666897a9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "THA-reforms-003",
+        "statement": "In 2022 the UCS dropped the rule that patients choosing haemodialysis had to pay for it themselves, widening their choice of kidney replacement therapy.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 6.1",
+          "page": 220,
+          "char_start": 490055,
+          "char_end": 490259,
+          "passage_sha256": "ec5f1246d50e052f3738fe8d30e83e97da09a138854e8facd44a4bf8bc85e1fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "THA-reforms-004",
+        "statement": "From 2021, UCS members diagnosed with cancer may be treated at any hospital, and may use any primary care provider for outpatient care for reasons they define, without the referral from their registered network previously required.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "table": "Table 6.2",
+          "page": 221,
+          "char_start": 491525,
+          "char_end": 491944,
+          "passage_sha256": "be4e4b46ff117744d5fe8bbce4ec61b3f56df44733745d90f26c0bceee5c9c0e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "THA-reforms-005",
+        "statement": "The review found no major health reform between 2015 and 2024 other than devolving subdistrict health centres from the Ministry of Public Health to Provincial Administrative Organizations, launched on a large scale in 2022, with no published evidence yet on its effects.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "6 Principal health reforms, chapter summary",
+          "page": 217,
+          "char_start": 481694,
+          "char_end": 482151,
+          "passage_sha256": "2b528b4e33056f92b6836282af04854fffb96bf866efe0a7b8d236c8b6a8dd99"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "THA-reforms-006",
+        "statement": "The Primary Health Care System Act of 2019 promotes family doctor care teams; the review notes its effects still need to be assessed.",
+        "valence": "neutral",
+        "source_id": "tha-hit-2024",
+        "locator": {
+          "section": "6 Principal health reforms, chapter summary",
+          "page": 217,
+          "char_start": 483710,
+          "char_end": 483968,
+          "passage_sha256": "54c2d8f0e0003a79aea550ee45f02255c2291ca391e9a23cec621cb79ad0de36"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "THA-us_lessons-001",
+        "statement": "A political-economy study of Thailand's reform concludes that the reform team's ability to generate and use evidence kept the reform on track despite opposition and path dependence.",
+        "valence": "neutral",
+        "source_id": "hsr-poleco-2019",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1789,
+          "char_end": 2082,
+          "passage_sha256": "d748b50ead7e7ed657a34cf9704afd77eb6831e47f270ef7dfff549a3e09c62f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-us_lessons-002",
+        "statement": "The same study names two contested changes as key to securing enough money for and good governance of the UCS: a budgeting process that curbed the Bureau of Budget's discretion, and the split between the purchaser (NHSO) and the provider (Ministry of Public Health).",
+        "valence": "neutral",
+        "source_id": "hsr-poleco-2019",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1311,
+          "char_end": 1788,
+          "passage_sha256": "b4959456c336a721891855e7a6ec15dffe999fb41a87b37af2faddd6391692af"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-us_lessons-003",
+        "statement": "HITAP's semi-autonomous structure facilitated its development, though not without challenges, and its experience may be relevant to other countries and institutions wanting to build HTA programmes.",
+        "valence": "neutral",
+        "source_id": "hsr-hitap-2024",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1389,
+          "char_end": 2211,
+          "passage_sha256": "6a2a68125b8cd35b70e5463a83e0c5a347df26f3151372e8c6614b7dbe76fd80"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-us_lessons-004",
+        "statement": "Reviewing countries with established HTA systems, a study found nearly all had set up special programmes or other mechanisms to pay for high-cost medicines that are not cost-effective, and the authors advise against paying for cost-ineffective medicines, funding other high-cost medicines only where no other life-saving treatment exists.",
+        "valence": "neutral",
+        "source_id": "jppp-highcost-2023",
+        "locator": {
+          "section": "Key message",
+          "char_start": 4850,
+          "char_end": 5334,
+          "passage_sha256": "1525c3507dbcd55614dacc5133faa88834f27b950b14f5259967c244d279d7e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "THA-us_lessons-005",
+        "statement": "Authors of a national workforce study present Thailand's evidence-based, equity-focused workforce policies as lessons for other low- and middle-income countries pursuing universal coverage.",
+        "valence": "neutral",
+        "source_id": "bmjopen-specialists-2026",
+        "locator": {
+          "section": "Abstract, Conclusion",
+          "char_start": 4495,
+          "char_end": 4659,
+          "passage_sha256": "67e1b9b8122420034d3a5713efdbecd3e98a8cd6366b1b120c9f26936f10864e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/THA.json",
+  "sources": [
+    {
+      "id": "tha-hit-2024",
+      "title": "The Kingdom of Thailand Health System Review (Health Systems in Transition, Vol. 13 No. 1), second edition",
+      "publisher": "World Health Organization Regional Office for South-East Asia, on behalf of the Asia Pacific Observatory on Health Systems and Policies",
+      "authors": "Tangcharoensathien V, Patcharanarumol W, Panichkriangkrai W, Sommanustweechai A (eds.) and others",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2024,
+      "url": "https://apo.who.int/publications/i/item/9789290620457",
+      "text_url": "https://iris.who.int/server/api/core/bitstreams/3a2f3985-00ff-4f86-8672-fd75c250b06a/content",
+      "funding_note": "Written mainly by researchers at the International Health Policy Program of the Thai Ministry of Public Health, some of whom helped design the schemes it describes. Most data refer to 2019-2022.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bmjgh-cat-2023",
+      "title": "The hidden costs of universal health coverage: solutions from the fight against catastrophic healthcare expenditure in Thailand",
+      "publisher": "BMJ Global Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1136/bmjgh-2023-011932",
+      "doi": "10.1136/bmjgh-2023-011932",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10255241",
+      "accessed": "2026-11-12",
+      "funding_note": "A commentary (not original research) by clinicians at the Neurological Institute of Thailand, a public hospital, describing their own institution's programmes."
+    },
+    {
+      "id": "jppp-highcost-2023",
+      "title": "Expanding access to high-cost medicines under the Universal Health Coverage scheme in Thailand: review of current practices and recommendations",
+      "publisher": "Journal of Pharmaceutical Policy and Practice",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1186/s40545-023-00643-z",
+      "doi": "10.1186/s40545-023-00643-z",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10631213",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "bmjopen-specialists-2026",
+      "title": "Distribution disparities among medical specialists in Thailand: an equity analysis of the national health workforce database",
+      "publisher": "BMJ Open",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1136/bmjopen-2025-103021",
+      "doi": "10.1136/bmjopen-2025-103021",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13007125",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "migrant-scoping-2022",
+      "title": "A Systematic Scoping Review on Migrant Health Coverage in Thailand",
+      "publisher": "Tropical Medicine and Infectious Disease",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.3390/tropicalmed7080166",
+      "doi": "10.3390/tropicalmed7080166",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9415742",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hsr-poleco-2019",
+      "title": "The Political Economy of UHC Reform in Thailand: Lessons for Low- and Middle-Income Countries",
+      "publisher": "Health Systems & Reform",
+      "authors": "Tangcharoensathien V, Patcharanarumol W, Kulthanmanusorn A, Saengruang N, Kosiyaporn H",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2019,
+      "url": "https://doi.org/10.1080/23288604.2019.1630595",
+      "doi": "10.1080/23288604.2019.1630595",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31407962&rettype=abstract&retmode=text",
+      "funding_note": "Authors work at the Ministry of Public Health's International Health Policy Program, part of the reform team they describe. Claims rest on the PubMed abstract only.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "hsr-hitap-2024",
+      "title": "Fifteen Lessons from Fifteen Years of the Health Intervention and Technology Assessment Program in Thailand",
+      "publisher": "Health Systems & Reform",
+      "authors": "Teerawattananon Y, Vishwanath Dabak S, Culyer A, Mills A, Kingkaew P, Isaranuwatchai W",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1080/23288604.2024.2330974",
+      "doi": "10.1080/23288604.2024.2330974",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38715185&rettype=abstract&retmode=text",
+      "funding_note": "Written mostly by HITAP's own staff about their own programme. Claims rest on the PubMed abstract only.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "rd-guide-2021",
+      "title": "Guide to personal income tax allowances (form P.N.D. 90/91, tax year 2020), English version",
+      "publisher": "The Revenue Department, Ministry of Finance, Thailand",
+      "tier": 1,
+      "type": "government",
+      "year": 2021,
+      "url": "https://www.rd.go.th/fileadmin/download/english_form/220364guide-allow.pdf",
+      "funding_note": "Official guide for the 2020 tax year; the 2025 and 2026 English forms keep the same health-premium allowance lines but do not restate the limits.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "ckd-pd-2022",
+      "title": "The hidden financial catastrophe of chronic kidney disease under universal coverage and Thai \"Peritoneal Dialysis First Policy\"",
+      "publisher": "Frontiers in Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.3389/fpubh.2022.965808",
+      "doi": "10.3389/fpubh.2022.965808",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9606783",
+      "funding_note": "Data collected June 2019 to January 2021, under the UCS 'PD First' policy; the UCS ended self-payment for haemodialysis in 2022 (see THA-reforms-003).",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "plos-oop-2025",
+      "title": "Health insurance type, healthcare utilization and out-of-pocket expenditure in the face of COVID-19: Evidence from Thai national survey data",
+      "publisher": "PLOS ONE",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1371/journal.pone.0321468",
+      "doi": "10.1371/journal.pone.0321468",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11977970",
+      "funding_note": "Uses the 2019 and 2021 waves of the national Health and Welfare Survey.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "prd-anywhere-2024",
+      "title": "The \"30-baht Treatment Anywhere\" Program Covers All Provinces Nationwide (26 December 2024)",
+      "publisher": "The Government Public Relations Department, Thailand",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/350879",
+      "funding_note": "Government press release; states the government's own programme and goals.",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "prd-ucs-reform-2025",
+      "title": "Thailand Rolls Out Universal Healthcare Reforms to Cut Costs and Improve Access (14 October 2025)",
+      "publisher": "The Government Public Relations Department, Thailand",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/431637",
+      "funding_note": "Government press release; describes announced plans, not evaluated results.",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-12",
+      "note": "Profile created: 89 claims from 9 sources, anchored and support-reviewed in a separate cold pass; 41 statements reworded or re-anchored in review (details from outside the passage, overstatement, scope, dates) and 1 rewritten after the 12-word overlap check; 1 claim split in two and 1 replaced by four narrower claims."
+    }
+  ]
+}

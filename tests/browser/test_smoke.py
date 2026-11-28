@@ -39,12 +39,21 @@ def browser():
         b.close()
 
 
+def missing_data_file(text):
+    """A request for a data file the build didn't produce, e.g. Taiwan's
+    statistics, which by design don't exist (not in World Bank or WHO data)."""
+    m = re.search(r"site/(data/[\w./-]+\.json)", text)
+    return bool(m) and not (ROOT / "site" / m.group(1)).exists()
+
+
 def open_page(browser, width):
     page = browser.new_page(viewport={"width": width, "height": 900})
     errors = []
     page.on("pageerror", lambda e: errors.append(str(e)))
-    # Fonts come from Google; offline runners may block them. Anything else is an error.
-    page.on("console", lambda m: errors.append(m.text) if m.type == "error" and "fonts.g" not in m.text else None)
+    # Fonts come from Google; offline runners may block them. A request for a data
+    # file that doesn't exist is allowed: the page shows the gap. Anything else is an error.
+    page.on("console", lambda m: errors.append(m.text)
+            if m.type == "error" and "fonts.g" not in m.text and not missing_data_file(m.text) else None)
     return page, errors
 
 

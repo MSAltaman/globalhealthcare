@@ -1,0 +1,2652 @@
+{
+  "iso3": "FRA",
+  "name": "France",
+  "wave": 1,
+  "system_as_of": "2026-11-11",
+  "status": "verified",
+  "model": {
+    "type": "mixed",
+    "label": "Universal statutory health insurance run as a single public payer, with near-universal complementary private insurance"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "FRA-overview-002",
+      "FRA-reforms-001"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "FRA-overview-001",
+        "statement": "The Observatory describes France's system as a mixed model: built on social health insurance, but with features of a national health service such as a single public payer, substantial tax funding, strong state control and entitlement based on residence.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 41634,
+          "char_end": 41984,
+          "passage_sha256": "9903ab2a38f50854a5169f671b2c345425f42ebcc6efb25fb3076016c63a096e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-overview-002",
+        "statement": "Since the Universal Health Protection (PUMa) system took effect, every legal resident is entitled to public health coverage; residents apply once, coverage then continues without re-enrolment, and children under 18 are covered as their parent's or guardian's dependants.",
+        "valence": "strength",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Health coverage and access",
+          "char_start": 4839,
+          "char_end": 5216,
+          "passage_sha256": "59b210eb80c107da6450e295f93b5cb3da443c3c38015740a048900eab705f63"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-overview-003",
+        "statement": "State Medical Aid (AME) covers undocumented migrants who have lived in France for at least three months, paying all costs within standard reimbursement rates with no upfront payment, under the same income limits as free C2S; some non-urgent treatments such as prostheses and cochlear implants carry a nine-month waiting period.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 9455,
+          "char_end": 9933,
+          "passage_sha256": "5e96415d82604f9429355c6ae0838255ef230a14640dad1366ccb1f54219195d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-overview-004",
+        "statement": "France reached universal coverage gradually, extending statutory insurance to employees and retirees in 1945, to the self-employed in 1966 and to people outside any occupational scheme in 2000.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Background and History",
+          "char_start": 3922,
+          "char_end": 4164,
+          "passage_sha256": "5215f2b7b0f484b8c57ef07856069df33aa24f0475016901f14d8f679f9a5e37"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "historical": true
+      },
+      {
+        "id": "FRA-overview-005",
+        "statement": "Statutory insurance is split into non-competing schemes assigned by employment status: the general fund (CNAM) covered 88% of the population in 2021, the agricultural fund (MSA) about 5%, and more than 20 schemes for specific occupations about 7% in 2022.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 5217,
+          "char_end": 6056,
+          "passage_sha256": "767f42a913d04c5f16bf3d6f0f5434bdbf3bbe7e3b6b6156c963b6b45632a2e3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2021-2022"
+      },
+      {
+        "id": "FRA-overview-006",
+        "statement": "Since 2009 regional health agencies have taken a larger role in managing care locally, especially hospital care, but statutory insurance and central government still play a strong role in organising the system, and over the past two decades the state has increasingly controlled insurance-funded spending through an annual national target (ONDAM).",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 41985,
+          "char_end": 42452,
+          "passage_sha256": "46904c48e49734929826f8344169ff333747f7b0bab09dbc17cd8ca3f0b10f63"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "FRA-financing-001",
+        "statement": "In 2024 statutory health insurance was funded 37% by employer payroll contributions (employee contributions were abolished in 2018), 23% by the general social contribution (CSG) levied on several kinds of income, 31% by taxes such as VAT and tobacco and alcohol duties, and 9% by other contributions and state subsidies.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "The Role of Public Health Insurance",
+          "char_start": 6367,
+          "char_end": 6858,
+          "passage_sha256": "9d36050b76315a3a39e4d2a16d81eb4201df16a6c2c79be79f9ae4eb87b4a25e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financing-002",
+        "statement": "In 2023 public and private compulsory insurance schemes paid for 84% of all health spending in France, above the EU average of 80%.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 43069,
+          "char_end": 43222,
+          "passage_sha256": "19d1b9548b3add9167348bc649984d2f135576a0f6a1a279042c74c596a3100c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-003",
+        "statement": "Statutory insurance spending has been controlled through annual national targets since 1996; the target (ONDAM) rose by 4.8% a year over 2019-2025, largely because of pandemic measures, compared with 2.4% a year in 2015-2019.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 43628,
+          "char_end": 43892,
+          "passage_sha256": "e9e6f7e4c851f3d5c983bdaa11946a5b9d650889b34b0ac4492bc21075001b35"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2015-2025"
+      },
+      {
+        "id": "FRA-financing-004",
+        "statement": "Since 2016 every employer must offer complementary health insurance to its employees and pay at least half of the premium; the self-employed, the unemployed and others outside employer cover buy individual contracts.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 11149,
+          "char_end": 11397,
+          "passage_sha256": "4fd430a3e0736f2c6d1af8d0080f939996360e7ce4f73dc2c07763b3ae207b79"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-005",
+        "statement": "Administering the health insurance system, with statutory insurance and numerous complementary insurers, cost EUR 15.7 billion in 2020 (5.5% of health spending), and 48% of that cost came from managing complementary insurance, against 46% for statutory insurance.",
+        "valence": "weakness",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 95,
+          "section": "3.3 Pooling of funds",
+          "char_start": 186811,
+          "char_end": 187107,
+          "passage_sha256": "cd888ad7823c8d14e5488f4bd7ac89d9df693c33176bc63ba39ca7dff968fde1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "FRA-financing-006",
+        "statement": "As of 1 January 2026 the employer health insurance contribution (sickness, maternity, disability and death) is 13%, or a reduced 7%, of the whole salary with no earnings ceiling; employees pay no share of it.",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "table": "Taux et plafonds, assurance maladie, maternité, invalidité, décès",
+          "char_start": 405,
+          "char_end": 557,
+          "passage_sha256": "6702b063eccd8ccad516efb526cb524e77448bd61654f2c86c0ba1ee7db678a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-007",
+        "statement": "Employers eligible for the general reduction in contributions pay a reduced 7% health insurance rate for employees whose pay does not exceed 2.25 times the minimum wage in force on 31 December 2023 (2.396 times the minimum wage as of 1 January 2026).",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "section": "Notes to the rate table",
+          "char_start": 1481,
+          "char_end": 1799,
+          "passage_sha256": "58d1c9c9328aa61ea13540e1a6196a90ed82b461880d6048899ad4ea22bcff13"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-008",
+        "statement": "As of 1 January 2026 the general social contribution (CSG) on salaries is 9.2%, charged on 98.25% of gross salary.",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "table": "Taux et plafonds, contribution sociale généralisée",
+          "char_start": 851,
+          "char_end": 943,
+          "passage_sha256": "1a99d90a5caa2545db58d80df535afb82d4f8b156eab77e2b2cd94bd3642987c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-009",
+        "statement": "The CSG is also levied on replacement income such as sick pay and unemployment benefits at 6.2%, and on pensions at a rate that depends on the pensioner's resources (8.3% at the standard rate), as of 1 January 2026.",
+        "valence": "neutral",
+        "source_id": "cleiss-fra-2026",
+        "locator": {
+          "section": "Notes to the rate table",
+          "char_start": 2303,
+          "char_end": 2604,
+          "passage_sha256": "e6acff7a17014ff8e1a7039978bbd81ac73f0bc1566f77b8843ec7a0a8983850"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2026
+      },
+      {
+        "id": "FRA-financing-010",
+        "statement": "The CSG is charged on each person's income from the first euro, at a rate set by the type of income, rather than on total household income under a common scale as income tax is; it reaches income beyond wages, such as investment income, pensions, unemployment and disability benefits and gambling.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 91,
+          "char_start": 175560,
+          "char_end": 175990,
+          "passage_sha256": "197e0bdd91407b5e031b3201a442f3cec679d2f289363a5ea91c4a349ed222f4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-011",
+        "statement": "The 2023 health system review, citing the 2021 report of the social security accounts commission, reported that from 2019 active workers paid 9.2% of their income towards social security, of which 6 points went to statutory health insurance, while pensioners paid 8.3% of their pensions, of which 4.8 points went to health insurance.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 91,
+          "char_start": 175991,
+          "char_end": 176300,
+          "passage_sha256": "c0d4acdc7d8b71b0045180528125e50ad48e27f925f7dd86f9f86768683f424d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "FRA-financing-012",
+        "statement": "Employees' own payroll contributions to health insurance fell to about 0.75% of pay in 1998, from 6.8%, and were abolished in 2018; employer contributions stayed around 13% until they were cut substantially from 2019, with the lost revenue replaced from taxes.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 91,
+          "char_start": 176799,
+          "char_end": 177165,
+          "passage_sha256": "bc4a3a5c7690113589ed5f4bdde111258adbc971f704c7090927110c312cfa28"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-013",
+        "statement": "A share of VAT revenue is now allocated to health, as part of the CSG has been assigned since 2020 to the fifth social security branch (autonomy), for long-term care; earmarked taxes on alcohol, tobacco and pharmaceutical company sales have also contributed to health funding.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "section": "3.3.2 Collection",
+          "page": 92,
+          "char_start": 177279,
+          "char_end": 177638,
+          "passage_sha256": "8e87cfd8389490e60b4fe2823fdc36da41f5944249bbca7b42771416b8ac2980"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-014",
+        "statement": "A solidarity tax (TSA) is charged on health care insurance premiums at 13.27% for 'solidarity and responsible' contracts and 20.27% for other contracts, and complementary health contracts are exempt from the insurance contracts tax (TSCA).",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "page": 22,
+          "table": "Tableau 1 (dispositifs sociaux et fiscaux), complémentaire santé",
+          "char_start": 60381,
+          "char_end": 60555,
+          "passage_sha256": "64cd60a962de5a896d8e56904b7e84b1a02a3712a149f67107ca701f34daa778"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-015",
+        "statement": "Employer contributions to employees' complementary health and other complementary protection (prévoyance) are exempt from social security contributions up to a joint ceiling of 6% of the social security ceiling plus 1.5% of the employee's pay, capped in total at 12% of the social security ceiling.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.1.3",
+          "page": 16,
+          "char_start": 41491,
+          "char_end": 41834,
+          "passage_sha256": "04884723aea4cae8600e4c623a61d4ac478ebecdc188beeb8f4dd68402942d0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-016",
+        "statement": "For complementary health, only 'solidarity and responsible' contracts qualify for the social contribution exemption; employers with 11 or more employees pay an 8% 'forfait social' levy on these contributions (smaller employers are exempt from it), and employees pay CSG and CRDS (9.7%) on them.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "table": "Tableau 1 (dispositifs sociaux et fiscaux), complémentaire santé",
+          "page": 22,
+          "char_start": 59796,
+          "char_end": 60208,
+          "passage_sha256": "d12ede2fb8bf7b7f9e34d23c119a0ef3aa85bf25e8a056228dcdc8ba1fb0e338"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-017",
+        "statement": "For complementary health insurance, only employees' own contributions are excluded from taxable income; the income tax exemption for employers' contributions to collective health contracts was removed by the 2014 finance law.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.1.4",
+          "page": 20,
+          "char_start": 56277,
+          "char_end": 56834,
+          "passage_sha256": "37c1da4cffb4e4a7398d7f3993d078c8fe2590c56e6308f9c25d17528695839a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-018",
+        "statement": "The social contribution exemption for employer-funded complementary cover (health and prévoyance combined) applied to an exempted base of EUR 23.4 billion in 2024 (provisional), equivalent to EUR 5.1 billion in net social contributions, according to the government's annex to the 2024 social security accounts bill.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.2.2.1",
+          "page": 27,
+          "char_start": 73599,
+          "char_end": 73920,
+          "passage_sha256": "cdc50ff865527cf05ef09885065973e02d74247211c7461867207f08f37dd1bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financing-019",
+        "statement": "For 2023, figures from the Social Security Directorate indicate that, assuming no change in behaviour, the exemption of employer-funded complementary cover (health and prévoyance) theoretically reduced contributions to the basic social security schemes by EUR 6.1 billion, a loss not made up from the state budget.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.2.2.1",
+          "page": 26,
+          "char_start": 72569,
+          "char_end": 72926,
+          "passage_sha256": "5dbad9fd50dd56004ac1c32b697d0ab8ad55dc607ce1e559b5d2f096c41d6c02"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-020",
+        "statement": "DREES, in a study cited by the IGAS in 2026, had estimated that excluding employees' complementary health contributions from taxable income amounts to public aid of EUR 830 million a year.",
+        "valence": "neutral",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "section": "1.3",
+          "page": 34,
+          "char_start": 89497,
+          "char_end": 89674,
+          "passage_sha256": "e2cddd5da9c334bad7eff09b15d638e358df4f7333fbc56646ccdc52894050fd"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-021",
+        "statement": "The income tax relief on employees' contributions to workplace complementary health insurance rises with household living standards: on average EUR 0 a year for the poorest tenth of households and EUR 89 a year for the richest tenth.",
+        "valence": "weakness",
+        "source_id": "igas-psc-2026",
+        "locator": {
+          "page": 34,
+          "table": "Tableau 5",
+          "char_start": 88820,
+          "char_end": 89297,
+          "passage_sha256": "0397224a733183f878439b07c257147dd55fbba267af888a5e5a7d32fd38bbc0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-022",
+        "statement": "Private insurance paid for 12.7% of health spending in France in 2023, the second-highest share in Europe; France is one of a few countries that combine large public coverage with a private insurance share of 10-15%.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 2,
+          "char_start": 4056,
+          "char_end": 4525,
+          "passage_sha256": "3ac10456895c365ca6b31cf430834f3de969af649d6a310b65e4b6264a6da35f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-023",
+        "statement": "In this comparison the HCAAM counts French complementary insurance as private, market-based cover because coverage levels differ between contracts, while it groups the compulsory, uniform basic insurance of the Netherlands and Switzerland with public cover.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 2,
+          "section": "Encadré: Couverture publique, couverture privée",
+          "char_start": 5111,
+          "char_end": 5567,
+          "passage_sha256": "446d94d9ac370af5a33c38ebc94a2860fd4e5d5375ef71291ebee5419d452312"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-financing-024",
+        "statement": "General government paid for 78% of French health spending in 2023, which placed France 10th in the EU on this measure.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 3,
+          "char_start": 6806,
+          "char_end": 7529,
+          "passage_sha256": "6a14d200b7a589ddbaeed831706c3216adb542da78608144504c1d6da29b08b4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financing-025",
+        "statement": "Patients' direct out-of-pocket share of health care and medical goods consumption (CSBM) fell almost without interruption from 10.1% in 2010 to 7.7% in 2023, and rose slightly to 7.8% in 2024.",
+        "valence": "neutral",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 3,
+          "char_start": 7816,
+          "char_end": 8098,
+          "passage_sha256": "30c701a7c96b6a8e4fa0502cd428c8bd0053771ea0312eae8236aee186e59b8f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financing-026",
+        "statement": "In 2019 households spent on average 4.5% of disposable income on out-of-pocket health costs and private insurance premiums combined: 5.6% for the poorest tenth of households against 2.5% for the richest tenth.",
+        "valence": "weakness",
+        "source_id": "hcaam-decryptages-2026",
+        "locator": {
+          "page": 2,
+          "char_start": 3577,
+          "char_end": 3955,
+          "passage_sha256": "b10cba12ab2105d21440051c16c363d36d8f2f9c5a69d67a9d1a9aa5ec20e4b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "covered": [
+      {
+        "id": "FRA-covered-001",
+        "statement": "Statutory insurance covers preventive care, primary and outpatient care from doctors, dentists and midwives, maternity care, basic dental and eye care, long-term care and rehabilitation; it covers inpatient, mental health and palliative care only in part, and approved medicines at partial to full rates.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Services Covered by Public Health Insurance",
+          "char_start": 6903,
+          "char_end": 7348,
+          "passage_sha256": "4e6e0dce61858b7c7ccd21ea4646b7215b7bb7611a82ef2803b714ee657b76b6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-002",
+        "statement": "The 100% Health reform, introduced in 2020, covers a basket of basic dental care, dentures, glasses and hearing aids, and children under 16 are covered for yearly dental check-ups, cleaning, fillings, root canals, orthodontics and extractions.",
+        "valence": "strength",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Services Covered by Public Health Insurance",
+          "char_start": 7875,
+          "char_end": 8289,
+          "passage_sha256": "8e1fb44d3d1fa59d754c5c80d249401816dfb6f956aa7d16a00b80a8f177252c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-003",
+        "statement": "Since 2021 anyone with a complementary insurance contract can get a core package of eye care, hearing aids and dental care with no copayment, though some routine care and cosmetic prosthetic work fall outside it.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 82892,
+          "char_end": 83232,
+          "passage_sha256": "ed5f40e8940150ae29f1b12e2235a1aead4a25db9bf5834663902bd2ea669f42"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-004",
+        "statement": "Under the 'My Psychological Support' programme, started in 2022, people aged 3 and over can have up to 12 sessions a year with a licensed psychologist for mild to moderate conditions; statutory insurance pays 60% of the fee and complementary insurance usually pays the rest.",
+        "valence": "strength",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Mental Health Care",
+          "char_start": 26519,
+          "char_end": 27032,
+          "passage_sha256": "8c598f9a8908cf03425bb68c26d4b6f5a8b95328c76c97ea1e07ff326765faa2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-005",
+        "statement": "Since 2024 France has offered free preventive health consultations at four ages (18-25, 45-50, 60-65 and 70-75) that assess lifestyle and health risks and produce a personal prevention plan.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 10,
+          "section": "5.1 Effectiveness",
+          "char_start": 57470,
+          "char_end": 57806,
+          "passage_sha256": "1e13b7242ff856a62b02f4eb8b5f575696a7adf7389ca4ac169ea011d5101526"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-006",
+        "statement": "Who decides drug coverage: a medicine is reimbursed only if a ministerial decree adds it to the positive list, on the advice of the HAS Transparency Commission and the Economic Committee for Health Products (CEPS); its reimbursement rate follows its assessed medical benefit and the severity of the condition, and the Commission also rates its added benefit over existing treatments.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 65,
+          "section": "2.7.4 Regulation and governance of pharmaceuticals",
+          "char_start": 125486,
+          "char_end": 126187,
+          "passage_sha256": "1ec833cb9661ec6e0e611c731612c4fd34dc15a603e4fca31206576c7792051e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-007",
+        "statement": "A drug's price is either negotiated between the manufacturer and the pricing committee CEPS, made up of representatives of the health, economy and research ministries, statutory insurance and UNOCAM, or set by international benchmarking; by law it must reflect the drug's added benefit, the prices of comparable drugs and expected sales volume.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 65,
+          "section": "2.7.4 Regulation and governance of pharmaceuticals",
+          "char_start": 126188,
+          "char_end": 126722,
+          "passage_sha256": "2711eaa3d195643f1d1a8146ed994422dfa5d6132af56c57676b9ddb0fc694c1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-008",
+        "statement": "The National Authority for Health (HAS) assesses medicines, medical devices and procedures, publishes clinical guidelines, accredits health care organisations and certifies health professionals.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "The Role of Government",
+          "char_start": 12420,
+          "char_end": 12659,
+          "passage_sha256": "54b425e1e0318728f2f769a0a6f50e2c3603a0594b660ca7373ad9116d9af23e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-covered-009",
+        "statement": "France runs early access schemes that let patients with serious unmet needs receive promising medicines, mainly those of high clinical value, before pricing and reimbursement are settled and sometimes before marketing authorisation.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 20,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 119412,
+          "char_end": 119774,
+          "passage_sha256": "751e36c286c1630e934cdcf4f4a89d160ba6a2e4b0d15416a77e3f5d8c6c4359"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "FRA-cost_sharing-001",
+        "statement": "Statutory insurance pays 80% of the cost of inpatient stays, 70% of outpatient visits and between 15% and 100% of approved medicines.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 36192,
+          "char_end": 36426,
+          "passage_sha256": "8ecd5ecedaec4d043c95d52b7a534d8a280af0c3d223668c9baadf3a78f7e816"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-002",
+        "statement": "Patients who see a doctor without a referral from their attending physician are reimbursed at a reduced 30% rate; psychiatric, gynaecological and eye care for people under 26 and all pregnancy care are exempt from this penalty.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 36464,
+          "char_end": 36766,
+          "passage_sha256": "61a23db4593cf518789214ed4d2fd0b2fe63862967931a80769cf0151e2d79f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-003",
+        "statement": "Patients pay a flat EUR 1 for each prescribed medicine outside hospital, with these charges capped at EUR 50 per person per year.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 35970,
+          "char_end": 36187,
+          "passage_sha256": "7eb20f83fdbe03bde82e46ae4f58ea9fa2deebe05a5bcb1c6976b8f5b17924e2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-004",
+        "statement": "Apart from exemptions for groups such as people with chronic illnesses or C2S enrollees, France sets no annual or income-related ceiling on a person's total out-of-pocket costs.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 36875,
+          "char_end": 37096,
+          "passage_sha256": "b98c5c23aec2985be418ddf065729493d3a71ffbc37ecf84c54d9a8a7febfef6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-005",
+        "statement": "Retail medicines are reimbursed at 15%, 30%, 65% or 100% of list price depending on their therapeutic value and the severity of the disease.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 19,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 115998,
+          "char_end": 116183,
+          "passage_sha256": "78a7dd4cc65cebada9aaaeb2b4fbbdd282fe30d20d83afea9bf0b5afcb318836"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-006",
+        "statement": "Under the long-term illness (ALD) scheme, people admitted on medical criteria pay no co-payments for treatment of their condition regardless of income; the scheme began with four disease groups and now covers 32.",
+        "valence": "strength",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 89,
+          "section": "3.3 Coverage",
+          "char_start": 169833,
+          "char_end": 170277,
+          "passage_sha256": "e3ae8eeb6e0ca78d23185d381bde5b8ad93a7f3f40abe73bb1d731d086455d0c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-007",
+        "statement": "Doctors in 'sector 2' may charge above the regulated fee; statutory insurance does not reimburse the excess, though complementary insurance can.",
+        "valence": "weakness",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 105,
+          "section": "3.7 Payment mechanisms",
+          "char_start": 209465,
+          "char_end": 209713,
+          "passage_sha256": "a263f5008fbba228be5d3e09abc397d5d0d21fc03371a35ac87cbfa1047f79a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-008",
+        "statement": "In 2019, 48% of specialists and 6% of general practitioners worked in sector 2, with large differences between regions and specialties.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 105,
+          "section": "3.7 Payment mechanisms",
+          "char_start": 210060,
+          "char_end": 210251,
+          "passage_sha256": "7abcfb5fca7be846c8b7b69c5538a030ae21aa558cc2754f616466f480f27b21"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "FRA-cost_sharing-009",
+        "statement": "A voluntary scheme (OPTAM) pays doctors financial incentives in return for limiting how much they charge above the national fee.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "How Are Costs Contained?",
+          "char_start": 37757,
+          "char_end": 38092,
+          "passage_sha256": "ac620fac9938f3dac3fb97931c51b1a5590cb910b09bd81b737aef6f64b1bf9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-cost_sharing-010",
+        "statement": "Complementary cover through C2S is means-tested: in mainland France a single person with annual income up to EUR 10,339 gets it free, and up to EUR 13,957 for a small contribution of typically under EUR 1 a day.",
+        "valence": "strength",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Safety Nets",
+          "char_start": 8829,
+          "char_end": 9166,
+          "passage_sha256": "0b22ac58f14c2ec5cb7c3e0375953c77c00f989dc9c8c7da1b3568e58094c166"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "FRA-financial_hardship-001",
+        "statement": "In 2024, 134,803 household over-indebtedness cases were filed with the Banque de France commissions in metropolitan France, 10.8% more than in 2023 but 42% fewer than in 2014.",
+        "valence": "neutral",
+        "source_id": "bdf-surendettement-2024",
+        "locator": {
+          "page": 11,
+          "section": "L'essentiel du surendettement en 2024",
+          "char_start": 3611,
+          "char_end": 4252,
+          "passage_sha256": "02a3b444496824c32ae5c7cb2f4c63106282a73a52ca81c7fc24208c4b4df0f5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financial_hardship-002",
+        "statement": "The Banque de France lists health problems, alongside job loss (reported in over four in ten files) and separation, among the unexpected events that push low-resource households into over-indebtedness.",
+        "valence": "neutral",
+        "source_id": "bdf-surendettement-2024",
+        "locator": {
+          "page": 13,
+          "section": "L'essentiel du surendettement en 2024",
+          "char_start": 9207,
+          "char_end": 9505,
+          "passage_sha256": "be83fe4fb2c8ab6dbe833f36f114924a3b3eb8cfc2f13ab6c3c32f0207107c0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financial_hardship-003",
+        "statement": "Sociologists who read a random sample of 179 letters attached to over-indebtedness files closed in 2023 found health problems mentioned in 45% of them.",
+        "valence": "weakness",
+        "source_id": "bdf-surendettement-2024",
+        "locator": {
+          "page": 28,
+          "section": "Encadré: lettres jointes par des déposants",
+          "char_start": 58351,
+          "char_end": 59703,
+          "passage_sha256": "dc5cf107a409487d2a60dd10698102d63235dbbf371afbeb54a7d915f064d4d3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financial_hardship-004",
+        "statement": "Across over-indebtedness files processed in 2024, a combined category of health and education debts made up 0.7% of total debt and appeared in 20% of files, with a median of EUR 475.",
+        "valence": "neutral",
+        "source_id": "bdf-surendettement-2024",
+        "locator": {
+          "page": 38,
+          "table": "Caractéristiques de l'endettement pour l'ensemble des dossiers traités: row 'Dettes de santé/d'éducation' (share of total debt, share of files, median debt)",
+          "char_start": 76952,
+          "char_end": 77017,
+          "passage_sha256": "12a196e2d3a17cc192f4d02a368fd3f074f81505cd537022aadd2d2c8ec64168"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financial_hardship-005",
+        "statement": "In a survey of 1,012 cancer survivors recruited from January to March 2023 through 12 cancer associations and 12 Facebook groups, financial hardship was more common among those in pain (odds ratio 2.7).",
+        "valence": "weakness",
+        "source_id": "cancer-fin-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1124,
+          "char_end": 1780,
+          "passage_sha256": "57a9304b1d7adfe44413740081d898681a161c52deeadea86e4de0a3095a90b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-financial_hardship-006",
+        "statement": "In a survey of people with ALS and their families, mean annual out-of-pocket spending was EUR 7,764, mainly on home adaptations, vehicle adaptations and paid caregivers; adding EUR 7,633 of lost family income, the mean yearly economic burden was EUR 15,397.",
+        "valence": "weakness",
+        "source_id": "als-oop-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 3245,
+          "char_end": 3931,
+          "passage_sha256": "24dc50d462774c8e719719671e3f518814f6475f1ac07db687c7d6759945e141"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-financial_hardship-007",
+        "statement": "The Commonwealth Fund reports that no data are available to confirm whether out-of-pocket costs push people in France below the poverty line.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Cost Sharing and Out-of-Pocket Spending",
+          "char_start": 37101,
+          "char_end": 37230,
+          "passage_sha256": "38c6d876445b3236756d095817181fc44dcaa2f911f936d83263e7332fe4a03c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "FRA-additional_care-001",
+        "statement": "About 96% of the population has complementary health insurance, through employment (where it is compulsory) or bought voluntarily, mainly to pay copayments and services that statutory insurance covers less, such as dental and optical care.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 42802,
+          "char_end": 43000,
+          "passage_sha256": "07666daaa40c008095ef747fd2b473c2f48ae1b280f94e00a311e5e99ca7d8f2"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-additional_care-002",
+        "statement": "Of the 96% of people with complementary insurance in 2019, 53% held an individual contract, 37% a collective contract and 6% free C2S cover.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 10879,
+          "char_end": 11070,
+          "passage_sha256": "bd485ea269d4cdcc65866ef39e18b85f52e19d9db22d2959c2de6a6026db2f1e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "FRA-additional_care-003",
+        "statement": "Complementary insurance mainly pays copayments, balance billing and partly covered services; some plans also pay for services outside statutory cover, such as corrective eye surgery, or for extras such as a private hospital room.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "The Role of Private Health Insurance",
+          "char_start": 10127,
+          "char_end": 10394,
+          "passage_sha256": "487738e05753f99c37d043383b2d51e33f51ed5cdaafc9784bc11d7435777a13"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-additional_care-004",
+        "statement": "Complementary insurance premiums vary with the policyholder's age in individual contracts, while in collective contracts everyone pays the same premium based on the group's average age.",
+        "valence": "weakness",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 101,
+          "section": "3.5 Voluntary health insurance",
+          "char_start": 199384,
+          "char_end": 199628,
+          "passage_sha256": "9d3bbd7d27832446cc346f0af1782fa9fa803dd60119fd80399a9dda17598160"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-additional_care-005",
+        "statement": "In 2017 private health payments including complementary insurance premiums were estimated at 4% of household budgets on average, and up to 8% for the lowest-income groups.",
+        "valence": "weakness",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 96,
+          "section": "3.4 Out-of-pocket payments",
+          "char_start": 187770,
+          "char_end": 187926,
+          "passage_sha256": "3f3b45f03ff988819706e3ea81e303b7173c619a56b3321d0dafdd282be081ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "FRA-additional_care-006",
+        "statement": "Nearly all complementary insurance contracts are 'responsible' contracts, which must respect reimbursement ceilings for optical devices and for doctors' extra-billing.",
+        "valence": "neutral",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 102,
+          "section": "3.5 Voluntary health insurance",
+          "char_start": 203413,
+          "char_end": 203674,
+          "passage_sha256": "a0b0e764842fcc3671726e884c85b7464918c5895812d37e79a36b2346f0038d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-additional_care-007",
+        "statement": "Insurers report that about 7.4 million people in France hold private long-term care insurance for themselves or relatives, but this does not stop most people facing large out-of-pocket long-term care costs.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 81604,
+          "char_end": 81837,
+          "passage_sha256": "c2c190a3c8cbaed69ea969caf17a1cd3bb7932f7b6b7b3b9afd672e0d0ac0b2a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      }
+    ],
+    "access": [
+      {
+        "id": "FRA-access-001",
+        "statement": "In 2024, 4.5% of French adults with medical needs reported going without some care because of cost, distance or waiting times, slightly above the EU average; among people at risk of poverty the share was 6.5%.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 82202,
+          "char_end": 82506,
+          "passage_sha256": "cf372d39467e3744eb5f867628054ad30dc51e9c62c8443347867cee4ec74c0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-access-002",
+        "statement": "In 2024, 8.2% of people in France reported unmet dental care needs, rising to 13.7% among those at risk of poverty, mostly for financial reasons.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 82718,
+          "char_end": 82891,
+          "passage_sha256": "56c1b8be8608c27132e680dabf5e87d011152cae4718f24a2214476edc26412b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-access-003",
+        "statement": "France had 3.9 doctors per 1,000 people in 2023 (including residents), below the EU average of 4.3, which has contributed to 'medical deserts', especially in rural and peri-urban areas.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 9,
+          "section": "4 The health system",
+          "char_start": 48061,
+          "char_end": 48272,
+          "passage_sha256": "0fde8a671d3df171f93a572df7ddff0bf47b78af3878b37dba02a0bd918ee5f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-access-004",
+        "statement": "With population growth, GP density fell by 5% between 2013 and 2023, with larger falls in some mainly rural areas and around Paris.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 83536,
+          "char_end": 83746,
+          "passage_sha256": "254900ced2b4b6bed61dd03eb7d9075e8e3ed41cf12cb720579b184176098eea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "FRA-access-005",
+        "statement": "An estimated 6% of the population lived in areas with potentially limited access to GPs in 2018, and 20% faced at least one difficulty reaching a GP, nurse or physiotherapist.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.2 Accessibility",
+          "char_start": 96444,
+          "char_end": 96659,
+          "passage_sha256": "b8bbf34cd4944c9f986e926af38987dbc236b1c2a45c1343f53a4a00ca087eb6"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "FRA-access-006",
+        "statement": "Hospital beds fell by 11% (43,000 beds) between 2013 and 2023, making it harder to admit patients from emergency departments.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 25040,
+          "char_end": 25196,
+          "passage_sha256": "f994fa041c139febda10fe325f6fc9f757f1bd7ca6bebdc09641b08f651d3fd1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "FRA-access-007",
+        "statement": "In 2024 GP density ranged from 234 per 100,000 people in Paris to 88 in Seine-et-Marne, and specialist density from 676 in Paris to 84 in Eure.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Physician Education and the Workforce",
+          "char_start": 21913,
+          "char_end": 22143,
+          "passage_sha256": "ba8522d8a55615e4938b6f32fdf611e3df2c80aa55bb01248a174ec753e68163"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-access-008",
+        "statement": "In 2022, 5.9% of people in the lowest income quintile reported unmet medical needs, against 1.4% in the highest, and the gap was wider for dental care.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 43540,
+          "char_end": 43722,
+          "passage_sha256": "fbb91139b2fd6836911ddb88830da8df9145e39d153a67ca8818e7d2cf7a551d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FRA-access-009",
+        "statement": "For medicines approved by the European Medicines Agency in 2020-2023, France took an average of 597 days from approval to public reimbursement, longer than the EU average of 578 days.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 20,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 119243,
+          "char_end": 119411,
+          "passage_sha256": "28093728d7bd08e049716821f8dc557088125d55fda8a597396897f26c8f6871"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2020-2023"
+      },
+      {
+        "id": "FRA-access-010",
+        "statement": "As of January 2025, 60% of new medicines approved by the European Medicines Agency in 2020-2023 were covered in France, above the EU average of 46% but below Germany, Italy and Spain.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 20,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 120116,
+          "char_end": 120339,
+          "passage_sha256": "12f0c860b058caf5f404a4a090c4e487968d90316eb7faeaab798a3a8d82528d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "FRA-access-011",
+        "statement": "Teleconsultations are reimbursed on the same terms as in-person visits; about 2,000 pharmacies supported them by 2022, and another 1,200 installed teleconsultation cabins in 2023.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 17,
+          "section": "5.3 Resilience",
+          "char_start": 103586,
+          "char_end": 103909,
+          "passage_sha256": "0ae8b940b02c490bc91d7afb158787ade689af753ba8cba27d1d94aebde81d5d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2022-2023"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "FRA-outcomes-001",
+        "statement": "In 2022 France's avoidable mortality rates were among the lowest in the EU and well below the EU average, and it did especially well on deaths treatable by health care.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 10,
+          "section": "5.1 Effectiveness",
+          "char_start": 56981,
+          "char_end": 57163,
+          "passage_sha256": "17763fa992fe14b27db93e382d9209993e916e305540f34733c66aea96313756"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2022
+      },
+      {
+        "id": "FRA-outcomes-002",
+        "statement": "In the GBD 2019 study, France's Healthcare Access and Quality (HAQ) Index score for ages 0-74 was 88.0 (95% uncertainty interval 85.5-90.2) in 2019, 19.3 points higher than in 1990.",
+        "valence": "strength",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 43958,
+          "char_end": 44124,
+          "passage_sha256": "41b69b3dc291be01356aadf3b0d5b0ffb6e7e9d80f3c769e29cf9532ed6d07ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "FRA-outcomes-003",
+        "statement": "By age group in the GBD 2019 study, France's 2019 HAQ Index score was 92.7 for ages 0-14, 88.8 for ages 15-64 and 78.5 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; row values in order: 2019 overall (0-74 years), young (0-14), working (15-64), post-working (65-74), then absolute change 1990-2019 for the same four groups",
+          "char_start": 43958,
+          "char_end": 44124,
+          "passage_sha256": "41b69b3dc291be01356aadf3b0d5b0ffb6e7e9d80f3c769e29cf9532ed6d07ad"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "FRA-outcomes-004",
+        "statement": "French life expectancy exceeded the EU average by 1.4 years in 2024, yet at age 35 the most educated men (tertiary degree) can expect 8.0 more years of life than men who did not finish secondary school, and the equivalent gap for women is 5.4 years.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 22,
+          "section": "7 Key findings",
+          "char_start": 133348,
+          "char_end": 133646,
+          "passage_sha256": "8f4463421601ff3a4898a9862bc871cdf1d5ea8034aff49aa3ffa77859cf6f92"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-outcomes-005",
+        "statement": "Five-year cancer survival in France rose between 1990 and 2015: from 53% to 65% for colorectal cancer, 71% to 92% for prostate cancer and 79% to 89% for breast cancer, while lung cancer survival was still only 22% in 2015.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 13,
+          "section": "5.1 Effectiveness",
+          "char_start": 75938,
+          "char_end": 76188,
+          "passage_sha256": "ff2acbecc0603ce94c8bc8af15b1003dd25937aba483e620cd99bc72bb5e0127"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1990-2015",
+        "historical": true
+      },
+      {
+        "id": "FRA-outcomes-006",
+        "statement": "In 2023 France's breast cancer screening rate was 47% against an average of 58%, and its colorectal screening rate 34% against an average of 48%.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 13,
+          "section": "5.1 Effectiveness",
+          "char_start": 75102,
+          "char_end": 75263,
+          "passage_sha256": "c4e4a55ce33029de8721c8441dbe004c0a2f2207c3ac41c3eac4857242ed9290"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-outcomes-007",
+        "statement": "In 2023/24, 54% of people aged 65 and over were vaccinated against influenza, up from about 50% in 2019/20 but well below the WHO target of 75%.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 11,
+          "section": "5.1 Effectiveness",
+          "char_start": 62803,
+          "char_end": 62937,
+          "passage_sha256": "cbfbe33acb1284e8e7d6db0d550da1846ad6f34f3ae6caf0194a413d6dbfd8e5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-outcomes-008",
+        "statement": "Full HPV vaccination among 15-year-old girls rose from 24% in 2018 to 45% in 2024, still well below the EU average of 63%.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 12,
+          "section": "5.1 Effectiveness",
+          "char_start": 71195,
+          "char_end": 71369,
+          "passage_sha256": "0e4023d81d6b094bdad00b1084c2a99d005f70cc53117f0530b01ae4bb043cc0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-outcomes-009",
+        "statement": "France's maternal mortality rate in 2023 was 7.3 deaths per 100,000 live births, against a European average of 11.2.",
+        "valence": "strength",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Health Outcomes",
+          "char_start": 39620,
+          "char_end": 39779,
+          "passage_sha256": "f872d091fd81d448b16d08d2b0273c31d0c40a1963267ec085d6434d5847d0f7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      }
+    ],
+    "costs": [
+      {
+        "id": "FRA-costs-001",
+        "statement": "Health spending was 11.5% of GDP in 2023, the second highest share in the EU after Germany (11.7%) and above the EU average of 10%; spending per person was EUR 4,360 (adjusted for purchasing power), in the top third of EU countries.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 43311,
+          "char_end": 43627,
+          "passage_sha256": "6ce1db4bf85ad4dcfbed2b4d45e2f9038930d16f5d00085568e2171d198b7982"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-002",
+        "statement": "In 2023 outpatient care took 30% of French health spending, inpatient care 28%, retail medicines and medical devices 19% and long-term care 16%; prevention took about 2%, below its pre-pandemic level of about 3% and the EU average of 4%.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 8,
+          "section": "4 The health system",
+          "char_start": 44036,
+          "char_end": 44518,
+          "passage_sha256": "2eaad2912ae200462191d583e3d3b1f3a3092d81317a06956201a0a1c98ea1e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-003",
+        "statement": "Out-of-pocket payments were 9.3% of health spending in France, among the lowest shares in the EU (average 15.5%).",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 81153,
+          "char_end": 81298,
+          "passage_sha256": "dae6b1d24f701a98aa43ec1ab5ebc11375449a61684ebd4f4130e6246f081d0b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-004",
+        "statement": "Long-term care accounts for the largest part (37%) of out-of-pocket health spending in France.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 81532,
+          "char_end": 81603,
+          "passage_sha256": "05b9b96dbb4608280b80234be6a15375d01437b1b795e0991bcfe683cb9d33db"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-005",
+        "statement": "France spent EUR 41.8 billion on retail medicines in 2023, up from EUR 36.7 billion in 2013; per person this was about 10% above the EU average (EUR 560 against EUR 510, adjusted for purchasing power).",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 19,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 114965,
+          "char_end": 115234,
+          "passage_sha256": "85f4b44f78ba3d731e0df35cbb47baee8c48a8b214b4b181cf5726594bfb9833"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-006",
+        "statement": "Generics made up 42% of reimbursed medicine units dispensed by community pharmacies in 2023, up from 25% in 2010 but below the average of the 18 countries with data; by value the share was 30%.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 21,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 129418,
+          "char_end": 129758,
+          "passage_sha256": "52a59dd9ff7535d5b50ee623ded5461e0c63fc26a462d2fb724e3559461ca1b5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-007",
+        "statement": "By France's own national accounting measure (CSBM), public funding paid 80.1% of health consumption in 2023, complementary insurers 12.4% and households 7.5% out of pocket.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Health Care Spending Overview",
+          "char_start": 32390,
+          "char_end": 32574,
+          "passage_sha256": "ad840d18619900b7eb1e88375c82608edf7db22ff5746a9edeb2c7f2e9df39cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-costs-008",
+        "statement": "Under the OECD's baseline projection, French public health spending would rise from 9.5% of GDP in 2023 to 11.5% in 2045.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 18,
+          "section": "5.3 Resilience",
+          "char_start": 111170,
+          "char_end": 111353,
+          "passage_sha256": "fcad5b4bb792b71a1802eab70a993f6b6d8c4864e82ed7d60ac4b90bf2591ab4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "FRA-what_works-001",
+        "statement": "Public schemes cover all health costs linked to a recognised chronic condition, and most people hold complementary insurance that pays their cost sharing.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 14,
+          "section": "5.2 Accessibility",
+          "char_start": 81312,
+          "char_end": 81531,
+          "passage_sha256": "9cec1aa490fa0b89ccc6b34cee318ee33a466e703a558edad48a1aa4ac9e67f0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-what_works-002",
+        "statement": "A controlled interrupted time series study of over 1 billion dental treatments in social insurance data for 2014-2023 found that after France's 2019 reform to cut out-of-pocket costs removed them for resin-based full dentures, their use was 58.85% higher than in the control scenario (95% CI 37.18%-83.95%), while use of other dental care largely unaffected by the reform did not change.",
+        "valence": "strength",
+        "source_id": "dental-100sante-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1998,
+          "char_end": 3292,
+          "passage_sha256": "f9b60549f8384d59dc4bfcfb5b1bb9bd585f4d5b4d05d389dfb26e90af90861a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2014-2023"
+      },
+      {
+        "id": "FRA-what_works-003",
+        "statement": "Since 2021 a selection of basic optical, dental and hearing treatments and aids at regulated prices has been fully covered under the 100% Santé reform, and an early evaluation by the Court of Auditors concluded that the reform lowered overall out-of-pocket costs for dental and hearing care.",
+        "valence": "strength",
+        "source_id": "hit-fra-2023",
+        "locator": {
+          "page": 206,
+          "section": "7.2 Accessibility",
+          "char_start": 434639,
+          "char_end": 435484,
+          "passage_sha256": "e32fdade0677b4bbb83191e9ebf9ae567d9de5f86ead8cda642f2d14aed7b04a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-what_works-004",
+        "statement": "In the OECD PaRIS survey, 92% of people with chronic conditions in France felt confident managing their own health, well above the 63% average of the 10 participating EU countries.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 12,
+          "section": "5.1 Effectiveness",
+          "char_start": 69361,
+          "char_end": 69712,
+          "passage_sha256": "9eaa6db18ddb2333c963d43c3d97389c0f4f3d2fd1d363f0d08ac67cef76e293"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "FRA-what_works-005",
+        "statement": "Doctors who took on a medical assistant had, four years later, added 258 patients on average, against 85 for doctors without one.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.2 Accessibility",
+          "char_start": 100114,
+          "char_end": 100306,
+          "passage_sha256": "b4913f130a03dff8a8b44ffe6b734ca0e4793fd867ca02212d37c76244bb62a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-what_works-006",
+        "statement": "During the COVID-19 pandemic, group practices including multidisciplinary health centres kept care going better than solo practices, with better continuity, remote consultations and patient follow-up.",
+        "valence": "strength",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Integration and Care Coordination",
+          "char_start": 13868,
+          "char_end": 14055,
+          "passage_sha256": "34ca92d1612a8f29f6b26506eb5132a38203d3d586f82bfda145bfe4f66b98dc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "FRA-problems-001",
+        "statement": "Ministry of Health projections expect nursing care needs to grow by 50% between 2021 and 2050 while nurse numbers grow only 37% under current policies, leaving a shortfall of 80,000 nurses by 2050.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 17,
+          "section": "5.3 Resilience",
+          "char_start": 104208,
+          "char_end": 104544,
+          "passage_sha256": "74c1a4660031238e77049a6535067ca01672ea81be1e7261b172bbec457e2a0f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2021-2050"
+      },
+      {
+        "id": "FRA-problems-002",
+        "statement": "High dropout among nursing students and poor retention in hospitals, where only half of nurses remain after ten years, hold back growth in nurse supply.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 22,
+          "section": "7 Key findings",
+          "char_start": 135486,
+          "char_end": 135650,
+          "passage_sha256": "5407fb974156b445686d0f7c61e1c4780e2eebd8546b16222fdb89fec49f9529"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-problems-003",
+        "statement": "Only half of the nurses who started working in hospitals in the late 2000s were still in hospital work ten years later; some had become self-employed but many had left the workforce.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 18,
+          "section": "5.3 Resilience",
+          "char_start": 108644,
+          "char_end": 108879,
+          "passage_sha256": "d6ada58fd8a47fee162aa2508e34b1e9397fe9e8f6dc60177a3661c64cedf776"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-problems-004",
+        "statement": "The combined deficit of the three social security branches that fund health care is projected to nearly double, from EUR 11.8 billion in 2024 to EUR 20.1 billion in 2028.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 18,
+          "section": "5.3 Resilience",
+          "char_start": 110001,
+          "char_end": 110223,
+          "passage_sha256": "df50e1a82fe58ffaa2075a55fa89c976ea960522c936c357c5a23e58056e11ce"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-problems-005",
+        "statement": "In 2023 the median time spent in emergency departments was over three hours, up from 45 minutes in 2013, and 36% of patients aged 75 and over waited more than eight hours.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Hospitals",
+          "char_start": 25448,
+          "char_end": 25659,
+          "passage_sha256": "c4b21309d82b29859a68a19f08c3696fa88e2e23ff2dcc1f02f6410106fd0177"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-problems-006",
+        "statement": "Over 40% of patients older than 75 receive at least one potentially inappropriate prescription and 72% take more than five medicines at once; among nursing home residents the shares are 77% and 87%.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 20,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 120561,
+          "char_end": 120850,
+          "passage_sha256": "242d4dc8039c9cc4eb646fb7c3831d91c41c890febe8995e78b4cf0f3df66b9c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-problems-007",
+        "statement": "GPs choose where to practise mainly for personal, family and lifestyle reasons, and financial incentives play a comparatively minor role.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.2 Accessibility",
+          "char_start": 97006,
+          "char_end": 97261,
+          "passage_sha256": "8476a82dc4bfdf2d15a572aacfaad5812d96b3d6eb26b6430bdb35d61e46d330"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-problems-008",
+        "statement": "Only about 60% of people with chronic conditions in France reported good care coordination and trust in their health system, a pattern also seen in other countries.",
+        "valence": "weakness",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 12,
+          "section": "5.1 Effectiveness",
+          "char_start": 69834,
+          "char_end": 70044,
+          "passage_sha256": "7bec04559639d373cc6972a5b23894f3840dffba53648458328f7627ed21bf24"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2023-2024"
+      },
+      {
+        "id": "FRA-problems-009",
+        "statement": "A 2024 Doctors of the World report found that when interpretation was needed in clinical care, a professional interpreter was provided in only 36% of cases.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Addressing Health Inequities",
+          "char_start": 41103,
+          "char_end": 41340,
+          "passage_sha256": "1f263965375b62d1a08410bce779d24eeeb069e5fbf06ade6bef7e7baa7e77e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "FRA-problems-010",
+        "statement": "In 2018, 44% of nursing homes reported difficulty recruiting staff, mainly because of hard working conditions and low pay.",
+        "valence": "weakness",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Long-Term Care and Social Support",
+          "char_start": 30956,
+          "char_end": 31119,
+          "passage_sha256": "9e666b93b57237e4dd6de7e29e830a77beda94872efb5a81db7be2ecc2f411a1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      }
+    ],
+    "reforms": [
+      {
+        "id": "FRA-reforms-001",
+        "statement": "In 2016 the Universal Health Protection system (PUMa) made statutory insurance eligibility universal, replacing and simplifying the previous arrangements with systematic coverage for all residents and merging CMU coverage with the state scheme for immigrants.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Background and History",
+          "char_start": 4444,
+          "char_end": 4824,
+          "passage_sha256": "9c9eda9adcb0d55f897944039ffac9356ad5a787a38d8138aab06063fb864ffb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-002",
+        "statement": "A law adopted in May 2025 widened nurses' scope of practice for the first time in over 20 years, adding nursing consultations and nursing diagnoses, and the principle of mandatory nurse-to-patient ratios was introduced in 2025, with implementation planned for 2027.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 18,
+          "section": "5.3 Resilience",
+          "char_start": 108943,
+          "char_end": 109434,
+          "passage_sha256": "5399024537aa7cfd10ea5fc70cf6b599e58a6879b57d242ba81386f635c31dcc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-003",
+        "statement": "In 2025 advanced practice nurses gained direct patient access without a doctor's referral in health and long-term care facilities and coordinated care structures, and broader prescribing rights; about 3,000 had graduated by 2024, but many struggled to find advanced-practice jobs.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.2 Accessibility",
+          "char_start": 99311,
+          "char_end": 99874,
+          "passage_sha256": "0f4fa38645a3cc77361242a2fb598f258c4da8b37d6852afc62c35cfc209e83b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-004",
+        "statement": "Since 2024, pharmacists have been allowed to give vaccinations, to test for and treat uncomplicated sore throat and cystitis with no referral from a doctor, and to distribute colorectal screening kits.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.2 Accessibility",
+          "char_start": 100523,
+          "char_end": 100694,
+          "passage_sha256": "cc361c47c31183606d24e3b973d2ef8130e60e25c8a2d73e5b18db06b1f087e1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-005",
+        "statement": "The 2024 social security financing law set an annual medicines spending target of about EUR 26.4 billion, raised to EUR 27.25 billion for 2025; manufacturers must repay spending above the cap, repayments reached nearly EUR 1.5 billion in 2022, and the 2025 law capped total repayments at EUR 1.6 billion.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 21,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 127598,
+          "char_end": 128107,
+          "passage_sha256": "f0af1818cfd63f7f5869e39d7bcc4697fdf81bc251856fbd501d401e988a867b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-006",
+        "statement": "Automatic substitution of biosimilars was reintroduced in 2024 for products on the market for at least two years, and the 2025 law cut that period to one year.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 21,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 128199,
+          "char_end": 128376,
+          "passage_sha256": "5a88332a6f8b64e1da295170edf6a49d2327e9fc296c6091e33f0bc9839625d4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-007",
+        "statement": "A 'direct access' route lets breakthrough medicines of major clinical value be reimbursed right after a positive HAS assessment, with manufacturers free to set the price until negotiations end and rebates applied retroactively.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 21,
+          "section": "6 Spotlight on pharmaceuticals",
+          "char_start": 128654,
+          "char_end": 128957,
+          "passage_sha256": "dec5830a28c78f03c554c2ea41696434a5e80dce22c6ae0fecfdf8e83acd3101"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-008",
+        "statement": "Medical student numbers have risen by 20% since 2021, 40% of postgraduate internships are reserved for general practice, and since 2023 general practice trainees must do an extra year of training in ambulatory care, with strong encouragement to do it in underserved areas.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.2 Accessibility",
+          "char_start": 97783,
+          "char_end": 98160,
+          "passage_sha256": "48542780e645121d7678ecec44d0e96cc0d68f3777588e9edf786e54e64b24bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "FRA-reforms-009",
+        "statement": "Electronic prescriptions were introduced in 2022 and made up 30% of all prescriptions in 2023.",
+        "valence": "neutral",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 16,
+          "section": "5.3 Resilience",
+          "char_start": 101876,
+          "char_end": 101966,
+          "passage_sha256": "5f713e46e3f27b5f4b26ae5b2e2308b1dc6cd7c57b20e4c12f8ab151be9ac338"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "FRA-reforms-010",
+        "statement": "By summer 2025, 20 million people, nearly 40% of adults, had accessed the individual electronic health space (Mon espace santé), launched in 2022 to share records between patients and professionals, at least once, up from 9 million in 2023 and 14 million in 2024.",
+        "valence": "strength",
+        "source_id": "chp-fra-2025",
+        "locator": {
+          "page": 17,
+          "section": "5.3 Resilience",
+          "char_start": 102081,
+          "char_end": 102601,
+          "passage_sha256": "b767c04b1b4301d6bed34a40c3dc91299bb03b130a5dd49563514f0ef1dbf93d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "FRA-reforms-011",
+        "statement": "Since 2015 a series of reforms has introduced mixed provider payment systems, including capitation, global budgets, pay-for-performance and bundled payments.",
+        "valence": "neutral",
+        "source_id": "cwf-fra",
+        "locator": {
+          "section": "Overview of the Delivery System",
+          "char_start": 15320,
+          "char_end": 15505,
+          "passage_sha256": "34e2540adadc0b0cf3e92ba01528d7559c5bcec79a8133f1448b44d15a66b901"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "FRA-us_lessons-001",
+        "statement": "In a Commonwealth Fund comparison, nearly everyone in France held both public and private insurance, while 8.6% of the US population was uninsured in 2021.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Health Care Spending and Coverage",
+          "char_start": 6058,
+          "char_end": 6195,
+          "passage_sha256": "fe0a8b3c26e7ae93d72cf453b8b009d78eb79cfa5fcedf86837559daa293d5f1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "FRA-us_lessons-002",
+        "statement": "In a 2020 survey, 3 in 10 US adults reported having been diagnosed with two or more chronic conditions, nearly twice the rate in France.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Population Health",
+          "char_start": 9441,
+          "char_end": 9799,
+          "passage_sha256": "0311854592d39e23723840441b12c2d3d40c8b2a6301783e78ce0572bb8c4447"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2020
+      },
+      {
+        "id": "FRA-us_lessons-003",
+        "statement": "Between 2012 and 2018 coronary revascularization rose in France by 13.3% among patients aged 35-64 and 24.6% among those 65 and older, while in the US it fell by 16.3% and 19.6%; the divergence could not be explained solely by changes in hospitalisations for coronary disease or heart failure.",
+        "valence": "neutral",
+        "source_id": "revasc-fra-us-2026",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2066,
+          "char_end": 2508,
+          "passage_sha256": "fc2916d793b3252e1fc625782289f9b907ae6c527b4699d429d68967f510445b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2018"
+      },
+      {
+        "id": "FRA-us_lessons-004",
+        "statement": "In a Commonwealth Fund comparison, the US and Sweden had the highest breast screening among women aged 50-69, while only 43% of women in that age group were screened in France.",
+        "valence": "neutral",
+        "source_id": "cwf-global-2023",
+        "locator": {
+          "section": "Prevention",
+          "char_start": 11366,
+          "char_end": 11578,
+          "passage_sha256": "4414b41ce8dba9f56a5f7fc1188722282f8ddb5601f3be43fab6a0d7d48bd22a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-11",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/FRA.json",
+  "sources": [
+    {
+      "id": "chp-fra-2025",
+      "title": "State of Health in the EU: France, Country Health Profile 2025",
+      "publisher": "OECD and European Observatory on Health Systems and Policies",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2025,
+      "url": "https://eurohealthobservatory.who.int/docs/librariesprovider3/country-health-profiles/chp2025pdf/soheu-2025-france-final-web.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "hit-fra-2023",
+      "title": "France: Health System Review (Health Systems in Transition, Vol. 25 No. 3)",
+      "publisher": "European Observatory on Health Systems and Policies (WHO)",
+      "authors": "Or Z, Gandré C, Seppänen AV, et al.",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2023,
+      "url": "https://iris.who.int/server/api/core/bitstreams/da4aead0-249f-4baa-b94d-1fbbcefd6088/content",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "cwf-fra",
+      "title": "International Health Care System Profiles: France (2026 country profile, data as of January 2026)",
+      "publisher": "The Commonwealth Fund",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2026,
+      "url": "https://www.commonwealthfund.org/international-health-policy-center/countries/france",
+      "accessed": "2026-11-11",
+      "funding_note": "Content produced by FT Longitude for the Commonwealth Fund, a US private foundation."
+    },
+    {
+      "id": "cwf-mm-2024",
+      "title": "Mirror, Mirror 2024: A Portrait of the Failing U.S. Health System (exhibits)",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Blumenthal D, Gumas ED, Shah A, Gunja MZ, Williams RD II",
+      "tier": 3,
+      "type": "ranking",
+      "year": 2024,
+      "url": "https://www.commonwealthfund.org/sites/default/files/2024-09/PDF_Blumenthal_mirror_mirror_2024_Exhibits.pdf",
+      "doi": "10.26099/ta0g-zp66",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "bdf-surendettement-2024",
+      "title": "Le surendettement des ménages: enquête typologique 2024",
+      "publisher": "Banque de France",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.banque-france.fr/system/files/2025-02/Surendettement_Enquete-typologique_2024.pdf",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "dental-100sante-2026",
+      "title": "The French 100% Santé Reform: Impacts on Dental Care Utilization",
+      "publisher": "Journal of Dental Research",
+      "authors": "Tubert-Jeannin S, Bénézet L, Mulliez A, Listl S",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1177/00220345251364167",
+      "doi": "10.1177/00220345251364167",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12957406",
+      "accessed": "2026-11-11",
+      "funding_note": "Funded by Horizon Europe."
+    },
+    {
+      "id": "cancer-fin-2026",
+      "title": "Financial hardship and pain among cancer survivors: a French nationwide cross-sectional analysis",
+      "publisher": "Supportive Care in Cancer",
+      "authors": "Girardon L, Ragusa C, Laporte F, Pereira B, Balayssac D",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1007/s00520-026-10829-1",
+      "doi": "10.1007/s00520-026-10829-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42184033&rettype=abstract&retmode=text",
+      "accessed": "2026-11-11",
+      "funding_note": "Convenience sample recruited via cancer associations and Facebook groups (not population-representative)."
+    },
+    {
+      "id": "als-oop-2026",
+      "title": "The economic burden of amyotrophic lateral sclerosis for patients and families: a survey on out-of-pocket expenses and income loss in France",
+      "publisher": "Orphanet Journal of Rare Diseases",
+      "authors": "Desnuelle C, Couratier P, Corcia P, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s13023-026-04326-1",
+      "doi": "10.1186/s13023-026-04326-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13162408",
+      "accessed": "2026-11-11",
+      "funding_note": "Supported by ARSLA, the French ALS patient association; analysis by a consultancy paid by ARSLA."
+    },
+    {
+      "id": "revasc-fra-us-2026",
+      "title": "Comparing the use of coronary revascularization in France and the United States: Divergent trends",
+      "publisher": "Archives of Cardiovascular Diseases",
+      "authors": "Gusmano MK, Rodwin VG, Weisz D, Cottenet J, Danchin N, Quantin C",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.acvd.2026.02.002",
+      "doi": "10.1016/j.acvd.2026.02.002",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41876323&rettype=abstract&retmode=text",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "cwf-global-2023",
+      "title": "U.S. Health Care from a Global Perspective, 2022: Accelerating Spending, Worsening Outcomes",
+      "publisher": "The Commonwealth Fund",
+      "authors": "Gunja MZ, Gumas ED, Williams RD II",
+      "tier": 3,
+      "type": "independent_research",
+      "year": 2023,
+      "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/jan/us-health-care-global-perspective-2022",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "cleiss-fra-2026",
+      "title": "Taux de cotisations de sécurité sociale et de chômage en France au 1er janvier 2026",
+      "publisher": "Centre des liaisons européennes et internationales de sécurité sociale (Cleiss)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.cleiss.fr/docs/regimes/regime_francea2.html",
+      "accessed": "2026-11-11",
+      "funding_note": "Public body under the French ministries of social affairs and budget; official rate table."
+    },
+    {
+      "id": "igas-psc-2026",
+      "title": "La protection sociale complémentaire en entreprise (rapport n°2025-010R)",
+      "publisher": "Inspection générale des affaires sociales (IGAS)",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.igas.gouv.fr/sites/igas/files/2026-06/Rapport%20Igas%20Protection%20sociale%20compl%C3%A9mentaire%20en%20entreprise%20%28rapport%29.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Government inspectorate report; its cost figures for tax and social-contribution exemptions come from the Social Security Directorate (DSS) annexes to the social security accounts bill and from DREES."
+    },
+    {
+      "id": "hcaam-decryptages-2026",
+      "title": "Décryptages santé n°2: Le système de santé français est-il exceptionnellement « généreux » ?",
+      "publisher": "Haut conseil pour l'avenir de l'assurance maladie (HCAAM), published by the Haut-Commissariat à la Stratégie et au Plan",
+      "tier": 1,
+      "type": "government",
+      "year": 2026,
+      "url": "https://www.strategie-plan.gouv.fr/files/2026-06/D%C3%A9cryptages%20sant%C3%A9_n%C2%B02%20juin%202026_1.pdf",
+      "accessed": "2026-11-11",
+      "funding_note": "Government advisory council on health insurance; figures are from DREES health accounts (2025 edition)."
+    }
+  ],
+  "rankings": [
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Overall",
+      "position": 5,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Access to care",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Care process",
+      "position": 7,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Administrative efficiency",
+      "position": 4,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Equity",
+      "position": 6,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    },
+    {
+      "study": "Mirror, Mirror 2024 (Commonwealth Fund)",
+      "year": 2024,
+      "domain": "Health outcomes",
+      "position": 5,
+      "of": 10,
+      "source_id": "cwf-mm-2024"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-11",
+      "note": "Profile created: 103 claims from 11 sources, anchored to fingerprinted passages and support-reviewed. In the support review 34 statements were corrected (scope, overstatement, causal wording, and details taken from outside the anchored passage), 12 passages re-anchored, one claim dropped, and two statements rewritten after the copy check."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill FRA-r3 (financing standard): 21 financing claims added from 3 new official sources (Cleiss 2026 contribution rates, IGAS 2026 report on workplace complementary cover, HCAAM 2026) and the 2023 HiT: payroll and CSG rates and bases, VAT and earmarked taxes, the TSA premium tax, social-contribution and income tax exemptions for complementary insurance and their cost, public vs private shares with definitions. Support review: 13 statements corrected, 6 passages widened, 1 claim dropped."
+    }
+  ]
+}

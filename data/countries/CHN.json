@@ -1,0 +1,2856 @@
+{
+  "iso3": "CHN",
+  "name": "China",
+  "wave": 1,
+  "system_as_of": "2026-11-10",
+  "status": "verified",
+  "model": {
+    "type": "social_health_insurance",
+    "label": "Government-run social health insurance in two main schemes (compulsory for employees, voluntary and subsidised for other residents), with medical assistance for the poor"
+  },
+  "universal_coverage": {
+    "legal_basis_claim_ids": [
+      "CHN-overview-005",
+      "CHN-overview-002"
+    ],
+    "meets_definition": true
+  },
+  "sections": {
+    "overview": [
+      {
+        "id": "CHN-overview-001",
+        "statement": "China began its current round of health reform in 2009 with the aim of giving everyone basic health care coverage by the end of 2020.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2286,
+          "char_end": 2449,
+          "passage_sha256": "ac4d88ac5c2dabb2126ff63b2e2694f815a464703859bcba06981fd472750805"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-002",
+        "statement": "Public coverage was built on three basic schemes: NRCMS (the New Rural Cooperative Medical Scheme), URBMI (Urban Resident Basic Medical Insurance) and Urban Employee Basic Medical Insurance. In 2016 the government merged NRCMS and URBMI into one urban and rural residents' scheme, and in 2018 it created the National Healthcare Security Administration to manage the schemes in a unified way.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Main reform initiatives: health insurance system",
+          "char_start": 17390,
+          "char_end": 18285,
+          "passage_sha256": "b4748abb01751bd593a3c162873852b48fe0a4c694e3fe9ae0663c3c8127bb46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2016-2018"
+      },
+      {
+        "id": "CHN-overview-003",
+        "statement": "With the 2009 reform, China committed to equal access to basic health care of reasonable quality with financial protection for all citizens, and the government has since increased its health funding fourfold.",
+        "valence": "neutral",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1568,
+          "char_end": 1808,
+          "passage_sha256": "0d6b4737b0dcbb8d420b508d91e8de4e2fdf82d5068526d13aa8fe6c5c9d933c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-004",
+        "statement": "According to a 2025 study, the urban-rural residents' scheme enrols nearly 960 million people, about 80% of them rural residents, while around 5% of the population (nearly 50 million people) remains uninsured.",
+        "valence": "neutral",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7291,
+          "char_end": 7564,
+          "passage_sha256": "66f5093a3904d3ef9301b154f77fd74ce5d1ad86b23888a5d183fb69eb10d19b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-005",
+        "statement": "The residents' scheme is open to every urban and rural resident not covered by employee insurance. Employee insurance is compulsory by law and funded partly by employers, while joining the residents' scheme is voluntary.",
+        "valence": "neutral",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5491,
+          "char_end": 5800,
+          "passage_sha256": "323e3d64b355e3ed936ce260a0d2ce9885f431bbb79a6ea74545616b0d6af1e4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-006",
+        "statement": "At the end of 2024, 1,326.6 million people were enrolled in basic medical insurance, and the enrolment rate was held at 95%.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1. Basic medical insurance",
+          "char_start": 325,
+          "char_end": 376,
+          "passage_sha256": "db8c752c937c83517a6f488185f8fc6e5f565f6a673ac32f43c19db469b33d83"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-overview-007",
+        "statement": "At the end of 2024 the employee scheme had 379.5 million members, 8.5 million more than a year earlier: 274.9 million in work and 104.6 million retired.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1(1) Employee basic medical insurance: enrolment",
+          "char_start": 482,
+          "char_end": 561,
+          "passage_sha256": "2fba103305ac7ddd787e0eef392d55efe826bac9b7a489a0e8c8de4104501522"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-overview-008",
+        "statement": "The urban and rural residents' scheme had 947.1 million members at the end of 2024.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1(2) Urban and rural residents' basic medical insurance: enrolment",
+          "char_start": 1507,
+          "char_end": 1549,
+          "passage_sha256": "381e70c0eca4fa67f4641ccd6c7c5875701bca4982b0cbe4f290245a1d33052a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-overview-009",
+        "statement": "Article 5 of the Basic Medical and Health Care and Health Promotion Law gives citizens a legal right to receive basic medical and health services from the state and society, and commits the state to building a basic health care system that protects this right.",
+        "valence": "neutral",
+        "source_id": "bhl-2019",
+        "locator": {
+          "section": "Article 5",
+          "char_start": 644,
+          "char_end": 722,
+          "passage_sha256": "6a4692c9e740af23b178f3c0c1612edcbc24164903fb12ed7b6ef9798cfc273e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-010",
+        "statement": "Under the same law, basic medical services are paid for mainly by the basic medical insurance fund and by individuals; citizens have both a right and a duty to join basic medical insurance, with employers and employees paying contributions to the employee scheme and urban and rural residents paying contributions to the residents' scheme.",
+        "valence": "neutral",
+        "source_id": "bhl-2019",
+        "locator": {
+          "section": "Article 82",
+          "char_start": 9838,
+          "char_end": 9980,
+          "passage_sha256": "580660f0126acc40ad1c22aa22b8e7752fb1bc42a00a269bb93157b1863db4ea"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-011",
+        "statement": "The law sets out a multi-tier system: basic medical insurance is the main pillar, supplemented by others including commercial health insurance, medical assistance, employee mutual-aid schemes and medical charity, with medical assistance meant to secure basic care for eligible people in hardship.",
+        "valence": "neutral",
+        "source_id": "bhl-2019",
+        "locator": {
+          "section": "Article 83",
+          "char_start": 9981,
+          "char_end": 10106,
+          "passage_sha256": "cf3560d3aabdca4a4648e07980c7aeceba8d919de163b3c0a686ea58a3b1c6af"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-overview-012",
+        "statement": "The Social Insurance Law requires employees to join employee medical insurance, with contributions shared by employer and employee; self-employed people without staff, part-time workers not enrolled through an employer, and other people in flexible work may join and pay the contribution themselves.",
+        "valence": "neutral",
+        "source_id": "sil-2018",
+        "locator": {
+          "section": "Article 23",
+          "char_start": 2341,
+          "char_end": 2466,
+          "passage_sha256": "0018cb465589dbc701ea26715f31ae3ccdc681f38fed118907a97b3bd9e5e82d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "financing": [
+      {
+        "id": "CHN-financing-001",
+        "statement": "The minimum yearly individual contribution to residents' insurance has risen from 10 yuan per person when it was introduced in 2003 to 380 yuan by 2024, while rural residents' disposable income averaged 23,119 yuan in 2024; the authors find the rising contributions a significant burden for rural families.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Results: Economic burden",
+          "char_start": 24268,
+          "char_end": 24765,
+          "passage_sha256": "0713bf4629bc59a8c26ce5391772615cbdcf0e89eaab2b801a59f9be36a015df"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2003-2024"
+      },
+      {
+        "id": "CHN-financing-003",
+        "statement": "Under Article 27 of the Social Insurance Law, employee-scheme members whose total contributions reach the nationally required number of years by statutory retirement age stop paying premiums once retired and receive basic medical insurance benefits under national rules; members short of the required years may keep contributing until they reach it.",
+        "valence": "neutral",
+        "source_id": "sil-2018",
+        "locator": {
+          "section": "Chapter III, Article 27",
+          "char_start": 2677,
+          "char_end": 2775,
+          "passage_sha256": "aa644d964c893b82e343d8215d8529271b01a2752a726398788b212b47273308"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-004",
+        "statement": "The State Council's 2024 enrolment guideline calls for residents' scheme contributions to be tied to the level of economic and social development and to residents' per-capita disposable income, while keeping a reasonable ratio between government subsidies and individual premiums.",
+        "valence": "neutral",
+        "source_id": "sc-enrolment-2024",
+        "locator": {
+          "section": "II. Improving policy measures, (2) Improving financing policy",
+          "char_start": 1340,
+          "char_end": 1389,
+          "passage_sha256": "fff4ec81f3ff593608e84459c4e84d54ec78d655428db623e60cdb3bd4ed7883"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-005",
+        "statement": "In 2024 the basic medical insurance funds (including maternity insurance) took in 3,491.3 billion yuan and spent 2,976.4 billion yuan; the pooled funds ran a surplus of 463.9 billion yuan for the year and held 3,862.9 billion yuan in accumulated reserves.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1. Basic medical insurance (fund revenue and spending)",
+          "char_start": 310,
+          "char_end": 461,
+          "passage_sha256": "cdb7f7ec9fb9c1ebc995572505d5796afbe2431af0e07536836464203f67c2e7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-financing-006",
+        "statement": "The residents' scheme's fund took in 1,118.1 billion yuan in 2024 and spent 1,066.1 billion yuan, leaving a surplus of 51.9 billion yuan for the year and 818.3 billion yuan accumulated.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1(2) Urban and rural residents' basic medical insurance: fund revenue and spending",
+          "char_start": 1558,
+          "char_end": 1622,
+          "passage_sha256": "6b1f6b670b697593506d07b91b12e7e9c5d95f69423ca183c2fc682750b6dc14"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-financing-007",
+        "statement": "Total health expenditure in 2025 is preliminarily estimated at 9,336.7 billion yuan (6,637.9 yuan per person, 6.7% of GDP): 25.2% from government health spending, 47.7% from 'social' health spending and 27.1% paid by individuals.",
+        "valence": "neutral",
+        "source_id": "nhc-bulletin-2025",
+        "locator": {
+          "section": "1(4) Total health expenditure",
+          "page": 6,
+          "char_start": 3060,
+          "char_end": 3219,
+          "passage_sha256": "c292cebb0a35e14266b1464a16025d92db0dbe722ee9d83b4f9037b925354af5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-financing-008",
+        "statement": "In the authors' 2023 baseline estimate, taxes financed 26.7% of total health financing, social and private health insurance together 46.0%, and out-of-pocket payments 27.3%.",
+        "valence": "neutral",
+        "source_id": "chen-2026-equity",
+        "locator": {
+          "table": "Table 3, results of policy scenario analyses (2023), Baseline column",
+          "char_start": 39986,
+          "char_end": 40395,
+          "passage_sha256": "eaeae7a56f05f550c97d6ec5d6b7985296f4c30819e9cca8dc8b779bc8c6de20"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHN-financing-009",
+        "statement": "In the study's accounting, the indirect taxes that help fund health care are mainly VAT, excise taxes and import duties, and the direct taxes are personal income tax on wages and on self-employment income, both charged at progressive rates.",
+        "valence": "neutral",
+        "source_id": "chen-2026-equity",
+        "locator": {
+          "section": "Methods: Financing incidence analysis",
+          "char_start": 16515,
+          "char_end": 17027,
+          "passage_sha256": "f80f36875af7c4d4407ed3c4cf0dd465cc83c209826b00059f05d948e8dd5246"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-010",
+        "statement": "Indirect taxes made up 63.9% of China's total tax revenue in 2023, well above the OECD average of about 45%, which the authors say limits how progressive tax-funded health spending can be.",
+        "valence": "weakness",
+        "source_id": "chen-2026-equity",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 45399,
+          "char_end": 45631,
+          "passage_sha256": "200c441465e1cc288364fd56762262c879b7148f852abf0eb1f130560a88e9f3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHN-financing-011",
+        "statement": "Across 2013-2023, direct taxes and employees' social health insurance contributions stayed progressive, while indirect taxes, non-employed residents' insurance contributions and out-of-pocket payments were regressive; the system overall was mildly regressive, with a Kakwani index of -0.016 in 2013 and -0.071 in 2023.",
+        "valence": "weakness",
+        "source_id": "chen-2026-equity",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2550,
+          "char_end": 2970,
+          "passage_sha256": "f1a4aad0e4ea5af13f49dbe29379ccc8edfbacc771690e4f7e73eee87e6e6eaa"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2013-2023"
+      },
+      {
+        "id": "CHN-financing-012",
+        "statement": "The employee scheme is funded by payroll contributions shared between employers and employees, while the resident schemes for non-employed people charged flat individual contributions, uniform within each locality, topped up by government subsidies worth about two-thirds of their revenue; their 2018 merger into one residents' scheme kept the flat contribution.",
+        "valence": "neutral",
+        "source_id": "chen-2026-equity",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 9876,
+          "char_end": 10590,
+          "passage_sha256": "e8c7d3cc9db4d09026b8b63f4432fd999a1bcf366f882b06175a81cc5acb0b3f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-013",
+        "statement": "Under the State Council's 1998 decision (No. 44) establishing the employee scheme, premiums are paid jointly, at a contribution rate of 6% by employers and 2% by employees; a 2024 study gives the contribution base as the previous year's average wage of working employees.",
+        "valence": "neutral",
+        "source_id": "lin-2024-uebmi",
+        "locator": {
+          "section": "3.2.3 Payment base and contribution rate",
+          "char_start": 20977,
+          "char_end": 21432,
+          "passage_sha256": "4e999852b1f6a40917507916f40895a7fb35fec8d2af59413cd13ae470bfca42"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-014",
+        "statement": "Under the State Council's 2021 guidance on outpatient mutual aid, a working employee's personal account is credited from the employee's own contribution, in principle kept at 2% of their contribution base, and all employer contributions go to the pooled fund; retirees' accounts in principle receive a fixed amount from the pooled fund, adjusted gradually toward about 2% of the local average basic pension in the year the area implements the reform.",
+        "valence": "neutral",
+        "source_id": "guobanfa-2021-14",
+        "locator": {
+          "section": "II(4) Improving how individual accounts are credited",
+          "char_start": 1355,
+          "char_end": 1483,
+          "passage_sha256": "eaebcbe9d88b1f1d844a33ec1a8089877b42ceb88ceecd997101a39a51fc633f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-015",
+        "statement": "In 2024 the employee scheme's funds (including maternity insurance) took in 2,373.2 billion yuan: 1,734.2 billion to the pooled fund and 639.0 billion to personal accounts, which held 1,447.2 billion yuan in accumulated balances at year end.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1(1)2 Employee basic medical insurance: fund revenue and spending",
+          "char_start": 695,
+          "char_end": 959,
+          "passage_sha256": "2e52f15c9b99a90bd3bd2feac1b60eb465ce5011fbf5bfe9cbb18a89ab26c9d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-financing-016",
+        "statement": "For 2024 the minimum per-person yearly funding for the residents' scheme was set at 670 yuan in government subsidies and 400 yuan in individual contributions, increases of 30 and 20 yuan; it was the first time since 2016 that the individual increase was smaller than the subsidy increase.",
+        "valence": "neutral",
+        "source_id": "nhsa-residents-2024",
+        "locator": {
+          "section": "1. How is residents' insurance financing arranged for 2024?",
+          "char_start": 486,
+          "char_end": 560,
+          "passage_sha256": "cf0973e7f76f4a3735a0c151cbd6af08f391ec71b57ebc59a8aada48089475ae"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-financing-017",
+        "statement": "The 2025 Government Work Report set a further 30-yuan increase in the per-person government subsidy for residents' medical insurance.",
+        "valence": "neutral",
+        "source_id": "gwr-2025",
+        "locator": {
+          "section": "Strengthening basic medical and health services",
+          "char_start": 965,
+          "char_end": 1000,
+          "passage_sha256": "eaee10c5d32e63d93aa89f8378444583256fc1f4e6a6ed6cf4c3d81ac907605a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-financing-018",
+        "statement": "From 1 July 2017 the income-tax pilot for commercial health insurance was extended nationwide: spending on qualifying policies can be deducted from taxable income up to 2,400 yuan a year (200 yuan a month), on top of the standard deduction; policies an employer buys for staff count as the employee's wages and fall under the same limit.",
+        "valence": "neutral",
+        "source_id": "caishui-2017-39",
+        "locator": {
+          "section": "1. Policy content; 6. Effective date",
+          "char_start": 383,
+          "char_end": 608,
+          "passage_sha256": "00e1db83c71e47be8f58ff95d8d2b44ac1ee5a60d7ed51aebaeb28d68f734df5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-019",
+        "statement": "Products qualifying for the tax deduction must insure taxpayers aged 16 or over who are below statutory retirement age; insurers may not refuse cover because of past illness and must guarantee renewal.",
+        "valence": "neutral",
+        "source_id": "caishui-2017-39",
+        "locator": {
+          "section": "3(2) Product conditions",
+          "char_start": 895,
+          "char_end": 948,
+          "passage_sha256": "e4e290d3db38b254526ca84e2ebcc41b9bf2fd5bef4eb5cc71ce1580837fc45a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financing-020",
+        "statement": "Commercial health insurance premium income grew from 158.7 billion yuan in 2014 to 977.3 billion yuan in 2024, according to National Financial Regulatory Administration statistics cited by the authors, who also note that official figures on commercial insurance's share of national health spending are scarce.",
+        "valence": "neutral",
+        "source_id": "jiang-2026-chi",
+        "locator": {
+          "section": "Background",
+          "char_start": 7814,
+          "char_end": 8452,
+          "passage_sha256": "b885962f00eed6692d9de3971bc4dd9f3c9f7fbad659fb244ff874ea902308d0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2014-2024"
+      },
+      {
+        "id": "CHN-financing-021",
+        "statement": "In 2024, commercial health insurance claim payments of 384.8 billion yuan equalled about 4.25% of China's total health expenditure of 9.06 trillion yuan, against a typical 10% in developed countries, according to the authors.",
+        "valence": "weakness",
+        "source_id": "song-2026-chi",
+        "locator": {
+          "section": "Background",
+          "char_start": 7226,
+          "char_end": 7482,
+          "passage_sha256": "beb0cc69e4ed6de24d5c48ab13a4e7f0a0da34d68b50c2a8ca249ba0e3c00759"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-financing-022",
+        "statement": "Definitions differ: WHO's internationally comparable estimate puts China's out-of-pocket share of health spending at 32.17%, against 27.33% for 2023 in the China Statistical Yearbook; the authors attribute the gap to different accounting frameworks and estimation methods (the WHO System of Health Accounts vs. national statistics).",
+        "valence": "neutral",
+        "source_id": "qiu-2026-oop",
+        "locator": {
+          "section": "Results: International comparison",
+          "char_start": 18531,
+          "char_end": 19025,
+          "passage_sha256": "1791cba1384b63faf3d88c7d5e02b706fd465afc45c3a3a26dc30f2c9cb3a989"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHN-financing-023",
+        "statement": "Between 2009 and 2024, social health expenditure rose from 35.08% to 47.62% of total health expenditure, mainly reflecting the expansion of basic medical insurance, while the out-of-pocket share fell from 37.46% to 27.51%.",
+        "valence": "strength",
+        "source_id": "qiu-2026-oop",
+        "locator": {
+          "section": "Results: Evolution of health financing structure",
+          "char_start": 22586,
+          "char_end": 23110,
+          "passage_sha256": "ef198f7064a44b0addb770ddb05658bebc93684003250ce0aa06d5339c9403fb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2009-2024"
+      }
+    ],
+    "covered": [
+      {
+        "id": "CHN-covered-001",
+        "statement": "By 2018, over 95% of China's population was enrolled in a social health insurance scheme.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 23330,
+          "char_end": 23413,
+          "passage_sha256": "a7fbcd592f8f2b696ca9744d2948861e10db3a0919c5b69744c4382c066af62c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "CHN-covered-002",
+        "statement": "The national insurance drug list had grown to 2,643 medicines by 2019, and per-person government subsidies for the residents' schemes in 2018 were more than five times their 2009 level.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 23414,
+          "char_end": 23684,
+          "passage_sha256": "ff961a9522a1f8b9de3194e321bb3c79e42f71676a4a6bc136ac4e59b074a727"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      },
+      {
+        "id": "CHN-covered-003",
+        "statement": "A government-funded basic public health package is offered to nearly everyone; it grew from 9 service categories in 2009 to 14 in 2017, and funding rose from ¥15 per person in 2009 to ¥55 in 2018.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 27659,
+          "char_end": 28029,
+          "passage_sha256": "c500ef2f75bf52a9ae387c08781ca7d894bc77081ec06660fcd71f7a80b2aa3c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2009-2018"
+      },
+      {
+        "id": "CHN-covered-004",
+        "statement": "Under national procurement, the manufacturers that win a tender are guaranteed 60-70% of the previous year's total use of that drug, which gives the public payer strong bargaining power over manufacturers.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Clear and guaranteed market expectations",
+          "char_start": 15256,
+          "char_end": 15482,
+          "passage_sha256": "c6acfd64e03702052fa1206db995c4be438c23aaa03287f5cdbad3b1254ce769"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-covered-005",
+        "statement": "Decisions on which drugs are reimbursed have become more centralised: provincial routes were removed, the National Healthcare Security Administration was created, and the National Reimbursement Drug List is now the main way a drug gets covered.",
+        "valence": "neutral",
+        "source_id": "nrdl-2023",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2638,
+          "char_end": 2946,
+          "passage_sha256": "0f73caa95b43b4182a42c68b4ec32b5e8700251f29f5ce6b1ac78e127def3337"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-covered-006",
+        "statement": "Since national price negotiations began in 2017, the average price reductions achieved in the annual negotiations for the reimbursement list have ranged from 44% to 61%; in 2020, 704 drugs passed initial review, 162 were shortlisted and 119 were successfully negotiated, a 17% success rate.",
+        "valence": "neutral",
+        "source_id": "nrdl-2023",
+        "locator": {
+          "section": "HTA decision making, reimbursement and price negotiation",
+          "char_start": 21068,
+          "char_end": 21425,
+          "passage_sha256": "c1ad7bc4b103a3da9fc176c3b995772a0bb7ac14df3262480e104c73290c5754"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2020"
+      },
+      {
+        "id": "CHN-covered-007",
+        "statement": "According to the authors, listing decisions weigh a drug's innovation, added clinical benefit and cost-effectiveness compared with standard care, the level of unmet need, and the budget impact on the basic insurance funds, in some respects like many other national health technology assessment systems.",
+        "valence": "neutral",
+        "source_id": "nrdl-2023",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 36685,
+          "char_end": 37318,
+          "passage_sha256": "4c682af01dd1fb51088eb6ba226a3d40e1afafc740f5f648dde351648b9e882a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-covered-008",
+        "statement": "The social insurance schemes built from 1998 onwards for urban employees and for urban and rural residents differed in scope and mainly covered inpatient care.",
+        "valence": "neutral",
+        "source_id": "outpatient-pooling-2025",
+        "locator": {
+          "section": "Background: Institutional setting",
+          "char_start": 5119,
+          "char_end": 5515,
+          "passage_sha256": "d3f1b4c6128202082be3def3abf46a6559c3d1d39283d1157a15da52a3445a65"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-covered-009",
+        "statement": "By law, the national healthcare security authority sets what the basic insurance fund pays for, after hearing the health, traditional Chinese medicine, drug regulation and finance authorities, among others; provinces may add specific items and standards within national rules and must file them; and the authority must run evidence-based clinical and economic evaluations of listed drugs, procedures and service facility standards, whose results are the basis for changing coverage.",
+        "valence": "neutral",
+        "source_id": "bhl-2019",
+        "locator": {
+          "section": "Article 85",
+          "char_start": 10212,
+          "char_end": 10494,
+          "passage_sha256": "72eff9b99be8b58830b4afbaa21af8b4cb91fc83b9b63523b8e5bfc96f1a38c8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-covered-010",
+        "statement": "The 2024 national reimbursement drug list contained 3,159 medicines (1,765 Western medicines and 1,394 Chinese patent medicines), 91 of them added in 2024; over seven yearly revisions since the National Healthcare Security Administration was set up in 2018, 835 medicines have been added.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "4(1) National insurance drug list",
+          "char_start": 2569,
+          "char_end": 2735,
+          "passage_sha256": "c84b3f87e3985253378a3bf15c8cc1215652ea387efa47098d809b01c1f4d440"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-covered-011",
+        "statement": "By the end of 2024, 31 provinces and the Xinjiang Production and Construction Corps had brought assisted reproduction into medical insurance coverage.",
+        "valence": "strength",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "2. Maternity insurance",
+          "char_start": 2235,
+          "char_end": 2269,
+          "passage_sha256": "3dae17df3d8b81d9bde078ca1357f969d2cc7cb3b73ec09905f42f4fb337cc88"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-covered-012",
+        "statement": "The Social Insurance Law excludes from basic medical insurance any costs that the work-injury fund, a liable third party or public health funding should bear, and care received outside China; where a liable third party does not pay or cannot be identified, the fund pays first and may then recover the cost.",
+        "valence": "neutral",
+        "source_id": "sil-2018",
+        "locator": {
+          "section": "Article 30",
+          "char_start": 2950,
+          "char_end": 3105,
+          "passage_sha256": "46fa920e1b210e15a3b99b41c021d750890b462a1f2a3d989db4ab27dd3d5968"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "cost_sharing": [
+      {
+        "id": "CHN-cost_sharing-001",
+        "statement": "Two supplementary layers sit on top of basic insurance: Medical Financial Assistance for people in poverty, started in 2003, and Catastrophic Medical Insurance for patients with catastrophic illness, started in 2012.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Main reform initiatives: health insurance system",
+          "char_start": 18286,
+          "char_end": 18506,
+          "passage_sha256": "f591ee959a0dde2ba29b47b98ca4475881f3d6d52fa947aefe483eb271672a46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-cost_sharing-002",
+        "statement": "Insurance reimbursement for a procured drug is set by the winning bid's price: patients who take the winning manufacturer's product pay a small share, while those who choose another version pay the difference in price themselves.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Payment reform",
+          "char_start": 19362,
+          "char_end": 19889,
+          "passage_sha256": "2d0f9504bc0c9dcb67308c52c3d9b47a7f99c6a438187cf6b33c7c1d58ed09da"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-cost_sharing-003",
+        "statement": "Article 28 of the Social Insurance Law says the basic insurance fund pays, according to national rules, for medical costs that fall within the basic insurance drug list, the covered treatment items and the medical service facility standards, as well as for emergency and rescue care.",
+        "valence": "neutral",
+        "source_id": "sil-2018",
+        "locator": {
+          "section": "Chapter III, Article 28",
+          "char_start": 2776,
+          "char_end": 2840,
+          "passage_sha256": "14127745804fa6720ee0c4284567407e4ca763ceb3c5ad92c5da423424d6c8a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-cost_sharing-004",
+        "statement": "Local governments have wide latitude in designing outpatient pooling, so its timing, deductibles, reimbursement rates and caps vary by place: under the employee scheme, Beijing and Shanghai began outpatient co-payment policies as early as 2001, while some cities had not started such policies by 2018.",
+        "valence": "neutral",
+        "source_id": "outpatient-pooling-2025",
+        "locator": {
+          "section": "Background: Institutional setting",
+          "char_start": 6207,
+          "char_end": 6698,
+          "passage_sha256": "13c12e79a78da98cae0dd948b85206c947f17560390d116e322f4d482f188a41"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-cost_sharing-005",
+        "statement": "In 2024 the employee scheme paid 84.8% of members' inpatient costs that fall within the reimbursement lists (83.8% in tertiary, 87.6% in secondary and 89.9% in primary or lower-level facilities).",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1(1) Employee basic medical insurance: benefits",
+          "char_start": 1301,
+          "char_end": 1484,
+          "passage_sha256": "66c66ff3bef53ca32cc26b62fa365f0d04abd831c7f2e2073a2553d8e628c948"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-cost_sharing-006",
+        "statement": "In 2024 the residents' scheme paid 68.6% of members' in-list inpatient costs: 64.1% in tertiary hospitals, 73.3% in secondary and 81.5% in primary or lower-level facilities. These rates cover only costs within the lists, not total spending.",
+        "valence": "weakness",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "1(2) Urban and rural residents' basic medical insurance: benefits",
+          "char_start": 1968,
+          "char_end": 2103,
+          "passage_sha256": "8fdf3c8f96c78286f33b6ebc5ed2e68f39b86e75388be59f3a0c416b259a0dd7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "financial_hardship": [
+      {
+        "id": "CHN-financial_hardship-001",
+        "statement": "In 2018, medical assistance funds spent ¥42.46 billion nationally: they paid insurance contributions for 76.7 million people and helped 53.6 million people with outpatient and inpatient costs.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 23685,
+          "char_end": 23976,
+          "passage_sha256": "fc10d75d74d2ec482fed56c7daf9226fba7ae227d2c25cac3a7be772b2729337"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "CHN-financial_hardship-002",
+        "statement": "A 2023 Lancet Public Health assessment found that catastrophic health spending is unusually common in China compared with countries at a similar level of economic development.",
+        "valence": "weakness",
+        "source_id": "yip-2023-lph",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1953,
+          "char_end": 2101,
+          "passage_sha256": "b75851edb5f85ca82f58b195af63d884bb23af52e57b640242fc711a140c508c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financial_hardship-003",
+        "statement": "A study of 28 provinces using the 2017 China Household Finance Survey estimated that 11.0% of households nationally had catastrophic health expenditure, ranging from 6.3% in Beijing to 16.0% in Heilongjiang, and that 2.0% experienced medical impoverishment, from 0.03% in Shanghai to 4.6% in Anhui.",
+        "valence": "weakness",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Summary: Methods and Findings",
+          "char_start": 1732,
+          "char_end": 2695,
+          "passage_sha256": "3123c32decbed131a7b2995419670cbb261b08cafd36d1565a41d7c83bec3555"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CHN-financial_hardship-004",
+        "statement": "In that study, a household had catastrophic health expenditure when its health spending in a year reached at least 40% of its total spending other than food; medical impoverishment means out-of-pocket health spending left a household below, or further below, the poverty line.",
+        "valence": "neutral",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Methods: Indicators",
+          "char_start": 13825,
+          "char_end": 14643,
+          "passage_sha256": "ceabc9e4b22a8a9615ad13790959550927bbc3e71f275db35cd6474dad65c40f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-financial_hardship-005",
+        "statement": "A 2026 study of 19,670 middle-aged and older adults in the 2018 wave of the China Health and Retirement Longitudinal Study found that health shocks were significantly and positively associated with households' risk of cash debt; the risk was higher for people with a heavier burden of chronic disease, particularly those in middle age.",
+        "valence": "weakness",
+        "source_id": "shu-2026",
+        "locator": {
+          "section": "Abstract: Methods and Results",
+          "char_start": 773,
+          "char_end": 1481,
+          "passage_sha256": "3b2d2a3079b2b330093137dbb1f1b7889946ff3bd3963b3001fe09e3f741defe"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "CHN-financial_hardship-007",
+        "statement": "In 2024 medical assistance spent 79.2 billion yuan: it paid basic insurance contributions for 79.2 million people (not counting subsidies paid by other departments) and gave outpatient or inpatient help 180.9 million times, averaging 1,254 yuan per inpatient episode and 92 yuan per outpatient one.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "3. Medical assistance",
+          "char_start": 2354,
+          "char_end": 2540,
+          "passage_sha256": "2d5ae44ef4fb8071ccf366f8c367599546710f633f76d8bc6d477b6df2770307"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "additional_care": [
+      {
+        "id": "CHN-additional_care-001",
+        "statement": "City-customised 'inclusive commercial health insurance' plans use community rating and low premiums (on average under 0.28% of disposable income per person in 2021), have no age or occupation limits and no strict exclusions for pre-existing conditions, and cover large costs left after basic insurance, up to a benefit ceiling of 1 million yuan.",
+        "valence": "neutral",
+        "source_id": "huiminbao-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6095,
+          "char_end": 7107,
+          "passage_sha256": "036ffc137cbffb48c0c18b1536625e5f172dc2dc6d9f11ea3947750c092c8e53"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-additional_care-002",
+        "statement": "These plans are underwritten by groups of large insurers under local government guidance, with government help in design, promotion and data sharing; by the end of 2021 they ran in 244 prefecture-level cities with about 140 million cumulative enrolments (renewals included), but the authors put national enrolment at only around 5%, too low for a sustainable risk pool.",
+        "valence": "neutral",
+        "source_id": "huiminbao-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7108,
+          "char_end": 8248,
+          "passage_sha256": "f7ce37427853a8f792e8ceaf7a344808202e0597cba7001a51cb53ca83d2d662"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHN-additional_care-003",
+        "statement": "Long-term care insurance began in Qingdao in 2012 and was piloted in 15 locations in phases in 2016 and 2018; by the end of 2022 the pilot cities had 16.99 million members and 12.08 million people receiving care.",
+        "valence": "neutral",
+        "source_id": "ltci-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 5492,
+          "char_end": 5800,
+          "passage_sha256": "50aaf6764ab01ba83c49db92d51489b152bcb06f753e164f01b2575aa8aadd9e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2022"
+      },
+      {
+        "id": "CHN-additional_care-004",
+        "statement": "In 2024, long-term care insurance in 49 pilot cities had 187.9 million members and 1.46 million people receiving benefits, with fund revenue of 24.4 billion yuan and spending of 13.1 billion yuan.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "7. Long-term care insurance pilots",
+          "char_start": 3444,
+          "char_end": 3525,
+          "passage_sha256": "b631b94250fa4b35e53879b69fe19204c1f1648ff1c0ed247ec0c9c2c31dab66"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "access": [
+      {
+        "id": "CHN-access-001",
+        "statement": "Between 2012 and 2017, the primary care workforce grew by 7.1% to 3.863 million, and general practitioners rose from 0.8 to 1.8 per 10,000 people.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 26314,
+          "char_end": 26513,
+          "passage_sha256": "47bc8110d67209fec1ca76167066d163160102075de85f1e003ab4325de54f22"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2017"
+      },
+      {
+        "id": "CHN-access-002",
+        "statement": "Primary care providers are usually neither patients' first point of contact nor coordinators of specialist care; primary care facilities handled 53% of outpatient visits in 2018, down from 62% in 2010.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Coordination of care",
+          "char_start": 25337,
+          "char_end": 25590,
+          "passage_sha256": "c67b23789533895a7df2ef2f4ef434e416a27c7684817d03c2103b9c768d1000"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2010-2018"
+      },
+      {
+        "id": "CHN-access-003",
+        "statement": "A 2020 Lancet review noted that China did not require patients to use a primary care provider as their first point of contact; as an initial step towards gatekeeping, the government had introduced a family doctor registration policy intended to sign up every resident with a family doctor team, which the review described as still at an early stage with its potential not yet realised.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Continuity of care",
+          "char_start": 30461,
+          "char_end": 30851,
+          "passage_sha256": "b887009fd6a98b1c0827b11ad27948e5f5937478255998d78df4888c99f2cb52"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-access-005",
+        "statement": "The number of general practitioners in mainland China grew from 109,794 in 2012 to 434,868 in 2021, or 3.08 per 10,000 people.",
+        "valence": "strength",
+        "source_id": "gp-alloc-2023",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2721,
+          "char_end": 2850,
+          "passage_sha256": "39dcb6ca072f4db992c16b3ae1ce33c2d548591520dd48a44a42e28bba29a4f8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2021"
+      },
+      {
+        "id": "CHN-access-006",
+        "statement": "GPs remain unevenly spread across regions; the western region has too few relative both to its population and to its land area.",
+        "valence": "weakness",
+        "source_id": "gp-alloc-2023",
+        "locator": {
+          "section": "Abstract: Conclusion",
+          "char_start": 3938,
+          "char_end": 4328,
+          "passage_sha256": "7a95d1622fbeb6f1698f742a1ca70ae259d1e98b64bd518038430f1a5cdf1aef"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2021"
+      },
+      {
+        "id": "CHN-access-007",
+        "statement": "In 2025 China had 3.78 practising physicians (including assistant physicians) and 4.32 registered nurses per 1,000 people, and 4.91 general practitioners per 10,000 people.",
+        "valence": "neutral",
+        "source_id": "nhc-bulletin-2025",
+        "locator": {
+          "section": "1(3) Health workforce",
+          "page": 4,
+          "char_start": 2110,
+          "char_end": 2208,
+          "passage_sha256": "28b76a33c2c13efbcd1383c55cc0855fa874e8961477d4c5ec12771ff2f511bc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-access-008",
+        "statement": "Of the 10.65 billion visits to health facilities in 2025, tertiary hospitals handled 3.04 billion and primary-level facilities 5.65 billion.",
+        "valence": "neutral",
+        "source_id": "nhc-bulletin-2025",
+        "locator": {
+          "section": "2(1) Outpatient and inpatient volume",
+          "page": 7,
+          "char_start": 3501,
+          "char_end": 3668,
+          "passage_sha256": "f1619bf18c90c03c32cd7f046f0e7b7a55f6b6583d18432a6461835ff0481789"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-access-009",
+        "statement": "By the end of 2025, among public hospitals at secondary level and above, 64.6% offered appointment booking, 67.5% provided telemedicine and 92.4% mutually recognised test and examination results.",
+        "valence": "neutral",
+        "source_id": "nhc-bulletin-2025",
+        "locator": {
+          "section": "2(4) Improving medical services",
+          "page": 9,
+          "char_start": 4918,
+          "char_end": 4996,
+          "passage_sha256": "284db773f893ea1d6831e4dbe15424f04cdef551e9714300f2ca065a55175932"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-access-010",
+        "statement": "The basic health law commits the state to building a tiered care system step by step: non-emergency patients are to be guided to primary care first, with responsibility for first contact and review of referrals, two-way referral between levels, and links to basic medical insurance.",
+        "valence": "neutral",
+        "source_id": "bhl-2019",
+        "locator": {
+          "section": "Article 30",
+          "char_start": 3277,
+          "char_end": 3379,
+          "passage_sha256": "700a61bc8efaf2fda21fa482f52e2e47a90fcb36eea5fd5f4efd877d29d3e0c5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-access-011",
+        "statement": "In 2024 insured people made 397 million general outpatient and emergency, chronic-disease outpatient and inpatient visits outside the area where they were insured, costing 786.8 billion yuan.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "5. Care outside the insured area",
+          "char_start": 3064,
+          "char_end": 3211,
+          "passage_sha256": "042c5422c2c4c343bbc8dfa1c2d3ad68b032b2aeb58ed260d8fde445f184f2b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "CHN-outcomes-001",
+        "statement": "In the GBD 2016 Healthcare Access and Quality (HAQ) Index, China sat in the eighth of ten deciles nationally, but its provinces ranged from the top decile (Beijing, 91.5) to the fourth (Tibet, 48.0), with eastern provinces scoring higher than western ones.",
+        "valence": "neutral",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: subnational HAQ Index",
+          "char_start": 44423,
+          "char_end": 44722,
+          "passage_sha256": "0abf35111d35ca12544dd7b3d7095c4d990e142022ac5949b4b6ba6f22e07b8b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2016
+      },
+      {
+        "id": "CHN-outcomes-002",
+        "statement": "Between 1990 and 2016, China was among the middle-SDI (socio-demographic index) countries with the most pronounced gains in the HAQ Index.",
+        "valence": "strength",
+        "source_id": "haq-2018",
+        "locator": {
+          "section": "Results: HAQ Index trends",
+          "char_start": 51473,
+          "char_end": 51721,
+          "passage_sha256": "eb87bfaa58740868a52626d9250e2550c17a9323eec50ee22501b8a5e91fff46"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "1990-2016"
+      },
+      {
+        "id": "CHN-outcomes-003",
+        "statement": "A composite index of management of non-communicable diseases rose only slowly, from 62.0% in 2004 to 64.3% in 2018, with prevention lagging; all the management indicators had a low probability of reaching their 2030 targets.",
+        "valence": "weakness",
+        "source_id": "ncd-ineq-2024",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 2563,
+          "char_end": 2889,
+          "passage_sha256": "be77176b86f911237809230668ae49bc873f99492a09ca0d231359e767df0072"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2004-2018"
+      },
+      {
+        "id": "CHN-outcomes-004",
+        "statement": "Rural areas consistently had fewer health resources than urban areas and scored 2.2% lower on management of non-communicable diseases in 2018.",
+        "valence": "weakness",
+        "source_id": "ncd-ineq-2024",
+        "locator": {
+          "section": "Summary: Findings",
+          "char_start": 3295,
+          "char_end": 3465,
+          "passage_sha256": "5a440d1cb7a65bb49a8e2e09b227db9bf5e213d76909b5888363b1e24e8af07e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2018
+      },
+      {
+        "id": "CHN-outcomes-005",
+        "statement": "National maternal and child health surveillance shows a rural-urban gap in 2025: under-five mortality was 3.0 per 1,000 in cities and 6.5 in rural areas, and infant mortality 2.3 and 4.4 per 1,000, respectively.",
+        "valence": "weakness",
+        "source_id": "nhc-bulletin-2025",
+        "locator": {
+          "section": "7(2)-(3) Under-five and maternal mortality",
+          "table": "Table 20",
+          "page": 22,
+          "char_start": 14844,
+          "char_end": 14941,
+          "passage_sha256": "274254dca1c8a86b5b03b54e861bdee2c2e532f676e395f2d465cceb87d5d7d5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-outcomes-006",
+        "statement": "In the GBD 2019 study, China's HAQ Index score for ages 0-74 was 70.2 (95% uncertainty interval 66.2-74.1) in 2019, 35.2 points higher than in 1990; it was 78.0 for ages 0-14 and 65.3 for ages 65-74.",
+        "valence": "neutral",
+        "source_id": "gbd-haq-2019",
+        "locator": {
+          "table": "Table: HAQ Index estimates by location; columns in order: 2019 HAQ Index (95% UI) overall 0-74, young 0-14, working 15-64, post-working 65-74; then absolute change 1990-2019 overall, young, working, post-working",
+          "char_start": 58442,
+          "char_end": 58607,
+          "passage_sha256": "0f32caa3f8b967c36b4fde1459fc11fb169b992c32529658cf1e3ecc4b3e163f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2019
+      }
+    ],
+    "costs": [
+      {
+        "id": "CHN-costs-001",
+        "statement": "In 2017, drugs and consumables made up 48.0% of public hospitals' total revenue (medicines alone 34.7%), while income for medical staff services was 27.5% of their medical revenue.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 27018,
+          "char_end": 27395,
+          "passage_sha256": "5c56c9f4d8d5956889e343f45c323ee5a7a29c512d3ae344213e35e64285af82"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CHN-costs-002",
+        "statement": "Between 2008 and 2018, government funding for primary care institutions grew more than tenfold, reaching ¥197 billion (it had been ¥19 billion).",
+        "valence": "neutral",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7415,
+          "char_end": 7564,
+          "passage_sha256": "305fb8172b4e3b428e006f7a71a331b9df39521e34825840c656dfc5afb370a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2008-2018"
+      },
+      {
+        "id": "CHN-costs-003",
+        "statement": "By the end of 2021, national volume-based procurement had saved more than 260 billion yuan (about US$36.3 billion), according to the figures the authors cite.",
+        "valence": "strength",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Effects of the NVBP",
+          "char_start": 23295,
+          "char_end": 23444,
+          "passage_sha256": "139cb3f0c34b1f2af2a8dc1a3e579b68f20f7cd0ab689ab398b5c3e8ca7cd91d"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHN-costs-004",
+        "statement": "Government health spending rose from 24.7% of total health spending in 2008 to 30.4% in 2020, and from 4.4% to 7.8% of all government spending over the same period.",
+        "valence": "neutral",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7626,
+          "char_end": 7935,
+          "passage_sha256": "9d437abd7b0fa2d66266fa7fabc05d29d5da057fb282ebf810d31a3808421764"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2008-2020"
+      },
+      {
+        "id": "CHN-costs-005",
+        "statement": "China's total health spending passed 9 trillion yuan in 2023; the authors report that medical costs have grown by more than 10% a year, well above growth in GDP and disposable income, and that residents' out-of-pocket costs have risen despite higher reimbursement rates.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Discussion",
+          "char_start": 48106,
+          "char_end": 48487,
+          "passage_sha256": "0fb173b2318639b81d2e9508863446a447bf8191213a43f8047f97e6781ff5d9"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2023
+      },
+      {
+        "id": "CHN-costs-006",
+        "statement": "Total out-of-pocket medical spending rose from 657 billion yuan in 2009 to 1,513 billion yuan in 2017, while its share of total health spending fell from 37.46% in 2009 to under 30% by 2015 and stayed there through 2017.",
+        "valence": "neutral",
+        "source_id": "meddebt-2020",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 10503,
+          "char_end": 10798,
+          "passage_sha256": "23a5f0a0d09fff10ae22919edcf6352fa48e623488da8d98b69f7b7810bfa4a5"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2009-2017"
+      },
+      {
+        "id": "CHN-costs-007",
+        "statement": "In 2025 the average hospital outpatient visit cost 357.7 yuan and the average inpatient stay 9,768.9 yuan, about 1% less than in 2024 in both cases; medicines made up 36.8% of the outpatient cost and 19.1% of the inpatient cost (20.4% a year earlier).",
+        "valence": "neutral",
+        "source_id": "nhc-bulletin-2025",
+        "locator": {
+          "section": "5(1) Hospital patients' medical costs",
+          "page": 15,
+          "char_start": 9512,
+          "char_end": 9769,
+          "passage_sha256": "c9feb67cfd3831936686674a9c42cd290734a9132de0e66f80973415107483b1"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2025
+      },
+      {
+        "id": "CHN-costs-008",
+        "statement": "The 2019 World Bank/WHO study projected that, if reform did not go deeper, health spending would rise in real terms from 3,531 billion yuan in 2015 to 15,805 billion yuan in 2035 (2014 prices), or from 5.3% to 9.1% of GDP, with inpatient care accounting for over 60% of the growth.",
+        "valence": "neutral",
+        "source_id": "wb-healthy-china-2019",
+        "locator": {
+          "section": "Executive summary: projected health expenditure",
+          "page": 27,
+          "char_start": 63946,
+          "char_end": 64415,
+          "passage_sha256": "f493ba6a029f9a02856fc95118decaef8ab336974722672456ff5feb4fe4b572"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "what_works": [
+      {
+        "id": "CHN-what_works-001",
+        "statement": "A 2019 Lancet review of the decade after 2009 found substantial progress in equal access to care and in financial protection, especially for people of lower socioeconomic status.",
+        "valence": "strength",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2272,
+          "char_end": 2454,
+          "passage_sha256": "80650e48dc1f51cccede0be47ee8839d439d8431f5078dbc3609413609096478"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-what_works-002",
+        "statement": "A 2023 Lancet Public Health assessment found that coverage of maternal, newborn and child health, infectious disease services and service capacity and access is now comparable to high-income countries, with smaller inequalities than before.",
+        "valence": "strength",
+        "source_id": "yip-2023-lph",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1323,
+          "char_end": 1688,
+          "passage_sha256": "32a6db3528a6a7997065c9e37480203fa1e5807c36734859a619d140c36ce7a4"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-what_works-003",
+        "statement": "Seven rounds of national volume-based drug procurement between 2018 and 2022 lowered the prices of 294 drug formulations by an average of 53%.",
+        "valence": "strength",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 4619,
+          "char_end": 4805,
+          "passage_sha256": "31abaaaf512dd716782d1950c7e98eeec3b4ae8538b1e39eb5b6a9faf3561497"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2022"
+      },
+      {
+        "id": "CHN-what_works-004",
+        "statement": "A cohort study found that, among middle-aged and older rural adults, the merger of the urban and rural residents' insurance schemes was associated with better self-rated health and fewer depressive symptoms.",
+        "valence": "strength",
+        "source_id": "integration-2023",
+        "locator": {
+          "section": "Results",
+          "char_start": 5285,
+          "char_end": 5500,
+          "passage_sha256": "d35cbb848fc553fa0afe62be19ff9b15203c82a086f10817eef2d825a1b48147"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2011-2018"
+      },
+      {
+        "id": "CHN-what_works-005",
+        "statement": "A study of 932,354 inpatient cases in DRG pilot hospitals and 608,940 in non-pilot hospitals (November 2021 to September 2022) found that pilot hospitals did more laparoscopic surgery, used fewer low-value drugs and had fewer 30-day readmissions.",
+        "valence": "strength",
+        "source_id": "drg-quality-2025",
+        "locator": {
+          "section": "Abstract: Methods and Results",
+          "char_start": 2461,
+          "char_end": 3538,
+          "passage_sha256": "b804b112cc1cb174ddef2eafc76f2b8c2ad9e8e4a8e801385a76bbe568e22e77"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2021-2022"
+      },
+      {
+        "id": "CHN-what_works-006",
+        "statement": "The same analysis credits strong political commitment and targeted funding for good results in reproductive, maternal, newborn and child health and in infectious diseases.",
+        "valence": "strength",
+        "source_id": "yip-2023-lph-2",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1483,
+          "char_end": 1663,
+          "passage_sha256": "1aeb57ae0f370301311d767d900e43d379217eb4174d9974864ff6719f1748b0"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-what_works-007",
+        "statement": "Rates of catastrophic health spending and medical impoverishment fell significantly between 2010 and 2016, according to earlier research the study cites.",
+        "valence": "strength",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7936,
+          "char_end": 8069,
+          "passage_sha256": "4368d2bf07de685f48fe36dee8bcc295d66c97b6b982e94b6044c0afeb094456"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2010-2016"
+      },
+      {
+        "id": "CHN-what_works-008",
+        "statement": "The 2019 World Bank/WHO study found that after two decades of building, China's facilities, even at lower levels, had modern infrastructure and equipment, and credited the government with setting building standards and an essential-equipment inventory for village clinics, township and community health centres.",
+        "valence": "strength",
+        "source_id": "wb-healthy-china-2019",
+        "locator": {
+          "section": "Chapter 3: structure of the delivery system",
+          "page": 126,
+          "char_start": 407288,
+          "char_end": 407814,
+          "passage_sha256": "3bbc83d776c504d1c9830a527276881016685646312b6d28ff66a0a7e63bd16e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ],
+    "problems": [
+      {
+        "id": "CHN-problems-001",
+        "statement": "A 2019 Lancet review of the reform found remaining gaps in quality of care, control of non-communicable diseases, efficiency of delivery, control of health spending, and public satisfaction.",
+        "valence": "weakness",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 2455,
+          "char_end": 2621,
+          "passage_sha256": "ea69ff8635314aeeb1468534edaecae8f61c1702159f5692a146806315f4e48f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-002",
+        "statement": "The 2023 Lancet Public Health assessment found large gaps in chronic disease services: risk-factor control has made little progress in ten years, and coverage for most chronic conditions is below that of high-income countries.",
+        "valence": "weakness",
+        "source_id": "yip-2023-lph",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1689,
+          "char_end": 1952,
+          "passage_sha256": "fbae5ff66f4202ea4947b0d02e43bc68300aafe70bb10732a4cdcf70934a513b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-003",
+        "statement": "Social health insurance pays wherever patients seek care, with no referral needed, and pays more generously for hospital care than for primary care, which encourages patients to bypass primary care and makes it hard for primary care to act as a gatekeeper.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Coordination of care",
+          "char_start": 27235,
+          "char_end": 27684,
+          "passage_sha256": "cf518985daccb36df5c5d0272ebc689a25157d82919100965244e906fb3eb245"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-004",
+        "statement": "In a study in western China using trained actors posing as patients with dysentery or angina, village doctors asked 18% of recommended questions, did 15% of recommended examinations, and correctly diagnosed 26% of cases.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Quality of diagnosis and treatment",
+          "char_start": 12537,
+          "char_end": 13007,
+          "passage_sha256": "c021a8136760a6c7ed2aec66f70e89bfc0cef5d6959effa1246345f9f0bae814"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-005",
+        "statement": "Systematic reviews put the average rate of antibiotic use in primary care facilities above 50%, far above the WHO-recommended level of under 30%.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Prescribing behaviour",
+          "char_start": 13554,
+          "char_end": 13745,
+          "passage_sha256": "441272d869ed53d628aa2d62d2202f42fe8ad9cba5117e9238f25053ec3ef43c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-006",
+        "statement": "A 2020 Lancet review of primary care listed its system challenges as weak practitioner training, fee-for-service payment that rewards tests and treatment over prevention, separation of clinical care from public health services, and poor continuity of care.",
+        "valence": "weakness",
+        "source_id": "li-2020-phc",
+        "locator": {
+          "section": "Summary",
+          "char_start": 5528,
+          "char_end": 5857,
+          "passage_sha256": "36c61f9c5db7980d526a0bef8a55466676fa36477d97c15319e28690ed45358a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-007",
+        "statement": "Financial protection varies widely between provinces: income-related inequality was generally much lower within the developed eastern provinces than within central and western ones, and the authors call for particular attention to low-income households in central and western provinces.",
+        "valence": "weakness",
+        "source_id": "che-provincial-2023",
+        "locator": {
+          "section": "Summary: Findings and Interpretation",
+          "char_start": 2781,
+          "char_end": 3269,
+          "passage_sha256": "0a842575554b0c0d7fa57c5e2c63338c1ad8e2a8992701336135088bcf59534a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-008",
+        "statement": "Citing National Healthcare Security Administration data, a 2025 study reports that enrolment in the urban and rural residents' scheme fell each year from 2019, by 0.3%, 0.8%, 0.8% and then 2.5% in 2022, when it dropped by 25.17 million people.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 7716,
+          "char_end": 8130,
+          "passage_sha256": "2575b7cce584ef21957cf83e00e7bc0912c0b6e94edbb21fc93dff8974519061"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2022"
+      },
+      {
+        "id": "CHN-problems-009",
+        "statement": "A 2025 study of why rural residents withdraw from medical insurance found four main reasons: heavy cost, a scheme design seen as unfair, failing enrolment campaigns, and the influence of online information on residents' perceptions.",
+        "valence": "weakness",
+        "source_id": "withdraw-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 2603,
+          "char_end": 2894,
+          "passage_sha256": "36ad309f0f4ad39a5fb4deff156801e4e1e65c322e3801312cbe3b5fa8d7a5b3"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-010",
+        "statement": "A 2020 study found that China's insurance benefit packages differed by region and scheme and depended heavily on how much was paid in, which limited service coverage in less developed areas.",
+        "valence": "weakness",
+        "source_id": "chn-vnm-2020",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3371,
+          "char_end": 3560,
+          "passage_sha256": "91876531ecfb5490975338081213d0417369869a1a7d2e9d2bc0b361967b4de7"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-011",
+        "statement": "A study of China's national DRG payment system (CHS-DRG) linked it to longer waits for surgery (by 0.18 days), more outpatient visits in the three days before admission and after discharge, and higher 30-day all-cause mortality.",
+        "valence": "weakness",
+        "source_id": "drg-quality-2025",
+        "locator": {
+          "section": "Abstract: Results",
+          "char_start": 3604,
+          "char_end": 4034,
+          "passage_sha256": "128d29b01a75d7f27a047de976400eaf3eede61c78cc26208bcb200644767d2e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2021-2022"
+      },
+      {
+        "id": "CHN-problems-012",
+        "statement": "A 2023 Lancet Public Health analysis attributes China's weak chronic disease control and financial protection, especially for lower-income households, to a fragmented, hospital-centred delivery system, rising costs, shallow insurance benefits, and little attention to health across other policy areas.",
+        "valence": "weakness",
+        "source_id": "yip-2023-lph-2",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1664,
+          "char_end": 2014,
+          "passage_sha256": "96468c0248d66293bdf4b33b2f9f5667171aee805cc8c18a52647e3d21a2099b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-013",
+        "statement": "The 2019 World Bank/WHO study described China's delivery system as centred on hospitals and driven by volume, with many profit-seeking, poorly governed public hospitals, fragmented financing, largely passive insurance purchasers, little information on quality, and a shortage of qualified primary care workers that weakens the system's ability to prevent, detect and treat common illnesses early, refer patients and act as gatekeeper.",
+        "valence": "weakness",
+        "source_id": "wb-healthy-china-2019",
+        "locator": {
+          "section": "Executive summary: challenges",
+          "page": 26,
+          "char_start": 60898,
+          "char_end": 61752,
+          "passage_sha256": "27cc066336c5ddae44102a6fd854ff7568bb8234f3185ec45f5ed798a8bc315f"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-014",
+        "statement": "The study noted that the documented overuse of medical technologies and of high-margin procedures has been attributed, in the literature it cites, to fee-for-service payment, the lack of effective referral or tiered copayments, price schedules that favour drugs and high-tech procedures, concentration of staff and resources in cities, and staff bonuses tied to volume and revenue.",
+        "valence": "weakness",
+        "source_id": "wb-healthy-china-2019",
+        "locator": {
+          "section": "Chapter 3: overuse of services",
+          "page": 65,
+          "char_start": 191212,
+          "char_end": 191895,
+          "passage_sha256": "b328fc48336e33ab08215db7c6692379f8ec646427c567568f1365e8d045f1cc"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-problems-015",
+        "statement": "In 2024 the medical insurance system recovered 27.5 billion yuan of insurance funds and confirmed fraud at 2,008 institutions; working with the police it handled 3,018 cases and 10,741 suspects were arrested.",
+        "valence": "weakness",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "6. Fund supervision",
+          "char_start": 3261,
+          "char_end": 3379,
+          "passage_sha256": "081df081750548148f3691970772ce4ddf71280d427b04d1c0b03a21b27cf062"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "reforms": [
+      {
+        "id": "CHN-reforms-001",
+        "statement": "By 2017 every public hospital in China had stopped adding a mark-up to the medicines it sells.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 24926,
+          "char_end": 25036,
+          "passage_sha256": "65e5133931569fd095c27c6ec9b1812e5d969bffc9c22912fdebe04604c03649"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2017
+      },
+      {
+        "id": "CHN-reforms-002",
+        "statement": "By 2017, 65% of public hospitals at level two or above had begun paying by disease category under insurance, and in 2019 the government named 30 pilot cities for diagnosis-related group (DRG) payment.",
+        "valence": "neutral",
+        "source_id": "tao-2020",
+        "locator": {
+          "section": "Table 2",
+          "char_start": 24666,
+          "char_end": 24893,
+          "passage_sha256": "b04e70621853584ff5920576d26f4c330d7fbcfb920bca3dfed53d81e008d402"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2017-2019"
+      },
+      {
+        "id": "CHN-reforms-003",
+        "statement": "From 2012 the reform's second phase turned to the delivery system: public hospital reform (ending drug-sale mark-ups, changing fee schedules, provider payment and governance) and moving away from a hospital-centred, treatment-focused model.",
+        "valence": "neutral",
+        "source_id": "yip-2019-lancet",
+        "locator": {
+          "section": "Abstract",
+          "char_start": 1940,
+          "char_end": 2271,
+          "passage_sha256": "4192c527de93c7934a32c35b8235fac323348c8d08067d8b2e010e0c15c0e024"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2012-2019"
+      },
+      {
+        "id": "CHN-reforms-004",
+        "statement": "In 2018 the central government launched national volume-based procurement of medicines, starting with a pilot in 11 cities (the '4+7' scheme); a year later every province of mainland China had joined.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "The evolution of the NVBP",
+          "char_start": 9670,
+          "char_end": 9990,
+          "passage_sha256": "a57afd882daae813829e3ca4fa3c26baa0a6e131e4db9f1d10419609c081c43a"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2018-2019"
+      },
+      {
+        "id": "CHN-reforms-005",
+        "statement": "A 2021 State Council guideline on outpatient mutual-aid under the employee scheme began nationwide rollout of pooled outpatient funds, intended to give more financial support for outpatient care and lower what individuals pay.",
+        "valence": "neutral",
+        "source_id": "outpatient-pooling-2025",
+        "locator": {
+          "section": "Background: Institutional setting",
+          "char_start": 6933,
+          "char_end": 7480,
+          "passage_sha256": "3ff467507fb56b0f3e96cad16eb2e29e8b746ab300aaabdf3df2a858e7d9c99b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2021
+      },
+      {
+        "id": "CHN-reforms-006",
+        "statement": "In 2019 China launched a nationwide program of diagnosis-related group (DRG) bundled payment covering the whole disease spectrum; the National Healthcare Security Administration officially announced it in 2020 as the CHS-DRG system.",
+        "valence": "neutral",
+        "source_id": "drg-quality-2025",
+        "locator": {
+          "section": "Introduction",
+          "char_start": 6687,
+          "char_end": 7126,
+          "passage_sha256": "91c3b1d2e261b4cb3232d58615165f690416e9d610f8b2084a8bf0a8c5aca0cb"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2019-2020"
+      },
+      {
+        "id": "CHN-reforms-007",
+        "statement": "A 2024 State Council guideline introduced waiting periods from 2025 for the residents' scheme: people who join outside the scheme's set enrolment period, or after a gap, wait a fixed 3 months before benefits start (newborns and some other groups excepted), plus generally 1 month per extra year of lapse, which can be reduced by paying missed years; after 4 or more years' lapse, even after paying missed years, the total wait is generally at least 6 months. Provinces set the details.",
+        "valence": "neutral",
+        "source_id": "sc-enrolment-2024",
+        "locator": {
+          "section": "2(3) Improving benefit policy (waiting periods)",
+          "char_start": 1985,
+          "char_end": 2206,
+          "passage_sha256": "8900d1fb5b8b6eff8ffb99aef812411daf8a5f0565c93a409266beb0ac18d286"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-reforms-008",
+        "statement": "The same guideline rewards continuous enrolment in the residents' scheme through critical illness insurance: from 2025 the benefit cap may be lowered for members who rejoin after a gap and raised for each further continuous year once a member has 4 continuous years; members with no fund reimbursement in a year may get a higher cap the next year; each rise is generally at least 1,000 yuan, and the total rise generally may not exceed 20% of the local original cap.",
+        "valence": "neutral",
+        "source_id": "sc-enrolment-2024",
+        "locator": {
+          "section": "2(3) Improving benefit policy (critical illness insurance incentives)",
+          "char_start": 1702,
+          "char_end": 1903,
+          "passage_sha256": "71212b1e8d6d54d405cc34ed284ae8266c3ed984044b445694b2b09a6afc26ca"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-reforms-009",
+        "statement": "The guideline also loosens household-registration (hukou) limits on enrolling where people live or work; super-large cities must remove hukou limits on flexible workers, migrant workers and people in new forms of employment joining basic medical insurance where they work, and must enrol them in the employee scheme there.",
+        "valence": "neutral",
+        "source_id": "sc-enrolment-2024",
+        "locator": {
+          "section": "2(1) Improving enrolment policy",
+          "char_start": 1154,
+          "char_end": 1287,
+          "passage_sha256": "b514b1a71aa8cfd8cf47d523877a80ad617d3ad227d6e6a861c54113c4c2e77c"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-reforms-010",
+        "statement": "By the end of 2024, payment by disease group covered essentially all pooling areas and eligible providers; it applied to more than 90% of hospital discharges and about 80% of eligible inpatient insurance spending.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "4(2) Payment method reform",
+          "char_start": 2770,
+          "char_end": 2856,
+          "passage_sha256": "48ca4dd4e545d369d01b31d16deb7a54b0fb9f29b8283baa15745809499c5e6e"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      },
+      {
+        "id": "CHN-reforms-011",
+        "statement": "National volume-based procurement reached its tenth round of drugs (62 drugs) and fifth round of high-value medical consumables in 2024; by the time of the 2024 bulletin it had covered 435 drugs and 7 major categories of high-value consumables in total.",
+        "valence": "neutral",
+        "source_id": "nhsa-bulletin-2024",
+        "locator": {
+          "section": "4(3) Centralised procurement of drugs and consumables",
+          "char_start": 2910,
+          "char_end": 3050,
+          "passage_sha256": "ba7e05ab1c68a452719637064753e23ce5082bfe314627dcbc5ec94ceda38393"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": 2024
+      }
+    ],
+    "us_lessons": [
+      {
+        "id": "CHN-us_lessons-001",
+        "statement": "Writing about other low- and middle-income countries rather than the US, the authors argue that parts of China's pooled procurement can transfer (procurement targeted by market size and drug importance, several winning suppliers, and quality checks on generics), but that it depends on a strong public drug plan with large purchasing power.",
+        "valence": "neutral",
+        "source_id": "nvbp-2023",
+        "locator": {
+          "section": "What is next?",
+          "char_start": 24562,
+          "char_end": 25432,
+          "passage_sha256": "05f49f814235bc346da965339967c25a6680226efbab7b202e85438c3f727a6b"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-us_lessons-002",
+        "statement": "A 2025 editorial on a study of Chinese telehealth data from 2016-2020 notes that patients in less developed regions used telehealth apps to reach doctors in more developed areas such as Beijing, Shanghai and Guangdong, home to 51 of the top 100 hospitals.",
+        "valence": "neutral",
+        "source_id": "telemed-2025",
+        "locator": {
+          "section": "Expanding cardiovascular care through telemedicine",
+          "char_start": 4413,
+          "char_end": 5369,
+          "passage_sha256": "f39afc21f80ffc2a203f2ec3d0e09fc06d2e7176c97339dadaef2b783c6d65ee"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        },
+        "data_year": "2016-2020"
+      },
+      {
+        "id": "CHN-us_lessons-003",
+        "statement": "The editorial argues that copying this in the US runs into state medical licensure laws, which generally allow doctors to practise only in the state that licensed them, whereas regulation of telehealth may be less strict in China.",
+        "valence": "neutral",
+        "source_id": "telemed-2025",
+        "locator": {
+          "section": "Expanding cardiovascular care through telemedicine (US implications)",
+          "char_start": 6515,
+          "char_end": 6821,
+          "passage_sha256": "7b6dc49c0e839ed2b234a6026afae2949d1fa562f95532cbe2aae2580592be48"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-us_lessons-004",
+        "statement": "It concludes that the US should consider policies that expand interstate physician licensure agreements so that virtual care can reach medically underserved areas.",
+        "valence": "neutral",
+        "source_id": "telemed-2025",
+        "locator": {
+          "section": "Considering health equity in rural America",
+          "char_start": 8119,
+          "char_end": 8344,
+          "passage_sha256": "0b18aa7eb8cf58576eaae271f7d2625eab98c1c95d65c44d94c449a22aa692e8"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-us_lessons-005",
+        "statement": "The authors caution that telemedicine does not fix the underlying causes of rural health gaps, such as lower insurance coverage, low patient volumes that raise costs, and higher poverty.",
+        "valence": "neutral",
+        "source_id": "telemed-2025",
+        "locator": {
+          "section": "Considering health equity in rural America",
+          "char_start": 8587,
+          "char_end": 8965,
+          "passage_sha256": "43d24b7fc10dbef9671beb221aa213def85a1d66134d3912c6879c294160f882"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      },
+      {
+        "id": "CHN-us_lessons-006",
+        "statement": "Drawing lessons for other countries from China and Vietnam, the study concludes that political commitment, sustainable funding and administrative capacity drive coverage expansion through insurance reform, and that schemes should cover essential services for every member and subsidise vulnerable groups.",
+        "valence": "neutral",
+        "source_id": "chn-vnm-2020",
+        "locator": {
+          "section": "Abstract: Conclusion",
+          "char_start": 4027,
+          "char_end": 4386,
+          "passage_sha256": "8962694b31ccea56ab9d7d900aab781da99dc38173d65e6df86c0bbd01857dec"
+        },
+        "verification": {
+          "passage_found": "pass",
+          "supports": "pass",
+          "checked_on": "2026-11-12",
+          "checked_by": "claude-opus-5-5 support review (passage vs. statement)"
+        }
+      }
+    ]
+  },
+  "indicators_file": "data/indicators/CHN.json",
+  "sources": [
+    {
+      "id": "yip-2023-lph",
+      "title": "Universal health coverage in China part 1: progress and gaps",
+      "publisher": "The Lancet Public Health",
+      "authors": "Yip W, Fu H, Jian W, Liu J, Pan J, Xu D, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/S2468-2667(23)00254-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38000882&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "yip-2019-lancet",
+      "title": "10 years of health-care reform in China: progress and gaps in Universal Health Coverage",
+      "publisher": "The Lancet",
+      "authors": "Yip W, Fu H, Chen AT, Zhai T, Jian W, Xu R, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2019,
+      "url": "https://doi.org/10.1016/S0140-6736(19)32136-1",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31571602&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "tao-2020",
+      "title": "Towards universal health coverage: lessons from 10 years of healthcare reform in China",
+      "publisher": "BMJ Global Health",
+      "authors": "Tao W, Zeng Z, Dang H, Lu B, Chuong L, Yue D, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1136/bmjgh-2019-002086",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7103824",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "li-2020-phc",
+      "title": "Quality of primary health care in China: challenges and recommendations",
+      "publisher": "The Lancet",
+      "authors": "Li X, Krumholz HM, Yip W, Cheng KK, De Maeseneer J, Meng Q, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1016/S0140-6736(20)30122-7",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7272159",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "nvbp-2023",
+      "title": "Improving access to medicines and beyond: the national volume-based procurement policy in China",
+      "publisher": "BMJ Global Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1136/bmjgh-2022-011535",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10577736",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "che-provincial-2023",
+      "title": "Provincial variations in catastrophic health expenditure and medical impoverishment in China: a nationwide population-based study",
+      "publisher": "The Lancet Regional Health - Western Pacific",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.lanwpc.2022.100633",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9985024",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "meddebt-2020",
+      "title": "Impact of Medical Debt on the Financial Welfare of Middle- and Low-Income Families across China",
+      "publisher": "International Journal of Environmental Research and Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.3390/ijerph17124597",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7344870",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "withdraw-2025",
+      "title": "Why do rural residents in China withdraw from the health insurance system? A qualitative study based on Y County in S Province, China",
+      "publisher": "BMC Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12889-025-22882-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12046961",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "gp-alloc-2023",
+      "title": "Equity and trends in general practitioners' allocation in China: based on ten years of data from 2012 to 2021",
+      "publisher": "Human Resources for Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1186/s12960-023-00841-5",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10394803",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "haq-2018",
+      "title": "Measuring performance on the Healthcare Access and Quality Index for 195 countries and territories and selected subnational locations: a systematic analysis from the Global Burden of Disease Study 2016",
+      "publisher": "The Lancet",
+      "authors": "GBD 2016 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2018,
+      "url": "https://doi.org/10.1016/S0140-6736(18)30994-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5986687",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "telemed-2025",
+      "title": "Telemedicine expands cardiovascular care in China - lessons for health equity in the United States",
+      "publisher": "npj Digital Medicine",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1038/s41746-025-01474-9",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11782522",
+      "accessed": "2026-11-09",
+      "authors": "Enichen EJ, Heydari K, Li B, Kvedar JC",
+      "funding_note": "Editorial commentary, not original research; one co-author is the journal's editor-in-chief. No specific funding."
+    },
+    {
+      "id": "nrdl-2023",
+      "title": "Access to innovative drugs and the National Reimbursement Drug List in China: Changing dynamics and future trends in pricing and reimbursement",
+      "publisher": "Journal of Market Access & Health Policy",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1080/20016689.2023.2218633",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10266112",
+      "accessed": "2026-11-09",
+      "authors": "Macabeo B, Wilson L, Xuan J, Guo R, Atanasov P, Zheng L, et al.",
+      "funding_note": "Study supported by the drug company Pierre Fabre Group: three authors were its employees and two worked for a consultancy it paid; draws partly on interviews with five Chinese experts."
+    },
+    {
+      "id": "integration-2023",
+      "title": "Association of Urban-Rural Health Insurance Integration With Health Outcomes Among Middle-aged and Older Adults in Rural China",
+      "publisher": "JAMA Network Open",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1001/jamanetworkopen.2023.7583",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10074216",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "chn-vnm-2020",
+      "title": "Advancing universal health coverage in China and Vietnam: lessons for other countries",
+      "publisher": "BMC Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2020,
+      "url": "https://doi.org/10.1186/s12889-020-09925-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7690086",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "outpatient-pooling-2025",
+      "title": "Outpatient pooling policy and healthcare satisfaction among middle-aged and older adults: evidence from China",
+      "publisher": "BMC Health Services Research",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12913-025-12769-8",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12076997",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "ltci-2025",
+      "title": "Evaluation of long-term care insurance pilot city policies in China: a cross-sectional study",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Du K, Liu Y, Hu Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.3389/fpubh.2025.1570794",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11968351",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "drg-quality-2025",
+      "title": "Does DRG-based payment lead to unintended effects on care quality? A case under global budget with price adjustment in China",
+      "publisher": "BMC Health Services Research",
+      "authors": "Dong X, Wu J",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12913-025-13625-5",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12590802",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "huiminbao-2023",
+      "title": "Correlates of residents' enrolment intention toward inclusive commercial health insurance in China: involvement, perceived benefit, perceived sacrifice, and government participation",
+      "publisher": "Frontiers in Public Health",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.3389/fpubh.2023.1121783",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10643177",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "ncd-ineq-2024",
+      "title": "Inequalities in non-communicable disease management in China and progress toward universal health coverage: an analysis of nationwide household survey data from 2004 to 2018",
+      "publisher": "The Lancet Regional Health - Western Pacific",
+      "authors": "Zhou Y, Wu Q, Li C, Meng P, Ding L",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.1016/j.lanwpc.2023.100989",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10788262",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "yip-2023-lph-2",
+      "title": "Universal health coverage in China part 2: addressing challenges and recommendations",
+      "publisher": "The Lancet Public Health",
+      "authors": "Yip W, Fu H, Jian W, Liu J, Pan J, Xu D, et al.",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/S2468-2667(23)00255-4",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38000883&rettype=abstract&retmode=text",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "sil-2018",
+      "title": "Social Insurance Law of the People's Republic of China (adopted 28 October 2010, amended 29 December 2018), Chinese text",
+      "publisher": "Standing Committee of the National People's Congress (text as published on the Chinese Government Network, www.gov.cn)",
+      "tier": 3,
+      "type": "government",
+      "year": 2018,
+      "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647616.htm",
+      "accessed": "2026-11-09",
+      "funding_note": "Statute, Chinese text; statements are English paraphrases citing article numbers. The text still names the rural (NRCMS) and urban residents' (URBMI) schemes, which have been merging since 2016."
+    },
+    {
+      "id": "bhl-2019",
+      "title": "Law of the People's Republic of China on Basic Medical and Health Care and Health Promotion (adopted 28 December 2019, in force 1 June 2020), Chinese text",
+      "publisher": "Standing Committee of the National People's Congress (text as republished by the Beijing Municipal Health Commission)",
+      "tier": 3,
+      "type": "government",
+      "year": 2019,
+      "url": "https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/202304/t20230407_2992800.html",
+      "accessed": "2026-11-09",
+      "funding_note": "Statute, Chinese text; statements are English paraphrases citing article numbers. npc.gov.cn did not resolve from the run environment, so an official provincial-level government repost is used."
+    },
+    {
+      "id": "nhsa-bulletin-2024",
+      "title": "2024 National Healthcare Security Development Statistical Bulletin (2024年全国医疗保障事业发展统计公报)",
+      "publisher": "National Healthcare Security Administration (republished on www.gov.cn, 14 July 2025)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2025,
+      "url": "https://www.gov.cn/lianbo/bumen/202507/content_7031956.htm",
+      "accessed": "2026-11-09",
+      "funding_note": "Official administrative statistics published by the agency that runs basic medical insurance. The 2025 bulletin (July 2026) could not be downloaded: nhsa.gov.cn and a provincial repost reset the connection."
+    },
+    {
+      "id": "nhc-bulletin-2025",
+      "title": "Statistical Bulletin on the Development of Health Care in China, 2025 (2025年我国卫生健康事业发展统计公报)",
+      "publisher": "National Health Commission (PDF republished by the Shanxi Provincial Health Commission)",
+      "tier": 1,
+      "type": "statistics",
+      "year": 2026,
+      "url": "https://wjw.shanxi.gov.cn/zfxxgk/fdzdgknr/ghjh/202608/P020260831335869219767.pdf",
+      "accessed": "2026-11-09",
+      "funding_note": "Official statistics. The 2025 total health expenditure figures are preliminary estimates, as the bulletin notes. nhc.gov.cn refused the connection, so an official provincial repost is used."
+    },
+    {
+      "id": "wb-healthy-china-2019",
+      "title": "Healthy China: Deepening Health Reform in China. Building High-Quality and Value-Based Service Delivery",
+      "publisher": "World Bank and World Health Organization",
+      "tier": 1,
+      "type": "system_review",
+      "year": 2019,
+      "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/14af2052-90da-5325-9c3f-4d777ed9cccf/content",
+      "doi": "10.1596/978-1-4648-1263-7",
+      "license": "CC BY 3.0 IGO",
+      "accessed": "2026-11-09",
+      "funding_note": "Joint study agreed in 2014 by the Chinese government, the World Bank and WHO; its policy summary was launched with Chinese ministers in 2016. Most data run to 2015, before the 2016 merger of the residents' schemes and the 2018 creation of the National Healthcare Security Administration."
+    },
+    {
+      "id": "sc-enrolment-2024",
+      "title": "Guiding Opinions of the General Office of the State Council on Improving the Long-Term Mechanism for Basic Medical Insurance Enrolment (Guobanfa [2024] No. 38)",
+      "publisher": "General Office of the State Council (www.gov.cn)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.gov.cn/zhengce/content/202408/content_6965741.htm",
+      "accessed": "2026-11-09",
+      "funding_note": "Government policy document (Chinese text; the published version is marked as abridged). It sets national rules that provinces then specify."
+    },
+    {
+      "id": "gbd-haq-2019",
+      "title": "Assessing performance of the Healthcare Access and Quality Index, overall and by select age groups, for 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019",
+      "publisher": "The Lancet Global Health",
+      "authors": "GBD 2019 Healthcare Access and Quality Collaborators",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/S2214-109X(22)00429-6",
+      "doi": "10.1016/S2214-109X(22)00429-6",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9666426",
+      "accessed": "2026-11-10",
+      "funding_note": "Funded by the Bill & Melinda Gates Foundation (Institute for Health Metrics and Evaluation)."
+    },
+    {
+      "id": "shu-2026",
+      "title": "Health Shocks and Debt Risk Among Middle-Aged and Elderly Individuals in China: The Mediating Roles of Informal Self-Treatment and Formal Healthcare Utilization",
+      "publisher": "Risk Management and Healthcare Policy",
+      "authors": "Shu Z, Wei Z, Huang Z, Dong M",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.2147/RMHP.S571554",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41878663&rettype=abstract&retmode=text",
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "chen-2026-equity",
+      "title": "Equity in health financing in China: a national financing and benefit incidence analysis, 2013-2023",
+      "publisher": "The Lancet Regional Health - Western Pacific",
+      "authors": "Chen T, Zhan P, Fu H",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.lanwpc.2026.101949",
+      "doi": "10.1016/j.lanwpc.2026.101949",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13486898",
+      "license": "CC BY-NC-ND 4.0",
+      "accessed": "2026-11-12",
+      "funding_note": "Funded by China's Ministry of Education, the National Social Science Fund and the Taikang Yicai Public Health and Epidemic Control Fund (Taikang is an insurance group). Household survey data (CHIP 2013, 2018, 2023); financing shares are the authors' estimates."
+    },
+    {
+      "id": "lin-2024-uebmi",
+      "title": "Outpatient coordination reform improves the sustainability of China's Urban Employee Basic Medical Insurance Fund",
+      "publisher": "Frontiers in Public Health",
+      "authors": "Lin J, Yan C, Wang H, Xu C, Fan W",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2024,
+      "url": "https://doi.org/10.3389/fpubh.2024.1446408",
+      "doi": "10.3389/fpubh.2024.1446408",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11628536",
+      "accessed": "2026-11-12",
+      "funding_note": "Actuarial projection study; it states the national contribution rates from the 1998 State Council decision as model inputs. Actual rates are set locally."
+    },
+    {
+      "id": "guobanfa-2021-14",
+      "title": "Guiding Opinions of the General Office of the State Council on Establishing and Improving the Outpatient Mutual-Aid Mechanism of Employee Basic Medical Insurance (Guobanfa [2021] No. 14)",
+      "publisher": "General Office of the State Council (text as republished in the State Taxation Administration policy library)",
+      "tier": 3,
+      "type": "government",
+      "year": 2021,
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102440/c5194969/content.html",
+      "accessed": "2026-11-12",
+      "funding_note": "Government policy document, Chinese text; statements are English paraphrases. The library marks it as fully in force."
+    },
+    {
+      "id": "nhsa-residents-2024",
+      "title": "Policy interpretation of the Notice on Urban and Rural Residents' Basic Medical Security Work in 2024 (Yibaofa [2024] No. 19)",
+      "publisher": "National Healthcare Security Administration (republished on www.gov.cn)",
+      "tier": 3,
+      "type": "government",
+      "year": 2024,
+      "url": "https://www.gov.cn/zhengce/202408/content_6970595.htm",
+      "accessed": "2026-11-12",
+      "funding_note": "Official interpretation by the issuing agency, Chinese text. The notice itself is published on gov.cn only as a title page; www.nhsa.gov.cn reset the connection."
+    },
+    {
+      "id": "gwr-2025",
+      "title": "Report on the Work of the Government 2025 (excerpt on improving people's wellbeing, as published on www.gov.cn)",
+      "publisher": "State Council of the People's Republic of China (www.gov.cn)",
+      "tier": 3,
+      "type": "government",
+      "year": 2025,
+      "url": "https://www.gov.cn/yaowen/liebiao/202503/content_7010304.htm",
+      "accessed": "2026-11-12",
+      "funding_note": "Government policy statement (planned measures for 2025), Chinese text."
+    },
+    {
+      "id": "caishui-2017-39",
+      "title": "Notice of the Ministry of Finance, State Administration of Taxation and China Insurance Regulatory Commission on Extending the Pilot Individual Income Tax Policy for Commercial Health Insurance Nationwide (Caishui [2017] No. 39)",
+      "publisher": "Ministry of Finance, State Administration of Taxation and CIRC (State Taxation Administration policy library)",
+      "tier": 3,
+      "type": "government",
+      "year": 2017,
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202544/content.html",
+      "accessed": "2026-11-12",
+      "funding_note": "Tax regulation, Chinese text. No official estimate of the revenue cost was found."
+    },
+    {
+      "id": "jiang-2026-chi",
+      "title": "Association between commercial health insurance and out-of-pocket health expenditure: evidence from provincial panel data in China, 2011-2022",
+      "publisher": "BMC Health Services Research",
+      "authors": "Jiang Y, Shao X",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14079-z",
+      "doi": "10.1186/s12913-026-14079-z",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12998084",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "song-2026-chi",
+      "title": "Catastrophic health expenditure and commercial health insurance purchase: evidence from China",
+      "publisher": "BMC Health Services Research",
+      "authors": "Song S, Li C, Li Y",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12913-026-14181-2",
+      "doi": "10.1186/s12913-026-14181-2",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13041395",
+      "accessed": "2026-11-12"
+    },
+    {
+      "id": "qiu-2026-oop",
+      "title": "From individual burden to social risk pooling: drivers of the declining out-of-pocket health expenditure share in China (2009-2024)",
+      "publisher": "International Journal for Equity in Health",
+      "authors": "Qiu T, Shi L, Zhou W, Deng J, Sun G",
+      "tier": 2,
+      "type": "peer_reviewed",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s12939-026-02771-9",
+      "doi": "10.1186/s12939-026-02771-9",
+      "text_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12879468",
+      "accessed": "2026-11-12"
+    }
+  ],
+  "rankings": [],
+  "changelog": [
+    {
+      "date": "2026-11-09",
+      "note": "Profile created: 77 claims from 21 sources anchored to fingerprinted passages and support-reviewed; 35 statements corrected to match their passages, 1 re-anchored and 1 dropped during review."
+    },
+    {
+      "date": "2026-11-10",
+      "note": "Backfill: 36 claims added from NHSA 2024 and NHC 2025 statistical bulletins, the Social Insurance Law and the Basic Medical and Health Care Law, the 2024 State Council enrolment guideline, the World Bank/WHO Healthy China review and GBD 2019 HAQ; two cold support-review passes rewrote 24 statements; 5 drafted claims dropped."
+    },
+    {
+      "date": "2026-11-11",
+      "note": "Backfill CHN-r2: replaced 5 claims resting on data older than 10 years (2015 APO review, 2015 household survey) with the Social Insurance Law (Arts. 27, 28), the 2024 State Council enrolment guideline, Li et al. 2020 and Shu et al. 2026 (CHARLS 2018); dropped 3 (2015 contribution rates, 2012 GP count already covered by CHN-access-005, and a second claim from the 2015 debt survey); APO 2015 review no longer cited and removed. Cold support review corrected 3 of 5 new statements."
+    },
+    {
+      "date": "2026-11-12",
+      "note": "Backfill CHN-r3 (financing standard): 16 financing claims added from 9 new sources: Chen et al. 2026 financing incidence (tax, insurance and out-of-pocket shares; tax mix; progressivity), the 1998 contribution rates (via Lin et al. 2024), the 2021 State Council individual-account reform, NHSA 2024 employee-fund revenue, the 2024 residents' scheme subsidy and premium floors and the 2025 Government Work Report increase, the 2017 income-tax deduction for commercial health insurance, commercial insurance premiums and claims (Jiang 2026, Song 2026) and the WHO vs. national out-of-pocket definitions (Qiu 2026). Two cold support-review passes corrected 9 statements; none dropped."
+    }
+  ]
+}
